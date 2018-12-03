@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="../schemas/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../stylesheets/tiny_TEI_template.css"?>
+<?oxygen RNGSchema="../schemas/tei_all.rng" type="xml"?>
+<!-- $Id: KuylenstiernaE_NarNyarKom.xml 111298 2015-02-12 16:02:49Z eva $ -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>När nyår kom</title>
+        <title type="sub">En nyårspjes för Kamraten</title>
+        <author xml:id="KuylenstiernaE">
+          <persName>
+            <forename>Elisabeth</forename>
+            <surname>Kuylenstierna</surname>
+          </persName>
+          <idno type="LIBRIS">http://libris.kb.se/auth/69123</idno>
+          <idno type="SBL">http://www.nad.riksarkivet.se/sbl/artikel/11889</idno>
+        </author>
+        <sponsor>
+          <name>Riksteatern, anslagsförvaltare</name>
+        </sponsor>
+        <funder>
+          <name>Vetenskapsrådet</name>
+        </funder>
+        <funder>
+          <name>Riksbankens Jubileumsfond</name>
+        </funder>
+        <editor>
+          <name>Dramawebben</name>
+        </editor>
+        <principal>
+          <persName>Marika V. Lagercrantz</persName>
+        </principal>
+        <respStmt>
+          <resp>kodning</resp>
+          <persName xml:id="BergströmS">Sara Bergström</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>korrekturläsning</resp>
+          <persName xml:id="LagercrantzMV">Marika V. Lagercrantz</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>korrekturläsning</resp>
+          <persName xml:id="ErnstM">Manilla Ernst</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>        
+        <respStmt>
+          <resp>redigering</resp>
+          <persName xml:id="ForsbomE">Eva Forsbom</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>        
+      </titleStmt>
+      <editionStmt>
+        <edition>eDrama</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Dramawebben</publisher>
+        <address>
+          <addrLine>http://www.dramawebben.se</addrLine>
+        </address>
+        <idno type="Dramawebben">KuylenstiernaE_NarNyarKom</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/se/">
+            <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author sameAs="#KuylenstiernaE">
+              <persName>Elisabeth Kuylenstierna</persName>
+            </author>
+            <title level="a" type="main">När nyår kom</title>
+            <title level="a" type="sub">En nyårspjes för Kamraten</title>
+          </analytic>
+          <monogr>
+            <editor xml:id="HellbergF">
+              <persName>
+                <forename>Frithiof</forename>
+                <surname>Hellberg</surname>
+              </persName>
+              <idno type="SBL">http://www.nad.riksarkivet.se/sbl/artikel/12812</idno>
+            </editor>
+            <editor xml:id="NordlingJ">
+              <persName>
+                <forename>Johan</forename>
+                <surname>Nordling</surname>
+              </persName>
+              <idno type="LIBRIS">http://libris.kb.se/auth/253343</idno>
+              <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Johan_Nordling</idno>
+            </editor>
+            <title level="j" type="main">Kamraten</title>
+            <title level="j" type="sub">Illustrerad tidning för Sveriges ungdom</title>
+            <idno type="LIBRIS">http://libris.kb.se/bib/2091135</idno>
+            <imprint>
+              <pubPlace>Stockholm</pubPlace>
+              <publisher>Idun</publisher>
+              <date when="1899">1899</date>
+              <biblScope unit="vol">7</biblScope>
+              <biblScope unit="issue">1</biblScope>
+              <biblScope unit="page" from="4" to="6">4–6</biblScope>
+              <respStmt>
+                <resp>tryckning</resp>
+                <orgName>Kungl. hofboktryckeriet Iduns tryckeri aktiebolag</orgName>
+              </respStmt>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Dramawebben är ett digitalt arkiv över upphovsrättslig fri svensk dramatik. Dramatexterna
+          finns återgivna i fulltext och är publicerade antingen i sk faksimil, ett pdf-dokument där
+          originaltrycket återges som en digital fotokopia, eller i bearbetningsbar text, ett
+          pdf-dokument med text och bild som kan användas för redigering. Dramawebben växer i takt
+          med att nya verk blir kända. Med det digitala pjäsmaterialet tillgängliggör och
+          aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+          förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+          sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
+      </samplingDecl>
+      <classDecl>
+        <taxonomy xml:id="HISCO">
+          <biblStruct>
+            <monogr>
+              <author>Marco H.D. van Leeuwen</author>
+              <author>Ineke Maas</author>
+              <author>Andrew Miles</author>
+              <title>HISCO Historical International Standard Classification of Occupations</title>
+              <idno type="ISBN">90-5867-196-8</idno>
+              <imprint>
+                <publisher>Leuven University Press</publisher>
+                <pubPlace>Leuven</pubPlace>
+                <date when="2002">2002</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+        </taxonomy>
+      </classDecl>
+      <tagsDecl>
+        <rendition>
+          <!-- Stycken i scenbeskrivningningar/scenanvisningar är indragna (i början av scener och mellan repliker) -->
+          <!-- Talare i repliker anges med kapitäler -->
+          <!-- Repliker fortsätter på samma rad som rollnamnet -->
+          <!-- Presence är centrerade; rollnamn anges med kapitäler, övrig text med gemener -->
+          <!-- Set har indrag på första raden och är skriven med mindre punktstorlek än resten av texten-->
+          <!-- Rollnamn i rollista är i kapitäler, rollbeskrivningar i normal stil (utom hoffolk rend=smallcaps) /EF -->
+          <!-- Scenanvisningar på aktnivå (ridå) är kursiverade och centrerade /EF -->
+        </rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="sv">Swedish</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:id="KuylenstiernaE_NarNyarKom">
+    <anchor xml:id="playstart"/>
+    <front>
+      <pb facs="6092-0.jpg"/><!-- pärm -->
+      <pb facs="6092-1.jpg"/><!-- titelsida, volym -->
+      <gap reason="irrelevant"/>
+      <pb facs="6092-2.jpg"/><!-- dikt av Frithiof Holmgren -->
+      <gap reason="irrelevant"/>
+      <pb facs="6092-3.jpg"/><fw type="pageNum">4</fw>
+      <gap reason="irrelevant"/><!-- annan text, titel och författare  -->
+      <castList>
+        <head>PERSONER:</head>
+        <castItem>
+          <role xml:id="spKungTid"><persName ref="#KungTid">Konung Tid</persName></role>.
+        </castItem>
+        <castItem>
+          <role xml:id="spDrottningÖdegod"><persName ref="#DrottningÖdegod">Drottning Ödegod</persName></role>.
+        </castItem>
+        <castGroup rend="braced">
+          <castItem>
+            <role xml:id="spVårljus"><persName ref="#Vårljus">Vårljus</persName></role>
+          </castItem>
+          <castItem>
+            <role xml:id="spSommarfröjd"><persName ref="#Sommarfröjd">Sommarfröjd</persName></role>
+          </castItem>
+          <roleDesc>prinsessor.</roleDesc>
+        </castGroup>
+        <castGroup rend="braced">
+          <castItem>
+            <role xml:id="spSkymningslek"><persName ref="#Skymningslek">Skymningslek</persName></role>
+          </castItem>
+          <castItem>
+            <role xml:id="spVinterras"><persName ref="#Vinterras">Vinterras</persName></role>
+          </castItem>
+          <roleDesc>prinsar.</roleDesc>
+        </castGroup>
+        <castItem>
+          <role xml:id="spFjorår"><persName ref="#Fjorår">Fjorår</persName></role>, <roleDesc>gammal hofman</roleDesc>.
+        </castItem>
+        <castItem>
+          <role xml:id="spNyår"><persName ref="#Nyår">Nyår</persName></role>, <roleDesc>nyutnämnd page</roleDesc>.
+        </castItem>
+        <castItem>
+          <roleGroup xml:id="spHoffolk">
+            <roleDesc><persName ref="#Hoffolk" rend="smallcaps">Hoffolk</persName></roleDesc>.
+            <role corresp="#Hofman"/>
+            <role corresp="#Lakej"/>
+            <roleGroup corresp="#Pager"/>
+          </roleGroup>
+        </castItem>
+      </castList>
+      <set>
+        <p>Scenen föreställer en sal i <persName ref="#KungTid">konung Tids</persName> slott. I fonden tvänne
+          <lb/> högkarmade stolar för konungen och drottningen; på ömse sidor
+          <lb/> om dessa lägre stolar för prinsarne och prinsessorna. Dörr till
+          <lb/> höger eller vänster. Några gröna växter här och hvar, speglar
+          <lb/> eller byster; matta endast framför de kungligas platser.</p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <div type="scene" n="1">
+          <head>FÖRSTA SCENEN.</head>
+          <sp who="#spFjorår">
+            <speaker>Fjorår</speaker> <stage type="entrance" who="#Fjorår #Lakej #Nyår">(gubbmask utan skägg; klädd i röd frack,
+              <lb/> svarta knäbyxor, skor med spännen) kommer in på
+              <cb n="2"/>
+              scenen och leder vid handen Nyår, en liten gosse, om&#xad;<lb
+              break="no"/>lindad med schalar och halsdukar. Han har en mössa,
+              <lb/> som går ned öfver öronen, vantar och damasker.
+              <lb/> Han är så ombonad, att knappt mer än nästippen
+              <lb/> syns. En grannt utstyrd lakej följer efter de båda
+              <lb/> andra och stannar vid dörren. <persName ref="#Fjorår">Fjorår</persName> släpper <persName ref="#Nyår">Nyårs</persName>
+              <lb/> hand och börjar plocka af honom ytterplaggen.
+            </stage>
+          </sp>
+          <sp who="#spFjorår">
+            <speaker>Fjorår</speaker> <stage>(vänligt).</stage> <p>Se så där ja, <persName ref="#Nyår">din lille stackare</persName>,
+              <lb/> nu är du på ort och ställe. Har du frusit mycket?</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår.</speaker> <p>Ja då! Men säg mig, <persName ref="#Fjorår">farbror Fjorår</persName>,
+              <lb/> hvad skall jag här att göra midt i natten? Jag är
+              <lb/> så sömnig. <stage>(Gäspar.)</stage></p>
+          </sp>
+          <sp who="#spFjorår">
+            <speaker>Fjorår.</speaker> <p>Du skall börja din tjänstgöring vid
+              <lb/> <persName ref="#KungTid">konung Tids</persName> hof, <persName ref="#Nyår">parfvel</persName>, det är därför jag varit och
+              <lb/> hämtat dig.</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår</speaker> <stage>(sträcker på sig)<supplied>.</supplied></stage> <p>Men jag kunde väl fått
+              <lb/> sofva till i morgon bittida.</p>
+          </sp>
+          <sp who="#spFjorår">
+            <speaker>Fjorår</speaker> <stage>(skrattande).</stage> <p><persName ref="#Nyår">Sömntuta</persName>! <stage>Till <persName ref="#Lakej">lakejen</persName>:)</stage>
+              <lb/> Lägg ihop kläderna här.</p>
+          </sp>
+          <stage type="exit" who="#Lakej">Lakejen tar med en bugning reda på de huller
+            <lb/> om buller kastade kläderna och går ut.</stage>
+        </div>
+        <div type="scene" n="2">
+          <head>ANDRA SCENEN.</head>
+          <stage type="presence" who="#Fjorår #Nyår">Fjorår. Nyår.</stage>
+          <sp who="#spNyår">
+            <speaker>Nyår</speaker> <stage>(bedjande, håller <persName ref="#Fjorår">Fjorår</persName> i rocken).</stage> <p>Säg,
+              <lb/> <persName ref="#Fjorår">farbror</persName>, du stannar väl hos mig och lär mig, hur
+              <lb/> jag skall bära mig åt hos alla de här främmande
+              <lb/> människorna?</p>
+          </sp>
+          <sp who="#spFjorår">
+            <speaker>Fjorår<supplied>.</supplied></speaker> <p>Nej, <persName ref="#Nyår">min lille pys</persName>, jag kan inte stanna.
+              <lb/> <persName ref="#KungTid">Kung Tid</persName> har gifvit mig tjänstledighet för alltid, och
+              <lb/> jag skall slå mig i ro på min egendom Minnesborg.
+              <lb/> Af dig däremot väntar <persName ref="#KungTid">kungen</persName> sig mycket. Du skall
+              <lb/> bli hela hofvets glädje, och inte nog med det: öfver&#xad;<lb
+              break="no"/>allt i landet talar man om dig och ger dig vackra
+              <lb/> smeknamn.</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår</speaker> <stage>(undrande).</stage> <p>Men det är ju ingen som
+              <lb/> känner mig.</p>
+          </sp>
+          <sp who="#spFjorår">
+            <speaker>Fjorår</speaker> <stage>(slår ut med handen).</stage> <p>Det är detsamma.
+              <lb/> Folk tycker bäst om det okända. I min ungdom,
+              <lb/> när jag blef utnämnd till lifpage som du nu, slösade
+              <lb/> man beröm på mig.</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår</speaker> <stage>(klappar honom).</stage> <p>Och nu går du, <persName ref="#Fjorår">stackars
+              <lb/> gamle farbror</persName>, utan att någon tar adjö af dig.</p>
+          </sp>
+          <sp who="#spFjorår">
+            <speaker>Fjorår</speaker> <stage>(nickar allvarligt).</stage> <p>Åh jo, litet hvar tän&#xad;<lb
+              break="no"/>ker nog på mig just nu, skall jag säga dig, <persName ref="#Nyår">barn</persName>, en
+              <lb/> del har mycket att tacka mig för. Men de flesta
+              <lb/> längta efter dig. Du skall bli deras böneman hos
+              <lb/> <persName ref="#KungTid">kung Tid</persName>.</p>
+          </sp>
+          <stage>(Klockan slår tolf, långsamt och tydligt.)</stage>
+          <sp who="#spNyår">
+            <speaker>Nyår</speaker> <stage>(hoppar förskräckt till).</stage> <p>Hu, hvad är det
+              <lb/> för en som ringer?</p>
+          </sp>
+          <sp who="#spFjorår">
+            <speaker>Fjorår.</speaker> <p>Det är <persName ref="#Midnattsväktaren">midnattsväktaren</persName>. Då är jag
+              <lb/> tvungen att gå. Adjö, <persName ref="#Nyår">pilt</persName>, lycka till! <stage type="exit" who="#Fjorår">(Räcker han&#xad;<lb
+              break="no"/>den åt <persName ref="#Nyår">Nyår</persName> och går sedan mot dörren, utan att
+              <lb/> låta häjda sig.)</stage></p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår</speaker> <stage>(springer efter, bultar gråtande på dörren,
+              <lb/> men då den inte går upp, stannar han och torkar
+              <lb/> sig i ögonen).</stage>
+          </sp>
+        </div>
+        <anchor xml:id="DetNyaÅretBörjar"/>
+        <div type="scene" n="3">
+          <head>TREDJE SCENEN.</head>
+          <stage type="presence" who="#Nyår">Vårljus och Sommarfröjd. Nyår.</stage>
+          <stage type="entrance" who="#Sommarfröjd #Vårljus">De båda prinsessorna komma indansande. <persName ref="#Vårljus">Vår&#xad;<lb
+            break="no"/>ljus</persName> har grön klädning med hvitsippor på, <persName ref="#Sommarfröjd">Sommar&#xad;<lb
+            break="no"/>fröjd</persName> röd med garnityr af smörblommor. De stanna
+            <lb/> framför <persName ref="#Nyår">den främmande gossen</persName>, som bockar sig artigt.</stage>
+          <pb facs="6092-4.jpg"/><fw type="pageNum">5</fw>
+          <sp who="#spVårljus">
+            <speaker>Vårljus</speaker> <stage>(muntert).</stage> <p>Goddag, du, eller rättare
+              <lb/> godnatt, för du ser fasligt sömnig ut.</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår</speaker> <stage>(generad).</stage> <p>Det är jag också.</p>
+          </sp>
+          <sp who="#spSommarfröjd">
+            <speaker>Sommarfröjd</speaker> <stage>(svänger honom rundt).</stage> <p>Blef du
+              <lb/> vaken nu? Den här natten skall ingen sofva, säger
+              <lb/> <persName ref="#KungTid">pappa</persName>. Då få vi barn vara uppe till — till dagen
+              <lb/> därpå och dansa och ha roligt med <persName ref="#Nyår"><persName ref="#KungTid">pappas</persName> nye
+              <lb/> lifpage</persName>.</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår</speaker> <stage>(bugande).</stage> <p>Det är jag, det.</p>
+          </sp>
+          <sp who="#spSommarfröjd #spVårljus">
+            <speaker>Vårljus och Sommarfröjd.</speaker> <p>Du! <stage>(Skratta.)</stage></p>
+          </sp>
+          <sp who="#spVårljus">
+            <speaker>Vårljus.</speaker> <p>Skall du, <persName ref="#Nyår">lille stackare</persName>, bli vår lek&#xad;<lb
+              break="no"/>kamrat? Då får du allt lära dig mycket först. Kom,
+              <lb/> <persName ref="#Sommarfröjd">Sommarfröjd</persName>, skola vi taga honom i förhör.</p>
+          </sp>
+          <stage><persName ref="#Sommarfröjd #Vårljus">De båda prinsessorna</persName> sätta sig <choice><sic>ti l</sic><corr>till</corr></choice> vänster om
+            <lb/> tronstolarne. <persName ref="#Nyår">Nyår</persName> står förlägen kvar midt på golfvet,
+            <lb/> suger då och då på tummen, ser på skorna och ser
+            <lb/> generad ut.</stage>
+          <sp who="#spVårljus">
+            <speaker>Vårljus.</speaker> <p>Kan du narra barnen direkt ifrån
+              <lb/> läxor och allt för att springa i kapp med vår&#xad;<lb
+              break="no"/>bäcken, du?</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår.</speaker> <p>Nej.</p>
+          </sp>
+          <sp who="#spSommarfröjd">
+            <speaker>Sommarfröjd.</speaker> <p>Kan du plocka smultron och
+              <lb/> binda upp på grässtrån till långa röda pärlband, du?</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår.</speaker> <p>Nej.</p>
+          </sp>
+          <sp who="#spVårljus">
+            <speaker>Vårljus.</speaker> <p>Kan du skjutsa bort isstyckena så
+              <lb/> långt, långt bort, att man aldrig får se dem mer?</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår.</speaker> <p>Nej.</p>
+          </sp>
+          <sp who="#spSommarfröjd">
+            <speaker>Sommarfröjd.</speaker> <p>Kan du meja hö och åka i hö&#xad;<lb
+              break="no"/>lass då?</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår</speaker> <stage>(fundersamt).</stage> <p>Nej.</p>
+          </sp>
+          <sp who="#spVårljus">
+            <speaker>Vårljus</speaker> <stage>(pekar finger åt honom).</stage> <p>Du är en
+              <lb/> dum pojke!</p>
+          </sp>
+          <sp who="#spSommarfröjd">
+            <speaker>Sommarfröjd</speaker> <stage>(försmädligt).</stage> <p>En riktigt dum
+              <lb/> pojke!</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>FJÄRDE SCENEN.</head>
+          <stage type="presence" who="#Nyår #Sommarfröjd #Vårljus"><stage type="entrance" who="#Skymningslek #Vinterras">Skymningslek. Vinterras.</stage> De förra.</stage>
+          <stage><persName ref="#Skymningslek">Skymningslek</persName> har mörka kläder och ser allvar&#xad;<lb
+            break="no"/>lig ut. <persName ref="#Vinterras">Vinterras</persName> är rödblommig, har fullt med snö
+            <lb/> på kavajen och ett par skridskor i handen. Han
+            <lb/> kastar genast ett par snöbollar (bomullstappar) på
+            <lb/> <persName ref="#Nyår">den förskräckte Nyår</persName>.</stage>
+          <sp who="#spVinterras">
+            <speaker>Vinterras.</speaker> <p>Tjänis, <persName ref="#Nyår">kamrat</persName>! Du är den nye
+              <lb/> pagen, förstår jag. Ja, stor är du inte, men du får
+              <lb/> väl duga för det. Kan du styra en kälke utför bac&#xad;<lb
+              break="no"/>ken, så det säger tjo?</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår</speaker> <stage>(drar sig undan).</stage> <p>Nej.</p>
+          </sp>
+          <sp who="#spSkymningslek">
+            <speaker>Skymningslek</speaker> <stage>(blidt).</stage> <p>Kan du berätta sagor då?</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår.</speaker> <p>Nej, jag har aldrig hört några.</p>
+          </sp>
+          <sp who="#spVinterras">
+            <speaker>Vinterras.</speaker> <p>Har du sett så'na här skridskor då?
+              <lb/> De äro bussiga, må du tro. Du skall åka med mig
+              <lb/> hvarenda dag.</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår</speaker> <stage>(ängsligt).</stage> <p>Tackar allra ödmjukast.</p>
+          </sp>
+          <sp who="#spVårljus">
+            <speaker>Vårljus.</speaker> <p>Och med mig skall du flyga som en
+              <lb/> hvirfvelvind öfver ängar och hagar.</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår</speaker> <stage>(gråtfärdig).</stage> <p>Det blir rysligt roligt det.</p>
+          </sp>
+          <sp who="#spSommarfröjd">
+            <speaker>Sommarfröjd.</speaker> <p>Och jag skall lära dig plocka
+              <lb/> bär och meta och spela tennis.</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår.</speaker> <p>Nu kan jag visst inte hinna mer.</p>
+          </sp>
+          <cb n="2"/>
+          <sp who="#spSkymningslek">
+            <speaker>Skymningslek.</speaker> <p>Åh hå, tror du inte, du skall
+              <lb/> göra mig någon nytta under de långa höstkvällarne,
+              <lb/> då skall du minsann både få »spänna kyrka» och
+              <lb/> berätta historier.</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår</speaker> <stage>(storgråtande).</stage> <p>Jag vill gå! Jag vill gå!</p>
+          </sp>
+          <stage><persName ref="#Vårljus">Vårljus</persName>, <persName ref="#Sommarfröjd">Sommarfröjd</persName>, <persName ref="#Skymningslek">Skymningslek</persName> och <persName ref="#Vinterras">Vinter&#xad;<lb
+            break="no"/>ras</persName> taga då i ring om honom och sjunga på melo&#xad;<lb
+            break="no"/>dien »<title>Höga berg och djupa dalar</title>»:</stage>
+          <sp who="#spSkymningslek #spSommarfröjd #spVinterras #spVårljus">
+            <lg>
+              <l><persName ref="#Nyår">Stackars Nyår</persName>, som bort vill draga,</l>
+              <l>i vår ring dig vi fyra taga.</l>
+              <l>Hej hopp, du <persName ref="#Nyår">lilla sockertopp</persName>,</l>
+              <l>vi ska' dansa till solen rinner opp.</l>
+              <l>Hej hopp, vi sjunga,</l>
+              <l>vi äro glada och unga.</l>
+              <l><persName ref="#Vårljus">Vårljus</persName> lär dig att blommor plocka,</l>
+              <l><persName ref="#Sommarfröjd">Sommarfröjd</persName> efter smultron bocka,</l>
+              <l><persName ref="#Skymningslek">Skymningslek</persName> alla sagor tälja kan,</l>
+              <l><persName ref="#Vinterras">Vinterras</persName> lär dig snöbollskriget, han.</l>
+              <l>Hej hopp, vi sjunga,</l>
+              <l>vi äro glada och unga!</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>FEMTE SCENEN.</head>
+          <stage type="presence" who="#Nyår #Skymningslek #Sommarfröjd #Vinterras #Vårljus"/>
+          <stage type="entrance" who="#DrottningÖdegod #Hoffolk #KungTid"><persName ref="#Pager">Tvänne pager</persName> med tända ljus. Konung Tid,
+            <lb/> gammal man med stort, grått skägg. Drottning Öde&#xad;<lb
+            break="no"/>god, hvitklädd. Både konungen och drottningen ha
+            <lb/> krona. Hoffolk. De förra<supplied>.</supplied> <persName ref="#Skymningslek #Sommarfröjd #Vinterras #Vårljus">Prinsarne och prin&#xad;<lb
+            break="no"/>sessorna</persName> släppa hvarandras händer och hälsa artigt
+            <lb/> på <persName ref="#DrottningÖdegod #KungTid">sina höga föräldrar</persName>, som vänligt nicka tillbaka.
+            <lb/> Därefter intaga alla de kungliga sina platser. <persName ref="#Hoffolk">Hof&#xad;<lb
+            break="no"/>folket</persName> bildar en cirkel bakom de kungligas stolar.
+            <lb/> Endast <persName ref="#Nyår">Nyår</persName> står bortkommen kvar midt på golfvet.</stage>
+          <sp who="#spKungTid">
+            <speaker>Kung Tid</speaker> <stage>(vänligt).</stage> <p>Jaså, du är min lille nye
+              <lb/> page<supplied>.</supplied> Kom närmare, <persName ref="#Nyår">barn</persName>!</p>
+          </sp>
+          <stage><persName ref="#Nyår">Nyår</persName> närmar sig och skrapar med foten. Han
+            <lb/> ser rädd ut.</stage>
+          <sp who="#spKungTid">
+            <speaker>Kung Tid</speaker> <stage>(lägger handen på hans hufvud).</stage> <p>Du
+              <lb/> är kanske kallad till stora värf, <persName ref="#Nyår">du lille pilt</persName>. Mitt
+              <lb/> folk har redan hittat på ett vackert namn åt dig.
+              <lb/> De kalla dig Godt Nytt År.</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår</speaker> <stage>(hänger hufvudet).</stage> <p><persName ref="#Fjorår">Farbror Fjorår</persName> sa', att
+              <lb/> det kallade de honom också förr.</p>
+          </sp>
+          <sp who="#spKungTid">
+            <speaker>Kung Tid</speaker> <stage>(ler).</stage> <p>Det var nog så också. Men
+              <lb/> säg mig, vet du något om dina plikter?</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår</speaker> <stage>(häpen).</stage> <p>Plikter, är det någonting, som
+              <lb/> slåss?</p>
+          </sp>
+          <sp who="#spDrottningÖdegod">
+            <speaker>Drottning Ödegod</speaker> <stage>(klappar honom på hufvudet).</stage> 
+              <lb/> <p>Du är en liten rädd stackare, hör jag, men jag skall
+              <lb/> med <persName ref="#KungTid">min höge gemåls</persName> tillåtelse taga litet hand om
+              <lb/> dig, så att du blir stark och nyttig för människorna.
+              <lb/> Plikter, <persName ref="#Nyår">min gosse</persName>, är som pliggar i skodon, de göra
+              <lb/> ondt, innan man får trampa ned dem, men det
+              <lb/> hinner du, du skall gå och gå i våra ärenden 365
+              <lb/> dygn.</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår.</speaker> <p>Åh, hvad jag skall bli trött!</p>
+          </sp>
+          <sp who="#spKungTid">
+            <speaker>Kung Tid.</speaker> <p>Men sedan får du hvila alldeles som
+              <lb/> <persName ref="#Fjorår">farbror Fjorår</persName> nu.</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår.</speaker> <p><persName ref="#KungTid">Store snälle herre kung</persName>, låt mig gå nu,
+              <lb/> här är alldeles för fint och präktigt för mig.</p>
+          </sp>
+          <sp who="#spKungTid">
+            <speaker>Kung Tid.</speaker> <p>Du skall heller inte stanna här be&#xad;<lb
+              break="no"/>ständigt. <persName ref="#Skymningslek #Sommarfröjd #Vinterras #Vårljus">Mina barn</persName> skola taga dig med ut på sin
+              <lb/> stråt, och <persName ref="#DrottningÖdegod">min drottning</persName> skall låta dig följa med i
+              <lb/> månget sorgens hem. Men i natt hålles fest vid
+              <lb/> mitt hof. Jag vill se alla glada. Upp därför med
+              <lb/> hufvudet, <persName ref="#Nyår">pojke</persName>!</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår</speaker> <stage>(lyder och ser sig omkring med stora ögon
+              <lb/> rycker så helt sakta <persName ref="#Vinterras">Vinterras</persName> i kavajen och hviskar:</stage>
+            <pb facs="6092-5.jpg"/><fw type="pageNum">6</fw>
+            <p>Hvad jag gärna skulle vilja ha en sådan där krona,
+              <lb/> som <persName ref="#KungTid">din pappa</persName> har.</p>
+          </sp>
+          <sp who="#spVinterras">
+            <speaker>Vinterras</speaker> <stage>(skrattar).</stage> <p>Den blefve för tung åt dig.</p>
+          </sp>
+          <sp who="#spDrottningÖdegod">
+            <speaker>Drottning Ödegod.</speaker> <p>Hvad vill han?</p>
+          </sp>
+          <sp who="#spVinterras">
+            <speaker>Vinterras.</speaker> <p>Han vill ha <persName ref="#KungTid">pappas</persName> krona.</p>
+          </sp>
+          <sp who="#spKungTid">
+            <speaker>Kung Tid</speaker> <stage>(vänligt).</stage> <p>Nej, den kan du inte få,
+            <lb/> men du skall få låna önskekronan, den är just lagom
+            <lb/> för ett sådant där litet pagehufvud.</p>
+          </sp>
+          <stage>(Vinkar åt <persName ref="#Hofman">en hofman</persName> att bära fram den; och
+            <lb/> bugande räcker <persName ref="#Hofman">hofmannen</persName> honom en liten krona,
+            <lb/> lagd på ett hyende. <persName ref="#Nyår">Nyårets</persName> årtal är med höga fri&#xad;<lb
+            break="no"/>stående siffror att läsa på kronan.)</stage>
+          <sp who="#spKungTid">
+            <speaker>Kung Tid</speaker> <stage>(sätter kronan på <persName ref="#Nyår">Nyårs</persName> hufvud).</stage> <p>Så,
+              <lb/> nu kröner jag dig till önskekung, och när jag, <persName ref="#DrottningÖdegod">min
+              <lb/> drottning</persName>, <persName ref="#Skymningslek #Vinterras">prinsarne</persName> och <persName ref="#Sommarfröjd #Vårljus">prinsessorna</persName> framburit sina
+              <lb/> önskningar till dig, skola vi dansa önskedansen om&#xad;<lb
+              break="no"/>kring dig. Min önskan förstår du inte än. Jag
+              <lb/> önskar dig godt slut.</p>
+          </sp>
+          <sp who="#spDrottningÖdegod">
+            <speaker>Drottning Ödegod.</speaker> <p>Och jag: vackra minnen.</p>
+          </sp>
+          <sp who="#spVårljus">
+            <speaker>Vårljus.</speaker> <p>Och jag: många soliga dagar.</p>
+          </sp>
+          <sp who="#spSommarfröjd">
+            <speaker>Sommarfröjd.</speaker> <p>Och jag: mycket bär och många
+            <lb/> blommor.</p>
+          </sp>
+          <sp who="#spSkymningslek">
+            <speaker>Skymningslek.</speaker> <p>Och jag: en präktig brasa, sti&#xad;<lb
+              break="no"/>liga sagor och goda nötter och stekäpplen.</p>
+          </sp>
+          <sp who="#spVinterras">
+            <speaker>Vinterras.</speaker> <p>Och jag: väldiga kälkbackar och
+              <lb/> skridskois och en hög julgran och en massa jul&#xad;<lb
+              break="no"/>klappar.</p>
+          </sp>
+          <stage><persName ref="#Hoffolk">Hoffolket</persName> bildar nu ring omkring <persName ref="#Nyår">Nyår</persName>, de kung&#xad;<lb
+            break="no"/>liga sälla sig också till dem, och man dansar i ring,
+            <lb/> under det alla på melodien »<title>Vintern rasat ut bland
+            <lb/> våra fjällar</title>» etc. sjunga:</stage>
+          <sp who="#spDrottningÖdegod #spHoffolk #spKungTid #spSkymningslek #spSommarfröjd #spVinterras #spVårljus">
+            <lg>
+              <l><persName ref="#Nyår">Lilla Nyår</persName>, hör vår önskevisa,</l>
+              <l>vi dig hylla nu som stundens kung;</l>
+              <l>alla vilja vi dig gärna prisa,</l>
+              <l>om du vänligt ler mot gammal, ung,</l>
+              <l>ger oss snällt hvad helst vi ville vinna,</l>
+              <l>glädje, vänskap, framgång likaså,</l>
+              <l>hjälper oss att fram till målet hinna,</l>
+              <l>hell dig, <persName ref="#Nyår">Nyår</persName>, högt vi sjunga då.</l>
+            </lg>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår</speaker> <stage>(förtjust för sig).</stage> <p>Det här var ju riktigt
+              <lb/> hyggligt folk. Jag börjar trifvas. <stage>(Högt:)</stage> Ja, <persName ref="#DrottningÖdegod #Hoffolk #KungTid #Skymningslek #Sommarfröjd #Vinterras #Vårljus">mina
+              <lb/> vänner</persName>, ni ska få allt hvad ni vill.</p>
+          </sp>
+          <sp who="#spKungTid">
+            <speaker>Kung Tid</speaker> <stage>(varnande).</stage> <p>Akta dig att lofva för
+              <lb/> storordigt, <persName ref="#Nyår">min gosse</persName>. Din tid är inte lång. Lofva
+              <lb/> inte mer, än att du hinner infria dina löften. Och
+              <lb/> glöm inte, att du är i min tjänst.</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår</speaker> <stage>(skrämd).</stage> <p>Nej då det glömmer jag visst
+              <lb/> inte.</p>
+          </sp>
+          <sp who="#spKungTid">
+            <speaker>Kung Tid.</speaker> <p>Nu dagas det, och eftersom du har
+              <lb/> börjat den här dagen som kung, skall den få ditt
+              <lb/> namn. Den skall heta Nyårsdagen, det är detsamma
+              <lb/> som alla goda önskningars dag. <stage>(Klappar <persName ref="#Nyår">Nyår</persName> på
+              <lb/> hufvudet.)</stage></p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår</speaker> <stage>(belåten).</stage> <p><persName ref="#Fjorår">Farbror Fjorår</persName> skulle ha sett
+              <lb/> mig nu. Jag är allt ett strå hvassare än han, som
+              <lb/> bara får sitta på Minnesborg och kura. <stage>(Bugar sig
+              <lb/> djupt för <persName ref="#KungTid">konung Tid</persName>.)</stage> Skall jag börja min tjänst&#xad;<lb
+              break="no"/>göring nu, <persName ref="#KungTid">herre konung</persName>?</p>
+          </sp>
+          <sp who="#spKungTid">
+            <speaker>Kung Tid</speaker> <stage>(vänligt).</stage> <p>Ja, <persName ref="#Nyår">min gosse</persName>, det skall du.
+              <lb/> Och du får inte komma till mitt hof igen, förr än
+              <lb/> du gått jorden rundt, men de mina träffar du under
+              <lb/> vägen mer än en gång. Adjö med dig nu, låt se
+              <lb/> att du sprider min ära kring landet, du skall få bud
+              <lb/> från mig <choice><sic>hvar e</sic><corr>hvarje</corr></choice> dag.</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår.</speaker> <p>Men hur kan man kalla mig lifpage, när
+              <lb/> jag inte får stanna hos dig, <persName ref="#KungTid">konung</persName>?</p>
+          </sp>
+          <cb n="2"/>
+          <sp who="#spKungTid">
+            <speaker>Kung Tid.</speaker> <p>Därför att du främst går mina ären&#xad;<lb
+              break="no"/>den, och därför att mitt rike heter <emph>Lifvet</emph>.</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår</speaker> <stage>(bugande).</stage> <p>Så får jag tacka så mycket
+              <lb/> för den här festen och gå då. Skall jag ta af mig
+              <lb/> min fina krona?</p>
+          </sp>
+          <sp who="#spKungTid">
+            <speaker>Kung Tid.</speaker> <p>Nej, låt den sitta, <persName ref="#Nyår">lilla Nyår</persName>, så vet
+              <lb/> folk, hvem du är.</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår</speaker> <stage>(ängslig igen).</stage> <p>Skall jag gå alldeles
+              <lb/> ensam?</p>
+          </sp>
+          <sp who="#spDrottningÖdegod">
+            <speaker><choice><sic>Drotdning</sic><corr>Drottning</corr></choice> Ödegod</speaker> <stage>(allvarligt).</stage> <p>Den går inte
+              <lb/> ensam, som bär på mångas önskningar, det gör du,
+              <lb/> och hvar och en, som möter dig, skall hälsa dig med
+              <lb/> orden: Godt Nytt År.</p>
+          </sp>
+          <sp who="#spNyår">
+            <speaker>Nyår.</speaker> <p>Det låter vackert.</p>
+          </sp>
+          <sp who="#spVinterras">
+            <speaker>Vinterras.</speaker> <p>Får jag gå med honom, <persName ref="#KungTid">pappa</persName>?</p>
+          </sp>
+          <sp who="#spKungTid">
+            <speaker>Kung Tid</speaker> <stage>(nickar).</stage> <p>Gör det, <persName ref="#Vinterras">min son</persName>. Och I,
+              <lb/> <persName ref="#Hoffolk">mina hofmän och tärnor</persName>, följen <persName ref="#Nyår #Vinterras">piltarne</persName> på väg.</p>
+          </sp>
+          <stage type="exit" who="#DrottningÖdegod #Hoffolk #KungTid #Nyår #Skymningslek #Sommarfröjd #Vinterras #Vårljus">(<persName ref="#KungTid">Kungen</persName> reser sig, de öfriga likaså, och före&#xad;<lb
+            break="no"/>trädda af <persName ref="#Pager">de båda pagerna</persName> med tända ljus gå <persName ref="#Nyår">Nyår</persName>
+            <lb/> och <persName ref="#Vinterras">Vinterras</persName> hand i hand ut genom dörren.)</stage>
+        </div>
+        <stage>Ridån faller.</stage>
+      </div>
+    </body>
+    <back>
+      <gap reason="irrelevant"/><!-- annan text -->
+      <pb facs="6092-6.jpg"/><!-- pärm -->
+      <div type="editorial">
+        <listPerson>
+          <listPerson type="cast">
+            <person xml:id="KungTid" sex="male">
+              <persName>
+                <roleName>kung</roleName>
+                <forename>Tid</forename>
+              </persName>
+              <trait><p>tiden</p></trait>
+            </person>
+            <person xml:id="DrottningÖdegod" sex="female">
+              <persName>
+                <roleName>drottning</roleName>
+                <forename>Ödegod</forename>
+              </persName>
+              <trait><p>ödet</p></trait>
+            </person>
+            <person xml:id="Vårljus" sex="female">
+              <persName>
+                <roleName>prinsessan</roleName>
+                <forename>Vårljus</forename>
+              </persName>
+              <age>barn</age>
+              <trait><p>våren</p></trait>
+            </person>
+            <person xml:id="Sommarfröjd" sex="female">
+              <persName>
+                <roleName>prinsessan</roleName>
+                <forename>Sommarfröjd</forename>
+              </persName>
+              <age>barn</age>
+              <trait><p>sommaren</p></trait>
+            </person>
+            <person xml:id="Skymningslek" sex="male">
+              <persName>
+                <roleName>prins</roleName>
+                <forename>Skymningslek</forename>
+              </persName>
+              <age>barn</age>
+              <trait><p>hösten</p></trait>
+            </person>
+            <person xml:id="Vinterras" sex="male">
+              <persName>
+                <roleName>prins</roleName>
+                <forename>Vinterras</forename>
+              </persName>
+              <age>barn</age>
+              <trait><p>vintern</p></trait>
+            </person>
+            <person xml:id="Fjorår" sex="male">
+              <persName>
+                <forename>Fjorår</forename>
+              </persName>
+              <occupation to-custom="#DetNyaÅretBörjar">livpage</occupation>
+              <trait><p>det gamla året</p></trait>
+            </person>
+            <person xml:id="Nyår" sex="male">
+              <persName>
+                <forename>Nyår</forename>
+              </persName>
+              <age>barn</age>
+              <occupation from-custom="#DetNyaÅretBörjar">livpage</occupation>
+              <trait><p>det nya året</p></trait>
+            </person>
+            <listPerson>
+              <personGrp xml:id="Hoffolk" sex="mixed"/>
+              <person xml:id="Hofman" sex="male">
+                <occupation>hovman</occupation>
+              </person>
+              <person xml:id="Lakej" sex="male">
+                <occupation scheme="#HISCO" code="54030">lakej</occupation>
+              </person>
+              <listPerson>
+                <personGrp xml:id="Pager" sex="male" size="2">
+                  <occupation>page</occupation>
+                </personGrp>
+              </listPerson>
+            </listPerson>
+          </listPerson>
+          <listPerson type="noncast">
+            <person xml:id="Midnattsväktaren" sex="unknown"/>
+          </listPerson>
+          <listRelation>
+            <relation type="personal" name="gift" mutual="#KungTid #DrottningÖdegod"/>
+            <relation type="personal" name="son" active="#Skymningslek #Vinterras" passive="#DrottningÖdegod #KungTid"/>
+            <relation type="personal" name="dotter" active="#Sommarfröjd #Vårljus" passive="#DrottningÖdegod #KungTid"/>
+            <relation type="social" name="livpage" active="#Nyår" passive="#KungTid" from-custom="#DetNyaÅretBörjar"/>
+            <relation type="social" name="livpage" active="#Fjorår" passive="#KungTid" to-custom="#DetNyaÅretBörjar"/>
+            <relation type="social" name="hovfolk" active="#Hoffolk" passive="#KungTid"/>
+            <relation type="social" name="hovman" active="#Hofman" passive="#KungTid"/>
+            <relation type="social" name="lakej" active="#Lakej" passive="#KungTid"/>
+            <relation type="social" name="page" active="#Pager" passive="#KungTid"/>
+            <relation type="other" name="ringer.ut" active="#Midnattsväktaren" passive="#Fjorår"/>
+            <relation type="other" name="ringer.in" active="#Midnattsväktaren" passive="#Nyår"/>
+          </listRelation>
+        </listPerson>
+      </div>
+    </back>
+    <anchor xml:id="playend"/>
+  </text>
+</TEI>

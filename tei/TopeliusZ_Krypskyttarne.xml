@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="../schemas/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../stylesheets/tiny_TEI_template.css"?>
+<?oxygen RNGSchema="../schemas/tei_all.rng" type="xml"?>
+<!-- $Id: TopeliusZ_Krypskyttarne.xml 114935 2015-04-15 11:53:40Z eva $ -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Krypskyttarne</title>
+        <title type="sub">Sommarlek</title>
+        <author xml:id="TopeliusZ">
+          <persName>
+            <forename>Zacharias</forename>
+            <surname>Topelius</surname>
+          </persName>
+          <idno type="LIBRIS">http://libris.kb.se/auth/208379</idno>
+          <idno type="BLF">http://urn.fi/URN:NBN:fi:sls-4599-1416928957205</idno>
+        </author>
+        <author xml:id="NN" role="illustrator">
+          <note>Oklart vem som illustrerat. En oklar signatur "I Gunther Z" och en signatur i årtalet 1873 med bokstäverna P och O.</note>
+        </author>
+        <sponsor>
+          <name>Riksteatern, anslagsförvaltare</name>
+        </sponsor>
+        <funder>
+          <name>Vetenskapsrådet</name>
+        </funder>
+        <funder>
+          <name>Riksbankens Jubileumsfond</name>
+        </funder>
+        <editor>
+          <name>Dramawebben</name>
+        </editor>
+        <principal>
+          <persName>Marika V. Lagercrantz</persName>
+        </principal>
+        <respStmt>
+          <resp>kodning</resp>
+          <persName xml:id="LagercrantzMV">Marika V. Lagercrantz</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>korrekturläsning</resp>
+          <persName xml:id="ErnstM">Manilla Ernst</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>korrekturläsning</resp>
+          <persName xml:id="BackhammarT">Tove Backhammar</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>redigering</resp>
+          <persName xml:id="ForsbomE">Eva Forsbom</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>eDrama</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Dramawebben</publisher>
+        <address>
+          <addrLine>http://www.dramawebben.se</addrLine>
+        </address>
+        <idno type="Dramawebben">TopeliusZ_Krypskyttarne</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/se/">
+            <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author sameAs="#TopeliusZ">
+              <persName>Zacharias Topelius</persName>
+            </author>
+            <title level="a" type="main">Krypskyttarne</title>
+            <title level="a" type="sub">Sommarlek</title>
+          </analytic>
+          <monogr>
+            <!-- redaktörer bl.a. enl. provnummer för 1886, http://digi.lib.helsinki.fi/aikakausi/binding/976800#?page=7 /EF -->
+            <editor xml:id="TopeliusT">
+              <persName>
+                <forename>Toini</forename>
+                <surname>Topelius</surname>
+              </persName>
+              <idno type="LIBRIS">http://libris.kb.se/auth/268119</idno>
+            </editor>
+            <editor xml:id="GripenbergA">
+              <persName>
+                <forename>Alexandra</forename>
+                <surname>Gripenberg</surname>
+              </persName>
+              <idno type="LIBRIS">http://libris.kb.se/auth/188712</idno>
+              <idno type="BLF">http://urn.fi/URN:NBN:fi:sls-4970-1416928957576</idno>
+            </editor>
+            <title level="j" type="main">Nya Trollsländan</title>
+            <title level="j" type="sub">Illustrerad barntidning</title>
+            <idno type="LIBRIS">http://libris.kb.se/bib/14226055</idno>
+            <!-- digitaliserad https://fennica.linneanet.fi/vwebv/search?searchArg=Nya+trollsländan /EF -->
+            <imprint>
+              <pubPlace>Helsingfors</pubPlace>
+              <publisher>G. W. Edlunds förlag</publisher>
+              <respStmt>
+                <resp>tryckning</resp>
+                <orgName>Hufvudstadsbladets tryckeri</orgName>
+              </respStmt>
+              <date when="1886">1886</date>
+              <biblScope unit="volume">2</biblScope>
+              <biblScope unit="issue">11</biblScope>
+              <biblScope unit="page" from="85" to="87">85–87</biblScope>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Dramawebben är ett digitalt arkiv över upphovsrättslig fri svensk dramatik. Dramatexterna
+          finns återgivna i fulltext och är publicerade antingen i sk faksimil, ett pdf-dokument där
+          originaltrycket återges som en digital fotokopia, eller i bearbetningsbar text, ett
+          pdf-dokument med text och bild som kan användas för redigering. Dramawebben växer i takt
+          med att nya verk blir kända. Med det digitala pjäsmaterialet tillgängliggör och
+          aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
+          förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
+          sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
+      </samplingDecl>
+      <classDecl>
+        <taxonomy xml:id="HISCO">
+          <biblStruct>
+            <monogr>
+              <author>Marco H.D. van Leeuwen</author>
+              <author>Ineke Maas</author>
+              <author>Andrew Miles</author>
+              <title>HISCO Historical International Standard Classification of Occupations</title>
+              <idno type="ISBN">90-5867-196-8</idno>
+              <imprint>
+                <publisher>Leuven University Press</publisher>
+                <pubPlace>Leuven</pubPlace>
+                <date when="2002">2002</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+        </taxonomy>
+      </classDecl>
+      <tagsDecl>
+        <rendition>
+          <!-- Scenanvisningar anges med mindre punktstorlek /ME -->
+          <!-- Talarrubriker är kursiva -->
+          <!-- Rubriker är inline /EF -->
+          <!-- Rollistan är i fetstil (allt) /EF -->
+          <!-- Scenanvisningar mellan repliker är indragna alla rader /EF -->
+          <!-- Bilden ligger över två spalter /EF -->
+          <!-- Paginering överst till höger ojämna sidor, och tvärtom /EF -->
+        </rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="sv">Swedish</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:id="TopeliusZ_Krypskyttarne">
+    <anchor xml:id="playstart"/>
+    <front>
+      <pb facs="38071-0.jpg"/><!-- titelsida, volym -->
+      <gap reason="irrelevant"/>
+      <pb facs="38071-1.jpg"/><!-- trycksida, volym -->
+      <gap reason="irrelevant"/>
+      <pb facs="38071-2.jpg"/><!-- omslag tidskrift nr 11 -->
+      <gap reason="irrelevant"/>
+      <pb facs="38071-3.jpg"/><fw type="pageNum">85</fw>
+      <gap reason="irrelevant"/><!-- annat inslag, titel och undertitel -->
+      <castList>
+        <head>Personer:</head>
+        <castItem type="list">
+          <role xml:id="spMalte"><persName ref="#Malte">Malte</persName></role>,
+          <role xml:id="spPalte"><persName ref="#Palte">Palte</persName></role> och
+          <role xml:id="spJösse"><persName ref="#Jösse">Jösse</persName></role>.
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <stage type="setting" who="#Malte #Palte">(Malte och Palte mötas i skogen.)</stage>
+        <sp who="#spPalte">
+          <speaker>Palte:</speaker> <p>Hvart skall du gå?</p>
+        </sp>
+        <sp who="#spMalte">
+          <speaker>Malte:</speaker> <p>På jagt.</p>
+        </sp>
+        <cb n="2"/>
+        <sp who="#spPalte">
+          <speaker>Palte:</speaker> <p>Men du har ingen bössa.</p>
+        </sp>
+        <sp who="#spMalte">
+          <speaker>Malte:</speaker> <p>Jag har en bra käpp.</p>
+        </sp>
+        <sp who="#spPalte">
+          <speaker>Palte:</speaker> <p>Jag skall också söka en bra käpp.
+           <lb/> Hvad skall du skjuta? </p>
+        </sp>
+        <sp who="#spMalte">
+          <speaker>Malte:</speaker> <p>Jag skall skjuta <persName ref="#Jösse">Jösse</persName> till stek
+            <lb/> åt mamma.</p>
+        </sp>
+        <stage type="entrance" who="#Jösse">(Jösse kommer skuttande bakom deras rygg.)</stage>
+        <sp who="#spJösse"><speaker>Jösse:</speaker> <p>Hvad är det de säga? Skjuta
+           <lb/> mig? Uff, det är jägare! Det är då en
+           <lb/> verldens lycka, att de vända ryggen åt mig.
+           <lb/> Jag vill gömma mig här i busken och höra
+           <lb/> hvad de säga.</p>
+        </sp>
+        <stage>(Han gömmer sig.)</stage>
+        <sp who="#spMalte">
+          <speaker>Malte:</speaker> <p>Jag skall vara en krypskytt.</p>
+        </sp>
+        <sp who="#spPalte">
+          <speaker>Palte:</speaker> <p>Jag skall också vara en kryp&#xad;<lb
+            break="no"/>skytt. Hvad är han för en karl?</p>
+        </sp>
+        <sp who="#spMalte">
+          <speaker>Malte:</speaker> <p>En krypskytt är en jägare som
+            <lb/> kryper på magen.</p>
+        </sp>
+        <sp who="#spPalte">
+          <speaker>Palte:</speaker> <p>Det var lustigt. Hvarför kryper
+            <lb/> han på magen?</p>
+        </sp>
+        <sp who="#spMalte">
+          <speaker>Malte:</speaker> <p>För att <persName ref="#Jösse">Jösse</persName> skall tro att han
+            <lb/> är en stock.</p>
+        </sp>
+        <sp who="#spPalte">
+          <speaker>Palte:</speaker> <p>Åhå, är <persName ref="#Jösse">Jösse</persName> så dum?</p>
+        </sp>
+        <sp who="#spMalte">
+          <speaker>Malte:</speaker> <p>Ja, han är <emph>så</emph> dum, vet du, att
+            <lb/> när han gömmer hufvudet i en buske, tror
+            <lb/> han att ingen ser honom.</p>
+        </sp>
+        <sp who="#spJösse">
+          <speaker>Jösse:</speaker> <stage>(i busken.)</stage> <p>Det skall jag komma ihåg.</p>
+        </sp>
+        <sp who="#spMalte">
+          <speaker>Malte:</speaker> <p>Och så rädd är han, vet du! När
+            <lb/> <persName ref="#Jösse">Jösse</persName> ser en kråka, tror han, att hon är
+            <lb/> en varg.</p>
+        </sp>
+        <sp who="#spJösse">
+          <speaker>Jösse:</speaker> <p>Må det?</p>
+        </sp>
+        <sp who="#spPalte">
+          <speaker>Palte:</speaker> <p>Jag skulle inte alls vara rädd för
+            <lb/> vargen.</p>
+        </sp>
+        <sp who="#spMalte">
+          <speaker>Malte:</speaker> <p>Och jag skulle taga en björn i
+            <lb/> kragen.</p>
+        </sp>
+        <sp who="#spJösse">
+          <speaker>Jösse:</speaker> <p>Nej hör, nu börja de skryta! De
+            <lb/> der äro inga farliga jägare.</p>
+        </sp>
+        <sp who="#spPalte">
+          <speaker>Palte:</speaker> <p>Hvad skola vi göra med <persName ref="#Jösse">Jösse</persName>,
+            <lb/> när vi skjutit honom?</p>
+        </sp>
+        <sp who="#spMalte">
+          <speaker><choice><sic>Palte</sic><corr>Malte</corr></choice>:</speaker> <p>Jag stoppar honom i min portör.</p>
+        </sp>
+        <sp who="#spPalte">
+          <speaker>Palte:</speaker> <p>Den är ju full med smörgåsar.</p>
+        </sp>
+        <sp who="#spMalte">
+          <speaker>Malte:</speaker> <p>Derför skall jag strax äta upp
+            <lb/> mina smörgåsar, så att han får rum.</p>
+        </sp>
+        <sp who="#spPalte">
+          <speaker>Palte:</speaker> <p>Jag skall också äta upp mina
+            <lb/> smörgåsar, så att jag får rum för min <persName ref="#Jösse">Jösse</persName>.
+            <lb/> <stage>(Båda äta.)</stage> Men om <persName ref="#Jösse">Jösses</persName> ben stå ut från
+            <lb/> portören?</p>
+        </sp>
+        <sp who="#spMalte">
+          <speaker>Malte:</speaker> <p>Så knipa vi af dem till hartassar
+            <lb/> för griffeltaflorna.</p>
+        </sp>
+        <sp who="#spJösse">
+          <speaker>Jösse:</speaker> <p>Tackar så mycket!</p>
+        </sp>
+        <sp who="#spMalte">
+          <speaker>Malte:</speaker> <p>Sedan steka vi <persName ref="#Jösse">Jösse</persName> och äta ho&#xad;<lb
+            break="no"/>nom med gurkor.</p>
+        </sp>
+        <pb facs="38071-4.jpg"/><fw type="pageNum">86</fw>
+        <sp who="#spJösse">
+          <speaker>Jösse:</speaker> <p>Smaklig måltid!</p>
+        </sp>
+        <sp who="#spPalte">
+          <speaker>Palte:</speaker> <stage>(mumsande)</stage> <p>Hur skola vi nu få fram
+            <lb/> <persName ref="#Jösse">Jösse</persName> för att skjuta honom?</p>
+        </sp>
+        <sp who="#spMalte">
+          <speaker>Malte:</speaker> <stage>(mumsande)</stage> <p>Krypskyttarne veta så
+            <lb/> många konster. Vi skola skrämma honom
+            <figure>
+              <graphic url="TopeliusZ_Krypskyttarne-1.jpg"/>
+              <figDesc>En svartvit bild med Malte och Palte som ska ut på harjakt.
+                De står med ryggen vänd mot betraktaren och ser därför inte att 
+                Jösse skuttar bakom dem.</figDesc>
+              <bibl><author role="illustrator" ref="#NN"><unclear>I Gunther Z 18PO73</unclear></author></bibl>
+            </figure>
+            <lb/> med att räkna till hundra. Ett, tu, tre,
+            <lb/> fyra ...</p>
+        </sp>
+        <sp who="#spPalte">
+          <speaker>Palte:</speaker> <p>Sexton, sjutton, aderton, nitton ...</p>
+        </sp>
+        <sp who="#spMalte">
+          <speaker>Malte:</speaker> <p>Tjugosju, tjugoåtta, tjugonio, tju&#xad;<lb
+            break="no"/>gutio ...</p>
+        </sp>
+        <sp who="#spPalte">
+          <speaker>Palte:</speaker> <p>Tjuguelfva, tjugutolf ...</p>
+        </sp>
+        <sp who="#spJösse">
+          <speaker>Jösse:</speaker> <p>Nu staka de sig.</p>
+        </sp>
+        <cb n="2" spanTo="#EndOFPage" next="#FigureBreak"/>
+        <sp who="#spMalte">
+          <speaker>Malte:</speaker> <p>Tjugunitton, tjugutjugu, tjugutjugu&#xad;<lb
+            break="no"/>en ...</p>
+        </sp>
+        <sp who="#spPalte">
+          <speaker>Palte:</speaker> <p>Nej, hör du, nu går det galet!</p>
+        </sp>
+        <sp who="#spMalte">
+          <speaker>Malte:</speaker> <stage>(mumsar på en ny smörgås)</stage> <p>Vänta, vi
+            <lb/> börja om igen! Ett, tu ...</p>
+        </sp>
+        <anchor xml:id="FigureBreak"/>
+        <stage>(De räkna om igen och komma till tjugu&#xad;<lb
+          break="no"/>tjugutjugu).</stage>
+        <sp who="#spJösse">
+          <speaker>Jösse:</speaker> <p>Hvad är det för jägare, som inte
+            <lb/> kunna räkna till trettio? Jag skall lära
+            <lb/> dem att kalla <persName ref="#Jösse">Jösse</persName> dum.</p>
+        </sp>
+        <stage>(<persName ref="#Jösse">Jösse</persName> tagar ett skutt ur busken och sprin&#xad;<lb
+          break="no"/>ger mellan <persName ref="#Malte">Maltes</persName> och <persName ref="#Palte">Paltes</persName> ben. De falla
+          <lb/> på magen).</stage>
+        <pb facs="38071-5.jpg"/><fw type="pageNum">87</fw>
+        <sp who="#spPalte">
+          <speaker>Palte:</speaker> <stage>(skrikande)</stage> <p>Hjelp, hjelp! En varg!</p>
+        </sp>
+        <sp who="#spMalte">
+          <speaker>Malte:</speaker> <stage>(hvars smörgås fastnat honom i halsen)</stage>
+            <lb/> <p>En bjö... <choice><sic>hjö...</sic><corr>bjö...</corr></choice> bjö... björn!</p>
+        </sp>
+        <sp who="#spJösse">
+          <speaker>Jösse:</speaker> <stage>(skrattande)</stage> <p>Nej, bara <persName ref="#Jösse">lilla Jösse</persName>,
+            <lb/> som skjutit omkull <persName ref="#Malte #Palte">två jägare</persName>. Uhuhuh! Nu
+            <lb/> har jag skrattat min mun på sned!</p>
+        </sp>
+        <anchor xml:id="EndOFPage"/>
+      </div>
+      <gap reason="irrelevant"/><!-- författare, andra inslag -->
+    </body>
+    <back>
+      <div type="editorial">
+        <listPerson>
+          <listPerson type="cast">
+            <person xml:id="Malte" sex="male">
+              <persName>
+                <forename>Malte</forename>
+              </persName>
+              <age>barn</age>
+            </person>
+            <person xml:id="Palte" sex="male">
+              <persName>
+                <forename>Palte</forename>
+              </persName>
+              <age>barn</age>
+            </person>
+            <person xml:id="Jösse" sex="male" role="animal">
+              <persName>
+                <forename>Jösse</forename>
+              </persName>
+              <note>hare</note>
+            </person>
+          </listPerson>
+          <listRelation>
+            <relation type="personal" name="vän" mutual="#Malte #Palte"/>
+            <relation type="other" name="jägare" active="#Palte #Malte" passive="#Jösse"/>
+          </listRelation>
+        </listPerson>
+      </div>
+    </back>
+    <anchor xml:id="playend"/>
+  </text>
+</TEI>

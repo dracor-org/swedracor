@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="../schemas/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../stylesheets/tiny_TEI_template.css"?>
+<?oxygen RNGSchema="../schemas/tei_all.rng" type="xml"?>
+<!-- $Id: TopeliusZ_LuciasZiffror.xml 113712 2015-03-20 15:47:10Z eva $ -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lucias ziffror</title>
+        <title type="sub">En jul-lek</title>
+        <author xml:id="TopeliusZ">
+          <persName>
+            <forename>Zacharias</forename>
+            <surname>Topelius</surname>
+          </persName>
+          <idno type="LIBRIS">http://libris.kb.se/auth/208379</idno>
+          <idno type="BLF">http://urn.fi/URN:NBN:fi:sls-4599-1416928957205</idno>
+        </author>
+        <sponsor>
+          <name>Riksteatern, anslagsförvaltare</name>
+        </sponsor>
+        <funder>
+          <name>Vetenskapsrådet</name>
+        </funder>
+        <funder>
+          <name>Riksbankens Jubileumsfond</name>
+        </funder>
+        <editor>
+          <name>Dramawebben</name>
+        </editor>
+        <principal>
+          <persName>Marika V. Lagercrantz</persName>
+        </principal>
+        <respStmt>
+          <resp>kodning</resp>
+          <persName xml:id="BergströmS">Sara Bergström</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>korrekturläsning</resp>
+          <persName xml:id="BackhammarT">Tove Backhammar</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>korrekturläsning</resp>
+          <persName xml:id="ErnstM">Manilla Ernst</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>redigering</resp>
+          <persName xml:id="OlssonLJ">Leif-Jöran Olsson</persName>
+          <orgName>Språkbanken</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>redigering</resp>
+          <persName xml:id="ForsbomE">Eva Forsbom</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>eDrama</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Dramawebben</publisher>
+        <address>
+          <addrLine>http://www.dramawebben.se</addrLine>
+        </address>
+        <idno type="Dramawebben">TopeliusZ_LuciasZiffror</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/se/">
+            <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author sameAs="#TopeliusZ">
+              <persName>Zacharias Topelius</persName>
+            </author>
+            <title level="a" type="main">Lucias ziffror</title>
+            <title level="a" type="sub">En jul-lek</title>
+          </analytic>
+          <monogr xml:id="bibl_NyaTrollsländan">
+            <!-- redaktörer bl.a. enl. provnummer för 1886, http://digi.lib.helsinki.fi/aikakausi/binding/976800#?page=7 /EF -->
+            <editor xml:id="TopeliusT">
+              <persName>
+                <forename>Toini</forename>
+                <surname>Topelius</surname>
+              </persName>
+              <idno type="LIBRIS">http://libris.kb.se/auth/268119</idno>
+            </editor>
+            <editor xml:id="GripenbergA">
+              <persName>
+                <forename>Alexandra</forename>
+                <surname>Gripenberg</surname>
+              </persName>
+              <idno type="LIBRIS">http://libris.kb.se/auth/188712</idno>
+              <idno type="BLF">http://urn.fi/URN:NBN:fi:sls-4970-1416928957576</idno>
+            </editor>
+            <title level="j" type="main">Nya Trollsländan</title>
+            <title level="j" type="sub">Illustrerad barntidning</title>
+            <idno type="LIBRIS">http://libris.kb.se/bib/14226055</idno>
+            <!-- digitaliserad https://fennica.linneanet.fi/vwebv/search?searchArg=Nya+trollsländan /EF -->
+            <imprint>
+              <pubPlace>Helsingfors</pubPlace>
+              <publisher>G. W. Edlunds förlag</publisher>
+              <respStmt>
+                <resp>tryckning</resp>
+                <orgName>Hufvudstadsbladets tryckeri</orgName>
+              </respStmt>
+              <date when="1887">1887</date>
+              <biblScope unit="volume">3</biblScope>
+            </imprint>
+          </monogr>
+          <monogr sameAs="#bibl_NyaTrollsländan">
+            <imprint>
+              <date when="1887">1887-11-05</date>
+              <biblScope unit="issue">21</biblScope>
+              <biblScope unit="page" from="161" to="163">163–163</biblScope>
+            </imprint>
+          </monogr>
+          <monogr sameAs="#bibl_NyaTrollsländan">
+            <imprint>
+              <date when="1887">1887-11-19</date>
+              <biblScope unit="issue">22</biblScope>
+              <biblScope unit="page" from="170" to="173">170–173</biblScope>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Dramawebben är ett digitalt arkiv över upphovsrättslig fri svensk dramatik. Dramatexterna
+          finns återgivna i fulltext och är publicerade antingen i sk faksimil, ett pdf-dokument där
+          originaltrycket återges som en digital fotokopia, eller i bearbetningsbar text, ett
+          pdf-dokument med text och bild som kan användas för redigering. Dramawebben växer i takt
+          med att nya verk blir kända. Med det digitala pjäsmaterialet tillgängliggör och
+          aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
+          förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
+          sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
+      </samplingDecl>
+      <classDecl>
+        <taxonomy xml:id="HISCO">
+          <biblStruct>
+            <monogr>
+              <author>Marco H.D. van Leeuwen</author>
+              <author>Ineke Maas</author>
+              <author>Andrew Miles</author>
+              <title>HISCO Historical International Standard Classification of Occupations</title>
+              <idno type="ISBN">90-5867-196-8</idno>
+              <imprint>
+                <publisher>Leuven University Press</publisher>
+                <pubPlace>Leuven</pubPlace>
+                <date when="2002">2002</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+        </taxonomy>
+      </classDecl>
+      <tagsDecl>
+        <rendition>
+          <!-- Rollnamn i rollförteckningen anges med kursiv stil  -->
+          <!-- Scenanvisningar anges med kursiv stil och mindre punktstorlek -->
+          <!-- Repliker och fristående scenanvisningar är indragna första raden;
+               en replik är inte fristående (rend=inline) /EF -->
+          <!-- Scenanvisningar av typen presence är centrerade /EF -->
+          <!-- Rubriker är centrerade /EF -->
+          <!-- Talarrubriker och repliker är inline -->
+          <!-- Talarrubriker anges med kursiv stil -->
+          <!-- Versrader som bryts har indrag på andra raden -->
+          <!-- Versrader är indragna /EF -->
+          <!-- Rubriker i verser är i kursiv stil /EF -->
+        </rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="sv">Swedish</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:id="TopeliusZ_LuciasZiffror">
+    <anchor xml:id="playstart"/>
+    <front>
+      <pb facs="38508-0.jpg"/><!-- titelsida, volym -->
+      <gap reason="irrelevant"/>
+      <pb facs="38508-1.jpg"/><!-- trycksida, volym -->
+      <gap reason="irrelevant"/>
+      <pb facs="38508-2.jpg"/>
+      <gap reason="irrelevant"/><!-- illustration, tidskriftens namn, nummer och utgivningsdatum, titel -->
+      <castList>
+        <head>Personer:</head>
+        <castGroup rend="braced">
+          <castItem>
+            <role xml:id="spNanna"><persName ref="#Nanna">Nanna</persName>, N:o 1</role>
+          </castItem>
+          <castItem>
+            <role xml:id="spHanna"><persName ref="#Hanna">Hanna</persName>, N:o 2</role>
+          </castItem>
+          <castItem>
+            <role xml:id="spAnna"><persName ref="#Anna">Anna</persName>, N:o 3</role>
+          </castItem>
+          <castItem>
+            <role xml:id="spMärtha"><persName ref="#Märtha">Märtha</persName>, N:o 4</role>
+          </castItem>
+          <castItem>
+            <role xml:id="spBertha"><persName ref="#Bertha">Bertha</persName>, N:o 5</role>
+          </castItem>
+          <castItem>
+            <role xml:id="spMelicerta"><persName ref="#Melicerta">Melicerta</persName>, N:o 6</role>
+          </castItem>
+          <castItem>
+            <role xml:id="spNora"><persName ref="#Nora">Nora</persName>, N:o 7</role>
+          </castItem>
+          <castItem>
+            <role xml:id="spDora"><persName ref="#Dora">Dora</persName>, N:o 8</role>
+          </castItem>
+          <castItem>
+            <role xml:id="spFlora"><persName ref="#Flora">Flora</persName>, N:o 9</role>
+          </castItem>
+          <roleDesc>Skolflickor<ref type="noteAnchor" target="#note1">*)</ref><note xml:id="note1" place="bottom"><label>*)</label> <persName ref="#Nanna">Nanna</persName> är den minsta, de öfriga i ordning
+            <lb/> efter längden.</note>.</roleDesc>
+        </castGroup>
+        <castItem>
+          <role xml:id="spFacit"><persName ref="#Facit">Magister Facit</persName></role>, <roleDesc>deras lärare</roleDesc>.
+        </castItem>
+        <castItem>
+          <role xml:id="spThomas"><persName ref="#Thomas">Thomas</persName></role>, <roleDesc>en okänd gubbe</roleDesc>.
+        </castItem>
+        <castItem>
+          <role xml:id="spLucia"><persName ref="#Lucia">Lucia</persName></role>, <roleDesc>hans unga gumma, en fé</roleDesc>.
+        </castItem>
+        <castItem>
+          <role xml:id="spVaktmästaren"><persName ref="#Vaktmästaren">Skolvaktmästaren</persName></role>.
+        </castItem>
+        <castItem>
+          <roleGroup xml:id="spRöster"><roleDesc><persName ref="#Röster"></persName>Röster utanför</roleDesc>.</roleGroup>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <cb n="2"/>
+      <div type="act" n="1">
+        <stage type="setting">Scenen föreställer <orgName ref="#Skolan">ett skolrum</orgName> med pulpeter och i
+          <lb/> hörnet en stor räknetafla. Till venster en dörr, till
+          <lb/> höger ett fönster.</stage>
+        <div type="scene" n="1">
+          <head>Scen 1.</head>
+          <stage type="presence" who="#Anna #Bertha #Dora #Facit #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">Magister Facit med sina skolflickor.</stage>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Ja, det kan nu ej hjelpas. En
+              <lb/> bråkdel flit, subtraherad från två delar
+              <lb/> lättja, gör en del lättja i rest. Det är minus,
+              <lb/> förstå ni. De, som varit lata i räkningen,
+              <lb/> måste repetera kursen på sjelfva Lucie&#xad;<lb
+              break="no"/>dagen.</p>
+          </sp>
+          <sp who="#spFlora">
+            <speaker>Flora.</speaker> <p><persName ref="#Facit">Söta magistern</persName>, vi skola vara så
+              <lb/> flitiga i jul, om vi nu få lof att fira Lucia.</p>
+          </sp>
+          <sp who="#spAnna #spBertha #spDora #spFlora #spHanna #spMelicerta #spMärtha #spNanna #spNora">
+            <speaker>Alla flickorna.</speaker> <p><persName ref="#Facit">Söta magistern</persName>, vi skola
+              <lb/> vara <emph>så</emph>, <emph>så</emph> flitiga.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Flitiga under julen! Det skall man
+              <lb/> tro. Ni skola vara <emph>så</emph>, <emph>så</emph> flitiga i kälkbac&#xad;<lb
+              break="no"/>ken och göra <emph>så</emph> märkvärdiga framsteg i
+              <lb/> ringdansen kring julgranen. Hvad behöfves
+              <lb/> der mer? Jo, att med mycken flit snaska
+              <lb/> godt. Och dermed tro ni er inhemta den
+              <lb/> ädla räknekonsten! Se ni, arithmetiken är
+              <pb facs="38508-3.jpg"/><fw type="pageNum">162</fw>
+              den största af alla konster. Det är ziff&#xad;<lb
+              break="no"/>rorna, som regera verlden, och ziffror äro
+              <lb/> vi alla, — enheter, förstå ni? Addera de
+              <lb/> enheterna, subtrahera dem, multiplicera dem,
+              <lb/> dividera dem, det är lifvets summa. Den,
+              <lb/> som kan räkna, han <emph>kan</emph> allting, och han <emph>vet</emph>
+              <lb/> allting. <stage>(<persName ref="#Nanna">Nanna</persName>, <persName ref="#Märtha">Märtha</persName> och <persName ref="#Nora">Nora</persName> signera).</stage> Nå,
+              <lb/> hvad är det? Ni ha lof att fråga.</p>
+          </sp>
+          <sp who="#spNanna">
+            <speaker>Nanna.</speaker> <p>Kan han räkna ut hvad väder
+            <lb/> det blir i morgon?</p>
+          </sp>
+          <sp who="#spMärtha">
+            <speaker>Märtha.</speaker> <p>Kan han räkna tankar?</p>
+          </sp>
+          <sp who="#spNora">
+            <speaker>Nora.</speaker> <p>Kan han räkna ut om han är
+              <lb/> lycklig?</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Ja, det förstås. Han kan allting.
+              <lb/> Men nu skola vi repetera hufvudräkningen.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>Scen 2.</head>
+          <stage type="presence" who="#Anna #Bertha #Dora #Facit #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">De förra. <stage type="entrance" who="#Thomas">Thomas, höljd i en vid kåpa.</stage></stage>
+          <sp who="#spThomas">
+            <speaker>Thomas.</speaker> <p><persName ref="#Facit">Goa herrn</persName>, gif mig en liten slant
+            <lb/> till julen.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Hvem är der? Hvad är ni för en?</p>
+          </sp>
+          <sp who="#spThomas">
+            <speaker>Thomas.</speaker> <p>Jag heter Thomas, och <persName ref="#Lucia">min
+            <lb/> gumma</persName> heter Lucia. Jag är en fattig pil&#xad;
+              <lb break="no"/>grim, som går kring verlden och söker snälla
+              <lb/> barn. <persName ref="#Facit">Herrn</persName> har <persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">många barn</persName>, han.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Gå er väg, ni stör oss. Ser ni
+            <lb/> icke, att här är <orgName ref="#Skolan">en skola</orgName>?</p>
+          </sp>
+          <sp who="#spThomas">
+            <speaker>Thomas.</speaker> <p>Derför kom jag ju hit. Jag
+            <lb/> trodde, att man i <orgName ref="#Skolan">en skola</orgName> lär sig att vara
+            <lb/> god mot <persName ref="#Thomas">de fattiga</persName>.</p>
+          </sp>
+          <sp who="#spAnna #spBertha #spDora #spFlora #spHanna #spMelicerta #spMärtha #spNanna #spNora">
+            <speaker>Skolflickorna.</speaker> <p><persName ref="#Facit">Söta magistern</persName> ...</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Nå, se här, efter de bedja för er.
+              <lb/> <stage>(Han lägger en silfverslant i <persName ref="#Thomas">gubbens</persName> hatt.)</stage></p>
+          </sp>
+          <sp who="#spNanna">
+            <speaker>Nanna.</speaker> <p>Få vi också gifva något?</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Ja, ja, men det skall ske fort. Vi
+              <lb/> försumma räkningen.</p>
+          </sp>
+          <stage><persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">Flickorna</persName> frambära åt <persName ref="#Thomas">Thomas</persName> pepparkakor,
+            <lb/> pumpernicklar och annat godt.</stage>
+          <sp who="#spThomas">
+            <speaker>Thomas.</speaker> <p>Stort tack! Till belöning skall
+              <lb/> jag säga er något. Det är i dag <persName ref="#Lucia">Lucia, min
+              <lb/> gummas</persName> namnsdag, och det är en märke&#xad;<lb
+              break="no"/>dag. Den, som i dag önskar något och sä&#xad;<lb
+              break="no"/>ger prosit, den skall strax få sin önskan
+              <lb/> uppfylld.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Ha vi nu tid med märkedagar?
+              <lb/> Gå er väg!</p>
+          </sp>
+          <sp who="#spThomas">
+            <speaker>Thomas.</speaker> <p>Får jag ej höra en stund på
+              <lb/> <persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">de små beskedliga fröknarna</persName>?</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit</speaker> <stage>(för sig).</stage> <p>Man blir då aldrig af
+              <lb/> med <persName ref="#Thomas">den karlen</persName>. <stage>(högt)</stage> Nå, hör då, så får
+              <cb n="2"/>
+              ni lära er något ..... Addition. <persName ref="#Nanna">Nanna</persName>!
+              <lb/> <stage>(<persName ref="#Nanna">Nanna</persName> uppstår.)</stage> I går fick du af <persName ref="#Mamma">din mam&#xad;<lb
+              break="no"/>ma</persName> sex äpplen. <stage>(<persName ref="#Nanna">Nanna</persName> nickar).</stage> I dag får
+              <lb/> du sju andra äpplen af <persName ref="#Pappa">din pappa</persName>.</p>
+          </sp>
+          <sp who="#spNanna">
+            <speaker>Nanna.</speaker> <p>Åh, så roligt!</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Huru många äpplen har du då?</p>
+          </sp>
+          <sp who="#spNanna">
+            <speaker>Nanna.</speaker> <p>Sju.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Tänk efter! I går fick du sex ...</p>
+          </sp>
+          <sp who="#spNanna">
+            <speaker>Nanna.</speaker> <p>Ja, men dem har jag redan ätit
+              <lb/> upp.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Så, då; du skulle ha tretton äpp&#xad;<lb
+              break="no"/>len ... Sitt ned! <persName ref="#Melicerta">Melicerta</persName>! <stage>(Hon uppstår).</stage>
+              <lb/> Subtraktion. <persName ref="#Robert">Robert</persName> hittade på gatan en
+              <lb/> påse med nötter. Han räknade nötterna,
+              <lb/> de voro 54. Han skalade 14, men kastade
+              <lb/> bort dem, efter de voro maskätna. Huru
+              <lb/> många nötter hade han qvar i påsen?</p>
+          </sp>
+          <sp who="#spMelicerta">
+            <speaker>Melicerta.</speaker> <p>Han hade inga nötter alls
+              <lb/> qvar i påsen.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Hvad för något? Hade han inga
+              <lb/> nötter alls?</p>
+          </sp>
+          <sp who="#spMelicerta">
+            <speaker>Melicerta.</speaker> <p>Nej, han kastade bort dem
+              <lb/> för att de voro alla maskätna. Hvad skulle
+              <lb/> de duga till, som legat på gatan?</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Förbättrar du mina exempel? Han
+              <lb/> hade 40 nötter qvar i påsen ... Sitt ...
+              <lb/> <persName ref="#Dora">Dora</persName>! <stage>(Hon uppstår.)</stage> Multiplikation. Hvad
+              <lb/> göra 70 gånger 3.</p>
+          </sp>
+          <sp who="#spDora">
+            <speaker>Dora</speaker> <stage>(flinkt).</stage> <p>73.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit</speaker> <stage>(häftigt, men hejdar sig).</stage> <p>Du är ...
+              <lb/> ja, du är 73 gånger så klok som tabulan.
+              <lb/> Efter tabulan blir det 210. Sitt! Ni kunna
+              <lb/> hvarken addera, subtrahera eller multipli&#xad;<lb
+              break="no"/>cera. Nå, <persName ref="#Hanna">Hanna</persName>! <stage>(Hon uppstår.)</stage> Försök
+              <lb/> division! Björken hade 2,000 löf, när han
+              <lb/> höggs i skogen. <persName ref="#Får">Fem får</persName> och <persName ref="#Bässe">en bässe</persName>
+              <lb/> trätte om löfven. Hvad är det värdt att
+              <lb/> träta! sad' <persName ref="#Bässe">bässen</persName>. Jag äter upp hälften,
+              <lb/> och <persName ref="#Får">ni andra</persName> få dela resten i lika delar.
+              <lb/> Huru många löf fick <persName ref="#Bässe">bässen</persName>, och huru många
+              <lb/> löf fick <persName ref="#Får">hvarje får</persName>?</p>
+          </sp>
+          <sp who="#spHanna">
+            <speaker>Hanna.</speaker> <p><persName ref="#Bässe">Bässen</persName> fick ingenting för att han
+              <lb/> var snål.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Men om han nu fick hälften, huru
+              <lb/> många löf fick han?</p>
+          </sp>
+          <sp who="#spHanna">
+            <speaker>Hanna.</speaker> <p>Nej, han fick ingenting för att
+              <lb/> han var så rysligt snål.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit</speaker> <stage>(rusar upp i vrede.)</stage> <p>Är det icke så,
+              <lb/> att man kan bli rosenrasande? Här sitter
+              <lb/> jag hela långa termin och matar <persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">de der
+              <lb/> kycklingarne</persName> med ziffror som guldkorn, men
+              <lb/> när jag frågar hvad <persName ref="#Bässe">bässen</persName> får, ja, se, då
+              <pb facs="38508-4.jpg"/><fw type="pageNum">163</fw>
+              får <persName ref="#Bässe">bässen</persName> ingenting för att han är så rysligt
+              <lb/> snål! Kalla ni det att räkna? Begär man
+              <lb/> sagor i arithmetiken? Jag begär ziffror, ziff&#xad;<lb
+              break="no"/>ror <stage>(snusar)</stage> och ingenting annat, än ziffror.
+              <lb/> <stage>(nyser<surplus>)</surplus>.)</stage> Prosit, det nös jag på.
+            </p>
+          </sp>
+          <stage><persName ref="#Thomas">Thomas</persName> afkastar kåpan och framträder i julgub&#xad;<lb
+            break="no"/>bens välkända gestalt. Musik bakom scenen till
+            <lb/> <persName ref="#Thomas">Thomas</persName> besvärjelse:</stage>
+          <sp who="#spThomas">
+            <lg>
+              <l>Yksiki, kaksiki, kolmeki.</l>
+              <l>Tretton femsjuttondels ett, minus sex.</l>
+              <l>Autumni rigores,</l>
+              <l>Mordite flores!</l>
+              <l>Sit ordo lex,</l>
+              <l>Dum fiat numerus omnium rex!</l>
+            </lg>
+          </sp>
+          <anchor xml:id="SpellStart"/>
+          <stage>Scenen förmörkas, <persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">alla flickorna</persName> nedhuka sig
+            <lb/> bakom sina pulpeter och uppresa sig åter efter be&#xad;<lb
+            break="no"/>svärjelsens slut, då scenen ljusnar. Deras ansig&#xad;<lb
+            break="no"/>ten äro nu krithvita<ref type="noteAnchor" target="#note2">*)</ref><note xml:id="note2" place="bottom"><label>*)</label> För detta ändamål finnes antingen finmalen
+            <lb/> krita eller ock hvita masker med hål för ögon
+            <lb/> och mun.</note>, de bära alla en guldkrona
+            <lb/> på sitt hufvud och sin tydliga ziffra från 1 till 9, —
+            <lb/> i ordning från <persName ref="#Nanna">Nanna</persName> uppåt. De äro porslins<supplied>&#xad;</supplied><lb
+            break="no"/>dockor med rörliga leder, röra sig styft och meka&#xad;<lb
+            break="no"/>niskt samt tala långsamt, grammatikaliskt, utan
+            <lb/> att förändra en min.</stage>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Hvad är det? Här måste ha kom&#xad;<lb
+              break="no"/>mit imma på mina glasögon. <stage>(Han aftorkar
+              <lb/> dem sorgfälligt, påtager dem åter och räknar för&#xad;<lb
+              break="no"/>vånad ziffrorna)</stage> 1, 2, 3, 4 o. s. v. Det har
+              <lb/> sin riktighet. Skulle jag ha somnat midt
+              <lb/> under räknetimmen och drömma arithmetik?
+              <lb/> <stage>(Han kniper sig i örat.)</stage> Nej, jag är vaken.
+              <lb/> <stage><supplied>(</supplied>pekar på <persName ref="#Flora #Melicerta #Nanna">tre af eleverna</persName>).</stage> <persName ref="#Flora">Flora</persName>! <persName ref="#Melicerta">Melicerta</persName>!
+              <lb/> <persName ref="#Nanna">Nanna</persName>!</p>
+          </sp>
+          <sp who="#spFlora">
+            <speaker>Flora.</speaker> <p>Jag heter icke Flora. Jag är 9.</p>
+          </sp>
+          <sp who="#spMelicerta">
+            <speaker>Melicerta.</speaker> <p>Jag är 6.</p>
+          </sp>
+          <sp who="#spNanna">
+            <speaker>Nanna.</speaker> <p>Jag är enheten.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Verkligen? Nå, hvarför bära ni
+              <lb/> kronor på edra hufvuden?</p>
+          </sp>
+          <sp who="#spFlora">
+            <speaker>Flora.</speaker> <p>Vi äro kungabarn. Det är ziff&#xad;<lb
+              break="no"/>rorna, som regera världen.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Mjuka tjenare! Det der har varit
+              <lb/> i säck, innan det kom i påse.</p>
+          </sp>
+          <gap reason="irrelevant"/><!-- forts, annat inslag -->
+          <pb facs="38508-5.jpg"/><fw type="pageNum">170</fw>
+          <gap reason="irrelevant"/><!-- annat inslag, titel, forts -->
+          <sp who="#spThomas">
+            <speaker>Thomas.</speaker> <lg><l>O, <persName ref="#Facit">räknemästare</persName>, du önskat det,</l>
+              <l>Som oföräntadt nu gått i fullbordan.</l>
+              <l>Din klass, <persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">de unga, blomstrande elever</persName>,</l>
+              <l>De äro nu, med makten af ditt ord,</l>
+              <l>Förvandlade till ziffror. Deras tankar</l>
+              <l>Och ungdomsvarma känslor frusit bort</l>
+              <l>I stel arithmetik. Tillintetgjordt</l>
+              <l>Är nu allt annat. Räkna, räkna, räkna</l>
+              <l>Och åter räkna är nu deras lif.</l>
+              <pb facs="38508-6.jpg"/><fw type="pageNum">171</fw>
+              <l>De skola räkna ungdomens sekunder</l>
+              <l>Och hjertats pulsslag; mäta menskors värde</l>
+              <l>I mark och penni; städsla lifvets pligter</l>
+              <l>För lön och lega; sälja dygd och ära,</l>
+              <l>Samvete, fosterland för stadgadt pris.</l>
+              <l>De skola utgå att regera verlden.</l>
+              <l>Det skall ej finnas något, som ej säljes</l>
+              <l>Och köpes mer. Allt, allt är mått och vigt</l>
+              <l>Och tal och räknekonst. — O, mästare,</l>
+              <l>Din konst är god, jag lastar henne icke;</l>
+              <l>Din konst är menskans bästa tjenarinna,</l>
+              <l>Blott hon ej vill beherska menniskan.</l>
+              <l>Det fins oändligheter i ditt bröst,</l>
+              <l>Som icke sägas, mätas eller räknas.</l>
+              <l>Inför de ädlaste, de högsta strängar</l>
+              <l>I lifvets samklang — kärlek, vänskap, säll&#xad;<lb
+                break="no"/>het — </l>
+              <l>Der står din räknekonst så svarslöst stum,</l>
+              <l>Som nattens stjernor öfver öde rum.</l>
+              <l>Farväl ... Din vishet all kan ej befria</l>
+              <l><persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">Din ziffras fångar</persName> ... Det kan blott <persName ref="#Lucia">Lucia</persName>.</l></lg>
+            <stage type="exit" who="#Thomas">(Han försvinner.)</stage>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Nå, om icke det der var vers,
+              <lb/> vill jag aldrig rita en åtta mer. Poesi och
+              <lb/> arithmetik <stage>(snusar)</stage>, det är som en tändsticks&#xad;<lb
+              break="no"/>låda i ett glas vatten. Hvad tusan är det
+              <lb/> der för <persName ref="#Thomas">en karl</persName>? Han måtte gå kring och
+              <lb/> sälja visor på salutorget. Men hör nu, <persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">mina
+              <lb/> nådiga prinsessor</persName>, som regera verlden, förstå
+              <lb/> ni er bättre nu på quatuor species? Ställ
+              <lb/> upp ett tal! Till exempel 27 ... <stage>(<persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">Ziffrorna</persName>
+              <lb/> uppställa sig efter kommando, och exemplen kunna
+              <lb/> varieras efter behag).</stage> Riktigt! Nå, vidare ...
+              <lb/> 356 ... 4,785 .... 16,293 .... 175,482
+              <lb/> .... 8,936,475 .... 81,639,574 .....
+              <lb/> 123,456,789 ... På spiken rätt. Det kal&#xad;<lb
+              break="no"/>lar jag hela tal. Ni göra framsteg. Nå
+              <lb/> vidare ... ett bråk, till exempel 5/293 —
+              <lb/> <stage>(<persName ref="#Bertha">N:o 5</persName> ställer sig på en stol bakom de tre öfriga).</stage>
+              <lb/> Också riktigt ... Addera 57 till 362. <stage>(Ziff&#xad;<lb
+              break="no"/>rorna uppställa talet 419)</stage> ... Har man sett
+              <lb/> på maken! Perfekt! Nå, subtrahera derifrån
+              <lb/> 9. <stage>(<persName ref="#Flora">Nian</persName> skiljer sig, återstår 41.)</stage> ... Nej, det
+              <lb/> är på tok. Det skall vara 410.</p>
+          </sp>
+          <sp who="#spFlora">
+            <speaker>Flora.</speaker> <p>Här finns ingen nolla.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Hvad? Ingen nolla? Och det är
+              <lb/> just nollorna, som regera verlden. Ro hit
+              <lb/> med en nolla! Hvad är arithmetiken utan
+              <lb/> nollor?</p>
+          </sp>
+          <sp who="#spFlora">
+            <speaker>Flora.</speaker> <p>Vi äro nio ziffror och du den
+              <lb/> tionde. Alltså är du nollan.</p>
+          </sp>
+          <cb n="2"/>
+          <sp who="#spFacit">
+            <speaker>Facit</speaker> <p>Hör nu, <persName ref="#Flora">prinsessa</persName>, för det första
+              <lb/> kallar man ej <persName ref="#Facit">sin lärare</persName> du, och för det
+              <lb/> andra är han ingen nolla för <persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">sina elever</persName>.
+              <lb/> Men jag vet en utväg. Vimlar ej vår stad
+              <lb/> och hela verlden af <persName ref="#Röster">nollor</persName>? <stage>(Går till fönstret,
+              <lb/> ropar utåt och klappar i händerna.)</stage> Hollah, der!
+              <lb/> Alla nollor hit! ..... Man skall se huru
+              <lb/> snabbt vi få vår miljon i ordning. <stage>(<persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">Ziffrorna</persName>
+              <lb/> taga i ring.)</stage></p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Jaså, ni mena, att summan af
+              <lb/> hela räknekonsten är noll? <stage>(snusar)</stage> Jag till&#xad;<lb
+              break="no"/>låter mig säga, med all respekt för <persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">de nio
+              <lb/> medusorna</persName>, att om detta är skämt, så är
+              <lb/> det oförskämdt ... <stage>(Man hör stoj utanför.)</stage>
+              <lb/> Hvad är detta för stoj?</p>
+          </sp>
+          <stage type="entrance" who="#Vaktmästaren"/>
+          <sp who="#spVaktmästaren">
+            <speaker>Skolvaktmästaren.</speaker> <p><persName ref="#Facit">Herr magister</persName>! <persName ref="#Facit">Herr
+              <lb/> magister</persName>!</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Hvad är det!</p>
+          </sp>
+          <sp who="#spVaktmästaren">
+            <speaker>Vaktmästaren.</speaker> <p>Hela tamburen, trappan,
+              <lb/> gården och gatan äro fulla med <persName ref="#Röster">folk</persName>. Hit
+              <lb/> rusa allt flera, så långt man kan se.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Hvad är det för <persName ref="#Röster">folk</persName>?</p>
+          </sp>
+          <sp who="#spVaktmästaren">
+            <speaker>Vaktmästaren.</speaker> <p>Alla sorter, stora och
+              <lb/> små ... <persName ref="#Röster">höga herrar</persName> .... <persName ref="#Röster">förnäma fruar
+              <lb/> och fröknar</persName> ... <persName ref="#Röster">borgerligt folk</persName> och <persName ref="#Röster">simpelt
+              <lb/> folk</persName> .... Alla skrika de: <said who="#Röster">släpp oss in, vi
+              <lb/> behöfva bara en ziffra för att blifva miljo&#xad;<lb
+              break="no"/>ner!</said> ... Nej, hör hur de bullra! <stage>(Starkt
+              <lb/> buller utanför. Man hör <persName ref="#Röster">röster</persName>: <sp who="#spRöster" rend="inline"><p>miljoner! mil&#xad;<lb
+              break="no"/>joner!</p></sp>)</stage></p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Nå, nog trodde jag, att här skulle
+              <lb/> vara <persName ref="#Röster">godt om nollor</persName>, men <persName ref="#Röster">de der utfattiga
+              <lb/> miljonerna utan ziffror framför</persName> bli nästan
+              <lb/> för närgångna. Bed dem draga till banken!
+              <lb/> ... Nej, skicka dem till jernvägsstyrelsen!
+              <lb/> Vi behöfva miljoner för att åka till <placeName>Lapp&#xad;<lb
+              break="no"/>marken</placeName>. <stage>(<stage type="exit" who="#Vaktmästaren">Vaktmästaren går.</stage> Nytt stoj och der&#xad;<lb
+              break="no"/>efter tystnad utanför.)</stage></p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Vi få hjelpa oss utan <persName ref="#Röster">nollor</persName> i dag.
+              <lb/> Jag är mycket nöjd med er senaste räkning.
+              <lb/> Hvilken lycka, att ni förvandlats till ziffror!
+              <lb/> Och ziffror kunna ej få mindre vitsord i
+              <lb/> räkning, än ... gissa!</p>
+          </sp>
+          <sp who="#spAnna #spBertha #spDora #spFlora #spHanna #spMelicerta #spMärtha #spNanna #spNora">
+            <speaker>Alla ziffrorna</speaker> <stage>(lugnt och kallt.)</stage> <p>Berömliga.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Ja, och det understruket. Glä&#xad;<lb
+              break="no"/>der det er icke efter så många motgångar?
+              <lb/> Ack, <persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">mina kära elever</persName>, jag är stolt öfver
+              <lb/> eder ... ni skola gå långt ... det är min
+              <lb/> bästa belöning .... det rör mig till tårar.
+              <lb/> <stage>(Han gråter och snusar.)</stage></p>
+          </sp>
+          <sp who="#spFlora">
+            <speaker>Flora.</speaker> <p>En tår väger fem sjundedels cen&#xad;<lb
+              break="no"/>tigram.</p>
+          </sp>
+          <pb facs="38508-7.jpg"/><fw type="pageNum">172</fw>
+          <sp who="#spFacit">
+            <speaker>Facit</speaker> <stage>(som förut.)</stage> <p>Min vänskap för eder ...</p>
+          </sp>
+          <sp who="#spNora">
+            <speaker>Nora.</speaker> <p>Betalas med 3 mark i timmen.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit</speaker> <stage>(som förut.)</stage> <p>Mitt hjertas känslor ...</p>
+          </sp>
+          <sp who="#spMelicerta">
+            <speaker>Melicerta.</speaker> <p>Hjertat slår 80 slag i minu&#xad;<lb
+              break="no"/>ten<supplied>.</supplied></p>
+          </sp>
+          <sp who="#spMärtha">
+            <speaker>Märtha.</speaker> <p>Nej, det är olika. Kärleken
+              <lb/> kan slå 120, vreden 130, raseriet ända till
+              <lb/> 140.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Hvad hör jag! Väga ni mina tå&#xad;<lb
+              break="no"/>rar i centigram, min vänskap i penningar,
+              <lb/> mina känslor i pulsslag! Huru mäta ni då
+              <lb/> eder tacksamhet mot <orgName ref="#Skolan">skolan</orgName>, eder pligt mot
+              <lb/> fäderneslandet eller edert samvetes vittnes&#xad;<lb
+              break="no"/>börd?</p>
+          </sp>
+          <sp who="#spFlora">
+            <speaker>Flora</speaker> <stage>(kallt och bestämdt).</stage> <p>Allt det, som
+              <lb/> icke kan vägas, mätas eller räknas, det
+              <lb/> fins icke till.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Hvad? Fins icke till? <persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">Olyckliga
+              <lb/> barn</persName>, ni förskräcka mig!</p>
+          </sp>
+          <sp who="#spNora">
+            <speaker>Nora.</speaker> <p>Förskräckelsen kan nedgå till 40
+              <lb/> slag i minuten.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Ack, när jag tänker på edra sköna,
+              <lb/> lyckliga ungdomsdagar ...</p>
+          </sp>
+          <sp who="#spAnna">
+            <speaker>Anna<ref type="noteAnchor" target="#note3">*)</ref><note xml:id="note3" place="bottom"><label>*)</label> Replikerna kunna fördelas på de talföraste.</note>.</speaker> <p>En dag och en natt räkna 24
+              <lb/> timmar, 1,440 minuter, 86,400 sekunder och
+              <lb/> 5 miljoner 184,000 terzer.</p>
+          </sp>
+          <sp who="#spHanna">
+            <speaker>Hanna.</speaker> <p>En skön dag räknar 0,0 milli&#xad;<lb
+              break="no"/>meter i nederbörd.</p>
+          </sp>
+          <sp who="#spNanna">
+            <speaker>Nanna.</speaker> <p>En lycklig dag kan ej räknas,
+              <lb/> alltså fins den ej till.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Bort, bort! Det är ju omensk&#xad;<lb
+              break="no"/>ligt, det der. <persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora"><choice><sic>Siffrorna</sic><corr>Ziffrorna</corr></choice></persName> spöka. Hvar är
+              <lb/> <persName ref="#Thomas">Thomas</persName>? Hur skall jag få <persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">de stackrarne</persName>
+              <lb/> åter till menniskor?</p>
+          </sp>
+          <sp who="#spMelicerta">
+            <speaker>Melicerta.</speaker> <p>Du har önskat en gång och
+              <lb/> fått en gång. Plus 1 minus 1 är lika med
+              <lb/> noll. Det är subtraktion. Der återstår
+              <lb/> ingen rest.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Riktigt, men rysligt! Tag hela
+              <lb/> min räknekonst, men <stage>(snusar)</stage> låt mig för&#xad;<lb
+              break="no"/>nimma, att hos er fins en enda mensklig känsla
+              <lb/> qvar.</p>
+          </sp>
+          <sp who="#spNanna">
+            <speaker>Nanna</speaker> <stage>(långsamt och afbrutet, liksom i dröm&#xad;<lb
+              break="no"/>men).</stage> <p>Jag önskar ... 2 minus 2, lika med
+              <lb/> noll ... Jag önskar ... 12 gånger 4 gör
+              <lb/> 48 ... jag önskar ... 21, divideradt med 7,
+              <lb/> gör 3, jag önskar ... plus 9, att vi blifva men&#xad;<lb
+              break="no"/>niskor igen.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit</speaker> <stage>(nyser).</stage> <p>Prosit. <stage type="avista">(Den stora räknetaflan
+              <cb n="2"/>
+              öppnar sig, och <stage type="entrance" who="#Lucia">i dess ram står Lucia</stage> som ung
+              <lb/> fé med utsträckt spira. Musik. Mörker.)</stage></p>
+          </sp>
+          <sp who="#spLucia"> <lg>
+              <head>Lucias besvärjelse.</head>
+              <l>Aronda midô,</l>
+              <l>Calamba vitello!</l>
+              <l>Fugite, numeri!</l>
+              <l>Surgite animæ!</l>
+              <l>Villorna vika, och sanning består,</l>
+              <l>Öppna dig, knopp, för den blommande vår!</l>
+            </lg>
+          </sp>
+          <anchor xml:id="SpellEnd"/>
+          <stage>(När scenen ljusnar, återser man <persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">skolflickorna</persName> i
+            <lb/> deras förra gestalter, glada klappande händerna.
+            <lb/> Ziffror och kronor äro försvunna.)</stage>
+          <sp who="#spLucia">
+            <speaker>Lucia.</speaker> <p>Nej, behåll edra kronor! Är icke
+              <lb/> menniskan skapelsens krona? <stage>(<persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">Flickorna</persName> åter&#xad;<lb
+              break="no"/>taga sina kronor.)</stage></p>
+          </sp>
+          <sp who="#spNanna">
+            <speaker>Nanna.</speaker> <p>Jag drömde så löjligt .... att
+              <lb/> jag var en ziffra.</p>
+          </sp>
+          <sp who="#spFlora">
+            <speaker>Flora.</speaker> <p>Jag med. Och vår själ var <emph>qua&#xad;<lb
+              break="no"/>tuor species</emph>.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Det var icke så illa det, <persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">mina
+              <lb/> barn</persName> ... men måtta i allt!</p>
+          </sp>
+          <sp who="#spMelicerta">
+            <speaker>Melicerta.</speaker> <p>Och jag drömde, att <persName ref="#Facit">magistern</persName>
+              <lb/> lofvade oss <emph>berömliga</emph>, understruket.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Gjorde jag det? Ja, det är möj&#xad;<lb
+              break="no"/>ligt. Ni räknade, tror jag, bättre än jag.
+              <lb/> Men när jag tänker på, att mina tårar väga
+              <lb/> fem sjundedels centigram, att kärleken räk&#xad;<lb
+              break="no"/>nas i pulsslag och vänskap i mark och
+              <lb/> penni .... Uff, tack skall du ha, <persName ref="#Lucia">goda fé</persName>,
+              <lb/> som gjort <persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">de der isklimparne</persName> åter till folk!</p>
+          </sp>
+          <sp who="#spVaktmästaren">
+            <speaker>Vaktmästaren</speaker> <stage type="entrance" who="#Vaktmästaren">(i dörren).</stage> <p>Här är <persName ref="#Thomas">en nolla</persName>,
+              <lb/> som nödvändigt vill in.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Ha vi nu tid med <persName ref="#Röster">nollor</persName>? Här är
+              <lb/> allt summeradt och allt plus.</p>
+          </sp>
+          <sp who="#spThomas">
+            <speaker>Thomas</speaker> <stage type="entrance" who="#Thomas">(inträder med en korg).</stage> <p>Utom jag.
+              <lb/> De små barnen uppskatta mitt värde till en
+              <lb/> miljon. De stora påstå, att jag icke fins
+              <lb/> till. Om de stora ha rätt, är jag en nolla.</p>
+          </sp>
+          <sp who="#spNanna">
+            <speaker>Nanna.</speaker> <p>Liksom vi icke kände dig, <persName ref="#Thomas">jul&#xad;<lb
+              break="no"/>gubbe</persName>! Du är värd mer än alla ziffror i rad,
+              <lb/> du är den rikaste bland de rika, efter du
+              <lb/> gör så många lyckliga.</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit</speaker> <stage>(snusar)</stage> <p>Räkna ut det, den som
+              <lb/> kan! Och ändå är han den verkligaste verk&#xad;<lb
+              break="no"/>lighet!</p>
+          </sp>
+          <sp who="#spThomas">
+            <speaker>Thomas</speaker> <stage>(till <persName ref="#Nanna">Nanna</persName>).</stage> <p>Skattar du mig så
+              <lb/> högt, <persName ref="#Nanna">du allrararaste lilla numero ett</persName>? Nå,
+              <lb/> välj då ur min korg det vackraste du kan
+              <lb/> finna ... du och <persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nora">de andra hackorna</persName>! <stage>(Han
+              <lb/> bjuder sin korg åt alla.)</stage> Skola vi icke nu fira
+              <lb/> <persName ref="#Lucia">min gummas</persName> namnsdag?</p>
+          </sp>
+          <pb facs="38508-8.jpg"/><fw type="pageNum">173</fw>
+          <sp who="#spAnna #spBertha #spDora #spFlora #spHanna #spMelicerta #spMärtha #spNanna #spNora">
+            <speaker>Skolflickorna</speaker> <stage>(som i styckets början.)</stage> <p><persName ref="#Facit">Söta
+              <lb/> magistern</persName> ...</p>
+          </sp>
+          <sp who="#spFacit">
+            <speaker>Facit.</speaker> <p>Jaså. Är det nu åter den
+              <lb/> gamla visan! Det var en tid när jag kalla&#xad;<lb
+              break="no"/>des du och sades vara en nolla. Fira <persName ref="#Lucia">Lucia</persName>?
+              <lb/> Ja, det skola vi göra, så det sjunger i jul&#xad;<lb
+              break="no"/>granen! Hur skulle ej <persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">så perfekta ziffror</persName>
+              <lb/> fira <persName ref="#Lucia">Lucia</persName>?</p>
+          </sp>
+          <sp who="#spLucia">
+            <speaker>Fén Lucia</speaker> <stage>(under det att <persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">flickorna</persName> grupperas
+              <lb/> i zifferordning och <persName ref="#Thomas">Thomas</persName> sist som nolla.)</stage>
+            <lg>
+              <l>Liten ziffra flyger högt,</l>
+              <l>Mäter solens bana,</l>
+              <l>Letar ut hvad ingen sökt</l>
+              <l>Och du knapt kan ana,</l>
+              <l>Väger smått och väger stort.</l>
+              <l>Men på hjertats stängda port,</l>
+              <anchor type="hand" xml:id="handprat1start"/>
+              <l>Der guldtråden väfves,</l>
+              <anchor type="hand" xml:id="handprat1slut"/>
+              <l>Klappar hon förgäfves.</l>
+            </lg>
+            <lg>
+              <l>Ziffran kom till <persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora"><orgName ref="#Skolan">skolans</orgName> barn</persName>:</l>
+              <l>Får jag taflan krita?</l>
+              <anchor type="hand" xml:id="handprat2start"/>
+              <l>Får jag nysta lexans garn</l>
+              <anchor type="hand" xml:id="handprat2slut"/>
+              <l>Och din griffel slita?</l>
+              <l>— Ziffra, kom, och kom igen!</l>
+              <l>Du skall bli en nyttig vän;</l>
+              <l>Blif min tjensteflicka</l>
+              <l>Och min tafla pricka!</l>
+            </lg>
+            <lg>
+              <l>Men en sak, en sak för dig</l>
+              <l>Kan jag ej fördölja:</l>
+              <l>Ack, jag är <emph>oräknelig,</emph></l>
+              <l>Liksom hafvets bölja!</l>
+              <l>Böljan kommer, böljan går,</l>
+              <l>Ingen ziffra mätt dess spår .....</l>
+              <l>Nu så lös, <persName ref="#Lucia">Lucia</persName>,</l>
+              <l><persName ref="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora">Alla fångar</persName> fria!</l>
+            </lg>
+          </sp>
+          <stage>(<persName ref="#Lucia">Lucias</persName> fest börjar för öppen ridå, och <persName ref="#Thomas">julgub&#xad;<lb
+            break="no"/>ben</persName> utdelar sina gåfvor.)</stage>
+        </div>
+      </div>
+      <gap reason="irrelevant"/><!-- annat inslag -->
+    </body>
+    <back>
+      <div type="editorial">
+        <listPerson>
+          <listPerson type="cast">
+            <person xml:id="Nanna" sex="female">
+              <persName>
+                <forename>Nanna</forename>
+              </persName>
+              <persName from-custom="#SpellStart" to-custom="#SpellEnd">
+                <forename type="alias">N:o 1</forename>
+              </persName>
+              <age>barn</age>
+            </person>
+            <person xml:id="Hanna" sex="female">
+              <persName>
+                <forename>Hanna</forename>
+              </persName>
+              <persName from-custom="#SpellStart" to-custom="#SpellEnd">
+                <forename type="alias">N:o 2</forename>
+              </persName>
+              <age>barn</age>
+            </person>
+            <person xml:id="Anna" sex="female">
+              <persName>
+                <forename>Anna</forename>
+              </persName>
+              <persName from-custom="#SpellStart" to-custom="#SpellEnd">
+                <forename type="alias">N:o 3</forename>
+              </persName>
+              <age>barn</age>
+            </person>
+            <person xml:id="Märtha" sex="female">
+              <persName>
+                <forename>Märtha</forename>
+              </persName>
+              <persName from-custom="#SpellStart" to-custom="#SpellEnd">
+                <forename type="alias">N:o 4</forename>
+              </persName>
+              <age>barn</age>
+            </person>
+            <person xml:id="Bertha" sex="female">
+              <persName>
+                <forename>Bertha</forename>
+              </persName>
+              <persName from-custom="#SpellStart" to-custom="#SpellEnd">
+                <forename type="alias">N:o 5</forename>
+              </persName>
+              <age>barn</age>
+            </person>
+            <person xml:id="Melicerta" sex="female">
+              <persName>
+                <forename>Melicerta</forename>
+              </persName>
+              <persName from-custom="#SpellStart" to-custom="#SpellEnd">
+                <forename type="alias">N:o 6</forename>
+              </persName>
+              <age>barn</age>
+            </person>
+            <person xml:id="Nora" sex="female">
+              <persName>
+                <forename>Nora</forename>
+              </persName>
+              <persName from-custom="#SpellStart" to-custom="#SpellEnd">
+                <forename type="alias">N:o 7</forename>
+              </persName>
+              <age>barn</age>
+            </person>
+            <person xml:id="Dora" sex="female">
+              <persName>
+                <forename>Dora</forename>
+              </persName>
+              <persName from-custom="#SpellStart" to-custom="#SpellEnd">
+                <forename type="alias">N:o 8</forename>
+              </persName>
+              <age>barn</age>
+            </person>
+            <person xml:id="Flora" sex="female">
+              <persName>
+                <forename>Flora</forename>
+              </persName>
+              <persName from-custom="#SpellStart" to-custom="#SpellEnd">
+                <forename type="alias">N:o 9</forename>
+              </persName>
+              <age>barn</age>
+            </person>
+            <person xml:id="Facit" sex="male">
+              <persName>
+                <roleName>magister</roleName>
+                <surname>Facit</surname>
+              </persName>
+              <occupation scheme="#HISCO" code="13320">lärare</occupation>
+            </person>
+            <person xml:id="Thomas" sex="male">
+              <persName>
+                <forename>Thomas</forename>
+              </persName>
+              <occupation>jultomte</occupation>
+            </person>
+            <person xml:id="Lucia" sex="female">
+              <persName>
+                <forename>Lucia</forename>
+              </persName>
+            </person>
+            <person xml:id="Vaktmästaren" sex="male">
+              <occupation scheme="#HISCO" code="55130">skolvaktmästare</occupation>
+            </person>
+            <listPerson>
+              <personGrp xml:id="Röster" sex="unknown"/>
+            </listPerson>
+          </listPerson>
+          <listPerson type="noncast">
+            <listPerson type="fictive">
+              <person xml:id="Mamma" sex="female"/>
+              <person xml:id="Pappa" sex="male"/>
+              <person xml:id="Robert" sex="male">
+                <persName>
+                  <forename>Robert</forename>
+                </persName>
+              </person>
+              <listPerson>
+                <personGrp xml:id="Får" sex="female" role="animal" size="5"/>
+              </listPerson>
+              <person xml:id="Bässe" sex="male" role="animal"/>
+            </listPerson>
+          </listPerson>
+          <listRelation>
+            <relation type="personal" name="gift" mutual="#Lucia #Thomas"/>
+            <relation type="social" name="lärare" active="#Facit" passive="#Skolan"/>
+            <relation type="social" name="skolvaktmästare" active="#Vaktmästaren" passive="#Skolan"/>
+            <relation type="social" name="elev" active="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora" passive="#Skolan"/>
+            <relation type="other" name="förtrollar" active="#Thomas" passive="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora" from-custom="#SpellStart" to-custom="#SpellEnd"/>
+            <relation type="other" name="befriar" active="#Lucia" passive="#Anna #Bertha #Dora #Flora #Hanna #Melicerta #Märtha #Nanna #Nora" from-custom="#SpellEnd"/>
+            <relation type="other" name="vill.in" active="#Röster" passive="#Skolan"/>
+            <relation type="other" name="nolla" active="#Facit #Röster" passive="#Lucia" from-custom="#SpellStart" to-custom="#SpellEnd"/>
+            <relation type="other" name="hindrar" active="#Vaktmästaren" passive="#Röster"/>
+            <relation type="other" name="räkneexempel" active="#Mamma #Pappa" passive="#Facit"/>
+            <relation type="personal" name="dotter" active="#Nanna" passive="#Mamma #Pappa"/>
+            <relation type="other" name="räkneexempel" active="#Robert" passive="#Facit #Melicerta"/>
+            <relation type="other" name="räkneexempel" active="#Bässe #Får" passive="#Facit #Hanna"/>
+          </listRelation>
+        </listPerson>
+        <listOrg>
+          <org xml:id="Skolan"/>
+        </listOrg>
+        <fs type="hand" xml:id="handprat1"><!-- guldtråden väfves -->
+          <f name="prat"><symbol value="vävning"/></f>
+          <f name="typ"><symbol value="symboliskt"/></f>
+          <f name="vem" fVal="#Lucia"/>
+          <f name="start" fVal="#handprat1start"/>
+          <f name="slut" fVal="#handprat1slut"/>
+        </fs>
+        <fs type="hand" xml:id="handprat2"><!-- nysta lexans garn -->
+          <f name="prat"><symbol value="nystning"/></f>
+          <f name="typ"><symbol value="symboliskt"/></f>
+          <f name="vem" fVal="#Lucia"/>
+          <f name="start" fVal="#handprat2start"/>
+          <f name="slut" fVal="#handprat2slut"/>
+        </fs>
+      </div>
+    </back>
+    <anchor xml:id="playend"/>
+  </text>
+</TEI>

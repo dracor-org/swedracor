@@ -1,0 +1,1548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../stylesheets/tiny_TEI_template.css"?>
+<?oxygen RNGSchema="../schemas/tei_all.rng" type="xml"?>
+<!-- $Id: AgrellA_EnLektion.xml 114246 2015-03-30 09:50:04Z eva $ -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>En lektion</title>
+        <title type="sub">Konversation i en akt</title>
+        <author xml:id="AgrellA">
+          <persName>
+            <forename>Alfhild</forename>
+            <surname>Agrell</surname>
+          </persName>
+          <idno type="LIBRIS">http://libris.kb.se/auth/32024</idno>
+          <idno type="Litteraturbanken">http://litteraturbanken.se/#!forfattare/AgrellA</idno>
+          <idno type="SBL">http://www.nad.riksarkivet.se/sbl/artikel/5599</idno>
+        </author>
+        <sponsor>
+          <name>Riksteatern, anslagsförvaltare</name>
+        </sponsor>
+        <funder>
+          <name>Vetenskapsrådet</name>
+        </funder>
+        <funder>
+          <name>Riksbankens Jubileumsfond</name>
+        </funder>
+        <editor>
+          <name>Dramawebben</name>
+        </editor>
+        <principal>
+          <persName>Marika V. Lagercrantz</persName>
+        </principal>
+        <respStmt>
+          <resp>kodning</resp>
+          <persName xml:id="LindgrenU">Ulrika Lindgren</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>korrekturläsning</resp>
+          <persName xml:id="LagercrantzMV">Marika V. Lagercrantz</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>korrekturläsning</resp>
+          <persName xml:id="MasreliezML">Marie-Louise Masreliez</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>redigering</resp>
+          <persName xml:id="OlssonLJ">Leif-Jöran Olsson</persName>
+          <orgName>Språkbanken</orgName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Dramawebben</publisher>
+        <address>
+          <addrLine>http://www.dramawebben.se</addrLine>
+        </address>
+        <idno type="Dramawebben">AgrellA_EnLektion</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/se/">
+            <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+	  <!-- Vi vill ha en analytic här men eftersom denna del verkligen är
+	       tryckt 1884 som http://libris.kb.se/bib/1733676
+	       och endast sammanbunden 1886 som http://libris.kb.se/bib/1733674
+	       vilket faksimilen är en avbildning av ...
+	       Eftersom endast monogr kan innehålla imprint ... så behålls tryckåret. /ljo
+	  -->
+	  <analytic>
+            <author sameAs="#AgrellA">
+              <persName>Alfhild Agrell</persName>
+            </author>
+            <title level="m" type="main">En lektion</title>
+            <title level="m" type="sub">Konversation i en akt</title>
+            <idno type="LIBRIS">http://libris.kb.se/bib/1733676</idno>
+	  </analytic>
+          <monogr>
+            <author sameAs="#AgrellA">
+              <persName>Alfhild Agrell</persName>
+            </author>
+	    <title>
+	      <title level="m" type="main">Ensam</title>
+	      <title level="m" type="sub">skådespel i tre akter</title>
+              <title level="m" type="main">En lektion</title>
+              <title level="m" type="sub">Konversation i en akt</title>
+              <idno type="LIBRIS">http://libris.kb.se/bib/1733674</idno>
+	    </title>
+              <imprint>
+              <pubPlace>Stockholm</pubPlace>
+              <publisher>Jos. Seligmann &amp; C:is förlag</publisher>
+	      <!-- 
+		   Denna del är tryckt 1884 som http://libris.kb.se/bib/1733676
+		   men sammanbunden 1886 som http://libris.kb.se/bib/1733674. /ljo
+	      -->
+              <date when="1884">1884</date>
+              <respStmt>
+                <resp>tryckning</resp>
+                <orgName>Gernandts boktryckeri-aktiebolag</orgName>
+              </respStmt>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Dramawebben är ett digitalt arkiv över upphovsrättslig fri svensk dramatik. Dramatexterna
+          finns återgivna i fulltext och är publicerade antingen i sk faksimil, ett pdf-dokument där
+          originaltrycket återges som en digital fotokopia, eller i bearbetningsbar text, ett
+          pdf-dokument med text och bild som kan användas för redigering. Dramawebben växer i takt
+          med att nya verk blir kända. Med det digitala pjäsmaterialet tillgängliggör och
+          aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+          förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+          sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
+      </samplingDecl>
+      <classDecl>
+        <taxonomy xml:id="HISCO">
+          <biblStruct>
+            <monogr>
+              <author>Marco H.D. van Leeuwen</author>
+              <author>Ineke Maas</author>
+              <author>Andrew Miles</author>
+              <title>HISCO Historical International Standard Classification of Occupations</title>
+              <idno type="ISBN">90-5867-196-8</idno>
+              <imprint>
+                <publisher>Leuven University Press</publisher>
+                <pubPlace>Leuven</pubPlace>
+                <date when="2002">2002</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+        </taxonomy>
+      </classDecl>
+      <tagsDecl>
+        <rendition>
+	        <!-- Scenanvisningar anges med kursiv stil -->
+	        <!-- Scenanvisningar i sp-element är inline -->
+	        <!-- Stycken i repliker är indragna -->
+        </rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="sv">Swedish</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:id="AgrellA_EnLektion">
+    <anchor xml:id="playstart"/>
+    <front>
+      <pb facs="37040-0.jpg"/><!-- omslag -->
+      <gap reason="irrelevant"/>
+      <pb facs="37040-1.jpg"/><!-- insida omslag -->
+      <pb facs="37040-2.jpg"/><!-- tom sida -->
+      <pb facs="37040-3.jpg"/><!-- tom sida -->
+      <pb facs="37040-4.jpg"/><!-- titelsida bok -->
+      <gap reason="irrelevant"/>
+      <pb facs="37040-5.jpg"/><!-- titelsida pjäs -->
+      <gap reason="irrelevant"/>
+      <pb facs="37040-6.jpg"/>
+      <castList>
+        <head>Personer:</head>
+        <castItem>
+          <role xml:id="spÅke">
+            <persName ref="#Åke">ÅKE</persName>
+            </role>, <roleDesc>löjtnant och possesionat</roleDesc>.
+        </castItem>
+        <castItem>
+          <role xml:id="spElsa">
+            <persName ref="#Elsa">ELSA</persName>
+            </role>, <roleDesc>hans hustru</roleDesc>.
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <pb facs="37040-7.jpg"/>
+      <div type="act" n="1">
+        <stage type="setting" who="#Elsa #Åke">Scenen föreställer en vacker sängkammare med alkov, för 
+          <lb/> hvilken gardiner äro dragna. Tvänne garderober. En skärm 
+          <lb/> afdelar ett hörn. I fonden synes en vacker trädgård. Solned&#xad;<lb
+          break="no"/>gång. Elsa ligger, med håret vårdslöst hopviradt iklädd en ele&#xad;<lb
+          break="no"/>gant men skrynklig morgondrägt, på en soffa. Åke hvilar på en 
+          <lb/> chaiselongue vid fönstret, läsande.</stage>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Gud, hvad jag har tråkigt!</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Nå än jag då.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Har du? Ack så roligt!</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Att jag har tråkigt?</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Nej inte det. Men att du ändtligen kommit till
+          <lb/> klar insigt om landtlifvets behag.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Det har väl gerna inte varit möjligt annat med dig
+          <lb/> till lärarinna.</p> <stage>Drar upp persiennen, solen strömmar in.</stage>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Usch den der otäcka solen! Den gör mig riktigt
+          <lb/> nervös. Upp och ned dag ut och dag in! Om den
+          <pb facs="37040-8.jpg"/><fw type="pageNum">6</fw>
+          åtminstone gick ned och upp för ombytes skull. Söta
+          <lb/> <persName ref="#Åke">Åke</persName>, ha ned persiennen. Du vet ju att jag har hufvud&#xad;<lb
+          break="no"/>värk, och det der skenet verkar lika angenämnt som en
+          <lb/> smältugn.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE</speaker> <stage>ser längtansfullt utåt.</stage>
+          <p>Ja, det är verkligen obehagligt.</p> <stage>Stänger persiennen till
+          <lb/> hälften.</stage>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Ja, ser du det. Och ändå var det inte längesedan
+          <lb/> det hette: <persName ref="#Elsa">Elsa</persName>, min älskling, solen går ned, eller:
+          <lb/> <persName ref="#Elsa">Elsa</persName>, min älskling, solen går upp — precis som om det
+          <lb/> vore ett fenomen i stället för en alldaglighet.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Jag bjöd på det vackraste skådespel vi ha. Det
+          <lb/> fins inga teatrar på landet, som du vet.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA</speaker> <stage>suckande.</stage>
+          <p>Nej, gudnås. Hör du, <persName ref="#Åke">Åke</persName>. Hur länge är det som
+          <lb/> vi varit »possesionater», nu?</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Fyra månader.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Fyra månader bara! Vänta låt mig se! Vi gifte 
+          <lb/> oss i Mars, tillbringade hela April på resor, kommo hit 
+          <lb/> i Maj, och nu ha vi September. Ja, det slår in, det.
+          <lb/> <stage>Med betoning.</stage> Jaa! Ack vår resa, vår förtjusande resa!</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE</speaker> <stage>lifligt.</stage>
+          <p>Ja, den var i sanning förtjusande! Att få se så
+          <lb/> mycket skönt — — <stage>Sömnigt.</stage> Så många skönheter, me&#xad;<lb
+          break="no"/>nar jag.</p>
+        </sp>
+        <pb facs="37040-9.jpg"/><fw type="pageNum">7</fw>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Skönheter! Jag såg då inte en enda, det är då sä&#xad;<lb
+          break="no"/>kert. <stage>Lifligt.</stage>. Mins du den der mystiske italienaren, som
+          <lb/> brukade skicka mig blommor hvar morgon och som rul&#xad;<lb
+          break="no"/>lade med ögonen så här <stage>rullar med ögonen</stage>, bara jag gick
+          <lb/> förbi? Och den der engelska missen sedan! Hon med
+          <lb/> långa näsan och mössan, som såg ut som en pudding&#xad;<lb
+          break="no"/>form. <stage>Talar salvelsefullt</stage>. <anchor type="hand" xml:id="handarbete1start"/>»<persName ref="#Elsa #Åke">Unga makar</persName>, tänk på edra
+          <lb/> själar, kärleken går snärjd i satans garn»<anchor type="hand" xml:id="handarbete1slut"/> — — Nå, än 
+          <lb/> polacken då, som sa’, att om <emph>jag</emph> varit i hans fäder&#xad;<lb
+          break="no"/>nesland skulle han ha blifvit nihilist med ens. Om
+          <lb/> det var för att rädda mig från min »förtryckare», eller
+          <lb/> för att spränga mig i luften, det vet jag inte.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Troligen det ena först och det andra se’n.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA</speaker> <stage>suckande.</stage>
+          <p>Ja, det var då, det!</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE</speaker> <stage>härmar henne.</stage>
+          <p>Ja, det var då, det!</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Säg inte efter mig, det låter så försmädligt.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>När jag adopterat dina tankar måtte jag väl också
+          <lb/> kunna få adoptera ditt uttrycksätt. Det är alltid synd
+          <lb/> att skilja syskon åt.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA</speaker> <stage>reser sig upp till hälften.</stage>
+          <p><emph>Tycker</emph> du att vi ha roligt?</p>
+        </sp>
+        <pb facs="37040-10.jpg"/><fw type="pageNum">8</fw>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Nej, det kan då ingen skylla.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Men det har du tyckt.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Det var bara för att hålla modet uppe på dig.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA</speaker> <stage>klagande.</stage>
+          <p><emph>Kan</emph> du förstå hvarför våra föräldrar skulle köpa
+          <lb/> oss en landtegendom!</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Troligen för att vi skulle kunna gifta oss.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Åh, det hade vi nog kunnat ändå.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Men lefva.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Kallar du det här för att lefva, du?</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE</speaker> <stage>ser sig omkring.</stage>
+          <p>Ja, det fins folk, som skulle gifva det ett sådant
+          <lb/> namn.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Att vara som inmurade, att inte se en menniska,
+          <lb/> — att —</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Men du hade ju ingenting emot att flytta på landet.</p>
+        </sp>
+        <pb facs="37040-11.jpg"/><fw type="pageNum">9</fw>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Idel oförstånd. Jag hade förestält mig landtlifvet
+          <lb/> helt annorlunda. — Med utfärder, båtpartin, kärrpartin,
+          <lb/> sällskapsspektakler, ridter — och grannar, massor af
+          <lb/> grannar framför allt.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE</speaker> <stage>säfligt.</stage>
+          <p>Nå ja, grannar ha vi ju.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Ja, om du räknar komministern, som ser ut att ha
+          <lb/> bott på Noachs ark till dess han tog pastoralexamen,
+          <lb/> och brukspatron, som har snufva hela året om, så man 
+          <lb/> hinner inte mer än ropa prosit och gud hjelp.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Du glömmer <persName ref="#Holms">Holms</persName>.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Neej, men en fluga gör ingen sommar — och för  
+          <lb/> öfrigt — så är <persName ref="#Holms">herrn</persName> gammal.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Men <persName ref="#Holms">frun</persName> är ung.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Ja — men det är inte precis det samma, det.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Nej, det medgifves.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Ja, ser du, jag bara menar, att unga herrar alltid
+          <lb/> äro trefligare än gamla.</p>
+        </sp>
+        <pb facs="37040-12.jpg"/><fw type="pageNum">10</fw>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Det kan jag inte finna. Jag för min del tycker
+          <lb/> mycket bra om gamla herrar — nota bene när de ha
+          <lb/> unga fruar.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Hvad — hvad menar du?</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Kors — — jag bara menar, att unga fruar äro tref&#xad;<lb
+          break="no"/>ligare än gamla.</p> <stage>Gäspar.</stage>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Det är alldeles märkvärdigt hvad du har blifvit för&#xad;<lb
+          break="no"/>ändrad på några dagar, <persName ref="#Åke">Åke</persName>. Du har blifvit — —
+          <lb/> rent ut sagdt — odräglig. Du bryr dig inte en smul
+          <lb/> hvarken om mig eller min trefnad. Du bara gäspar
+          <lb/> och sträcker dig; du ligger till både elfva och tolf; du
+          <lb/> föreslår inga promenader; du ger mig inga blommor;
+          <lb/> ingenting är dig i lag; du snäser folket. — Nej, då var
+          <lb/> det mycket trefligare när du steg upp klockan sex och
+          <lb/> gick på dina otäcka fält och arbetade som en riktig dag&#xad;<lb
+          break="no"/>lönare. Då var du åtminstone glad när du kom igen. Ja,
+          <lb/> jag försäkrar, att jag skulle få ligga till både tu och tre
+          <lb/> utan att du ens skulle fråga hur jag mår. — Du måtte
+          <lb/> väl inte vara sjuk!</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Åh, ingenting af betydenhet. — Det är bara tråkig&#xad;<lb
+          break="no"/>heten, som brutit ut hos mig lite senare än hos dig
+          <lb/> — det är alltsammans.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Som om det inte vore nog! Jag undrar om det fins
+          <lb/> någon värre sjuka! <stage>Matt.</stage> Hvad är klockan?</p>
+        </sp>
+        <pb facs="37040-13.jpg"/><fw type="pageNum">11</fw>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Åtta på morgonen.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>På morgonen?</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE</speaker> <stage>ser menande på hennes mor&#xad;<lb
+          break="no"/>gondrägt.</stage>
+          <p>Förlåt — — jag sa’ miste.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA</speaker> <stage>klagande.</stage>
+          <p>Hvem vill du jag ska’ klä’ mig för! Får och grisar
+          <lb/> äro ju de enda menniskor jag möter. Och frihet måste
+          <lb/> man väl åtminstone få ha.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Förbannadt sant!</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA</speaker> <stage>häpen.</stage>
+          <p>Du svär!</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Ja, friheten är skäl att hålla på.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Men inte på ovanorna.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE</speaker> <stage>menande.</stage>
+          <p>Jaså — — inte det.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Läs lite för mig, är du snäll. — Men någonting
+          <lb/> roligt — inte poesi och samhällslära; det är det
+          <lb/> värsta som fins.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Orkar inte.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Orkar du inte?</p>
+        </sp>
+        <pb facs="37040-14.jpg"/><fw type="pageNum">12</fw>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Ja, du vet sjelf hur det käns. Du har ju inte
+          <lb/> orkat röra vid pianot på en hel vecka, fast jag bedt
+          <lb/> dig hvar dag.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Det är skilnad, det. Det ena är ett arbete, det
+          <lb/> andra ett nöje.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Mycket riktigt. Också undviker jag att arbeta som
+          <lb/> du ser.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Är du säker, att inte bloden står dig åt hufvudet,
+          <lb/> <persName ref="#Åke">Åke</persName>. Jag tycker det låter precis som om du skulle yra.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Jag! — Nej, visst inte.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Tyst! jag tror det åker! <stage>Springer fram till fönstret.</stage>
+          <lb/> Nej, naturligtvis inte. Grannarna måtte tro att vi odla
+          <lb/> kolerabaciller här på <placeName>Tomtebo</placeName>! Ack <placeName>Stockholm</placeName>!</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Ja, ack <placeName>Stockholm</placeName>!</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Säg inte efter mig, har jag sagt. — Der är man
+          <lb/> inte beroende af sina grannar, minsann. Der har man
+          <lb/> theatrarna —</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p><orgName ref="#Blancheteatern">Blanch</orgName> —</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Torget —</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p><placeName>Strömparterrn</placeName> —</p>
+        </sp>
+        <pb facs="37040-15.jpg"/><fw type="pageNum">13</fw>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p><orgName ref="#Tivoli">Tivoli</orgName> —</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p><orgName ref="#Variété">Variété</orgName> —</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Usch — —! Hör du <persName ref="#Åke">Åke</persName>, du. Går det mycket,
+          <lb/> mycket oanständigt till på <orgName ref="#Variété">Variété</orgName>?</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Inte alls numera.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Jaså — — inte det. Jag hade tänkt be dig föra
+          <lb/> mig dit — vid tillfälle, men nu får det väl vara. Man
+          <lb/> ska’ inte uppmuntra sådana der etablissementer. Nej,
+          <lb/> tacka vet jag då de <emph>stora</emph> artisterna. Ack <persName ref="#Coquelin">Coquelin</persName>
+          <lb/> Jag var alldeles galen i <persName ref="#Coquelin">Coquelin</persName>!</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Och jag i <persName ref="#Judic">Judic</persName>.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>I <persName ref="#Judic">Judic</persName>! Nå ja, tycke och smak kan då ingen
+          <lb/> menniska förta’.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Har du någonsin sett en sådan <persName ref="#Niniche">Niniche</persName>?</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA</speaker> <stage>rynkar på näsan.</stage>
+          <p>I filt —</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Ja, skulle du ha föredragit att hon varit utan?</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Och ögon stora som thekoppar.</p>
+        </sp>
+        <pb facs="37040-16.jpg"/><fw type="pageNum">14</fw>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Ju mera nektar gömma de.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA</speaker> <stage>fördjupad i hågkomster.</stage>
+          <p>Och en chinesisk ambassad.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Hva’!</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Den bor på <orgName ref="#GrandHôtel">Grand</orgName> — det har stått i tidningarna.
+          <lb/> Tänk, att få se en riktigt äkta chines! Han ser na&#xad;<lb
+          break="no"/>turligtvis ut så här. <stage>Vrider hastigt upp håret, håller kläd&#xad;<lb
+          break="no"/>ningen snäf, går sakta upp och ned, flägtande sig med en
+          <lb/> stor solfjäder. Kastar sedan hastigt bort solfjädern, skakar
+          <lb/> ned håret och slår armarna omkring <persName ref="#Åke">Åkes</persName> hals.</stage> Kära älskade
+          <lb/> <persName ref="#Åke">Åke</persName>, nog vet du, att jag håller mest af dig i hela
+          <lb/> verlden — men det kan inte hindra att jag är färdig
+          <lb/> att dö af ledsnad ändå.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Alldeles som jag.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Är det riktigt säkert det, eller säger du inte så
+          <lb/> bara för att göra mig glad?</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Nej, jag försäkrar — att jag är mycket ledsen —</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Men det är inte en vecka sedan du var fullkom&#xad;<lb
+          break="no"/>lig entusiast för landet.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Gammal surdeg! Man hör så länge talas om saker,
+          <lb/> att man slutligen anser sig förpligtad att tro på dem.
+          <lb/> Jag trodde verkligen, att jag njöt af »naturens mäktiga
+          <pb facs="37040-17.jpg"/><fw type="pageNum">15</fw>
+          skönhet», som det så vackert heter, af tanken att stå
+          <lb/> på egen torfva och genom eget arbete skapa egen
+          <lb/> existens — men det var bara en inlärd lexa. Tacka
+          <lb/> vet jag då verldsmannens fjärilslif. Att slå dank är
+          <lb/> och förblir en gentlemannasport, om också något kring&#xad;<lb
+          break="no"/>skuren.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Men — då — du —! Om vi skulle fara till
+          <lb/>
+          <placeName>Stockholm</placeName> — — bara på några dagar?</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE</speaker> <stage>obehagligt öfverraskad.</stage>
+          <p>Till <placeName>Stockholm</placeName>! <stage>Hämtar sig.</stage> Ja, att vi inte kom&#xad;<lb
+          break="no"/>mit att tänka på det förut!</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA</speaker> <stage>andlös.</stage>
+          <p>Du vill således!</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE</speaker> <stage>vänder sig bort.</stage>
+          <p>Visst vill jag.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA</speaker> <stage>faller <persName ref="#Åke">Åke</persName> om halsen och
+          <lb/> kysser honom.</stage>
+          <p>O! — Aj, så det sticks!</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Hvem vill du jag ska’ raka mig för? Höns och
+          <lb/> gäss äro ju de enda menniskor jag möter.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Nå, än jag då!</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Åh, vi mötas inte — <stage>Ser på klockan.</stage> Skynda vi
+          <lb/> oss, hinna vi resa redan i qväll. Tåget passerar sta&#xad;<lb
+          break="no"/>tionen kl. 1 i natt, och vi ha ju bara två mil att åka.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Redan i qväll!</p>
+        </sp>
+        <pb facs="37040-18.jpg"/><fw type="pageNum">16</fw>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Ja, jag längtar att komma ut och skaka arbets&#xad;<lb
+          break="no"/>dammet af mig. Jag tycker att jag luktar både stall
+          <lb/> och bonde, som du uttryckte dig häromdagen.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Vi resa, vi resa! Åh, jag tror jag qväfs af glädje.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE</speaker> <stage>förer <persName ref="#Elsa">Elsa</persName> fram till fönstret,
+          <lb/> som hon öppnar.</stage>
+          <p>Känn så det doftar från klöfverängen, och se hur
+          <lb/> stilla och blank sjön ligger derborta.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>En enda mun Stockholmsluft kommer att verka
+          <lb/> mycket mer uppfriskande. — Vi resa ju, — det är ju
+          <lb/> riktigt sant?</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE</speaker> <stage>kort.</stage>
+          <p>Ja.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p><persName ref="#Åke">Åke</persName> söt!</p> <stage>Omfamnar <persName ref="#Åke">Åke</persName>, rycker sedan upp byrålådor m. m.</stage>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Men det är sant! — — Pengar!</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Det har du der.</p> <stage>Nickar mot chiffoniern.</stage>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Aflagda till en skördemaskin, ja.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA</speaker> <stage>talar groft och i näsan.</stage>
+          <p>»Maskiner förderfva arbetarne <stage>nyser,</stage> utsuga jorden,
+          <lb/> <stage>nyser</stage>, höja arbetslönerna <stage>nyser</stage>, och gör arbetsgifvaren till
+          <lb/> en nolla» <stage>nyser mycket hårdt.</stage> Känner du igen bruks&#xad;<lb
+          break="no"/>patron?</p>
+        </sp>
+        <pb facs="37040-19.jpg"/><fw type="pageNum">17</fw>
+        <sp who="#spÅke">
+          <speaker>ÅKE</speaker> <stage>skrattande.</stage>
+          <p>Du får ju inte härmas!</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Det kan jag inte låta bli. Vet du jag tror, att
+          <lb/> om jag någon gång kommer så högt upp som det är
+          <lb/> möjligt att komma — ja, jag menar i en annan verld
+          <lb/> — så kommer jag ändå att — — <stage>låtsar blåsa i basun.</stage>
+          <lb/> O, hvad jag är glad!</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE</speaker> <stage>allvarligt.</stage>
+          <p>Men jag fruktar det är orätt att ta’ de der pengar&#xad;<lb
+          break="no"/>na. Jag behöfver nödvändigt en skördemaskin och jag
+          <lb/> kan inte få dem ersatta. Du vet, att såväl dina som 
+          <lb/> mina föräldrar ansträngde sig till det yttersta för att
+          <lb/> skaffa oss den här egendomen — —. Men du som är
+          <lb/> »min bättre hälft», ska’ få afgöra. Men jag ber dig:
+          <lb/> betänk dig väl.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Äro de der pengarna dina eller inte?</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Mina.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Gör du någon menniska orätt genom att ta’ dem.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Bara mig sjelf.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA</speaker> <stage>smeksamt.</stage>
+          <p>Nå — då — då kan du ju förlåta dig sjelf — så
+          <lb/> är den saken hjelpt. Säg, visst resa vi?</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Begär inte bättre sjelf. Jag bara — ansåg det vara
+          <lb/> en samvetssak att — — —. Nå! Men nu måste vi
+          <lb/> skynda oss om vi skola hinna med.</p>
+        </sp>
+        <pb facs="37040-20.jpg"/><fw type="pageNum">18</fw>
+        <stage type="exit" who="#Elsa"/>
+        <sp who="#spElsa">
+          <speaker>ELSA</speaker> <stage>börjar draga fram en koffert
+          <lb/> ur ena garderoben.</stage>
+          <p>Söta du, hjelp mig! <stage type="entrance" who="#Elsa">Ringer.</stage> Om jag begriper hvar
+          <lb/> <persName ref="#Sophie">Sophie</persName> håller hus.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE</speaker> <stage type="exit" who="#Elsa #Åke"/>
+          <stage>hjelper <persName ref="#Elsa">Elsa</persName>,<stage type="entrance" who="#Elsa #Åke"/><stage type="exit" who="#Åke"/> tar sedan fram
+          <lb/> en kappsäck ur andra garde&#xad;<lb
+          break="no"/>roben tillika med en löjtnants&#xad;<lb
+          break="no"/>uniform. <stage type="entrance" who="#Åke"/> Börjar sedan taga
+          <lb/> fram linne ur chiffoniern.</stage>
+          <p>Hon gick nyss heldagsklädd förbi med <persName ref="#Jansson">Jansson</persName>. De
+          <lb/> tycktes alls inte »ha tråkigt».</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Men så äro de inte gifta heller.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Ett mycket talande skäl.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Ja, jag bara menar, att när man <emph>är</emph> gift, så kan
+          <lb/> man inte tala om att gifta sig, och det är ändå det
+          <lb/> roligaste ämne som fins.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Också tenteras det flitigt —. Skada att bara så
+          <lb/> många blir kuggade.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Sa’ du något?</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Nej ingenting.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Nå, så får jag hjelpa mig sjelf, då. Men om jag
+          <lb/> kan förstå hvarför sorgen och glädjen alltid ska’ sätta
+          <lb/> sig i halsen på folk. Det käns precis som om jag inte
+          <lb/> skulle kunna andas — och ändå skulle jag riktigt vilja
+          <lb/> andas ut, nu. Du hvisslar?</p>
+        </sp>
+        <pb facs="37040-21.jpg"/><fw type="pageNum">19</fw>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Det är bara glädjen, som skaffar sig luft — den
+          <lb/> hade det litet för trångt här nere. <stage>Tar sig om halsen.</stage>
+          <lb/> Men plocka nu fram alla dina effekter, så packa vi sedan
+          <lb/> på en gång. Eljest kan det gå som i <placeName>Köln</placeName>, der du
+          <lb/> packade ur kofferten sex gånger för att se om alt var
+          <lb/> med, och ändå for ifrån hälften.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Hör du — hvad tror du husmamsellen kommer
+          <lb/> att säga?</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE</speaker> <stage>med dold ironi.</stage>
+          <p>Hon kommer troligen inte ens att märka att du är
+          <lb/> borta. Hvar tusan är nyckeln till klaffen!</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA</speaker> <stage>som öppnat kofferten.</stage>
+          <p>Oh! <stage>Tar fram en charmant baldrägt.</stage> <persName ref="#Åke">Åke</persName>, <persName ref="#Åke">Åke</persName>, men
+          <lb/> så se då! Mins du när vi köpte <emph>den</emph>.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>I <placeName>Paris</placeName>, ja. Halfva min löjtnantslön gick åt. Har
+          <lb/> jag nu inga strumpor — — </p> <stage>Rifver i lådan, men observerar
+          <lb/> under tiden <persName ref="#Elsa">Elsa</persName>.</stage>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Är den inte förtjusande! <stage type="business">Lägger klädningen på en stol
+          <lb/> och sätter sig beundrande framför.</stage> Men så se då, <persName ref="#Åke">Åke</persName>
+          </p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Jag ser — jag ser — men jag ser inga strumpor.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Strumpor — —! Nog hade det varit bra stor synd
+          <lb/> att begrafva den här på landet —</p>
+        </sp>
+        <pb facs="37040-22.jpg"/><fw type="pageNum">20</fw>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Precis lika stor synd som att pensionera min uni&#xad;<lb
+          break="no"/>form. <stage>Med tonvigt.</stage> »Du skall inga andra gudar hafva
+          <lb/> för mig.»</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Hva’ sa’ du?</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Åh, det var bara en reminiscence —&#160;—</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Vi stanna naturligtvis i <placeName>Stockholm</placeName> öfver julen, eller
+          <lb/> hur, du?</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Jag tyckte att det var fråga om några dagar?</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Ja, men ser du, när vi nu en gång <emph>äro</emph> der — så är
+          <lb/> det ju ren hushållning att stanna lite längre på en gång.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Med tre hundra kronors reskassa.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Du kan väl få mer.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Omöjligt.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Låna — —</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Jaså — —</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Det gör alla menniskor.</p>
+        </sp>
+        <pb facs="37040-23.jpg"/><fw type="pageNum">21</fw>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Men betala — det gör inte alla menniskor — och
+          <lb/> jag är en hederlig fast fattig karl.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Söta älskade <persName ref="#Åke">Åke</persName> — tänk inte på framtiden nu —
+          <lb/> det är långt dit. Låt oss njuta lite af lifvet medan vi
+          <lb/> äro unga. Sedan blir det alltid någon råd — det in&#xad;<lb
+          break="no"/>träffar så mycket oförutsedt — dessutom så —</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Ja, du har rätt. Låt oss njuta af lifvet —. Det
+          <lb/> är ändå hufvudsumman. Strunt i pengarna! I syn&#xad;<lb
+          break="no"/>nerhet i andras.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Vi låta naturligtvis ta in oss i <orgName ref="#Innocencen">Innocensen</orgName>?</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE</speaker> <stage>letar i lådorna.</stage>
+          <p>Bara åtta näsdukar! Jag undrar i hvilka vänners
+          <lb/> fickor jag ska’ söka de andra. <orgName ref="#Innocencen">Innocence</orgName>? Fins ingen
+          <lb/> <orgName ref="#Innocencen">Innocence</orgName> i <placeName>Stockholm</placeName>.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Hvar har den tagit vägen, då?</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Den har gått upp i <orgName ref="#Amaranten">Amaranthen</orgName> —.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Nej —! På det viset kommer ju också jag in i
+          <lb/>
+          <orgName ref="#Amaranten">Amaranthen</orgName>! Det var förtjusande. Tänk du, att bli in&#xad;<lb
+          break="no"/>förd af en grefve och kanske få dansa med en prins!
+          <lb/> Åh, jag tror att jag blir tokig af glädje, om det kommer
+          <lb/> en sådan der herre med nyckel här — ja, du får medge
+          <lb/> att det är ett bra bakvändt mode — och säger: <stage>Läspar.</stage>
+          <pb facs="37040-24.jpg"/><fw type="pageNum">22</fw>
+          »Hans konglig höghet låter anmäla, att han ämnar föra
+          <lb/> <persName ref="#Elsa">fru Åke</persName> i nästa françaice». Jag tror jag faller honom
+          <lb/> om halsen.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Prinsen?</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Nej, kammarherren. — Det är vackert så.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Inte vet jag om den högre societens damer äro ut&#xad;<lb
+          break="no"/>märkta för skönhet, men alltid kan det finnas någon,
+          <lb/> som jag kan slå mig ut för.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Slå dig ut! Du, <persName ref="#Åke">gifta karlen</persName>!</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Jag antar att jag inte är mera gift än du.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Jo-o — det är du visst, det. Männen äro alltid
+          <lb/> mycket mera gifta.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Vore roligt att få den gåtan löst.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Jo ser du, ni män äro skapelsens herrar. — —</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Det var <emph>mycket</emph> längesedan. — —</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Men vi qvinnor, vi äro skapelsens mästerverk.</p>
+        </sp>
+        <pb facs="37040-25.jpg"/><fw type="pageNum">23</fw>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Anspråkslöst!</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Det har jag hört hundratals gånger.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Och deraf följer?</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Att mästerverk måste beundras — och för att be&#xad;<lb
+          break="no"/>undras måste de ses.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Mycket riktigt. Jag ska’ studera till »konstkännare»
+          <lb/> — så fort som möjligt.</p> <stage type="exit" who="#Åke">Går in i garderoben; tar fram
+          <lb/> kläder.</stage>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Jag tycker — —</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE<surplus>.</surplus></speaker> <stage type="entrance" who="#Åke">I dörren.</stage>
+          <p>Hvad —?</p>
+        </sp>
+        <stage type="exit" who="#Åke"/>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Just ingenting — — bara — att du är minst sagdt
+          <lb/> equivoque. —</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Jag! Att studera konstverk måtte väl inte vara — —</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Nej — det förstås — bara det sker på afstånd.</p>
+        </sp>
+        <stage type="entrance" who="#Åke"/>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Se så der ja, nu har jag hvad jag behöfver. Men
+          <lb/> hvar kan blanklädersstöflorna vara! <stage>Kastar fram diverse
+          <lb/> gröfre skodon. Dammar af blanklädersstöflorna.</stage> Se så nu
+          <lb/> har jag allting framme. Nu börjar vi att packa. Få se
+          <lb/> hvem som hinner först.</p>
+        </sp>
+        <pb facs="37040-26.jpg"/><fw type="pageNum">24</fw>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Vänta lite! <stage>Rifver fram allting huller om buller.</stage> Ett,
+          <lb/> tu, tre! Nu börja vi! — — — Du får inte skynda
+          <lb/> dig. — Vi komma väl att bo på <orgName ref="#HotellRydberg">Rydberg</orgName>?</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Blir billigare hyra möblerade rum.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Hvad blir det då för roligt! <stage>Hejdar sig.</stage> Men na&#xad;<lb
+          break="no"/>turligtvis — håll i den här schalen lite är du snäll —
+          <lb/> ska’ vi göra det om du så vill. Men nog tror <emph>jag</emph>, att
+          <lb/> det blir dyrare att föda tre än två, för då måste vi
+          <lb/> naturligtvis ha jungfru. Dessutom fattas det alltid hus&#xad;<lb
+          break="no"/>geråd och — —</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Du har rätt. — — Det blir både trefligare och
+          <lb/> billigare att bo på hotell. Då blir ett par port&#xad;<lb
+          break="no"/>nycklar det enda husgeråd vi behöfva skaffa oss.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA</speaker> <stage>sorglöst.</stage>
+          <p>En är nog — hur mycket har du qvar — ? Vi
+          <lb/> komma naturligtvis aldrig att gå ut hvar för oss.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Så du talar! Det vore just en hygglig frihet. Det
+          <lb/> gör möjligen ett par makar, som kommit in för att söka
+          <lb/> några dagars uppfriskelse efter gemensamt arbete och
+          <lb/> gemensam sträfvan, men inte vi, som uppfattat lifvet
+          <lb/> ur en liberalare synpunkt. Hvarför ska’ den ena be&#xad;<lb
+          break="no"/>höfva uppoffra sina tycken och vanor för den andra?
+          <lb/> Nej, lefve egoismen! Den är njutningens moder — och
+          <lb/> njuta af lifvet är ju hvad <emph>vi</emph> skola göra.</p>
+        </sp>
+        <pb facs="37040-27.jpg"/><fw type="pageNum">25</fw>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Du menar — —?</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Att vi ska’ sköta oss en hvar sjelf, ja — — du
+          <lb/> kommer t. ex. från en bal — jag från ett rummel bland
+          <lb/> kamrater — —</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Jag skulle gå på bal utan dig!</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Hvarför inte! Du tillbringar ju nu hela ditt lif
+          <lb/> utan mig. Hvad är det då värdt att hålla på skenet.
+          <lb/> — — Tack vare de sundare åsigter som nu råda,
+          <lb/> kan en qvinna få följa sina böjelser lika väl som en
+          <lb/> man.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Du skulle gå på rummel bland kamrater&#160;—&#160;—</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Hvart skulle jag eljes gå?</p> <stage>Hvisslar en känd opera&#xad;<lb
+          break="no"/>melodi.</stage>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Och våra läsaftnar — som vi skulle ha i vinter —&#160;—</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Gammal surdeg! Att läsa högt för älskade vid
+          <lb/> den stilla aftonlampan hör till det gamla receptet för
+          <lb/> huslig lycka. jag har försökt — så när som på afton&#xad;<lb
+          break="no"/>lampan — och kan intyga att det är odugligt. Ja, du
+          <lb/> vet sjelf. Endera har du somnat, eller också ha vi
+          <lb/> råkat i gräl efter första kapitlet.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Och våra promenader —?</p>
+        </sp>
+        <pb facs="37040-28.jpg"/><fw type="pageNum">26</fw>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Lyckligtvis riskera vi inte att möta bara får och
+          <lb/> grisar i <placeName>Stockholm</placeName> — åtminstone inte fyrbenta — och
+          <lb/> äro således alldeles oberoende af hvarandras sällskap.
+          <lb/> — Men du packar ju inte?</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Jo, jo visst packar jag. — Och brasan och de stekta
+          <lb/> äpplena —?</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Barnsliga attribut, som du med rätta utskrattat. —</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Och när — när du är borta bland kamrater, ska’
+          <lb/> jag då sitta ensam —&#160;—&#160;—</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Åh, det behöver du inte vara rädd för. En ung
+          <lb/> gift qvinna, som vill roa sig, behöfver aldrig vara en&#xad;<lb
+          break="no"/>sam. — — Naturligtvis ska’ vi vara tillsammans ibland
+          <lb/> — när det faller sig beqvämt, men på det hela taget
+          <lb/> tror jag det kan vara så godt att vänja sig vara ifrån
+          <lb/> hvarandra en tid.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Vänja sig vara ifrån hvarandra!</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Jag talar i allmänhet. — Sedan, — om några år
+          <lb/> — när man njutit ut&#160;—&#160;när långivarne tagit ut sitt
+          <lb/> och hemmet gått under klubban, när hustrun bitter,
+          <lb/> gnatig, missbelåten, nödgas flytta hem till föräldrarna
+          <lb/> och mannen uppehålla en mer än usel tillvaro genom
+          <lb/> för detta vänners barmhertighet — då är det godt att
+          <lb/> ingenting ha att sakna än sig sjelf.</p>
+        </sp>
+        <pb facs="37040-29.jpg"/><fw type="pageNum">27</fw>
+        <sp who="#spElsa">
+          <speaker>ELSA</speaker> <stage>gråtfärdig.</stage>
+          <p>Det der — var en förfärlig målning, — som alls
+          <lb/> inte passar in på oss.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Nej, naturligtvis inte. För vår räkning kommer
+          <lb/> nog det der »oförmodade» att ske. En rik farbror att
+          <lb/> regna ned från <placeName>Amerika</placeName> — högsta vinsten att falla ut
+          <lb/> på Hamburgerlotteriet — en stor skatt att gräfvas upp
+          <lb/> i en källare — eller något annat lika troligt&#160;— —. Men
+          <lb/> du packar ju inte! <stage><persName ref="#Elsa">Elsa</persName> kastar in diverse effekter huller om
+          <lb/> buller i kofferten.</stage> Ja, lefve det oförmodade! På det kan
+          <lb/> man draga så stora vexlar som helst. Om de inte inlösas
+          <lb/> — hvem rår för det? Strunt i arbete och försakelse,
+          <lb/> strunt i pratet om att förnöjsamhet är vinning nog.
+          <lb/> Den maximen luktar mögel på långt håll. Nej, att
+          <lb/> <emph>inte</emph> arbeta, att <emph>inte</emph> försaka, att aldrig vara nöjd —
+          <lb/> det är lifsglädje. Att skaffa sig mycken njutning
+          <lb/> med så liten ansträngning som möjligt — det är vishet.
+          <lb/> Förut gifte man sig för att älska — nu gifter man
+          <lb/> sig för att sätta bo. Hemmets förädlande makt? —
+          <lb/> Kälkborgerlighet. Hemmet, det är rikedom, nöje, njut&#xad;<lb
+          break="no"/>ning. — Barnen äro endera en lyx eller en skam alt
+          <lb/> efter en teorier, eller också upphöjer man deras tillvaro
+          <lb/> till mensklighetens enda eftersträfvansvärda mål. Lefva
+          <lb/> för hvarandra? Löjligt. Låta sig nöja med vad man har?
+          <lb/> Barrockt. Nej, låt oss njuta af lifvet, inte som men&#xad;<lb
+          break="no"/>niskor, det är gammalmodigt, utan som dockor med
+          <lb/> känselnerver och tomma hjertkamrar. Då tillgodogör
+          <lb/> man sig alt, och lider af intet. — Se så ja, nu är jag
+          <lb/> färdig! <stage>Slår igen kappsäcken.</stage> Men du packar ju inte!
+          <lb/> Du gråter?</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA</speaker> <stage>snyftande.</stage>
+          <p>Visst inte — — jag bara — bara härmar — mig
+          <lb/> sjelf —. <stage>Slår armarna kring <persName ref="#Åke">Åkes</persName> hals.</stage> Jag vill inte bli
+          <pb facs="37040-30.jpg"/><fw type="pageNum">28</fw>
+          en sådan der docka med känselnerver och tomma hjert&#xad;<lb
+          break="no"/>kamrar — och du får inte tala om någonting så för&#xad;<lb
+          break="no"/>färligt, som om att vi skulle lefva hvar för oss. Det
+          <lb/> blef min död. Förlåt mig!</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Ändtligen, ändtligen!</p> <stage>Trycker <persName ref="#Elsa">Elsa</persName> hårdt intill sig.</stage>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Tror du inte att jag förstår, att du spelat komedi
+          <lb/> med mig hela veckan för att visa mig en sådan — ja,
+          <lb/> jag vill inte precis säga hvad jag varit.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Ja, när inte böner, inte föreställningar hjelpte, så
+          <lb/> beslöt jag att bli din spegel. Spegeln är ju den enda
+          <lb/> vän af hvilken qvinnorna tål att höra sanning, och san&#xad;<lb
+          break="no"/>ning måste du höra.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Men om — om jag velat resa ändå?</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Så hade vi rest. Jag skulle ha utfört min roll
+          <lb/> till slut, med hur stor uppoffring som helst. Målet
+          <lb/> var mera värdt än så. Sedan — ja, sedan hade kanske
+          <lb/> leken förbytts till alvar — men då hade felet inte
+          <lb/> varit mitt.</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Håll fast mig riktigt hårdt — hårdare. — Det
+          <lb/> käns alldeles, som om jag kommit ned från en sväng&#xad;<lb
+          break="no"/>ande gunga och inte kan stå för mig sjelf ännu. Drag
+          <lb/> upp persiennen —.  <stage><persName ref="#Åke">Åke</persName> lyder.</stage> Om solen vore uppe
+          <lb/> skulle jag be den om förlåtelse med. Det är nog
+          <lb/> ett fenomen ändå, att den går upp och ned. Kyss mig
+          <pb facs="37040-31.jpg"/><fw type="pageNum">29</fw>
+          nu och förlåt mig. — Jag kan just inte säga så mycket
+          <lb/> mer — nu.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE</speaker> <stage>orolig.</stage>
+          <p>Du mår illa! Jag uppskakade dig alldeles för
+          <lb/> mycket — jag var brutal! — jag —</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA</speaker> <stage>hämtar sig.</stage>
+          <p>Visst inte. Du var <emph>bra</emph>, det var hvad du var, det.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE</speaker>
+          <p>Men —</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Jag tål inte, att du sätter ned dig sjelf — det ska’
+          <lb/> man låta andra göra.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Jag vill bara säga, att hvarje nöje som jag <emph>kan</emph> an&#xad;<lb
+          break="no"/>skaffa dig —</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Nöje! Först ska’ jag bli menniska, det är en före&#xad;<lb
+          break="no"/>sats — se’n få vi se. Kärlek är bättre än alla nöjen
+          <lb/> och granna kläder, det har du lärt mig i dag. <stage>Inner&#xad;<lb
+          break="no"/>ligt och litet blygt.</stage> Jag tror nog att jag kommer att nöja
+          <lb/> mig med — att vara lycklig.</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE</speaker> <stage>drar <persName ref="#Elsa">Elsa</persName> till sig.</stage>
+          <p>Älskling! <stage>Ser menande på baltoaletten.</stage> Och — <orgName ref="#Amaranten">Ama&#xad;<lb
+          break="no"/>ranthen</orgName> — och prinsen —</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Det får reda sig ändå. — Men ett måste du lofva
+          <lb/> mig! Du får aldrig spegla dig mera —</p>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE.</speaker>
+          <p>Det var hårdt!</p>
+        </sp>
+        <pb facs="37040-32.jpg"/><fw type="pageNum">30</fw>
+        <sp who="#spElsa">
+          <speaker>ELSA.</speaker>
+          <p>Jag menar i mig. Du blef så ful!</p> <stage>Gömmer hufvudet
+          <lb/> vid <persName ref="#Åke">Åkes</persName> bröst.</stage>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE</speaker> <stage>skämtande.</stage>
+          <p>»<persName ref="#Elsa">Elsa</persName> min älskling solen går upp.»</p>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA</speaker> <stage>tittar upp.</stage>
+          <p>Och ned —.</p> <stage>Gömmer hufvudet ånyo.</stage>
+        </sp>
+        <sp who="#spÅke">
+          <speaker>ÅKE</speaker>
+          <p><persName ref="#Elsa">Kära lilla älskade hustru</persName>!</p> <stage>Öfverhöljer hennes ansigte
+          <lb/> med kyssar.</stage>
+        </sp>
+        <sp who="#spElsa">
+          <speaker>ELSA</speaker>
+          <p>Du — —! Det är ändå allra roligast att ha tråkigt!</p>
+        </sp>
+        <stage>Ridå.</stage>
+      </div>
+    </body>
+    <back>
+      <pb facs="37040-33.jpg"/><!-- tom sida -->
+      <pb facs="37040-34.jpg"/><!-- tom sida -->
+      <pb facs="37040-35.jpg"/><!-- tom sida -->
+      <pb facs="37040-36.jpg"/><!-- andra titlar av författaren -->
+      <gap reason="irrelevant"/>
+      <pb facs="37040-37.jpg"/><!-- tom sida -->
+      <pb facs="37040-38.jpg"/><!-- tom sida -->
+      <pb facs="37040-39.jpg"/><!-- tom sida -->
+      <pb facs="37040-40.jpg"/><!-- omslag baksida -->
+      <gap reason="irrelevant"/>
+      <div type="editorial">
+        <listPerson>
+          <listPerson type="cast">
+            <person xml:id="Elsa" sex="female">
+	      <persName>
+                <forename>Elsa</forename>
+	      </persName>
+            </person>
+            <person xml:id="Åke" sex="male">
+	      <persName>
+                <forename>Åke</forename>
+	      </persName>
+	      <occupation scheme="#HISCO" code="58320">löjtnant</occupation>
+	      <occupation scheme="#HISCO" code="-1">godsägare</occupation>
+            </person>
+          </listPerson>
+          <listPerson type="noncast">
+            <listPerson type="fictive">
+	      <person xml:id="Sophie" sex="female">
+                <persName>
+                  <forename>Sophie</forename>
+                </persName>
+                <occupation scheme="#HISCO" code="54020">jungfru</occupation>
+                <note>det nämns en husmamsell och en jungfru</note>
+	      </person>
+	      <person xml:id="Jansson" sex="male">
+                <persName>
+                  <surname>Jansson</surname>
+                </persName>
+	      </person>
+	      <listPerson>
+                <personGrp xml:id="Holms" sex="mixed" size="2">
+		  <!-- herr och fru Holm -->
+                  <persName>
+                    <surname>Holm</surname>
+                  </persName>
+                </personGrp>
+	      </listPerson>
+	      <listPerson type="intertextual">
+                <person xml:id="Niniche" sex="female">
+                  <persName>Niniche</persName>
+                  <note>Rollfigur (specialskriven för Judic) i Niniche: vaudeville en trois actes (1878), av Alfred Hennequin och Albert Millaud</note>
+                </person>
+                <!-- Noachs ark -->
+	      </listPerson>
+            </listPerson>
+            <listPerson type="historical">
+	      <person xml:id="Coquelin" sex="male">
+                <persName>
+                  <forename>Constant</forename>
+                  <surname>Coquelin</surname>
+                </persName>
+                <occupation scheme="#HISCO" code="17320">skådespelare</occupation>
+                <idno type="VIAF">http://viaf.org/viaf/46810518/</idno>
+                <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Beno%C3%AEt-Constant_Coquelin</idno>
+	      </person>
+	      <person xml:id="Judic" sex="female">
+                <persName type="stage">
+                  <forename>Anna</forename>
+                  <surname>Judic</surname>
+                </persName>
+                <persName>
+                  <forename>Anne</forename>
+                  <forename>Marie-Louise</forename>
+                  <surname>Damiens</surname>
+                </persName>
+                <occupation scheme="#HISCO" code="17320">skådespelerska</occupation>
+                <idno type="VIAF">http://viaf.org/viaf/10617708/</idno>
+                <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Anna_Judic</idno>
+	      </person>
+            </listPerson>
+          </listPerson>
+          <listRelation>
+            <relation type="personal" name="friare" mutual="#Jansson #Sophie"/>
+            <relation type="personal" name="gift" mutual="#Elsa #Åke"/>
+            <relation type="social" name="jungfru" active="#Sophie" passive="#Elsa"/>
+            <relation type="other" name="fan" active="#Elsa" passive="#Coquelin"/>
+            <relation type="other" name="fan" active="#Åke" passive="#Judic"/>
+            <relation type="other" name="spelar" active="#Judic" passive="#Niniche"/>
+            <relation type="social" name="granne" mutual="#Elsa #Holms"/>
+            <relation type="social" name="granne" mutual="#Holms #Åke"/>
+            <relation type="other" name="vill.besöka" active="#Elsa" passive="#Innocencen"/>
+            <relation type="other" name="vill.bo" active="#Elsa" passive="#HotellRydberg"/>
+            <relation type="other" name="ingår" active="#Innocencen" passive="#Amaranten"/>
+            <relation type="other" name="ref." active="#Åke" passive="#Blancheteatern #Variété"/>
+            <relation type="other" name="ref." active="#Elsa" passive="#GrandHôtel #Tivoli"/>
+          </listRelation>
+        </listPerson>
+        <listOrg>
+          <org xml:id="Amaranten">
+            <orgName>Amaranten</orgName>
+            <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Amaranten_%28ordenss%C3%A4llskap%29</idno>
+            <note>ordenssällskap</note>
+          </org>
+          <org xml:id="Innocencen">
+            <orgName>Innocencen</orgName>
+            <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Innocenceorden</idno>
+            <note>ordenssällskap</note>
+          </org>
+          <org xml:id="Blancheteatern">
+            <orgName>Blancheteatern</orgName>
+            <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Blancheteatern</idno>
+          </org>
+          <org xml:id="Tivoli">
+            <note>ev. Tivoliteatern</note>
+          </org>
+          <org xml:id="Variété">
+            <note>teater</note>
+          </org>
+          <org xml:id="GrandHôtel">
+            <orgName>Grand Hôtel</orgName>
+            <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Grand_H%C3%B4tel,_Stockholm</idno>
+          </org>
+          <org xml:id="HotellRydberg">
+            <orgName>Hotell Rydberg</orgName>
+            <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Hotell_Rydberg</idno>
+          </org>
+        </listOrg>
+        <fs type="hand" xml:id="handarbete1">
+          <f name="prat"><symbol value="garn"/></f>
+          <f name="typ"><symbol value="symboliskt"/></f>
+          <f name="vem" fVal="#Elsa"/>
+          <f name="start" fVal="#handarbete1start"/>
+          <f name="slut" fVal="#handarbete1slut"/>
+        </fs>
+      </div>
+    </back>
+    <anchor xml:id="playend"/>
+  </text>
+</TEI>
