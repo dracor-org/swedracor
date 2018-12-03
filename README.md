@@ -1,0 +1,2 @@
+# swedracor
+Swedish Drama Corpus
