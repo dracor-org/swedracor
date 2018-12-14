@@ -1,0 +1,2308 @@
+<!-- $Id: LundbergE_ForlatMig.xml 113245 2015-03-12 12:28:11Z eva $ -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>"Förlåt mig!"</title>
+        <title type="sub">Komedi i en akt</title>
+        <author xml:id="LundbergE">
+          <persName>
+            <forename>Emilie</forename>
+            <surname>Lundberg</surname>
+          </persName>
+          <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Emilie_Lundberg</idno>
+          <note>1858–1889</note>
+        </author>
+        <sponsor>            
+          <name>Riksteatern, anslagsförvaltare</name>
+        </sponsor>
+        <funder>
+          <name>Vetenskapsrådet</name>
+        </funder>
+        <funder>
+          <name>Riksbankens Jubileumsfond</name>
+        </funder>
+        <editor>
+          <name>Dramawebben</name>
+        </editor>
+        <principal>
+          <persName>Marika V. Lagercrantz</persName>
+        </principal>
+        <respStmt>
+          <resp>kodning</resp>
+          <persName xml:id="MallikG">Gita Mallik</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>korrekturläsning</resp>
+          <persName xml:id="StrindmarNorströmE">Emma Strindmar Norström</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>korrekturläsning</resp>
+          <persName xml:id="BergströmS">Sara Bergström</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>redigering</resp>
+          <persName xml:id="ForsbomE">Eva Forsbom</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>eDrama</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Dramawebben</publisher>
+        <address>
+          <addrLine>http://www.dramawebben.se</addrLine>
+        </address>
+        <idno type="Dramawebben">LundbergE_ForlatMig</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/se/">
+            <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author sameAs="#LundbergE">
+              <persName>Emilie Lundberg</persName>
+            </author>
+            <title type="main">"Förlåt mig!"</title>
+            <title type="sub">Komedi i en akt</title>
+            <idno type="LIBRIS">http://libris.kb.se/bib/1205747</idno>
+            <imprint>
+              <pubPlace>Stockholm</pubPlace>
+              <publisher>Albert Bonniers förlag</publisher>
+              <date when="1886">1886</date>
+            </imprint>
+          </monogr>
+          <series>
+            <title level="s">Svenska teatern</title>
+            <idno type="ISSN">99-1250025-3</idno>
+            <idno type="LIBRIS">http://libris.kb.se/bib/1200145</idno>
+            <biblScope unit="vol">220</biblScope>
+          </series>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Dramawebben är ett digitalt arkiv över upphovsrättslig fri svensk dramatik. Dramatexterna
+          finns återgivna i fulltext och är publicerade antingen i sk faksimil, ett pdf-dokument där
+          originaltrycket återges som en digital fotokopia, eller i bearbetningsbar text, ett
+          pdf-dokument med text och bild som kan användas för redigering. Dramawebben växer i takt
+          med att nya verk blir kända. Med det digitala pjäsmaterialet tillgängliggör och
+          aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+          förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+          sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
+      </samplingDecl>
+      <classDecl>
+        <taxonomy xml:id="HISCO">
+          <biblStruct>
+            <monogr>
+              <author>Marco H.D. van Leeuwen</author>
+              <author>Ineke Maas</author>
+              <author>Andrew Miles</author>
+              <title>HISCO Historical International Standard Classification of Occupations</title>
+              <idno type="ISBN">90-5867-196-8</idno>
+              <imprint>
+                <publisher>Leuven University Press</publisher>
+                <pubPlace>Leuven</pubPlace>
+                <date when="2002">2002</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+        </taxonomy>
+      </classDecl>
+      <tagsDecl>
+        <rendition>
+          <!-- Scenanvisningar anges med kursiv stil -->
+          <!-- Stycken, och scenanvisningar (utom efter talarrubriker), i repliker och rumsbeskrivningar är indragna första raden -->
+          <!-- Scenanvisningar mellan repliker är centrerade -->
+          <!-- Scenanvisningar efter talarrubrik har långt indrag vid radbrytning -->
+          <!-- Rubriker och talarrubriker är centrerade -->
+        </rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="sv">Swedish</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:id="LundbergE_ForlatMig">
+    <anchor xml:id="playstart"/>    
+    <front>  
+      <pb facs="6943-0.jpg"/><!-- smutstitel -->
+      <gap reason="irrelevant"/>
+      <pb facs="6943-1.jpg"/><!-- tom sida -->
+      <pb facs="6943-2.jpg"/><!-- titelsida -->
+      <gap reason="irrelevant"/>
+      <performance>
+        <p>Uppförd f. f. ggn å Kgl. Dramatiska teatern d. <date when="1886-03-15">15 mars 1886</date>.</p>
+      </performance>
+      <gap reason="irrelevant"/>
+      <pb facs="6943-3.jpg"/>
+      <castList>
+        <head>PERSONERNA:</head>
+        <castItem>
+          <role xml:id="spHerrn">
+                        <persName ref="#Herrn">HERRN</persName>
+                    </role>.
+        </castItem>
+        <castItem>
+          <role xml:id="spFrun">
+                        <persName ref="#Frun">FRUN</persName>
+                    </role>.
+        </castItem>
+        <castItem>
+          <role xml:id="spVännen">
+                        <persName ref="#Vännen">VÄNNEN</persName>
+                    </role>.
+        </castItem>
+      </castList>
+      <set>
+        <p>Scenen i <placeName>Stockholm</placeName>, nuvarande tid.</p>
+      </set>
+      <gap reason="irrelevant"/><!-- tryckinfo -->
+    </front>
+    <body> 
+      <pb facs="6943-4.jpg"/>
+      <div type="act" n="1"> 
+        <stage type="setting">
+          <p>Scenen föreställer ett större, komfortabelt möbleradt
+            <lb/> rum. Till höger spisel med brasa, i midten ett större
+            <lb/> bord; till venster ett <rs type="hand" ref="#handarbetep1">sybord</rs>, en soffa och stolar. Bredvid
+            <lb/> spiseln ett spelbord och en beqväm fåtölj. Vattenkarafin
+            <lb/> och glas. Dubbeldörrar i fonden. Till höger dörr ledande
+            <lb/> till herrns rum, till venster ingång till fruns.</p>
+                </stage>
+        <div type="scene" n="1">
+          <head>Första scenen.</head>
+          <stage type="setting" who="#Frun #Herrn">
+            <p>Vid ridåns uppgång sitter <emph>Herrn</emph> i fåtöljen framför
+              <lb/> brasan med ryggen vänd åt <emph>Frun</emph>, som sitter tillbakalutad
+              <lb/> i soffan till venster. Bådas hållning utvisar en viss för­<lb break="no"/>lägenhet och en tydlig föresats att undvika hvarandras
+              <lb/> blickar.</p>
+            <p>Efter en paus höres en ringning utanför fonden;
+              <lb/> båda två förbli sittande orörliga. Efter en ny paus höres
+              <lb/> en knackning på fonddörren; ingen rör sig ännu, hvarpå
+              <lb/> knackningen upprepas något starkare. Herrn kastar en
+              <lb/> hastig blick åt dörren, men hejdar sig och vänder ånyo
+              <lb/> ryggen åt Frun, som låtsar som hon ingenting hört. En
+              <lb/> tredje, otålig knackning höres, och derpå öppnas fond­<lb break="no"/>dörren af <emph>
+                                <persName ref="#Vännen">Vännen</persName>
+                            </emph>.</p>
+                    </stage>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(utanför).</stage>
+            <p>Fins det då ingen menniska här? <stage type="entrance" who="#Vännen">(sticker in
+              <lb/> hufvudet.)</stage> Ah! Der äro ni ju bägge två!</p>
+            <stage>
+                            <persName ref="#Frun">Frun</persName> förblir orörlig; <persName ref="#Herrn">Herrn</persName> vrider sakta på huf­<lb break="no"/>vudet och nickar med en melankolisk min.)</stage>
+          </sp>
+          <pb facs="6943-5.jpg"/>
+                    <fw type="pageNum">4</fw>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(besvarar <persName ref="#Herrn">Herrns</persName> hels­<lb break="no"/>ning).</stage> 
+            <p>God morgon, <persName ref="#Herrn">Kalle</persName>! <stage>(närmar sig lifligt <persName ref="#Frun">Frun</persName>)</stage> God
+              <lb/> morgon, <persName ref="#Frun">min söta kusin</persName>! <stage>(vill fatta hennes hand; hon
+              <lb/> låtsar inte märka det och vänder sig ifrån honom)</stage> Hvad
+              <lb/> nu? ... Hvarför ... aha! <stage>(sänker rösten)</stage> Han är kanske
+              <lb/> svartsjuk på mig?</p>
+            <stage>(<persName ref="#Frun">Frun</persName> rycker på axlarna, men svarar inte.)</stage>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(efter en kort paus, i det
+              <lb/> han drar sig ifrån henne).</stage>
+            <p>Det ser ut, som om jag kommit olägligt. Ja ja,
+              <lb/> man är nästan alltid ovälkommen hos nygifta!</p>
+            <stage>(<persName ref="#Herrn">Herrn</persName> reser sig och hejdar med en matt rörelse
+              <lb/> <persName ref="#Vännen">Vännen</persName>, som gör min af att vilja gå; tar derpå fram ett
+              <lb/> cigarr-etui och bjuder med dyster min en cigarr.)</stage>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Tack ska du ha! <stage>(sänker rösten)</stage> Men jag störde
+              <lb/> er bestämdt! Hvad hade ni för er?</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(sakta, i tragisk ton).</stage>
+            <p>Ingenting alls! Gå för all del inte!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(utan att märka hans ton).</stage>
+            <p>Hvad det ändå måtte vara trefligt att vara nygift.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Hm!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Sa' du någonting? — Jaså, du vill att jag skall
+              <lb/> slå mig ner? <stage>(kastar sig på en stol)</stage> Tack! Ja, jag
+              <lb/> trifs verkligen så väl hos er båda. Det ligger i
+              <lb/> åsynen af er lycka en stum vältalighet, som verkar
+              <lb/> rigtigt välgörande på en gammal ungkarl! <stage>(tänder
+              <lb/> cigarren)</stage> Ack, <persName ref="#Frun #Herrn">mina vänner</persName>, vet ni, jag har aldrig
+              <lb/> blifvit bjuden på en cigarr af en äkta man, utan att
+              <lb/> känna den lifligaste afund! Tänk bara, att ha en
+              <lb/> liten snäll fru! Ja, det fins fruar, som ställa till scener
+              <pb facs="6943-6.jpg"/>
+                            <fw type="pageNum">5</fw>
+              för en sådan småsak som lite' cigarrök; men du <persName ref="#Herrn">Karl</persName>,
+              <lb/> har då alltid haft en märkvärdig tur. <persName ref="#Frun">Din hustru</persName>
+              <lb/> tiger, hon!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(afsides).</stage>
+            <p>Ja, när hon talat till punkt!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(röker).</stage>
+            <p>Det här kan kallas hemtrefnad, <persName ref="#Frun #Herrn">mina vänner</persName>!
+              <lb/> Jag tycker bara, att ni sitta bra långt ifrån hvar­<lb break="no"/>andra. — Det kommer jag aldrig att gå in på, när
+              <lb/> jag blir gift.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(häftigt).</stage>
+            <p>Tänker du gifta dig?</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Javisst! Hvarför tror du annars, att jag så
+              <lb/> otåligt emotsatt min befordran? Åh! jag har drömt
+              <lb/> om huslig sällhet alltsedan jag var en liten parfvel.
+              <lb/> — Ja, du vet väl, <persName ref="#Herrn">Kalle</persName>, att jag friade till <persName ref="#Frun">din lilla
+              <lb/> fru</persName>, när jag inte var högre än så här ...</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Och det var jag, som gick i vägen för din "hus­<lb break="no"/>liga sällhet"! Du fick korgen!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Ja — jag var alldeles för liten! Och så blef
+              <lb/> <persName ref="#Frun">Alma</persName> ju så fasligt kär i dig, bara hon fick se dig.
+              <lb/> <stage>(till <persName ref="#Frun">Frun</persName>)</stage> Se så, <persName ref="#Frun">Alma</persName> lilla, du blir väl inte ond på
+              <lb/> mig, för att jag talar om det? Nu har du fått honom
+              <lb/> — fast det drog långt om!</p>
+            <stage>(<persName ref="#Frun">Frun</persName> reser sig och ställer sig vid <rs type="hand" ref="#handarbetep1">sybordet</rs>, med
+              <lb/> ryggen vänd åt <persName ref="#Herrn #Vännen">båda herrarna</persName>.)</stage>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Det var således mitt fel! Det borde finnas en
+              <lb/> lag som ålade alla kusiner att gifta sig sins emellan
+              <lb/> — mycket unga!</p>
+          </sp> 
+          <pb facs="6943-7.jpg"/>
+                    <fw type="pageNum">6</fw>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Nej, tro inte, att jag hyser något agg till dig!
+              <lb/> Det der var längesedan — och jag har ju inte förrän
+              <lb/> nu kunnat försörja en hustru. — Jag kom just hit
+              <lb/> för att meddela er en stor nyhet.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Jag tror, det vore bättre, att du behöll den för
+              <lb/> dig sjelf!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Åh fy; skall man vara en sådan egoist! Nej,
+              <lb/> <persName ref="#Herrn">Karl</persName>, när en menniska är rigtigt lycklig ...</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(afbryter).</stage>
+            <p>Ja, när är det, då?</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>När man älskar, och tror sig vara älskad tillbaka!
+              <lb/> Ja, det der mins du nog sjelf för resten. När man
+              <lb/> är kär, så känner man ett behof af att säga det åt
+              <lb/> hela verlden.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>När man är kär — så bör man aldrig säga det
+              <lb/> åt någon menniska! — I synnerhet aldrig åt den,
+              <lb/> som man är kär i.</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(utan att höra på honom,
+              <lb/> till <persName ref="#Frun">Frun</persName>).</stage>
+            <p>Nå, <persName ref="#Frun">min lilla kusin</persName>, ni fruntimmer bruka ju all­<lb break="no"/>tid så lifligt intressera er för allt, som rör kärlek ...</p>
+            <stage type="exit" who="#Frun">(Frun ser på honom, gör derpå en kall bugning och
+              <lb/> går högtidligt ut till venster.)</stage>
+          </sp>      
+       </div>        
+       <div type="scene" n="2">
+         <head>Andra scenen.</head>
+         <stage type="presence" who="#Herrn #Vännen">HERRN. VÄNNEN.</stage>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Hvad kom det åt henne? Är hon ond på mig?</p>
+          </sp>
+          <pb facs="6943-8.jpg"/>
+                    <fw type="pageNum">7</fw>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(rusar häftigt upp och
+              <lb/> fattar <persName ref="#Vännen">Vännen</persName> i armen).</stage>
+            <p>
+                            <persName ref="#Vännen">Oskar</persName>! Svara mig! Har du någonsin i ditt lif
+              <lb/> känt en lycklig menniska?</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Ja, numera känner jag två. Den ena är du och
+              <lb/> den andra jag sjelf.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Låt oss bara tala om mig!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Åhnej — din lycka är ju mer än årsgammal;
+              <lb/> du har fått <emph>henne</emph>: du är lycklig; — det är ett axiom!
+              <lb/> — Men jag, som hela långa tiden gått och afundats
+              <lb/> dig, jag har nu ändtligen funnit ...</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Vill du tiga!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Hvarför det? Saken är så godt som afgjord ...</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(går häftigt fram och
+              <lb/> åter.)</stage>
+            <p>Ingenting är afgjordt, förrän presten sagt amen!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Men, kära <persName ref="#Herrn">Karl</persName>, det är att drifva grannlagen­<lb break="no"/>heten för långt. Och dessutom står hon ju dig så
+              <lb/> nära ...</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(förvirrad).</stage>
+            <p>Hvem? <stage>(tvärstannar)</stage> Hör på <persName ref="#Vännen">Oskar</persName>, du måtte
+              <lb/> väl aldrig ha gjort mig den tjensten att på fullt allvar
+              <lb/> förälska dig i <persName ref="#Frun">min hustru</persName>.</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Är du tokig! — Hörde du inte hvad jag sa'
+              <lb/> nyss?</p>
+          </sp>
+          <pb facs="6943-9.jpg"/>
+                    <fw type="pageNum">8</fw>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Jag hör ingenting — och jag vet ingenting!
+              <lb/> Har du sagt någonting, du? — Ja, jag tyckte du
+              <lb/> sa', att du var kär i <persName ref="#Frun">Alma</persName>? Ja, seså, neka inte!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Jag <emph>har</emph> tyckt mycket om henne, det vet du.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>    
+            <p>Ja, det har jag med!</p>
+          </sp>  
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Men du förstår att nu, sedan hon gift sig med
+              <lb/> <persName ref="#Herrn">min bäste vän</persName>, så är hon för mig helig ...</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Helig! Hon är så fan heller! Och hvad be­<lb break="no"/>träffar min vänskap för dig, så är den jemt så stor
+              <lb/> — att jag skall kunna skänka dig henne!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>
+                            <persName ref="#Frun">Din hustru</persName>?!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Säg bara ett ord — och jag reser till <placeName>Köpen­<lb break="no"/>hamn</placeName>!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(fattar båda hans händer).</stage>
+            <p>Åh, <persName ref="#Herrn">Karl</persName>! Vet du, det är sublimt!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Tycker du?</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Ja, men jag kan inte anta din uppoffring ...</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Åh, gör dig inga samvetsskrupler! Det är all­<lb break="no"/>deles onödigt!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Det är så, att jag nu är kär i <persName ref="#Ebba">en annan</persName>!</p>
+          </sp>
+          <pb facs="6943-10.jpg"/>
+                    <fw type="pageNum">9</fw>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(kastar sig på soffan).</stage>
+            <p>Nå, jag har då också en satans otur!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Och om du en enda gång låtit mig tala till
+              <lb/> punkt, skulle jag längesedan ha sagt dig hennes 
+              <lb/> namn.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Jaså, du vill verkligen ... nej! det kan inte min
+              <lb/> vänskap tillåta! — En annan sak hade det varit med
+              <lb/> <persName ref="#Frun">min hustru</persName>: — hvar och en är sig sjelf närmast! —
+              <lb/> men eftersom du ingenting vill göra för mig, så ska'
+              <lb/> jag i stället göra någonting för dig!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Du talar i gåtor!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker> 
+            <p>Sade du inte nyss, att du aldrig förrän nu känt
+              <lb/> mer än <emph>en</emph> enda lycklig menniska?</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker> 
+            <p>Jo — och det var du!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(ställer sig framför ho­<lb break="no"/>nom; i tragisk ton).</stage>
+            <p>Nåväl! Se på mig nu!</p>
+          </sp>  
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Men jag ... <stage>(ser på honom)</stage> Kors, det var be­<lb break="no"/>synnerligt! Nu först märker jag, att du ser så ...
+              <lb/> så ...</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(afbryter).</stage>
+            <p>Jaså — nu först! <persName ref="#Vännen">Min stackars vän</persName>! Om du
+              <lb/> visste hvad det gör mig ondt att se dig så illa deran!
+              <lb/> Du är alldeles precis sådan som jag var, <emph>innan</emph> ...
+              <lb/> och du kommer att bli precis likadan som jag —
+              <lb/> <emph>sedan</emph> ... hm! ...</p>
+          </sp>
+          <pb facs="6943-11.jpg"/>
+                    <fw type="pageNum">10</fw>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>
+                            <choice>
+                                <sic>Man</sic>
+                                <corr>Men</corr>
+                            </choice> har du inte sjelf tusen gånger sagt mig,
+              <lb/> att du var lycklig?</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Och det kan du påminna mig om nu? Nu
+              <lb/> blöder mitt hjerta hvar gång jag ser en stackare på
+              <lb/> väg att dela mitt lyckliga öde!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>En sådan egoism!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Om du sa' — en sådan menniskokärlek! Kan
+              <lb/> du tänka dig, <persName ref="#Vännen">Oskar</persName>, hvad det vill säga att ha en
+              <lb/> fästmö?</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Ja, det måtte vara ett himmelrike på jorden!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Det är så! Åh! att ega en sådan oförliknelig
+              <lb/> skatt! Och att som en galning rusa åstad och byta
+              <lb/> ut henne mot — en hustru! Ack, <persName ref="#Vännen">Oskar</persName>, jag var
+              <lb/> lycklig! <persName ref="#Frun">Min fästmö</persName> var en engel! Det skarpaste
+              <lb/> öga skulle inte hos henne kunnat upptäcka mer än
+              <lb/> en enda svaghet: — jag menar hennes svaghet för
+              <lb/> mig! Ja, hon var vansinnigt kär i mig, och det kan
+              <lb/> ju ingen klandra henne för! — Hon egde inte en
+              <lb/> tanke, inte en önskan, som inte var min — hon var
+              <lb/> vacker, talangfull, öm och mild ... Det fans bara ett
+              <lb/> enda sätt att förderfva <persName ref="#Frun">detta skapelsens mästerverk</persName>
+              <lb/> — och det hittade jag på! — Jag gifte mig med
+              <lb/> henne!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(skrattande).</stage>
+            <p>Det vill säga — det var du, som förderfvade
+              <lb/> henne, då?</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(ond).</stage>
+            <p>Jag? Jag! Det kunde lika väl ha varit du!
+              <lb/> Hvarenda karl, som gifter sig, skapar ett missfoster!</p>
+          </sp>
+          <pb facs="6943-12.jpg"/>
+                    <fw type="pageNum">11</fw>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Men hur kan du tala på det sättet om <persName ref="#Frun">din fru</persName>?.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>"<persName ref="#Frun">Min fru</persName>!?" Ja, der ha vi det! Det fins ingen
+              <lb/> flicka på jorden, som tål vid att kallas fru! — <persName ref="#Vännen">Oskar</persName>!
+              <lb/> Tag varning af mig och gift dig aldrig!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Men då måste jag åtminstone veta hvarför! Har
+              <lb/> <persName ref="#Frun">min kusin</persName> så svårt förbrutit sig mot dig, att du ...
+              <lb/> Hon har väl aldrig fattat tycke för någon annan? ...
+              <lb/> Ah! <persName ref="#Herrn">min stackars vän</persName>! När jag tänker på hvad du
+              <lb/> nyss sa'; — när jag erinrar mig hennes besynnerliga
+              <lb/> beteende, då jag kom ... nu fattar jag allt! <persName ref="#Frun">Din hustru</persName>
+              <lb/> har förälskat sig i mig?</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Den sorgen hade jag nog kunnat bära!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Hva'? är det något ändå värre! <persName ref="#Herrn">Karl</persName>! För
+              <lb/> Guds skull — säg: hvad har hon gjort?</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(högtidligt).</stage>
+            <p>Hon har låtit skura golfvet i mitt skrifrum.</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(efter en paus).</stage>
+            <p>Jaså. — Nå, vidare?</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Vidare! Du måtte inte ha förstått mig? Har
+              <lb/> det någonsin händt dig, att man skurat ditt golf?</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Ja ... det vet jag verkligen inte!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Nå, då har det aldrig händt. — Så länge jag var
+              <lb/> ogift, fick man aldrig skura oftare, än när jag var
+              <lb/> borta på ungkarlsmiddag, för då kom jag aldrig hem
+              <lb/> förrän dagen derpå. — Men nu! Brr! Du kan
+              <pb facs="6943-13.jpg"/>
+                            <fw type="pageNum">12</fw>
+              aldrig föreställa dig, hvad det vill säga att komma
+              <lb/> in i sitt rum strax efter frukosten, glad och nöjd med
+              <lb/> sin verld, uppfyld af de bästa föresatser, intet ondt
+              <lb/> anande: — och att finna mattorna hoprullade på
+              <lb/> skrifbordet, stolarne uppstaplade med benen i vädret,
+              <lb/> och tofflorna simmande i ett haf af skurvatten.</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(gäckande).</stage>
+            <p>Åhjo — det kan jag ungefär föreställa mig, och
+              <lb/> nu undrar jag visst inte på, att du vill resa till
+              <lb/> <placeName>Köpenhamn</placeName>.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(något brydd).</stage>
+            <p>Nå, nå — det är inte <emph>bara</emph> därför! <stage>(sätter sig)</stage>
+              <lb/> Jag tog mig den friheten att säga <persName ref="#Frun">min hustru</persName> ... helt
+              <lb/> vänligt, förstås, i den der sansade, förmanande tonen,
+              <lb/> du vet, som anstår en äkta man, som är mån om sin
+              <lb/> värdighet ...</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Nå — hvad sade du henne?</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Att det luktade fukt inne hos mig.</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Ja, det var ju inte så farligt!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Nej, men det var <emph>sant</emph>, och det är det enda, som
+              <lb/> fruntimmerna aldrig förlåta. — Hon svarade, att ren­<lb break="no"/>lighet borde vara det första lefnadsvilkoret för bil­<lb break="no"/>dade personer. Jag försökte göra klart för henne,
+              <lb/> att jag hade mycket vigtiga göromål just i dag, och
+              <lb/> att det nu var mig omöjligt att arbeta vid mitt skrif­<lb break="no"/>bord utan att få snufva ...</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Ja, på det fans väl ingenting att svara?</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Nej, men hon svarade ändå! — Hon yttrade i
+              <lb/> den der hvassa tonen, som du känner till ... jaså, nej,
+              <pb facs="6943-14.jpg"/>
+                            <fw type="pageNum">13</fw>
+              det är sant, du känner <emph>inte</emph> till den — ännu! att hon
+              <lb/> för sin del hellre skulle ha snufva i fjorton da'r, än
+              <lb/> vistas i ett ostädadt rum; att jag för resten mycket
+              <lb/> väl kunde arbeta i salen för en gång, men att jag
+              <lb/> som vanligt bråkade endast för att plåga henne, och
+              <lb/> för att jag visste, att hon hela morgonen haft huf­<lb break="no"/>vudvärk.</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Nå visste du det då?</p>   
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Jag visste, att hon <emph>inte</emph> hade det, ty hon hade
+              <lb/> nyss dunkat igenom på pianot hela <title>"Tiggarstudenten"</title>.
+              <lb/> Då jag sa' henne det, förklarade hon, att jag var en
+              <lb/> sjelfvisk, hjertlös varelse, som inte frågade efter andras
+              <lb/> lidanden, men som sjelf, gubevars, lät bädda ner mig,
+              <lb/> bara jag fick ondt i ett finger. "Det fins ingenting
+              <lb/> på jorden," påstod hon, "så sjåpigt och så — löjligt ..."
+              <lb/> ja, tänk dig bara! löjligt! — "som en karl, när han
+              <lb/> inbillar sig vara sjuk." —</p>
+            <!-- http://sv.wikipedia.org/wiki/Tiggarstudenten /EF -->
+          </sp>
+          <sp who="#spVännen">
+            <speaker>
+                            <choice>
+                                <sic>VÄNNFN.</sic>
+                                <corr>VÄNNEN.</corr>
+                            </choice>
+                        </speaker>
+            <p>Ne-ej! Det har hon då orätt i!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(lifligt).</stage>
+            <p>Ja, inte sant? Nog äro vi karlar hundra gånger
+              <lb/> tåligare än fruntimmerna!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Ja, det äro vi!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Men få dem att erkänna det! Jag gjorde ett
+              <lb/> svagt försök, men då började hon gråta och sa', att
+              <lb/> hon aldrig haft en aning om, hvilken dålig menniska
+              <lb/> jag var, annars hade hon aldrig tagit mig.</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Jag börjar tycka synd om dig.</p>
+          </sp>
+          <pb facs="6943-15.jpg"/>
+                    <fw type="pageNum">14</fw>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Och när hon fått mig rigtigt förtviflad, började
+              <lb/> hon för sjuttionde gången att tala om min otacksam­<lb break="no"/>het, om hur angelägen jag varit att få henne, och
+              <lb/> hur jag gjort mig till för henne som fästman. — Nu
+              <lb/> vädjar jag till dig! Äro inte fruntimmerna alltid
+              <lb/> tusen gånger mera angelägna om att få oss? Och
+              <lb/> om någon "gör sig till", så ...</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(eftersinnande).</stage>
+            <p>Ja, det är sant; nog ser det ofta ut, som om de
+              <lb/> enkom lade ut snaror.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Ja, för att inte tala om alla de gånger, då snaran
+              <lb/> inte syns! — Nu ville hon emellertid låta påskina,
+              <lb/> att jag med list och svek lockat henne att bli min
+              <lb/> hustru; hon förklarade, att jag var orättvis och gräl­<lb break="no"/>sjuk ... Men nu tar jag Gud och alla helgon till
+              <lb/> vittnen: Äro inte alla fruntimmer millioner gånger
+              <lb/> orättvisare och grälsjukare, än vi!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Jo, det kan du nog ha rätt i — i allmänhet.
+              <lb/> Men jag vet <emph>en</emph>, som ...</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(afbryter).</stage>
+            <p>Som har alla upptänkliga dygder — javisst!
+              <lb/> Alldeles som <persName ref="#Frun">min fästmö</persName> hade. Hon är naturligtvis
+              <lb/> ett lysande undantag! <persName ref="#FågelFenix">fogeln Phoenix</persName>! Men vänta bara
+              <lb/> tills hon en dag kommer och säger, att du inte har
+              <lb/> någon karakter! Ja, se på mig, du! Det sa' <persName ref="#Frun">min
+              <lb/> hustru</persName> mig för en stund se'n! Liksom om det någon­<lb break="no"/>sin funnits ett enda fruntimmer, som vetat hvad
+              <lb/> karakter vill säga!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Nå, nå, hon menade väl inte så illa! Hon talade
+              <lb/> i vredesmod — hon är barnslig och oförståndig ...</p>
+          </sp>
+          <pb facs="6943-16.jpg"/>
+                    <fw type="pageNum">15</fw>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Ja, det sa' jag henne, men då förklarade hon,
+              <lb/> att hon skulle kunna öfverlista tio karlar, mycket
+              <lb/> klokare än jag, och att jag verkligen förtjenade, att
+              <lb/> hon gjorde det.</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Du måtte väl inte ha drifvit henne till någon
+              <lb/> galenskap!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Jag? Jag var lugn som ett lam. — Hon kal­<lb break="no"/>lade mig en despot, en oräsonlig, nyckfull, småsinnad
+              <lb/> varelse! Tänk dig! <persName ref="#Frun">ett fruntimmer</persName>, som talar om
+              <lb/> nycker och oräsonlighet!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Nå, men hva' blef slutet?</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Det såg du ju! Hon moltiger. Och för att en 
+              <lb/> qvinna skall tiga, måste hon vara nära på qväfd! — 
+              <lb/> Hon tystnade inte, förrän hon tagit himlen till vittne,
+              <lb/> att hon var en martyr, och att hon i moralens namn
+              <lb/> var skyldig att söka skilsmessa. Och slutligen för­<lb break="no"/>klarade hon, att hon ansåg under sig värdighet att
+              <lb/> byta ord med en sådan man som jag! Och det
+              <lb/> sedan hon utan afbrott talat i två timmar, och jag
+              <lb/> inte lyckats få fram mer än en foglig antydan, att
+              <lb/> hon var bindgalen <stage>(häller i ett glas vatten och tömmer
+              <lb/> det häftigt, hvarpå han kastar sig ner på en stol).</stage>
+                        </p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Säkert kommer hon nu till eftertanke och inser
+              <lb/> sin öfverilning; då ångrar hon sig, och så blir det
+              <lb/> försoning. Åh du, <persName ref="#Herrn">Karl</persName>! Försoning! Det måtte
+              <lb/> vara någonting gudomligt! När jag tänker på det,
+              <lb/> så vore jag i stånd att önska, att min hustru ville
+              <lb/> gräla på mig hvarenda dag.</p>
+          </sp>
+          <pb facs="6943-17.jpg"/>
+                    <fw type="pageNum">16</fw>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Var du alldeles lugn! Det lär hon nog göra
+              <lb/> ändå. För resten brukar det aldrig komma till någon
+              <lb/> förlikning mellan <persName ref="#Frun">min hustru</persName> och mig!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Inte! Hvad säger du! Ni gå således och se
+              <lb/> snedt på hvarandra en hel dag?</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Ofta <emph>flere</emph> dagar — och de äro de lugnaste! Då
+              <lb/> tiger hon.</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Och allt detta för ett nyskuradt golf!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(springer upp).</stage>
+            <p>Hon gjorde det med afsigt! Jag försäkrar, att
+              <lb/> hon gjorde det med afisgt. Hon vet, att det är min
+              <lb/> pina: jag var nog dum att säga henne det i början!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Men hur är det tänkbart? Älskar hon dig inte
+              <lb/> mera?</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Nog påstår hon, att hon afskyr mig, men ser du,
+              <lb/> det är ändå inte möjligt! — Nej — men det är alla
+              <lb/> hennes fel, som nu börja komma i dagen.</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Och allt det der har du aldrig förr anförtrott
+              <lb/> mig! Jag trodde, att allt var solljus, jag — men
+              <lb/> vet du, din skildring har verkligen skrämt upp mig;
+              <lb/> och om jag kunde tro, att det funnes många, som
+              <lb/> <persName ref="#Frun">Alma</persName> ...</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Alla, säger jag dig! Alla! Se dig omkring, <persName ref="#Vännen">min
+              <lb/> vän</persName>, innan det blir för sent! — Välj ut ett föremål
+              <lb/> för dina studier och döm sjelf. <persName ref="#Ebba">Hennes syster</persName>, till
+              <lb/> exempel ...</p>
+          </sp>
+          <pb facs="6943-18.jpg"/>
+                    <fw type="pageNum">17</fw>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(lifligt).</stage>
+            <p>
+                            <persName ref="#Ebba">Hennes syster</persName>?</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Ja; henne tror du dig väl känna? Det är ett
+              <lb/> misstag! Ett fullkomligt misstag! <persName ref="#Frun">Alma</persName> är äldre än
+              <lb/> <persName ref="#Ebba">Ebba</persName>, men för resten likna de hvarandra som två bär
+              <lb/> — eller som två hår — utaf hin!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Nej, men <persName ref="#Ebba">Ebba</persName> är så mild och älsklig ...</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Alldeles som <persName ref="#Frun">min hustru</persName> vid hennes ålder! Och
+              <lb/> när hon blir gift kommer hon att bli upp i dagen
+              <lb/> som <persName ref="#Frun">Alma</persName> är nu. — Oh, jag känner henne, jag; hon
+              <lb/> har ju vistats i vårt hus, alltsedan <persName ref="#Svärfar">svärfar</persName> var så
+              <lb/> snäll och dog. Nu är hon nog mycket söt, mycket
+              <lb/> vänlig ...</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Hon är förtjusande!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Ja, det gör mig rigtigt ondt om den stackarn,
+              <lb/> som en dag kommer att fastna för hennes oskulds­<lb break="no"/>fulla blickar ...</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Det är inte möjligt, att hon kan förändra sig så.
+              <lb/> Hon är bara barnet, och om hon får en förståndig
+              <lb/> man ...</p> 
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Tack skall du ha ... Men <persName ref="#Vännen">ni ungkarlar</persName> äro er
+              <lb/> alla lika. Hvar och en anser sig förståndigare än
+              <lb/> alla andra, och inbillar sig, att han skall bli ett
+              <lb/> undantag ...</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(lyssnar åt venster).</stage>
+            <p>Tyst! Jag tyckte, att någon gick derinne!</p>
+          </sp>
+          <pb facs="6943-19.jpg"/>
+                    <fw type="pageNum">18</fw>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Det är <persName ref="#Frun">min hustru</persName>. Jag vill inte se henne.</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Ja, jag vill inte heller gerna träffa henne efter
+              <lb/> allt, hvad du sagt mig. — Du har verkligen gjort
+              <lb/> mig orolig, och jag ...</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(i dörren till höger).</stage>
+            <p>Tag emot henne du. — Försök att få reda på
+              <lb/> hur länge hon ämnar se sur ut — så kunna du och
+              <lb/> jag fara bort på ett par dar ... Adjö så länge!</p>
+          </sp>
+         <stage type="exit" who="#Herrn"/>
+        </div>
+        <div type="scene" n="3">
+          <head>Tredje scenen.</head>
+          <stage type="presence" who="#Vännen">VÄNNEN. Sedan FRUN.</stage>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(ser efter <persName ref="#Herrn">Herrn</persName>).</stage>
+            <p>Han lemnar mig i sticket! — Och det innan jag
+              <lb/> fick säga honom ... Nåja, ögonblicket hade då just
+              <lb/> inte varit så synnerligen väl valdt. — Min ställning
+              <lb/> är verkligen tusan så brydsam ... hur skall jag nu
+              <lb/> bete mig?</p>
+          </sp>
+          <stage type="entrance" who="#Frun">(Frun kommer långsamt in från venster.)</stage>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(afsides).</stage>
+            <p>Hon ser tankfull ut ... Hon har börjat ångra sig!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(melankoliskt och släpande).</stage>
+            <p>Är du qvar ännu?</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Ja, jag får be så mycket om ursäkt! <stage>(afsides)</stage>
+              <lb/> Kan just undra, om <persName ref="#Ebba">Ebba</persName> anförtrott henne något?
+              <lb/> <stage>(högt)</stage> Jag hoppas, du mår bra, <persName ref="#Frun">lilla kusin</persName>?</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(som förut, i det hon
+              <lb/> sätter sig till venster).</stage>
+            <p>Det vet du väl, förmodar jag.</p>
+          </sp>
+          <pb facs="6943-20.jpg"/>
+                    <fw type="pageNum">19</fw>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Ja, jag hörde, att du hade lite hufvudvärk,
+              <lb/> men ...</p>
+          </sp> 
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(söker beherska sin vrede).</stage>
+            <p>Jaså — jag förstår! Han har talat om för dig
+              <lb/> ... nåja! det kunde jag ha förutsett. — Så mycket
+              <lb/> bättre! Då skall jag visa, att jag har mera takt än
+              <lb/> han. Karlarne kunna aldrig tiga, det vet man ju,
+              <lb/> men gudskelof, det kan jag! <anchor type="hand" xml:id="handarbete1start"/>
+                            <stage>(tar upp ett handarbete
+              <lb/> och börjar med beslutsam min att arbeta.)</stage>
+                        </p>  
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(synbart generad).</stage>
+            <p>Det gläder mig, ty jag vill inte gerna ingå på
+              <lb/> ett ämne, som är för ömtåligt att behandlas af främ­<lb break="no"/>mande; — och främmande är jag ju, fastän jag i min
+              <lb/> egenskap af <persName ref="#Vännen">din närmaste manliga slägting</persName> ...</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(afbryter).</stage>
+            <p>Han har väl gifvit dig i uppdrag att läsa lagen
+              <lb/> för mig?</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Nej, visst inte; jag blandar mig inte i edra familje­<lb break="no"/>angelägenheter, och mitt ärende till dig i dag var
+              <lb/> endast att tala om mig sjelf. —</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Sitt ner då, <persName ref="#Vännen">käre Oskar</persName>!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Tack! <stage>(sätter sig)</stage> Det var nämligen så, att jag
+              <lb/> kom för att ... att säga dig ... att jag tänkte gifta
+              <lb/> mig ... men ...</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(förbittrad).</stage>
+            <p>Men nu har du naturligtvis ändrat tankar! <persName ref="#Herrn">Min
+              <lb/> man</persName> har satt upp dig emot mig ...</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Vi voro ju öfverens om att inta tala om ho­<lb break="no"/>nom! ... Jag har varit förälskad i ett halft år, men
+              <pb facs="6943-21.jpg"/>
+                            <fw type="pageNum">20</fw>
+              först i går fick jag visshet om, att min böjelse är
+              <lb/> besvarad, och nu ...</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(som förut).</stage>
+            <p>Jag förstår! Han har utmålat mig, som ett rigtigt
+              <lb/> vidunder; och derför är jag skyldig mig sjelf att upp­<lb break="no"/>lysa dig om, hur orätt du har att tro ...</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Men jag försäkrar dig, att jag inte tror någon­<lb break="no"/>ting alls!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(utom sig, stiger upp).</stage>
+                        <anchor type="hand" xml:id="handarbete1slut"/>
+            <p>Du tror mig inte! Det är således en förutfattad
+              <lb/> åsigt, ett fast beslut att inte höra mig! <stage>(gråtande)</stage>
+              <lb/> Min Gud, hvad har jag gjort för att bli så behandlad!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Men för all del, lugna dig! Låt oss tala om
+              <lb/> någonting annat ...</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Du vill att jag skall låta dig ostraffadt förolämpa
+              <lb/> mig! — Nej — alltför länge har jag tegat, och nu
+              <lb/> måste jag lätta mitt hjerta. Jag vill anförtro mig åt
+              <lb/> dig, <persName ref="#Vännen">min barndomsvän</persName>! <stage>(snyftande)</stage> Om du kunde ana,
+              <lb/> hur han behandlar mig!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Nå, hvad är det då, som du är så förtviflad öfver?</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(som förut).</stage>
+            <p>Han sade mig ... all-de-les nyss ... midt i an­<lb break="no"/>sigtet ... att jag ... att jag är ... to-o-kig!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Men hur kom han att säga det?</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Ja — du tycker väl, att det är förfärligt! — Jo
+              <lb/> du, han sa' det derför, att jag låtit skura hans golf — 
+              <lb/> och ändå <stage>(gråtande)</stage> vet Gud, att det låg damhögar i
+               <pb facs="6943-22.jpg"/>
+                            <fw type="pageNum">21</fw>
+               vråarna — som voro — så höga som så här <stage>(lyfter
+              <lb/> armen öfver hufvudet).</stage>
+                        </p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Men, <persName ref="#Frun">kära Alma</persName>.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Och då jag tillät mig en foglig anmärkning, för
+              <lb/> jag var lugn som ett lam! behagade han ta humör,
+              <lb/> och förgå sig ... Gud! så han förgick sig! Att säga
+              <lb/> <persName ref="#Frun">sin hustru</persName> rent ut och det till på köpet när hon har
+              <lb/> hufvudvärk, att hon är nyckfull och oräsonlig! Men
+              <lb/> du sjelf, fastän du är karl, har bestämdt mera omdöme
+              <lb/> än han, och nog medger du väl ändå, att karlarne
+              <lb/> äro bra mycket oräsonligare än vi fruntimmer?</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Hm! det kommer an på ...</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Och så understår han sig att säga, att jag är
+              <lb/> orättvis och grälsjuk! Och tala om karakter! Liksom
+              <lb/> om det funnes en enda karl på jorden, som visste
+              <lb/> hvad karakter vill säga! Och så påstår han, att det
+              <lb/> är pjunkigt och <emph>löjligt</emph> af mig att ha hufvudvärk! att
+              <lb/> jag gnäller för ingenting!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Sa' han verkligen så?</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Ja, om det var <emph>han</emph> som sa' det åt <emph>mig</emph>, eller jag,
+              <lb/> som sa' det åt honom, så har han ändå alltid orätt!
+              <lb/> Men det är för resten rätt åt mig. Att tänka sig — 
+              <lb/> när man har <persName ref="#Herrn">en öm och älskvärd fästman, en fästman</persName>!
+              <lb/> Åh! det är ett himmelrike på jorden! och att då inte
+              <lb/> vara nöjd med det, utan rusa åstad och byta ut
+              <lb/> honom ...</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Mot en äkta man! — Du räsonnerar ju precis
+              <lb/> som din ...</p>
+          </sp>
+          <pb facs="6943-23.jpg"/>
+                    <fw type="pageNum">22</fw>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Jag räsonnerar inte, men jag har rätt!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Rätt? <stage>(efter en paus)</stage> Vet du, hvem som alltid
+              <lb/> har rätt? Jo, det är den, <quote>"som bjuder först sin hand
+              <lb/> till frid"</quote>.</p>
+            <!--  ur Försoningen, Esaias Tegner Frithiofs Saga -->
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(vänder honom ryggen).</stage>
+            <p>Ja, gå in till <persName ref="#Herrn">min man</persName>; helsa honom från <persName ref="#Tegnér">Tegnér</persName>,
+              <lb/> och säg honom det der, så får du höra, hvad han
+              <lb/> svarar!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>
+                            <emph>Du</emph> vill alltså inte ta' räson?</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(ifrigt).</stage>
+            <p>Nej, Gud ske lof, det har jag aldrig gjort, och
+              <lb/> aldrig kommer jag att göra det! — Jag tar aldrig
+              <lb/> första steget!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(inställsamt).</stage>
+            <p>Nå men — när du älskar honom.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(uppbrusande).</stage>
+            <p>Jaså! Tror han det? Det skall jag minsann bota
+              <lb/> honom för! <persName ref="#Herrn">En sådan inbilsk narr</persName>! Jag afskyr honom!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Seså, seså, nu säger du det du inte tänker! Du
+              <lb/> skulle väl inte ha gift dig med honom, om du afskytt
+              <lb/> honom!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(utom sig).</stage>
+            <p>Jag skulle väl inte afsky honom, om jag inte
+              <lb/> hade gift mig med honom!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Jo, det här är glada utsigter för den, som tänker
+              <lb/> gifta sig. Jag tror jag låter bli!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(hånfullt).</stage>
+            <p>Ja, gör det, och tacka mig till. Det är ändå
+              <lb/> jag, som räddat dig!</p>
+          </sp>
+          <pb facs="6943-24.jpg"/>
+                    <fw type="pageNum">23</fw>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Åh! <persName ref="#Herrn">din man</persName> hade redan gjort det mesta. Han
+              <lb/> hade berättat mig alltsammans!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Var det inte det jag sa'!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Men han framställde saken annorlunda, d. v. s.
+              <lb/> med mera sans, med manlig opartiskhet.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Ja visst, och af manlig opartiskhet är du natur­<lb break="no"/>ligtvis tvungen att ta hans parti.</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Det är ditt eget fel! Hvarför skall du vara så
+              <lb/> oförsonlig? Det är bara det, som skrämmer mig.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Visst är det mitt fel! Allting är mitt fel! Och
+              <lb/> det från <persName ref="#Vännen">mina egna slägtingar</persName>. <stage>(gråtande)</stage> Fins det
+              <lb/> någon menniska, som inte vänder sig emot mig! — 
+              <lb/> <quote type="paraphrase">Har jag kanske inte här i detta hus närt en orm vid
+              <lb/> min egen barm</quote>. <persName ref="#Ebba">Min egen, enda syster</persName>, <persName ref="#Ebba">den der lilla
+              <lb/> otacksamma Ebba</persName>.</p>
+            <!-- ur Aisopos fabler: Bonden och ormen, http://en.wikipedia.org/wiki/The_Farmer_and_the_Viper /EF -->
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>
+                            <persName ref="#Ebba">Ebba</persName>! <stage>(patetiskt)</stage> Ja — henne skall du helsa från
+              <lb/> <persName ref="#Vännen">er olycklige kusin</persName> och säga henne ...</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(öfverraskad af hans ton).</stage>
+            <p>Hvad nu? Du tänker väl aldrig lemna oss?</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Jo — jag reser bort! Det är nödvändigt för mitt
+              <lb/> lugn. Jag vill dränka min sorg i Lethes, ja d. v. s. 
+              <lb/> egentligen i <placeName>Rhens</placeName> bölja. När hon får lära känna
+              <lb/> mitt beslut att aldrig gifta mig, skall hennes hjerta
+              <lb/> brista ...</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(häpen).</stage>
+            <p>Hvems hjerta?</p>
+          </sp>
+          <pb facs="6943-25.jpg"/>
+                    <fw type="pageNum">24</fw>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Hennes! Du nämnde henne nyss! <placeName ref="#Ebba">Din systers</placeName>!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(faller ner på soffan).</stage>
+            <p>
+                            <persName ref="#Ebba">Ebbas</persName> hjerta!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>
+                            <choice>
+                                <sic>(patestiskt).</sic>
+                                <corr>(patetiskt).</corr>
+                            </choice>
+                        </stage>
+            <p>
+                            <persName ref="#Ebba">Det kära barnet</persName> tillber mig, och jag måste stöta
+              <lb/> dolken i hennes bröst!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(afsides).</stage>
+            <p>
+                            <persName ref="#Ebba">Ebba</persName> gift! Hon skulle ha kommit ur huset! Och
+              <lb/> jag har ...</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(gör min af att vilja gå).</stage>
+            <p>Jag vill inte förlänga afskedets plåga!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Vänta! <persName ref="#Vännen">Oskar</persName>! <stage>(med spelad oro)</stage> Jag kan inte låta
+              <lb/> dig gå nu! Jag fruktar för ett förtvifladt beslut! Ja,
+              <lb/> jag ser det! Det är förgäfves, du söker dölja det!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Hvad är det, som jag söker dölja?</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Du ämnar döda dig!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Hm! Det hade jag verkligen inte tänkt på ...</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Jo, jo, du kan inte föra mig bakom ljuset! Och
+              <lb/> det är jag, som är skuld till detta! Nej, det får inte
+              <lb/> ske! Hör du! Jag skall hindra det <stage>(ställer sig fram­<lb break="no"/>för dörren med utsträckta armar och låtsar vilja spärra
+              <lb/> vägen för honom).</stage>
+                        </p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(för sig).</stage>
+            <p>Jag börjar verkligen tro, att alla fruntimmer äro
+              <lb/> galna! <stage>(högt)</stage> Men, <persName ref="#Frun">snälla Alma</persName>, du öfverdrifver en
+              <lb/> smula! Jag har verkligen inte bestämt mig för att
+              <lb/> dränka mig — inte ännu åtminstone! Det är alldeles
+              <pb facs="6943-26.jpg"/>
+                            <fw type="pageNum">25</fw>
+              onödigt att skrika så der! Det vore bättre, om du
+              <lb/> ville ta ditt förnuft till fånga och ge vika för ...</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(afbryter lifligt).</stage>
+            <p>För dig! Ja, det gör jag gerna! Jag går in på
+              <lb/> hvad som helst för att rädda dig!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Och så räddar du på samma gång <persName ref="#Ebba">din syster</persName>.
+              <lb/> <persName ref="#Ebba">Det stackars lilla känslofulla barnet</persName>! Hvem vet?
+              <lb/> Kanske <emph>hon</emph> hade kunnat komma på några sådana der
+              <lb/> idéer, som du nyss antydde.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Är du alldeles säker på, att hon älskar dig?</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Ja, naturligtvis! Har du aldrig sjelf märkt
+              <lb/> någonting?</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Nej, hva' då?</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Att hon inte varit sig lik den sista tiden? Har
+              <lb/> du inte lagt märke till, att hon visat något ovanligt
+              <lb/> intresse för mig?</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(ironiskt).</stage>
+            <p>Jo, det är då sant. Jag har lagt märke till att
+              <lb/> hon aldrig talar om dig.</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Nå, ser du nu?</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Och så ser hon aldrig åt dig, när du är här!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Nå, mer behöfs väl inte. Jag är viss om, att hon
+              <lb/> så mycket oftare talar med <persName ref="#Herrn">din man</persName>.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Ja, det skall Gud veta.</p>
+          </sp>
+          <pb facs="6943-27.jpg"/>
+                    <fw type="pageNum">26</fw>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Brukar hon inte sucka ibland utan någon anled­<lb break="no"/>ning? Brukar hon inte rodna, hvar gång det ringer
+              <lb/> på <persName ref="#Herrn">din mans</persName> dörr ...? Och när han kommer in, går
+              <lb/> hon emot honom mycket vänligt?</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(med eftertryck).</stage>
+            <p>Ja, mycket vänligt!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Och du har inte förstått, att allt det der gäller
+              <lb/> mig? Hon vill höra talas om mig, — och hon vill, att
+              <lb/> <persName ref="#Herrn">din man</persName> skall berömma henne för mig. Derför tar
+              <lb/> hon alltid hans parti.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Derför? ah! <stage>(klarnande)</stage> Du är mycket skarpsinnig,
+              <lb/> <persName ref="#Vännen">Oskar</persName>!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Åh, det är inte svårt att genomskåda er, frun­<lb break="no"/>timmer!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(gladt).</stage>
+            <p>Verkligen?</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Äfven den anspråkslösaste man kan inte undgå
+              <lb/> att märka det intryck, han gjort på ett fruntimmer.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Men att du aldrig sagt någonting till mig om
+              <lb/> den här saken. Och inte <persName ref="#Ebba">Ebba</persName> heller, fastän det
+              <lb/> varit uppgjordt er emellan.</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Uppgjordt, är det inte ännu! Jag väntade på
+              <lb/> befordran och — ja, den kom för sent! I går först
+              <lb/> hade jag en half förklaring med <persName ref="#Ebba">Ebba</persName>. Hon sa' att
+              <lb/> hon skulle vara hemma hela förmiddagen i dag, och
+              <lb/> hon väntar nu, att jag skall komma och fria.</p>
+          </sp>
+          <pb facs="6943-28.jpg"/>
+                    <fw type="pageNum">27</fw>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Jaså, det var derför, som jag inte på några vilkor
+              <lb/> kunde få henne att gå ut i dag. <stage>(afsides)</stage> Och jag som
+              <lb/> trodde ...!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Ja, nu blir det som sagdt ingenting af. Hon får
+              <lb/> vänta förgäfves.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Och det bara derför, att jag inte vill försona mig
+              <lb/> med <persName ref="#Herrn">min man</persName> <stage>(tystnar och synes fatta ett beslut).</stage>
+                        </p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Ja, ser du <persName ref="#Ebba">Ebba</persName> är då lik dig; hon har ditt
+              <lb/> lynne, alla dina stora förtjenster, men också ... <stage>(tvekar)</stage>.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(som under tiden synts fatta
+              <lb/> ett beslut; glädtigt).</stage>
+            <p>Alla mina fel, menar du! Ja, genera dig inte! — 
+              <lb/> Och du tror derför, att om jag är hård och oförsonlig
+              <lb/> mot <persName ref="#Herrn">min man</persName>, så måste hon också komma att bli det
+              <lb/> mot dig. Ja, <persName ref="#Vännen">kära Oskar</persName>, du har mycket rätt, men
+              <lb/> förifra dig bara inte! Glöm inte, att en förståndig
+              <lb/> man — och det är du — ofta kan leda sin hustru ...</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(klarnande).</stage>
+            <p>Ja, det förstås. Jag kan ju inte neka till, att
+              <lb/> jag fått en smula mer urskiljning än <persName ref="#Herrn">Karl</persName>.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(inställsamt).</stage>
+            <p>Du har alltid haft ett visst inflytande öfver mig;
+              <lb/> och då måste du ju ha det i ännu högre grad öfver
+              <lb/> <persName ref="#Ebba">Ebba</persName>, som är mycket yngre än jag, och som ...</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Och som är kär i mig — ja, det är då sant!
+              <lb/> Hör du! Du är ju <persName ref="#Frun">en rigtigt liten förståndig fru</persName> och
+              <lb/> jag börjar tro, att <persName ref="#Herrn">Karl</persName> varit alldeles för sträng emot
+              <lb/> dig. Om du bara ville ta ett enda litet steg ...</p>
+          </sp>
+          <pb facs="6943-29.jpg"/>
+                    <fw type="pageNum">28</fw>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Jag gör ingenting till hälften! Ja, du skall sjelf
+              <lb/> få se — <stage>(afsides)</stage> <persName ref="#Ebba">Ebba</persName> skall ur huset, kosta hvad det
+              <lb/> kosta vill! <stage>(högt)</stage> Du kan ju äta middag med oss i dag?</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Men om jag stannar här, blir det kanske svårare
+              <lb/> för dig att ... jag menar, att min närvaro kunde
+              <lb/> störa er ...</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Vår försoningsscen! Var lugn, jag skall visa, att
+              <lb/> jag inte är så dum. Hör nu på mitt förslag: Du
+              <lb/> skall genast gå till <orgName ref="#KglTeatern">Kgl. teatern</orgName> och skaffa en loge
+              <lb/> till <title>Mefistofeles</title>. En liten parkett-loge för fyra ...</p>
+            <!-- Arrigo Boito: Mefistofeles, http://sv.wikipedia.org/wiki/Mefistofeles_%28opera%29 /EF -->
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>För fyra?</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(leende).</stage>
+            <p>Ja ... för <persName ref="#Frun #Vännen">oss båda</persName> ... <persName ref="#Herrn">min man</persName> ... och ... <persName ref="#Ebba">en till</persName>!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(kysser hennes hand).</stage>
+            <p>Du är en engel!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Först skall du gå in till <persName ref="#Herrn">min man</persName> och narra
+              <lb/> honom hit ut under någon förevändning. Men inte
+              <lb/> ett ord om ditt frieri!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Nej, det förstås! Inte förrän det är afgjordt.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Du lemnar mig alltså ensam med <persName ref="#Herrn">min man</persName>. När
+              <lb/> du kommer tillbaka med biljetterna, träffar du oss här.
+              <lb/> <stage>(leende)</stage> Om du skulle vilja lyssna en smula, så har
+              <lb/> du mitt tillstånd.</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Du ämnar således försona dig med honom! Ack,
+              <lb/> <persName ref="#Frun">Alma</persName>! Får jag bara se detta bevis på ditt goda hjerta,
+              <pb facs="6943-30.jpg"/>
+                            <fw type="pageNum">29</fw>
+              så blir jag alldeles lugn för framtiden — och då friar
+              <lb/> jag ännu i dag.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Då är det så godt som gjordt. Du skulle kunna
+              <lb/> beställa förlofningskort genast.</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(springer mot fonden).</stage>
+            <p>Jag flyger!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Och du äter middag med oss?</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Ja visst! <stage>(vill gå.)</stage>
+                        </p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Men du skulle ju skicka hit <persName ref="#Herrn">min man</persName>!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(vänder om).</stage>
+            <p>Det var sant ...</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Men utan att han anar ...!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Ja, naturligtvis! Jag skall nog bära mig fint åt
+              <lb/> <stage type="exit" who="#Vännen">(går ut till höger).</stage>
+                        </p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+                    <head>Fjerde scenen.</head>
+          <stage type="presence" who="#Frun">FRUN. Sedan HERRN.</stage>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(ser efter <persName ref="#Vännen">Vännen</persName>).</stage>
+            <p>Hur skall jag bära mig åt? <persName ref="#Herrn">Min man</persName> måste hjelpa
+              <lb/> mig, men det gör han inte, om han får veta, att
+              <lb/> det är <persName ref="#Ebba">Ebba</persName>, som ... Åh! Han vill inte mista hennes
+              <lb/> sällskap! Jag har nog märkt, hur gerna han talar
+              <lb/> med henne ... Hvad skall jag hitta på? Det vore väl
+              <lb/> märkvärdigt, om jag inte skulle kunna öfverlista ...
+              <lb/> Ah! <stage type="entrance" who="#Herrn">(dörren till höger öppnas af <persName ref="#Herrn">Herrn</persName>)</stage> Redan? Hur
+              <lb/> i all verlden har <persName ref="#Vännen">Oskar</persName> kunnat så snart ... <stage>(sätter sig
+              <lb/> till venster och öfverlägger med sig sjelf).</stage>
+                        </p>
+          </sp>
+          <pb facs="6943-31.jpg"/>
+                    <fw type="pageNum">30</fw>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(för sig).</stage>
+            <p>Det var högst besynnerligt! <stage>(går ner och får se
+              <lb/> <persName ref="#Frun">Frun</persName>).</stage> Ah!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(för sig, förtjust).</stage>
+            <p>Nu har jag det! Jag skall ... ja, det är bäst att
+              <lb/> genast gripa verket an <stage>(högt, i kylig ton).</stage> Träffade du
+              <lb/> <persName ref="#Vännen">Oskar</persName>, innan han gick?</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(för sig; öfverraskad).</stage>
+            <p>Hon talar!! <stage>(oroligt)</stage> Skulle hon ämna börja om
+              <lb/> igen? <stage>(högt)</stage> Ja, <persName ref="#Vännen">Oskar</persName> var inne hos mig och bad, att
+              <lb/> jag skulle gå hit ut, men han kunde inte säga hvarför.
+              <lb/> Och så sprang han.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(utbrister i ett hjertligt
+              <lb/> skratt).</stage>
+            <p>Ha, ha, ha! Och det kallar han att bära sig fint
+              <lb/> åt! Ha, ha!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(infaller ofrivilligt i
+              <lb/> skrattet).</stage>
+            <p>Ha, ha! <stage>(hejdar sig)</stage> Det var således du, som
+              <lb/> hade bedt honom att ...</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(i iskall ton).</stage>
+            <p>Ja, jag ville tala med dig. Det är ... nåja, det
+              <lb/> tjenar till ingenting att gå krokvägar. Saken är, att
+              <lb/> vi båda två ha begått en stor dumhet.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Tack ska' du ha, men ... <stage>(hejdar sig; vänligt).</stage>
+              <lb/> Åhja — nog var det dumt af oss att förifra oss så der.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(som förut).</stage>
+            <p>Det är inte alls fråga om det! Jag menar bara
+              <lb/> att <persName ref="#Vännen">Oskar</persName> aldrig borde ha fått veta hur du behandlar
+              <lb/> <stage>(hejdar sig)</stage> hur jag ... nej, jag menar hur du ... hur
+              <lb/> vi behandla hvarandra <stage>(hon har småningom förargat upp
+              <lb/> sig och tillägger i vredesmod).</stage> Men det är egentligen
+              <lb/> ditt fel.</p>
+          </sp>
+          <pb facs="6943-32.jpg"/>
+                    <fw type="pageNum">31</fw>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Naturligtvis! Jag förrådde mig! Du begär, att alla
+              <lb/> skola visa lika stor sjelfbeherskning, som du sjelf gör.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Åhnej! Jag får minsann inte begära någonting,
+              <lb/> jag! Du vet inte ens hvad det vill säga att beräkna
+              <lb/> verkan af dina yttranden. Nu har <persName ref="#Vännen">Oskar</persName> genomskådat
+              <lb/> våra förhållanden ...</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Har han? Nåja än se'n, hvad gör det?</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(förbittrad).</stage>
+            <p>Jaså, du vill så ha det! Du vill att <persName ref="#Vännen">Oskar</persName> skall
+              <lb/> anse mig för en megära! Du vill ... ah! <stage>(snyftande)</stage>
+              <lb/> Du gjorde det med flit, det visste jag! Du är det ...
+              <lb/> det mest beräknande odjur jag känner!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Fastän jag inte vet hvad beräkning vill säga!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Åh du! ... Jag menade ... <stage>(hastigt afsides)</stage> Herre
+              <lb/> Gud! Jag skulle ju inte förarga honom! <stage>(högt i ombytt
+              <lb/> ton)</stage> Jag är rädd för, att jag å min sida också var
+              <lb/> oförsigtig i mina förtroenden till <persName ref="#Vännen">Oskar</persName>, men han är
+              <lb/> <persName ref="#Vännen">min slägting och barndomsvän</persName>.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(afsides).</stage>
+            <p>Hvad kommer åt henne nu då?</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Emellertid är följden, att <persName ref="#Vännen">Oskar</persName> inte törs gifta sig!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Nå så kan han lefva ändå!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Du är ...! <stage>(hejdar sig)</stage> Åh gubevars! Före äkten­<lb break="no"/>skapet tala herrarne alltid om att ta lifvet af sig.
+              <lb/> Kommer du ihåg den der lilla kristallflaskan med blå­<lb break="no"/>syra, som du alltid bar på dig, innan jag hade sagt ja?</p>
+          </sp>
+          <pb facs="6943-33.jpg"/>
+                    <fw type="pageNum">32</fw>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Ja visst; den skulle vara så bra för tandvärk.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>För ...! oh!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Ja visst! <persName ref="#Tandläkaren">Tandläkaren</persName> sålde den åt mig, men det
+              <lb/> var bara bedrägeri.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Det var således inte blåsyra! Du bedrog mig
+              <lb/> redan då!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Men jag säger dig ju, att det var <persName ref="#Tandläkaren">tandläkaren</persName>!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Och jag som trodde, att du åtminstone då hade
+              <lb/> en smula samvete i behåll. Jag som ...</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(går mot höger).</stage>
+            <p>Så der ja! <stage>(halfhögt)</stage> Rädde sig nu, den som kan!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(afsides).</stage>
+            <p>Han går! Ack, hvarför skall det vara så svårt
+              <lb/> att tiga! <stage>(högt)</stage> Jag ... jag ... ville tala med dig om
+              <lb/> <persName ref="#Vännen">Oskar</persName>, men du är så ... d. v. s. <emph>jag</emph> är så ... nog
+              <lb/> af. Hvad tror du, att <persName ref="#Ebba">hans fästmö</persName> kommer att säga,
+              <lb/> om vi bli skuld till en brytning ...?</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Hva' nu? Unnar du inte henne att få behålla
+              <lb/> sina illusioner?</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Det är bäst, att hvar och en handlar för sig sjelf.
+              <lb/> Hon kommer nog inte att tacka oss. Och hennes
+              <lb/> anhöriga se'n.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Ja, de vilja naturligtvis bli af med henne.</p>
+          </sp>
+          <pb facs="6943-34.jpg"/>
+                    <fw type="pageNum">33</fw>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(betraktar honom skarpt).</stage>
+            <p>Ja, tänk sjelf, om du hade någon att gifta bort?
+              <lb/> En slägting, en dotter ... en syster?</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>
+                            <persName ref="#Wilhelmina">En syster</persName> har jag gunås, men henne lär ingen
+              <lb/> springa bort med. <persName ref="#Wilhelmina">Stackars Wilhelmina</persName>! Jag gjorde
+              <lb/> ett sista försök med <persName ref="#Hästhandlaren">en hästhandlare</persName>, och det är visst
+              <lb/> tio år sedan.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Nu öfverdrifver du! <persName ref="#Wilhelmina">Wilhelmina</persName> är bestämdt
+              <lb/> yngre än du och ser nära på lika bra ut ...</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Tack ska du ha, men mig narrar du inte. Du
+              <lb/> skulle nog inte vara så skonsam om du inte visste,
+              <lb/> att hon är ful. Hon vet att hon aldrig blir gift, och
+              <lb/> det förskönar henne inte.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(med tonvigt).</stage>
+            <p>
+                            <persName ref="#Wilhelmina">Wilhelmina</persName> har haft <persName ref="#Vännen">en friare</persName>. Det är henne
+              <lb/> som <persName ref="#Vännen">Oskar</persName> är kär i!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(tillintetgjord, nerfaller
+              <lb/> på en stol).</stage>
+            <p>I henne! <stage>(paus)</stage> Ah herre Gud! <stage>(med djup förviflan)</stage>
+              <lb/> Hvarför sa' han mig inte det med detsamma!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Förmodligen af samma skäl, som gjorde, att inte
+              <lb/> jag fick veta det, förrän det var för sent. <stage>(leende)</stage>
+              <lb/> Ingen af oss lät honom tala till punkt.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(betraktar henne, afsides).</stage>
+            <p>Hon är verkligen söt! ... ibland!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(går ifrån honom. Kyligt).</stage>
+            <p>Ja nu ser du, hur oförsigtiga vi varit. Men ännu
+              <lb/> kan skadan repareras.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Kan den? Men hvad kan du ha för intresse af det?</p>
+          </sp>
+          <pb facs="6943-35.jpg"/>
+                    <fw type="pageNum">34</fw>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Upprigtigt sagdt tycker jag inte om <persName ref="#Wilhelmina">din syster</persName>;
+              <lb/> och som du ofta talat om att ta henne hit hem till
+              <lb/> oss ...</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(lifligt).</stage>
+            <p>Åhnej, det sa' jag bara för att ret ... <stage>(hejdar sig).</stage>
+              <lb/> Jag menar, hon får ju resa utrikes med <persName ref="#Fastern">faster</persName>, som
+              <lb/> vill adoptera henne.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Men det säkraste vore ändå att få henne bortgift.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Naturligtvis, men tror du, att det låter sig göra
+              <lb/> nu? <persName ref="#Vännen">Oskar</persName> sprang sin väg, och det undrar jag inte på.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Han kommer igen! Och till dess måste du hjelpa
+              <lb/> mig med att arrangera en försoningsscen, en skenbar
+              <lb/> förlikning ...</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(förtjust).</stage>
+            <p>En försoning!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(iskallt).</stage>
+            <p>Skenbar. Bara han ser, att jag tar första steget,
+              <lb/> att jag erkänner mig haft orätt ...</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Vill du verkligen det?</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Jag vill låtsas! Vi sluta ett stillestånd på den
+              <lb/> här vigtiga aftonen! Så snart <persName ref="#Vännen">Oskar</persName> friat, kunna vi
+              <lb/> börja om igen.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Men, <persName ref="#Frun">dyra Alma</persName> ...</p>
+            <stage>(En häftig ringning höres.)</stage>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(lyssnar, sänker rösten).</stage>
+            <p>Det är han! Han lyssnar. Då vill jag be dig
+              <lb/> om förlåtelse ...</p>
+          </sp>
+          <pb facs="6943-36.jpg"/>
+                    <fw type="pageNum">35</fw>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>
+                            <persName ref="#Frun">Min söta lilla Alma</persName>, jag ...</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(ifrigt höjer rösten).</stage>
+            <p>Säg ingenting! Jag ser ju i dina ögon, att du
+              <lb/> förlåtit mig!</p>
+          </sp>
+          <stage>
+                        <stage type="entrance" who="#Vännen">(Oskar öppnar fonddörren</stage>, <stage type="exit" who="#Vännen">men tillsluter den genast</stage>.)</stage>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(förvirrad).</stage>
+            <p>I mina ögon? Men vet du, när du ser på mig
+              <lb/> så der, så blir jag rigtigt underlig till mods.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(mycket inställsamt).</stage>
+            <p>Du håller då ännu en smula af <persName ref="#Frun">din oförståndiga,
+              <lb/> nyckfulla, egensinniga lilla hustru</persName>?</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Jag tillber dig! Men du får aldrig påminna mig
+              <lb/> om min orättvisa.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(sakta).</stage>
+            <p>Alldeles utmärkt! Gå på så der!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(höjer rösten).</stage>
+            <p>Tror du, att det är för att föra någon bakom
+              <lb/> ljuset, som jag ... <stage>(vill omfamna henne).</stage>
+                        </p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(hviskar hastigt, i det hon
+              <lb/> drar sig undan).</stage>
+            <p>Tala inte så högt! <stage>(höjer rösten)</stage> Allt är då
+              <lb/> godt igen!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(afbryter, ömt hviskande).</stage>
+            <p>Jag törs knappt tro på min lycka! Du är en engel!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(hviskande).</stage>
+            <p>Tala inte så sakta!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Jaså, sa' du inte sjelf nyss ...</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(som förut).</stage>
+            <p>Ja, då ja! Men det der andra skall du säga så
+              <lb/> det hörs!</p>
+          </sp>
+          <pb facs="6943-37.jpg"/>
+                    <fw type="pageNum">36</fw>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Ack, jag bryr mig visst om <persName ref="#Vännen">Oskar</persName> nu! <stage>(kysser henne).</stage>
+                        </p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(hviskar förtrytsamt).</stage>
+            <p>Vänta bara! Det ska' du minsann få igen!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(skrattande).</stage>
+            <p>Ja genast, om du vill! <stage>(kysser henne ånyo).</stage>
+                        </p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(sakta).</stage>
+            <p>Du missbrukar situationen! Nåja, det kommer väl
+              <lb/> en dag i morgon också! <stage>(drar honom ner bredvid sig i
+              <lb/> soffan och säger högt, med innerlig röst)</stage> Aldrig har jag
+              <lb/> så djupt som nu känt, hur stora skäl du haft att vara
+              <lb/> missnöjd med mig. Derför måste de nu sägas dessa
+              <lb/> två små ord, som jag hittills ansett så svåra, ja rent
+              <lb/> af omöjliga att uttala ...</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(allvarsamt rörd).</stage>
+            <p>Hvilka ord, <persName ref="#Frun">min älskling</persName>?</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(efter någon tvekan).</stage>
+            <p>
+                            <persName ref="#Herrn">Karl</persName> ... förlåt mig!</p>
+            <stage>(Han fattar hennes händer och kysser dem; <stage type="entrance" who="#Vännen">i detsamma
+              <lb/> öppnar Oskar fonddörren och skyndar in</stage>.)</stage>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>Femte scenen.</head>
+          <stage type="presence" who="#Frun #Vännen #Herrn">HERRN. FRUN. VÄNNEN.</stage>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Ah! <persName ref="#Frun">Alma</persName>! Du är beundransvärd!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(lifligt).</stage>
+            <p>Ja, är hon inte!</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Du har räddat <persName ref="#Ebba #Vännen">två menniskolif</persName>! Både hon och
+              <lb/> jag skulle ha dött!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>När tänker du beställa ringar?</p>
+          </sp>
+          <pb facs="6943-38.jpg"/>
+                    <fw type="pageNum">37</fw>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN</speaker> <stage>(något förlägen, tar upp
+              <lb/> en liten ask ur fickan).</stage>
+            <p>Ja, ser du — de äro här!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(fattar hastigt <persName ref="#Vännen">Oskars</persName> arm).</stage>
+            <p>Redan! <stage>(pekar leende åt venster)</stage> Och ... hon är der!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Men, <persName ref="#Vännen">kära Oskar</persName>, var det inte ändå en smula
+              <lb/> vågadt att beställa ringar på förhand. Tänk om det
+              <lb/> inte blifvit någonting af?</p>
+          </sp>
+          <sp who="#spVännen">
+            <speaker>VÄNNEN.</speaker>
+            <p>Ja ... hm ... Men så hade det väl alltid kunnat
+              <lb/> komma ett annat tillfälle ...</p>
+            <stage type="exit" who="#Vännen">(Omfamnar <persName ref="#Frun">Alma</persName> och skyndar ut till venster.)</stage>
+          </sp>
+        </div> 
+        <div type="scene" n="6">
+          <head>Sjette scenen.</head>
+          <stage type="presence" who="#Herrn #Frun">HERRN och FRUN.</stage>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(ser harmset efter <persName ref="#Vännen">Oskar</persName>).</stage>
+            <p>Ja, sådana der är ni allihop!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(lifligt).</stage>
+            <p>
+                            <persName ref="#Vännen">Oskar</persName> är en präktig ung man.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Först säger ni, att ni ska' dö, och se'n blir
+              <lb/> det aldrig någonting af.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(närmar sig med ömhet
+              <lb/> <persName ref="#Frun">frun</persName>).</stage>
+            <p>Seså, var inte ond på <persName ref="#Vännen">Oskar</persName> nu! Vi karlar skulle
+              <lb/> inte narras hälften så ofta för er fruntimmer, om ni
+              <lb/> inte ansåge det så nödvändigt. <persName ref="#Frun">Alma</persName>, du var ju så
+              <lb/> snäll nyss!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Ja, gudskelof, att det är gjordt!</p>
+          </sp>
+          <pb facs="6943-39.jpg"/>
+                    <fw type="pageNum">38</fw>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Hvad för något! Det kan väl inte vara ditt all­<lb break="no"/>var, — att du inte menade allvar ...</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(som förut).</stage>
+            <p>Du spelade inte illa!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Jag spelade inte alls! Jag var utom mig af för­<lb break="no"/>tjusning! Min själ, jag sa' ett enda ord, som jag
+              <lb/> inte tänkte!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(ser på honom).</stage>
+            <p>Jaså.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Och jag är öfvertygad om, att du också var
+              <lb/> upprigtig.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Det vore inte första gången, som du skulle ha
+              <lb/> misstagit dig!</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Jag kan inte ha misstagit mig! Du kan inte ha
+              <lb/> gycklat, när du såg på mig så der. Allt annat skulle
+              <lb/> jag gerna ha förlåtit, men om du lekt med mig, så ...</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(ironiskt).</stage>
+            <p>Sa' jag kanske inte, att jag var tio gånger
+              <lb/> klokare än du?</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(ond).</stage>
+            <p>Jaså, är det verkligen så! Men då skall du också
+              <lb/> ha spelat din komedi förgäfves! Jag skall säga <persName ref="#Vännen">din
+              <lb/> kusin</persName> hela sanningen, och han skall ... <stage>(rusar mot
+              <lb/> dörren till venster).</stage>
+                        </p>
+          </sp>
+          <anchor xml:id="Proposal"/>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(ställer sig hastigt i
+              <lb/> hans väg).</stage>
+            <p>Det är för sent. <persName ref="#Ebba">Ebba</persName> har redan sagt ja.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(studsande).</stage>
+            <p>
+                            <persName ref="#Ebba">
+                                <choice>
+                                    <sic>E bba</sic>
+                                    <corr>Ebba</corr>
+                                </choice>
+                            </persName>!</p>
+          </sp>
+          <pb facs="6943-40.jpg"/>
+                    <fw type="pageNum">39</fw>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Ja.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>
+                            <persName ref="#Ebba">Ebba</persName>! <persName ref="#Ebba">Din syster</persName>! Hvarför sa' du då, att det var
+              <lb/> <persName ref="#Wilhelmina">
+                                <emph>min</emph> syster</persName>?</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(något osäkert).</stage>
+            <p>För att du inte skulle motarbeta min plan. Du
+              <lb/> skulle aldrig ha velat hjelpa mig att gifta bort <persName ref="#Ebba">Ebba</persName>.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(afsides).</stage>
+            <p>Hon var svartsjuk! Och det begrep jag inte!</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(alltmera rädd).</stage>
+            <p>I <persName ref="#Ebba">Ebba</persName> förlorar du en trogen bundsförvandt.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(afsides).</stage>
+            <p>
+                            <persName ref="#Frun">Stackars liten</persName>! <stage>(högt)</stage> Nog vet du, att jag inte
+              <lb/> bryr mig om <persName ref="#Ebba">Ebba</persName> annat än för, att hon är <persName ref="#Ebba">din syster</persName>.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Så artig har du aldrig varit sedan vi blefvo gifta.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Och du har heller aldrig varit så söt. Nyss, när
+              <lb/> du såg på mig så der mildt, gjorde jag en upptäckt.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN.</speaker>
+            <p>Hvilken upptäckt?</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Att du ännu kan vara lika söt, som under vår
+              <lb/> förlofningstid, och att det bara beror på dig sjelf, att
+              <lb/> göra mig lika förälskad, som jag då var.</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(blygt).</stage>
+            <p>Vet du hva'? Jag gjorde också en upptäckt nyss.</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN.</speaker>
+            <p>Hvad då?</p>
+          </sp>
+          <pb facs="6943-41.jpg"/>
+                    <fw type="pageNum">40</fw>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(sänker hufvudet).</stage>
+            <p>Att det endast är det första steget, som kostar
+              <lb/> på, och att det egentligen inte är så svårt, att säga
+              <lb/> de der båda orden, som jag var så rädd för ...</p>
+          </sp>
+          <sp who="#spHerrn">
+            <speaker>HERRN</speaker> <stage>(leende).</stage>
+            <p>Hvilka ord?</p>
+          </sp>
+          <sp who="#spFrun">
+            <speaker>FRUN</speaker> <stage>(lutar hufvudet mot hans
+              <lb/> axel).</stage>
+            <p>Förlåt mig!</p>
+          </sp>
+        </div>
+        <stage>Ridån faller.</stage>
+      </div>
+    </body>
+    <back>
+      <pb facs="6943-42.jpg"/><!-- lista på utgivna pjäser i serien -->
+      <gap reason="irrelevant"/>
+      <pb facs="6943-43.jpg"/><!-- forts -->
+      <gap reason="irrelevant"/>
+      <div type="editorial">
+        <listPerson>
+          <listPerson type="cast">
+            <person xml:id="Herrn" sex="male">
+              <persName>
+                <forename>Karl</forename>
+                <forename type="nickname">Kalle</forename>
+              </persName>
+            </person>
+            <person xml:id="Frun" sex="female">
+              <persName>
+                <forename>Alma</forename>
+              </persName>
+            </person>
+            <person xml:id="Vännen" sex="male">
+              <persName>
+                <forename>Oskar</forename>
+              </persName>
+            </person>
+          </listPerson>
+          <listPerson type="noncast">
+            <listPerson type="fictive">
+              <person xml:id="Ebba" sex="female">
+                <persName>
+                  <forename>Ebba</forename>
+                </persName>
+                <age>mycket yngre än Frun</age>
+                <note>Eventuellt under 18 år</note>
+              </person>
+              <person xml:id="Wilhelmina" sex="female">
+                <persName>
+                  <forename>Wilhelmina</forename>
+                </persName>
+                <age>yngre än Herrn</age>
+              </person>
+              <person xml:id="Svärfar" sex="male">
+                <death notAfter-custom="#playstart"/>
+              </person>
+              <person xml:id="Fastern" sex="female"/>
+              <person xml:id="Tandläkaren" sex="male">
+                <occupation scheme="#HISCO" code="06310">tandläkare</occupation>
+              </person>
+              <person xml:id="Hästhandlaren" sex="male">
+                <occupation scheme="#HISCO" code="41025" cert="medium">hästhandlare</occupation><!-- flera koder i HISCO: 41020 (wholesale trade), 41025 (wholesale trade or retail) -->
+              </person>
+              <listPerson type="mythical">
+                <person xml:id="FågelFenix" sex="male" role="animal">
+                  <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Fenix</idno>
+                  <idno type="Wikipedia">http://en.wikipedia.org/wiki/Phoenix_%28mythology%29</idno>
+                  <note>grekisk mytologi</note>
+                </person>
+              </listPerson>
+            </listPerson>
+            <listPerson type="historical">
+              <person xml:id="Tegnér" sex="male">
+                <persName>
+                  <forename>Esaias</forename>
+                  <surname>Tegnér</surname>
+                </persName>
+                <occupation scheme="#HISCO" code="15120">författare</occupation>
+                <idno type="LIBRIS">http://libris.kb.se/auth/203434</idno>
+                <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Esaias_Tegn%C3%A9r</idno>
+              </person>
+            </listPerson>
+          </listPerson>
+          <listRelation>
+            <relation type="personal" name="gift" mutual="#Herrn #Frun"/>
+            <relation type="personal" name="vän" mutual="#Vännen #Herrn"/>
+            <relation type="personal" name="syskon" mutual="#Herrn #Wilhelmina"/>
+            <relation type="personal" name="syster" mutual="#Frun #Ebba"/>
+            <relation type="personal" name="kusin" mutual="#Vännen #Ebba"/> 
+            <relation type="personal" name="kusin" mutual="#Vännen #Frun"/> 
+            <relation type="personal" name="far" active="#Svärfar" passive="#Frun #Ebba"/>
+            <relation type="personal" name="faster" active="#Fastern" passive="#Herrn #Wilhelmina"/>
+            <relation type="personal" name="friare" active="#Vännen" passive="#Ebba" from-custom="#playstart" to-custom="#Proposal"/>
+            <relation type="personal" name="förlovad" mutual="#Vännen #Ebba" from-custom="#Proposal" to-custom="#playend"/>
+            <relation type="personal" name="friare" active="#Hästhandlaren" passive="#Wilhelmina" to-custom="#playstart"/>
+            <relation type="social" name="tandläkare" active="#Tandläkaren" passive="#Herrn"/>
+            <relation type="other" name="citerar" active="#Vännen" passive="#Tegnér"/>
+            <relation type="other" name="ref." active="#Frun" passive="#Tegnér"/>
+            <relation type="other" name="likn." active="#Frun" passive="#FågelFenix"/>
+            <relation type="other" name="ska.boka.loge" active="#Vännen" passive="#KglTeatern"/>
+          </listRelation>
+        </listPerson>
+        <listOrg>
+          <org xml:id="KglTeatern">
+            <orgName>Kgl. teatern</orgName>
+            <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Kungliga_Teatern</idno>
+          </org>
+        </listOrg>
+        <!-- IDEA: Intertext till annan scenkonst (Tiggarstudenten, Mefistofeles) /UL -->
+        <fs type="hand" xml:id="handarbetep1">
+          <f name="props">
+                        <symbol value="sybord"/>
+                    </f>
+        </fs>
+        <fs type="hand" xml:id="handarbete1">
+          <f name="aktivitet">
+                        <symbol value="handarbete"/>
+                    </f>
+          <f name="vem" fVal="#Frun"/>
+          <f name="start" fVal="#handarbete1start"/>
+          <f name="slut" fVal="#handarbete1slut"/>
+        </fs>
+      </div>
+    </back>
+    <anchor xml:id="playend"/>
+  </text>
+</TEI>

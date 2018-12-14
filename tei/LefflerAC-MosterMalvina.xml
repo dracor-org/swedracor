@@ -1,0 +1,1643 @@
+<!-- $Id: LefflerAC_MosterMalvina.xml 114244 2015-03-30 09:47:33Z eva $ -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moster Malvina</title>
+        <title type="sub">Dramatisk situation i en akt</title>
+        <author xml:id="LefflerAC">
+          <persName>
+            <forename>Anne Charlotte</forename>
+            <surname>Leffler</surname>
+          </persName>
+          <idno type="LIBRIS">http://libris.kb.se/auth/204270</idno>
+          <idno type="Litteraturbanken">http://litteraturbanken.se/#!forfattare/LefflerAC</idno>
+          <idno type="SBL">http://www.nad.riksarkivet.se/sbl/artikel/11121</idno>
+        </author>
+        <sponsor>
+          <name>Riksteatern, anslagsförvaltare</name>
+        </sponsor>
+        <funder>
+          <name>Vetenskapsrådet</name>
+        </funder>
+        <funder>
+          <name>Riksbankens Jubileumsfond</name>
+        </funder>
+        <editor>
+          <name>Dramawebben</name>
+        </editor>
+        <principal>
+          <persName>Marika V. Lagercrantz</persName>
+        </principal>
+        <respStmt>
+          <resp>strukturkodning</resp>
+          <persName xml:id="ForsbomE">Eva Forsbom</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>kodning</resp>
+          <persName xml:id="BackhammarT">Tove Backhammar</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>korrekturläsning</resp>
+          <persName xml:id="BergströmS">Sara Bergström</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>korrekturläsning</resp>
+          <persName xml:id="LindgrenU">Ulrika Lindgren</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>redigering</resp>
+          <persName ref="#ForsbomE">Eva Forsbom</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>eDrama</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Dramawebben</publisher>
+        <address>
+          <addrLine>http://www.dramawebben.se</addrLine>
+        </address>
+        <idno type="Dramawebben">LefflerAC_MosterMalvina</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/se/">
+            <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author sameAs="#LefflerAC">
+              <persName>Anna-Carlotta Leffler
+                D:ssa di Cajanello</persName>
+            </author>
+            <title level="a" type="main">Moster Malvina</title>
+            <title level="a" type="sub">Dramatisk situation i en akt</title>
+          </analytic>
+          <monogr>
+            <author sameAs="#LefflerAC">
+              <persName>Anna-Carlotta Leffler,
+                D:ssa di Cajanello</persName>
+            </author>
+            <title level="m">Tre komedier</title>
+            <idno type="LIBRIS">http://libris.kb.se/bib/1205385</idno>
+            <imprint>
+              <pubPlace>Stockholm</pubPlace>
+              <publisher>Albert Bonniers förlag</publisher>
+              <respStmt>
+                <resp>tryckning</resp>
+                <orgName>Alb. Bonniers boktryckeri</orgName>
+              </respStmt>
+              <date when="1891">1891</date>
+              <biblScope unit="page" from="129" to="160">129–160</biblScope>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Dramawebben är ett digitalt arkiv över upphovsrättslig fri svensk dramatik. Dramatexterna
+          finns återgivna i fulltext och är publicerade antingen i sk faksimil, ett pdf-dokument där
+          originaltrycket återges som en digital fotokopia, eller i bearbetningsbar text, ett
+          pdf-dokument med text och bild som kan användas för redigering. Dramawebben växer i takt
+          med att nya verk blir kända. Med det digitala pjäsmaterialet tillgängliggör och
+          aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
+          förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
+          sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
+      </samplingDecl>
+      <classDecl>
+        <taxonomy xml:id="HISCO">
+          <biblStruct>
+            <monogr>
+              <author>Marco H.D. van Leeuwen</author>
+              <author>Ineke Maas</author>
+              <author>Andrew Miles</author>
+              <title>HISCO Historical International Standard Classification of Occupations</title>
+              <idno type="ISBN">90-5867-196-8</idno>
+              <imprint>
+                <publisher>Leuven University Press</publisher>
+                <pubPlace>Leuven</pubPlace>
+                <date when="2002">2002</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+        </taxonomy>
+      </classDecl>
+      <tagsDecl>
+        <rendition>
+          <!-- Scenanvisningar anges med kursiv stil inom parentes-->
+          <!-- Stycken i repliker är indragna första raden -->
+          <!-- Talarrubriker centrerade, i kapitäler -->
+          <!-- Rollnamn i rollista i kapitäler, utom städerskan (rend=normal) /EF -->
+          <!-- Scenanvisningar efter talarrubrik är inline, vid ny rad indragna till mitten /EF -->
+          <!-- Fristående scenanvisningar är indragna första raden vid flera rader, eller centrerade vid en rad /EF -->
+        </rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="sv">Swedish</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:id="LefflerAC_MosterMalvina">
+    <anchor xml:id="playstart"/>
+    <front>
+      <pb facs="5630-0.jpg"/><!-- pärm -->
+      <pb facs="5630-1.jpg"/><!-- insida, pärm -->
+      <pb facs="5630-2.jpg"/><!-- tom sida -->
+      <pb facs="5630-3.jpg"/><!-- tom sida -->
+      <pb facs="5630-4.jpg"/><!-- omslag volym -->
+      <gap reason="irrelevant"/>
+      <pb facs="5630-5.jpg"/><!-- insida omslag -->
+      <pb facs="5630-6.jpg"/><!-- smutstitel volym -->
+      <gap reason="irrelevant"/>
+      <pb facs="5630-7.jpg"/><!-- tom sida -->
+      <pb facs="5630-8.jpg"/><!-- titelsida volym -->
+      <gap reason="irrelevant"/>
+      <pb facs="5630-9.jpg"/><!-- trycksida -->
+      <gap reason="irrelevant"/>
+      <pb facs="5630-10.jpg"/><!-- titelsida pjäs -->
+      <gap reason="irrelevant"/>
+      <pb facs="5630-11.jpg"/>
+      <castList>
+        <head>PERSONERNA:</head>
+        <castItem>
+          <role xml:id="spMalvina">
+                        <persName ref="#Malvina">Moster Malvina</persName>
+                    </role>.
+        </castItem>
+        <castItem>
+          <role xml:id="spKlara">
+                        <persName ref="#Klara">Klara</persName>
+                    </role>, <roleDesc>hennes dotter</roleDesc>.
+        </castItem>
+        <castItem>
+          <role xml:id="spFruBillgren">
+                        <persName ref="#FruBillgren">Fru Billgren</persName>
+                    </role>, <roleDesc>senior</roleDesc>.
+        </castItem>
+        <castItem>
+          <role xml:id="spMina">
+                        <persName ref="#Mina">Fru Mina Billgren</persName>
+                    </role>, <roleDesc>hennes sonhustru</roleDesc>.
+        </castItem>
+        <castItem>
+          <role xml:id="spHulda">
+                        <persName ref="#Hulda">Fru Hulda Hjort</persName>
+                    </role>, <roleDesc>född Billgren</roleDesc>.
+        </castItem>
+        <castGroup rend="braced">
+          <castItem>
+            <role xml:id="spFruSvenson">
+                            <persName ref="#FruSvenson">Fru Svenson</persName>
+                        </role>.
+          </castItem>
+          <castItem>
+            <role xml:id="spFruStröm">
+                            <persName ref="#FruStröm">Fru Ström</persName>
+                        </role>.
+          </castItem>
+          <castItem>
+            <role xml:id="spFruRosin">
+                            <persName ref="#FruRosin">Fru Rosin</persName>
+                        </role>.
+          </castItem>
+          <castItem xml:id="spFemFruar">
+            <roleGroup>
+              <roleDesc corresp="#FemFruar">Fem andra fruar</roleDesc>
+              <role corresp="#EnFru"/>
+              <roleGroup corresp="#FyraFruar"/>
+            </roleGroup>.
+          </castItem>
+          <roleDesc>Pauvres-honteuses.</roleDesc>
+        </castGroup>
+        <castItem>
+          <role xml:id="spMadamen" rend="normal">
+                        <persName ref="#Madamen">Städerskan</persName>
+                    </role>.
+        </castItem>
+      </castList>
+      <set>
+        <p>Handlingen tilldrager sig i <orgName ref="#HemFörPauvresHonteux">ett nybildadt hem
+          <lb/> för pauvres-honteux</orgName> i <placeName>Göteborg</placeName>.</p>
+      </set>
+    </front>
+    <body>
+      <pb facs="5630-12.jpg"/>
+      <div type="act" n="1">
+        <anchor type="hand" xml:id="handarbete1start"/>
+        <stage type="setting" who="#FemFruar #FruRosin #FruStröm #FruSvenson #Malvina">(Scenen föreställer ett stort rum, tomt och stelt, men nytt
+          <lb/> och ordentligt. I fonden dörr till matsalen, till höger ingångs­<lb break="no"/>dörr. Rundt kring ett stort bord sitta moster Malvina, fru
+          <lb/> Svenson, fru Ström, fru Rosin och de fem andra gamla frun­<lb break="no"/>timren under en <choice>
+                        <sic>taktampa</sic>
+                        <corr>taklampa</corr>
+                    </choice> och dels arbeta, dels lägga patience,
+          <lb/> dels prata. Fru Svenson bildar en grupp med fru Rosin och
+          <lb/> en annan, som dragit sig litet ifrån bordet, och tala ifrigt
+          <lb/> halfhögt med hvarandra. Moster Malvina sitter ensam och
+          <lb/> stickar. Hon är bättre klädd än de andra, med stor guld­<lb break="no"/>brosch och spetsmössa och krage samt en virkad gridelin schal
+          <lb/> öfver axlarna. Hon har något förnämt tillbakadraget i sin
+          <lb/> hållning och drar sig litet undan, så fort någon kommer henne
+          <lb/> nära, samt svarar i en nedlåtande ton, när man talar till
+          <lb/> henne.)</stage>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson</speaker> <stage>(en simpel månglerske­<lb break="no"/>typ, höjande rösten).</stage>
+          <p>Ja, det är riktigt oanständigt. Men låt oss
+            <lb/> bara klaga, bara klaga — hos <persName ref="#Kamrern">kamrern</persName>, hos <persName ref="#FruBillgren">fruarna</persName>
+            <lb/> i styrelsen, hos hela sällskapet. Bara klaga, inte
+            <lb/> nöja oss. Man ska sätta sig i respekt, annars blir
+            <lb/> man behandlad därefter.</p>
+        </sp>
+        <sp who="#spFruRosin">
+          <speaker>Fru Rosin.</speaker>
+          <p>Vi ska få <persName ref="#Malvina">moster Malvina</persName> med oss, hon som
+            <lb/> är kusin med själfva <persName ref="#FruBillgren">fru Billgren</persName>.</p>
+        </sp>
+        <pb facs="5630-13.jpg"/>
+                <fw type="pageNum">132</fw>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Hva falls? <emph>
+                            <persName ref="#Malvina">Moster Malvina</persName>!</emph> Jag vet icke af
+            <lb/> någon släktskap med <persName ref="#FruRosin">min goda fru Rosin</persName>.</p>
+        </sp>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson</speaker> <stage>(med ett flatskratt).</stage>
+          <p>
+                        <persName ref="#Malvina">Fru Isberg</persName> är ju moster Malvina för hela stan.
+            <lb/> Ensamma fruntimmer, som gå omkring på middagar
+            <lb/> i alla familjer, få alltid ett sådant där binamn.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Jag går inte omkring på middagar till andra
+            <lb/> än <persName ref="#Albert #Billgren #FruBillgren #Hulda #Mina">mina egna släktingar</persName>, och jag är inte heller
+            <lb/> moster Malvina för andra, ska jag ha den äran att
+            <lb/> underrätta <persName ref="#FruSvenson">min lilla fru Svenson</persName>.</p>
+        </sp>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson.</speaker>
+          <p>Det är bra. Hjälp oss då att klaga hos styrel­<lb break="no"/>sen, efter som <persName ref="#Malvina">fru Isberg</persName> är moster Malvina för
+            <lb/> dem allihop.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Jag ämnar alldeles inte klaga öfver någonting.
+            <lb/> Den som inte är nöjd här, ska verkligen vara bra
+            <lb/> otacksam.</p>
+        </sp>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson.</speaker>
+          <p>Ja så. Det låter så. Hvad säger <persName ref="#FruStröm">fru Ström</persName>?    
+            <lb/> Vill inte <persName ref="#FruStröm">frun</persName> heller vara med?</p>
+        </sp>
+        <sp who="#spFruStröm">
+          <speaker>Fru Ström</speaker> <stage>(en liten förskrämd, und­<lb break="no"/>fallande gumma, som håller    
+            <lb/> med alla).</stage>
+          <p>Jo visst, jo, visst, <persName ref="#FruSvenson">goa fru Svenson</persName>. Hvad ska    
+            <lb/> vi klaga öfver?</p>
+        </sp>
+        <pb facs="5630-14.jpg"/>
+                <fw type="pageNum">133</fw>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson.</speaker>
+          <p>Hvad vi ska klaga öfver! Det var då också    
+            <lb/> en märkvärdig fråga. Hvad vi ska klaga öfver,    
+            <lb/> när —</p>
+        </sp>
+        <sp who="#spFruStröm">
+          <speaker>Fru Ström</speaker> <stage>(afbrytande).</stage>
+          <p>Jag har ju inte sagt — jag vill visst vara med,    
+            <lb/> <persName ref="#FruSvenson">snälla fru Svenson</persName>.</p>
+        </sp>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson.</speaker>
+          <p>En sådan middag! Ärterna var ju inte ens    
+            <lb/> kokta. Och fläsket var bara fett och så salt, att    
+            <lb/> man ville spotta ut det.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Det hörs att <persName ref="#FruSvenson">fru Svenson</persName> är förståsigpåare.    
+            <lb/> Var det fläsk, <persName ref="#FruSvenson">fru Svenson</persName> sålde på <placeName>Hötorget</placeName>?</p>
+        </sp>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson.</speaker>
+          <p>Hvad jag än sålde, så vet jag, att jag ärligt    
+            <lb/> förtjänade mitt bröd och inte behöfde gå och ha    
+            <lb/> matdagar hos de rika grosshandelsfamiljerna — och    
+            <lb/> sedan vara stursk öfver det till och tro sig förmer    
+            <lb/> än andra.</p>
+        </sp>
+        <sp who="#spFruStröm">
+          <speaker>Fru Ström.</speaker>
+          <p>
+                        <persName ref="#FruSvenson #Malvina">Mina goda fruar</persName> — jag ber er — inte så hetsigt    
+            <lb/> — ni har rätt båda två — <persName ref="#Malvina">fru Isberg</persName> har så rätt    
+            <lb/> i att man skall vara nöjd och tacksam — det är    
+            <lb/> ju af välgörenhet man inrättat <orgName ref="#HemFörPauvresHonteux">detta hem</orgName>.</p>
+        </sp>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson.</speaker>
+          <p>Af välgörenhet! Jag orkar inte höra. Af få­<lb break="no"/>fänga är det — ingenting annat än fåfänga.</p>
+        </sp>
+        <pb facs="5630-15.jpg"/>
+                <fw type="pageNum">134</fw>
+        <sp who="#spFruStröm">
+          <speaker>Fru Ström.</speaker>
+          <p>Men <persName ref="#FruSvenson">fru Svenson</persName> har också rätt — fläsket    
+            <lb/> <emph>var</emph> salt.</p>
+        </sp>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson.</speaker>
+          <p>Men nog begriper man hvarför <persName ref="#Malvina">fru Isberg</persName> måste    
+            <lb/> försvara allt hvad som kommer från <persName ref="#Billgren #FruBillgren">Billgrens</persName>. Inte
+            <lb/> bara för söndagsmiddagarna, men också för <persName ref="#Klara">dottern</persName>,    
+            <lb/> för <persName ref="#Klara">lilla Klara</persName>.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Är <persName ref="#FruSvenson">fru Svenson</persName> <emph>du</emph> också med <persName ref="#Klara">min dotter</persName>?</p>
+        </sp>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson.</speaker>
+          <p>Nej, Gud ske lof, — jag har aldrig sett henne    
+            <lb/> för resten. Men hvem har inte hört talas om <persName ref="#Klara">»min    
+            <lb/> Klara»</persName>, från morgon till kväll alla dagar, som vi    
+            <lb/> varit tillsammans här. Hon ska ju vara ett riktigt    
+            <lb/> under af fullkomlighet, <persName ref="#Klara">den Klara</persName>.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina</speaker> <stage>(med ett litet spetsigt    
+            <lb/> skratt).</stage>
+          <p>Inte så utmärkt ändå, som <persName ref="#Sergeanten">
+                            <persName ref="#FruSvenson">fru Svensons</persName> son,    
+            <lb/> sergeanten</persName>.</p>
+        </sp>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson.</speaker>
+          <p>
+                        <persName ref="#Sergeanten">Officern</persName> — <persName ref="#Sergeanten">min son</persName> är officer.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina</speaker> <stage>(som förut).</stage>
+          <p>Gu’ bevars, när <persName ref="#FruSvenson">hans mamma</persName> säger det så.</p>
+        </sp>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson.</speaker>
+          <p>Och eftersom det är <persName ref="#Billgren #FruBillgren">Billgrens</persName>, som gifvit <persName ref="#Klara">Klara</persName>
+            <lb/> respengar till <placeName>Amerika</placeName> och väl också underhåller    
+            <lb/> henne där, så får det naturligtvis lof att vara bra
+            <pb facs="5630-16.jpg"/>
+                        <fw type="pageNum">135</fw>
+            allt hvad de gör. Men vi andra behöfva väl inte    
+            <lb/> tåla allting för det.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Nej, det förstås, och en sak vill jag för min    
+            <lb/> del gärna vara med om att klaga öfver.</p>
+        </sp>
+        <sp who="#spFruStröm">
+          <speaker>Fru Ström</speaker> <stage>(ifrigt).</stage>
+          <p>Ja, det har <persName ref="#Malvina">fru Isberg</persName> alldeles rätt i.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Man borde vara lite mer noga med valet af    
+            <lb/> personer, som tas in här. Det heter ju, att det är    
+            <lb/> <orgName ref="#HemFörPauvresHonteux">ett hem för — bättre fruntimmer</orgName> —</p>
+        </sp>
+        <sp who="#spFruStröm">
+          <speaker>Fru Ström</speaker> <stage>(ifrigt afbytande).</stage>
+          <p>Har <persName ref="#Malvina">fru Isberg</persName> goda underrättelser från <persName ref="#Klara">sin    
+            <lb/> dotter</persName>? Jag såg ett bref med amerikanskt märke    
+            <lb/> här om dagen.</p>
+        </sp>
+        <stage>(<persName ref="#Malvina">Malvina</persName> mildrad, talar afsides med <persName ref="#FruStröm">fru Ström</persName>.)</stage>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson</speaker> <stage>(afsides till <persName ref="#EnFru #FruRosin">sina båda    
+            <lb/> fruar</persName>).</stage>
+          <p>Hon ska få i sig <persName ref="#Klara">dotter</persName> hel och hållen, en dag,    
+            <lb/> det lofvar jag. Hon tror att det ska gå i oss allt    
+            <lb/> hvad hon skryter med henne. Hon vet inte, att vi    
+            <lb/> allesammans ha reda på, hur det hänger ihop med    
+            <lb/> amerikaresan och hela tillställningen.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina</speaker> <stage>(förtroligt till <persName ref="#FruStröm">fru Ström</persName>; <persName ref="#FruSvenson">fru    
+            <lb/> Svenson</persName> och <persName ref="#EnFru #FruRosin">de andra två</persName> lyssna).</stage>
+          <p>Det är nog inte så lätt att slå sig fram där    
+            <lb/> ute, som man tror. Hon lät mycket nedstämd, <persName ref="#Klara">min    
+            <lb/> stackars Klara</persName>. Och så med <persName ref="#Flickan">barnet</persName> sjukt.</p>
+        </sp>
+        <pb facs="5630-17.jpg"/>
+                <fw type="pageNum">136</fw>
+        <sp who="#spFruStröm">
+          <speaker>Fru Ström.</speaker>
+          <p>Ja, det är för sorgligt. Hur gammal är det    
+            <lb/> <persName ref="#Flickan">den lilla flickan</persName> är?</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina</speaker> <stage>(tvekar något med svaret).</stage>
+          <p>Hur gammal hon är, sa’ <persName ref="#FruStröm">fru Ström</persName>?</p>
+        </sp>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson</speaker> <stage>(afsides till <persName ref="#EnFru #FruRosin">de andra</persName>).</stage>
+          <p>Nu måste hon tänka efter igen för att se om    
+            <lb/> det går ihop.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina</speaker> <stage>(räknar på fingrarna).</stage>
+          <p>Jo, tre år ska hon väl vara nu.</p>
+        </sp>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson</speaker> <stage>(som förut).</stage>
+          <p>Nu dabbade hon sig. <stage>(Högt.)</stage> Jag tyckte <persName ref="#Malvina">fru    
+            <lb/> Isberg</persName> sa’ härom dagen, att det var två år sedan    
+            <lb/> <persName ref="#Klara">hennes dotter</persName> gifte sig.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina</speaker> <stage>(förvirrad).</stage>
+          <p>Hva befalls. Ja visst var det två år sedan —    
+            <lb/> nej, <persName ref="#Flickan">flickan</persName> kan inte vara mer än — nej, det var    
+            <lb/> tre år sedan — ja, naturligtvis var det tre år sedan,    
+            <lb/> <persName ref="#Klara">min dotter</persName> gifte sig.</p>
+        </sp>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson.</speaker>
+          <p>Det lacks inte ändå. Om <persName ref="#Flickan">flickan</persName> är tre år, så    
+            <lb/> måste det ju vara fyra år sedan —</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina</speaker> <stage>(mer och mer förvirrad).</stage>
+          <p>Hvad är det jag säger nu. Jag tror jag är    
+            <lb/> lite kollrig, jag. Visst är det fyra år sedan — och    
+            <lb/> inte är <persName ref="#Flickan">flickan</persName> tre år, visst inte.</p>
+        </sp>
+        <pb facs="5630-18.jpg"/>
+                <fw type="pageNum">137</fw>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson.</speaker>
+          <p>Å jo, låt henne vara tre år, <persName ref="#Malvina">moster Malvina</persName>.    
+            <lb/> Det går ihop. <stage>(Till <persName ref="#EnFru #FruRosin">de andra</persName>.)</stage> Hufvud på skaft har
+            <lb/> hon inte, <persName ref="#Malvina">den stackars människan</persName>.</p>
+        </sp>
+        <sp who="#spMadamen">
+          <speaker>Städerskan</speaker> <stage type="entrance" who="#Madamen">(en snäsig madam,
+            <lb/> öppnar dörren till vänster och    
+            <lb/> säger):</stage>
+          <p>Det är visiter till <persName ref="#Malvina">fru Isberg</persName>.</p>
+        </sp>
+        <stage type="exit" who="#Madamen" cert="medium"/>
+        <stage type="entrance" who="#FruBillgren #Hulda #Mina">(Fruarna Billgren, svärmor och sonhustru, samt fru Hulda
+          <lb/> Hjort, f. Billgren, träda lifligt in, tala alla i munnen på    
+          <lb/> hvarandra.)</stage>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren</speaker> <stage>(senior).</stage>
+          <p>God dag, <persName ref="#Malvina">kära Malvina</persName>!</p>
+        </sp>
+        <sp who="#spMina">
+          <speaker>Mina Billgren.</speaker>
+          <p>God afton, <persName ref="#Malvina">snälla moster Malvina</persName>!</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Å, så rart besök. Men är det inte märkvärdigt,    
+            <lb/> med mina aningar. Jag drömde om <persName ref="#FruBillgren #Hulda #Mina">herrskapet</persName> i    
+            <lb/> natt, ska jag ha den äran att tala om.</p>
+        </sp>
+        <sp who="#spHulda">
+          <speaker>Hulda.</speaker>
+          <p>Jag bad <persName ref="#Albert">Albert</persName> att jag skulle få gå med <persName ref="#FruBillgren">mamma</persName>    
+            <lb/> i afton, för jag har aldrig sett <orgName ref="#HemFörPauvresHonteux">en sådan här inrätt­<lb break="no"/>ning</orgName>. Jag ska hälsa så mycket från <persName ref="#Albert">Albert</persName>.</p>
+        </sp>
+        <anchor type="hand" xml:id="handarbete1slut"/>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Så snällt, så snällt. Ack så här på kvälls­<lb break="no"/>kvisten. Hvem kunde tänka det.</p>
+          <stage>(Far konfys omkring och söker efter sittplatser.)</stage>
+        </sp>
+        <pb facs="5630-19.jpg"/>
+                <fw type="pageNum">138</fw>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren.</speaker>
+          <p>Vi ä’ alla på middag hos <persName ref="#Alins">Alins</persName>, här strax    
+            <lb/> bredvid.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Ja så — hos <persName ref="#Alins">Alins</persName>. Det är middag hos <persName ref="#Alins">Alins</persName>?</p>
+        </sp>
+        <sp who="#spMina">
+          <speaker>Mina.</speaker>
+          <p>Ja, de hade tänkt att bjuda <persName ref="#Malvina">moster Malvina</persName>    
+            <lb/> också, om det hade kommit ett enda återbud, men    
+            <lb/> så svarade alla ja.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Bevars — de behöfva visst inte bjuda mig all­<lb break="no"/>tid. Sitt nu ned här ett ögonblick, <persName ref="#FruBillgren #Hulda #Mina">mina goda    
+            <lb/> fruar</persName>, medan jag går och tänder inne hos mig.</p>
+        </sp>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren</speaker> <stage>(som under tiden hälsat    
+            <lb/> på <persName ref="#FemFruar #FruRosin #FruStröm #FruSvenson">de andra fruarna</persName>, hvilka    
+            <lb/> alla äro mycket artiga, äfven    
+            <lb/> <persName ref="#FruSvenson">fru Svenson</persName>).</stage>
+          <p>Nej, det ska du inte göra, <persName ref="#Malvina">Malvina lilla</persName>. Den    
+            <lb/> här gången kommer jag som styrelsefru för att    
+            <lb/> hälsa på <orgName ref="#HemFörPauvresHonteux">hemmet</orgName>. Jag ville se, hur ni har det om    
+            <lb/> kvällarna. Här sitta ni ju så trefligt och fridfullt    
+            <lb/> tillsammans.</p>
+        </sp>
+        <sp who="#spMina">
+          <speaker>Mina</speaker> <stage>(afsides till <persName ref="#Hulda">Hulda</persName>).</stage>
+          <p>Det är något till väldigt komiskt att se <persName ref="#FemFruar #FruRosin #FruStröm #FruSvenson">hela    
+            <lb/> raden af gummor</persName> ihop.</p>
+        </sp>
+        <sp who="#spHulda">
+          <speaker>Hulda</speaker> <stage>(likaså).</stage>
+          <p>Och tänk så roligt för <persName ref="#Malvina">moster Malvina</persName> att ha    
+            <lb/> så många att skvallra med.</p>
+        </sp>
+        <pb facs="5630-20.jpg"/>
+                <fw type="pageNum">139</fw>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren</speaker> <stage>(till <persName ref="#FemFruar #FruRosin #FruStröm #FruSvenson" cert="medium">flera af fruarna</persName>,    
+            <lb/> som omge henne).</stage>
+          <p>Ja, jag är så intresserad för <orgName ref="#HemFörPauvresHonteux">det här hemmet</orgName> —</p>
+        </sp>
+        <sp who="#spFruStröm">
+          <speaker>Fru Ström.</speaker>
+          <p>Det är ju också till största delen <persName ref="#FruBillgren">fru Billgrens</persName>    
+            <lb/> egen skapelse.</p>
+        </sp>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren.</speaker>
+          <p>En annan gång kommer jag, när ni sitter till    
+            <lb/> bords, och då får ni bjuda mig en tallrik soppa.    
+            <lb/> Är maten god?</p>
+        </sp>
+        <sp who="#spFruStröm">
+          <speaker>Fru Ström.</speaker>
+          <p>Ja, <persName ref="#FruBillgren">goa fru Billgren</persName>, det är den visst det.</p>
+        </sp>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson</speaker> <stage>(ger henne en vredgad    
+            <lb/> blick).</stage>
+          <p>Ja, förlåt, <persName ref="#FruBillgren">fru Billgren</persName>, men jag är inte af dem,    
+            <lb/> som säger ett på ryggen och ett annat i ansiktet.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina</speaker> <stage>(afbrytande).</stage>
+          <p>Nu får jag kanske i stället bjuda på en kopp    
+            <lb/> kaffe, <persName ref="#FruBillgren">lilla goda Lydia</persName>.</p>
+        </sp>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren</speaker> <stage>(tar henne litet afsides).</stage>
+          <p>Inte du. Jag bjuder. Jag har redan sagt till.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Nej, <persName ref="#FruBillgren">goda Lydia</persName>, det kan jag alldeles inte till­<lb break="no"/>låta. I ditt hem kan du bjuda mig — som du    
+            <lb/> också alltid gör — på så många goda saker, du vill,    
+            <lb/> men här — ja, inte för att jag precis vill säga, att
+            <pb facs="5630-21.jpg"/>
+                        <fw type="pageNum">140</fw>
+            jag betraktar detta som ett hem, för det gör jag    
+            <lb/> verkligen inte — men jag bor nu i alla fall här,    
+            <lb/> och du är min gäst.</p>
+        </sp>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren</speaker> <stage>(otåligt afbrytande innan    
+            <lb/> <persName ref="#Malvina">Malvina</persName> talat till punkt).</stage>
+          <p>Det är godt och väl, och en annan dag kan    
+            <lb/> du ju bjuda mig i ditt rum allt hvad du vill —    
+            <lb/> men här förstår du väl, att man måste bjuda <persName ref="#FemFruar #FruRosin #FruStröm #FruSvenson">de    
+            <lb/> andra</persName> också.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Ack, kan inte jag få lof att göra det då! För­<lb break="no"/>låt, men nu var <persName ref="#FruBillgren">fru Billgren</persName> inte riktigt fin!</p>
+          <stage>(Skrattar affekteradt.)</stage>
+        </sp>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren.</speaker>
+          <p>Hvad skall det tjäna till!</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Det vill säga — jag bjuder bara dem, som jag    
+            <lb/> kan räkna att jag umgås med. För det finns <persName ref="#EnFru #FruRosin #FruSvenson">vissa</persName>,   
+            <lb/> som man inte kan vara i sällskap med, om man    
+            <lb/> har någon smula respekt för sig själf.</p>
+        </sp>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren.</speaker>
+          <p>Men inte går det an att utesluta någon, kära du.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Låt du mig göra som jag anser passande,    
+            <lb/> <persName ref="#FruBillgren">Lydia lilla</persName>.</p>
+          <stage>(Ringer på en knapp.)</stage>
+        </sp>
+        <pb facs="5630-22.jpg"/>
+                <fw type="pageNum">141</fw>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren.</speaker>
+          <p>Å, se, det är elektrisk ringledning i salongen    
+            <lb/> också, det visste jag inte. Det är ju riktigt ut­<lb break="no"/>studeradt bekvämt.</p>
+        </sp>
+        <sp who="#spMina">
+          <speaker>Mina.</speaker>
+          <p>Ja, här har <persName ref="#Malvina">moster Malvina</persName> det som en prinsessa.</p>
+        </sp>
+        <sp who="#spHulda">
+          <speaker>Hulda.</speaker>
+          <p>Hvad säger <persName ref="#Klara">Klara</persName> om att <persName ref="#Malvina">moster</persName> kommit in här?</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Hvad tänker du på, <persName ref="#Hulda">barn lilla</persName>, inte vet <persName ref="#Klara">Klara</persName>    
+            <lb/> om det. <stage>(Till <persName ref="#Madamen">madam</persName>, <stage type="entrance" who="#Madamen">som kommer i dörren till höger</stage>, lågt.)</stage>    
+            <lb/> Beställ kaffe för min räkning, för — låt mig se —    
+            <lb/> <persName ref="#FruBillgren #Mina">fruarna Billgren</persName> och <persName ref="#Hulda">Hulda</persName> — det är tre och <persName ref="#FruStröm">fru    
+            <lb/> Ström</persName> fyra, och <stage>(räknar med pekfingret de andra, utom    
+              <lb/> <persName ref="#FruSvenson">fru Svenson</persName> och <persName ref="#EnFru #FruRosin">hennes två fruar</persName>)</stage> — en, två, tre, fyra — 
+            <lb/> Ja ha, fyra till, det är åtta — och så jag — sju    
+            <lb/> inalles. Beställ kaffe för sju — nej hvad säger jag,    
+            <lb/> med mig blir det ju åtta — nej hur många var    
+            <lb/> det nu? Hör, <persName ref="#Madamen">madam lilla</persName>, räkna hon! Hur många    
+            <lb/> ä’ inne här i rummet i kväll?</p>
+        </sp>
+        <sp who="#spMadamen">
+          <speaker>Madamen.</speaker>
+          <p>
+                        <persName ref="#FemFruar #FruRosin #FruStröm #FruSvenson #Malvina">Nio af <orgName ref="#HemFörPauvresHonteux">hemmets</orgName> fruar</persName> och så <persName ref="#FruBillgren #Hulda #Mina">de främmande</persName>.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Hur många blir det då, om man räknar ifrån <persName ref="#EnFru #FruRosin #FruSvenson">tre</persName>?</p>
+        </sp>
+        <sp who="#spMadamen">
+          <speaker>Madamen.</speaker>
+          <p>Ska man räkna ifrån <persName ref="#FruBillgren #Hulda #Mina">de främmande</persName>?</p>
+        </sp>
+        <pb facs="5630-23.jpg"/>
+                <fw type="pageNum">142</fw>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Hvad tänker hon på, <persName ref="#Madamen">madam lilla</persName>. Kort sagdt,    
+            <lb/> säg till om kaffe för <persName ref="#FruBillgren #Hulda #Mina">de främmande</persName> och <persName ref="#FemFruar #FruRosin #FruStröm #FruSvenson">alla de    
+            <lb/> andra</persName>, som ä’ inne här i kväll, utom <persName ref="#EnFru #FruRosin #FruSvenson">tre</persName> — förstår    
+            <lb/> hon, och det ska vara bra med dopp. Säg till, att    
+            <lb/> det kunde de gärna bestå gratis för middagen var    
+            <lb/> riktigt skral i dag. <stage>(<stage type="exit" who="#Madamen">Madamen</stage> går, <persName ref="#Malvina">Malvina</persName> kommer till­<lb break="no"/>baka till <persName ref="#FruBillgren #Hulda #Mina">sina gäster</persName>.)</stage> Förlåt mig, <persName ref="#FruBillgren #Hulda #Mina">goda fruar</persName>. Hus­<lb break="no"/>hållsbestyr. <stage>(Skrattar affekteradt. Till <persName ref="#Hulda">Hulda</persName>.)</stage> Tycker    
+            <lb/> du att jag skulle ha hjärta skrifva det till <persName ref="#Klara">Klara</persName>.    
+            <lb/> Tänk dig för själf, <persName ref="#Hulda">Hulda lilla</persName>, om du visste <persName ref="#FruBillgren">din    
+            <lb/> mamma</persName> —</p>
+        </sp>
+        <sp who="#spHulda">
+          <speaker>Hulda.</speaker>
+          <p>Men när <persName ref="#Malvina">moster</persName> har det så bra? Är <persName ref="#Malvina">moster</persName>    
+            <lb/> då inte nöjd?</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>
+                        <persName ref="#Hulda">Barn lilla</persName>, du talar som du har förstånd till,    
+            <lb/> förlåt! <stage>(<persName ref="#Hulda">Hulda</persName> gör en försmädlig min åt <persName ref="#Mina">Mina</persName>, <persName ref="#Malvina">Malvina</persName>    
+            <lb/> klappar henne på skuldran.)</stage> Tag det inte illa, <persName ref="#Hulda">Hulda    
+            <lb/> lilla</persName>. <persName ref="#Hulda">Ungdom</persName> är ungdom och när man aldrig haft    
+            <lb/> annat än sötebrödsdagar — <stage>(Vänder sig hastigt och nervöst    
+            <lb/> till <persName ref="#FruBillgren">fru Billgren</persName>.)</stage> Men du sitter inte ned, <persName ref="#FruBillgren">Lydia lilla</persName>.</p>
+        </sp>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren</speaker> <stage>(som ej hört de före­<lb break="no"/>gående replikerna).</stage>
+          <p>Jag går här och ser mig om. Här är så tref­<lb break="no"/>ligt att jag riktigt kunde bli afundsjuk på dig,    
+            <lb/> <persName ref="#Malvina">kära Malvina</persName>. Så stor societet har inte jag omkring    
+            <lb/> mig hvarje kväll.</p>
+        </sp>
+        <pb facs="5630-24.jpg"/>
+                <fw type="pageNum">143</fw>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Å, Gud bevars, så syndigt du talar.</p>
+        </sp>
+        <sp who="#spHulda">
+          <speaker>Hulda</speaker> <stage>(afsides till <persName ref="#Mina">Mina</persName>).</stage>
+          <p>Jag ska nog göra henne god igen. <stage>(Högt.)</stage> Har    
+            <lb/> <persName ref="#Malvina">moster Malvina</persName> goda underrättelser från <persName ref="#Klara">Klara</persName>?</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Det är snällt att komma ihåg <persName ref="#Klara">din gamla vän</persName>,    
+            <lb/> <persName ref="#Hulda">Hulda lilla</persName>. <stage>(Till <persName ref="#FemFruar #FruRosin #FruStröm #FruSvenson">de andra fruarna</persName>.)</stage> Ja, detta var    
+            <lb/> <persName ref="#Klara">min Klaras</persName> intimaste vän, ska jag ha den äran att    
+            <lb/> säga. <persName ref="#Hulda #Klara">De två</persName> var alltid oskiljaktiga. Nej, goda    
+            <lb/> underrättelser kan jag inte säga, <persName ref="#Hulda">Hulda lilla</persName>. Gu’    
+            <lb/> välsigne <placeName>Amerika</placeName> — hvad ska de där att göra,    
+            <lb/> säger jag.</p>
+        </sp>
+        <sp who="#spHulda">
+          <speaker>Hulda</speaker> <stage>(förskräckt).</stage>
+          <p>Hon tänker väl bara inte på att komma hem igen?</p>
+        </sp>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson</speaker> <stage>(som lyssnat till sam­<lb break="no"/>talet, till <persName ref="#EnFru #FruRosin">de andra två</persName>).</stage>
+          <p>Där hörde man, så oskiljaktiga.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Det vore väl inte så godt för henne att komma    
+            <lb/> hem nu, <persName ref="#Klara">stackars liten</persName>, när hon inte har <persName ref="#Malvina">sin mamma</persName>    
+            <lb/> att komma till! <stage>(Ser sig oroligt om på de andra, hvilka    
+            <lb/> dra sig tillbaka; hon drar <persName ref="#Hulda">Hulda</persName> afsides. <persName ref="#Mina">Mina</persName> följer efter och
+            <lb/> lyssnar med en skrattfärdig min, som om hon fann allt hvad    
+            <lb/> <persName ref="#Malvina">Malvina</persName> sade komiskt.)</stage> Det var också en idé af <persName ref="#FruBillgren">din
+            <lb/> snälla mamma</persName> — om jag fått den äran att ta emot    
+            <lb/> <persName ref="#FruBillgren #Hulda #Mina">herrskapet</persName> i mitt eget rum. — Ja, det förstås att
+            <lb/> <persName ref="#Klara">Klara</persName> ju har <persName ref="#Albert #Billgren #FruBillgren #Hulda #Mina">sina goa släktingar</persName>, om hon kom hem. —</p>
+        </sp>
+        <pb facs="5630-25.jpg"/>
+                <fw type="pageNum">144</fw>
+        <sp who="#spHulda">
+          <speaker>Hulda</speaker> <stage>(ifrigt).</stage>
+          <p>Men det bör hon verkligen inte tänka på, <persName ref="#Malvina">moster    
+            <lb/> lilla</persName>. <stage>(Afsides till <persName ref="#Mina">Mina</persName>.)</stage> För all del få henne ifrån    
+            <lb/> det. — Kan du inte höra att hon har något sådant    
+            <lb/> i hufvudet. — Jo, det vore just vackert — <persName ref="#AlbertsFöräldrar">
+                            <persName ref="#Albert">Alberts</persName>    
+            <lb/> föräldrar</persName> som ha så stränga åsikter — hvad skulle    
+            <lb/> de säga om <persName ref="#Klara">en sådan släkting</persName>?</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Hvad är det nu ni pratar om er emellan, <persName ref="#Hulda #Mina">små­<lb break="no"/>flickor</persName>? Var det många hos <persName ref="#Alins">Alins</persName>?</p>
+        </sp>
+        <sp who="#spMina">
+          <speaker>Mina.</speaker>
+          <p>Ja, bordet var fullt. Annars hade verkligen    
+            <lb/> <persName ref="#Malvina">moster Malvina</persName> blifvit bjuden.</p>
+        </sp>
+        <sp who="#spHulda">
+          <speaker>Hulda.</speaker>
+          <p>Hur tänker sig då <persName ref="#Klara">Klara</persName> att <persName ref="#Malvina">moster</persName> har det,    
+            <lb/> när hon inte vet att <persName ref="#Malvina">moster</persName> är här?</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina</speaker> <stage>(som litet emellan är för­<lb break="no"/>strödd af att iakttaga allt hvad    
+            <lb/> de <persName ref="#FemFruar #FruBillgren #FruRosin #FruStröm #FruSvenson">andra</persName> säga och göra).</stage>
+          <p>Hur hon tänker, — hva sa du nu, <persName ref="#Hulda">lilla vän</persName>, —    
+            <lb/> hur hon? — Jo ser du, du vet ju, att så länge hon    
+            <lb/> ännu var i <placeName>Sverige</placeName>, så ville jag aldrig höra talas    
+            <lb/> om <orgName ref="#HemFörPauvresHonteux">det här hemmet</orgName>, fast <persName ref="#FruBillgren">den goda Lydia</persName> alltid    
+            <lb/> sökt öfvertala mig. Men jag sa: om <persName ref="#Klara">min Klara</persName>    
+            <lb/> någon gång skulle behöfva <persName ref="#Malvina">sin gamla mamma</persName>, ska    
+            <lb/> hon veta att hon alltid har ett hem hos henne, hur    
+            <lb/> anspråkslöst det än kan vara. För visst var det    
+            <lb/> långt bort dit upp till <placeName>Norrland</placeName>, där <persName ref="#Klara">Klara</persName> var
+            <pb facs="5630-26.jpg"/>
+                        <fw type="pageNum">145</fw>
+            förut, men det kunde ju ändå alltid hända, att hon    
+            <lb/> kom en dag — har jag inte rätt — det kunde ju hända?</p>
+        </sp>
+        <sp who="#spHulda">
+          <speaker>Hulda.</speaker>
+          <p>Ja visst — men nu kan det ju inte alls komma    
+            <lb/> i fråga.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Nej, nu kan det ju inte alls komma i fråga, nej.</p>
+        </sp>
+        <sp who="#spHulda">
+          <speaker>Hulda.</speaker>
+          <p>Nej, men hvad har <persName ref="#Malvina">moster</persName> då sagt till <persName ref="#Klara">Klara</persName>?</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Och då tyckte jag, att det lilla jag kunde spara    
+            <lb/> på det här sättet, det kunde jag då skicka till <persName ref="#Klara">Klara</persName>    
+            <lb/> i stället.</p>
+        </sp>
+        <sp who="#spMina">
+          <speaker>Mina</speaker> <stage>(afsides till <persName ref="#Hulda">Hulda</persName>).</stage>
+          <p>Fick du vetat?</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina</speaker> <stage>(upprepande för sig själf).</stage>
+          <p>Ja, det var så jag tänkte mig det, ju. Och så    
+            <lb/> ska hon hitta på att komma just nu.</p>
+        </sp>
+        <sp who="#spHulda">
+          <speaker>Hulda</speaker> <stage>(förskräckt).</stage>
+          <p>Hvad säger <persName ref="#Malvina">moster</persName> — kommer hon?</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Inte säger hon, att hon kommer, men jag tror    
+            <lb/> på varsel, ser du, och i dag har jag varit så orolig    
+            <lb/> hela dagen, och i natt har jag drömt om svalor,    
+            <lb/> som flög öfver ett stort vatten. <stage>(Då <persName ref="#FruBillgren">fru Billgren senior</persName>    
+            <lb/> syns närma sig, afbryter hon.)</stage> Men säg ingenting till    
+            <lb/> <persName ref="#FruBillgren">mamma</persName> — hon tror inte på sådant — fast jag har    
+            <lb/> då haft så många exempel i mitt lif — och så det,
+            <pb facs="5630-27.jpg"/>
+                        <fw type="pageNum">146</fw>
+            att <persName ref="#FruSvenson">den där otäcka fru Svenson</persName> just i dag skulle    
+            <lb/> börja hugga på henne.</p>
+          <stage>(Vänder sig med ett älskvärdt leende till <persName ref="#FruBillgren">fru Billgren</persName>.)</stage>
+        </sp>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren</speaker> <stage>(kommer fram till    
+            <lb/> <persName ref="#Malvina">Malvina</persName> och förmår henne att    
+            <lb/> sätta sig i soffan bredvid sig.    
+            <lb/> <persName ref="#Hulda #Mina">De unga fruarna</persName> gå och tala    
+            <lb/> med <persName ref="#FemFruar #FruRosin #FruStröm #FruSvenson">de andra</persName>, och man ser att    
+            <lb/> de drifva med dem).</stage>
+          <p>Uppriktigt sagdt, <persName ref="#Malvina">kära Malvina</persName>, om du inte är    
+            <lb/> nöjd här, tycker jag du har orätt. Hvad kan du    
+            <lb/> önska dig bättre! Tänk så ensam du satt där i    
+            <lb/> ditt lilla rum utan en människa, om du behöfde    
+            <lb/> något. Och här — elektrisk ringledning i alla rum,    
+            <lb/> stor societet hvarenda kväll!</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina</speaker> <stage>(med stram min).</stage>
+          <p>Jag har inte klagat, det jag vet, <persName ref="#FruBillgren">Lydia lilla</persName>.</p>
+        </sp>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren.</speaker>
+          <p>Nej, hvarför ska du ta det så? Jag begär ju    
+            <lb/> inte bättre än att ställa det så bra som möjligt för    
+            <lb/> dig. Och om du har någon rättvis anmärkning —</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Det är ju inte med mig du velat tala i kväll.    
+            <lb/> Annars kunde jag väl ha både ett och annat att    
+            <lb/> svara <persName ref="#FruBillgren">min nådiga fru</persName>. Tror du inte att jag tusen    
+            <lb/> gånger hellre ville sitta ensam i mitt lilla rum, om    
+            <lb/> jag också skulle gifvit upp min sista anda där af    
+            <lb/> brist på hjälp — än här i detta blandade sällskap!</p>
+        </sp>
+        <pb facs="5630-28.jpg"/>
+                <fw type="pageNum">147</fw>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren.</speaker>
+          <p>Där ha vi den olyckliga högfärden igen! Det    
+            <lb/> har alltid varit din lilla svaghet.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Du ska inte tala om hvad du inte förstår, <persName ref="#FruBillgren">goda    
+            <lb/> Lydia</persName>. Gud ske lof, lite själfkänsla har jag bevarat    
+            <lb/> under alla mina olyckor, och lite skillnad vet jag    
+            <lb/> att göra på bättre och sämre folk. Nu är jag fattig,    
+            <lb/> och därför kallas det för högfärd, men så länge jag    
+            <lb/> satt i eget rum och hade <persName ref="#Jungfrun">min egen jungfru</persName>, så lät    
+            <lb/> det på annat sätt. Då sa alltid <persName ref="#Albert #Billgren #FruBillgren #Hulda #Mina">släkten</persName> om mig:    
+            <lb/> <persName ref="#Malvina">Malvina</persName> har något distingeradt, sa man. Men nu,    
+            <lb/> bevars, är det högfärd, när man vill hålla sig uppe    
+            <lb/> en smula. <stage>(Hon har blifvit mer och mer upprörd och darrar    
+            <lb/> på stämman. Då <stage type="entrance" who="#Madamen">i detsamma madamen visar sig i dörren</stage>,    
+            <lb/> springer hon upp samt säger med en förbindlig gest och lifligt    
+            <lb/> omslag i tonen.)</stage> Var så god, <persName ref="#FruBillgren #FruStröm #FyraFruar #Hulda #Mina">mina goda fruar</persName>. <stage>(Lågt,  
+            <lb/> förvånad till <persName ref="#Madamen">madamen</persName>.)</stage> Men har <persName ref="#Madamen">madam</persName> inte kaffe­<lb break="no"/>brickan färdig?</p>
+        </sp>
+        <sp who="#spMadamen">
+          <speaker>Madamen.</speaker>
+          <p>Jag har dukat i salen, <persName ref="#Kamrern">kamrern</persName> har förbjudit    
+            <lb/> att något får serveras i förmaket.</p>
+        </sp>
+        <stage type="exit" who="#Madamen" cert="medium"/>
+        <stage>(<persName ref="#Malvina">Malvina</persName> går omkring till <persName ref="#FruStröm #FyraFruar">alla de fruar</persName>, som ej bildat
+          <lb/> <persName ref="#FruSvenson">fru Svensons</persName> grupp, och bjuder dem att stiga ut i salen i
+          <lb/> fonden. <persName ref="#FruSvenson">Fru Svenson</persName> talar emellertid mycket förbittrad med
+          <lb/> <persName ref="#EnFru #FruRosin">de andra två</persName> som bli kvar i förmaket, medan <persName ref="#FruBillgren #FruStröm #FyraFruar #Hulda #Mina">alla de öfriga</persName>
+          <lb/> börja gå ut i salen.)</stage>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>En kopp kaffe, <persName ref="#FruStröm">goda fru Ström</persName> — för att fira    
+            <lb/> <persName ref="#FruBillgren #Hulda #Mina">våra damer af styrelsen</persName> — hvad huset förmår! <stage>(Till
+            <pb facs="5630-29.jpg"/>
+                            <fw type="pageNum">148</fw>
+            <persName ref="#FyraFruar">de andra fyra</persName>.)</stage> <persName ref="#FyraFruar">Mina goda fruar</persName>, vill ni göra mig
+            <lb/> det nöjet! <persName ref="#FruBillgren">Söta fru Billgren</persName> — alla vänta på <persName ref="#FruBillgren">vår
+            <lb/> styrelsefru</persName>. <stage type="exit" who="#FruBillgren">(Fru Billgren går ut.)</stage> Och <persName ref="#Mina">lilla fru Mina
+            <lb/> Billgren</persName>, och <persName ref="#Hulda">fru Hjort</persName> — var så god. Vi andra
+            <lb/> är ju hemma här.</p>
+        </sp>
+        <stage>(<stage type="exit" who="#Hulda #Mina">De unga fruarna gå</stage>, <persName ref="#FruStröm #FyraFruar">de fem återstående</persName> krusa vid dörren.)</stage>
+        <sp who="#spFruStröm">
+          <speaker>Fru Ström.</speaker>
+          <p>Nu önskar väl <persName ref="#Malvina">fru Isberg</persName>, att hon också hade    
+            <lb/> <persName ref="#Klara">sin dotter</persName> här?</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Här! Nej, <persName ref="#FruStröm">goda fru Ström</persName>, uppriktigt sagdt,    
+            <lb/> aldrig har jag önskat <persName ref="#Klara">min dotter</persName> <emph>hit,</emph> det kan jag    
+            <lb/> försäkra.</p>
+        </sp>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson</speaker> <stage>(till <persName ref="#EnFru #FruRosin">de andra två</persName>, men
+            <lb/> afsiktligt höjande rösten).</stage>
+          <p>Nej, hon är naturligtvis alldeles för god.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Hur sa <persName ref="#FruSvenson">lilla fru Svenson</persName>?</p>
+        </sp>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson.</speaker>
+          <p>Jag bara undrade om <persName ref="#Malvina">fru Isberg</persName> menade, att    
+            <lb/> <persName ref="#Klara">hennes dotter</persName> var för god för oss eller vi för    
+            <lb/> henne?</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>
+                        <persName ref="#FruSvenson">Snälla fru Svenson</persName>, det är inte riktigt fin takt    
+            <lb/> att vilja ställa till gräl för hvart ord man säger.</p>
+        </sp>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson.</speaker>
+          <p>Hvem är det som ställer till gräl? Jag ville    
+            <lb/> bara säga, att om inte vi ä’ så fina eller har <persName ref="#Albert #Billgren #FruBillgren #Hulda #Mina">så    
+            <lb/> fina släktingar</persName> som somliga, så har vi då i alla fall
+            <pb facs="5630-30.jpg"/>
+                        <fw type="pageNum">149</fw>
+            ingenting att skämmas för och behöfver Gud ske    
+            <lb/> lof inte ljuga, då det är fråga om <persName ref="#Sergeanten">våra barn</persName>!</p>
+        </sp>
+        <stage type="entrance" who="#FruBillgren #Hulda #Mina">(Fruarna Billgren och Hjort ha vid detta ordskifte kom­<lb break="no"/>mit tillbaka in.)</stage>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren.</speaker>
+          <p>
+                        <persName ref="#FruSvenson">Fru Svenson</persName>, tillåt mig anmärka, att ett höfligt    
+            <lb/> beteende är ett af villkoren för att få vistas här.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Låt henne tala — låt henne tala! Hvem är    
+            <lb/> det som ljuger, som <persName ref="#FruSvenson">fru Svenson</persName> behagar uttrycka    
+            <lb/> sig — om <persName ref="#Sergeanten">våra barn</persName>? Jag vet en som talar om    
+            <lb/> sin, <persName ref="#Sergeanten">officern</persName>, fast hon vet, att han är bara sergeant.</p>
+        </sp>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson.</speaker>
+          <p>Och jag vet en, som säger att <persName ref="#Klara">hennes dotter</persName>    
+            <lb/> är gift, fast alla vet att hon är en slinka, som rymt    
+            <lb/> till <placeName>Amerika</placeName> med <persName ref="#Postiljonen">sin förförare</persName>.</p>
+        </sp>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren.</speaker>
+          <p>Sådant tillåter man sig icke att säga, om det    
+            <lb/> också är sant.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Om det också är sant — hur i Guds namn    
+            <lb/> väljer du dina ord, <persName ref="#FruBillgren">Lydia lilla</persName>! Så säg dem då    
+            <lb/> hellre hur det är — att <persName ref="#Klara">min Klara</persName> gift sig där    
+            <lb/> uppe i <placeName>Norrland</placeName>, där hon var telegrafist, med <persName ref="#Postiljonen">en    
+            <lb/> posttjänsteman</persName>.</p>
+        </sp>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson.</speaker>
+          <p>
+                        <persName ref="#Postiljonen">En postiljon</persName>?</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>
+                        <persName ref="#Postiljonen">En posttjänsteman</persName>.</p>
+        </sp>
+        <pb facs="5630-31.jpg"/>
+                <fw type="pageNum">150</fw>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson.</speaker>
+          <p>
+                        <persName ref="#Postiljonen">En postiljon</persName> — men de va aldrig gifta, det    
+            <lb/> var värre!</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Och att de sedan rest tillsammans till <placeName>Amerika</placeName>    
+            <lb/> för att söka sig en bättre framtid.</p>
+        </sp>
+        <sp who="#spFruSvenson">
+          <speaker>Fru Svenson.</speaker>
+          <p>För att de blefvo afskedade båda två där uppe    
+            <lb/> för skandalens skull.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>
+                        <persName ref="#FruBillgren">Lydia</persName>, om du som styrelsefru tillåter att sådana    
+            <lb/> förolämpningar — fattig är jag tyvärr, men akt­<lb break="no"/>ningsvärd och strängt ärbar i min vandel har jag    
+            <lb/> Gud ske lof alltid varit, och om <persName ref="#Klara">min flicka</persName> vore    
+            <lb/> sådan som <persName ref="#EnFru #FruRosin #FruSvenson">dessa nedriga människor</persName> säger, så skulle    
+            <lb/> jag vara den första att förskjuta henne, så <persName ref="#Klara">mitt    
+            <lb/> enda barn och min enda glädje</persName> hon än är. — Men    
+            <lb/> höra hennes ära orättvist skymfas, det gör jag inte.    
+            <lb/> Och vill inte du göra slag i saken, så klagar jag    
+            <lb/> hos hela styrelsen, och antingen skall <persName ref="#FruSvenson">den där män­<lb break="no"/>niskan</persName> eller jag ut härifrån.</p>
+        </sp>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren</speaker> <stage>(söker lugna henne;    
+            <lb/> drar henne afsides).</stage>
+          <p>Drif inte saken till sin spets, <persName ref="#Malvina">kära Malvina</persName>,    
+            <lb/> därtill är den för ömtålig — det bästa är att tysta    
+            <lb/> ned — låt mig tala med <persName ref="#FruSvenson">fru Svenson</persName> — jag skall    
+            <lb/> ställa allt till rätta. Låt oss nu först och främst    
+            <lb/> bjuda henne på kaffe. — <persName ref="#FemFruar #FruRosin #FruStröm #FruSvenson #Malvina">Mina fruar</persName>, kaffet kallnar.
+            <pb facs="5630-32.jpg"/>
+                        <fw type="pageNum">151</fw>
+            Nu är det jag som tar på mig värdinneskapet, var    
+            <lb/> så god! <persName ref="#FruSvenson">Fru Svenson</persName>, var så god!</p>
+        </sp>
+        <stage>(<stage type="exit" who="#FruBillgren #FruSvenson">Fru Svenson går med mycket krus, men synnerligen be­<lb break="no"/>låten ut i salen med fru Billgren</stage>; <persName ref="#FemFruar #FruRosin #FruStröm #Hulda #Malvina #Mina">de andra</persName> följa<stage type="exit" who="#Hulda #Mina"/>, men innan
+          <lb/> ännu alla hunnit ut, <stage type="entrance" who="#Madamen">kommer madamen från höger och anmäler</stage>.)</stage>
+        <sp who="#spMadamen">
+          <speaker>Madamen.</speaker>
+          <p>Här är ett annat besök för <persName ref="#Malvina">fru Isberg</persName>. <stage>(Säger    
+            <lb/> till <persName ref="#Klara">en person</persName> utanför dörren.)</stage> Stig på, <persName ref="#Malvina">fru Isberg</persName> är    
+            <lb/> här. På hennes rum? Nej, det kan icke gå för    
+            <lb/> sig just nu, för hon har kaffekalas här. Det gör    
+            <lb/> ingenting, stig bara på.</p>
+        </sp>
+        <stage type="exit" who="#Madamen" cert="medium"/>
+        <sp who="#spMalvina">
+          <speaker>Malvina</speaker> <stage>(går emot dörren och säger    
+            <lb/> rörd men utan öfverraskning).</stage>
+          <p>
+                        <persName ref="#Klara">Klara</persName>!</p>
+        </sp>
+        <stage type="entrance" who="#FruSvenson" cert="medium"/>
+        <stage>(<persName ref="#FemFruar #FruRosin #FruStröm #FruSvenson #Hulda #Mina">Alla de andra</persName> samlas i dörren vid fonden, nyfikna. <stage type="entrance" who="#Klara">Klara
+          <lb/> inträder tvekande.</stage>)</stage>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>
+                        <persName ref="#Klara">Klara, min lilla unge</persName>! Kände jag det inte på    
+            <lb/> mig, att du skulle komma!</p>
+        </sp>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren</speaker> <stage type="entrance" who="#FruBillgren">(återkommer in, kallt).</stage>
+          <p>Å, <persName ref="#Klara">Klara</persName>, är det möjligt! Du har då bara    
+            <lb/> gjort en lustresa till <placeName>Amerika</placeName>?</p>
+        </sp>
+        <sp who="#spKlara">
+          <speaker>Klara</speaker> <stage>(förlägen, upprörd).</stage>
+          <p>Jag kunde inte stanna där. Det har gått illa,    
+            <lb/> mycket illa för mig, <persName ref="#FruBillgren">tant</persName>! Jag ska förklara det    
+            <lb/> sedan. Men hur kommer det sig att jag finner    
+            <lb/> <persName ref="#Malvina">mamma</persName> här? Och det har <persName ref="#Malvina">mamma</persName> dolt för mig    
+            <lb/> — jag visste bara gatan och husnumret, men jag
+            <pb facs="5630-33.jpg"/>
+                        <fw type="pageNum">152</fw>
+            ville inte alls tro, att det var här, när jag såg    
+            <lb/> öfver porten: <orgName ref="#HemFörPauvresHonteux">»Hem för pauvres-honteux»</orgName>.</p>
+        </sp>
+        <stage type="entrance" who="#Hulda #Mina">(Mina och Hulda komma in från salen, hälsa kallt på <persName ref="#Klara">Klara</persName>.)</stage>
+        <sp who="#spHulda">
+          <speaker>Hulda.</speaker>
+          <p>Å, redan hemma, <persName ref="#Klara">Klara</persName>!</p>
+        </sp>
+        <sp who="#spMina">
+          <speaker>Mina.</speaker>
+          <p>Det var verkligen oväntadt, det vill säga för    
+            <lb/> oss,  <persName ref="#Malvina">moster Malvina</persName> tycktes veta —</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Veta, — nej, hade jag vetat det bara för en    
+            <lb/> vecka sedan, så vet Gud, att <persName ref="#Klara">Klara</persName> inte skulle    
+            <lb/> funnit mig här.</p>
+        </sp>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren.</speaker>
+          <p>Och hvar har du <persName ref="#Postiljonen">man</persName> och <persName ref="#Flickan">ditt barn</persName>?</p>
+        </sp>
+        <sp who="#spKlara">
+          <speaker>Klara.</speaker>
+          <p>
+                        <persName ref="#Flickan">Mitt barn</persName> sjuknade på resan och dog kort    
+            <lb/> efter vår framkomst.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Dog! Å, <persName ref="#Klara">Klara, min stackars lilla unge</persName>, har    
+            <lb/> du mistat <persName ref="#Flickan">den gudsängeln</persName>? <stage>(Omfamnar henne.)</stage>
+                    </p>
+        </sp>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren.</speaker>
+          <p>
+                        <persName ref="#Klara">Stackars Klara</persName>! Gud har straffat dig hårdt.    
+            <lb/> Och <persName ref="#Postiljonen">din man</persName>?</p>
+        </sp>
+        <sp who="#spKlara">
+          <speaker>Klara.</speaker>
+          <p>Han är kvar där.</p>
+        </sp>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren.</speaker>
+          <p>Så-å! Det var ju sorgligt. Ja, jag vill inte    
+            <lb/> vara ogrannlaga. Tala du med <persName ref="#Malvina">din mor</persName>. Kom,
+            <pb facs="5630-34.jpg"/>
+                        <fw type="pageNum">153</fw>
+            <persName ref="#Hulda">Hulda</persName> och <persName ref="#Mina">Mina</persName>, så går vi och ser till att <persName ref="#FemFruar #FruRosin #FruStröm #FruSvenson">fruarna</persName>    
+            <lb/> bli sysselsatta med kaffet.</p>
+        </sp>
+        <stage type="exit" who="#FemFruar #FruBillgren #FruRosin #FruStröm #FruSvenson #Hulda #Mina">(De gå alla tre ut till kaffebordet, och alla fruarna
+            <lb/> samlas omkring dem, så att <persName ref="#Malvina">mor</persName> och <persName ref="#Klara">dotter</persName> bli ensamma.)</stage>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Det var icke bra, att du lämnat <persName ref="#Postiljonen">din man</persName>, <persName ref="#Klara">min    
+            <lb/> flicka</persName>! Det ger bara anledning till gemena historier
+            <lb/> och skandaler.</p>
+        </sp>
+        <sp who="#spKlara">
+          <speaker>Klara.</speaker>
+          <p>Ack, <persName ref="#Malvina">mamma</persName>, det kan inte hjälpas — sanningen    
+            <lb/> måste nu i alla fall komma i dagen, och jag kan    
+            <lb/> inte längre föra <persName ref="#Malvina">mamma</persName> bakom ljuset. Jag har    
+            <lb/> inte — jag har aldrig haft någon man.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Hvad i Guds namn är det du säger, <persName ref="#Klara">barn</persName>?</p>
+        </sp>
+        <sp who="#spKlara">
+          <speaker>Klara.</speaker>
+          <p>Jag ville inte skrifva det till dig. Vi kunde    
+            <lb/> inte bli gifta däruppe i <placeName>Norrland</placeName> — han hade inte    
+            <lb/> klara papper — då reste vi ut till <placeName>Amerika</placeName> för att    
+            <lb/> vi tänkte, att det där skulle bli lättare — både    
+            <lb/> att finna något att lefva af, eftersom vi bägge två    
+            <lb/> blifvit uppsagda från våra platser, och att bli gifta.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina</speaker> <stage>(afbryter ifrigt).</stage>
+          <p>Var han postiljon eller posttjänsteman?</p>
+        </sp>
+        <sp who="#spKlara">
+          <speaker>Klara.</speaker>
+          <p>Han var postiljon — men han var <persName ref="#PostiljonensFar #PostiljonensMor">bättre folks</persName>    
+            <lb/> barn — prästson och student. Men han hade fört
+            <pb facs="5630-35.jpg"/>
+                        <fw type="pageNum">154</fw>
+            ett vildt lif, och så kom han dit upp — <persName ref="#PostiljonensFar #PostiljonensMor">föräldrarna</persName>    
+            <lb/> visste ej ens hvar han fanns. Han var sångare    
+            <lb/> och så vacker och så full af upptåg — han reste i    
+            <lb/> sin postskjuts i snö och storm och blåste i hornet    
+            <lb/> som till fest. Och för mig, som satt där ensam på    
+            <lb/> telegrafstationen och inte hade en människa att    
+            <lb/> tala med på en mils afstånd — för mig var det    
+            <lb/> fest, hvar gång han kom.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Tyst — försök inte att poetisera om sådant;    
+            <lb/> hvem tar du mig för — tror du att <persName ref="#Malvina">din mor</persName> vill    
+            <lb/> höra dig berätta om din skam, som om det vore    
+            <lb/> en vacker roman — hvarför blef ni inte gifta, det    
+            <lb/> är allt hvad jag vill veta?</p>
+        </sp>
+        <sp who="#spKlara">
+          <speaker>Klara.</speaker>
+          <p>När vi kom till <placeName>New-York</placeName> och han för första    
+            <lb/> gången kom till en stor stad igen — då vaknade    
+            <lb/> alla hans dåliga instinkter, äfventyrslustan, behofvet    
+            <lb/> att roa sig — och, han, som älskade mig under de    
+            <lb/> åren i <placeName>Norrland</placeName>, som dyrkade mig, läste i mina    
+            <lb/> ögon — han blef nu så hård, så hjärtlös, så grym.    
+            <lb/> Och när <persName ref="#Flickan">barnet</persName> dött, lämnade han mig utan ett    
+            <lb/> ord, utan att jag visste hvart han tog vägen. Hade    
+            <lb/> jag haft medel, skulle jag rest till världens ände    
+            <lb/> och sökt honom, men jag hade inte ens så, att    
+            <lb/> jag kunde köpa biljett till återresan. Då tog en    
+            <lb/> agent mig om hand, och nu har han rätt till    
+            <lb/> hvarje öre, jag kan förtjäna. Han ville skaffa mig
+            <pb facs="5630-36.jpg"/>
+                        <fw type="pageNum">155</fw>
+            en plats därute, men jag var förtviflad till döds    
+            <lb/> och ville bara hem till <persName ref="#Malvina">mamma</persName>.</p>
+          <stage>(Kastar sig gråtande till <persName ref="#Malvina">moderns</persName> bröst, men hon skjuter    
+            <lb/> henne ifrån sig.)</stage>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Och så skulle du komma och dra den skammen    
+            <lb/> öfver <persName ref="#Malvina">din stackars mor</persName>!</p>
+        </sp>
+        <sp who="#spKlara">
+          <speaker>Klara.</speaker>
+          <p>
+                        <persName ref="#Malvina">Mamma</persName> — sådan trodde jag aldrig att <persName ref="#Malvina">mamma</persName>    
+            <lb/> var!</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Jag vet inte hvad du trodde om mig, <persName ref="#Klara">barn    
+            <lb/> lilla</persName>. Trodde du kanske, att jag skulle uppmuntra    
+            <lb/> dig i dina syndiga passioner? Visste du inte, att    
+            <lb/> i allt hvad som angår moral, var <persName ref="#Malvina">din mor</persName> strängare    
+            <lb/> än någon annan?</p>
+        </sp>
+        <sp who="#spKlara">
+          <speaker>Klara.</speaker>
+          <p>
+                        <persName ref="#Malvina">Mamma</persName> visste i alla fall att vi — att vi inte    
+            <lb/> började med att gifta oss?</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Det visste jag inte — å, jag vill inte höra    
+            <lb/> talas om något sådant. Jag misstänkte förstås    
+            <lb/> något — men alla skonade mig, och jag frågade    
+            <lb/> inte. Men att ni sedan gifte er, det var jag säker    
+            <lb/> om. Jag har just nu försvarat dig här — och nu    
+            <lb/> ska alla tro att jag ljugit, och <persName ref="#FruSvenson">en så simpel män­<lb break="no"/>niska som fru Svenson</persName> ska ha rätt att triumfera    
+            <lb/> öfver mig. Du har tagit ifrån mig det sista och    
+            <lb/> dyrbaraste jag ägde i världen — mitt goda namn
+            <pb facs="5630-37.jpg"/>
+                        <fw type="pageNum">156</fw>
+            och rykte, det enda som gjort mitt lif drägligt    
+            <lb/> här. För din skull har jag underkastat mig den    
+            <lb/> förödmjukelsen, att komma in som fattighjon på    
+            <lb/> <orgName ref="#HemFörPauvresHonteux">en välgörenhetsinrättning</orgName> — men det kunde jag    
+            <lb/> ändå bära, så länge jag kunde hålla mitt hufvud    
+            <lb/> högt och sätta mig i respekt — men nu finns det    
+            <lb/> inte den förolämpning, som jag inte får ta emot    
+            <lb/> och svälja. Men det må vara hur det vill med    
+            <lb/> det — det åtminstone ska ingen säga om mig, att    
+            <lb/> jag uppmuntrat synden, om det också är <persName ref="#Klara">min egen    
+            <lb/> dotter</persName> — gå nu din väg igen, jag vill inte mer se    
+            <lb/> dig för mina ögon.</p>
+        </sp>
+        <sp who="#spKlara">
+          <speaker>Klara.</speaker>
+          <p>Å, <persName ref="#Malvina">mamma</persName>, är det möjligt — är detta af hänsyn    
+            <lb/> för <persName ref="#FruSvenson">fru Svenson</persName> och <persName ref="#FemFruar #FruRosin #FruStröm">några andra stackars fattig­<lb break="no"/>hjon</persName>?</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>
+                        <persName ref="#FemFruar #FruRosin #FruStröm">Fattighjon</persName> eller inte — det är nu dem, jag
+            <lb/> måste lefva ibland. Och lefva utan att vara respek­<lb break="no"/>terad, det kan jag inte.</p>
+        </sp>
+        <sp who="#spKlara">
+          <speaker>Klara.</speaker>
+          <p>Och hvad glädje har du af deras respekt, om    
+            <lb/> du stött ifrån dig <persName ref="#Klara">ditt enda stackars olyckliga    
+            <lb/> barn</persName>?</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Jag ber dig att inte resonera. Jag är nu    
+            <lb/> sådan, att hedern framför allt. — Å Gud, å Gud    
+            <lb/> i himlen ! <stage>(Sätter sig och gråter.)</stage>
+                    </p>
+        </sp>
+        <pb facs="5630-38.jpg"/>
+                <fw type="pageNum">157</fw>
+        <sp who="#spHulda">
+          <speaker>Hulda</speaker> <stage type="entrance" who="#Hulda">(kommer in, fram till <persName ref="#Klara">Klara</persName>).</stage>
+          <p>
+                        <persName ref="#Malvina">Moster Malvina</persName> gråter — är det sant, du är    
+            <lb/> inte gift?</p>
+        </sp>
+        <sp who="#spKlara">
+          <speaker>Klara.</speaker>
+          <p>Nej!</p>
+        </sp>
+        <sp who="#spHulda">
+          <speaker>Hulda.</speaker>
+          <p>Hur kunde du då ha den taktlösheten — ja,    
+            <lb/> hjärtlösheten, vill jag säga, att komma hem? Du    
+            <lb/> borde väl ha haft lite försyn för <persName ref="#Albert #Billgren #FruBillgren #Hulda #Mina">dina släktingar</persName>  
+            <lb/> — tänkt på att inte draga skam öfver dem.</p>
+        </sp>
+        <stage>(<persName ref="#Malvina">Malvina</persName> lyfter upp hufvudet och lyssnar.)</stage>
+        <sp who="#spKlara">
+          <speaker>Klara.</speaker>
+          <p>Du också, <persName ref="#Hulda">Hulda</persName>! Hvad kan det göra dig!    
+            <lb/> Du är rik, nygift — hvad har du att frukta af mig?</p>
+        </sp>
+        <sp who="#spHulda">
+          <speaker>Hulda.</speaker>
+          <p>Tror du det är roligt för mig, om <persName ref="#AlbertsFöräldrar">mina svär­<lb break="no"/>föräldrar</persName> och hela deras släkt, som är så nogräknad,    
+            <lb/> ska få reda på att jag har <persName ref="#Klara">en släkting</persName> — och <persName ref="#Klara">barn­<lb break="no"/>domsvän</persName> till på köpet, som komprometterat sig så!    
+            <lb/> Du vet väl hur stränga åsikterna är här i <placeName>Göteborg</placeName>.</p>
+        </sp>
+        <stage>(<persName ref="#Malvina">Malvina</persName> reser sig till hälften.)</stage>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren</speaker> <stage type="entrance" who="#FruBillgren #Mina" cert="medium">(kommer äfven ut,    
+            <lb/> skjuter för dörren till salen, där    
+            <lb/> de andra äro).</stage>
+          <p>Hur är det, är hon gift? Inte. Hör, <persName ref="#Klara">min    
+            <lb/> kära Klara</persName>. När det är så, kan du inte stanna i    
+            <lb/> <placeName>Göteborg</placeName>. — Jag är beredd att göra ännu en pen­<lb break="no"/>ninguppoffring för dig — och jag tror inte att    
+            <lb/> <persName ref="#Billgren">Billgren</persName> ska säga nej — men du måste strax bege
+            <pb facs="5630-39.jpg"/>
+                        <fw type="pageNum">158</fw>
+            dig härifrån — om inte annat, så för <persName ref="#Malvina">din mors</persName>    
+            <lb/> skull. <persName ref="#Malvina">Din mor</persName> är väl sedd och upptagen i de    
+            <lb/> bästa familjer här, men det förstås, att om du    
+            <lb/> stannar här, blir hon inte vidare bjuden någonstans.</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina</speaker> <stage>(springer upp).</stage>
+          <p>Förlåt, <persName ref="#FruBillgren">lilla Lydia</persName>, men om du tror att jag    
+            <lb/> sätter så mycket värde på de där middagsbjudnin­<lb break="no"/>garna — dem kan jag undvara, vet du.</p>
+        </sp>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren.</speaker>
+          <p>Kan du också undvara folks aktning? Du vet    
+            <lb/> själf hur illa du tog det nyss, när <persName ref="#FruSvenson">fru Svenson</persName> —</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Och tror du jag bryr mig om <persName ref="#FruSvenson">fru Svenson</persName> och    
+            <lb/> <persName ref="#FemFruar #FruRosin #FruStröm #FruSvenson">alla de andra fruarna</persName> här, och <persName ref="#Alins">Alins</persName>, som för    
+            <lb/> resten inte bjudit mig på middag i dag heller,
+            <lb/> och <persName ref="#Albert #Hulda">Hjorts</persName> och själfva <persName ref="#Billgren #FruBillgren">herrskapet Billgrens</persName> — med
+            <lb/> förlof —; men om de håller sig för goda för <persName ref="#Klara">min    
+            <lb/> dotter</persName>, så håller jag mig för god för dem.</p>
+        </sp>
+        <sp who="#spKlara">
+          <speaker>Klara.</speaker>
+          <p>
+                        <persName ref="#Malvina">Mamma</persName>, <persName ref="#Malvina">min egen mamma</persName>!</p>
+        </sp>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren.</speaker>
+          <p>Jag trodde inte att du var den som öfversåg    
+            <lb/> med vissa felsteg, <persName ref="#Malvina">kära Malvina</persName>. Jag vet nog att    
+            <lb/> en mor alltid är en mor, men rättskänslan bör man    
+            <lb/> ha ändå. God afton, kära du. Sof på saken; i    
+            <lb/> morgon ska jag säga dig, hvad vi kan göra för    
+            <lb/> <persName ref="#Klara">Klara</persName> och hvilka våra villkor äro.</p>
+        </sp>
+        <pb facs="5630-40.jpg"/>
+                <fw type="pageNum">159</fw>
+        <sp who="#spHulda">
+          <speaker>Hulda.</speaker>
+          <p>Hvar bor <persName ref="#Klara">Klara</persName>?</p>
+        </sp>
+        <sp who="#spKlara">
+          <speaker>Klara.</speaker>
+          <p>Jag bor hos <persName ref="#Malvina">min mor</persName>, tänkte jag. Jag kom    
+            <lb/> direkt från ångbåten.</p>
+        </sp>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren.</speaker>
+          <p>
+                        <persName ref="#Malvina">Din mor</persName> har inte något hem att bjuda dig,    
+            <lb/> som du ser.</p>
+        </sp>
+        <sp who="#spKlara">
+          <speaker>Klara.</speaker>
+          <p>Men <persName ref="#Malvina">mamma</persName> har väl ett eget rum. Åtmin­<lb break="no"/>stone för i natt.</p>
+        </sp>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren.</speaker>
+          <p>Det måste jag bestämdt motsätta mig — det    
+            <lb/> gör mig ondt, men jag kan inte uppoffra <orgName ref="#HemFörPauvresHonteux">det här
+            <lb/> nybildade lilla hemmets</orgName> hela anseende — <persName ref="#FemFruar #FruRosin #FruStröm #FruSvenson">de andra    
+            <lb/> fruarna</persName>!</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Jaså! Skall <persName ref="#Klara">min dotter</persName> jagas ut härifrån på    
+            <lb/> kvällen, just som hon kommit, för <persName ref="#FruSvenson">fru Svensons</persName>    
+            <lb/> och <persName ref="#FemFruar #FruRosin #FruStröm">de andras</persName> skull? Om det är så, så går jag    
+            <lb/> också! Kom, <persName ref="#Klara">Klara</persName>, mitt gamla rum är inte ut­<lb break="no"/>hyrdt än — <persName ref="#Värdinnan">min värdinna</persName> tar gärna emot oss. <stage>(Ringer.)</stage>
+                    </p>
+        </sp>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren.</speaker>
+          <p>Tänk på hvad du gör, <persName ref="#Malvina">Malvina lilla</persName>. Du vet    
+            <lb/> ju, att du ingenting har att lefva af, när nu också    
+            <lb/> <persName ref="#Klara">Klara</persName> —</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Har jag någonsin tiggt af dig, <persName ref="#FruBillgren">goda Lydia</persName>?    
+            <lb/> Så länge jag inte gjort det, tänker jag jag har rätt    
+            <lb/> att sköta mina affärer själf.</p>
+        </sp>
+        <pb facs="5630-41.jpg"/>
+                <fw type="pageNum">160</fw>
+        <sp who="#spFruBillgren">
+          <speaker>Fru Billgren.</speaker>
+          <p>Du vill då på allvar lämna <orgName ref="#HemFörPauvresHonteux">hemmet</orgName>?</p>
+        </sp>
+        <sp who="#spMalvina">
+          <speaker>Malvina.</speaker>
+          <p>Precist! Du vet mycket väl, att jag aldrig    
+            <lb/> ville komma in här, men att det var du som öfver­<lb break="no"/>talade mig. Och medan vi nu talar om det, vill    
+            <lb/> jag säga, att maten är riktigt skamligt dålig här    
+            <lb/> — i dag var fläsket alldeles oätbart — helt enkelt    
+            <lb/> oätbart. Kom, <persName ref="#Klara">Klara</persName>, du och jag ska inte genera    
+            <lb/> <persName ref="#FruBillgren #Hulda #Mina">våra kära släktingar</persName>! — <persName ref="#Alins">Alins</persName> bjöd mig i alla fall
+            <lb/> inte på middagen i dag. — <stage>(Till <persName ref="#Madamen">städerskan</persName>, <stage type="entrance" who="#Madamen">som kommer
+            <lb/> in från höger</stage>.)</stage> Se här, <persName ref="#Madamen">madam</persName>, lägg in den här    
+            <lb/> piraten i mitt rum — och gif mig min kappa och    
+            <lb/> min hatt. <stage>(<stage type="exit" who="#Madamen">Då städerskan öppnar salsdörren för att gå ut
+            <lb/> den vägen</stage>, <stage type="entrance" who="#FemFruar #FruRosin #FruStröm #FruSvenson">ser man alla fruarna, samlade vid dörren i lyss­<lb break="no"/>nande ställning, fara förlägna tillbaka, då dörren går upp</stage>.    
+            <lb/> <persName ref="#Malvina">Moster Malvina</persName>, som ej sett dem, fortsätter till <persName ref="#Klara">Klara</persName>:)</stage> Vi
+            <lb/> går först och hör efter rummet, förstår du, det är    
+            <lb/> här strax bredvid, och sedan hämtar vi våra saker.    
+            <lb/> God afton, <persName ref="#FruBillgren">lilla goda fru Billgren</persName>, god afton, <persName ref="#Mina">fru
+            <lb/> Mina</persName>, god afton, <persName ref="#Hulda">fru Hjort</persName>. <stage>(Gör en stor komplimang    
+            <lb/> för dem alla, slänger om sig kappan, <stage type="entrance" who="#Madamen">som <persName ref="#Madamen">städerskan</persName> kommer
+            <lb/> med</stage>, samt sätter på sig hatten och går så ut med <persName ref="#Klara">Klara</persName>    
+            <lb/> genom salen, nigande med öfverdrifven artighet för <persName ref="#FemFruar #FruRosin #FruStröm #FruSvenson">alla fruarna</persName>
+            <lb/> till höger och vänster samt sägande med hög, darrande röst:)</stage>    
+            <lb/> Så länge du har <persName ref="#Malvina">en mor</persName> i lifvet, <persName ref="#Klara">min flicka</persName>, så ska    
+            <lb/> du inte sakna ett hem. Och det här är inte ett    
+            <lb/> ställe för oss!</p>
+        </sp>
+        <stage type="exit" who="#Klara #Malvina"/>
+        <stage>(Slut.)</stage>
+      </div>
+    </body>
+    <back>
+      <pb facs="5630-42.jpg"/><!-- tom sida -->
+      <pb facs="5630-43.jpg"/><!-- tom sida -->
+      <pb facs="5630-44.jpg"/><!-- insida pärm -->
+      <pb facs="5630-45.jpg"/><!-- pärm -->
+      <div type="editorial">
+        <listPerson>
+          <listPerson type="cast">
+            <person xml:id="Malvina" sex="female">
+              <persName>
+                <roleName>fru</roleName>
+                <forename>Malvina</forename>
+                <surname>Isberg</surname>
+              </persName>
+            </person>
+            <person xml:id="Klara" sex="female">
+              <persName>
+                <forename>Klara</forename>
+                <surname>Billgren</surname>
+              </persName>
+              <occupation scheme="#HISCO" code="38040" notAfter-custom="#playstart">telegrafist</occupation>
+            </person>
+            <person xml:id="FruBillgren" sex="female">
+              <persName>
+                <roleName>fru</roleName>
+                <forename>Lydia</forename>
+                <surname>Billgren</surname>
+              </persName>
+            </person>
+            <person xml:id="Mina" sex="female">
+              <persName>
+                <roleName>fru</roleName>
+                <forename>Mina</forename>
+                <surname>Billgren</surname>
+              </persName>
+            </person>
+            <person xml:id="Hulda" sex="female">
+              <persName>
+                <roleName>fru</roleName>
+                <forename>Hulda</forename>
+                <surname>Hjort</surname>
+              </persName>
+            </person>
+            <person xml:id="FruSvenson" sex="female">
+              <persName>
+                <roleName>fru</roleName>
+                <surname>Svenson</surname>
+              </persName>
+              <occupation scheme="#HISCO" code="45220" notAfter-custom="#playstart">månglerska</occupation>
+            </person>
+            <person xml:id="FruStröm" sex="female">
+              <persName>
+                <roleName>fru</roleName>
+                <surname>Ström</surname>
+              </persName>
+            </person>
+            <person xml:id="FruRosin" sex="female">
+              <persName>
+                <roleName>fru</roleName>
+                <surname>Rosin</surname>
+              </persName>
+            </person>
+            <listPerson>
+              <personGrp xml:id="FemFruar" sex="female" size="5"/>
+              <person xml:id="EnFru" sex="female"/>
+              <listPerson>
+                <personGrp xml:id="FyraFruar" sex="female" size="4"/>
+              </listPerson>
+            </listPerson>
+            <person xml:id="Madamen">
+              <occupation>städerska</occupation>
+            </person>
+          </listPerson>
+          <listPerson type="noncast">
+            <person xml:id="Albert" sex="male">
+              <persName>
+                <forename>Albert</forename>
+                <surname>Hjort</surname>
+              </persName>
+            </person>
+            <listPerson>
+              <personGrp xml:id="Alins" sex="mixed">
+                <persName>
+                  <surname>Alin</surname>
+                </persName>
+              </personGrp>
+            </listPerson>
+            <!-- tillagda /EF -->
+            <person xml:id="Billgren" sex="male"/>
+            <person xml:id="Kamrern" sex="male"/>
+            <person xml:id="Sergeanten" sex="male"/>
+            <person xml:id="Flickan" sex="female">
+              <age atMost="3">högst 3 år</age>
+              <death notAfter-custom="#playstart"/>
+            </person>
+            <listPerson>
+              <personGrp xml:id="AlbertsFöräldrar" sex="mixed"/>
+            </listPerson>
+            <person xml:id="Postiljonen" sex="male">
+              <occupation scheme="#HISCO" code="37030">postiljon</occupation>
+            </person>
+            <person xml:id="PostiljonensFar" sex="male">
+              <occupation scheme="#HISCO" code="14120">präst</occupation>
+            </person>
+            <person xml:id="PostiljonensMor" sex="female"/>
+            <person xml:id="Jungfrun" sex="female">
+              <occupation scheme="#HISCO" code="54020">jungfru</occupation>
+            </person>
+            <person xml:id="Värdinnan" sex="female"/>
+          </listPerson>
+          <listRelation>
+            <relation type="personal" name="dotter" active="#Klara" passive="#Malvina"/>
+            <relation type="personal" name="kusin" active="#Malvina" passive="#FruBillgren"/>
+            <relation type="personal" name="dotter" active="#Hulda" passive="#Billgren #FruBillgren"/>
+            <relation type="personal" name="sonhustru" active="#Mina" passive="#Billgren #FruBillgren"/>
+            <relation type="personal" name="vän" mutual="#FruRosin #FruStröm #FruSvenson #FyraFruar"/>
+            <relation type="personal" name="ovän" mutual="#EnFru #FruSvenson #Malvina"/>
+            <relation type="social" name="städerska" active="#Madamen" passive="#HemFörPauvresHonteux"/>
+            <relation type="personal" name="gift" mutual="#Albert #Hulda"/>
+            <relation type="social" name="granne" mutual="#Malvina #Alins"/>
+            <!-- tillagda /EF -->
+            <relation type="social" name="styrelsefru" active="#FruBillgren #Hulda #Mina" passive="#HemFörPauvresHonteux"/>
+            <relation type="social" name="kamrer" active="#Kamrern" passive="#HemFörPauvresHonteux"/>
+            <relation type="social" name="inneboende" active="#FemFruar #FruRosin #FruStröm #FruSvenson #Malvina" passive="#HemFörPauvresHonteux"/>
+            <relation type="personal" name="son" active="#Sergeanten" passive="#FruSvenson"/>
+            <relation type="personal" name="dotter" active="#Flickan" passive="#Klara #Postiljonen"/>
+            <relation type="personal" name="son" active="#Albert" passive="#AlbertsFöräldrar"/>
+            <relation type="personal" name="vän" mutual="#Hulda #Klara" notAfter-custom="#playstart"/>
+            <relation type="personal" name="gift" mutual="#Billgren #FruBillgren"/>
+            <relation type="personal" name="bekant" mutual="#Alins #FruBillgren"/>
+            <relation type="personal" name="son" active="#Postiljonen" passive="#PostiljonensFar #PostiljonensMor"/>
+            <relation type="social" name="hyresvärd" active="#Värdinnan" passive="#Malvina" notAfter-custom="#playstart"/>
+            <relation type="social" name="jungfru" active="#Jungfrun" passive="#Malvina" notAfter-custom="#playstart"/>
+          </listRelation>
+        </listPerson>
+        <listOrg>
+          <org xml:id="HemFörPauvresHonteux">
+            <orgName>Hem för pauvres-honteux</orgName>
+          </org>
+        </listOrg>
+        <fs type="hand" xml:id="handarbete1">
+          <f name="aktivitet">
+                        <symbol value="stickning"/>
+                    </f>
+          <f name="vem" fVal="#Malvina"/>
+          <f name="start" fVal="#handarbete1start"/>
+          <f name="slut" fVal="#handarbete1slut"/>
+        </fs>
+      </div>
+    </back>
+    <anchor xml:id="playend"/>
+  </text>
+</TEI>

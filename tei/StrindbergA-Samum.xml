@@ -1,0 +1,1106 @@
+<!-- $Id: StrindbergA_Samum.xml 113246 2015-03-12 12:29:52Z eva $ -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Samum</title>
+        <author xml:id="StrindbergA">
+          <persName>
+            <forename>August</forename>
+            <surname>Strindberg</surname>
+          </persName>
+          <idno type="LIBRIS">http://libris.kb.se/auth/94541</idno>
+          <idno type="Litteraturbanken">http://litteraturbanken.se/#!forfattare/StrindbergA</idno>
+          <idno type="Riksarkivet">http://www.nad.riksarkivet.se/sbl/artikel/34518</idno>
+        </author>
+        <sponsor>
+          <name>Riksteatern, anslagsförvaltare</name>
+        </sponsor>
+        <funder>
+          <name>Vetenskapsrådet</name>
+        </funder>
+        <funder>
+          <name>Riksbankens Jubileumsfond</name>
+        </funder>
+        <editor>
+          <name>Dramawebben</name>
+        </editor>
+        <principal>
+          <persName>Marika V. Lagercrantz</persName>
+        </principal>
+        <respStmt>
+          <resp>strukturkodning</resp>
+          <persName xml:id="ForsbomE">Eva Forsbom</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>kodning</resp>
+          <persName xml:id="ErnstM">Manilla Ernst</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>korrekturläsning</resp>
+          <persName xml:id="BackhammarT">Tove Backhammar</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>korrekturläsning</resp>
+          <persName xml:id="BergströmS">Sara Bergström</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>redigering</resp>
+          <persName ref="#ForsbomE">Eva Forsbom</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>eDrama</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Dramawebben</publisher>
+        <address>
+          <addrLine>http://www.dramawebben.se</addrLine>
+        </address>
+        <idno type="Dramawebben">StrindbergA_Samum</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/se/">
+            <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author sameAs="#StrindbergA">
+              <persName>August Strindberg</persName>
+            </author>
+            <title level="a" type="main">Samum</title>
+          </analytic>
+          <monogr>
+            <author sameAs="#StrindbergA">
+              <persName>August Strindberg</persName>
+            </author>
+            <title level="m">Tryckt och otryckt</title>
+            <idno type="LIBRIS">http://libris.kb.se/bib/1626620</idno>
+            <imprint>
+              <pubPlace>Stockholm</pubPlace>
+              <publisher>Albert Bonniers förlag</publisher>
+              <date when="1890">1890</date>
+              <respStmt>
+                <resp>tryckning</resp>
+                <orgName>Alb. Bonniers boktryckeri</orgName>
+              </respStmt>
+              <biblScope unit="volume">I</biblScope>
+              <biblScope unit="page" from="136" to="154">136–154</biblScope>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Dramawebben är ett digitalt arkiv över upphovsrättslig fri svensk dramatik. Dramatexterna
+          finns återgivna i fulltext och är publicerade antingen i sk faksimil, ett pdf-dokument där
+          originaltrycket återges som en digital fotokopia, eller i bearbetningsbar text, ett
+          pdf-dokument med text och bild som kan användas för redigering. Dramawebben växer i takt
+          med att nya verk blir kända. Med det digitala pjäsmaterialet tillgängliggör och
+          aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
+          förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
+          sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
+      </samplingDecl>
+      <classDecl>
+        <taxonomy xml:id="HISCO">
+          <biblStruct>
+            <monogr>
+              <author>Marco H.D. van Leeuwen</author>
+              <author>Ineke Maas</author>
+              <author>Andrew Miles</author>
+              <title>HISCO Historical International Standard Classification of Occupations</title>
+              <idno type="ISBN">90-5867-196-8</idno>
+              <imprint>
+                <publisher>Leuven University Press</publisher>
+                <pubPlace>Leuven</pubPlace>
+                <date when="2002">2002</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+        </taxonomy>
+      </classDecl>
+      <tagsDecl>
+        <rendition>
+          <!-- Rollbeskrivningar i castItem är i kursiv stil /TB -->
+          <!-- Set anges med kursiv stil /ME -->
+          <!-- Scenanvisningar anges med en punktstorlek mindre /SB -->
+          <!-- Scenanvisningar av typen setting anges med kursiv stil /ME -->
+          <!-- Scenanvisningar av typen presence anges med kursiv stil och i normal storlek;
+               rollnamn (i versaler) är i normal stil /EF -->
+          <!-- Övriga scenanvisningar är i normal stil /EF -->
+          <!-- Scenanvisningar direkt efter talarrubrik är inline, vid flera rader indraget till rak vänstermarginal /EF -->
+          <!-- Fristående scenanvisningar är centrerade vid en rad; indragna första raden vid flera rader /EF -->
+          <!-- Stycken är indragna första raden /ME -->
+          <!-- Rubriker är centrerade /EF -->
+          <!-- Talarrubriker anges med mindre punktstorlek /EF -->
+        </rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="sv">Swedish</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:id="StrindbergA_Samum">
+    <anchor xml:id="playstart"/>
+    <front>
+      <pb facs="38643-0.jpg"/><!-- omslag -->
+      <gap reason="irrelevant"/>
+      <pb facs="38643-1.jpg"/><!-- omslag insida -->
+      <pb facs="38643-2.jpg"/><!-- smutstitel -->
+      <gap reason="irrelevant"/>
+      <pb facs="38643-3.jpg"/><!-- titelsida volym -->
+      <gap reason="irrelevant"/>
+      <pb facs="38643-4.jpg"/><!-- trycksida -->
+      <gap reason="irrelevant"/>
+      <pb facs="38643-5.jpg"/><!-- titelsida -->
+      <gap reason="irrelevant"/>
+      <pb facs="38643-6.jpg"/><!-- tom sida -->
+      <pb facs="38643-7.jpg"/>
+      <castList>
+        <head>Personer:</head>
+        <castItem>
+          <role xml:id="spBiskra">
+                        <persName ref="#Biskra">BISKRA</persName>
+                    </role>, <roleDesc>arabisk flicka</roleDesc>.
+        </castItem>
+        <castItem>
+          <role xml:id="spYoussef">
+                        <persName ref="#Youssef">YOUSSEF</persName>
+                    </role>, <roleDesc>hennes älskare</roleDesc>.
+        </castItem>
+        <castItem>
+          <role xml:id="spGuimard">
+                        <persName ref="#Guimard">GUIMARD</persName>
+                    </role>, <roleDesc>löjtnant vid <persName ref="#Frankerna">zuaverna</persName>
+                    </roleDesc>.
+        </castItem>
+      </castList>
+      <set>
+        <p>I <placeName>Algériet</placeName> i våra dagar.</p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>Sceneri:</head>
+        <stage type="setting">
+          <p>En arabisk marabout (grafkammare) med en sarkofag
+            <lb/> midt på golfvet. Bönemattor här och hvar; i högra hörnet ett
+            <lb/> benhus.</p>
+          <p>Dörr i fonden med portar och förhängen; fönstergluggar på
+            <lb/> fondväggen. Små sandhögar här och där på golfvet; en upp­<lb break="no"/>ryckt aloë, palmblad, alphagräs i en hög.</p>
+        </stage>
+        <div type="scene" n="1">
+         <head>Första scenen.</head>
+          <stage type="presence">
+                        <stage type="entrance" who="#Biskra">BISKRA in med burnus-kapuschongen neddragen för
+            <lb/> ansiktet, och en guitarr på ryggen, kastar sig ner på en
+            <lb/> matta och gör bön med armarne öfver bröstet</stage>.</stage>
+          <stage>(Det blåser utanför.)</stage>
+          <pb facs="38643-8.jpg"/>
+                    <fw type="pageNum">138</fw>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>La ilâha all allâh!</p>
+          </sp>
+          <sp who="#spYoussef">
+            <speaker>YOUSSEF</speaker> <stage type="entrance" who="#Youssef">(in hastigt).</stage>
+            <p>Samum kommer! Hvar är <persName ref="#Guimard">franken</persName>?</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Han skall vara här inom ett ögonblick!</p>
+          </sp>
+          <sp who="#spYoussef">
+            <speaker>YOUSSEF.</speaker>
+            <p>Hvarför stack du inte ner honom genast?</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Nej! Därför att han skall göra det själf!
+              <lb/> Om jag gjorde det, skulle <persName ref="#Frankerna">de hvite</persName> döda <persName ref="#Araberna">hela
+              <lb/> vår stam</persName>, ty de veta, att jag var <persName ref="#Ali">vägvisaren Ali</persName>,
+              <lb/> fast de ej veta, att jag är <persName ref="#Biskra">flickan Biskra</persName>!</p>
+          </sp>
+          <sp who="#spYoussef">
+            <speaker>YOUSSEF.</speaker>
+            <p>Han skall själf göra det? Hur går det till?</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Du vet ej, att Samum torkar <persName ref="#Frankerna">de hvites</persName> hjär­<lb break="no"/>nor som dadlar och att de få skräcksyner, som
+              <lb/> göra dem lifvet så vidrigt, att de fly ut i det
+              <lb/> stora okända.</p>
+          </sp>
+          <sp who="#spYoussef">
+            <speaker>YOUSSEF.</speaker>
+            <p>Jag har hört sådant, och vid sista träff­<lb break="no"/>ningen hade <persName ref="#Frankerna">sex franker</persName> burit hand på sina
+              <lb/> lif, innan de hunno fram. Men lita ej på
+              <lb/> Samum i dag, ty snö har fallit på bergen och
+              <lb/> om en half timme kan allt vara öfver. — <persName ref="#Biskra">Biskra</persName>!
+              <lb/> Kan du hata ännu?</p>
+          </sp>
+          <pb facs="38643-9.jpg"/>
+                    <fw type="pageNum">139</fw>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Om jag kan hata? — Mitt hat är gränslöst
+              <lb/> som öknen, brännande som solen och starkare
+              <lb/> än min kärlek! Hvarje stund af njutning de
+              <lb/> stulit från mig, sedan de dräpte <persName ref="#Ali">Ali</persName>, har samlat
+              <lb/> sig som giftet under huggormens tand, och hvad
+              <lb/> Samum ej förmår, det förmår jag.</p>
+          </sp>
+          <sp who="#spYoussef">
+            <speaker>YOUSSEF.</speaker>
+            <p>Det är väl taladt, <persName ref="#Biskra">Biskra</persName>, och du skall ut­<lb break="no"/>föra’t. Mitt hat har vissnat, som alphagräset om
+              <lb/> hösten, sedan mina ögon sågo dig. Tag kraft
+              <lb/> af mig och blif pilen på min båge.</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Omfamna mig, <persName ref="#Youssef">Youssef</persName>! Omfamna mig!</p>
+          </sp>
+          <sp who="#spYoussef">
+            <speaker>YOUSSEF.</speaker>
+            <p>Icke här i den heliges närvaro; icke nu,
+              <lb/> — sedan, efteråt! sedan du förtjenat din lön!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>
+                            <persName ref="#Youssef">Stolte cheik</persName>, <persName ref="#Youssef">stolte man</persName>!</p>
+          </sp>
+          <sp who="#spYoussef">
+            <speaker>YOUSSEF.</speaker>
+            <p>Ja — den flicka, som skall bära min ättling
+              <lb/> under sitt hjärta, den skall visa sig värdig den
+              <lb/> hedern!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Jag — ingen annan — skall bära <persName ref="#Youssef">Youssefs</persName>
+              <lb/> ättling! Jag, <persName ref="#Biskra">Biskra</persName> — <persName ref="#Biskra">den föraktade, den fula,
+              <lb/> men den starka</persName>!</p>
+          </sp>
+          <sp who="#spYoussef">
+            <speaker>YOUSSEF.</speaker>
+            <p>Nåväl! Nu går jag ner och sofver vid
+              <lb/> källan! — Behöfver jag lära dig de hemliga
+              <pb facs="38643-10.jpg"/>
+                            <fw type="pageNum">140</fw>
+              konster, som du lärt af <persName ref="#MaraboutSiddiCheik">den store Marabout
+              <lb/> Siddi-cheik</persName>, och som du öfvar på marknader,
+              <lb/> sedan du var barn?</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Det behöfver du icke! — Jag kan alla hem­<lb break="no"/>ligheter, som behöfvas för att skrämma lifvet ur
+              <lb/> <persName ref="#Guimard">en feg frank</persName>; <persName ref="#Guimard">den fege</persName>, som kryper på sin fiende
+              <lb/> och skickar blykulan före! Jag kan allt — ända
+              <lb/> intill buktalarkonsten. Och hvad min konst ej
+              <lb/> förmår, det skall solen göra, ty solen är med
+              <lb/> <persName ref="#Youssef">Youssef</persName> och <persName ref="#Biskra">Biskra</persName>.</p>
+          </sp>
+          <sp who="#spYoussef">
+            <speaker>YOUSSEF.</speaker>
+            <p>Solen är Muslims vän, men är ej att lita
+              <lb/> på. Du kan bränna dig, <persName ref="#Biskra">flicka</persName>!</p>
+            <p>Tag först en dryck vatten, ty jag ser, att
+              <lb/> dina händer skrumpna och — <stage>(har lyftat en matta, och
+              <lb/> går ner efter en skål vatten, som han räcker <persName ref="#Biskra">Biskra</persName>.)</stage>
+                        </p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA</speaker> <stage>(lyfter skålen till munnen).</stage>
+            <p>— Och mitt öga börjar redan se rödt — mina
+              <lb/> lungor torka — jag hör — jag hör — ser du
+              <lb/> sanden rinner redan genom taket — och det
+              <lb/> sjunger i guitarrens strängar — Samum är här!!
+              <lb/> Men <persName ref="#Guimard">franken</persName> icke!</p>
+          </sp>
+          <sp who="#spYoussef">
+            <speaker>YOUSSEF.</speaker>
+            <p>Kom hit ner, <persName ref="#Biskra">Biskra</persName>, och låt <persName ref="#Guimard">franken</persName> dö för
+              <lb/> sig själf!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Först helvetet och sedan döden! Tror du
+              <lb/> jag sviker!</p>
+            <stage>(Slår ut vattnet på en sandhög.)</stage>
+            <pb facs="38643-11.jpg"/>
+                        <fw type="pageNum">141</fw>
+            <p>Jag skall vattna på sanden, så växer hämden!
+              <lb/> och jag skall torka mitt hjärta. Väx hat! Bränn
+              <lb/> sol! Kväf vind!</p>
+          </sp>
+          <sp who="#spYoussef">
+            <speaker>YOUSSEF.</speaker>
+            <p>Hell dig, <persName ref="#Biskra">Ibn Youssefs moder</persName>, ty du skall
+              <lb/> föda <persName ref="#Youssef">Youssefs</persName> son, hämnaren! Du!</p>
+          </sp>
+          <stage>(Vinden tilltager; förhänget för dörren fläktar; ett rödt
+            <lb/> sken lyser upp rummet, men öfvergår under det följande till
+            <lb/> gult.)</stage>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>
+                            <persName ref="#Guimard">Franken</persName> kommer, och — Samum är här!
+              <lb/> — Gå!</p>
+          </sp>
+          <sp who="#spYoussef">
+            <speaker>YOUSSEF.</speaker>
+            <p>Om en half timme ser du mig åter! Där
+              <lb/> har du sanduret. <stage>(Pekar på en sandhög.)</stage> Himlen
+              <lb/> mäter själf ut tiden åt de otrognes helvete!</p>
+          </sp>
+          <stage type="exit" who="#Youssef"/>
+        </div>
+        <div type="scene" n="2">
+          <head>Andra scenen.</head>
+          <stage type="presence" who="#Biskra">BISKRA. <stage type="entrance" who="#Guimard">GUIMARD (in blek och vacklande, för­<lb break="no"/>virrad, talar med half röst)</stage>.</stage>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Samum är här! — Hvart tror du <persName ref="#Frankerna">mitt folk</persName>
+              <lb/> tagit vägen?</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>
+                            <persName ref="#Frankerna">Ditt folk</persName> ledde jag vester till öst!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Vester till — öst! — Låt mig se! — Det
+              <lb/> är rätt i öster och — vester! — Sätt mig på
+              <lb/> en stol och ge mig vatten!</p>
+          </sp>
+          <pb facs="38643-12.jpg"/>
+                    <fw type="pageNum">142</fw>
+          <sp who="#spBiskra">
+            <speaker>BISKRA</speaker> <stage>(leder <persName ref="#Guimard">Guimard</persName> till sand­<lb break="no"/>högen, lägger honom på
+              <lb/> golfvet med hufvudet på
+              <lb/> sandhögen).</stage>
+            <p>Sitter du bra så?</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD</speaker> <stage>(ser på henne).</stage>
+            <p>Jag sitter litet krokig. Lägg något under
+              <lb/> hufvet.</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA</speaker> <stage>(trafvar sandhögen upp
+              <lb/> under hufvudet).</stage>
+            <p>Där har du en kudde under hufvet!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Hufvet? Där sitter ju fötterna! — Är inte
+              <lb/> fötterna där?</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Jo visst!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Jag tyckte väl det! — Ge mig nu en pall
+              <lb/> under — hufvet!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA</speaker> <stage>(släpar fram aloen och läg­<lb break="no"/>ger under knäna på <persName ref="#Guimard">Guimard</persName>).</stage>
+            <p>Där har du en pall!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Och så vatten! — Vatten!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA</speaker> <stage>(tar den tomma skålen,
+              <lb/> fyller den med sand och
+              <lb/> räcker <persName ref="#Guimard">Guimard</persName>).</stage>
+            <p>Drick medan det är kallt!</p>
+          </sp>
+          <pb facs="38643-13.jpg"/>
+                    <fw type="pageNum">143</fw>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD</speaker> <stage>(läppjar på skålen).</stage>
+            <p>Det <emph>är</emph> kallt — men det släcker ändå inte
+              <lb/> törsten! — Jag kan inte dricka — jag afskyr
+              <lb/> vatten — tag bort det!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Där har du <persName ref="#Hunden">hunden</persName>, som bet dig!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Hvilken <persName ref="#Hunden">hund</persName>? Jag har aldrig blifvit biten
+              <lb/> af någon hund.</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Ditt minne har Samum krympt — akta dig
+              <lb/> för Samums gyckelbilder! Du mins <persName ref="#Hunden">den rasande
+              <lb/> vindthunden</persName>, som bet dig vid näst sista jagten
+              <lb/> i <placeName>Bab-el-Ouëd</placeName>.</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Jagten i <placeName>Bab-el-Ouëd</placeName>! Det är riktigt! — Var
+              <lb/> det en bäfverfärgad? —</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>— <persName ref="#Hunden">tik</persName>? Ja! Ser du! Och han bet dig i vaden!
+              <lb/> Känner du inte såret sticka? —</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD</speaker> <stage>(tar sig åt vaden, sticker
+              <lb/> sig på aloën).</stage>
+            <p>Jo, jag känner det! — Vatten! Vatten!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA</speaker> <stage>(räcker honom sandskålen).</stage>
+            <p>Drick, drick!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Nej, jag kan inte! Heliga Maria, Guds
+              <lb/> Moder — jag har fått skräcken.</p>
+          </sp>
+          <pb facs="38643-14.jpg"/>
+                    <fw type="pageNum">144</fw>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Var inte rädd; jag skall läka dig och drifva
+              <lb/> ut demonen med musikens allmakt! Hör!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD</speaker> <stage>(skriker).</stage>
+            <p>
+                            <persName ref="#Biskra">Ali</persName>! <persName ref="#Biskra">Ali</persName>! Icke musik! Jag kan icke lida
+              <lb/> det! Och hvad gagn har jag af den!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Musiken tämjer ormens lömska ande, tror
+              <lb/> du ej den rår på <persName ref="#Hunden">en rasande hunds</persName>! Hör!</p>
+            <stage>(Sjunger vid guitarren.)</stage>
+            <p>
+                            <persName ref="#Biskra">Biskra-Biskra</persName>, <persName ref="#Biskra">Biskra-Biskra</persName>, <persName ref="#Biskra">Biskra-Biskra</persName>.
+              <lb/>Samum! Samum</p>
+          </sp>
+          <sp who="#spYoussef">
+            <speaker>YOUSSEF</speaker> <stage>(underifrån).</stage>
+            <p>Samum! Samum!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Hvad är det du sjunger? <persName ref="#Biskra">Ali</persName>!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Har jag sjungit? Ser du, nu tar jag ett
+              <lb/> palmblad i munnen!</p>
+            <stage>(Tar en palmkvist mellan tänderna. Sång uppifrån.)</stage>
+            <p>
+                            <persName ref="#Biskra">Biskra-Biskra</persName>, <persName ref="#Biskra">Biskra-Biskra</persName>, <persName ref="#Biskra">Biskra-Biskra</persName>.</p>
+          </sp>
+          <sp who="#spYoussef">
+            <speaker>YOUSSEF</speaker> <stage>(underifrån).</stage>
+            <p>Samum! Samum!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Hvilket helvetets gyckelspel!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Nu sjunger jag!</p>
+          </sp>
+          <pb facs="38643-15.jpg"/>
+                    <fw type="pageNum">145</fw>
+          <sp who="#spBiskra #spYoussef">
+            <speaker>BISKRA och YOUSSEF</speaker> <stage>(tillsammans).</stage>
+            <p>
+                            <persName ref="#Biskra">Biskra-Biskra</persName>, <persName ref="#Biskra">Biskra-Biskra</persName>, <persName ref="#Biskra">Biskra-Biskra</persName>!
+              <lb/> Samum!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD</speaker> <stage>(reser sig).</stage>
+            <p>Hvem är du <persName ref="#Biskra">djäfvul</persName>, som sjunger med två
+              <lb/> röster! Är du en man eller en kvinna? Eller
+              <lb/> båda delarna?</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Jag är <persName ref="#Ali">Ali, vägvisaren</persName>! Du känner icke igen
+              <lb/> mig, ty dina sinnen äro förvirrade; men vill du
+              <lb/> rädda dig från synens och tankens villor, så tro
+              <lb/> mig, tro hvad jag säger och gör som jag be­<lb break="no"/>faller.</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Du behöfver icke be mig det, ty jag finner
+              <lb/> att allt <emph>är</emph> som du säger det vara!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Ser du det, <persName ref="#Guimard">afgudadyrkare</persName>!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>
+                            <persName ref="#Guimard">Afgudadyrkare</persName>?</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Ja! Tag fram <persName ref="#SanktEduard">den idol</persName> du bär på bröstet!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD</speaker> <stage>(tar fram en medaljong).</stage>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Trampa den under fötterna, och anropa Gud
+              <lb/> den Ende, den Barmhertige, Förbarmaren.</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD</speaker> <stage>(tvekande).</stage>
+            <p>
+                            <persName ref="#SanktEduard">Den helige Eduard, min skyddspatron</persName>.</p>
+          </sp>
+          <pb facs="38643-16.jpg"/>
+                    <fw type="pageNum">146</fw>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Kan han skydda dig? Kan han?</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Nej, det kan han icke! — <stage>(Vaknar.)</stage> Jo, det
+              <lb/> kan han!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Låt se då!</p>
+            <stage>(Öppnar dörren, gardinen fläktar och gräset rör sig.)</stage>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD</speaker> <stage>(håller för mun).</stage>
+            <p>Stäng dörren!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Ner med <persName ref="#SanktEduard">afguden</persName>!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Nej, jag kan inte.</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Ser du! Samum kröker icke ett hår på
+              <lb/> mig, men dig, <persName ref="#Guimard">otrogne</persName>, dödar han! Ner med <persName ref="#SanktEduard">af­<lb break="no"/>guden</persName>!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD</speaker> <stage>(kastar medaljongen på
+              <lb/> golfvet).</stage>
+            <p>Vatten! Jag dör!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Bed den Ende, den Barmhertige, Förbar­<lb break="no"/>maren!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Hvad skall jag bedja?</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Säg mina ord!</p>
+          </sp>
+          <pb facs="38643-17.jpg"/>
+                    <fw type="pageNum">147</fw>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Tala!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Gud är en Ende, det gifves ingen annan
+              <lb/> Gud än Han, den Barmhertige, Förbarmaren!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>»Gud är en Ende, det gifves ingen annan
+              <lb/> Gud än Han, den Barmhertige, Förbarmaren!»</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Lägg dig ner på golfvet!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD</speaker> <stage>(lägger sig ner motvilligt).</stage>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Hvad hör du?</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Jag hör en källa sorla!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Ser du! Gud är en och det gifves ingen
+              <lb/> annan än Han den Barmhertige, Förbarmaren! —
+              <lb/> Hvad ser du?</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Jag ser en källa sorla — jag hör en lampa
+              <lb/> lysa — i ett fönster med gröna luckor — vid
+              <lb/> en hvit gata —</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Hvem sitter vid fönstret?</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>
+                            <persName ref="#Elise">Min hustru — Elise</persName>!</p>
+          </sp>
+          <pb facs="38643-18.jpg"/>
+                    <fw type="pageNum">148</fw>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Hvem står bakom gardinen och lägger sin
+              <lb/> hand om hennes hals? —</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Det är <persName ref="#Georges">min son — Georges</persName>!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Hur gammal är <persName ref="#Georges">din son</persName>?</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Fyra år till Saint-Nicolas!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Och han kan redan stå bakom gardinen
+              <lb/> och hålla <persName ref="#Elise">
+                                <persName ref="#Guimard">en annans</persName> hustru</persName> om halsen?</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Det kan han icke — men det <emph>är</emph> han!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Fyra år gammal med blonda mustacher!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Blonda mustacher, säger du! — Ah, det
+              <lb/> är — <persName ref="#Jules">Jules, min vän</persName>!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Som står bakom gardinen och lägger sin
+              <lb/> hand om <persName ref="#Elise">din hustrus</persName> hals!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Ah, <persName ref="#Jules">djäfvul</persName>!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Ser du <persName ref="#Georges">din son</persName>?</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Nej, icke nu mer!</p>
+          </sp>
+          <pb facs="38643-19.jpg"/>
+                    <fw type="pageNum">149</fw>
+          <sp who="#spBiskra">
+            <speaker>BISKRA</speaker> <stage>(imiterar klockringning på
+              <lb/> guitarren).</stage>
+            <p>Hvad ser du nu?</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Jag ser klockor ringa — och jag känner
+              <lb/> smaken af lik — det luktar i munnen som härsket
+              <lb/> smör — fy! —</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Hör du inte <persName ref="#Diakern">diakern</persName> sjunga ut <persName ref="#Georges">barnlik</persName>?</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Vänta nu! — Jag kan inte höra det —
+              <lb/> <stage>(svårmodigt)</stage> men önskar du det? — så — nu hör
+              <lb/> jag det!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Ser du kransen på kistan, som de bära
+              <lb/> emellan sig?</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Ja —</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Det är violetta band — och där står med
+              <lb/> silfver tryckt — <writing who="#Guimard">»Farväl, <persName ref="#Georges">min älskade Georges</persName> —
+              <lb/> <persName ref="#Guimard">Din Fader</persName>»</writing>.</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Ja, det står där! — <stage>(Gråter.)</stage> <persName ref="#Georges">Min Georges</persName>!
+              <lb/> <persName ref="#Georges">Georges</persName>! <persName ref="#Georges">Mitt älskade barn</persName>! — <persName ref="#Elise">Elise, min
+              <lb/> hustru</persName>, trösta mig! — Hjälp mig! <stage>(Famlar omkring
+              <lb/> sig.)</stage> Hvar är du? <persName ref="#Elise">Elise</persName>! Har du gått ifrån mig?
+              <lb/> Svara! Ropa <persName ref="#Guimard">din älskades</persName> namn!</p>
+          </sp>
+          <sp>
+            <speaker>EN RÖST</speaker> <stage>(från taket).</stage>
+            <p>
+                            <persName ref="#Jules">Jules</persName>! <persName ref="#Jules">Jules</persName>!</p>
+          </sp>
+          <pb facs="38643-20.jpg"/>
+                    <fw type="pageNum">150</fw>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>
+                            <persName ref="#Jules">Jules</persName>! — Jag heter ju — Hvad heter jag?
+              <lb/> — Charles heter jag! — Och hon ropade Jules!
+              <lb/> — <persName ref="#Elise">Elise — älskade hustru</persName> — svara mig, ty din
+              <lb/> ande är här — jag känner det — och du lofvade
+              <lb/> mig att aldrig älska någon annan —</p> </sp>
+          <stage>(Rösten skrattar.)</stage>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Hvem skrattar!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>
+                            <persName ref="#Elise">Elise</persName>! <persName ref="#Elise">Din hustru</persName>!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Döda mig! — Jag vill inte lefva längre!
+              <lb/> Lifvet äcklar mig som surkål i Saint-Doux —
+              <lb/> vet du hvad Saint-Doux är, du? Svinister!
+              <lb/> <stage>(Spottar för sig.)</stage> Jag har ingen saliv mer — vatten!
+              <lb/> vatten! annars biter jag dig!</p>
+          </sp>
+          <stage>(Full storm utanför.)</stage>
+          <sp who="#spBiskra">
+            <speaker>BISKRA</speaker> <stage>(håller för munnen och
+              <lb/> hostar).</stage>
+            <p>Nu dör du, <persName ref="#Guimard">frank</persName>! Skrif din sista vilja me­<lb break="no"/>dan tid är! — Hvar är din notisbok?</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD</speaker> <stage>(tar upp notisboken och
+              <lb/> en penna).</stage>
+            <p>Hvad skall jag skrifva!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>En man tänker på sin hustru när han skall
+              <lb/> dö — och på sina barn!</p>
+          </sp>
+          <pb facs="38643-21.jpg"/>
+                    <fw type="pageNum">151</fw>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD</speaker> <stage>(skrifver).</stage>
+            <p>
+                            <writing who="#Guimard">»<persName ref="#Elise">Elise</persName> — jag förbannar dig! Samum —
+              <lb/> jag dör —»</writing>
+                        </p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Och så underteckna, eljes gäller ej testa­<lb break="no"/>mentet!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Hvad underteckna?</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Skrif: La ilâha ill allâh!</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD</speaker> <stage>(skrifver).</stage>
+            <p>Det är skrifvet! Får jag dö nu?</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Nu får du dö, som en feg soldat, hvilken
+              <lb/> öfvergifvit <persName ref="#Frankerna">sitt folk</persName>! — Och du lär få en vacker
+              <lb/> begrafning med schakalerna, som ska sjunga ut
+              <lb/> ditt lik! <stage>(Trummar anfall på guitarren.)</stage> Hör du trum­<lb break="no"/>man går — till anfall — <persName ref="#Frankerna" cert="medium">de otrogne</persName>, som ha
+              <lb/> solen och Samum med sig, rycka fram — ur
+              <lb/> bakhållen — <stage>(Slår på guitarren.)</stage> skotten gå af efter
+              <lb/> hela linien — <persName ref="#Frankerna">frankerna</persName> förmå icke ladda om
+              <lb/> — <persName ref="#Araberna">araberna</persName> skjuta i spridd ordning — <persName ref="#Frankerna">fran­<lb break="no"/>kerna</persName> fly! —</p>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD</speaker> <stage>(reser sig).</stage>
+            <p>
+                            <persName ref="#Frankerna">Frankerna</persName> fly icke!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA</speaker> <stage>(blåser »reträtt» på en flöjt
+              <lb/> hon tagit fram).</stage>
+            <p>
+                            <persName ref="#Frankerna">Frankerna</persName> fly, när det blåser reträtt!</p>
+          </sp>
+          <pb facs="38643-22.jpg"/>
+                    <fw type="pageNum">152</fw>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>De retirera — det är reträtten — och jag
+              <lb/> är här —</p>
+            <stage>(Rifver af sig epåletterna.)</stage>
+            <p>Jag är död!</p>
+            <stage>(Faller ner på golfvet.)</stage>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Ja, du är död! — Du vet icke, att du varit
+              <lb/> det länge! —</p>
+            <stage>(Går till benhuset, tar fram en dödskalle.)</stage>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Har jag varit död?</p>
+            <stage>(Tar sig i ansiktet.)</stage>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Länge! Länge! — Se dig här i spegeln!</p>
+            <stage>(Visar dödskallen.)</stage>
+          </sp>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD.</speaker>
+            <p>Ah! Det är jag!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Ser du ej dina utstående kinder — ser du
+              <lb/> ej hur gamarne ätit dina ögon — känner du ej
+              <lb/> igen hålet efter högra oxeltanden, som du lät
+              <lb/> rycka ut — ser du inte gropen i hakan, där det
+              <lb/> lilla vackra pipskägget växte, som <persName ref="#Elise">din Elise</persName>
+              <lb/> tyckte om att smeka — ser du inte hvar örat
+              <lb/> satt, som <persName ref="#Georges">din Georges</persName> brukade kyssa om morg­<lb break="no"/>narne vid kaffebordet — ser du inte hvar bilan
+              <lb/> tog här i nacken — när <persName ref="#Bödeln">bödeln</persName> aflifvade <persName ref="#Guimard">deser­<lb break="no"/>tören</persName>! — —</p>
+          </sp>
+          <pb facs="38643-23.jpg"/>
+                    <fw type="pageNum">153</fw>
+          <sp who="#spGuimard">
+            <speaker>GUIMARD</speaker> <stage>(som med fasa sett och
+              <lb/> hört på, faller ner död).</stage>
+          </sp>
+          <anchor xml:id="GuimardDeath"/>
+          <sp who="#spBiskra">
+            <speaker>BISKRA</speaker> <stage>(som legat på knä, reser sig
+              <lb/> sedan hon undersökt hans
+              <lb/> pulsar. Sjunger).</stage>
+            <p>Samum! Samum!</p>
+            <stage>(Öppnar dörrarne; draperiet fladdrar, hon håller sig för
+              <lb/> munnen och faller baklänges.)</stage>
+            <p>
+                            <persName ref="#Youssef">Youssef</persName>!</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>Tredje scenen.</head>
+          <stage type="presence" who="#Biskra #Guimard">DE FÖRRE. <stage type="entrance" who="#Youssef">YOUSSEF (upp ur källaren)</stage>.</stage>
+          <sp who="#spYoussef">
+            <speaker>YOUSSEF</speaker> <stage>(undersöker <persName ref="#Guimard">Guimard</persName>, sö­<lb break="no"/>ker <persName ref="#Biskra">Biskra</persName>).</stage>
+            <p>
+                            <persName ref="#Biskra">Biskra</persName>!</p>
+            <stage>(Får se <persName ref="#Biskra">Biskra</persName>, lyfter henne i sina armar.)</stage>
+            <p>Lefver du?</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Är <persName ref="#Guimard">franken</persName> död?</p>
+          </sp>
+          <sp who="#spYoussef">
+            <speaker>YOUSSEF.</speaker>
+            <p>Om han icke är, skall han bli! Samum!
+              <lb/> Samum!</p>
+          </sp>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Då lefver jag! Men gif mig vatten!</p>
+          </sp>
+          <sp who="#spYoussef">
+            <speaker>YOUSSEF</speaker> <stage>(bär henne mot luckan).</stage>
+            <p>Här! — Nu är <persName ref="#Youssef">Youssef</persName> din!</p>
+          </sp>
+          <pb facs="38643-24.jpg"/>
+                    <fw type="pageNum">154</fw>
+          <sp who="#spBiskra">
+            <speaker>BISKRA.</speaker>
+            <p>Och <persName ref="#Biskra">Biskra</persName> blir din sons moder! <persName ref="#Youssef">Youssef</persName>,
+              <lb/> store <persName ref="#Youssef">Youssef</persName>!</p>
+          </sp>
+          <sp who="#spYoussef">
+            <speaker>YOUSSEF.</speaker>
+            <p>
+                            <persName ref="#Biskra">Starka Biskra</persName>! Starkare än Samum!</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+    <back>
+      <pb facs="38643-25.jpg"/><!-- tom sida -->
+      <pb facs="38643-26.jpg"/><!-- omslag, andra böcker -->
+      <gap reason="irrelevant"/>
+      <div type="editorial">
+        <listPerson>
+          <listPerson type="cast">
+            <person xml:id="Biskra" sex="female">
+              <persName>
+                <forename>Biskra</forename>
+              </persName>
+            </person>
+            <person xml:id="Youssef" sex="male">
+              <persName>
+                <roleName>shejk</roleName>
+                <forename>Youssef</forename>
+              </persName>
+            </person>
+            <person xml:id="Guimard" sex="male">
+              <persName>
+                <forename>Charles</forename>
+                <surname>Guimard</surname>
+              </persName>
+              <death when-custom="#GuimardDeath"/>
+              <occupation scheme="#HISCO" code="58320">löjtnant</occupation>
+            </person>
+          </listPerson>
+          <listPerson type="noncast">
+            <listPerson type="fictive">
+              <person xml:id="Ali" sex="male">
+                <persName>
+                  <forename>Ali</forename>
+                </persName>
+                <death notAfter-custom="#playstart"/>
+                <occupation scheme="#HISCO" code="59100">vägvisare</occupation>
+              </person>
+              <person xml:id="MaraboutSiddiCheik" sex="male">
+                <persName>
+                  <roleName>marabout</roleName>
+                  <placeName>Siddi-cheik</placeName>
+                </persName>
+                <occupation scheme="#HISCO" code="14120" cert="medium">marabout</occupation><!-- 14120 Minister of Religion, 14190 Other Ministers of Religion and Related Members of Religious Orders -->
+              </person>
+              <person xml:id="Elise" sex="female">
+                <persName>
+                  <forename>Elise</forename>
+                </persName>
+              </person>
+              <person xml:id="Georges" sex="male">
+                <persName>
+                  <forename>Georges</forename>
+                </persName>
+                <age value="4">4 år</age>
+              </person>
+              <person xml:id="Jules" sex="male">
+                <persName>
+                  <forename>Jules</forename>
+                </persName>
+              </person>
+              <person xml:id="Diakern" sex="male">
+                <occupation scheme="#HISCO" code="14120">präst</occupation>
+              </person>
+              <person xml:id="Bödeln" sex="male">
+                <occupation scheme="#HISCO" code="99900" cert="medium">bödel</occupation>
+              </person>
+              <person xml:id="Hunden" sex="unknown" role="animal"/>
+            </listPerson>
+            <listPerson>
+              <personGrp xml:id="Frankerna" sex="male">
+                <occupation scheme="#HISCO" code="58300">militär</occupation>
+              </personGrp>
+            </listPerson>
+            <listPerson>
+              <personGrp xml:id="Araberna" sex="male">
+                <occupation scheme="#HISCO" code="58300">militär</occupation>
+              </personGrp>
+            </listPerson>
+            <listPerson type="historical">
+              <person xml:id="SanktEduard" sex="male">
+                <persName>
+                  <roleName>sankt</roleName>
+                  <forename>Edvard</forename>
+                  <addName>Martyren</addName>
+                </persName>
+                <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Edvard_Martyren</idno>
+              </person>
+            </listPerson>
+          </listPerson>
+          <listRelation>
+            <relation type="personal" name="älskare" mutual="#Biskra #Youssef"/>
+            <relation type="other" name="hypnotiserar" active="#Biskra" passive="#Guimard"/>
+            <relation type="other" name="hetsar" active="#Youssef" passive="#Guimard"/>
+            <relation type="other" name="ockuperar" active="#Frankerna" passive="#Araberna"/>
+            <relation type="personal" name="gift" mutual="#Elise #Guimard"/>
+            <relation type="personal" name="son" active="#Georges" passive="#Elise #Guimard"/>
+            <relation type="personal" name="vän" mutual="#Guimard #Jules"/>
+            <relation type="other" name="spelar" active="#Biskra" passive="#Ali"/>
+            <relation type="other" name="vägvisare" active="#Ali" passive="#Frankerna"/>
+            <relation type="other" name="skyddspatron" active="#SanktEduard" passive="#Guimard"/>
+            <relation type="social" name="elev" active="#Biskra" passive="#MaraboutSiddiCheik" notAfter-custom="#playstart"/>
+            <relation type="social" name="desertör" active="#Guimard" passive="#Frankerna"/>
+            <relation type="social" name="shejk" active="#Youssef" passive="#Araberna"/>
+            <relation type="other" name="_begraver_" active="#Diakern" passive="#Georges"/>
+            <relation type="other" name="_älskare_" mutual="#Elise #Jules"/>
+            <relation type="other" name="_avrättade_" active="#Bödeln" passive="#Guimard" notAfter-custom="#playstart"/>
+            <relation type="other" name="_bet_" active="#Hunden" passive="#Guimard" notAfter-custom="#playstart"/>
+          </listRelation>
+        </listPerson>
+      </div>
+    </back>
+    <anchor xml:id="playend"/>
+  </text>
+</TEI>

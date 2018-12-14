@@ -1,0 +1,1856 @@
+<!-- $Id: IndebetouH_IDetGrona.xml 114270 2015-03-30 10:21:03Z eva $ -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I det gröna</title>
+        <title type="sub">Komedi i två akter</title>
+        <author xml:id="IndebetouH">
+          <persName>
+            <forename>Hedvig</forename>
+            <surname>Indebetou</surname>
+          </persName>
+          <idno type="LIBRIS">http://libris.kb.se/auth/222947</idno>
+          <idno type="SBL">http://www.nad.riksarkivet.se/sbl/artikel/14092</idno><!-- släkten Indebetou -->
+        </author>
+        <sponsor>
+          <name>Riksteatern</name>
+        </sponsor>
+        <funder>
+          <name>Vetenskapsrådet, Riksbankens Jubileumsfond</name>
+        </funder>
+        <editor>
+          <name>Dramawebben</name>
+        </editor>
+        <principal>
+          <persName>Marika V. Lagercrantz</persName>
+        </principal>
+        <respStmt>
+          <resp>kodning</resp>
+          <persName xml:id="LindgrenU">Ulrika Lindgren</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>korrekturläsning</resp>
+          <persName xml:id="LagercrantzMV">Marika V. Lagercrantz</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>korrekturläsning</resp>
+          <persName xml:id="MasreliezML">Marie-Louise Masreliez</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>korrekturläsning</resp>
+          <persName xml:id="OlssonLJ">Leif-Jöran Olsson</persName>
+          <orgName>Språkbanken</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>redigering</resp>
+          <persName xml:id="ForsbomE">Eva Forsbom</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>eDrama</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Dramawebben</publisher>
+        <address>
+          <addrLine>http://www.dramawebben.se</addrLine>
+        </address>
+        <idno type="Dramawebben">IndebetouH_IDetGrona</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/se/">
+            <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author sameAs="#IndebetouH">
+              <persName>Hedvig Indebetou</persName>
+            </author>
+            <title level="a">I det gröna</title>
+          </analytic>
+          <monogr xml:id="bibl_Linnea">
+            <editor xml:id="QuintS">
+              <persName>
+                <forename>Stina</forename>
+                <surname>Quint</surname>
+              </persName>
+              <idno type="LIBRIS">http://libris.kb.se/auth/255163</idno>
+              <idno type="SBL">http://www.nad.riksarkivet.se/sbl/artikel/7463</idno>
+            </editor>
+            <title level="j">Linnea</title>
+            <title level="j" type="sub">illustrerad ungdomstidning</title>
+            <idno type="LIBRIS">http://libris.kb.se/bib/3074268</idno>
+            <imprint>
+              <pubPlace>Nyköping</pubPlace>
+              <publisher sameAs="#QuintS">
+                <persName>Stina Quint</persName>
+              </publisher>
+              <date when="1896">1896</date>
+              <biblScope unit="vol">9</biblScope>
+            </imprint>
+          </monogr>
+          <monogr sameAs="#bibl_Linnea">
+            <imprint>
+              <biblScope unit="issue">9</biblScope>
+              <biblScope unit="page" from="130" to="132">130–132</biblScope>
+            </imprint>
+          </monogr>
+          <monogr sameAs="#bibl_Linnea">
+            <imprint>
+              <biblScope unit="issue">10</biblScope>
+              <biblScope unit="page" from="145" to="148">145–148</biblScope>
+            </imprint>
+          </monogr>
+          <monogr sameAs="#bibl_Linnea">
+            <imprint>
+              <biblScope unit="issue">11</biblScope>
+              <biblScope unit="page" from="161" to="164">161–164</biblScope>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Dramawebben är ett digitalt arkiv över upphovsrättslig fri svensk dramatik. Dramatexterna
+          finns återgivna i fulltext och är publicerade antingen i sk faksimil, ett pdf-dokument där
+          originaltrycket återges som en digital fotokopia, eller i bearbetningsbar text, ett
+          pdf-dokument med text och bild som kan användas för redigering. Dramawebben växer i takt
+          med att nya verk blir kända. Med det digitala pjäsmaterialet tillgängliggör och
+          aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+          förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+          sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
+      </samplingDecl>
+      <classDecl>
+        <taxonomy xml:id="HISCO">
+          <biblStruct>
+            <monogr>
+              <author>Marco H.D. van Leeuwen</author>
+              <author>Ineke Maas</author>
+              <author>Andrew Miles</author>
+              <title>HISCO Historical International Standard Classification of Occupations</title>
+              <idno type="ISBN">90-5867-196-8</idno>
+              <imprint>
+                <publisher>Leuven University Press</publisher>
+                <pubPlace>Leuven</pubPlace>
+                <date when="2002">2002</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+        </taxonomy>
+      </classDecl>
+      <tagsDecl>
+        <rendition>
+          <!-- Aktrubriker är i fet stil -->
+          <!-- Scenrubriker och talarrubriker är kursiva -->
+          <!-- Rubriker, uppförande, rumsbeskrivningar, scenanvisningar mellan repliker är centrerade, vid flera rader indrag första raden istället -->
+          <!-- Talarrubriker är inline och kursiva -->
+          <!-- Roller i rumsbeskrivningar är kursiva -->
+          <!-- Repliker har indrag första raden, därefter allt inline (inklusive stycken) -->
+          <!-- Set har indrag första raden -->
+        </rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="sv">Swedish</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:id="IndebetouH_IDetGrona">
+    <anchor xml:id="playstart"/>
+    <front>
+      <pb facs="36370-0.jpg"/><!-- omslag -->
+      <pb facs="36370-1.jpg"/><!-- titelsida, årgång -->
+      <pb facs="36370-2.jpg"/><!-- innehållssida -->
+      <pb facs="36370-3.jpg"/><!-- forts. -->
+      <pb facs="36370-4.jpg"/><!-- titelsida, nr 9 -->
+      <pb facs="36370-5.jpg"/>
+            <fw type="pageNum">130</fw>
+      <gap reason="irrelevant"/><!-- pjästitel -->
+	    <set>
+	      <p>(Spelas ute.)</p>
+	    </set>
+      <castList>
+	      <head>PERSONERNA:</head>
+	      <castItem>
+          <role xml:id="spPatronen">
+                        <persName ref="#Patronen">Patronen</persName>
+                    </role>.
+        </castItem>
+        <castItem>
+          <role xml:id="spFruMarika">
+                        <persName ref="#FruMarika">Marika</persName>
+                    </role>, <roleDesc>hans fru</roleDesc>.
+        </castItem>
+        <castItem>
+          <role xml:id="spAgda">
+                        <persName ref="#Agda">Agda</persName>
+                    </role>, <roleDesc>deras fullvuxna dotter</roleDesc>.
+        </castItem>
+        <castGroup rend="braced">
+          <castItem>
+            <role xml:id="spMia">
+                            <persName ref="#Mia">Mia</persName>
+                        </role>
+          </castItem>
+          <castItem>
+            <role xml:id="spMoje">
+                            <persName ref="#Moje">Moje</persName>
+            </role>
+          </castItem>
+          <roleDesc>deras yngre, halfvuxna barn.</roleDesc>
+        </castGroup>
+        <castItem>
+          <role xml:id="spDoktorinnan">
+                        <persName ref="#Doktorinnan">Doktorinnan Lilli Al</persName>
+                    </role>, 
+        </castItem>
+        <castGroup rend="braced">
+          <castItem>
+            <role xml:id="spLilly">
+                            <persName ref="#Lilly">Lilly</persName>
+                        </role>, <roleDesc>hennes dotter</roleDesc>.
+          </castItem>
+          <castItem>
+            <role xml:id="spKandidaten">
+                            <persName ref="#Kandidaten">Kandidaten</persName>
+                        </role>, <roleDesc>deras släkting</roleDesc>.
+          </castItem>
+          <roleDesc>Hemligt förlofvade 
+                <lb/> med hvarandra.</roleDesc>
+        </castGroup>
+        <castItem>
+          <role xml:id="spLöjtnanten">
+                        <persName ref="#Löjtnanten">Löjtnanten</persName>
+                    </role>.
+        </castItem>
+        <castItem>
+          <role xml:id="spFarbrorFritz">
+                        <persName ref="#FarbrorFritz">Farbror Fritz</persName>
+                    </role>.
+        </castItem>
+        <castItem>
+          <role xml:id="spMosterUlla">
+                        <persName ref="#MosterUlla">Moster Ulla</persName>
+                    </role>.
+        </castItem>
+      </castList>
+      <set>
+        <p>(Scenen är i en vacker äng; i förgrunden
+          <lb/> en öppen plan, omgifven af buskar och träd).</p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>Första akten.</head>
+        <div type="scene" n="1">
+          <head>Första scenen.</head>
+          <stage type="setting">Lilly, kandidaten, sedan löjtnanten och Agda.</stage>
+          <stage>(När ridån går upp, är ingen inne; men
+            <lb/> man hör en mansröst utanför scenen ropa:
+            <lb/> »Sista paret ut!» Det prasslar i buskarna
+            <lb/> till vänster, och <stage type="entrance" who="#Lilly #Kandidaten"/>Lilly kommer instörtande,
+            <lb/> följd i hack och häl af kandidaten, som tar
+            <lb/> fast henne.)</stage>
+          <sp who="#spKandidaten">
+            <speaker>Kandidaten</speaker> <stage>(gladt):</stage> <p>Så fick jag dig ändt­<lb break="no"/>ligen fast, <persName ref="#Lilly">Lilly</persName>!</p>
+          </sp>
+          <stage>(De stanna midt på scenen).</stage>
+          <sp who="#spLilly">
+            <speaker>Lilly</speaker> <stage>(skälmskt):</stage> <p>Men jag höll på att
+              <lb/> komma undan!</p>
+          </sp>
+          <sp who="#spKandidaten">
+            <speaker>Kandidaten</speaker> <stage>(triumferande):</stage> <p>Men det gick
+              <lb/> inte!</p>
+          </sp>
+          <sp who="#spLilly">
+            <speaker>Lilly:</speaker> <p>Om jag kan begripa, hvart min
+              <lb/> moitié tog vägen?</p>
+          </sp>
+          <stage type="entrance" who="#Löjtnanten">(Löjtnanten kommer från höger, något
+            <lb/> haltande och slår dammet af knäna med näs­<lb break="no"/>duken.)</stage>
+          <sp who="#spLöjtnanten">
+            <speaker>Löjtnanten:</speaker> <p>Jag får be er tusen gånger
+              <lb/> om ursäkt, <persName ref="#Lilly">fröken Lilly</persName> — jag kommer — —</p>
+          </sp>
+          <sp who="#spKandidaten">
+            <speaker>Kandidaten</speaker> <stage>(lägger <persName ref="#Lilly">Lillys</persName> arm i sin):</stage> <p>För
+              <lb/> sent, <persName ref="#Löjtnanten">herr löjtnant</persName>!</p>
+          </sp>
+          <sp who="#spLöjtnanten">
+            <speaker>Löjtnanten</speaker> <stage>(förtretad):</stage> <p>
+                            <emph>Den här</emph> gången ja!</p>
+          </sp>
+          <sp who="#spLilly">
+            <speaker>Lilly</speaker> <stage>(vänligt, fast skrattande):</stage> <p>Hur gick
+              <lb/> det, <persName ref="#Löjtnanten">herr löjtnant</persName> — ni försvann i stället
+              <lb/> för att komma mig till mötes.</p>
+          </sp>
+          <sp who="#spLöjtnanten">
+            <speaker>Löjtnanten:</speaker> <p>En allt för oländig mark att
+              <lb/> springa »Sista paret ut» i! Tufvor och träd­<lb break="no"/>rötter!</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda</speaker> <stage type="entrance" who="#Agda">(från fonden):</stage> <p>Men hvart tog ni då
+              <cb n="2"/>
+              vägen allesammans? Hvilken vild idé att rusa
+              <lb/> in bland buskarna så där och inte komma
+              <lb/> tillbaka!</p>
+          </sp>
+          <sp who="#spLöjtnanten">
+            <speaker>Löjtnanten:</speaker> <p>
+                            <persName ref="#Lilly">Fröken Lilly</persName> har blifvit »berg­<lb break="no"/>tagen»!</p>
+          </sp>
+          <sp who="#spKandidaten">
+            <speaker>Kandidaten:</speaker> <p>Ja, <persName ref="#Lilly">Lilly</persName> är tagen, och <persName ref="#Löjtnanten">löjt­<lb break="no"/>nanten</persName> är änkling! Men nu tror jag, vi ha
+              <lb/> fått nog för den här gången, eller hur, <persName ref="#Agda #Lilly #Löjtnanten">mitt
+              <lb/> herrskap</persName>?</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda</speaker> <stage>(lite spetsigt):</stage> <p>
+                            <persName ref="#Kandidaten">Kandidaten</persName> tycks
+              <lb/> åtminstone ha <emph>fått nog</emph>.</p>
+          </sp>
+          <sp who="#spKandidaten">
+            <speaker>Kandidaten</speaker> <stage>(skrattande):</stage> <p>Snarare <persName ref="#Löjtnanten">löjtnan­<lb break="no"/>ten</persName> då!</p>
+          </sp>
+          <sp who="#spLilly">
+            <speaker>Lilly:</speaker> <p>Låt oss sätta oss ned och hvila
+              <lb/> här en stund. <stage>(Alla sätta sig på stenar och
+              <lb/> tufvor.)</stage> <placeName>Strandängen</placeName> är bra vacker! <stage>(Ser sig
+              <lb/> omkring).</stage> Jag är rätt glad öfver, att ni val­<lb break="no"/>de den till målet för vår utfärd. <persName ref="#Doktorinnan">Mamma</persName>
+              <lb/> har så många gånger talat om den.</p>
+          </sp>
+      </div>
+      <div type="scene" n="2">
+        <head>Andra scenen.</head>
+        <stage type="presence" who="#Kandidaten #Löjtnanten #Agda #Lilly">De förra. Farbror Fritz. Mia.</stage>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage type="entrance" who="#FarbrorFritz #Mia">(med Mia under armen):</stage>
+              <lb/> <p>Och här kommer <persName ref="#FarbrorFritz #Mia">allra sista paret ut</persName>!</p>
+          </sp>
+          <sp who="#spMia">
+            <speaker>Mia:</speaker> <p>Nej, släpp mej, <persName ref="#FarbrorFritz">farbror</persName>! — Jag
+              <lb/> skulle bara fråga, om vi inte ska' springa
+              <lb/> mer, för <persName ref="#Moje #Pojkar">pojkarna</persName> vill inte vänta längre?</p>
+          </sp>
+          <sp who="#spKandidaten #spAgda #spLöjtnanten">
+            <speaker>Kandidaten, Agda, Löjtnanten</speaker> <stage>(på en gång):</stage>
+              <lb/> <p>Ah — se <persName ref="#FarbrorFritz">farbror Fritz</persName>! Välkommen!</p>
+          </sp>
+          <sp who="#spKandidaten">
+            <speaker>Kandidaten</speaker> <stage>(går emot honom och skakar
+              <lb/> hand med honom):</stage> <p>Vi började nästan miss­<lb break="no"/>trösta om att <persName ref="#FarbrorFritz">farbror</persName> skulle komma.</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz:</speaker> <p>Gamla ungkarlar ha svårt
+              <lb/> att hålla reda på tiden, som du vet. Men
+              <lb/> »bättre sent än aldrig». Och jag hoppas,
+              <lb/> att jag inte gått miste om middagen i det
+              <lb/> gröna, fast jag tycks ha gått miste om att
+              <lb/> få ta mig en flicka, kan jag se.</p>
+          </sp>
+          <sp who="#spKandidaten">
+            <speaker>Kandidaten</speaker> <stage>(skrattande):</stage> <p>Det skulle <persName ref="#FarbrorFritz">farbror</persName>
+                <lb/> ha gjort långt förut!</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(med en sorglustig min):</stage>
+              <lb/> <p>Hvem tror du skulle ha låtit ta fast sig af <persName ref="#FarbrorFritz">far­<lb break="no"/>bror Fritz</persName>? <persName ref="#Mia">
+                                <emph>Mia</emph>
+                            </persName> vill inte ha mej en gång!</p>
+          </sp>
+          <sp who="#spMia">
+            <speaker>Mia</speaker> <stage>(sliter sig lös):</stage> <p>Nej, låt mig gå nu,
+              <lb/> <persName ref="#FarbrorFritz">farbror</persName>; jag ska' springa till <persName ref="#Moje #Pojkar">pojkarna</persName>!</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(skämtande):</stage> <p>Såå — det
+              <lb/> börjar du bitti' med du!</p>
+          </sp>
+          <stage type="exit" who="#Mia">(Mia springer ut åt fonden).</stage>
+        </div>
+        <div type="scene" n="3">
+          <head>Tredje scenen.</head>
+          <stage type="presence" who="#Kandidaten #Agda #FarbrorFritz #Lilly #Löjtnanten">De förra, utom Mia.</stage>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(som under tiden hälsat
+              <lb/> på <persName ref="#Löjtnanten">löjtnanten</persName> och <persName ref="#Agda">Agda</persName>, får se <persName ref="#Lilly">Lilly</persName>, som
+              <lb/> nu kommit närmare):</stage> <p>Såå — hvad är det
+              <pb facs="36370-6.jpg"/>
+                            <fw type="pageNum">131</fw>
+              <lb/> här för <persName ref="#Lilly">en älfva</persName>, som »<persName ref="#Kandidaten">herr kandidaten</persName>»
+              <lb/> fångat härinne i busksnåret? Henne får du
+              <lb/> lof att göra mig bekant med!</p>
+          </sp>
+          <sp who="#spKandidaten">
+            <speaker>Kandidaten</speaker> <stage>(som står bredvid <persName ref="#Lilly">Lilly</persName>):</stage> <p>Det
+              <lb/> är <persName ref="#Lilly">
+                                <persName ref="#MosterUlla">moster Ullas</persName> gäst, Lilly Al</persName> — —</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(hastigt):</stage> <p>
+                            <persName ref="#Lilly">Lilly</persName>?! <stage>(Tar ett
+              <lb/> steg tillbaka och betraktar henne forskande.
+              <lb/> För sig)</stage> Ja, det är samma ögon — såg jag
+              <lb/> det inte strax! <stage>(Hälsar tankspridt på <persName ref="#Lilly">Lilly</persName>
+              <lb/> och drar sig något tillbaka).</stage>
+                        </p>
+          </sp>
+          <sp who="#spLilly">
+            <speaker>Lilly</speaker> <stage>(sakta till <persName ref="#Kandidaten">kandidaten</persName>):</stage> <p>Hvad han
+              <lb/> är egendomlig <persName ref="#FarbrorFritz">»farbror Fritz»</persName>, som ni alla kalla
+              <lb/> honom. Han är visst mycket distrait?</p>
+          </sp>
+          <sp who="#spKandidaten">
+            <speaker>Kandidaten</speaker> <stage>(sakta till <persName ref="#Lilly">Lilly</persName>):</stage> <p>Ja, <persName ref="#FarbrorFritz">farbror
+              <lb/> Fritz</persName> är stundom litet egen, <stage>(varmt)</stage> men han
+              <lb/> har ett hjärta af guld.</p>
+          </sp>
+          <sp who="#spLilly">
+            <speaker>Lilly:</speaker> <p>Det tror jag nog; det har du ofta
+              <lb/> sagt.</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(sakta till <persName ref="#Kandidaten">kandidaten</persName>, som
+              <lb/> han närmar sig på andra sidan):</stage> <p>Hon ä' rik­<lb break="no"/>tigt söt!</p>
+          </sp>
+          <sp who="#spKandidaten">
+            <speaker>Kandidaten</speaker> <stage>(på samma sätt):</stage> <p>Alldeles, <persName ref="#FarbrorFritz">far­<lb break="no"/>bror</persName>!</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(som hämtat sig):</stage> <p>Nå <persName ref="#Agda">Agda</persName>
+              <lb/> — ni ha' väl inte glömt matsäckskorgarna?
+              <lb/> Vädret är som beställdt för en sådan här
+              <lb/> picnic.</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda</speaker> <stage>(skämtsamt):</stage> <p>Var lugn <persName ref="#FarbrorFritz">farbror</persName>. Jag
+              <lb/> skall ombesörja, att vi snart få duka; men
+              <lb/> <persName ref="#Patronen">pappa</persName> sitter ännu nere vid sjön och metar.</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz:</speaker> <p>Jag såg det; jag har re­<lb break="no"/>dan hälsat på honom i förbifarten. Kom,
+              <lb/> mina <persName ref="#Löjtnanten #Kandidaten">herrar</persName>, och låt oss föra våra <persName ref="#Agda #Lilly">damer</persName>
+              <lb/> till bordet! — men aj! <emph>min</emph> har ju sprungit
+              <lb/> sin väg!</p>
+          </sp>
+          <stage>(<persName ref="#Kandidaten">Kandidaten</persName> skyndar att bjuda <persName ref="#Lilly">
+                            <choice>
+                                <sic>Lilla</sic>
+                                <corr>Lilly</corr>
+                            </choice>
+                        </persName> ar­<lb break="no"/>men; <persName ref="#Löjtnanten">löjtnanten</persName> vänder sig därvid till <persName ref="#Agda">Agda</persName>).</stage>
+          <sp who="#spLöjtnanten">
+            <speaker>Löjtnanten:</speaker> <p>Får jag lof?</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda,</speaker> <stage>(som märkt, att han först närmat
+              <lb/> sig <persName ref="#Lilly">Lilly</persName>):</stage> <p>Jag tackar! <persName ref="#Löjtnanten">Löjtnanten</persName> får väl
+              <lb/> nöja sig med mig!</p>
+          </sp>
+          <stage type="exit" who="#Agda #Löjtnanten #FarbrorFritz">(Alla gå åt fonden; farbror Fritz först,
+            <lb/> ensam; <persName ref="#Kandidaten">kandidaten</persName> och <persName ref="#Lilly">Lilly</persName> sist.)</stage>
+        </div>
+        <div type="scene" n="4">
+          <head>Fjärde scenen.</head>
+          <stage type="presence" who="#Kandidaten #Lilly">Kandidaten, Lilly, sedan farbror Fritz.</stage>
+          <sp who="#spLilly">
+            <speaker>Lilly</speaker> <stage>(vänder sig om vid fonden:</stage> <p>Ah! —
+              <lb/> mitt armband! Jag måste ha tappat det här.
+              <lb/> <stage>(Söker på marken.)</stage>
+                        </p>
+          </sp>
+          <sp who="#spKandidaten">
+            <speaker>Kandidaten:</speaker> <p>Jag skall hjälpa dig — jag
+              <lb/> brukar alltid ha tur med sådant där. <stage>(Söker).</stage>
+                        </p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage type="entrance" who="#FarbrorFritz">(kommer osedd af dem från
+              <lb/> fonden):</stage> <p>Men hvart tog sista paret vägen?
+              <lb/> <stage>(Stannar).</stage>
+                        </p>
+          </sp>
+          <cb n="2"/>
+          <sp who="#spLilly">
+            <speaker>Lilly</speaker> <stage>(skälmaktigt, till <persName ref="#Kandidaten">kandidaten</persName>):</stage> <p>Få
+              <lb/> se hvem som hittar det först — —</p>
+          </sp>
+          <sp who="#spKandidaten">
+            <speaker>Kandidaten</speaker> <stage>(skrattande):</stage> <p>Och blir först
+              <lb/> gift! — — Jag skulle tro att — — <stage>(Båda
+              <lb/> få se armbandet och böja sig ned på en gång
+              <lb/> för att ta upp det — hvarvid <persName ref="#Kandidaten">kandidaten</persName> i
+              <lb/> stället får tag i <persName ref="#Lilly">Lillys</persName> hand, som han kys­<lb break="no"/>ser)</stage> — att vi bli det på det en gång, ville
+              <lb/> jag säga!</p>
+          </sp>
+          <sp who="#spLilly">
+            <speaker>Lilly</speaker> <stage>(brydd, men kärligt):</stage> <p>
+                            <persName ref="#Kandidaten">Erland</persName>!</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(för sig, borta i fonden):</stage>
+              <lb/> <p>Aha! — står det <emph>så</emph> till!</p>
+          </sp>
+          <stage type="exit" who="#Kandidaten #Lilly">(Kandidaten och Lilly gå ut till höger,
+            <lb/> förtroligt samtalande.)</stage>
+        </div>
+        <div type="scene" n="5">
+          <head>Femte scenen.</head>
+          <stage type="presence" who="#FarbrorFritz">Farbror Fritz; sedan Mia.</stage>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(går ett par slag fram och
+              <lb/> åter. Tankfullt, i det han sätter sig på en
+              <lb/> sten):</stage> <p>Det är märkvärdigt, hvad det här sam­<lb break="no"/>manträffandet har upprört mig! — — <persName ref="#Doktorinnan">Lilli</persName>
+              <lb/> — <persName ref="#Doktorinnan">Lilli</persName>, dig glömmer jag aldrig! <stage>(Sitter fort­<lb break="no"/>farande tankfull).</stage>
+                        </p>
+          </sp>
+          <sp who="#spMia">
+            <speaker>Mia</speaker> <stage type="entrance" who="#Mia">(från fonden, under den sista re­<lb break="no"/>pliken):</stage> <p>
+                            <persName ref="#FarbrorFritz">Farbror Fritz</persName>, vill du inte komma
+              <lb/> med <persName ref="#Moje #Pojkar">gossarna</persName> och mej — — <stage>(stannar för­<lb break="no"/>vånad).</stage> Nej, han hör inte! Hvad <persName ref="#FarbrorFritz">farbror</persName> ser
+              <lb/> underlig ut! <stage type="exit" who="#Mia">(Vänder sig om och springer ut sam­<lb break="no"/>ma väg hon kommit).</stage>
+                        </p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(spritter upp):</stage> <p>Hvem var
+              <lb/> det som ropade »<persName ref="#FarbrorFritz">Fritz</persName>»? Jag tyckte det var
+              <lb/> <emph>hennes</emph> röst! — — Fast nej — hvad ä' det
+              <lb/> här för barnsligheter! Här ä' ju ingen män­<lb break="no"/>niska. Jag vet inte, hvad det kommer åt
+              <lb/> mig i dag? Nej, krya upp dig <persName ref="#FarbrorFritz">Fritz, gamle
+                <lb/> gosse</persName>! — du har vuxit ifrån ungdomsfantasi­<lb break="no"/>erna!</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>Sjette scenen.</head>
+          <stage type="presence" who="#FarbrorFritz">Farbror Fritz, Patronen, sedan fru Marika.</stage>
+          <sp who="#spPatronen">
+            <speaker>Patronen</speaker> <stage type="entrance" who="#Patronen">(från venster, med ett metspö):</stage>
+              <lb/> <p>Jag hade en stor luring på, men just som
+              <lb/> jag fick'en i vattenbrynet, så släppte han.</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(liksom för sig):</stage> <p>Jo, jo — 
+              <lb/> det brukar hända det. Det har händt mej
+              <lb/> också!</p>
+          </sp>
+          <sp who="#spPatronen">
+            <speaker>Patronen:</speaker> <p>Har du också varit ute och
+              <lb/> metat?</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz:</speaker> <p>Inte precis <emph>nu</emph>. När jag
+              <lb/> fiskar har jag bara otur; därför har jag lagt
+              <lb/> bort det.</p>
+          </sp>
+          <sp who="#spPatronen">
+            <speaker>Patronen:</speaker> <p>Nu tycker jag, att middagssupen
+              <lb/> snart skulle smaka bra. Ska' vi höra åt
+              <pb facs="36370-7.jpg"/>
+                            <fw type="pageNum">132</fw>
+              med <persName ref="#FruMarika #MosterUlla">fruntimmerna</persName>, om de ha i ordning?
+              <lb/> <stage>(Ropar)</stage> <persName ref="#FruMarika">Gumman min</persName>, ä' du där?</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika</speaker> <stage type="entrance" who="#FruMarika">(från fonden):</stage> <p>Jaså, <persName ref="#FarbrorFritz #Patronen">herrarna</persName>
+               <lb/> ä' middagshungriga — ja, det ska' strax vara
+               <lb/> färdigt.</p>
+          </sp>
+          <sp who="#spPatronen">
+            <speaker>Patronen:</speaker> <p>Kom <persName ref="#FarbrorFritz">Fritz</persName>, så gå vi och lägga
+              <lb/> oss därborta i backen, medan vi vänta. Jag
+              <lb/> tog <title>»Nyheterna»</title> med. <stage>(Tar upp en tidning
+              <lb/> ur fickan. Ser uppåt.)</stage> Hm! — jag tror
+              <lb/> det börjar mulna! Och jag som tänkte köra
+              <lb/> in sista höet i morgon!</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika</speaker> <stage>(ser också uppåt):</stage> <p>Mulna! —
+              <lb/> jo det vore angenämnt om det blefve regn, hur
+              <lb/> skall det då gå med hela kalaset?</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz:</speaker> <p>Å, det går nog bra, så
+              <lb/> att både folk och »kritter» får sitt. Man
+              <lb/> får väl inte ge sig för några molntappar heller!</p>
+          </sp>
+          <stage type="exit" who="#Patronen #FarbrorFritz">(Patronen och Farbror Fritz gå ut åt höger.)</stage>
+        </div>
+        <div type="scene" n="7">
+          <head>Sjunde scenen.</head>
+          <stage type="presence" who="#FruMarika">Fru Marika, Mia.</stage>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika</speaker> <stage>(ropar):</stage> <p>
+                            <persName ref="#Mia">Mia</persName>! — kom hit,
+              <lb/> <persName ref="#Mia">barn lilla</persName>.</p>
+          </sp>
+          <sp who="#spMia">
+            <speaker>Mia</speaker> <stage type="entrance" who="#Mia">(från fonden, något motvilligt):</stage> <p>Hvad
+              <lb/> vill <persName ref="#FruMarika">mamma</persName>?</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Gå och säg till <persName ref="#Lundqvist">Lundqvist</persName>,
+              <lb/> att han bär hit korgarne. <persName ref="#Patronen">Pappa</persName> och <persName ref="#FarbrorFritz">farbror 
+              <lb/> Fritz</persName> börja bli hungriga.</p>
+          </sp>
+          <sp who="#spMia">
+            <speaker>Mia:</speaker> <p>Å, <persName ref="#FarbrorFritz">farbror Fritz</persName>, han såg då inte
+              <lb/> hungrig ut, nyss åtminstone!</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Hvad menar du med det,
+              <lb/> <persName ref="#Mia">kära Mia</persName>?</p>
+          </sp>
+          <sp who="#spMia">
+            <speaker>Mia:</speaker> <p>Å, <persName ref="#FarbrorFritz">farbror</persName> han va' så besynnerlig,
+              <lb/> när jag kom hit för att be honom gå med
+              <lb/> <persName ref="#Moje">Moje</persName> och mej upp på berget — då satt han
+              <lb/> där på stenen och sof!</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika</speaker> <stage>(förvånad):</stage> <p>Satt han och sof?</p>
+          </sp>
+          <sp who="#spMia">
+            <speaker>Mia:</speaker> <p>Ja, — fast han sof då väl inte
+              <lb/> heller; för just när jag kom, så sa' han:
+              <lb/> »<persName ref="#Lilly">Lilly</persName> — jag glömmer dig aldrig!»</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika</speaker> <stage>(häpen):</stage> <p>Hvad säger du,
+              <lb/> <persName ref="#Mia">barn</persName>? — är det riktigt säkert?</p>
+          </sp>
+          <sp who="#spMia">
+            <speaker>Mia:</speaker> <p>Ja, det måtte jag väl hörde! Men 
+              <lb/> när <emph>jag</emph> ropade på honom, det hörde han <emph>inte</emph>.</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika</speaker> <stage>(för sig):</stage> <p>Hvad i alla mina
+              <lb/> da'r! <stage>(Högt till <persName ref="#Mia">Mia</persName>)</stage> Gå nu, <persName ref="#Mia">kära barn</persName>, och
+              <lb/> skynda dig! <stage>(<persName ref="#Mia">Mia</persName> går åt fonden, men stan­<lb break="no"/>nar och lyssnar, då <persName ref="#FruMarika">fru Marika</persName> säger för sig:)</stage>
+              <lb/> Skulle det vara <emph>möjligt</emph>, att <persName ref="#FarbrorFritz">Fritz</persName> kommit på
+              <lb/> giftastankar — — ? Men om jag kan begripa,
+              <lb/> hvarför <persName ref="#Kandidaten #Löjtnanten #FarbrorFritz">herrarna</persName> ä' tokiga i <persName ref="#Lilly">den där flick­<lb break="no"/>ungen</persName>? Då ä' väl min <persName ref="#Agda">Agda</persName> bra mycket mer
+              <lb/> att se på! — — <stage>(Får se <persName ref="#Mia">Mia</persName>)</stage> <persName ref="#Mia">Kära barn</persName>,
+              <lb/> har du inte gått än?</p>
+          </sp>
+          <sp who="#spMia">
+            <speaker>Mia:</speaker> <p>Jo, <persName ref="#FruMarika">mamma lilla</persName>! <stage type="exit" who="#Mia">(Springer ut).</stage>
+                        </p>
+          </sp>
+        </div>
+        <gap reason="irrelevant"/><!-- annan text -->
+        <pb facs="36370-8.jpg"/>
+        <gap reason="irrelevant"/><!-- pjästitel, nytt nummer -->
+        <div type="scene" n="8">
+          <head>Åttonde scenen.</head>
+          <stage type="presence" who="#FruMarika">Fru Marika, <stage type="entrance" who="#Agda">Agda (från höger)</stage>.</stage>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Det var bra att du kom <persName ref="#Agda">Agda</persName>! — vi få lof att
+              <lb/> skynda oss med middagen.</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda:</speaker> <p>Men är det inte alldeles för snart? <persName ref="#Löjtnanten #Kandidaten">Ungherrarna</persName> tala om
+              <lb/> en tur ut  åt holmarna. Och för resten kan väl <persName ref="#Lilly">Lilly</persName> hjälpa till,
+              <lb/> medan vi ro ut. Jag vet inte, hvarför hon alltid ska' vara med?
+              <lb/> Det var bra mycket trefligare, innan hon kom. <persName ref="#Kandidaten">Kandidaten</persName> — —</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p> — — Har inte ett öre, kära du! Och man tän­<lb break="no"/>ker sig allt för, nu för tiden innan man går och gifter sig med
+              <lb/> <persName ref="#Lilly">en flicka</persName>, som har lika litet. Jag begriper inte ens, hvem som be­<lb break="no"/>kostat hans studier! <stage>(Viktigt)</stage> För öfrigt så lär det finnas <emph>andra</emph>, som
+              <lb/> ha sina planer på <persName ref="#Lilly">Lilly</persName>. <stage>(Skrattar.)</stage>
+                        </p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda</speaker> <stage>(nyfiken):</stage> <p>Hvem då? — — <persName ref="#Löjtnanten">Löjtnanten</persName> har — —</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika</speaker> <stage>(hemlighetsfull):</stage> <p>Det finns väl flera karlar i värl­<lb break="no"/>den, <persName ref="#Agda">Agda lilla</persName>, än just <persName ref="#Kandidaten #Löjtnanten">
+                                <emph>dina</emph> beundrare</persName>!</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda:</speaker> <p>Men <persName ref="#FruMarika">mamma</persName> — jag förgås af nyfikenhet!</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Jo, du ska' få höra! Det ä' en skön historia!
+              <lb/> Men tyst — där kommer <persName ref="#MosterUlla">moster Ulla</persName>!</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda:</speaker> <p>Så förargligt!</p>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>Nionde scenen.</head>
+          <stage type="presence" who="#FruMarika #Agda">De förra. Moster Ulla. Kandidaten.</stage>
+          <sp who="#spKandidaten">
+            <speaker>Kandidaten</speaker> <stage type="entrance" who="#MosterUlla #Kandidaten">(kommer in från vänster, efter moster Ulla, och bär
+              <lb/> en korg):</stage> <p>Skall jag ställa den här, <persName ref="#MosterUlla">tant</persName>?</p>
+          </sp>
+          <pb facs="36370-9.jpg"/>
+                    <fw type="pageNum">146</fw>
+          <sp who="#spMosterUlla">
+            <speaker>Moster Ulla:</speaker> <p>Ja, tack <persName ref="#Kandidaten">snälla Erland</persName>! —
+              <lb/> Men nu ska' jag inte hindra dig längre; gå
+              <lb/> du till <persName ref="#Lilly #Löjtnanten">ungdomen</persName>.</p>
+          </sp>
+          <stage type="exit" who="#Kandidaten">(Kandidaten gör en lätt bugning och går
+            <lb/> åt vänster.)</stage>
+        </div>
+        <div type="scene" n="10">
+          <head>Tionde scenen.</head>
+          <stage type="presence" who="#FruMarika #MosterUlla #Agda">De förra, utom kandidaten.</stage>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika</speaker> <stage>(slår ihop händerna med en
+              <lb/> tillgjord gest):</stage> <p>Å, <persName ref="#MosterUlla">kära moster Ulla</persName>, en så
+              <lb/> stor korg! Nu få väl vi andra stå med skam­<lb break="no"/>men för vår matsäck!</p>
+          </sp>
+          <sp who="#spMosterUlla">
+            <speaker>Moster Ulla:</speaker> <p>
+                            <persName ref="#FruMarika">Kära Marika</persName>, så du säger!
+              <lb/> Det finns väl inte större husmor i hela trak­<lb break="no"/>ten än du själf! Jag har bara det, som
+              <lb/> är gammalmodigt, jag, — det blir så, när
+              <lb/> man är gammal själf! — Men det är sant!
+              <lb/> jag har också en påse pepparkakor i väskan
+              <lb/> — den ska' jag gå efter. <stage>(Närmar sig åt
+              <lb/> vänster).</stage>
+                        </p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda</speaker> <stage>(på andra sidan sakta till <persName ref="#FruMarika">fru Ma­<lb break="no"/>rika</persName>):</stage> <p>Det smakar väl riktigt <emph>»skåp»</emph> de!</p>
+          </sp>
+          <stage type="exit" who="#MosterUlla">(Moster Ulla går.)</stage>
+        </div>
+        <div type="scene" n="11">
+          <head>Elfte scenen.</head>
+          <stage type="presence" who="#FruMarika #Agda">De förra. Mia.</stage>
+          <sp who="#spMia">
+            <speaker>Mia</speaker> <stage type="entrance" who="#Mia">(från fonden):</stage> <p>
+                            <persName ref="#Lundqvist">Lundqvist</persName> sa', att han
+              <lb/> skulle ösa ur båten först.</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>
+                            <persName ref="#Mia">Kära Mia</persName>, jag sa' ju, att
+              <lb/> han skulle komma strax! Skicka barn till
+              <lb/> by's och gå själf efter! Kom <persName ref="#Agda">Agda</persName>, så gå
+              <lb/> vi väl själfva efter korgarna — men du kan
+              <lb/> titta litet i <persName ref="#MosterUlla">moster Ullas</persName> korg först!</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda</speaker> <stage>(som under tiden lagt sig på knä
+              <lb/> vid den och lyftat på locket):</stage> <p>Det har jag
+              <lb/> redan gjort.</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Nåå — hvad har hon? —</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda:</speaker> <p>Ingenting märkvärdigt alls! Bara 
+              <lb/> stekt fläsk och rökt ål — och så är det visst
+              <lb/> pannkakor på det där fatet.</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Ja, det kunde jag tro!</p>
+          </sp>
+          <sp who="#spMia">
+            <speaker>Mia:</speaker> <p>Pannkakor! —  det ä' så godt, så!</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda:</speaker> <p>Tyst <persName ref="#Mia">Mia</persName> — det här begriper du
+              <lb/> inte!</p>
+          </sp>
+          <sp who="#spMia">
+            <speaker>Mia</speaker> <stage>(lite näbbigt):</stage> <p>Å, nog begriper jag,
+                <lb/> att pannkakor ä' något godt alltid!</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Se så, <persName ref="#Agda #Mia">flickor</persName>, gräla nu inte
+              <lb/> — det ha vi inte tid med! Lägg för all del
+              <lb/> på locket igen, <persName ref="#Agda">Agda</persName>!</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda</speaker> <stage>(lägger på locket):</stage> <p>Och <persName ref="#Mia">Mia</persName> får
+              <lb/> inte röra!</p>
+          </sp>
+          <sp who="#spMia">
+            <speaker>Mia:</speaker> <p>Jag tycker det är <persName ref="#Agda">Agda</persName>, som <emph>»rör»</emph>!</p>
+          </sp>
+          <stage type="exit" who="#Agda #FruMarika">(Fru Marika och Agda går åt fonden.)</stage>
+        </div>
+        <cb n="2"/>
+        <div type="scene" n="12">
+          <head>Tolfte scenen.</head>
+          <stage type="presence" who="#Mia">Mia. <stage type="entrance" who="#Moje">Moje (från höger.)</stage>
+                    </stage>
+          <sp who="#spMoje">
+            <speaker>Moje</speaker> <stage>(med en dubbel smörgås i handen):</stage>
+              <lb/> <p>Ja' fick lof te' skaffa mej en smörgås nyss,
+              <lb/> för ja' va' så vådligt hungrig så! — —</p>
+          </sp>
+          <sp who="#spMia">
+            <speaker>Mia:</speaker> <p>Du ä' då hungrig jämt, <persName ref="#Moje">Moje</persName>!</p>
+          </sp>
+          <sp who="#spMoje">
+            <speaker>Moje</speaker> <stage type="delivery">(lugnt):</stage>
+                        <p>Ja, <emph>nästan</emph> jämt.</p>
+          </sp>
+          <sp who="#spMia">
+            <speaker>Mia:</speaker> <p>Men det ä' inte <emph>fint</emph>, ska' jag säga
+              <lb/> dig.</p>
+          </sp>
+          <sp who="#spMoje">
+            <speaker>Moje:</speaker> <p>Det bryr jag mig inte om. Och
+              <lb/> du ä' nog hungrig du också. Se här ska'
+              <lb/> du få en med! <stage>(Ger henne den ena smör­<lb break="no"/>gåsen.)</stage>
+                        </p>
+          </sp>
+          <sp who="#spMia">
+            <speaker>Mia:</speaker> <p>Tack ska' du ha! Åja, det förstås
+              <lb/> nog ä' jag hungrig alltid! <stage>(Båda sätta sig;
+              <lb/> <persName ref="#Moje">Moje</persName> äter, men <persName ref="#Mia">Mia</persName> småskrattar.)</stage>
+                        </p>
+          </sp>
+          <sp who="#spMoje">
+            <speaker>Moje:</speaker> <p>Men hvarför äter du inte då? —
+              <lb/> Hvad skrattar du åt?</p>
+          </sp>
+          <sp who="#spMia">
+            <speaker>Mia:</speaker> <p>Åt nå'nting lustigt, som jag hörde
+              <lb/> för en stund se'n.</p>
+          </sp>
+          <sp who="#spMoje">
+            <speaker>Moje:</speaker> <p>Hva' ä' det, då?</p>
+          </sp>
+          <sp who="#spMia">
+            <speaker>Mia:</speaker> <p>Nå'nting som <persName ref="#FruMarika">mamma</persName> sa'. Men
+              <lb/> så'nt där förstå inte pojkar sej på.</p>
+          </sp>
+          <sp who="#spMoje">
+            <speaker>Moje:</speaker> <p>Åjo vars — men inte ä' jag ny­<lb break="no"/>fiken. — Fast — hva' va' det om?</p>
+          </sp>
+          <sp who="#spMia">
+            <speaker>Mia:</speaker> <p>Om <persName ref="#FarbrorFritz">farbror Fritz</persName>.</p>
+          </sp>
+          <sp who="#spMoje">
+            <speaker>Moje</speaker> <stage>(intresserad):</stage> <p>Om <persName ref="#FarbrorFritz">farbror Fritz, den
+              <lb/> »raringen»</persName>! Då vill ja' veta't!</p>
+          </sp>
+          <sp who="#spMia">
+            <speaker>Mia</speaker> <stage>(förtroligt):</stage> <p>
+                            <persName ref="#FruMarika">Mamma</persName> sa', att <persName ref="#FarbrorFritz">farbror
+              <lb/> Fritz</persName> tänker förlofva sej?</p>
+          </sp>
+          <sp who="#spMoje">
+            <speaker>Moje</speaker> <stage>(i största förvåning):</stage> <p>
+                            <persName ref="#FarbrorFritz">Farbror Fritz</persName>
+              <lb/> förlofva sej? Nej, si det tror jag då inte!
+              <lb/> Han ä' ju så gammal som <persName ref="#Patronen">pappa</persName>.</p>
+          </sp>
+          <sp who="#spMia">
+            <speaker>Mia</speaker> <stage>(viktigt):</stage> <p>Men det tror <emph>jag</emph>!</p>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>Trettonde scenen.</head>
+          <stage type="presence" who="#Mia #Moje">De förra. <stage type="entrance" who="#FruMarika #Agda">Fru Marika och Agda (med
+            <lb/> korgarna.</stage>)</stage>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Jag tror, du dukar smör­<lb break="no"/>gåsbordet där borta på gräset under eken
+              <lb/> <stage>(pekar utåt höger)</stage> så länge, <persName ref="#Agda">Agda</persName> — så få
+              <lb/> <persName ref="#Patronen #FarbrorFritz">herrarne</persName> börja. <stage>(Till <persName ref="#Moje #Mia">barnen</persName>)</stage> <persName ref="#Moje #Mia">Kära barn</persName>, var
+              <lb/> nu inte i vägen — här på planen ska' vi
+              <lb/> äta middag. Det var bra, att ni redan fått
+              <lb/> hvar sin smörgås.</p>
+          </sp>
+          <sp who="#spMoje">
+            <speaker>Moje:</speaker> <p>Men jag vill gärna ha en till!</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda:</speaker> <p>Kom med mig då; jag har smöret
+              <lb/> i min korg.</p> <stage type="exit" who="#Agda #Mia #Moje">(Agda med korgen går ut till 
+              <lb/> höger; Mia och Moje följa.)</stage>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>Fjortonde scenen.</head>
+          <stage type="presence" who="#FruMarika">Fru Marika. Moster Ulla. Farbror Fritz.</stage>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika</speaker> <stage>(börjar packa upp sin korg):</stage>
+              <lb/> <p>Jag måtte väl inte ha glömt korkskrufven
+              <pb facs="36370-10.jpg"/>
+                            <fw type="pageNum">147</fw>
+              och saltet! — — En tallrik har gått sön­<lb break="no"/>der! — och jag packade ändå allting själf.</p>
+          </sp>
+          <sp who="#spMosterUlla">
+            <speaker>Moster Ulla</speaker> <stage type="entrance" who="#MosterUlla">(från vänster):</stage> <p>Nå allri' i
+              <lb/> världen! <stage>(Slår ihop händerna)</stage> Äppeltårta med
+              <lb/> vaniljsås! <persName ref="#FruMarika">Kära Marika</persName>!</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage type="entrance" who="#FarbrorFritz">(som inkommit med <persName ref="#MosterUlla">moster
+              <lb/> Ulla</persName>):</stage> <p>Ja, lyxen stiger på alla områden,
+              <lb/> <persName ref="#MosterUlla">moster Ulla</persName>! Vi, som ä' gamla, kunna min­<lb break="no"/>nas en flärdfriare tid.</p>
+          </sp>
+          <sp who="#spMosterUlla">
+            <speaker>Moster Ulla:</speaker> <p>Å, <persName ref="#FarbrorFritz">kära Fritz</persName> — det va'
+              <lb/> visst värdt att <emph>du</emph> talar om ålder, du ä' bara
+              <lb/> barnet i bredd med mej! <stage>(Till <persName ref="#FruMarika">fru Marika</persName>)</stage>
+              <lb/> Och jag, som bara har pannkakor!</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(förtjust):</stage> <p>Det ä' ju det
+              <lb/> allra bästa! Hurra! för hvar ärlig svensk mat­<lb break="no"/>säckspannkaka, <persName ref="#MosterUlla">moster Ulla</persName>! <stage>(Tar <persName ref="#MosterUlla">moster
+              <lb/> Ulla</persName> i famn och svänger om med henne.)</stage>
+                        </p>
+          </sp>
+          <sp who="#spMosterUlla">
+            <speaker>Moster Ulla:</speaker> <p>Kära hjärtandes, <persName ref="#FarbrorFritz">Fritz</persName>, släpp
+              <lb/> mej! — du har då alltid varit en toker! Jag
+              <lb/> tänkte du skulle ha lugnat dig på äldre da'r.</p>
+            
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika</speaker> <stage>(med tonvikt och en blink­<lb break="no"/>ning åt <persName ref="#FarbrorFritz">farbror Fritz</persName>):</stage> <p>Ack, då blir karlarna
+                <lb/> mycket värre, <persName ref="#MosterUlla">kära moster</persName>!</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(för sig):</stage> <p>Hva' är det nu
+              <lb/> för styggtyg hon har fått tag i? — —</p>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <head>Femtonde scenen.</head>
+          <stage type="presence" who="#MosterUlla #FruMarika #FarbrorFritz">De förra. <stage type="entrance" who="#Patronen #Lilly">Patronen. Lilly (från vänster)</stage>.</stage>
+          <sp who="#spLilly">
+            <speaker>Lilly:</speaker> <p>Förlåt <persName ref="#MosterUlla">kära moster Ulla</persName>, att jag
+              <lb/> dröjt — men nu skall det snart vara gjordt!
+              <lb/> <stage>(Börjar packa upp <persName ref="#MosterUlla">moster Ullas</persName> korg.)</stage>
+                        </p>
+          </sp>
+          <sp who="#spPatronen">
+            <speaker>Patronen</speaker> <stage>(i kulissen till höger, med ett
+              <lb/> glas i hvardera handen):</stage> <p>Hollah, <persName ref="#FarbrorFritz">Fritz</persName>, supen
+              <lb/> kallnar!</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz:</speaker> <p>Då lämnar jag <persName ref="#MosterUlla #FruMarika #Lilly">fruntim­<lb break="no"/>merna</persName> åt sitt öde.</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika</speaker> <stage>(som nyss):</stage> <p>Å, det tror jag
+              <lb/> <emph>inte</emph>, att <persName ref="#FarbrorFritz">Fritz</persName> gör!</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(tar det ena glaset af <persName ref="#Patronen">patro­<lb break="no"/>nen</persName> och höjer det):</stage> <p>Tjänis <persName ref="#Patronen">patronus</persName>!</p>
+          </sp>
+          <stage type="exit" who="#FarbrorFritz #Patronen">(Herrarna gå ut till höger.)</stage>
+        </div>
+        <div type="scene" n="16">
+          <head>Sextonde scenen.</head>
+          <stage type="presence" who="#FruMarika #MosterUlla #Lilly">De förra (utom herrarna).</stage>
+          <sp who="#spLilly">
+            <speaker>Lilly</speaker> <stage>(ser plötsligt upp):</stage> <p>
+                            <persName ref="#FruMarika">Tant Marika</persName>!
+              <lb/> <persName ref="#MosterUlla">Moster Ulla</persName>! — det börjar regna — stora 
+              <lb/> droppar!</p>
+          </sp>
+          <sp who="#spMosterUlla">
+            <speaker>Moster Ulla:</speaker> <p>Det kan väl inte vara möj­<lb break="no"/>ligt! Myggen har ju svärmat hela förmid­<lb break="no"/>dagen.</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Ack, <persName ref="#MosterUlla">kära moster</persName>! Allting
+              <lb/> är möjligt i våra dagar! - Nu är det inte —
+              <lb/> bara myggen som svärma!</p>
+          </sp>
+          <sp who="#spMosterUlla">
+            <speaker>Moster Ulla:</speaker> <p>Ja, gamla märken stå inte!
+              <cb n="2"/>
+              Annat var det i min ungdom. Då var det
+              <lb/> vackert och varmt, när det <emph>skulle</emph> vara som­<lb break="no"/>mar. Men nu ä' det ju bara kyla och rusk
+              <lb/> — för hvart år blir sommar'n kallare.</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Eller också är det blodet,
+              <lb/> som blir kallare, <persName ref="#MosterUlla">moster lilla</persName>!</p>
+          </sp>
+          <sp who="#spLilly">
+            <speaker>Lilly</speaker> <stage>(förskräckt):</stage> <p>Nej, nu regnar det då
+              <lb/> ohjälpligt!</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Låt oss rädda hvad som
+              <lb/> räddas kan! Jag tar tårtan!</p> <stage type="exit" who="#FruMarika">(Skyndar ut med
+              <lb/> den åt höger).</stage>
+          </sp>
+          <sp who="#spMosterUlla">
+            <speaker>Moster Ulla:</speaker> <p>Och jag tar pannkaksfatet!</p>
+              <lb/> <stage type="exit" who="#MosterUlla">(Springer efter.)</stage>
+          </sp>
+          <sp who="#spLilly">
+            <speaker>Lilly:</speaker> <p>Och jag tar korgen! <stage>(Griper tag i
+              <lb/> <persName ref="#MosterUlla">moster Ullas</persName> korg.)</stage>
+                        </p>
+          </sp>
+        </div>
+        <div type="scene" n="17">
+          <head>Sjuttonde scenen.</head>
+          <stage type="presence" who="#Lilly">Lilly, kandidaten, sedan farbror Fritz.</stage>
+          <sp who="#spKandidaten">
+            <speaker>Kandidaten</speaker> <stage type="entrance" who="#Kandidaten">(kommer inspringande med en
+              <lb/> sjal, under sista repliken):</stage> <p>Och jag tar <persName ref="#Lilly">Lilly</persName>!
+              <lb/> <stage>(Kastar sjalen öfver henne, så att han på
+              <lb/> samma gång slår armarna om henne).</stage>
+                        </p>
+          </sp>
+          <sp who="#spLilly">
+            <speaker>Lilly</speaker> <stage>(halft skrattande, halft förskräckt):</stage>
+              <lb/> <p>
+                            <persName ref="#Kandidaten">Erland</persName>! — —</p>
+          </sp>
+          <sp who="#spKandidaten">
+            <speaker>Kandidaten</speaker> <stage>(ömt):</stage> <p>
+                            <persName ref="#Lilly">Älskade Lilly</persName> — jag
+              <lb/> har ju knappt fått tala med dig ett ögon­<lb break="no"/>blick ensam!</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage type="entrance" who="#FarbrorFritz">(med en paraply, som han
+              <lb/> slår upp öfver <persName ref="#Kandidaten #Lilly">det unga paret</persName>):</stage> <p>Se så —
+              <lb/> nu ä' det ingen som ser er, <persName ref="#Lilly #Kandidaten">barn</persName>, nu kunna
+              <lb/> ni språka en stund i fred.</p>
+          </sp>
+          <sp who="#spKandidaten">
+            <speaker>Kandidaten:</speaker> <p>Du är ju en räddande ängel, 
+              <lb/> farbror Fritz!</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(skämtsamt):</stage> <p>Åh, inte ä'
+              <lb/> det väl jag, som ä' »ängeln» härvidlag, kan
+              <lb/> jag tro! — Men gå nu <persName ref="#Kandidaten #Lilly">barn</persName>! <stage>(Allvarligare
+              <lb/> till <persName ref="#Lilly">Lilly</persName>):</stage> Och sedan kan det bli min tur
+              <lb/> att få språka lite med er. Men nu ska' jag
+              <lb/> stanna här, så att ni får vara ostörda.
+              <lb/> <stage>(Suckar):</stage> Man är inte ung mer än en gång
+              <lb/> i lifvet!</p>
+          </sp>
+          <stage type="exit" who="#Lilly #Kandidaten" rend="centered">(De förlovade gå ut åt vänster, under
+            <lb/> paraplyn).</stage>
+        </div>
+        <div type="scene" n="18">
+          <head>Adertonde scenen.</head>
+          <stage type="presence" who="#FarbrorFritz">Farbror Fritz. <stage type="entrance" who="#Agda">Agda (från höger)</stage>.</stage>
+          <sp who="#spAgda">
+            <speaker>Agda:</speaker> <p>Hvilken otur — nu få vi lof att
+              <lb/> äta i ladan! — Är här någonting mer att
+              <lb/> rädda? <stage>(Fattar <persName ref="#FruMarika">fru Marikas</persName> korg).</stage>
+                        </p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz:</speaker> <p>Var lugn — jag har
+              <lb/> »räddat situationen!» <stage>(Han har satt sig på
+              <lb/> en sten, och aftorkar nu ena foten med sin
+              <lb/> näsduk).</stage>
+                        </p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda:</speaker> <p>Har du gjort dig illa foten,
+              <lb/> <persName ref="#FarbrorFritz">farbror</persName>?</p>
+          </sp>
+          <pb facs="36370-11.jpg"/>
+                    <fw type="pageNum">148</fw>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz:</speaker> <p>Nej; — jag bara råkade
+              <lb/> trampa i smörasken!</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda</speaker> <stage>(skrattade):</stage> <p>Då var det lycka, att
+              <lb/> vi togo <emph>två</emph> med oss! — Men hvar är <persName ref="#Lilly">Lilly</persName>?</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz:</speaker> <p>Hon är under tak! Se
+              <lb/> så, jag ska' hjälpa dig, så går det fortare!
+              <lb/> <stage type="exit" who="#FarbrorFritz #Agda">(Hjälper Agda att bära ut korgen, till hö­<lb break="no"/>ger).</stage>
+                        </p>
+          </sp>
+        </div>
+        <stage type="business">(Ridån faller).</stage>
+      </div>
+      <div type="act" n="2">
+        <head>Andra akten.</head>
+        <stage type="setting">(Samma scen som i första akten. Ett
+          <lb/> par timmar anses ha förlutit<choice>
+                        <sic>'</sic>
+                        <corr>)</corr>
+                    </choice>.</stage>
+        <div type="scene" n="1">
+          <head>Första scenen.</head>
+          <stage type="presence" who="#FarbrorFritz">Farbror Fritz. Lilly.</stage>
+          <sp who="#spLilly">
+            <speaker>Lilly</speaker> <stage type="entrance" who="#Lilly">(från fonden, går fram till 
+              <lb/> <persName ref="#FarbrorFritz">farbror Fritz</persName>, som sitter på en sten).</stage> <p>Bästa <persName ref="#FarbrorFritz">farbror
+              <lb/> Fritz</persName>! Hvad var det du ville säga mig? —
+              <lb/> ty jag får ju säga <persName ref="#FarbrorFritz">»farbror»</persName> nu, — jag, som
+              <lb/> de andra — som du proponerade vid mid­<lb break="no"/>dagen?</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(varmt):</stage> <p>Du <emph>mer</emph> än alla
+              <lb/> de andra, <persName ref="#Lilly">kära barn</persName>! <stage>(Vinkar henne till sig).</stage>
+              <lb/> Ser du, jag — — jag ville gärna höra <choice>
+                                <sic>nå:</sic>
+                                <corr>nå­</corr>
+                            </choice>
+                            <lb break="no"/>got om <persName ref="#Doktorinnan">din mor</persName>. Hvad du är lik henne,
+              <lb/> <persName ref="#Lilly">kära barn</persName>! Just <emph>så</emph> såg hon ut för bortåt
+              <lb/> tretti' år se'n!</p>
+          </sp>
+          <sp who="#spLilly">
+            <speaker>Lilly</speaker> <stage>(gladt):</stage> <p>Känner <persName ref="#FarbrorFritz">farbror</persName> henne?</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz:</speaker> <p>Ja, — det vill säga: jag
+              <lb/> kände henne då.</p>
+          </sp>
+          <sp who="#spLilly">
+            <speaker>Lilly</speaker> <stage>(okonstladt):</stage> <p>
+                            <persName ref="#Doktorinnan">Mamma</persName> mår bra och
+              <lb/> är ännu helt ungdomlig, — fast det nu är
+              <lb/> på fjärde året, sedan hon blef enka, som
+              <lb/> <persName ref="#FarbrorFritz">farbror</persName> kanske vet.</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(springer upp):</stage> <p>Nej — det
+              <lb/> har jag inte vetat! <stage>(Sätter sig åter).</stage> Det
+              <lb/> skulle vara roligt att få se henne ännu en
+              <lb/> gång.</p>
+          </sp>
+          <sp who="#spLilly">
+            <speaker>Lilly:</speaker> <p>Det är möjligt, att <persName ref="#Doktorinnan">mamma</persName> kom­<lb break="no"/>mer och hämtar mig, när jag nu snart skall
+              <lb/> resa hem; åtminstone har <persName ref="#MosterUlla">moster Ulla</persName> skrif­<lb break="no"/>vit och bedt henne komma.</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(rörd):</stage> <p>Det vore bra ro­<lb break="no"/>ligt! — — I alla fall, så hälsa <persName ref="#Doktorinnan">din mor</persName>
+              <lb/> från mig, om — — om hon kommer i håg
+              <lb/> mig.</p>
+          </sp>
+          <sp who="#spLilly">
+            <speaker>Lilly:</speaker> <p>Det gör hon nog.</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz:</speaker> <p>Tror du? — — <stage>(lugnare,
+              <lb/> i det han skälmskt nyper <persName ref="#Lilly">Lilly</persName> i kinden).</stage>
+              <lb/> Nåå — du trifves bra här på trakten, tror
+              <lb/> jag?</p>
+          </sp>
+          <sp who="#spLilly">
+            <speaker>Lilly</speaker> <stage>(litet brydd):</stage> <p>Ja, det gör jag visst!
+              <lb/> <persName ref="#MosterUlla">Moster Ulla</persName> är så snäll — — —</p>
+          </sp>
+         <cb n="2"/>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(som förut):</stage> <p>Och <persName ref="#Kandidaten">Erland</persName>
+              <lb/> också?! — —</p>
+          </sp>
+          <sp who="#spLilly">
+            <speaker>Lilly</speaker> <stage>(litet förebrående):</stage> <p>
+                            <persName ref="#FarbrorFritz">Farbror</persName>! —</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz:</speaker> <p>Det är ingenting ondt i,
+              <lb/> att ett par unga människor hålla af hvar­<lb break="no"/>andra, <persName ref="#Lilly">kära barn</persName>! <stage>(Med en suck!):</stage> Det är
+              <lb/> sämre, om det kommer något, som söndrar
+              <lb/> dem från hvarann!</p>
+          </sp>
+          <sp who="#spLilly">
+            <speaker>Lilly:</speaker> <p>Men hvarför skulle det göra det?</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz:</speaker> <p>Hvarför? — Ja, det är
+              <lb/> just frågan? <stage>(Häftigare):</stage> För det mången är
+              <lb/> dum och oförståndig och inte kan ta vara
+              <lb/> på sin lycka, medan han har den! <stage>(Stryker
+              <lb/> handen öfver pannan).</stage>
+                        </p>
+          </sp>
+          <sp who="#spLilly">
+            <speaker>Lilly</speaker> <stage>(förtröstansfullt):</stage> <p>Men så går det
+              <lb/> inte för oss!</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz:</speaker> <p>Ack ja, låt se det!</p>
+          </sp>
+          <sp who="#spLilly">
+            <speaker>Lilly:</speaker> <p>
+                            <persName ref="#Doktorinnan">Mamma</persName> tycker bara, att vi ä' så 
+              <lb/> unga än — —</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(suckar):</stage> <p>Tids nog hinner
+              <lb/> man bli gammal!</p> <stage>(Kysser <persName ref="#Lilly">Lilly</persName> på pannan,
+              <lb/> <stage type="exit" who="#Lilly #FarbrorFritz">hvarefter han tar hennes arm i sin och båda
+              <lb/> gå långsamt ut till vänster)</stage>.</stage>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>Andra scenen.</head>
+          <stage type="presence">
+                        <stage type="entrance" who="#Agda #FruMarika">Fru Marika och Agda (från höger, under
+            <lb/> sista repliken)</stage>.</stage>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika</speaker> <stage>(triumferande):</stage> <p>Nu ha vi då
+              <lb/> sett det med våra egna ögon!</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda:</speaker> <p>Ja, det var då mer än jag kunde
+              <lb/> tro! Jag tänkte det bara var <persName ref="#Mia">Mias</persName> prat. —</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Åh, »<persName ref="#Mia">små grytor</persName> ha också
+              <lb/> öron!»</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda:</speaker> <p>Jag måste skratta! Hvad jag tyc­<lb break="no"/>ker, att <persName ref="#Kandidaten">kandidaten</persName> ska få lång näsa! <persName ref="#FarbrorFritz">Far­<lb break="no"/>bror Fritz</persName> och <persName ref="#Lilly">Lilly</persName>! Ha, ha, ha!</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Åh, det är minsann inte
+              <lb/> bara att skratta åt, att <persName ref="#FarbrorFritz">farbror Fritz</persName> går
+              <lb/> och gifter sig, och vi, för <persName ref="#Lilly">den där flicksnär­<lb break="no"/>tans</persName> skull gå miste om, hvad han kan ha
+              <lb/> efter sej! — och <emph>det</emph> är nog inte så litet,
+              <lb/> som han vill inbilla folk, det säger <persName ref="#Patronen">pappa</persName>.</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda:</speaker> <p>Men är det då så säkert, att <emph>vi</emph>
+              <lb/> skulle ha fått det?</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Hvem skulle väl vara när­<lb break="no"/>mare? Han är ju släkt med både <persName ref="#Patronen">pappa</persName> och
+              <lb/> mig.</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda</speaker> <stage>(något högdraget):</stage> <p>Men vi <emph>behöfva</emph>
+              <lb/> det väl egentligen inte!</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika</speaker> <stage>(belåtet):</stage> <p>Det förstås, att
+              <lb/> inte har <persName ref="#Patronen">pappa</persName> ställt oss på bar backe, men
+              <lb/> när man har <persName ref="#Mia #Agda #Moje">tre barn</persName> så — — och två
+              <lb/> <persName ref="#Agda #Mia">döttrar</persName>, som ska' ha hemgift och utstyrsel
+              <lb/> en gång, så behöfver man inte heller vara
+              <lb/> rädd att få för mycket.</p>
+          </sp>
+          <pb facs="36370-12.jpg"/>
+          <gap reason="irrelevant"/><!-- pjästitel, nytt nummer -->
+          <sp who="#spAgda">
+            <speaker>Agda</speaker> <stage>(litet vresigt):</stage> <p>Jag har då just inte sett till, att <persName ref="#FruMarika">mamma</persName>
+              <lb/> behöft ha mycket bekymmer för vår utstyrsel än! — —</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Åh, <persName ref="#Agda">kära barn</persName>, med ditt utseende och ditt huf­<lb break="no"/>vud, så — —</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda</speaker> <stage>(förargad):</stage> <p> — Så springa <persName ref="#Kandidaten #Löjtnanten">herrarna</persName> ändå efter <persName ref="#Lilly">Lilly</persName> — det
+              <lb/> ser du väl. — För det att hon inte trampat ut barnskorna än, kan
+              <lb/> tänka! Jag begriper inte, hvarför <emph>det</emph> ska' vara så rart?</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>
+                        <choice>
+                            <sic>Tredja</sic>
+                            <corr>Tredje</corr>
+                        </choice> scenen.</head>
+          <stage type="presence" who="#Agda #FruMarika">De förra. <stage type="entrance" who="#Löjtnanten">Löjtnanten (i fonden)</stage>.</stage>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika</speaker> <stage>(sakta till <persName ref="#Agda">Agda</persName>, med en blick på <persName ref="#Löjtnanten">löjtnanten</persName>):</stage> <p>Ah,
+              <lb/> där är åtminstone en, som söker dig!</p>
+          </sp>
+          <sp who="#spLöjtnanten">
+            <speaker>Löjtnanten</speaker> <stage>(går fram till <persName ref="#Agda">Agda</persName>):</stage> <p>
+                            <persName ref="#Agda">Bästa fröken</persName> — nu ha vi båten
+              <lb/> i ordning, om ni har lust.</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda:</speaker> <p>Jag tackar!</p>
+          </sp>
+          <sp who="#spLöjtnanten">
+            <speaker>Löjtnanten:</speaker> <p>Men hvar är <persName ref="#Lilly">fröken Lilly</persName>?</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda</speaker> <stage>(sakta till <persName ref="#FruMarika">fru Marika</persName>):</stage> <p>
+                            <persName ref="#Lilly">Lilly</persName>, igen! — sa' jag inte det?
+              <lb/> <stage>(Högt, med tonvigt):</stage> <persName ref="#Lilly">Lilly</persName> har visst inte tid att följa med, så att
+              <lb/> det är nog bäst att vi lämna henne »åt sitt öde.»</p>
+          </sp>
+          <sp who="#spLöjtnanten">
+            <speaker>Löjtnanten:</speaker> <p>Men ni, <persName ref="#Agda">min fröken</persName>, kommer ju?</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda:</speaker> <p>Med mycket nöje. <stage>(De gå mot fonden.)</stage>
+                        </p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika</speaker> <stage>(för sig):</stage> <p>Och jag får väl söka att förbereda <persName ref="#Patronen">min
+              <lb/> gubbe</persName> på <persName ref="#FarbrorFritz">Fritz's</persName> dårskaper; kanske kan han afstyra allt medan
+              <lb/> tid är! — — <emph>Han</emph> femti' och — <emph>hon</emph> aderton! Och jag tror det är
+              <pb facs="36370-13.jpg"/>
+                            <fw type="pageNum">162</fw>
+              första gången han ser henne! <stage>(Blickar mot
+              <lb/> himlen):</stage> Hvilka tider vi lefva i!</p>
+          </sp>
+          <stage type="exit" who="#Agda #Löjtnanten #FruMarika">(Alla gå ut åt fonden).</stage>
+        </div>
+        <div type="scene" n="4">
+          <head>Fjärde scenen.</head>
+          <stage type="presence">
+                        <stage type="entrance" who="#Doktorinnan">Doktorinnan, (ensam; från vänster, går lång­<lb break="no"/>samt framåt och ser sig omkring):</stage>
+                    </stage>
+          <sp who="#spDoktorinnan">
+            <p>Hvilket egendomligt intryck det gör,
+              <lb/> att återse dessa trakter efter så många år!
+              <lb/> Man tycker sig för en stund ha återvändt
+              <lb/> till sin ungdom. Jag känner igen själfva
+              <lb/> träden och buskarna, fast det är så länge
+              <lb/> sedan! Hur väl jag ännu minns en afton,
+              <lb/> just i den här ängsbacken, då — — men 
+              <lb/> nej! hvad är det värdt att återkalla dessa
+              <lb/> minnen! Det har blåst många vindar sedan
+              <lb/> dess både för mig och andra, och kanske
+              <lb/> var det bäst <emph>så</emph>! Nu har jag <persName ref="#Lilly">min Lilly</persName> att
+              <lb/> lefva för. Måtte hon gå mindre skiftande öden
+              <lb/> till mötes! — — <stage>(Sätter sig på en sten).</stage>
+              <lb/> Men jag har bestämdt blifvit förd på villo­<lb break="no"/>spår — här synes ju ingen människa till!
+              <lb/> Och ändock sade <persName ref="#Jungfrun">
+                                <persName ref="#MosterUlla">moster Ullas</persName> jungfru</persName> så sä­<lb break="no"/>kert, att det var här i <placeName>Strandängen</placeName>, de skulle
+              <lb/> vara på sin utflykt. Om inte <persName ref="#Pojken">pojken</persName>, som
+              <lb/> rodde mig öfver, varit så liten, hade jag väl
+              <lb/> låtit honom ro fram på andra sidan udden;
+              <lb/> där brukade vara rätta landningsplatsen förr,
+              <lb/> åtminstone. — Besynnerligt i alla fall, att
+              <lb/> inte mitt bref kom fram i går! — Men jag
+              <lb/> ska' gå litet längre uppåt skogsbacken, så
+              <lb/> kanske att jag träffar på dem.</p>
+          </sp>
+          <stage type="exit" who="#Doktorinnan">(Går till höger).</stage>
+        </div>
+        <div type="scene" n="5">
+          <head>Femte scenen.</head>
+          <stage type="presence">
+                        <stage type="entrance" who="#Patronen #FruMarika">Patronen. Fru Marika (från fonden).</stage>
+                    </stage>
+          <sp who="#spPatronen">
+            <speaker>Patronen:</speaker> <p>Ah — du pratar, <persName ref="#FruMarika">gumman
+              <lb/> min</persName>! Det står inte till i världen!</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Men både <persName ref="#Agda">Agda</persName> och jag
+              <lb/> ha sett det. Han kysste henne, du! — —</p>
+          </sp>
+          <sp who="#spPatronen">
+            <speaker>Patronen</speaker> <stage>(skämtsamt, i det han stryker
+              <lb/> sig om hakan):</stage> <p>Nå — så förtänker jag honom
+              <lb/> inte det, då!</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p> — — <persName ref="#FarbrorFritz">Gamla karl'n</persName>, du!
+              <lb/> Hur' dana ska' då de unga vara! — —</p>
+          </sp>
+          <sp who="#spPatronen">
+            <speaker>Patronen</speaker> <stage>(lugnt):</stage> <p>Likadana, förmodar jag.</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Det är då inte värdt att
+              <lb/> försöka tala ett förnuftigt ord med dig i
+              <lb/> kväll, det hör jag, <persName ref="#Patronen">min gubbe lille</persName>!</p>
+          </sp>
+          <sp who="#spPatronen">
+            <speaker>Patronen:</speaker> <p>Och inte med dig heller, hör
+              <lb/> jag, <persName ref="#FruMarika">min gumma lilla</persName>!</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Låt oss i stället samlas till
+              <lb/> kaffet, som vi ha kokat på berghällen, nere
+              <cb n="2"/>
+              vid sjön; det blef för vått att sitta i gräset,
+              <lb/> efter regnskuren.</p>
+          </sp>
+          <sp who="#spPatronen">
+            <speaker>Patronen:</speaker> <p>Du har väl inte glömt konja­<lb break="no"/>ken?</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Nej visst inte; var du lugn!</p>
+          </sp>
+          <stage type="exit" who="#FruMarika #Patronen">(De gå åt fonden).</stage>
+        </div>
+        <div type="scene" n="6">
+          <head>Sjette scenen.</head>
+          <stage type="presence">Farbror Fritz; sedan doktorinnan.</stage>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage type="entrance" who="#FarbrorFritz">(från vänster):</stage> <p>Hm! —
+              <lb/> jag känner mig så underlig till mods — det
+              <lb/> är som om jag blifvit ung på nytt. Var det
+              <lb/> inte just på den här platsen, just här nere
+              <lb/> i <placeName>Strandängen</placeName>, den där kvällen för — låt
+              <lb/> mej se! hur många år se'n kan det vara?
+              <lb/> — soligt och vackert, just som nu, då hon
+              <lb/> kom — —</p>
+          </sp>
+          <sp who="#spDoktorinnan">
+            <speaker>Doktorinnan</speaker> <stage type="entrance" who="#Doktorinnan">(från höger):</stage> <p>Nej, det fanns
+              <lb/> ingen människa där heller! — Men se, där
+              <lb/> kommer <persName ref="#FarbrorFritz">en herre</persName>; jag skall fråga honom,
+              <lb/> han hör nog till sällskapet. <stage type="business">(Går emot ho­<lb break="no"/>nom):</stage> <persName ref="#FarbrorFritz">Min herre</persName> — —</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(blir varse henne):</stage> <p>Hvem
+              <lb/> är det där? — — Hennes röst?! — Nej,
+              <lb/> det är inte möjligt? Är det en synvilla? —
+              <lb/> <persName ref="#Doktorinnan">Lilli</persName>! — —</p>
+          </sp>
+          <sp who="#spDoktorinnan">
+            <speaker>Doktorinnan</speaker> <stage>(öfverraskad):</stage> <p>
+                            <persName ref="#FarbrorFritz">Fritz</persName>?! —</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz:</speaker> <p>Just jag, <persName ref="#Doktorinnan">Lilli</persName>! <stage>(Fattar
+              <lb/> båda hennes händer, och de betrakta hvar­<lb break="no"/>andra ett ögonblick).</stage>
+                        </p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>Sjunde scenen.</head>
+          <stage type="presence" who="#FarbrorFritz #Doktorinnan">De förra. <stage type="entrance" who="#Moje">Moje (från fonden).</stage>
+                    </stage>
+          <sp who="#spMoje">
+            <speaker>Moje</speaker> <stage>(äter på en pepparkaka):</stage> <p>
+                            <persName ref="#FarbrorFritz">Farbror</persName>
+              <lb/> skulle vara snäll och komma och dricka kaffe
+              <lb/> nere vid sjön, <choice>
+                                <sic>ba'</sic>
+                                <corr>sa'</corr>
+                            </choice> <persName ref="#FruMarika">mamma</persName>!<stage type="mixed">(Stannar förvå­<lb break="no"/>nad och betraktar <persName ref="#FarbrorFritz">farbror Fritz</persName> och <persName ref="#Doktorinnan">dokto­<lb break="no"/>rinnan</persName>.)</stage>
+                        </p>
+          </sp>
+          <sp who="#spDoktorinnan">
+            <speaker>Doktorinnan</speaker> <stage>(utan att märka <persName ref="#Moje">Moje</persName>):</stage> <p>Kän­<lb break="no"/>ner du verkligen igen mig?</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(på samma sätt):</stage> <p>Om jag
+              <lb/> känner igen dig? Ack, du är dig ju nästan
+              <lb/> alldeles lik! — och de där ögonen, dem
+              <lb/> skulle jag känna igen, om det vore efter al­<lb break="no"/>drig så många, <persName ref="#Doktorinnan">Lilli</persName>! — Det är bara jag,
+              <lb/> som har blifvit gammal — men det blir man,
+              <lb/> när man är en sådan här enstöring!</p>
+          </sp>
+          <sp who="#spDoktorinnan">
+            <speaker>Doktorinnan</speaker> <stage>(rörd):</stage> <p>Låt oss inte tala om
+              <lb/> det förflutna, <persName ref="#FarbrorFritz">Fritz</persName>! — —</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(lifligt):</stage> <p>Jo, just <emph>det</emph> ska'
+              <lb/> vi tala om!</p>
+          </sp>
+          <sp who="#spMoje">
+            <speaker>Moje</speaker> <stage>(ropar, så att det genljuder):</stage> <p>
+                            <persName ref="#FarbrorFritz">Far­<lb break="no"/>bror</persName> skulle komma och dricka kaffe, sa'
+              <lb/> <persName ref="#FruMarika">mamma</persName>!</p>
+          </sp>
+          <pb facs="36370-14.jpg"/>
+                    <fw type="pageNum">163</fw>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(förargad):</stage> <p>Tig <persName ref="#Moje">pojke</persName>! <stage>(till
+              <lb/> <persName ref="#Doktorinnan">doktorinnan</persName>):</stage> men här få vi ju inte vara
+              <lb/> ostörda. Kom, låt oss gå ett stycke uppåt
+              <lb/> björkbacken! <stage>(Ömt):</stage> Vi ha ju så mycket
+              <lb/> smått och godt att säga hvarann, då vi nu
+              <lb/> inte träffats på så länge. <stage>(Bjuder henne ar­<lb break="no"/>men.)</stage>
+                        </p>
+          </sp>
+          <sp who="#spDoktorinnan">
+            <speaker>Doktorinnan:</speaker> <p>Och du måste förklara mig
+              <lb/> detta oväntade möte.</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz:</speaker> <p>Att jag bruka gästa här
+              <lb/> i trakten om somrarna — det är inte så
+              <lb/> märkvärdigt! Men det är mycket annat, som
+              <lb/> behöfver förklaras.</p>
+          </sp>
+          <stage type="exit" who="#Doktorinnan #FarbrorFritz">(De gå samtalande ut till vänster.)</stage>
+        </div>
+        <div type="scene" n="8">
+          <head>Åttonde scenen.</head>
+          <stage type="presence" who="#Moje">Moje. <stage type="entrance" who="#Agda">Agda (från fonden)</stage>.</stage>
+          <sp who="#spAgda">
+            <speaker>Agda:</speaker> <p>Hvarför kommer du aldrig igen,
+              <lb/> <persName ref="#Moje">Moje</persName>. Alltid ska' man vänta på dej. Fick
+              <lb/> du inte rätt på <persName ref="#FarbrorFritz">farbror Fritz</persName>?</p>
+          </sp>
+          <sp who="#spMoje">
+            <speaker>Moje:</speaker> <p>Joo — men — <stage>(småslugt):</stage> Han
+              <lb/> ville inte ha något kaffe.</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda:</speaker> <p>Hvarför det?</p>
+          </sp>
+          <sp who="#spMoje">
+            <speaker>Moje</speaker> <stage>(som nyss):</stage> <p>För han håller visst
+              <lb/> på att förlofva sej — som <persName ref="#Mia">Mia</persName> sa'.</p>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda</speaker> <stage>(förargad):</stage> <p>Det måtte han visst ha
+              <lb/> hållit på med hela da'n, då! — Men kom
+              <lb/> nu, du åtminstone, eljest får du inte något
+              <lb/> kaffe. <stage>(För sig):</stage> Ja, <emph>hvem</emph> jag trodde skulle
+              <lb/> bli den första att bli förlofvad, inte trodde
+              <lb/> jag då, att det skulle bli <persName ref="#FarbrorFritz">farbror Fritz</persName>!</p>
+          </sp>
+          <stage type="exit" who="#Agda #Moje">(De gå åt fonden.)</stage>
+        </div>
+        <div type="scene" n="9">
+          <head>Nionde scenen.</head>
+          <stage type="presence">
+                        <stage type="entrance" who="#FruMarika #MosterUlla">Fru Marika, moster Ulla, (från höger).</stage>
+                    </stage>
+          <sp who="#spMosterUlla">
+            <speaker>Moster Ulla:</speaker> <p>Ja, du har då alltid så
+              <lb/> godt kaffe, <persName ref="#FruMarika">kära Marika</persName>!</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Åh, inte ä' det jämförligt
+              <lb/> med <persName ref="#MosterUlla">mosters</persName>, inte!</p>
+          </sp>
+          <sp who="#spMosterUlla">
+            <speaker>Moster Ulla:</speaker> <p>Säg inte det, söta du! —
+              <lb/> Men jag kan inte förstå, hvar hon är?</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Hvem?</p>
+          </sp>
+          <sp who="#spMosterUlla">
+            <speaker>Moster Ulla:</speaker> <p>
+                            <persName ref="#Doktorinnan">Ett främmande fruntimmer</persName>
+              <lb/> lär ha frågat efter mig, sa' <persName ref="#Pojken">en liten gosse</persName>,
+              <lb/> som hade rott henne öfver. Kanske <persName ref="#Lilly">Lilly</persName> vet
+              <lb/> reda på det, men henne har jag heller inte
+              <lb/> sett till.</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika</speaker> <stage>(betydelsefullt):</stage> <p>Å, <persName ref="#Lilly">Lilly</persName> kom­<lb break="no"/>mer nog tillrätta i sinom tid, <persName ref="#MosterUlla">moster lilla</persName>,
+              <lb/> <emph>henne</emph> finns det nog den, som tar hand om!</p>
+          </sp>
+          <sp who="#spMosterUlla">
+            <speaker>Moster Ulla</speaker> <stage>(förtroligt):</stage> <p>Jaså — du <emph>vet
+              <lb/> det</emph>!</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika</speaker> <stage>(viktigt):</stage> <p>Jo, jo, man rår
+              <lb/> inte för, att man har ögon och öron!</p>
+          </sp>
+        </div>
+        <cb n="2"/>
+        <div type="scene" n="10">
+          <head>Tionde scenen.</head>
+          <stage type="presence" who="#MosterUlla #FruMarika">De förra. Patronen. Farbror Fritz. Dok­<lb break="no"/>torinnan. Lilly. Kandidaten. Agda,
+            <lb/> sedan Löjtnanten, Mia och Moje.</stage>
+          <sp who="#spPatronen">
+            <speaker>Patronen</speaker> <stage type="entrance" who="#Patronen">(från fonden):</stage> <p>Nu <persName ref="#FruMarika #MosterUlla">gummor</persName>, få
+              <lb/> vi snart lof att tänka på hemfärden; det
+              <lb/> blir sent annars, innan vi hinna hem.</p>
+          </sp>
+          <stage type="entrance" who="#FarbrorFritz #Doktorinnan #Kandidaten #Lilly">(Farbror Fritz och doktorinnan, kandida­<lb break="no"/>ten och Lilly komma in från vänster.)</stage>
+          <sp who="#spDoktorinnan">
+            <speaker>Doktorinnan</speaker> <stage>(skyndar fram till <persName ref="#MosterUlla">moster
+              <lb/> Ulla</persName>):</stage> <p>Åh, se här har jag dig ändtligen,
+              <lb/> <persName ref="#MosterUlla">kära moster</persName>!</p>
+          </sp>
+          <sp who="#spMosterUlla">
+            <speaker>Moster Ulla:</speaker> <p>Åh, kära hjärtandes, var
+              <lb/> det du!</p> <stage>(Tar henne i famn; hvarefter <persName ref="#Doktorinnan">dokto­<lb break="no"/>rinnan</persName> hälsar på <persName ref="#FruMarika">fru Marika</persName> <stage type="entrance" who="#Agda">samt Agda,
+              <lb/> som kommer från höger</stage>).</stage>
+          </sp>
+          <sp who="#spAgda">
+            <speaker>Agda:</speaker> <p>
+                            <persName ref="#Doktorinnan">Tant</persName> här — hvilken öfverraskning!
+              <lb/> Och det just som vi skola fara hem!</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika</speaker> <stage>(med en blick på <persName ref="#FarbrorFritz">farbror
+              <lb/> Fritz</persName> och <persName ref="#Lilly">Lilly</persName>):</stage> <p>Det kanske blir flera öfver­<lb break="no"/>raskningar i kväll! <stage>(Halfhögt och litet för­<lb break="no"/>smädligt till honom):</stage> Hur ä' det? — kanske
+              <lb/> att vi först få gratulera?</p>
+          </sp>
+          <anchor xml:id="publicEngagement"/>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz:</speaker> <p>Ja, hvarför inte? <stage>(Högt)</stage>
+              <lb/> <persName ref="#Kandidaten">Erland</persName> och <persName ref="#Lilly">Lilly</persName>! <persName ref="#Patronen #Agda #MosterUlla #Agda #FruMarika">Edra vänner</persName> vilja gratu­<lb break="no"/>lera er till er förlofning! Den behöfver ju
+              <lb/> inte vara någon hemlighet längre, då nu <persName ref="#Doktorinnan">
+                                <persName ref="#Lilly">Lil­<lb break="no"/>lys</persName> mor</persName> är här.</p>
+          </sp>
+          <sp who="#spKandidaten">
+            <speaker>Kandidaten</speaker> <stage>(stiger fram, med <persName ref="#Lilly">Lilly</persName> vid
+              <lb/> handen):</stage> <p>Mer än gärna!</p>
+          </sp>
+          <sp who="#spPatronen #spAgda #spMosterUlla #spAgda #spFruMarika">
+            <speaker>Alla</speaker> <stage>(om hvarandra förvånade):</stage> <p>
+                            <persName ref="#Kandidaten">Kandi­<lb break="no"/>daten</persName>! — <persName ref="#Lilly">Lilly</persName>? — —</p>
+          </sp>
+          <sp who="#spPatronen">
+            <speaker>Patronen</speaker> <stage>(skakar hand med dem):</stage> <p>Ja,
+              <lb/> det kunde jag tro!</p>
+          </sp>
+          <sp who="#spMosterUlla">
+            <speaker>Moster Ulla</speaker> <stage>(till <persName ref="#FruMarika">fru Marika</persName>):</stage> <p>Jag ville
+              <lb/> inte säga det, förrän <persName ref="#Doktorinnan">hennes mor</persName> kom; men
+              <lb/> jag hörde, du hade reda på det!</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika:</speaker> <p>Ja, visst hade jag reda
+              <lb/> på det!</p>
+          </sp>
+          <anchor xml:id="proposal"/>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(sakta till <persName ref="#Doktorinnan">doktorinnan</persName>):</stage>
+              <lb/> <p>
+                            <persName ref="#Doktorinnan">Lilli</persName>! — får jag inte be sällskapet gratu­<lb break="no"/>lera <emph>oss</emph> också!</p>
+          </sp>
+          <sp who="#spDoktorinnan">
+            <speaker>Doktorinnan</speaker> <stage>(sakta till honom; rörd):</stage>
+            <lb/> <p>
+                            <persName ref="#FarbrorFritz">Kära Fritz</persName>! vi äro för gamla numera! Låt
+              <lb/> oss lefva för de ungas lycka! Det är <emph>deras</emph>
+              <lb/> tur nu.</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(nedslagen):</stage> <p>Kanske har
+              <lb/> du rätt — <persName ref="#FarbrorFritz">en inbiten gammal ungkarl</persName>, som
+              <lb/> jag, blir inte en treflig äkta man!</p>
+          </sp>
+          <sp who="#spFruMarika">
+            <speaker>Fru Marika</speaker> <stage>(sakta till <persName ref="#Patronen">patronen</persName>, med
+              <lb/> en blick på <persName ref="#Kandidaten">kandidaten</persName>):</stage> <p>Men <emph>hvad</emph> ska' de
+              <lb/> gifta sig på? Han är ju bara pojken!</p>
+          </sp>
+          <sp who="#spPatronen">
+            <speaker>Patronen</speaker> <stage>(skrattande till henne):</stage> <p>Och nyss
+              <lb/> var <persName ref="#FarbrorFritz">fästmannen</persName> för gammal! Det måtte vara
+              <pb facs="36370-15.jpg"/>
+                            <fw type="pageNum">164</fw>
+              svårt att vara lagom; men det tycks då vara
+              <lb/> en sanning, att ingen ä' sämre, än när han
+              <lb/> ska' gifta sej!</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(till <persName ref="#Kandidaten">kandidaten</persName>):</stage> <p>
+                            <persName ref="#Kandidaten">Erland,
+              <lb/> min gosse</persName>! Jag har ett förslag att göra dig!
+              <lb/> — — du vet, jag har alltid hållit af dig,
+              <lb/> alltse'n <persName ref="#KandidatensFar">far din, den hedersmannen</persName>, var kam­<lb break="no"/>rat till mig, och jag lofvade honom, när han
+              <lb/> gick bort, att jag skulle vara din vän, som
+              <lb/> jag varit hans. När du tagit din sista exa­<lb break="no"/>men och är »färdig», så flyttar du med <persName ref="#Lilly">din
+              <lb/> unga fru</persName> in i <persName ref="#FarbrorFritz">farbror Fritz</persName> »stuga» där
+              <lb/> hemma i sta'n, — där torde ni ha rum i
+              <lb/> nedra våningen eller hur? — för <persName ref="#FarbrorFritz">gubben</persName>
+              <lb/> kan numera ha nog med vindsrummen.</p>
+          </sp>
+          <sp who="#spKandidaten">
+            <speaker>Kandidaten</speaker> <stage>(fattar rörd hans hand):</stage>
+              <lb/> <p>
+                            <persName ref="#FarbrorFritz">Farbror Fritz</persName>! <persName ref="#FarbrorFritz">Min välgörare</persName>, nu som hit­<lb break="no"/>tills!</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(afböjande):</stage> <p>Det är bara
+              <lb/> egennytta, ser du, för <persName ref="#FarbrorFritz">farbror</persName> har ledsnat
+              <lb/> på att vara ensam!</p>
+          </sp>
+          <sp who="#spPatronen">
+            <speaker>Patronen:</speaker> <p>Hurra! det här få vi lof att
+              <lb/> dricka ett glas på <persName ref="#FarbrorFritz #Agda #MosterUlla #Agda #FruMarika #Doktorinnan #Lilly #Kandidaten">go' vänner</persName>! Ta' rätt på
+              <lb/> vinbuteljerna, <persName ref="#FruMarika">mamma</persName>!</p>
+          </sp>
+          <sp who="#spLöjtnanten">
+            <speaker>Löjtnanten</speaker> <stage type="entrance" who="#Löjtnanten">(som inkommit under scenen; för
+              <lb/> sig):</stage> <p>Det där var just ett dumt streck! Men
+              <lb/> jag ska' väl klinga med dem!</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz</speaker> <stage>(som hört orden, sakta till
+              <lb/> honom med en blick på <persName ref="#Agda">Agda</persName>):</stage> <p>Försök din
+              <lb/> lycka på annat håll, så »klingar» det kanske
+              <lb/> bättre!</p>
+          </sp>
+          <sp who="#spMia">
+            <speaker>Mia</speaker> <stage type="entrance" who="#Mia #Moje">(som jämte Moje inkommit från fon­<lb break="no"/>den, under scenen):</stage> <p>Sa' jag inte, att det
+              <lb/> skulle bli nå'n förlofning? Å, så vådligt
+              <lb/> stiligt!</p>
+          </sp>
+          <sp who="#spMoje">
+            <speaker>Moje:</speaker> <p>Men du sa' det va' <persName ref="#FarbrorFritz">farbror Fritz</persName>
+              <lb/> du, — äh, du! <stage type="exit" who="#Mia #Löjtnanten #Kandidaten #Agda #MosterUlla #Lilly #FruMarika #Moje #Patronen">(Alla draga sig åt fonden,
+              <lb/> utom doktorinnan och farbror Fritz.)</stage>
+                        </p>
+          </sp>
+          <sp who="#spDoktorinnan">
+            <speaker>Doktorinnan</speaker> <stage>(går fram till honom och
+              <lb/> räcker honom handen):</stage> <p>Hur skall jag riktigt
+              <lb/> kunna tacka dig, <persName ref="#FarbrorFritz">Fritz</persName>!</p>
+          </sp>
+          <sp who="#spFarbrorFritz">
+            <speaker>Farbror Fritz:</speaker> <p>
+                            <persName ref="#Doktorinnan">Lilli</persName>! Det är ju under
+              <lb/> skydd af höstens vissnade blad, som den
+              <lb/> unga vårens grönska skjuter fram! Du har
+              <lb/> nog rätt i, att så är naturens ordning. —
+              <lb/> Men så skulle ändock en gång kärlek och
+              <lb/> lycka slå rot och växa upp i björkarnas
+              <lb/> och ekarnas hägn här nere i <placeName>Strandängen</placeName>!</p>
+          </sp>
+        </div>
+        <stage type="business">Ridån faller.</stage>
+      </div>
+      <gap reason="irrelevant"/><!-- annan text -->
+    </body>
+    <back>
+      <pb facs="36370-16.jpg"/><!-- omslag -->
+      <div type="editorial">
+        <listPerson>
+          <listPerson type="cast">
+            <person xml:id="Patronen" sex="male">
+              <persName>
+                <roleName>patron</roleName>
+              </persName>
+              <age>omkring 50 år</age>
+            </person>
+            <person xml:id="FruMarika" sex="female">
+              <persName>
+                <roleName>fru</roleName>
+                <forename>Marika</forename>
+              </persName>
+            </person>
+            <person xml:id="Agda" sex="female">
+              <persName>
+                <forename>Agda</forename>
+              </persName>
+              <age atLeast="18"/>
+            </person>
+            <person xml:id="Mia" sex="female">
+              <persName>
+                <forename>Mia</forename>
+              </persName>
+              <age>barn</age>
+            </person>
+            <person xml:id="Moje" sex="male">
+              <persName>
+                <forename>Moje</forename>
+              </persName>
+              <age>barn</age>
+            </person>
+            <person xml:id="Doktorinnan" sex="female">
+              <persName>
+                <roleName>doktorinna</roleName>
+                <forename>Lilli</forename>
+                <surname>Al</surname>
+              </persName>
+            </person>
+            <person xml:id="Lilly" sex="female">
+              <persName>
+                <forename>Lilly</forename>
+                <surname>Al</surname>
+              </persName>
+              <age>18 år</age>
+            </person>
+            <person xml:id="Löjtnanten" sex="male">
+              <age atLeast="19"/>
+              <occupation scheme="#HISCO" code="58320">löjtnant</occupation>
+            </person>
+            <person xml:id="FarbrorFritz" sex="male">
+              <persName>
+                <roleName>farbror</roleName>
+                <forename>Fritz</forename>
+              </persName>
+              <age value="50">50 år</age>
+            </person>
+            <person xml:id="Kandidaten" sex="male">
+              <persName>
+                <roleName>kandidat</roleName>
+                <forename>Erland</forename>
+              </persName>
+              <age atLeast="19"/>
+            </person>
+            <person xml:id="MosterUlla" sex="female">
+              <persName>
+                <roleName>moster</roleName>
+                <forename>Ulla</forename>
+              </persName>
+              <age atLeast="51">minst 51 år</age>
+            </person>
+          </listPerson>
+          <listPerson type="noncast">
+            <listPerson type="fictive">
+              <person xml:id="Lundqvist" sex="male">
+                <persName>
+                  <surname>Lundqvist</surname>
+                </persName>
+              </person>
+              <person xml:id="Pojken" sex="male">
+                <age>barn</age>
+              </person>
+              <person xml:id="Jungfrun" sex="female">
+                <occupation scheme="#HISCO" code="54020">jungfru</occupation>
+              </person>
+              <person xml:id="KandidatensFar" sex="male">
+                <death notAfter-custom="#playstart"/>
+              </person>
+              <listPerson>
+                <personGrp xml:id="Pojkar" sex="male">
+                  <age>barn</age>
+                </personGrp>
+              </listPerson>
+            </listPerson>
+          </listPerson>
+          <listRelation>
+            <relation type="personal" name="gift" mutual="#FruMarika #Patronen"/>
+            <relation type="personal" name="dotter" active="#Mia #Agda" passive="#Patronen #FruMarika"/>
+            <relation type="personal" name="son" active="#Moje" passive="#Patronen #FruMarika"/>
+            <relation type="personal" name="dotter" active="#Lilly" passive="#Doktorinnan"/>
+            <relation type="personal" name="förlovad" mutual="#Lilly #Kandidaten"/>
+            <relation type="personal" name="släkting" cert="medium" active="#Kandidaten" passive="#Patronen #FruMarika"/><!-- eller #Lilly #Doktorinnan, beroende på vad "deras" syftar på i rollförteckningen -->
+            <relation type="personal" name="släkting" active="#FarbrorFritz" passive="#Patronen #FruMarika"/>
+            <relation type="personal" name="släkting" cert="medium" active="#MosterUlla" passive="#FruMarika #Doktorinnan #FarbrorFritz"/>
+            <relation type="personal" name="gäst" active="#Lilly" passive="#MosterUlla"/>
+            <relation type="personal" name="fdfriare" active="#FarbrorFritz" passive="#Doktorinnan" from-custom="#playstart" to-custom="#proposal"/>
+            <relation type="personal" name="friare" active="#FarbrorFritz" passive="#Doktorinnan" from-custom="#proposal" to-custom="#playend"/>
+            <relation type="personal" name="välgörare" active="#FarbrorFritz" passive="#Kandidaten"/>
+            <relation type="personal" name="friare" active="#Löjtnanten" passive="#Lilly" from-custom="#playstart" to-custom="#publicEngagement"/>
+            <relation type="personal" name="frierska" active="#Agda" passive="#Kandidaten" from-custom="#playstart" to-custom="#publicEngagement"/>
+            <relation type="personal" name="frierska" active="#Agda" passive="#Löjtnanten"/>
+            <relation type="personal" name="konkurrent" active="#Agda" passive="#Lilly"/>
+            <relation type="social" name="anställd" cert="medium" active="#Lundqvist" passive="#Patronen #FruMarika"/>
+            <relation type="personal" name="son" active="#Kandidaten" passive="#KandidatensFar"/>
+            <relation type="personal" name="vän" mutual="#FarbrorFritz #KandidatensFar"/>
+            <relation type="personal" name="kamrat" mutual="#Moje #Pojkar"/>
+            <relation type="personal" name="kamrat" mutual="#Mia #Pojkar"/>
+            <relation type="social" name="jungfru" active="#Jungfrun" passive="#MosterUlla"/>
+            <relation type="other" name="ror" active="#Pojken" passive="#Doktorinnan"/>
+          </listRelation>
+        </listPerson>
+        <!-- IDEA: lek -->
+        <!-- IDEA: Nyheterna -->
+      </div>
+    </back>
+    <anchor xml:id="playend"/>
+  </text>
+</TEI>

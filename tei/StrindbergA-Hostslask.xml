@@ -1,0 +1,701 @@
+<!-- $Id: StrindbergA_Hostslask.xml 114254 2015-03-30 09:57:36Z eva $ -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">
+                    <title>Höstslask</title> eller <title>Den Samhällsvådlige Reformatorn</title>
+                </title>
+        <title type="sub">Toalett-pjes af Rococo</title>
+        <author xml:id="StrindbergA">
+          <persName>
+            <forename>August</forename>
+            <surname>Strindberg</surname>
+          </persName>
+          <idno type="LIBRIS">http://libris.kb.se/auth/94541</idno>
+          <idno type="Litteraturbanken">http://litteraturbanken.se/#!forfattare/StrindbergA</idno>
+          <idno type="SBL">http://www.nad.riksarkivet.se/sbl/artikel/34518</idno>
+        </author>
+        <sponsor>
+          <name>Riksteatern, anslagsförvaltare</name>
+        </sponsor>
+        <funder>
+          <name>Vetenskapsrådet</name>
+        </funder>
+        <funder>
+          <name>Riksbankens Jubileumsfond</name>
+        </funder>
+        <editor>
+          <name>Dramawebben</name>
+        </editor>
+        <principal>
+          <persName>Marika V. Lagercrantz</persName>
+        </principal>
+        <respStmt>
+          <resp>kodning</resp>
+          <persName xml:id="LindgrenU">Ulrika Lindgren</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>korrekturläsning</resp>
+          <persName xml:id="MallikG">Gita Mallik</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>korrekturläsning</resp>
+          <persName xml:id="StrindmarNorströmE">Emma Strindmar Norström</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>redigering</resp>
+          <persName xml:id="OlssonLJ">Leif-Jöran Olsson</persName>
+          <orgName>Språkbanken</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>eDrama</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Dramawebben</publisher>
+        <address>
+          <addrLine>http://www.dramawebben.se</addrLine>
+        </address>
+        <idno type="Dramawebben">StrindbergA_Hostslask</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/se/">
+            <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author sameAs="#StrindbergA">
+              <persName type="pseudonym">Rococo</persName>
+            </author>
+            <title type="main" level="a">
+                            <title>Höstslask</title> eller <title>Den Samhällsvådlige Reformatorn</title>
+                        </title>
+            <title type="sub" level="a">Toalett-pjäs. Av Rococo. Fri översättning av August Strindberg.</title>
+          </analytic>
+          <monogr>
+            <editor xml:id="ArnoldsonKP">
+              <persName>
+                <forename>Klas</forename>
+                <forename>Pontus</forename>
+                <surname>Arnoldson</surname>
+              </persName>
+              <idno type="LIBRIS">http://libris.kb.se/auth/214402</idno>
+            </editor>
+            <title level="j">Tiden</title>
+            <title level="j" type="desc">Sverges billigaste dagliga tidning</title>
+            <idno type="LIBRIS">http://libris.kb.se/bib/2825301</idno>
+            <imprint>
+              <pubPlace>Stockholm</pubPlace>
+              <date when="1884">1884</date>
+              <biblScope unit="issue">154</biblScope>
+              <biblScope unit="page" from="884" to="885">884–885</biblScope>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Dramawebben är ett digitalt arkiv över upphovsrättslig fri svensk dramatik. Dramatexterna
+          finns återgivna i fulltext och är publicerade antingen i sk faksimil, ett pdf-dokument där
+          originaltrycket återges som en digital fotokopia, eller i bearbetningsbar text, ett
+          pdf-dokument med text och bild som kan användas för redigering. Dramawebben växer i takt
+          med att nya verk blir kända. Med det digitala pjäsmaterialet tillgängliggör och
+          aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+          förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+          sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
+      </samplingDecl>
+      <classDecl>
+        <taxonomy xml:id="HISCO">
+          <biblStruct>
+            <monogr>
+              <author>Marco H.D. van Leeuwen</author>
+              <author>Ineke Maas</author>
+              <author>Andrew Miles</author>
+              <title>HISCO Historical International Standard Classification of Occupations</title>
+              <idno type="ISBN">90-5867-196-8</idno>
+              <imprint>
+                <publisher>Leuven University Press</publisher>
+                <pubPlace>Leuven</pubPlace>
+                <date when="2002">2002</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+        </taxonomy>
+      </classDecl>
+      <tagsDecl>
+        <rendition>
+          <!-- Rubriker är centrerade -->
+          <!-- Rollposter och stycken i repliker är indragna första raden -->
+          <!-- Talarrubriker är centrerade och i kursiv stil -->
+          <!-- Rumsbeskrivningar anges med normal stil, men med rollnamn i kursiv -->
+          <!-- Scenanvisningar i repliker anges med normal stil och är inline -->
+          <!-- Scenanvisningar mellan repliker är med kursiv stil, centrerade -->
+	  <!-- Paus anges med:
+	       * "...",
+	       * sp-element utan prat,
+	       * Slut. i stage-element.
+	  -->
+        </rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="sv">Swedish</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:id="StrindbergA_Hostslask">
+    <anchor xml:id="playstart"/>
+    <front>
+      <pb facs="35750-0.jpg" n="1"/>
+      <gap reason="irrelevant"/><!-- annan text, titel -->
+      <castList>
+        <head>Toaletter:</head>
+        <castItem>
+          <role xml:id="spMogol">
+                        <persName ref="#Mogol">Mogol</persName>
+                    </role>.
+        </castItem>
+        <castItem>
+          <role xml:id="spLama">
+                        <persName ref="#Lama">Lama</persName>
+                    </role>.
+        </castItem>
+        <castItem>
+          <role xml:id="spRococo">
+                        <persName ref="#Rococo">Rococo</persName>
+                    </role> <roleDesc>eller Den Samhällsvådlige</roleDesc>.
+        </castItem>
+        <castItem>
+          <roleGroup xml:id="spAnsvaringarne">
+                        <roleDesc>
+                            <persName ref="#Ansvaringarne">Ansvaringarne</persName>
+                        </roleDesc>.
+            <role xml:id="spAnsvaringenförFinanserna" corresp="#AnsvaringenförFinanserna"/>
+            <role xml:id="spAnsvaringenförSoldaterna" corresp="#AnsvaringenförSoldaterna"/>
+            <role xml:id="spAnsvaringenförDynastien" corresp="#AnsvaringenförDynastien"/>
+            <role xml:id="spAnsvaringenförLyxen" corresp="#AnsvaringenförLyxen"/>
+          </roleGroup>
+        </castItem>
+        <castItem>
+          <role xml:id="spDeMissnöjda">
+                        <persName ref="#DeMissnöjda">De Missnöjda</persName>
+                    </role>.
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>Akt 1.</head>
+        <stage type="setting" who="#Lama #Mogol">
+          <emph>Mogol</emph> och <emph>Lama</emph>, sittande vid ett
+        <lb/> matbord med två skifvor; dricka cham­
+	<lb break="no"/>pagne och munklikör samt utdela serafi­
+	<lb break="no"/>merordnar och nådemedel.</stage>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Nej, nu börja de bli för svåra. 
+          <lb/> angripa ju samhället ...</p>
+        </sp>
+        <sp who="#spLama">
+          <speaker>Lama:</speaker>
+          <p>Och moralen eller samhällets grund­
+	  <lb break="no"/>valar.</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Que faire?</p>
+        </sp>
+        <sp who="#spLama">
+          <speaker>Lama:</speaker>
+          <p>Man måste sysselsätta dem, ge dem
+          <lb/> något att tänka på, hvad som helst!</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Man måste göra tidsenliga medgifvan­
+	  <lb break="no"/>den, när man lefver i den konstitutionella
+          <lb/> despotismen. Om man till exempel skulle
+          <lb/> gifva dem tillstånd att reformera sam­
+	  <lb break="no"/>hället mot att de reformerade sig sjelfva
+          <lb/> först?</p>
+        </sp>
+        <sp who="#spLama">
+          <speaker>Lama:</speaker>
+          <p>Det är väl taladt <persName ref="#Mogol">Mogol</persName>; så få de nå­
+	  <lb break="no"/>got att sysselsätta sig med. Reformera
+          <lb/> sig sjelfva! Förbannadt roligt sagt! Men vi
+          <lb/> måste ha någon som säger det der, någon
+          <lb/> ur deras egna leder helst; eljest jäfva de
+          <lb/> honom. Känner du någon?</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Skulle jag icke känna mitt folk! —
+          <lb/> Jag känner <persName ref="#Rococo">Rococo</persName>. Han är ung till
+          <lb/> åren, men gammal till förståndet. Han
+          <lb/> har nog vett att begagna asthma och
+          <lb/> snusdosa, samt föraktar icke att gå med
+          <lb/> det fäderneärfda spanska röret, som i
+          <lb/> sekler varit samhällets, familjens och re­
+	  <lb break="no"/>ligionens segaste stöd. Det är <persName ref="#Rococo">min pojke</persName>
+          <lb/> — jag vill inte säga man!</p> <stage>(Tar upp sin
+          <lb/> nyckelknippa och hvisslar.)</stage>
+        </sp>
+      </div>
+      <div type="act" n="2">
+        <head>Akt 2.</head>
+        <stage type="presence" who="#Lama #Mogol #Rococo">De förre. Rococo.</stage>
+        <sp who="#spRococo">
+          <speaker>Rococo:</speaker>
+          <p>Här är jag!</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>
+            <persName ref="#Rococo">Rococo</persName>; gå genast och säg åt <persName ref="#DeMissnöjda">De Miss­
+	    <lb break="no"/>nöjda</persName> att de skola få reformer, om de
+          <lb/> börja med att reformera sig sjelfva.</p>
+        </sp>
+        <sp who="#spRococo">
+          <speaker>Rococo:</speaker>
+          <p>Det kan de inte!</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Det måtte jag väl veta; men du kan
+          <lb/> säga det i alla fall!</p>
+        </sp>
+        <cb n="2"/>
+        <sp who="#spRococo">
+          <speaker>Rococo:</speaker>
+          <p>Ja, det kan jag! Allting kan sägas,
+          <lb/> om det säges fint!</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Väl taladt! Säg det fint nu och visa,
+          <lb/> att du är en klok poj — <persName ref="#Rococo">karl</persName>!</p>
+        </sp>
+        <sp who="#spRococo">
+          <speaker>Rococo:</speaker>
+          <p>Jag hör och lyder!</p>
+          <stage type="exit" who="#Rococo">(Går.)</stage>
+        </sp>
+      </div>
+      <div type="act" n="3">
+        <head>Akt 3.</head>
+        <stage type="setting" who="#DeMissnöjda #Rococo">På Torget. Rococo och De Missnöjda.</stage>
+        <sp who="#spRococo">
+          <speaker>Rococo:</speaker>
+          <p>Ni säga att ni vill ha reformer. Ni
+          <lb/> skall genast få en reform!</p>
+        </sp>
+        <sp who="#spDeMissnöjda">
+          <speaker>Missnöjda:</speaker>
+          <p>Tala!</p>
+        </sp>
+        <sp who="#spRococo">
+          <speaker>Rococo:</speaker>
+          <p>Reformera Er sjelfva!</p>
+        </sp>
+        <sp who="#spDeMissnöjda">
+          <speaker>Missnöjda</speaker>
+          <stage>(rådslå).</stage>
+        </sp>
+        <sp who="#spDeMissnöjda">
+          <speaker>Missnöjda:</speaker>
+          <p>Godt! Vi antaga ditt kungliga tillbud,
+          <lb/> men vi vilja ha fullmakt!</p>
+        </sp>
+        <sp who="#spRococo">
+          <speaker>Rococo:</speaker>
+          <p>Här ha ni kunglig fullmakt på att få
+          <lb/> bli moraliska, sparsamma, nyktra, kyska,
+          <lb/> ordentliga, ärliga. Är det nog?</p>
+        </sp>
+        <sp who="#spDeMissnöjda">
+          <speaker>Missnöjda:</speaker>
+          <p>Det är nog!</p>
+          <stage type="exit" who="#DeMissnöjda">(De gå.)</stage>
+        </sp>
+      </div>
+      <div type="act" n="4">
+        <head>Akt 4.</head>
+        <stage type="setting" who="#AnsvaringenförFinanserna #Mogol">Hos Mogol. Mogol. Ansvaringen för
+        <lb/> Finanserna.</stage>
+        <sp who="#spAnsvaringenförFinanserna">
+          <speaker>Ansvaringen.</speaker>
+          <p>O, store <persName ref="#Mogol">Mogol</persName>, hvilken helvetes refor­
+	  <lb break="no"/>mator har du icke gifvit oss i <persName ref="#Rococo">Rococo</persName>!
+          <lb/> Samhällets grundvalar hota att ramla.</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Hvad nu då?</p>
+        </sp>
+        <sp who="#spAnsvaringenförFinanserna">
+          <speaker>Ansvaringen.</speaker>
+          <p>Han har gått och inbillat <persName ref="#DeMissnöjda">De Missnöjda</persName>
+          <lb/> att de skulle reformera sig sjelfva. Nu
+          <lb/> ha det tagit honom på orden och börjat
+          <lb/> bli nyktra.</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Nå, det är ju godt det!</p>
+        </sp>
+        <sp who="#spAnsvaringenförFinanserna">
+          <speaker>Ansvaringen.</speaker>
+          <p>Är det godt? Statskassan visar en brist
+          <lb/> på 14 millioner bränvinsmedel. Hvar
+          <lb/> skall man ta dem ifrån nu?</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Fjorton millioner äro icke snutna ur
+          <lb/> näsan! Vi få lägga skatt på vin, punsch
+          <lb/> och konjak då.</p>
+        </sp>
+        <sp who="#spAnsvaringenförFinanserna">
+          <speaker>Ansvaringen.</speaker>
+          <p>Går inte! Då få vi högern i uppror.
+          <lb/> Eller också utvandrar den, och då förlo­
+	  <lb break="no"/>rar samhället sitt säkraste stöd.</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Hvad skall man då göra?</p>
+        </sp>
+        <sp who="#spAnsvaringenförFinanserna">
+          <speaker>Ansvaringen.</speaker>
+          <p>Det vet jag inte, och derför ber jag 
+          <lb/> få ställa min portfölj till <persName ref="#Mogol">Ers Mogol</persName>s dis­
+	  <lb break="no"/>position.</p>
+          <stage type="exit" who="#AnsvaringenförFinanserna">(Går.)</stage>
+                    <anchor xml:id="avgår1"/>
+        </sp>
+      </div>
+      <div type="act" n="5">
+        <head>Akt 5.</head>
+        <stage type="presence" who="#AnsvaringenförLyxen #Mogol">Mogol. Ansvaringen för Lyxen.</stage>
+        <sp who="#spMogol">
+          <speaker>Mogol.</speaker>
+          <p>Hvad i Herrans namn är det <unclear>nu</unclear> igen?</p>
+        </sp>
+        <sp who="#spAnsvaringenförLyxen">
+          <speaker>Ansvaringen.</speaker>
+          <p>
+            <persName ref="#Mogol">O, Store Mogol</persName>, det var en olycklig
+            <lb/>
+            <persName ref="#Rococo">reformator</persName> du sände ut. Han <unclear>har</unclear> gått
+            <lb/> och predikat att de skulle <unclear>reformera</unclear> sig
+            <lb/> sjelfva. Och nu ha de blifvit <unclear>sparsamma</unclear>.
+            <lb/> Samhället hotar att störta samman, ty se!
+            <lb/> kanaljerna begagna hvarken <unclear>tobak</unclear>, kaffe
+            <lb/> eller socker. Och statskassan <unclear>företer</unclear> en
+          <lb/> brist på 27 millioner tullmedel.</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol.</speaker>
+          <p>Fjorton och tjugusju, gör mig 41 mil­
+	  <lb break="no"/>lioner; hvar skall man ta dem <unclear>från</unclear>, vi
+          <lb/> få väl lägga tull på vin och <unclear>siden</unclear> då.</p>
+        </sp>
+        <sp who="#spAnsvaringenförLyxen">
+          <speaker>Ansvaringen.</speaker>
+          <p>Duger inte! Då utvandrar <unclear>högern</unclear> och
+          <lb/> då förlorar samhället sitt <unclear>starkaste</unclear> stöd;
+          <lb/> jag skall be att få ställa min <unclear>portfölj</unclear> till
+          <lb/>
+          <persName ref="#Mogol">Ers Mogols</persName> disposition.</p>
+          <stage type="exit" who="#AnsvaringenförLyxen">(Går.)</stage>
+                    <anchor xml:id="avgår2"/>
+        </sp>
+      </div>
+      <div type="act" n="6">
+        <head>Akt 6.</head>
+        <stage type="presence" who="#AnsvaringenförSoldaterna #Mogol">Mogol. Ansvaringen för <unclear>Soldaterna</unclear>
+        </stage>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Hvad kommer du nu med <unclear>för</unclear> olycka?</p>
+        </sp>
+        <sp who="#spAnsvaringenförSoldaterna">
+          <speaker>Ansvaringen.</speaker>
+          <p>
+            <persName ref="#Mogol">O, store Mogol</persName>, hvilken <unclear>enfaldig</unclear> refor­
+            <lb/>mator du sändt till <persName ref="#DeMissnöjda">De <unclear>Missnöjda</unclear>
+          </persName>.</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Hvad har han nu gjort då?</p>
+        </sp>
+        <sp who="#spAnsvaringenförSoldaterna">
+          <speaker>Ansvaringen.</speaker>
+          <p>Han har gifvit dem <unclear>kunglig</unclear> fullmakt
+          <lb/> på att de skulle få <unclear>reformera</unclear> sig sjelfva!
+          <lb/> Och nu säga de att de <unclear>icke</unclear> vilja göra
+          <lb/> krigstjenst emedan det är <unclear>förbjudet</unclear> i La­
+	  <lb break="no"/>gen och Evangelium att <unclear>gripa</unclear> till svärd.
+          <lb/> Jag ber följaktligen få <unclear>ställa</unclear> min port­
+	  <lb break="no"/>följ till <persName ref="#Mogol">Ers Mogols</persName>
+          <unclear>disposition</unclear>.</p>
+          <stage type="exit" who="#AnsvaringenförSoldaterna">(Går.)</stage>
+                    <anchor xml:id="avgår3"/>
+        </sp>
+      </div>
+      <pb facs="35750-1.jpg" n="2"/>
+      <div type="act" n="7">
+        <head>Akt 7.</head>
+        <stage type="presence" who="#Mogol">Mogol. Sedan Ansvaringen för Dyna­
+        <lb/>stien.</stage>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Det här börjar bli betänkligt! Sam­
+	  <lb break="no"/>hället tycks inte vara bygdt på några
+          <lb/> dygder just; vi få lof att desavouera <persName ref="#Rococo">den
+          <lb/> der reformatorn</persName>!</p>
+        </sp>
+        <stage type="entrance" who="#AnsvaringenförDynastien"/>
+        <sp who="#spAnsvaringenförDynastien">
+          <speaker>Ansvaringen.</speaker>
+          <p>
+            <persName ref="#Mogol">O, store Mogol</persName>, <persName ref="#Mogol">Herskare på Guds nå­
+	    <lb break="no"/>der</persName>, samhället är stadt i upplösning. <persName ref="#Rococo">Den
+            <lb/> satans reformatorn</persName> har lyckats göra
+            <lb/>
+            <persName ref="#DeMissnöjda">De Missnöjda</persName> moraliska, och nu säga de
+            <lb/> upp sin trohetsed till Dynastien, emedan
+          <lb/> de anse omoraliskt att understödja Dyna­
+	  <lb break="no"/>stien! Hvad skall man ta sig till?</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Vi ha armén!</p>
+        </sp>
+        <sp who="#spAnsvaringenförDynastien">
+          <speaker>Ansvaringen.</speaker>
+          <p>Vi ha icke armén! Den har också
+          <lb/> blifvit moralisk!</p>
+          <stage type="exit" who="#AnsvaringenförDynastien">(Går).</stage>
+                    <anchor xml:id="avgår4"/>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>O, ve dig <persName ref="#Lama">Lama</persName>, som gaf mig ett sådant
+          <lb/> råd! Hvad skola vi nu göra?</p>
+        </sp>
+      </div>
+      <div type="act" n="8">
+        <head>Akt 8.</head>
+        <stage type="presence" who="#Lama #Mogol">Mogol. Lama.</stage>
+        <sp who="#spLama">
+          <speaker>Lama:</speaker>
+          <p>Jo, nu är det ljust! Den fördömda
+          <lb/> <persName ref="#Rococo">Rococo</persName> har gått och gifvit dem lof att
+          <lb/> reformera sig sjelfva. Nu ha de utträdt
+          <lb/> ur statskyrkan, emedan de anse det omo­
+	  <lb break="no"/>raliskt att understödja en lära, som de
+          <lb/> ej tro på.</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Hvar är ve, hvar är sorg, hvar är <persName ref="#BergCO">C.
+          <lb/> O. Berg</persName>?</p>
+        </sp>
+        <sp who="#spLama">
+          <speaker>Lama:</speaker>
+          <p>Han har också utträdt ur statskyrkan!</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Äfven han har blifvit moralisk! Hvar
+          <lb/> skall detta sluta?</p>
+        </sp>
+        <sp who="#spLama">
+          <speaker>Lama:</speaker>
+          <p>Vi måste utvandra! Det är alltsam­
+	  <lb break="no"/>mans. Ingen dynasti, ingen armé, in­
+	  <lb break="no"/>gen kyrka! Nej då var det mycket bättre
+          <lb/> när de voro omoraliska! Samhällets grund­
+<lb break="no"/>val tycks verkligen vara immoralitet!</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Hvad skall man då göra?</p>
+        </sp>
+        <sp who="#spLama">
+          <speaker>Lama:</speaker>
+          <p>Låtom oss vara omoraliska!</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Nej, fins det ingen medelväg? Tänk
+          <lb/> om vi skulle börja med att reformera
+          <lb/> samhället!</p>
+        </sp>
+        <sp who="#spLama">
+          <speaker>Lama:</speaker>
+          <p>Det vore kanske inte så galet!</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Observera att jag säger <emph>vi</emph>! <emph>De</emph> få
+          <lb/> inte ta någon befattning med så ömtå­
+	  <lb break="no"/>liga saker.</p>
+        </sp>
+        <sp who="#spLama">
+          <speaker>Lama:</speaker>
+          <p>Ska <persName ref="#Rococo">Rococo</persName> få vara med om det också,
+          <lb/> då emigrerar jag!</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol</speaker>
+          <stage>(hvisslar).</stage>
+        </sp>
+      </div>
+      <div type="act" n="9">
+        <head>Akt 9.</head>
+        <stage type="presence" who="#Lama #Mogol #Rococo">De förre. Rococo.</stage>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Du är en åsna <persName ref="#Rococo">Rococo</persName>! Jag desavou­
+	  <lb break="no"/>erar dig!</p>
+        </sp>
+        <sp who="#spLama">
+          <speaker>Lama:</speaker>
+          <p>Vi desavouera dig!</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Men en klok monark låter icke någon
+          <lb/> gå missnöjd från sig! Se här <persName ref="#Rococo">Rococo</persName>!</p>
+        </sp>
+        <sp who="#spRococo">
+          <speaker>Rococo:</speaker>
+          <p>Serafimen!</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Som ett uttryck för min personliga akt­
+	  <lb break="no"/>ning för din goda vilja. Ditt goda för­
+	  <lb break="no"/>stånd — det vill jag inte ge något för!</p>
+        </sp>
+        <sp who="#spLama">
+          <speaker>Lama:</speaker>
+          <p>Som ett uttryck af min personliga tack­
+          <lb/>samhet. ...</p>
+          <stage>(vill meddela <persName ref="#Rococo">Rococo</persName> nåde­
+	  <lb break="no"/>medlen).</stage>
+        </sp>
+        <sp who="#spRococo">
+          <speaker>Rococo</speaker>
+          <stage type="exit" who="#Rococo">(går).</stage>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Det var en <persName ref="#Rococo">samhällsvådlig reformator</persName>!</p>
+        </sp>
+        <sp who="#spLama">
+          <speaker>Lama:</speaker>
+          <p>Som föraktar nådemedlen!</p>
+        </sp>
+        <sp who="#spMogol">
+          <speaker>Mogol:</speaker>
+          <p>Låt oss nu börja vårt omvändelsearbete
+          <lb/> på <persName ref="#DeMissnöjda">de reformerade missnöjda</persName>! Det blir
+          <lb/> kanske inte så lätt att <choice>
+                            <sic>demoralisa</sic>
+                            <corr>demoralisera</corr>
+                        </choice> dem
+          <lb/> igen, <unclear>men</unclear>. ...</p>
+        </sp>
+        <sp who="#spLama">
+          <speaker>Lama:</speaker>
+          <p>I Den Treenige Gudens namn! Till
+          <lb/> verket! Samhället måste räddas, ty him­
+	  <lb break="no"/>mel och jord månde förgås, men sam­
+	  <lb break="no"/>hället <unclear>skall</unclear> stå!</p>
+        </sp>
+        <stage>Slut.</stage>
+      </div>
+    </body>
+    <back>
+      <div type="editorial">
+        <listPerson>
+          <listPerson type="cast">
+            <person xml:id="Mogol" sex="male">
+              <persName>Mogol</persName>
+            </person>
+            <person xml:id="Lama" sex="male">
+              <persName>Lama</persName>
+            </person>
+            <person xml:id="Rococo" sex="male">
+              <persName>Rococo</persName>
+              <note>pojk/man</note>
+            </person>
+            <listPerson>
+              <personGrp xml:id="Ansvaringarne" role="Ansvaringarne" sex="male" size="4"/>
+              <person xml:id="AnsvaringenförFinanserna" sex="male"/>
+              <person xml:id="AnsvaringenförSoldaterna" sex="male"/>
+              <person xml:id="AnsvaringenförDynastien" sex="male"/>
+              <person xml:id="AnsvaringenförLyxen" sex="male"/>
+            </listPerson>
+            <listPerson>
+              <personGrp xml:id="DeMissnöjda" sex="mixed"/>
+            </listPerson>
+          </listPerson>
+          <listPerson type="noncast">
+            <listPerson type="historical">
+              <person xml:id="BergCO" sex="male">
+                <persName>
+                  <forename>Carl</forename>
+                  <forename>Oscar</forename>
+                  <surname>Berg</surname>
+                </persName>
+                <occupation>riksdagsledamot</occupation>
+                <occupation scheme="#HISCO" code="14120">predikant</occupation><!-- Riksdagsledamot, Tidningsredaktör, Grosshandlare, Nykterist, EFS-predikant -->
+                <idno type="LIBRIS">http://libris.kb.se/auth/273732</idno>
+                <idno type="SBL">http://www.nad.riksarkivet.se/sbl/artikel/18538</idno>
+                <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Oscar_Berg_%28politiker%29</idno>
+              </person>
+            </listPerson>
+          </listPerson>
+          <listRelation>
+	    <!-- Refereras till som "min pojke" med fäderneärvd käpp mm. /ljo -->
+            <relation type="personal" name="son" active="#Rococo" passive="#Mogol" cert="low"/>
+            <relation type="social" name="despot" active="#Mogol" passive="#Ansvaringarne #DeMissnöjda #Lama #Rococo"/>
+            <relation type="social" name="minister" active="#AnsvaringenförDynastien" passive="#Mogol" notAfter-custom="#avgår4"/>
+            <relation type="social" name="minister" active="#AnsvaringenförFinanserna" passive="#Mogol" notAfter-custom="#avgår1"/>
+            <relation type="social" name="minister" active="#AnsvaringenförLyxen" passive="#Mogol" notAfter-custom="#avgår2"/>
+            <relation type="social" name="minister" active="#AnsvaringenförSoldaterna" passive="#Mogol" notAfter-custom="#avgår3"/>
+            <relation type="social" name="reformator" active="#Rococo" passive="#DeMissnöjda"/>
+            <relation type="social" name="rådgivare" active="#Lama" passive="#Mogol"/>
+            <relation type="other" name="undersåtar" mutual="#DeMissnöjda #Rococo"/><!-- är de verkligen undersåtar till varandra? /EF -->
+            <relation type="other" name="ansp.på" active="#Mogol" passive="#BergCO"/>
+          </listRelation>
+        </listPerson>
+      </div>
+    </back>
+    <anchor xml:id="playend"/>
+  </text>
+</TEI>

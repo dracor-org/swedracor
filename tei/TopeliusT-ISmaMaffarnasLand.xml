@@ -1,0 +1,548 @@
+<!-- $Id: TopeliusT_ISmaMaffarnasLand.xml 112747 2015-03-05 12:53:32Z eva $ -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">I små maffarnas land</title>
+        <author xml:id="TopeliusT">
+          <persName>
+            <forename>Toino</forename>
+            <surname>Topelius</surname>
+          </persName>
+          <idno type="LIBRIS">http://libris.kb.se/author/268119</idno>
+        </author>
+        <sponsor>
+          <name>Riksteatern, anslagsförvaltare</name>
+        </sponsor>
+        <funder>
+          <name>Vetenskapsrådet</name>
+        </funder>
+        <funder>
+          <name>Riksbankens Jubileumsfond</name>
+        </funder>
+        <editor>
+          <name>Dramawebben</name>
+        </editor>
+        <principal>
+          <persName>Marika V. Lagercrantz</persName>
+        </principal>
+        <respStmt>
+          <resp>kodning</resp>
+          <persName xml:id="ErnstM">Manilla Ernst</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>korrekturläsning</resp>
+          <persName xml:id="BackhammarT">Tove Backhammar</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>korrekturläsning</resp>
+          <persName xml:id="BergströmS">Sara Bergström</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>redigering</resp>
+          <persName xml:id="OlssonLJ">Leif-Jöran Olsson</persName>
+          <orgName>Språkbanken</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>redigering</resp>
+          <persName xml:id="ForsbomE">Eva Forsbom</persName>
+          <orgName>Dramawebben</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>eDrama</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Dramawebben</publisher>
+        <address>
+          <addrLine>http://www.dramawebben.se</addrLine>
+        </address>
+        <idno type="Dramawebben">TopeliusT_ISmaMaffarnasLand</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/se/">
+            <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author sameAs="#TopeliusT">
+              <persName>Toini Topelius</persName>
+            </author>
+            <title level="a" type="main">I små maffarnas land</title>
+          </analytic>
+          <monogr>
+            <author sameAs="#TopeliusT">
+              <persName>Toini Topelius</persName>
+            </author>
+            <author xml:id="HögstedtA" role="illustrator">
+              <persName>
+                <forename>Arthur</forename>
+                <surname>Högstedt</surname>
+              </persName>
+              <idno type="LIBRIS">http://libris.kb.se/auth/238274</idno>
+            </author>
+            <title level="m" type="main">Sommarsjö och vintersnö</title>
+            <title level="m" type="sub">Sagor och berättelser</title>
+            <idno type="LIBRIS">http://libris.kb.se/bib/1664152</idno>
+            <imprint>
+              <pubPlace>Stockholm</pubPlace>
+              <publisher>Albert Bonniers förlag</publisher>
+              <date when="1897">1897</date>
+              <respStmt>
+                <resp>tryckning</resp>
+                <orgName>Alb. Bonniers boktryckeri</orgName>
+              </respStmt>
+              <biblScope unit="page" from="89" to="93">89–93</biblScope>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Dramawebben är ett digitalt arkiv över upphovsrättslig fri svensk dramatik. Dramatexterna
+        finns återgivna i fulltext och är publicerade antingen i sk faksimil, ett pdf-dokument där
+        originaltrycket återges som en digital fotokopia, eller i bearbetningsbar text, ett
+        pdf-dokument med text och bild som kan användas för redigering. Dramawebben växer i takt
+        med att nya verk blir kända. Med det digitala pjäsmaterialet tillgängliggör och
+        aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+        kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+        olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+        författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
+        förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+        närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+        en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+        Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
+        sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
+      </samplingDecl>
+      <classDecl>
+        <taxonomy xml:id="HISCO">
+          <biblStruct>
+            <monogr>
+              <author>Marco H.D. van Leeuwen</author>
+              <author>Ineke Maas</author>
+              <author>Andrew Miles</author>
+              <title>HISCO Historical International Standard Classification of Occupations</title>
+              <idno type="ISBN">90-5867-196-8</idno>
+              <imprint>
+                <publisher>Leuven University Press</publisher>
+                <pubPlace>Leuven</pubPlace>
+                <date when="2002">2002</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+        </taxonomy>
+      </classDecl>
+      <editorialDecl>
+        <p>Vid övergången från första till andra scenen gömmer sig Elsa bakom en sten, som hon
+          nästan genast kryper fram från. Det är oklart om hon syns för publiken eller ej. Vi
+          har tolkat det som om hon syns, och inte kodat det som sorti respektive entré.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition>
+          <!-- Scenanvisningar anges med kursiv stil /EF -->
+          <!-- Scenbeskrivning anges med normal stil /EF -->
+          <!-- Rubriker är centrerade /EF -->
+          <!-- Talarrubriker och repliker är inline, och indragna första raden /EF -->
+          <!-- Talarrubriker är i mindre punktstorlek /EF -->
+          <!-- Scenanvisningar utanför repliker är indragna första raden /EF -->
+        </rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="sv">Swedish</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:id="TopeliusT_ISmaMaffarnasLand">
+    <anchor xml:id="playstart"/>
+    <front>
+      <pb facs="38555-0.jpg"/><!-- pärm -->
+      <gap reason="irrelevant"/>
+      <pb facs="38555-1.jpg"/><!-- insida pärm -->
+      <pb facs="38555-2.jpg"/><!-- tom sida (med anteckning författarens namn) -->
+      <pb facs="38555-3.jpg"/><!-- tom sida -->
+      <pb facs="38555-4.jpg"/><!-- smutstitel -->
+      <gap reason="irrelevant"/>
+      <pb facs="38555-5.jpg"/><!-- tom sida -->
+      <pb facs="38555-6.jpg"/><!-- tom sida -->
+      <pb facs="38555-7.jpg"/><!-- illustration -->
+      <gap reason="irrelevant"/>
+      <pb facs="38555-8.jpg"/><!-- titelsida volym -->
+      <gap reason="irrelevant"/>
+      <pb facs="38555-9.jpg"/><!-- trycksida -->
+      <gap reason="irrelevant"/>
+      <pb facs="38555-10.jpg"/>
+      <gap reason="irrelevant"/><!-- titel  -->
+      <castList>
+        <head>PERSONER:</head>
+        <castItem>
+          <role xml:id="spElsa">
+                        <persName ref="#Elsa">ELSA</persName>
+                    </role>, <roleDesc>skolflicka</roleDesc>.
+        </castItem>
+        <castItem>
+          <roleGroup>
+            <roleDesc>TRE SMÅ MAFFAR i röda mössor</roleDesc>.
+            <role xml:id="spMaffeNo1" corresp="#MaffeNo1"/>
+            <role xml:id="spMaffeNo2" corresp="#MaffeNo2"/>
+            <role xml:id="spMaffeNo3" corresp="#MaffeNo3"/>
+          </roleGroup>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <stage type="setting">Scenen föreställer en skog i vinterskrud. Alla gra­<lb break="no"/>nar bära hvita bräm på sina gröna rockar, alla stubbar
+          <lb/> och buskar äro klädda i hvita ullkragar kring hvar­<lb break="no"/>enda stör. De stora, runda stenarna se ut som klickar
+          <lb/> af snömos på en sockrad kaka, solen skiner, och luften
+          <lb/> doftar af friskhet.</stage>
+        <div type="scene" n="1">
+          <head> Första scenen.</head>
+          <stage>
+                        <stage type="entrance" who="#Elsa">Elsa kommer vandrande med skolväskan på armen.</stage>
+            <lb/> Också hon bär hvit mössa och under denna glada ögon och
+            <lb/> röda kinder.</stage>
+          <sp who="#spElsa">
+            <speaker>ELSA.</speaker> <p>Så, ja, nu är jag ju i skogen, och den är
+              <lb/> då bra mycket vackrare än gatorna i staden, ja, än själfva
+              <pb facs="38555-11.jpg"/>
+                            <fw type="pageNum">90</fw>
+              esplanaden. <stage>(Pustar.)</stage> Puff, hvad jag är varm... jag
+              <lb/> har gått för fort... jag sprang från <orgName ref="#Skolan">skolan</orgName> i förargelse
+              <lb/> <stage>(skrattar)</stage>, ja, i riktig förargelse öfver att jag igen fick
+              <lb/> påminnelse om att icke prata under timmen. Som om
+              <lb/> nu <emph>det</emph> vore så förskräckligt! Hvarför har jag fått min
+              <lb/> mun, om inte för att bruka den?... <persName ref="#Mamma">Mamma</persName> kallar mig
+              <lb/> sin lilla slabbertrut och påstår, att jag behöfver tio gån­<lb break="no"/>ger flera ord än andra människor. Rår jag för, att mitt
+              <lb/> ordförråd är så rikt?...Inte är jag någon nors, som
+              <lb/> bara plaskar med sina fenor, jag måste få prata, tala,
+              <lb/> berätta, skratta, sjunga, bullra, hoppa, dansa, springa,
+              <lb/> tralla... trallarallara! Andra kunna snörpa på munnen,
+              <lb/> så här, och tiga som sillar, men det kan inte jag,
+              <lb/> ... ack nej <stage>(suckar)</stage>, inte ens under timmarna.</p>
+            <p>... Men nu vill jag sätta mig här en stund, jag är
+              <lb/> just som litet trött. Var så god, lilla drifva, och gif
+              <lb/> plats! <stage>(Hon sopar bort snön från en sten och sätter sig.)</stage>
+              <lb/> Hvad här är vackert... och så tyst, så tyst, som i en
+              <lb/> kyrka. Inte ett ljud. Jag undrar huru träden och
+              <lb/> buskarna meddela sig med hvarandra, när de inte kunna
+              <lb/> tala. Tänk, om jag vore stum!... Brrr, det vore det
+              <lb/> värsta som kunde hända mig. Att inte kunna läsa upp
+              <lb/> verser utantill och inte kunna... prata under timmen!
+              <lb/> Nej, då håller jag hällre min tunga, om den också skaffar
+              <lb/> mig bannor emellanåt.</p>
+            <p>Men hvad i all världen rör sig där borta... är det
+              <lb/> harar, eller är det snödrifvorna, som fått lif?... Men
+              <lb/> aldrig har jag sett harar med röda mössor... bara det
+              <lb/> inte... bara det inte är troll! Det är bäst jag gömmer
+              <lb/> mig här bakom stenen, tills de gått förbi. <stage>(Hon hukar
+              <lb/> sig ned bakom en stor sten.)</stage>
+                        </p>
+          </sp>
+        </div>
+        <pb facs="38555-12.jpg"/>
+                <fw type="pageNum">91</fw>
+        <div type="scene" n="2">
+          <head>Andra scenen.</head>
+          <stage type="setting">
+                        <stage type="entrance" who="#MaffeNo1 #MaffeNo2 #MaffeNo3">Tre små maffar i mjuka, hvita kläder och med röda
+            <lb/> toppmössor komma intrippande.</stage> De bära räfsor på axlarna
+            <lb/> och hvar sin korg i handen, samt tyckas inbegripna i ett
+            <lb/> tyst, men lifligt samtal.</stage>
+          <sp who="#spElsa">
+            <speaker>ELSA</speaker> <stage>(bakom stenen).</stage> <p>Hvad de äro söta... lustiga
+              <lb/> små kräk! De likna hvita kattor eller harar eller snö­<lb break="no"/>gubbar. Hvad månne de ämna göra... jag stiger fram
+              <lb/> och frågar... <stage>(Kryper fram. <persName ref="#MaffeNo1 #MaffeNo2 #MaffeNo3">Små maffarna</persName> se bestörta
+              <lb/> ut.)</stage> <persName ref="#MaffeNo1 #MaffeNo2 #MaffeNo3">Mina ärade små dockgubbar</persName>, hvad äro ni för folk,
+              <lb/> om jag törs fråga?</p>
+          </sp>
+          <sp who="#spMaffeNo1">
+            <speaker>MAFFE N:O 1</speaker> <stage>(bockar).</stage> <p>Pö!</p>
+          </sp>
+          <sp who="#spElsa">
+            <speaker>ELSA.</speaker> <p>Hvad befalls? Jag hörde ej riktigt.</p>
+          </sp>
+          <sp who="#spMaffeNo2">
+            <speaker>MAFFE N:O 2</speaker> <stage>(bockar).</stage> <p>Pö!</p>
+          </sp>
+          <sp who="#spElsa">
+            <speaker>ELSA.</speaker> <p>Pö? Hvad betyder det? Är det tomtespråk?</p>
+          </sp>
+          <sp who="#spMaffeNo1 #spMaffeNo2 #spMaffeNo3">
+            <speaker>MAFFARNA</speaker> <stage>(skratta och nicka).</stage>
+          </sp>
+          <sp who="#spElsa">
+            <speaker>ELSA.</speaker> <p>Jaså, ni äro då något slags små tomtar.
+              <lb/> Hvart äro ni nu på väg?</p>
+          </sp>
+          <sp who="#spMaffeNo1">
+            <speaker>MAFFE N:O 1</speaker> <stage>(visar på sin räfsa och pekar inåt sko­<lb break="no"/>gen).</stage> <p>Pö!</p>
+          </sp>
+          <sp who="#spElsa">
+            <speaker>ELSA.</speaker> <p>Igen pö! Det var lustigt. Menar du, att
+              <lb/> ni skola gå och räfsa där borta? <stage>(<persName ref="#MaffeNo1 #MaffeNo2 #MaffeNo3">Maffarna</persName> nicka.)</stage> Det var lustigt. Hvad
+              <lb/> göra ni då med snön?... Äta ni den?</p>
+          </sp>
+          <sp who="#spMaffeNo1 #spMaffeNo2 #spMaffeNo3">
+            <speaker>MAFFARNA</speaker> <stage>(skratta och skaka på hufvudet).</stage> <p>Pö!</p>
+          </sp>
+          <sp who="#spElsa">
+            <speaker>ELSA.</speaker> <p>Jaså, ni äta den inte. Hvad göra ni då med
+              <lb/> den?</p>
+          </sp>
+          <anchor type="hand" xml:id="handprat1start"/>
+          <sp who="#spMaffeNo3">
+            <speaker>MAFFE N:O 3</speaker> <stage>(härmar en <rs type="hand" ref="#handrekv1">spinnrock</rs>).</stage> <p>Pö!</p>
+          </sp>
+          <sp who="#spElsa">
+            <speaker>ELSA.</speaker> <p>Spinna den till tråd... och väfva den sedan?</p>
+          </sp>
+          <pb facs="38555-13.jpg"/>
+                    <fw type="pageNum">92</fw>
+          <sp who="#spMaffeNo1 #spMaffeNo2 #spMaffeNo3">
+            <speaker>MAFFARNA</speaker> <stage>(nicka och härma en <rs type="hand" ref="#handrekv2">väfstol</rs>).</stage> <p>Pö!</p>
+          </sp>
+          <sp who="#spElsa">
+            <speaker>ELSA.</speaker> <p>Nej, så roligt! Äro edra kläder af <rs type="hand" ref="#handrekv3">snöväf</rs>?</p>
+          </sp>
+          <sp who="#spMaffeNo1 #spMaffeNo2 #spMaffeNo3">
+            <speaker>MAFFARNA</speaker> <stage>(nicka).</stage> <p>Pö!</p>
+          </sp>
+          <sp who="#spElsa">
+            <speaker>ELSA.</speaker> <p>Men <rs type="hand" ref="#handrekv4">edra mössor</rs> äro röda, inte finns det
+              <lb/> röd snö. Hvad äro de utaf?</p>
+          </sp>
+          <sp who="#spMaffeNo2">
+            <speaker>MAFFE N:O 2</speaker> <stage>(tar ett tranbär ur sin korg och klämmer
+              <lb/> dess saft på snön).</stage> <p>Pö!</p>
+          </sp>
+          <sp who="#spElsa">
+            <speaker>ELSA.</speaker> <p>Åh... så vackert! Af den röda snön sticka
+              <lb/> ni sedan <rs type="hand" ref="#handrekv4">små mössor</rs>. Det vore roligt att kunna. Är det ni, som väft <rs type="hand" ref="#handrekv5">pälsar</rs> åt alla stenar och <rs type="hand" ref="#handrekv6">kragar</rs> åt alla
+              <lb/> gärdesgårdsstörar? Då måtte ni vara rysligt flitiga för
+              <lb/> att hinna få hela den stora skogen färdig om hösten.
+              <lb/> Men ni måtte väl vara flera än tre? Huru många äro ni?</p>
+          </sp>
+          <sp who="#spMaffeNo1">
+            <speaker>MAFFE N:O 1</speaker> <stage>(räknar lifligt på fingrarna).</stage> <p>Pö!</p>
+          </sp>
+          <sp who="#spElsa">
+            <speaker>ELSA.</speaker> <p>Hundra?... Tusen... millioner? Nå, det
+              <lb/> låter höra sig, då ha ni råd att vara litet lata ibland.
+              <lb/> Det är således ni, som kläda skogen så vacker, som
+              <lb/> bädda drifvorna så hvita och mjuka, ni, som hänga upp
+              <lb/> <rs type="hand" ref="#handrekv7">gardiner</rs> och <rs type="hand" ref="#handrekv8">draperier</rs> kring alla stubbar och gärdes­<lb break="no"/>gårdsstörar! Hvad ni måtte ha roligt. <persName ref="#Kungen">Kungens</persName> slott
+              <lb/> är, tror jag, icke så vackert som er skog, när solen
+              <lb/> kommer alla diamanter och kristaller att gnistra. Men
+              <lb/> säg mig, när ni arbeta så duktigt, så måtte ni väl också
+              <lb/> vara rätt hungriga ibland. Hvad äta ni?</p>
+          </sp>
+          <anchor type="hand" xml:id="handprat1slut"/>
+          <sp who="#spMaffeNo1">
+            <speaker>MAFFE N:O 1</speaker> <stage>(tecknar lifligt).</stage> <p>Pö!</p>
+          </sp>
+          <sp who="#spElsa">
+            <speaker>ELSA</speaker> <stage>(öfversätter).</stage> <p>Sol... Luft... Dofter... Intet
+              <lb/> annat? Ack, det skulle inte <emph>jag</emph> bli mätt af... Men det
+              <lb/> är märkvärdigt, huru bra jag förstår er. Har ert språk
+              <lb/> verkligen inte mer än ett ord? <stage>
+                                <persName ref="#MaffeNo1 #MaffeNo2 #MaffeNo3">Maffarna</persName> skaka på huf­<lb break="no"/>vudet.)</stage> Inte? Det var underligt, det var ett lätt språk.
+              <lb/> Det skulle <persName ref="#Mamma">mamma</persName> tycka om att höra mig tala. <persName ref="#Mamma">Mamma</persName>,
+              <lb/> som brukar säga, att jag behöfver så många ord. Tänk,
+              <pb facs="38555-14.jpg"/>
+                            <fw type="pageNum">93</fw>
+              om jag komme hem och inte sade något annat än: <said who="#Elsa">
+                                <emph>pö!</emph>
+                            </said>
+              <lb/> Så de skulle titta på mig! <persName ref="#Lisa">Lisa</persName> skulle slå ihop händerna
+              <lb/> och säga: <said who="#Lisa">jag tror <persName ref="#Elsa">Elsa</persName> tappat tungan där borta i skogen</said>.
+              <lb/> Och <persName ref="#Atte">bror Atte</persName> skulle inte ha någon att munhuggas med.
+              <lb/> Men <persName ref="#Mamma">mamma</persName> skulle kyssa mig och säga: <said who="#Mamma">det var då för
+              <lb/> väl, <persName ref="#Elsa">kära barn</persName>, att du slipper få bannor i <orgName ref="#Skolan">skolan</orgName>
+                            </said>. Jag
+              <lb/> tror värkligen, att jag försöker lära mig ert språk.</p>
+          </sp>
+          <stage>(<persName ref="#MaffeNo1 #MaffeNo2 #MaffeNo3">Små maffarna</persName> teckna alla på en gång och säga gång
+            <lb/> på gång: <emph>pö!</emph>
+                    </stage>
+          <sp who="#spElsa">
+            <speaker>ELSA.</speaker> <p>Jag förstår, man måste taga ögon och mun
+              <lb/> och näsa och händer och fötter till hjälp, om man vill
+              <lb/> uttrycka sig på ert språk. När jag vill ha en smörgås,
+              <lb/> säger jag: <said who="#Elsa">pö!</said> och gör så här: <stage>(Tecknar som om hon
+              <lb/> bredde smör på en brödbit och sedan åt upp den.)</stage>
+                        </p>
+          </sp>
+          <sp who="#spMaffeNo1 #spMaffeNo2 #spMaffeNo3">
+            <speaker>MAFFARNA</speaker> <stage>(klappa i händerna).</stage> <p>Pö!</p>
+          </sp>
+          <sp who="#spElsa">
+            <speaker>ELSA.</speaker> <p>Men jag undrar, hvad <persName ref="#Lärarinnor">mina lärarinnor</persName> skulle
+              <lb/> säga, om jag svarade <emph>pö!</emph> på alla frågor! Eller om <persName ref="#Klassen">hela
+              <lb/> klassen</persName> skulle uttrycka sig så här <stage>(gestikulerar, grimaserar
+              <lb/> och sprattlar med benen):</stage> Men ett roligt språk skulle
+              <lb/> det vara. Aldrig några bannor för »<emph>mong</emph>», »<emph>tong</emph>» och
+              <lb/> »schamä» i franskan; aldrig något krångel med <emph>der</emph>, <emph>die</emph>,
+              <lb/> <emph>das</emph> i tyskan. Tack skall ni ha, <persName ref="#MaffeNo1 #MaffeNo2 #MaffeNo3">små maffar</persName>, att ni lärt
+              <lb/> mig edert språk.</p>
+          </sp>
+          <stage>(<persName ref="#MaffeNo1 #MaffeNo2 #MaffeNo3">Maffarna</persName> skratta, nicka och bocka, taga sina räfsor
+            <lb/> på axeln, korgen i handen och sätta sig i gång inåt skogen.)</stage>
+          <sp who="#spElsa">
+            <speaker>ELSA.</speaker> <p>Adjö, adjö med er! Nu går jag hem till
+              <lb/> <persName ref="#Mamma">mamma</persName>, slår armarna kring hennes hals och säger: <said who="#Elsa">
+                                <emph>pö!</emph>
+                            </said>
+              <lb/> Och då förstår hon nog att jag säger: <said who="#Elsa">älskade <persName ref="#Mamma">mamma</persName>,
+              <lb/> det är så roligt att vara hemma hos dig igen!</said>
+                        </p>
+          </sp>
+        </div>
+      </div>
+    </body>
+    <back>
+      <pb facs="38555-15.jpg"/><!-- innehållsförteckning -->
+      <gap reason="irrelevant"/>
+      <pb facs="38555-16.jpg"/><!-- tom sida -->
+      <pb facs="38555-17.jpg"/><!-- tom sida -->
+      <pb facs="38555-18.jpg"/><!-- tom sida -->
+      <pb facs="38555-19.jpg"/><!-- illustration -->
+      <gap reason="irrelevant"/>
+      <div type="editorial">
+        <listPerson>
+          <listPerson type="cast">
+            <person xml:id="Elsa" sex="female">
+              <persName>
+                <forename>Elsa</forename>
+              </persName>
+              <age>barn</age>
+            </person>
+            <person xml:id="MaffeNo1" sex="unknown"/>
+            <person xml:id="MaffeNo2" sex="unknown"/>
+            <person xml:id="MaffeNo3" sex="unknown"/>
+          </listPerson>
+          <listPerson type="noncast">
+            <listPerson type="fictive">
+              <person xml:id="Mamma" sex="female"/>
+              <person xml:id="Lisa" sex="female">
+                <persName>
+                  <forename>Lisa</forename>
+                </persName>
+              </person>
+              <person xml:id="Atte" sex="male">
+                <persName>
+                  <forename>Atte</forename>
+                </persName>
+              </person>
+              <listPerson>
+                <personGrp xml:id="Lärarinnor" sex="female">
+                  <occupation scheme="#HISCO" code="13000">lärarinna</occupation>
+                </personGrp>
+              </listPerson>
+              <listPerson>
+                <personGrp xml:id="Klassen" sex="mixed">
+                  <age>barn</age>
+                </personGrp>
+              </listPerson>
+              <person xml:id="Kungen" sex="male">
+                <persName>
+                  <roleName>kung</roleName>
+                </persName>
+              </person>
+            </listPerson>
+          </listPerson>
+          <listRelation>
+            <relation type="personal" name="dotter" active="#Elsa" passive="#Mamma"/>
+            <relation type="personal" name="son" active="#Atte" passive="#Mamma"/>
+            <relation type="personal" name="bekant" mutual="#Elsa #Lisa"/>
+            <relation type="social" name="lärarinna" active="#Lärarinnor" passive="#Skolan"/>
+            <relation type="social" name="elev" active="#Elsa #Klassen" passive="#Skolan"/>
+            <relation type="other" name="bannade" active="#Lärarinnor" passive="#Elsa" notAfter-custom="#playstart"/>
+            <relation type="other" name="elev" active="#Elsa" passive="#MaffeNo1 #MaffeNo2 #MaffeNo3"/>
+            <relation type="other" name="jämförs.med" active="#MaffeNo1 #MaffeNo2 #MaffeNo3" passive="#Kungen"/>
+          </listRelation>
+        </listPerson>
+        <listOrg>
+          <org xml:id="Skolan"/>
+        </listOrg>
+        <fs type="hand" xml:id="handrekv1">
+          <f name="props">
+                        <symbol value="spinnrock"/>
+                    </f>
+        </fs>
+        <fs type="hand" xml:id="handrekv2">
+          <f name="props">
+                        <symbol value="vävstol"/>
+                    </f>
+        </fs>
+        <fs type="hand" xml:id="handrekv3">
+          <f name="props">
+                        <symbol value="snöväv"/>
+                    </f>
+        </fs>
+        <fs type="hand" xml:id="handrekv4">
+          <f name="props">
+                        <symbol value="mössor"/>
+                    </f>
+          <f name="slut" fVal="#playstart"/>
+        </fs>
+        <fs type="hand" xml:id="handrekv5">
+          <f name="props">
+                        <symbol value="pälsar"/>
+                    </f>
+          <f name="slut" fVal="#playstart"/>
+        </fs>
+        <fs type="hand" xml:id="handrekv6">
+          <f name="props">
+                        <symbol value="kragar"/>
+                    </f>
+          <f name="slut" fVal="#playstart"/>
+        </fs>
+        <fs type="hand" xml:id="handrekv7">
+          <f name="props">
+                        <symbol value="gardiner"/>
+                    </f>
+          <f name="slut" fVal="#playstart"/>
+        </fs>
+        <fs type="hand" xml:id="handrekv8">
+          <f name="props">
+                        <symbol value="draperier"/>
+                    </f>
+          <f name="slut" fVal="#playstart"/>
+        </fs>
+        <fs type="hand" xml:id="handprat1">
+          <f name="prat">
+                        <symbol value="stickning"/>
+                    </f>
+          <f name="prat">
+                        <symbol value="spinning"/>
+                    </f>
+          <f name="prat">
+                        <symbol value="vävning"/>
+                    </f>
+          <f name="typ">
+                        <symbol value="konkret"/>
+                    </f>
+          <f name="vem" fVal="#MaffeNo1"/>
+          <f name="vem" fVal="#MaffeNo2"/>
+          <f name="vem" fVal="#MaffeNo3"/>
+          <f name="vem" fVal="#Elsa"/>
+          <f name="start" fVal="#handprat1start"/>
+          <f name="slut" fVal="#handprat1slut"/>
+        </fs>
+      </div>
+    </back>
+    <anchor xml:id="playend"/>
+  </text>
+</TEI>
