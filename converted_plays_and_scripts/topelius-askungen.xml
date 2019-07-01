@@ -1,0 +1,1702 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="sv">Askungen</title>
+        <title type="main" xml:lang="en">Cinderella</title>
+        <title type="sub" xml:lang="sv">(Sagolek i tre äfventyr.)</title>
+        <title type="sub" xml:lang="en">(Sagolek in Three Adventures.)</title>
+        <author key="wikidata:Q139549">Topelius, Zacharias</author>
+     </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000042</idno>
+        <availability>
+          <licence>
+            <ab>CC0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+         </licence>
+       </availability>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59651619</idno>
+     </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name></name>
+          <idno type="URL">http://libris.kb.se/bib/14226055</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+         </availability>
+          <bibl type="originalSource">
+            <title>Nya Trollsländan, Illustrerad tidning för ungdom och barn, Helsingfors, G. W. Edlunds förlag, 6, 1890 (http://libris.kb.se/bib/14226055)</title>
+            <date type="print" when="1890">"1890" (http://libris.kb.se/bib/14226055)</date>
+            <date type="premiere"/>
+            <date type="written"/>
+         </bibl>
+       </bibl>
+     </sourceDesc>
+   </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="thora" sex="FEMALE">
+            <persName>prinsessan Thora av Burgund</persName>
+         </person>
+          <person xml:id="trilla" sex="FEMALE">
+            <persName>Trilla</persName>
+         </person>
+          <person xml:id="superba" sex="FEMALE">
+            <persName>prinsessan Superba av Burgund</persName>
+         </person>
+          <person xml:id="dina" sex="FEMALE">
+            <persName>prinsessan Dina Askungen av Burgund</persName>
+         </person>
+          <person xml:id="barbra" sex="FEMALE">
+            <persName>Barbra</persName>
+         </person>
+          <person xml:id="grim" sex="MALE">
+            <persName>Grim</persName>
+         </person>
+          <person xml:id="mumma" sex="FEMALE">
+            <persName>Mumma</persName>
+         </person>
+          <person xml:id="pimpe" sex="MALE">
+            <persName>Pimpe</persName>
+         </person>
+          <person xml:id="pumpa" sex="FEMALE">
+            <persName>Pumpa</persName>
+         </person>
+          <person xml:id="kungen" sex="MALE">
+            <persName>kung Lothar av Frankland</persName>
+         </person>
+          <person xml:id="drottningen" sex="FEMALE">
+            <persName>drottning Brunhilda</persName>
+         </person>
+          <person xml:id="prinsen" sex="MALE">
+            <persName>prins Childebert</persName>
+         </person>
+          <person xml:id="entrubadur" sex="UNKNOWN">
+            <persName>trubadur</persName>
+         </person>
+       </listPerson>
+     </particDesc>
+      <textClass>
+        <keywords>
+          <term subtype="" type="genreTitle"></term>
+       </keywords>
+     </textClass>
+   </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2019-07-01">(eg) convert from source</change>
+     </listChange>
+   </revisionDesc>
+ </teiHeader>
+  <text>
+    <group>
+      <docTitle>
+        <titlePart type="main">Jeppe och Murra</titlePart>
+        <titlePart type="sub">Ett uppträde på morgonkvisten i Björkuddens matsal.</titlePart>
+     </docTitle>
+      <text corresp="#bibl_TopeliusZ_Askungen_1">
+        <front>
+          <docTitle>
+            <titlePart type="sub">Första äfventyret.</titlePart>
+         </docTitle>
+          <castList>
+            <head>Personer:</head>
+            <castGroup rend="braced">
+              <castItem/>
+              <castItem/>
+              <roleDesc>landsflyktiga prinsessor af Burg-und.</roleDesc>
+           </castGroup>
+            <castItem><roleDesc>deras kammartärna</roleDesc>.
+           </castItem>
+            <castItem><roleDesc>kallad <persName ref="#Dina">Askungen</persName>, en fattig flicka, deras fostersyster</roleDesc>.
+           </castItem>
+            <castItem><roleDesc>gåsvakterska</roleDesc>.
+           </castItem>
+         </castList>
+       </front>
+        <body>
+          <div type="act">
+            <stage type="setting" who="#dina #superba #thora #trilla">
+              <p>En tarflig stuga med stor spis.</p>
+              <stage type="business">Thora och Superba kläda sig till bal. Trilla biträder dem. Dina sitter på spisen, stickande strumpa, barfota, i ovårdad grå blus och hufva.</stage></stage>
+            <sp who="#thora">
+              <speaker>Thora</speaker>
+              <stage type="business">(betraktande sig i en liten handspegel af silfver).</stage>
+              <l>Trilla, skall jag fästa smycket</l>
+              <l>Här på axeln eller håret?</l>
+              <l>Säg mig du, om du förstår'et.</l>
+           </sp>
+            <sp who="#trilla">
+              <speaker>Trilla.</speaker>
+              <l>Ja, se det beror på tycket,</l>
+              <l>Kanske här på axelstycket.</l>
+              <l>Vacker blir man ej för mycket.</l>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l>Tror du? Men är det för grant</l>
+              <l>Här på lockarna, ej sant?</l>
+           </sp>
+            <sp who="#trilla">
+              <speaker>Trilla.</speaker>
+              <l>Ja, hvar det nu än må sitta,</l>
+              <l>Skola alla herrar titta.</l>
+              <l>En så fin och ståtlig fröken</l>
+              <l>Gör de andra rakt till spöken.</l>
+              <l>Den där minen, ja den klär!</l>
+              <l>Litet öm och litet fjär,</l>
+              <l>Hufvudet på sned så här.</l>
+              <l>Skratta nu, låt läppen smalna!</l>
+              <l>Nu bli alla herrar galna.</l>
+           </sp>
+            <stage type="business">Thora gör miner framför spegeln, Superba upptager ur en klädkista brokiga tygstycken, hvilka hon profvar som skärp.</stage>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l part="I">Trilla!</l>
+           </sp>
+            <sp who="#trilla">
+              <speaker>Trilla.</speaker>
+              <l part="F">Strax på ögonblicket.</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l>Hvad är modet nu och skicket?</l>
+              <l>Passar rödt på gredelint?</l>
+              <l>Kanske gult är mera fint?</l>
+              <l>Om jag det med guldtråd sydde?</l>
+              <pb n="90"/>
+              <l>Hvilken lycka, när vi flydde</l>
+              <l>Från vårt konungsliga fäste,</l>
+              <l>Der vår ovän allt förhärjat,</l>
+              <l>Hit till detta usla näste,</l>
+              <l>Att vi garderoben bergat!</l>
+           </sp>
+            <sp who="#trilla">
+              <speaker>Trilla.</speaker>
+              <l>Guldtråd? Ja, vasserra tri,</l>
+              <l>Guld är just för en som ni.</l>
+              <l>Högsta modet nu för tiden</l>
+              <l>Är att gå i guld och siden.</l>
+              <l>Frökens like finns ej till.</l>
+              <l>Ack, hvad fröken nu är vacker!</l>
+              <l>Damerna få nervattacker,</l>
+              <l>Prinsen, han blir yr och vill.</l>
+              <l>Törs jag råda, på min ära,</l>
+              <l>Näsan litet högre bära?</l>
+              <l>Så en drottning skall se ut;</l>
+              <l>Drottning blir ni visst till slut.</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l>Ack, ja, Trilla; hur tror du,</l>
+              <l>Att mig prinsen finner nu?</l>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora</speaker>
+              <stage type="location">(vid spegeln).</stage>
+              <l>Kanske litet uppnäst bara.</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba</speaker>
+              <stage type="delivery">(ond).</stage>
+              <l>Uppnäst? Var så god för-klara!</l>
+              <l>Du är sned, men jag är rak.</l>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l>Nå, det kommer an på smak;</l>
+              <l>Alltid tittar du i tak.</l>
+              <l>Jag är äldre och vet mera.</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l>Äldre? Får man gratulera?</l>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l part="I">Jag är kronprinsessa.</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l part="F">Åh,</l>
+              <l>Dina titlar! Mig förskona,</l>
+              <l>Kronprinsessa utan krona!</l>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l>Hvad nu felar kan man få.</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l>Spetsar du dig på en prins?</l>
+              <l>Han är gammal nog att skilja</l>
+              <l>Mellan en utblommad lilja,</l>
+              <l>Och en ros, som välja finns.</l>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l>Oförskämda tossa, mins</l>
+              <l part="I">Hvem jag är!</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l part="F">Gif hit min spegel!</l>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l>Nej, förlåt mig, han är min!</l>
+           </sp>
+            <stage type="business">(Båda försöka rycka spegeln åt sig).</stage>
+            <sp who="#trilla">
+              <speaker>Trilla.</speaker>
+              <l>När två träta, det är regel,</l>
+              <l>Tar den tredje fältet in.</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina</speaker>
+              <stage type="delivery">(sjunger).</stage>
+              <lg>
+                <l>Linda, linda ullegarn</l>
+                <l>Kring den blanka stickan!</l>
+                <l>Ullegarn är lindebarn,</l>
+                <l>Blir nog stora flickan,</l>
+                <l>Blir en strumpa åt min fot,</l>
+                <l>Trampar ej på kol och sot,</l>
+                <l>Skall i dansen svänga,</l>
+                <l>När jag får en känga.</l>
+             </lg>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l>Hvad är det hon piper, myggen?</l>
+              <l>Knäpp min klädning strax i ryggen!</l>
+              <stage type="business" rend="centered">(Dina knäpper Superbas klädning).</stage>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l>Skäms du ej i spisen latas,</l>
+              <l>När med andras bröd du matas?</l>
+              <l>Knyt mitt skoband!</l>
+              <stage type="business">(Dina knyter skobandet.)</stage>
+              <l>Vet du, att i qväll är bal</l>
+              <l>Borta der i slottets sal,</l>
+              <l>Och nu åka vi till kungen!</l>
+              <l>Bjuda oss var han ju tvungen,</l>
+              <l>Efter här ej finns att få</l>
+              <l>Så förnämt folk som vi två</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l>Ja, och der är prinsen med!</l>
+           </sp>
+            <sp who="#trilla">
+              <speaker>Trilla.</speaker>
+              <l>Och så tror sig folket veta,</l>
+              <l>Att han skall en brud sig leta,</l>
+              <l>Efter unga prinsars sed.</l>
+              <l>Men hvem annan kan han välja,</l>
+              <l>Om han ej sin rang vill sälja,</l>
+              <l>Än just våra fröknar, säg?</l>
+              <l>Lyckan springer ej sin väg.</l>
+              <l>Väljer han nu fröken Thora,</l>
+              <l>Skall Superba han förlora;</l>
+              <l>Väljer han Superba, ja,</l>
+              <l>Då kan han ej Thora ta',</l>
+              <l>Derför, om nu jag får råda,</l>
+              <l>Skall han fria till dem båda.</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l>Nej, jag tackar. Han har smak.</l>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l>Hör man på! Nå, håll dig rak!</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <l>Får jag komma med på balen?</l>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l>Du, sotnäsa? Är du galen?</l>
+              <l>Hahaha! Nej, kära du,</l>
+              <l>Fråga sjelf min spegel nu!</l>
+              <stage type="business">(Håller spegeln framför henne).</stage>
+              <l>Nå, hvad månne spegeln svara?</l>
+              <l part="I">Dum och tåpig...</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l part="F">Sned och ful,</l>
+              <l>Mager, vindögd, blek och gul...</l>
+           </sp>
+            <sp who="#trilla">
+              <speaker>Trilla.</speaker>
+              <l>Slamsig, sotig, som en mara</l>
+              <l>Och så jemmerligen vattig,</l>
+              <l>Som en slaskeputt om jul.</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <l>Spegeln svarar: fattig, fattig!</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l>Thora, låt oss skynda fort</l>
+              <l>I galopp till kungens port.</l>
+              <l>Vagnen, af två åsnor dragen,</l>
+              <pb n="91"/>
+              <l>Väntar ren i kråkehagen,</l>
+              <l>Och snart får jag knip i magen</l>
+              <l>Af att fasta hela dagen.</l>
+              <l>Hvad gör man ej för behagen!</l>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l>Jag, jag åt en korf ändå</l>
+              <l>För att röda kinder få.</l>
+              <l>Trilla, hjelp mig med min kappa,</l>
+              <l>Och följ med till kungens trappa.</l>
+              <l>Så, adjö, min askegris!</l>
+              <l>Roa dig på bästa vis</l>
+              <l>I din gamla kära spis,</l>
+              <l>Eller håll en bal för bässen</l>
+              <l>Med din Barbra och med gässen!</l>
+           </sp>
+            <stage type="business"><stage type="exit" who="#superba #thora #trilla">Thora, Superba och Trilla gå</stage>. Dina ensam, ser sig försigtigt omkring, går till klädkistan, upp-tager och profvar granna kläder, härmar systrar-nas miner, skrattar, dansar och sjunger:</stage>
+            <sp who="#dina">
+              <lg>
+                <l>Och nu är jag så rik,</l>
+                <l>Och nu är jag på balen,</l>
+                <l>Och nu är här musik</l>
+                <l>I den förgyllda salen.</l>
+                <l>Och jag är fin och grann</l>
+                <l>Och har en fästeman...</l>
+                <l>Men vänta... hvar är han?</l>
+             </lg>
+              <stage type="business">(Hon dansar med en omålad trädstol).</stage>
+              <p>Se, du är min allrakäraste prins, med dig vill jag dansa. Skäms du intet att vara så träaktig och ha så knagliga ben? Dansa, den som kan, med en sådan strofil! Är du en prins och kraflar på alla fyra? Gå, lär dig, gå, lär dig, prinsstackare, gör som jag, fastän jag aldrig har gått i någon skola! Så dum du kan vara! Stå i skamvrån, du, ja stå der och lipa! Vore jag prins, skulle jag draga mitt svärd och försvara alla fattiga öfvergifna, som frysa och gråta. Men <stage type="business">(skrattar)</stage> tala med den der! Uh, sådant träblock!</p>
+              <stage type="business">(Hon dansar åter ensam, trampar på spegeln, upptager den, betraktar sig tigande och förändrar uppsyn.)</stage>
+              <p>Fattig, fattig, fattig och glömd!</p>
+           </sp>
+            <stage type="business">Hon nedkastar sig snyftande vid spiseln. <stage type="entrance" who="#barbra">Gås-vakterskan Barbra inträder</stage> och betraktar Ask-ungen.</stage>
+            <sp who="#barbra">
+              <speaker>Barbra.</speaker>
+              <l>Se, hur på den hårda, kalla</l>
+              <l>Jorden många tårar falla!</l>
+              <l>Gud, som räknat har dem alla,</l>
+              <l>Nalkas, när de öfversvalla.</l>
+              <l>Ej förgäfves oss han gaf</l>
+              <l>Makt att torka tårar af.</l>
+              <stage type="business">(Hon går fram och vidrör Dina).</stage>
+              <p>Gråt icke, prinsessa af Burgund!</p>
+              <p>Stå upp att söka din krona!</p>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina</speaker>
+              <stage type="delivery">(som vaknande ur en dröm).</stage>
+              <p>Är det du, Barbra? Förlåt, jag glömde, att jag ännu har en vän.</p>
+           </sp>
+            <sp who="#barbra">
+              <speaker>Barbra.</speaker>
+              <p>Det skulle du icke ha glömt, Dina. Gud har sändt mig att vara din skyddsengel. Jag har beskyddat din värn-lösa barndom, jag har följt dig i landsflykten och blifvit en fattig gåsvakterska för att få vara dig nära och ständigt beskydda dig mot allt ondt till kropp och själ. Du har ärft af dina förfäder het blod och ett stolt hjerta. Jag har låtit dig uppvexa i stor fattigdom och mycken förödmjukelse för att du skulle lära dig blifva god, ödmjuk och tålig. Nu vill jag pröfva dig. Jag vill se hvad du lärt.</p>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <p>Hvarför kallar du mig prinsessa? Du vet, att jag är ett fattigt fader- och moderlöst barn, som drottningen af Burgund fann utlagdt i skogen och lät uppfostra med sina döttrar.</p>
+           </sp>
+            <sp who="#barbra">
+              <speaker>Barbra.</speaker>
+              <p>Äro de goda mot dig?</p>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <p>Jag får mat med katten, jag be-höfver icke sofva i skogen. Men jag vet ej hvarför jag ständigt fryser. Jag sitter helst i den varma spiseln, och derför kalla de mig Askungen.</p>
+           </sp>
+            <sp who="#barbra">
+              <speaker>Barbra.</speaker>
+              <p>Du fryser af brist på kärlek. Thora och Superba ha sina skäl att bevaka dig som sin katt. I dag fyller du femton år. Det är tid att säga dig hvem du är.</p>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <p>Hvem jag är?</p>
+           </sp>
+            <sp who="#barbra">
+              <speaker>Barbra.</speaker>
+              <p>Du är född i ett kungligt slott och har sofvit i en gyllene vagga. Din fa-der var Dietrik den andre, konung af Bur-gund, och din moder Heloisa, prinsessa af Austrasien. Din moder dog, när du var ett år gammal, och din fader gifte sig andra gången med den sköna och grymma enkan efter en röfvarehöfding, som han besegrat. Hon hade två döttrar Thora och Superba från sitt första gifte, men hennes äktenskap med din fader blef barnlöst. Då lät din styfmoder bortröfva dig, när du var liten, och sade åt din fader, att du blifvit uppäten av vargar. Han trodde henne och upptog hennes döttrar som sina egna. Du vårdades af en fattig herde, men när din fader stupat i kriget, tog din styfmoder dig till sig för att bättre bevaka dig. När hon dog, för-manade hon Thora och Superba att aldrig <pb n="92"/> låta dig eller någon annan veta din här-komst. Hvad blefve det af röfvarens dött-rar, om folket får veta, att du är den äkta konungadottern? Förstår du nu hvem du är?</p>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina</speaker>
+              <stage type="delivery">(sorgset nickande).</stage>
+              <p>Ja.</p>
+           </sp>
+            <sp who="#barbra">
+              <speaker>Barbra.</speaker>
+              <p>Förlåter du dina fostersystrar?</p>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <p>Ja, Barbra. De ha ju låtit mig lefva. Men jag fryser, jag fryser för att ingen håller af mig... ingen annan än du.</p>
+           </sp>
+            <sp who="#barbra">
+              <speaker>Barbra.</speaker>
+              <p>Gud håller af dig för att du kan förlåta. Du har burit olyckan; nu vill Gud se, om du lika ödmjuk bär lyckan. Bered dig att fara till kungens bal!</p>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <p>Jag?.. Jag!</p>
+           </sp>
+            <sp who="#barbra">
+              <speaker>Barbra.</speaker>
+              <p>Du. Jag vill sörja för en pas-sande drägt.</p>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <p>Nej, Barbra, det är omöjligt. Jag, som är så ful, så tåpig, så dum...</p>
+           </sp>
+            <sp who="#barbra">
+              <speaker>Barbra.</speaker>
+              <p>Var god, var ödmjuk, och jag skall lära dig resten. Stilla nu!</p>
+              <stage type="business">(Hon höjer ett trollspö)</stage>
+              <lg>
+                <l>Arigi davolna</l>
+                <l>Miranda gidó,</l>
+                <l>Farenga chitona spumante adó.</l>
+                <l>Dina infima, mutaris in regiam!</l>
+                <l>Transfigurata fueris.</l>
+                <l>Salve, regina!</l>
+                <l>Fix!</l>
+             </lg>
+           </sp>
+            <stage type="business">Vid ordet fix vidrör hon Dina med trollspöet. Den grå blusen och hufvan försvinna. Dina står i kunglig drägt med guldband kring pannan, men fortfarande barfota.</stage>
+            <sp who="#barbra">
+              <speaker>Barbra.</speaker>
+              <p>Jag helsar dig, Dina, prinsessa af Burgund.</p>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina</speaker>
+              <stage type="business">(betraktar sin nya drägt och skrattar, när hon ser sina fötter).</stage>
+              <p>Prinsessan barfot!</p>
+           </sp>
+            <sp who="#barbra">
+              <speaker>Barbra.</speaker>
+              <p>Sätt dig! du skall icke behöfva blygas. <stage type="business">(Hon påkläder Dina silkesstrumpor och hvita sidenskor.)</stage> Dina bara fötter äro minnen af din ringhet, och dessa skor förmana till ödmjukhet. Mins, att hvarje gång en hög-modig tanke uppstiger i din själ eller ett ondt ord på dina läppar, skall jag varnande höja mitt finger. Rättar du dig genast, sker intet mer, men försmår du min varning, skall du första gången tappa din ena sko och andra gången stå barfota i din kungliga drägt.</p>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <p>Barbra, jag är så rädd, så rädd! Jag skall dumma mig, jag är säker derpå. Men... du kan icke vara Barbra. Hvem är du?... hvem?</p>
+           </sp>
+            <sp who="#barbra">
+              <speaker>Barbra.</speaker>
+              <p>Jag är fén Cheristane, din gud-mor. Frukta icke, behåll ditt barnahjerta, var dig själf, var Askungen, som vuxit till bättre förstånd, var ullgarnet, som blifvit stora flickan och får dansa i egen känga. Jag skall följa dig. Du, men ingen annan, skall se mig. Kom!</p>
+           </sp>
+            <stage type="exit" who="#barbra #dina">De gå.</stage>
+         </div>
+       </body>
+     </text>
+      <text corresp="#bibl_TopeliusZ_Askungen_2">
+        <front>
+          <docTitle>
+            <titlePart type="sub">Andra äfventyret.</titlePart>
+         </docTitle>
+          <castList>
+            <head>Personer:</head>
+            <castItem><roleDesc>konung i Frankland</roleDesc>.
+           </castItem>
+            <castItem><roleDesc>hans drottning</roleDesc>.
+           </castItem>
+            <castItem><roleDesc>deras son</roleDesc>.
+           </castItem>
+            <castItem><roleDesc>hofmarskalk</roleDesc>.
+           </castItem>
+            <castItem><roleDesc>öfverhofmästarinna</roleDesc>.
+           </castItem>
+            <castItem><roleDesc>konungens favoritdverg</roleDesc>.
+           </castItem>
+            <castItem><roleDesc>drottningens dverginna</roleDesc>.
+           </castItem>
+            <castItem/>
+            <castItem/>
+            <castItem><roleDesc>(Barbra), osynlig</roleDesc>.
+           </castItem>
+            <castItem>Stumma personer: <roleDesc>prinsarne</roleDesc>
+              
+              <roleDesc>prinsessorna</roleDesc> <roleGroup corresp="#Trollsländor"><roleDesc>trollsländor</roleDesc></roleGroup> och <roleGroup corresp="#Lyktgubbar"><roleDesc>lyktgubbar</roleDesc></roleGroup>, som dansa, samt <roleGroup corresp="#Hovet"><roleDesc>hofvet</roleDesc> <roleGroup corresp="#Hovdamer"/><roleGroup corresp="#Hovmän"/></roleGroup>, som kan vara stort eller litet, blott icke för grannt.</castItem>
+         </castList>
+       </front>
+        <body>
+          <div type="act">
+            <stage type="setting" who="#drottningen #grim #hovet #kungen #mumma #prinsen #pimpe #pumpa">Slottets thronsal. Konungen och drottningen sitta på sina throner, mottagande gäster. Närmast dem prinsen och sedan hofvet. Grim och Mumma an-mäla gästerna, som inträda när de uppropas, göra sin reverens för det kungliga och sedan stadna på sidan. Pimpe och Pumpa tassla högt i en vrå.</stage>
+            <sp who="#grim">
+              <speaker>Grim.</speaker>
+              <p/>
+           </sp>
+            <stage type="entrance" who="#grefvenafparis"/>
+            <sp who="#mumma">
+              <speaker>Mumma.</speaker>
+              <p/>
+           </sp>
+            <stage type="entrance" who="#grefvinnanafparis"/>
+            <sp who="#grim">
+              <speaker>Grim.</speaker>
+              <p/>
+           </sp>
+            <stage type="entrance" who="#furstenafostersjon"/>
+            <sp who="#mumma">
+              <speaker>Mumma.</speaker>
+              <p/>
+           </sp>
+            <stage type="entrance" who="#furstinnanafrom"/>
+            <sp who="#pimpe">
+              <speaker>Pimpe.</speaker>
+              <p>Är hon ej kejserlig höghet?</p>
+           </sp>
+            <sp who="#pumpa">
+              <speaker>Pumpa.</speaker>
+              <p>Hon?</p>
+           </sp>
+            <sp who="#mumma">
+              <speaker>Mumma.</speaker>
+              <p/>
+           </sp>
+            <stage type="entrance" who="#furstinnanafsahara"/>
+            <pb n="98"/>
+            <sp who="#pimpe">
+              <speaker>Pimpe.</speaker>
+              <p/>
+           </sp>
+            <sp who="#pumpa">
+              <speaker>Pumpa.</speaker>
+              <p>Skäms du icke? Hon är lika rik, som hon är svart.</p>
+           </sp>
+            <sp who="#grim">
+              <speaker>Grim.</speaker>
+              <p/>
+           </sp>
+            <stage type="entrance" who="#florestan"/>
+            <sp who="#pimpe">
+              <speaker>Pimpe.</speaker>
+              <p>Det var han, som högg väg till det förtrollade slottet.</p>
+           </sp>
+            <sp who="#mumma">
+              <speaker>Mumma.</speaker>
+              <p/>
+           </sp>
+            <stage type="entrance" who="#tornrosa"/>
+            <sp who="#pumpa">
+              <speaker>Pumpa.</speaker>
+              <p>Det var hon, som sof i hundra år.</p>
+           </sp>
+            <sp who="#grim">
+              <speaker>Grim.</speaker>
+              <p/>
+           </sp>
+            <stage type="entrance" who="#amundus"/>
+            <sp who="#pimpe">
+              <speaker>Pimpe.</speaker>
+              <p>Det var han, som förvandlades till fågel blå.</p>
+           </sp>
+            <sp who="#mumma">
+              <speaker>Mumma.</speaker>
+              <p/>
+           </sp>
+            <stage type="entrance" who="#florinna"/>
+            <sp who="#pumpa">
+              <speaker>Pumpa.</speaker>
+              <p>Det var hon, som sjöng:</p>
+           </sp>
+            <sp who="#grim">
+              <speaker>Grim.</speaker>
+              <p/>
+           </sp>
+            <stage type="entrance" who="#riddarblaskagg"/>
+            <sp who="#pimpe">
+              <speaker>Pimpe.</speaker>
+              <p>Nå, ingen skam! Hvar har han</p>
+           </sp>
+            <sp who="#pumpa">
+              <speaker>Pumpa.</speaker>
+              <p>Dem har han huggit hufvudet af.</p>
+           </sp>
+            <sp who="#grim">
+              <speaker>Grim.</speaker>
+              <p/>
+           </sp>
+            <stage type="entrance" who="#lunkentus"/>
+            <sp who="#pumpa">
+              <speaker>Pumpa.</speaker>
+              <p>Nej, nu börjar här komma bara simpelt folk. Jag ser intet till</p>
+           </sp>
+            <sp who="#pimpe">
+              <speaker>Pimpe.</speaker>
+              <p>Vänta litet, här komma två, som spricka af förnämhet och grannlåt.</p>
+           </sp>
+            <sp who="#mumma">
+              <speaker>Mumma.</speaker>
+              <p/>
+           </sp>
+            <stage type="entrance" who="#thora"/>
+            <sp who="#pimpe">
+              <speaker>Pimpe.</speaker>
+              <p>Den har krupit ut ur ett på-fågelägg.</p>
+           </sp>
+            <sp who="#mumma">
+              <speaker>Mumma.</speaker>
+              <p/>
+           </sp>
+            <stage type="entrance" who="#superba"/>
+            <sp who="#pumpa">
+              <speaker>Pumpa.</speaker>
+              <p>Och hon ur ett kalkonägg.</p>
+           </sp>
+            <sp who="#pimpe">
+              <speaker>Pimpe.</speaker>
+              <p>Komma här flera höns?</p>
+           </sp>
+            <sp who="#pumpa">
+              <speaker>Pumpa.</speaker>
+              <p>Nej, de öfriga presenteras i bal-salongen.</p>
+           </sp>
+            <sp who="#kungen">
+              <speaker>Kungen.</speaker>
+              <l/>
+              <l>Jag er tackar för den heder</l>
+              <l>Att få här mottaga eder.</l>
+              <l>Och nu ingen vägen spärrar</l>
+              <l>Till en snurredans i salen.</l>
+              <l/>
+              <l>Gif signal åt</l>
+              <l/>
+           </sp>
+            <stage type="business"><stage type="exit" who="#grim #gaster #hovet #mumma #prinsen #superba #thora">Alla gå</stage>, utom</stage>
+            <sp who="#kungen">
+              <speaker>Kungen.</speaker>
+              <l>Nu,</l>
+              <l>För att rikets väl bevaka,</l>
+              <l>Välja sig en värdig maka,</l>
+              <l>Det är</l>
+              <l>Hvem af</l>
+              <l>Vill du helst din dotter kalla?</l>
+           </sp>
+            <sp who="#drottningen">
+              <speaker>Drottningen.</speaker>
+              <l>Om hans lycka är jag mån.</l>
+              <l>Älskligare än</l>
+              <l>Kan man ju ej någon finna,</l>
+              <l>Och en lyckligare lott,</l>
+              <l>Än den</l>
+              <l>Kan ju ingen dödlig vinna.</l>
+           </sp>
+            <sp who="#kungen">
+              <speaker>Kungen.</speaker>
+              <l>Sant. Men deras saga redan</l>
+              <l>Slöts med bröllop längesedan.</l>
+              <l>Hvad sägs om</l>
+           </sp>
+            <sp who="#drottningen">
+              <speaker>Drottningen.</speaker>
+              <l part="I">Fråga</l>
+           </sp>
+            <sp who="#kungen">
+              <speaker>Kungen.</speaker>
+              <l part="F">Nej,</l>
+              <l>Men</l>
+              <l>Henne kan man ställa fram.</l>
+              <l part="I">Mycket guldsand!</l>
+           </sp>
+            <sp who="#drottningen">
+              <speaker>Drottningen.</speaker>
+              <l part="F">Ökendamm!</l>
+              <l>Vara svart är ingen skam...</l>
+           </sp>
+            <sp who="#kungen">
+              <speaker>Kungen.</speaker>
+              <l>Ja, då återstå knappt flera,</l>
+              <l>Än</l>
+           </sp>
+            <sp who="#drottningen">
+              <speaker>Drottningen.</speaker>
+              <l>De två tyckas mig i grund</l>
+              <l>Lärt sin konst att kokettera.</l>
+           </sp>
+            <sp who="#kungen">
+              <speaker>Kungen.</speaker>
+              <l>Döm för strängt ej deras sätt!</l>
+              <l>Kunglig börd fördrar ej lätt</l>
+              <l>Landsflykt, fattigdom, elände.</l>
+              <l/>
+              <l>En af dem, det är mitt val.</l>
+           </sp>
+            <sp who="#drottningen">
+              <speaker>Drottningen.</speaker>
+              <l>Deras börd man rätt ej kände,</l>
+              <l>Och bland folket går ett tal...</l>
+           </sp>
+            <sp who="#pumpa">
+              <speaker>Pumpa.</speaker>
+              <l/>
+              <l>Åt en fjäril: denna blomma</l>
+              <l>Understå dig ej försumma;</l>
+              <l part="I">Hon behagar mig?</l>
+           </sp>
+            <sp who="#pimpe">
+              <speaker>Pimpe.</speaker>
+              <l part="F">Åh, necken!</l>
+              <l>Mig så lyder ej den gäcken,</l>
+              <l>Sjelf han väljer en på fläcken.</l>
+           </sp>
+            <sp who="#drottningen">
+              <speaker>Drottningen.</speaker>
+              <l rend="inline">Hör</l>
+           </sp>
+            <sp who="#kungen">
+              <speaker>Kungen.</speaker>
+              <l rend="inline">Ja...</l>
+           </sp>
+            <pb n="99"/>
+            <sp who="#mumma">
+              <speaker>Mumma</speaker>
+              <stage type="entrance" who="#mumma">(inrusande).</stage>
+              <l>Aldrig såg man mak-en förr!</l>
+              <l>Oanmäld, okänd, objuden,</l>
+              <l>Träder genom salens dörr</l>
+              <l/>
+              <l>Fast anständig nog är skruden.</l>
+              <l>Jag, som har om allt kontroll,</l>
+              <l>Ropar strax åt</l>
+              <l>Men hvad tycks? Förtjust, bedraget</l>
+              <l>Af det spökande behaget,</l>
+              <l/>
+              <l/>
+              <l>Bjuder</l>
+              <l>Jag tar eld af raseri,</l>
+              <l>O, jag dör... det är förbi!</l>
+           </sp>
+            <sp who="#kungen">
+              <speaker>Kungen.</speaker>
+              <l/>
+              <l part="I">Öfver</l>
+           </sp>
+            <stage type="business"/>
+            <sp who="#mumma">
+              <speaker>Mumma</speaker>
+              <stage type="business">(hoppar upp).</stage>
+              <l part="F">Au! Hvad katten?</l>
+           </sp>
+            <sp who="#kungen">
+              <speaker>Kungen.</speaker>
+              <l>Bra. Nog slocknar hon till natten.</l>
+              <l>Låt oss se den nya skatten!</l>
+           </sp>
+            <stage>Dörrarna uppslås. <stage type="entrance" who="#dina #prinsen">Dina inträder vid prinsens arm.</stage> <stage type="entrance" who="#barbra #grim #gaster #hovet #superba #thora">Efter dem hofvet, gästerna och fén Cheris-tane, osynlig.</stage> <stage type="business"/>.</stage>
+            <sp who="#kungen">
+              <speaker>Kungen.</speaker>
+              <l>Var välkommen,</l>
+              <l>Bland de ärade besöken</l>
+              <l>I vårt kungliga palats!</l>
+              <l>För allt ädelt finns här plats.</l>
+           </sp>
+            <sp who="#mumma">
+              <speaker>Mumma</speaker>
+              <stage type="delivery">(argt).</stage>
+              <l>Får man</l>
+              <l>Titel, rang och namn med mera?</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <l>Tillåt,</l>
+              <l>Att ett grässtrå jag får kallas,</l>
+              <l>Trampadt af er fot och allas,</l>
+              <l>Men som kysser edra fjät!</l>
+              <l>Kalla mig den morgonvind,</l>
+              <l>Som, okänd från fjerran dalar,</l>
+              <l>Nattens tysta sorg hugsvalar</l>
+              <l>Och bär svalka åt er kind.</l>
+              <p><stage type="delivery">(Sakta till</stage> Var det rätt, <stage type="business">(</stage></p>
+           </sp>
+            <sp who="#kungen">
+              <speaker>Kungen.</speaker>
+              <l>Ädelboret språk ni talar.</l>
+              <l>Det är nog i dessa salar.</l>
+           </sp>
+            <sp who="#prinsen">
+              <speaker>Prinsen</speaker>
+              <stage type="delivery">(till</stage>
+              <l>O,</l>
+              <l>Hör mig döf, ty ingen, ingen</l>
+              <l>Mer än hon jag ser och hör.</l>
+           </sp>
+            <sp who="#mumma">
+              <speaker>Mumma.</speaker>
+              <l>Ja, förstås, man gör honnör.</l>
+              <l>Var så god och lyfta vingen,</l>
+              <l>Ty</l>
+              <stage type="business">(</stage>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina</speaker>
+              <stage type="delivery">(till</stage>
+              <l>Oerfaren är jag visst</l>
+              <l>Och förstår ej hofvets seder.</l>
+              <l>Jag skall mycket tacka eder,</l>
+              <l>Om ni rätta vill min brist.</l>
+              <p><stage type="delivery">(Sakta:</stage> Var det bra så, <stage type="business"/></p>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora</speaker>
+              <stage type="delivery">(till</stage>
+              <l/>
+              <l>Var</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l>Var han jude till natur?</l>
+              <l>Har han lyckats pengar samla,</l>
+              <l>Efter edra smycken skramla?</l>
+              <l>Är, de nya eller gamla?</l>
+              <l>Kanske de satts in på pant?</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina</speaker>
+              <stage type="delivery">(häftigt).</stage>
+              <l>Hvilket yrke än han öfvat,</l>
+              <l>Aldrig har</l>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l part="I">Hör på</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l part="F"/>
+           </sp>
+            <sp who="#pimpe">
+              <speaker>Pimpe.</speaker>
+              <l>Ser du,</l>
+              <l>Ögonen ur</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina</speaker>
+              <stage type="business">(som ser</stage>
+              <l>Ack, förlåt</l>
+              <l>Om hon sårat</l>
+              <l>Finns ej från</l>
+              <l>Någon qvar, som vet er sorg?</l>
+              <p><stage type="delivery">(Sakta:</stage> Var det rätt nu, <stage type="business">(Cheri-stane nickar.)</stage></p>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l>Det angår er ej,</l>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l>Jo,</l>
+              <l>Krafsar aska i vår spis.</l>
+              <l>Vacker är hon ej precis</l>
+              <l>Och rätt dum naturligtvis.</l>
+           </sp>
+            <sp who="#kungen">
+              <speaker>Kungen.</speaker>
+              <l>Låt oss höra sång och cittra.</l>
+              <l/>
+              <l>Kalla hit från skogens stubbar</l>
+              <l/>
+              <l>Låt oss se i silfverglans</l>
+              <l/>
+           </sp>
+            <stage type="entrance" who="#lyktgubbar #trollslandor"/>
+            <stage type="business"><stage type="entrance" who="#entrubadur">En trubadur framträder</stage> och sjunger vid cittran. De öfvriga falla in i slutstroferna. Under sången dansa små</stage>
+            <sp who="#entrubadur">
+              <lg>
+                <head>Sländornas dans.</head>
+                <lg>
+                  <l>Här är</l>
+                  <l>Nu så öppnar han sin himmelshöga port.</l>
+                  <l>Nattens gula måne ser från molnet ned,</l>
+                  <l>Tusen stjernor gnistra öfver ljungahed,</l>
+                  <l>Morgonstrimman lyser röd i dimman.</l>
+                  <l>Bistra jättar grina grymt ur töcknen fram.</l>
+                  <l>Svarta drakar jaga silfverhvita lamm.</l>
+               </lg>
+                <pb n="100"/>
+                <lg>
+                  <l>Här är</l>
+                  <l>Nu så öppnar han sin himmelshöga port.</l>
+                  <l>Nattens gula måne ser från molnet ned,</l>
+                  <l>Tusen stjernor gnistra öfver ljungahed,</l>
+                  <l>Morgonstrimman lyser röd i dimman.</l>
+               </lg>
+                <lg>
+                  <l>Upp,</l>
+                  <l>Upp,</l>
+                  <l>Vackra elfvor dansa med i månskensqväll,</l>
+                  <l>Ljusa féer slunga spjut mot drakens fjäll,</l>
+                  <l>Och Guds englar skydda fattig hydda.</l>
+                  <l>Kom, min saga, kom med barnets glada mod!</l>
+                  <l>Lifvet är så skönt, och Gud han är så god.</l>
+                  <l>Upp,</l>
+                  <l>Upp,</l>
+                  <l>Vackra elfvor dansa med i månskensqväll,</l>
+                  <l>Ljusa féer slunga spjut mot drakens fjäll,</l>
+                  <l>Och Guds englar skydda fattig hydda.</l>
+               </lg>
+             </lg>
+           </sp>
+            <sp who="#kungen">
+              <speaker>Kungen.</speaker>
+              <l>Bra,</l>
+              <l>Tag en lön för ditt besvär!</l>
+              <stage type="business">(Han lägger en guldkedja kring</stage>
+              <l>Och se här ett korn för</l>
+              <l>När hon dansat af sig ryggen.</l>
+              <stage type="business">(Han utströr konfekt, som</stage>
+              <l/>
+              <l>Nu en stund betrakta balen.</l>
+           </sp>
+            <stage type="exit" who="#dina #drottningen #entrubadur #grim #gaster #hovet #kungen #lyktgubbar #mumma #prinsen #superba #thora #trollslandor">De kungliga och alla, utom</stage>
+            <sp who="#pumpa">
+              <speaker>Pumpa</speaker>
+              <stage type="business">(med en blick på</stage>
+              <l>Bli de båda ej ett par,</l>
+              <l>Kan ej flaggan vinden veta,</l>
+              <l>Kan ej katten råttan leta,</l>
+              <l>Höken aldrig dufvan tar,</l>
+              <l>Och jag vill ej</l>
+           </sp>
+            <sp who="#pimpe">
+              <speaker>Pimpe.</speaker>
+              <l>Sliddersladder, kärt besvär.</l>
+              <l>Bli de par, de båda der,</l>
+              <l>Då blir guld af solskensglitter</l>
+              <l>Och latin af fågelqvitter,</l>
+              <l/>
+              <l>Och med krona</l>
+           </sp>
+            <sp who="#pumpa">
+              <speaker>Pumpa.</speaker>
+              <l part="I">Slå vi vad?</l>
+           </sp>
+            <sp who="#pimpe">
+              <speaker>Pimpe.</speaker>
+              <l part="F">Får gå. Om hvad?</l>
+           </sp>
+            <sp who="#pumpa">
+              <speaker>Pumpa.</speaker>
+              <l>Om din näsa. Om de tvenne</l>
+              <l>Bli ett par och han får henne,</l>
+              <l>Skall din näsa högst befängd</l>
+              <l>Växa minst en aln i längd.</l>
+           </sp>
+            <sp who="#pimpe">
+              <speaker>Pimpe.</speaker>
+              <l>Topp! Men då kan du ej klandra,</l>
+              <l>Att, om de ej få hvarandra,</l>
+              <l>Skall din näsa växa lång</l>
+              <l>Som en lagom hummelstång</l>
+              <l>Och jag får förutan tvång</l>
+              <l>Med min gamla näsa vandra.</l>
+           </sp>
+            <sp who="#pumpa">
+              <speaker>Pumpa.</speaker>
+              <l>Vare sagdt. Men hvem slår af?</l>
+              <stage type="business">(De räcka hvarandra händerna.</stage>
+           </sp>
+            <sp who="#pimpe">
+              <speaker>Pimpe.</speaker>
+              <l>Hvem var det, som smällen gaf?</l>
+           </sp>
+            <sp who="#barbra">
+              <speaker>Cheristane.</speaker>
+              <l>Den, som sörjer för, att vadet</l>
+              <l>Fylles upp, som du vill ha det.</l>
+           </sp>
+            <sp who="#pimpe">
+              <speaker>Pimpe.</speaker>
+              <l part="I">Huj, här spökar!</l>
+           </sp>
+            <sp who="#pumpa">
+              <speaker>Pumpa.</speaker>
+              <l part="F">Det blir krig!</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina</speaker>
+              <stage type="entrance" who="#dina">(instörtar flyende med venstra foten utan sko).</stage>
+              <l/>
+           </sp>
+            <sp who="#barbra">
+              <speaker>Cheristane.</speaker>
+              <l part="I">Kom!</l>
+           </sp>
+            <stage type="exit" who="#barbra #dina">De försvinna genom väggen.</stage>
+            <sp who="#pimpe">
+              <speaker>Pimpe.</speaker>
+              <l part="F">Se på</l>
+              <l>Till att flyga genom muren.</l>
+           </sp>
+            <sp who="#pumpa">
+              <speaker>Pumpa.</speaker>
+              <l>Hvart i verlden tog hon väg?</l>
+              <l>Såg du henne flyga? säg!</l>
+           </sp>
+            <sp who="#pimpe">
+              <speaker>Pimpe.</speaker>
+              <l>Ja, visst flög hon som en kråka.</l>
+              <l/>
+           </sp>
+            <stage type="entrance" who="#grim #gaster #hovet #mumma #prinsen #superba #thora">Prinsen rusar in med en hvit sidensko i sin hand. Efter honom gäster och hof.</stage>
+            <sp who="#prinsen">
+              <speaker>Prinsen.</speaker>
+              <l>Hvart försvann du, o,</l>
+              <l>Se, din sko du glömde qvar!</l>
+              <l>Finns väl ett par skor som dessa?</l>
+              <l>Se hur liten foten var!</l>
+              <stage type="business">(kysser skon).</stage>
+              <l>Sko, den vackra fot dig bar,</l>
+              <l>Den tillhör</l>
+              <l>Men hvar skall jag henne finna?</l>
+           </sp>
+            <stage type="business">Vid dessa ord bortsmussla <stage type="entrance" who="#drottningen #kungen">Kungen och drottningen inträda</stage>.</stage>
+            <sp who="#kungen">
+              <speaker>Kungen.</speaker>
+              <l>Hvarför springer här</l>
+              <l>Som en fårskock, med förlof?</l>
+              <l>Har hon flytt? Nå, det var skada;</l>
+              <l>Hon var snäll,</l>
+              <l>Har hon tappat ena skon</l>
+              <l>Som en pant för sin person?</l>
+              <l>Nå, så sök</l>
+              <l>Hvem vill hundra guldmynt vinna?</l>
+           </sp>
+            <sp who="#mumma">
+              <speaker>Mumma.</speaker>
+              <l>Hvem vill rida qvast i natt,</l>
+              <l>Att få</l>
+           </sp>
+            <sp who="#prinsen">
+              <speaker>Prinsen.</speaker>
+              <l rend="inline">Sko, hvar skall din fot jag fånga?</l>
+           </sp>
+            <pb n="101"/>
+            <sp who="#drottningen">
+              <speaker>Drottningen</speaker>
+              <stage type="delivery">(sakta till</stage>
+              <l/>
+              <l/>
+           </sp>
+            <sp who="#kungen">
+              <speaker>Kungen</speaker>
+              <stage type="delivery">(till</stage>
+              <l rend="inline">Sök hvem skon kan passa på!</l>
+           </sp>
+            <stage type="business"/>
+            <sp who="#pimpe">
+              <speaker>Pimpe.</speaker>
+              <l/>
+              <l>Hur de knipa hop sin tå!</l>
+           </sp>
+            <sp who="#grim">
+              <speaker>Grim.</speaker>
+              <l>Ingen fot i skon kan stå;</l>
+              <l>Fötter finnas ej så små.</l>
+           </sp>
+            <sp who="#kungen">
+              <speaker>Kungen.</speaker>
+              <l>Låt oss söka. Vi kungöra,</l>
+              <l>Allt vårt rike må det höra:</l>
+              <l>Mått skall tagas utan knot</l>
+              <l>Af hvar ungmös venstra fot.</l>
+              <l>Och</l>
+              <l>Passar in i denna skon,</l>
+              <l>Blir</l>
+              <l>Ärfver, liksom han, vår thron.</l>
+              <l/>
+           </sp>
+            <sp who="#mumma">
+              <speaker>Mumma.</speaker>
+              <l>Men om hon är fattighjon,</l>
+              <l part="I">Torpardotter?</l>
+           </sp>
+            <sp who="#grim">
+              <speaker>Grim</speaker>
+              <stage type="delivery">(sakta till</stage>
+              <l part="F">Åh, håll truten!</l>
+           </sp>
+            <sp who="#kungen">
+              <speaker>Kungen.</speaker>
+              <l>Guld och rang är bjellerklang,</l>
+              <l>Som så mången narr förleder.</l>
+              <l>Utan hjerta, tro och heder</l>
+              <l>Är man fattig, men med dem</l>
+              <l>Är man rik i fattigt hem.</l>
+           </sp>
+            <sp who="#drottningen #prinsen #grim #mumma #pimpe #pumpa #thora #superba">
+              <speaker>Alla.</speaker>
+              <l part="I">Lefve kungen!</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l part="F">Kan man tänka!</l>
+              <l>Vill han</l>
+           </sp>
+            <sp who="#prinsen">
+              <speaker>Prinsen</speaker>
+              <stage type="business">(böjer knä för</stage>
+              <l>O,</l>
+              <l>Sant och vist du talat har!</l>
+              <l>Kan du i mitt hjerta läsa?</l>
+              <l>Der står hon, som skall bli min.</l>
+           </sp>
+            <sp who="#pimpe">
+              <speaker>Pimpe.</speaker>
+              <l/>
+           </sp>
+            <sp who="#pumpa">
+              <speaker>Pumpa.</speaker>
+              <l>Säg mig hellre, hur mår din?</l>
+           </sp>
+         </div>
+          <stage type="novelistic" rend="centered">Slut på andra äfventyret.</stage>
+       </body>
+     </text>
+      <text corresp="#bibl_TopeliusZ_Askungen_3">
+        <front>
+          <docTitle>
+            <titlePart type="sub">Tredje äfventyret.</titlePart>
+         </docTitle>
+          <castList>
+            <head rend="inline">Personer:</head>
+            <castItem><persName ref="#Trilla">Trilla</persName>, <roleDesc>(<persName ref="#Barbra">Che-ristane</persName>)</roleDesc>, <roleGroup corresp="#Hovmän"><roleDesc>hofmän</roleDesc></roleGroup> och</castItem>
+         </castList>
+       </front>
+        <body>
+          <div type="act">
+            <stage type="setting" who="#dina">(Den förra stugan. Dina sitter åter som Ask-ungen ensam på spisen.)</stage>
+            <sp who="#dina">
+              <speaker>Dina</speaker>
+              <stage type="business">(blåser på ett kol och sjunger).</stage>
+              <lg>
+                <l>Liten gnista, svag och arm</l>
+                <l>I den svarta härden,</l>
+                <l>När skall du bli ljus och varm</l>
+                <l>Att upplysa verlden?</l>
+                <l>Dig så känner ingen nu,</l>
+                <l>Ingen är så glömd som du.</l>
+                <l>Skall du, lilla gnista,</l>
+                <l>Tyst i natten brista?</l>
+             </lg>
+              <stage type="business">(Hon uppstår eftersinnande.)</stage>
+              <l/>
+              <l>Morgonstädningen skall skötas,</l>
+              <l>Annars får jag nog för den</l>
+              <l>Stränga bannor, när vi mötas.</l>
+              <stage type="business">(Sopar golfvet, stadnar och sopar åter).</stage>
+              <l>Hur man drömmer underbart!</l>
+              <l>Såg jag ej alldeles klart</l>
+              <l>Slottet...</l>
+              <l>Ja, och</l>
+              <l>Var jag ej prinsessa då?</l>
+              <l>Bjöd ej</l>
+              <l>Och han höll ju af mig så!..</l>
+              <l/>
+              <l>Och de snäste mig i harmen...</l>
+              <l>Men då blef jag ledsen, jo,</l>
+              <l>Och så miste jag min sko,</l>
+              <l>Och så var jag åter hemma...</l>
+              <l>Drömmar tjusa, drömmar skrämma;</l>
+              <l>Sopa, sopa fattigt bo,</l>
+              <l>Drömmar skall man aldrig tro.</l>
+              <stage type="business">(Sopar och finner en hvit sidensko)</stage>
+              <l>Hvad är det? En sko af siden!</l>
+              <l>Undrar om min fot ryms i den...</l>
+              <pb n="106"/>
+              <l><stage type="business">(profvar skon).</stage> Ja, den passar. Hvar är maken?</l>
+              <l><stage type="business">(söker).</stage> Maken?.. Är det den jag mist?</l>
+           </sp>
+            <sp who="#barbra">
+              <speaker>Barbra</speaker>
+              <stage type="entrance" who="#barbra">(inträder).</stage>
+              <l>Flitig dag är tidigt vaken.</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <l/>
+              <l part="I">Är du fé?</l>
+           </sp>
+            <sp who="#barbra">
+              <speaker>Barbra.</speaker>
+              <l part="F">Jag må väl le.</l>
+              <l>Vakta gäss och vara fé!</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <l>Nej, det är då intet troligt.</l>
+              <l>Jag har drömt... men det var roligt!</l>
+              <l>Du var fé och jag prinsessa,</l>
+              <l/>
+              <l>Och</l>
+              <l>Då, i stället att processa,</l>
+              <l>Slog jag med solfjädern dem,</l>
+              <l>Miste skon och kom så hem...</l>
+              <l>Hvems är denna sko? förklara!</l>
+           </sp>
+            <sp who="#barbra">
+              <speaker>Barbra.</speaker>
+              <l/>
+              <l><stage type="delivery">(för sig)</stage> Om nu</l>
+              <l>Må hon tro, att hon har drömt.</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <l/>
+              <l/>
+              <l>Alltid slarfvar hon med kläder.</l>
+           </sp>
+            <stage type="entrance" who="#superba #thora">Thora inträder omornad, gäspande, trött, med papiljotter i håret. Efter henne Superba, lika be-dröflig.</stage>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l>Hvad är det i dag för väder?</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l/>
+              <l>Med krusmynta! Hur må gässen?</l>
+           </sp>
+            <stage type="exit" who="#barbra">Barbra går.</stage>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l>Hade ni stor bal för bässen?...</l>
+              <l>Mig bjöd</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l>Nå, kantänka. Var han varm,</l>
+              <l>Ej var det för dig,</l>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l>Mig han artigt sågs bemöta,</l>
+              <l>Då med ens, till allmän harm,</l>
+              <l>Kom</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l>Trasig som en gammal pjeksa,</l>
+              <l>Ful och tråkig som en lexa,</l>
+              <l>Sned, som sprucken stolekarm</l>
+              <l>Och så styf som en gendarm.</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina</speaker>
+              <stage type="location">(vid spiseln).</stage>
+              <l part="I">Jag har drömt...</l>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l part="F">Der blef alarm!</l>
+              <l>Och så tappade hon skorna</l>
+              <l>Och gick barfota som korna...</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <l>Tappade hon ena skon?</l>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l part="I">Venstra, ja...</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l part="F">Låt mig berätta!</l>
+              <l>Tänk hvad väsen för allt detta!</l>
+              <l>Det var som en dans på äggen,</l>
+              <l/>
+              <l/>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l/>
+              <l><stage type="delivery">(härmar)</stage> Hvar är maken? Hvar är hon?</l>
+              <l>Efterlys</l>
+              <l/>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l>Mig skall han då ej bedraga!</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <l part="I">Hur såg skon ut?</l>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l part="F">Hvit... af siden.</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <l>Jag har icke drömt ändå.</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l>Fyra fötter rymdes i den,</l>
+              <l>Sådana vi oss bestå.</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <l part="I">Jag har drömt.</l>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l part="F">Men hvar är</l>
+           </sp>
+            <sp who="#trilla">
+              <speaker>Trilla</speaker>
+              <stage type="entrance" who="#trilla">(hastigt in).</stage>
+              <l>Kam i håret,</l>
+              <l>Fort pomada! Toilett!</l>
+              <l>Himlens dagar, har man sett</l>
+              <l>Två, som äro nummer ett,</l>
+              <l>Så befängdt sin tid förspilla,</l>
+              <l>När allt är som stekt på spett!</l>
+              <l>Här är väsen, skall man tro,</l>
+              <l>Man blir döf att höra skriket.</l>
+              <l/>
+              <l>Förrän han fått fatt en sko,</l>
+              <l>Och nu springer han kring riket</l>
+              <l>Med</l>
+              <l>Af hvar fot, båd' stort och smått.</l>
+              <l>Sådant går ej af för stickor.</l>
+              <l>Det berättas, att</l>
+              <l>Huggit af sin stora tå,</l>
+              <l/>
+              <l>För att skon må passa på.</l>
+              <l>Hvar minut han här kan stå.</l>
+              <l>Ack, skall han min fot anamma?</l>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora</speaker>
+              <stage type="delivery">(brådt).</stage>
+              <l/>
+              <stage type="business">(</stage>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l>Sök en yxa,</l>
+              <l>Och mät upp min fot med samma!</l>
+              <l>Jag är</l>
+              <l>Om min halfva fot skall lossa.</l>
+              <stage type="business">(Det klappar på dörren. Häpnad, brådska.)</stage>
+           </sp>
+            <sp who="#trilla">
+              <speaker>Trilla.</speaker>
+              <p>Hvem där?</p>
+           </sp>
+            <sp who="#grim">
+              <speaker>Grim</speaker>
+              <stage type="location">(utanför).</stage>
+              <p>I</p>
+           </sp>
+            <sp who="#trilla">
+              <speaker>Trilla.</speaker>
+              <l>Var så god... ett ögonblick!</l>
+              <l>Låset är ej rätt i skick.</l>
+              <l part="I"><stage type="delivery">(sakta)</stage> Skynda, skynda!</l>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l part="F">Mina skor!</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina</speaker>
+              <stage type="business">(räcker skon).</stage>
+              <l>Här är en af dem, jag tror.</l>
+           </sp>
+            <pb n="107"/>
+            <sp who="#thora">
+              <speaker>Thora</speaker>
+              <stage type="business">(kastar henne skon i ansiktet).</stage>
+              <l>Har jag tid med tossor,</l>
+              <l>Mina balskor äro gröna.</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <p>Jag har icke drömt.</p>
+           </sp>
+            <stage type="business">Dörren stöts upp, <stage type="entrance" who="#grim #hovherre #vakt">Grim inträder med vakt och en hofherre</stage>, som bär en pall. <stage type="tableau">Tablå.</stage></stage>
+            <sp who="#grim">
+              <speaker>Grim.</speaker>
+              <l/>
+              <l/>
+              <l>Hvarje mö skall utan träta</l>
+              <l>Låta venstra foten mäta</l>
+              <l>Här på denna kronans pall,</l>
+              <l>Och den mö, som fyller måttet,</l>
+              <l>Strax skall föras upp till slottet.</l>
+              <l part="I">Marsch!</l>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l part="F">Jag darrar... Strax... Befall!</l>
+           </sp>
+            <sp who="#grim">
+              <speaker>Grim</speaker>
+              <stage type="business">(mäter</stage>
+              <l>Gåsfot... Ni kan gå. Hit, flera!</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l>Tror ni väl att</l>
+              <l>Lyder sådant öfvermod?</l>
+           </sp>
+            <sp who="#grim">
+              <speaker>Grim.</speaker>
+              <l>Foten! Intet resonera!</l>
+              <stage type="business">(</stage>
+              <l>Kråkfot... Så. Ni kan marschera.</l>
+              <l part="I">Nästa fot!</l>
+           </sp>
+            <sp who="#trilla">
+              <speaker>Trilla.</speaker>
+              <l part="F">Ack, månn' jag passar?</l>
+           </sp>
+            <sp who="#grim">
+              <speaker>Grim</speaker>
+              <stage type="business">(mäter).</stage>
+              <l>Kattfot... Bort med klo och tassar!</l>
+              <l>Nästa fot förmodligen</l>
+              <l>Blir en grisfot. Hit med den!</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <l part="I">Här <stage type="business">(foten mätes).</stage>
+                           </l>
+           </sp>
+            <sp who="#grim">
+              <speaker>Grim.</speaker>
+              <l part="F">Hvad nu? Stå litet stilla!</l>
+           </sp>
+            <sp who="#thora #superba #trilla">
+              <speaker>Thora, Superba och Trilla.</speaker>
+              <l>Grisfot, grisfot, stå dig väl!</l>
+           </sp>
+            <sp who="#grim">
+              <speaker>Grim.</speaker>
+              <l>Låt mig mäta om dig,</l>
+              <l>Längd... och bredd... och tå och häl...</l>
+              <l>Allt som gjutet! Är det villa?</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <l>Man kan skratta sig ihjäl.</l>
+              <l/>
+              <l>Hon, som aldrig ägt en känga,</l>
+              <l>Vill i</l>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <l>Passar skon, bör hon ha maken,</l>
+              <l>Det tycks mig är hufvudsaken.</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <stage type="business">(framräcker sin hittade sko).</stage>
+              <l>Här är den! <stage type="delivery">(för sig)</stage> Jag var dock vaken.</l>
+           </sp>
+            <stage type="entrance" who="#entrubadur #hovman #prinsen">Prinsen inträder med trubaduren och några af hofvet.</stage>
+            <sp who="#trilla">
+              <speaker>Trilla.</speaker>
+              <l part="I">Himmel, <stage type="tableau">(tablå)</stage>
+                           </l>
+           </sp>
+            <sp who="#prinsen">
+              <speaker>Prinsen.</speaker>
+              <l part="F"/>
+              <l>Jag min längtan ej kan styra.</l>
+              <l>Har du funnit, säg,</l>
+              <l>Eller har har hon evigt flytt?</l>
+           </sp>
+            <sp who="#grim">
+              <speaker>Grim.</speaker>
+              <l part="I">Här är hon,</l>
+           </sp>
+            <sp who="#prinsen">
+              <speaker>Prinsen</speaker>
+              <stage type="business">(fattar</stage>
+              <l part="F">Samma</l>
+              <l>Hand och samma ögas flamma.</l>
+              <l>Fattig... och ändå så rik...</l>
+              <l>Aldrig mer ifrån mig vik!</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <l>Nej, hvad han min dröm är lik!</l>
+              <l/>
+           </sp>
+            <stage type="entrance" who="#barbra">Barbra står bakom</stage>
+            <sp who="#barbra">
+              <speaker>Cheristane.</speaker>
+              <p/>
+              <p>Hon skall återtaga sin rätta gestalt, men till minne och varning skall hon gå barfota ända till bröllopsdagen.</p>
+           </sp>
+            <stage type="business">Hon afkläder</stage>
+            <sp who="#prinsen">
+              <speaker>Prinsen.</speaker>
+              <l>Ja, jag känner dig. Det bästa</l>
+              <l>Af mig sjelf, det är ju du.</l>
+              <l>Ödmjuk, som jag ser dig nu,</l>
+              <l>Vill jag dig i minnet fästa,</l>
+              <l>När min stolthet vill mig fresta.</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <l>Ja, jag vet. När jag dig ser,</l>
+              <l>Ser jag gnistan, som mitt frusna</l>
+              <l>Hjerta såg i askan ljusna.</l>
+              <l>Nu skall jag ej frysa mer.</l>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <p/>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <p>Nu belönar hon vår godhet med att objuden smyga sig till</p>
+           </sp>
+            <sp who="#trilla">
+              <speaker>Trilla.</speaker>
+              <p>Ja, jag kan intyga, att alla kallat henne Askungen. <stage type="delivery">(Sakta till</stage> Låt mig blifva din kammartärna, så skall jag vittna, att</p>
+           </sp>
+            <sp who="#barbra">
+              <speaker>Cheristane.</speaker>
+              <p><pb n="108"/> ty du förråder dem, hvilkas bröd du äter: jag förvandlar dig till en pladdrande skata.</p>
+              <stage type="business">(höjer trollspöet)</stage>
+              <lg rend="inline">
+                <l>Arigi davolna,</l>
+                <l>Farenga gido...</l>
+             </lg>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina</speaker>
+              <stage type="business">(på knä).</stage>
+              <p>Nåd! Nåd för</p>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <p>Ja, det är</p>
+           </sp>
+            <sp who="#barbra">
+              <speaker>Cheristane.</speaker>
+              <p>Det är eder räddning. För</p>
+           </sp>
+            <stage type="business"/>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <p>Så ha vi något att klösa dig med!</p>
+           </sp>
+            <sp who="#trilla">
+              <speaker>Trilla.</speaker>
+              <p>Ja, lita på att vi klösa!</p>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora</speaker>
+              <stage type="delivery">(gråtande).</stage>
+              <p>Förlåt mig,</p>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <p>Ja, jag förlåter dig, jag förlåter eder alla. Du,</p>
+           </sp>
+            <sp who="#thora">
+              <speaker>Thora.</speaker>
+              <p>Tack! Du har lärt mer i askan, än jag i purpurn.</p>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <p>Låt oss gå,</p>
+           </sp>
+            <sp who="#trilla">
+              <speaker>Trilla.</speaker>
+              <p>Ja, kom! Men det säger jag dig: din piga vill jag ej mera vara; vi äro nu lika goda.</p>
+           </sp>
+            <sp who="#superba">
+              <speaker>Superba.</speaker>
+              <p>Vill du icke? Jag ska klösa dig! <stage type="exit" who="#superba #trilla">(Trilla flyr, Superba efter henne, och så springa de bort).</stage></p>
+           </sp>
+            <sp who="#prinsen">
+              <speaker>Prinsen.</speaker>
+              <p>Låt oss nu skynda till slottet.</p>
+           </sp>
+            <stage type="entrance" who="#pimpe">Pimpe inträder med en ofantligt lång näsa och skriker hvar gång han stöter den mot folk eller väggar.</stage>
+            <sp who="#pimpe">
+              <speaker>Pimpe.</speaker>
+              <p>Sexhundrafemtiosju fötter äro mätta, och ingen har passat i skon.</p>
+           </sp>
+            <sp who="#grim">
+              <speaker>Grim.</speaker>
+              <p/>
+           </sp>
+            <sp who="#pimpe">
+              <speaker>Pimpe.</speaker>
+              <p>Hvad för något?.. Au, hvem understår sig att puffa i <stage type="business">(känner på näsan och finner ej dess ände)</stage>... Men hon räcker ju härifrån till Paris! Jo, jag är skön, jag kan visas för pengar, <stage type="exit" who="#pimpe">(springer bort).</stage></p>
+           </sp>
+            <sp who="#prinsen">
+              <speaker>Prinsen</speaker>
+              <stage type="delivery">(till</stage>
+              <l>Kom! Oss tillhör denna stund.</l>
+              <l>Jag är svartsjuk på min lycka,</l>
+              <l>Och jag fruktar hvar sekund,</l>
+              <l>Att en okänd makt skall rycka</l>
+              <l>Dig på nytt från vårt förbund.</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <l>Än en pligt mig återstår.</l>
+              <l>O,</l>
+              <l>Löna dig jag ej förmår,</l>
+              <l>Men du skall mig tacksam finna.</l>
+              <stage type="business">(Hon kysser</stage>
+           </sp>
+            <sp who="#barbra">
+              <speaker>Cheristane.</speaker>
+              <l>Låt din tack till Honom hinna,</l>
+              <l>Som kan hela hjertats sår,</l>
+              <l>Som kan torka sorgens tår</l>
+              <l>Och såg dina tårar rinna!</l>
+           </sp>
+            <sp who="#dina">
+              <speaker>Dina.</speaker>
+              <l>Ja... Men än en sak jag mins!</l>
+              <l>Säg mig nu,</l>
+              <l>Har jag icke drömt och drömmer</l>
+              <l>Jag ej än, fast jag det glömmer?</l>
+              <l>Har jag verkligt funnit dig?</l>
+              <l>Älskar du då verkligt mig?</l>
+              <l>Skall jag ej i morgon vakna</l>
+              <l>Frusen qvar i askan än,</l>
+              <l>Ensam, fattig, utan vän,</l>
+              <l>Och ha lärt mig blott att sakna?</l>
+           </sp>
+            <sp who="#prinsen">
+              <speaker>Prinsen.</speaker>
+              <l>Fråga ej om lyckans drömmar,</l>
+              <l>Fråga mer om hjertats tro!</l>
+              <l>Der är lyckans fasta bo,</l>
+              <l>Medan allt omkring oss strömmar.</l>
+              <l>Låt oss lefva i vår saga!</l>
+              <l>Långt är då till lifvets slut.</l>
+              <l>Dig skall ej din dröm bedraga.</l>
+              <l/>
+           </sp>
+            <stage type="exit" who="#grim #hovherre #hovman #vakt" cert="medium"/>
+         </div>
+       </body>
+     </text>
+   </group>
+ </text>
+</TEI>

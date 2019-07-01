@@ -1,0 +1,3104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="sv">Anno fyrtiåtta</title>
+        <title type="main" xml:lang="en">Another Forty</title>
+        <title type="sub" xml:lang="sv">Lustspel i fyra akter</title>
+        <title type="sub" xml:lang="en">Four Acts of Pleasure Play</title>
+        <author key="wikidata:Q7724">Strindberg, August</author>
+     </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000017</idno>
+        <availability>
+          <licence>
+            <ab>CC0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+         </licence>
+       </availability>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q10412491</idno>
+     </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name></name>
+          <idno type="URL">http://libris.kb.se/bib/1600757</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+         </availability>
+          <bibl type="originalSource">
+            <title>I vårbrytningen, Dikter och verkligheter, Stockholm, Bonnier, tryckning, 1881 (http://libris.kb.se/bib/1600757)</title>
+            <date type="print" when="1881">"1881" (http://libris.kb.se/bib/1600757)</date>
+            <date type="premiere"/>
+            <date type="written"/>
+         </bibl>
+       </bibl>
+     </sourceDesc>
+   </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="pigan1" sex="FEMALE">
+            <persName>Mari</persName>
+         </person>
+          <person xml:id="pigan2" sex="FEMALE">
+            <persName>Kristin</persName>
+         </person>
+          <person xml:id="per" sex="MALE">
+            <persName>Per Nygren</persName>
+         </person>
+          <person xml:id="larsson" sex="MALE">
+            <persName>Jöns Abraham Larsson</persName>
+         </person>
+          <person xml:id="adjunkten" sex="MALE">
+            <persName>August Gren</persName>
+         </person>
+          <person xml:id="ksektern" sex="MALE">
+            <persName>kunglig sekreterare</persName>
+         </person>
+          <person xml:id="aktoren" sex="MALE">
+            <persName>Klinger</persName>
+         </person>
+          <person xml:id="dina" sex="FEMALE">
+            <persName>mamsell Dina</persName>
+         </person>
+          <person xml:id="linda" sex="FEMALE">
+            <persName>Linda</persName>
+         </person>
+          <person xml:id="lundqvist" sex="MALE">
+            <persName>Lundqvist</persName>
+         </person>
+          <person xml:id="arvid" sex="MALE">
+            <persName>kandidat Arvid</persName>
+         </person>
+          <person xml:id="pianostammaren" sex="MALE">
+            <persName>pianostämmare</persName>
+         </person>
+          <person xml:id="poliskonstapeln" sex="MALE">
+            <persName>poliskonstapel</persName>
+         </person>
+          <person xml:id="kyparen" sex="MALE">
+            <persName>kypare</persName>
+         </person>
+          <person xml:id="fru_larsson" sex="FEMALE">
+            <persName>fru Amalia Larsson</persName>
+         </person>
+          <person xml:id="polis1" sex="MALE">
+            <persName>polis</persName>
+         </person>
+          <person xml:id="polis2" sex="MALE">
+            <persName>polis</persName>
+         </person>
+          <person xml:id="gossen1" sex="MALE">
+            <persName>barn</persName>
+         </person>
+          <person xml:id="gossen2" sex="MALE">
+            <persName>barn</persName>
+         </person>
+          <person xml:id="drangen" sex="MALE">
+            <persName>Johansson</persName>
+         </person>
+       </listPerson>
+     </particDesc>
+      <textClass>
+        <keywords>
+          <term subtype="" type="genreTitle"></term>
+       </keywords>
+     </textClass>
+   </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2019-07-01">(eg) convert from source</change>
+     </listChange>
+   </revisionDesc>
+ </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">Anno fyrtiåtta</titlePart>
+        <titlePart type="sub">Lustspel i fyra akter</titlePart>
+     </docTitle>
+   </front>
+    <body>
+      <castList>
+        <head>PERSONER:</head>
+        <castItem>Abraham Larsson</castItem>
+        <castItem>Arvid</castItem>
+        <castItem>Gren</castItem>
+        <castItem>Per</castItem>
+        <castItem>Klinger</castItem>
+        <castItem>K. Sektern</castItem>
+        <castItem>Lundqvist</castItem>
+        <castItem>Pianostämmaren</castItem>
+        <castItem>Fru Larsson</castItem>
+        <castItem>Linda</castItem>
+        <castItem>M:ll Dina</castItem>
+        <castItem>Drängen</castItem>
+        <castItem>2 Pigor.</castItem>
+        <castItem>2 Barn.</castItem>
+     </castList>
+      <set>
+        <p>Stockholm 1848.</p>
+     </set>
+      <div type="act">
+        <head>Första Akten.</head>
+        <stage type="location">Larssons arbetsrum.</stage>
+        <stage type="setting">
+          <p>Två dörrar i fonden: på pelaren emellan, en chiffonier med Karl Johans byst; på högra väggen fönster och en dörr; möblemanget skinn och mahogny; spisel med pendyl och gammalt porslin; piphylla; fortunaspel; midt på golfvet ett rundt bord med ostindisk bål och remmare; litografier och silhouetter på väggarne; vid högra dörren en käppsamling. Soffa och skrifbord på höger vägg. Puff vid venster snedvägg. Svarta hattar stå här och der på bord och i fönster.</p></stage>
+        <div type="scene">
+          <head>Scen 1.</head>
+          <stage type="setting" who="#pigan1 #pigan2">
+            <p>Två PIGOR stå och lyssna vid venstra fonddörren; den ena tittar i nyckelhålet.</p></stage>
+          <sp who="#pigan1">
+            <speaker>PIGAN 1.</speaker>
+            <p>Skriker han?</p>
+         </sp>
+          <sp who="#pigan2">
+            <speaker>PIGAN 2.</speaker>
+            <p>Tyst, får vi höra hvad han skall heta! Nu sa’ fadd-rarne: ja!</p>
+         </sp>
+          <sp who="#pigan1">
+            <speaker>PIGAN 1.</speaker>
+            <p>Låt mig titta!</p>
+         </sp>
+          <sp who="#pigan2">
+            <speaker>PIGAN 2.</speaker>
+            <p>Nu kommer det: “Jag döper dig... Karl... Johan... Abraham!“</p>
+         </sp>
+          <sp who="#pigan1">
+            <speaker>PIGAN 1.</speaker>
+            <p>Karl Johan, se det är efter salig kungen och Abra-ham är efter patron.</p>
+         </sp>
+          <pb n="6"/>
+          <sp who="#pigan2">
+            <speaker>PIGAN 2.</speaker>
+            <p>Nu få vi springa för nu börjar han med Herren väl-signe oss!</p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 2.</head>
+          <stage><stage type="presence" who="#pigan2 #pigan1">DE FÖRRA</stage>, <stage type="entrance" who="#per">PER (i urvuxna, tarfliga svarta kläder)</stage>.</stage>
+          <sp who="#per">
+            <speaker>PER</speaker>
+            <stage>(med ett lätt paket i handen).</stage>
+            <p>Söta Mari, hjelp mig litet med det här, jag har så brådtom! <stage>(Tar fram en nattkappa ur paketet.)</stage></p>
+         </sp>
+          <sp who="#pigan1">
+            <speaker>PIGAN 1.</speaker>
+            <p>Jo, det är just att komma så här dags, när det är slut!</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Åh det lär väl ingen sakna ritlärarn, som kommer för att äta middag; man vänta mig!</p>
+         </sp>
+          <sp who="#pigan1">
+            <speaker>PIGAN 1.</speaker>
+            <p>Ja, det är nog så det: men att den der tjocka bok-hållaren ska’ få förhäfva sig så mot honom som är artist, det är allt retsamt! Men det är därför han är svart-sjuk på honom för mamsell Lindas skull! Kom så ska’ jag hjelpa! <stage>(Hon hjelper honom med nattkappan.)</stage></p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Sätt bra med nålar i så att det sitter!</p>
+         </sp>
+          <sp who="#pigan1">
+            <speaker>PIGAN 1.</speaker>
+            <p>Ta hit spegeln, Kristin! Så der! Ta nu den der hatten, för han kan inte gå in och helsa med mössan.</p>
+            <stage>(Ger honom en hatt som står på ett bord.)</stage>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Tack, små vänner! <stage type="exit" who="#per #pigan1 #pigan2">(Justerar sig och går till venster i fonden. Pigorna åt höger)</stage></p>
+         </sp>
+       </div>
+        <pb n="7"/>
+        <div type="scene">
+          <head>Scen 3.</head>
+          <stage><stage type="presence" who="#larsson">LARSSON (i borgerskapets kavalleriuniform)</stage>. <stage type="entrance" who="#adjunkten">ADJUNKTEN (från höger fonddörr)</stage>.</stage>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Nu ska’ bror hjelpa mig brygga bålen!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Efter P. B:s recept, ja tusenfallt gerna. Men, hör! Får jag lof att tala ett ord enskildt! Hm! Hm!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Hvad är det nu om igen?</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Åh, det är det här välsignade, gamla lånet; det är fjerde omsättningen i morgon och jag tänkte passa på nu...</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Jaså! Ja, du känner mina principer, men för din skull har jag gjort det! Du vet jag gerna hjelper vetenskapens och konstens idkare, ty som högstsalig konung Karl den fjortonde brukade säga: “Vetenskapen...“ ta hit papperet!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN</speaker>
+            <stage>(formerar en gåspenna).</stage>
+            <p>Det är då för märkvärdigt att man aldrig skall komma ifrån sina gamla skulder; det är nu på tjugufemte året som jag halfårsvis vandrar upp för riksbankens mörka trappor; det är tunga steg ska’ bror veta...</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Prata inte utan ta hit pennan.</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN</speaker>
+            <stage type="delivery">(rädd).</stage>
+            <p>Och nu återstår blott...</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Nåå?</p>
+         </sp>
+          <pb n="8"/>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Bror Larsson, jag vet du är min vän; du har ett stort sinne; ge mig 44 rdr och 32 skilling banko till omsätt-ningen, eller jag är förlorad.</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Jaså! Det är inte nog med att man ska gå i bor-gen, man skall också betala omsättningen; man har inte nog med sina egna affärer, <stage>(går till chiffonieren; sätter nyckeln i klaffen)</stage> utan man skall också... hur mycket var det?</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN</speaker>
+            <stage>(ödmjukt).</stage>
+            <p>44 rdr 32 skilling banko!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Banko, ja! <stage>(Dröjer och letar i en låda)</stage> Gamla karlen ska´ behöfva låna pengar; Fy! Se här har du, ditt kräk! Kom inte igen en gång till! Börja nu med att dra upp butel-jerna; jag ska’ strax vara igen!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Hvart ska’ bror ta vägen!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="modifier">(väljer ett par käppar).</stage>
+            <p>Jag ska ner och aflöna; jag har ett par lymlar qvar se’n i morgse som jag inte rådde med!</p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 4.</head>
+          <stage><stage type="presence" who="#adjunkten #larsson">DE FÖRRE</stage>, <stage type="entrance" who="#per #ksektern #aktoren">PER, K. SEKRETERAREN och AKTÖREN</stage>.</stage>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="modifier">(till Per.)</stage>
+            <p>Herrn kan stoppa piporna, så bär sektern fram For-tunan; jag är strax igen! <stage type="exit" who="#larsson">(Går.)</stage></p>
+            <stage type="modifier">(ADJUNKTEN drar upp buteljer, PER stoppar pipor.)</stage>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Se så de arbeta!</p>
+         </sp>
+          <pb n="9"/>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Hvad är det för folk?</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Låntagare!... Ni har inträde i detta borgarhus, be-römdt för sin rikedom, sin frikostighet och sitt fina vett; ni har önskat se en värdig representant af det tredje stån-det, samma stånd, som genom den stora revolutionen till-kämpade sig de menskliga rättigheterna att gå på fyra fötter i kungligt livré, vilket förut var dem nekadt! — Se här borgarkungens lifegna</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Ni är röd, k. sekter?</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Konservativ som ni. Vill ni bli presenterad?</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Vi kan ju dröja litet!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Ni är rädd för sällskapet! Ni tror att det är suddar derför att de icke äro väl klädda! Långt derifrån! Se på den stackars prestmannen; det är en genialisk man; han är anställd här i huset sedan tjugu år tillbaka; han är hofnarr mot maten och kanske 100 rdr om året, som om-sättningarne gå till. Han måste alltid vara rolig; sjunga visor, hålla smickrande tal till värdinnan och fram på natten föredra tvetydiga poem!</p>
+            <stage type="entrance" who="#lundqvist">(Lundqvist kommer in.)</stage>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN</speaker>
+            <stage>(till Lundqvist).</stage>
+            <p>Lundqvist, hjelp adjunkten!</p>
+            <stage type="modifier">(Adjunkten brygger bålen under följande.)</stage>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Och så den der som rensar piporna, målaren! Som ger mamsell Linda lektioner mot att han äter middag om <pb n="10"/> torsdagarne! Tror ni att hans beskyddare köper taflor af honom! Jo, han har köpt en — den sitter i förmaket och har förskaffat stor ära åt — — bryggarn! — Gossen låg sjuk och höll på att dö af svält! Då var det som Larsson var så ädelmodig och köpte taflan, oaktadt det “stred mot hans principer“ att köpa taflor sedan han gått in i konst-föreningen; han köpte taflan för 10 rdr banko med ram! Vet ni vad ramen kostat?</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Ignobelt!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>20 rdr!</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Åh! − Men er ställning i huset?</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K.SEKTERN.</speaker>
+            <p>En kunglig sekters!</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Ni begagnar då också hans borgen?</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Nej, jag lånar kontant!... Jag resonnerar så! Tio års arbete har jag som extra ordinarie lånat staten, staten be-talar aldrig sina lån, som bekant; följaktligen måste den enskilde göra det för staten!</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Ni är kommunist?</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Alls icke! Jag betalar sjelf mina lån och fordrar att staten också gör det. Jag lånar av Larsson, det är sant; men jag lånar frun bänknyckel i engelskan; jag står i kö när Jenny Lind uppträder; jag går med familjen i bild-<pb n="11"/>ningscirkeln och köper för 30 banko åt barnen till jul... Är jag skyldig något?</p>
+            <stage type="modifier">(Adjunkten och Per ha slutat arbeta.)</stage>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN</speaker>
+            <stage>(presenterar).</stage>
+            <p>Tillåt presentera! Aktör Klinger, adjunkten Gren, <stage>(Lundqvist sträcker sig fram)</stage> Lundqvist... gå efter svafvelstickor... Artisten Nygren!</p>
+            <stage type="exit" who="#lundqvist">(Lundqvist går snopen.)</stage>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 5.</head>
+          <stage><stage type="presence" who="#per #adjunkten #ksektern #aktoren">DE FÖRRE</stage>, <stage type="entrance" who="#larsson">LARSSON</stage>.</stage>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Så der, mina herrar; slå er ned nu, så ska’ vi roa oss på vårt vis medan damerna dricka the! Er skål!</p>
+            <stage type="modifier">(De gruppera sig omkring bordet med bålen.)</stage>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Nej, mina herrar! Karl Johan Abrahams skål, en utmärkt faders förhoppningsfulle son!</p>
+            <stage type="modifier">(Drickning.)</stage>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Jag tacker er, mina herrar! — <stage type="modifier">(slår adjunkten i ryggen)</stage> Se så gamle Green, var rolig nu! Ta den der Åhlströmska biten, du vet, så ska’ vi låta herr Klinger sjunga “O Isis“ se’n.</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Min bäste bror, jag är verkligen så trött, för jag har haft två lik före midda’n; men lite senare.</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="modifier">(ger honom en blick).</stage>
+            <p>Alltid skall du vara ogen när jag ber dig om något, men vänta du! — Spelar herr Klinger Fortuna?</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Nej, det gör jag inte!</p>
+         </sp>
+          <pb n="12"/>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Nå, då slå vi oss ner och språka, medan de andra herrarne ta en pott!</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Med nöje!</p>
+         </sp>
+          <stage type="mixed">(Gruppering. AKTÖREN och LARSSON i soffan vid runda bor-det. ADJUNKTEN, K. SEKTERN och PER vid Fortunan. <stage type="entrance" who="#lundqvist">LUND-QVIST, som återkommer med strykstickor, slår sig ner i soffan vid skrif-bordet</stage>.)</stage>
+       </div>
+        <div type="scene">
+          <head>Scen 6.</head>
+          <stage><stage type="presence" who="#per #adjunkten #lundqvist #ksektern #aktoren #larsson">DE FÖRRE</stage>, <stage type="entrance" who="#gossen1 #gossen2">senare två små GOSSAR som tysta sätter sig på puffen vid venstra snedväggen och läsa i en bok</stage>.</stage>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Ryttmästaren är såsom ledamot af borgarståndet au courant med dagens politiska idéer!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Principer, om jag får be! Idéer äro hugskott; prin-cipen är deremot frukten af en långsamt mognad öfver-tygelse!</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Ni har då aldrig haft någon idé?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Aldrig! <stage type="modifier">(stiger upp och fixerar Lundqvist, som satt sig i soffan).</stage> Hvad är det för fasoner! <stage type="modifier">(Lundqvist stiger upp och sätter sig på en stol).</stage></p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN</speaker>
+            <stage>(gäspar).</stage>
+            <p>Men i politiken?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage>(djupt).</stage>
+            <p>Ah, i politiken! Ni vill se i mina kort! — Nåväl. Jag anser er vara en man af heder; jag känner er icke, <pb n="13"/> det är sant, men ni är min gäst; välan! jag skall tala! Ser ni, jag menar att känslan icke bör vara uteslutande i sin rätt äfven i fall sådana som dessa! <stage type="modifier">(Stiger upp, lägger armarna öfver bröstet, intar en napoleonisk ställning och betonar i sitt föredrag de betydelselösa orden)</stage> Vi borgerskapet äro skyldiga dynastien tacksamhet — — tacksamhet är en känsla — icke sant? — Icke sant?</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Alldeles rigtigt!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Tacksamhet för hvad vi äro; och den drägt jag bär, det vapen jag tillhör, älskar jag högt, min herre ty de påminna mig om stora dagar! Ni vet hvad jag syftar på, icke sant? Med denna sabel har jag i spetsen för min sqvadron qväft revolutionen i sin linda adertonhundratrettio-åtta, då landets, konungens och folkets sanna frihet hängde på ett hår! <stage type="modifier">(Rörd).</stage> Jag skall aldrig glömma det!</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Ni röstar då alltid med regeringen?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Alltid!</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Äfven i reformfrågan?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Reform är tidens lösen! Den frågan kan icke falla har Hans Majestät förklarat!</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Och allmän upplysning?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>I princip? Ja!</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Och religionsfrihet?</p>
+         </sp>
+          <pb n="14"/>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Om regeringen vill det? Ja!</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Ni är således liberal?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Liberal! Gud bevara mig!</p>
+            <stage type="modifier">(Gossarne på puffen släppa boken i golfvet.)</stage>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage>(häftigt).</stage>
+            <p>Hvad är det för ett förfärligt väsen på barnen! Gå ut i barnkammaren genast! Genast, sa’jag!</p>
+            <stage type="exit" who="#gossen1 #gossen2">(Gossarne gå).</stage>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 7.</head>
+          <stage><stage type="presence" who="#per #adjunkten #lundqvist #ksektern #aktoren #larsson">DE FÖRRE (utom gossarne).</stage> <stage type="entrance" who="#pigan1">PIGAN 1</stage>.</stage>
+          <sp who="#pigan1">
+            <speaker>PIGAN 1.</speaker>
+            <p>Frun ber att få tala med patron!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Jag har inte tid!</p>
+         </sp>
+          <sp who="#pigan1">
+            <speaker>PIGAN 1.</speaker>
+            <p>Men frun sa’...</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Hörde du! <stage type="exit" who="#pigan1">(Pigan går dröjande).</stage> Gift er aldrig, herre!</p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 8.</head>
+          <stage type="presence" who="#per #adjunkten #lundqvist #ksektern #aktoren #larsson">DE FÖRRE (utom PIGAN 1). Sedan M:LLES DINA och LINDA.</stage>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="modifier">(antyder de spelande).</stage>
+            <p>Ni känner de der herrarne?</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Nej, men det förvånar mig att se dem här!</p>
+         </sp>
+          <pb n="15"/>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Ni menar att de ser slarfviga ut...</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Nej, inte det!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Det är genier, ska’ ni tro; stora genier, men stora stackare!</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>De lära ega en god vän i er?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Hå! Ja! Det förstås, man säger...</p>
+            <stage type="entrance" who="#dina #linda">(M:lles DINA och LINDA gå fram till de spelande).</stage>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA</speaker>
+            <stage type="modifier">(till adjunkten som för protokollet på en griffeltafla)</stage>
+            <p>August lilla! Får jag tala med dig</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Söta vän, du ser ju att jag är upptagen! <stage type="modifier">(Till k. sektern.)</stage> Gå och kurtisera henne, medan jag räknar!</p>
+            <stage type="modifier">(K. SEKTERN och DINA; LINDA och PER bevakade af LUNDQVIST. AKTÖREN och LARSSON hos ADJUNKTEN.</stage>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Det är förskräckligt hvad herrarne röker!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Det är det enda som kan ersätta förlusten af damer-nas sällskap.</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA</speaker>
+            <stage>(smäktande).</stage>
+            <p>Hvarför då öfverge oss?</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Får jag hviska i ert öra?</p>
+            <stage>(PER och LINDA; LUNDQVIST lyssnar).</stage>
+         </sp>
+          <pb n="16"/>
+          <sp who="#linda">
+            <speaker>LINDA.</speaker>
+            <p>Ni säger att Arvid är orygglig i sitt beslut att icke vilja lemna studierna och bli bokhållare hos pappa?</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Till ytterlighet! Han arbetar på sitt stora poem och vill dö på att han skall bli författare!</p>
+         </sp>
+          <sp who="#linda">
+            <speaker>LINDA.</speaker>
+            <p>Hvad tror ni om det?</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Jag tror att han bäst skulle passa till bryggare!</p>
+         </sp>
+          <sp who="#linda">
+            <speaker>LINDA.</speaker>
+            <p>Kan ni vara så elak!</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Ja, när jag är svartsjuk.</p>
+         </sp>
+          <sp who="#linda">
+            <speaker>LINDA</speaker>
+            <stage>(till Lundqvist).</stage>
+            <p>Var snäll och gå efter min näsduk i matsalen!</p>
+            <stage><stage type="exit" who="#lundqvist">(LUNDQVIST går ursinnig.</stage> LARSSON, ADJUNKTEN, AKTÖREN betraktar några planscher).</stage>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="modifier">(till Adjunkten).</stage>
+            <p>Ska’ vi be’ Klinger sjunga!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Inte kan han sjunga!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Han är ju vid operan, sa’ du!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Nej, han är vid teatern!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Nå kan han inte agera något roligt?</p>
+         </sp>
+          <pb n="17"/>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Nej, han spelar tragedi!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Fy fan, hvad skulle han här att göra då?</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Han skulle “hedra“ din sons döpelseakt, skref du ju sjelf!</p>
+            <stage>DINA och PER.</stage>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Hur står det till med herr Nygren? Han ser så klen ut!</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Tackar, inte bra!</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Herr Nygren ska’ hålla hög diet; dricka porter om morgnarne och ett glas vin till middagen!</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER</speaker>
+            <stage>(generad).</stage>
+            <p>Ja, läkarn sa’ så han också!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST</speaker>
+            <stage type="entrance" who="#lundqvist">(kommer tillbaka med näs-duken; knuffar till PER så att denne tappar pipan; Allas uppmärksamhet fästes på PER; LUNDQVIST utropar:)</stage>
+            <p>Det brinner!</p>
+            <stage>(och ränner sin hand innanför PERS vest, rycker till och får natt-kappan i handen. Alla skratta utom ADJUNKTEN, K. SEKTERN och AK-TÖREN, hvilka taga sig åt halsarna och justera linnet. <stage type="exit" who="#per">PER rycker åt sig nattkappan och störtar ut</stage>).</stage>
+         </sp>
+          <sp who="#linda">
+            <speaker>LINDA.</speaker>
+            <p>Hur kan Lundqvist bära sig så illa åt!</p>
+         </sp>
+          <pb n="18"/>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Han föraktar mig, den stackar’n, han som inte har råd att äta middag mer än en gång i veckan!</p>
+         </sp>
+          <sp who="#linda">
+            <speaker>LINDA.</speaker>
+            <p>Det kan jag inte tro!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Vet mamsell Linda, att jag också tänker bli något?</p>
+         </sp>
+          <sp who="#linda">
+            <speaker>LINDA.</speaker>
+            <p>Såå!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Jag tänker bli aktör, konstnär!</p>
+         </sp>
+          <sp who="#linda">
+            <speaker>LINDA.</speaker>
+            <p>Tala inte om det för pappa; då vet Lundqvist hvad det vankas!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Mamsell Linda tror att patron vågar ta’ mig opp på vinden och slå mig, som han gjorde när jag ville gå seminarium. Det är slut med det! — Ni skall få se!</p>
+         </sp>
+          <stage type="exit" who="#dina #per"/>
+       </div>
+        <div type="scene">
+          <head>Scen 9.</head>
+          <stage type="presence" who="#adjunkten #lundqvist #ksektern #aktoren #larsson #linda">DE FÖRRE utom PER och DINA som dragit sig ut.</stage>
+          <sp who="#pigan1">
+            <speaker>PIGAN 1.</speaker>
+            <p>Patron, patron!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Hvad är det för skrik!</p>
+         </sp>
+          <sp who="#pigan1">
+            <speaker>PIGAN 1.</speaker>
+            <p>Kylskeppet har sprungit!</p>
+         </sp>
+          <pb n="19"/>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>O, du min evige skapare!</p>
+            <stage type="exit" who="#larsson #lundqvist">(Störtar ut. LUNDQVIST efter).</stage>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="entrance" who="#larsson">(in igen och rycker åt sig två käppar; <stage type="exit" who="#larsson">ut</stage>).</stage>
+         </sp>
+          <sp who="#linda">
+            <speaker>LINDA</speaker>
+            <stage type="exit" who="#linda">(går).</stage>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 10.</head>
+          <stage type="presence" who="#aktoren #ksektern #adjunkten">AKTÖREN. K. SEKTERN. ADJUNKTEN.</stage>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Hvad är ett kylskepp för slag?</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Det är en så som rymmer 1, 500 kannor öl!</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Inte annat!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Det här blir bestämdt inte roligt att få en närmare detaljerad beskrifning på. Jag föreslår att vi fara ut till Stallmästargården och se på kappkörningen!</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Skulle vi inte säga adjö först!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Det behöfs inte! Frun i huset är dessutom sjuk</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Nå, kör!</p>
+            <stage>(De göra sig i ordning att gå)</stage>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA</speaker>
+            <stage type="entrance" who="#dina">(i dörren).</stage>
+            <p>August lilla!</p>
+         </sp>
+          <pb n="20"/>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Ja, min söta!</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Kommer du inte ut snart?</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Jo, min lilla vän!</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Nå, så kom då!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Genast, min dufva! genast!</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA</speaker>
+            <stage type="exit" who="#dina">(drar sig tillbaka).</stage>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Rädda mig!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Gå köksvägen!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Jag har min hatt derinne!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Säg att du ska’ på bröllopp!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Då går hon och ser på bruden! Hon ser alla brudar!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>På begrafning då!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Hon ser lik också!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Olycklige vän!</p>
+         </sp>
+          <pb n="21"/>
+          <sp who="#dina">
+            <speaker>DINA</speaker>
+            <stage type="entrance" who="#dina">(som förut).</stage>
+            <p>August lilla!</p>
+         </sp>
+          <stage type="exit" who="#dina"/>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Öfverge mig icke!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Du är förlorad!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Jag måste med! Jag slår upp förlofningen; jag måste åka efter bagar Reinholds Rölle! Åh min passion!</p>
+            <stage type="exit" who="#ksektern #aktoren">(K. SEKTERN och AKTÖREN gå).</stage>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 11.</head>
+          <stage><stage type="presence" who="#adjunkten">ADJUNKTEN</stage>. <stage type="entrance" who="#dina">DINA.</stage></stage>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Hvar äro herrarne?</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>De ha gått på begrafning!</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Och de sa’ inte adjö!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Nehej!</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Du har inte gifvit mig någon puss på hela qvällen!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Hvad ska’ det vara för; vi ä’ alldeles för gamla!</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Men vi ä’ inte för gamla att fara till Stallmästare-gården; han tror inte man hör, min gunstig herre!</p>
+         </sp>
+          <pb n="22"/>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Ah, seså!</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Man ska’ älska bra högt, som jag...</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Älska? Hvad är det för prat?</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Ni blygs inte!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Tyst, qvinna!</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Ni skymfar mig, men ni skall umgälla det, otack-samme! Hör ni det! <stage type="exit" who="#dina">(Går.)</stage></p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 12.</head>
+          <stage type="presence" who="#adjunkten">ADJUNKTEN, sedan LARSSON.</stage>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Så dum jag var, som inte följde med!</p>
+            <stage type="modifier">(Sätter sig vid bordet och dricker ett glas.)</stage>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage>(<stage type="entrance" who="#larsson">kommer in</stage>, klädd i uniforms-byxor, vest, ridstöflar, förskinn, pels, kaschett och med två käp-par).</stage>
+            <p>Åh, herre Gud!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Hur var det med kylskeppet nu?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Sjuhundra kannor ha runnit bort; 2000 rdr riksgälds! Om jag hade fått veta det förut; 2, 000 rdr på fem minu-ter; om man beräknar läckans diameter till sex verktum, så blir det en hastighet af — låt mig se!</p>
+         </sp>
+       </div>
+        <pb n="23"/>
+        <div type="scene">
+          <head>Scen 13.</head>
+          <stage><stage type="presence" who="#larsson #adjunkten">ADJUNKTEN, LARSSON</stage>, <stage type="entrance" who="#arvid">ARVID kommer in något litet drucken</stage>.</stage>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>God dag, morbror, hur står det till?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Har du torkat dig om fötterna?</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Ja, gubevars! God dag, farbror Green! Jag tror far-bror sitter och pimplar ensam!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Det glädjer mig att du lydt min befallning, med lugn och nöje; jag lyckönskar dig på din nya bana.</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Hvad är meningen?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Meningen? Att herrn har förstört pengar i tolf ter-miner i Upsala och nu ska lära sig bli en nyttig men-niska! Du har fått mitt bref?</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Nej, jag har inte fått något rekommenderadt...</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Nej, men orekommenderadt pojke!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Så’na läser vi aldrig i Upsala!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Nå, då ska jag läsa för dig! Vet du att jag lofvat din salig mor att göra folk af dig!</p>
+         </sp>
+          <pb n="24"/>
+          <sp who="#arvid">
+            <speaker>ARVID</speaker>
+            <stage type="modifier">(dricker).</stage>
+            <p>Skål farbror Green; se inte ledsen ut, för det här är så vanligt! Och det går snart öfver!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Vet du att jag är din husbonde och att jag har rät-tighet att slå dig?</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>En akademisk medborgare?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Nej, du är dräng, och står under husagan tills du tjenat upp dig till bokhållare.</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID</speaker>
+            <stage type="delivery">(skriker).</stage>
+            <p>Hvad är det för dumheter! Jag väljer min bana själf!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Hvad heter den banan?</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Vi som lefva för idéer ha inga skyltar på våra bodar!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Jaså du lefver för idéer; det var en annan sak! <stage type="modifier">(Böjer på en käpp.)</stage> Jag hade en bror en gång som låg på en soffa i fem år och läste Walter Scotts romaner; allt hvad jag som bokhållare kunde förtjena, åt han upp! En dag frågade jag helt djerft hvar han gjorde på soffan! Då sva-rade han, att han utvecklade sig för att kunna lefva för sin idé.</p>
+            <p>Vet du hvad jag gjorde? jag tog herrn i kragen — så här! och så röck jag upp honom från soffan der han legat i fem långa år — så här! och så sa’ jag: der är dörrn!</p>
+            <stage type="modifier">(Han har ryckt upp Arvid från stolen.)</stage>
+         </sp>
+          <pb n="25"/>
+          <sp who="#arvid">
+            <speaker>ARVID</speaker>
+            <stage type="modifier">(med glaset i hand).</stage>
+            <p>Ja, det var han! Men det är en annan sak med mig; jag har skrifvit ett poem! Vill ni höra!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Jaså, du skrifver poem! Det ska’ vi snart hjelpa! <stage type="modifier">(Går till fönstret.)</stage></p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Jaså, det är frågan om att slåss med drängar!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Jag har tagit många idéer ur Lundqvist, jag, med stryk!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Då går jag!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Kom igen när du blir hungrig, så ska’ vi talas vid!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Aldrig! Adjö, farbror Green! Var inte ledsen! Det här är så vanligt och det går snart öfver! <stage type="exit" who="#arvid">(Går.)</stage></p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 14.</head>
+          <stage type="presence" who="#adjunkten #larsson">DE FÖRRE utom ARVID.</stage>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Kan man tänka sig en sådan lymmel!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>En oförskämd pojke!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Och så ville han läsa upp sitt poem! Men det var inte värdt att tänka på det längre! Hvar äro de andra gökarna!</p>
+         </sp>
+          <pb n="26"/>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>De ha gått, och bad helsa!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Gått? Hvad vill det säga!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Aktören skulle spela och sektern skulle gå på bal!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Det vill säga, jag skall sitta ensam med dig och ha tråkigt till råga på min olycka! Fem minuter förut och det hade varit ogjordt; hvarför sa’ man mig icke detta? — Men det är sant! — En idé! Det är fredag idag! Vi fara till Stallmästaregården, der är kappkörning!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Men fruntimmerna!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>De får roa sig sjelfva! <stage type="modifier">(Öppnar dragluckan och ropar)</stage> Johans-son! Sätt för Svarten och Brunte; båda kappslädarne, fäst på framfötterna; alla bjellrorna; raska på!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN</speaker>
+            <stage type="delivery">(orolig).</stage>
+            <p>Ja, men inte till Stallmästargården!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Jo, just dit! Det ska’ förarga de andra gökarna när de får höra’t!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Ja, men...</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Ta på dig!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Min fästmö...</p>
+         </sp>
+          <pb n="27"/>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Nå så stanna då!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Ett, två, tre! Jag följer!</p>
+            <stage type="mixed">(De kläda sig; Larsson tar ner piskor.)</stage>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 15.</head>
+          <stage><stage type="presence" who="#adjunkten #larsson">DE FÖRRE</stage>. <stage type="entrance" who="#pigan1">PIGAN 1.</stage></stage>
+          <sp who="#pigan1">
+            <speaker>PIGAN 1.</speaker>
+            <p>Frun ber att få tala med patron!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Nu igen! Hvad ville hon nyss?</p>
+         </sp>
+          <sp who="#pigan1">
+            <speaker>PIGAN 1.</speaker>
+            <p>Hon ville säga att kylskeppet höll på att springa, för det vågade inte jag!</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA</speaker>
+            <stage type="entrance" who="#dina">(i dörren).</stage>
+            <p>August lilla!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN</speaker>
+            <stage type="delivery">(för sig).</stage>
+            <p>Trogna varelse! <stage type="delivery">(högt)</stage> Ja, min dufva!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="mixed">(klatchar, eftertänksamt).</stage>
+            <p>Säg åt Johansson att han tar ifrån!</p>
+         </sp>
+       </div>
+        <stage type="business">(Ridån faller.)</stage>
+     </div>
+      <pb n="28"/>
+      <div type="act">
+        <head>Andra Akten.</head>
+        <stage type="setting">Scenen afdelad i två, a venster; b höger.</stage>
+        <stage type="setting" who="#arvid">
+          <label>a.</label>
+          <p>(Ett mycket torftigt möbleradt rum med kamin; dörr i fonden; fön-ster till venster; två tältsängar; ett bord med skrifdon; ett staffli; öfriga målarattiraljer, ett tvättfat på en stol).</p></stage>
+        <stage type="setting" who="#lundqvist">
+          <label>b.</label>
+          <p>(Ett enkelt men snyggt rum, som röjer en viss komfort, med fonddörr; fönster på högra väggen med blomkrukor och fogelbur; säng med omhängen, soffa, skrifbord, klädskåp, guitarr. Ett talrör mynnar ut vid fönstret. I dagningen. ARVID ligger på sin säng påklädd; LUNDQVIST kokar kaffe på sin kokare; läser i en rol; öppnar fönstret; vattnar blommorna; språ-kar med kanariefågeln).</p></stage>
+        <div type="scene">
+          <head>Scen 1.</head>
+          <stage type="location" corresp="#a">a.</stage>
+          <stage type="presence" who="#arvid"><stage>PER kommer in</stage>. <stage>ARVID sofver</stage>.</stage>
+          <stage type="entrance" who="#per"/>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Han sofver påklädd! Hvad vill det säga! <stage type="modifier">(Ruskar på Arvid).</stage> Vakna! Det är dager, gosse!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>O! väck mig inte!</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Nå sof då! — Men det var en besynnerlig luft här-inne! <stage type="modifier">(Hostar, tager sig för pannan, undersöker kaminien)</stage> Jaså, ett sjelfmordsförsök! <stage type="modifier">(öppnar fönstret.)</stage> Det är snart hjelpt; Fega stackare! Du ska’ få när du vaknar! <stage type="modifier">(sätter sig och målar.)</stage></p>
+         </sp>
+       </div>
+        <pb n="29"/>
+        <div type="scene">
+          <head>Scen 2.</head>
+          <stage type="location" corresp="#b">b.</stage>
+          <stage type="presence" who="#lundqvist #kanariefageln">LUNDQVIST, sedan PIANOSTÄMMAREN.</stage>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST</speaker>
+            <stage type="mixed">(har handskar på under hela denna scen, står upp och de-klamerar ur Karl Moor i Röfvarbandet. Han arrange-rar en pels på en stol och talar mot densamma).</stage>
+         </sp>
+          <stage type="entrance" who="#pianostammaren"/>
+          <sp who="#pianostammaren">
+            <speaker>PIANOSTÄMMAREN</speaker>
+            <stage type="mixed">(stannar mellan Lundqvist och stolen; Lundqvist ka-star sig öfver honom och griper honom om strupen med utropet <sp who="#lundqvist">“dö, usling!“</sp> Båda ramla öfver hvar-andra med stol och pels).</stage>
+         </sp>
+          <sp who="#pianostammaren">
+            <speaker>PIANOSTÄMMAREN.</speaker>
+            <p>Är herrn galen?</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST</speaker>
+            <stage type="modifier">(stiger upp).</stage>
+            <p>Ursäkta, jag skall spela Röfvarbandet i Talias vän-ner om söndag, och när jag kommer i extasen, så kan jag inte styra mig! Hvad tycker herrn om min inspiration, allvarsamt?</p>
+         </sp>
+          <sp who="#pianostammaren">
+            <speaker>PIANOSTÄMMAREN</speaker>
+            <stage type="modifier">(tar sig om halsen).</stage>
+            <p>För egen del, så tycker jag att herrn kunde ta’ den lite’ mer piano! Emellertid är kl. 6 och vi skulle kanske börja sången nu! <stage type="modifier">(Tager guitarren och stämmer).</stage></p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Tror herrn att det kan bli något af mig? Allvarsamt!</p>
+         </sp>
+          <sp who="#pianostammaren">
+            <speaker>PIANOSTÄMMAREN.</speaker>
+            <p>Såsom lärare kan jag inte annat än erkänna herrns goda anlag och ganska goda röst!</p>
+         </sp>
+          <pb n="30"/>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST</speaker>
+            <stage type="mixed">(sätter noterna på spegellådan; Pianostämmaren räcker honom guitarren).</stage>
+            <p>Vi ska’ börja med “Du ger mig lifvet“ hva’?</p>
+         </sp>
+          <sp who="#pianostammaren">
+            <speaker>PIANOSTÄMMAREN.</speaker>
+            <p>Men herrn ska’ ta’ af sig handskarna för all del. Hvarför har herrn dem på sig inne?</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Jo, ser herrn, jag har förkylt mina händer och, och...</p>
+         </sp>
+          <sp who="#pianostammaren">
+            <speaker>PIANOSTÄMMAREN.</speaker>
+            <p>Ni är kär!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Jag älskar...</p>
+         </sp>
+          <sp who="#pianostammaren">
+            <speaker>PIANOSTÄMMAREN.</speaker>
+            <p>Och hon?</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Föraktar mig!</p>
+         </sp>
+          <sp who="#pianostammaren">
+            <speaker>PIANOSTÄMMAREN.</speaker>
+            <p>Och ni ämnar bjuda henne er hand?</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Och den får inte vara röd, menar ni, nej! — Men jag skall bli stor! Jag skall utmärka mig på ett eller an-nat sätt; jag skall bli konstnär, herre! Jag känner den guddomliga lågan brinna i mitt sargade bröst, den skall antingen slå ut i blom eller den skall qväfva mig!</p>
+         </sp>
+          <sp who="#pianostammaren">
+            <speaker>PIANOSTÄMMAREN.</speaker>
+            <p>Det är vackert tänkt! så talade jag också när jag var ung. Herrn tror inte att jag spelat på konsert, i Kir-steinska huset, herre, Beethovens nionde konsert, och blef applåderad; och tidningarne sa’ jag var ett snille, och nu stämmer jag pianon för åtta skilling banco!</p>
+         </sp>
+          <pb n="31"/>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST</speaker>
+            <stage type="modifier">(Som inte vill höra på).</stage>
+            <p>Ska’ vi börja nu? Sjung före ni!</p>
+         </sp>
+          <sp who="#pianostammaren"><speaker>PIANOSTÄMMAREN</speaker> <stage type="delivery">(med bruten, darrande röst).</stage> “Du ger mig lifvet!“
+         </sp>
+          <sp who="#lundqvist"><speaker>LUNDQVIST</speaker> <stage type="delivery">(med dålig röst).</stage> “Du ger mig lifvet!“
+         </sp>
+          <sp who="#pianostammaren"><speaker>PIANOSTÄMMAREN.</speaker> “Du ger mig döden!“
+         </sp>
+          <sp who="#lundqvist"><speaker>LUNDQVIST.</speaker> “Du ger mig döden!“
+         </sp>
+          <sp who="#pianostammaren">
+            <speaker>PIANOSTÄMMAREN.</speaker>
+            <p>Ska’ vi ta’ om det der en gång till, men med mera känsla!</p>
+         </sp>
+          <sp who="#lundqvist"><speaker>LUNDQVIST</speaker> <stage type="delivery">(som förut).</stage> "Du ger mig lifvet!"...
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSONS</speaker>
+            <stage type="delivery">(röst i talröret).</stage>
+            <p>Hvad är det för oväsen deruppe!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST</speaker>
+            <stage type="delivery">(far upp förskräckt, svarar i talröret).</stage>
+            <p>Patron, jag sjunger!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSONS RÖST.</speaker>
+            <p>Håll mun så att folk får sofva!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST</speaker>
+            <stage type="delivery">(till pianostämmaren).</stage>
+            <p>Ah, ser ni, ser ni! man vill hindra mig på mina bana, men jag ska’ fram! Jag har hundra rdr på sparbanken. — I morgon träffas vi hos er vid samma tid! Hvar bor ni?</p>
+         </sp>
+          <sp who="#pianostammaren">
+            <speaker>PIANOSTÄMMAREN.</speaker>
+            <p>Jag bor inne hos en annan, så jag kan inte ta’ emot, <pb n="32"/> men kan vi inte träffas någon annanstans, t. ex. fins det inte någon vindskontor! — Jag har en skräddargesäll som får lektioner på flöjt i vedbo’n, för han tänker öfverraska sin fästmö på hennes namnsdag!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Ni sa’ verkligen någonting; kom upp på höskullen, stora stallkullen i morgon kl. 6, der är godt musikrum och der kan ingen höra oss!</p>
+         </sp>
+          <sp who="#pianostammaren">
+            <speaker>PIANOSTÄMMAREN.</speaker>
+            <p>Sagdt! God morgon!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Adjö, herrn! <stage type="modifier">(Går af och an läser tyst på sin roll).</stage></p>
+         </sp>
+          <stage type="exit" who="#pianostammaren"/>
+       </div>
+        <div type="scene">
+          <head>Scen 3.</head>
+          <stage type="location" corresp="#a">a.</stage>
+          <stage type="presence" who="#arvid #per">ARVID (rör på sig).</stage>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Lefver du?</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Jag vet inte; jag hörde himmelska toner som af de saligas harpor och jag kände vällukter som af Arabiens örter...</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Du sköt spjellet för tidigt i går afton, jag kom nyss hem och släppe ut oset; de himmelska harporna är Lund-qvists gamla guitarr, Arabiens vällukter är förmodligen oset från hans kaffekokare! Se så, opp nu och arbeta!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Är kaffet färdigt, sa’ du?</p>
+         </sp>
+          <pb n="33"/>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Inte vårt!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Hvar är det då?</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Det är väl inte brändt än!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Hvad vill det säga, kommer inte din piga in och borstar?</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Jag får allt vara piga sjelf</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Och på sådana vilkor är du artist</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Ja!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Fy fan! <stage type="modifier">(Stiger upp.)</stage> Hvar äter du middag i dag?</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Jag äter inte middag i dag!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Inte?</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Jag har inte råd annat än om torsdagarna</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Ärter och fläsk hos min söta morbror! Jag känner dem! — Kors i Herrens namn hvad jag är hungrig!</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Du fick ingenting igår?</p>
+         </sp>
+          <pb n="34"/>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Inte ett grand!</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Och derför sköt du spjellet?</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Åh, det var annat också! Kan du tänka dig, jag var uppe hos den där redaktören med mitt stora poem; vet du vad han sa’? Jag skall tala om’et för dig om du lofvar tiga. “Får jag behålla’t?“ sa’ han. Jaa, sa’ jag. Derpå stoppade han manuskriptet i papperskorgen och frå-gade om det var något annat!</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Hvad svarade du då?</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Ingenting. Men då sa’ han att jag skulle få en korrekturläsarplats med 10 banko i månaden om jag hade lust! Jag ba’ honom... och så gick jag!</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Nå, jag gratulerar dig!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Till hvad då?</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Till platsen!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Är du galen karl? Tror du jag vill vara dräng åt hans drängar; nej förr svälter ett snille ihjäl!</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Är du högfärdig, kamrat, så får du snart lära dig annat om du vill bli poet, som du säger; jag får vara <pb n="35"/> ritlärare halfva da’n och artist ett par timmar bara; der-för går det långsamt, men man får tåla!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID</speaker>
+            <stage>(vid fönstret).</stage>
+            <p>Åh Herre Gud hvad jag är hungrig! Ser du der nere på gården, hur de stora dränglunsarne sitta oppradade på stegkärran och äta; sådana der ska’ äta de, som inte göra någon nytta, liksom inte menskligheten skulle kunna reda sig utan öl! Och ändå skulle jag vilja vara i ett sådant der djurs ställe, i detta ögonblick!</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Men inte i en korrekturläsares?</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Håll mun på dig, det der förstår du inte! — Har du några pengar?</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Nej!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Du måste ut och låna!</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Jag lånar aldrig!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Hvad gör du då?</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Jag arbetar!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Så dum du är!</p>
+         </sp>
+       </div>
+        <pb n="36"/>
+        <div type="scene">
+          <head>Scen 4.</head>
+          <stage type="location" corresp="#a">a.</stage>
+          <stage><stage type="presence" who="#arvid #per">DE FÖRRE</stage>. <stage type="entrance" who="#lundqvist">LUNDQVIST (kommer in)</stage>.</stage>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Förlåt, jag stiger på, men jag hörde magisterns röst härinne!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID</speaker>
+            <stage type="modifier">(tar en stor min på sig och sätter sig på stolen)</stage>
+            <p>Hvad vill herrn?</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Jag vill begära hjelp af magistern!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Tala!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Jag vill bli aktör</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Hvilken ond ande har inblåst detta i ditt öra, stackars yngling!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Kärlekens magi är oändlig!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Du är kär? —</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>O, ja, verkligen!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Lätta ditt hjerta, gosse, jag kan göra något för dig!</p>
+         </sp>
+          <pb n="37"/>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>För att få bli aktör, måste jag först göra mig bemärkt! Jag vill lära mig spela och sjunga, men jag får inte för patron! Nu har jag tänkt att jag måste hålla föredrag i bildningscirkeln!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Det är rätt! <stage type="modifier">(hostar)</stage> Åh, jag har så ondt i bröstet! Har du något varmt att dricka?</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Ja, herr magistern, jag har kaffe!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Bär hit! Har du bröd också?</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Ja, för all del!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Bär hit! Och smör med?</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST</speaker>
+            <stage type="exit" who="#lundqvist">(går efter kaffet)</stage>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID</speaker>
+            <stage type="modifier">(till Per).</stage>
+            <p>Han är kär i min kusin, den lymmeln; jag skall för-störa honom!</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Han hatar och afundas oss, den token!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Och du hatar honom! Du glömmer inte nattkappan! Jag skall hämnas! Var lugn!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST</speaker>
+            <stage type="entrance" who="#lundqvist">(kommer in, Arvid äter och dricker under följande).</stage>
+            <p>Se här, var så artig!</p>
+         </sp>
+          <pb n="38"/>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Du skall alltså hålla föredrag i bildningscirkeln för att få stå i tidningen! Hvad heter ämnet?</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>“Arbetets ära!“</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Ett dumt ämne; det är ingen ära att arbeta! Gå till dig sjelf!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Nej, det har jag nog sett; magistern kallar mig för du...</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Det är i den högre stilen ser du! Och nu skall jag skrifva åt dig om “Arbetets ära“?</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Ja, naturligtvis mot betalning!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Jag skall skrifva, så att det blir bra! Men säg mig, unge vän, har du noga betänkt följderna af att bli aktör, konstnär?</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Jaa!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Nej, säger jag! Vet du, att du aldrig får dricka kaffe om morgnarne?</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Ja, men jag får heta “herrn“!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Tyst, när jag talar! Vet du att du bara får middag en gång i veckan?</p>
+         </sp>
+          <pb n="39"/>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Åhja, men jag får sofva till kl. 10... och så får jag sitta i soffan när jag är fremmande!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Tyst! Vet du, att du bara får ren skjorta hvar sön-dag, att du inte får sätta något på sparbanken, inte åka bak till Stallmästargården, inte hålla mat åt kanariefoglar, inte röka Gefle vapen, inte ha kakelugn, inte klädskåp?</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Ja, ja, men jag slipper arbeta!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Du sa’ ordet! Du slipper arbeta! Du skall bli aktör, Lundqvist, stor aktör; men först hålla föredrag i bildnings-cirkeln! Hur mycket tror du, att ett så ansträngande ar-bete som mitt blir värdt?</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Jag förstår inte, men jag tror, att en 2:a banko!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>I förskott! Låt gå! — En sak till! Du har pengar på sparbanken?</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Ja!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Ta ut dem; en sann konstnär får icke äga något; fattigdomen är hans skyddsgudinna som jagar honom mot sitt mål!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Men hvad skall jag göra med pengarna?</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Dåre! — Förstör dem; bränn upp dem!</p>
+         </sp>
+          <pb n="40"/>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Då kan man väl roa sig istället!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Det menar jag också; och roa sig kan man göra på två sätt: antingen ensam, eller i andras sällskap; en konst-när roar sig aldrig ensam; du skall få mitt sällskap!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>När behagar magistern?</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>När du sagt upp din plats!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST</speaker>
+            <stage type="modifier">(blir eftertänksam).</stage>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID</speaker>
+            <stage type="modifier">(äter).</stage>
+         </sp>
+          <sp who="#per">
+            <speaker>PER</speaker>
+            <stage type="modifier">(målar).</stage>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 5.</head>
+          <stage type="location" corresp="#b">b.</stage>
+          <stage type="entrance" who="#larsson #muraren #poliskonstapeln">LARSSON kommer in med en MURARE och en POLISKONSTA-PEL. Muraren undersöker kakelugnen; Larsson går under tiden och snokar i rummet; får fatt i rolen.</stage>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Ha! han har fått nya idéer i hufvudet, den lymmeln! det är väl det der artistpacket som satt det i honom, men ännu fins det medel! <stage type="modifier">(stoppar rolen i fickan, drar upp byrålådor och gräfver i dem.)</stage> “Och hafva en faderlig tillsyn öfver sina tjenares tillhörigheter, hafva omtanka om deras framtid“... står det i hustaflan! <stage type="modifier">(får fatt i guitarren)</stage> Han har varit i vindskontoret och fått tag i min gamla guitarr, som jag spelte för fästmön i verlden! <stage type="modifier">(sätter sig och knäpper)</stage> Åh, Herre Gud, så eget det låter! Så galen man kunde vara ändå när man var ung och kär, gubevars, och skulle ta lifvet af sig — det var modernt på 20-talet! Jag undrar om jag har glömt bort den der <stage type="modifier">(sjunger)</stage></p>
+            <pb n="41"/>
+            <lg>
+              <l>“Du ger mig lifvet, <stage type="modifier">(accompagnement)</stage>
+                               </l>
+              <l>“Du ger mig döden...</l>
+              <stage type="mixed">(Muraren stannar i arbetet och lyss; Poliskonstapeln ser andäktig ut)</stage>
+              <l>“Ja, blott af dig mina öden bero!“</l>
+           </lg>
+         </sp>
+          <sp>
+            <speaker>EN RÖST</speaker>
+            <stage type="modifier">(i röret).</stage>
+            <p>Hvad är det för oväsen deruppe; frun vill sofva!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="modifier">(för sig)</stage>
+            <p>Hon vill sofva! — Det sofs inte så mycket den tiden!</p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 6.</head>
+          <stage type="location" corresp="#b">b.</stage>
+          <stage type="exit" who="#lundqvist" cert="medium"/>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST</speaker>
+            <stage type="entrance">(kommer in, stannar häpen i dörren).</stage>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="modifier">(stiger upp förlägen).</stage>
+            <p>Lundqvist! Lundqvist ska’ inte ha så’na här dum-heter för sig. <stage type="modifier">(lemnar honom rolen)</stage> Håll han sig på sin plats, och han skall bli en nyttig medlem i samhället och han skall bli lycklig!</p>
+         </sp>
+          <sp who="#poliskonstapeln">
+            <speaker>POLISKONST.</speaker>
+            <p>Det är klart nu, patron!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Nästa!</p>
+            <stage type="exit" who="#larsson #muraren #poliskonstapeln">(De går utom Lundqvist.)</stage>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 7.</head>
+          <stage type="location" corresp="#a">a.</stage>
+          <sp who="#arvid">
+            <speaker>ARVID</speaker>
+            <stage>(har stängt dörren i lås).</stage>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="modifier">(rycker i dörren).</stage>
+            <p>Öppna!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Hvem är det?</p>
+         </sp>
+          <pb n="42"/>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Brandsyn!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Här fins ingen kakelugn!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Öppna för värden!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Kors i Herrans namn, det är morbror! Din fattiga fan som inte har ett klädskåp!</p>
+            <stage type="modifier">(Han öppnar.)</stage>
+         </sp>
+          <stage type="entrance" who="#larsson"/>
+       </div>
+        <div type="scene">
+          <head>Scen 8.</head>
+          <stage type="location" corresp="#a">a.</stage>
+          <stage type="presence" who="per #arvid #larsson">PER. ARVID. LARSSON.</stage>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="delivery">(ond).</stage>
+            <p>Är du här, din odåga! Under mitt tak! — Ut!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID</speaker>
+            <stage type="modifier">(fattar sig).</stage>
+            <p>Vi ska’ afsluta det här samtalet så fort som möjligt, för jag skall vara på byrån kl. 8!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Ha, ha, ha! Byrån! Är det hittegodsbyrån kanske; ska’ du höra efter om någon hittat 12 Upsalaterminer som du förlorat!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Nej, det är "Den Konservatives" redaktionsbyrå, der jag är medarbetare med 50 rdr i månaden!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Hva’! Du?</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Ja, Arvid har verkligen fått plats i “Den Konserva-tive“!</p>
+         </sp>
+          <pb n="43"/>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Nåväl, min gosse; det glädjer mig att du fått arbete, och ett så aktningsvärdt till; jag känner redaktören, han är min speciele vän! — Apropos! Har ni hört den för-skräckliga nyheten som står i morgontidningen?</p>
+         </sp>
+          <sp who="#per #arvid">
+            <speaker>PER OCH ARVID.</speaker>
+            <p>Nej!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Det är revolution i Paris; packet har afsatt kungen; lagt sina smutsiga händer på hans krönta hjessa! Och vet ni hvad? — Man väntar att...</p>
+         </sp>
+          <sp who="#per #arvid">
+            <speaker>PER OCH ARVID.</speaker>
+            <p>Hvad då?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Att Stockholm skall göra revolution!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Omöjligt!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Säg inte mig det; jag har qväft en revolution förr!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Här måste hållas en reformbankett!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Ja, en reformbankett! Skrif om det i tidningen; sätt mitt namn i spetsen — eller hvar du vill!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Det skall jag göra! Och nu ska’ morbror ta fram sin gamla motion om tjenstefolkets klädsel!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Det vore oförsigtigt!</p>
+         </sp>
+          <pb n="44"/>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Nej! Packet måste gå i gråa kläder, så att militären vet hvem de ska’ skjuta på, när det blir revolution!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Ja, det är rätt! Och du skrifer det der i tidningen alltihop!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Alltihop!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Tack! — Min konung, som alltid haft sitt säkraste stöd i det trogna borgerskapet, skall veta att belöna äfven en så ringa undersåte som du! Adjö! — Jag måste ner och mönstra drängarne; portarne skola stängas och alla folksamlingar undvikas! <stage type="exit" who="#larsson">(Går.)</stage></p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 9.</head>
+          <stage type="presence" who="#per #arvid">PER. ARVID.</stage>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Hurra! Borgarkungen har stupat på sina penningpåsar, tredje ståndets välde är slut; lefve intelligensen! Nu är det vår tid, Per!</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Hvad är en reformbankett för ting?</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Det är en demonstration mot regeringen, men det be-griper inte den dumma gubben!</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Men kungen vill ju ha reform!</p>
+         </sp>
+          <pb n="45"/>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Om han får göra den sjelf ja! — Men nu skall jag nederslå mina fiender! Först Lundqvist och så gubben! — Jag går genast till “Den Konservative“ och tar korrektur-platsen; får man bara ett finger i tidningen, så! — Lefve revolutionen!</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Är det bra när det är revolution?</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Mycket bra! Allting blir som nytt!</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Köper man taflor också?</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Nej, men man förstör gamla, så att det behöfs nya!</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Lefve revolutionen!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Och nu till verket</p>
+         </sp>
+       </div>
+        <stage type="business">(Ridån faller.)</stage>
+     </div>
+      <pb n="46"/>
+      <div type="act">
+        <head>Tredje Akten.</head>
+        <stage type="location">På källaren Dufvan.</stage>
+        <stage type="setting" who="#arvid #per #kyparen">
+          <p>Disk i fonden; fönstersmygar till höger och venster; dörr på högra och venstra sidan.</p>
+          <p>PER och ARVID vid ett bord till höger drickande toddy; osynliga för dem som senare sätta sig på venstra sidan. Kyparen vid disken</p></stage>
+        <div type="scene">
+          <head>Scen 1.</head>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Allting gick efter beräkningen?</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Utmärkt! Lundqvists föredrag väckte mycken munter-het i cirkeln, och refereras i qväll i tidningen. <stage type="modifier">(Till kyparen.)</stage> Har aftontidningen kommit?</p>
+         </sp>
+          <sp who="#kyparen">
+            <speaker>KYPAREN.</speaker>
+            <p>Inte än!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Nå! — vidare står att läsa om Gubbens Reform-bankett och motion med diverse hån! Nu gå de båda få-ren och njuta af sin inbillade berömdhet.</p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 2.</head>
+          <stage type="presence" who="#arvid #per #kyparen"><stage>LUNDQVIST</stage>. <stage>DE FÖRRE</stage>.</stage>
+          <stage type="entrance" who="#lundqvist"/>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <stage type="modifier">(söndagsklädd och något på-struken).</stage>
+            <p>Får man lof att slå sig ner?</p>
+         </sp>
+          <pb n="47"/>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Nej, se Lundqvist! Så fin han är, och ledig så här dags på da’n!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Ledig? Ja nu är jag ledig; jag har flyttat!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Har du flyttat? Hvad sa’ gubben?</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Han vet inte af det ännu!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Jaså, man flyttar på det viset nu för tiden!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>“Frihet är men’skans första rättighet“ hade du sjelf skrifvit! Hvad behagar herrarna dricka?</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Toddy!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Nej, det är för simpelt! — En liten bål, kypare.</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID</speaker>
+            <stage type="modifier">(till Per).</stage>
+            <p>Han är läraktig! <stage type="delivery">(Högt.)</stage> Nå Lundqvist, tycker du inte det är herrligt att vara fri? Du har aldrig sutit på en källare så här dags på da’n förr!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>O, jag känner att jag börjar ett nytt lif. <stage type="business">(Bålen är framsatt).</stage></p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID</speaker>
+            <stage type="delivery">(ironiskt).</stage>
+            <p>Jag tror dig, Lundqvist!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Skål för friheten! Lefve republiken!</p>
+         </sp>
+          <pb n="48"/>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Lundqvist ska’ inte skrika så högt!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Har jag inte rättighet att skrika! Är jag inte en medborgare?</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Jo, jo! — Nu skall du kalla mig du, Lundqvist, efter du är artist!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Det behöfs inte, medborgare; titlarne ä’ bortlagda!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Jo, du är skön du! Hvad skulle du säga, om gubben trädde in nu och du har gått ifrån ditt arbete?</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Tror du kanske jag skulle bli rädd? “Medborgare!“ skulle jag säga, “vet ni hvad frihet är; jag har uphört att ge er mitt ärliga arbete i utbyte mot era lumpna pengar; jag är artist, herre!“</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Det är bra sagdt! — Hör du, har du tagit ut dina pengar från sparbanken?</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Ja, gu’bevars och förstört dem också, på en tia när.</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Det var illa gjort! Du skulle ha sagt till mig! Tänk om du skulle misslyckas!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Jag kan inte misslyckas! Jag skall tala om för er att jag redan profvat och — om söndag debuterar jag på Ladugårdslandsteatern!</p>
+         </sp>
+          <pb n="49"/>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>I Röfvarbandet?</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Ja!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Med ditt utseende och din röst måste du lyckas!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Allvarsamt?</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Allvarsamt! — Se här kommer bekanta! Låt oss tala tyst!</p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 3.</head>
+          <stage type="presence" who="#lundqvist #per #arvid #kyparen"/>
+          <stage>ADJUNKTEN och AKTÖREN från venster slå sig ned vid ett bord utan att se DE FÖRRE.</stage>
+          <stage type="entrance" who="#adjunkten #aktoren"/>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Två tutingar!</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Nå, min kära bror, är det sant att din fästmö slagit upp?</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Ja, Gud ske lof, men vi ska’ inte tala om så’nt der nu!</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN</speaker>
+            <stage type="business">(tar upp en tidning).</stage>
+            <p>Nu ska’ vi läsa i aftontidningen; det lär stå något om Larssons dumma påhitt med reformbanketten och hans gamla välkända motion!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Åh fan!</p>
+         </sp>
+          <pb n="50"/>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN</speaker>
+            <stage type="modifier">(läser).</stage>
+            <p>“Den politiska situationen! Att vårt nådehungriga borgerskap skulle gå så långt i naiveté, att de ta’ regerin-gens reformsträfvanden för rabulism och anordna reform-banketter, allt af pur rojalism, hade man dock icke väntat. Så har t. ex. den konservative bryggaren Larsson i borgar-ståndet satt sitt namn under en inbjudningslista; på samma gång som han lär ha’ för afsigt att än en gång fram-komma med sin kända motion om en särskild drägt för tjenstefolket!“</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Han är syperb, min kära Larsson, när han skall leka politik! Nu ska man anse honom omöjlig för vasaorden!</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Och omöjligt att bli omvald. Blir det något upplopp som <date when="1838">38</date>, så slår nog folket in fönsterna hos honom!</p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 4.</head>
+          <stage><stage type="presence" who="#adjunkten #aktoren #lundqvist #arvid #per #kyparen">DE FÖRRE</stage>. <stage type="entrance" who="#larsson">LARSSON kommer in (civil) från venster; slår sig ned hos aktören och adjunkten utan att se PER, ARVID och LUNDQVIST</stage>.</stage>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Har ni läst aftontidningen?</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN</speaker>
+            <stage type="delivery">(förlägen)</stage>
+            <p>Ja, men det ska’ bror inte fästa sig vid!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Ska’ jag inte fästa mig vid! Den lymmeln har ju uppviglat arbetsklassen, han har sagt att det är skam att arbeta!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Hvad menar bror?</p>
+         </sp>
+          <pb n="51"/>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Har ni inte hört referatet om Lundqvists föredrag i Bildningscirkeln?</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Nej! Det ha vi inte läst!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Hör på ska’ ni få höra; det är så att håren kunna resa sig på ens hjessa! O! du min evige, en sådan vanära han hopat öfver mitt hus! Mitt hus, som aldrig hyst andra åsigter än jag, trogen som jag är min konung och det bestående! Jag skall anses som en rabulist och kanske drabbas af min konungs onåd!</p>
+         </sp>
+          <sp who="#aktoren">
+            <speaker>AKTÖREN.</speaker>
+            <p>Åh, det kan väl ingen misstänka den konservative, den lojale Larsson för revolutionära meningar!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Jag hoppas det! Men det är revolution i luften; den skall qväfvas!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Låt höra hvad den lymmeln säger!</p>
+         </sp>
+          <sp who="#larsson"><speaker>LARSSON.</speaker> <p>Hör på! “Det klassiska föredraget hade följande inne-håll ungefär:</p> Om arbetets ära!
+                        
+            <p>Att arbeta har alltid varit en skam! Om man kastar en blick tillbaka på Rom och Grekland, skall denna sats genast finna sin bekräftelse. I Grekland arbetade endast det sämre folket <stage type="modifier">(hyssningar)</stage> och de som icke arbetade, anstälde ibland små jagtpartier, då man sköt slaf för rapp-hönshund och pilbåge. I våra dagar är det likadant, de som arbetar mest äro sämst klädda, äta sämst, sofva sämst! Arbete är likaledes skadligt för moralen, efter som sta-<pb n="52"/>tistiken lär att de flesta brotten begås af arbetarklassen eller packet, som det kallas... Här afbröts talaren af hyssningar så att han måste sluta! Reflexion! Det är ett sorgligt tidens tecken att icke våra borgare hålla efter sitt folk bättre, utan att de till och med uppmuntra dem att besöka folksamlingar, der upproriskt och samhällsvådligt prat föres!“
+                       </p>
+            <p>Det var åt mig det der! Men herre mig Gud! kungen uppmuntrar ju bildningscirklarne, då är det väl inte farligt!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Ja visst, men, det der att du inte håller reda på ditt folk, tycker jag är värre!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Håller jag inte reda på mitt folk! Gå upp på span-målsvinden skall du se den flitige Lundqvist arbeta i sitt anletes svett; de hålla just på att ta upp korn! — Jag förstår inte Lundqvist, som alltid varit en så utmärkt ordentlig yngling, som jag sjelf uppfostrat — och jag kan uppfostra folk jag...</p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 5.</head>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST</speaker>
+            <stage type="modifier">(höjer sitt glas).</stage>
+            <p>Skål, medborgare! Lefve republiken!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="business">(upp).</stage>
+            <p>Hvad är det? Evige förbarmare! — Lundqvist! — <stage type="modifier">(Rusar fram).</stage> Lundqvist! Lymmel! Förrädare! Hvad gör du?</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST</speaker>
+            <stage type="modifier">(drucken).</stage>
+            <p>Det rör dig inte, jag är en fri man!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Fri! Du är i mitt bröd, skälm!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Nej, jag har flyttat!</p>
+         </sp>
+          <pb n="53"/>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Har du flyttat! När skedde det?</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Nyss! Jag skall bli konstnär!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Är du från dina sinnen? Vet du inte att bönderna stå och vänta med sina lass på gården? Opp med dig genast!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Tyst!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Jag tror att karlen är bindgalen! Och sådant sällskap, artistpack! Galgfåglar! <stage type="modifier">(till Per)</stage> Du din lilla beskedliga sudder, som jag dragit upp ur dyn; har jag inte födt dig och klädt dig kanske, och nu narrar du mitt folk ifrån mig; en så ung gosse, sitta på krogen, fy! Genier, gubevars! Nej svin, lättingar, som inte vilja arbeta! Och, du din stora drummel; du har ljugit för mig; du har inte mer än 10 Bco, du, fast du sa’ att du hade 50 rdr och du är inte medarbetare! Du är för gammal att få stryk, men den der lymmeln, Lundqvist! Se så, upp drummel, så ska’ det bli annat af!</p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 6.</head>
+          <stage><stage type="presence" who="#adjunkten #aktoren #lundqvist #per #arvid #larsson #kyparen">DE FÖRRE</stage>, <stage type="entrance" who="#frularsson">FRU LARSSON kommer in</stage>.</stage>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Joho, alldeles som jag tänke! På krogen skall man söka sin man; han sitter och rumlar, då folket står i långa rader och väntar; och så tar han bokhållaren med sig, du min Gud! Det hade jag ändå aldrig trott! Du gamle man, förleder ungdomen! Men det är inte ditt fel! Du har dåligt sällskap, Abraham! Du ska’ umgås med så’nt der aktörsfolk, som är det sämsta som fins, och presten — der, <pb n="54"/> jo det är en skön prest, — fy! Han är inte en bit bättre än aktörn. Och så narra de dig att gå och skrifva på borgen, det är tacken det! Men det går väl an; du vet väl hvad som står i bladet i afton?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>O, jag vet! — Ser du, det bränner i mina händer!</p>
+            <stage type="setting">(Buller utanför på gatan.)</stage>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 7.</head>
+          <stage><stage type="presence" who="#adjunkten #aktoren #lundqvist #per #arvid #larsson #kyparen #frularsson">DE FÖRRE</stage>, <stage type="entrance" who="#pigan1">PIGAN 1</stage>.</stage>
+          <sp who="#pigan1">
+            <speaker>PIGAN 1.</speaker>
+            <p>Frun, patron, det är revolution!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Ha, revolution! Ser du, Lundqvist! Hvi gjorde du mig detta?</p>
+         </sp>
+          <sp who="#pigan1">
+            <speaker>PIGAN 1.</speaker>
+            <p>Drängarne kasta sten på patrons fönster och säga att han...</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Hvad säga de?</p>
+         </sp>
+          <sp who="#pigan1">
+            <speaker>PIGAN 1.</speaker>
+            <p>De säga att patron bedt riksda’n att tjenstefolket ska’ få gå i kläder som korrektionister.</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Hur vet man det? Det har jag inte gjort!</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Ah! så, du har inte läst bladet!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Nej!</p>
+         </sp>
+          <pb n="55"/>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Nå, så läs då, eländige! Kom Mari!</p>
+            <stage type="exit" who="#frularsson #pigan1">(De gå hastigt.)</stage>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 8.</head>
+          <stage type="presence" who="#adjunkten #aktoren #lundqvist #per #arvid #larsson #kyparen">DE FÖRRE (utom FRUN och PIGAN 1).</stage>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="modifier">(läser i tidningen).</stage>
+            <p>Jag har gjort revolution! Du har gjort revolution! Lundqvist har gjort revolution! Men jag skall qväfva den!</p>
+         </sp>
+          <sp who="#per #arvid #lundqvist">
+            <speaker>PER, ARVID OCH LUNDQVIST</speaker>
+            <stage type="modifier">(rusa upp).</stage>
+            <p>Revolution! det ska’ vi se på! <stage type="exit" who="#per #arvid">(De gå.)</stage></p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Lundqvist, säg till att man sadlar och sitter upp!</p>
+         </sp>
+          <sp who="#lundqvist">
+            <speaker>LUNDQVIST.</speaker>
+            <p>Jag är en fri man, medborgare! Lefve republiken!</p>
+            <stage type="exit" who="#lundqvist">(Går.)</stage>
+            <stage type="exit" who="#adjunkten #aktoren"/>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 9.</head>
+          <stage><stage type="presence" who="#larsson #kyparen">DE FÖRRE utom PER, ARVID och LUNDQVIST</stage>, <stage>ADJUNK-TEN och AKTÖREN har dragit sig ut.</stage> <stage type="entrance" who="#polis1 #polis2">TVÅ POLISER, en genom hvar dörr</stage>.</stage>
+          <stage type="entrance" who="#lundqvist" cert="medium"/>
+          <sp who="#polis1">
+            <speaker>POLIS 1</speaker>
+            <stage type="modifier">(tar Lundqvist i kragen).</stage>
+            <p>Jag arresterar dig som upprorsmakare!</p>
+         </sp>
+          <sp who="#polis2">
+            <speaker>POLIS 2.</speaker>
+            <p>Här slipper ingen in! Källaren skall stängas! <stage type="exit" who="#polis2">(Stänger dörrarne och gå. Tjut och oväsen utanför).</stage></p>
+         </sp>
+          <stage type="exit" who="#polis1 #lundqvist #kyparen" cert="medium"/>
+       </div>
+        <div type="scene">
+          <head>Scen 10.</head>
+          <stage type="presence" who="#larsson">LARSSON ensam, instängd söker sig ut, men förgäves.</stage>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="modifier">(rasar).</stage>
+            <p>Instängd! Nu, då min konung behöfver mig! — Jag har gjort revolution jag, jag, Jöns Abraham Larsson, och <pb n="56"/> kan inte qväfva den; jag, den laglydige, den trogne under-såten, har gjort revolution! — O, min sabel, min häst, — min häst!</p>
+         </sp>
+          <stage type="mixed">(Ett skott utanför. Han nedfaller bakom disken och slår sönder glas i fallet.)</stage>
+       </div>
+        <stage type="business">Ridå.</stage>
+     </div>
+      <pb n="57"/>
+      <div type="act">
+        <head>Fjerde Akten.</head>
+        <stage type="setting" who="#frularsson #dina #gossen1 #gossen2 #linda">
+          <p>(Hos LARSSON. Samma rum som i första akten men allt i oordning; FRU LARSSON sitter och vaggar; Adjunktens FÄSTMÖ står och klipper till ett klädningsmönster på skrifbordet; Gossarne spela Fortuna; LINDA står och stryker vid det runda bordet; stolar och soffor belamrade med frun-timmersplagg.)</p></stage>
+        <div type="scene">
+          <head>Scen 1.</head>
+          <stage type="entrance" who="#larsson">LARSSON i uniform från höger, går på tå till Chiffonieren; skram-lar med sabeln.</stage>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Tyst, när barnet ska’ sofva!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Herre Gud, har du barnet här också!</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Hvarför har du inte skickat efter glasmästarn förr, så att man fått i fönsterna i sängkammaren? — Gå inte och skramla med den der gamla harvärjan!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Det är order! Revolutionen är ännu icke qväfd; den glimmar som aska under elden!</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Du qväfver visst någon revolution! Du som sprang och gömde dig när drängarne gjorde myteri och lät din hustru tas med dem: men jag fick håll på dem till sist och det med bara käppen; stora Anders ligger allt stilla på Serafimen vid det här laget!</p>
+         </sp>
+          <pb n="58"/>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="modifier">(till gossarne).</stage>
+            <p>Hvad ser jag! Hur understår ni er att röra pappas spelbord!</p>
+         </sp>
+          <sp who="#gossen1">
+            <speaker>GOSSEN 1.</speaker>
+            <p>Vi ha fått lof af mamma!</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Låt barnen leka med det der skräpet; det är inte för gammalt folk, tycker jag, eller hvad säger du, Dina?</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Det förvånar mig att du inte bränt upp det der förut!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="modifier">(observerar sitt skrifbord).</stage>
+            <p>Men min bästa mamsell; jag tror ni klipper sönder mina papper!</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Hon har fått lof af mig! Det var inga farliga papper för öfrigt!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Åh, det var min reservation till protokollet som jag arbetat på i fyra månader!</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Nå det var då för väl att man slipper höra dig komma fram med fler dumheter på riksda’n!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Men det är inte beskedligt...</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Beskedligt! Hvem har retat folket så att de slå in rutorna? Hva’! så man skall vara husvill! Har han ingen-ting att göra nu, så sätt sig på en stol och var tyst; eller också kom hit och vagga medan jag ser på Linda!</p>
+         </sp>
+          <pb n="59"/>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="modifier">(sätter sig ledsen på en stol och vaggar med undergifven min. Paus).</stage>
+            <p>Linda, stoppa mig en pipa!</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Linda har annat att göra! För öfrigt är det onödigt att röka på barnet!</p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 2.</head>
+          <stage><stage type="presence" who="#frularsson #dina #linda #gossen1 #gossen2 #larsson #kjabraham">DE FÖRRA</stage>, <stage type="entrance" who="#pigan1">PIGAN 1 med bref till Larsson</stage>.</stage>
+          <stage type="exit" who="#pigan1" cert="medium"/>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="modifier">(läser).</stage>
+            <p>Order från tjenstgörande majoren; kungen skall upp-vaktas och gratuleras; borgerskapet skall anhålla om att få öfverta bevakningen!</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Ett så’nt onödigt fjesk; gamla karlarne gå och spöka ut sig i koltar och bevaka! Hvad ska’ du bevaka för slag?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Tyst, hustru! Det är order!</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Ska’ du ta din stångbataljon med dig?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="modifier">(svarar icke utan öppnar det andra brefvet).</stage>
+            <p>Ha, jag kunde tro det; Arvid är arresterad!</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Hur kunde du tro det?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Han satt och berusade sig nere på krogen då revolu-tionen bröt ut!</p>
+         </sp>
+          <pb n="60"/>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Det var fler än han som gjorde det! — Emellertid — så är du så god och löser ut honom till en början —</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>På ett vilkor, ja, att han lemnar sin usla bana och intar Lundqvists plats!</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Du har då en passion att göra alla menniskor till bryggare; antar han ditt anbud — så var han inte bättre värd!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Jag går; farväl, mina damer, kanske jag genast in-träder i tjenstgöring och då — ligger jag på slottet i natt!</p>
+            <stage type="exit" who="#larsson">(Går med stolt min.)</stage>
+         </sp>
+          <sp who="#gossen1 #gossen2">
+            <speaker>GOSSARNE.</speaker>
+            <p>Hurra! Nu gick pappa bort!</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Tyst, barn, man ska’ inte säga så!</p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 3.</head>
+          <stage type="presence" who="#frularsson #dina #linda #gossen1 #gossen2">DE FÖRRE, utom LARSSON och PIGAN 1.</stage>
+          <sp who="#pigan2">
+            <speaker>PIGAN 2</speaker>
+            <stage type="entrance" who="#pigan2">(kommer in).</stage>
+            <p>Nu äro fönsterna isatta, Frun!</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Det är bra; låt elda i alla rummen!</p>
+            <stage type="exit" who="#pigan2">(Pigan går.)</stage>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Hör du, Amalia lilla; efter din man är borta och barnet sofver, så tycker jag att vi gerna kan gå i Engel-skan en stund och höra Rosenius!</p>
+         </sp>
+          <pb n="61"/>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Ja, vet du, det skulle allt vara godt att få höra ett Guds ord efter allt det här bråket! — Men tror du inte din fästman kommer upp något i qväll!</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Hvad bryr jag mig om det; han får gå på källarn när han vill, så må jag väl gå i kyrkan!</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Ja, men i Engelskan... Hör du, är det sant, att du brutit med adjunkten?</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Nej visst inte, det vara bara för att skrämma honom; det har jag gjort så många gånger förr!</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Ja, ja men akta dig du; han är opålitlig! — Se så der! Nu ska’ Linda ha ett öga på barnen medan vi gå bort på en stund</p>
+         </sp>
+          <sp who="#linda">
+            <speaker>LINDA.</speaker>
+            <p>Ja, mamma lilla!</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Var snäll nu, gossar små, så ska’ ni få något godt när jag kommer hem!</p>
+         </sp>
+          <sp who="#gossen1">
+            <speaker>GOSSEN 1.</speaker>
+            <p>Hvart ska’ mamma gå?</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>I kyrkan, min vän!</p>
+         </sp>
+          <sp who="#gossen2">
+            <speaker>GOSSEN 2.</speaker>
+            <p>Är det söndag i dag?</p>
+         </sp>
+          <pb n="62"/>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Nej, mitt barn! Seså, adjö med er!</p>
+            <stage type="exit" who="#frularsson #dina">(Fru Larsson och Mamsell Dina gå.)</stage>
+         </sp>
+          <sp who="#gossen1 #gossen2">
+            <speaker>GOSSARNE.</speaker>
+            <p>Hurra! Nu gick mamma bort!</p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 4.</head>
+          <stage type="presence" who="#linda #gossen1 #gossen2">LINDA. GOSSARNE.</stage>
+          <sp who="#linda">
+            <speaker>LINDA.</speaker>
+            <p>Nej, vet någon, det här blir tråkigt; jag tror jag går midt öfver gatan till kusin och spelar quatremains! <stage type="modifier">(går till dörren.)</stage> Marie! Marie! <stage type="entrance" who="#pigan1">(Pigan 1 kommer in).</stage> Ha ett öga på barnen, medan jag går bort på en stund!</p>
+         </sp>
+          <sp who="#pigan1">
+            <speaker>PIGAN 1.</speaker>
+            <p>Jaha, mamsell, det ska’ jag visst!</p>
+         </sp>
+          <sp who="#linda">
+            <speaker>LINDA.</speaker>
+            <p>Och om gossen vaknar, så ge honom — hvad Marie har!</p>
+            <stage type="exit" who="#linda">(Går.)</stage>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 5.</head>
+          <stage type="presence" who="#pigan1 #gossen1 #gossen2 #kjabraham">PIGAN 1. GOSSARNE.</stage>
+          <sp who="#pigan1">
+            <speaker>PIGAN 1.</speaker>
+            <p>Nu ska’ man vara barnpiga också, det har jag verk-ligen inte åtagit mig; sina skyldigheter får man nog veta, men man har också rättigheter! Nu ska’ gossarna ha ett öga på lilla bror, medan jag går ner i kryddboden och läser bladet! — Hör gossarne det? —</p>
+         </sp>
+          <sp who="#gossen1 #gossen2">
+            <speaker>GOSSARNE.</speaker>
+            <p>Ja, vars!</p>
+            <stage type="exit" who="#pigan1">(Pigan går.)</stage>
+         </sp>
+       </div>
+        <pb n="63"/>
+        <div type="scene">
+          <head>Scen 6.</head>
+          <stage type="presence" who="#gossen1 #gossen2">GOSSARNE.</stage>
+          <sp who="#gossen1">
+            <speaker>GOSSEN 1.</speaker>
+            <p>Nu ä’ pappa och mamma borta! nu ska’ vi leka re-volution!</p>
+         </sp>
+          <sp who="#gossen2">
+            <speaker>GOSSEN 2.</speaker>
+            <p>Hur ska’ det vara?</p>
+         </sp>
+          <sp who="#gossen1">
+            <speaker>GOSSEN 1.</speaker>
+            <p>Du tar stora käppen som pappa kallar “aflönaren“, så tar jag sabeln; så ska’ du ropa reform, och då slår jag dig!</p>
+         </sp>
+          <sp who="#gossen2">
+            <speaker>GOSSEN 2.</speaker>
+            <p>Ja, men man ska’ kasta sten också, sa’ mamma! Nej då är det roligare att röka!</p>
+         </sp>
+          <sp who="#gossen1">
+            <speaker>GOSSEN 1.</speaker>
+            <p>Ja, det ska’ vi göra! <stage type="modifier">(De stoppa och tända pipor.)</stage></p>
+         </sp>
+          <sp who="#gossen2">
+            <speaker>GOSSEN 2.</speaker>
+            <p>Nu tar jag pappas nattrock och rökmössa på mig, så föreställer du farbror Ernst som kommer och går i borgen för pappa!</p>
+         </sp>
+          <sp who="#gossen1">
+            <speaker>GOSSEN 1.</speaker>
+            <p>Det var en rysligt stark tobak!... Fy!</p>
+         </sp>
+          <sp who="#gossen2">
+            <speaker>GOSSEN 2.</speaker>
+            <p>Inte! Se på mig!</p>
+         </sp>
+          <sp who="#gossen1">
+            <speaker>GOSSEN 1.</speaker>
+            <p>Oj! oj! jag får knip i magen!</p>
+         </sp>
+          <sp who="#gossen2">
+            <speaker>GOSSEN 2.</speaker>
+            <p>Skrik inte, du väcker lilla bror!</p>
+         </sp>
+          <pb n="64"/>
+          <sp who="#gossen1">
+            <speaker>GOSSEN 1.</speaker>
+            <p>Oj! oj! oj! jag dör!</p>
+         </sp>
+          <sp who="#gossen2">
+            <speaker>GOSSEN 2</speaker>
+            <stage type="modifier">(tar honom i handen.)</stage>
+            <p>Kom ska’ jag hjelpa dig ut... Jag tror att jag med blir sjuk! Oj! oj! oj!</p>
+            <stage type="business">(De ragla ut hand i hand.)</stage>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 7.</head>
+          <stage><stage type="presence" who="#gossen1 #gossen2 #kjabraham">DE FÖRRE</stage>. <stage type="entrance" who="#ksektern">K. SEKTERN</stage>.</stage>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Hvad är det med er, små medborgare!</p>
+         </sp>
+          <sp who="#gossen1">
+            <speaker>GOSSEN 1.</speaker>
+            <p>Jag dör! jag dör!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Jaså, ni har känt på tobaken! Ä’ ni ensamma hemma, småttingar?</p>
+         </sp>
+          <sp who="#gossen2">
+            <speaker>GOSSEN 2.</speaker>
+            <p>Mari är ner i bo’n!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Och de andra?</p>
+         </sp>
+          <sp who="#gossen1">
+            <speaker>GOSSEN 1.</speaker>
+            <p>Borta!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Revolutionens verkningar äro förfärliga! <stage type="exit" who="#gossen1 #gossen2">(tar begge gos-sarne på armen och bär dem ut till venster)</stage> Jo, jo, ni, så är det att göra revolution, när pappa och mamma ä’ borta! <stage type="modifier">(ropar i dörren)</stage> Christina, Marie, Sofi! Intet svar! Lovis, Adolfine, Margret, Josefin, King Charles, Revolution! <stage type="delivery">(skriker)</stage> Elden är lös!</p>
+         </sp>
+       </div>
+        <pb n="65"/>
+        <div type="scene">
+          <head>Scen 8.</head>
+          <stage type="presence" who=" #ksektern"><stage>EN DRÄNG kommer in</stage>. <stage>K. SEKTERN</stage>.</stage>
+          <stage type="entrance" who="#drangen"/>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Hvar äro pigorna?</p>
+         </sp>
+          <sp who="#drangen">
+            <speaker>DRÄNGEN.</speaker>
+            <p>Flickorna äro borta!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Borta! — Ta och bär in den der vaggan; klä sen af gossarne som äro sjuka!</p>
+         </sp>
+          <sp who="#drangen">
+            <speaker>DRÄNGEN.</speaker>
+            <p>Inte förstår jag mig på barn, inte!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Du ska’ öfva dig; det är godt att kunna!</p>
+         </sp>
+          <sp who="#drangen">
+            <speaker>DRÄNGEN.</speaker>
+            <p>Men om han skriker?</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Då ska’ du ge honom mat, och se’n är det bara att vagga så länge han skriker!</p>
+         </sp>
+          <sp who="#drangen">
+            <speaker>DRÄNGEN</speaker>
+            <stage type="exit" who="#drangen">(bär ut vaggan).</stage>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 9.</head>
+          <stage type="presence" who="#frularsson #dina">FRU LARSSON. K. SEKTERN. DINA.</stage>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Joo, det är ljusa tider! Kan ni tänka er att när vi kom till kyrkan, så gick vi in i förstugan och då hörde vi skrål och stim, och när jag öppnar dörr’n så var hela kyrkan full med gardeskarlar!</p>
+         </sp>
+          <pb n="66"/>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Hela Uplands regemente låg inqvarteradt der, kan man tänka sig! Och de rökte tobak och spotta på golfvet!</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Och hade vi inte träffat på herr Hörning, så vet jag aldrig om vi kommit derifrån med lifvet! Fy sådana men-niskor!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Ack, att jag inte fått den äran följa damerna!</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA</speaker>
+            <stage>(hviskar åt fru Larsson; denna pekar åt venstra fonddörren;</stage>
+            <stage type="exit" who="#frularsson #dina">de gå).</stage>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 10.</head>
+          <stage><stage type="presence" who="#ksektern">DE FÖRRE, utom MLL DINA och FRU LARSSON</stage>. <stage type="entrance" who="#larsson">LARSSON kommer in nedslagen</stage>.</stage>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="modifier">(tar af sig sabeln och kastar den i en vrå).</stage>
+            <p>Min rol är slut; min konung behöfver mig icke; hvem ingaf mig dessa satans idéer — jag som aldrig haft några idéer utan lefvat efter principen — Kunglig sektern som läst; hvad är principen till skilnad från idéen?</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Principen är en långvarig idé!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Det är alltså en idé?</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>På visst sätt; men genom sin utsträckning i tiden är han farligare än idéen!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Det der förstod jag inte!... Vet ni hvad som blifvit af Lundqvist?</p>
+         </sp>
+          <pb n="67"/>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Nej!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Jo, hans gamla fosterfar blef skjuten i Storkyrkobrin-ken; Lundqvist ärfver honom och reser till Californien för att gräfva guld!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Det kan man kalla tur! Men han öfverger då sin konst?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Hans näsa blef krossad af en gatsten, så att han inte kan uppträda på scenen!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Hans kallelse var då inte starkare än hans näsa! — Men jag kan tala om en annan nyhet! — Per har sålt sin tafla och blifvit utnämnd till agréé vid akademien!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Ser man på! Sa’ jag inte det, att det skulle bli något af den pojken; han kommer väl hit i qväll!</p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 11.</head>
+          <stage><stage type="presence" who="#ksektern #larsson">DE FÖRRE</stage>, <stage type="entrance" who="#frularsson #dina #linda">FRU LARSSON (halfklädd), MLL DINA. LINDA kommer in häftigt</stage>.</stage>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Hjelp, mördare, Jakobiner! De ha förgiftat mina gossar!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Hvad är det?</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Det är en karl i barnkammaren!</p>
+         </sp>
+          <pb n="68"/>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>En jakobin! Han har tagit min lilla Abraham!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="modifier">(rasar).</stage>
+            <p>Ve! Revolutionen! Min sabel! Min häst! I gevär! Bataljon gå på! <stage type="business">(rusar mot dörren).</stage></p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 12.</head>
+          <stage><stage type="presence" who="#ksektern #larsson #frularsson #dina #linda">DE FÖRRE</stage>, <stage type="entrance" who="#drangen #kjabraham">DRÄNGEN (kommer in)</stage>.</stage>
+          <sp who="#drangen">
+            <speaker>DRÄNGEN</speaker>
+            <stage>(med lilla barnet på armen).</stage>
+            <p>Det var bara jag, go’a frun!</p>
+         </sp>
+          <sp who="#ksektern #larsson #fru_larsson #dina #linda">
+            <speaker>ALLA.</speaker>
+            <p>Johansson!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Ja, pigorna var borta och det fans ingen ann’ att tillgå!</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Men gossarne! Mina gossar!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>De ha gått och rökt tobak! Få de bara ett kok stryk så är lugnet snart återstäldt!</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON</speaker>
+            <stage type="modifier">(till Larsson).</stage>
+            <p>Ser du, olycklige, revolutionens verkningar!</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA</speaker>
+            <stage type="modifier">(till fru Larsson).</stage>
+            <p>Tror du han såg oss?</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Hvad skulle det göra! Drängen!</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Men det är en karl ändå!</p>
+            <stage type="exit" who="#frularsson #drangen #linda #dina">(Fru Larsson, drängen, Linda, Dina gå ut).</stage>
+         </sp>
+       </div>
+        <pb n="69"/>
+        <div type="scene">
+          <head>Scen 13.</head>
+          <stage><stage type="presence" who="#larsson #ksektern">LARSSON</stage>. <stage type="entrance" who="#adjunkten">ADJUNKTEN</stage>. <stage>K. SEKTERN</stage>.</stage>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>God afton! Nå hvad sa’ hon?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Hvem menar du?</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Min fästmö, förstås!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Åh, Herre Gud, det har jag glömt bort!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Har du glömt bort det?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Jag glömde att lemna henne igen ringen; jag tror jag har den här! <stage type="modifier">(Letar i fickorna).</stage></p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>O, du min evige, och jag...</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Hvad har du gjort?</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Jag har sagt ja! — Du vet den der gamla mamsell Bernhardina, hos öfversten, har friat till mig.</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Olycklige! Ve revolutionen!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Ve oss! — Jag har henne dernere i farstu’n och ville höra mig för innan jag presenterade henne!</p>
+         </sp>
+          <pb n="70"/>
+       </div>
+        <div type="scene">
+          <head>Scen 14.</head>
+          <stage><stage type="presence" who="#larsson #adjunkten #ksektern">DE FÖRRE</stage>. <stage type="entrance" who="#dina">DINA</stage>.</stage>
+          <sp who="#dina">
+            <speaker>DINA</speaker>
+            <stage>(får se Adjunkten, störtar i hans armar).</stage>
+            <p>Agust, Agust! Du lefver då! O, hvar har du varit så länge; jag trodde du öfvergifvit mig!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN</speaker>
+            <stage type="modifier">(tar på ringen).</stage>
+            <p>Kära vän, det var du som öfvergaf mig.</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Nej, Agust! Jag öfverger dig aldrig!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN</speaker>
+            <stage type="modifier">(för sig, suckar).</stage>
+            <p>Aldrig!</p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 15.</head>
+          <stage><stage type="presence" who="#larsson #adjunkten #ksektern #dina">DE FÖRRE</stage>. <stage type="entrance" who="#pigan1">PIGAN 1</stage>.</stage>
+          <sp who="#pigan1">
+            <speaker>PIGAN 1.</speaker>
+            <p>Det är någon som står och väntar på adjunkten der nere i farstun!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>Åh!</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Hvem är det? <stage type="modifier">(Larsson hviskar åt pigan 1).</stage></p>
+         </sp>
+          <sp who="#pigan1">
+            <speaker>PIGAN 1.</speaker>
+            <p>Det är en herre!</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Jaså, du ska’ ut och rumla nu igen!</p>
+         </sp>
+          <stage type="exit" who="#pigan1" cert="medium"/>
+       </div>
+        <pb n="71"/>
+        <div type="scene">
+          <head>Scen 16.</head>
+          <stage><stage type="presence" who="#larsson #adjunkten #ksektern #dina">DE FÖRRE</stage>. <stage type="entrance" who="#arvid">ARVID</stage>.</stage>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Jag ger mig! — Jag är förtvifladt hungrig! Få vi inte äta snart?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Ser du, ser du! Dina idéer!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Än morbrors då?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Tyst, pojke, jag har aldrig haft några idéer!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Än revolutionen då?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Det var Lundqvist! Han fick för litet stryk sist!</p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 17.</head>
+          <stage><stage type="presence" who="#larsson #adjunkten #ksektern #dina #arvid">DE FÖRRE</stage>. <stage type="entrance" who="#per">PER (i brun promenadfrack med blomma i knapphålet, blanklädersstöflar, storrutig väst, röd halsduk, klockkedja med berlocker, en reskikare i rem öfver axeln, grå hög hatt</stage>.</stage>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Mjukaste tjenare, herr patron! Det var en person der-nere i farstu’n, som bad mig lemna den här biljetten till adjunkten Green.</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Jag har den äran gratulera herr professorn!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Agrén, om jag får be!</p>
+         </sp>
+          <pb n="72"/>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN</speaker>
+            <stage type="modifier">(till Larsson).</stage>
+            <p>Räddad!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="modifier">(läser biljetten).</stage>
+            <p>Jag gratulerar!</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Hvad var det? En biljett!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Jag skall läsa!</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>I himlens namn, håll!</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>Nej, läs, herr Larsson!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>“Som du inte kommer, så går jag. Du kan anse vår bekantskap afbruten eftersom du låtit mig stå och frysa en hel halftimme!”</p>
+         </sp>
+          <sp who="#dina">
+            <speaker>DINA.</speaker>
+            <p>En förförare mindre; nu får jag behålla dig i qväll, Agust</p>
+         </sp>
+          <sp who="#adjunkten">
+            <speaker>ADJUNKTEN.</speaker>
+            <p>För alltid, min engel!</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER</speaker>
+            <stage type="modifier">(till Larsson).</stage>
+            <p>Skulle patron tillåta mig tala enskildt?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Herrn vill ha min borgen: mycket gerna!</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Nej, det var något annat!</p>
+         </sp>
+          <pb n="73"/>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Han vill ha Linda!</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER.</speaker>
+            <p>Tyst det har jag inte sagt...</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Vi ska’ talas vid efter maten.</p>
+         </sp>
+          <sp who="#per">
+            <speaker>PER</speaker>
+            <stage type="modifier">(till Arvid).</stage>
+            <p>Tror du han nekar?</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Nej, gubevars!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="modifier">(till K. sektern).</stage>
+            <p>K. sekter! Jag har läst edra känslor, ni är en bra man; men — var inte ledsen att jag krossar edra illu-sioner.</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Jag förstår inte!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Ni älskar min dotter!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Jag?</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Ja!</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Nej!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Neka inte nu!</p>
+         </sp>
+          <pb n="74"/>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>Jag svär att jag aldrig hyst några känslor för er dotter, och aldrig tänkt uppträda som friare!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON.</speaker>
+            <p>Hm! Hvad är ni för en besynnerlig man?</p>
+         </sp>
+          <sp who="#ksektern">
+            <speaker>K. SEKTERN.</speaker>
+            <p>En kunglig sekter, herr patron!</p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 18.</head>
+          <stage><stage type="presence" who="#larsson #adjunkten #ksektern #dina #arvid #per">DE FÖRRE</stage>. <stage type="entrance" who=" #frularsson #linda">FRU LARSSON och LINDA.</stage></stage>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Bordet är serveradt! Behagar herrskapet stiga ut!</p>
+         </sp>
+          <sp who="#arvid">
+            <speaker>ARVID.</speaker>
+            <p>Ack ja!</p>
+         </sp>
+          <sp who="#fru_larsson">
+            <speaker>FRU LARSSON.</speaker>
+            <p>Är det du, din spefågel!</p>
+         </sp>
+          <sp who="#larsson">
+            <speaker>LARSSON</speaker>
+            <stage type="modifier">(till Per).</stage>
+            <p>Efter maten ska’ vi talas vid! Bjud min dotter ar-men! Mitt herrskap! Revolutionens åskor ha tystnat; det svärd, anarkiens och våldets, som hängt öfver vår konungs och vårt fäderneslands hufvud, är stucket i skidan; låtom oss vid en glad aftonmåltid glömma det skedda och med hvarandra fira fredens återställande i skötet af familjen, der intet missljud skall störa vår enkla samvaro!</p>
+            <stage>(Ett positiv utanför spelar upp “Den tappre Landsoldat“ det de gå och ridån faller.)</stage>
+         </sp>
+       </div>
+     </div>
+      <stage>SLUT.</stage>
+   </body>
+ </text>
+</TEI>

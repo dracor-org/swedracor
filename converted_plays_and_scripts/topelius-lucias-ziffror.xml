@@ -1,0 +1,625 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="sv">Lucias ziffror</title>
+        <title type="main" xml:lang="en">Lucia's Numbers</title>
+        <title type="sub" xml:lang="sv">En jul-lek</title>
+        <title type="sub" xml:lang="en">A Christmas Game</title>
+        <author key="wikidata:Q139549">Topelius, Zacharias</author>
+     </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000043</idno>
+        <availability>
+          <licence>
+            <ab>CC0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+         </licence>
+       </availability>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59652099</idno>
+     </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name></name>
+          <idno type="URL">http://libris.kb.se/bib/14226055</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+         </availability>
+          <bibl type="originalSource">
+            <title>Nya Trollsländan, Illustrerad barntidning, Helsingfors, G. W. Edlunds förlag, 3, tryckning, 1887 (http://libris.kb.se/bib/14226055)</title>
+            <date type="print" when="1887">"1887" (http://libris.kb.se/bib/14226055)</date>
+            <date type="premiere"/>
+            <date type="written"/>
+         </bibl>
+       </bibl>
+     </sourceDesc>
+   </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="facit" sex="MALE">
+            <persName>magister Facit</persName>
+         </person>
+          <person xml:id="flora" sex="FEMALE">
+            <persName>Flora</persName>
+         </person>
+          <person xml:id="anna" sex="FEMALE">
+            <persName>Anna</persName>
+         </person>
+          <person xml:id="bertha" sex="FEMALE">
+            <persName>Bertha</persName>
+         </person>
+          <person xml:id="dora" sex="FEMALE">
+            <persName>Dora</persName>
+         </person>
+          <person xml:id="hanna" sex="FEMALE">
+            <persName>Hanna</persName>
+         </person>
+          <person xml:id="melicerta" sex="FEMALE">
+            <persName>Melicerta</persName>
+         </person>
+          <person xml:id="martha" sex="FEMALE">
+            <persName>Märtha</persName>
+         </person>
+          <person xml:id="nanna" sex="FEMALE">
+            <persName>Nanna</persName>
+         </person>
+          <person xml:id="nora" sex="FEMALE">
+            <persName>Nora</persName>
+         </person>
+          <person xml:id="thomas" sex="MALE">
+            <persName>Thomas</persName>
+         </person>
+          <person xml:id="vaktmastaren" sex="MALE">
+            <persName>skolvaktmästare</persName>
+         </person>
+          <personGrp xml:id="roster" sex="UNKNOWN">
+            <name>Roster</name>
+         </personGrp>
+          <person xml:id="lucia" sex="FEMALE">
+            <persName>Lucia</persName>
+         </person>
+       </listPerson>
+     </particDesc>
+      <textClass>
+        <keywords>
+          <term subtype="" type="genreTitle"></term>
+       </keywords>
+     </textClass>
+   </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2019-06-30">(eg) convert from source</change>
+     </listChange>
+   </revisionDesc>
+ </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">Lucias ziffror</titlePart>
+        <titlePart type="sub">En jul-lek</titlePart>
+     </docTitle>
+   </front>
+    <body>
+      <castList>
+        <head>Personer:</head>
+        <castGroup>
+          <castItem>Nanna, N:o 1</castItem>
+          <castItem>Hanna, N:o 2</castItem>
+          <castItem>Anna, N:o 3</castItem>
+          <castItem>Märtha, N:o 4</castItem>
+          <castItem>Bertha, N:o 5</castItem>
+          <castItem>Melicerta, N:o 6</castItem>
+          <castItem>Nora, N:o 7</castItem>
+          <castItem>Dora, N:o 8</castItem>
+          <castItem>Flora, N:o 9</castItem>
+          <roleDesc>Skolflickor*) <label>*)</label> Nanna är den minsta, de öfriga i ordning efter längden..</roleDesc>
+       </castGroup>
+        <castItem>Magister Facit</castItem>
+        <castItem>Thomas</castItem>
+        <castItem>Lucia</castItem>
+        <castItem>Skolvaktmästaren</castItem>
+        <castItem>Röster utanför.</castItem>
+     </castList>
+      <div type="act">
+        <stage type="setting">Scenen föreställer ett skolrum med pulpeter och i hörnet en stor räknetafla. Till venster en dörr, till höger ett fönster.</stage>
+        <div type="scene">
+          <head>Scen 1.</head>
+          <stage type="presence" who="#anna #bertha #dora #facit #flora #hanna #melicerta #martha #nanna #nora">Magister Facit med sina skolflickor.</stage>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Ja, det kan nu ej hjelpas. En bråkdel flit, subtraherad från två delar lättja, gör en del lättja i rest. Det är minus, förstå ni. De, som varit lata i räkningen, måste repetera kursen på sjelfva Lucie-dagen.</p>
+         </sp>
+          <sp who="#flora">
+            <speaker>Flora.</speaker>
+            <p>Söta magistern, vi skola vara så flitiga i jul, om vi nu få lof att fira Lucia.</p>
+         </sp>
+          <sp who="#anna #bertha #dora #flora #hanna #melicerta #martha #nanna #nora">
+            <speaker>Alla flickorna.</speaker>
+            <p>Söta magistern, vi skola vara så, så flitiga.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Flitiga under julen! Det skall man tro. Ni skola vara så, så flitiga i kälkbac-ken och göra så märkvärdiga framsteg i ringdansen kring julgranen. Hvad behöfves der mer? Jo, att med mycken flit snaska godt. Och dermed tro ni er inhemta den ädla räknekonsten! Se ni, arithmetiken är <pb n="162"/> den största af alla konster. Det är ziff-rorna, som regera verlden, och ziffror äro vi alla, — enheter, förstå ni? Addera de enheterna, subtrahera dem, multiplicera dem, dividera dem, det är lifvets summa. Den, som kan räkna, han kan allting, och han vet allting. <stage>(Nanna, Märtha och Nora signera).</stage> Nå, hvad är det? Ni ha lof att fråga.</p>
+         </sp>
+          <sp who="#nanna">
+            <speaker>Nanna.</speaker>
+            <p>Kan han räkna ut hvad väder det blir i morgon?</p>
+         </sp>
+          <sp who="#martha">
+            <speaker>Märtha.</speaker>
+            <p>Kan han räkna tankar?</p>
+         </sp>
+          <sp who="#nora">
+            <speaker>Nora.</speaker>
+            <p>Kan han räkna ut om han är lycklig?</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Ja, det förstås. Han kan allting. Men nu skola vi repetera hufvudräkningen.</p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Scen 2.</head>
+          <stage type="presence" who="#anna #bertha #dora #facit #flora #hanna #melicerta #martha #nanna #nora">De förra. <stage type="entrance" who="#thomas">Thomas, höljd i en vid kåpa.</stage></stage>
+          <sp who="#thomas">
+            <speaker>Thomas.</speaker>
+            <p>Goa herrn, gif mig en liten slant till julen.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Hvem är der? Hvad är ni för en?</p>
+         </sp>
+          <sp who="#thomas">
+            <speaker>Thomas.</speaker>
+            <p>Jag heter Thomas, och min gumma heter Lucia. Jag är en fattig pil- grim, som går kring verlden och söker snälla barn. Herrn har många barn, han.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Gå er väg, ni stör oss. Ser ni icke, att här är en skola?</p>
+         </sp>
+          <sp who="#thomas">
+            <speaker>Thomas.</speaker>
+            <p>Derför kom jag ju hit. Jag trodde, att man i en skola lär sig att vara god mot de fattiga.</p>
+         </sp>
+          <sp who="#anna #bertha #dora #flora #hanna #melicerta #martha #nanna #nora">
+            <speaker>Skolflickorna.</speaker>
+            <p>Söta magistern...</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Nå, se här, efter de bedja för er. <stage>(Han lägger en silfverslant i gubbens hatt.)</stage></p>
+         </sp>
+          <sp who="#nanna">
+            <speaker>Nanna.</speaker>
+            <p>Få vi också gifva något?</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Ja, ja, men det skall ske fort. Vi försumma räkningen.</p>
+         </sp>
+          <stage>Flickorna frambära åt Thomas pepparkakor, pumpernicklar och annat godt.</stage>
+          <sp who="#thomas">
+            <speaker>Thomas.</speaker>
+            <p>Stort tack! Till belöning skall jag säga er något. Det är i dag Lucia, min gummas namnsdag, och det är en märke-dag. Den, som i dag önskar något och sä-ger prosit, den skall strax få sin önskan uppfylld.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Ha vi nu tid med märkedagar? Gå er väg!</p>
+         </sp>
+          <sp who="#thomas">
+            <speaker>Thomas.</speaker>
+            <p>Får jag ej höra en stund på de små beskedliga fröknarna?</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit</speaker>
+            <stage>(för sig).</stage>
+            <p>Man blir då aldrig af med den karlen. <stage>(högt)</stage> Nå, hör då, så får ni lära er något..... Addition. Nanna! <stage>(Nanna uppstår.)</stage> I går fick du af din mam-ma sex äpplen. <stage>(Nanna nickar).</stage> I dag får du sju andra äpplen af din pappa.</p>
+         </sp>
+          <sp who="#nanna">
+            <speaker>Nanna.</speaker>
+            <p>Åh, så roligt!</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Huru många äpplen har du då?</p>
+         </sp>
+          <sp who="#nanna">
+            <speaker>Nanna.</speaker>
+            <p>Sju.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Tänk efter! I går fick du sex...</p>
+         </sp>
+          <sp who="#nanna">
+            <speaker>Nanna.</speaker>
+            <p>Ja, men dem har jag redan ätit upp.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Så, då; du skulle ha tretton äpp-len... Sitt ned! Melicerta! <stage>(Hon uppstår).</stage> Subtraktion. Robert hittade på gatan en påse med nötter. Han räknade nötterna, de voro 54. Han skalade 14, men kastade bort dem, efter de voro maskätna. Huru många nötter hade han qvar i påsen?</p>
+         </sp>
+          <sp who="#melicerta">
+            <speaker>Melicerta.</speaker>
+            <p>Han hade inga nötter alls qvar i påsen.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Hvad för något? Hade han inga nötter alls?</p>
+         </sp>
+          <sp who="#melicerta">
+            <speaker>Melicerta.</speaker>
+            <p>Nej, han kastade bort dem för att de voro alla maskätna. Hvad skulle de duga till, som legat på gatan?</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Förbättrar du mina exempel? Han hade 40 nötter qvar i påsen... Sitt... Dora! <stage>(Hon uppstår.)</stage> Multiplikation. Hvad göra 70 gånger 3.</p>
+         </sp>
+          <sp who="#dora">
+            <speaker>Dora</speaker>
+            <stage>(flinkt).</stage>
+            <p>73.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit</speaker>
+            <stage>(häftigt, men hejdar sig).</stage>
+            <p>Du är... ja, du är 73 gånger så klok som tabulan. Efter tabulan blir det 210. Sitt! Ni kunna hvarken addera, subtrahera eller multipli-cera. Nå, Hanna! <stage>(Hon uppstår.)</stage> Försök division! Björken hade 2, 000 löf, när han höggs i skogen. Fem får och en bässe trätte om löfven. Hvad är det värdt att träta! sad' bässen. Jag äter upp hälften, och ni andra få dela resten i lika delar. Huru många löf fick bässen, och huru många löf fick hvarje får?</p>
+         </sp>
+          <sp who="#hanna">
+            <speaker>Hanna.</speaker>
+            <p>Bässen fick ingenting för att han var snål.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Men om han nu fick hälften, huru många löf fick han?</p>
+         </sp>
+          <sp who="#hanna">
+            <speaker>Hanna.</speaker>
+            <p>Nej, han fick ingenting för att han var så rysligt snål.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit</speaker>
+            <stage>(rusar upp i vrede.)</stage>
+            <p>Är det icke så, att man kan bli rosenrasande? Här sitter jag hela långa termin och matar de der kycklingarne med ziffror som guldkorn, men när jag frågar hvad bässen får, ja, se, då <pb n="163"/> får bässen ingenting för att han är så rysligt snål! Kalla ni det att räkna? Begär man sagor i arithmetiken? Jag begär ziffror, ziff-ror <stage>(snusar)</stage> och ingenting annat, än ziffror. <stage>(nyser).)</stage> Prosit, det nös jag på.</p>
+         </sp>
+          <stage>Thomas afkastar kåpan och framträder i julgub-bens välkända gestalt. Musik bakom scenen till Thomas besvärjelse:</stage>
+          <sp who="#thomas">
+            <lg>
+              <l>Yksiki, kaksiki, kolmeki.</l>
+              <l>Tretton femsjuttondels ett, minus sex.</l>
+              <l>Autumni rigores,</l>
+              <l>Mordite flores!</l>
+              <l>Sit ordo lex,</l>
+              <l>Dum fiat numerus omnium rex!</l>
+           </lg>
+         </sp>
+          <stage>Scenen förmörkas, alla flickorna nedhuka sig bakom sina pulpeter och uppresa sig åter efter be-svärjelsens slut, då scenen ljusnar. Deras ansig-ten äro nu krithvita*) <label>*)</label> För detta ändamål finnes antingen finmalen krita eller ock hvita masker med hål för ögon och mun., de bära alla en guldkrona på sitt hufvud och sin tydliga ziffra från 1 till 9, — i ordning från Nanna uppåt. De äro porslins- dockor med rörliga leder, röra sig styft och meka-niskt samt tala långsamt, grammatikaliskt, utan att förändra en min.</stage>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Hvad är det? Här måste ha kom-mit imma på mina glasögon. <stage>(Han aftorkar dem sorgfälligt, påtager dem åter och räknar för-vånad ziffrorna)</stage> 1, 2, 3, 4 o. s. v. Det har sin riktighet. Skulle jag ha somnat midt under räknetimmen och drömma arithmetik? <stage>(Han kniper sig i örat.)</stage> Nej, jag är vaken. <stage>(pekar på tre af eleverna).</stage> Flora! Melicerta! Nanna!</p>
+         </sp>
+          <sp who="#flora">
+            <speaker>Flora.</speaker>
+            <p>Jag heter icke Flora. Jag är 9.</p>
+         </sp>
+          <sp who="#melicerta">
+            <speaker>Melicerta.</speaker>
+            <p>Jag är 6.</p>
+         </sp>
+          <sp who="#nanna">
+            <speaker>Nanna.</speaker>
+            <p>Jag är enheten.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Verkligen? Nå, hvarför bära ni kronor på edra hufvuden?</p>
+         </sp>
+          <sp who="#flora">
+            <speaker>Flora.</speaker>
+            <p>Vi äro kungabarn. Det är ziff-rorna, som regera världen.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Mjuka tjenare! Det der har varit i säck, innan det kom i påse.</p>
+         </sp>
+          <pb n="170"/>
+          <sp who="#thomas">
+            <speaker>Thomas.</speaker>
+            <lg>
+              <l>O, räknemästare, du önskat det,</l>
+              <l>Som oföräntadt nu gått i fullbordan.</l>
+              <l>Din klass, de unga, blomstrande elever,</l>
+              <l>De äro nu, med makten af ditt ord,</l>
+              <l>Förvandlade till ziffror. Deras tankar</l>
+              <l>Och ungdomsvarma känslor frusit bort</l>
+              <l>I stel arithmetik. Tillintetgjordt</l>
+              <l>Är nu allt annat. Räkna, räkna, räkna</l>
+              <l>Och åter räkna är nu deras lif.</l>
+              <pb n="171"/>
+              <l>De skola räkna ungdomens sekunder</l>
+              <l>Och hjertats pulsslag; mäta menskors värde</l>
+              <l>I mark och penni; städsla lifvets pligter</l>
+              <l>För lön och lega; sälja dygd och ära,</l>
+              <l>Samvete, fosterland för stadgadt pris.</l>
+              <l>De skola utgå att regera verlden.</l>
+              <l>Det skall ej finnas något, som ej säljes</l>
+              <l>Och köpes mer. Allt, allt är mått och vigt</l>
+              <l>Och tal och räknekonst. — O, mästare,</l>
+              <l>Din konst är god, jag lastar henne icke;</l>
+              <l>Din konst är menskans bästa tjenarinna,</l>
+              <l>Blott hon ej vill beherska menniskan.</l>
+              <l>Det fins oändligheter i ditt bröst,</l>
+              <l>Som icke sägas, mätas eller räknas.</l>
+              <l>Inför de ädlaste, de högsta strängar</l>
+              <l>I lifvets samklang — kärlek, vänskap, säll-het —</l>
+              <l>Der står din räknekonst så svarslöst stum,</l>
+              <l>Som nattens stjernor öfver öde rum.</l>
+              <l>Farväl... Din vishet all kan ej befria</l>
+              <l>Din ziffras fångar... Det kan blott Lucia.</l>
+           </lg>
+            <stage type="exit" who="#thomas">(Han försvinner.)</stage>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Nå, om icke det der var vers, vill jag aldrig rita en åtta mer. Poesi och arithmetik <stage>(snusar)</stage>, det är som en tändsticks-låda i ett glas vatten. Hvad tusan är det der för en karl? Han måtte gå kring och sälja visor på salutorget. Men hör nu, mina nådiga prinsessor, som regera verlden, förstå ni er bättre nu på quatuor species? Ställ upp ett tal! Till exempel 27... <stage>(Ziffrorna uppställa sig efter kommando, och exemplen kunna varieras efter behag).</stage> Riktigt! Nå, vidare... 356... 4, 785.... 16, 293.... 175, 482.... 8, 936, 475.... 81, 639, 574..... 123, 456, 789... På spiken rätt. Det kal-lar jag hela tal. Ni göra framsteg. Nå vidare... ett bråk, till exempel 5/293 — <stage>(N:o 5 ställer sig på en stol bakom de tre öfriga).</stage> Också riktigt... Addera 57 till 362. <stage>(Ziff-rorna uppställa talet 419)</stage>... Har man sett på maken! Perfekt! Nå, subtrahera derifrån 9. <stage>(Nian skiljer sig, återstår 41.)</stage>... Nej, det är på tok. Det skall vara 410.</p>
+         </sp>
+          <sp who="#flora">
+            <speaker>Flora.</speaker>
+            <p>Här finns ingen nolla.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Hvad? Ingen nolla? Och det är just nollorna, som regera verlden. Ro hit med en nolla! Hvad är arithmetiken utan nollor?</p>
+         </sp>
+          <sp who="#flora">
+            <speaker>Flora.</speaker>
+            <p>Vi äro nio ziffror och du den tionde. Alltså är du nollan.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit</speaker>
+            <p>Hör nu, prinsessa, för det första kallar man ej sin lärare du, och för det andra är han ingen nolla för sina elever. Men jag vet en utväg. Vimlar ej vår stad och hela verlden af nollor? <stage>(Går till fönstret, ropar utåt och klappar i händerna.)</stage> Hollah, der! Alla nollor hit!..... Man skall se huru snabbt vi få vår miljon i ordning. <stage>(Ziffrorna taga i ring.)</stage></p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Jaså, ni mena, att summan af hela räknekonsten är noll? <stage>(snusar)</stage> Jag till-låter mig säga, med all respekt för de nio medusorna, att om detta är skämt, så är det oförskämdt... <stage>(Man hör stoj utanför.)</stage> Hvad är detta för stoj?</p>
+         </sp>
+          <stage type="entrance" who="#vaktmastaren"/>
+          <sp who="#vaktmastaren">
+            <speaker>Skolvaktmästaren.</speaker>
+            <p>Herr magister! Herr magister!</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Hvad är det!</p>
+         </sp>
+          <sp who="#vaktmastaren">
+            <speaker>Vaktmästaren.</speaker>
+            <p>Hela tamburen, trappan, gården och gatan äro fulla med folk. Hit rusa allt flera, så långt man kan se.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Hvad är det för folk?</p>
+         </sp>
+          <sp who="#vaktmastaren">
+            <speaker>Vaktmästaren.</speaker>
+            <p>Alla sorter, stora och små... höga herrar.... förnäma fruar och fröknar... borgerligt folk och simpelt folk.... Alla skrika de: släpp oss in, vi behöfva bara en ziffra för att blifva miljo-ner!... Nej, hör hur de bullra! <stage>(Starkt buller utanför. Man hör röster: <sp who="#roster" rend="inline"><p>miljoner! mil-joner!</p></sp>)</stage>
+                       </p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Nå, nog trodde jag, att här skulle vara godt om nollor, men de der utfattiga miljonerna utan ziffror framför bli nästan för närgångna. Bed dem draga till banken!... Nej, skicka dem till jernvägsstyrelsen! Vi behöfva miljoner för att åka till Lapp-marken. <stage>(<stage type="exit" who="#vaktmastaren">Vaktmästaren går.</stage> Nytt stoj och der-efter tystnad utanför.)</stage></p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Vi få hjelpa oss utan nollor i dag. Jag är mycket nöjd med er senaste räkning. Hvilken lycka, att ni förvandlats till ziffror! Och ziffror kunna ej få mindre vitsord i räkning, än... gissa!</p>
+         </sp>
+          <sp who="#anna #bertha #dora #flora #hanna #melicerta #martha #nanna #nora">
+            <speaker>Alla ziffrorna</speaker>
+            <stage>(lugnt och kallt.)</stage>
+            <p>Berömliga.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Ja, och det understruket. Glä-der det er icke efter så många motgångar? Ack, mina kära elever, jag är stolt öfver eder... ni skola gå långt... det är min bästa belöning.... det rör mig till tårar. <stage>(Han gråter och snusar.)</stage></p>
+         </sp>
+          <sp who="#flora">
+            <speaker>Flora.</speaker>
+            <p>En tår väger fem sjundedels cen-tigram.</p>
+         </sp>
+          <pb n="172"/>
+          <sp who="#facit">
+            <speaker>Facit</speaker>
+            <stage>(som förut.)</stage>
+            <p>Min vänskap för eder...</p>
+         </sp>
+          <sp who="#nora">
+            <speaker>Nora.</speaker>
+            <p>Betalas med 3 mark i timmen.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit</speaker>
+            <stage>(som förut.)</stage>
+            <p>Mitt hjertas känslor...</p>
+         </sp>
+          <sp who="#melicerta">
+            <speaker>Melicerta.</speaker>
+            <p>Hjertat slår 80 slag i minu-ten.</p>
+         </sp>
+          <sp who="#martha">
+            <speaker>Märtha.</speaker>
+            <p>Nej, det är olika. Kärleken kan slå 120, vreden 130, raseriet ända till 140.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Hvad hör jag! Väga ni mina tå-rar i centigram, min vänskap i penningar, mina känslor i pulsslag! Huru mäta ni då eder tacksamhet mot skolan, eder pligt mot fäderneslandet eller edert samvetes vittnes-börd?</p>
+         </sp>
+          <sp who="#flora">
+            <speaker>Flora</speaker>
+            <stage>(kallt och bestämdt).</stage>
+            <p>Allt det, som icke kan vägas, mätas eller räknas, det fins icke till.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Hvad? Fins icke till? Olyckliga barn, ni förskräcka mig!</p>
+         </sp>
+          <sp who="#nora">
+            <speaker>Nora.</speaker>
+            <p>Förskräckelsen kan nedgå till 40 slag i minuten.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Ack, när jag tänker på edra sköna, lyckliga ungdomsdagar...</p>
+         </sp>
+          <sp who="#anna">
+            <speaker>Anna*) <label>*)</label> Replikerna kunna fördelas på de talföraste..</speaker>
+            <p>En dag och en natt räkna 24 timmar, 1, 440 minuter, 86, 400 sekunder och 5 miljoner 184, 000 terzer.</p>
+         </sp>
+          <sp who="#hanna">
+            <speaker>Hanna.</speaker>
+            <p>En skön dag räknar 0, 0 milli-meter i nederbörd.</p>
+         </sp>
+          <sp who="#nanna">
+            <speaker>Nanna.</speaker>
+            <p>En lycklig dag kan ej räknas, alltså fins den ej till.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Bort, bort! Det är ju omensk-ligt, det der. Ziffrorna spöka. Hvar är Thomas? Hur skall jag få de stackrarne åter till menniskor?</p>
+         </sp>
+          <sp who="#melicerta">
+            <speaker>Melicerta.</speaker>
+            <p>Du har önskat en gång och fått en gång. Plus 1 minus 1 är lika med noll. Det är subtraktion. Der återstår ingen rest.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Riktigt, men rysligt! Tag hela min räknekonst, men <stage>(snusar)</stage> låt mig för-nimma, att hos er fins en enda mensklig känsla qvar.</p>
+         </sp>
+          <sp who="#nanna">
+            <speaker>Nanna</speaker>
+            <stage>(långsamt och afbrutet, liksom i dröm-men).</stage>
+            <p>Jag önskar... 2 minus 2, lika med noll... Jag önskar... 12 gånger 4 gör 48... jag önskar... 21, divideradt med 7, gör 3, jag önskar... plus 9, att vi blifva men-niskor igen.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit</speaker>
+            <stage>(nyser).</stage>
+            <p>Prosit. <stage type="avista">(Den stora räknetaflan öppnar sig, och <stage type="entrance" who="#lucia">i dess ram står Lucia</stage> som ung fé med utsträckt spira. Musik. Mörker.)</stage></p>
+         </sp>
+          <sp who="#lucia">
+            <lg>
+              <head>Lucias besvärjelse.</head>
+              <l>Aronda midô,</l>
+              <l>Calamba vitello!</l>
+              <l>Fugite, numeri!</l>
+              <l>Surgite animæ!</l>
+              <l>Villorna vika, och sanning består,</l>
+              <l>Öppna dig, knopp, för den blommande vår!</l>
+           </lg>
+         </sp>
+          <stage>(När scenen ljusnar, återser man skolflickorna i deras förra gestalter, glada klappande händerna. Ziffror och kronor äro försvunna.)</stage>
+          <sp who="#lucia">
+            <speaker>Lucia.</speaker>
+            <p>Nej, behåll edra kronor! Är icke menniskan skapelsens krona? <stage>(Flickorna åter-taga sina kronor.)</stage></p>
+         </sp>
+          <sp who="#nanna">
+            <speaker>Nanna.</speaker>
+            <p>Jag drömde så löjligt.... att jag var en ziffra.</p>
+         </sp>
+          <sp who="#flora">
+            <speaker>Flora.</speaker>
+            <p>Jag med. Och vår själ var qua-tuor species.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Det var icke så illa det, mina barn... men måtta i allt!</p>
+         </sp>
+          <sp who="#melicerta">
+            <speaker>Melicerta.</speaker>
+            <p>Och jag drömde, att magistern lofvade oss berömliga, understruket.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Gjorde jag det? Ja, det är möj-ligt. Ni räknade, tror jag, bättre än jag. Men när jag tänker på, att mina tårar väga fem sjundedels centigram, att kärleken räk-nas i pulsslag och vänskap i mark och penni.... Uff, tack skall du ha, goda fé, som gjort de der isklimparne åter till folk!</p>
+         </sp>
+          <sp who="#vaktmastaren">
+            <speaker>Vaktmästaren</speaker>
+            <stage type="entrance" who="#vaktmastaren">(i dörren).</stage>
+            <p>Här är en nolla, som nödvändigt vill in.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Ha vi nu tid med nollor? Här är allt summeradt och allt plus.</p>
+         </sp>
+          <sp who="#thomas">
+            <speaker>Thomas</speaker>
+            <stage type="entrance" who="#thomas">(inträder med en korg).</stage>
+            <p>Utom jag. De små barnen uppskatta mitt värde till en miljon. De stora påstå, att jag icke fins till. Om de stora ha rätt, är jag en nolla.</p>
+         </sp>
+          <sp who="#nanna">
+            <speaker>Nanna.</speaker>
+            <p>Liksom vi icke kände dig, jul-gubbe! Du är värd mer än alla ziffror i rad, du är den rikaste bland de rika, efter du gör så många lyckliga.</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit</speaker>
+            <stage>(snusar)</stage>
+            <p>Räkna ut det, den som kan! Och ändå är han den verkligaste verk-lighet!</p>
+         </sp>
+          <sp who="#thomas">
+            <speaker>Thomas</speaker>
+            <stage>(till Nanna).</stage>
+            <p>Skattar du mig så högt, du allrararaste lilla numero ett? Nå, välj då ur min korg det vackraste du kan finna... du och de andra hackorna! <stage>(Han bjuder sin korg åt alla.)</stage> Skola vi icke nu fira min gummas namnsdag?</p>
+         </sp>
+          <pb n="173"/>
+          <sp who="#anna #bertha #dora #flora #hanna #melicerta #martha #nanna #nora">
+            <speaker>Skolflickorna</speaker>
+            <stage>(som i styckets början.)</stage>
+            <p>Söta magistern...</p>
+         </sp>
+          <sp who="#facit">
+            <speaker>Facit.</speaker>
+            <p>Jaså. Är det nu åter den gamla visan! Det var en tid när jag kalla-des du och sades vara en nolla. Fira Lucia? Ja, det skola vi göra, så det sjunger i jul-granen! Hur skulle ej så perfekta ziffror fira Lucia?</p>
+         </sp>
+          <sp who="#lucia">
+            <speaker>Fén Lucia</speaker>
+            <stage>(under det att flickorna grupperas i zifferordning och Thomas sist som nolla.)</stage>
+            <lg>
+              <l>Liten ziffra flyger högt,</l>
+              <l>Mäter solens bana,</l>
+              <l>Letar ut hvad ingen sökt</l>
+              <l>Och du knapt kan ana,</l>
+              <l>Väger smått och väger stort.</l>
+              <l>Men på hjertats stängda port,</l>
+              <l>Der guldtråden väfves,</l>
+              <l>Klappar hon förgäfves.</l>
+           </lg>
+            <lg>
+              <l>Ziffran kom till skolans barn:</l>
+              <l>Får jag taflan krita?</l>
+              <l>Får jag nysta lexans garn</l>
+              <l>Och din griffel slita?</l>
+              <l>— Ziffra, kom, och kom igen!</l>
+              <l>Du skall bli en nyttig vän;</l>
+              <l>Blif min tjensteflicka</l>
+              <l>Och min tafla pricka!</l>
+           </lg>
+            <lg>
+              <l>Men en sak, en sak för dig</l>
+              <l>Kan jag ej fördölja:</l>
+              <l>Ack, jag är oräknelig,</l>
+              <l>Liksom hafvets bölja!</l>
+              <l>Böljan kommer, böljan går,</l>
+              <l>Ingen ziffra mätt dess spår.....</l>
+              <l>Nu så lös, Lucia,</l>
+              <l>Alla fångar fria!</l>
+           </lg>
+         </sp>
+          <stage>(Lucias fest börjar för öppen ridå, och julgub-ben utdelar sina gåfvor.)</stage>
+       </div>
+     </div>
+   </body>
+ </text>
+</TEI>

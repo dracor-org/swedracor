@@ -1,0 +1,1419 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="sv">Snurran</title>
+        <title type="main" xml:lang="en">Snurran</title>
+        <title type="sub" xml:lang="sv">Skämtsaga i fyra äfventyr</title>
+        <title type="sub" xml:lang="en">Play in Four Adventures</title>
+        <author key="wikidata:Q139549">Topelius, Zacharias</author>
+     </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000054</idno>
+        <availability>
+          <licence>
+            <ab>CC0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+         </licence>
+       </availability>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59652151</idno>
+     </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name></name>
+          <idno type="URL">http://libris.kb.se/bib/10504978</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+         </availability>
+          <bibl type="originalSource">
+            <title>Läsning för barn, Visor, sagor och lekar, Stockholm, Bonnier, 8, Lekar, 152–182, 1896 (http://libris.kb.se/bib/10504978)</title>
+            <date type="print" when="1896">"1896" (http://libris.kb.se/bib/10504978)</date>
+            <date type="premiere"/>
+            <date type="written"/>
+         </bibl>
+       </bibl>
+     </sourceDesc>
+   </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="petter" sex="MALE">
+            <persName>Petter Hans</persName>
+         </person>
+          <person xml:id="master_hans" sex="MALE">
+            <persName>mäster Hans</persName>
+         </person>
+          <person xml:id="lisa" sex="FEMALE">
+            <persName>Elisabeth Lisa Hans</persName>
+         </person>
+          <person xml:id="matts" sex="MALE">
+            <persName>Mats Hans</persName>
+         </person>
+          <person xml:id="pytt" sex="MALE">
+            <persName>Pytt</persName>
+         </person>
+          <person xml:id="illflaxa" sex="FEMALE">
+            <persName>Illflaxa</persName>
+         </person>
+          <person xml:id="olle" sex="MALE">
+            <persName>Olle Hans</persName>
+         </person>
+          <person xml:id="snurran" sex="FEMALE">
+            <persName>prinsessan Munviga Snurran</persName>
+         </person>
+          <person xml:id="kapten_puff" sex="MALE">
+            <persName>kapten Puff</persName>
+         </person>
+          <person xml:id="rosenkind" sex="FEMALE">
+            <persName>Rosenkind</persName>
+         </person>
+          <person xml:id="spindelben" sex="MALE">
+            <persName>guvernör Spindelben</persName>
+         </person>
+          <personGrp xml:id="tva_tavlande" sex="MALE">
+            <name>Tva Tavlande</name>
+         </personGrp>
+          <person xml:id="kungen" sex="MALE">
+            <persName>kung</persName>
+         </person>
+          <person xml:id="guvernorskan" sex="FEMALE">
+            <persName>guvernörskan</persName>
+         </person>
+          <person xml:id="harolden" sex="MALE">
+            <persName>härold</persName>
+         </person>
+          <person xml:id="radman_orre" sex="MALE">
+            <persName>rådman Orre</persName>
+         </person>
+          <personGrp xml:id="flera_roster" sex="UNKNOWN">
+            <name>Flera Roster</name>
+         </personGrp>
+          <personGrp xml:id="manga_roster" sex="UNKNOWN">
+            <name>Manga Roster</name>
+         </personGrp>
+          <person xml:id="drottningen" sex="FEMALE">
+            <persName>drottning</persName>
+         </person>
+          <personGrp xml:id="hofdamer" sex="FEMALE">
+            <name>hovdam</name>
+         </personGrp>
+          <person xml:id="gumman_hans" sex="FEMALE">
+            <persName>fru Hans</persName>
+         </person>
+          <person xml:id="forsta_rosten" sex="UNKNOWN">
+            <persName>Forsta Rosten</persName>
+         </person>
+          <person xml:id="andra_rosten" sex="UNKNOWN">
+            <persName>Andra Rosten</persName>
+         </person>
+          <person xml:id="thordon" sex="FEMALE">
+            <persName>Thordön</persName>
+         </person>
+          <person xml:id="snoflinga" sex="FEMALE">
+            <persName>Snöflinga</persName>
+         </person>
+       </listPerson>
+     </particDesc>
+      <textClass>
+        <keywords>
+          <term subtype="" type="genreTitle"></term>
+       </keywords>
+     </textClass>
+   </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2019-06-30">(eg) convert from source</change>
+     </listChange>
+   </revisionDesc>
+ </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">Snurran</titlePart>
+        <titlePart type="sub">Skämtsaga i fyra äfventyr</titlePart>
+     </docTitle>
+   </front>
+    <body>
+      <castList>
+        <head>Personer:</head>
+        <castItem>Kungen</castItem>
+        <castItem>Drottningen</castItem>
+        <castItem>Prinsessan Munviga</castItem>
+        <castItem>Guvernör Spindelben</castItem>
+        <castItem>Guvernörskan Eau de Cologne</castItem>
+        <castItem>Rådman Orre</castItem>
+        <castItem>Kapten Puff</castItem>
+        <castItem>Pytt</castItem>
+        <castItem>Kungens Härold</castItem>
+        <castItem>Mäster Hans</castItem>
+        <castItem>Gumman Hans</castItem>
+        <castGroup>
+          <castItem>Lustiga Petter,</castItem>
+          <castItem>Kloka Matts,</castItem>
+          <castItem>Dumma Olle,</castItem>
+          <roleDesc>deras söner, smedslärlingar.</roleDesc>
+       </castGroup>
+        <castItem>Lisa</castItem>
+        <castGroup>
+          <castItem>Rosenkind,</castItem>
+          <castItem>Snöflinga,</castItem>
+          <castItem>Thordön,</castItem>
+          <roleDesc>féer.</roleDesc>
+       </castGroup>
+        <pb n="153"/>
+        <castItem>Illflaxa</castItem>
+        <castItem>Hofdamer</castItem>
+        <castItem>Hofvet</castItem>
+     </castList>
+      <set>
+        <p>Sagans tid: Det var en gång.</p>
+     </set>
+      <div type="act">
+        <head>Första äfventyret.</head>
+        <stage type="setting" who="#lisa #matts #masterhans #olle #petter">Mäster Hans' smedja. Man ser ässjan, blåsbälgen, ett litet fönster och en dörr. Lustiga Petter dikterar, mäster Hans och Matts slå takten på städet, * <label>*</label> Hammarslagen falla på de understrukna stafvelserna. Olle sköter blåsbälgen, Lisa i en vrå stickar strumpa.</stage>
+        <sp who="#petter">
+          <speaker rend="centered">PETTER</speaker>
+          <stage>(afmätt).</stage>
+          <lg>
+            <l>Vi smida en saga,</l>
+            <l>Så lång som en tvaga,</l>
+            <l>Så bred som en dörr;</l>
+            <l>Har du hört den förr;</l>
+         </lg>
+          <lg>
+            <l>Om du af vår saga</l>
+            <l>Ej lär dig en aga,</l>
+            <l>Så hör, om du vill,</l>
+            <l>Den en gång till!</l>
+         </lg>
+       </sp>
+        <sp who="#master_hans">
+          <speaker>MÄSTER HANS</speaker>
+          <p>Nå, gossar, nu är det lördagsqväll, mor väntar med grötgrytan, vi kunna sluta vårt dags-arbete. Jaså, Matts är ej färdig; jag skall vänta på dig och stoppa min pipa. <stage>(Stoppar pipan, röker och ser ut genom fönstret.)</stage> Hakar och märlor! Hvad är det där för folk <stage>(pekar på åskådarne)</stage>, som sitter därute i månskenet och kikar in hit i smedjan?</p>
+       </sp>
+        <pb n="154"/>
+        <sp who="#petter">
+          <speaker>PETTER.</speaker>
+          <p>Det är gnistorna från skorstenen. Far tror att det är ögon, när de lysa i mörkret.</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Inte är det gnistor. Det finns mycket annat, som sprakar i mörkret om lördagsqvällen.</p>
+       </sp>
+        <sp who="#master_hans">
+          <speaker>MÄSTER HANS.</speaker>
+          <p>Gud signe dig, barnet mitt, du är féer-nas guddotter, du ser mer än andra. Tänk, om det vore folk därute! <stage>(Till åskådarne.)</stage> Gerna för mig. Var så god och titta på oss, nog tåla vi ses på. Jag är Hans mästersmed, som har smidt silfverskor åt kungens häst Eldfrustaren. Mor är i stugan, men här ser ni mina barn. Här är lustiga Petter, han kan smida snurror och spela harmonika. Här är kloka Matts; han smider konstlås och är så träffeligt sluger, att han kan lura en räf. Här är Olle, dumma Olle kalla de honom, för att han talar sex eller sju ord i veckan, men han kan härma tuppen. Nå ja, här är Lisa, barnet, som vi hittade en söndagsmorgon i smedjan. Vi ha tre pojkar , sad' mor, vi behöfva en flicka. Får gå, sad' jag, och si, hon blef smörögat i gröten. Ja, titta nu bara, sådant folk är vi. <stage>(Det knackar på dörren.)</stage> Jag tror månskensfolket vill in. Gör dig smal och kryp in, sad' låset till nyckeln.</p>
+       </sp>
+        <stage type="entrance" who="#pytt">(Pytt inträder, löjligt utstyrd som officer, och gör militärisk honnör.)</stage>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Åh, se Pytt! Hvar kommer du ifrån? Vi är' gamla bekanta, far. Pytt drar mig om vintern på kälke till féernas skola på blå bergen. Han tänker bli krigsman, för att han är så lång och rask.</p>
+       </sp>
+        <sp who="#petter">
+          <speaker>PETTER.</speaker>
+          <p>Cæsar Alexander Napoleon Pytt!</p>
+       </sp>
+        <sp who="#matts">
+          <speaker>MATTS.</speaker>
+          <p>Jag tar till flykten. Grymme herr krigsman, slå intet ihjäl mig!</p>
+       </sp>
+        <sp who="#master_hans">
+          <speaker>MÄSTER HANS.</speaker>
+          <p>Tyst, Matte! Nå, hvad har den store Pytt att förkunna?</p>
+       </sp>
+        <pb n="155"/>
+        <sp who="#pytt">
+          <speaker>PYTT</speaker>
+          <stage>(gör honnör).</stage>
+          <p>Min nådiga herre kungen låter säga dig, mästersmed, att han behöfver till måndag morgon det lås, som han har beställt af dig.</p>
+       </sp>
+        <sp who="#matts">
+          <speaker>MATTS.</speaker>
+          <p>Store Pytt, det är jag, som smider låset och det är snart färdigt.</p>
+       </sp>
+        <sp who="#master_hans">
+          <speaker>MÄSTER HANS.</speaker>
+          <p>Till hvad behöfver kungen ett så stort, dyrkfritt konstlås?</p>
+       </sp>
+        <sp who="#pytt">
+          <speaker>PYTT.</speaker>
+          <p>Till sitt nya glasskåp, som min far, kapten Puff, fått befallning att bygga.</p>
+       </sp>
+        <sp who="#master_hans">
+          <speaker>M. HANS.</speaker>
+          <p>Det måste vara dyrbara skatter, som kun-gen där skall förvara. Kanske sin krona?</p>
+       </sp>
+        <sp who="#pytt">
+          <speaker>PYTT.</speaker>
+          <p>Jag törs intet säga. Det är en statshemlighet.</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Jag vet, far, jag har hört det af féerna. Kungen bygger ett glasskåp för att där förvara sin dot-ter, prinsessan Munviga, som folk kallar Snurrran.</p>
+       </sp>
+        <sp who="#master_hans">
+          <speaker>M. HANS.</speaker>
+          <p>Hvad i alla dagar! Hans enda barn, som skall ärfva kronan och riket!</p>
+       </sp>
+        <sp who="#pytt">
+          <speaker>PYTT</speaker>
+          <stage>(med en axelryckning).</stage>
+          <p>Han måste!</p>
+       </sp>
+        <sp who="#master_hans">
+          <speaker>M. HANS.</speaker>
+          <p>Hvarför måste han? <stage>(Pytt tiger med en ny axelryckning.)</stage> Hvarför måste han, Lisa?</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Därför...* <label>*</label> Tre prickar beteckna ett kortare uppehåll. <stage>(halfgråtande).</stage> Nej, jag vill intet tala illa om Snurrran.</p>
+       </sp>
+        <sp who="#master_hans">
+          <speaker>M. HANS.</speaker>
+          <p>Sitt inte och lipa, unge! Ut med san-ningen! Hvarför måste han?</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA</speaker>
+          <stage>(gråtande).</stage>
+          <p>Hon pratar.</p>
+       </sp>
+        <sp who="#master_hans">
+          <speaker>M. HANS.</speaker>
+          <p>Hvad för slag? Skall prinsessan i glas-skåpet för att hon pratar?</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA</speaker>
+          <stage>(motvilligt).</stage>
+          <p>Det var så, att kungen hade två snälla prinsessor förut, men han tyckte de voro alldeles för tystlåtna, för han ville ha muntert vid hofvet. Så togo féerna bort de två snälla prinsessorna och sände <pb n="156"/> åt kungen Snurran i stället. Och för hvart år Snurran blef äldre, pratade hon dubbelt mer än förut. Men nu, när hon blifvit femton år...</p>
+       </sp>
+        <sp who="#master_hans">
+          <speaker>M. HANS.</speaker>
+          <p>Nå, nu när hon blifvit femton år?</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA</speaker>
+          <stage>(med gråten i halsen).</stage>
+          <p>Står ingen mera ut med att höra henne. Alla stoppa de bomull i öronen och gå med tjocka dukar kring hufvudet, liksom när man har tandvärk. Och så kunna de inte heller höra hvad andra säga.</p>
+       </sp>
+        <sp who="#master_hans">
+          <speaker>M. HANS.</speaker>
+          <p>Och så?</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA</speaker>
+          <stage>(som förut).</stage>
+          <p>Så nu måste kungen stänga in henne i ett glasskåp, om ingen vill vara så barmhärtig och gifta sig med henne.</p>
+       </sp>
+        <sp who="#petter">
+          <speaker>PETTER.</speaker>
+          <p>Får den, om gifter sig med Snurran, riket med?</p>
+       </sp>
+        <sp who="#matts">
+          <speaker>MATTS</speaker>
+          <stage>(medan han smider).</stage>
+          <p>Ja, säg, får han riket med?... Aj, aj, mitt finger! Jag slog mig på fingret! Trollen tage Snurran och riket med!</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Skäms, Matte! Vet du intet, att när man ropar på trollen, kommer strax något styggt?</p>
+       </sp>
+        <stage type="entrance" who="#illflaxa">(Illflaxa inträder, ridande på en qvast, med en piska i handen och en säck på ryggen.)</stage>
+        <sp who="#illflaxa">
+          <speaker>ILLFLAXA.</speaker>
+          <p>Tackar så mycket, hvem var så god och bjöd mig stiga in? Usch, jag har ridit mig trött, jag är på väg till Blåkulla. Finns här någon, som träter? Jag behöfver skällsord, mycket skällsord i qväll, för dem skall jag mala till kaffe, jag säger intet åt hvem.</p>
+       </sp>
+        <sp who="#master_hans">
+          <speaker>M. HANS.</speaker>
+          <p>Hvad är ni för en markatta?</p>
+       </sp>
+        <sp who="#illflaxa">
+          <speaker>ILLFLAXA</speaker>
+          <stage>(nafsar i luften).</stage>
+          <p>Tackar ödmjukast, det var ett bra ord; hvarje sådant ord är en kaffeböna för mig. Finns här ej flera?</p>
+       </sp>
+        <sp who="#matts">
+          <speaker>MATTS.</speaker>
+          <p>Kan ni bota mitt finger, ni vidbrända, sotiga trollpacka?</p>
+       </sp>
+        <pb n="157"/>
+        <sp who="#illflaxa">
+          <speaker>ILLFLAXA</speaker>
+          <stage>(nafsar i luften).</stage>
+          <p>Tackar tackar, det var också ett bra ord. Men nu har jag intet tid, jag skall underst bittida i morgon till kungens gård, jag har ett ärende till Snurran, och där får jag många sköna kaffe-bönor. <stage>(Vädrande i luften.)</stage> Pstschi! <stage>(Nyser.)</stage> Banke mig, tror jag intet, att här luktar hedniskt blod! En sparf-unge! <stage>(Gripande efter Pytt.)</stage> Han skall i säcken till frukost i morgon.</p>
+       </sp>
+        <stage>(Pytt flyr undan och gömmer sig bakom blåsbälgen.)</stage>
+        <sp who="#petter">
+          <speaker>PETTER.</speaker>
+          <p>Tappre Pytt, spetsa kärringen på ditt svärd!</p>
+       </sp>
+        <sp who="#illflaxa">
+          <speaker>ILLFLAXA</speaker>
+          <stage>(förföljande Pytt).</stage>
+          <p>Så, så, så, sparfkyckling, intet göra sig till! I säcken skall du, på spettet skall du, jag skall plocka dig, jag skall steka dig, tills du blir mör! <stage>(Olle motar henne.)</stage> Hvad nu, sotarpojke? Vill du se mina långa naglar? Jag skall ha pysslingen!</p>
+       </sp>
+        <sp who="#olle">
+          <speaker>OLLE</speaker>
+          <stage>(galande).</stage>
+          <p>Kuckukukuu!</p>
+       </sp>
+        <sp who="#illflaxa">
+          <speaker>ILLFLAXA</speaker>
+          <stage>(skrämd).</stage>
+          <p>Huj, hvad är det! Tuppen galar, jag kommer för sent till Blåkulla. Och bara två kaffe-bönor har jag fått i denna eländiga smedjan. Simpele, timpele, murra balurra, hopp, väder opp, hästen min!</p>
+          <stage type="exit" who="#illflaxa">(Piskar på qvasten och rider ut.)</stage>
+       </sp>
+        <sp who="#master_hans">
+          <speaker>M. HANS.</speaker>
+          <p>Nå det var för väl, att vi blefvo af med det trollet. Jag kände en besynnerlig lust att steka henne i ässjan. <stage>(Pytt kryper fram.)</stage> Hon ville ju äta upp dig, min beskedlige gosse.</p>
+       </sp>
+        <sp who="#pytt">
+          <speaker>PYTT</speaker>
+          <stage>(stolt).</stage>
+          <p>Mitt svärd var för kort. Om hon kom-mit helt litet närmare, skulle jag ha spikat fast henne vid väggen.</p>
+       </sp>
+        <sp who="#master_hans">
+          <speaker>M. HANS.</speaker>
+          <p>Se så, gossar, mor väntar och gröten sval-nar. <stage>(Trumpetstötar utanför.)</stage> Hvad kan det vara? Kun-gens härold så sent på lördagsqvällen! Nu måtte det vara brådt. <stage>(Lyssnar vid fönstret.)</stage> Riktigt! Härolden upp-<pb n="158"/>läser en kunglig kungörelse... <stage>(Lyssnar och upprepar)</stage>... Eftersom hennes höghet prinsessan Munviga lider be-tänkligt af för mycken vältalighet... och hela rikets välfärd därmed sättes på spel... alltså... hvad säger han?... alltså utlyser kungen allernådigast en täflan för alla ogifta män i hans rike... af hvad stånd de vara må... att nästa måndags morgon infinna sig vid kungsgården... Och den, som lyckas förmå hennes höghet att tiga i fem minuter, — hör man på: fem mi-nuter! — han skall få henne till gemål och sedan ärfva riket efter konungens död. <stage>(Petter och Matts hoppa upp.)</stage> Men den, som försöker och icke lyckas,... han skall sitta i stocken, ända till dess att han lärt sig utantill allt hvad hennes kungliga höghet under tolf dagars tid be-hagat säga honom. Gifvet i vårt kungliga slott, datum ut supra etcetera, etcetera.
+                   </p>
+       </sp>
+        <sp who="#matts #petter">
+          <speaker>PETTER OCH MATTS</speaker>
+          <stage>(på en gång).</stage>
+          <p>Jag vill med, far!</p>
+       </sp>
+        <sp who="#master_hans">
+          <speaker>M. HANS.</speaker>
+          <p>Hör på pojkarna! Skämmas ni intet? Petter, huru tänker du reda dig med Snurrans vältalighet?</p>
+       </sp>
+        <sp who="#petter">
+          <speaker>PETTER.</speaker>
+          <p>Jag skall förarga henne, så att hon spricker.</p>
+       </sp>
+        <sp who="#master_hans">
+          <speaker>M. HANS.</speaker>
+          <p>Och du, Matte? Tänker du smida henne till nubb?</p>
+       </sp>
+        <sp who="#matts">
+          <speaker>MATTS.</speaker>
+          <p>Nej, jag skall smida ett munlås åt henne.</p>
+       </sp>
+        <sp who="#master_hans">
+          <speaker>M. HANS.</speaker>
+          <p>Jo, nu får riket vackra kungar med tiden. Det är för väl, att jag har Olle qvar.</p>
+       </sp>
+        <sp who="#olle">
+          <speaker>OLLE</speaker>
+          <stage>(styft).</stage>
+          <p>Jag... vill... med!</p>
+       </sp>
+        <sp who="#master_hans">
+          <speaker>M. HANS.</speaker>
+          <p>Olle med! Det var de första ord jag hört pojken säga sedan i onsdags. Nå, hur tänker du få prinsessan att tiga? <stage>(Olle lägger fingret på munnen.)</stage> Så så, lycka till, du vill lära henne din egen konst? Det kallar jag slugt, ifall det ej råkar vara makalöst dumt. Jag mister alla mina smedjedrängar. Hvem skall nu sköta pusten? Kanske Lisa också vill med?</p>
+       </sp>
+        <pb n="159"/>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Nej, far. Jag skall i morgon vid solens upp-gång till féernas gudstjenst på blå bergen.</p>
+       </sp>
+        <sp who="#master_hans">
+          <speaker>M. HANS</speaker>
+          <stage>(till åskådarne).</stage>
+          <p>Där höra ni sjelfva, godt folk. Alla mina barn rymma ifrån mig. Hvad skall jag göra? Skall jag bomma dörren och säga till dem: barnens vilja är i fars byxficka. Eller skall jag låta dem gå efter näsan? Nå, de må löpa, de komma väl hem igen, när de längta till mors grötgryta. Åhå, hvad allt får man ej höra och se på en lördagsqväll! Men nu är det tid att få sig en munsbit och se'n gå till kojs. <stage>(Till åskådarne.)</stage> God natt, kära vänner, sofven godt, så få ni se Snurran i morgon och kungen i öfvermorgon.</p>
+       </sp>
+        <stage rend="centered">(Ridån faller.)</stage>
+     </div>
+      <div type="act">
+        <head>Andra äfventyret.</head>
+        <stage type="setting" who="#pytt">Tidigt en morgon i kungens park. Träd och rosenbuskar. Bakom dem i fonden de blå bergen. Man hör små klockor ringa. Pytt i uniform vattnar rosenbuskarna.</stage>
+        <sp who="#pytt">
+          <speaker>PYTT</speaker>
+          <p>Solen går upp. <stage>(Gäspar.)</stage> Och så tidigt näns guvernör Spindelben skicka en stackars krigsman till ett så simpelt göra, som vattna rosor! Allt skall, kantänka, vara så fint till i morgon, när prinsessan skall bjudas ut på auktion. <stage>(Lyssnar.)</stage> Hvad är det som ringer? Jaså, det är söndag i dag, blåklockorna ringa till féer-nas gudstjenst därborta på bergen... Aj, nu stack jag mig på en törntagg!... Men så var jag tapper i går, när den förskräckliga hexan ville steka mig i hvitlök och äta upp mig lifslefvande. uff, sad' Puffen. Kan-<pb n="160"/>tänka hon, ja! Hon skulle ha kommit en half tum närmare, så hade hon varit dödens barn. <stage>(Drager sin värja och hugger i luften.)</stage> Hon skulle försöka att komma en gång till, så skulle jag spetsa henne så här... och så här... <stage>(han sticker i träden).</stage>
+                   </p>
+       </sp>
+        <stage>(<stage type="entrance" who="#illflaxa">Illflaxa inträder baklänges från venster för åskådarne, steg för steg, andtruten försvarande sig med qvasten, som hon håller utsträckt framför sig.</stage> Pytt gömmer sig darrande bakom en buske.)</stage>
+        <sp who="#illflaxa">
+          <speaker>ILLFLAXA</speaker>
+          <stage>(skrikande för att öfverrösta <stage type="entrance" who="#snurran">Snurran, som förföljer henne och talar på samma gång</stage>).</stage>
+          <p>Söta gulle prinsessa, jag har ju sagt dig, att du är mitt allrakäraste lilla barn, och nu är du femton år och skall snart gifta dig, och så måste jag väl få pussa dig, förrän en annan far bort med dig.</p>
+       </sp>
+        <sp who="#snurran">
+          <speaker>SNURRAN</speaker>
+          <stage>(slabbrande utan uppehåll och svängande en kråk-skramla, när hon är tvungen att draga andan).</stage>
+          <p>Och så kom-mer du till mig midt i natten, när jag ligger i min sötaste sömn, och säger att du är min mamma, liksom det skulle passa sig att komma till en kunglig person midt i natten, när hon sofver sin sötaste sömn, och lik-som det skulle passa sig för en trasgumma, som du, att säga dig vara min mamma, och så är du intet heller min mamma, grodornas mamma är du, men intet min mamma, för jag är en kungsdotter, och du är intet värdig att sopa mitt golf, och så kommer du till mig midt i natten, när jag sofver i min sötaste sömn, för att jag måste hvila mig, och jag måste hvila mig, för att jag har nog besvär hela dagen med att lära de dumma hofjungfrurna deras sysslor, och om intet jag skall få hvila mig, huru skulle någon annan få hvila sig, och hvarför skulle andra få hvila sig och jag intet få hvila mig? Men du surrar som en böllfluga, så att jag intet <pb n="161"/> får säga ett ord, för att du surrar och surrar och surrar...</p>
+       </sp>
+        <stage>(Mister andan och skramlar. <stage type="exit" who="#illflaxa #snurran">Båda försvinner i kulissen och fortsätta utom scenen.</stage>)</stage>
+        <sp who="#pytt">
+          <speaker>PYTT</speaker>
+          <stage>(försigtigt framkrypande).</stage>
+          <p>Surrar och surrar! Där fick hexan en, som fastnar henne i halsen. Sinkadus, säger far, jag är stendöf <stage>(lyssnar)</stage>, jag hör intet mera blåklockorna ringa... Där springa de, hexan baklänges, Snurran efter henne. Nu komma de till dammen, hexan ser inte bakom sig... plums, där ligger hon! Ingen fara, sådant otyg flyter på vattnet... Men se, där kommer Lisa! Det är skönt att åter få vara med rik-tigt folk. Hvarifrån kommer du så bittida, Lisa?</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA</speaker>
+          <stage type="entrance" who="#lisa">(inträder).</stage>
+          <p>Jag kommer från féernas kyrka på bergen. Där var så vackert, så vackert. När solen gick upp, begynte blåklockorna ringa.</p>
+       </sp>
+        <sp who="#pytt">
+          <speaker>PYTT.</speaker>
+          <p>Ja, jag hörde dem ända hit.</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Då var där ottesång med alla fåglar och blommor och fjärilar. Den blå himlen var kyrka, berget var altare, näktergalen messade, myggan spelade orgel, talltrasten var klockare och började psalmen, gamla eken på berget var prest och predikade så innerligt vackert, när östanvinden susade i hans krona. Alla féer och träd och blommor böjde sig ned för vinden i bön, ett litet lamm sof vid vargens sida, och den stora kungsörnen gömde en dufva under sin vinge.</p>
+       </sp>
+        <sp who="#pytt">
+          <speaker>PYTT.</speaker>
+          <p>Ack, så vackert! Om jag finge en gång vara med!</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Kom med mig i morgon, när féerna väga menniskors ord!</p>
+       </sp>
+        <sp who="#pytt">
+          <speaker>PYTT.</speaker>
+          <p>Hvad vill det säga: väga ord?...</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>De väga på sina vågskålar alla ord, som du och jag och alla människor säga.</p>
+       </sp>
+        <pb n="162"/>
+        <sp who="#pytt">
+          <speaker>PYTT.</speaker>
+          <p>Nej, huru stå de ut med ett sådant arbete? Men se, där kommer far.</p>
+       </sp>
+        <stage type="entrance" who="#kaptenpuff">(Kapten Puff inträder, släpande en stock, jemte yxa och klubba. Han är en liten fet gubbe i uniform och bär ett skägg, som räcker honom ända till midjan.)</stage>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>Uff, sad' Puffen. Hjelpen mig, barn! Jag sliter ut mig med en sådan obäklig stock.</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Vet inte kapten, att det är söndagsmorgon? Man skall aldrig arbeta på söndagsmorgonen, för då går någonting galet.</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>Har jag tid att försumma en söndags-morgon? Kungens nya glasskåp är färdigt, men där skall också vara en stock, som ingen annan än jag kan inrätta. Den skall klyfvas och borras med hål, för att där skola de sitta, som i morgon försöka få prinsessan att tiga och intet lyckas.</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Stackars de, som få sitta där!</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>Håll nu stocken stadig, medan jag klyfver honom! <stage>(Hugger.)</stage> Så, ett hugg till. Han är hård, den besten; jag måste slå in en kil <stage>(han inslår kilen).</stage> Spric-ker han intet? <stage>(Lutar sig ned för att se.)</stage> Jo, något sprack han, men intet tillräckligt, tror jag <stage>(lutar sig mera).</stage> Månne kilen är för tjock? <stage>(Lägger sig på magen för att se åt. Kilen glider ur, och Puffs skägg inklämmes i springan.)</stage> Hvad för något? Jag tror, att mitt skägg... <stage>(Försöker förgäfves resa sig.)</stage> Sinkadus, jag sitter ju fast; hjelp mig, barn! <stage>(Pytt och Lisa draga honom en i hvardera benet.)</stage> Aj, aj, aj, ni rycka ju sönder mig; jag mister hufvudet!</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Kila lös far din, Pytt!</p>
+       </sp>
+        <sp who="#pytt">
+          <speaker>PYTT</speaker>
+          <stage>(höjer klubban).</stage>
+          <p>Far, skall jag kila?</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>Är du rosenrasande, pojke? Vill du klubba din egen far?</p>
+       </sp>
+        <pb n="163"/>
+        <sp who="#pytt">
+          <speaker>PYTT</speaker>
+          <stage>(skriker).</stage>
+          <p>Far sitter i stocken! Är här intet någon, som kan kila lös far?</p>
+       </sp>
+        <sp who="#petter">
+          <speaker>PETTER</speaker>
+          <stage type="entrance" who="#petter">(inträder spelande harmonika).</stage>
+          <p>Hvem skriker? Jaså, är det gubben Puff med sitt långa skägg? Han surrar ju som en geting i spindelväfven. Sitt där och roa dig, gubbe lilla, jag skall spela gåsmarschen för dig. <stage>(Spelar.)</stage></p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Var inte dum nu, Petter; kila lös gubben!</p>
+       </sp>
+        <sp who="#petter">
+          <speaker>PETTER.</speaker>
+          <p>Har inte tid. Jag skall till kungsgården och spela för Snurran, så att hon tycker om mig i morgon. <stage type="exit" who="#petter">(Går.)</stage></p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Där kommer Matte, han skall hjelpa oss. <stage type="entrance" who="#matts">(Matts inträder.)</stage> Var så beskedlig, Matte, och kila lös kapten Puff!</p>
+       </sp>
+        <sp who="#matts">
+          <speaker>MATTS</speaker>
+          <stage>(skrattande).</stage>
+          <p>Hå, hå, hå, sitter han där, det gamla åkerspöket? Store Pytt, du som är krigsman, drag ditt svärd och hugg hufvudet af din far, så kom-mer han säkert lös.</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Matte, Matte, kan du vara så obarmhertig?</p>
+       </sp>
+        <sp who="#matts">
+          <speaker>MATTS.</speaker>
+          <p>Har intet tid. Jag skall taga mått till i morgon af Snurrans mun. <stage type="exit" who="#matts">(Går.)</stage></p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF</speaker>
+          <stage>(gråtande).</stage>
+          <p>O, de riksförrädarne, här lemna de mig att dö som en hare i snaran! Jag önskar att Petter och Matts en gång må sitta i samma stock. Men hvad skall kungen säga, när han och hela riket får bära sorg efter kapten Puff?</p>
+       </sp>
+        <stage type="entrance" who="#olle">(Olle inträder.)</stage>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Gråt intet, kapten! Här kommer Olle, han är beskedlig, han skall hjelpa oss. Kära Olle, här sitter den stackars Puffen i stocken; kila lös honom!</p>
+       </sp>
+        <sp who="#olle">
+          <speaker>OLLE</speaker>
+          <stage>(betraktar skägget och stocken).</stage>
+          <p>Sax!</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Jag har en fårsax i min klädningsficka. <stage>(Räcker honom saxen. Olle böjer sig ned och afklipper kapten Puffs långa skägg.)</stage></p>
+       </sp>
+        <pb n="164"/>
+        <sp who="#olle">
+          <speaker>OLLE.</speaker>
+          <p>Lös!</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>Hvad gör du, mandråpare? Mitt oförlik-neliga, vördnadsbjudande, fruktansvärda skägg! Men är jag verkligen fri? <stage>(Hoppar upp.)</stage> Fri! Fri! Jag lef-ver, jag flyger, kungen behöfver intet bära sorg efter sin trogne Puff! Och ändå... <stage>(Gråtande.)</stage> Min ära, min stolthet, mitt makalösa, beundransvärda, majestätiska skägg!</p>
+       </sp>
+        <sp who="#pytt">
+          <speaker>PYTT</speaker>
+          <stage>(dansar om med sin far).</stage>
+          <p>Intet gråta, intet träta nu, far! Kungens getabock har det vördnadsvärdaste skägg. I qväll skall jag raka skägget af honom och limma det under din haka. Hvarför kan inte kapten Puff bära lösskägg, när guvernör Spindelben bär peruk?</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Tack, Olle. Är du också här för att titta på prinsessan, förrän du försöker din lycka i morgon?</p>
+       </sp>
+        <stage>(Olle nickar.)</stage>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>Min välgörare, mitt lifs räddare, är du en af pristäflarne, så skall jag till belöning hviska dig något i örat. Men är du också klok?</p>
+       </sp>
+        <stage>(Olle skakar betänksamt på hufvudet.)</stage>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Ja, ser kapten, Olle vet nog, att alla kalla honom dumma Olle, för att han är så tystlåten, men intet är han så dum, som han ser ut.</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>Nå, då skall du i morgon lägga en sak på minnet. <stage>(Hviskande.)</stage> Snurran pratar för att hon intet tål höra någon annan prata. Säg i morgon intet ett ord!</p>
+       </sp>
+        <stage>(Olle nickar.)</stage>
+        <sp who="#pytt">
+          <speaker>PYTT.</speaker>
+          <p>Nej, se, far, se, Lisa, hvem kommer där?</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Det är Petter och Matte.</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>Och efter dem Snurran. Deras straff börjar. <stage type="entrance" who="#matts #petter #snurran">(Man ser Petter och Matte springa flyende öfver scenen och efter dem Snurran, förföljande dem med sin kråkskramla.)</stage></p>
+       </sp>
+        <stage type="exit" who="#matts #petter #snurran"/>
+        <pb n="165"/>
+        <sp who="#lisa">
+          <speaker>LISA</speaker>
+          <stage>(gråtande).</stage>
+          <p>Rosenkind, kära Rosenkind, du har ju lofvat att höra mig, när jag ropar dig. Kom!</p>
+       </sp>
+        <sp who="#rosenkind">
+          <speaker>FÉEN ROSENKIND</speaker>
+          <stage type="entrance" who="#rosenkind">(uppstår i fonden).</stage>
+          <p>Hvad begär du af mig?</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Jag skäms för Snurran. Där ser du huru hon bär sig illa åt! Alla flickor blygas för henne. Gör henne till en gosse!</p>
+       </sp>
+        <sp who="#rosenkind">
+          <speaker>ROSENKIND.</speaker>
+          <p>Om alla små flickor skulle komma ihåg Snurran, så skulle de slabbra mindre i skolan och hemma. Snurran är ingen riktig flicka. Till en gosse kan jag ej göra henne, men jag skall försöka lära henne tiga.</p>
+          <stage>(Försvinner åter.)</stage>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>Snurran tiga, det vill jag se! Skulle ett sådant underverk hända, så lofvar jag att raka bort hela mitt skägg. <stage>(Hviskande till Olle.)</stage> Håll munnen i morgon!</p>
+       </sp>
+        <stage>(Olle nickar.)</stage>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF</speaker>
+          <stage>(till åskådarne).</stage>
+          <p>Adjö för i dag, god vänner, vi ha intet tid med er nu. Stocken ska vara färdig i morgon bittida, och vill någon se hvem som då sitter i den, så är han välkommen, Då få vi också se det underverket, om någon får Snurran att tiga i fem minu-ter. Intet tror jag det lyckas, men hvad tro ni?</p>
+       </sp>
+        <stage rend="centered">(Ridån faller.)</stage>
+     </div>
+      <div type="act">
+        <head>Tredje äfventyret.</head>
+        <stage type="setting" who="#tvatavlande">Måndagsmorgon. Samma park. Sittplatser äro beredda för kungen och förnäma åskådare. Man ser stocken, och där sitta redan två misslyckade pristäflare.</stage>
+        <pb n="166"/>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF</speaker>
+          <stage type="entrance" who="#kaptenpuff #lifvakten">(Inmarscherar med vakten. Han bär nu getabockens skägg).</stage>
+          <p>Ett tu, ett tu, ett tu, halt! Här postera sig två man för att i all underdånighet bevaka hennes kungliga höghet, om hon försöker rymma. Och här postera sig andra två man att gripa pristäflarne, om de misslyc-kas och understå sig att taga till harpasset. Jag kom-menderar reserven. Gevär på axel, marsch! <stage>(Vakten upp-ställer sig efter ordres.)</stage></p>
+       </sp>
+        <stage type="entrance" who="#spindelben">(Guvernör Spindelben, en mager herre i hofdrägt, inträder, ombunden med en tjock duk kring hufvudet, och ser sig försig-tigt omkring.)</stage>
+        <sp who="#spindelben">
+          <speaker>SPINDELBEN.</speaker>
+          <p>Är hon här? Törs jag komma?</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF</speaker>
+          <stage>(skrikande vid hans öra).</stage>
+          <p>Hon är ännu instängd i slottet.</p>
+       </sp>
+        <sp who="#spindelben">
+          <speaker>SPINDELBEN</speaker>
+          <stage>(upplindar duken och plockar bomull ur öronen).</stage>
+          <p>Jag andas. Har hon fått instruktion? Vet hon, att, om hon inte fogar sig godvilligt, skall hon utan nåd instängas i glasskåpet?</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>Hon vet intet annat, än att hon skall mottaga friare, och har lovat vara beskedlig.</p>
+       </sp>
+        <sp who="#spindelben">
+          <speaker>SPINDELBEN.</speaker>
+          <p>Jag beundrar dig, Puff. Du ensam står ut med att höra den förskräckliga slabbrerskan utan försigtighetsmått.</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>Jag är lifförsäkrad, ers nåd.</p>
+       </sp>
+        <sp who="#spindelben">
+          <speaker>SPINDELBEN.</speaker>
+          <p>Hvad är det jag ser? Där sitta ju redan två karlar i stocken.</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>De hade så brådt, att de anmälde sig redan förrän prinsessan var uppstigen. Hon var nyfiken att se dem. och så pratade hon så grundligt omkull dem, att de frivilligt kröpo i stocken för att rädda sitt lif. Hör ej ers nåd hur de sjunga?</p>
+       </sp>
+        <stage>(Melodi : »Jag fattige lappman». De två i stocken sjunga hvarannan rad turvis.</stage>
+        <pb n="167"/>
+        <sp who="#tva_tavlande">
+          <lg>
+            <l>Vi sitta i stocken,</l>
+            <l>Nöta hål uti rocken.</l>
+            <l>Intet hoppa vi kråka här,</l>
+            <l>Det är trångt för en tjock en.</l>
+         </lg>
+       </sp>
+        <sp who="#spindelben">
+          <speaker>SPINDELBEN.</speaker>
+          <p>Bra, bra. Min käre Puff, jag skall vid tillfälle föreslå dig till major. Men hvad är det för ett besynnerligt skägg du fått?</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>Det är kungligt getskägg och sägs vara på högsta modet nuförtiden. Men se, där kommer hans majestät, åtföljd av rådman Orre.</p>
+       </sp>
+        <sp who="#spindelben">
+          <speaker>SPINDELBEN.</speaker>
+          <p>Hör nu, Puff. Gif för all del signal, när prinsessan närmar sig hit, så att vi veta bereda oss i tid!</p>
+       </sp>
+        <stage type="entrance" who="#folk #guvernorskan #hofvet #harolden #kungen #lisa #radmanorre">(Kungen inträder, åtföljd af rådman Orre, guvernörskan Eau de Cologne jemte svit och en del af hofvet, alla, utom kungen, väl ombonade med hufvuddukar och tjocka bahytter. De intaga sina platser, medan äfven simplare åskådare samlas. Bland dem Lisa.)</stage>
+        <sp who="#kungen">
+          <speaker>KUNGEN</speaker>
+          <stage>(suckande).</stage>
+          <p>Ack, att det skulle komma så långt! Mitt fadershjerta blöder, men hvad gör man intet för rikets välfärd? Guvernörskan, guvernörskan, huru har ni uppfostrat min dotter?</p>
+       </sp>
+        <sp who="#guvernorskan">
+          <speaker>GUVERNÖRSKAN</speaker>
+          <stage>(aftager bahytten).</stage>
+          <p>Till konversation ers majestät, till konversation. Ers majestät vet, att konversation är blomman af sällskapslifvet, och hennes kungliga höghet har de lyckligaste anlag för konversation.</p>
+       </sp>
+        <sp who="#kungen">
+          <speaker>KUNGEN</speaker>
+          <stage>(suckar).</stage>
+          <p>Ja, alltför lyckliga. Jag har före-ställt mig, att när man konverserar, är det två, som tala turvis, och ej blott den ena.</p>
+       </sp>
+        <sp who="#guvernorskan">
+          <speaker>GUVERNÖRSKAN.</speaker>
+          <p>Naturligtvis, ers majestät har alltid rätt. Men den ena kan säga jaså och den andra tala. Eller kunna de tala båda på en gång.</p>
+       </sp>
+        <pb n="168"/>
+        <sp who="#spindelben">
+          <speaker>SPINDELBEN.</speaker>
+          <p>När befaller ers majestät, att pristäflan skall börja.</p>
+       </sp>
+        <sp who="#kungen">
+          <speaker>KUNGEN</speaker>
+          <stage>(suckande).</stage>
+          <p>Låt den börja nu genast.</p>
+       </sp>
+        <sp who="#harolden">
+          <speaker>HÄROLDEN</speaker>
+          <stage>(efter tre trumpetstötar).</stage>
+          <p>Enligt nådig befall-ning äger hvarje ung, ogift man, som önskar utfästa vilkor täfla om hennes kungliga höghet prinsessan Mun-vigas hand, träda fram, en i sender, och börja profvet.</p>
+       </sp>
+        <stage type="entrance" who="#petter" cert="medium">(Petter framträder bugande.)</stage>
+        <sp who="#spindelben">
+          <speaker>SPINDELBEN</speaker>
+          <stage>(stoppande bomull i öronen).</stage>
+          <p>Kapten Puff har den nåden att hitföra hennes kungliga höghet. <stage>(Paus, hvarunder alla af hofvet, utom kungen, ombona sina hufvuden.)</stage></p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF</speaker>
+          <stage>(skrikande).</stage>
+          <p>Hennes kungliga höghet kommer!</p>
+       </sp>
+        <stage>(Allmän oro och nyfikenhet.)</stage>
+        <sp who="#kungen">
+          <speaker>KUNGEN</speaker>
+          <stage>(till Orre, som vill tillstoppa öronen).</stage>
+          <p>Rådman Orre är prisdomare, han får ej tillstoppa öronen.</p>
+       </sp>
+        <sp who="#radman_orre">
+          <speaker>ORRE</speaker>
+          <stage>(suckande).</stage>
+          <p>Det blir min död!</p>
+       </sp>
+        <stage type="entrance" who="#snurran"/>
+        <sp who="#snurran">
+          <speaker>PRINSESSAN</speaker>
+          <stage>(seende sig förvånad omkring).</stage>
+          <p>Hvad skall detta betyda? Om det betyder något, så betyder det väl, att det är något spektakel, efter ju hofvet tycker om spektakel, där jag sjelf skall vara spektakel, och om det är ett spektakel, där jag skall vara med som spektakel, så vill jag veta hvad det är för ett spektakel där jag spelar med, och om det är ett spektakel, där jag skall blifva ett spektakel, så skall jag göra spek-takel af ett sådant spektakel... och hvad gör den där narrn här för ett spektakel. <stage>(Hemtar andan.)</stage></p>
+       </sp>
+        <stage>(Petter har framdragit en snurra och låter den dansa i gröngräset.)</stage>
+        <sp who="#petter">
+          <speaker>PETTER.</speaker>
+          <p>Allranådigaste prinsessa, var så nådig och håll till godo en liten passande leksak! <stage>(Skrikande, när prinsessan börjar tala.)</stage> Jag har tolf snurror i fickan och femhundra på lager hemma. Och när snurrorna ha den <pb n="169"/> nåden att dansa för nådig prinsessan, så skall jag hålla musiken. <stage>(Spelar på harmonikan.)</stage></p>
+       </sp>
+        <sp who="#snurran">
+          <speaker>PRINSESSAN.</speaker>
+          <p>Hvad är det han skriker, tordyfvel, så att jag intet får tala ett ord, och hvad är det för grod-ungar han låter hoppa i gräset, liksom man trillar kop-parslantar på bordet för små barn och liksom jag skulle bry mig om hans småkryp. <stage>(Sparkar bort en snurra med foten. Petter sätter en ny snurra i rörelse.)</stage> Och där flinar en hop obehörigt folk, och kanske är det åt mig de grina, men jag skall säga dem, att man brukar ej flina i ett anständigt sällskap och allraminst där kungen är närvarande, och om det är åt mig som de flina <stage>(sparkar åter en snurra, Petter uppsätter en ny)</stage>, så skall jag säga dem, att de äro åsnor och knärackor, som understå sig att flina åt en kunglig person, och hvad är det för en vakt som Puffen kommenderar med sitt getabocksskägg och som intet för-står <stage>(sparkar en tredje snurra, Petter sätter en ny i rörelse)</stage> att lära packet respekt för en kunglig person, och han där med sina usla snurror hvad skall det betyda, är det kanske för att chikanera mig, så skall han få sina snurror midt i sin simpla fysionomi <stage>(plockar upp snurrorna och kastar dem på Petter)</stage> så att han blir gräsgrön i ansigtet som färsk spenat, och kanske vill han nu maka sig ur vägen och hålla sin dumma mun så att också jag får säga ett ord, jag har ju intet fått säga ett enda ord för hans eländiga snurror, men jag skall snurra för honom så att det skall hagla och snurra honom sjuhundra snurror kring öronen... <stage>(Förföljer Petter med snurrorna. <stage type="exit" who="#petter #snurran">Petter flyr och båda försvinna i kulissen.</stage>)</stage>
+                   </p>
+       </sp>
+        <sp who="#radman_orre">
+          <speaker>RÅDMAN ORRE</speaker>
+          <stage>(flämtande).</stage>
+          <p>I stocken med karlen, i i stocken! Han är kullpratad.</p>
+       </sp>
+        <sp who="#flera_roster">
+          <speaker>FLERA RÖSTER.</speaker>
+          <p>I stocken! I stocken!</p>
+       </sp>
+        <stage type="entrance" who="#petter">(Vakten inför Petter, som sättes i stocken.)</stage>
+        <pb n="170"/>
+        <sp who="#harolden">
+          <speaker>HÄROLDEN</speaker>
+          <stage>(trumpetar).</stage>
+          <p>Är här vidare någon ung man, som vill täfla om hennes kungliga höghets hand?</p>
+       </sp>
+        <stage type="entrance" who="#matts" cert="medium">(Matts framträder med en bugning.)</stage>
+        <sp who="#spindelben">
+          <speaker>SPINDELBEN</speaker>
+          <stage>(till Puff).</stage>
+          <p>För in prinsessan!</p>
+       </sp>
+        <stage type="entrance" who="#snurran">(Puff inför prinsessan, hvilken ett ögonblick sätter sig tyst att hemta andan.)</stage>
+        <sp who="#matts">
+          <speaker>MATTS</speaker>
+          <stage>(listigt).</stage>
+          <p>Intet skall ers höghet vara rädd för mig, jag är stendöf, ers höghet skall få berätta så myc-ket ers höghet behagar. Jag är en guldsmed, som gör de allra skönaste smycken och örhängen, och <stage>(närmar sig)</stage> nu ber jag ers höghet allernådigst tillåta mig taga mått till ett halssmycke, hvars make ej finnes i hela verlden...</p>
+       </sp>
+        <stage>(I det han låtsar taga mått, fäster han hastigt ett munlås på prinsessans läppar och tillknyter det med band i nacken. Prinsessan springer upp, söker förgäfves befria sig från låset och mumlar otydliga ord.)</stage>
+        <sp who="#flera_roster">
+          <speaker>FLERA RÖSTER.</speaker>
+          <p>Han vinner! Han vinner!</p>
+       </sp>
+        <sp who="#matts">
+          <speaker>MATTS</speaker>
+          <stage>(hånande).</stage>
+          <p>Tyst, min mun, så får du socker! Hvarför brusar intet forsen! Hvarför mala intet qvar-nen? Bjäbb, bjäbb, bjäbb, hvar är nu takdroppen, som skrämde oss så skamligt på flykten i går? Kom hit, Lisa, och nig för din blifvande svägerska! Se, huru snäll hon nu blifvit! När jag blir kung skall jag steka henne i smör.</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA</speaker>
+          <stage>(stiger hastigt fram och upplöser bandknuten i prin-sessans nacke).</stage>
+          <p>Intet förräderi! Fy stora skammen, Matte, att vara så falsk!</p>
+       </sp>
+        <stage>(Åskådarne applådera.)</stage>
+        <sp who="#snurran">
+          <speaker>PRINSESSAN</speaker>
+          <stage>(frigjord, rasande och slående Matts med låset, talar med halfqväfda afbrutna ord).</stage>
+          <p>Du... du... du... ormtunga, räfsnara, giftiga skorpion... dig skall jag trampa under min fot, som man trampar en spindel... <pb n="171"/> och du vill bli kung, du, som skall hänga i den högsta ek på bergen... Kråkorna skola hacka ut dina ögon... myrorna skola bita din giftiga tunga... alla skator på sju mils afstånd skola skratta åt dig... du... du... du.</p>
+       </sp>
+        <stage>(<stage type="exit" who="#matts #snurran">Hon förföljer Matts som flyr, och båda försvinna bakom scenen.</stage> Kungen och hofvet resa sig från sina platser.)</stage>
+        <sp who="#radman_orre">
+          <speaker>RÅDMAN ORRE</speaker>
+          <stage>(flämtande).</stage>
+          <p>I stocken med karlen!</p>
+       </sp>
+        <sp who="#manga_roster">
+          <speaker>MÅNGA RÖSTER.</speaker>
+          <p>I stocken! I stocken!</p>
+       </sp>
+        <stage type="entrance" who="#matts">(Vakten inför Matts, som förlägen sättes utan motstånd i stocken.)</stage>
+        <sp who="#harolden">
+          <speaker>HÄROLDEN</speaker>
+          <stage>(trumpetar).</stage>
+          <p>Är här ännu någon ung man, som djerfves täfla om hennes kungliga höghets hand?</p>
+       </sp>
+        <sp who="#flera_roster">
+          <speaker>FLERA RÖSTER.</speaker>
+          <p>Ingen törs.</p>
+       </sp>
+        <stage type="entrance" who="#olle" cert="medium">(Paus. Olle framträder med en styf nick.)</stage>
+        <sp who="#spindelben">
+          <speaker>SPINDELBEN</speaker>
+          <stage>(till Puff).</stage>
+          <p>För in prinsessan!</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>Hon kommer frivilligt.</p>
+       </sp>
+        <sp who="#snurran">
+          <speaker>PRINSESSAN</speaker>
+          <stage type="entrance" who="#snurran">(inträder stilla, med vacklande steg och afbrutna ord).</stage>
+          <p>Förrådd... skymfad... vanärad... såld på auktion i kungens och hofvets närvaro! Alla fly för mig... alla öknämna mig... alla skratta åt mig.. och ingen enda barmhertig vän tager mitt försvar. <stage>(Hon nedkastar sig snyftande på en gräsbänk.)</stage></p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Gråt intet, prinsessa! Det finns också goda menniskor.</p>
+       </sp>
+        <sp who="#snurran">
+          <speaker>PRINSESSAN.</speaker>
+          <p>Var det ej du, som löste mitt lås?</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Jo. Och här är min bror Olle. Han är en bra gosse. Han vill inte skymfa, han vill försvara prinsessan.</p>
+       </sp>
+        <sp who="#snurran">
+          <speaker>PRINSESSAN</speaker>
+          <stage>(till Olle).</stage>
+          <p>Vill du försvara mig, du? Hvem är du? Hvad vill du? Hvad kan du? Gå till en ihjälfrusen vinterfluga och inbilla henne att du är solsken. <stage>(Olle tiger.)</stage> Tala, jag skall ej afbryta dig! <stage>(Olle tiger.)</stage> Jag förstår, han är döfstum.</p>
+       </sp>
+        <pb n="172"/>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Nej, han talar, men talar sällan och talar förståndigt.</p>
+       </sp>
+        <sp who="#snurran">
+          <speaker>PRINSESSAN.</speaker>
+          <p>Förståndigt! Hvad är förståndigt? Är det förstånd, som tuppen galar? Är det förstånd, som sparfven qvittrar? Gå, du med ditt förstånd, och låt andra tala på sitt sätt! Eller är det bättre att tiga?</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Jag tror det är bättre att tiga.</p>
+       </sp>
+        <sp who="#snurran">
+          <speaker>PRINSESSAN.</speaker>
+          <p>Nå, så skall jag tiga, om det också vore blott för att förarga dem, som skratta åt mig. Lisa, om jag skulle glömma mig och åter prata, så säg genast : skatorna skratta.</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Ja, det skall jag säga.</p>
+       </sp>
+        <sp who="#snurran">
+          <speaker>PRINSESSAN</speaker>
+          <stage>(med fingret på läpparna).</stage>
+          <p>Tig, Snurran!</p>
+       </sp>
+        <sp who="#radman_orre">
+          <speaker>RÅDMAN ORRE</speaker>
+          <stage>(vänder ett timglas).</stage>
+          <p>Hon tiger.</p>
+       </sp>
+        <sp who="#kungen">
+          <speaker>KUNGEN.</speaker>
+          <p>Vi få se huru länge.</p>
+       </sp>
+        <sp who="#olle">
+          <speaker>OLLE</speaker>
+          <stage>(i början styft, sedan ledigare).</stage>
+          <p>Hör nu... ett ord måste du ännu säga... säg ja i brudstolen. Du har kurage... jag tycker om dig... Du blir min brud... Ingen skall mera skratta åt dig. <stage>(Prinsessan nickar stum.)</stage></p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA</speaker>
+          <stage>(slår förvånad hop sina händer.)</stage>
+          <p>Prinsessan tiger och Olle talar!</p>
+       </sp>
+        <sp who="#spindelben">
+          <speaker>SPINDELBEN.</speaker>
+          <p>Tiger hon?</p>
+       </sp>
+        <sp who="#flera_roster">
+          <speaker>FLERA RÖSTER.</speaker>
+          <p>Tiger hon?</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>Som en död bröms.</p>
+       </sp>
+        <sp who="#radman_orre">
+          <speaker>RÅDMAN ORRE</speaker>
+          <stage>(uppvisande timglaset).</stage>
+          <p>Hennes kung-liga höghet, prinsessan Munviga har, ett, tu, tre, fyra, fem, bahagat tiga i fem minuter! Lefve prinsessan Munviga och hennes blifvande gemål, prins...</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>Prins dumma Olle.</p>
+       </sp>
+        <sp who="#radman_orre">
+          <speaker>RÅDMAN ORRE.</speaker>
+          <p>Prins Olof! Hipp, hipp, hurra!</p>
+       </sp>
+        <sp who="#manga_roster">
+          <speaker>MÅNGA RÖSTER.</speaker>
+          <p>Hurra!</p>
+       </sp>
+        <sp who="#guvernorskan">
+          <speaker>GUVERNÖRSKAN EAU DE COLOGNE.</speaker>
+          <p>Törs man demaskera sin deshabillé?</p>
+       </sp>
+        <pb n="173"/>
+        <sp who="#spindelben">
+          <speaker>SPINDELBEN.</speaker>
+          <p>Kapten Puff, ni ansvarar för våra lif och vår säkerhet, om hon börjar på nytt.</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>Faran är öfverstånden. Snurran tiger. Aj, för tusan, nu mister jag andra gången mitt skägg!</p>
+       </sp>
+        <stage>(Alla afkläda sina ombonade hufvuden och plocka bomull ur öronen.)</stage>
+        <sp who="#kungen">
+          <speaker>KUNGEN.</speaker>
+          <p>Hvilken fröjd! Hvilken lycka för mig och hela mitt rike! Mina barn, kommen i mina armar! <stage>(Han omfamnar prinsessan och Olle.)</stage></p>
+       </sp>
+        <sp who="#olle">
+          <speaker>OLLE.</speaker>
+          <p>Intet skall kungen vara rädd att bli sotig. Jag kom hit raka vägen från badstugan.</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF</speaker>
+          <stage>(halfhögt).</stage>
+          <p>Där stack dumma Olle fram.</p>
+       </sp>
+        <sp who="#kungen">
+          <speaker>KUNGEN.</speaker>
+          <p>Nu skola vi dricka de förlofvades skål, och i morgon blir bröllopet. Hvad min gemål skall bli glad! Hennes majestät kunde ej förmås att hedra täf-lingen med sin närvaro... Men hvad är det för en sång jag tycker mig höra därborta?</p>
+       </sp>
+        <stage>Åskådarne lemna plats. Man ser Petter, Matts och de två okända i stocken. Nu sjunga de hvarsin strof ur visan turvis.</stage>
+        <sp who="#matts #petter">
+          <lg>
+            <l>Vi sitta i stocken,</l>
+            <l>Nöta hål uti rocken.</l>
+            <l>Intet hoppa vi kråka här;</l>
+            <l>Det är trångt för en tjock en.</l>
+         </lg>
+       </sp>
+        <sp who="#tva_tavlande">
+          <lg>
+            <l>Vi segla på stocken,</l>
+            <l>Fyra sjömän i flocken,</l>
+            <l>Styra kurs på det stilla haf,</l>
+            <l>Bidevind uti focken.</l>
+         </lg>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>Välbekomme, stockjunkare! Det är samma stock, där jag satt, när ni skrattade åt mig.</p>
+       </sp>
+        <pb n="174"/>
+        <sp who="#matts #petter #tva_tavlande">
+          <speaker rend="centered">DE FYRA.</speaker>
+          <lg>
+            <l>Välbekomme, sad' bocken.</l>
+            <l>Som man kokat, sad' kocken.</l>
+            <l>Mjuka tjenare, kapten Puff,</l>
+            <l>Har man sett på en tocken?</l>
+         </lg>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF</speaker>
+          <stage>(till åskådarne).</stage>
+          <p>Hör, så ovettiga somliga kunna vara, fastän de sitta i stocken! Men nu bjuder oss kungen på mjöd, russin och mandel, och i morgon, god' vänner, beder jag på kungens vägnar alla vara välkomna till bröllopet!</p>
+       </sp>
+        <stage rend="centered">(Ridån faller.)</stage>
+     </div>
+      <div type="act">
+        <head>Fjerde äfventyret.</head>
+        <stage type="setting">Rikssalen i konungens slott. <stage type="entrance" who="#pytt">Pytt ensam, försigtigt insmy-gande.</stage></stage>
+        <sp who="#pytt">
+          <speaker>PYTT.</speaker>
+          <p>Jag skall gömma mig här under ett bord, så att jag får se bröllopståget. Åh så mycket folk i kyrkan, och alla voro de längre än jag! Jag fick intet se mer än en flik af Snurrans brudslöja... prinsessans slöja, ville jag säga. Nu skall jag passa på, medan ingen är här. <stage>(Kryper under ett bord.)</stage> Här ser mig ingen. Tyst, där kommer någon!</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF</speaker>
+          <stage type="entrance" who="#kaptenpuff">(inträder slätrakad om hakan).</stage>
+          <p>Ändtligen en minuts hvila. Uff, sad' Puffen, ett kungligt bröllop är värre än ett krig. <stage>(Kastar sig i en stol bredvid Pytts bord.)</stage> Hvar må slarfven, min son, hålla hus? <stage>(Pytt kni-per honom i benet.)</stage> Hvad? Är här en hundracka?</p>
+       </sp>
+        <sp who="#pytt">
+          <speaker>PYTT</speaker>
+          <stage>(tittar fram).</stage>
+          <p>Tyst far, jag är här incognito.</p>
+       </sp>
+        <pb n="175"/>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>Är du där, din inpiskade skälm? Jag tänker på mitt olyckliga skägg. Måntro prinsessan ännu kan tiga?</p>
+       </sp>
+        <sp who="#pytt">
+          <speaker>PYTT.</speaker>
+          <p>Nej, hon har talat.</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>Tänkte jag intet det. Hon har talat! Och nu ser jag för hennes skull ut som ett nyfödt barn.</p>
+       </sp>
+        <sp who="#pytt">
+          <speaker>PYTT.</speaker>
+          <p>Hon har sagt ja i brudstolen.</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>Intet annat? Ett ja i brudstolen är intet ord, det är en smällkyss.</p>
+       </sp>
+        <sp who="#spindelben">
+          <speaker>SPINDELBEN</speaker>
+          <stage type="entrance" who="#spindelben">(inträder brådskande).</stage>
+          <p>Tåget kommer från kyrkan. Är allt i ordning? Alla bjudna?</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>K. PUFF.</speaker>
+          <p>Ja, hela smedsfamiljen, utom dem, som sitta i stocken? Jag hoppas, att smeden har tvättat sig. Vår nya prins behöfver spa och tvage.</p>
+       </sp>
+        <sp who="#spindelben">
+          <speaker>SPINDELBEN.</speaker>
+          <p>Komma féerna?</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>PUFF.</speaker>
+          <p>Féerna låta helsa, att de ha förhinder, de skola väga orden i dag. Men Rosenkind har lofvat flyga hit, förrän de börja... Vakt, i gevär! Tåget kommer!</p>
+       </sp>
+        <stage>
+          <p>(<stage type="entrance" who="#lifvakten">Vakt vid ingången.</stage> Trumpeter, <stage type="entrance" who="#drottningen #folk #gummanhans #guvernorskan #hofdamer #hofvet #kungen #lisa #masterhans #olle #radmanorre #snurran">Bröllopståget inträder under musik och tager plats</stage>. De nyförmälda mottaga lyckönsk-ningar. Man ser nu äfven drottningen, mäster Hans, gumman Hans och Lisa samt Pytts nyfikna hufvud under bordet.</p>
+          <p>Balett efter råd och lägenhet utföres.</p>
+          <p><stage type="entrance" who="#illflaxa">Vid balettens slut inträder Illflaxa</stage>, löjligt utstyrd med fjädrar och bjellror, niger åt alla håll och intager en plats när-mast bruden. Hofvet hviskar och pekar på Illflaxa. Pytt under bordet stirrar på Illflaxa, gör ett försök att rymma, motas af vakten och kryper darrande under bordet tillbaka.)</p></stage>
+        <sp who="#spindelben">
+          <speaker>SPINDELBEN.</speaker>
+          <p>En objuden gäst! <stage>(Till Illflaxa.)</stage> Skäms ni intet! Hvem är ni, och hvem har bjudit er hit?</p>
+       </sp>
+        <sp who="#illflaxa">
+          <speaker>ILLFLAXA</speaker>
+          <stage>(stolt).</stage>
+          <p>Jag bjuder mig sjelf till min dot-ters bröllop.</p>
+       </sp>
+        <sp who="#spindelben">
+          <speaker>SPINDELBEN.</speaker>
+          <p>Är ni galen? Packa er ut!</p>
+       </sp>
+        <pb n="176"/>
+        <sp who="#illflaxa">
+          <speaker>ILLFLAXA.</speaker>
+          <p>Packa er sjelf! Här sitter jag, och här ämnar jag sitta. <stage>(Allmän bestörtning och villervalla.)</stage></p>
+       </sp>
+        <sp who="#kungen">
+          <speaker>KUNGEN.</speaker>
+          <p>Stilla! Guvernör Spindelben, förhör den tokiga menniskan!</p>
+       </sp>
+        <sp who="#spindelben">
+          <speaker>SPINDELBEN.</speaker>
+          <p>Hans majestät är alltför nådig. Nå förklara er, madam Näsvis!</p>
+       </sp>
+        <sp who="#illflaxa">
+          <speaker>ILLFLAXA</speaker>
+          <stage>(slabbrande).</stage>
+          <p>Förklara? Förklara? Hvad är det annat, herr Frågvis, än att natten efter sedan prinsessan Munviga blef född, klef jag in genom fönstret till den kungliga barnkammaren och lade mitt barn i prinsessans vagga. Begriper han nu, att bruden är mitt egenhändiga barn och att jag intet tänker låta bortvisa mig från min flickas bröllop? Och för att jag intet tänker låta bortvisa mig, så tänker jag sitta här, och för att jag sitter här, så vill jag sitta här som en släg-ting till det kungliga huset.</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>PUFF</speaker>
+          <stage>(halfhögt).</stage>
+          <p>Det är ju alldeles som förr, när vi hörde Snurran prata!</p>
+       </sp>
+        <sp who="#drottningen">
+          <speaker>DROTTNINGEN.</speaker>
+          <p>Olyckliga! Och hvad gjorde ni af mitt barn?</p>
+       </sp>
+        <sp who="#illflaxa">
+          <speaker>ILLFLAXA.</speaker>
+          <p>Kungsbarnet? Ja, det var väl dödt, kan jag tro. Hvad skulle sådana usla småkräk lefva!</p>
+       </sp>
+        <sp who="#drottningen">
+          <speaker>DROTTNINGEN.</speaker>
+          <p>Du ljuger, eländiga! Du har dödat mitt barn!</p>
+       </sp>
+        <sp who="#illflaxa">
+          <speaker>ILLFLAXA.</speaker>
+          <p>Nej, så sant jag på qvast rider, när jag sist såg ungen lefde hon än.</p>
+       </sp>
+        <sp who="#radman_orre">
+          <speaker>RÅDMAN ORRE.</speaker>
+          <p>Här är en casus, en tvetalan, posito... låt mig fundera!</p>
+       </sp>
+        <sp who="#kungen">
+          <speaker>KUNGEN.</speaker>
+          <p>Håll er näbb, Orre, och låt polisen ransaka.</p>
+       </sp>
+        <sp who="#spindelben">
+          <speaker>SPINDELBEN.</speaker>
+          <p>Först säger ni, att barnet var dödt, och sedan säger ni att det lefde.</p>
+       </sp>
+        <sp who="#illflaxa">
+          <speaker>ILLFLAXA.</speaker>
+          <p>Säger och säger! Jag säger, att bruden är mitt egenhändiga barn.</p>
+       </sp>
+        <pb n="177"/>
+        <sp who="#snurran">
+          <speaker>PRINSESSAN</speaker>
+          <stage>(rusar slabbrande upp och förföljer Illflaxa ett hvarf kring salen. Hofvet håller sig för öronen).</stage>
+          <p>Egenhändiga, egenhändiga, har man någonsin hört så egenhändiga lögner, som den egenhändiga hexan smider och slabb-rar och slabbrar och slabbrar, liksom jag varit död, och så lefver jag än i dag, och liksom jag varit hennes hexunge, och så är jag af kungligt blod, och det blygs intet hela hofvet att höra, men hon får slabbra och ljuga och ingen bryr sig om att hon slabb-rar sina dumma historier, och här skall jag sitta och får intet öppna min mun för att hon skall få chikanera mitt kungliga blod, och...</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Skatorna skratta!</p>
+       </sp>
+        <stage>(Prinsessan tystnar och gömmer gråtande sitt hufvud i Olles famn.)</stage>
+        <stage type="entrance" who="#rosenkind">(Rosenkind inträder, alla buga vördnadsfullt.)</stage>
+        <sp who="#rosenkind">
+          <speaker>ROSENKIND.</speaker>
+          <p>Illflaxa är en hexa, och hennes barn är en hexunge. <stage>(Bestörtning och utrop: <sp who="#flera_roster #manga_roster" rend="inline"><p>prinsessan är en hex-unge.</p></sp>)</stage> Gråt intet, unga brud! Sanningen måste i dagen, men du är oskyldig, du skall ännu blifva god och lyck-lig. Och gråt intet, drottning, ditt barn lefver!</p>
+       </sp>
+        <sp who="#kungen">
+          <speaker>KUNGEN.</speaker>
+          <p>Tala, högborna, ädelmodiga fé! Vi tro dig som sanningen sjelf.</p>
+       </sp>
+        <sp who="#rosenkind">
+          <speaker>ROSENKIND.</speaker>
+          <p>Illflaxa lade sitt barn i vaggan, red bort med drottningens barn och kastade det i strömmen. <stage>(Utrop och paus. Vakten griper Illflaxa.)</stage> Där fann jag bar-net ännu vid lif, tog det i mina armar och bar det till goda menniskor.</p>
+       </sp>
+        <sp who="#radman_orre">
+          <speaker>RÅDMAN ORRE.</speaker>
+          <p>Ja, se det är åter en casus! Prin-sessan lefver och lefver intet, finns och finns intet...</p>
+       </sp>
+        <sp who="#kungen">
+          <speaker>KUNGEN.</speaker>
+          <p>Håll sin näbb, Orre!</p>
+       </sp>
+        <sp who="#drottningen">
+          <speaker>DROTTNINGEN.</speaker>
+          <p>Mitt barn! Hvar är mitt barn?</p>
+       </sp>
+        <pb n="178"/>
+        <sp who="#spindelben">
+          <speaker>SPINDELBEN.</speaker>
+          <p>Någon här vid hofvet måste vara prin-sessan! <stage>(Utrop och frågor. Tre hoffröknar niga: hvar i sin tur, för Rosenkind och fråga: <sp who="#hofdamer" rend="inline"><p>ers nåd, är det jag?</p></sp>)</stage>
+                   </p>
+       </sp>
+        <sp who="#rosenkind">
+          <speaker>ROSENKIND.</speaker>
+          <p>Tålamod! Jag lindade det nakna, fry-sande, våta barnet i min slöja, förde det till mäster Hans' smedja och lade det i en korg på hans ässja, som ännu var varm.</p>
+       </sp>
+        <sp who="#master_hans">
+          <speaker>MÄSTER HANS.</speaker>
+          <p>Det har sin riktighet. Följande mor-gon fann jag korgen och barnet och lät kristna det till Lisa. Hennes nåd Rosenkind stod fadder åt barnet.</p>
+       </sp>
+        <sp who="#drottningen">
+          <speaker>DROTTNINGEN.</speaker>
+          <p>Hvar är mitt barn? <stage>(Lisa framföres och omfamnas.)</stage> Mitt stackars, kära, förlorade barn!</p>
+       </sp>
+        <sp who="#gumman_hans">
+          <speaker>GUMMAN HANS</speaker>
+          <stage>(fattar Lisa i armen och vill draga henne till sig).</stage>
+          <p>Nej, ursäkta, jag tänker inte låta någon hexa stjäla mitt barn. Hans, hvad är detta för dumma historier?</p>
+       </sp>
+        <sp who="#drottningen">
+          <speaker>DROTTNINGEN</speaker>
+          <stage>(drar Lisa till sig).</stage>
+          <p>Hör inte madam, att flickan är mitt barn och intet madams? Vill ni släppa Munviga?</p>
+       </sp>
+        <sp who="#gumman_hans">
+          <speaker>GUMMAN HANS</speaker>
+          <stage>(drar Lisa till sig).</stage>
+          <p>Vill hon släppa min Lisa? <stage>(De slitas envist om Lisa.)</stage></p>
+       </sp>
+        <sp who="#rosenkind">
+          <speaker>ROSENKIND.</speaker>
+          <p>Trogna fostermoder, aldrig skall detta barn glömma din ömma omvårdnad, men, nu måste du återgifva Lisa åt hennes rätta moder. Ers majestät, edert barn heter ej mera Munviga, hon heter Elisabeth! <stage>(Lisa öfverlemnas åt drottningen.)</stage></p>
+       </sp>
+        <sp who="#manga_roster">
+          <speaker>MÅNGA RÖSTER.</speaker>
+          <p>Lefve prinsessan Elisabeth!</p>
+       </sp>
+        <sp who="#illflaxa">
+          <speaker>ILLFLAXA</speaker>
+          <stage>(bevakad).</stage>
+          <p>Simpele, timpele, hvar är min qvast?</p>
+       </sp>
+        <sp who="#spindelben">
+          <speaker>SPINDELBEN.</speaker>
+          <p>Befaller ers majestät, att vi hänga hexan nu genast eller steka henne vid sakta eld?</p>
+       </sp>
+        <sp who="#rosenkind">
+          <speaker>ROSENKIND.</speaker>
+          <p>Jag beder om nåd för Illflaxa. Min syster Thordön behöfver henne i sin tjenst.</p>
+       </sp>
+        <sp who="#kungen">
+          <speaker>KUNGEN.</speaker>
+          <p>Jag har återfått mitt förlorade barn. Hexan benådas, karlarna i stocken får äfven sin frihet.</p>
+       </sp>
+        <pb n="179"/>
+        <sp who="#illflaxa">
+          <speaker>ILLFLAXA</speaker>
+          <stage type="exit" who="#illflaxa">(i det hon bortföres).</stage>
+          <p>Nå godt, jag behöfs ännu, så länge det finns onda ord här i verlden.</p>
+       </sp>
+        <sp who="#rosenkind">
+          <speaker>ROSENKIND.</speaker>
+          <p>Farväl! Min pligt kallar mig till de blå bergen. Önska de närvarande se hvad det en gång blir af menniskors ord, vill jag för ett ögonblick förflytta de blå bergen hit.</p>
+       </sp>
+        <sp who="#kungen">
+          <speaker>KUNGEN.</speaker>
+          <p>Mäktiga fé, det önska vi visst. det är endast du, som är stark nog att flytta berg.</p>
+       </sp>
+        <sp who="#rosenkind">
+          <speaker>ROSENKIND.</speaker>
+          <p>Du misstager dig. Det finns två mak-ter som flytta bergen : sagan och tron!</p>
+       </sp>
+        <stage type="exit" who="#rosenkind">(Hon försvinner.)</stage>
+        <sp who="#kapten_puff">
+          <speaker>PUFF</speaker>
+          <stage>(suckande).</stage>
+          <p>Ingen makt kan mera låta mitt skägg växa.</p>
+       </sp>
+        <sp who="#kungen">
+          <speaker>KUNGEN.</speaker>
+          <p>Jo, tiden, min trogne Puff. Till ett minne af denna glada dag utnämner jag dig till major <stage>(Pytt framkryper)</stage> och din son till löjtnant i kriget mot lille-pytterne.</p>
+       </sp>
+        <sp who="#kapten_puff #pytt">
+          <speaker>PUFF OCH PYTT.</speaker>
+          <p>Lefve kungen i tusen år!</p>
+       </sp>
+        <sp who="#kungen">
+          <speaker>KUNGEN.</speaker>
+          <p>Lagom, min käre Puff, lagom! Hvad skulle min efterträdare säga, om han finge vänta så länge? Men hör nu, Olof eller Olle, som ej mera blir kung, och Munviga, som ej mera är prinsessa, hvad säga ni två om allt detta? Hvad blir nu ert öde i verlden?</p>
+       </sp>
+        <sp who="#olle">
+          <speaker>OLLE</speaker>
+          <stage>(styft).</stage>
+          <p>Intet duger jag till kung och intet bryr jag mig om det. Jag är smed och tänker försörja min hustru i smedjan. Den, som nu törs öknämna Mun-viga till Snurran, den skall få med min slägga att göra.</p>
+       </sp>
+        <sp who="#snurran">
+          <speaker>MUNVIGA</speaker>
+          <stage>(uppbrusande).</stage>
+          <p>Snurra och snurra, de snurra, och intet jag, och den, som snurrar mitt ärliga namn, den skall jag snurra som hjulet på spinnrocken, sju hvarf och sjutton och sjuttiosju och sjuhundra sjuttio-sju...</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA.</speaker>
+          <p>Skatorna skratta!</p>
+       </sp>
+        <pb n="180"/>
+        <sp who="#snurran">
+          <speaker>MUNVIGA</speaker>
+          <stage>(hejdar sig).</stage>
+          <p>Nej... jag förlåter alla, som gifvit mig smädeliga namn. Jag har förtjent det. Men nu är Snurran död, och hexungen är död, och här åter-står blott en smeds lyckliga hustru, som tackar prin-sessan Elisabeth för att hon lärt henne de goda orden.</p>
+       </sp>
+        <sp who="#drottningen">
+          <speaker>DROTTNINGEN.</speaker>
+          <p>Och hvad säger mitt återfunna barn? Är du lycklig, Elisabeth?</p>
+       </sp>
+        <sp who="#lisa">
+          <speaker>LISA</speaker>
+          <stage>(kysser drottningens hand).</stage>
+          <p>Ja, som en grönsiska i en gyllene bur.</p>
+       </sp>
+        <sp who="#guvernorskan">
+          <speaker>GUVERNÖRSKAN EAU DE COLOGNE.</speaker>
+          <p>Den nådiga lilla prinsessan fruktar att intet kunna konversera vid hofvet. Hvar intet rädd, ers höghet; jag skall gifva ers höghet de utmärktaste lektioner.</p>
+       </sp>
+        <sp who="#kungen">
+          <speaker>KUNGEN.</speaker>
+          <p>Nej, för all del, det undanbeder jag mig.</p>
+       </sp>
+        <sp who="#spindelben">
+          <speaker>SPINDELBEN.</speaker>
+          <p>Nu återstår endast att finna en värdig prins åt denna undersköna prinsessa. Finns här någon ung riddare som vill täfla om prinsesan Elisabeths hand?</p>
+       </sp>
+        <stage>(Två röster höras från åskådarnes platser.)</stage>
+        <sp who="#forsta_rosten">
+          <speaker>FÖRSTA RÖSTEN.</speaker>
+          <p>Jag vill täfla.</p>
+       </sp>
+        <sp who="#andra_rosten">
+          <speaker>ANDRA RÖSTEN.</speaker>
+          <p>Jag vill också täfla.</p>
+       </sp>
+        <sp who="#forsta_rosten">
+          <speaker>FÖRSTA RÖSTEN.</speaker>
+          <p>Tag du Snurran, så tar jag den andra!</p>
+       </sp>
+        <sp who="#andra_rosten">
+          <speaker>ANDRA RÖSTEN.</speaker>
+          <p>Tyst, du, som kommer i stocken!</p>
+       </sp>
+        <sp who="#kapten_puff">
+          <speaker>MAJOR PUFF.</speaker>
+          <p>Hvad är det för obehöriga? Ni höra intet till sagan. Håll er mun där borta, de blå bergen flytta sig.</p>
+       </sp>
+        <stage type="setting">(Trumpetstöt. <stage type="avista">Fonden försvinner, och man ser de blå bergen med <stage type="entrance" who="#engeln #illflaxa #rosenkind #snoflinga #thordon">féerna</stage>.</stage> Öfverst sitter en engel, som skrifver i en stor bok. Längre ned féerna Rosenkind, Snöflinga och Thordön, alla med en vågskål i sin upphöjda högra hand. Vid Rosenkinds fötter står en guldskål, vid Snöflingas fötter en silfverskål och vid Thordöns fötter en kopparskål. Längst under Thordön sitter hexan Illflaxa med en järngryta öfver en brinnande eld.)</stage>
+        <pb n="181"/>
+        <stage rend="centered">(Tablå, musik, melodram.)</stage>
+        <sp who="#rosenkind">
+          <speaker rend="centered">ROSENKIND:</speaker>
+          <lg>
+            <l>Vi äro makter långt ofvan jorden,</l>
+            <l>Som mäta tankar och väga orden.</l>
+            <l>Allt byter form, som i verlden röres,</l>
+            <l>Men intet, intet tillintetgöres.</l>
+            <l>Hvar tanke lefver, hvart ord förblifver.</l>
+            <l>Här ser du engeln, som rastlöst skrifver</l>
+            <l>I tidens bok hvarje ord, som säges.</l>
+            <l>Dess ljud fördunstar, dess mening väges,</l>
+            <l>Tilldess vid tidernas ände allt</l>
+            <l>Skall dömas efter sin inre halt.</l>
+         </lg>
+          <lg>
+            <l>Och orden växa som ört och blomma</l>
+            <l>Ur själens rot, där de födas stumma,</l>
+            <l>De vittna alla, beständigt trogna,</l>
+            <l>Om lif, som vissna, och lif, som mogna.</l>
+            <l>De bära frukter, som slägten ärfva,</l>
+            <l>De tända eldar; men icke alla.</l>
+            <l>De tomma, tanklösa orden falla</l>
+            <l>Som vindens byten, och innan kort</l>
+            <l>De slockna strödda i rymden bort.</l>
+         </lg>
+          <p>Vår syster Thordön, du, som i din kopparskål upp-samlar de onda orden, de elaka, hårda lögnaktiga, falska, fula, orena, hånande och kärlekslösa orden, anvisa dem deras plats!</p>
+       </sp>
+        <stage>(Thordön nedlägger vågskålen och uthäller ur kopparskålen en svart ström, hvilken nedrinner i Illflaxas gryta, som hexan omrör på elden.)</stage>
+        <pb n="182"/>
+        <sp who="#thordon">
+          <speaker>THORDÖN.</speaker>
+          <p>Vår syster Snöflinga, du, som i din silf-verskål uppsamlar de tanklösa, tomma, fåfänga, sladd-rande och förflugna orden, anvisa dem deras plats!</p>
+       </sp>
+        <stage>(Snöflinga nedlägger vågskålen och griper silfverskålen, gång efter gång, en hand full hvita snöflingor* <label>*</label> Snöflingorna äro finklippta, hvita papperslappar., hvilka hon ut-strör i luften.)</stage>
+        <sp who="#snoflinga">
+          <speaker>SNÖFLINGA.</speaker>
+          <p>Vår syster Rosenkind, du, som i din gyllene skål uppsamlar de goda, de visa, de rena, de kärleksfulla, de tröstande, helande, upprättande och af hjertat glada orden, anvisa dem deras plats!</p>
+       </sp>
+        <stage>(Rosenkind nedlägger vågskålen och upplindar ur guldskålen en guirland af rosor, hvilken uppbäras af alla féerna.)</stage>
+        <sp who="#rosenkind">
+          <speaker rend="centered">ROSENKIND</speaker>
+          <stage rend="hanging-ind">(i det att hon nedkastar nya rosor åt åskådarne):</stage>
+          <lg>
+            <l>Du glada, fladdrande barn af jorden</l>
+            <l>Med varma hjertat och lätta orden,</l>
+            <l>Nu vet du hvad dina ord få stanna,</l>
+            <l>De ord som älska, de ord som banna.</l>
+            <l>O, låt mig kyssa från dina läppar</l>
+            <l>Det tomma snömos, den bittra peppar,</l>
+            <l>Att blott de tänkande ord och ömma</l>
+            <l>Som röda rosor från läppen strömma!</l>
+            <l>Då har ej Snurran förgäfves sått</l>
+            <l>Sitt ord i afton. Godnatt! Sof godt!</l>
+         </lg>
+       </sp>
+        <stage rend="centered">(Ridån faller.)</stage>
+     </div>
+   </body>
+ </text>
+</TEI>

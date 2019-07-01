@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="sv">Perdita eller Den förlorade våren</title>
+        <title type="main" xml:lang="en">Perdita or the Lost Spring</title>
+        <author key="wikidata:Q139549">Topelius, Zacharias</author>
+     </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000020</idno>
+        <availability>
+          <licence>
+            <ab>CC0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+         </licence>
+       </availability>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59652213</idno>
+     </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name></name>
+          <idno type="URL">http://libris.kb.se/bib/10504978</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+         </availability>
+          <bibl type="originalSource">
+            <title>Läsning för barn, Visor, sagor och lekar, Helsingfors, G. W. Edlunds förlag, 8, Lekar, 143–151, tryckning, 1896 (http://libris.kb.se/bib/10504978)</title>
+            <date type="print" when="1896">"1896" (http://libris.kb.se/bib/10504978)</date>
+            <date type="premiere"/>
+            <date type="written"/>
+         </bibl>
+       </bibl>
+     </sourceDesc>
+   </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="maja" sex="FEMALE">
+            <persName>Maja Perdita</persName>
+         </person>
+          <person xml:id="svante" sex="MALE">
+            <persName>Svante April</persName>
+         </person>
+          <personGrp xml:id="ekoroster" sex="UNKNOWN">
+            <name>Ekoroster</name>
+         </personGrp>
+          <person xml:id="eko" sex="MALE">
+            <persName>Eko</persName>
+         </person>
+          <person xml:id="florio" sex="MALE">
+            <persName>prins Florio</persName>
+         </person>
+          <person xml:id="fjarilen" sex="MALE">
+            <persName>barn</persName>
+         </person>
+          <person xml:id="slandan" sex="FEMALE">
+            <persName>barn</persName>
+         </person>
+          <person xml:id="goken" sex="MALE">
+            <persName>Göken</persName>
+         </person>
+          <personGrp xml:id="skolbarnen" sex="MIXED">
+            <name>barn</name>
+         </personGrp>
+       </listPerson>
+     </particDesc>
+      <textClass>
+        <keywords>
+          <term subtype="" type="genreTitle"></term>
+       </keywords>
+     </textClass>
+   </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2019-07-01">(eg) convert from source</change>
+     </listChange>
+   </revisionDesc>
+ </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">Perdita eller Den förlorade våren</titlePart>
+     </docTitle>
+   </front>
+    <body>
+      <castList>
+        <head>Personer:</head>
+        <castItem>Maja</castItem>
+        <castItem>Svante April</castItem>
+        <castItem>Eko</castItem>
+        <castItem>Prins Florio</castItem>
+        <castItem>En fjäril</castItem>
+        <castItem>En slända</castItem>
+        <castItem>Två blåsippor, stumma flickor.</castItem>
+        <castItem>Göken</castItem>
+        <castItem>Skolbarnen, gossar och flickor.</castItem>
+     </castList>
+      <div type="act">
+        <stage type="setting" who="#blasippor #faglarna #myggorna #skogen">Scenen föreställer en skog. De två blåsipporna luta sig sofvande mot en trädstam.</stage>
+        <stage type="entrance" who="#svante">(Svante April springer dansande in med en blomsterkorg i sin hand, stannar, ser sig tillbaka och gör gäckande åtbörder.)</stage>
+        <sp who="#maja">
+          <speaker>MAJA</speaker>
+          <stage>(utom scenen).</stage>
+          <p>Svante! Min korg! Mina blommor!</p>
+       </sp>
+        <sp who="#svante">
+          <speaker>SVANTE</speaker>
+          <stage>(vinkar gäckande med korgen).</stage>
+       </sp>
+        <stage><stage type="entrance" who="#maja">Maja inträder ovig och flämtande.</stage> Hon är vinterklädd i pels, muff, hufva, schal, ullvantar och ytterkängor. Svante visar lång näsa.)</stage>
+        <pb n="144"/>
+        <sp who="#maja">
+          <speaker>MAJA.</speaker>
+          <p>Men så stanna då, Svante, gif mig igen mina blommor! <stage>(Svante kastar en slängkyss, flyr och för-svinner.)</stage> Han flyr, han synes ej mer! O, den tjufpoj-ken! <stage>(Höjer rösten.)</stage> Svante-e!</p>
+       </sp>
+        <sp who="#ekoroster">
+          <speaker>EKORÖSTER</speaker>
+          <stage>(från alla sidor).</stage>
+          <p>Svante-e!</p>
+       </sp>
+        <sp who="#maja">
+          <speaker>MAJA</speaker>
+          <stage>(sätter sig pustande på en tufva).</stage>
+          <p>Det fattades ännu! Hela skogen gör narr af mig. Och ingen barm-hertig granruska håller fast tjufven, min egen bror, Svante April, som stulit alla mina blommor! <stage>(Aftorkar ögonen.)</stage> Nej... ingen skall se mig lipa. <stage>(Uppstår raskt och gladt.)</stage> God morgon, skog! Är jag igenkänd, herr Furuhjelm? Kanske fru Granfelt mins mig från förra året? Var jag ej du med fröknarna Lindgren, Lönnblad, Rönn-qvist och Häggblom? Åren förgå, små flickor växa ur sina klädningar... Jaså. Herrskapet ser så obekant ut, herrskapet har intet den äran? Jag måste väl då pre-sentera min lilla person <stage>(niger)</stage>. Jag är Maja, blomster-flickan, som hela Europa, norra Asien och norra Amerika känna. Men i år kallas jag Perdita, den förlorade Maj. Tänken er, i går, sista April, var solsken; i dag, första Maj, är vinter och snö! O, hvad jag frös i dag på morgonen, när jag slog upp mina ögon! Alla skolbarn sökte mig och funno mig ingenstädes. Jag hade ju krupit under mitt hvita täcke. Gissa, om det blef sorg och klagan i alla hem! Barnen skulle ju få i dag sin gladaste fridag, och hvar är nu deras glada första Maj? Perdita! Perdita!</p>
+       </sp>
+        <sp who="#eko">
+          <speaker>EKO</speaker>
+          <stage>(osynligt).</stage>
+          <p>Perdita! Perdita!</p>
+       </sp>
+        <sp who="#maja">
+          <speaker>MAJA.</speaker>
+          <p>Där hör ni det! Men det är icke nog med en röst i skogen. Alla berg, kullar och dalar, alla vän-tande löfknoppar, alla frusna sångfåglar, alla myggor, som skulle dansa fransäs i dag, söka och sörja mig. <pb n="145"/> Säg dem bara ett ord, och du skall få hundra svar. Säg till dem: <stage>(höjer rösten)</stage> Perdita!</p>
+       </sp>
+        <stage>(Hundrade osynliga ekon upprepa från alla sidor <sp who="#ekoroster" rend="inline"><p>Perdita! Perdita!</p></sp></stage>
+        <sp who="#maja">
+          <speaker>MAJA.</speaker>
+          <p>Se så, sakta, låt det nu vara nog! <stage>(Eko-rösterna tystna.)</stage> Märker du nu, skog, att allt i naturen hör oss och svarar oss? Allt väntar, saknar och hoppas med oss... När jag stod upp och sökte mina blommor, hade min bror Svante tagit dem. O, den förrädaren, jag sprang ut att få fatt på honom, och... uh, det var kallt! Min moster, tant Almanacka, kom springande efter mig. <stage>(Härmar en hes gumma.)</stage> Barn, barn, hvad tänker du på? Går ut i den tunna klädningen och får influensan! <stage>(Hostar.)</stage> Kläd dig förståndigt, flicka, se här! Och så pelsade hon på mig allt, hvad hon fann i garderoben och som redan var uthängdt för malen i sommar. Jo, jag ser vacker ut! Skall föreställa en blomsterflicka och ser ut som en vinterbuse!</p>
+       </sp>
+        <sp who="#eko">
+          <speaker>EKO</speaker>
+          <stage>(osynligt).</stage>
+          <p>Vinterbuse!</p>
+       </sp>
+        <sp who="#maja">
+          <speaker>MAJA.</speaker>
+          <p>Åh, tyst du, jag behöfver ej höra det om. <stage>(Högre.)</stage> Svante-e!</p>
+       </sp>
+        <sp who="#eko">
+          <speaker>EKO</speaker>
+          <stage>(osynligt).</stage>
+          <p>Svante-e!</p>
+       </sp>
+        <sp who="#maja">
+          <speaker>MAJA</speaker>
+          <stage>(harmset).</stage>
+          <p>Håll munnen, din narr!</p>
+       </sp>
+        <sp who="#eko">
+          <speaker>EKO</speaker>
+          <stage>(som förut).</stage>
+          <p>Håll munnen, din narr!</p>
+       </sp>
+        <sp who="#maja">
+          <speaker>MAJA.</speaker>
+          <p>Nej, det lönar sig då intet att träta med den där. O, hvad jag är frusen och trött! Se där äro två ihjälfrusna blåsippor. Jag vill sätta mig bredvid dem. <stage>(Sätter sig.)</stage> Förlåt, fru Granfelt, att jag sätter mig på fruns klädningsfåll! <stage>(Suckar.)</stage> Hvad ljuset är skönt, när det tillika är varmt! Hvad våren är glad, när den verkligen är vår!... Men hvem kommer där? En snögubbe!</p>
+       </sp>
+        <pb n="146"/>
+        <stage type="entrance" who="#florio">(En snögubbe, insvept i hvitt lakan, med mask för ansigtet och långt, hvitt skägg, inträder, haltande på två kryckor.)</stage>
+        <sp who="#maja">
+          <speaker>MAJA.</speaker>
+          <p>Hvad han ser gammal och bräcklig ut! Hvar ifrån kommer du, fattige gubbe?</p>
+       </sp>
+        <sp who="#florio">
+          <speaker>SNÖGUBBEN.</speaker>
+          <p>Från Alperna.</p>
+       </sp>
+        <sp who="#maja">
+          <speaker>MAJA.</speaker>
+          <p>Du menar från Lappland. Ingen slant har jag att gifva dig, men är du trött, så hvila dig här på det mjuka granriset!</p>
+       </sp>
+        <sp who="#florio">
+          <speaker>SNÖGUBBEN.</speaker>
+          <p>Tack. Jag vill sofva mig varm. <stage>(Han sätter sig och insomnar på granriset.)</stage></p>
+       </sp>
+        <sp who="#maja">
+          <speaker>MAJA.</speaker>
+          <p>Hvad? Sofver han redan? Och jag är nästan lika trött som han. Om jag skulle hålla mig vaken med en lexa från skolan?... Jangtsekiang eller Blå floden... Hoangho eller Gula floden <stage>(gäspar)</stage>... Tschingkiang, Sut-schen, Schanghai... Jag undrar, när prins Florio ändt-ligen behagar inträffa här i den frusna norden. Han gör sig ingen brådska; han skall bäras in i triumf af hela sitt hof, och det dröjer, innan alla ha klädt sig i hofdrägt. Vi andra <stage>(gäspar)</stage> få vänta... Om jag skulle sofva en blund? Godnatt, solstråle! <stage>(Somnar.)</stage></p>
+       </sp>
+        <stage type="entrance" who="#fjarilen #slandan">(En fjäril och en trollslända flyga in.)</stage>
+        <sp who="#fjarilen">
+          <speaker>FJÄRILN.</speaker>
+          <p>Här har vårens flicka gått före oss. Jag ser hennes spår i snön. Slända, jag är frusen och hung-rig, gif mig en enda körsbärsblomma!</p>
+       </sp>
+        <sp who="#slandan">
+          <speaker>SLÄNDAN.</speaker>
+          <p>Fjäril, jag är frusen som du och mycket törstig. Gif mig en blå sjö med krusiga vågor!</p>
+       </sp>
+        <sp who="#fjarilen">
+          <speaker>FJÄRILN.</speaker>
+          <p>Om jag vore en sparf, skulle jag strax äta upp dig.</p>
+       </sp>
+        <sp who="#slandan">
+          <speaker>SLÄNDAN.</speaker>
+          <p>Om du vore en daggdroppe, skulle jag strax dricka upp dig.</p>
+       </sp>
+        <sp who="#fjarilen">
+          <speaker>FJÄRILN.</speaker>
+          <p>Hör du, slända, jag tycker vi två kunde blifva ett par. I går, när solen sken, kröpo vi båda ur puppan; i dag, utan sol, kunna vi dö tillsamman. <pb n="147"/> Vi ha lefvat en dag och en natt som goda vänner. Vi ha lefvat nog.</p>
+       </sp>
+        <sp who="#slandan">
+          <speaker>SLÄNDAN.</speaker>
+          <p>En dag i ljus, en natt i skugga. Du har rätt, låt oss dö i natt vid hvarandras sida i snön och prisa Gud.</p>
+       </sp>
+        <stage>(De sätta sig på marken och insomna. Snön* <label>*</label> Snön göres af hvitt, finklippt papper. faller hvit öfver dem, öfver Maja, snögubben och de två blåsipporna. <stage type="entrance" who="#eko">Eko framträder.</stage>)</stage>
+        <sp who="#eko">
+          <speaker>EKO.</speaker>
+          <p>Stackars barn! Gud såg på dem med sin varma sol, och de vaknade till lif. Gud bortvände sitt ansigte, och de voro ej mer! Deras lif var en dag och en natt. Men Gud är barmhertig, han skall åter upp-väcka allt, som tåligt lider och dör på jorden. Jag vill lägga den första gröna videqvisten öfver fjärilns och sländans graf. <stage>(Han lägger en grön qvist öfver dem.)</stage> Man säger, att jag är elak och pratsjuk. Det är för att alla gyckla med mig. Men jag kan också vara god. Säg mig vänliga, vackra ord, och jag skall svara, som man talar till mig. <stage>(Lyssnar.)</stage> Hvilket dån af en brusande vind! Det är Zefyr, som sopar skogen. Han är prins Florios kammartjenare, han väntar sin herre och städar hans gröna slott. Florio är en beskedlig gosse, men litet fåfäng, som alla unga prinsar. Han vill hålla ett kungligt intåg. Därför få vi andra vänta och frysa. <stage>(Lyssnar åter.)</stage> Men hvem drillar där högt i skyn? <stage>(Man hör lärkan drilla.)</stage> Skulle det vara lärkan? Omöjligt, hon fryser ihjäl. <stage>(Ny drill.)</stage> Men det är likväl hon! Jag håller vad om allt sqvaller i verlden, att nu kan prins Florio ej vara långt borta. Det fattas bara, att också göken... <stage>Göken gal.)</stage> Nej, hör, där är han verkligen!</p>
+       </sp>
+        <pb n="148"/>
+        <stage type="entrance" who="#goken">(Göken, en bevingad gråklädd gosse, framträder.)</stage>
+        <sp who="#goken">
+          <speaker>GÖKEN.</speaker>
+          <p>God morgon, Eko! Hvarför svarar du ej på mitt kucku?</p>
+       </sp>
+        <sp who="#eko">
+          <speaker>EKO.</speaker>
+          <p>Nej, hör nu, kucku lilla, det måste vara ett misstag. Jag ser ingen blå himmel, snön har upphört, men regnet slår mig i ansigtet. Fru Granfelt, var så god och låna mig ett paraply!</p>
+       </sp>
+        <sp who="#goken">
+          <speaker>GÖKEN.</speaker>
+          <p>Prins Florio, skogens unge konung, helsar sina trogna träd, örter, blommor och fåglar. Han åter-kommer från Alperna till sitt nordiska rike och frågar, om han är välkommen.</p>
+       </sp>
+        <sp who="#ekoroster">
+          <speaker>EKORÖSTERNA</speaker>
+          <stage>(rundtomkring).</stage>
+          <p>Välkommen!</p>
+       </sp>
+        <sp who="#goken">
+          <speaker>GÖKEN.</speaker>
+          <p>Bort alla vintermoln, isar, snö, mörker och dimmor! Blå himmel, grön jord, fritt haf! Alla bäckar på språng! Alla skogar i löf! Alla ängar i blom! Alla barn i ringdans!</p>
+       </sp>
+        <sp who="#eko">
+          <speaker>EKO.</speaker>
+          <p>Och det skäms han intet att inbilla oss, medan <stage>(hostar och snyter sig)</stage> folk och fänad förgås i hosta och snufva. Hvar är hans prins? Jag ser honom intet. Jag är hes, jag förlorar min vackra röst, jag kan intet sköta mitt embete mer.</p>
+       </sp>
+        <stage>(Göken gal högt tre gånger med pauser emellan. Vid för-sta ropet reser sig snögubben. Vid det andra låter han sitt hvita lakan, skägget och masken falla. Vid det tredje står han som en ung blomsterklädd prins midt på scenen.)</stage>
+        <sp who="#florio">
+          <speaker>FLORIO.</speaker>
+          <p>Här är jag, skog! Här är jag, himmel! Här är jag, haf! Allt stort kommer tyst. All morgon dagas ur natt. All vår glömska ur vintersnö. Allt, som lider, skall andas helsa. Allt, som dör, skall vakna till nytt lif.</p>
+       </sp>
+        <stage>(Vid dessa ord resa sig Maja, de döda blåsipporna, fjäriln och sländan.)</stage>
+        <pb n="149"/>
+        <sp who="#fjarilen">
+          <speaker>FJÄRILN.</speaker>
+          <p>Så förunderligt! Jag drömde, att jag frusit ihjäl.</p>
+       </sp>
+        <sp who="#florio">
+          <speaker>FLORIO.</speaker>
+          <p>Nej, du skall lefva lycklig ditt korta fjä-rilslif. Du skall en hel vecka ännu flyga från blomma till blomma och prisa Gud.</p>
+       </sp>
+        <sp who="#slandan">
+          <speaker>SLÄNDAN.</speaker>
+          <p>Jag drömde om en blå sjö, som jag aldrig skulle få se.</p>
+       </sp>
+        <sp who="#florio">
+          <speaker>FLORIO.</speaker>
+          <p>Du skall flyga i glimmande solsken öfver de blå vågor, och när du dör, skall Unda Marina bära dig som ett diamantsmycke på sitt fladdrande hår.</p>
+       </sp>
+        <sp who="#maja">
+          <speaker>MAJA.</speaker>
+          <p>Florio, Florio, hvar har du dröjt så länge? Vi väntade på dig som en prins i lysande triumf, och du kom som en fattig snögubbe, okänd och glömd!</p>
+       </sp>
+        <sp who="#florio">
+          <speaker>FLORIO.</speaker>
+          <p>Hvem är du, gamla frusna gumma, som jag aldrig sett förr?</p>
+       </sp>
+        <sp who="#maja">
+          <speaker>MAJA.</speaker>
+          <p>Han frågar mig hvem jag är! Och det var likväl jag, som i tusen år byggt qvarnar med honom i bäcken och målat fjärilarnas vingar och nystat guldtråd i morgonrodnadens slöja! Se, hur de murat in mig i vinterns pelsar!</p>
+       </sp>
+        <sp who="#florio">
+          <speaker>FLORIO.</speaker>
+          <p>Är det du, Maja? O, de grymma, förstån-diga menniskorna, hur ha de missklädt vårens gladaste flicka! Kom, tag din frihet åter! Du, muff <stage>(han bort-kastar muffen)</stage>, skall blifva en lekstuga för ekorrens ungar. Du, vinterhufva <stage>(han bortkastar hufvan)</stage>, skall blifva ett passande kråkbo. Du, schal <stage>(han bortkastar schalen)</stage>, skall fladdra för vinden i skogens högsta grantopp. Dig, pels <stage>(bortkastar pelsen)</stage>, förärar jag åt jultomten nästa jul. I den högra kängan <stage>(bortkastar ytterkängorna)</stage> skall sädes-ärlan och i den venstra skatan värpa sitt ägg.</p>
+       </sp>
+        <sp who="#maja">
+          <speaker>MAJA</speaker>
+          <stage>(som nu står i blomsterprydd vårdrägt).</stage>
+          <p>Jag har en bön till dig, Florio. Alla skolbarn ha i dag sin fridag, <pb n="150"/> och alla ha varit olyckliga för kölden och snön. Bed himmelen klarna! Gif oss en vacker första Maj!</p>
+       </sp>
+        <sp who="#florio">
+          <speaker>FLORIO.</speaker>
+          <p>Har icke göken redan lofvat er det? Titta upp! Hvad ser du?</p>
+       </sp>
+        <sp who="#maja">
+          <speaker>MAJA.</speaker>
+          <p>Solen! Solen!</p>
+       </sp>
+        <sp who="#eko">
+          <speaker>EKO.</speaker>
+          <p>Solen! Solen! <stage>(Lägger fingret på munnen.)</stage> Ack, förlåt, min prins, jag har varit hes i tjugo minuter och ej kunnat sköta mitt embete, men nu kan jag ej tiga längre.</p>
+       </sp>
+        <sp who="#florio">
+          <speaker>FLORIO.</speaker>
+          <p>Prata du, Eko, och låt skogen genljuda af glada röster. <stage type="entrance" who="#skolbarnen">(Skolbarnen inkomma från båda sidor.)</stage> Hvar är min kapellmästare?</p>
+       </sp>
+        <sp who="#goken">
+          <speaker>GÖKEN.</speaker>
+          <p>Hvad befaller ers höghet!</p>
+       </sp>
+        <sp who="#florio">
+          <speaker>FLORIO.</speaker>
+          <p>Stäm upp till dans! Alla barn i ringen! Alla löf i beredskap att fladdra! Alla fåglar i qvitter! Alla myggor i kadrilj, — men på behörigt afstånd!</p>
+       </sp>
+        <stage>(Alla skolbarn, fjärilar, sländor och blåsippor taga i ring kring Florio, som räcker sin hand åt Maja. Eko blåser i sin trumpet. Göken gifver signal med kucku.)</stage>
+        <sp who="#skolbarnen">
+          <lg>
+            <head rend="italic">Skolbarnens majsång i dansen.* <label>*</label> Melodi n:r 101 i Jul. Hammarlunds »Barnens sångbok».
+                            
+                       </head>
+            <l>Spraka, vinterfrost, i drifvans hvita snö!</l>
+            <l>Braka, blanka is, för skridskon på vår sjö!</l>
+            <l>Här är ingen rädd för nattens frusna troll.</l>
+            <l>Våren gömmer sig i drifvans klädningsfåll.</l>
+            <l>Sväng på klacken, han är re'n i backen!</l>
+            <l>Majsol blänker huld vid himlens mörka bryn,</l>
+            <l>Majsol stänker guld i röda morgonskyn!</l>
+            <pb n="151"/>
+            <l>Spraka, vinterfrost, i drifvans hvita snö!</l>
+            <l>Braka, blanka is, för skridskon på vår sjö!</l>
+            <l>Här är ingen rädd för nattens frusna troll.</l>
+            <l>Våren gömmer sig i drifvans klädningsfåll.</l>
+            <l>Sväng på klacken, han är re'n i backen!</l>
+         </lg>
+          <lg>
+            <l>Nu så kransa vi med blommor vårens kung,</l>
+            <l>Nu så dansa vi i ring på skogens ljung.</l>
+            <l>Alla grenar gunga, bäcken är på språng,</l>
+            <l>Alla fåglar sjunga vårens ottesång.</l>
+            <l>Maj oss helsar: bort galosch och pelsar!</l>
+            <l>Aldrig såg man förr så grön en skog i svaj,</l>
+            <l>Aldrig såg man förr så skön en första Maj!</l>
+            <l>Nu så kransa vi med blommor vårens kung,</l>
+            <l>Nu så dansa vi i ring på skogens ljung.</l>
+            <l>Alla grenar gunga, bäcken är på språng,</l>
+            <l>Alla fåglar sjunga vårens ottesång.</l>
+            <l>Maj oss helsar: bort galosch och pelsar!</l>
+         </lg>
+       </sp>
+        <stage rend="centered">(Leken slutar med blomsterregn.)</stage>
+     </div>
+   </body>
+ </text>
+</TEI>

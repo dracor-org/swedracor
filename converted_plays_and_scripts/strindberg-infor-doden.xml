@@ -1,0 +1,1065 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="sv">Inför döden</title>
+        <title type="main" xml:lang="en">Before Death</title>
+        <title type="sub" xml:lang="sv">Sorgespel i nio scener</title>
+        <title type="sub" xml:lang="en">Grief Game in Nine Scenes</title>
+        <author key="wikidata:Q7724">Strindberg, August</author>
+     </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000018</idno>
+        <availability>
+          <licence>
+            <ab>CC0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+         </licence>
+       </availability>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q10535423</idno>
+     </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name></name>
+          <idno type="URL">http://libris.kb.se/bib/1626610</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+         </availability>
+          <bibl type="originalSource">
+            <title>Dramatik, Stockholm, Albert Bonniers förlag, 1–32, tryckning, 1893 (http://libris.kb.se/bib/1626610)</title>
+            <date type="print" when="1893">"1893" (http://libris.kb.se/bib/1626610)</date>
+            <date type="premiere"/>
+            <date type="written"/>
+         </bibl>
+       </bibl>
+     </sourceDesc>
+   </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="adele" sex="FEMALE">
+            <persName>Adèle Durand</persName>
+         </person>
+          <person xml:id="durand" sex="MALE">
+            <persName>Durand</persName>
+         </person>
+          <person xml:id="pierre" sex="MALE">
+            <persName>Pierre</persName>
+         </person>
+          <person xml:id="antonio" sex="MALE">
+            <persName>Antonio</persName>
+         </person>
+          <person xml:id="therese" sex="FEMALE">
+            <persName>Thérèse Durand</persName>
+         </person>
+          <person xml:id="annette" sex="FEMALE">
+            <persName>Annette Durand</persName>
+         </person>
+       </listPerson>
+     </particDesc>
+      <textClass>
+        <keywords>
+          <term subtype="" type="genreTitle"></term>
+       </keywords>
+     </textClass>
+   </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2019-07-01">(eg) convert from source</change>
+     </listChange>
+   </revisionDesc>
+ </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">Inför döden</titlePart>
+        <titlePart type="sub">Sorgespel i nio scener</titlePart>
+     </docTitle>
+   </front>
+    <body>
+      <castList>
+        <head>PERSONERNA:</head>
+        <castItem>MONSIEUR DURAND</castItem>
+        <castItem>ADÈLE</castItem>
+        <castItem>ANNETTE</castItem>
+        <castItem>THÉRÈSE</castItem>
+        <castItem>ANTONIO</castItem>
+     </castList>
+      <set>
+        <p>I franska Schweiz på 80-talet.</p>
+     </set>
+      <div type="act">
+        <stage type="setting">En matsal med ett långt bord. Genom den öppna fonddörren synes, öfver topparna på kyrkogårdens cypresser, Lac Leman med Savoyer-Alperna och franska badorten Evian. Till vänster dörr till köket. Till höger dörr till våningen.</stage>
+        <div type="scene">
+          <head>Första scenen.</head>
+          <stage type="presence" who="#durand">HERR DURAND (står med en kikare och ser utåt sjön).</stage>
+          <sp who="#adele">
+            <speaker>Adèle</speaker>
+            <stage type="entrance" who="#adele">(in från köket; i förkläde och med uppvikta ärmar, bärande en kaffebricka).</stage>
+            <p>Har du inte varit efter kaffebrödet än, far?</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Nej, jag skickade Pierre i dag. Mitt bröst är så dåligt de sista dagarna att jag inte kan gå uppför den branta backen.</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Pierre igen! Det kostar tre sous! Hvar skall man ta’ dem ifrån, när det inte finns mer än en resande i pensionen sedan två månader tillbaka.</p>
+         </sp>
+          <pb n="4"/>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Det är mycket sant, men jag tycker att Annette kunde hämta brödet!</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Det vore att förstöra husets kredit alldeles, men du har då aldrig gjort annat!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Äfven du, Adèle!</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Äfven jag har tröttnat, men jag höll ut längst!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Ja, det gjorde du, och du var ännu mänsklig, när Thérèse och Annette torterade mig. Du och jag ha’ dragit fram huset, sedan mor dog. Du fick sitta i köket som Cendrillon, och jag fick sköta servisen, sopa, borsta, elda, gå ärenden. Du är trött; hvad skall icke jag vara då?</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Men du får icke vara trött då du har tre oförsörjda barn, hvilkas hemgift du förstört!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand</speaker>
+            <stage>(lyss utåt).</stage>
+            <p>Tycker du inte att det klämtar och trummar ner åt Cully! Skulle elden vara lös, så äro de förlorade, ty Föhn kommer snart att blåsa, det ser jag på sjön.</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Har du betalt brandförsäkringen på vårt hus då?</p>
+         </sp>
+          <pb n="5"/>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Ja, det har jag gjort, eljes hade jag icke fått sista hypotekslånet.</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Hur mycket är ograveradt ännu?</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>En femtedel af brandförsäkringsvärdet. Men du vet hur egendomarna föllo sedan järnvägen drogs österut, förbi våra portar.</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Desto kärkomnare då!...</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand</speaker>
+            <stage>(strängt).</stage>
+            <p>Adèle!</p>
+            <stage>(Paus.)</stage>
+            <p>Vill du släcka af i spisen?</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Omöjligt förr än kaffebrödet har kommit!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Ja, det är här nu!</p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Andra scenen.</head>
+          <stage type="presence" who="#adele #durand">DE FÖRRA. <stage type="entrance" who="#pierre">PIERRE (med en korg).</stage></stage>
+          <sp who="#adele">
+            <speaker>Adèle</speaker>
+            <stage>(undersöker korgen).</stage>
+            <p>Intet bröd! Bara en räkning! Två, Tre!</p>
+         </sp>
+          <sp who="#pierre">
+            <speaker>Pierre.</speaker>
+            <p>Ja, bagarn sa’, att han inte lämnar mera innan han fått betalt. — Och så gick jag förbi <pb n="6"/> slaktarn och kryddkrämarn, som stack åt mig de här räkningarna. <stage type="exit" who="#pierre">(Går.)</stage></p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Å! Gud i himmelen, då är det slut med oss! — Men hvad är detta? <stage>(Öppnar ett paket.)</stage></p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Det är ljus som jag köpt till mässan öfver min älskade René. Det är nämligen hans döds-dag i dag.</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Sådant har du råd att köpa!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Af mina drickspengar, ja. Finner du icke redan det förödmjukande att jag nödgas räcka fram handen när resande flytta ut... Unnar du mig icke den enda tillfredsställelse jag äger, att få njuta min sorg, en gång om året! Att få lefva i minnet af det vackraste lifvet skänkt mig.</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Han skulle bara ha’ lefvat nu, hade du fått se hur vacker han var!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Mycket möjligt att din ironi innebär allvar... sådan jag minns honom emellertid, var han icke som ni nu äro!</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Vill du vara god och ta’ emot herr Antonio själf, när han kommer och skall dricka kaffe <pb n="7"/> utan bröd! — O! om mor hade lefvat, nu; hon hade då alltid förmågan att reda sig, där du stod handfallen!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Din mor hade sina förtjänster!</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Fastän du bara såg fel!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Herr Antonio kommer! — Drag dig nu undan, så skall jag tala vid honom!</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Det vore bättre du gick ut och lånade pengar, så att skandalen undginges!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Jag kan icke låna en sous! Efter att ha lånat i tio år! Må det ramla på en gång, allt, allt, bara det blir ett slut!</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Slut för dig, ja! Men du tänker aldrig på oss!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Nej, jag har aldrig tänkt på er! Aldrig!</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Kräfver du för uppfostran nu igen?</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Svarar endast på en orättmätig förebråelse! Gå nu, så skall jag möta stormen som vanligt!</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Som vanligt! Hm! <stage type="exit" who="#adele">(Går.)</stage></p>
+         </sp>
+       </div>
+        <pb n="8"/>
+        <div type="scene">
+          <head>Tredje scenen.</head>
+          <stage type="presence" who="#durand">HERR DURAND. ANTONIO.</stage>
+          <sp who="#antonio">
+            <speaker>Antonio</speaker>
+            <stage type="entrance" who="#antonio">(från fonden).</stage>
+            <p>God morgon, herr Durand.</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Herr löjtnanten har redan varit ute och gått?</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Ja, jag var ner åt Cully och såg på en sot-eld som släcktes! — Och nu skall kaffet smaka mig särdeles!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Jag behöfver icke säga er hur pinsamt det är att behöfva tillstå det mitt hus på grund af bristande tillgångar icke längre kan fortsätta sin verksamhet.</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Hur så?</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Rent ut sagdt, vi äro bankrutt!</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Men, min goda herr Durand, finns det ingen möjlighet att hjälpa er ur denna som jag hoppas tillfälliga förlägenhet?</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Nej, det finns ingen möjlighet, och husets ställning är så grundligt undergräfd sedan flera <pb n="9"/> år tillbaka att jag hellre ser det ramla än jag dag och natt skall sväfva i oro för hvad som måste komma!</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Men jag tror ändock att ni ser sakerna all-deles för mörkt!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Jag vet inte på hvad grund ni vågar betvifla mina uppgifter!</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Därför att jag vill hjälpa er.</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Jag vill inte ha någon hjälp! Nöden skall komma och lära mina barn att föra ett annat lif än detta, som blott är lek. Undantag Adèle som verkligen sköter köket, hvad göra de andra? Spela och sjunga, promenera och flirtera; och så länge det finns en brödkant i huset lära de icke ta’ sig till något nyttigt!</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Låt så vara, men medan affärsställningen utredes, måste vi ha mat i huset. Tillåt mig stanna en månad till och jag lämnar er min pension i förskott.</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Nej, jag tackar er, ty här måste köras banan ut, om det så skall bära i sjön. Och jag vill icke fortsätta med denna handtering, som icke ger bröd, endast förödmjukelser. Tänk er sista <pb n="10"/> våren, då huset stått tomt tre månader. Då kom slutligen en amerikansk familj och räddade oss. Morgonen efter deras ankomst får jag i trappan se sonen som fasthöll min dotter — det var Thérèse — och ville kyssa henne. Hvad skulle ni ha’ gjort i mitt ställe?</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio</speaker>
+            <stage>(brydd).</stage>
+            <p>Jag vet inte...</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Jag vet hvad jag som far borde ha’ gjort — men, som far, gjorde jag det inte! Nästa gång vet jag hvad jag gör!</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Det synes mig just därför att ni borde vara betänkt på hvad ni gör och icke lämnar era döttrar åt slumpen...</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Herr Antonio... Ni är en ung man, för hvilken jag af oförklarlig anledning fattat sympati. Antingen ni nu värderar detta eller ej, ber jag er om en sak: hys inga meningar som helst om min person eller mitt uppförande.</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Herr Durand, jag lofvar er det, om ni endast svarar mig på en fråga: är ni schweizare född eller icke?</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Jag är schweizisk medborgare!</p>
+         </sp>
+          <pb n="11"/>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Det vet jag, men jag frågar om ni är född i Schweiz?</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand</speaker>
+            <stage>(osäkert).</stage>
+            <p>Ja!</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Jag frågade bara, emedan — det intresserade mig. — Emellertid — efter som jag måste tro er då ni säger att pensionen skall stängas, vill jag betala min skuld. Det är visserligen bara tio francs, men jag kan ju icke resa ifrån oupp-gjorda affärer.</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Jag kan ej vara säker om detta är en verklig skuld, ty jag för icke räkenskaperna, men har ni bedragit mig, så får ni stå till svars för det! — Nu går jag och hämtar bröd. — Sedan få vi se! <stage type="exit" who="#durand">(Går.)</stage></p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Fjärde scenen.</head>
+          <stage type="presence" who="#antonio">ANTONIO. <stage type="entrance" who="#therese">Straxt därpå THÉRÈSE (med en råttfälla i handen och klädd i morgonrock med utslaget hår).</stage> Sedan ADÈLE.</stage>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Se där är Antonio! Jag tyckte jag hörde gubben!</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Jo, han gick och hämta kaffebröd, sa’ han!</p>
+         </sp>
+          <pb n="12"/>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Har han inte gjort det förut? Nej, vet ni, den kan man inte ha’ längre!</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Du är så vacker i dag, Thérèse, men den där råttfällan klär dig inte.</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Och en sådan fälla till. Jag har nu betat på den en hel månad och inte fått ett lif, men afätet är det hvar morgon. — Har du sett till Mimmi då?</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Kattfan? Den brukar då synas här i tid och otid! Men i dag har jag verkligen varit skonad!</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Du skall tala vackert om de frånvarande, och kom ihåg att den som älskar mig, älskar min katt! <stage>(Ställer råttfällan på bordet och tar upp ett tomt tefat under ifrån bordet.)</stage> Adèle! — Adèle!</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle</speaker>
+            <stage type="entrance" who="#adele">(i köksdörren).</stage>
+            <p>Hvad befaller hennes nåd så högljudt?</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Jag befaller mjölk åt katten min, och en ostkant åt dina råttor!</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Det kan du gå och skaffa dig själf.</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Är det ett svar till hennes nåd?</p>
+         </sp>
+          <pb n="13"/>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Det är svar på tal! Och du skulle ha sär-skildt för att du visar dig för främmande med okammadt hår!</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Här är ju bara gamla bekanta, och... An-tonio, gå och tala vackert vid tant Adèle så får du mjölk åt Mimmi.</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio</speaker>
+            <stage>(dröjande).</stage>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Nå, lyder du inte?</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio</speaker>
+            <stage>(kort).</stage>
+            <p>Nej!</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Hvad är det för språk? Vill du smaka rid-spöt?</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Å hut!</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse</speaker>
+            <stage>(bestört).</stage>
+            <p>Hvad är det! Hvad är det! Vill du på-minna mig om min plats, min skuld och min svaghet?</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Nej, jag vill endast erinra dig om min plats, min skuld och min svaghet.</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle</speaker>
+            <stage>(tar mjölkfatet).</stage>
+            <p>Hör nu, go’ vänner, hvad är detta för språk-öfningar ni företar er! Var sams nu — så skall jag ge’ er godt kaffe sedan. — <stage type="exit" who="#adele">(Går ut i köket.)</stage></p>
+         </sp>
+          <pb n="14"/>
+          <sp who="#therese">
+            <speaker>Thérèse</speaker>
+            <stage>(gråtande till Antonio).</stage>
+            <p>Du har ledsnat på mig, Antonio, och du tänker öfverge mig.</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Du skall inte gråta, för då får du så fula ögon.</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Om de inte bli så vackra som Annettes... så...</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Jaså, är det Annette nu? Hör nu, skämt åsido, jag tycker att kaffet låter vänta på sig...</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Du skulle just bli en treflig äkta man, som inte kan vänta ett ögonblick på kaffet.</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Och hvilken älskvärd äkta fru du skulle bli, som inte kunde begå en dumhet utan att gnata på din man.</p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Femte scenen.</head>
+          <stage type="presence" who="#antonio #therese">DE FÖRRA. <stage type="entrance" who="#annette">ANNETTE (in klädd och kammad).</stage></stage>
+          <sp who="#annette">
+            <speaker>Annette.</speaker>
+            <p>Jag tror ni grälar på morgonen!</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Se där är Annette, redan klädd!</p>
+         </sp>
+          <pb n="15"/>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Ja, Annette är så utmärkt i alla afseenden och så har hon äfven det företrädet att hon är äldre än jag.</p>
+         </sp>
+          <sp who="#annette">
+            <speaker>Annette.</speaker>
+            <p>Om du inte håller mun på dig...</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Se så! Se så! Var snäll nu, Thérèse! — <stage>(Han tar henne om lifvet och kysser henne.)</stage></p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Sjette scenen.</head>
+          <stage type="presence" who="#annette #antonio #therese">DE FÖRRA. <stage type="entrance" who="#durand">HERR DURAND (i dörren. Stannar häpen).</stage></stage>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Hvad är detta?</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse</speaker>
+            <stage>(sliter sig lös).</stage>
+            <p>Hvilket?</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Såg mina ögon orätt?</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Hvad såg du?</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Jag såg att du lät den främmande herren kyssa dig.</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Det var lögn!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Har jag förlorat synen eller vågar du ljuga mig i ansiktet?</p>
+         </sp>
+          <pb n="16"/>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Ska’ du tala om ljuga, som ljuger själf för oss och hela världen att du är född schweizare, fastän du är fransman.</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Hvem har sagt dig det?</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Det har mor sagt!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand</speaker>
+            <stage>(till Antonio).</stage>
+            <p>Herr löjtnant, efter som våra affärer äro uppgjorda, så ber jag er lämna detta hus — genast! Annars...</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Annars?</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Får ni välja vapen!</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Jag undrar hvad ni skulle välja för vapen, utom harvärjan!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Om jag inte föredrog käppen, skulle jag ta’ mitt gevär från sista kriget...</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Du har visst gjort något krig, du, som deserterat!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Det har också mor sagt! Jag kan inte slåss mot lik, men jag kan slå lefvande till lik! <stage>(Han lyfter påken och går mot Antonio.)</stage></p>
+         </sp>
+          <pb n="17"/>
+          <sp who="#annette #therese">
+            <speaker>Thérèse och Annette</speaker>
+            <stage>(kasta sig emellan).</stage>
+         </sp>
+          <sp who="#annette">
+            <speaker>Annette.</speaker>
+            <p>Tänk på hvad du gör!</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Du slutar på schavotten!</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio</speaker>
+            <stage>(drar sig ut).</stage>
+            <p>Farväl, herr Durand! Behåll mitt förakt och mina tio francs!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand</speaker>
+            <stage>(tar upp ett guldmynt ur västfickan och kastar efter Antonio).</stage>
+            <p>Mina förbannelser följe ert guld, slyngel!</p>
+         </sp>
+          <sp who="#annette #therese">
+            <speaker>Thérèse och Annette</speaker>
+            <stage>(efter Antonio).</stage>
+            <p>Gå inte, gå inte! Far dödar oss!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand</speaker>
+            <stage>(bryter sönder käppen).</stage>
+            <p>Den som inte kan döda, han dör!</p>
+         </sp>
+          <sp who="#antonio">
+            <speaker>Antonio.</speaker>
+            <p>Farväl, och sakna mig, sista råttan från det sjunkande skeppet! <stage type="exit" who="#antonio">(Går.)</stage></p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Sjunde scenen.</head>
+          <stage type="presence" who="#annette #durand #therese">DE FÖRRA, utom Antonio.</stage>
+          <sp who="#therese">
+            <speaker>Thérèse</speaker>
+            <stage>(till Durand).</stage>
+            <p>På sådant sätt behandlar du gästerna! Är det underligt då att huset går omkull?</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>På sådant sätt. Sådana gäster! — Men säg Thérèse, mitt barn... <stage>(Han tar hennes hufvud <pb n="18"/> mellan sina händer.)</stage> Mitt älskade barn; säg mig om jag såg orätt nyss, eller om du talade osant.</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse</speaker>
+            <stage>(vresigt).</stage>
+            <p>Hvad då?</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Du vet hvad jag menar! Och det är icke så mycket saken själf, hvilken kan vara tämligen oskyldig... det är frågan om jag icke kan lita på mina sinnen, som intresserar mig.</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Tala om något annat i stället... tala om hvad vi skola äta och dricka i denna dag! — För öfrigt är det lögn att han kysste mig!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Det är icke lögn! I himlens namn, jag såg ju hur det passerade!</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Bevisa det!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Bevisa det! Med två vittnen eller en polis! <stage>(Till Annette.)</stage> Annette, mitt barn, vill du säga mig sanningen?</p>
+         </sp>
+          <sp who="#annette">
+            <speaker>Annette.</speaker>
+            <p>Jag såg ingenting!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Det är rätt svaradt, ty man skall icke ange sina systrar. — Hvad du är lik din mor, i dag, Annette!</p>
+         </sp>
+          <pb n="19"/>
+          <sp who="#annette">
+            <speaker>Annette.</speaker>
+            <p>Säg inte något ondt om mor! Hon skulle ha behöft lefva en dag som denna!</p>
+         </sp>
+       </div>
+        <div type="scene">
+          <head>Åttonde scenen.</head>
+          <stage type="presence" who="#annette #durand #therese">DE FÖRRA. <stage type="entrance" who="#adele">ADÈLE (in med ett glas mjölk, som hon ställer på bordet).</stage></stage>
+          <sp who="#adele">
+            <speaker>Adèle</speaker>
+            <stage>(till Durand).</stage>
+            <p>Där har du din mjölk! Hur gick det med brödet?</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Det blef intet bröd, mina barn, men det skall bli, som det hittills blifvit.</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse</speaker>
+            <stage>(rycker mjölkglaset från fadern).</stage>
+            <p>Du skall inte ha någonting, du som kastar bort pengarna, så att dina barn få svälta.</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Kastade han bort pengarna, den uslingen? Han skulle ha blifvit satt på dårhus den gången mor sa’ att han var mogen! Se där är en räk-ning till, som kom köksvägen!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand</speaker>
+            <stage>(ser på räkningen och rycker till; därpå slår han i ett glas vatten som han dricker ur; sätter sig och tänder en rotpipa).</stage>
+         </sp>
+          <pb n="20"/>
+          <sp who="#annette">
+            <speaker>Annette.</speaker>
+            <p>Men röka tobak, det har han råd med?</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand</speaker>
+            <stage>(trött och undergifven).</stage>
+            <p>Älskade barn, den tobaken har inte kostat er mer än vattnet, för den har jag fått till skänks för ett halft år sen! Reta er inte i onödan.</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse</speaker>
+            <stage>(tar undan tändstickorna).</stage>
+            <p>Men så ska’ du åtminstone inte öda på tänd-stickorna...</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Om du visste, Thérèse, hur många tändstickor jag ödt på dig, när jag skulle opp om nätterna och se efter om du kastat af dig; om du visste, Annette, hur många gånger jag i smyg gifvit dig vatten, då du skrek af törst, men din mor hade den principen att det var skadligt för barn att dricka.</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Det var så länge sen, så det bryr jag mig inte om. För öfrigt var det bara din skyldighet, som du sagt själf!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Det var det också, men jag uppfyllde min skyldighet! Och lite’ mer ändå!</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Fortsätt med det du! Annars vet ingen hvad det blir af oss! Tre unga flickor lämnade utan huld och skydd, utan något att lefva af. Vet du hvad nöden kan drifva till?</p>
+         </sp>
+          <pb n="21"/>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Det har jag sagt för tio år se’n, men ingen ville höra mig; och jag har för tjugu år sedan förutsagt att denna stund måste komma, men har inte kunnat hindra den att komma. Jag har suttit som en ensam bromsare på ett blixt-tåg, sett hur det gått åt afgrunden, men jag har icke kunnat komma till maskinens kranar för att stoppa.</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Och nu begär du tack för att du kört ikull med oss!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Nej, mitt barn, jag begär bara att ni äro litet mindre elaka mot mig. Ni har grädde åt katten, men ni unnar inte mjölken åt er far, som inte ätit på... så länge.</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Det är du alltså som inte unnat katten en mjölktår!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Ja, det är jag!</p>
+         </sp>
+          <sp who="#annette">
+            <speaker>Annette.</speaker>
+            <p>Och kanske det är han som ätit upp för råttorna med?</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Det är han!</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Ett sådant svin! —</p>
+         </sp>
+          <pb n="22"/>
+          <sp who="#therese">
+            <speaker>Thérèse</speaker>
+            <stage>(skrattar).</stage>
+            <p>Tänk om det hade varit gift på det då!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Ack, om det hade varit, menar du!</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Ja, inte skulle du haft något emot det, som så ofta sladdrat om att du skulle skjuta dig, men inte gjort det!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Hvarför har du inte skjutit dig? Det är en direkt förebråelse! Ja, vet ni hvarför jag inte gjort det? Därför att ni skulle slippa gå i sjön, mina älskade barn!... Säg något mer elakt nu! Det är för mig som att höra musik, kända toner från... den gamla goda tiden...</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Sluta nu med detta pratet, som är lönlöst, och gör något. Gör något!</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Vet du hvad följden kan bli, om du lämnar oss så här?</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Att ni prostituerar er, kan jag tro. Så sa’ alltid er mor, när hon förstört hushållspengarna på lottsedlar.</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Tig! Och inte ett ord om vår dyra, älskade mor!</p>
+         </sp>
+          <pb n="23"/>
+          <sp who="#durand">
+            <speaker>Durand</speaker>
+            <stage>(lallar för sig själf).</stage>
+            <p>Det brinner ett ljus; i detta hus; och när det har brunnit, är ändamålet vunnit! Vunnet ska’ det väl heta! Och så kommer Föhn med ett stort dön! Ja! — Nej! — <stage>(Det har börjat blåsa utanför, och det mulnar.)</stage></p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand</speaker>
+            <stage>(springer upp; till Adèle).</stage>
+            <p>Släck i spisen! Föhn kommer!</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle</speaker>
+            <stage>(ser Durand in i ögonen).</stage>
+            <p>Det kommer ingen Föhn!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Släck i spisen! För om det tar eld där, så få vi ingenting af assuransen. Släck i spisen, säger jag! Släck!</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Jag fattar dig inte.</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand</speaker>
+            <stage>(ser henne in i ögonen och tar hennes händer).</stage>
+            <p>Men lyd mig då bara! Gör som jag säger!</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle</speaker>
+            <stage type="exit" who="#adele">(ut i köket; lämnar dörren öppen).</stage>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand</speaker>
+            <stage>(till Thérèse och Annette).</stage>
+            <p>Gå upp och stäng era fönster, barn, och se efter spjällen! Men kom och ge mig en kyss först, ty jag skall ut och resa — — för att skaffa er pengar!</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Kan du skaffa pengar?</p>
+         </sp>
+          <pb n="24"/>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Jag har en lifförsäkring som jag tänker realisera.</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Hur mycket får du för den?</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Sex hundra francs om jag säljer den, och fem tusen om jag dör.</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse</speaker>
+            <stage>(brydd).</stage>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Säg ut du, mitt barn! — Nej, vi ska’ inte vara grymma i onödan. — Säg, Thérèse, är du fästad vid Antonio så att du skulle bli ganska olycklig om du icke fick honom?</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Å ja!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Då bör du gifta dig med honom, om han nämligen håller af dig! Men du skall icke vara elak mot honom, ty då blir du olycklig! — Farväl, mitt älskade, älskade barn! <stage>(Omfamnar henne och kysser hennes kinder.)</stage></p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Du får icke dö, far! Du får icke!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Unnar du mig icke att komma i ro?</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Jo, om du önskar det själf!... Förlåt mig, far, för alla gånger jag varit elak mot dig.</p>
+         </sp>
+          <pb n="25"/>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Småsaker, barn!</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Men ingen var så elak mot dig som jag!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Jag märkte det mindre, ty jag älskade dig mest, hvarför, vet jag inte. Se så gå nu och stäng fönsterna.</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Där har du strykstickorna, pappa! — — Och — där har du din mjölk!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand</speaker>
+            <stage>(leende).</stage>
+            <p>Ack, du barn!</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse.</speaker>
+            <p>Ja, hvad skall jag göra? Jag har ju ingen-ting annat att ge dig.</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Du har gifvit mig så mycket glädje som barn att du icke är mig skyldig något. Gå nu! Och ge mig bara en vänlig blick som förr!</p>
+         </sp>
+          <sp who="#therese">
+            <speaker>Thérèse</speaker>
+            <stage>(i det hon går vänder sig om och kastar sig i hans armar).</stage>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Så, så, mitt barn, nu är det bra! <stage type="exit" who="#therese">(Thérèse springer ut.)</stage></p>
+         </sp>
+       </div>
+        <pb n="26"/>
+        <div type="scene">
+          <head>Nionde scenen.</head>
+          <stage type="presence" who="#annette #durand">HERR DURAND. ANNETTE. Sedan ADÈLE.</stage>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Farväl, Annette!</p>
+         </sp>
+          <sp who="#annette">
+            <speaker>Annette.</speaker>
+            <p>Skall du resa bort; jag förstår inte det här?</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Jag skall resa bort.</p>
+         </sp>
+          <sp who="#annette">
+            <speaker>Annette.</speaker>
+            <p>Men du kommer väl igen, pappa?</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Det vet ju ingen om han öfverlefver morgon-dagen, och i alla fall kan vi ju säga farväl.</p>
+         </sp>
+          <sp who="#annette">
+            <speaker>Annette.</speaker>
+            <p>Adjö med dig då, far! Och lycka på resan! Du glömmer väl inte att köpa något hem åt oss, som du brukade förr? <stage type="exit" who="#annette">(Går.)</stage></p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Du minns det, fastän det var så länge se’n jag köpte något åt barnen! Adjö, min Annette!</p>
+            <stage>(Lallar för sig själf.)</stage>
+            <p>På ondt och godt, på stort och smått, och där du sått, få andra skörda.</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle</speaker>
+            <stage type="entrance" who="#adele">(in).</stage>
+         </sp>
+          <pb n="27"/>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Adèle! Nu skall du höra mig! Och förstå! — Att jag talar i förtäckta ordalag, det betyder endast att jag vill förskona ditt samvete från att veta för mycket. — Var lugn, barnen har jag fått upp på sina rum. Nu ska’ du fråga mig först så här: »Har du någon lifförsäkring?» Nåå!</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle</speaker>
+            <stage>(spörjande, oviss).</stage>
+            <p>»Har du någon lifförsäkring?»</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Nej, jag har haft en, men den har jag sålt för längese’n, emedan jag tyckte, mig märka att någon blef otålig efter dess utfallande. — Där-emot har jag en brandförsäkring! Se här är brefvet; göm det väl! — Nu ska’ jag fråga dig: — Vet du hur många ljus det går på ett skål-pund mässljus à sjuttiofem centimes?</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Det går sex.</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand</speaker>
+            <stage>(antydande ljuspaketet).</stage>
+            <p>Hur många ljus ligger det där?</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Fem bara!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Därför att det sjette står mycket högt uppe och mycket nära! —</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Herre Jesus!</p>
+         </sp>
+          <pb n="28"/>
+          <sp who="#durand">
+            <speaker>Durand</speaker>
+            <stage>(tar upp klockan).</stage>
+            <p>Om fem minuter eller så omkring är det nedbrunnet!</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Nej!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Jo! Kan du se någon annan dager i detta mörker? Nej! — Alltså! — Detta om affärerna. Nu en annan sak! Om herr Durand går ur världen som en <stage>(hviskar)</stage> mordbrännare, det kan vara tämligen likgiltigt, men att han lefvat dittills som en man af heder det skall hans barn veta. — Nåväl, jag är född i Frankrike — det be-höfde jag inte tillstå för den förstkommande slyngel! — Strax före konskriptionsåldern råkade jag bli förälskad i den som sedan blef min maka. För att få gifta oss reste vi hit och läto natura-lisera oss! — När sista kriget bröt ut och det liknade sig till att jag skulle kunna komma att bära vapen mot mitt land, gick jag ut som franc-tireur mot tyskarna! — Jag har aldrig de-serterat som du hör, utan din mor har fabulerat ihop den historien!</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Min mor ljög aldrig!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Se så! Nu är liket oppe igen och står emellan oss. Jag kan icke kära mot döda, men jag svär att jag talar sant. Hör du det! Och hvad er hemgift, det vill säga, hvad ert möderne <pb n="29"/> beträffar, så hänger den saken ihop så här: först spolierade din mor genom slöseri och enfaldiga spekulationer mitt fäderne så grundligt att jag måste lämna min syssla och sätta upp detta pensionat. Därpå måste en del af hennes möderne användas till er uppfostran och det kan väl icke kallas att ha förstört. — Alltså var det också osant...</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Nej, så sa’ icke mor på dödsbädden...</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand.</speaker>
+            <p>Då ljög din mor på dödsbädden, som hon gjorde i hela sitt lif... Och det är den för-bannelsen som följt mig likt ett spöke! Tänk hvad ni har pinat mig oskyldigt med dessa två lögner i så många år. Jag ville icke kasta in ofrid i era unga sinnen och komma er att tvifla på er mors förträfflighet, därför teg jag. Jag hade varit hennes korsdragare ett helt äkta sam-lif; bar alla hennes fel på min rygg, tog alla följderna af hennes misstag på mig, tills jag slut-ligen trodde mig vara den skyldige. Och hon var icke sen att tro sig först vara oförvitlig, sedan offret! »Skyll på mig, » brukade jag säga när hon riktigt invecklat sig i något trassel. Och hon skyllde! Och jag bar! Men ju mer hon kom i skuld till mig, dess mer hatade hon mig med hela tackskyldighetens gränslösa hat, och slutligen föraktade hon mig, för att stärka sig af inbillningen att hon narrat mig! Och sist <pb n="30"/> lärde hon er förakta mig också, för hon behöfde ett stöd i sin svaghet! Jag trodde och hoppades att denna onda men svaga själ skulle dö när hon dog; men det onda lefver och växer som sjukdomen, under det att det sunda stannar vid en viss punkt för att sedan gå neråt Och när jag ville ändra det som var galet i detta husets vanor, då mötte jag från er: »mor» — »så sa’ mor» och därför är det sant; »så brukade mor göra»; och därför var det riktigt! Och för er blef jag en stackare, när jag var god, ett kräk när jag var finkänslig, en usling när ni fick er vilja fram och ni ruinerat huset!</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Det är ädelt att anklaga en död, som icke kan försvara sig!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand</speaker>
+            <stage>(talar mycket fort och exalteradt).</stage>
+            <p>Jag är icke död än, men är det snart! Vill du försvara mig då? — Nej, det behöfver du inte! Men försvara dina systrar. Tänk bara på mina barn, Adèle. Ha en moderlig vård om Thérèse. Hon är yngst och lifligast, snar till ondt och godt, obetänksam, men vek! Laga att hon blir gift snart, om du kan ställa om det! — Nu, nu luktar det bränd halm!</p>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Herre Gud bevara oss!</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand</speaker>
+            <stage>(dricker ur vattenglaset).</stage>
+            <p>Det gör han! — Och åt Annette skall du söka en plats som lärarinna! Så hon kommer <pb n="31"/> ut i världen och i godt sällskap. — När pengarna utfalla, så skall du förvalta dem. Var inte snål, utan rusta ut dina systrar, så att de kunna presentera sig för folk! — Rädda ingenting utom familjens papper, som ligger i min chiffonnier, midtrummet i klaffen. Här är nyckeln. — Brand-brefvet har du. — — — <stage>(Rök synes nedtränga genom taket.)</stage> Nu är det snart fullkomnadt! Om ett ögonblick klämtar det i S:t François! — Lofva mig en sak. — Yppa aldrig detta för dina systrar! Det skulle bara störa deras frid för lifvet. <stage>(Han sätter sig vid bordet.)</stage> Och en sak till: aldrig ett ondt ord om deras mor! Hennes porträtt ligger också i chiffonniern — det fick ni aldrig veta, emedan jag fann det nog med hennes osynliga ande som gick igen i hemmet! — Hälsa Thérèse och säg henne att hon skall förlåta mig! Glöm inte att hon får det bästa när du köper kläderna, för du vet hur svag hon är för sådant, och hvart hennes svaghet kan föra henne!... Säg Annette...</p>
+            <stage>(Ett doft klämtslag utifrån. Röken tilltager. Herr Durand fäller hufvudet mot händerna på bordet.)</stage>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Det brinner! — Det brinner! — Far! — Hvad är det med dig? Du brinner, inne. —</p>
+         </sp>
+          <sp who="#durand">
+            <speaker>Durand</speaker>
+            <stage>(lyfter hufvudet och skjuter undan vattenglaset med en menande gest).</stage>
+         </sp>
+          <sp who="#adele">
+            <speaker>Adèle.</speaker>
+            <p>Du har... tagit... gift!</p>
+         </sp>
+          <pb n="32"/>
+          <sp who="#durand">
+            <speaker>Durand</speaker>
+            <stage>(nickar bifallande).</stage>
+            <p>Har du brandbrefvet? — Säg Thérèse... och Annette...</p>
+            <stage>(Han faller ner med hufvudet igen. Ett nytt klämt-slag; buller och sorl utanför scenen.)</stage>
+         </sp>
+       </div>
+        <stage>Ridå.</stage>
+     </div>
+   </body>
+ </text>
+</TEI>

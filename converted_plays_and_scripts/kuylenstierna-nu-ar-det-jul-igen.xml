@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="sv">Nu är det jul igen</title>
+        <title type="main" xml:lang="en">Now It Is Christmas Again</title>
+        <title type="sub" xml:lang="sv">Sagospel i en akt</title>
+        <title type="sub" xml:lang="en">Fairy Tale in a Act</title>
+        <author key="wikidata:Q4960199">Kuylenstierna, Elisabeth</author>
+     </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000061</idno>
+        <availability>
+          <licence>
+            <ab>CC0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+         </licence>
+       </availability>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59618329</idno>
+     </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name></name>
+          <idno type="URL">http://libris.kb.se/bib/2091135</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+         </availability>
+          <bibl type="originalSource">
+            <title>Kamraten, Illustrerad tidning för sveriges ungdom, Stockholm, Idun, 7, 24, 374–376, tryckning, 1899 (http://libris.kb.se/bib/2091135)</title>
+            <date type="print" when="1899">"1899" (http://libris.kb.se/bib/2091135)</date>
+            <date type="premiere"/>
+            <date type="written"/>
+         </bibl>
+       </bibl>
+     </sourceDesc>
+   </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="god_jul" sex="UNKNOWN">
+            <persName>God Jul</persName>
+         </person>
+          <person xml:id="rimtusse" sex="MALE">
+            <persName>Rimtusse</persName>
+         </person>
+          <personGrp xml:id="tomtar" sex="MALE">
+            <name>Tomtar</name>
+         </personGrp>
+          <person xml:id="tomtekungen" sex="MALE">
+            <persName>kung</persName>
+         </person>
+          <person xml:id="snoflinga" sex="FEMALE">
+            <persName>Snöflinga</persName>
+         </person>
+          <person xml:id="julros" sex="FEMALE">
+            <persName>prinsessan Julros</persName>
+         </person>
+       </listPerson>
+     </particDesc>
+      <textClass>
+        <keywords>
+          <term subtype="" type="genreTitle"></term>
+       </keywords>
+     </textClass>
+   </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2019-06-30">(eg) convert from source</change>
+     </listChange>
+   </revisionDesc>
+ </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">Nu är det jul igen</titlePart>
+        <titlePart type="sub">Sagospel i en akt</titlePart>
+     </docTitle>
+   </front>
+    <body>
+      <castList>
+        <head>Personer:</head>
+        <castItem>PRINSESSAN JULROS</castItem>
+        <castItem>TOMTEKUNGEN</castItem>
+        <castItem>GOD JUL</castItem>
+        <castItem>RIMTUSSE</castItem>
+        <castItem>SNÖFLINGA</castItem>
+        <castItem>TOMTAR</castItem>
+     </castList>
+      <div type="act">
+        <stage type="setting" who="#godjul #rimtusse #tomtar #tomtekungen">
+          <p>Scenen föreställer en sal i tomtekungens rike, midt på golfvet sitter kungen, och i en ring omkring honom små tomtebissar med röda toppmössor och långa, gråa skägg. God jul står och lyser på dem med sin lykta. Rimtusse har stigit upp på en stol, svänger en taktpinne. Alla sjunga på melodien: »Mandom, mod och morske män» etc.</p></stage>
+        <sp who="#god_jul #rimtusse #tomtar #tomtekungen">
+          <lg rend="centered">
+            <l>Nu är julen här igen,</l>
+            <l>må vi glädtigt fira den,</l>
+            <l>tända julljus, pryda gran,</l>
+            <l>tomtebissen så är van.</l>
+         </lg>
+          <lg rend="centered">
+            <l>Hvarje år</l>
+            <l>kring han går,</l>
+            <l>hvarje hem sin tomte har,</l>
+            <l>barnens vän han städse var.</l>
+         </lg>
+       </sp>
+        <stage rend="normal">Rimtusse hoppar ned af stolen och sätter sig bland de andra. Det knackar på dörren. God jul går och öppnar. <stage type="entrance" who="#snoflinga">Snöflinga kommer in.</stage> Det är en liten, hvitklädd flicka, som dansar fram på golfvet. När hon är helt nära tomtarna, kastar hon ett fång snöflingor öfver dem.</stage>
+        <sp who="#snoflinga">
+          <speaker>SNÖFLINGA:</speaker>
+          <p>God afton Tomtekung, god afton, alla små bis-sar! <stage>(Nickar gladt.)</stage> Jag kommer från världen därute. Jag har skänkt den massor af hvita flingor, må ni tro, så nu är den ljus och vacker, klädd till julefest. Hvarenda gran ute i skogen har jag och mina syst- rar klädt. Det var ett styft arbete, men nu se de ut, som de skulle gå på bal allihop.</p>
+       </sp>
+        <sp who="#tomtekungen">
+          <speaker>TOMTEKUNGEN:</speaker>
+          <p>Och hvarför kommer du hit, lilla flinga? <stage>(Han drager betänksamt i sitt långa, gråa skägg och ser på den lilla.)</stage> Du hör egentligen inte till tomtarnes rike.</p>
+       </sp>
+        <sp who="#snoflinga">
+          <speaker>SNÖFLINGA:</speaker>
+          <p>Nej, jag vet det, men till julen hör jag i alla fall, och människobarnen önska sig. Det är ju du, tomte-kung, som skrifver upp deras önskningar?</p>
+       </sp>
+        <sp who="#tomtekungen">
+          <speaker>TOMTEKUNGEN</speaker>
+          <stage>(allvarligt):</stage>
+          <p>Ja, det gör jag, och min bok är full af julönsk-ningar, men öfver många stryker jag ett kors; det är att döda deras uppfyllelse, förstår du.</p>
+       </sp>
+        <sp who="#snoflinga">
+          <speaker>SNÖFLINGA</speaker>
+          <stage>(nyfiket):</stage>
+          <p>Hvarför gör du det?</p>
+       </sp>
+        <pb n="375"/>
+        <sp who="#tomtekungen">
+          <speaker>TOMTEKUNGEN</speaker>
+          <stage>(reser sig, de andra tomtarna följa hans exempel):</stage>
+          <p>Därför, barn, att det finns goda önskningar och dåraktiga sådana, som det finns säd och ogräs, och finge önskningarnas ogräs frodas, skulle snart den vackra säden för-därfvas. Om det där vet du ing-enting, du lilla dagslända, men vi tomtar ha en uppgift i världen, ser du. <stage>(Nickar tankfullt.)</stage></p>
+       </sp>
+        <sp who="#snoflinga">
+          <speaker>SNÖFLINGA</speaker>
+          <stage>(skrattar):</stage>
+          <p>En uppgift! Hvad är det för något?</p>
+       </sp>
+        <sp who="#tomtekungen">
+          <speaker>TOMTEKUNGEN:</speaker>
+          <p>Det är en länk, som samman-håller lifvets stora kedja. Men nu ha vi inte tid att prata längre. Det är julafton i morgon, och bå-de God Jul och Rimtusse ha hän-derna fulla med arbete. De andra bissarne måste hjälpa dem. <stage>(Sät-ter sig och tecknar åt de andra tomtarna att göra detsamma; de fläta papper till julgranskorgar, lägga in leksaker, göra julljus etc. Rimtusse skrifver på små pap-perslappar, endast God Jul står sysslolös och drömmer.)</stage></p>
+       </sp>
+        <sp who="#snoflinga">
+          <speaker>SNÖFLINGA</speaker>
+          <stage rend="newline">(drager honom gäckande i armen):</stage>
+          <p>Har du brådtom, du? Det ser inte så ut.</p>
+       </sp>
+        <sp who="#god_jul">
+          <speaker>GOD JUL</speaker>
+          <stage>(stilla):</stage>
+          <p>Jag diktar.</p>
+       </sp>
+        <sp who="#snoflinga">
+          <speaker>SNÖFLINGA:</speaker>
+          <p>Det gör ju Rimtusse också.</p>
+       </sp>
+        <sp who="#god_jul">
+          <speaker>GOD JUL:</speaker>
+          <p>Ja, julklappsrim, men jag dik-tar juldrömmar och sagor. Jag är julsens fridsröst, ser du. Jag kom-mer med klockklangens bing bång på julekvällen och dröjer länge som ett tändt julljus i människor-nas hjärtan.</p>
+       </sp>
+        <sp who="#snoflinga">
+          <speaker>SNÖFLINGA</speaker>
+          <stage>(dansar rundt):</stage>
+          <p>Det låter så högtidligt så, men jag skall dansa och sjunga min vi-sa för dig, om du sedan låter mig höra en af dina dikter: <stage>(Dansar och sjunger på melodien: »Kom skall du få en sväng utaf mig» etc.)</stage></p>
+          <lg>
+            <l>Jag är en liten flinga af snö,</l>
+            <l>när det blir vår, så måste jag dö,</l>
+            <l>men likafullt jag dansar och ler</l>
+            <l>kan utaf stunden njuta.</l>
+         </lg>
+          <lg>
+            <l>Kälkbackar gör jag höga som så, <stage>(mäter)</stage>
+                       </l>
+            <l>snöbollar kan jag forma också,</l>
+            <l>leker i fönstren gärna tittut,</l>
+            <l>yr är jag som ett väder.</l>
+         </lg>
+          <lg>
+            <l>Mig taga fatt är inte så lätt,</l>
+            <l>jag dansar kring så liten och nätt,</l>
+            <l>hålla sig stilla! — Tråkigt det är,</l>
+            <l>glad liten flinga tycker.</l>
+         </lg>
+          <p><stage>(Stannar flämtande.)</stage> Nå, God Jul, låt mig nu höra, hvad du kan.</p>
+       </sp>
+        <sp who="#god_jul">
+          <speaker>GOD JUL:</speaker>
+          <lg>
+            <l>Mitt värf är stort, det viges in</l>
+            <l>vid helga klockors ljud,</l>
+            <l>och manar till hvart människosinn</l>
+            <l>ett: Ära vare Gud!</l>
+         </lg>
+          <lg>
+            <l>Och frid på jorden, vilja god</l>
+            <l>för stora som för små</l>
+            <l>det är att fira lycklig jul,</l>
+            <l>att helgens bud förstå</l>
+         </lg>
+       </sp>
+        <sp who="#tomtekungen">
+          <speaker>TOMTEKUNGEN:</speaker>
+          <p>Rimtusse! Gå och se efter om ej prinsessan Julros synes än. Hon borde vara här nu, tycker jag.</p>
+       </sp>
+        <sp who="#snoflinga">
+          <speaker>SNÖFLINGA</speaker>
+          <stage>(häpen):</stage>
+          <p>En prinsessa! En riktig prin-sessa!</p>
+       </sp>
+        <stage>(<stage type="exit" who="#rimtusse">Rimtusse går</stage>, <stage type="entrance" who="#rimtusse">men kommer strax tillbaka</stage> och slår upp dör-ren på vid gafvel, ropar högt:)</stage>
+        <sp who="#rimtusse">
+          <p>Prinsessan Julros!</p>
+       </sp>
+        <stage>(<stage type="entrance" who="#julros">In genom dörren kommer en ung flicka, klädd i skär klädning, öfversållad med rosor.</stage> I båda händerna har hon rosor och på hufvudet en krans af mattskära rosenknoppar. Alla resa sig för henne. Snöflinga niger djupt.)</stage>
+        <sp who="#julros">
+          <speaker>JULROS:</speaker>
+          <p>Godafton härinne. Om jag har låtit vänta på mig, så är det knappast mitt fel. Jag blef oupphörligt hindrad af folk, som ville skicka med en önskeros till tomtarnas rike. De äro underliga, människorna, allt tröttna de på, ut-om på att önska.</p>
+       </sp>
+        <sp who="#tomtekungen">
+          <speaker>TOMTEKUNGEN:</speaker>
+          <p>Välkommen prinsessa och lyc-ka till med dina rosor, de blom-mor, som växa trots is och snö, ha rättighet att bli vårdade, och jul-rosornas doft skall i den signade julenatten bli alla mina bissars väg, ledningstecken. Dela nu ut dem, prinsessa, och säg tomtarne, hvart de skola gå.</p>
+       </sp>
+        <stage>(Prinsessan ställer sig så, att alla tomtarna kunna bilda ring omkring henne, och under det hon delar ut rosorna till höger och vänster, säger hon:)</stage>
+        <sp who="#julros">
+          <lg>
+            <l>Små tomtar, tagen af rosor alla</l>
+            <l>och gå omkring uti tusen hem,</l>
+            <l>må röda rosor i doftregn falla,</l>
+            <l>må hvita, skära få följa dem.</l>
+         </lg>
+          <pb n="376"/>
+          <lg>
+            <l>Och hvart I kommen må glädjen tändas,</l>
+            <l>till tröst för sorgen, till ro för strid,</l>
+            <l>må önskerosorna vällukt sprida</l>
+            <l>och gifva lycka i juletid.</l>
+         </lg>
+          <p>Sen I, tomtar hvartenda li-tet rosenblad bär sin egen jul-dröm, som I skolen försöka upp-fylla. De hvita rosorna höra ål-derdomen till; deras doft skall lära eder hitta vägen till de gam-la, och I skolen hviska i deras öron om gångna tider.</p>
+       </sp>
+        <sp who="#tomtekungen">
+          <speaker>TOMTEKUNGEN</speaker>
+          <stage>(infaller):</stage>
+          <p>Julros, säg mig, hvarför äro minnets rosor så bleka?</p>
+       </sp>
+        <sp who="#julros">
+          <speaker>JULROS</speaker>
+          <stage>(ler):</stage>
+          <p>Därför, att de gömmas un-dan dagens starkaste sol.</p>
+       </sp>
+        <sp who="#rimtusse">
+          <speaker>RIMTUSSE:</speaker>
+          <p>Och de röda rosorna, åt hvil-ka ska vi ge dem?</p>
+       </sp>
+        <sp who="#julros">
+          <speaker>JULROS:</speaker>
+          <p>De äro ungdomens, känn hur de dofta af tusen djärfva, stolta önskningar, de svälla af solfylld glöd och tyckas aldrig kunna vissna. Gifven ungdomen alla de vackraste och bästa julgåfvor I ägen, små tomtar!</p>
+       </sp>
+        <sp who="#tomtar">
+          <speaker>ALLA TOMTAR:</speaker>
+          <p>Ja, ja.</p>
+       </sp>
+        <author role="illustrator" ref="#LjungdahlD"/>
+        <sp who="#julros">
+          <speaker>JULROS:</speaker>
+          <p>Och så kommer ordningen till de skära rosorna, de äro små knoppar ännu, som vänta på som-maren. Men tro inte, att de där-för äro mindre rika på önsk-ningar. De äro barnens rosor, och de dofta en hälsning till tomtarnas rike från tusentals småttingar. som hoppas på ju-lens fröjder.</p>
+          <p>Så, nu är mitt förråd slut, och I veten, att det är eder sak att förvandla hvarje blomblad till en skatt åt människorna.</p>
+       </sp>
+        <sp who="#tomtekungen">
+          <speaker>TOMTEKUNGEN</speaker>
+          <stage>(ringer i en stor klocka):</stage>
+          <p>Tiden är inne att draga ut i världen. Ställen upp eder!</p>
+       </sp>
+        <stage>(Tomtarna ställa upp sig två och två, i första leder prinsessan Julros och God Jul, därefter Rim-tusse och Snöflinga och så de an-dra, alla med rosor i händerna. Sist kommer Tomtekungen.)</stage>
+        <sp who="#god_jul #julros #rimtusse #snoflinga #tomtar #tomtekungen">
+          <speaker>ALLA SJUNGA:</speaker>
+          <lg rend="centered">
+            <l>Nu är julen här igen,</l>
+            <l>må vi glädtigt fira den,</l>
+            <l>tända julljus, pryda gran,</l>
+            <l>tomtebissen så är van.</l>
+         </lg>
+          <lg rend="centered">
+            <l>Hvarje år</l>
+            <l>kring han går,</l>
+            <l>gåfvor rundt om jorden bär</l>
+            <l>alla hålla tomten kär.</l>
+         </lg>
+       </sp>
+        <stage>(Ridån faller.)</stage>
+     </div>
+   </body>
+ </text>
+</TEI>
