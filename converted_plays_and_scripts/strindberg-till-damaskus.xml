@@ -190,7 +190,7 @@
    </profileDesc>
     <revisionDesc>
       <listChange>
-        <change when="2019-07-01">(eg) convert from source</change>
+        <change when="2019-07-04">(eg) convert from source</change>
      </listChange>
    </revisionDesc>
  </teiHeader>
@@ -202,19 +202,16 @@
         <front>
           <castList>
             <head>PERSONER.</head>
-            <castItem/>
-            <castItem/>
-            <castItem/>
-            <castItem/>
-            <castItem/>
-            <castItem/>
-            <castItem/>
-            <castItem/>
-            <castItem/>
-            <castItem>
-              <roleGroup><roleDesc>Bifigurer och Skuggor</roleDesc>.
-               </roleGroup>
-           </castItem>
+            <castItem>Den Okände.</castItem>
+            <castItem>Damen.</castItem>
+            <castItem>Tiggaren.</castItem>
+            <castItem>Läkaren.</castItem>
+            <castItem>Systern.</castItem>
+            <castItem>Den Gamle.</castItem>
+            <castItem>Modern.</castItem>
+            <castItem>Abbedissan.</castItem>
+            <castItem>Confessorn.</castItem>
+            <castItem>Bifigurer och Skuggor.</castItem>
          </castList>
           <div type="content" subtype="part">
             <head>INNEHÅLL.</head>
@@ -1389,7 +1386,7 @@
              </sp>
               <sp who="#lakaren">
                 <speaker>LÄKAREN.</speaker>
-                <p>Aldrig. <stage>( Damen har satt sig vid bordet och virkar).</stage></p>
+                <p>Aldrig. <stage>(Damen har satt sig vid bordet och virkar).</stage></p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -1693,7 +1690,7 @@
               <pb n="56"/>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
-                <stage>(till Damen ).</stage>
+                <stage>(till Damen).</stage>
                 <p>Jag går min väg! Har Ni lockat mig i ett bakhåll, eller hvad skall jag tro? Om ett ögonblick släpper han väl ut bina för att roa mig?</p>
              </sp>
               <sp who="#damen">
@@ -1715,7 +1712,7 @@
              </sp>
               <sp who="#lakaren">
                 <speaker>LÄKAREN</speaker>
-                <stage>(till Dåren ).</stage>
+                <stage>(till Dåren).</stage>
                 <p>Cæsar, din lymmel, hitåt! så skall jag stänga in dig i källarn! <stage type="exit" who="#daren #lakaren">(går med Dåren.)</stage></p>
              </sp>
               <sp who="#den_okande">
@@ -5233,35 +5230,21 @@
         <front>
           <castList>
             <head>PERSONER.</head>
-            <castItem/>
-            <castItem/>
-            <castItem/>
-            <castItem/>
+            <castItem>Den Okände.</castItem>
+            <castItem>Damen.</castItem>
+            <castItem>Modren.</castItem>
+            <castItem>Fadren.</castItem>
             <castGroup>
-              <castItem/>
+              <castItem>Confessorn</castItem>
               <castGroup rend="braced">
-                <castItem/>
-                <castItem/>
+                <castItem>Tiggaren</castItem>
+                <castItem>Dominikanern</castItem>
                 <roleDesc>samme person.</roleDesc>
              </castGroup>
            </castGroup>
-            <castItem/>
-            <castItem/>
-            <castItem>
-              <roleGroup>
-                <roleDesc>M. fl.</roleDesc>
-                <roleGroup xml:id="spBarmhertighetssystrar" corresp="#Barmhertighetssystrar"/>
-                <roleGroup xml:id="spSluskarne" corresp="#Sluskarne"/>
-                <roleGroup xml:id="spRuskigaQvinnor" corresp="#RuskigaQvinnor"/>
-                <roleGroup xml:id="spNattmän" corresp="#Nattmän"/>
-                <roleGroup xml:id="spKrymplingar" corresp="#Krymplingar"/>
-                <roleGroup xml:id="spTiggare" corresp="#Tiggare"/>
-                <roleGroup corresp="#TvåPoliser"/>
-                <roleGroup xml:id="spBarnen" corresp="#Barnen"/>
-                <roleGroup corresp="#Tjenare"/>
-                <roleGroup corresp="#ÅttaMusikanter"/>
-             </roleGroup>
-           </castItem>
+            <castItem>Läkaren.</castItem>
+            <castItem>Cæsar.</castItem>
+            <castItem>M. fl.</castItem>
          </castList>
           <div type="content" subtype="part">
             <head>INNEHÅLL.</head>
@@ -5326,13 +5309,13 @@
                 <p>(Modren sitter på bänken nedanför trappan.</p>
                 <p>Dominikanern står framför henne.)</p></stage>
               <sp who="#dominikanern">
-                <speaker>DOMINIKANERN.*) <label>*)</label> Samme person som</speaker>
-                <p>Ni har låtit kalla mig i en för Eder vigtig familjeangelägenhet. Tala,</p>
+                <speaker>DOMINIKANERN.*) Confessorn och Tiggaren. <label>*)</label> Samme person som</speaker>
+                <p>Ni har låtit kalla mig i en för Eder vigtig familjeangelägenhet. Tala, min fru !</p>
              </sp>
               <pb n="201"/>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p/>
+                <p>Herr Confessor ; jag är en af lifvet hårdt pröfvad qvinna och vet icke hvar jag felat, då jag så drabbats af Försynens onåd.</p>
              </sp>
               <sp who="#dominikanern">
                 <speaker>DOMINIKANERN.</speaker>
@@ -5348,7 +5331,7 @@
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p>Först går</p>
+                <p>Först går min make ifrån mig för att resa med en annan qvinna.</p>
              </sp>
               <sp who="#dominikanern">
                 <speaker>DOMINIKANERN.</speaker>
@@ -5356,7 +5339,7 @@
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p>Så vet Ni,</p>
+                <p>Så vet Ni, herr Confessor, att min enda dotter var gift, med en läkare. Denne man öfverger hon och kommer hitdragande med en fremling, hvilken hon föreställer som sin nye man.</p>
              </sp>
               <pb n="202"/>
               <sp who="#dominikanern">
@@ -5369,11 +5352,11 @@
              </sp>
               <sp who="#dominikanern">
                 <speaker>DOMINIKANERN.</speaker>
-                <p>Det är intet rätt äktenskap, och det kan icke upplösas efter som det aldrig existerat, men det kan förklaras ogiltigt: — Hvem är</p>
+                <p>Det är intet rätt äktenskap, och det kan icke upplösas efter som det aldrig existerat, men det kan förklaras ogiltigt: — Hvem är Er nuvarande svärson ?</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p>Upprigtigt sagt: om jag det visste! Ett vet jag, och det är nog för att göra eländet rågadt: han är en frånskild man och</p>
+                <p>Upprigtigt sagt: om jag det visste! Ett vet jag, och det är nog för att göra eländet rågadt: han är en frånskild man och hans hustru och barn lefva, i half misère.</p>
              </sp>
               <sp who="#dominikanern">
                 <speaker>DOMINIKANERN.</speaker>
@@ -5394,7 +5377,7 @@
              </sp>
               <sp who="#dominikanern">
                 <speaker>DOMINIKANERN.</speaker>
-                <p>Vänta nu: i fjor intogs</p>
+                <p>Vänta nu: i fjor intogs en man, under omständigheter Ni skildrat, i klostret »Goda Hjelpen», der jag just är confessor. Under det febern pågick, öppnade han sitt hjerta, och det fans knappt ett brott som han ej tog på sig. När han vaknade till besinning, mindes han intet, påstod han. För att pröfva njurarne, begagnade jag den hemliga apostoliska magt oss är förlänad och utkastade på försök det lilla bannet. När nemligen ett hemligt brott är begånget, läses Deuteronomions förbannelse öfver den misstänkte; är han oskyldig, går han oskadd ifrån saken, men träffas han, då sker såsom Paulus säger, att hans kropp lemnas att plågas af Satan, på det hans själ måste bättra sig och varda räddad.</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -5403,7 +5386,7 @@
               <pb n="204"/>
               <sp who="#dominikanern">
                 <speaker>DOMINIKANERN.</speaker>
-                <p>Det är densamme:</p>
+                <p>Det är densamme: Er svärson ! Underliga äro försynens vägar — Men träffades han grundligt?</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -5419,7 +5402,7 @@
              </sp>
               <sp who="#dominikanern">
                 <speaker>DOMINIKANERN.</speaker>
-                <p>Och jagades av ängslans tankar, hvarom</p>
+                <p>Och jagades av ängslans tankar, hvarom Job talar: »När jag tänkte: min säng skall trösta mig, så förskräcker Du mig med drömmar och gör mig förfärelse, att min själ önskar sig vara hängd och mina ben döden»! Detta är alldeles som det bör: Men fick han ögonen öppnade?</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -5444,15 +5427,15 @@
              </sp>
               <sp who="#dominikanern">
                 <speaker>DOMINIKANERN.</speaker>
-                <p>Ja, han tror det; men ser Ni,</p>
+                <p>Ja, han tror det; men ser Ni, fru, derför att han icke anammade kärleken till sanningen, skall Gud sända honom kraftig villfarelse, så att han skall tro lögnen.</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p>Der må han stånda sitt kast, men han har ändrat</p>
+                <p>Der må han stånda sitt kast, men han har ändrat min dotters sinne också. Hon var visserligen hvarken kall eller varm förut, men nu är hon på väg att bli ond!</p>
              </sp>
               <sp who="#dominikanern">
                 <speaker>DOMINIKANERN.</speaker>
-                <p>Hur lefva</p>
+                <p>Hur lefva makarne tillsammans?</p>
              </sp>
               <pb n="206"/>
               <sp who="#modren">
@@ -5473,33 +5456,34 @@
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p>De ha rest bort redan fyra gånger hvar, men kommit igen; det synes som de voro fastkedjade, och väl vore det, ty</p>
+                <p>De ha rest bort redan fyra gånger hvar, men kommit igen; det synes som de voro fastkedjade, och väl vore det, ty barnet är i antågande.</p>
              </sp>
               <sp who="#dominikanern">
                 <speaker>DOMINIKANERN.</speaker>
-                <p>Låt då</p>
+                <p>Låt då barnet komma; de små bruka ha förning med sig som friskar upp unkna själar!</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p>Om så vore! Men här synes ett nytt trätofrö spira. De tvista redan om</p>
+                <p>Om så vore! Men här synes ett nytt trätofrö spira. De tvista redan om barnets namn; de tvista om dess dop; och modren är redan svartsjuk på detta barnet så högt som de första, och modren vill ovillkorligen han skall lofva det. Ingen ända finnes på detta afgrundslif! <persName ref="#Barnen">mannens barn</persName> i förra giftet, och han kan icke lofva att älska</p>
              </sp>
               <pb n="207"/>
               <sp who="#dominikanern">
                 <speaker>DOMINIKANERN.</speaker>
-                <p>Åhjo! Vänta bara! Har han inlåtit sig en gång med magterna, så ha vi fatt i honom, och våra böner,</p>
+                <p>Åhjo! Vänta bara! Har han inlåtit sig en gång med magterna, så ha vi fatt i honom, och våra böner, Fru, äro kraftigare än hans motstånd, och verka lika utomordentligt som hemlighetsfullt!</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
                 <stage>(<stage type="entrance" who="#denokande">synes uppe på terassen.</stage> Han är klädd i en jagtrock och en engelsk-indisk sommarhatt. Har en alpstaf i handen).</stage>
                 <p>Är det han, deruppe?</p>
              </sp>
+              <addSpan spanTo="#addedSp"/>
               <sp who="#dominikanern">
                 <speaker>DOMINIKANERN.</speaker>
                 <p>Är det han, deruppe?</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p>Det är</p>
+                <p>Det är min nuvarande svärson.</p>
              </sp>
               <sp who="#dominikanern">
                 <speaker>DOMINIKANERN.</speaker>
@@ -5544,7 +5528,7 @@
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p/>
+                <p>En vandrare ! Sätt Dig, Du ser så blek ut.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -5586,15 +5570,15 @@
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p>Jag är mycket olärd som Du vet, men jag läste i går i ett lexikon, att</p>
+                <p>Jag är mycket olärd som Du vet, men jag läste i går i ett lexikon, att Eumeniderna betyder De välsinnade!</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Det är sant; men det är lögn att de äro välvilliga. Jag känner bara</p>
+                <p>Det är sant; men det är lögn att de äro välvilliga. Jag känner bara en välsinnad Furie, och det är min!</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p>Kallar Du</p>
+                <p>Kallar Du Ingeborg Furie ?</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -5607,7 +5591,7 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Fullkomligt! — Men hvar är</p>
+                <p>Fullkomligt! — Men hvar är min Furie ?</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -5621,11 +5605,11 @@
                 <speaker>MODREN.</speaker>
                 <p>Du kan skämta ännu? Vänta Du!</p>
              </sp>
-              <stage rend="right-aligned">(<stage/>
+              <stage rend="right-aligned">(<stage>Modren ensam ett ögonblick tills Den Okände försvunnit.</stage>
                  <stage type="entrance" who="#damen">Derpå Damen in från höger.</stage> Hon är sommarklädd och bär postväskan samt brutna bref i handen.)</stage>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Är Du allena,</p>
+                <p>Är Du allena, moder ?</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -5634,7 +5618,7 @@
               <pb n="212"/>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Här är posten; och den är</p>
+                <p>Här är posten; och den är Jobs !</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -5675,7 +5659,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Detta:</p>
+                <p>Detta: min frånskilde man, hvars nya giftermålsplaner strandat, har blifvit grubblande, lemnat sin praktik och flackar omkring på landsvägarne.</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -5683,7 +5667,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Ja: det var så! Och namnet varulfven jag gaf honom var endast i hans egenskap af</p>
+                <p>Ja: det var så! Och namnet varulfven jag gaf honom var endast i hans egenskap af min herre och man ! Så länge jag visste honom lugn och på väg att trösta sig, hade jag frid; nu skall han spöka som det onda samvetet.</p>
              </sp>
               <pb n="214"/>
               <sp who="#modren">
@@ -5692,7 +5676,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Jag hade icke förr, men sedan jag genom läsningen af</p>
+                <p>Jag hade icke förr, men sedan jag genom läsningen af min mans skrifter fått upp ögonen, kan jag se skilnaden på godt och ondt!</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -5704,11 +5688,11 @@
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p>Hvad mera ondt har du i väskan,</p>
+                <p>Hvad mera ondt har du i väskan, Pandora ?</p>
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Det värsta! O! — Kan du tänka dig,</p>
+                <p>Det värsta! O! — Kan du tänka dig, mor, att hans frånskilda hustru står i begrepp att gifta om sig?</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -5716,7 +5700,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Åh, vet du ej att hans värsta dröm är att</p>
+                <p>Åh, vet du ej att hans värsta dröm är att hans fru gifter om sig och att derigenom hans barn skola få styffar ?</p>
              </sp>
               <pb n="215"/>
               <sp who="#modren">
@@ -5733,15 +5717,15 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Men i botten på</p>
+                <p>Men i botten på Pandoras säck låg en gåfva som icke var en olycka! Se hit, moder ! det är hans sexårige sons porträtt.</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p>Det är</p>
+                <p>Det är ett englabarn !</p>
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Det är så skönt som bild och uttryck att man känner sig god när man betraktar det! — Säg, tror Du att</p>
+                <p>Det är så skönt som bild och uttryck att man känner sig god när man betraktar det! — Säg, tror Du att mitt barn skall bli lika skönt! Säg, tror Du? — Svara ja, eljes blir jag olycklig! Jag älskar redan denne lille person, men jag känner jag skulle kunna hata honom om mitt barn ej blef lika skönt! Ja, jag är redan svartsjuk!</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -5762,11 +5746,11 @@
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p>En sak! Hvarför låter Du honom gå och spöka i din</p>
+                <p>En sak! Hvarför låter Du honom gå och spöka i din förre mans sommarkostym?</p>
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Det roar mig att plåga honom och förnedra honom. Jag har inbillat honom att det är klädsamt, och att plaggen tillhört</p>
+                <p>Det roar mig att plåga honom och förnedra honom. Jag har inbillat honom att det är klädsamt, och att plaggen tillhört far. — När jag nu ser honom i varulfvens kläder, tycker jag att jag har båda två i mina klor.</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -5775,7 +5759,7 @@
               <pb n="217"/>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Det kanske var min uppgift, om jag nemligen hade en uppgift i</p>
+                <p>Det kanske var min uppgift, om jag nemligen hade en uppgift i denne mannens lif!</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -5783,7 +5767,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Det är då sant att</p>
+                <p>Det är då sant att min farfar, notarien, rifvit till sig andras gods på orättfärdig väg? Man säger att denna gård är hopkommen af enkors och faderlösas arf, af ruinerades exekutioner, af dödas qvar-låtenskap, af tvistande parters mutor....</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -5822,7 +5806,7 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Men jag ber Dig: rör ej vid mitt öde med klumpiga händer. Jag är <stage>(lyfter hatten)</stage>. Det märket betyder: min är hämden säger Herren</p>
+                <p>Men jag ber Dig: rör ej vid mitt öde med klumpiga händer. Jag är Cain, ser Du, och står under magternas bann, men magterna tillåta inga dödliga att ingripa i deras hämdeverk. Ser Du att jag är märkt: <stage>(lyfter hatten)</stage>. Det märket betyder: min är hämden säger Herren</p>
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
@@ -5831,7 +5815,7 @@
               <pb n="219"/>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Nej, men han bränner! liksom rocken! Och vore det ej för att vara Dig till behag, skulle jag ha kastat alltsamman i floden. — Vet Du att när jag går omkring i bygden, kalla mig folket doktorn. Det är väl</p>
+                <p>Nej, men han bränner! liksom rocken! Och vore det ej för att vara Dig till behag, skulle jag ha kastat alltsamman i floden. — Vet Du att när jag går omkring i bygden, kalla mig folket doktorn. Det är väl din man, varulfven, som menas. Och otur har jag. Frågar jag hvem som planteradt detta träd, så svarar man: det har Doktorn. Frågar jag hvem som eger den gröna fisksumpen, så svarar man: Det är Doktorns. Och när det icke är Doktorns, så är det Doktorin-nans. Det är Du! Denna sammanblandning af min person med en annans gör mig vistelsen här olidlig; och jag skulle vilja resa...</p>
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
@@ -5856,7 +5840,7 @@
               <pb n="220"/>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Plåga mig på ett annat sätt,</p>
+                <p>Plåga mig på ett annat sätt, kära Furie.</p>
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
@@ -5864,11 +5848,11 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>På något nytt sätt. Försök att säga något elakt som inte</p>
+                <p>På något nytt sätt. Försök att säga något elakt som inte ’den andra’ sagt förut.</p>
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p/>
+                <p>’Den andra’: det är din fru! Det är smakfullt att påminna om den andra...</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -5880,24 +5864,24 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Du menar</p>
+                <p>Du menar ditt barn som vi vänta!</p>
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p/>
+                <p>Vårt barn !</p>
              </sp>
               <pb n="221"/>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Älskar du</p>
+                <p>Älskar du det ?</p>
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Från och med i dag har jag börjat älska</p>
+                <p>Från och med i dag har jag börjat älska det !</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>I dag? Hvad har då händt? För fem månader sedan ville du gå till advokat och skiljas från mig derför att jag icke ville följa dig till en qvacksalvare och låta döda</p>
+                <p>I dag? Hvad har då händt? För fem månader sedan ville du gå till advokat och skiljas från mig derför att jag icke ville följa dig till en qvacksalvare och låta döda den ofödde.</p>
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
@@ -5909,7 +5893,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Ännu är du listigare än jag, men snart skall</p>
+                <p>Ännu är du listigare än jag, men snart skall lärjungen öfvergå mästaren.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -5981,11 +5965,11 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Ja; och ändå mer nu, då du är skyddad af</p>
+                <p>Ja; och ändå mer nu, då du är skyddad af det oskyldiga väsen, du bär under ditt hjerta.</p>
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p/>
+                <p>Det skall bli min hämnare.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -5995,7 +5979,7 @@
               <sp who="#damen">
                 <speaker>DAMEN</speaker>
                 <stage>(med tårar i rösten).</stage>
-                <p/>
+                <p>Arma varelse: född i synd och skam, född till hämd, genom hat.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -6052,7 +6036,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Det är</p>
+                <p>Det är förebudet !</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -6069,7 +6053,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Det är</p>
+                <p>Det är Cæsar.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
@@ -6078,11 +6062,11 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Ja; men det är äfven öknamnet på</p>
+                <p>Ja; men det är äfven öknamnet på den dåren, som var in-ackorderad hos min... förre man ; förlåt uttrycket.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Är</p>
+                <p>Är Dåren lös?</p>
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
@@ -6091,13 +6075,13 @@
               <sp who="#daren">
                 <speaker>CÆSAR</speaker>
                 <stage>(<stage type="entrance" who="#daren">in från fonden:</stage> klädd i frack utan skjortkrage; lagerkrans på hufvet; barfota; bizarr för öfrigt).</stage>
-                <p>Hvarför helsar du inte! — Du skall säga: ave</p>
+                <p>Hvarför helsar du inte! — Du skall säga: ave Cæsar ! ty nu är jag herren! Varulfven har nemligen blifvit rubbad, sedan Den Store drog af med hans fru, hvilken han sjelf snappat bort från hennes förste älskare, eller fästman, eller hvad det skall kallas.</p>
              </sp>
               <pb n="227"/>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
-                <stage>(till</stage>
-                <p>Det var stryknin för två fullvuxna! <stage>(Till</stage> Hvar är</p>
+                <stage>(till Damen).</stage>
+                <p>Det var stryknin för två fullvuxna! din husbonde, eller slaf, eller dårläkare, eller fångvaktare, då? <stage>(Till Cæsar:)</stage> Hvar är</p>
              </sp>
               <sp who="#daren">
                 <speaker>CÆSAR.</speaker>
@@ -6109,12 +6093,12 @@
              </sp>
               <sp who="#daren">
                 <speaker>CÆSAR.</speaker>
-                <p>Tyst när jag talar... Och ibland tror han sig vara</p>
+                <p>Tyst när jag talar... Och ibland tror han sig vara varulfven, och påstår att han vill äta upp ett litet barn som icke är födt och som egentligen är hans med den förstkommandes rätt...</p>
                 <stage type="exit" who="#daren">(Drar sig utåt.)</stage>
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN</speaker>
-                <stage>(till</stage>
+                <stage>(till Den Okände).</stage>
                 <p>Kan du besvärja den demonen?</p>
              </sp>
               <sp who="#den_okande">
@@ -6148,7 +6132,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Men jag kan icke mer; ser du, der kommer han sjelf! — Åh Gud;</p>
+                <p>Men jag kan icke mer; ser du, der kommer han sjelf! — Åh Gud; denne man, som jag en gång trott mig älska.</p>
              </sp>
               <pb n="229"/>
               <sp who="#den_okande">
@@ -6157,11 +6141,11 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN</speaker>
-                <stage>(<stage type="exit" who="#damen">går uppför trappan</stage> men hinner ej upp förrän <stage type="entrance" who="#lakaren"/> ).</stage>
+                <stage>(<stage type="exit" who="#damen">går uppför trappan</stage> men hinner ej upp förrän <stage type="entrance" who="#lakaren">Läkaren synes komma från fonden</stage>).</stage>
              </sp>
               <sp who="#lakaren">
                 <speaker>LÄKAREN</speaker>
-                <stage>(med långt, grått, hängande hår, klädd i en engelsk-indisk hatt och en jagtrock, alldeles lik</stage>
+                <stage>(med långt, grått, hängande hår, klädd i en engelsk-indisk hatt och en jagtrock, alldeles lik Den Okändes ; låtsas icke märka Den Okände ; sätter sig på en sten på andra sidan landsvägen midt emot Den Okände på bänken. Tar af hatten och torkar svetten ur pannan).</stage>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
@@ -6208,12 +6192,12 @@
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
                 <stage>(kastar af sig hatt och rock).</stage>
-                <p/>
+                <p>Förbannade qvinnan !</p>
              </sp>
               <pb n="231"/>
               <sp who="#lakaren">
                 <speaker>LÄKAREN.</speaker>
-                <p>Håll till godo! Aflagda manskläder ha alltid varit fatala ända sedan Nessus-drägten i åminnelse. Gå nu in och kläd om Er, så skall jag sitta här och se på, och jag skall höra på när Ni gör upp den der affären på tu man hand med</p>
+                <p>Håll till godo! Aflagda manskläder ha alltid varit fatala ända sedan Nessus-drägten i åminnelse. Gå nu in och kläd om Er, så skall jag sitta här och se på, och jag skall höra på när Ni gör upp den der affären på tu man hand med den förbannade qvinnan. — Glöm inte käppen!</p>
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN</speaker>
@@ -6229,14 +6213,15 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Icke för</p>
+                <p>Icke för qvinnans skull, men för barnets, ber jag om nåd!</p>
              </sp>
               <sp who="#lakaren">
                 <speaker>LÄKAREN</speaker>
                 <stage>(vild).</stage>
-                <p>Jaså, det är <pb n="232"/> han skall söfva din tanke, förvirra ditt förstånd så du får se syner som icke du kan skilja från verkligheter; jag skall ligga som en sten på din väg så du snafvar; jag skall blifva törnet som stinger din hand när den vill plocka rosen; min själ skall spännas som ett spin-delnät öfver din, och genom <stage type="exit" who="#lakaren">(Går).</stage></p>
+                <p>Jaså, det är barn också! Vårt hus, våra rosor, våra kläder, sängkläderna inräknade, och vårt barn. Ni har mig inom Era dörrar, jag sitter vid Ert bord, ligger i Er säng; jag fins i Ert blod, i Era lungor, i Er hjerna; jag är öfverallt och Ni kan inte komma åt mig. När pendeln slår midnattstimman, så skall jag andas kallt på ditt hjerta så det skall stanna som ett utgånget ur; när du sitter i ditt arbete, skall jag komma med en vallmo, som du inte kan se, och den qvinna du röfvat från mig, skall jag styra dig som en stut; ditt barn skall bli mitt och jag skall tala genom dess mun; i dess ögon skall du läsa mina blickar så att du skall stöta det bort som en fiende. Och nu farväl du lilla hus, och farväl du rosenkammare; der skall ingen lycka blomstra som jag behöfver afundas! <pb n="232"/> han skall söfva din tanke, förvirra ditt förstånd så du får se syner som icke du kan skilja från verkligheter; jag skall ligga som en sten på din väg så du snafvar; jag skall blifva törnet som stinger din hand när den vill plocka rosen; min själ skall spännas som ett spin-delnät öfver din, och genom <stage type="exit" who="#lakaren">(Går).</stage>
+                               </p>
              </sp>
-              <stage>(</stage>
+              <stage>(Den Okände har under tiden satt sig på bänken, der han svarslös åhört som en anklagad.)</stage>
            </div>
             <stage rend="centered">Ridå.</stage>
          </div>
@@ -6263,7 +6248,7 @@
                 <p>Den Okände. Modren.</p></stage>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Hvar är...</p>
+                <p>Hvar är... Ingeborg ?</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -6272,7 +6257,7 @@
               <pb n="237"/>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Nåväl; hon är hos</p>
+                <p>Nåväl; hon är hos advokaten för att söka skilsmessa...</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -6288,7 +6273,7 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Jo, hon vill skiljas, derför att jag underlät att piska opp</p>
+                <p>Jo, hon vill skiljas, derför att jag underlät att piska opp den sinnesjuka mannen. Hon säger att det var fegt...</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -6343,11 +6328,11 @@
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p>Detta må vara hvad det är, men hvad ämnar Du företaga om</p>
+                <p>Detta må vara hvad det är, men hvad ämnar Du företaga om Ingeborg ej kommer igen.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Ännu en gång kommer hon igen, men framdeles, när</p>
+                <p>Ännu en gång kommer hon igen, men framdeles, när barnet anländt, kanske hon lossnar...</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -6359,7 +6344,7 @@
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p>Men när ni lösgjorts från hvarandra kanske ni båda äro bundna vid</p>
+                <p>Men när ni lösgjorts från hvarandra kanske ni båda äro bundna vid barnet ; Sådant vet man icke förut.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -6410,13 +6395,13 @@
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
                 <stage>(rustar med elektroskopet och så att han vänder ryggen mot det öppna fönstret, derpå tar han en bok och läser högt:)</stage>
-                <p>»När <title>Sohar</title>, den visaste af alla vishetens böcker som derför ingen menniska tror på.</p>
-                <p>Jag skall icke bygga något Babels torn, men jag skall locka krafterna in i min råttfälla, och sedan skall jag skicka dem ner till de nedre, de underjordiske att neutraliseras. Det är de öfre Schedim som ställt sig emellan de dödlige och</p>
+                <p>»När Adams jetteslägt förökat sig så att de ansågo sig nog tal-rika att våga en storm mot de öfre, började de bygga ett torn som skulle räcka upp i himlen. Då grepos de öfre af fruktan, och för att skydda sig sprängde de sammangaddningen genom att förvirra deras tungor samt med deras förstånd så, att hvar två menniskor rå-kades, kunde de icke förstå hvarann äfen der de talade samma språk. Sedan dess herrska de öfre genom tvedrägt: Söndra och herrska. Och tvedrägten underhålles genom inbillningar om att sanningen är funnen, men när någon af profeterna blir trodd, så är det en lögn-profet. Råkar deremot någon dödlig utforska de öfres hemlighet, så tror ingen honom, och han blir slagen med vansinne att ingen skall tro honom. De dödlige äro sedan dess mer eller mindre rub-bade, och de som anses vise, mest, och dårarne äro de ende kloke; ty de se, höra, känna det osynliga, det ohörbara, det okända, men kunna aldrig bibringa andra sina erfarenheter.» — Så säger <title>Sohar</title>, den visaste af alla vishetens böcker som derför ingen menniska tror på.</p>
+                <p>Jag skall icke bygga något Babels torn, men jag skall locka krafterna in i min råttfälla, och sedan skall jag skicka dem ner till de nedre, de underjordiske att neutraliseras. Det är de öfre Schedim som ställt sig emellan de dödlige och Herren Zebaoth, och derför har glädje, frid och lycka försvunnit från jorden.</p>
              </sp>
               <pb n="242"/>
               <sp who="#damen">
                 <speaker>DAMEN</speaker>
-                <stage>(<stage type="entrance" who="#damen">in</stage>, utom sig, kastar sig ner för</stage>
+                <stage>(den okände, lägger sina armar om hans fötter och sitt hufvud på golfvet). <stage type="entrance" who="#damen">in</stage>, utom sig, kastar sig ner för</stage>
                 <p>Hjelp mig! Hjelp! Och förlåt!</p>
              </sp>
               <sp who="#den_okande">
@@ -6430,11 +6415,11 @@
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
                 <stage>(lyfter henne upp).</stage>
-                <p>Stig upp,</p>
+                <p>Stig upp, oförståndiga barn ; och säg hvad det handlar om!</p>
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Jag for till</p>
+                <p>Jag for till allmänna åklagaren och...</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -6442,7 +6427,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>...det var nog min afsigt, men när jag kom fram, angaf jag</p>
+                <p>...det var nog min afsigt, men när jag kom fram, angaf jag varulfven för hemgång och mordförsök...</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -6451,7 +6436,7 @@
               <pb n="243"/>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Nej, men jag angaf honom för det... Och medan jag står der, kommer han sjelf, och tar ut stämning på mig för falsk angif-velse. Så for jag till</p>
+                <p>Nej, men jag angaf honom för det... Och medan jag står der, kommer han sjelf, och tar ut stämning på mig för falsk angif-velse. Så for jag till advokaten och han sade, att jag kan vänta mig minst en månads fängelse... Tänk mitt barn skall födas i ett fängelse. Hur skall jag komma ifrån detta? Hjelp mig! Du kan hjelpa mig! Säg, säg!</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -6471,7 +6456,7 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Torka tårarne</p>
+                <p>Torka tårarne barn och var obekymrad; men upplys mig om något som ej hör hit. Är det Du som lagt fram denna portemonnä?</p>
              </sp>
               <pb n="244"/>
               <sp who="#damen">
@@ -6538,7 +6523,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN</speaker>
-                <stage>(vänder sig om och får se ansigtet, skriker och störtar mot</stage>
+                <stage>(vänder sig om och får se ansigtet, skriker och störtar mot Den Okände för att söka skydd).</stage>
                 <p>O, det är han!</p>
              </sp>
               <sp who="#den_okande">
@@ -6557,7 +6542,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Nej, jag såg honom!</p>
+                <p>Nej, jag såg honom! Varulfven ! Kan man inte döda honom?</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -6616,7 +6601,7 @@
               <pb n="248"/>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p/>
+                <p>Jesus Maria ! Hvad är det?</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -6632,7 +6617,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Nu är jag rädd, rädd för Dig...</p>
+                <p>Nu är jag rädd, rädd för Dig... fruktansvärde...</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -6697,7 +6682,7 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p/>
+                <p>Älskade ! Hvad är det!</p>
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
@@ -6709,7 +6694,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Nej, men jag lider; och jag fröjdas! på samma gång. Gå, och bed</p>
+                <p>Nej, men jag lider; och jag fröjdas! på samma gång. Gå, och bed min moder reda min säng! — Men välsigna mig först!</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -6717,7 +6702,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Säg, att Du förlåter mig: jag kan ju dö om</p>
+                <p>Säg, att Du förlåter mig: jag kan ju dö om den lilla tar mitt lif med sig! Säg att Du älskar mig!</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -6759,7 +6744,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Tänk på</p>
+                <p>Tänk på ditt barn med glädje...</p>
              </sp>
               <pb n="253"/>
               <sp who="#den_okande">
@@ -6809,7 +6794,7 @@
                 <p>Bredvid honom hänger en hatt och en brun kappa med pellerin och kapuchong, på golfvet en liten kappsäck.</p></stage>
               <sp who="#barmhertighetssystrar">
                 <speaker>BARMHERTIGHETSSYSTRARNE</speaker>
-                <stage>(psalmodiera: de an-dra, utom</stage>
+                <stage>(psalmodiera: de an-dra, utom Den Okände instämmer då och då).</stage>
                 <lg>
                   <l>Salve, Regina, mater misericordiæ;</l>
                   <l>Vita dulcedo, et spes nostra, salve.</l>
@@ -6821,7 +6806,7 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
-                <stage>(reser sig; går emot</stage>
+                <stage>(reser sig; går emot Modren).</stage>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -6833,7 +6818,7 @@
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p>Hon vill icke se Dig; och för öfvrigt är din närvaro öfverflödig. Nu är</p>
+                <p>Hon vill icke se Dig; och för öfvrigt är din närvaro öfverflödig. Nu är barnet hufvudpersonen.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -6854,12 +6839,12 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Ja, och Du har ledt dem dit! För en timme sedan lät Du mig förstå att</p>
+                <p>Ja, och Du har ledt dem dit! För en timme sedan lät Du mig förstå att barnet ej kunde vara mitt! Dermed gjorde Du din dotter till sköka, men det betyder för Dig intet blott Du fick stöta mig i hjertat! Du är näst den uslaste menniska jag känner!</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN</speaker>
-                <stage>(till</stage>
-                <p/>
+                <stage>(till systrarne).</stage>
+                <p>Systrar ! Bedjen för den olycklige.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -6871,7 +6856,7 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Om jag skulle göra som Du säger, så vore Du om tio minu-ter färdig skicka</p>
+                <p>Om jag skulle göra som Du säger, så vore Du om tio minu-ter färdig skicka länsman efter mig, såsom hafvande förlupit hustru och barn !</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -6881,7 +6866,7 @@
               <sp who="#pigan">
                 <speaker>PIGAN</speaker>
                 <stage type="entrance" who="#pigan">(in från fonden).</stage>
-                <p/>
+                <p>Frun ber herrn om en tjenst!</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -6889,7 +6874,7 @@
              </sp>
               <sp who="#pigan">
                 <speaker>PIGAN.</speaker>
-                <p>Jo, det skall ligga ett bref i</p>
+                <p>Jo, det skall ligga ett bref i fruns klädning, som hänger här i rummet.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
@@ -6898,7 +6883,7 @@
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p>Du får förlåta</p>
+                <p>Du får förlåta en sjuk menniska, som är din hustru!</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -6910,12 +6895,12 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Men icke för två dagar sen! — <stage>(Läser i brefvet.)</stage> — Nu förlåter jag i alla fall, med</p>
+                <p>Men icke för två dagar sen! — segrarens ädelmod! <stage>(Läser i brefvet.)</stage> — Nu förlåter jag i alla fall, med</p>
              </sp>
               <pb n="258"/>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p/>
+                <p>Segrarens ?</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -6927,7 +6912,7 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Här är intyget från</p>
+                <p>Här är intyget från den största auktoriteten som lefver; och nu går jag för att möta honom personligen.</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -6939,7 +6924,7 @@
              </sp>
               <sp who="#pigan">
                 <speaker>PIGAN.</speaker>
-                <p/>
+                <p>Frun ber att herrn kommer in!</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -6947,7 +6932,7 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Nej, nu vill jag inte! Du har gjort <pb n="259"/> Du har mördat min ära här; återstår mig endast att upprätta den annorstädes!</p>
+                <p>Nej, nu vill jag inte! Du har gjort min hustru, din dotter, till sköka, och Du har döpt mitt ofödda barn till frillobarn. Behåll dem! <pb n="259"/> Du har mördat min ära här; återstår mig endast att upprätta den annorstädes!</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -6957,7 +6942,7 @@
                 <speaker>DEN OKÄNDE.</speaker>
                 <p>Jo, jag förlåter Er — och går!</p>
                 <stage>(Tar på den bruna kappan och hatten; fattar kappsäcken och käppen.)</stage>
-                <p>Ty om jag stannade, skulle jag snart bli sämre än jag är.</p>
+                <p>Ty om jag stannade, skulle jag snart bli sämre än jag är. Det oskyldiga väsen som skulle komma och förädla det skefva förhållan-det har Du orenat i moderlifvet, och det skall bli ett trätofrö, en straffare och en hämnare. Hvarför skulle jag då stanna här för att låta rifva mig i stycken!</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -6994,11 +6979,11 @@
                 <p>Vid tredje bordet snygga hvardagsdrägter.</p>
                 <p>Vid fjerde bordet fläckiga och trasiga figurer med besynnerligt utseende. Borden äro så dukade att första står längst till venster och fjerde längst till höger, hvarigenom de vid fjerde bordet bli osynliga för Den Okände. Vid fjerde bordet sitta längst ner åt rampen, Läkaren och Cæsar sluskigt klädda.</p>
                 <p>Man är nu vid desserten och guldpokaler stå framför gästerna.</p>
-                <p>Musiken spelar pianissimo midt i</p>
+                <p>Musiken spelar pianissimo midt i Mendelssohns sorgmarsch.</p>
                 <p>Gästerna småprata med hvarandra.</p></stage>
               <sp who="#lakaren">
                 <speaker>LÄKAREN</speaker>
-                <stage>(till</stage>
+                <stage>(till Cæsar).</stage>
                 <p>Stämningen är något tryckt och desserten kom för tidigt!</p>
              </sp>
               <pb n="263"/>
@@ -7012,7 +6997,7 @@
              </sp>
               <sp who="#daren">
                 <speaker>CÆSAR.</speaker>
-                <p>Det sitter</p>
+                <p>Det sitter en professor vid hedersbordet och den skall väl vara auktoritet; men hvad är han professor i för slag?</p>
              </sp>
               <sp who="#lakaren">
                 <speaker>LÄKAREN.</speaker>
@@ -7041,11 +7026,11 @@
              </sp>
               <sp who="#lakaren">
                 <speaker>LÄKAREN.</speaker>
-                <p>Hör Du</p>
+                <p>Hör Du Cæsar, Du som är dårhjushjon hos mig, bör undvika så mycket Du kan, att tala om intelligens!</p>
              </sp>
               <sp who="#daren">
                 <speaker>CÆSAR.</speaker>
-                <p>Det var det oförsyntaste jag hört på länge! Vet Du inte</p>
+                <p>Det var det oförsyntaste jag hört på länge! Vet Du inte din fåne, att jag är tillsatt att bevaka Dig sedan Du mist förståndet...</p>
              </sp>
               <sp who="#professorn">
                 <speaker>PROFESSORN</speaker>
@@ -7058,11 +7043,11 @@
              </sp>
               <sp who="#professorn">
                 <speaker>PROFESSORN.</speaker>
-                <p>Mina herrar! — Då vårt lilla samhälle i dag hedrats af</p>
+                <p>Mina herrar! — Då vårt lilla samhälle i dag hedrats af den store mans närvaro som vi fira som hedersgäst, och då styrelsen...</p>
              </sp>
               <sp who="#daren">
                 <speaker>CÆSAR</speaker>
-                <stage>(till</stage>
+                <stage>(till Läkaren).</stage>
                 <p>Det är regeringen! Du!</p>
              </sp>
               <pb n="265"/>
@@ -7076,18 +7061,18 @@
              </sp>
               <sp who="#professorn">
                 <speaker>PROFESSORN.</speaker>
-                <p>Mina herrar! De stora uppfinningarnes århundrade går till ända med den största af alla uppfinningar — anad af Pythagoreerna, för-beredd af</p>
-                <stage>(Han lägger en lagerkrans på</stage>
+                <p>Mina herrar! De stora uppfinningarnes århundrade går till ända med den största af alla uppfinningar — anad af Pythagoreerna, för-beredd af Albertus och Paracelsus, utförd af vår hedersgäst. Tillåt mig att ge det svaga uttrycket af vår beundran åt det stora århun-dradets största man. Af samhället lagern! —</p>
+                <stage>(Han lägger en lagerkrans på Den Okändes hufvud.)</stage>
                 <p>Af styrelsen — detta!</p>
-                <stage>(Han hänger ett lysande ordenstecken om</stage>
-                <p>Mine herrar, ett lefve för</p>
+                <stage>(Han hänger ett lysande ordenstecken om Den Okändes hals.)</stage>
+                <p>Mine herrar, ett lefve för Den Store Guldmakaren !</p>
              </sp>
               <sp who="#civiluniformen #daren #fadren #lakaren #professorn #sluskarne">
                 <speaker>ALLA</speaker>
-                <stage>(utom</stage>
-                <p>Lefve! <stage>(</stage></p>
-                <stage>(Under senare delen af talet hafva</stage>
-                <stage>(</stage>
+                <stage>(utom Den Okände).</stage>
+                <p>Lefve! <stage>(Musiken blåser ackorderna ur sorgmarschen.)</stage></p>
+                <stage>(Under senare delen af talet hafva tjenare utbytt guldpokalerna mot mörka bleckbägare! och börja nu bära ut påfoglar fasaner, m. m.)</stage>
+                <stage>(Musiken spelar sakta, allmänt samtal.)</stage>
              </sp>
               <sp who="#daren">
                 <speaker>CÆSAR.</speaker>
@@ -7141,10 +7126,10 @@
                 <speaker>PROFESSORN</speaker>
                 <stage>(reser sig; Alla resa sig och blandas).</stage>
              </sp>
-              <stage type="exit">(</stage>
+              <stage type="exit">(Musikanterna aflägsna sig till en del, så att endast två bli qvar.)</stage>
               <sp>
                 <speaker>EN GÄST</speaker>
-                <stage>(till</stage>
+                <stage>(till Den Okände).</stage>
                 <p>Särdeles angenämt, Särdeles!</p>
              </sp>
               <sp who="#den_okande">
@@ -7153,13 +7138,13 @@
              </sp>
               <sp who="#fadren">
                 <speaker>FADREN</speaker>
-                <stage>(en gammal sprättig herre med enkellorgnett och militärisk håll-ning går fram till</stage>
+                <stage>(en gammal sprättig herre med enkellorgnett och militärisk håll-ning går fram till Läkaren och helsar).</stage>
                 <p>Nej, se god dag, är Du här?</p>
              </sp>
               <pb n="268"/>
               <sp who="#lakaren">
                 <speaker>LÄKAREN.</speaker>
-                <p>Ja,</p>
+                <p>Ja, svärfar, jag är här och öfverallt der han är.</p>
              </sp>
               <sp who="#fadren">
                 <speaker>FADREN.</speaker>
@@ -7175,19 +7160,19 @@
              </sp>
               <sp who="#lakaren">
                 <speaker>LÄKAREN.</speaker>
-                <p>Det påstås; men säkert är att han lupit från</p>
+                <p>Det påstås; men säkert är att han lupit från sin hustru under det hon låg i barnsäng.</p>
              </sp>
               <sp who="#fadren">
                 <speaker>FADREN.</speaker>
-                <p>Det vill säga: jag kan vänta mig</p>
+                <p>Det vill säga: jag kan vänta mig en svärson till snart? Ja gossar, det är inte vackert, det här, och detta osäkerhetstillstånd in-ger mig afsmak för att vara svärfar. Jaja, jag har ju ingenting att säga... förstås, efter som...</p>
              </sp>
               <stage type="setting">(Borden äro nu afdukade; dukar och kandelabrar borttagna; så att borden af bräder och bockar stå nakna. En stor stenskål är inburen och stenmuggar af simplaste facon äro framstälda på hedersbordet.)</stage>
               <pb n="269"/>
               <sp who="#daren">
                 <speaker>CÆSAR</speaker>
-                <stage>(knackar;</stage>
+                <stage>(knackar; sluskarne intaga heders-bordet invid Den Okände ; Fadren sätter sig gränsle på en stol och stirrar på Den Okände).</stage>
                 <p>Mina herrar!</p>
-                <p>Denna fest har blifvit kallad kunglig, icke som om välfägnaden varit så kunglig, tvertom, den har varit miserabel, men</p>
+                <p>Denna fest har blifvit kallad kunglig, icke som om välfägnaden varit så kunglig, tvertom, den har varit miserabel, men den man vi firat är en kung, en kung i Andens verld: det förstår endast jag bedöma...</p>
              </sp>
               <sp who="#en_slusk">
                 <speaker>EN SLUSK.</speaker>
@@ -7195,7 +7180,7 @@
              </sp>
               <sp who="#daren">
                 <speaker>CÆSAR.</speaker>
-                <p>Tyst <stage rend="ind">(Sorl. <stage type="entrance" who="#tvapoliser">Två poliser inträda</stage> och sätta sig vid dörren;</stage> men antaget han gjort det, så har han löst alla frågor som tidnings-pressen förgäfves sökt knäcka under de sista femtio åren. Men detta är blott ett antagande...</p>
+                <p>Tyst slusk ! — men han är mer än en kung, ty han är en fol-kets man, småfolkets, de förtrycktes vän, de dårars förmyndare, de narrars glädjebringare. Om han gjort guld, det vill jag inte veta, det bryr jag mig inte om, och jag tror det knappt... <stage rend="ind">(Sorl. musikanterna komma ner och sätta sig vid bord.) <stage type="entrance" who="#tvapoliser">Två poliser inträda</stage> och sätta sig vid dörren;</stage> men antaget han gjort det, så har han löst alla frågor som tidnings-pressen förgäfves sökt knäcka under de sista femtio åren. Men detta är blott ett antagande...</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -7216,7 +7201,7 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>I min egenskap af</p>
+                <p>I min egenskap af festföremålet, skulle ju det ej sakna sitt intresse för deltagarne att höra på hvilka grunder jag byggt min bevisning...</p>
              </sp>
               <sp who="#daren">
                 <speaker>CÆSAR.</speaker>
@@ -7224,15 +7209,15 @@
              </sp>
               <sp who="#fadren">
                 <speaker>FADREN.</speaker>
-                <p>Vänta lite! Jag tycker rättvisan bjuder, att</p>
+                <p>Vänta lite! Jag tycker rättvisan bjuder, att den anklagade får förklara sig. Skulle icke festföremålet derför i få ord vilja säga säll-skapet sin hemlighet?</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Hemligheten vill jag som uppfinnare icke ge ifrån mig, och det kan icke heller anses behöfligt då jag anförtrott resultatet åt</p>
+                <p>Hemligheten vill jag som uppfinnare icke ge ifrån mig, och det kan icke heller anses behöfligt då jag anförtrott resultatet åt edsvuren auktoritet !</p>
              </sp>
               <sp who="#daren">
                 <speaker>CÆSAR.</speaker>
-                <p>Då är det bosch, alltihop, och vi tro inga auktoriteter, ty vi äro fritänkare. — Har man hört på något så oförskämdt att vi ska på god tro fira</p>
+                <p>Då är det bosch, alltihop, och vi tro inga auktoriteter, ty vi äro fritänkare. — Har man hört på något så oförskämdt att vi ska på god tro fira en hemlighetskrämare, en patentsvindlare, en charlatan ;</p>
              </sp>
               <pb n="271"/>
               <sp who="#fadren">
@@ -7247,7 +7232,7 @@
              </sp>
               <sp who="#fadren">
                 <speaker>FADREN.</speaker>
-                <p>Inte alls!</p>
+                <p>Inte alls! Vännen här är litet talträngd, men ännu har han inte sagt något förnärmande.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -7285,17 +7270,17 @@
               <sp who="#tiggaren">
                 <speaker>TIGGAREN</speaker>
                 <stage>(<stage type="entrance" who="#tiggaren">på kryckor fram;</stage> slår kryckan i bordet så att muggar krossas).</stage>
-                <p/>
+                <p>Herr Ordförande ! — Jag begär ordet:</p>
                 <stage>(Han slår sönder mera af servisen.)</stage>
-                <p>Jag har icke lätt låtit dupera mig i lifvet, mina herrar, men denna gång, blef jag bet.</p>
-                <p>Det fins ju gränser för medlidandet och det fins gränser för grymheten — mig gör det ondt se verklig merit dragas ner i dyn, och</p>
+                <p>Jag har icke lätt låtit dupera mig i lifvet, mina herrar, men denna gång, blef jag bet. Min vän der i högsätet har nemligen öfvertygat mig om att jag så kapitalt lurat mig på hans omdömes-förmåga och sunda förstånd att jag känner mig rörd.</p>
+                <p>Det fins ju gränser för medlidandet och det fins gränser för grymheten — mig gör det ondt se verklig merit dragas ner i dyn, och denna man förtjenar ett bättre öde än hans narraktighet ådra-git honom.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
                 <p>Hvad är meningen?</p>
              </sp>
               <pb n="273"/>
-              <stage>(<stage type="exit" who="#fadren #lakaren">Fadren och Läkaren ha under föregående smugit ut:</stage></stage>
+              <stage>(Sluskarne in-taga nu ensamme hedersbordet; kroggästerna samla sig i grupper och begapa Den Okände.) <stage type="exit" who="#fadren #lakaren">Fadren och Läkaren ha under föregående smugit ut:</stage></stage>
               <sp who="#tiggaren">
                 <speaker>TIGGAREN.</speaker>
                 <p>Detta: Ni som anser Er vara seklets man, antager en inbjud-ning af en suporden för att låta fira Er som vetenskapsman...</p>
@@ -7311,20 +7296,20 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Och</p>
+                <p>Och professorn ?</p>
              </sp>
               <sp who="#tiggaren">
                 <speaker>TIGGAREN.</speaker>
-                <p>Han kallas så, men är inte alls någon; han ger visst lektioner; och</p>
+                <p>Han kallas så, men är inte alls någon; han ger visst lektioner; och den der uniformen som måtte ha duperat Er mest, det var en slottskanslibetjent.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
                 <stage>(rifver af sig kransen och ban-det).</stage>
-                <p>Väl! — Men hvem var</p>
+                <p>Väl! — Men hvem var den gamle herrn med monokeln ?</p>
              </sp>
               <sp who="#tiggaren">
                 <speaker>TIGGAREN.</speaker>
-                <p>Det var</p>
+                <p>Det var Er svärfar !</p>
              </sp>
               <pb n="274"/>
               <sp who="#den_okande">
@@ -7333,9 +7318,9 @@
              </sp>
               <sp who="#tiggaren">
                 <speaker>TIGGAREN.</speaker>
-                <p>Det är inte skämt; det är fulla allvaret.</p>
+                <p>Det är inte skämt; det är fulla allvaret. Professorn kom på samhällets vägnar, de kalla sig samhället, och frågade om Ni ville mottaga festen; Ni svarade ja, och så blef det allvar!</p>
              </sp>
-              <stage>(</stage>
+              <stage>(Två Ruskiga Qvinnor med en soptunna på stång, ställa tunnan på hedersbordet.)</stage>
               <sp who="#qvinnan_i">
                 <speaker>QVINNAN I.</speaker>
                 <p>Är det han som gör guld, så bju oss på en sup.</p>
@@ -7359,7 +7344,7 @@
               <pb n="275"/>
               <sp who="#qvinnan_ii">
                 <speaker>QVINNAN II</speaker>
-                <stage>(slår sig ner vid</stage>
+                <stage>(slår sig ner vid Den Okände).</stage>
                 <p>Känner Du igen mig?</p>
              </sp>
               <sp who="#den_okande">
@@ -7395,11 +7380,11 @@
              </sp>
               <sp who="#krogerskan">
                 <speaker>KRÖGERSKAN.</speaker>
-                <p>Det vet inte jag, men</p>
+                <p>Det vet inte jag, men herrn är den sista af samhället som har förtärt.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
-                <stage>(till</stage>
+                <stage>(till Tiggaren).</stage>
                 <p>Hör det också till receptionen?</p>
              </sp>
               <sp who="#tiggaren">
@@ -7418,11 +7403,11 @@
              </sp>
               <sp who="#tiggaren">
                 <speaker>TIGGAREN.</speaker>
-                <p>Hör nu</p>
+                <p>Hör nu Madam, jag ansvarar för att denna man betalar...</p>
              </sp>
               <sp who="#krogerskan">
                 <speaker>KRÖGERSKAN.</speaker>
-                <p>Jaså, Ni vågar gyckla med mig också. —</p>
+                <p>Jaså, Ni vågar gyckla med mig också. — Kommissarien ! Hör hit ett ögonblick!</p>
              </sp>
               <pb n="277"/>
               <sp who="#polisen">
@@ -7431,7 +7416,7 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Hellre det än stå här och tvista... <stage>(Till</stage> Ett skämt kan jag vara med om, men ett så grymt allvar hade jag icke väntat.</p>
+                <p>Hellre det än stå här och tvista... <stage>(Till Tiggaren).</stage> Ett skämt kan jag vara med om, men ett så grymt allvar hade jag icke väntat.</p>
              </sp>
               <sp who="#tiggaren">
                 <speaker>TIGGAREN.</speaker>
@@ -7443,16 +7428,16 @@
              </sp>
               <sp who="#tiggaren">
                 <speaker>TIGGAREN.</speaker>
-                <p/>
+                <p>Balthasars -fester sluta alltid med att en hand sticker fram och skrifver — en räkning; och en annan hand lägger sig på axeln och afför konsumenten till vaktkontoret! Men kungligt skall det vara!</p>
              </sp>
               <sp who="#polisen">
                 <speaker>POLISEN</speaker>
-                <stage>(lägger handen på</stage>
+                <stage>(lägger handen på Den Okände).</stage>
                 <p>Är det nog divideradt!</p>
              </sp>
               <sp who="#ruskiga_qvinnor #sluskarne">
                 <speaker>QVINNORNA och SLUSKARNE.</speaker>
-                <p/>
+                <p>Guldmakaren ! Guldmakaren kan inte betala! Hurra! Han kommer in! Han kommer in!</p>
              </sp>
               <pb n="278"/>
               <sp who="#qvinnan_ii">
@@ -7470,7 +7455,7 @@
               <stage type="avista">CHANGEMANG à VUE.</stage>
               <stage type="setting">
                 <p>Mörkt på scenen:</p>
-                <p>(Ett virrvarr af dekorationer: landskap, palats, rum, hissas ner och skjutas fram, <stage type="exit" who="#daren #krogerskan #nattman #professorn #ruskigaqvinnor #sluskarne #tiggaren #tjenare #tvapoliser">hvarunder personer och möbler försvinna</stage>, sist <stage type="exit" who="#denokande">slutligen döljes äfven han</stage>; och ur virrvarret framträder ett fängelserum.)</p></stage>
+                <p>(Ett virrvarr af dekorationer: landskap, palats, rum, hissas ner och skjutas fram, Den Okände som synes stå i stelkramp, sofvande; <stage type="exit" who="#daren #krogerskan #nattman #professorn #ruskigaqvinnor #sluskarne #tiggaren #tjenare #tvapoliser">hvarunder personer och möbler försvinna</stage>, sist <stage type="exit" who="#denokande">slutligen döljes äfven han</stage>; och ur virrvarret framträder ett fängelserum.)</p></stage>
            </div>
             <pb n="279"/>
             <div type="tableau">
@@ -7507,7 +7492,7 @@
               <sp who="#tiggaren">
                 <speaker>TIGGAREN</speaker>
                 <stage>(tar upp en tidning).</stage>
-                <p>Först: har</p>
+                <p>Först: har den store auktoriteten återtagit här i tidningen sitt intyg om Ert guldmakeri, i det han förklarar sig ha blifvit förd bakom ljuset af Er. Följden: tidningen kallar er charlatan!</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -7564,7 +7549,7 @@
              </sp>
               <sp who="#tiggaren">
                 <speaker>TIGGAREN.</speaker>
-                <p>Men</p>
+                <p>Men en upplyst gentleman får icke bli förbluffad...</p>
              </sp>
               <pb n="282"/>
               <sp who="#den_okande">
@@ -7577,28 +7562,28 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Det vill säga: hon är redan omgift, och</p>
+                <p>Det vill säga: hon är redan omgift, och mina barn ha’ fått styffar ; Hvem är han?</p>
              </sp>
               <sp who="#tiggaren">
                 <speaker>TIGGAREN.</speaker>
-                <p>Hvem han än är, så mörda honom icke, ty han är utan skuld, han som upptager</p>
+                <p>Hvem han än är, så mörda honom icke, ty han är utan skuld, han som upptager en qvarlåten qvinna.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p/>
+                <p>Mina barn ! — Herre Jesus, mina barn !</p>
              </sp>
               <sp who="#tiggaren">
                 <speaker>TIGGAREN.</speaker>
-                <p>Fallet var oförutsedt! märker jag; men hvarför icke se sig för, när man är så gammal! och</p>
+                <p>Fallet var oförutsedt! märker jag; men hvarför icke se sig för, när man är så gammal! och en upplyst gentleman !</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
                 <stage>(utom sig).</stage>
-                <p>O Herre</p>
+                <p>O Herre Jesus ! mina barn !</p>
              </sp>
               <sp who="#tiggaren">
                 <speaker>TIGGAREN.</speaker>
-                <p>Upplyste gentlemen gråta icke! Men hör nu på</p>
+                <p>Upplyste gentlemen gråta icke! Men hör nu på min gosse: vid sådana här krachar brukar en gentleman... antingen... nå, säg ut!</p>
              </sp>
               <pb n="283"/>
               <sp who="#den_okande">
@@ -7615,7 +7600,7 @@
              </sp>
               <sp who="#tiggaren">
                 <speaker>TIGGAREN.</speaker>
-                <p>Jo</p>
+                <p>Jo min gosse lilla, just det! Han sticker ut ett nödankar, på försök.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -7681,7 +7666,7 @@
              </sp>
               <sp who="#tiggaren">
                 <speaker>TIGGAREN.</speaker>
-                <p>Äfven</p>
+                <p>Äfven tiggaren har sin lilla högfärd och fruktar åtlöjet.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -7770,7 +7755,7 @@
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p/>
+                <p>Din sköna har öfvergifvit Dig alltså?</p>
              </sp>
               <sp who="#fadren">
                 <speaker>FADREN.</speaker>
@@ -7779,15 +7764,15 @@
               <pb n="289"/>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p>Det säger Du, som bar bort mina bröllopsgåfvor till</p>
+                <p>Det säger Du, som bar bort mina bröllopsgåfvor till din älskar-inna, Du som var nog ärelös att anmoda mig välja presenter till din frilla och af mig ville lära färger och faconnera rober... Hvad söker Du här?</p>
              </sp>
               <sp who="#fadren">
                 <speaker>FADREN.</speaker>
-                <p>Jag hörde att</p>
+                <p>Jag hörde att min dotter...</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p/>
+                <p>Din dotter sväfvar mellan lif och död, och Du vet att hennes känslor för Dig antagit en fientlig karakter. Derför ber jag Dig gå, innan hon anar din närvaro.</p>
              </sp>
               <sp who="#fadren">
                 <speaker>FADREN.</speaker>
@@ -7799,20 +7784,20 @@
              </sp>
               <sp who="#fadren">
                 <speaker>FADREN.</speaker>
-                <p>Jag var på klubben: Men låt mig fråga: är icke</p>
+                <p>Jag var på klubben: Men låt mig fråga: är icke mannen här?</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p>Skall jag behöfva stå här och blotta hela eländet? Känner Du icke</p>
+                <p>Skall jag behöfva stå här och blotta hela eländet? Känner Du icke din dotters bedröfliga öde...</p>
              </sp>
               <pb n="290"/>
               <sp who="#fadren">
                 <speaker>FADREN.</speaker>
-                <p>Jo, jo... jag känner... och</p>
+                <p>Jo, jo... jag känner... och en sådan man, en sådan man...</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p/>
+                <p>Sådana män ! Gå nu ner och sof af dig ruset...</p>
              </sp>
               <sp who="#fadren">
                 <speaker>FADREN.</speaker>
@@ -7834,16 +7819,16 @@
               <sp who="#pigan">
                 <speaker>PIGAN</speaker>
                 <stage type="entrance" who="#pigan">(in genom fonden).</stage>
-                <p/>
+                <p>Nådig Frun frågar efter herrn.</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p>Hon menar</p>
+                <p>Hon menar sin man !</p>
              </sp>
               <pb n="291"/>
               <sp who="#pigan">
                 <speaker>PIGAN.</speaker>
-                <p>Ja,</p>
+                <p>Ja, herrn i huset ! fruns man !</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -7853,7 +7838,7 @@
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
                 <stage type="entrance" who="#denokande">(in).</stage>
-                <p>Är</p>
+                <p>Är barnet födt?</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -7871,7 +7856,7 @@
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
                 <stage>(ser sig omkring).</stage>
-                <p>Jag vet inte hvad jag menar! Men... hur är det med</p>
+                <p>Jag vet inte hvad jag menar! Men... hur är det med modren ?</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
@@ -7884,7 +7869,7 @@
               <pb n="292"/>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p>Skall Du inte gå till</p>
+                <p>Skall Du inte gå till din guldmakare ?</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -7909,7 +7894,7 @@
               <sp who="#pigan">
                 <speaker>PIGAN</speaker>
                 <stage type="entrance" who="#pigan">(in igen).</stage>
-                <p/>
+                <p>Nådig Frun ber Herrn om en tjenst!</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -7924,7 +7909,7 @@
                 <speaker>DEN OKÄNDE.</speaker>
                 <p>Ve! Ur den kommer intet godt!</p>
                 <stage>(Han tar upp ett bref ur den gröna jacquetten som hänger bredvid kläd-ningen vid spiseln.)</stage>
-                <p>Nu är jag död! Jag hade drömt detta förut, men nu är det verkligt! —</p>
+                <p>Nu är jag död! Jag hade drömt detta förut, men nu är det verkligt! — Mina barn ha fått styffar.</p>
              </sp>
               <stage type="exit" who="#pigan"/>
               <sp who="#modren">
@@ -7933,11 +7918,11 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>På mig sjelf! Helst på ingen! — Jag har förlorat</p>
+                <p>På mig sjelf! Helst på ingen! — Jag har förlorat mina barn !</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p>Du får</p>
+                <p>Du får ett nytt här!</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -7962,8 +7947,8 @@
              </sp>
               <sp who="#modren">
                 <speaker>MODREN</speaker>
-                <stage>(till</stage>
-                <p>Beden för</p>
+                <stage>(till Systrarne).</stage>
+                <p>Beden för denna man !</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -7980,7 +7965,7 @@
               <sp who="#barnmorskan">
                 <speaker>BARNMORSKAN</speaker>
                 <stage type="entrance" who="#barnmorskan">(in från fonden)</stage>
-                <p/>
+                <p>Ett barn är födt! Lofver Herran!</p>
              </sp>
               <pb n="295"/>
               <sp who="#barmhertighetssystrar #modren">
@@ -7990,21 +7975,21 @@
              </sp>
               <sp who="#barnmorskan">
                 <speaker>BARNMORSKAN</speaker>
-                <stage>(till</stage>
-                <p/>
+                <stage>(till Den Okände).</stage>
+                <p>En Dotter har Er maka skänkt Er!</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN</speaker>
-                <stage>(till</stage>
-                <p>Vill Du icke se</p>
+                <stage>(till Den Okände).</stage>
+                <p>Vill Du icke se ditt barn ?</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Nej! Jag vill icke binda mig mer vid något här på jorden. Jag fruktar att jag skulle komma att älska henne, och så skulle Ni rifva hjertat ur kroppen på mig. Låt mig gå, ut ur denna luft som är för ren åt mig; låt icke</p>
+                <p>Nej! Jag vill icke binda mig mer vid något här på jorden. Jag fruktar att jag skulle komma att älska henne, och så skulle Ni rifva hjertat ur kroppen på mig. Låt mig gå, ut ur denna luft som är för ren åt mig; låt icke det oskyldiga barnet komma i min närhet, ty jag är en förtappad varelse, en fördömd, och för mig fins ingen glädje, ingen frid, ingen — nåd!</p>
              </sp>
               <sp who="#modren">
                 <speaker>MODREN.</speaker>
-                <p/>
+                <p>Min son, nu talar Du visdomens ord! Utan ondska och utan svek; jag gillar ditt beslut. Här är du öfverflödig och Du skulle bli plågad till döds bland qvinnorna. Gå derför i frid.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -8017,7 +8002,7 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Derför att jag mördade</p>
+                <p>Derför att jag mördade min broder !</p>
              </sp>
            </div>
          </div>
@@ -8039,7 +8024,7 @@
               <head>KROGEN.</head>
               <stage type="setting" who="#denokande #krymplingar #krogerskan #nattman #ruskigaqvinnor #tiggare">
                 <p>Krogsalen från banketten i 3:dje akten. Men ruskig, med omålade trä-bord och bänkar. Tiggare, Nattmän och lösa Qvinnor. Krymplingar sitta här och der och dricka vid talgljus.</p>
-                <p>Den Okände och</p></stage>
+                <p>Den Okände och Qvinnan 2 dricka tillsammans bränvin som står på en karaffin.</p></stage>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
                 <stage>(dricker omåttligt).</stage>
@@ -8054,7 +8039,7 @@
              </sp>
               <sp who="#qvinnan_ii">
                 <speaker>QVINNAN.</speaker>
-                <p>Nej, men jag kan icke se</p>
+                <p>Nej, men jag kan icke se en man som jag aktar förnedra sig.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -8082,7 +8067,7 @@
              </sp>
               <sp who="#krogerskan">
                 <speaker>KRÖGERSKAN.</speaker>
-                <p>Tala inte så högt, det ligger</p>
+                <p>Tala inte så högt, det ligger en sjuk härinnanför?</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -8091,7 +8076,7 @@
               <pb n="302"/>
               <sp who="#qvinnan_ii">
                 <speaker>QVINNAN.</speaker>
-                <p>Vi begagna inte det ordet, men jag förstår hvad Du menar ändå: jo, jag hade</p>
+                <p>Vi begagna inte det ordet, men jag förstår hvad Du menar ändå: jo, jag hade en älskare och vi hade ett barn.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -8139,7 +8124,7 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p><stage>(Han stirrar framför sig med frånvarande blickar)</stage>... der ett stort vatten rinner som smält guld i solskenet, och der rosorna blomma med vinrankan på en vägg; och der står en hvit barnvagn under ackasian, men</p>
+                <p>Barn, hvilka illusioner; jag lyfta! jag! som är dernere. Nej, det är jag inte, och det är inte jag som sitter här, ty jag är död; jag vet att min själ är annorstädes, långt borta, långt, långt borta... barnet sofver ty modren sitter bredvid och virkar, virkar en lång, lång remsa, hvilken utgår från hennes mun och det står skrifvet på remsan, låt se... »Salige äro de bedröfvade, ty de skola få hugsvalelse». Men det är nog inte så! Jag får det aldrig!... Säg, Du, är det inte åska i luften, det käns så qvaft, tryckande... <stage>(Han stirrar framför sig med frånvarande blickar)</stage>... der ett stort vatten rinner som smält guld i solskenet, och der rosorna blomma med vinrankan på en vägg; och der står en hvit barnvagn under ackasian, men</p>
              </sp>
               <sp who="#qvinnan_ii">
                 <speaker>QVINNAN</speaker>
@@ -8161,7 +8146,7 @@
              </sp>
               <sp who="#qvinnan_ii">
                 <speaker>QVINNAN.</speaker>
-                <p/>
+                <p>Kära, det är ju natt!</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -8169,15 +8154,15 @@
              </sp>
               <sp who="#lakaren">
                 <speaker>LÄKAREN</speaker>
-                <stage type="entrance" who="#lakaren">(har under denna scen kommit in och satt sig bakom</stage>
+                <stage type="entrance" who="#lakaren">(har under denna scen kommit in och satt sig bakom Den Okände utan att ses af honom).</stage>
              </sp>
               <sp who="#krogerskan">
                 <speaker>KRÖGERSKAN.</speaker>
-                <p>Tala inte så högt, det ligger</p>
+                <p>Tala inte så högt, det ligger en sjuk menniska härinnanför!</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
-                <stage>(till</stage>
+                <stage>(till Qvinnan).</stage>
                 <p>Räck mig din hand!</p>
              </sp>
               <sp who="#qvinnan_ii">
@@ -8200,7 +8185,7 @@
              </sp>
               <sp who="#krogerskan">
                 <speaker>KRÖGERSKAN.</speaker>
-                <p>Var så god och tala inte så högt, det ligger</p>
+                <p>Var så god och tala inte så högt, det ligger en sjuk menniska härinnanför. Ja så sjuk att han redan begärt sakramentet.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -8217,12 +8202,12 @@
              </sp>
               <sp who="#qvinnan_ii">
                 <speaker>QVINNAN</speaker>
-                <stage>(till</stage>
-                <p>Känner Du</p>
+                <stage>(till Den Okände).</stage>
+                <p>Känner Du den mannen som sitter bakom och stirrat på dig hela tiden?</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
-                <stage>(vänder sig om: Han och</stage>
+                <stage>(vänder sig om: Han och Läka-ren stirra på hvarandra ett ögonblick utan att säga något).</stage>
                 <p>Ja, jag har kännt honom förr!</p>
              </sp>
               <sp who="#qvinnan_ii">
@@ -8231,7 +8216,7 @@
              </sp>
               <sp who="#lakaren">
                 <speaker>LÄKAREN</speaker>
-                <stage>(sätter sig midt emot</stage>
+                <stage>(sätter sig midt emot Den Okände och stirrar på honom).</stage>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -8243,7 +8228,7 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
-                <stage>(till</stage>
+                <stage>(till Qvinnan).</stage>
                 <p>Är jag gråhårig också?</p>
              </sp>
               <sp who="#qvinnan_ii">
@@ -8253,7 +8238,7 @@
               <pb n="307"/>
               <sp who="#lakaren">
                 <speaker>LÄKAREN.</speaker>
-                <p>Och så ser jag på</p>
+                <p>Och så ser jag på den sköna ledsagerskan: Ni har god smak ibland, ibland inte.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -8265,7 +8250,7 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
-                <stage>(till</stage>
+                <stage>(till Qvinnan).</stage>
                 <p>Låt oss gå härifrån!</p>
              </sp>
               <sp who="#lakaren">
@@ -8274,7 +8259,7 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
-                <stage>(till</stage>
+                <stage>(till Qvinnan).</stage>
                 <p>Följ mig ut! Led mig, jag ser inte...</p>
              </sp>
               <sp who="#qvinnan_ii">
@@ -8283,7 +8268,7 @@
              </sp>
               <sp who="#lakaren">
                 <speaker>LÄKAREN.</speaker>
-                <p>Det har Du rätt i</p>
+                <p>Det har Du rätt i glädjeflicka ! Lifvet är nog tungt ändå utan att man skall behöfva dra på andras sjelfförvållade lidande. Men den der mannen han drar inte sitt, utan lägger det på sin hustrus rygg.</p>
              </sp>
               <pb n="308"/>
               <sp who="#den_okande">
@@ -8301,7 +8286,7 @@
               <stage>(Det spelas på fiol och guitarr följande melodi borta i bakgrunden* <label>*)</label>.)</stage>
               <sp who="#lakaren">
                 <speaker>LÄKAREN</speaker>
-                <stage>(till</stage>
+                <stage>(till Qvinnan).</stage>
                 <p>Är han sjuk?</p>
              </sp>
               <sp who="#qvinnan_ii">
@@ -8315,13 +8300,13 @@
              </sp>
               <sp who="#qvinnan_ii">
                 <speaker>QVINNAN</speaker>
-                <stage>(makar sig åt</stage>
+                <stage>(makar sig åt Läkaren).</stage>
                 <p>Nej, har jag sagt!</p>
              </sp>
               <pb n="309"/>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Äfven du,</p>
+                <p>Äfven du, min sista vän ! Är jag då så satans genomusel att inte en gång en prostituerad vill hålla mig sällskap för betalning?</p>
              </sp>
               <sp who="#lakaren">
                 <speaker>LÄKAREN.</speaker>
@@ -8333,7 +8318,7 @@
              </sp>
               <sp who="#lakaren">
                 <speaker>LÄKAREN</speaker>
-                <stage>(till</stage>
+                <stage>(till Qvinnan).</stage>
                 <p>Han är blind...</p>
              </sp>
               <sp who="#qvinnan_ii">
@@ -8363,7 +8348,7 @@
              </sp>
               <sp who="#lakaren">
                 <speaker>LÄKAREN.</speaker>
-                <p>Menar Du</p>
+                <p>Menar Du barnet...</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -8375,7 +8360,7 @@
              </sp>
               <sp who="#qvinnan_ii">
                 <speaker>QVINNAN.</speaker>
-                <p>Fy! Nej vet Ni,</p>
+                <p>Fy! Nej vet Ni, såna svin vill jag inte vara i sällskap med.</p>
                 <stage>(Reser sig och ändrar plats.)</stage>
              </sp>
               <sp who="#den_okande">
@@ -8385,7 +8370,7 @@
               <pb n="311"/>
               <sp who="#krogerskan">
                 <speaker>KRÖGERSKAN.</speaker>
-                <p>Tala inte så högt, det ligger</p>
+                <p>Tala inte så högt, det ligger en döende derinne.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -8405,14 +8390,14 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Du skrämmer mig! Skulle det vara möjligt! Och alla dessa skuggfigurer, hvilkas ansigten jag tycker mig känna igen som ung-domsminnen från skolbänken, från simskolan, från gymnastiken... <stage>(Tar sig åt hjertat)</stage> Ve! ve! Nu nalkas han, den förfärlige, som suger hjertat ur bröstet... Han kommer, <stage>(utom sig).</stage></p>
+                <p>Du skrämmer mig! Skulle det vara möjligt! Och alla dessa skuggfigurer, hvilkas ansigten jag tycker mig känna igen som ung-domsminnen från skolbänken, från simskolan, från gymnastiken... den osynlige, som förföljt mig sedan år tillbaka... Nu är han här! <stage>(Tar sig åt hjertat)</stage> Ve! ve! Nu nalkas han, den förfärlige, som suger hjertat ur bröstet... Han kommer, <stage>(utom sig).</stage></p>
              </sp>
-              <stage>(Dörrarne slås upp; <stage type="entrance" who="#korgossen">en korgosse med en lykta med blåa glas som kastar ett blått sken på</stage> han ringer i silfverklockan: Alla uppge ett tjut som vilda djur; <stage type="entrance" who="#dominikanern">derpå Dominikanern med sakramentet;</stage> <stage type="exit" who="#dominikanern #korgossen">Korgossen och Dominikanern gå in i rummet till venster.</stage>)</stage>
+              <stage>(Dörrarne slås upp; Krögerskan och Qvinnan kasta sig ner på knä, de andra tjuta. Dominikanern lyfter monstransen; Alla på knä. <stage type="entrance" who="#korgossen">en korgosse med en lykta med blåa glas som kastar ett blått sken på Gästerna ;</stage> han ringer i silfverklockan: Alla uppge ett tjut som vilda djur; <stage type="entrance" who="#dominikanern">derpå Dominikanern med sakramentet;</stage> <stage type="exit" who="#dominikanern #korgossen">Korgossen och Dominikanern gå in i rummet till venster.</stage>)</stage>
               <pb n="312"/>
               <sp who="#tiggaren">
                 <speaker>TIGGAREN</speaker>
-                <stage>(<stage type="entrance" who="#tiggaren">in;</stage> går mot</stage>
-                <p>Kom härifrån! Du är sjuk, och</p>
+                <stage>(Den Okände). <stage type="entrance" who="#tiggaren">in;</stage> går mot</stage>
+                <p>Kom härifrån! Du är sjuk, och rättstjenare söka Dig med stäm-ningar.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -8420,11 +8405,11 @@
              </sp>
               <sp who="#tiggaren">
                 <speaker>TIGGAREN.</speaker>
-                <p/>
+                <p>Din hustru !</p>
              </sp>
               <sp who="#lakaren">
                 <speaker>LÄKAREN.</speaker>
-                <p/>
+                <p>Elektriska ålen ! utdelar sina slag på betydliga afstånd. Hon stämde en gång mig för ärekränkning, derför att hon inte fick ligga borta om nätterna.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -8440,16 +8425,16 @@
              </sp>
               <sp who="#lakaren">
                 <speaker>LÄKAREN.</speaker>
-                <p>Ja det kallades så, men hon var i sjelfva verket</p>
+                <p>Ja det kallades så, men hon var i sjelfva verket mätress åt en gift man, som hon sedan stämde för våldtägt, sedan hon sjelf inträngt i hans atelier och stått naken modell åt honom.</p>
              </sp>
               <pb n="313"/>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Och</p>
+                <p>Och denna qvinna äktade du?</p>
              </sp>
               <sp who="#lakaren">
                 <speaker>LÄKAREN.</speaker>
-                <p>Ja, hon stämde mig för brutet äktenskapslöfte sedan hon förfört mig, och så måste jag gifta mig; men hon hade</p>
+                <p>Ja, hon stämde mig för brutet äktenskapslöfte sedan hon förfört mig, och så måste jag gifta mig; men hon hade två civila poliser för att se efter att jag inte rymde. — Och denna qvinna äktade Du!</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -8461,8 +8446,8 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
-                <stage>(till</stage>
-                <p>Var hon alltid religiös,</p>
+                <stage>(till Läkaren).</stage>
+                <p>Var hon alltid religiös, denna qvinna ?</p>
              </sp>
               <sp who="#lakaren">
                 <speaker>LÄKAREN.</speaker>
@@ -8508,7 +8493,7 @@
               <pb n="315"/>
               <sp who="#tiggaren">
                 <speaker>TIGGAREN.</speaker>
-                <p>Kom</p>
+                <p>Kom olyckliga menniska ; han sitter och förgiftar Dig, och Du märker det inte. Kom!</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
@@ -8533,11 +8518,11 @@
              </sp>
               <sp who="#tiggaren">
                 <speaker>TIGGAREN.</speaker>
-                <p/>
+                <p>Din fiende kan Du naturligtvis inte tro.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Han är ju</p>
+                <p>Han är ju min vän då han sagt den bittra sanningen.</p>
              </sp>
               <pb n="316"/>
               <sp who="#tiggaren">
@@ -8554,7 +8539,7 @@
              </sp>
               <sp who="#lakaren">
                 <speaker>LÄKAREN.</speaker>
-                <p>Och intet qvinligt medlidande mer! Tjut</p>
+                <p>Och intet qvinligt medlidande mer! Tjut qvinna !</p>
              </sp>
               <sp who="#qvinnan_ii">
                 <speaker>QVINNAN</speaker>
@@ -8562,8 +8547,8 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
-                <stage>(till</stage>
-                <p/>
+                <stage>(till Tiggaren)</stage>
+                <p>Den mannen ljuger icke!</p>
              </sp>
            </div>
             <pb n="317"/>
@@ -8638,7 +8623,7 @@
              </sp>
               <sp who="#tiggaren">
                 <speaker>TIGGAREN.</speaker>
-                <p>...befria menniskorna från deras skyldigheter och brottslingar från skuldkänslan så de blefvo rigtigt samvetslösa. Du är inte den förste och inte heller den siste som fuskar i djefvulens yrke,</p>
+                <p>...befria menniskorna från deras skyldigheter och brottslingar från skuldkänslan så de blefvo rigtigt samvetslösa. Du är inte den förste och inte heller den siste som fuskar i djefvulens yrke, Lucifer a non lucendo! Men när Lurifax blir gammal så blir han munk, så vist är det inrättadt, och då får han söndra sig mot sig sjelf och utdrifva Belzebub med sin egen Baalsbot.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -8679,16 +8664,16 @@
                 <speaker>DEN OKÄNDE.</speaker>
                 <p>Och hvad kommer der?</p>
                 <stage type="entrance" who="#erik #gerda #thyra">(Tre sommarklädda barn: (två flickor och en blond gosse) komma ut på spången från höger.)</stage>
-                <p>Hallå!</p>
+                <p>Hallå! Barnen mina !</p>
              </sp>
               <sp who="#barnen">
                 <speaker>BARNEN</speaker>
-                <stage>lystra och betrakta</stage>
+                <stage>lystra och betrakta Den Okände med fremmande blickar).</stage>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
                 <stage>(ropar).</stage>
-                <p/>
+                <p>Gerda ! Erik ! Thyra ! — Det är jag!</p>
              </sp>
               <sp who="#barnen">
                 <speaker>BARNEN</speaker>
@@ -8700,7 +8685,7 @@
              </sp>
               <sp who="#frun #herrn">
                 <speaker>HERRN och FRUN</speaker>
-                <stage>(<stage type="entrance" who="#frun #herrn">från höger;</stage> <stage type="exit" who="#erik #frun #gerda #herrn #thyra">för-svinna).</stage></stage>
+                <stage>(Barnen dansa framåt mot venster och <stage type="entrance" who="#frun #herrn">från höger;</stage> <stage type="exit" who="#erik #frun #gerda #herrn #thyra">för-svinna).</stage></stage>
              </sp>
               <pb n="322"/>
               <sp who="#den_okande">
@@ -8752,11 +8737,11 @@
               <stage type="exit" who="#daren"/>
               <sp who="#tiggaren">
                 <speaker>TIGGAREN.</speaker>
-                <p>Jo, det är</p>
+                <p>Jo, det är hans ogifta och oförsörjda syster numera hemlös och förtviflad sedan brodern blifvit rubbad och förfallen af sorg.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Det var tyngre!</p>
+                <p>Det var tyngre! Arma menniska, hvad skall man göra åt det! Om jag också lider hennes qval, är hon hjelpt med det?</p>
              </sp>
               <pb n="324"/>
               <sp who="#tiggaren">
@@ -8801,7 +8786,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Tyst! Se på</p>
+                <p>Tyst! Se på den lilla fremmande som kommit medan Du var borta.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -8809,7 +8794,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Hvarför tror Du allt hvad man inbillar Dig? Floden har gått, men</p>
+                <p>Hvarför tror Du allt hvad man inbillar Dig? Floden har gått, men den här lilla menniskan har någon som skyddar sig och de sina... Vill Du inte se på din dotter ?</p>
              </sp>
               <pb n="326"/>
               <sp who="#den_okande">
@@ -8839,7 +8824,7 @@
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Vet Du att han har förlorat förståndet och irrar i trakten följd af</p>
+                <p>Vet Du att han har förlorat förståndet och irrar i trakten följd af sin syster... som söker honom. Dertill är han i misère och dricker...</p>
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
@@ -8852,7 +8837,7 @@
               <pb n="327"/>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Det gör Du tillräckligt sjelf; jag skulle snarare vilja ge Dig ett godt råd: gå till klostret Den Goda Hjelpen, der fins</p>
+                <p>Det gör Du tillräckligt sjelf; jag skulle snarare vilja ge Dig ett godt råd: gå till klostret Den Goda Hjelpen, der fins en man som kan befria Dig från det onda Du fruktar.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -8876,7 +8861,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Du ser ju att vi ingen lycka kunna bygga på andras lidanden; derför måste vi skiljas; det är ju den enda lindringen af hans qval. Jag har</p>
+                <p>Du ser ju att vi ingen lycka kunna bygga på andras lidanden; derför måste vi skiljas; det är ju den enda lindringen af hans qval. Jag har mitt barn som fyller ut mitt lif, och Du har din äregirighets stora mål...</p>
              </sp>
               <pb n="328"/>
               <sp who="#den_okande">
@@ -8936,7 +8921,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Han tror inte! Han tror inte! Men</p>
+                <p>Han tror inte! Han tror inte! Men kemisterna ha ju tillställt en bankett till nästa lördag för Dig...</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -8945,7 +8930,7 @@
               <sp who="#damen">
                 <speaker>DAMEN</speaker>
                 <stage>(lemnar konvolutet).</stage>
-                <p>Och der är hedersdiplomet! Läs då</p>
+                <p>Och der är hedersdiplomet! Läs då menniska !</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
@@ -8963,7 +8948,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Gå,</p>
+                <p>Gå, min vän ! Vi resa till kolonierna inom några dagar!</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -8988,7 +8973,7 @@
               <pb n="331"/>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Du skulle befria mig från</p>
+                <p>Du skulle befria mig från en varulf som ingen var och så blef Du sjelf en; och så skulle jag befria Dig från det onda genom att upptaga all din ondska, och det gjorde jag nog, men med påföljd att Du blef ändå ondare. Stackars min befriare, nu står Du der bunden till händer och fötter och ingen trollkarl kan lösa dig.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -8996,7 +8981,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Farväl! och tack för</p>
+                <p>Farväl! och tack för detta !</p>
                 <stage>(Hon antyder vaggan).</stage>
              </sp>
               <sp who="#den_okande">
@@ -9006,7 +8991,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Gör det</p>
+                <p>Gör det min vän !</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
@@ -9014,7 +8999,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN</speaker>
-                <stage>(går till höger dörr och <stage type="entrance" who="#dominikanern">släpper in</stage>.</stage>
+                <stage>(går till höger dörr och <stage type="entrance" who="#dominikanern">släpper in Dominikanern (Tiggaren)</stage>.</stage>
              </sp>
               <sp who="#confessorn">
                 <speaker>CONFESSORN.</speaker>
@@ -9022,12 +9007,12 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p/>
+                <p>Denna olyckliga menniska har intet annat öfrigt än att lemna verlden och begrafva sig i klostret.</p>
              </sp>
               <pb n="332"/>
               <sp who="#confessorn">
                 <speaker>CONFESSORN.</speaker>
-                <p>Han tror således icke att han är</p>
+                <p>Han tror således icke att han är den store uppfinnare han är?</p>
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
@@ -9043,7 +9028,7 @@
              </sp>
               <sp who="#confessorn">
                 <speaker>CONFESSORN.</speaker>
-                <p>Nej, då blir han straxt öfvermodig och anklagar Gud för ondt och orättvisa. Och</p>
+                <p>Nej, då blir han straxt öfvermodig och anklagar Gud för ondt och orättvisa. Och denne man är en demon som skall hållas fången; af revoltörernas förfärliga art skulle han missbruka sina gåfvor till att göra ondt, och menniskans kraft i det onda är omätlig.</p>
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
@@ -9051,7 +9036,7 @@
              </sp>
               <sp who="#confessorn">
                 <speaker>CONFESSORN.</speaker>
-                <p>Icke jag, men Ni skall göra det, så att han går ifrån Er med tron att det fins något godt hos Er, och att Ni icke är sådan som</p>
+                <p>Icke jag, men Ni skall göra det, så att han går ifrån Er med tron att det fins något godt hos Er, och att Ni icke är sådan som Er förra man skildrat Er. Tror han Er, så skall jag senare lösa honom, såsom jag en gång band honom, när han under sjukdomen biktade sig för mig i klostret Den Goda Hjelpen.</p>
              </sp>
               <pb n="333"/>
               <sp who="#damen">
@@ -9062,11 +9047,11 @@
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
                 <stage type="entrance" who="#denokande">(in).</stage>
-                <p>Der är den förfärlige; hur kom han hit? — Men det är ju</p>
+                <p>Der är den förfärlige; hur kom han hit? — Men det är ju tiggaren ?</p>
              </sp>
               <sp who="#confessorn">
                 <speaker>CONFESSORN.</speaker>
-                <p>Ja, det är</p>
+                <p>Ja, det är din förfärlige vän, som kommer för att hemta dig.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -9086,7 +9071,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p/>
+                <p>Denne man var min första brudgum som sedan egnat sitt lif åt Herrens tjenst då jag öfvergaf honom...</p>
              </sp>
               <pb n="334"/>
               <sp who="#den_okande">
@@ -9095,7 +9080,7 @@
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
-                <p>Så behöfver Du ej tänka så illa om Din handling, då du blef</p>
+                <p>Så behöfver Du ej tänka så illa om Din handling, då du blef straffaren för min trolöshet och den andres samvetslöshet.</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
@@ -9103,15 +9088,15 @@
              </sp>
               <sp who="#confessorn">
                 <speaker>CONFESSORN.</speaker>
-                <p/>
+                <p>En osalig ande är han...</p>
              </sp>
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE.</speaker>
-                <p>Och</p>
+                <p>Och en fördömd !</p>
              </sp>
               <sp who="#confessorn">
                 <speaker>CONFESSORN.</speaker>
-                <p>Nej! <stage>(Till</stage>. Säg något godt om honom!</p>
+                <p>Nej! <stage>(Till Damen)</stage>. Säg något godt om honom!</p>
              </sp>
               <sp who="#damen">
                 <speaker>DAMEN.</speaker>
@@ -9119,7 +9104,7 @@
              </sp>
               <sp who="#confessorn">
                 <speaker>CONFESSORN.</speaker>
-                <p>Så skall jag säga ett godt ord: Det kom en gång</p>
+                <p>Så skall jag säga ett godt ord: Det kom en gång en tiggare och bad honom om en dryck vatten, och han gaf honom vin för vatten och lät honom sitta vid sitt bord. Mins Ni det?</p>
              </sp>
               <pb n="335"/>
               <sp who="#den_okande">
@@ -9145,7 +9130,7 @@
               <sp who="#den_okande">
                 <speaker>DEN OKÄNDE</speaker>
                 <stage>(med passion).</stage>
-                <p>Tänk hvad hon kan tala vackert, och är så elak! Se på dessa ögon, gråta kan de inte, men smeka, sticka, ljuga! Och ändå; »Gör honom icke illa!» — Se nu är hon rädd jag skall väcka</p>
+                <p>Tänk hvad hon kan tala vackert, och är så elak! Se på dessa ögon, gråta kan de inte, men smeka, sticka, ljuga! Och ändå; »Gör honom icke illa!» — Se nu är hon rädd jag skall väcka barnet, det lilla otyget som tog henne ifrån mig! Kom, prest, innan jag åtrar mig!</p>
              </sp>
            </div>
             <pb n="336"/>

@@ -90,16 +90,12 @@
    </profileDesc>
     <revisionDesc>
       <listChange>
-        <change when="2019-07-01">(eg) convert from source</change>
+        <change when="2019-07-04">(eg) convert from source</change>
      </listChange>
    </revisionDesc>
  </teiHeader>
   <text>
     <group>
-      <docTitle>
-        <titlePart type="main">Jeppe och Murra</titlePart>
-        <titlePart type="sub">Ett uppträde på morgonkvisten i Björkuddens matsal.</titlePart>
-     </docTitle>
       <text corresp="#bibl_TopeliusZ_Askungen_1">
         <front>
           <docTitle>
@@ -108,16 +104,13 @@
           <castList>
             <head>Personer:</head>
             <castGroup rend="braced">
-              <castItem/>
-              <castItem/>
+              <castItem>THORA,</castItem>
+              <castItem>SUPERBA,</castItem>
               <roleDesc>landsflyktiga prinsessor af Burg-und.</roleDesc>
            </castGroup>
-            <castItem><roleDesc>deras kammartärna</roleDesc>.
-           </castItem>
-            <castItem><roleDesc>kallad <persName ref="#Dina">Askungen</persName>, en fattig flicka, deras fostersyster</roleDesc>.
-           </castItem>
-            <castItem><roleDesc>gåsvakterska</roleDesc>.
-           </castItem>
+            <castItem>TRILLA, deras kammartärna.</castItem>
+            <castItem>DINA, kallad Askungen, en fattig flicka, deras fostersyster.</castItem>
+            <castItem>BARBRA, gåsvakterska.</castItem>
          </castList>
        </front>
         <body>
@@ -508,27 +501,17 @@
          </docTitle>
           <castList>
             <head>Personer:</head>
-            <castItem><roleDesc>konung i Frankland</roleDesc>.
-           </castItem>
-            <castItem><roleDesc>hans drottning</roleDesc>.
-           </castItem>
-            <castItem><roleDesc>deras son</roleDesc>.
-           </castItem>
-            <castItem><roleDesc>hofmarskalk</roleDesc>.
-           </castItem>
-            <castItem><roleDesc>öfverhofmästarinna</roleDesc>.
-           </castItem>
-            <castItem><roleDesc>konungens favoritdverg</roleDesc>.
-           </castItem>
-            <castItem><roleDesc>drottningens dverginna</roleDesc>.
-           </castItem>
-            <castItem/>
-            <castItem/>
-            <castItem><roleDesc>(Barbra), osynlig</roleDesc>.
-           </castItem>
-            <castItem>Stumma personer: <roleDesc>prinsarne</roleDesc>
-              
-              <roleDesc>prinsessorna</roleDesc> <roleGroup corresp="#Trollsländor"><roleDesc>trollsländor</roleDesc></roleGroup> och <roleGroup corresp="#Lyktgubbar"><roleDesc>lyktgubbar</roleDesc></roleGroup>, som dansa, samt <roleGroup corresp="#Hovet"><roleDesc>hofvet</roleDesc> <roleGroup corresp="#Hovdamer"/><roleGroup corresp="#Hovmän"/></roleGroup>, som kan vara stort eller litet, blott icke för grannt.</castItem>
+            <castItem>LOTHAR, konung i Frankland.</castItem>
+            <castItem>BRUNHILDA, hans drottning.</castItem>
+            <castItem>PRINS CHILDEBERT, deras son.</castItem>
+            <castItem>GRIM, hofmarskalk.</castItem>
+            <castItem>MUMMA, öfverhofmästarinna.</castItem>
+            <castItem>PIMPE, konungens favoritdverg.</castItem>
+            <castItem>PUMPA, drottningens dverginna.</castItem>
+            <castItem>EN TRUBADUR,</castItem>
+            <castItem>Thora, Superba och Dina.</castItem>
+            <castItem>FÉN CHERISTANE, (Barbra), osynlig.</castItem>
+            <castItem>Stumma personer: Grefven och grefvin-nan af Paris, furstinnan af Rom, fursten af Östersjön, furstinnan af Sahara, prinsarne Amundus och Florestan, prinsessorna Flo-rinna och Törnrosa, riddaren Blåskägg, Lun-kentus, med flera, som man gärna vill återse. Dessutom trollsländor och lyktgubbar, som dansa, samt hofvet, som kan vara stort eller litet, blott icke för grannt.</castItem>
          </castList>
        </front>
         <body>
@@ -536,22 +519,22 @@
             <stage type="setting" who="#drottningen #grim #hovet #kungen #mumma #prinsen #pimpe #pumpa">Slottets thronsal. Konungen och drottningen sitta på sina throner, mottagande gäster. Närmast dem prinsen och sedan hofvet. Grim och Mumma an-mäla gästerna, som inträda när de uppropas, göra sin reverens för det kungliga och sedan stadna på sidan. Pimpe och Pumpa tassla högt i en vrå.</stage>
             <sp who="#grim">
               <speaker>Grim.</speaker>
-              <p/>
+              <p>Hans nåd grefven af Paris.</p>
            </sp>
             <stage type="entrance" who="#grefvenafparis"/>
             <sp who="#mumma">
               <speaker>Mumma.</speaker>
-              <p/>
+              <p>Hennes nåd grefvinnan af Paris.</p>
            </sp>
             <stage type="entrance" who="#grefvinnanafparis"/>
             <sp who="#grim">
               <speaker>Grim.</speaker>
-              <p/>
+              <p>Hans höghet fursten af Östersjön.</p>
            </sp>
             <stage type="entrance" who="#furstenafostersjon"/>
             <sp who="#mumma">
               <speaker>Mumma.</speaker>
-              <p/>
+              <p>Hennes höghet furstinnan af Rom.</p>
            </sp>
             <stage type="entrance" who="#furstinnanafrom"/>
             <sp who="#pimpe">
@@ -560,17 +543,17 @@
            </sp>
             <sp who="#pumpa">
               <speaker>Pumpa.</speaker>
-              <p>Hon?</p>
+              <p>Hon? Hennes far har pluggat latin i skolpojkar, och därför kallas hon furstinnan af Rom.</p>
            </sp>
             <sp who="#mumma">
               <speaker>Mumma.</speaker>
-              <p/>
+              <p>Hennes höghet furstinnan af Sahara.</p>
            </sp>
             <stage type="entrance" who="#furstinnanafsahara"/>
             <pb n="98"/>
             <sp who="#pimpe">
               <speaker>Pimpe.</speaker>
-              <p/>
+              <p>Sådan kamel !</p>
            </sp>
             <sp who="#pumpa">
               <speaker>Pumpa.</speaker>
@@ -578,7 +561,7 @@
            </sp>
             <sp who="#grim">
               <speaker>Grim.</speaker>
-              <p/>
+              <p>Hans kunglig höghet prins Flo-restan.</p>
            </sp>
             <stage type="entrance" who="#florestan"/>
             <sp who="#pimpe">
@@ -587,7 +570,7 @@
            </sp>
             <sp who="#mumma">
               <speaker>Mumma.</speaker>
-              <p/>
+              <p>Hennes kunglig höghet prinses-san Törnrosa.</p>
            </sp>
             <stage type="entrance" who="#tornrosa"/>
             <sp who="#pumpa">
@@ -596,7 +579,7 @@
            </sp>
             <sp who="#grim">
               <speaker>Grim.</speaker>
-              <p/>
+              <p>Hans kunglig höghet prins Amun-dus</p>
            </sp>
             <stage type="entrance" who="#amundus"/>
             <sp who="#pimpe">
@@ -605,21 +588,21 @@
            </sp>
             <sp who="#mumma">
               <speaker>Mumma.</speaker>
-              <p/>
+              <p>Hennes kunglig höghet prinses-san Florinna.</p>
            </sp>
             <stage type="entrance" who="#florinna"/>
             <sp who="#pumpa">
               <speaker>Pumpa.</speaker>
-              <p>Det var hon, som sjöng:</p>
+              <p>Det var hon, som sjöng: min sköna fågel blå, till mig du flyga må.</p>
            </sp>
             <sp who="#grim">
               <speaker>Grim.</speaker>
-              <p/>
+              <p>Välborne riddaren Blåskägg.</p>
            </sp>
             <stage type="entrance" who="#riddarblaskagg"/>
             <sp who="#pimpe">
               <speaker>Pimpe.</speaker>
-              <p>Nå, ingen skam! Hvar har han</p>
+              <p>Nå, ingen skam! Hvar har han sina sju hustrur ?</p>
            </sp>
             <sp who="#pumpa">
               <speaker>Pumpa.</speaker>
@@ -627,12 +610,12 @@
            </sp>
             <sp who="#grim">
               <speaker>Grim.</speaker>
-              <p/>
+              <p>Hans manhaftighet snabblöparen Lunkentus.</p>
            </sp>
             <stage type="entrance" who="#lunkentus"/>
             <sp who="#pumpa">
               <speaker>Pumpa.</speaker>
-              <p>Nej, nu börjar här komma bara simpelt folk. Jag ser intet till</p>
+              <p>Nej, nu börjar här komma bara simpelt folk. Jag ser intet till Bumburrifex. Är lyckan god, skall man få se, att också Mylly Matti, Lasse liten och Bullerbasius bli presenterade vid hofvet.</p>
            </sp>
             <sp who="#pimpe">
               <speaker>Pimpe.</speaker>
@@ -640,7 +623,7 @@
            </sp>
             <sp who="#mumma">
               <speaker>Mumma.</speaker>
-              <p/>
+              <p>Hennes kunglig höghet prin-sessan Thora af Burgund.</p>
            </sp>
             <stage type="entrance" who="#thora"/>
             <sp who="#pimpe">
@@ -649,7 +632,7 @@
            </sp>
             <sp who="#mumma">
               <speaker>Mumma.</speaker>
-              <p/>
+              <p>Hennes kunglig höghet prin-sessan Superba af Burgund.</p>
            </sp>
             <stage type="entrance" who="#superba"/>
             <sp who="#pumpa">
@@ -666,48 +649,48 @@
            </sp>
             <sp who="#kungen">
               <speaker>Kungen.</speaker>
-              <l/>
+              <l>Sköna damer, ädle herrar,</l>
               <l>Jag er tackar för den heder</l>
               <l>Att få här mottaga eder.</l>
               <l>Och nu ingen vägen spärrar</l>
               <l>Till en snurredans i salen.</l>
-              <l/>
-              <l>Gif signal åt</l>
-              <l/>
+              <l>Grim, ledsaga våra gäster,</l>
+              <l>Gif signal åt vår orkester !</l>
+              <l>Mumma, bjud konfekt på balen!</l>
            </sp>
-            <stage type="business"><stage type="exit" who="#grim #gaster #hovet #mumma #prinsen #superba #thora">Alla gå</stage>, utom</stage>
+            <stage type="business">Herrarna bjuda armen åt damerna. Prinsen bjuder sin arm åt Thora, som triumferar, medan Superba ej kan dölja sin afund. kungen, drottningen, Pimpe och Pumpa. Musik. <stage type="exit" who="#grim #gaster #hovet #mumma #prinsen #superba #thora">Alla gå</stage>, utom</stage>
             <sp who="#kungen">
               <speaker>Kungen.</speaker>
-              <l>Nu,</l>
+              <l>Nu, min drottning, skall vår son,</l>
               <l>För att rikets väl bevaka,</l>
               <l>Välja sig en värdig maka,</l>
-              <l>Det är</l>
-              <l>Hvem af</l>
+              <l>Det är prinsens lärospån.</l>
+              <l>Hvem af dessa damer alla.</l>
               <l>Vill du helst din dotter kalla?</l>
            </sp>
             <sp who="#drottningen">
               <speaker>Drottningen.</speaker>
               <l>Om hans lycka är jag mån.</l>
-              <l>Älskligare än</l>
+              <l>Älskligare än Florinna</l>
               <l>Kan man ju ej någon finna,</l>
               <l>Och en lyckligare lott,</l>
-              <l>Än den</l>
+              <l>Än den Törnerosa fått,</l>
               <l>Kan ju ingen dödlig vinna.</l>
            </sp>
             <sp who="#kungen">
               <speaker>Kungen.</speaker>
               <l>Sant. Men deras saga redan</l>
               <l>Slöts med bröllop längesedan.</l>
-              <l>Hvad sägs om</l>
+              <l>Hvad sägs om en romarinna ?</l>
            </sp>
             <sp who="#drottningen">
               <speaker>Drottningen.</speaker>
-              <l part="I">Fråga</l>
+              <l part="I">Fråga påfven !</l>
            </sp>
             <sp who="#kungen">
               <speaker>Kungen.</speaker>
-              <l part="F">Nej,</l>
-              <l>Men</l>
+              <l part="F">Nej, madam !</l>
+              <l>Men furstinnan af Sahara,</l>
               <l>Henne kan man ställa fram.</l>
               <l part="I">Mycket guldsand!</l>
            </sp>
@@ -719,7 +702,7 @@
             <sp who="#kungen">
               <speaker>Kungen.</speaker>
               <l>Ja, då återstå knappt flera,</l>
-              <l>Än</l>
+              <l>Än de två ifrån Burgund.</l>
            </sp>
             <sp who="#drottningen">
               <speaker>Drottningen.</speaker>
@@ -731,7 +714,7 @@
               <l>Döm för strängt ej deras sätt!</l>
               <l>Kunglig börd fördrar ej lätt</l>
               <l>Landsflykt, fattigdom, elände.</l>
-              <l/>
+              <l>Deras fader var min frände;</l>
               <l>En af dem, det är mitt val.</l>
            </sp>
             <sp who="#drottningen">
@@ -741,7 +724,7 @@
            </sp>
             <sp who="#pumpa">
               <speaker>Pumpa.</speaker>
-              <l/>
+              <l>Pimpe, säger du vid häcken</l>
               <l>Åt en fjäril: denna blomma</l>
               <l>Understå dig ej försumma;</l>
               <l part="I">Hon behagar mig?</l>
@@ -754,11 +737,11 @@
            </sp>
             <sp who="#drottningen">
               <speaker>Drottningen.</speaker>
-              <l rend="inline">Hör</l>
+              <l rend="inline">Hör min kung hvad de förtälja?</l>
            </sp>
             <sp who="#kungen">
               <speaker>Kungen.</speaker>
-              <l rend="inline">Ja...</l>
+              <l rend="inline">Ja... Vår son skall sjelf få välja.</l>
            </sp>
             <pb n="99"/>
             <sp who="#mumma">
@@ -767,24 +750,24 @@
               <l>Aldrig såg man mak-en förr!</l>
               <l>Oanmäld, okänd, objuden,</l>
               <l>Träder genom salens dörr</l>
-              <l/>
+              <l>En figur, helt visst ett troll,</l>
               <l>Fast anständig nog är skruden.</l>
               <l>Jag, som har om allt kontroll,</l>
-              <l>Ropar strax åt</l>
+              <l>Ropar strax åt trollet: håll!</l>
               <l>Men hvad tycks? Förtjust, bedraget</l>
               <l>Af det spökande behaget,</l>
-              <l/>
-              <l/>
-              <l>Bjuder</l>
+              <l>Hela hofvet står betaget.</l>
+              <l>Prinsen sjelf, som mistat sansen,</l>
+              <l>Bjuder trollet upp till dansen.</l>
               <l>Jag tar eld af raseri,</l>
               <l>O, jag dör... det är förbi!</l>
            </sp>
             <sp who="#kungen">
               <speaker>Kungen.</speaker>
-              <l/>
-              <l part="I">Öfver</l>
+              <l>Pimpe, häll en skopa vatten</l>
+              <l part="I">Öfver gumman !</l>
            </sp>
-            <stage type="business"/>
+            <stage type="business">Pimpe häller en karafin vatten öfver Mumma, som svimmat.</stage>
             <sp who="#mumma">
               <speaker>Mumma</speaker>
               <stage type="business">(hoppar upp).</stage>
@@ -795,10 +778,10 @@
               <l>Bra. Nog slocknar hon till natten.</l>
               <l>Låt oss se den nya skatten!</l>
            </sp>
-            <stage>Dörrarna uppslås. <stage type="entrance" who="#dina #prinsen">Dina inträder vid prinsens arm.</stage> <stage type="entrance" who="#barbra #grim #gaster #hovet #superba #thora">Efter dem hofvet, gästerna och fén Cheris-tane, osynlig.</stage> <stage type="business"/>.</stage>
+            <stage>Dörrarna uppslås. <stage type="entrance" who="#dina #prinsen">Dina inträder vid prinsens arm.</stage> <stage type="entrance" who="#barbra #grim #gaster #hovet #superba #thora">Efter dem hofvet, gästerna och fén Cheris-tane, osynlig.</stage> <stage type="business">Dina niger för de kungliga</stage>.</stage>
             <sp who="#kungen">
               <speaker>Kungen.</speaker>
-              <l>Var välkommen,</l>
+              <l>Var välkommen, sköna fröken,</l>
               <l>Bland de ärade besöken</l>
               <l>I vårt kungliga palats!</l>
               <l>För allt ädelt finns här plats.</l>
@@ -806,12 +789,12 @@
             <sp who="#mumma">
               <speaker>Mumma</speaker>
               <stage type="delivery">(argt).</stage>
-              <l>Får man</l>
+              <l>Får man nåden presentera</l>
               <l>Titel, rang och namn med mera?</l>
            </sp>
             <sp who="#dina">
               <speaker>Dina.</speaker>
-              <l>Tillåt,</l>
+              <l>Tillåt, eders majestät,</l>
               <l>Att ett grässtrå jag får kallas,</l>
               <l>Trampadt af er fot och allas,</l>
               <l>Men som kysser edra fjät!</l>
@@ -819,7 +802,7 @@
               <l>Som, okänd från fjerran dalar,</l>
               <l>Nattens tysta sorg hugsvalar</l>
               <l>Och bär svalka åt er kind.</l>
-              <p><stage type="delivery">(Sakta till</stage> Var det rätt, <stage type="business">(</stage></p>
+              <p>gudmor ? <stage type="delivery">(Sakta till Cheristane):</stage> Var det rätt, <stage type="business">(Cheristane nickar).</stage></p>
            </sp>
             <sp who="#kungen">
               <speaker>Kungen.</speaker>
@@ -828,8 +811,8 @@
            </sp>
             <sp who="#prinsen">
               <speaker>Prinsen</speaker>
-              <stage type="delivery">(till</stage>
-              <l>O,</l>
+              <stage type="delivery">(till drottningen).</stage>
+              <l>O, min mor, jag ser mig blind,</l>
               <l>Hör mig döf, ty ingen, ingen</l>
               <l>Mer än hon jag ser och hör.</l>
            </sp>
@@ -837,23 +820,23 @@
               <speaker>Mumma.</speaker>
               <l>Ja, förstås, man gör honnör.</l>
               <l>Var så god och lyfta vingen,</l>
-              <l>Ty</l>
-              <stage type="business">(</stage>
+              <l>Ty ett troll ju flyga bör!</l>
+              <stage type="business">(Dina vänder henne ryggen. Cheristane hotar med fingret).</stage>
            </sp>
             <sp who="#dina">
               <speaker>Dina</speaker>
-              <stage type="delivery">(till</stage>
+              <stage type="delivery">(till Mumma).</stage>
               <l>Oerfaren är jag visst</l>
               <l>Och förstår ej hofvets seder.</l>
               <l>Jag skall mycket tacka eder,</l>
               <l>Om ni rätta vill min brist.</l>
-              <p><stage type="delivery">(Sakta:</stage> Var det bra så, <stage type="business"/></p>
+              <p>gudmor ? <stage type="delivery">(Sakta:</stage> Var det bra så, <stage type="business">Cheristane nickar).</stage></p>
            </sp>
             <sp who="#thora">
               <speaker>Thora</speaker>
-              <stage type="delivery">(till</stage>
-              <l/>
-              <l>Var</l>
+              <stage type="delivery">(till Dina).</stage>
+              <l>Fröken okänd, eller hur,</l>
+              <l>Var er far en trubadur?</l>
            </sp>
             <sp who="#superba">
               <speaker>Superba.</speaker>
@@ -867,37 +850,37 @@
               <speaker>Dina</speaker>
               <stage type="delivery">(häftigt).</stage>
               <l>Hvilket yrke än han öfvat,</l>
-              <l>Aldrig har</l>
+              <l>Aldrig har min fader röfvat.</l>
            </sp>
             <sp who="#thora">
               <speaker>Thora.</speaker>
-              <l part="I">Hör på</l>
+              <l part="I">Hör på trollet !</l>
            </sp>
             <sp who="#superba">
               <speaker>Superba.</speaker>
-              <l part="F"/>
+              <l part="F">Komediant !</l>
            </sp>
             <sp who="#pimpe">
               <speaker>Pimpe.</speaker>
-              <l>Ser du,</l>
-              <l>Ögonen ur</l>
+              <l>Ser du, Pumpa, hur de klösa</l>
+              <l>Ögonen ur prinsens tös ?</l>
            </sp>
             <sp who="#dina">
               <speaker>Dina</speaker>
-              <stage type="business">(som ser</stage>
-              <l>Ack, förlåt</l>
-              <l>Om hon sårat</l>
-              <l>Finns ej från</l>
+              <stage type="business">(som ser Cheristane hota).</stage>
+              <l>Ack, förlåt en faderlös,</l>
+              <l>Om hon sårat faderlösa !</l>
+              <l>Finns ej från er faders borg</l>
               <l>Någon qvar, som vet er sorg?</l>
-              <p><stage type="delivery">(Sakta:</stage> Var det rätt nu, <stage type="business">(Cheri-stane nickar.)</stage></p>
+              <p>gudmor ? <stage type="delivery">(Sakta:</stage> Var det rätt nu, <stage type="business">(Cheri-stane nickar.)</stage></p>
            </sp>
             <sp who="#superba">
               <speaker>Superba.</speaker>
-              <l>Det angår er ej,</l>
+              <l>Det angår er ej, min sköna.</l>
            </sp>
             <sp who="#thora">
               <speaker>Thora.</speaker>
-              <l>Jo,</l>
+              <l>Jo, en liten sotig höna</l>
               <l>Krafsar aska i vår spis.</l>
               <l>Vacker är hon ej precis</l>
               <l>Och rätt dum naturligtvis.</l>
@@ -905,19 +888,19 @@
             <sp who="#kungen">
               <speaker>Kungen.</speaker>
               <l>Låt oss höra sång och cittra.</l>
-              <l/>
+              <l>Grim, låt glada strängar qvittra,</l>
               <l>Kalla hit från skogens stubbar</l>
-              <l/>
+              <l>Mina muntra lyktegubbar,</l>
               <l>Låt oss se i silfverglans</l>
-              <l/>
+              <l>Mina sländors myggedans!</l>
            </sp>
             <stage type="entrance" who="#lyktgubbar #trollslandor"/>
-            <stage type="business"><stage type="entrance" who="#entrubadur">En trubadur framträder</stage> och sjunger vid cittran. De öfvriga falla in i slutstroferna. Under sången dansa små</stage>
+            <stage type="business">trollsländor och lyktgubbar. <stage type="entrance" who="#entrubadur">En trubadur framträder</stage> och sjunger vid cittran. De öfvriga falla in i slutstroferna. Under sången dansa små</stage>
             <sp who="#entrubadur">
               <lg>
                 <head>Sländornas dans.</head>
                 <lg>
-                  <l>Här är</l>
+                  <l>Här är sagans kung. Hans rike är så stort.</l>
                   <l>Nu så öppnar han sin himmelshöga port.</l>
                   <l>Nattens gula måne ser från molnet ned,</l>
                   <l>Tusen stjernor gnistra öfver ljungahed,</l>
@@ -927,22 +910,22 @@
                </lg>
                 <pb n="100"/>
                 <lg>
-                  <l>Här är</l>
+                  <l>Här är sagans kung ! Hans rike är så stort.</l>
                   <l>Nu så öppnar han sin himmelshöga port.</l>
                   <l>Nattens gula måne ser från molnet ned,</l>
                   <l>Tusen stjernor gnistra öfver ljungahed,</l>
                   <l>Morgonstrimman lyser röd i dimman.</l>
                </lg>
                 <lg>
-                  <l>Upp,</l>
-                  <l>Upp,</l>
+                  <l>Upp, min lätta slända, blinka guld för oss!</l>
+                  <l>Upp, min lyktegubbe, sväng ditt blanka bloss!</l>
                   <l>Vackra elfvor dansa med i månskensqväll,</l>
                   <l>Ljusa féer slunga spjut mot drakens fjäll,</l>
                   <l>Och Guds englar skydda fattig hydda.</l>
                   <l>Kom, min saga, kom med barnets glada mod!</l>
                   <l>Lifvet är så skönt, och Gud han är så god.</l>
-                  <l>Upp,</l>
-                  <l>Upp,</l>
+                  <l>Upp, min lätta slända, blinka guld för oss!</l>
+                  <l>Upp, min lyktegubbe, sväng ditt blanka bloss!</l>
                   <l>Vackra elfvor dansa med i månskensqväll,</l>
                   <l>Ljusa féer slunga spjut mot drakens fjäll,</l>
                   <l>Och Guds englar skydda fattig hydda.</l>
@@ -951,24 +934,24 @@
            </sp>
             <sp who="#kungen">
               <speaker>Kungen.</speaker>
-              <l>Bra,</l>
+              <l>Bra, mitt fågelqvitter. Här</l>
               <l>Tag en lön för ditt besvär!</l>
-              <stage type="business">(Han lägger en guldkedja kring</stage>
-              <l>Och se här ett korn för</l>
+              <stage type="business">(Han lägger en guldkedja kring trubadurens hals)</stage>
+              <l>Och se här ett korn för myggen,</l>
               <l>När hon dansat af sig ryggen.</l>
-              <stage type="business">(Han utströr konfekt, som</stage>
-              <l/>
+              <stage type="business">(Han utströr konfekt, som sländor och lyktgub-bar begärligt uppsnappa).</stage>
+              <l>Min gemål, låt oss i salen</l>
               <l>Nu en stund betrakta balen.</l>
            </sp>
-            <stage type="exit" who="#dina #drottningen #entrubadur #grim #gaster #hovet #kungen #lyktgubbar #mumma #prinsen #superba #thora #trollslandor">De kungliga och alla, utom</stage>
+            <stage type="exit" who="#dina #drottningen #entrubadur #grim #gaster #hovet #kungen #lyktgubbar #mumma #prinsen #superba #thora #trollslandor">De kungliga och alla, utom Cheristane, Pimpe och Pumpa, gå. Dina vid prinsens arm.</stage>
             <sp who="#pumpa">
               <speaker>Pumpa</speaker>
-              <stage type="business">(med en blick på</stage>
+              <stage type="business">(med en blick på prinsen och Dina).</stage>
               <l>Bli de båda ej ett par,</l>
               <l>Kan ej flaggan vinden veta,</l>
               <l>Kan ej katten råttan leta,</l>
               <l>Höken aldrig dufvan tar,</l>
-              <l>Och jag vill ej</l>
+              <l>Och jag vill ej Pumpa heta.</l>
            </sp>
             <sp who="#pimpe">
               <speaker>Pimpe.</speaker>
@@ -976,8 +959,8 @@
               <l>Bli de par, de båda der,</l>
               <l>Då blir guld af solskensglitter</l>
               <l>Och latin af fågelqvitter,</l>
-              <l/>
-              <l>Och med krona</l>
+              <l>Blåskägg blir i Mumma kär,</l>
+              <l>Och med krona Pimpe sitter.</l>
            </sp>
             <sp who="#pumpa">
               <speaker>Pumpa.</speaker>
@@ -1006,7 +989,7 @@
             <sp who="#pumpa">
               <speaker>Pumpa.</speaker>
               <l>Vare sagdt. Men hvem slår af?</l>
-              <stage type="business">(De räcka hvarandra händerna.</stage>
+              <stage type="business">(De räcka hvarandra händerna. Cheristane slår af vadet).</stage>
            </sp>
             <sp who="#pimpe">
               <speaker>Pimpe.</speaker>
@@ -1028,7 +1011,7 @@
             <sp who="#dina">
               <speaker>Dina</speaker>
               <stage type="entrance" who="#dina">(instörtar flyende med venstra foten utan sko).</stage>
-              <l/>
+              <l>Gudmor, gudmor, rädda mig!</l>
            </sp>
             <sp who="#barbra">
               <speaker>Cheristane.</speaker>
@@ -1037,7 +1020,7 @@
             <stage type="exit" who="#barbra #dina">De försvinna genom väggen.</stage>
             <sp who="#pimpe">
               <speaker>Pimpe.</speaker>
-              <l part="F">Se på</l>
+              <l part="F">Se på trollet ! Klippt och skuren</l>
               <l>Till att flyga genom muren.</l>
            </sp>
             <sp who="#pumpa">
@@ -1048,36 +1031,36 @@
             <sp who="#pimpe">
               <speaker>Pimpe.</speaker>
               <l>Ja, visst flög hon som en kråka.</l>
-              <l/>
+              <l>Pumpa, börjar näsan bråka?</l>
            </sp>
             <stage type="entrance" who="#grim #gaster #hovet #mumma #prinsen #superba #thora">Prinsen rusar in med en hvit sidensko i sin hand. Efter honom gäster och hof.</stage>
             <sp who="#prinsen">
               <speaker>Prinsen.</speaker>
-              <l>Hvart försvann du, o,</l>
+              <l>Hvart försvann du, o, prinsessa ?</l>
               <l>Se, din sko du glömde qvar!</l>
               <l>Finns väl ett par skor som dessa?</l>
               <l>Se hur liten foten var!</l>
               <stage type="business">(kysser skon).</stage>
               <l>Sko, den vackra fot dig bar,</l>
-              <l>Den tillhör</l>
+              <l>Den tillhör min herskarinna !</l>
               <l>Men hvar skall jag henne finna?</l>
            </sp>
-            <stage type="business">Vid dessa ord bortsmussla <stage type="entrance" who="#drottningen #kungen">Kungen och drottningen inträda</stage>.</stage>
+            <stage type="business">Vid dessa ord bortsmussla alla ogifta damer i tysthet sin venstra sko. <stage type="entrance" who="#drottningen #kungen">Kungen och drottningen inträda</stage>.</stage>
             <sp who="#kungen">
               <speaker>Kungen.</speaker>
-              <l>Hvarför springer här</l>
+              <l>Hvarför springer här mitt hof</l>
               <l>Som en fårskock, med förlof?</l>
               <l>Har hon flytt? Nå, det var skada;</l>
-              <l>Hon var snäll,</l>
+              <l>Hon var snäll, den lilla glada.</l>
               <l>Har hon tappat ena skon</l>
               <l>Som en pant för sin person?</l>
-              <l>Nå, så sök</l>
+              <l>Nå, så sök dess egarinna !</l>
               <l>Hvem vill hundra guldmynt vinna?</l>
            </sp>
             <sp who="#mumma">
               <speaker>Mumma.</speaker>
               <l>Hvem vill rida qvast i natt,</l>
-              <l>Att få</l>
+              <l>Att få en trollpacka fatt?</l>
            </sp>
             <sp who="#prinsen">
               <speaker>Prinsen.</speaker>
@@ -1086,19 +1069,19 @@
             <pb n="101"/>
             <sp who="#drottningen">
               <speaker>Drottningen</speaker>
-              <stage type="delivery">(sakta till</stage>
-              <l/>
-              <l/>
+              <stage type="delivery">(sakta till kungen).</stage>
+              <l>Min gemål, se blott hur många</l>
+              <l>Sköna här i strumpfot gå;</l>
            </sp>
             <sp who="#kungen">
               <speaker>Kungen</speaker>
-              <stage type="delivery">(till</stage>
+              <stage type="delivery">(till Grim).</stage>
               <l rend="inline">Sök hvem skon kan passa på!</l>
            </sp>
-            <stage type="business"/>
+            <stage type="business">Grim profvar skon på de strumpfotade.</stage>
             <sp who="#pimpe">
               <speaker>Pimpe.</speaker>
-              <l/>
+              <l>Pumpa, Pumpa, titta då</l>
               <l>Hur de knipa hop sin tå!</l>
            </sp>
             <sp who="#grim">
@@ -1112,11 +1095,11 @@
               <l>Allt vårt rike må det höra:</l>
               <l>Mått skall tagas utan knot</l>
               <l>Af hvar ungmös venstra fot.</l>
-              <l>Och</l>
+              <l>Och den mö, hvars fot som gjuten</l>
               <l>Passar in i denna skon,</l>
-              <l>Blir</l>
+              <l>Blir vår sons gemål, och hon</l>
               <l>Ärfver, liksom han, vår thron.</l>
-              <l/>
+              <l>Grim, kungör det på minuten!</l>
            </sp>
             <sp who="#mumma">
               <speaker>Mumma.</speaker>
@@ -1125,7 +1108,7 @@
            </sp>
             <sp who="#grim">
               <speaker>Grim</speaker>
-              <stage type="delivery">(sakta till</stage>
+              <stage type="delivery">(sakta till Mumma).</stage>
               <l part="F">Åh, håll truten!</l>
            </sp>
             <sp who="#kungen">
@@ -1143,19 +1126,19 @@
             <sp who="#superba">
               <speaker>Superba.</speaker>
               <l part="F">Kan man tänka!</l>
-              <l>Vill han</l>
+              <l>Vill han oss prinsessor kränka?</l>
            </sp>
             <sp who="#prinsen">
               <speaker>Prinsen</speaker>
-              <stage type="business">(böjer knä för</stage>
-              <l>O,</l>
+              <stage type="business">(böjer knä för kungen).</stage>
+              <l>O, min konung, o, min far,</l>
               <l>Sant och vist du talat har!</l>
               <l>Kan du i mitt hjerta läsa?</l>
               <l>Der står hon, som skall bli min.</l>
            </sp>
             <sp who="#pimpe">
               <speaker>Pimpe.</speaker>
-              <l/>
+              <l>Pumpa, huru mår din näsa?</l>
            </sp>
             <sp who="#pumpa">
               <speaker>Pumpa.</speaker>
@@ -1172,7 +1155,7 @@
          </docTitle>
           <castList>
             <head rend="inline">Personer:</head>
-            <castItem><persName ref="#Trilla">Trilla</persName>, <roleDesc>(<persName ref="#Barbra">Che-ristane</persName>)</roleDesc>, <roleGroup corresp="#Hovmän"><roleDesc>hofmän</roleDesc></roleGroup> och</castItem>
+            <castItem>Prinsen, Grim, Trubaduren, Thora, Superba, Dina, Trilla, Barbra (Che-ristane), Pimpe, hofmän och vakt.</castItem>
          </castList>
        </front>
         <body>
@@ -1192,19 +1175,19 @@
                 <l>Tyst i natten brista?</l>
              </lg>
               <stage type="business">(Hon uppstår eftersinnande.)</stage>
-              <l/>
+              <l>Mina systrar sofva än.</l>
               <l>Morgonstädningen skall skötas,</l>
               <l>Annars får jag nog för den</l>
               <l>Stränga bannor, när vi mötas.</l>
               <stage type="business">(Sopar golfvet, stadnar och sopar åter).</stage>
               <l>Hur man drömmer underbart!</l>
               <l>Såg jag ej alldeles klart</l>
-              <l>Slottet...</l>
-              <l>Ja, och</l>
+              <l>Slottet... kungen... hofvet... salen,</l>
+              <l>Ja, och prinsen med på balen?</l>
               <l>Var jag ej prinsessa då?</l>
-              <l>Bjöd ej</l>
+              <l>Bjöd ej prinsen sjelf mig armen,</l>
               <l>Och han höll ju af mig så!..</l>
-              <l/>
+              <l>Mina systrar sågo på,</l>
               <l>Och de snäste mig i harmen...</l>
               <l>Men då blef jag ledsen, jo,</l>
               <l>Och så miste jag min sko,</l>
@@ -1226,7 +1209,7 @@
            </sp>
             <sp who="#dina">
               <speaker>Dina.</speaker>
-              <l/>
+              <l>Barbra,... säg mig sant och visst...</l>
               <l part="I">Är du fé?</l>
            </sp>
             <sp who="#barbra">
@@ -1239,8 +1222,8 @@
               <l>Nej, det är då intet troligt.</l>
               <l>Jag har drömt... men det var roligt!</l>
               <l>Du var fé och jag prinsessa,</l>
-              <l/>
-              <l>Och</l>
+              <l>Thora mig i armen grep</l>
+              <l>Och Superba hårdt mig knep.</l>
               <l>Då, i stället att processa,</l>
               <l>Slog jag med solfjädern dem,</l>
               <l>Miste skon och kom så hem...</l>
@@ -1248,14 +1231,14 @@
            </sp>
             <sp who="#barbra">
               <speaker>Barbra.</speaker>
-              <l/>
-              <l><stage type="delivery">(för sig)</stage> Om nu</l>
+              <l>Thoras måtte den väl vara.</l>
+              <l>prinsen henne glömt, <stage type="delivery">(för sig)</stage> Om nu</l>
               <l>Må hon tro, att hon har drömt.</l>
            </sp>
             <sp who="#dina">
               <speaker>Dina.</speaker>
-              <l/>
-              <l/>
+              <l>Thoras ? Ack, så dum jag är!</l>
+              <l>Thora glömt i natt den här.</l>
               <l>Alltid slarfvar hon med kläder.</l>
            </sp>
             <stage type="entrance" who="#superba #thora">Thora inträder omornad, gäspande, trött, med papiljotter i håret. Efter henne Superba, lika be-dröflig.</stage>
@@ -1265,25 +1248,25 @@
            </sp>
             <sp who="#superba">
               <speaker>Superba.</speaker>
-              <l/>
+              <l>Barbra, koka thé på fläder!</l>
               <l>Med krusmynta! Hur må gässen?</l>
            </sp>
             <stage type="exit" who="#barbra">Barbra går.</stage>
             <sp who="#thora">
               <speaker>Thora.</speaker>
               <l>Hade ni stor bal för bässen?...</l>
-              <l>Mig bjöd</l>
+              <l>Mig bjöd prinsen sjelf sin arm.</l>
            </sp>
             <sp who="#superba">
               <speaker>Superba.</speaker>
               <l>Nå, kantänka. Var han varm,</l>
-              <l>Ej var det för dig,</l>
+              <l>Ej var det för dig, min söta.</l>
            </sp>
             <sp who="#thora">
               <speaker>Thora.</speaker>
               <l>Mig han artigt sågs bemöta,</l>
               <l>Då med ens, till allmän harm,</l>
-              <l>Kom</l>
+              <l>Kom en okänd, listig hexa...</l>
            </sp>
             <sp who="#superba">
               <speaker>Superba.</speaker>
@@ -1316,15 +1299,15 @@
               <l part="F">Låt mig berätta!</l>
               <l>Tänk hvad väsen för allt detta!</l>
               <l>Det var som en dans på äggen,</l>
-              <l/>
-              <l/>
+              <l>Herrarne sig grep' om skäggen,</l>
+              <l>Hexan, hon flög genom väggen,</l>
            </sp>
             <sp who="#thora">
               <speaker>Thora.</speaker>
-              <l/>
+              <l>Prinsen kom med ena skon...</l>
               <l><stage type="delivery">(härmar)</stage> Hvar är maken? Hvar är hon?</l>
-              <l>Efterlys</l>
-              <l/>
+              <l>Efterlys en qvinnsperson !..</l>
+              <l>Sådan prins må trollet taga.</l>
            </sp>
             <sp who="#superba">
               <speaker>Superba.</speaker>
@@ -1353,12 +1336,12 @@
            </sp>
             <sp who="#thora">
               <speaker>Thora.</speaker>
-              <l part="F">Men hvar är</l>
+              <l part="F">Men hvar är Trilla ?</l>
            </sp>
             <sp who="#trilla">
               <speaker>Trilla</speaker>
               <stage type="entrance" who="#trilla">(hastigt in).</stage>
-              <l>Kam i håret,</l>
+              <l>Kam i håret, fröken lilla !</l>
               <l>Fort pomada! Toilett!</l>
               <l>Himlens dagar, har man sett</l>
               <l>Två, som äro nummer ett,</l>
@@ -1366,15 +1349,15 @@
               <l>När allt är som stekt på spett!</l>
               <l>Här är väsen, skall man tro,</l>
               <l>Man blir döf att höra skriket.</l>
-              <l/>
+              <l>Prinsen ger sig ingen ro,</l>
               <l>Förrän han fått fatt en sko,</l>
               <l>Och nu springer han kring riket</l>
-              <l>Med</l>
+              <l>Med sin Grim och tager mått</l>
               <l>Af hvar fot, båd' stort och smått.</l>
               <l>Sådant går ej af för stickor.</l>
-              <l>Det berättas, att</l>
+              <l>Det berättas, att sex flickor</l>
               <l>Huggit af sin stora tå,</l>
-              <l/>
+              <l>Fyra minst sin häl också,</l>
               <l>För att skon må passa på.</l>
               <l>Hvar minut han här kan stå.</l>
               <l>Ack, skall han min fot anamma?</l>
@@ -1382,14 +1365,14 @@
             <sp who="#thora">
               <speaker>Thora</speaker>
               <stage type="delivery">(brådt).</stage>
-              <l/>
-              <stage type="business">(</stage>
+              <l>Askeungen, kamma, kamma!</l>
+              <stage type="business">(Dina kammar Thoras hår).</stage>
            </sp>
             <sp who="#superba">
               <speaker>Superba.</speaker>
-              <l>Sök en yxa,</l>
+              <l>Sök en yxa, lata tossa,</l>
               <l>Och mät upp min fot med samma!</l>
-              <l>Jag är</l>
+              <l>Jag är prinsens rätta flamma,</l>
               <l>Om min halfva fot skall lossa.</l>
               <stage type="business">(Det klappar på dörren. Häpnad, brådska.)</stage>
            </sp>
@@ -1400,7 +1383,7 @@
             <sp who="#grim">
               <speaker>Grim</speaker>
               <stage type="location">(utanför).</stage>
-              <p>I</p>
+              <p>I kungens namn.</p>
            </sp>
             <sp who="#trilla">
               <speaker>Trilla.</speaker>
@@ -1421,7 +1404,7 @@
             <sp who="#thora">
               <speaker>Thora</speaker>
               <stage type="business">(kastar henne skon i ansiktet).</stage>
-              <l>Har jag tid med tossor,</l>
+              <l>Har jag tid med tossor, höna ?</l>
               <l>Mina balskor äro gröna.</l>
            </sp>
             <sp who="#dina">
@@ -1431,8 +1414,8 @@
             <stage type="business">Dörren stöts upp, <stage type="entrance" who="#grim #hovherre #vakt">Grim inträder med vakt och en hofherre</stage>, som bär en pall. <stage type="tableau">Tablå.</stage></stage>
             <sp who="#grim">
               <speaker>Grim.</speaker>
-              <l/>
-              <l/>
+              <l>Kronans bud ej vänta bör.</l>
+              <l>Konungens befallning hör!</l>
               <l>Hvarje mö skall utan träta</l>
               <l>Låta venstra foten mäta</l>
               <l>Här på denna kronans pall,</l>
@@ -1446,18 +1429,18 @@
            </sp>
             <sp who="#grim">
               <speaker>Grim</speaker>
-              <stage type="business">(mäter</stage>
+              <stage type="business">(mäter Thoras fot med prinsens sko).</stage>
               <l>Gåsfot... Ni kan gå. Hit, flera!</l>
            </sp>
             <sp who="#superba">
               <speaker>Superba.</speaker>
-              <l>Tror ni väl att</l>
+              <l>Tror ni väl att kungligt blod</l>
               <l>Lyder sådant öfvermod?</l>
            </sp>
             <sp who="#grim">
               <speaker>Grim.</speaker>
               <l>Foten! Intet resonera!</l>
-              <stage type="business">(</stage>
+              <stage type="business">(Superba stretar emot och mätes).</stage>
               <l>Kråkfot... Så. Ni kan marschera.</l>
               <l part="I">Nästa fot!</l>
            </sp>
@@ -1487,16 +1470,16 @@
            </sp>
             <sp who="#grim">
               <speaker>Grim.</speaker>
-              <l>Låt mig mäta om dig,</l>
+              <l>Låt mig mäta om dig, lilla !</l>
               <l>Längd... och bredd... och tå och häl...</l>
               <l>Allt som gjutet! Är det villa?</l>
            </sp>
             <sp who="#superba">
               <speaker>Superba.</speaker>
               <l>Man kan skratta sig ihjäl.</l>
-              <l/>
+              <l>Askeungen, hör du, Trilla,</l>
               <l>Hon, som aldrig ägt en känga,</l>
-              <l>Vill i</l>
+              <l>Vill i prinsens sko sig svänga!</l>
            </sp>
             <sp who="#thora">
               <speaker>Thora.</speaker>
@@ -1511,23 +1494,23 @@
             <stage type="entrance" who="#entrubadur #hovman #prinsen">Prinsen inträder med trubaduren och några af hofvet.</stage>
             <sp who="#trilla">
               <speaker>Trilla.</speaker>
-              <l part="I">Himmel, <stage type="tableau">(tablå)</stage>
+              <l part="I">Himmel, prinsen ! <stage type="tableau">(tablå)</stage>
                            </l>
            </sp>
             <sp who="#prinsen">
               <speaker>Prinsen.</speaker>
-              <l part="F"/>
+              <l part="F">Grim, hvad nytt?</l>
               <l>Jag min längtan ej kan styra.</l>
-              <l>Har du funnit, säg,</l>
+              <l>Har du funnit, säg, den dyra,</l>
               <l>Eller har har hon evigt flytt?</l>
            </sp>
             <sp who="#grim">
               <speaker>Grim.</speaker>
-              <l part="I">Här är hon,</l>
+              <l part="I">Här är hon, ers höghet.</l>
            </sp>
             <sp who="#prinsen">
               <speaker>Prinsen</speaker>
-              <stage type="business">(fattar</stage>
+              <stage type="business">(fattar Dinas hand).</stage>
               <l part="F">Samma</l>
               <l>Hand och samma ögas flamma.</l>
               <l>Fattig... och ändå så rik...</l>
@@ -1536,15 +1519,15 @@
             <sp who="#dina">
               <speaker>Dina.</speaker>
               <l>Nej, hvad han min dröm är lik!</l>
-              <l/>
+              <l>Gudmor ! Gudmor !</l>
            </sp>
-            <stage type="entrance" who="#barbra">Barbra står bakom</stage>
+            <stage type="entrance" who="#barbra">Barbra står bakom Dina som fé.</stage>
             <sp who="#barbra">
               <speaker>Cheristane.</speaker>
-              <p/>
+              <p>Prins Childebert af Frank-land, helsa din trolofvade, prinsessan Dina af Burgund ! Hennes fattigdom är endast en pröfning. Hon är dig värdig; hennes enda felsteg var att besvara en förolämpning. Detta fel har blifvit straffadt och förlåtet.</p>
               <p>Hon skall återtaga sin rätta gestalt, men till minne och varning skall hon gå barfota ända till bröllopsdagen.</p>
            </sp>
-            <stage type="business">Hon afkläder</stage>
+            <stage type="business">Hon afkläder Dinas blus och hufva. Dina står åter i sin kungliga drägt, men barfota.</stage>
             <sp who="#prinsen">
               <speaker>Prinsen.</speaker>
               <l>Ja, jag känner dig. Det bästa</l>
@@ -1562,19 +1545,19 @@
            </sp>
             <sp who="#superba">
               <speaker>Superba.</speaker>
-              <p/>
+              <p>Prins, man bedrager dig. Denna trollpacka är vår gamla gåsvakterska, Bar-bra, och denna trasunge ha vi prinsessor av barmhertighet upptagit från skogen.</p>
            </sp>
             <sp who="#thora">
               <speaker>Thora.</speaker>
-              <p>Nu belönar hon vår godhet med att objuden smyga sig till</p>
+              <p>Nu belönar hon vår godhet med att objuden smyga sig till kungens bal och innästla sig i höga personers ynnest. Är det ej sant, Trilla ?</p>
            </sp>
             <sp who="#trilla">
               <speaker>Trilla.</speaker>
-              <p>Ja, jag kan intyga, att alla kallat henne Askungen. <stage type="delivery">(Sakta till</stage> Låt mig blifva din kammartärna, så skall jag vittna, att</p>
+              <p>Ja, jag kan intyga, att alla kallat henne Askungen. dina systrar låtit dig äta med katten. <stage type="delivery">(Sakta till Dina).</stage> Låt mig blifva din kammartärna, så skall jag vittna, att</p>
            </sp>
             <sp who="#barbra">
               <speaker>Cheristane.</speaker>
-              <p><pb n="108"/> ty du förråder dem, hvilkas bröd du äter: jag förvandlar dig till en pladdrande skata.</p>
+              <p>konungadot-tern hennes faders arf och hans rikes krona. Deras tid är förbi, deras straff kommer. Thora, du är högmodig och fåfäng: jag för-vandlar dig till en påfågel. Superba, du är icke allenast högmodig och fåfäng, du är äfven lögnaktig och afundsjuk: jag förvand-lar dig till en korp. Och du, Trilla, är den falskaste och trolösaste af eder alla, <persName ref="#DrottningenafBurgund">Röfvarens enka</persName> stal <persName ref="#Dina">konungens dotter</persName> ur vaggan. <persName ref="#Superba #Thora">Röfvarens döttrar</persName>, som kalla sig prinsessor, stulo från <pb n="108"/> ty du förråder dem, hvilkas bröd du äter: jag förvandlar dig till en pladdrande skata.</p>
               <stage type="business">(höjer trollspöet)</stage>
               <lg rend="inline">
                 <l>Arigi davolna,</l>
@@ -1584,17 +1567,17 @@
             <sp who="#dina">
               <speaker>Dina</speaker>
               <stage type="business">(på knä).</stage>
-              <p>Nåd! Nåd för</p>
+              <p>Nåd! Nåd för mina foster-systrar ! De ha låtit mig lefva...</p>
            </sp>
             <sp who="#superba">
               <speaker>Superba.</speaker>
-              <p>Ja, det är</p>
+              <p>Ja, det är Thoras fel och blir nu vårt straff.</p>
            </sp>
             <sp who="#barbra">
               <speaker>Cheristane.</speaker>
-              <p>Det är eder räddning. För</p>
+              <p>Det är eder räddning. För eder fostersysters skull må ni behålla eder menskliga gestalt och tjena för daglön i främmande land. Men eder förvandling har redan börjat. Jag kan icke mera hjelpa, att ni få bära fågelklor på edra fingrar så länge ni lefva.</p>
            </sp>
-            <stage type="business"/>
+            <stage type="business">Thora, Superba och Trilla betrakta sina fing-rar, från hvilka långa fågelklor framsticka.</stage>
             <sp who="#superba">
               <speaker>Superba.</speaker>
               <p>Så ha vi något att klösa dig med!</p>
@@ -1606,11 +1589,11 @@
             <sp who="#thora">
               <speaker>Thora</speaker>
               <stage type="delivery">(gråtande).</stage>
-              <p>Förlåt mig,</p>
+              <p>Förlåt mig, Askunge ! Vårt straff är rättvist. Jag har varit hård mot dig, men tro mig, du var alltid mitt sjuka samvete.</p>
            </sp>
             <sp who="#dina">
               <speaker>Dina.</speaker>
-              <p>Ja, jag förlåter dig, jag förlåter eder alla. Du,</p>
+              <p>Ja, jag förlåter dig, jag förlåter eder alla. Du, Thora, var stundom vänlig mot mig. Du skall bo hos mig och alltid vara min syster, och hvar morgon skall jag klippa de fula klorna, så att ingen kan märka dem.</p>
            </sp>
             <sp who="#thora">
               <speaker>Thora.</speaker>
@@ -1618,7 +1601,7 @@
            </sp>
             <sp who="#superba">
               <speaker>Superba.</speaker>
-              <p>Låt oss gå,</p>
+              <p>Låt oss gå, Trilla ! Hvarför gaf ej hexan oss vingar med klorna? Jag önskar vi vore drakar. Ännu fins väl en saga qvar, der vi kunna uppsluka dumma prinsessor.</p>
            </sp>
             <sp who="#trilla">
               <speaker>Trilla.</speaker>
@@ -1630,24 +1613,24 @@
            </sp>
             <sp who="#prinsen">
               <speaker>Prinsen.</speaker>
-              <p>Låt oss nu skynda till slottet.</p>
+              <p>Låt oss nu skynda till slottet. Kungen och drottningen vänta otåligt sin återfunna dotter. Men hvad är det jag ser? Pimpe ! Och hur han ser ut!</p>
            </sp>
             <stage type="entrance" who="#pimpe">Pimpe inträder med en ofantligt lång näsa och skriker hvar gång han stöter den mot folk eller väggar.</stage>
             <sp who="#pimpe">
               <speaker>Pimpe.</speaker>
-              <p>Sexhundrafemtiosju fötter äro mätta, och ingen har passat i skon.</p>
+              <p>Sexhundrafemtiosju fötter äro mätta, och ingen har passat i skon. Bal-trollet —— au! —— har flugit sin väg eller klämt ihjäl sig i väggen. Jag har vunnit vadet. Himmelselement —— au! —— hvad Pumpas näsa nu måtte vara lång! Har nå-gon sett henne, —— au, au! —— att jag får skratta åt henne?</p>
            </sp>
             <sp who="#grim">
               <speaker>Grim.</speaker>
-              <p/>
+              <p>Pumpa behåller sin lilla trubb-näsa, men din tyckes ha vuxit ut till ett riktigt bogspröt.</p>
            </sp>
             <sp who="#pimpe">
               <speaker>Pimpe.</speaker>
-              <p>Hvad för något?.. Au, hvem understår sig att puffa i <stage type="business">(känner på näsan och finner ej dess ände)</stage>... Men hon räcker ju härifrån till Paris! Jo, jag är skön, jag kan visas för pengar, <stage type="exit" who="#pimpe">(springer bort).</stage></p>
+              <p>Hvad för något?.. Au, hvem understår sig att puffa i kungen får goda inkomster! Bog-spröt, säger han, au! Jag seglar, jag seglar. Nu återstår för mig intet annat —— au! —— än att uptäcka Amerika. <persName ref="#Pimpe">kungens Pimpe</persName>? Min näsa? Au!.. <stage type="business">(känner på näsan och finner ej dess ände)</stage>... Men hon räcker ju härifrån till Paris! Jo, jag är skön, jag kan visas för pengar, <stage type="exit" who="#pimpe">(springer bort).</stage></p>
            </sp>
             <sp who="#prinsen">
               <speaker>Prinsen</speaker>
-              <stage type="delivery">(till</stage>
+              <stage type="delivery">(till Dina).</stage>
               <l>Kom! Oss tillhör denna stund.</l>
               <l>Jag är svartsjuk på min lycka,</l>
               <l>Och jag fruktar hvar sekund,</l>
@@ -1657,10 +1640,10 @@
             <sp who="#dina">
               <speaker>Dina.</speaker>
               <l>Än en pligt mig återstår.</l>
-              <l>O,</l>
+              <l>O, mitt lifs beskyddarinna,</l>
               <l>Löna dig jag ej förmår,</l>
               <l>Men du skall mig tacksam finna.</l>
-              <stage type="business">(Hon kysser</stage>
+              <stage type="business">(Hon kysser Cheristanes hand).</stage>
            </sp>
             <sp who="#barbra">
               <speaker>Cheristane.</speaker>
@@ -1672,7 +1655,7 @@
             <sp who="#dina">
               <speaker>Dina.</speaker>
               <l>Ja... Men än en sak jag mins!</l>
-              <l>Säg mig nu,</l>
+              <l>Säg mig nu, min dyre prins,</l>
               <l>Har jag icke drömt och drömmer</l>
               <l>Jag ej än, fast jag det glömmer?</l>
               <l>Har jag verkligt funnit dig?</l>
@@ -1691,7 +1674,7 @@
               <l>Låt oss lefva i vår saga!</l>
               <l>Långt är då till lifvets slut.</l>
               <l>Dig skall ej din dröm bedraga.</l>
-              <l/>
+              <l>Trubadur, sjung sagan ut!</l>
            </sp>
             <stage type="exit" who="#grim #hovherre #hovman #vakt" cert="medium"/>
          </div>
