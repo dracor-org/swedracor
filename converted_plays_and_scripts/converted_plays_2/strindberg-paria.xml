@@ -1,0 +1,1143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- $Id: StrindbergA_Paria.xml 113246 2015-03-12 12:29:52Z eva $ -->
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="sv">Paria</title>
+        <title type="main" xml:lang="en">Pariah</title>
+        <title type="sub" xml:lang="sv">En akt. (Fritt efter en novell af Ola Hansson)</title>
+        <title type="sub" xml:lang="en">One Act. (Free After a Short Story by Ola Hansson)</title>
+        <title type="sub">Fritt efter en novell af Ola Hansson</title>
+        <author key="wikidata:Q7724">
+          <persName>
+            <forename>August</forename>
+            <surname>Strindberg</surname>
+         </persName>
+          <idno type="LIBRIS">http://libris.kb.se/auth/94541</idno>
+          <idno type="Litteraturbanken">http://litteraturbanken.se/#!forfattare/StrindbergA</idno>
+          <idno type="Riksarkivet">http://www.nad.riksarkivet.se/sbl/artikel/34518</idno>
+       </author>
+     </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000024</idno>
+        <availability>
+          <licence>
+            <ab>CC0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+         </licence>
+       </availability>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q10620375</idno>
+     </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title level="m">Tryckt och otryckt</title>
+          <idno type="URL">http://libris.kb.se/bib/1626620</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+         </availability>
+          <bibl type="originalSource">
+            <date type="print" when="1890">"1890" (http://libris.kb.se/bib/1626620)</date>
+            <date type="premiere"/>
+            <date type="written"/>
+         </bibl>
+          <pubPlace>Stockholm</pubPlace>
+          <publisher>Albert Bonniers förlag</publisher>
+          <date when="1890">1890</date>
+          <respStmt>
+            <resp>tryckning</resp>
+            <orgName>Alb. Bonniers boktryckeri</orgName>
+         </respStmt>
+          <biblScope unit="volume">I</biblScope>
+          <biblScope unit="page" from="103" to="134">103–134</biblScope>
+       </bibl>
+     </sourceDesc>
+   </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Dramawebben är ett digitalt arkiv över upphovsrättslig fri svensk dramatik. Dramatexterna finns återgivna i fulltext och är publicerade antingen i sk faksimil, ett pdf-dokument där originaltrycket återges som en digital fotokopia, eller i bearbetningsbar text, ett pdf-dokument med text och bild som kan användas för redigering. Dramawebben växer i takt med att nya verk blir kända. Med det digitala pjäsmaterialet tillgängliggör och aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
+     </projectDesc>
+      <samplingDecl>
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
+     </samplingDecl>
+      <classDecl>
+        <taxonomy xml:id="HISCO">
+          <biblStruct>
+            <monogr>
+              <author>Marco H.D. van Leeuwen</author>
+              <author>Ineke Maas</author>
+              <author>Andrew Miles</author>
+              <title>HISCO Historical International Standard Classification of Occupations</title>
+              <idno type="ISBN">90-5867-196-8</idno>
+              <imprint>
+                <publisher>Leuven University Press</publisher>
+                <pubPlace>Leuven</pubPlace>
+                <date when="2002">2002</date>
+             </imprint>
+           </monogr>
+         </biblStruct>
+       </taxonomy>
+     </classDecl>
+      <tagsDecl>
+        <rendition>
+          <!-- Scenanvisningar anges med en punktstorlek mindre /SB -->
+          <!-- Scenbeskrivning är i kursiv stil /TB -->
+          <!-- Rubriker är centrerade /EF -->
+          <!-- Scenanvisningar direkt efter talarrubrik är inline, vid flera rader indraget till rak vänstermarginal /EF -->
+          <!-- Fristående scenanvisningar är centrerade vid en rad; indragna första raden vid flera rader /EF -->
+          <!-- Stycken är indragna första raden /TB -->
+          <!-- Rollbeskrivningar i castItem är i kursiv stil /TB -->
+       </rendition>
+     </tagsDecl>
+   </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="sv">Swedish</language>
+     </langUsage>
+      <particDesc>
+        <listPerson>
+          <person xml:id="herr_y" sex="MALE">
+            <persName>herr Y, medelålders, entomolog</persName>
+         </person>
+          <person xml:id="herr_x" sex="MALE">
+            <persName>herr X, medelålders, arkeolog</persName>
+         </person>
+       </listPerson>
+     </particDesc>
+      <textClass>
+        <keywords>
+          <term subtype="" type="genreTitle"></term>
+       </keywords>
+     </textClass>
+   </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2019-08-04">(eg) convert from source</change>
+     </listChange>
+   </revisionDesc>
+ </teiHeader>
+  <text>
+    <anchor xml:id="playstart"/>
+    <front>
+      <pb facs="38603-0.jpg"/>
+      <!-- omslag -->
+      <gap reason="irrelevant"/>
+      <pb facs="38603-1.jpg"/>
+      <!-- omslag insida -->
+      <pb facs="38603-2.jpg"/>
+      <!-- smutstitel -->
+      <gap reason="irrelevant"/>
+      <pb facs="38603-3.jpg"/>
+      <!-- titelsida volym -->
+      <gap reason="irrelevant"/>
+      <pb facs="38603-4.jpg"/>
+      <!-- trycksida -->
+      <gap reason="irrelevant"/>
+      <pb facs="38603-5.jpg"/>
+      <!-- titelsida -->
+      <gap reason="irrelevant"/>
+      <pb facs="38603-6.jpg"/>
+      <!-- tom sida -->
+      <pb facs="38603-7.jpg"/>
+      <docTitle>
+        <titlePart type="main">Paria</titlePart>
+        <titlePart type="sub">En akt. (Fritt efter en novell af Ola Hansson)</titlePart>
+     </docTitle>
+   </front>
+    <body>
+      <castList>
+        <head>Personer:</head>
+        <castGroup rend="braced">
+          <castItem><role xml:id="spHerrX"> <persName ref="#HerrX">HERR X.</persName></role>, <roleDesc>arkeolog</roleDesc>.
+         </castItem>
+          <castItem><role xml:id="spHerrY"> <persName ref="#HerrY">HERR Y.</persName></role>, <roleDesc>resande från <placeName>Amerika</placeName>
+                       </roleDesc>.
+         </castItem>
+          <roleDesc>Medelålders män.</roleDesc>
+       </castGroup>
+     </castList>
+      <div type="act" n="1">
+        <head>Sceneri:</head>
+        <stage type="setting">
+          <p>Simpelt rum på landet; dörr och fönster i fonden utåt ett <lb/> landskap. Midt på golfvet ett stort matbord med böcker, skrif- <lb break="no"/> don, fornsaker på ena sidan; mikroskop, insektslådor, spritburkar <lb/> på den andra.</p>
+          <p>Till venster en bokhylla. Eljes möbleringen som hos en <lb/> förmögen bonde.</p></stage>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>
+            <p>(<stage type="entrance" who="#herry">Kommer in med insektshåf och portör, klädd i skjort- <lb break="no"/> ärmarne;</stage> går direkt fram till bokhyllan och tar ner en bok, <lb/> hvilken han ställer sig att läsa i.</p>
+            <p>Det ringer ut efter gudstjensten i landskyrkan; landskapet <lb/> och stugan äro starkt solbelysta.</p>
+            <p>Man hör då och då <persName ref="#Hönsen">hönsens</persName> skrockande utanför.)</p></stage>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <stage type="entrance" who="#herrx">(in i skjortärmarne).</stage>
+       </sp>
+        <pb facs="38603-8.jpg"/>
+        <fw type="pageNum">106</fw>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(far häftigt tillsammans, <lb/> ställer tillbaka boken upp
+            <lb/> och ner; låtsas söka en
+            <lb/> annan bok på hyllan).</stage>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Hvilken tryckande värme! Jag tror bestämdt <lb/> vi få åska!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Så-å! Hvarför tror du det?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Klockorna pingla så torrt, <persName ref="#Flugorna">flugorna</persName> stickas <lb/> och <persName ref="#Hönsen">hönsen</persName> skrocka. Jag skulle ut och fiska, <lb/> men kunde inte hitta en mask. Känner du inte <lb/> dig nervös?</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(eftertänksamt).</stage>
+          <p>Jag? — Åhjo!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Du ser då alltid ut, som om du väntade <lb/> åskväder, för resten!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(rycker till).</stage>
+          <p>Gör jag?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Nå, nu ska du resa i morgon också, så det <lb/> är inte underligt om du har kappsäcksfebern! <lb/> Hvad nytt? — Där är posten!</p>
+          <stage>(Tar upp bref från bordet.)</stage>
+          <p>Åh! Jag får hjärtklappning hvar gång jag <lb/> öppnar ett bref — bara skuld, skuld!</p>
+          <p>Har du haft skuld nån’sin?</p>
+       </sp>
+        <pb facs="38603-9.jpg"/>
+        <fw type="pageNum">107</fw>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(funderar).</stage>
+          <p>N-eej!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Ja, då förstår du inte hur det kan kännas <lb/> när obetalda räkningar komma.</p>
+          <stage>(Läser i ett bref.)</stage>
+          <p>Hyran obetald — <persName ref="#Värden">värden</persName> bråkar — <persName ref="#FruX">hustrun</persName> <lb/> förtviflad! Och jag, som sitter till armbågarna <lb/> i guld!</p>
+          <stage>(Öppnar ett järnbeslaget skrin, som står på bordet, vid <lb/> hvilket de sätta sig en på hvar sida.)</stage>
+          <p>Ser du, här har jag för sex tusen kronors <lb/> guldvärde, som jag gräft upp på fjorton dagar! <lb/> Jag behöfde bara den här armringen för att få <lb/> de trehundrafemtio kronor jag behöfver! Och <lb/> med alltsammans skulle jag göra mig en lysande <lb/> bana. Jag skulle naturligtvis strax låta rita och <lb/> skära figurerna till min afhandling och så skulle <lb/> jag trycka — och resa. Hvarför gör jag inte <lb/> det, tror du?</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Du är väl rädd att bli upptäckt!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Kanske det också! Men tror du inte att <lb/> en intelligent person, som jag, skulle kunna ställa <lb/> om att det inte blef upptäckt?</p>
+          <p>Jag går ju ensam — utan vittnen — och <lb/> rotar där ute i backarna. Hvad vore det för <lb/> märkvärdigt att stoppa litet i fickorna?</p>
+       </sp>
+        <pb facs="38603-10.jpg"/>
+        <fw type="pageNum">108</fw>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Ja, men afyttringen lär vara det farligaste!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Äh! Jag skulle naturligtvis smälta ner allt- <lb break="no"/> sammans och så skulle jag gjuta dukater — <lb/> fullviktiga naturligtvis —</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Naturligtvis!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Det kan du väl begripa! Ty ville jag göra <lb/> falskt mynt redan, så — inte behöfde jag gräfva <lb/> guld först!</p>
+          <stage>(Paus.)</stage>
+          <p>Det är märkvärdigt i alla fall; att om en <lb/> annan skulle göra det jag nu inte kan förmå <lb/> mig till, så skulle jag frikänna honom, men mig <lb/> själf skulle jag inte kunna frikänna. Jag skulle <lb/> kunna hålla ett lysande försvarstal för tjufven, <lb/> bevisa att detta guld var <emph>res nullius</emph> eller ingens, <lb/> då det kom i jorden på en tid, då ingen egande- <lb break="no"/> rätt fanns, att det icke nu heller egdes af annan <lb/> än den förstkommande, då jordegaren icke haft <lb/> det beräknadt i egendomsvärdet och så vidare!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Och du skulle detta sannolikt desto lättare <lb/> om, hm! tjufven icke stulit af nöd, utan till <lb/> exempel af samlarmani, af vetenskapligt intresse, <lb/> af äregirighet att få ega en upptäckt. Inte sant?</p>
+       </sp>
+        <pb facs="38603-11.jpg"/>
+        <fw type="pageNum">109</fw>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Du menar, att jag icke skulle kunna fri- <lb break="no"/> känna honom, om han stulit af nöd? Nej, ty <lb/> det är just det enda fallet, som lagen icke ur- <lb break="no"/> säktar! Det är simpel stöld det!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Och det skulle du inte ursäkta?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Hm! ursäkta! Det kunde jag väl inte, när <lb/> lagen icke ursäktar det. Och jag må bekänna, <lb/> att det blef mig svårt anklaga en samlare för <lb/> stöld, om han tog upp en i andras jord hittad <lb/> fornsak, som icke fanns i hans samling!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Alltså fåfängan, äregirigheten skulle ursäkta <lb/> hvad nöden icke ursäktade?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Och likafullt skulle nöden vara den starkare, <lb/> den enda ursäkten. Ja, det är så! Det kan <lb/> jag lika litet ändra, som jag kan ändra min <lb/> vilja att icke stjäla i något fall som helst!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Det räknar du då som en stor dygd, att <lb/> du inte kan, hm! stjäla!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Det är hos mig lika omotståndligt, som <lb/> lusten att stjäla är omotståndlig hos andra, och <lb/> alltså ingen dygd. Jag kan inte, och han kan <lb/> inte låta bli! — Du begriper väl, att be- <pb break="no" facs="38603-12.jpg"/><fw type="pageNum">110</fw>gäret att ega detta guld icke saknas hos mig! <lb/> Hvarför tar jag det inte då? Jag kan inte! <lb/> Det är en oförmåga, och en brist är ju icke en <lb/> dygd. Så! <stage>(Slår ihop skrinet.)</stage></p>
+       </sp>
+        <stage>(Det har dragit strömoln öfver landskapet och stundtals <lb/> förmörkat stugan. Nu mörknar det såsom vid annalkande
+          <lb/> åskväder.)</stage>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Så kvaft det är! Jag tror vi få åska!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(reser sig och stänger <lb/> dörrar och fönster).</stage>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Är du rädd för åskan?</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Man ska vara försiktig!</p>
+       </sp>
+        <stage>(De sätta sig igen vid bordet.)</stage>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Du är en kuriös kurre! Här slår du ner <lb/> som en bomb för fjorton dagar sedan, presen- <lb break="no"/> terar dig som en svensk amerikanare, som reser <lb/> i <persName ref="#Flugorna">flugor</persName> för <orgName ref="#Museet">ett litet museum</orgName> —</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Bry dig inte om mig nu!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Så säger du alltid, när jag tröttnar att tala <lb/> om mig själf och vill egna dig någon upp- <lb break="no"/> märksamhet. Det är kanske därför du blef <lb/> mig så sympatisk, för att du lät mig tala så <lb/> mycket om mig själf! Vi blefvo strax gamla <pb facs="38603-13.jpg"/><fw type="pageNum">111</fw> bekanta, du hade inga hörn, som jag kunde <lb/> stöta mig på, inga nålar som stuckos. Det var <lb/> något så mjukt i hela din person, du var så <lb/> full af hänsyn, som endast den mest bildade <lb/> kan ådagalägga; du bullrade aldrig, när du kom <lb/> sent hem, gjorde intet väsen när du steg upp
+            <lb/> om morgnarne, förbisåg småsaker, böjde undan
+            <lb/> när det drog sig till konflikt — med ett ord,
+            <lb/> du var den fullkomlige umgängesvännen! Men
+            <lb/> du var alldeles för undfallande, alldeles för nega- <lb break="no"/> tiv, för tyst, att jag i längden icke skulle re- <lb break="no"/> flektera öfver det — och du är full af fruktan
+            <lb/> och räddhåga — det ser ut, som om du vore
+            <lb/> en dubbelgångare. Vet du af, att när jag sitter
+            <lb/> här framför spegeln och ser din rygg — så är
+            <lb/> det, som om jag såg en annan menniska!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(vänder sig om och tittar <lb/> i spegeln).</stage>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Ja, du kan inte se dig själf på ryggen! <lb/> Framifrån ser du ut som en frimodig man, som <lb/> med öppet bröst går emot sitt öde, men på <lb/> ryggen — ja, jag vill inte vara oartig — men <lb/> det ser ut, som om du bar en börda, som om <lb/> du böjde dig undan för ett käpprapp, och när <lb/> jag ser dina röda hängslen korsa sig på den <lb/> hvita skjortan... så ser du ut, som ett stort <lb/> märke, ett varumärke på en packlår...</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(reser sig).</stage>
+          <p>Jag tror jag kväfs — om inte åskvädret <lb/> bryter ut snart!</p>
+       </sp>
+        <pb facs="38603-14.jpg"/>
+        <fw type="pageNum">112</fw>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Det kommer strax, var lugn bara! — Och <lb/> din nacke sen! Det ser ut, som om det satt <lb/> ett annat ansikte där, men ett ansikte af en <lb/> annan typ än ditt! Du är så förfärligt smal <lb/> mellan öronen, så att jag undrar ibland, hvad <lb/> du tillhör för ras!</p>
+          <stage>(Det blixtrar.)</stage>
+          <p>Den där såg ut, som om han slog ner hos <lb/><persName ref="#Länsman">länsmans</persName>!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(orolig).</stage>
+          <p>Hos <persName ref="#Länsman">l-länsman</persName>!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Ja, det såg ut så bara! Men det där åsk- <lb break="no"/> vädret få vi ingenting med af! Sitt ner nu och <lb/> låt oss språka, efter som du reser i morgon. —</p>
+          <p>Det är märkvärdigt, att du, som jag dock <lb/> strax blef intim med, tillhör de personer, hvilkas <lb/> bild jag icke kan framkalla, när de äro från- <lb break="no"/> varande. När du är ute på marken och jag er- <lb break="no"/> inrar dig, så får jag alltid fram <persName ref="#Stråman">en annan bekant</persName>, <lb/> som egentligen inte liknar dig, men med hvilken <lb/> du eger vissa likheter.</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Hvem är det?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Namnet vill jag inte säga! Emellertid, jag <lb/> åt middag på samma ställe i flera års tid och <lb/> träffade där vid smörgåsbordet <persName ref="#Stråman">en liten blond <pb facs="38603-15.jpg"/><fw type="pageNum">113</fw> man med blonda, utpinade ögon</persName>. Han hade <lb/> en otrolig förmåga, att uppträda i den värsta <lb/> trängsel, utan att knuffas eller bli knuffad; <lb/> han kunde, fastän han stod vid dörrn, ta en <lb/> brödskifva på tre alnars afstånd; han såg alltid <lb/> lycklig ut, att vara bland folk, och när han fick <lb/> se en bekant, föll han i gapskratt af förtjusning, <lb/> omfamnade och kringklappade honom, som om
+            <lb/> han inte råkat en menniska på åratal. Om
+            <lb/> någon trampade honom på foten, log han,
+            <lb/> såsom om han bad om ursäkt, att han gått i
+            <lb/> vägen.</p>
+          <p>I två år såg jag honom och roade mig med <lb/> att gissa hans yrke och karakter, men jag frå- <lb break="no"/> gade aldrig någon hvem han var, ty det ville <lb/> jag inte veta, emedan mitt nöje i samma stund <lb/> skulle upphöra.</p>
+          <p><persName ref="#Stråman">Denna man</persName> hade samma egenskap som du <lb/> — att vara obestämbar. Ibland gjorde jag honom <lb/> till ograduerad lärare, underofficer, pharmaceut, <lb/> landskanslist eller hemlig polis, och han tycktes <lb/> som du vara hopslagen af två olika stycken, ty <lb/> framsidan passade icke till baksidan.</p>
+          <p>En dag råkade jag läsa i tidningen om en <lb/> stor vexelförfalskning af <persName ref="#Förfalskaren">en bekant civil embets- <lb break="no"/> man</persName>. — Jag fick därpå veta, att <persName ref="#Stråman">min obestäm- <lb break="no"/> bare</persName> varit kompanjon till <persName ref="#FörfalskarensBror"><persName ref="#Förfalskaren">förfalskarens</persName> bror</persName> och <lb/> att han hette Stråman; och så upplystes jag, <lb/> att <persName ref="#Stråman">merbemälte Stråman</persName> förr idkat rörelse med <lb/> lånbibliotek; men att han nu var polisreferent i <pb facs="38603-16.jpg"/><fw type="pageNum">114</fw> en stor tidning. Hur kunde jag nu få något <lb/> sammanhang mellan förfalskning, polis och <persName ref="#Stråman">den <lb/> obestämbares</persName> ovanliga sätt att uppträda? Det <lb/> vet jag inte, men när jag frågade <persName ref="#Vännen">en vän</persName> om <lb/><persName ref="#Stråman">Stråman</persName> var straffad, svarade han hvarken ja <lb/> eller nej — han visste det inte!</p>
+       </sp>
+        <stage>(Paus.)</stage>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Nåå? Var han — straffad?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Nej. Han var ostraffad!</p>
+       </sp>
+        <stage>(Paus.)</stage>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Det var därför, menar du, som han hade en <lb/> sådan dragning till polisens närhet, och var så <lb/> rädd att stöta sig med menniskor?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Ja!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Blef du bekant med honom sen?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Nej, jag ville inte.</p>
+       </sp>
+        <stage>(Paus.)</stage>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Skulle du ha gjort bekantskap med honom <lb/> om han varit — straffad?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Ja, gärna!</p>
+       </sp>
+        <pb facs="38603-17.jpg"/>
+        <fw type="pageNum">115</fw>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(reser sig och går några <lb/> slag på golfvet).</stage>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Sitt stilla! — Hvarför kan du inte sitta <lb/> stilla!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Hvar har du fått denna fria syn på mensk- <lb break="no"/> liga förhållanden? Är du kristen?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Nej, det kan du väl höra!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(min).</stage>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Den kristne fordrar förlåtelse, men jag for- <lb break="no"/> drar straff för jämviktens återställande eller hvad <lb/> du vill kalla det för! Och du, som har <emph>suttit <lb/> inne</emph>, borde väl känna det.</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(stannar orörlig, betrak- <lb break="no"/> tande <persName ref="#HerrX">herr X.</persName>, först med
+            <lb/> vilda, hatfulla blickar,
+            <lb/> sedan med häpnad och
+            <lb/> beundran).</stage>
+          <p>Hur — kan — du — veta — det?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Jag kan ju se det!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Hur? Hur kan du se det?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Jag har lärt mig! Det är en konst det <lb/> med, som så många andra! Men nu ska vi inte <lb/> tala om den saken!</p>
+          <pb facs="38603-18.jpg"/>
+          <fw type="pageNum">116</fw>
+          <stage>(Ser på sitt ur, lägger fram ett papper för underskrifning, <lb/> doppar pennan och räcker åt <persName ref="#HerrY">herr Y</persName>.)</stage>
+          <p>Jag måste tänka på mina trassliga affärer. <lb/> Var nu snäll och bevittna min namnteckning <lb/> på det där reversalet, som jag skall lemna in i <lb/><orgName ref="#MalmöBank">Malmö bank</orgName> i morgon när jag följer dig.</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Jag ämnar inte resa öfver <placeName>Malmö</placeName>!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Inte?</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Nej!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Men du kan ju bevittna namnteckningen i <lb/> alla fall.</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>N-nej! — Jag skrifver aldrig mitt namn på <lb/> några papper —</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>— mer! Det är femte gången du vägrar, att <lb/> skrifva ditt namn! Första gången var på ett <lb/> postkvitto — det var då jag började observera <lb/> dig; och nu har jag bemärkt, att du har en <lb/> fasa för att ta i penna med bläck. Du har <lb/> inte afsändt ett bref, sedan du kom hit; men <lb/> ett brefkort, och det skref du med blåpenna. <lb/> Förstår du nu, att jag räknat ut ditt felsteg!</p>
+          <p>Vidare! Det är väl sjunde gången du <lb/> nekar att följa med till <placeName>Malmö</placeName>, dit du icke varit <pb facs="38603-19.jpg"/><fw type="pageNum">117</fw> under denna tid. Och ändå har du kommit hit <lb/> från <placeName>Amerika</placeName> bara för att få se <placeName>Malmö</placeName>. Och <lb/> du går hvarje morgon en half mil söderut till <lb/> kvarnbacken för att få se taken i <placeName>Malmö</placeName>! Och <lb/> när du står där vid högra fönstret och tittar ut <lb/> genom tredje rutan till venster nerifrån räknadt, <lb/> så ser du spirorna på slottet och skorstenarne <lb/> på <orgName ref="#Fängelset">länets cellfängelse</orgName>.</p>
+          <p>Ser du nu att det inte är jag som är så <lb/> kvick, utan du som är så dum!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Nu föraktar du mig!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Nej!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Jo, det gör du, det måste du göra!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Nej! — Se här har du min hand!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(kysser den räckta handen).</stage>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <stage>(rycker tillbaks handen).</stage>
+          <p>Hvad är det för hundfasoner!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Förlåt mig; men ni var den första, som <lb/> räckte mig handen efter att ha fått veta —</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Och nu vill du inte dua mig längre! — <lb/> Detta skrämmer mig, att du inte efter utståndet <lb/> straff känner dig upprättad, i nivå, rentvådd, <pb facs="38603-20.jpg"/><fw type="pageNum">118</fw> lika god som en ann! Vill du tala om för mig <lb/> hur det gick till! Vill du det?</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(skrufvar sig).</stage>
+          <p>Ja, men du ska inte tro hvad jag säger; <lb/> jag ska tala om det, och du ska se, att jag inte <lb/> är någon <emph>vanlig</emph> förbrytare, du ska bli öfver- <lb break="no"/> tygad om, att det finns felsteg, som äro så att <lb/> säga, ofrivilliga.— <stage>(skrufvar)</stage> som liksom kommer <lb/> af sig själft — spontant — utan fri vilja, och <lb/> som man inte rår för! — Får jag öppna dörren <lb/> lite, jag tror att åskvädret har gått öfver!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Var så god!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(öppnar dörren; därpå <lb/> sätter han sig vid bordet
+            <lb/> och berättar följande med
+            <lb/> torr entusiasm, teatraliska
+            <lb/> åtbörder och falska ac- <lb break="no"/> center).</stage>
+          <p>Jo! Ser du! Jag var student i <placeName>Lund</placeName> och <lb/> skulle en gång ha ett banklån. Jag hade inga <lb/> farliga skulder och <persName ref="#HerrYsFar">min far</persName> egde något litet — <lb/> visserligen inte mycket! Emellertid hade jag <lb/> sändt bort reversalet till <persName ref="#Borgensmannen">andra borgensmannen</persName> <lb/> att få det underskrifvet och mot all förväntan <lb/> erhöll jag det tillbaka med vägran. — Jag satt en <lb/> stund bedöfvad af slaget, ty det var en obehag- <lb break="no"/> lig öfverraskning, mycket obehaglig! — Pappe- <lb break="no"/> ret låg framför mig på bordet och brefvet låg <pb facs="38603-21.jpg"/><fw type="pageNum">119</fw> bredvid. Mina ögon irrade först tröstlöst öfver
+            <lb/> de fatala raderna, som innehöllo min dom —
+            <lb/> det var visserligen inte någon dödsdom, ty jag
+            <lb/> kunde mycket lätt få andra borgensmän, så
+            <lb/> många jag ville för öfrigt — men, som sagdt,
+            <lb/> det var mycket obehagligt som det var; och
+            <lb/> hur jag sitter där i min oskuld, stanna blickarne
+            <lb/> så småningom på denna namnteckning under
+            <lb/> brefvet, hvilken på sin rätta plats kanske
+            <lb/> skulle ha gjort min framtid. Det var en
+            <lb/> ovanligt kalligrafisk namnteckning — du vet,
+            <lb/> att man i tankarna kan sitta och kluttra fullt
+            <lb/> ett läskpapper med de mest betydelselösa ord.
+            <lb/> Jag hade pennan i hand — <stage>(fattar pennan)</stage> så här,
+            <lb/> och hur det är, börjar den gå — jag vill nu
+            <lb/> inte påstå, att det låg något mystiskt — spiri- <lb break="no"/> tistiskt bakom det — ty sådant tror jag inte
+            <lb/> på! — det var en ren tanklös mekanisk process
+            <lb/> — när jag satt och kopierade den vackra auto- <lb break="no"/> grafen gång på gång — naturligtvis utan någon
+            <lb/> afsikt att vinna någon fördel. När brefvet var full- <lb break="no"/> klottradt hade jag vunnit en fullkomlig skicklig- <lb break="no"/> het att teckna namnet — <stage>(kastar häftigt bort pennan)</stage>
+            <lb/> och så glömde jag bort alltsammans. Om natten
+            <lb/> sof jag djupt och tungt — och när jag vaknade,
+            <lb/> kände jag på mig, att jag drömt, men kunde ej
+            <lb/> erinra mig drömmen; ibland var det dock som
+            <lb/> det gläntade på en dörr och jag såg skrifbordet
+            <lb/> med reversalet såsom ett minne — och när jag
+            <lb/> steg upp drefs jag fram mot bordet, alldeles
+            <lb/> såsom om jag efter mogen öfverläggning fattat
+            <pb facs="38603-22.jpg"/>
+                        <fw type="pageNum">120</fw> det oryggliga beslutet att skrifva detta namn
+            <lb/> under det ödesdigra papperet. Alla tankar på
+            <lb/> följderna, på risken hade försvunnit — ingen
+            <lb/> tvekan fanns — det var nästan som om jag
+            <lb/> uppfyllt en dyr plikt — och jag skref! <stage>(Springer <lb/> upp.)</stage> Hvad kan detta vara? Är det en ingifvelse,
+            <lb/> en suggestion det kallas? Men från hvem? Jag
+            <lb/> sof ju ensam i rummet! Kunde det vara mitt
+            <lb/> ociviliserade jag, vilden som icke erkänner för- <lb break="no"/> drag, hvilken under det mitt medvetande sof,
+            <lb/> trädde fram med sin brottsliga vilja och sin oför- <lb break="no"/> måga att beräkna en handlings följder? Säg,
+            <lb/> hvad tror du om den saken?</p>
+       </sp>
+        <!--"vilden som icke erkänner fördrag", enligt Nationalupplagan anspelning på Jean-Jacques Rousseau. 1762. Du contrat social ou Principes du droit publiques /EF-->
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <stage>(pinar fram följande).</stage>
+          <p>Uppriktigt sagdt, din historia tillfredsställer <lb/> mig icke fullt — där fanns luckor, men det kan <lb/> bero på, att du icke nu mins alla detaljer — <lb/> och om brottsliga ingifvelser har jag läst ett och <lb/> annat — vill jag erinra mig — hm! — Men det <lb/> är detsamma det — du har fått din korrigering <lb/> — och du har haft panna att vidgå din förseelse. <lb/> Nu tala vi inte mer om det!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Jo, jo, jo, vi ska tala mera om det; vi ska <lb/> tala så, att jag får fullt medvetande om min <lb/> obrottslighet.</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Har du inte det då?</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Nej, det har jag inte.</p>
+       </sp>
+        <pb facs="38603-23.jpg"/>
+        <fw type="pageNum">121</fw>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Ja, ser du, det är det som oroar mig! Det <lb/> är det som oroar mig! — Tror du icke, att <lb/> hvarje menniska har ett lik i lasten. Ha vi inte <lb/> stulit och ljugit som barn allesamman? Jo, säkert. <lb/> Nå, nu finns det menniskor, som förbli barn hela <lb/> sitt lif, så att de icke kunna styra sina lagstri- <lb break="no"/> diga begär. Kommer nu bara tillfället, så är <lb/> brottslingen färdig! — Men jag kan inte förstå, <lb/> att du inte känner dig oskyldig! När barnet <lb/> anses otillräkneligt, så skulle väl brottslingen <lb/> också anses så.</p>
+          <p>Det är märkvärdigt — ja, det är detsamma, <lb/> jag får kanske ångra det sen —</p>
+          <stage>(Paus.)</stage>
+          <p>Jag har dödat <persName ref="#Statkarlen">en menniska</persName>, jag, och jag <lb/> har aldrig haft några skrupler!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(ytterligt intresserad).</stage>
+          <p>Har — du?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Ja, just jag! — Kanske du inte vill ta <persName ref="#HerrX">en <lb/> mördare</persName> i hand?</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(nytert).</stage>
+          <p>Ah, så du talar!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Ja, men jag är ostraffad!</p>
+       </sp>
+        <pb facs="38603-24.jpg"/>
+        <fw type="pageNum">122</fw>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(intimt, öfverlägset).</stage>
+          <p>Desto bättre för dig! — Hur smet du ifrån <lb/> det då?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Det fanns ingen åklagare, inga misstankar, <lb/> inga vittnen. Saken gick nämligen till så här. <lb/> — <persName ref="#Kamraten">En kamrat</persName> hade en jul bjudit mig ut på jagt <lb/> utanför <placeName>Upsala</placeName>. Mot mig sänder han <persName ref="#Statkarlen">en gam- <lb break="no"/> mal försupen statkarl</persName>, som somnar på kusk- <lb break="no"/> bocken, kör fast i grindhål och välter i diken. <lb/> Jag vill inte skylla på någon lifsfara, utan i <lb/> ett anfall af otålighet slår jag honom till slut <lb/> en halskaka, för att väcka honom, men med <lb/> den påföljd, att han aldrig vaknade mer, utan <lb/> var död på fläcken!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(listigt).</stage>
+          <p>Nåå, och du angaf dig inte?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Nej, på följande grunder. <persName ref="#Statkarlen">Mannen</persName> hade <lb/> inga anhöriga eller andra, för hvilka hans lif var <lb/> nödvändigt, han hade lefvat ut sin vegetations- <lb break="no"/> period, hans plats kunde strax intagas af en som <lb/> bättre behöfde den; under det å andra sidan <lb/> jag var oumbärlig för <persName ref="#HerrXsFar #HerrXsMor">mina föräldrars</persName> lycka, för <lb/> min egen och kanske för vetenskapens. Genom <lb/> sakens utgång var jag redan korrigerad från <lb/> lusten att utdela halskakor, och för att tillfreds- <lb break="no"/> ställa en abstrakt rättvisa, hade jag icke lust att <lb/> förderfva <persName ref="#HerrXsFar #HerrXsMor">mina föräldrars</persName> och mitt lif!</p>
+       </sp>
+        <pb facs="38603-25.jpg"/>
+        <fw type="pageNum">123</fw>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Jaså, det är så du bedömer menniskovärde?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>I föreliggande fall, ja!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Men skuldkänslan, jämvigten då?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Jag hade ingen skuldkänsla, ty jag hade icke <lb/> begått något brott. Halskakor hade jag fått <lb/> och gifvit som pojke; och det var endast min <lb/> okunnighet om dylikas verkan på äldre folk, som <lb/> vållade den dödliga utgången.</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Ja, men det är ända till två års straffarbete <lb/> för vådadråp — lika mycket som för — namn- <lb break="no"/> skrifning.</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Jag har nog tänkt på det också, må du tro! <lb/> Och mången natt har jag drömt, att jag var i <lb/> fängelse! Häu! du, är det så svårt som det <lb/> sägs att sitta inom lås och bom?</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Jo, du, det är svårt. — Först vanställer <lb/> man ditt yttre, genom att klippa af dig håret, så <lb/> att om du inte såg ut som en förbrytare förut, <lb/> så gör du det efteråt, och när du tittar dig i <lb/> en spegel, så blir du öfvertygad om, att du är <lb/> en bandit!</p>
+       </sp>
+        <pb facs="38603-26.jpg"/>
+        <fw type="pageNum">124</fw>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Det är masken, som rycks af, kanske! Det <lb/> är inte så illa uträknadt!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Skämta du! — Och så sätter man ner din <lb/> kost, så att du hvarje dag och timma känner en <lb/> bestämd skilnad mellan lif och död! Alla lifs- <lb break="no"/> funktioner nertryckas, du känner hur du krym- <lb break="no"/> per, och din själ, som skulle botas här, för- <lb break="no"/> bättras, sättes på svältkur, pressas tillbaka till <lb/> tusen år i förfluten tid; du får bara läsa skrifter, <lb/> som äro författade för folkvandringstidens vildar, <lb/> du får bara höra om, hvad som aldrig skall <lb/> komma att passera i himlen; men hvad som <lb/> händer på jorden förblir en hemlighet; du ryckes <lb/> lös ur din omgifning, flyttas ner ur din klass, <lb/> kommer under dem, som äro under dig, får <lb/> visioner af att lefva i bronsåldern, känner dig, <lb/> som om du ginge i djurhud, bodde i håla och
+            <lb/> åt ur en ho! Oh!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Ja, men det är ju förnuft i det; ty den som <lb/> uppför sig, såsom han vore från bronsåldern, <lb/> skall väl lefva i sin historiska kostym.</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(ilsket).</stage>
+          <p>Du hånar, du! Du som farit fram som en <lb/> stenåldersmenniska! och ändå får lefva i guld- <lb break="no"/> åldern.</p>
+       </sp>
+        <pb facs="38603-27.jpg"/>
+        <fw type="pageNum">125</fw>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <stage>(forskande, skarpt).</stage>
+          <p>Hvad menar du med det sista ordet — <lb/> guldåldern?</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(lömskt).</stage>
+          <p>Ingenting alls!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Det ljuger du, ty du är för feg att säga <lb/> din hela mening!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Är jag feg? Tror du det? Jag var inte <lb/> feg, när jag vågade uppträda på denna trakt, <lb/> där jag lidit så som jag gjort. — Men vet du <lb/> hvad man lider mest af, när man sitter därinne? <lb/> — Jo, du; det är af det, att de andra inte sitta <lb/> där också!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Hvilka andra?</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>De ostraffade!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Alluderar du på mig?</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Ja!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Jag har icke begått något brott!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Såå, inte det?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Nej, en olycka är icke något brott!</p>
+       </sp>
+        <pb facs="38603-28.jpg"/>
+        <fw type="pageNum">126</fw>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Jaså, det är en olycka att man begår mord?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Jag har inte begått mord?</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Såå, det är inte mord att slå ihjäl <persName ref="#Statkarlen">en men- <lb break="no"/> niska</persName>?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Nej, inte alltid! Det finns dråp, vådadråp, <lb/> misshandel med dödlig utgång, med under- <lb break="no"/> afdelningarne i afsikt och utan afsikt. Emeller- <lb break="no"/> tid — nu är jag riktigt rädd för dig — ty du <lb/> tillhör den farligaste kategorien af medmenniskor <lb/> — de dumma!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Jaså, du inbillar dig, att jag är dum! Hör <lb/> du! Vill du ha ett bevis på, att jag är mycket <lb/> slug?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Låt höra!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Vill du erkänna, att jag resonnerar klokt <lb/> och följdriktigt, när jag säger så här?</p>
+          <p>Du har råkat ut för en olycka, som skulle <lb/> kunnat ådraga dig två års straffarbete. Du har <lb/> sluppit undan det vanärande straffet, helt och <lb/> hållet. Här sitter nu <persName ref="#HerrY">en man</persName> — som varit offer <lb/> för en olycka — en omedveten ingifvelse — <lb/> och fått lida två års straffarbete. <persName ref="#HerrY">Denna man</persName> <pb facs="38603-29.jpg"/><fw type="pageNum">127</fw> kan endast genom stora vetenskapliga meriter <lb/> aftvå den fläck, som han ofrivilligt fått på sig <lb/> — men för dessa meriters ernående måste han <lb/> ha pengar — mycket pengar — och pengar nu
+            <lb/> genast!</p>
+          <p>Tycker inte du, att <persName ref="#HerrX">den andre</persName> — den <lb/> ostraffade — skulle återställa jämvigten i de <lb/> menskliga förhållandena, om han dömdes till en <lb/> försvarlig mansbot? Tycker du inte det?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <stage>(lugnt).</stage>
+          <p>Joo!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Nå, då förstå vi hvarann! — Hm!</p>
+          <stage>(Paus.)</stage>
+          <p>Hur mycket anser du skäligt?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Skäligt! Lagen bestämmer mansbot till mi- <lb break="no"/> nimum femtio kronor. Men som <persName ref="#Statkarlen">den aflidne</persName> <lb/> icke har några anhöriga, förfaller allt tal om den <lb/> saken.</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Jaså, du vill inte förstå! Då ska jag tala <lb/> tydligare: det är till mig du skall erlägga boten.</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Det har jag aldrig hört, att <persName ref="#HerrX">dråpare</persName> ska <lb/> erlägga mansbot till <persName ref="#HerrY">förfalskare</persName>. — Och här <lb/> finns eljes ingen åklagare!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Inte? — Jo — här har du mig!</p>
+       </sp>
+        <pb facs="38603-30.jpg"/>
+        <fw type="pageNum">128</fw>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Nu börjar det på att reda sig! — Hur <lb/> mycket begär du för att bli medbrottsling i <lb/> dråpet?</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Sex tusen kronor!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Det är för mycket! — Hvar ska jag ta dem <lb/> ifrån?</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(pekar på skrinet).</stage>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Det vill jag inte! Jag vill inte bli tjuf.</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Gör dig inte till. Vill du inbilla mig, att <lb/> du inte huggit ur skrinet förut?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <stage>(liksom för sig själf).</stage>
+          <p>Tänk, att jag kunde misstaga mig så kapi- <lb break="no"/> talt! Men så är det med de mjuka! Man <lb/> tycker om de mjuka naturerna, och så tror man <lb/> så lätt, att man är omtyckt: och just därför har <lb/> jag varit på min vakt mot dem jag tyckt om! <lb/> — Jaså, det är din fulla öfvertygelse, att jag <lb/> tagit ur skrinet förut?</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Jo, säkert!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Och nu anger du mig, om du inte får sex <lb/> tusen kronor?</p>
+       </sp>
+        <pb facs="38603-31.jpg"/>
+        <fw type="pageNum">129</fw>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Alldeles bestämdt! Det kan du inte komma <lb/> ifrån, så att det inte är värdt att du försöker!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Du tror, att jag vill ge <persName ref="#HerrXsFar">min far</persName> en tjuf till <lb/> son, <persName ref="#FruX">min hustru</persName> en tjuf till man, <persName ref="#Barnen">mina barn</persName> en <lb/> tjuf till far och <persName ref="#Kollegorna">mina kamrater</persName> en tjuf till äm- <lb break="no"/> betsbroder! Det skall aldrig komma att ske! <lb/> — Nu går jag till <persName ref="#Länsman">länsman</persName> och anger mig!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(springer upp och samlar <lb/> sina saker).</stage>
+          <p>Vänta lite!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>På hvad?</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(stammande).</stage>
+          <p>Jag tänkte bara — att när jag inte behöfs <lb/> mer — så behöfde jag inte vara närvarande — <lb/> och kunde få gå!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Det får du inte! — Sitt nu ner på din plats <lb/> vid bordet, där du satt, så ska vi tala litet <lb/> först.</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(sätter sig, sedan han tagit <lb/> på en mörk rock).</stage>
+          <p>Hva, hva ska bli af nu!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <stage>(tittar i spegeln bakom <lb/><persName ref="#HerrY">herr Y</persName>).</stage>
+          <p>Nu har jag det klart! Oh! —</p>
+       </sp>
+        <pb facs="38603-32.jpg"/>
+        <fw type="pageNum">130</fw>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(oroligt).</stage>
+          <p>Hvad ser du nu för märkvärdigt?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Jag ser i spegeln, att du är en tjuf — en <lb/> simpel, vanlig tjuf! — Nyss när du satt i hvita <lb/> skjortan, märkte jag bara att det var något i <lb/> olag på min bokhylla, men jag kunde inte fatta <lb/> hvad, ty jag skulle höra på dig, och observera <lb/> dig. Nu sedan du blef mig antipatisk, skärptes min <lb/> blick, och sedan du fick din svarta rock på dig <lb/> som färgmotsättning mot den röda bokryggen, <lb/> som förr inte syntes mot dina röda hängslen, <lb/> så ser jag, att du varit och läst öfver din för- <lb break="no"/> falskningshistoria i <persName ref="#Bernheim">Bernheims</persName> afhandling om in- <lb break="no"/> gifvelser och ställt tillbaks boken upp och ner. <lb/> Du stal alltså den historien också!</p>
+          <p>På grund af detta anser jag mig ha rätt <lb/> att sluta, det du begått ditt brott af nöd eller <lb/> njutningslystnad!</p>
+       </sp>
+        <!--Enligt Nationalupplagan Hippolyte Bernheim, De la suggestion et de ses applications à la thérapeutique, 1884 /EF-->
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Af nöd! Om du visste —</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Om <emph>du</emph> visste, i hvilken nöd jag lefvat — <lb/> och lefver! Men det hör inte hit! — Vidare! <lb/> Att du suttit inne — det är nästan säkert; men <lb/> det var i <placeName>Amerika</placeName>, ty det var amerikanskt <lb/> fängelselif du skildrade; ett annat är nästan lika <lb/> säkert, att du inte suttit af ditt straff här.</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Hur kan du säga det?</p>
+       </sp>
+        <pb facs="38603-33.jpg"/>
+        <fw type="pageNum">131</fw>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Vänta till <persName ref="#Länsman">länsman</persName> kommer, får du veta det!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(reser sig).</stage>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Ser du det! Första gången jag nämnde <lb/><persName ref="#Länsman">länsman</persName> i sammanhang med åskslaget, så ville du <lb/> också springa! Och när en person suttit i <orgName ref="#Fängelset">ett <lb/> fängelse</orgName>, vill han aldrig gå till en kvarnbacke <lb/> hvar dag och titta på det, eller ställa sig bakom <lb/> en fönsterruta —</p>
+          <p>Med ett ord: du är både en straffad och <lb/> en ostraffad! Och det var därför du var så <lb/> ovanligt svår att komma på!</p>
+       </sp>
+        <stage>(Paus.)</stage>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(fullständigt slagen).</stage>
+          <p>Får jag gå nu?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Nu får du gå!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(samlar sina saker).</stage>
+          <p>Är du ond på mig?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Ja! — tycker du mer om, att jag ömkar dig!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(vresigt).</stage>
+          <p>Ömkar? Anser du dig bättre än jag?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X <choice><sic>,</sic> <corr>.</corr></choice>
+                   </speaker>
+          <p>Visst gör jag det, efter som jag är bättre <lb/> än du! Jag eger större klokhet än du och är <lb/> förmånligare för den allmänna eganderätten.</p>
+       </sp>
+        <pb facs="38603-34.jpg"/>
+        <fw type="pageNum">132</fw>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Du är ganska listig, men icke så listig som <lb/> jag! Jag står själf i schack, men i nästa drag <lb/> kan du vara matt — likafullt.</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <stage>(fixerar Y.).</stage>
+          <p>Ska vi brytas ett tag till? — Hvad ämnar <lb/> du nu göra för ondt?</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Det är min hemlighet.</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Får jag se på dig? — Du tänker skrifva <lb/> ett anonymt bref till <persName ref="#FruX">min hustru</persName> och tala om <lb/> min hemlighet!</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Ja, och det kan du inte hindra! Fängsla <lb/> mig, törs du inte; alltså måste du låta mig gå; <lb/> och när jag gått, kan jag göra hvad jag vill!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Ack <persName ref="#HerrY">du djäfvel</persName>! Du träffade min Achilles- <lb break="no"/> häl — vill du tvinga mig att bli mördare?</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Det kan du inte bli — <persName ref="#HerrX">stackare</persName>!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Ser du, att det är skilnad på folk! Och <lb/> du känner det på dig, att jag inte kan begå <lb/> sådana handlingar som du; därför har du öfver- <lb break="no"/> taget. Men tänk, om du tvang mig att göra <lb/> med dig, som jag gjorde med <persName ref="#Statkarlen">kusken</persName>!</p>
+          <stage>(Lyfter handen såsom för att slå en halskaka.)</stage>
+       </sp>
+        <pb facs="38603-35.jpg"/>
+        <fw type="pageNum">133</fw>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <stage>(ser <persName ref="#HerrX">X.</persName> stinnt i ansiktet).</stage>
+          <p>Det kan du inte! Det kan den inte, som <lb/> inte kunde ta sin räddning ur skrinet!</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Du tror alltså inte, att jag tagit ur skrinet?</p>
+       </sp>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Du var för feg! Liksom du var för feg, <lb/> att tala om för <persName ref="#FruX">din hustru</persName>, att hon var gift med <lb/><persName ref="#HerrX">en mördare</persName>.</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Du är en annan slags menniska än jag — <lb/> om starkare eller svagare — det vet jag inte — <lb/> brottsligare eller icke — rör mig inte! men att <lb/> du är dummare, det är afgjordt, ty du var dum <lb/> när du skref <persName ref="#Borgensmannen">en annans</persName> namn i stället för att <lb/> tigga — som jag fått lof att göra; du var dum, <lb/> när du gick och stal ur min bok — kunde du <lb/> inte begripa, att jag läst mina böcker? — Du <lb/> var dum, när du trodde, att du var klokare <lb/> än jag och att du kunde narra mig bli tjuf; <lb/> du var dum, när du tyckte det skulle bli jäm- <lb break="no"/> vikt därmed, att världen fick två tjufvar i stället <lb/> för en, och du var allra dummast, när du in- <lb break="no"/> billade dig, att jag gått och byggt upp mitt
+            <lb/> lifs lycka utan att ha lagt hörnstenen säkert! Gå
+            <lb/> du och skrif anonyma bref till <persName ref="#FruX">min hustru</persName> om
+            <lb/> att <persName ref="#HerrX">hennes man</persName> är dråpare — det visste hon
+            <lb/> redan som fästmö!</p>
+          <p>Ger du dig nu?</p>
+       </sp>
+        <pb facs="38603-36.jpg"/>
+        <fw type="pageNum">134</fw>
+        <sp who="#herr_y">
+          <speaker>HERR Y.</speaker>
+          <p>Får jag gå?</p>
+       </sp>
+        <sp who="#herr_x">
+          <speaker>HERR X.</speaker>
+          <p>Nu <emph>ska</emph> du gå! Genast! — Dina saker ska <lb/> komma efter! Ut!</p>
+       </sp>
+     </div>
+   </body>
+    <back>
+      <pb facs="38603-37.jpg"/>
+      <!-- tom sida -->
+      <pb facs="38603-38.jpg"/>
+      <!-- omslag, andra böcker -->
+      <gap reason="irrelevant"/>
+      <div type="editorial">
+        <listPerson>
+          <listPerson type="cast">
+            <person xml:id="HerrX" sex="male">
+              <persName>
+                <roleName>herr</roleName>
+                <surname>X</surname>
+             </persName>
+              <age>medelålders</age>
+              <occupation scheme="#HISCO" code="19290">arkeolog</occupation>
+           </person>
+            <person xml:id="HerrY" sex="male">
+              <persName>
+                <roleName>herr</roleName>
+                <surname>Y</surname>
+             </persName>
+              <age>medelålders</age>
+              <occupation scheme="#HISCO" code="05190">entomolog</occupation>
+           </person>
+         </listPerson>
+          <listPerson type="noncast">
+            <listPerson type="fictive">
+              <person xml:id="FruX" sex="female"/>
+              <listPerson>
+                <personGrp xml:id="Barnen" sex="unknown">
+                  <age>barn</age>
+               </personGrp>
+             </listPerson>
+              <person xml:id="Värden" sex="male"/>
+              <listPerson>
+                <personGrp xml:id="Flugorna" sex="unknown" role="animal"/>
+             </listPerson>
+              <listPerson>
+                <personGrp xml:id="Hönsen" sex="unknown" role="animal"/>
+             </listPerson>
+              <person xml:id="HerrYsFar" sex="male"/>
+              <person xml:id="HerrXsFar" sex="male"/>
+              <person xml:id="HerrXsMor" sex="female"/>
+              <person xml:id="Kamraten" sex="male"/>
+              <listPerson>
+                <personGrp xml:id="Kollegorna" sex="unknown"/>
+             </listPerson>
+              <person xml:id="Förfalskaren" sex="male">
+                <occupation scheme="#HISCO" code="20210" cert="medium">civil ämbetsman</occupation>
+                <!-- 20210 government administrator, 20110 legislative official -->
+             </person>
+              <person xml:id="FörfalskarensBror" sex="male"/>
+              <person xml:id="Vännen" sex="male"/>
+              <person xml:id="Stråman" sex="male">
+                <persName>
+                  <surname>Stråman</surname>
+               </persName>
+                <occupation scheme="#HISCO" code="15930">polisreferent</occupation>
+                <occupation scheme="#HISCO" code="19190" cert="medium" notAfter-custom="#playstart">drev rörelse med lånbibliotek</occupation>
+             </person>
+              <person xml:id="Borgensmannen" sex="male"/>
+              <person xml:id="Statkarlen">
+                <occupation scheme="#HISCO" code="62105">statkarl</occupation>
+             </person>
+              <person xml:id="Länsman" sex="male">
+                <persName>
+                  <roleName>länsman</roleName>
+               </persName>
+                <occupation scheme="#HISCO" code="12910">länsman</occupation>
+             </person>
+           </listPerson>
+            <listPerson type="historical">
+              <person xml:id="Bernheim" sex="male">
+                <persName>
+                  <forename>Hippolyte</forename>
+                  <surname>Bernheim</surname>
+               </persName>
+                <occupation scheme="#HISCO" code="06105">läkare</occupation>
+                <occupation scheme="#HISCO" code="05110">neurolog</occupation>
+                <idno type="Wikipedia" xml:lang="en">http://en.wikipedia.org/wiki/Hippolyte_Bernheim</idno>
+             </person>
+           </listPerson>
+         </listPerson>
+          <listRelation>
+            <relation type="other" name="hotar" mutual="#HerrX #HerrY"/>
+            <relation type="other" name="vill.hämta" active="#HerrX" passive="#Länsman"/>
+            <relation type="other" name="förfalskade" active="#HerrY" passive="#Borgensmannen" notAfter-custom="#playstart"/>
+            <relation type="other" name="stjäl.historia.från" active="#HerrY" passive="#Bernheim"/>
+            <relation type="other" name="dödade" active="#HerrX" passive="#Statkarlen" notAfter-custom="#playstart"/>
+            <relation type="other" name="likn." active="#HerrY" passive="#Stråman"/>
+            <relation type="other" name="satt.i" active="#HerrY" passive="#Fängelset" notAfter-custom="#playstart"/>
+            <relation type="other" name="vill.låna.i" active="#HerrX" passive="#MalmöBank"/>
+            <relation type="personal" name="gift" mutual="#FruX #HerrX"/>
+            <relation type="personal" name="barn" active="#Barnen" passive="#FruX #HerrX"/>
+            <relation type="other" name="gäldenär" active="#HerrX" passive="#Värden"/>
+            <relation type="social" name="hyresvärd" active="#Värden" passive="#HerrX"/>
+            <relation type="social" name="entomolog" active="#HerrY" passive="#Museet"/>
+            <relation type="other" name="sticker" active="#Flugorna" passive="#HerrX"/>
+            <relation type="other" name="samlar" active="#HerrY" passive="#Flugorna"/>
+            <relation type="personal" name="höns" active="#Hönsen" passive="#Värden" cert="medium"/>
+            <relation type="personal" name="son" active="#HerrY" passive="#HerrYsFar"/>
+            <relation type="personal" name="son" active="#HerrX" passive="#HerrXsFar #HerrXsMor"/>
+            <relation type="personal" name="kamrat" mutual="#HerrX #Kamraten"/>
+            <relation type="social" name="statkarl" active="#Statkarlen" passive="#Kamraten"/>
+            <relation type="personal" name="kamrat" mutual="#HerrX #Kollegorna"/>
+            <relation type="personal" name="bror" mutual="#Förfalskaren #FörfalskarensBror"/>
+            <relation type="social" name="kompanjon" mutual="#FörfalskarensBror #Stråman" notAfter-custom="#playstart"/>
+            <relation type="personal" name="vän" mutual="#HerrX #Vännen"/>
+            <relation type="personal" name="bekant" mutual="#Stråman #Vännen"/>
+         </listRelation>
+       </listPerson>
+        <listOrg>
+          <org xml:id="MalmöBank"/>
+          <org xml:id="Fängelset"/>
+          <org xml:id="Museet"/>
+       </listOrg>
+     </div>
+   </back>
+    <anchor xml:id="playend"/>
+ </text>
+</TEI>

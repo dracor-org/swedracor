@@ -1,0 +1,848 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- $Id: MeyersonG_DenNyaKlassen.xml 116584 2015-05-20 14:12:15Z sveljo $ -->
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="sv">Den nya klassen</title>
+        <title type="main" xml:lang="en">The New Class</title>
+        <title type="sub" xml:lang="sv">En liten nyårspjes att spelas i jullofvet</title>
+        <title type="sub" xml:lang="en">A Little New Year's Play to Be Played in the Christmas Holiday</title>
+        <author key="wikidata:Q4967157">
+          <persName>
+            <forename>Gerda</forename>
+            <surname>Meyerson</surname>
+         </persName>
+          <idno type="LIBRIS">http://libris.kb.se/auth/229139</idno>
+          <idno type="SBL">http://www.nad.riksarkivet.se/sbl/artikel/9335</idno>
+       </author>
+     </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000008</idno>
+        <availability>
+          <licence>
+            <ab>CC0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+         </licence>
+       </availability>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59618652</idno>
+     </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title level="j" type="main">Snöflingan</title>
+          <title level="j" type="sub">Barnens jultidning</title>
+          <idno type="URL">http://libris.kb.se/bib/2831910</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+         </availability>
+          <bibl type="originalSource">
+            <date type="print" when="1897">"1897" (http://libris.kb.se/bib/2831910)</date>
+            <date type="premiere"/>
+            <date type="written"/>
+         </bibl>
+          <pubPlace>Stockholm</pubPlace>
+          <publisher>Albert Bonniers förlag</publisher>
+          <date when="1897">1897</date>
+          <biblScope unit="volume">8</biblScope>
+          <biblScope unit="page" from="13" to="16">13–16</biblScope>
+       </bibl>
+     </sourceDesc>
+   </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Dramawebben är ett digitalt arkiv över upphovsrättslig fri svensk dramatik. Dramatexterna finns återgivna i fulltext och är publicerade antingen i sk faksimil, ett pdf-dokument där originaltrycket återges som en digital fotokopia, eller i bearbetningsbar text, ett pdf-dokument med text och bild som kan användas för redigering. Dramawebben växer i takt med att nya verk blir kända. Med det digitala pjäsmaterialet tillgängliggör och aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
+     </projectDesc>
+      <samplingDecl>
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
+     </samplingDecl>
+      <classDecl>
+        <taxonomy xml:id="HISCO">
+          <biblStruct>
+            <monogr>
+              <author>Marco H.D. van Leeuwen</author>
+              <author>Ineke Maas</author>
+              <author>Andrew Miles</author>
+              <title>HISCO Historical International Standard Classification of Occupations</title>
+              <idno type="ISBN">90-5867-196-8</idno>
+              <imprint>
+                <publisher>Leuven University Press</publisher>
+                <pubPlace>Leuven</pubPlace>
+                <date when="2002">2002</date>
+             </imprint>
+           </monogr>
+         </biblStruct>
+       </taxonomy>
+     </classDecl>
+      <tagsDecl>
+        <rendition>
+          <!-- Scenanvisningar anges med kursiv stil -->
+          <!-- Texten är uppdelad i två kolumner -->
+          <!-- Talarrubriker är i kapitäler (dvs. rollnamn, övrigt i normal stil=emph) och inline, repliker är indragna första raden; vid omstart efter sång nytt indrag (rend=ind) /EF -->
+          <!-- Sångtexter (lg) är centrerade, med vänsterställda rader (någon extra indragen, rend=ind) /EF -->
+          <!-- Titel och rollista är placerade i bilden (nederst i mitten) /EF -->
+          <!-- Roller i rolllistan är i kursiva /EF -->
+          <!-- Rubriker är centrerade /EF -->
+          <!-- Rumsbeskrivningar är i normal stil med mindre punktstorlek /EF -->
+       </rendition>
+     </tagsDecl>
+   </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="sv">Swedish</language>
+     </langUsage>
+      <particDesc>
+        <listPerson>
+          <person xml:id="tiden" sex="MALE">
+            <persName>Tiden, skolmästare</persName>
+         </person>
+          <person xml:id="tomten" sex="MALE">
+            <persName>Tomten</persName>
+         </person>
+          <person xml:id="januarius" sex="MALE">
+            <persName>Januarius, barn</persName>
+         </person>
+          <person xml:id="februarius" sex="MALE">
+            <persName>Februarius, barn</persName>
+         </person>
+          <person xml:id="mars" sex="MALE">
+            <persName>Mars, barn</persName>
+         </person>
+          <person xml:id="aprilla" sex="FEMALE">
+            <persName>Aprilla, barn</persName>
+         </person>
+          <person xml:id="maja" sex="FEMALE">
+            <persName>Maja, barn</persName>
+         </person>
+          <person xml:id="augusta" sex="FEMALE">
+            <persName>Augusta Sommar, barn</persName>
+         </person>
+          <person xml:id="julius" sex="MALE">
+            <persName>Julius Sommar, barn</persName>
+         </person>
+          <person xml:id="junia" sex="FEMALE">
+            <persName>Junia Sommar, barn</persName>
+         </person>
+          <person xml:id="septembrus" sex="MALE">
+            <persName>Septembrus, barn</persName>
+         </person>
+          <person xml:id="oktobra" sex="FEMALE">
+            <persName>Oktobra, barn</persName>
+         </person>
+          <person xml:id="novembrus" sex="MALE">
+            <persName>Novembrus, barn</persName>
+         </person>
+          <person xml:id="decembra" sex="MALE">
+            <persName>Decembra, barn</persName>
+         </person>
+       </listPerson>
+     </particDesc>
+      <textClass>
+        <keywords>
+          <term subtype="" type="genreTitle"></term>
+       </keywords>
+     </textClass>
+   </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2019-08-04">(eg) convert from source</change>
+     </listChange>
+   </revisionDesc>
+ </teiHeader>
+  <text>
+    <anchor xml:id="playstart"/>
+    <front>
+      <pb facs="36998-0.jpg"/>
+      <!-- omslag tidskrift -->
+      <gap reason="irrelevant"/>
+      <pb facs="36998-1.jpg"/>
+      <figure>
+        <graphic url="MeyersonG_DenNyaKlassen-1.jpeg"/>
+        <figDesc>Blåtonad teckning av rollfigurerna, med enskilda rutor i tre rader om fem rutor för Januarius, Februarius, Mars, Aprilla, Maja, Junia, Julius, Augusta, Septembrus, Oktobra, Tiden, Novembrus, Decembra och tomten.</figDesc>
+        <bibl>
+          <author role="illustrator" ref="#LarssonN">Nils Larsson</author>
+          <date when="1897">97</date>
+       </bibl>
+     </figure>
+      <gap reason="irrelevant"/>
+      <!-- titel och undertitel -->
+      <docTitle>
+        <titlePart type="main">Den nya klassen</titlePart>
+        <titlePart type="sub">En liten nyårspjes att spelas i jullofvet</titlePart>
+     </docTitle>
+   </front>
+    <body>
+      <castList>
+        <head>Personer:</head>
+        <castItem><role xml:id="spTiden"> <persName ref="#Tiden">Tiden</persName></role>, <roleDesc>en gammal skolmästare</roleDesc>.
+       </castItem>
+        <castItem type="list" rend="braced"><role xml:id="spJanuarius"> <persName ref="#Januarius">Januarius</persName></role>,
+          <role xml:id="spFebruarius"><persName ref="#Februarius">Februarius</persName></role>,
+          <lb/><role xml:id="spMars"> <persName ref="#Mars">Mars</persName></role>,
+          <role xml:id="spAprilla"><persName ref="#Aprilla">Aprilla</persName></role>,
+          <role xml:id="spMaja"><persName ref="#Maja">Maja</persName></role>,
+          <lb/><role xml:id="spJunia"> <persName ref="#Junia">Junia</persName></role>,
+          <role xml:id="spJulius"><persName ref="#Julius">Julius</persName></role>,
+          <role xml:id="spAugusta"><persName ref="#Augusta">Augusta</persName></role>,
+          <lb/><role xml:id="spSeptembrus"> <persName ref="#Septembrus">Septembrus</persName></role>,
+          <role xml:id="spOktobra"><persName ref="#Oktobra">Oktobra</persName></role>,
+          <lb/><role xml:id="spNovembrus"> <persName ref="#Novembrus">Novembrus</persName></role>,
+          <role xml:id="spDecembra"><persName ref="#Decembra">Decembra</persName></role>.
+          <roleDesc>Skolbarn.</roleDesc></castItem>
+        <castItem><role xml:id="spTomten"> <persName ref="#Tomten">En Tomte</persName></role>.
+       </castItem>
+     </castList>
+      <div type="act" n="1">
+        <stage type="setting" who="#tiden #tomten">Teatern föreställer ett skolrum. Midt på golfvet står ett <lb/> stort bord med tolf stolar omkring. Tiden sitter vid bordets
+          <lb/> öfre ända och skrifver i en stor bok. Han har långt hvitt hår
+          <lb/> och skägg. Framför honom på bordet står ett timglas, hvars
+          <lb/> sand är nästan utrunnen. På väggen sitter en klocka, som
+          <lb/> fattas 2 minuter i 12. En tomte i röd mössa står framför
+          <lb/> klockan och ser på den.</stage>
+        <sp who="#tiden">
+          <speaker>Tiden</speaker>
+          <stage>(lägger pennan ifrån sig och lutar hufvu- <lb break="no"/> det i handen).</stage>
+          <p>Ja, ja! Det är inte så utan, att jag <lb/> börjar känna mig en smula trött. Det är ingen småsak <lb/> att vara skolmästare, skall jag säga. Adertonhundra- <lb break="no"/> nittiosju klasser med tolf barn i hvar klass har jag <lb/> undervisat, för att inte tala om alla de förberedande <lb/> klasserna, deras antal kan jag inte hålla reda på. Nu <lb/> är den här terminen också slut, sanden i mitt timglas <lb/> är nästan utrunnen, men jag måste åter vända det och <lb/> börja en ny termin. Århundrade efter århundrade har <lb/> solen lyst om dagen och månen och stjärnorna om <lb/> natten och jorden har långsamt och säkert gått omkring <lb/> sin sol. Vår har alltid följt efter vintern, sommar efter <lb/> våren och sedan har det alltid blifvit höst och vinter
+            <lb/> igen. Jag måste hålla ut lika väl som solen och jorden
+            <lb/> och stjärnorna, så länge <persName ref="#DenStoreSkolmästaren">den store skolmästaren</persName> där- <lb break="no"/> uppe befaller.</p>
+       </sp>
+        <sp who="#tomten">
+          <speaker>Tomten.</speaker>
+          <p>Nu dröjer det bara ett ögonblick, tills <persName ref="#Aprilla #Augusta #Decembra #Februarius #Januarius #Julius #Junia #Maja #Mars #Novembrus #Oktobra #Septembrus">klassen <lb/> 1898</persName> kommer. Jag är nyfiken på huru <persName ref="#Aprilla #Augusta #Decembra #Februarius #Januarius #Julius #Junia #Maja #Mars #Novembrus #Oktobra #Septembrus">de här barnen</persName> blifva.</p>
+       </sp>
+        <cb n="2"/>
+        <sp who="#tiden">
+          <speaker>Tiden.</speaker>
+          <p>Vi få väl se. Håll dig färdig att öppna, <lb/> när de komma. Så där ja, nu är sanden i mitt tim- <lb break="no"/> glas slut. <stage>(Klockan slår, <persName ref="#Tiden">Tiden</persName> räknar.)</stage> Ett, två, <lb/> tre, fyra, fem, sex, sju, åtta, nio, tio, elfva, tolf! <stage>(<persName ref="#Tiden">Tiden</persName> <lb/> vänder timglaset, <persName ref="#Tomten">tomten</persName> öppnar dörren för <lb/><persName ref="#Januarius">Januarius</persName>. <supplied>)</supplied></stage></p>
+       </sp>
+        <stage type="entrance" who="#januarius"/>
+        <sp who="#januarius">
+          <speaker>Januarius</speaker>
+          <stage>(en gosse i pälsmössa, med rock- <lb break="no"/> kragen uppslagen. Han drar en kälke, på hvilken
+            <lb/> ligger ett par skridskor och en bundt böcker.
+            <lb/> Öfver axeln bär han en väska, ur hvilken han
+            <lb/> tar fram bref).</stage>
+          <p>Godt nytt år! Godt nytt år! Jag <lb/> heter Januarius och har en hel massa nyårskort med <lb/> mig åt <persName ref="#Tiden">magistern</persName>. Var så god! Det är nyårskort från <lb/> alla världens länder. Det kommer att draga tid att <lb/> öppna dem och det passar bra, ty jag ville så gärna <lb/> slippa läsa läxor ännu ett par veckor.</p>
+       </sp>
+        <sp who="#tomten">
+          <speaker>Tomten</speaker>
+          <stage>(ser på böckerna på kälken).</stage>
+          <p>Är det <lb/> skolböcker det här? <persName ref="#Andersen">Andersens</persName> sagor, <persName ref="#Topelius">Topelius</persName>, <persName ref="#Münchausen">Münchau- <lb break="no"/> sen</persName>. Jo, det ligger verkligen en svensk historia och <lb/> ett par skrifböcker allra underst.</p>
+       </sp>
+        <sp who="#januarius">
+          <speaker>Januarius.</speaker>
+          <p>Det är mina julklappsböcker, jag tänkte <lb/> hinna sluta dem i lofvet.</p>
+       </sp>
+        <sp who="#tiden">
+          <speaker>Tiden.</speaker>
+          <p>Ja, <persName ref="#Januarius">min gosse</persName>, du slipper läsa läxor första <lb/> veckorna. Du måste lära dig att var artig, därför <lb/> skall du gå på nyårsvisiter och önska alla människor <pb facs="36998-2.jpg"/><fw type="pageNum">14</fw> godt nytt år och god fortsättning. Du får vara med <lb/> på släktbjudningar och dansa kring julgranen, men ät <lb/> inte så mycket namnam, att du blir sjuk.</p>
+       </sp>
+        <sp who="#januarius">
+          <speaker>Januarius.</speaker>
+          <p>Nej för all del! Och så får jag väl <lb/> åka kälke och skridskor samt kasta snöboll och gå på <lb/> skidor.</p>
+       </sp>
+        <sp who="#tiden">
+          <speaker>Tiden.</speaker>
+          <p>Ja visst. Du tycks vara en hurtig pojke. <lb/> Tjugondedagen dansa vi ut julen och sedan börja vi <lb/> skolarbetet med friska krafter. Låt se att du blir flitig. <lb/> Den 28:e måste du berätta om <persName ref="#KarlX #KarlXI #KarlXII">de tre stora Karlarna</persName>. <lb/> Hvilka voro de?</p>
+       </sp>
+        <sp who="#januarius">
+          <speaker>Januarius.</speaker>
+          <p><persName ref="#KarlX">Karl X</persName>, <persName ref="#KarlXI">Karl XI</persName> och <persName ref="#KarlXII">Karl XII</persName>.</p>
+       </sp>
+        <sp who="#tomten">
+          <speaker>Tomten</speaker>
+          <stage>(öppnar dörren).</stage>
+          <p>Här är numro två!</p>
+       </sp>
+        <stage type="entrance" who="#februarius"/>
+        <sp who="#februarius">
+          <speaker>Februarius</speaker>
+          <stage>(en liten gosse i vinterdräkt, bärande <lb/> en fettisdagsbulle och ett fettisdagsris).</stage>
+       </sp>
+        <sp who="#tiden">
+          <speaker>Tiden.</speaker>
+          <p>Hvad heter du, som är så kort i rocken?</p>
+       </sp>
+        <sp who="#februarius">
+          <speaker>Februarius.</speaker>
+          <p>Jag heter Februarius. Jag frös så <lb/> förskräckligt, att jag måste ta en nybakad semla att <lb/> värma händerna på, men den var för varm. Aj! <lb/><stage>(Blåser på fingrarna.)</stage></p>
+       </sp>
+        <sp who="#januarius">
+          <speaker>Januarius.</speaker>
+          <p>Se <persName ref="#Tiden">magistern</persName>, han har ett ris med sig!</p>
+       </sp>
+        <sp who="#tiden">
+          <speaker>Tiden.</speaker>
+          <p>Tyst du, annars får du kanske smaka det! <lb/> Hör nu, <persName ref="#Februarius">lille Februarius</persName>, kan du skotta snö?</p>
+       </sp>
+        <sp who="#februarius">
+          <speaker>Februarius.</speaker>
+          <p>Ja vars! Jag kan bygga fästningar och <lb/> gubbar af snö och så tycker jag om att åka på släde. <lb/><stage>(Sjunger) —</stage> <lg><head>Mel.: <title>»När månen vandrar på himlen blå»</title>.</head> <l>Min bjällra klingar, det går med fart,</l> <l>när <persName ref="#Brunte">Brunte</persName> ilar med släden,</l> <l>och rimfrost glittrar så underbart</l> <l>som diamanter i träden.</l> <l>Fast Nordan biter rätt hårdt i skinnet,</l> <l>så är jag munter och glad till sinnet</l> <l rend="ind">i vintertid, i vintertid.</l></lg> <stage rend="ind">(Medan han sjunger det sista, tar han en snö- <lb break="no"/> boll ur fickan och kastar på <persName ref="#Januarius">Januarius</persName>.)</stage></p>
+       </sp>
+        <sp who="#januarius">
+          <speaker>Januarius.</speaker>
+          <p>Jaså du! Tror du kanske inte att jag <lb/> kan ge igen? <stage>(Kastar två snöbollar på <persName ref="#Februarius">Februarius</persName>.)</stage></p>
+       </sp>
+        <sp who="#februarius">
+          <speaker>Februarius</speaker>
+          <stage>(kastar åter en snöboll).</stage>
+          <p>Å, jag har <lb/> godt om snö, där har du!</p>
+       </sp>
+        <sp who="#tiden">
+          <speaker>Tiden</speaker>
+          <stage>(knackar i bordet).</stage>
+          <p>Tyst, <persName ref="#Februarius #Januarius">gossar</persName>! Sätt <lb/> er på era platser!</p>
+       </sp>
+        <sp who="#tomten">
+          <speaker>Tomten</speaker>
+          <stage>(öppnar dörren).</stage>
+          <p><persName ref="#Mars">Numro tre</persName>! Också <lb/> en pojke. Det var rysligt hvad han ser krigisk ut!</p>
+       </sp>
+        <sp who="#mars">
+          <speaker>Mars</speaker>
+          <stage>(<stage type="entrance" who="#mars">marscherar in</stage>, gör honnör för <persName ref="#Tiden">Tiden</persName>.
+            <lb/> Han har kask på hufuvdet och sabel vid sidan).</stage>
+          <lb/>
+          <p>Jag heter Mars efter <persName ref="#GudenMars">krigets gud</persName>. Jag är inte bortskämd, <lb/> därför stiger jag upp tidigare om morgnarna än både <lb/><persName ref="#Januarius">Januarius</persName> och <persName ref="#Februarius">Februarius</persName>. Jag tycker mycket om fet- <lb break="no"/> tisdagssemlor, men ännu mer om solsken och blir så <lb/> glad, när solen tittar fram och smälter snön. Jag har <lb/> en hel korg med påskägg med mig, men dem ville <lb/><persName ref="#Aprilla">syster Aprilla</persName> nödvändigt bära. Se där är hon!</p>
+       </sp>
+        <stage type="entrance" who="#aprilla"/>
+        <sp who="#tiden">
+          <speaker>Tiden.</speaker>
+          <p>Sätt dig, <persName ref="#Mars">Mars</persName>! God dag, <persName ref="#Aprilla">Aprilla</persName>! Har <lb/> du knäppt upp vinterkappan?</p>
+       </sp>
+        <sp who="#aprilla">
+          <speaker>Aprilla</speaker>
+          <stage>(niger, hon har ljus klädning, ett grant <lb/> parasoll och en korg på armen).</stage>
+          <p><persName ref="#Tiden">Goda magistern</persName>, <lb/> jag hade så brådtom med flyttningsstöket och det var <lb/> så många helgdagar i Påsk, att jag inte hunnit <anchor type="hand" xml:id="handprat1start"/> sy min <lb/> vårkappa färdig än. <anchor type="hand" xml:id="handprat1slut"/> Vet ni hvem som låter så här? <cb n="2"/><stage>(Härmar göken.)</stage> Kuku! Kuku! Säg, <persName ref="#Februarius #Januarius #Mars">pojkar</persName>, känner <lb/> ingen af er igen göken?</p>
+       </sp>
+        <sp who="#februarius">
+          <speaker>Februarius</speaker>
+          <stage>(kastar en snöboll på henne).</stage>
+          <p>Där <lb/> har du för göken!</p>
+       </sp>
+        <sp who="#aprilla">
+          <speaker>Aprilla.</speaker>
+          <p>Fy skam! Hvad skall jag med snö? Det <lb/> står i almanackan att jag skall ha gräs med mig, men <lb/> jag har bara ett par snödroppar. Vet du, <persName ref="#Mars">Mars</persName>, jag <lb/> glömde påskäggen!</p>
+       </sp>
+        <sp who="#mars">
+          <speaker>Mars</speaker>
+          <stage>(rusar upp och tittar i hennes korg).</stage>
+          <lb/>
+          <p>Usch, så du narras! Hela korgen är ju full med ägg! <lb/><stage>(Ger henne en örfil.)</stage></p>
+       </sp>
+        <sp who="#aprilla">
+          <speaker>Aprilla.</speaker>
+          <p>April, April! Jag kan narra hvem jag <lb/> vill! <stage>(Slår igen.)</stage></p>
+       </sp>
+        <sp who="#tiden">
+          <speaker>Tiden.</speaker>
+          <p><persName ref="#Aprilla #Februarius #Januarius #Mars">Barn</persName>, <persName ref="#Aprilla #Februarius #Januarius #Mars">barn</persName>! Gräla inte! Det är mycket <lb/> fult att narras, <persName ref="#Mars">kära Mars</persName>, men <persName ref="#Aprilla">Aprilla</persName> bara skämtade <lb/> med dig. Ni, <persName ref="#Februarius #Januarius #Mars">gossar</persName>, måste hjälpa henne att skrifva <lb/> roligheter på påskäggen. Få se, hvad ni kunna hitta på!</p>
+       </sp>
+        <sp who="#mars">
+          <speaker>Mars</speaker>
+          <stage>(sträcker upp handen).</stage>
+          <p>Jag vet, jag vet!</p>
+       </sp>
+        <sp who="#tiden">
+          <speaker>Tiden.</speaker>
+          <p>Låt höra!</p>
+       </sp>
+        <sp who="#mars">
+          <speaker>Mars.</speaker>
+          <p>Hon kan ju skrifva:</p>
+          <lg>
+            <l>Den, som själf är en liten höna</l>
+            <l>kan gärna äta ett dussin ägg,</l>
+            <l>om flickor göra sig aldrig så gröna,</l>
+            <l>så kunna de ändå inte få skägg!</l>
+         </lg>
+       </sp>
+        <sp who="#tomten">
+          <speaker>Tomten</speaker>
+          <stage>(skrattar).</stage>
+          <p>Ha, ha, ha! Här kommer <lb/> just <persName ref="#Maja">en liten flicka</persName>, som gjort sig grön med besked. <lb/><stage type="entrance" who="#maja">(Leder fram Maja, som är klädd helt och hållet <lb/> i ljusgrönt.)</stage></p>
+       </sp>
+        <sp who="#tiden">
+          <speaker>Tiden.</speaker>
+          <p>Välkommen, <persName ref="#Maja">min tös</persName>! Hvad kan du för <lb/> något?</p>
+       </sp>
+        <sp who="#maja">
+          <speaker>Maja.</speaker>
+          <p>Jag kan bara en liten vårvisa. <stage>(Sjunger):</stage></p>
+          <lg>
+            <head>Mel.: <title>Folkskolans sångbok</title>, del I, n:o 6.</head>
+            <l>Nu har vintern åter flytt,</l>
+            <l>markens blomster vakna,</l>
+            <l>björkarne få löf på nytt</l>
+            <l>uppå grenar nakna.</l>
+            <l>Ty är vintern lång och svår,</l>
+            <l>blir det ändå alltid vår,</l>
+            <l>och se'n blir det sommar,</l>
+            <l>ja, se'n blir det sommar!</l>
+         </lg>
+       </sp>
+        <sp who="#tiden">
+          <speaker>Tiden.</speaker>
+          <p>Du sjunger ju ganska snällt. Jag hoppas <lb/> du är flitig, ty du får mycket att göra. Du skall städa <lb/> och fiffa upp öfverallt i naturen; du skall lära dig att <lb/> få gräs och sippor och konvaljer och guldvifvor att <lb/> skjuta upp ur jorden. Du skall lära dig att väcka <lb/> fjärilar och bin och trollsländor och få fåglarna att <lb/> börja sjunga. Och du skall väcka glada förhoppningar <lb/> i människornas hjärtan, styrka de svaga och sjuka och <lb/> trösta de sorgsna.</p>
+       </sp>
+        <sp who="#tomten">
+          <speaker>Tomten.</speaker>
+          <p>Skall <persName ref="#Maja">en sådan där liten flickunge</persName> kunna <lb/> lära sig så mycket?</p>
+       </sp>
+        <sp who="#februarius #januarius #mars">
+          <speaker>Januarius, Februarius <emph>och</emph> Mars.</speaker>
+          <p>Inte duger hon <lb/> till det!</p>
+       </sp>
+        <sp who="#maja">
+          <speaker>Maja.</speaker>
+          <p>Jag kan bara sjunga och vara glad, men <lb/> nog vill jag gärna lära mig att göra andra glada. <lb/><stage>(Sätter sig bredvid <persName ref="#Aprilla">Aprilla</persName>.)</stage></p>
+       </sp>
+        <sp who="#tomten">
+          <speaker>Tomten</speaker>
+          <stage>(öppnar dörren).</stage>
+          <p>Här komma <persName ref="#Augusta #Julius #Junia">tre barn</persName> <lb/> på en gång!</p>
+       </sp>
+        <pb facs="36998-3.jpg"/>
+        <sp who="#augusta #julius #junia">
+          <speaker>Junia, Julius <emph>och</emph> Augusta</speaker>
+          <stage><stage type="entrance" who="#augusta #julius #junia">inträda</stage>. De äro
+            <lb/> sommarklädda, bära metspön, krattor, bärkorgar
+            <lb/> och andra sommarsaker. De sjunga tillsammans:</stage>
+          <lg>
+            <head>Mel.: <title>Folkskolans sångbok</title>, del I, n:o 45.</head>
+            <l>Hej fallera</l>
+            <l>låt oss dra</l>
+            <l>glada ut i skog och dal,</l>
+            <l>ta en sväng</l>
+            <l>på vår äng,</l>
+            <l>bada se'n i bölja sval!</l>
+            <l>Solen lyser varm och blid,</l>
+            <l>härlig just är sommarns tid,</l>
+            <l>den är bra, fallera</l>
+            <l>falleralala.</l>
+         </lg>
+       </sp>
+        <sp who="#junia">
+          <speaker>Junia</speaker>
+          <stage>(niger).</stage>
+          <p>Jag heter Junia Sommar, jag. Här <lb/> är <persName ref="#Julius">min bror Julius</persName> och <persName ref="#Augusta">min syster Augusta Sommar</persName>. <lb/> Jag vill så gärna lära mig botanisera, men ännu hellre <lb/> vill jag lära mig simma.</p>
+       </sp>
+        <sp who="#julius">
+          <speaker>Julius.</speaker>
+          <p>Det måtte väl jag kunna lära dig! Så här <lb/> gör man! <stage>(Kastar sig på golfvet och simmar.)</stage></p>
+       </sp>
+        <sp who="#tiden">
+          <speaker>Tiden.</speaker>
+          <p>Du måste lära dig trädgårdsskötsel, <persName ref="#Junia">kära <lb/> Junia</persName>. Du skall vattna och kratta och rensa ogräs <lb/> och plocka masken från rosorna. Du tycker ju om rosor?</p>
+       </sp>
+        <sp who="#junia">
+          <speaker>Junia.</speaker>
+          <p>Ja, <persName ref="#Tiden">snälla magistern</persName>, men jag tycker mer <lb/> om smultron.</p>
+       </sp>
+        <sp who="#julius">
+          <speaker>Julius.</speaker>
+          <p>Jag tycker om blåbär och hallon och <lb/> krusbär och bigaråer och att fiska och spela tennis <lb/> och ro och segla och...</p>
+       </sp>
+        <sp who="#tiden">
+          <speaker>Tiden.</speaker>
+          <p>Men tro inte att du bara får roa dig! Du <lb/> skall räfsa hö och drifva boskapen på bete. Du får <lb/> gärna gå barfota, det är nyttigt och så spar det sko- <lb break="no"/> donen. <persName ref="#Augusta">Augusta</persName> skall lära sig safta och sylta och <lb/> koka in grönsaker.</p>
+       </sp>
+        <sp who="#augusta">
+          <speaker>Augusta.</speaker>
+          <p>Ja, jag tackar! Men kan jag få gå ut <lb/> och se på månen ibland om kvällarna?</p>
+       </sp>
+        <sp who="#tiden">
+          <speaker>Tiden.</speaker>
+          <p>Gärna, när du har tid, men du måste <lb/> binda rågen i kärfvar och laga att kornet blir moget. <lb/> När ladorna äro fulla och bönderna glädja sig åt en <lb/> god skörd, kan du möjligtvis få en stund öfver till <lb/> månskenspromenader. Gå bara inte och förgapa dig i <lb/><persName ref="#GubbenIMånen">gubben i månen</persName>, det passar sig inte för <persName ref="#Augusta">en skolflicka</persName>!</p>
+       </sp>
+        <sp who="#julius">
+          <speaker>Julius.</speaker>
+          <p>Ja, vet <persName ref="#Tiden">magistern</persName>, hon sjåpar sig så, hon <lb/> vill ha en gul klädning, för hon tycker det klär henne <lb/> bättre än grönt.</p>
+       </sp>
+        <sp who="#augusta">
+          <speaker>Augusta.</speaker>
+          <p>Låt bli att skvallra, du! Jag satte bara litet <lb/> gult björklöf i hatten, när jag var ute och plockade lingon.</p>
+       </sp>
+        <sp who="#tomten">
+          <speaker>Tomten.</speaker>
+          <p>Nu kommer <persName ref="#Septembrus">Septembrus</persName>.</p>
+       </sp>
+        <stage type="entrance" who="#septembrus"/>
+        <sp who="#septembrus">
+          <speaker>Septembrus</speaker>
+          <stage>(en gosse med pensel och palett. <lb/> Han har nötter i fickan och en nötknäppare i hand).</stage>
+          <lb/>
+          <p>God dag, <persName ref="#Tiden">magister</persName>! Jag skulle hälsa så mycket från <lb/><persName ref="#SeptembrusMor">min mamma</persName> och be att jag får lära mig måla. <lb/><stage>(Knäpper nötter.)</stage></p>
+       </sp>
+        <sp who="#tiden">
+          <speaker>Tiden.</speaker>
+          <p>Ja, det skall du få. Du skall då måla <lb/> trädens löf röda och gula i olika skiftningar.</p>
+       </sp>
+        <sp who="#augusta">
+          <speaker>Augusta.</speaker>
+          <p>Hör du, <persName ref="#Septembrus">Septembrus</persName>, låt mig hjälpa dig <lb/> att måla, så skall du få ett äpple.</p>
+       </sp>
+        <sp who="#septembrus">
+          <speaker>Septembrus.</speaker>
+          <p>Tack skall du ha! Jag har en hel <lb/> vagnslast med äpplen och päron och plommon med <lb/> mig, men litet färg kan jag bestå dig! <stage>(Målar henne <lb/> på kinden med penseln, så att hon blir röd.)</stage></p>
+       </sp>
+        <cb n="2"/>
+        <sp who="#augusta">
+          <speaker>Augusta.</speaker>
+          <p>Fy, <persName ref="#Septembrus">en sådan otäck pojke</persName>! Men vänta bara!</p>
+       </sp>
+        <sp who="#tiden">
+          <speaker>Tiden.</speaker>
+          <p>Tyst nu, där komma <persName ref="#Novembrus #Oktobra">två barn</persName> till! <stage type="entrance" who="#novembrus #oktobra">(Oktobra <lb/> och Novembrus komma.)</stage></p>
+       </sp>
+        <sp who="#oktobra">
+          <speaker>Oktobra</speaker>
+          <stage>(en flicka i hushållsförkläde med en <lb/> knippa ved).</stage>
+          <p>Ja, <persName ref="#Novembrus">Novembrus</persName> är min bror, men nog <lb/> är han mycket mörkare än jag. Han håller sig alltid <lb/> i hälarna på mig, för han är blyg för <persName ref="#Barnjungfrun">vår nya barn- <lb break="no"/> jungfru</persName>, som kom den 24:de. Jag har så mycket att <lb/> göra med att sätta i dubbelfönsterna, så han får hjälpa <lb/> mig att elda.</p>
+       </sp>
+        <sp who="#tiden">
+          <speaker>Tiden.</speaker>
+          <p>Du ser ut att vara en duktig tös, <persName ref="#Oktobra">Oktobra</persName>! <lb/> Du skall lära dig slakta och stoppa korf och baka <lb/> sprisbröd och <anchor type="hand" xml:id="handprat2start"/> sy varma vinterkläder. <anchor type="hand" xml:id="handprat2slut"/></p>
+       </sp>
+        <sp who="#maja">
+          <speaker>Maja</speaker>
+          <stage>(pekar på <persName ref="#Novembrus">Novembrus</persName>).</stage>
+          <p>En sådan röd <lb/> näsa <persName ref="#Novembrus">den där pojken</persName> har!</p>
+       </sp>
+        <sp who="#junia">
+          <speaker>Junia.</speaker>
+          <p>Är den solbränd?</p>
+       </sp>
+        <sp who="#novembrus">
+          <speaker>Novembrus.</speaker>
+          <p>Jag har aldrig sett någon sol. Min <lb/> näsa är röd för att jag har en sådan förskräcklig snufva. <lb/><stage>(Nyser och snyter sig i en handduk.)</stage></p>
+       </sp>
+        <sp who="#mars">
+          <speaker>Mars.</speaker>
+          <p>Du går ju i galoscher. <persName ref="#Novembrus">Ett sådant sjåp</persName>, <lb/> som har galoscher!</p>
+       </sp>
+        <sp who="#novembrus">
+          <speaker>Novembrus</speaker>
+          <stage>(gråter).</stage>
+          <p>Hvad ni äro stygga!</p>
+       </sp>
+        <sp who="#tiden">
+          <speaker>Tiden.</speaker>
+          <p>Retas inte med <persName ref="#Novembrus">pysen</persName>! Inte rår han för <lb/> att han är förkyld. Sätt dig bredvid <persName ref="#Oktobra">din syster</persName>, <persName ref="#Novembrus">Novem- <lb break="no"/> brus</persName>, och läs om <persName ref="#GustafIIAdolf">Gustaf II Adolf</persName>, hans historia skall du <lb/> berätta för oss.</p>
+       </sp>
+        <sp who="#novembrus">
+          <speaker>Novembrus.</speaker>
+          <p>Ja, och se'n skall <persName ref="#Tiden">magistern</persName> få en gås <lb/> af mig, om vi få lof på <persName ref="#Mårten">Mårtens</persName> gås.</p>
+       </sp>
+        <sp who="#tiden">
+          <speaker>Tiden.</speaker>
+          <p>Vi få se. Se där kommer <persName ref="#Decembra">en flicka</persName> till. <lb/> Då ha vi ju dussinet fullt, vet jag.</p>
+       </sp>
+        <sp who="#tomten">
+          <speaker>Tomten</speaker>
+          <stage type="entrance" who="#decembra">(som släppt in Decembra).</stage>
+          <p>Fasligt stor <lb/> packning <persName ref="#Decembra">den här unga damen</persName> har!</p>
+       </sp>
+        <sp who="#decembra">
+          <speaker>Decembra</speaker>
+          <stage>(som är mycket påpälsad och bär en <lb/> gran och en mängd paket).</stage>
+          <p>Ja, <persName ref="#Tomten">snälla Tomten</persName>, göm <lb/> alla de här paketen, det är julklappar, som ingen får <lb/> se på länge än. Min lilla gran ställer jag vid dörren, <lb/><stage>(Niger för <persName ref="#Tiden">Tiden</persName>.)</stage> God dag, <persName ref="#Tiden">magistern</persName>! Jag har läst <lb/> så mycket till examen, så!</p>
+       </sp>
+        <sp who="#tiden">
+          <speaker>Tiden.</speaker>
+          <p>Det var ju bra. Efter examen skall du <lb/> lära dig koka lutfisk och risgrynsgröt. Men först måste <lb/> du gå omkring till alla barn och fråga dem hvad de <lb/> önska sig till jul.</p>
+       </sp>
+        <sp who="#tomten">
+          <speaker>Tomten.</speaker>
+          <p>Och berätta det för mig sedan, begriper du!</p>
+       </sp>
+        <sp who="#decembra">
+          <speaker>Decembra.</speaker>
+          <p>Det skall jag visst det! <persName ref="#Tomten">Kära Tomten</persName>, <lb/> skola vi inte laga så, att alla barn både fattiga och <lb/> rika få julklappar eller åtminstone en liten gran på jul- <lb break="no"/> aftonen? Och <persName ref="#Tiden">snälla magistern</persName>, lär mig hur jag skall <lb/> bära mig åt för att få alla människor riktigt glada på <lb/> den dagen!</p>
+       </sp>
+        <sp who="#tiden">
+          <speaker>Tiden.</speaker>
+          <p>Jag skall försöka lära dig det, men hvarken <lb/> jag eller du kunna gifva människorna den glädje, som <lb/> ett förnöjsamt sinne och ett godt samvete skänker. <lb/><stage>(Knackar i bordet, <persName ref="#Aprilla #Augusta #Decembra #Februarius #Januarius #Julius #Junia #Maja #Mars #Novembrus #Oktobra #Septembrus">barnen</persName> resa sig.)</stage> Hör nu, <persName ref="#Aprilla #Augusta #Decembra #Februarius #Januarius #Julius #Junia #Maja #Mars #Novembrus #Oktobra #Septembrus">mina <lb/> barn</persName>! Jag skall undervisa hvar och en af er särskildt i <lb/> den ordning, som ni kommit, under tiden måste de <lb/> andra vänta snällt och beskedligt.</p>
+       </sp>
+        <sp who="#tomten">
+          <speaker>Tomten.</speaker>
+          <p>Men alla måste vi lära er att marschera <lb/> i takt. Uppställning! <persName ref="#Januarius">Januarius</persName> i spetsen! Nu kommer <lb/><persName ref="#Aprilla #Augusta #Decembra #Februarius #Januarius #Julius #Junia #Maja #Mars #Novembrus #Oktobra #Septembrus">klassen 1898</persName>! Framåt marsch!</p>
+       </sp>
+        <pb facs="36998-4.jpg"/>
+        <fw type="pageNum">16</fw>
+        <sp who="#aprilla #augusta #decembra #februarius #januarius #julius #junia #maja #mars #novembrus #oktobra #septembrus #tomten">
+          <stage>(<persName ref="#Aprilla #Augusta #Decembra #Februarius #Januarius #Julius #Junia #Maja #Mars #Novembrus #Oktobra #Septembrus">Alla barnen</persName> med <persName ref="#Tomten">Tomten</persName> främst marschera
+            <lb/> omkring <persName ref="#Tiden">Tiden</persName> och sjunga):</stage>
+          <lg>
+            <head>Mel: <title>»Vindarnas kör 1.»</title> <title>Folkskolans sångbok</title>, del I, n:o 20.</head>
+            <l>Ack huru hastigt åren förrinna,</l>
+            <l>månad på månad så fort ilar bort,</l>
+            <l>barndomens lyckliga dagar försvinna,</l>
+            <l>barndomens sorglösa tid är så kort.</l>
+            <l>Alla i skola hos tiden vi gå,</l>
+            <cb n="2"/>
+            <l>snart bli vi stora, som nu äro små!</l>
+            <l>Kunna blott unga till sinnet vi vara,</l>
+            <l>märka vi icke de flyende år,</l>
+            <l>låt oss försöka i hjärtat bevara</l>
+            <l>soliga minnen från barndomens vår.</l>
+         </lg>
+       </sp>
+        <stage type="exit" who="#aprilla #augusta #decembra #februarius #januarius #julius #junia #maja #mars #novembrus #oktobra #septembrus #tiden #tomten">(Alla barnen med Tomten först och Tiden <lb/> sist tåga ut.)</stage>
+     </div>
+      <gap reason="irrelevant"/>
+      <!--andra inslag-->
+   </body>
+    <back>
+      <pb facs="36998-5.jpg"/>
+      <!-- omslag tidskrift -->
+      <gap reason="irrelevant"/>
+      <div type="editorial">
+        <listPerson>
+          <listPerson type="cast">
+            <person xml:id="Tiden" sex="male">
+              <persName>Tiden</persName>
+              <occupation scheme="#HISCO" code="13020">skolmästare</occupation>
+           </person>
+            <person xml:id="Tomten" sex="male">
+              <persName>
+                <forename>Tomten</forename>
+             </persName>
+           </person>
+            <person xml:id="Januarius" sex="male">
+              <persName>
+                <forename>Januarius</forename>
+             </persName>
+              <age>barn</age>
+           </person>
+            <person xml:id="Februarius" sex="male">
+              <persName>
+                <forename>Februarius</forename>
+             </persName>
+              <age>barn</age>
+           </person>
+            <person xml:id="Mars" sex="male">
+              <persName>
+                <forename>Mars</forename>
+             </persName>
+              <age>barn</age>
+           </person>
+            <person xml:id="Aprilla" sex="female">
+              <persName>
+                <forename>Aprilla</forename>
+             </persName>
+              <age>barn</age>
+           </person>
+            <person xml:id="Maja" sex="female">
+              <persName>
+                <forename>Maja</forename>
+             </persName>
+              <age>barn</age>
+           </person>
+            <person xml:id="Junia" sex="female">
+              <persName>
+                <forename>Junia</forename>
+                <surname>Sommar</surname>
+             </persName>
+              <age>barn</age>
+           </person>
+            <person xml:id="Julius" sex="male">
+              <persName>
+                <forename>Julius</forename>
+                <surname>Sommar</surname>
+             </persName>
+              <age>barn</age>
+           </person>
+            <person xml:id="Augusta" sex="female">
+              <persName>
+                <forename>Augusta</forename>
+                <surname>Sommar</surname>
+             </persName>
+              <age>barn</age>
+           </person>
+            <person xml:id="Septembrus" sex="male">
+              <persName>
+                <forename>Septembrus</forename>
+             </persName>
+              <age>barn</age>
+           </person>
+            <person xml:id="Oktobra" sex="female">
+              <persName>
+                <forename>Oktobra</forename>
+             </persName>
+              <age>barn</age>
+           </person>
+            <person xml:id="Novembrus" sex="male">
+              <persName>
+                <forename>Novembrus</forename>
+             </persName>
+              <age>barn</age>
+           </person>
+            <person xml:id="Decembra" sex="male">
+              <persName>
+                <forename>Decembra</forename>
+             </persName>
+              <age>barn</age>
+           </person>
+         </listPerson>
+          <listPerson type="noncast">
+            <listPerson type="fictive">
+              <person xml:id="Brunte" sex="male" role="animal">
+                <persName>
+                  <forename>Brunte</forename>
+               </persName>
+                <note>häst</note>
+             </person>
+              <person xml:id="SeptembrusMor" sex="female"/>
+              <person xml:id="Barnjungfrun" sex="female">
+                <occupation scheme="#HISCO" code="54035">barnjungfru</occupation>
+             </person>
+              <person xml:id="DenStoreSkolmästaren" sex="male">
+                <occupation scheme="#HISCO" code="13020">skolmästare</occupation>
+             </person>
+              <listPerson type="mythical">
+                <person xml:id="GudenMars" sex="male">
+                  <persName>
+                    <forename>Mars</forename>
+                 </persName>
+                  <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Mars_%28mytologi%29</idno>
+               </person>
+                <person xml:id="GubbenIMånen" sex="male">
+                  <persName>
+                    <roleName>gubben</roleName>
+                    <nameLink>i</nameLink>
+                    <placeName>månen</placeName>
+                 </persName>
+               </person>
+             </listPerson>
+           </listPerson>
+            <listPerson type="historical">
+              <person xml:id="Andersen" sex="male">
+                <persName>
+                  <forename>H.C.</forename>
+                  <surname>Andersen</surname>
+               </persName>
+                <idno type="LIBRIS">http://libris.kb.se/auth/176031</idno>
+                <idno type="Wikipedia">http://sv.wikipedia.org/wiki/HC_Andersen</idno>
+             </person>
+              <person xml:id="Topelius" sex="male">
+                <persName>
+                  <forename>Zacharias</forename>
+                  <surname>Topelius</surname>
+               </persName>
+                <idno type="LIBRIS">http://libris.kb.se/auth/208379</idno>
+                <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Zacharias_Topelius</idno>
+             </person>
+              <person xml:id="Münchausen" sex="male">
+                <persName>
+                  <roleName>baron</roleName>
+                  <nameLink>von</nameLink>
+                  <placeName>Münchausen</placeName>
+               </persName>
+                <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Baron_von_M%C3%BCnchhausen</idno>
+             </person>
+              <person xml:id="KarlX" sex="male">
+                <persName>
+                  <roleName>kung</roleName>
+                  <forename>Karl</forename>
+                  <genName>X</genName>
+                  <forename>Gustav</forename>
+                  <nameLink>av</nameLink>
+                  <placeName>Sverige</placeName>
+               </persName>
+                <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Karl_X_Gustav</idno>
+             </person>
+              <person xml:id="KarlXI">
+                <persName>
+                  <roleName>kung</roleName>
+                  <forename>Karl</forename>
+                  <genName>XI</genName>
+                  <nameLink>av</nameLink>
+                  <placeName>Sverige</placeName>
+               </persName>
+                <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Karl_XI</idno>
+             </person>
+              <person xml:id="KarlXII" sex="male">
+                <persName>
+                  <roleName>kung</roleName>
+                  <forename>Karl</forename>
+                  <genName>XII</genName>
+                  <nameLink>av</nameLink>
+                  <placeName>Sverige</placeName>
+               </persName>
+                <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Karl_XII</idno>
+             </person>
+              <person xml:id="GustafIIAdolf" sex="male">
+                <persName>
+                  <roleName>kung</roleName>
+                  <forename>Gustav</forename>
+                  <genName>II</genName>
+                  <forename>Adolf</forename>
+                  <nameLink>av</nameLink>
+                  <placeName>Sverige</placeName>
+               </persName>
+                <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Gustav_II_Adolf</idno>
+             </person>
+              <person xml:id="Mårten" sex="male">
+                <persName>
+                  <roleName>sankt</roleName>
+                  <forename>Martin</forename>
+                  <nameLink>av</nameLink>
+                  <placeName>Tours</placeName>
+               </persName>
+                <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Martin_av_Tours</idno>
+                <note resp="#ForsbomE">Här snarare Mårtensafton (http://sv.wikipedia.org/wiki/M%C3%A5rtensafton) än personen</note>
+             </person>
+           </listPerson>
+         </listPerson>
+          <listRelation>
+            <relation type="social" name="skolmästare" active="#Tiden" passive="#Aprilla #Augusta #Decembra #Februarius #Januarius #Julius #Junia #Maja #Mars #Novembrus #Oktobra #Septembrus"/>
+            <relation type="social" name="kollega" mutual="#Tiden #Tomten"/>
+            <relation type="personal" name="syskon" mutual="#Aprilla #Mars"/>
+            <relation type="personal" name="syskon" mutual="#Augusta #Julius #Junia"/>
+            <relation type="personal" name="syskon" mutual="#Novembrus #Oktobra"/>
+            <!--            <relation type="social" name="skolkamrat" mutual="#Januarius #Februarius #Maja #Septembrus #Oktobra"/> -->
+            <relation type="other" name="rabblar" active="#Januarius" passive="#KarlX #KarlXI #KarlXII"/>
+            <relation type="other" name="läser" active="#Januarius" passive="#Andersen #Münchausen #Topelius"/>
+            <relation type="other" name="läser.om" active="#Novembrus" passive="#GustafIIAdolf"/>
+            <!-- tillagda /EF -->
+            <relation type="other" name="sjunger.om" active="#Februarius" passive="#Brunte"/>
+            <relation type="other" name="namne" active="#Mars" passive="#GudenMars"/>
+            <relation type="personal" name="son" active="#Septembrus" passive="#SeptembrusMor"/>
+            <relation type="personal" name="bekant" mutual="#SeptembrusMor #Tiden"/>
+            <relation type="social" name="barnjungfru" active="#Barnjungfrun" passive="#Novembrus #Oktobra"/>
+            <relation type="other" name="ref." active="#Novembrus" passive="#Mårten"/>
+            <relation type="other" name="ser" active="#Augusta" passive="#GubbenIMånen"/>
+            <relation type="social" name="arbetsgivare" active="#DenStoreSkolmästaren" passive="#Tiden"/>
+         </listRelation>
+       </listPerson>
+        <fs type="hand" xml:id="handprat1">
+          <f name="prat">
+            <symbol value="sömnad"/>
+         </f>
+          <f name="typ">
+            <symbol value="konkret"/>
+         </f>
+          <f name="vem" fVal="#Aprilla"/>
+          <f name="start" fVal="#handprat1start"/>
+          <f name="slut" fVal="#handprat1slut"/>
+       </fs>
+        <fs type="hand" xml:id="handprat2">
+          <f name="prat">
+            <symbol value="sömnad"/>
+         </f>
+          <f name="typ">
+            <symbol value="symbol"/>
+         </f>
+          <f name="vem" fVal="#Tiden"/>
+          <f name="start" fVal="#handprat2start"/>
+          <f name="slut" fVal="#handprat2slut"/>
+       </fs>
+     </div>
+   </back>
+    <anchor xml:id="playend"/>
+ </text>
+</TEI>

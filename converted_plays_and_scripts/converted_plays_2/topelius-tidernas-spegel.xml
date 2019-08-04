@@ -1,0 +1,929 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- $Id: TopeliusZ_TidernasSpegel.xml 116615 2015-05-21 01:04:23Z sveljo $ -->
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="sv">Tidernas spegel</title>
+        <title type="main" xml:lang="en">The Mirror of Time</title>
+        <author key="wikidata:Q139549">
+          <persName>
+            <forename>Zacharias</forename>
+            <surname>Topelius</surname>
+         </persName>
+          <idno type="LIBRIS">http://libris.kb.se/auth/208379</idno>
+          <idno type="BLF">http://urn.fi/URN:NBN:fi:sls-4599-1416928957205</idno>
+       </author>
+     </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000050</idno>
+        <availability>
+          <licence>
+            <ab>CC0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+         </licence>
+       </availability>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59652118</idno>
+     </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title level="m" type="main">Läsning för barn</title>
+          <title level="m" type="sub">Visor, sagor och lekar</title>
+          <idno type="URL">http://libris.kb.se/bib/10504978</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+         </availability>
+          <bibl type="originalSource">
+            <date type="print" when="1896">"1896" (http://libris.kb.se/bib/10504978)</date>
+            <date type="premiere"/>
+            <date type="written"/>
+         </bibl>
+          <pubPlace>Helsingfors</pubPlace>
+          <publisher>G. W. Edlunds förlag</publisher>
+          <respStmt>
+            <resp>tryckning</resp>
+            <orgName>Alb. Bonniers boktryckeri</orgName>
+            <name type="place">Stockholm</name>
+         </respStmt>
+          <date when="1896">1896</date>
+          <biblScope unit="volume">8</biblScope>
+          <biblScope unit="part">Lekar</biblScope>
+          <biblScope unit="page" from="132" to="142">132–142</biblScope>
+       </bibl>
+     </sourceDesc>
+   </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Dramawebben är ett digitalt arkiv över upphovsrättslig fri svensk dramatik. Dramatexterna finns återgivna i fulltext och är publicerade antingen i sk faksimil, ett pdf-dokument där originaltrycket återges som en digital fotokopia, eller i bearbetningsbar text, ett pdf-dokument med text och bild som kan användas för redigering. Dramawebben växer i takt med att nya verk blir kända. Med det digitala pjäsmaterialet tillgängliggör och aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
+     </projectDesc>
+      <samplingDecl>
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
+     </samplingDecl>
+      <classDecl>
+        <taxonomy xml:id="HISCO">
+          <biblStruct>
+            <monogr>
+              <author>Marco H.D. van Leeuwen</author>
+              <author>Ineke Maas</author>
+              <author>Andrew Miles</author>
+              <title>HISCO Historical International Standard Classification of Occupations</title>
+              <idno type="ISBN">90-5867-196-8</idno>
+              <imprint>
+                <publisher>Leuven University Press</publisher>
+                <pubPlace>Leuven</pubPlace>
+                <date when="2002">2002</date>
+             </imprint>
+           </monogr>
+         </biblStruct>
+       </taxonomy>
+     </classDecl>
+      <tagsDecl>
+        <rendition>
+          <!-- Scenanvisningar anges med kursiv stil -->
+          <!-- Rubriker är centrerade /EF -->
+          <!-- Rollista är "centrerad", med rak vänstermarginal /EF -->
+          <!-- Talarrubriker är inline, med versaler i mindre punktstorlek /EF -->
+          <!-- Rumsbeskrivning har första raden indragen /EF -->
+          <!-- Repliker är indragna första raden /EF -->
+          <!-- Scenanvisningar inom replik är inline /EF -->
+          <!-- Scenanvisningar mellan replik har förstaraden indragen /EF -->
+          <!-- Scenanvisning för akt (ridå) är centrerad /EF -->
+          <!-- Paginering är överst till höger för ojämna sidor, till vänster för jämna sidor /EF -->
+       </rendition>
+     </tagsDecl>
+   </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="sv">Swedish</language>
+     </langUsage>
+      <particDesc>
+        <listPerson>
+          <person xml:id="lotta" sex="FEMALE">
+            <persName>Lotta, 15 år</persName>
+         </person>
+          <person xml:id="mormor" sex="FEMALE">
+            <persName>Beate Sophie Randers Silfversparre, 75 år</persName>
+         </person>
+          <person xml:id="spegelbild_ett" sex="FEMALE">
+            <persName>Beate Sophie Randers, 15</persName>
+         </person>
+          <person xml:id="spegelbild_tva" sex="FEMALE">
+            <persName>doktorinnan Magneta Hypothenusa Problem, 15 år</persName>
+         </person>
+          <person xml:id="spegelbild_tre" sex="FEMALE">
+            <persName>Eva</persName>
+         </person>
+       </listPerson>
+     </particDesc>
+      <textClass>
+        <keywords>
+          <term subtype="" type="genreTitle"></term>
+       </keywords>
+     </textClass>
+   </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2019-08-04">(eg) convert from source</change>
+     </listChange>
+   </revisionDesc>
+ </teiHeader>
+  <text>
+    <anchor xml:id="playstart"/>
+    <front>
+      <pb facs="37993-0.jpg"/>
+      <!-- pärm -->
+      <gap reason="irrelevant"/>
+      <pb facs="37993-1.jpg"/>
+      <!-- insida pärm -->
+      <pb facs="37993-2.jpg"/>
+      <!-- tom sida -->
+      <pb facs="37993-3.jpg"/>
+      <!-- tom sida -->
+      <pb facs="37993-4.jpg"/>
+      <!-- tom sida -->
+      <pb facs="37993-5.jpg"/>
+      <!-- illustration volym -->
+      <gap reason="irrelevant"/>
+      <pb facs="37993-6.jpg"/>
+      <!-- titelsida volym -->
+      <gap reason="irrelevant"/>
+      <pb facs="37993-7.jpg"/>
+      <!-- trycksida -->
+      <gap reason="irrelevant"/>
+      <pb facs="37993-8.jpg"/>
+      <gap reason="irrelevant"/>
+      <!-- titel -->
+      <docTitle>
+        <titlePart type="main">Tidernas spegel</titlePart>
+     </docTitle>
+   </front>
+    <body>
+      <castList>
+        <head>Personer:</head>
+        <castItem><role xml:id="spMormor"> <persName ref="#Mormor">Mormor</persName></role> <roleDesc>(75 år)</roleDesc>.
+       </castItem>
+        <castItem><role xml:id="spLotta"> <persName ref="#Lotta">Lotta</persName></role> <roleDesc>(15 år)</roleDesc>.
+       </castItem>
+        <castItem>
+          <roleGroup><roleDesc corresp="#Spegelbilder">Spegelbilder</roleDesc>.
+            <role xml:id="spSpegelbildEtt" corresp="#SpegelbildEtt"/><role xml:id="spSpegelbildTvå" corresp="#SpegelbildTvå"/> <role xml:id="spSpegelbildTre" corresp="#SpegelbildTre"/><role corresp="#Orm"/></roleGroup>
+       </castItem>
+     </castList>
+      <div type="act" n="1">
+        <anchor type="hand" xml:id="handakt1start"/>
+        <stage type="setting" who="#lotta #mormor">Ett rum. Det är afton, och två ljus brinna på bordet. I <lb/> fonden en skärm, som i midten bildar en ram. En dörr, en
+          <lb/> byrå, en gungstol, en pall. Mormor med <rs type="hand" ref="#handarbetep1">stickstrumpa</rs> i gung- <lb break="no"/> stolen. Lotta på pallen vid hennes fötter.</stage>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Tänk, en så märkvärdig dag, <persName ref="#Mormor">mormor</persName>! Din <lb/> födelsedag! <persName ref="#Mor">Mamma</persName> och <persName ref="#Far">pappa</persName> och <persName ref="#Constance #Louise">alla kusinerna</persName> och <lb/><persName ref="#Tjänstefolk">allt tjenstefolket</persName> ha gratulerat dig, <persName ref="#Fritz">onkel Fritz</persName> har hållit <lb/> tal, och vi ha sjungit en psalm till din ära.</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Till Guds ära. Gud har burit mig på sina <lb/> armar genom tidernas skiften och låtit mig upplefva <lb/> många sorger, men långt mera nåd och mycken kärlek.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>I dag skall jag hela dagen vara din tjenste- <lb break="no"/> piga, i dag och alla dagar. Får jag det, <persName ref="#Mormor">mormor</persName>?</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Ja, <persName ref="#Lotta">goda barn</persName>. Alla täfla ni om att göra <lb/> mig glädje. Jag behöfver så litet. Jag vet ju, att ni <lb/> hålla af mig.</p>
+       </sp>
+        <pb facs="37993-9.jpg"/>
+        <figure>
+          <graphic url="TopeliusZ_TidernasSpegel-1.jpeg"/>
+          <bibl>
+            <author role="illustrator" ref="#MalmströmA">A.M.</author>
+         </bibl>
+          <head>Tidernas spegel.</head>
+          <figDesc>Mormor sitter i sin gungstol, medan Lotta står bredvid. De iakttar SpegelbildTvå som precis stigit ur spegeln. Ett runt bord i förgunden, dukat med blommor i vas och en servis.</figDesc>
+       </figure>
+        <pb facs="37993-10.jpg"/>
+        <!--tom sida-->
+        <pb facs="37993-11.jpg"/>
+        <fw type="pageNum">133</fw>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p><persName ref="#Mormor">Mormor</persName> behöfver klädas och kammas och <lb/> sitta beqvämt och få riktigt trefligt och ljust och varmt <lb/> omkring sig. <persName ref="#Hundar">Hundarna</persName> få ej skälla, och dörrarna få <lb/> ej stå halföppna, så att här blir drag i rummet. Så <lb/> behöfver du en, som läser högt för dig. Hvad är det <lb/> du mest tycker om att höra? Jag tror att det är Davids <lb/> 103:e psalm.</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Ja, läs den till sist i afton. Läs om Guds <lb/> nåd och förlåtande kärlek öfver hela mitt lif och dess <lb/> sena qväll.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Men är det verkligen sant, att du i dag <lb/> fyllt sjuttiofem år?</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Jo du, Gud låter den första siffran växa, <lb/> men den andra kommer igen. Det var en tid, när ock- <lb break="no"/> så jag skref, som du, min ålder med ett och fem.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Nej, har <persName ref="#Mormor">mormor</persName> verkligen en gång varit <lb/> femton år?</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Hvarför anser du det så otroligt? Är det <lb/> så omöjligt, att mina gula kinder en gång varit röda, <lb/> min skrynkliga panna slät, mitt gråa hår brunt och mina <lb/> vissnade händer mjuka?</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Nej, men... <persName ref="#Mormor">mormor</persName> har varit gammal så <lb/> länge jag mins.</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Sök i öfversta lådan af min byrå, så skall <lb/> du finna en medaljong från min ungdom.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA</speaker>
+          <stage>(söker och finner i lådan en medaljong).</stage>
+          <p>Åh, se! <lb/> Är <persName ref="#Mormor">den unga flickan</persName> du, <persName ref="#Mormor">mormor</persName>? Hvad hon ser god <lb/> ut! Och hvad hon liknar <persName ref="#Mor">min egen mamma</persName>! Jag ville <lb/> vara i hennes ställe!</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Om du vore hon då, så skulle du nu vara <lb/><persName ref="#Mormor">den gamla gumma</persName>, som du kallar din mormor. Du skulle <lb/> förlora på bytet, <persName ref="#Lotta">Lotta lilla</persName>.</p>
+       </sp>
+        <pb facs="37993-12.jpg"/>
+        <fw type="pageNum">134</fw>
+        <sp who="#lotta">
+          <speaker>LOTTA <supplied>.</supplied>
+                   </speaker>
+          <p>Nej, <persName ref="#Mormor">mormor</persName>! Se huru skälmsk och glad <lb/> hon ser ut! Så vacker och god har jag aldrig varit. <lb/> Byta vi?</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Ja, hvad vågar man icke vid femton år! <lb/><persName ref="#Lotta">Kära barn</persName>, tänk på mina glasögon och mitt gråa hår; <lb/> tänk dig ett långt lif med många pröfningar bakom dig <lb/> och framför dig årens snö med dess aftonskymning! <lb/> Ja, det är sant, att efter aftonen randas en ny morgon, <lb/> en ny ungdom, som aldrig förgår.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Ju längre jag ser dig, när du var ung, <lb/> desto mer igenkänner jag dig. Där är någonting ungt <lb/> och varmt, som skiner igenom hvad du kallar årens snö. <lb/> Det måste vara för att du är så hjertegod. Se, nu <lb/> skrattar din bild i medaljongen! Du måste haft mycket <lb/> roligt, när du var ung.</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Åh ja, i den korta klädningen hoppar ju <lb/> hela verlden kråka för oss. Man snafvar lättare i den <lb/> långa klädningen.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Har du haft förtreter? Glöm dem, <persName ref="#Mormor">mor- <lb break="no"/> mor</persName>! Mins blott det förtjusande glada att ha varit en <lb/> så söt flicka, som du! Topp, så byta vi! Du låts <lb/> vara jag, och jag låts vara du!</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Nåväl, sök i samma låda, där du fann <lb/> mitt porträtt! I venstra hörnet skall du finna ett etui och <lb/> i etuiet en svartspegel, som jag en gång fick af en <lb/> fattig gumma. När jag var vid din ålder, gick jag en <lb/> dag i skogen att plocka bär och fann <persName ref="#Gumma">en gumma</persName>, som <lb/> brutit sitt ben, liggande hjelplös i en myrstack. Jag <lb/> bar henne hem, jag skötte henne tills hon blef frisk, <lb/> och af tacksamhet gaf hon mig sin dyrbaraste skatt, en <lb/> trollspegel, som <persName ref="#ÄlvornasDrottning">elfvornas drottning</persName> tappat i morgon- <lb break="no"/> dimman. Far varsamt med spegeln, <persName ref="#Lotta">barn</persName>, ty det finns <lb/> blott en sådan i hela verlden! Man ser i den det för- <pb break="no" facs="37993-13.jpg"/><fw type="pageNum">135</fw>flutna, nuvarande och tillkommande alldeles som skulle <lb/> det lefva framför oss. Jag har gömt den för allas ögon,
+            <lb/> men du skall få se den, för att förstå hvad det betyder
+            <lb/> att byta år med <persName ref="#Mormor">sin mormor</persName>.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA</speaker>
+          <stage>(letande i byrån).</stage>
+          <p>En spegel? Här är en dosa <lb/> med ringar och perlor... här är en sköldpaddskam, inlagd <lb/> med guld... hvad du är rik, <persName ref="#Mormor">mormor</persName>!... Och här en <lb/> medaljong med <persName ref="#Morfar">morfars</persName> porträtt. <persName ref="#Morfar">En så fin kavaljer</persName>!... <lb/> Nej se, här är en portfölj med bref och pressade blom- <lb break="no"/> mor! Men hvar är spegeln?</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Spegeln ligger i en ask af elfenben.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Här är asken. Så vackert arbetad! På <lb/> locket en engel, som går på ett rullande klot.</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Tiden och lyckan gå på rullande klot.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p><persName ref="#Mormor">Mormor</persName>, jag är rädd! Jag törs intet öppna <lb/> tidernas spegel.</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Ja, låt den ligga orörd i sin gömma. Det <lb/> kan vara nyttigt för oss att se tillbaka, men ej att se <lb/> framåt.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA</speaker>
+          <stage>(tvekande)</stage>
+          <p>Att se tillbaka och på samma gång <lb/> framåt! Se allt, som varit, och allt, som kommer! <lb/><persName ref="#Mormor">Mormor</persName>, öppna du spegeln, och jag tittar öfver din axel.</p>
+       </sp>
+        <anchor type="hand" xml:id="handakt1slut"/>
+        <sp who="#mormor">
+          <speaker>MORMOR</speaker>
+          <stage>(framtager en liten spegel ur asken).</stage>
+          <p>Nå, hvad <lb/> vill du se?</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA</speaker>
+          <stage>(tittande öfver hennes axel).</stage>
+          <p>Törs jag? Får jag? <lb/> Jag vill se dig, <persName ref="#Mormor">mormor</persName>, när du var femton år.</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p><persName ref="#Mormor">Vissnade gamla</persName>, blif åter ung! Träd fram <lb/> för din efterverld!</p>
+       </sp>
+        <sp who="#spegelbild_ett">
+          <speaker>SPEGELBILD N:O 1.</speaker>
+          <stage type="entrance" who="#spegelbildett">(En ung flicka i kostym från 1830- <lb break="no"/> talet och med långa hårflätor i nacken framträder i ramen.)</stage>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p><persName ref="#SpegelbildEtt">Porträttet</persName>! Hvad hon är förtjusande. Får <lb/> jag tala till henne?</p>
+       </sp>
+        <pb facs="37993-14.jpg"/>
+        <fw type="pageNum">136</fw>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Se och tala får du, men intet vidröra <lb/> henne, ty då flyter hon bort i luft.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA</speaker>
+          <stage>(förlägen).</stage>
+          <p>Hvad heter <persName ref="#SpegelbildEtt">fröken</persName>?</p>
+       </sp>
+        <sp who="#spegelbild_ett">
+          <speaker>BILDEN</speaker>
+          <stage>(nigande).</stage>
+          <p>Mitt namn är Beate Sophie Randers.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA</speaker>
+          <stage>(hviskande).</stage>
+          <p>Det är du, <persName ref="#Mormor">mormor</persName>. <stage>(Högt till <persName ref="#SpegelbildEtt">bil- <lb break="no"/> den</persName>.)</stage> Känner <persName ref="#SpegelbildEtt">fröken</persName> <persName ref="#Mormor">den gamla frun här i gungstolen</persName>?</p>
+       </sp>
+        <sp who="#spegelbild_ett">
+          <speaker>BILDEN.</speaker>
+          <p>Nej, jag har aldrig sett henne förr.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA</speaker>
+          <stage>(hviskande).</stage>
+          <p><persName ref="#Mormor">Mormor</persName>, hon känner dig intet!</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Huru vill du, att man vid femton år skall <lb/> igenkänna sig sjelf vid sjuttiofem år?</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA</speaker>
+          <stage>(till <persName ref="#SpegelbildEtt">bilden</persName>).</stage>
+          <p><persName ref="#Mormor">Min mormor</persName> hette också Beate <lb/> Sophie Randers, förr än hon blef gift. Har <persName ref="#SpegelbildEtt">fröken</persName> sett <lb/><persName ref="#Morfar">kapten Silfversparre</persName>?</p>
+       </sp>
+        <sp who="#spegelbild_ett">
+          <speaker>BILDEN.</speaker>
+          <p>Ja, han är kadett i <placeName>Fredrikshamn</placeName>. Jag <lb/> dansade med honom i går på min födelsedag. Uni- <lb break="no"/> formen kläder honom, han valsar så bra, att man kan <lb/> bli yr i hufvudet. Annars bruka vi <persName ref="#Flickor">flickor</persName> kalla honom <lb/> kråkskrämman, för att han sköt bom på en kråka.</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Ja, de flickorna! Vi gycklade den tiden <lb/> ibland med <persName ref="#Morfar">Silfversparre</persName>.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Vet <persName ref="#SpegelbildEtt">fröken</persName>, att <persName ref="#Morfar">kadetten Silfversparre</persName> blef <lb/> sedan <persName ref="#Morfar">min morfar</persName>?</p>
+       </sp>
+        <sp who="#spegelbild_ett">
+          <speaker>BILDEN.</speaker>
+          <p>Gör intet narr af honom!</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Han blef gift med <persName ref="#Mormor">min mormor</persName>, och <persName ref="#SpegelbildEtt">fröken</persName> <lb/> sjelf är <persName ref="#Mormor">min mormor</persName>.</p>
+       </sp>
+        <sp who="#spegelbild_ett">
+          <speaker>BILDEN.</speaker>
+          <p>Åh, så roligt! <persName ref="#SpegelbildEtt">Mjukaste tjenarinna</persName>; jag <lb/> gör <persName ref="#Mormor">mormor</persName> min compliment... Säg, är du intet en af <lb/><persName ref="#Flickor">mina skolkamrater</persName> i <orgName ref="#Pension"><persName ref="#Friherrinnan">friherrinnan Rosens</persName> pension</orgName>? För- <lb break="no"/> låt, att jag intet strax kände igen dig. Vi äro så <lb/> många.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA</speaker>
+          <stage>(lifligt).</stage>
+          <p>Aldrig har jag hört talas om <orgName ref="#Pension">Rosens <lb/> pension</orgName>. Men vi ha bestämdt dansat och lekt till- <pb break="no" facs="37993-15.jpg"/><fw type="pageNum">137</fw>samman. Vi äro jämnåriga, vi säga du till hvarandra. <lb/> Tycker du om att åka på velociped?</p>
+       </sp>
+        <sp who="#spegelbild_ett">
+          <speaker>BILDEN.</speaker>
+          <p>Hur var det? Velo...</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Velociped. Jag kan, jag; du skall snart <lb/> lära dig. Du skall ofta helsa på oss. Bor du nära <lb/> järnvägen?</p>
+       </sp>
+        <sp who="#spegelbild_ett">
+          <speaker>BILDEN.</speaker>
+          <p>Järnvägen? Hvad är det?</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Å, det är en järnväg, förstås. Ha ni tele- <lb break="no"/> fon, så att vi kunna språka ibland? Det blir för dyrt <lb/> att telegrafera.</p>
+       </sp>
+        <sp who="#spegelbild_ett">
+          <speaker>BILDEN.</speaker>
+          <p>Tele...? Tele...? Parlez vous français, <lb/><persName ref="#Lotta">mademoiselle</persName>?</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA</speaker>
+          <stage>(hviskande).</stage>
+          <p><persName ref="#Mormor">Mormor</persName>, hon talar franska!</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Det var det enda vi lärde i <orgName ref="#Pension"><persName ref="#Friherrinnan">friherrinnan <lb/> Rosens</persName> pension</orgName>.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA</speaker>
+          <stage>(högt).</stage>
+          <p>Hvarför frågar du mig, om jag talar <lb/> franska?</p>
+       </sp>
+        <sp who="#spegelbild_ett">
+          <speaker>BILDEN.</speaker>
+          <p>Du begagnar så många främmande ord. <lb/> Jag skall helsa på dig. Hvar bor du?</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Hvar jag bor? Här hemma naturligtvis.</p>
+       </sp>
+        <anchor type="hand" xml:id="handprat2start"/>
+        <sp who="#spegelbild_ett">
+          <speaker>BILDEN.</speaker>
+          <p>Visa mig din märkduk. Jag har min på <lb/> väggen i glas och ram.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Märkduk, hvad är det?</p>
+       </sp>
+        <sp who="#spegelbild_ett">
+          <speaker>BILDEN.</speaker>
+          <p>Det är en märkduk, förstås. Men förlåt <lb/> mig, <persName ref="#Mormorsmor">mamma</persName> väntar, vi skola nu baka julbröd och <lb/> stöpa ljus.</p>
+       </sp>
+        <anchor type="hand" xml:id="handprat2slut"/>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Stöpa ljus?</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Det lärde vi hemma.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Ja, se det kan intet jag! Men du är så <lb/> snäll och glad, att jag måste dansa sju hvarf omkring med <lb/> dig. <stage type="exit" who="#spegelbildett">(Springer fram, vidrör bilden och bilden försvinner.)</stage> <persName ref="#SpegelbildEtt">Beate</persName>, <lb/> hvart tog du vägen?... Hon försvann, <persName ref="#Mormor">mormor</persName>!</p>
+       </sp>
+        <pb facs="37993-16.jpg"/>
+        <fw type="pageNum">138</fw>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Jag sade ju det! <anchor type="hand" xml:id="handprat3start"/> Tror du, att jag vid <lb/> femton år hade någon aning om velociped, järnvägar, <lb/> telegraf och telefon? Lika litet som du förstår att bro- <lb break="no"/> dera märkdukar och stöpa ljus. <anchor type="hand" xml:id="handprat3slut"/> Men du ville ju byta <lb/> år med mig. Vill du nu se dig sjelf, när du är så <lb/> gammal som jag?</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA</speaker>
+          <stage>(häpen).</stage>
+          <p>Nej, <persName ref="#Mormor">mormor</persName>, nej, det törs jag visst <lb/> intet. Jag kunde ju se mig sjelf försvinna!</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Var du nöjd, <persName ref="#Lotta">Lotta lilla</persName>, med dina glada <lb/> femton år. Kanske kan jag visa dig <persName ref="#Dotterdotter">en annan liten <lb/> flicka</persName>, i hvilken du har del. Kom än en gång hit och <lb/> titta öfver min axel, så skall du få se <persName ref="#Dotterdotter">din dotterdotter</persName> <lb/> vid samma ålder som du.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p><persName ref="#Dotterdotter">Min dotterdotter</persName>! Får jag en dotterdotter!</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Ja, en, som på sin tid skall kalla dig <lb/> mormor.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Åh, <persName ref="#Mormor">mormor</persName> gör narr af mig!</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Allt är möjligt. <persName ref="#Lotta">Min Lottas</persName> dotterdotter, <lb/> träd fram!</p>
+       </sp>
+        <stage>(<persName ref="#Lotta">Lotta</persName> intager sin förra plats bakom gungstolen. <stage type="entrance" who="#spegelbildtva">Bild n:o <lb/> 2, en ung flicka, framträder bakom skärmen, klädd i en fantast- <lb break="no"/> isk framtidskostym med rödt skärp, pince-nez, en kort pipa i
+          <lb/> munnen, kortklippt hår och en doktorshatt på hufvuvet, läsande
+          <lb/> i en bok.</stage> Paus.)</stage>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Nå, frågar du intet?</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA</speaker>
+          <stage>(hviskande).</stage>
+          <p>Hon ser spansk ut. Hon har <lb/> fallit från månen. <stage>(Högt.)</stage> Hvad heter du?</p>
+       </sp>
+        <sp who="#spegelbild_tva">
+          <speaker>BILDEN</speaker>
+          <stage>(stirrar upp från boken).</stage>
+          <p>Hvad befalls?</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Jag frågar ditt namn.</p>
+       </sp>
+        <stage>(<persName ref="#SpegelbildTvå">Bilden</persName> vänder henne ryggen.)</stage>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Jaså, förlåt! Hvad heter <persName ref="#SpegelbildTvå">doktorinnan</persName>, om <lb/> jag törs fråga?</p>
+       </sp>
+        <pb facs="37993-17.jpg"/>
+        <fw type="pageNum">139</fw>
+        <sp who="#spegelbild_tva">
+          <speaker>BILDEN</speaker>
+          <stage>(vänder sig om).</stage>
+          <p><persName ref="#SpegelbildTvå">Magneta Hypothenusa Pro- <lb break="no"/> blem</persName>, doktorinna i socialdemokrati, till er tjenst.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Törs jag fråga hvad det är för en bok <lb/><persName ref="#SpegelbildTvå">doktorinnan Magneta Hypothoneusa Problem</persName> studerar så <lb/> flitigt?</p>
+       </sp>
+        <sp who="#spegelbild_tva">
+          <speaker>BILDEN.</speaker>
+          <p>Det är 20:de seklets framsteg af <persName ref="#Författarinna">författar- <lb break="no"/> innan till 19:de seklets barbari</persName>.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Mycket uppbyggligt för <persName ref="#Far #Farfarsfar #Lotta #Mor #Morfar #Mormor #Mormorsmor #MormorsMormorsmor">doktorinnans för- <lb break="no"/> fäder</persName>. Skall <persName ref="#SpegelbildTvå">doktorinnan</persName> snart taga studentexamen?</p>
+       </sp>
+        <stage>(<persName ref="#SpegelbildTvå">Bilden</persName> vänder henne åter ryggen.)</stage>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Förlåt! I min tid gick man vid <persName ref="#SpegelbildTvå">doktorin- <lb break="no"/> nans</persName> ålder ännu i skolan.</p>
+       </sp>
+        <sp who="#spegelbild_tva">
+          <speaker>BILDEN</speaker>
+          <stage>(vänder sig om).</stage>
+          <p>I <emph>vår</emph> tid går skolan med <lb/> elektricitet sextio kilometer i timmen.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Jaså. Lär man sig också röka i skolan?</p>
+       </sp>
+        <sp who="#spegelbild_tva">
+          <speaker>BILDEN.</speaker>
+          <p>Alla bildade flickor röka numera apelsin- <lb break="no"/> kärnor.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Jaså. Nå, hvad lär man sig mera i skolan? <lb/> Kan <persName ref="#SpegelbildTvå">doktorinnan</persName> hoppa kråka?</p>
+       </sp>
+        <sp who="#spegelbild_tva">
+          <speaker>BILDEN.</speaker>
+          <p>Var god och uttryck sig mera vetenskapligt!</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Jag skall försöka. Kan <persName ref="#SpegelbildTvå">Magnetan</persName> vara ung, <lb/> glad, öfverdådig? Kan <persName ref="#SpegelbildTvå">Hypothenusan</persName> dansa? Förstår <lb/><persName ref="#SpegelbildTvå">doktorinnan Problem</persName> ett skälmstycke? Kan hon skratta <lb/> och gråta, som man skrattar och gråter vid femton år?</p>
+       </sp>
+        <sp who="#spegelbild_tva">
+          <speaker>BILDEN</speaker>
+          <stage>(spotskt).</stage>
+          <p>Jag kan allt, utom att svara på <lb/> opassande frågor.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA</speaker>
+          <stage>(ond).</stage>
+          <p>Hvad nu, <persName ref="#SpegelbildTvå">fröken Naturkraft</persName>? Vet hon <lb/> väl, att jag är hennes mormor?</p>
+       </sp>
+        <sp who="#spegelbild_tva">
+          <speaker>BILDEN.</speaker>
+          <p><persName ref="#Lotta">Kråkans mormor</persName> är du och intet min... <lb/><persName ref="#Lotta">antediluvian</persName>!</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA</speaker>
+          <stage>(hviskande).</stage>
+          <p>Hvad betyder det, <persName ref="#Mormor">mormor</persName>? An- <lb break="no"/> tediluvian?</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>En, som är född före syndafloden.</p>
+       </sp>
+        <pb facs="37993-18.jpg"/>
+        <fw type="pageNum">140</fw>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Jaså. Vet <persName ref="#SpegelbildTvå">Hypothenusan</persName>, att före synda- <lb break="no"/> floden brukade en mormor ge sina ohöfliga barnbarn ris?</p>
+       </sp>
+        <stage>(Springer fram och griper <persName ref="#SpegelbildTvå">bilden</persName> i skärpet. <stage type="exit" who="#spegelbildtva">Bilden för- <lb break="no"/> svinner.</stage>)</stage>
+        <sp who="#lotta">
+          <speaker>LOTTA</speaker>
+          <stage>(med skärpet i handen).</stage>
+          <p>Att kalla <persName ref="#Lotta">sin mormor</persName> <lb/> antediluvian! <persName ref="#Mor">Min mamma</persName> har gifvit mig ris för min- <lb break="no"/> dre än så... Men hvart tog <persName ref="#SpegelbildTvå">Hypothenusan</persName> vägen?</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Fråga en spegelbild! Se, du behöll skär- <lb break="no"/> pet i din hand! Tidens röda spöke är det enda, som <lb/> återstår af framtidsfantomerna.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Jag mormor åt <persName ref="#SpegelbildTvå">en sådan krokodil</persName>! Nej, <lb/><persName ref="#Mormor">mormor</persName>, jag gifter mig aldrig!</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Aldrig... vid femton år.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA</speaker>
+          <stage>(betraktar skärpet).</stage>
+          <p>Hvad vill det säga? Allt <lb/> annat är villa, men skärpet flyter ej bort i luft, skärpet <lb/> är ett verkligt rödt sidenskärp, som jag sett någon- <lb break="no"/> städes förut. Skulle <persName ref="#Constance">Constance</persName> och <persName ref="#Louise">Louise</persName> ha klädt ut <lb/> sig för att gyckla med mig? Men <persName ref="#Constance #Louise">mina goda kusiner</persName> <lb/> äro ej luft, de hålla att taga i. Skall jag bränna upp <lb/> skärpet? Åh nej. <stage>(Knyter skärpet kring sitt lif.)</stage> Det <lb/> nyaste modet är ju att vara klädd som man kläder sig <lb/> femtio år härefter. Men gif mig spegeln, <persName ref="#Mormor">mormor</persName>, nu <lb/> skall jag taga högsta vitsordet i historien. Hvad bryr <lb/> jag mig om de kommande seklerna? De må sköta sig <lb/> sjelfva. Jag skall se <persName ref="#Semiramis">Semiramis'</persName> hängande trädgårdar, <lb/><persName ref="#Caesar">Caesars</persName> intåg i <placeName>Rom</placeName> och <persName ref="#Columbus">Columbus</persName>, när han upptäckte
+            <lb/><placeName>Amerika</placeName>. Jag skall låta <persName ref="#MormorsMormorsmor">din mormors mor</persName> stiga fram
+            <lb/> och niga för dig. Jag skall låta <persName ref="#Farfarsfar">min farfars far</persName> gå i
+            <lb/> Nigarmaja och draga efter sig hela släpet af sina för- <lb break="no"/> fäder, ända till <persName ref="#Adam">Adam</persName>. Gif mig spegeln, <persName ref="#Mormor">mormor</persName>, jag
+            <lb/> vill se <persName ref="#Eva">Eva</persName> i paradiset!</p>
+       </sp>
+        <!--Nigarmaja är en dans /EF-->
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Sakta, sakta, far varligt med spegeln! Man <lb/> skall aldrig lita på trolltyg! Det fanns <persName ref="#Ormen">en orm</persName> i paradiset.</p>
+       </sp>
+        <pb facs="37993-19.jpg"/>
+        <fw type="pageNum">141</fw>
+        <sp who="#lotta">
+          <speaker>LOTTA</speaker>
+          <stage>(tager spegeln och svänger den jublande).</stage>
+          <p>Jag skall <lb/> plocka ett körsbär från lifvets träd och ett äpple från <lb/> kunskapens träd. Jag skall dela det med dig och med <lb/><persName ref="#Mor">mamma</persName> och <persName ref="#Far">pappa</persName> och alla menniskor. <persName ref="#Eva">Mormor Eva</persName>, <lb/> träd fram och låt mig se paradiset!</p>
+       </sp>
+        <sp who="#spegelbild_tre">
+          <speaker>BILD N:O 3.</speaker>
+          <stage type="entrance" who="#orm #spegelbildtre">(Ett långt, hvitt spöke, omlindadt af en <lb/> stor orm, träder fram från skärmen.)</stage>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Akta dig, <persName ref="#Lotta">barn</persName>!</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Hu... <persName ref="#Orm">Ormen</persName>! Han ringlar sig framåt! <lb/><persName ref="#Mormor">Mormor</persName>, försvara mig!</p>
+       </sp>
+        <stage>(Hon flyr, snafvar och faller. <stage type="exit" who="#orm #spegelbildtre">Bilden försvinner.</stage>)</stage>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Farväl, <persName ref="#Semiramis">Semiramis</persName>, <persName ref="#Caesar">Casear</persName>, <persName ref="#Columbus">Columbus</persName>, <persName ref="#Eva">Eva</persName> <lb/> och paradiset! <persName ref="#Lotta">Barn</persName>, <persName ref="#Lotta">barn</persName>, du har slagit verldshistorien <lb/> i bitar!</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA</speaker>
+          <stage>(reser sig häpen).</stage>
+          <p>Är <persName ref="#Orm">ormen</persName> borta! Hu, hvad <lb/> han skrämde mig! Men... jag tror spegeln gått <lb/> sönder! <stage>(Plockar hop bitarna.)</stage> Kan han ej zinkas, <persName ref="#Mormor">mor- <lb break="no"/> mor</persName>? Det finns ett sorts kitt, som kallas Gråt intet!</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Zinka skuggorna! Intet kitt gör de för- <lb break="no"/> gångna tider hela igen. De ha varit och gått för alltid.</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA</speaker>
+          <stage>(på pallen snyftande emot <persName ref="#Mormor">mormors</persName> knä).</stage>
+          <p>Jag har <lb/> slagit ihjäl verldshistorien... Jag har mördat fram- <lb break="no"/> tiden... och det på <persName ref="#Mormor">min egen mormors</persName> födelsedag!</p>
+       </sp>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Trösta dig, <persName ref="#Lotta">barn</persName>. Du har söndrat min- <lb break="no"/> nets sköra glas; gör dig en ny spegel för framtidens <lb/> hopp. Hela söndrade menniskohjertan! Många önska <lb/> läsa i framtiden och bäfva likväl för dess okända fjer- <lb break="no"/> ran. Gif dem en bättre spegel, som aldrig faller i <lb/> bitar. Gif dem Guds försyn, som gör oss visa af det <lb/> framfarna och trygga för det kommande!... Vill du <lb/> ännu byta år med mig?</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA</speaker>
+          <stage>(ser frågande upp).</stage>
+          <p>Vill <persName ref="#Mormor">mormor</persName> byta med <lb/> mig?</p>
+       </sp>
+        <pb facs="37993-20.jpg"/>
+        <fw type="pageNum">142</fw>
+        <sp who="#mormor">
+          <speaker>MORMOR.</speaker>
+          <p>Nej, <persName ref="#Lotta">mitt barn</persName>. En ny tid behöfver en <lb/> ny kraft, och hvarje tid har sin gräns. Lyckliga vi, <lb/> om vi förmått lösa vår tids uppgit. Lef för det bästa <lb/> i din tid, såsom jag lefvat för min!</p>
+       </sp>
+        <sp who="#lotta">
+          <speaker>LOTTA.</speaker>
+          <p>Hvad du är god, <persName ref="#Mormor">mormor</persName>!</p>
+       </sp>
+        <stage>(Ridån faller.)</stage>
+     </div>
+   </body>
+    <back>
+      <pb facs="37993-21.jpg"/>
+      <!-- innehållsförteckning volym -->
+      <gap reason="irrelevant"/>
+      <pb facs="37993-22.jpg"/>
+      <!-- innehållsförteckning forts. -->
+      <gap reason="irrelevant"/>
+      <pb facs="37993-23.jpg"/>
+      <!-- insida pärm -->
+      <pb facs="37993-24.jpg"/>
+      <!-- pärm -->
+      <gap reason="irrelevant"/>
+      <div type="editorial">
+        <listPerson>
+          <listPerson type="cast">
+            <person xml:id="Mormor" sex="female">
+              <persName>
+                <forename>Beate Sophie</forename>
+                <surname type="maiden">Randers</surname>
+                <surname>Silfversparre</surname>
+             </persName>
+              <age value="75">75 år</age>
+           </person>
+            <person xml:id="Lotta" sex="female">
+              <persName>
+                <forename>Lotta</forename>
+             </persName>
+              <age value="15">15 år</age>
+           </person>
+            <listPerson xml:id="Spegelbilder">
+              <person xml:id="SpegelbildEtt" sex="female">
+                <persName>
+                  <forename>Beate Sophie</forename>
+                  <surname>Randers</surname>
+               </persName>
+                <age>15</age>
+             </person>
+              <person xml:id="SpegelbildTvå" sex="female">
+                <persName>
+                  <roleName>doktorinnan</roleName>
+                  <forename>Magneta Hypothenusa</forename>
+                  <surname>Problem</surname>
+               </persName>
+                <age value="15">15 år</age>
+             </person>
+              <person xml:id="SpegelbildTre" sex="female">
+                <persName>
+                  <forename>Eva</forename>
+               </persName>
+             </person>
+              <person xml:id="Orm" sex="male" role="animal"/>
+           </listPerson>
+         </listPerson>
+          <listPerson type="noncast">
+            <listPerson type="fictive">
+              <person xml:id="Mor" sex="female"/>
+              <person xml:id="Far" sex="male"/>
+              <person xml:id="Fritz" sex="male">
+                <persName>
+                  <forename>Fritz</forename>
+               </persName>
+             </person>
+              <person xml:id="Constance" sex="female">
+                <persName>
+                  <forename>Constance</forename>
+               </persName>
+             </person>
+              <person xml:id="Louise" sex="female">
+                <persName>
+                  <forename>Louise</forename>
+               </persName>
+             </person>
+              <listPerson>
+                <personGrp xml:id="Tjänstefolk" sex="unknown"/>
+             </listPerson>
+              <listPerson>
+                <personGrp xml:id="Hundar" sex="unknown" role="animal"/>
+             </listPerson>
+              <person xml:id="Morfar" sex="male">
+                <persName>
+                  <roleName>kapten</roleName>
+                  <surname>Silfversparre</surname>
+               </persName>
+                <occupation scheme="#HISCO" code="58320">kapten</occupation>
+             </person>
+              <person xml:id="Friherrinnan" sex="female">
+                <persName>
+                  <roleName>friherrinna</roleName>
+                  <surname>Rosen</surname>
+               </persName>
+             </person>
+              <person xml:id="Gumma" sex="female"/>
+              <person xml:id="ÄlvornasDrottning" sex="female">
+                <persName>
+                  <roleName>drottning</roleName>
+               </persName>
+                <trait>
+                  <p>älva</p>
+               </trait>
+             </person>
+              <listPerson>
+                <personGrp xml:id="Flickor" sex="female"/>
+             </listPerson>
+              <person xml:id="Mormorsmor" sex="female"/>
+              <person xml:id="Dotterdotter" sex="female">
+                <age value="15">15 år</age>
+             </person>
+              <person xml:id="Författarinna" sex="female">
+                <occupation scheme="#HISCO" code="15120">författarinna</occupation>
+             </person>
+              <person xml:id="MormorsMormorsmor" sex="female"/>
+              <person xml:id="Farfarsfar" sex="male"/>
+           </listPerson>
+            <listPerson type="mythical">
+              <person xml:id="Semiramis" sex="female">
+                <persName>
+                  <roleName>drottning</roleName>
+                  <forename>Semiramis</forename>
+               </persName>
+                <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Semiramis</idno>
+             </person>
+           </listPerson>
+            <listPerson type="historical">
+              <person xml:id="Caesar" sex="male">
+                <persName>
+                  <forename>Julius</forename>
+                  <surname>Caesar</surname>
+               </persName>
+                <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Julius_Caesar</idno>
+             </person>
+              <person xml:id="Columbus" sex="male">
+                <persName>
+                  <forename>Christofer</forename>
+                  <surname>Columbus</surname>
+               </persName>
+                <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Christofer_Columbus</idno>
+             </person>
+           </listPerson>
+            <listPerson type="biblical">
+              <person xml:id="Adam" sex="male">
+                <persName>
+                  <forename>Adam</forename>
+               </persName>
+                <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Adam_och_Eva</idno>
+             </person>
+              <person xml:id="Eva" sex="female">
+                <persName>
+                  <forename>Eva</forename>
+               </persName>
+                <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Adam_och_Eva</idno>
+             </person>
+              <person xml:id="Ormen" sex="male" role="animal"/>
+           </listPerson>
+         </listPerson>
+          <listRelation>
+            <relation type="personal" name="dotter" active="#Lotta" passive="#Far #Mor"/>
+            <relation type="personal" name="dotter" active="#Mor" passive="#Morfar #Mormor"/>
+            <relation type="personal" name="gift" mutual="#Far #Mor"/>
+            <relation type="personal" name="gift" mutual="#Morfar #Mormor"/>
+            <!--            <relation type="personal" name="mormor" active="#Mormor" passive="#Lotta"/> -->
+            <relation type="personal" name="kusin" mutual="#Constance #Lotta"/>
+            <relation type="personal" name="kusin" mutual="#Lotta #Louise"/>
+            <relation type="other" name="spegelbild" active="#SpegelbildEtt" passive="#Mormor"/>
+            <!--            <relation type="personal" name="mormor" active="#Lotta" passive="#SpegelbildTvå"/> -->
+            <relation type="personal" name="farbror" active="#Fritz" passive="#Lotta"/>
+            <!--            <relation type="personal" name="morfar" active="#Morfar" passive="#Lotta"/> -->
+            <!--            <relation type="social" name="lärarinna" active="#Friherrinnan" passive="#SpegelbildEtt"/> -->
+            <relation type="other" name="vill.se" active="#Lotta" passive="#Adam #Caesar #Columbus #Eva #Farfarsfar #MormorsMormorsmor #Semiramis"/>
+            <!-- tillagda /EF -->
+            <relation type="social" name="grundare" active="#Friherrinnan" passive="#Pension"/>
+            <relation type="social" name="elev" active="#Flickor #Mormor #SpegelbildEtt" passive="#Pension" notAfter-custom="#playstart"/>
+            <relation type="other" name="spegelbild" active="#SpegelbildTre" passive="#Eva"/>
+            <relation type="other" name="spegelbild" active="#Orm" passive="#Ormen"/>
+            <relation type="other" name="ringlar.runt" active="#Orm" passive="#SpegelbildTre"/>
+            <relation type="other" name="gratulerade" active="#Constance #Far #Fritz #Louise #Mor #Tjänstefolk" passive="#Mormor" notAfter-custom="#playstart"/>
+            <relation type="other" name="hjälpte" active="#Mormor" passive="#Gumma" notAfter-custom="#playstart"/>
+            <relation type="other" name="gav.spegel" active="#Gumma" passive="#Mormor" notAfter-custom="#playstart"/>
+            <relation type="other" name="hittade.spegel" active="#Gumma" passive="#ÄlvornasDrottning" notAfter-custom="#playstart"/>
+            <relation type="personal" name="dotter" active="#Mormor #SpegelbildEtt" passive="#Mormorsmor"/>
+            <relation type="personal" name="dotterdotter" active="#Dotterdotter" passive="#Lotta" notBefore-custom="#playend"/>
+            <relation type="other" name="spegelbild" active="#SpegelbildTvå" passive="#Dotterdotter"/>
+            <relation type="other" name="läser" active="#SpegelbildTvå" passive="#Författarinna"/>
+            <relation type="personal" name="dotterdotter" active="#Mormorsmor" passive="#MormorsMormorsmor"/>
+            <relation type="personal" name="sonson" active="#Far" passive="#Farfarsfar"/>
+            <relation type="personal" name="husdjur" active="#Hundar" passive="#Mormor"/>
+         </listRelation>
+       </listPerson>
+        <listOrg>
+          <org xml:id="Pension">
+            <orgName>Friherinnan Rosens pension</orgName>
+         </org>
+       </listOrg>
+        <!-- IDEA: Intertext/psalm 103/UL (s. 133) -->
+        <fs type="hand" xml:id="handakt1">
+          <f name="aktivitet">
+            <symbol value="stickning"/>
+         </f>
+          <f name="vem" fVal="#Mormor"/>
+          <f name="start" fVal="#handakt1start"/>
+          <f name="slut" fVal="#handakt1slut"/>
+          <f name="säkerhet" fVal="medium">slut ej explicit angivet</f>
+       </fs>
+        <fs type="hand" xml:id="handarbetep1">
+          <f name="props">
+            <symbol value="stickstrumpa"/>
+         </f>
+       </fs>
+        <fs xml:id="handprat2">
+          <f name="prat">
+            <symbol value="broderi"/>
+         </f>
+          <f name="plats">
+            <symbol value="episkt"/>
+         </f>
+          <f name="vem" fVal="#SpegelbildEtt"/>
+          <f name="vem" fVal="#Lotta"/>
+          <f name="start" fVal="#handprat2start"/>
+          <f name="slut" fVal="#handprat2slut"/>
+       </fs>
+        <fs xml:id="handprat3">
+          <f name="prat">
+            <symbol value="broderi"/>
+         </f>
+          <f name="plats">
+            <symbol value="episkt"/>
+         </f>
+          <f name="vem" fVal="#Mormor"/>
+          <f name="start" fVal="#handprat3start"/>
+          <f name="slut" fVal="#handprat3slut"/>
+       </fs>
+     </div>
+   </back>
+    <anchor xml:id="playend"/>
+ </text>
+</TEI>

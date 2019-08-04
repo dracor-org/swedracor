@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- $Id: BremerF_KonstnarnsFortviflan.xml 116602 2015-05-20 20:28:31Z sveljo $ -->
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="sv">Konstnärns förtviflan</title>
+        <title type="main" xml:lang="en">The Artist's Despair</title>
+        <author key="wikidata:Q262145">
+          <persName>
+            <forename>Fredrika</forename>
+            <surname>Bremer</surname>
+         </persName>
+          <idno type="LIBRIS">http://libris.kb.se/auth/179079</idno>
+          <idno type="Litteraturbanken">http://litteraturbanken.se/#!forfattare/BremerF</idno>
+          <idno type="SBL">http://www.nad.riksarkivet.se/sbl/artikel/16936</idno>
+       </author>
+     </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000040</idno>
+        <availability>
+          <licence>
+            <ab>CC0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+         </licence>
+       </availability>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59618616</idno>
+     </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title type="main" level="m">Brefvet från Fredrika Bremer</title>
+          <title type="sub" level="m">skizz</title>
+          <idno type="URL">http://libris.kb.se/bib/3130246</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+         </availability>
+          <bibl type="originalSource">
+            <date type="print" when="1887">"1887" (http://libris.kb.se/bib/3130246)</date>
+            <date type="premiere"/>
+            <date type="written"/>
+         </bibl>
+          <date when="1887">1887</date>
+          <!-- Förlag och förlagsort framgår ej av faksimilen, däremot tryckeri och tryckeriort -->
+          <respStmt>
+            <resp>tryckning</resp>
+            <orgName>
+              <name>L. A. Larssons boktryckeri</name>
+              <placeName>Strömstad</placeName>
+           </orgName>
+         </respStmt>
+       </bibl>
+     </sourceDesc>
+   </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Dramawebben är ett digitalt arkiv över upphovsrättslig fri svensk dramatik. Dramatexterna finns återgivna i fulltext och är publicerade antingen i sk faksimil, ett pdf-dokument där originaltrycket återges som en digital fotokopia, eller i bearbetningsbar text, ett pdf-dokument med text och bild som kan användas för redigering. Dramawebben växer i takt med att nya verk blir kända. Med det digitala pjäsmaterialet tillgängliggör och aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
+     </projectDesc>
+      <samplingDecl>
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
+     </samplingDecl>
+      <classDecl>
+        <taxonomy xml:id="HISCO">
+          <biblStruct>
+            <monogr>
+              <author>Marco H.D. van Leeuwen</author>
+              <author>Ineke Maas</author>
+              <author>Andrew Miles</author>
+              <title>HISCO Historical International Standard Classification of Occupations</title>
+              <idno type="ISBN">90-5867-196-8</idno>
+              <imprint>
+                <publisher>Leuven University Press</publisher>
+                <pubPlace>Leuven</pubPlace>
+                <date when="2002">2002</date>
+             </imprint>
+           </monogr>
+         </biblStruct>
+       </taxonomy>
+     </classDecl>
+      <tagsDecl>
+        <rendition>
+          <!-- Text i kursiv -->
+          <!-- Talarrubriker, scenanvisningar anges med normal stil-->
+          <!-- Talarrubriker, scenanvisningar, stycken i repliker är "inline", indrag första raden av replik -->
+          <!-- Rollposter har indrag första raden -->
+          <!-- Roller i rollförteckning, talarrubriker, dokumenttitel anges med fet normal stil -->
+          <!-- Rubrik och dokumenttitel är centrerade -->
+          <!-- Paginering: jämna sidor vänsterställd, udda sidor högerställd -->
+       </rendition>
+     </tagsDecl>
+   </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="sv">Swedish</language>
+     </langUsage>
+      <particDesc>
+        <listPerson>
+          <person xml:id="edvard" sex="MALE">
+            <persName>Edvard, kompositör</persName>
+         </person>
+          <person xml:id="aline" sex="FEMALE">
+            <persName>Aline</persName>
+         </person>
+       </listPerson>
+     </particDesc>
+      <textClass>
+        <keywords>
+          <term subtype="" type="genreTitle"></term>
+       </keywords>
+     </textClass>
+   </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2019-08-04">(eg) convert from source</change>
+     </listChange>
+   </revisionDesc>
+ </teiHeader>
+  <text>
+    <anchor xml:id="playstart"/>
+    <front>
+      <pb facs="36388-0.jpg"/>
+      <!-- titelsida, bok -->
+      <gap reason="irrelevant"/>
+      <pb facs="36388-1.jpg"/>
+      <!-- tom sida -->
+      <pb facs="36388-2.jpg"/>
+      <!-- brevtext -->
+      <gap reason="irrelevant"/>
+      <pb facs="36388-3.jpg"/>
+      <gap reason="irrelevant"/>
+      <pb facs="36388-4.jpg"/>
+      <gap reason="irrelevant"/>
+      <pb facs="36388-5.jpg"/>
+      <gap reason="irrelevant"/>
+      <pb facs="36388-6.jpg"/>
+      <gap reason="irrelevant"/>
+      <pb facs="36388-7.jpg"/>
+      <fw type="pageNum">8</fw>
+      <gap reason="irrelevant"/>
+      <!-- brevtext -->
+      <docTitle>
+        <titlePart type="main">Konstnärns förtviflan.</titlePart>
+     </docTitle>
+      <docTitle>
+        <titlePart type="main">Konstnärns förtviflan</titlePart>
+     </docTitle>
+   </front>
+    <body>
+      <castList>
+        <head>PERSONER:</head>
+        <castItem><role xml:id="spEdvard"> <persName ref="#Edvard">Edvard</persName></role>, <roleDesc>kompositör</roleDesc>.
+       </castItem>
+        <castItem><role xml:id="spAline"> <persName ref="#Aline">Aline</persName></role> <roleDesc>hans hustru</roleDesc>.
+       </castItem>
+     </castList>
+      <div type="act" n="1">
+        <sp who="#edvard">
+          <speaker>Edvard</speaker>
+          <stage>(bakom scenen).</stage>
+          <p>Ha, bravo! Char- <lb break="no"/> mant <persName ref="#Rudolf">min vän</persName>! mycket mycket roligt! Som sagt <lb/><persName ref="#Rudolf">Rudolf</persName> vi träffas i afton efter aftal. Adjö, adjö! <!--Här vill jag ha slut på stycket och att ett nytt börjar efter scenanvisningen. /ljo--><lb/> <stage type="entrance" who="#edvard">(Inne på scenen).</stage> Fördömt! förtviflat! rasande! <lb/> elende! Ah! Gud ske lof jag är då ensam! Jag <lb/> får då ge mig luft, och slipper förställning, trö- <lb break="no"/> stare, anmärkare, fiender, vänner, hela verlden! <lb/> Det är förbi! Min opera förolyckad! Natten <lb/> genomvakad med tärningar, champagne och galna <lb/> bröder har knappt mäktat draga en slöja öfver <lb/> min olycka och nu vid dagens nyktra ljus står den <lb/> där och stirrar på mig mörkare än någonsin. Min <lb/> opera — mitt hjertas, mina bästa varmaste känslors
+            <lb/> verk — mina nätters ljus, mitt lifs förhoppning, 
+            <lb/> mitt barn, min gudinna, min — — min opera 
+            <lb/> förolyckad. Mina skönaste ställen kallt emottagne 
+            <lb/> — melodier, toner som skulle göra stenar till bröd
+            <lb/> för <persName ref="#Aline">min Aline</persName> och mig — — ingen gripes, ingen
+            <lb/> smälter för er! O! att jag kunde gråta! Men 
+            <pb facs="36388-8.jpg"/>
+                        <fw type="pageNum">9</fw> nej! Jag skall bli kall och hård som verlden. —
+            <lb/><persName ref="#Rudolf">Rudolf</persName> har rätt — lifvet är för kort att nöta
+            <lb/> bort i fåfäng sträfvan och suckan. Han har rätt
+            <lb/> — det finnes lättare vägar till lyckan. Välan, 
+            <lb/> jag vill försöka dem. Efter konstens Gud nekar
+            <lb/> mig sin gunst, vänder jag mig till lyckans Gudinna. 
+            <lb/> Hon gynnade mig i natt. I afton vill jag kasta
+            <lb/> hennes tärningar ånyo. Jag slår upp med en 
+            <lb/> konst som skänker mig hvarken bröd eller heder. 
+            <lb/> Jag rifver sönder min opera och rifver mig med 
+            <lb/> den lös från konstnärens otacksamma kall! Farväl
+            <lb/> du mitt hjertas barn! Du skall ej lida smälek
+            <lb/> mer — farväl <stage>(ville rifva sönder noterna)</stage>.</p>
+       </sp>
+        <sp who="#aline">
+          <speaker>Aline</speaker>
+          <stage type="entrance" who="#aline">(som inkommit hindrar honom).</stage>
+          <p>Hvil- <lb break="no"/> ken tragedie spelas här? Men <persName ref="#Edvard">Edvard</persName> är du all- <lb break="no"/> deles galen? <stage>(rycker noterna från honom).</stage></p>
+       </sp>
+        <sp who="#edvard">
+          <speaker>Edvard.</speaker>
+          <p>Galen? Först nu är jag förnuftig <lb/><persName ref="#Aline">Aline</persName> Förr var jag en dåre, men nu har jag <lb/> insett det. Jag duger icke för musiken eller ock <lb/> verlden icke för min musik hvilket kan komma på <lb/> ett ut. Kort och godt, jag öfverger mitt gamla <lb/> yrke och tänker försöka ett mera lönande.</p>
+       </sp>
+        <sp who="#aline">
+          <speaker>Aline</speaker>
+          <stage>(afsides).</stage>
+          <p>Ah! Jag vet väl! <persName ref="#Rudolf">Den <lb/> förledaren Rudolf</persName>. <stage>(Högt).</stage> O nej <persName ref="#Edvard">Edvard</persName>. Icke <lb/> kan du öfverge din älskade konst, och det för en <lb/> öfvergående motgångs skuld! Ty ganska visst — <lb/> det säger dina bästa vänner — skulle din opera <lb/> ännu lyckas, om du blott ville arbeta om vissa <lb/> delar, och ändra några — — —</p>
+       </sp>
+        <pb facs="36388-9.jpg"/>
+        <fw type="pageNum">10</fw>
+        <sp who="#edvard">
+          <speaker>Edvard.</speaker>
+          <p>Ändra? Jag hatar det ordet! Jag <lb/> ändrar ingenting alls. Jag vill icke ändra nå- <lb break="no"/> gonting. Man skulle ändå klaga och anmärka derpå. <lb/> O <persName ref="#Aline">Aline</persName>! Konstnärens lif är uslare på jorden än <lb/> den fattigaste skoflikares. Denne betalar man för <lb/> sitt arbete och lämnar honom i fred dervid. — <lb/> Men den som vågat förråda Gudomligheten han bär <lb/> inom sitt bröst, honom tro sig alla berättigade att <lb/> öfverfalla, klandra, rätta, mästra. Hans lif är <lb/> en oändlig kamp med — verlden, sig sjelf med.</p>
+       </sp>
+        <sp who="#aline">
+          <speaker>Aline.</speaker>
+          <p>Ju högre mål, ju större kamp — ju <lb/> större kamp, ju härligare seger.</p>
+       </sp>
+        <sp who="#edvard">
+          <speaker>Edvard.</speaker>
+          <p>Och när han gjort sitt bästa — <lb/> när han vakat och kämpat och arbetat, och likväl <lb/> hans verk ej lyckas — hvad återstår?</p>
+       </sp>
+        <sp who="#aline">
+          <speaker>Aline.</speaker>
+          <p>Att göra bättre! Att icke vara så <lb/> ömtålig för några sår, utan våga sig ånyo i kam- <lb break="no"/> pen och fullborda segren. O, <persName ref="#Edvard">Edvard</persName>! huru skönt, <lb/> hur ädelt är ej konstnärens mål, hur värdt att <lb/> lefva för till sista andedraget! Må han äfven <lb/> förbli fattig. — Må samtiden ej rätt uppskatta <lb/> hans förtjenst, — det har vederfarits de ädlaste <lb/> och största — den gör sig dock väg en gång, och <lb/> välsignar menniskolifvet i mångfaldiga riktningar. <lb/> När menniskan vill fastna i de jordiska bekym- <lb/> rens mull, då upprullar konstnären för hennes blickar <lb/> lifvets idealer, och påminner henne om sitt ursprung <lb/> och sitt rätta hem! Så <choice><sic>står</sic> <corr>sår</corr></choice> han i verlden ett         
+            <lb/> medlare-ord som försonar himmelen och jorden
+            <pb facs="36388-10.jpg"/>
+                        <fw type="pageNum">11</fw> och låter evighetens ljusstrålar tränga igenom vår
+            <lb/> töckniga verld. O, <persName ref="#Edvard">Edvard</persName>! hvilket härligt mål
+            <lb/> att lefva för!!</p>
+       </sp>
+        <sp who="#edvard">
+          <speaker>Edvard.</speaker>
+          <p>Härligt i sanning <persName ref="#Aline">Aline</persName>! Men du <lb/> glömmer den svåra törnbeklädda stigen dit.</p>
+       </sp>
+        <sp who="#aline">
+          <speaker>Aline.</speaker>
+          <p>Mins du <persName ref="#Crusell">Bernhard Crusell</persName>?</p>
+       </sp>
+        <sp who="#edvard">
+          <speaker>Edvard.</speaker>
+          <p>Hvem mins ej honom som en gång <lb/> hört honom? Han var god mot mig.</p>
+       </sp>
+        <sp who="#aline">
+          <speaker>Aline.</speaker>
+          <p>Nå väl! Han gick <emph>fram</emph> på denna <lb/> törnbeströdda väg. <persName ref="#Crusell">Han</persName> var fattig en gång som <lb/> du, hade motgångar som du, men <emph>han</emph> kämpade <lb/> med dem och segrade. Så blef han en af sitt fo- <lb break="no"/> sterlands älsklingar, och spridde lif och hugnad så <lb/> i de högas som i de lågas boningar. Ty ädelt <lb/> använde han sin konst, sin Gudagåfva. Hans <lb/> toner väckte i månget bröst ett slumrande högre lif, <lb/> de jagade tråkighet — detta gråbleka spöke — ur <lb/> hem och samqväm; de förskaffade fattiga bröd och <lb/> förde sjuka och krymplingar till <orgName ref="#Betesda">det Bethesda</orgName> som <lb/> vår Herre skänkt sina barn i <placeName>Sverge</placeName>, hvars vågor
+            <lb/> väl äro bittra, men hvars kraft är ljuf och helso- <lb break="no"/> rik. Ännu i dag firar man i <placeName>Strömstad</placeName> den stund 
+            <lb/> han kom dit och med sina härliga toner kallade
+            <lb/> barmhertighetens engel att röra vattnet. Så lefde, 
+            <lb/> så verkade <persName ref="#Crusell">Crusell</persName> ett skönt föredöme för alla
+            <lb/> som vandra hans väg.</p>
+       </sp>
+        <sp who="#edvard">
+          <speaker>Edvard.</speaker>
+          <p>Ja så lefde han! Men nu är äfven <lb/><emph>han</emph> död och snart kanske — glömd.</p>
+       </sp>
+        <pb facs="36388-11.jpg"/>
+        <fw type="pageNum">12</fw>
+        <sp who="#aline">
+          <speaker>Aline.</speaker>
+          <p>Död, glömd? <persName ref="#Crusell">Den sanne konstnären</persName>? <lb/> Oh nej! <persName ref="#Crusell">Han</persName> är — dock detta måste jag säga <lb/> dig i sång.</p>
+          <lg>
+            <l>Han är ej död! I sångens verld</l>
+            <l>han lefver än</l>
+            <l>Hans själ af Gudomsöga närd</l>
+            <l>går där igen.</l>
+         </lg>
+          <lg>
+            <l>I melodier talar han</l>
+            <l>ännu i dag</l>
+            <l>till hvarje djup i menniskan,</l>
+            <l>till stark och svag.</l>
+         </lg>
+          <lg>
+            <l>Han ger de brutna sinnen tröst</l>
+            <l>ger mod och hopp,</l>
+            <l>Och Engeln uti menskans bröst</l>
+            <l>han väcker opp.</l>
+         </lg>
+          <lg>
+            <l>Han stämmer glädjens vilda rus</l>
+            <l>till harmoni</l>
+            <l>och bildar utaf verldens brus</l>
+            <l>en symfoni.</l>
+         </lg>
+          <lg>
+            <l>Han löser själen ur dess tvång</l>
+            <l>och fri från flärd</l>
+            <l>Han stiger med hans sköna sång</l>
+            <l>mot ljusets verld.</l>
+         </lg>
+          <lg>
+            <l>Så lefver han för jorden än</l>
+            <l>i sköna ljud</l>
+            <l>När ren han höjt i himmelen</l>
+            <l>sin sång hos Gud.</l>
+         </lg>
+          <p><stage>(Efter någon tystnad).</stage> Men <persName ref="#Edvard">Edvard</persName> du hör <lb/> mig ej! Du skrifver.</p>
+       </sp>
+        <sp who="#edvard">
+          <speaker>Edvard.</speaker>
+          <p>Just emedan jag hört din sång <lb/> och den gripit mig skrifver jag. Jag skrifver <pb facs="36388-12.jpg"/><fw type="pageNum">13</fw> återbud till <persName ref="#Rudolf">en god vän</persName> som jag från denna stund <lb/> ej mer vill se. Jag skall genast afsända denna <lb/> billette och sedan ——— börjar jag att arbeta om <lb/> min opera</p>
+          <stage type="exit" who="#edvard">(springer ut).</stage>
+       </sp>
+        <sp who="#aline">
+          <speaker>Aline.</speaker>
+          <p>Och jag har lyckligt utfört mitt <lb/> värf. Tack vare <persName ref="#Crusell">Crusell</persName>.</p>
+          <stage type="exit" who="#aline">(Går).</stage>
+       </sp>
+     </div>
+   </body>
+    <back>
+      <gap reason="irrelevant"/>
+      <!-- brevtext -->
+      <pb facs="36388-13.jpg"/>
+      <gap reason="irrelevant"/>
+      <pb facs="36388-14.jpg"/>
+      <!-- epilog -->
+      <gap reason="irrelevant"/>
+      <pb facs="36388-15.jpg"/>
+      <!-- tom sida -->
+      <div type="editorial">
+        <listPerson>
+          <listPerson type="cast">
+            <person xml:id="Edvard" sex="male">
+              <persName>
+                <forename>Edvard</forename>
+             </persName>
+              <occupation scheme="#HISCO" code="17120">kompositör</occupation>
+           </person>
+            <person xml:id="Aline" sex="female">
+              <persName>
+                <forename>Aline</forename>
+             </persName>
+           </person>
+         </listPerson>
+          <listPerson type="noncast">
+            <listPerson type="fictive">
+              <person xml:id="Rudolf" sex="male">
+                <persName>
+                  <forename>Rudolf</forename>
+               </persName>
+             </person>
+           </listPerson>
+            <listPerson type="historical">
+              <person xml:id="Crusell" sex="male">
+                <persName>
+                  <forename>Bernhard</forename>
+                  <surname>Crusell</surname>
+               </persName>
+                <occupation scheme="#HISCO" code="17120">tonsättare</occupation>
+                <!-- klarinettist, tonsättare, översättare -->
+                <idno type="LIBRIS">http://libris.kb.se/auth/182938</idno>
+                <idno type="SBL">http://www.nad.riksarkivet.se/sbl/artikel/15721</idno>
+                <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Bernhard_Crusell</idno>
+             </person>
+           </listPerson>
+         </listPerson>
+          <listRelation>
+            <relation type="personal" name="gift" mutual="#Aline #Edvard"/>
+            <relation type="personal" name="vän" mutual="#Edvard #Rudolf"/>
+            <relation type="other" name="ref." active="#Aline" passive="#Crusell"/>
+            <relation type="other" name="förebild" active="#Crusell" passive="#Edvard"/>
+            <!-- tillagt /EF -->
+            <relation type="other" name="likn." active="#Crusell" passive="#Betesda"/>
+         </listRelation>
+       </listPerson>
+        <listOrg>
+          <org xml:id="Betesda">
+            <orgName>Betesda</orgName>
+            <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Betesda</idno>
+         </org>
+       </listOrg>
+     </div>
+   </back>
+    <anchor xml:id="playend"/>
+ </text>
+</TEI>

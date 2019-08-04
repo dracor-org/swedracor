@@ -1,0 +1,2499 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="sv">En hufvudsak</title>
+        <title type="main" xml:lang="en">A Key Thing</title>
+        <title type="sub" xml:lang="sv">Komedi i en akt</title>
+        <title type="sub" xml:lang="en">Comedy in an Act</title>
+        <author key="wikidata:Q469339">
+          <persName>
+            <forename>Alfhild</forename>
+            <surname>Agrell</surname>
+         </persName>
+          <idno type="LIBRIS">http://libris.kb.se/auth/32024</idno>
+          <idno type="Litteraturbanken">http://litteraturbanken.se/#!forfattare/AgrellA</idno>
+          <idno type="SBL">http://www.nad.riksarkivet.se/sbl/artikel/5599</idno>
+       </author>
+     </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000041</idno>
+        <availability>
+          <licence>
+            <ab>CC0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+         </licence>
+       </availability>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q18238627</idno>
+     </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title level="m">Dramatiska arbeten</title>
+          <idno type="URL">http://libris.kb.se/bib/479398</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+         </availability>
+          <bibl type="originalSource">
+            <date type="print" when="1883">"1883" (http://libris.kb.se/bib/479398)</date>
+            <date type="premiere"/>
+            <date type="written"/>
+         </bibl>
+          <pubPlace>Stockholm</pubPlace>
+          <publisher>Oscar L. Lamms förlag</publisher>
+          <date when="1883">1883</date>
+          <biblScope unit="vol">I</biblScope>
+          <biblScope unit="page" from="185" to="247">185–247</biblScope>
+          <respStmt>
+            <resp>tryckning</resp>
+            <orgName>Gerrandts boktryckeri-aktiebolag</orgName>
+         </respStmt>
+       </bibl>
+     </sourceDesc>
+   </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Dramawebben är ett digitalt arkiv över upphovsrättslig fri svensk dramatik. Dramatexterna finns återgivna i fulltext och är publicerade antingen i sk faksimil, ett pdf-dokument där originaltrycket återges som en digital fotokopia, eller i bearbetningsbar text, ett pdf-dokument med text och bild som kan användas för redigering. Dramawebben växer i takt med att nya verk blir kända. Med det digitala pjäsmaterialet tillgängliggör och aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
+     </projectDesc>
+      <samplingDecl>
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
+     </samplingDecl>
+      <classDecl>
+        <taxonomy xml:id="HISCO">
+          <biblStruct>
+            <monogr>
+              <author>Marco H.D. van Leeuwen</author>
+              <author>Ineke Maas</author>
+              <author>Andrew Miles</author>
+              <title>HISCO Historical International Standard Classification of Occupations</title>
+              <idno type="ISBN">90-5867-196-8</idno>
+              <imprint>
+                <publisher>Leuven University Press</publisher>
+                <pubPlace>Leuven</pubPlace>
+                <date when="2002">2002</date>
+             </imprint>
+           </monogr>
+         </biblStruct>
+       </taxonomy>
+     </classDecl>
+      <tagsDecl>
+        <rendition xml:id="rend.p">first-indent(1)</rendition>
+        <!-- performance i kursiv stil -->
+        <!-- scenanvisningar i kursiv stil, mindre storlek -->
+        <!-- scenanvisningar mellan repliker centrerade -->
+        <!-- scenanvisningar efter speaker har indrag vid ny rad -->
+        <!-- talarrubriker centrerade, kapitäler -->
+        <!-- ej kapitäler /TEI/text[1]/body[1]/div[1]/div[1]/sp[110]/speaker[1] -->
+        <!-- ej kapitäl sista i /TEI/text[1]/body[1]/div[1]/div[1]/sp[24]/speaker[1] -->
+        <!-- presence i versaler, vid mer text i kursiv stil, förutom rollnamn som anges i normal stil och versaler -->
+        <!-- paginering överst, högerställd vid udda sidor, vänsterställd vid jämna -->
+     </tagsDecl>
+   </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="sv">Swedish</language>
+     </langUsage>
+      <particDesc>
+        <listPerson>
+          <person xml:id="thore" sex="MALE">
+            <persName>Thore, kassör</persName>
+         </person>
+          <person xml:id="siri" sex="FEMALE">
+            <persName>Siri</persName>
+         </person>
+          <person xml:id="lisa" sex="FEMALE">
+            <persName>Lisa, jungfru</persName>
+         </person>
+          <person xml:id="agnes" sex="FEMALE">
+            <persName>friherrinna Agnes Löwensköld</persName>
+         </person>
+       </listPerson>
+     </particDesc>
+      <textClass>
+        <keywords>
+          <term subtype="comedy" type="genreTitle">"Komedi i en akt"</term>
+       </keywords>
+     </textClass>
+   </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2019-08-04">(eg) convert from source</change>
+     </listChange>
+   </revisionDesc>
+ </teiHeader>
+  <text>
+    <anchor xml:id="playstart"/>
+    <front>
+      <pb facs="6000-0.jpg"/>
+      <!-- omslag -->
+      <pb facs="6000-1.jpg"/>
+      <!-- tom sida -->
+      <pb facs="6000-2.jpg"/>
+      <!-- tom sida -->
+      <pb facs="6000-3.jpg"/>
+      <!-- tom sida -->
+      <pb facs="6000-4.jpg"/>
+      <!-- titelsida, volym -->
+      <gap reason="irrelevant"/>
+      <pb facs="6000-5.jpg"/>
+      <!-- trycksida -->
+      <gap reason="irrelevant"/>
+      <pb facs="6000-6.jpg"/>
+      <!-- tom sida -->
+      <pb facs="6000-7.jpg"/>
+      <!-- titelsida, pjäs -->
+      <gap reason="irrelevant"/>
+      <performance>
+        <p>(Uppförd första gången å Nya Teatern <lb/><date when="1882-01-01">den 1 Januari 1882</date>).</p>
+     </performance>
+      <pb facs="6000-8.jpg"/>
+      <docTitle>
+        <titlePart type="main">En hufvudsak</titlePart>
+        <titlePart type="sub">Komedi i en akt</titlePart>
+     </docTitle>
+   </front>
+    <body>
+      <castList>
+        <head>PERSONERNA.</head>
+        <castItem><role xml:id="spThore"> <persName ref="#Thore">THORE</persName></role>, <roleDesc>kassör</roleDesc>,
+       </castItem>
+        <castItem><role xml:id="spSiri"> <persName ref="#Siri">SIRI</persName></role>, <roleDesc>hans hustru</roleDesc>,
+       </castItem>
+        <castItem><role xml:id="spAgnes"> <persName ref="#Agnes">AGNES</persName></role>, <roleDesc><persName ref="#Siri">Siris</persName> väninna</roleDesc>,
+       </castItem>
+        <castItem><role xml:id="spLisa"> <persName ref="#Lisa">LISA</persName></role>, <roleDesc><persName ref="#Siri">Siris</persName> f. d. sköterska</roleDesc>.
+       </castItem>
+     </castList>
+      <pb facs="6000-9.jpg"/>
+      <div type="act" n="1">
+        <stage type="setting" who="#siri #thore">
+          <p>Teatern föreställer en enkel, men smakfull sa- <lb break="no"/> long med trenne utgångar. Vid ena väggen ett skrif- <lb break="no"/> bord. Vid ridåns uppdragande sitter THORE och <lb/> SIRI i hvar sin stol läsande. Siri vändande Thore <lb/> ryggen.</p></stage>
+        <div type="scene" n="1">
+          <head>Första Scenen.</head>
+          <stage type="presence" who="#siri #thore">SIRI, THORE.</stage>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Har du roligt, <persName ref="#Siri">Siri</persName>?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Utmärkt. <stage>(Efter en paus, häftigt omsnoende sin <lb/> stol).</stage> Om jag begriper hur du står ut att sitta <lb/> så der som en målad bock!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Jag har flera gånger försökt att tala dig till.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Försökt, ja.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Nå-å?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Jo, det är inte nog med att <emph>försöka</emph>, man <lb/> skall lyckas också.</p>
+         </sp>
+          <pb facs="6000-10.jpg"/>
+          <fw type="pageNum">188</fw>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Ja, inte annat än jag förstår — så —</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Så har du misslyckats, ja.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>I hvad då?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>I att få <emph>mig</emph> att tala.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Dig? Nå din logik är då verkligen! — — —</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Hvad?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>En riktig fruntimmerslogik.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Väl åtminstone, du erkänner, att den är <lb/> riktig. <stage>(Paus.)</stage></p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Nå, vill du kapitulera än, <persName ref="#Siri">Siri</persName>?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Nej.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Inte? Ja, då läsa vi igen. <stage>(Paus.)</stage></p>
+         </sp>
+          <pb facs="6000-11.jpg"/>
+          <fw type="pageNum">189</fw>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p><persName ref="#Thore">Thore</persName>!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Hvad vill du?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Tycker du inte att du är bra stygg?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore</speaker>
+            <stage>(härmar <persName ref="#Siri">Siri</persName>).</stage>
+            <p>Nej.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Men det tycker jag.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Jaså. <stage>(Paus.)</stage></p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Hasch, <persName ref="#Thore">Thore</persName>!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Sade du något?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Aldrig ett ord.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore</speaker>
+            <stage>(ser på sin klocka).</stage>
+            <p>Tre qvart på sex. Tio minuters solförmör- <lb break="no"/> kelse, förorsakad af en hatt.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Skyll inte ifrån dig, det är ditt fel alltsam- <lb break="no"/> mans.</p>
+         </sp>
+          <pb facs="6000-12.jpg"/>
+          <fw type="pageNum">190</fw>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Ja, naturligtvis.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(smyger sig bakom <persName ref="#Thore">Tho- <lb break="no"/> res</persName> stol).</stage>
+            <p><persName ref="#Thore">Gubben</persName>, du!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Jaså, <persName ref="#Siri">trollpacka</persName>, du kom ändå?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Vill du ha mig i knä?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Ja, om du är mycket söt och snäll.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Jag skall försöka — — — en liten stund. <stage>(Sät- <lb break="no"/> ter sig i <persName ref="#Thore">Thores</persName> knä.)</stage> Mins du, när du såg mig <lb/> för första gången?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore</speaker>
+            <stage>(skämtande).</stage>
+            <p>Nej, minsann om jag det kan påminna mig.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(hotande).</stage>
+            <p><persName ref="#Thore">Thore</persName>!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Nåväl, då. Det var på skridskobanan. Så <lb/> förtjusande du var!</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Var jag?</p>
+         </sp>
+          <pb facs="6000-13.jpg"/>
+          <fw type="pageNum">191</fw>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>I din mörka, tätt åtsittande drägt, kantad med <lb/> gråverk.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Och — — — hatten se'n! — — —</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Som satt så här litet på sned, med en lång, <lb/> mjuk plym, som — — —</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Också riktigt öfveröste du den med kompli- <lb break="no"/> menter.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Maskeradt anfall.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Hade den nu varit gammal och ful — så —</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>— — hade jag än mer beundrat det vackra <lb/> ansigte den — —.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(luggar honom).</stage>
+            <p>Slingra dig inte, <persName ref="#Thore">Thore</persName>. Du afskyr fula hattar!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Ja, men den du har är inte ful och dess- <lb break="no"/> utom knappt begagnad tio gånger.</p>
+         </sp>
+          <pb facs="6000-14.jpg"/>
+          <fw type="pageNum">192</fw>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>En riktig fogelskrämma, som jag haft allt se- <lb break="no"/> dan jag gifte mig.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>För tretton månader sedan.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ja, men Pariser-Nouveautéer äro bara ett- <lb break="no"/> åriga växter.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Och ändå dragas de upp med så mycken <lb/> konst.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Se så... Tänker du nu bli qvick till på <lb/> köpet?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Åh nej, En <emph>sådan</emph> »tryckning» på hufvudet <lb/> har väl ännu aldrig en hatt utöfvat.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Om du visste, hur söt den här är!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Verkligen?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Med tre skära plymer, som sitta så här. <stage>(Gör <lb/> en geste ned öfver pannan.)</stage></p>
+         </sp>
+          <pb facs="6000-15.jpg"/>
+          <fw type="pageNum">193</fw>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Måtte vara smakfullt.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Och så en knippa lösa rosor i nacken.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Jag föredrager <emph>fasta</emph> rosor, — som inte sitta <lb/> i nacken.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Var nu en söt och snäll gosse!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Du har ju nyss köpt två hattar?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Det var vinterhattar.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Och det här?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Är en vårhatt.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Och sedan?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Komma sommarhattarna, förstås.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore</speaker>
+            <stage>(gör sig fri från <persName ref="#Siri">Siri</persName>
+              <lb/> och stiger upp).</stage>
+            <p>Mins du, <persName ref="#Siri">Siri</persName>, hvad jag sade när jag friade <lb/> till dig?</p>
+         </sp>
+          <pb facs="6000-16.jpg"/>
+          <fw type="pageNum">194</fw>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(kryper upp i stolen).</stage>
+            <p>Det var mycket, det.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Bland annat, att jag var en fattig man.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Nej, det sade du sedan.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Men det visste du.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Förut, ja.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Jag tillade äfven att du måste — —</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(knäpper ihop händerna <lb/> och rabblar upp som en
+              <lb/> utanlexa:)</stage>
+            <p>— — vara sparsam, belåten med en enkel <lb/> plats på teatern, inte ha supéer, vara enkel, hus- <lb break="no"/> lig och söt. Nå, har jag inte varit allt det der <lb/> kanske?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Undrar just, hvilken man, som nu skulle kunna <lb/> motsäga dig.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Sutto vi, eller sutto vi inte på tredje raden <lb/> första gången vi voro på spektaklet?</p>
+         </sp>
+          <pb facs="6000-17.jpg"/>
+          <fw type="pageNum">195</fw>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Joo. Men den andra sutto vi på parkett.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Har jag haft en enda riktig supé?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Nej, men åtminstone tio oriktiga. Och så, om <lb/> man börjar granska — —!</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ja, men det ska' man aldrig göra: då för- <lb break="no"/> lorar allting.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Kanske. Men nej, inte allting.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p><persName ref="#Siri">Lillan</persName> får ju hatten?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Du är inte uppfostrad i något rikt hem, <persName ref="#Siri">Siri</persName>. <lb/> Hände det aldrig att du fick försaka något?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Aldrig till min toilett.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Jaså, inte det.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Man kan dra' in på så mycket annat.</p>
+         </sp>
+          <pb facs="6000-18.jpg"/>
+          <fw type="pageNum">196</fw>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Det var någonting alldeles nytt.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ja, jag har inte visat dig mina talanger i <lb/> hushållning ännu.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Nej, det har du verkligen inte.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(smyger sig intill <persName ref="#Thore">Thore</persName>).</stage>
+            <p>Visst måste <persName ref="#Siri">din lilla hustru</persName> se ut som folk, <lb/><persName ref="#Thore">Thore</persName>.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Du vet inte till hvad du frestar mig, <persName ref="#Siri">Siri</persName>. <lb/> För resten: Ser du ut som en babian nu då?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Babian?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Ja, jag tål inte det der uttrycket.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ja, inte jag heller. Usch, hvad du är stygg, <lb/><persName ref="#Thore">Thore</persName>!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>För att jag inte vill ge ut fyratio kronor för <lb/> en modists — hjernspöke!</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Du är — <stage>(kastar sig ned i en stol och gråter).</stage></p>
+         </sp>
+          <pb facs="6000-19.jpg"/>
+          <fw type="pageNum">197</fw>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Se så, <persName ref="#Siri">Siri</persName>, gråt inte. Du vet att jag omöj- <lb break="no"/> ligt fördrar att se dina tårar.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(snyftande).</stage>
+            <p>Jag gråter visst inte — — Jag är tvärtom <lb/> riktigt — — glad — — riktigt — lycklig. Det <lb/> är bara så svårt tänka — — att du — — alls <lb/> inte — bryr dig om — — hvad jag vill eller <lb/> ty - - y - - cker — —</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Bryr inte <emph>jag</emph>! Åh, blott allt för mycket!</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Och så har du varit så konstig och tank- <lb break="no"/> spridd på sista tiden. Du kysste mig inte mer <lb/> än tre gånger i går.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Se så, <persName ref="#Siri">min lilla barnsliga hustru</persName>! <stage>(Sätter sig <lb/> hos <persName ref="#Siri">Siri</persName>.)</stage></p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Barnslig? Ja, jag vet nog, att du tycker att <lb/> jag är både <emph>det</emph> och elak och ful dertill — —</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>En aprilhimmel behöfver inte vara <emph>ful</emph>, fast <lb/> den inger en viss längtan efter ett paraply.</p>
+         </sp>
+          <pb facs="6000-20.jpg"/>
+          <fw type="pageNum">198</fw>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p><persName ref="#SirisMor">Stackars mamma</persName> såg nog klart, när hon sade, <lb/> att vi inte passade för hvarandra.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore</speaker>
+            <stage>(allvarligt).</stage>
+            <p>Ja, jag fruktar att hon hade rätt.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(reser sig hastigt).</stage>
+            <p>Se så, tror du nu <emph>det</emph> till på köpet! O, jag <lb/> är den olyckligaste varelse, som fins på jorden!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Nå, missförstå mig då inte. Jag menar —</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Att du ångrar dig.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Nej. Men att du inte är uppfostrad till <lb/> hustru åt en fattig man.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(torkar sina ögon).</stage>
+            <p>Åh, jo. Det går nog, bara man bjuder till.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Ja, derpå beror det.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Om vi, till exempel, skulle upphöra att dricka <lb/> kaffe om eftermiddagarna?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Och hvad mer?</p>
+         </sp>
+          <pb facs="6000-21.jpg"/>
+          <fw type="pageNum">199</fw>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(funderar).</stage>
+            <p>Jo, och så kunna vi sätta ned <persName ref="#Lisa">Lisas</persName> lön lite. <lb/> Den är verkligen allt för hög.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Som om hennes trohet <emph>kunde</emph> betalas! Jaså, <lb/><persName ref="#Siri">Siri</persName>, det der är således dina hushållsprinciper?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Åh, jag kan mycket mer än så. Ser du, på <lb/> det der viset får man pengar — —</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Att köpa — —?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Nödvändighetsartiklar för, ja.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore</speaker>
+            <stage>(afsides).</stage>
+            <p>Uppfostran! Det vore i sanning orätt att <lb/> klandra <emph>henne</emph>. <stage>(Högt)</stage> Hela ditt hjerta hänger <lb/> då fast vid det der bjeffset, <persName ref="#Siri">barn</persName>.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Inte hela. Bara en liten, liten flik.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Och hur glad skulle du bli, om du fick din <lb/> önskan uppfyld?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>O, så glad, så glad!</p>
+         </sp>
+          <pb facs="6000-22.jpg"/>
+          <fw type="pageNum">200</fw>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Nåväl då, rätt eller orätt: Köp din leksak, <lb/><persName ref="#Siri">barn</persName>. <stage>(Suckande)</stage> Jag skall skaffa penningar.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Du <persName ref="#Thore">käre, älskade brumbjörn</persName>! Men det är väl <lb/> riktigt säkert?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Har jag någonsin brutit ett löfte?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Hå — inte det — — Men — — —</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Men hvad?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Att du — — att du — —</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Bestämdt stammar inte <persName ref="#Siri">lillan</persName>. Att du — <lb/> att du —?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Inte ångrar dig!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Hur skulle jag väl <emph>kunna</emph> det!</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Hade du det gjort, så hade inte ens en <lb/> drottningkrona kunnat trösta mig! <stage>(Slår armarna <lb/> kring <persName ref="#Thore">Thores</persName> hals.)</stage></p>
+         </sp>
+          <pb facs="6000-23.jpg"/>
+          <fw type="pageNum">201</fw>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>— — —. Nå, skall du inte skicka efter din <lb/> skatt nu?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(skalkaktigt).</stage>
+            <p>Om du visste — — —!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Hvad! Är den redan här?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Inte mulen!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Du var således alldeles säker att — — —</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Tycker du det! Men jag tänkte att i värsta <lb/> fall — — —. Förstår du — i <emph>värsta</emph> fall —</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Ja, jag förstår.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Så skulle du inte kunna stå emot, om du bara <lb/> fick se den. Vänta litet <stage type="exit" who="#siri">(springer ut till venster).</stage></p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore</speaker>
+            <stage>(ensam).</stage>
+            <p>Jag är vansinnig, vansinnig! En sådan lyx- <lb break="no"/> utgift <emph>nu</emph>! — — — Om jag skulle säga <persName ref="#Siri">Siri</persName> <lb/> allt — — —? Nej, inte ännu, inte ännu! Jag <lb/> har ju ett svagt hopp, och dessutom — — —. <lb/> Men hvarifrån taga penningar ens till <emph>detta</emph>. <stage>(Står <pb facs="6000-24.jpg"/><fw type="pageNum">202</fw> försjunken i tankar.)</stage> Nåväl, då. I värsta fall må <lb/> det ske. De dagar, som återstå, <emph>vill</emph> och <emph>skall</emph> <lb/> jag se henne lycklig och glad. Sedan? — — Jag <lb/> vill inte tänka på något <emph>sedan</emph>. — —</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage type="entrance" who="#siri">(från venster, klädd i <lb/> hatt).</stage>
+            <p>Nå, kan man se något mer förtjusande!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore</speaker>
+            <stage>(betraktar henne).</stage>
+            <p>Näppeligen.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Och när jag går sedan? Se bara hur ply- <lb break="no"/> merna hoppa upp och ned.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Alldeles som på en kröningshäst.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Fy, <persName ref="#Thore">Thore</persName>! Hur kan du säga något så — — <lb/> elakt.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Ja, jag erkänner, att det var profanerande. <lb/> Men det händer, att sanningen smyger sig fram <lb/> så der oförmodadt ibland.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(står och nickar fram- <lb break="no"/> för en spegel).</stage>
+            <p>Nej, deras äro mycket större.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Och mycket vackrare.</p>
+         </sp>
+          <pb facs="6000-25.jpg"/>
+          <fw type="pageNum">203</fw>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(med värdighet, tagande <lb/> af sig hatten).</stage>
+            <p>Du har ingen smak, <persName ref="#Thore">Thore</persName>.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Inte det? Och ändå har jag valt dig.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Förlåt, det var jag som valde <emph>dig</emph>.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore</speaker>
+            <stage>(skrattande).</stage>
+            <p>I så fall erkänner jag villigt att — smaken <lb/> är på din sida. Men nu måste jag gå.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Hvart då?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Ut —. På <orgName ref="#Kontoret">kontoret</orgName> och hemta penningar.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(inställsamt).</stage>
+            <p>Hvad behöfs det. <persName ref="#SirisMor">Mamma</persName> påstod alltid, att <lb/> det var misshushållning att betala kontant.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Ja, det är billigare att inte betala alls <stage>(af- <lb break="no"/> sides)</stage> — som hon.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Nej, men lite då och lite då, ser du.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Spar på din vishet, <persName ref="#Siri">Siri</persName>, eljest förkrossar du <pb facs="6000-26.jpg"/><fw type="pageNum">204</fw> mig alldeles. <stage>(Ömt)</stage> Är <persName ref="#Siri">min lilla hustru</persName> riktigt <lb/> nöjd nu?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Riktigt glad och nöjd. Men inte bara för <lb/><emph>den der</emph> <stage>(nickar mot hatten)</stage>, utan derför att jag <lb/> har <persName ref="#Thore">den snällaste och raraste man i verlden</persName>! <lb/><stage>(Kastar sig i <persName ref="#Thore">Thores</persName> armar.)</stage></p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore</speaker>
+            <stage>(afsides).</stage>
+            <p>Hvarifrån få mod att fördunkla ett solsken <lb/> sådant som detta. <stage>(Högt)</stage> Låt mig vara, <persName ref="#Siri">Siri</persName>. <lb/><stage>(Skjuter <persName ref="#Siri">Siri</persName> ifrån sig.)</stage></p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Hvad fattas dig?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Mig? Hvad skulle väl fattas <emph>mig</emph>. Apropos, <lb/><persName ref="#Siri">Siri</persName>. Just nu föll mig en idé in. Om vi hän- <lb break="no"/> delsevis skulle förlora allt vi ega, om vi skulle <lb/> blifva nödsakade att inskränka våra nöjen, våra <lb/> vanor — hvad skulle du då säga?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ingenting. Jag skulle bara gråta, gråta nät- <lb break="no"/> ter och dagar. Men hvarför talar du om något <lb/> så förfärligt?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Sannerligen jag vet. Men adjö på en stund.</p>
+         </sp>
+          <pb facs="6000-27.jpg"/>
+          <fw type="pageNum">205</fw>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Du blir väl inte länge?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Högst en half timma, hoppas jag. Adjö, <persName ref="#Siri">lillan</persName>. <lb/><stage type="exit" who="#thore">(Går genom fonden.)</stage></p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(öppnar dörren).</stage>
+            <p><persName ref="#Thore">Thore</persName>! Nu glömde du ju att kyssa mig igen! <lb/><stage>(<stage type="entrance" who="#thore"/> Thore kysser henne hastigt och <stage type="exit" who="#thore">går</stage>.)</stage> Så besyn- <lb break="no"/> nerlig han blifvit! Nyss nästan stötte han mig <lb/> bort och — — Visst inbillar jag mig. Jag kan <lb/> den saken, jag. <stage>(Sätter småsjungande hatten på sig <lb/> framför spegeln.)</stage> Nej, <persName ref="#Lisa">Lisa</persName> måste se den. <stage>(Ro- <lb break="no"/> par)</stage> <persName ref="#Lisa">Lisa</persName>, <persName ref="#Lisa">Lisa</persName>!</p>
+         </sp>
+       </div>
+        <div type="scene" n="2">
+          <head>Andra Scenen.</head>
+          <stage type="presence" who="#siri">SIRI. LISA.</stage>
+          <sp who="#lisa">
+            <speaker>Lisa</speaker>
+            <stage type="entrance" who="#lisa">(från venster).</stage>
+            <p>Ja, ja, jag kommer, jag kommer!</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Nå, ser du ingenting?</p>
+         </sp>
+          <sp who="#lisa">
+            <speaker>Lisa.</speaker>
+            <p>Joo, gud ske lof. Ännu ser jag längre än <lb/> näsan är lång.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Det är inte fråga om <emph>näsan</emph> nu, utan om <lb/> den här. <stage>(Pekar på hatten.)</stage></p>
+         </sp>
+          <pb facs="6000-28.jpg"/>
+          <fw type="pageNum">206</fw>
+          <sp who="#lisa">
+            <speaker>Lisa</speaker>
+            <stage>(buttert).</stage>
+            <p>Hm, sådant der förstår jag mig inte på.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Åtminstone förstår du väl, att den är vacker?</p>
+         </sp>
+          <sp who="#lisa">
+            <speaker>Lisa.</speaker>
+            <p>Med dom der tofsarna?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Det är just <emph>de</emph>, som gör den elegant.</p>
+         </sp>
+          <sp who="#lisa">
+            <speaker>Lisa.</speaker>
+            <p>Jag tycker dom påminner om <orgName ref="#KlaraFörsamling">Clara</orgName> likvagn, jag.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Hur kan <persName ref="#Lisa">Lisa</persName> hitta på något så rysligt! Lik- <lb break="no"/> vagn med kröningshästar! Undrar just, hvem som <lb/> har mod att kuska omkring med ett sådant eki- <lb break="no"/> page!</p>
+         </sp>
+          <sp who="#lisa">
+            <speaker>Lisa.</speaker>
+            <p>Se så, <persName ref="#Siri">hjertebarn</persName>. Tag då inte så illa vid. <lb/><persName ref="#Lisa">Gamla Lisa</persName> är ett dumhufvud, som ingenting be- <lb break="no"/> griper.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(tröstad).</stage>
+            <p>Nå, det kan du då ha rätt i. Och klä'r mig <lb/> gör den, det är då säkert.</p>
+         </sp>
+          <sp who="#lisa">
+            <speaker>Lisa.</speaker>
+            <p>Undrar just hvad som <emph>inte</emph> skulle klä' det <lb/> ansigtet — fast — —</p>
+         </sp>
+          <pb facs="6000-29.jpg"/>
+          <fw type="pageNum">207</fw>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(härmar <persName ref="#Lisa">Lisa</persName>).</stage>
+            <p><said who="#Lisa">Hvad är det ändå <emph>nu</emph>, emot då hon var liten.</said></p>
+         </sp>
+          <sp who="#lisa">
+            <speaker>Lisa.</speaker>
+            <p>Alldeles så, ja.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(fortfarande som <persName ref="#Lisa">Lisa</persName>).</stage>
+            <p><said who="#Lisa">Då såg hon ut som en lefvande Guds engel.</said></p>
+         </sp>
+          <sp who="#lisa">
+            <speaker>Lisa</speaker>
+            <stage>(stött).</stage>
+            <p>Nästa gång skall <persName ref="#Lisa">gumman</persName> veta att ha tand <lb/> för tunga.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(skrattande).</stage>
+            <p>Kommer allt att bli lite svårt för dig, <persName ref="#Lisa">Lisa</persName>! <lb/> Se så, <persName ref="#Lisa">gamla dadda</persName>, bli inte ond nu. Men som <lb/> ni glömde att ge mig en spegel, när jag var liten, <lb/> är jag ursäktad om jag inte förmår dela din be- <lb break="no"/> undran. Dadda du!</p>
+         </sp>
+          <sp who="#lisa">
+            <speaker>Lisa</speaker>
+            <stage>(blidkad).</stage>
+            <p>Hvad vill — — — <persName ref="#Siri">frun</persName>?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Vi ska' ha något riktigt godt till qvällen.</p>
+         </sp>
+          <sp who="#lisa">
+            <speaker>Lisa.</speaker>
+            <p>Jag hör aldrig annat, och — —</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p><persName ref="#Thore">Thore</persName> tycker om fogel. Det är afgjordt. Vi <lb/> ska' ha stekt hjerpe.</p>
+         </sp>
+          <pb facs="6000-30.jpg"/>
+          <fw type="pageNum">208</fw>
+          <sp who="#lisa">
+            <speaker>Lisa.</speaker>
+            <p>Det är omöjligt.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Omöjligt, när <emph>jag</emph> säger till.</p>
+         </sp>
+          <sp who="#lisa">
+            <speaker>Lisa.</speaker>
+            <p>Fogeln är oköpt, oplockad, och, värst af allt: <lb/> stenfrusen, tack vare vinterkylan, som håller i.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Den måtte väl bli upptinad när den kommer <lb/> på elden, skulle jag tro.</p>
+         </sp>
+          <sp who="#lisa">
+            <speaker>Lisa</speaker>
+            <stage>(hostar).</stage>
+            <p>Då blir den förstörd.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>När den blir upptinad?</p>
+         </sp>
+          <sp who="#lisa">
+            <speaker>Lisa.</speaker>
+            <p>Jag menar — —</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Jag förstår mycket väl. För resten kan du <lb/> ta hvad du vill, bara det blir något som <persName ref="#Thore">kassören</persName> <lb/> tycker om.</p>
+         </sp>
+          <sp who="#lisa">
+            <speaker>Lisa.</speaker>
+            <p>Men — —</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Inga invändningar. <persName ref="#Lisa">Lisa</persName> glömmer af att jag <lb/> är <emph>fru</emph> nu.</p>
+         </sp>
+          <pb facs="6000-31.jpg"/>
+          <fw type="pageNum">209</fw>
+          <sp who="#lisa">
+            <speaker>Lisa.</speaker>
+            <p>Skulle jag glömma det! Men — —</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Och att <persName ref="#Lisa">Lisa</persName> är skyldig mig respekt.</p>
+         </sp>
+          <sp who="#lisa">
+            <speaker>Lisa.</speaker>
+            <p>Respekten kommer nog med förståndet. Jag <lb/> ville bara säga, att <persName ref="#Siri">frun</persName> tog de sista hushålls- <lb break="no"/> pengarna till handsk... <stage>(Det ringer.)</stage></p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Hvem kan det vara! Skynda dig <persName ref="#Lisa">Lisa</persName> och <lb/> öppna. <stage>(Tager skyndsamt af sig hatten.)</stage></p>
+         </sp>
+          <sp who="#lisa">
+            <speaker>Lisa</speaker>
+            <stage>(i tamburen).</stage>
+            <p>Kors, så glad <persName ref="#Siri">Siri</persName> skall bli! <stage>(Öppnar fond- <lb break="no"/> dörren för <stage type="entrance" who="#agnes">Agnes</stage> och <stage type="exit" who="#lisa">går till venster</stage>.)</stage></p>
+         </sp>
+       </div>
+        <div type="scene" n="3">
+          <head>Tredje Scenen.</head>
+          <stage type="presence" who="#siri #agnes">SIRI. AGNES.</stage>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Nej, hvad ser jag! <persName ref="#Agnes">Agnes</persName>, du!</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Jo, jag sjelf och ingen annan. Nå, <persName ref="#Siri">liten</persName>, tappa <lb/> inte ögonen.</p>
+         </sp>
+          <pb facs="6000-32.jpg"/>
+          <fw type="pageNum">210</fw>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Hvilken kär, kär öfverraskning! När kom <lb/> du till <placeName>Stockholm</placeName>?</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>I går.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Och sökte så pass snart upp mig! Du <persName ref="#Agnes">kära, <lb/> snälla Agnes</persName>.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Minsann tror jag inte att <persName ref="#Siri">barnet</persName> blef upp- <lb break="no"/> riktigt glad att se mig.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Men nu skall du taga af dig. — Vänta — <lb/> så får jag hjelpa dig. Är <persName ref="#Fideikommissarien">din man</persName> också i staden.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Han lemnar ogerna sin egendom.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Sitt fideikomiss, menar du. Tänk, att ha <persName ref="#Fideikommissarien">en <lb/> fideikomissarie</persName> till man!</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Ja, det är afundsvärdt. Är det inte?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Men kom nu hit fram till lampan, så att jag <lb/> får se dig på riktigt. Vi ha ju inte träffats på <lb/> hela fyra år.</p>
+         </sp>
+          <pb facs="6000-33.jpg"/>
+          <fw type="pageNum">211</fw>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Är det bara fyra år?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ja, då var jag ju yngsta tärnan på ditt bröllop.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Det är sant. Det är jag, som — missräk- <lb break="no"/> nat mig.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(betraktar <persName ref="#Agnes">Agnes</persName>).</stage>
+            <p>Stolt och ståtlig som förr, men du har allt <lb/> blifvit lite blek.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Du deremot är rosig som <persName ref="#Aurora">Aurora</persName> sjelf.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Nu skall du sitta här i soffan. Så en kudde <lb/> bakom hufvudet, en pall under fötterna och —</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Nog, nog, tack. Jag är som kattorna. Jag <lb/> tycker inte om att man stryker mig för mycket. <lb/> Detta är således ditt hem, <persName ref="#Siri">Siri</persName>? Hvilket litet in- <lb break="no"/> bjudande bo.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Tycker du <emph>verkligen</emph>. Hå, ja, det är nog <lb/> rätt bra, fast visst fattas här en hel del. Och <lb/> jemfördt med <emph>ditt</emph> hem, så — —</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Låt oss nu tala lite om <persName ref="#Thore">din man</persName>. Jag kän- <lb break="no"/> ner ju honom alls inte.</p>
+         </sp>
+          <pb facs="6000-34.jpg"/>
+          <fw type="pageNum">212</fw>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Men han känner dig.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Som jag honom: par renommé. Jag vet <lb/> bland annat, att han är en ovanligt rättänkande <lb/> och älskvärd ung man.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Rättänkande och älskvärd! Åh, det är all- <lb break="no"/> deles för lite! Han är den bäste, den klokaste, <lb/> den vackraste, den qvickaste, den —</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Hejda dig. Nu har jag hans karaktär all- <lb break="no"/> deles klar för mig. Ni älska hvarandra således <lb/> fortfarande?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Fortfarande? Skulle inte du och <persName ref="#Fideikommissarien">din man</persName> —</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p><emph>Vi</emph>? Vi äro ett mönstergildt äkta par efter <lb/> allra senaste mod.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Jag trodde inte att det rådde något mod <lb/> inom den äktenskapliga verlden.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Tvärtom: der vexlar det förfärligt.</p>
+         </sp>
+          <pb facs="6000-35.jpg"/>
+          <fw type="pageNum">213</fw>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Tänk om <persName ref="#Thore">Thore</persName> skulle bli gammalmodig. Ha, <lb/> ha, ha!</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Skratta inte, du. Det är mycket troligt, så- <lb break="no"/> vida han inte — — —</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Hvad?</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Förstår, att skapa ett mod — för sig. Men, <lb/><persName ref="#Siri">liten</persName>, hvarför har du inte skrifvit till mig under <lb/> alla dessa år?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Jo, jo, jo — — derför, att jag har en så <lb/> förfärlig respekt för dig.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>För <emph>mig</emph>! — Ja, det var också en idé.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Och att skicka af mina dumheter så der på <lb/> egen hand eller rättare <emph>med</emph> egen hand, dertill <lb/> har jag inte haft mod.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p><persName ref="#Siri">Öfvermodiga Siri</persName>. Att kunna »skicka af» <lb/> sina dumheter och inte göra det! Jaså, <persName ref="#Siri">liten</persName>, du <lb/> är således lycklig?</p>
+         </sp>
+          <pb facs="6000-36.jpg"/>
+          <fw type="pageNum">214</fw>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ja, du <emph>så</emph>! — Om vi bara hade lite mera <lb/> pengar.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Jag trodde att <persName ref="#Thore">din man</persName> hade en rätt stor <lb/> lön?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Tre tusen fem hundra kronor.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Nå-ja, det är inte mycket.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Nej, det är det visst inte; men det räcker <lb/> ändå rätt bra, bara man förstår att hushålla.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Och det förstår <persName ref="#Thore">din man</persName>?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Det har jag aldrig sagt.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Det skulle således vara <emph>du</emph>, som — —</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ja, oss emellan sagt, så har <persName ref="#Thore">Thore</persName> de mest <lb/> förvända begrepp om hushållning. Han bara hål- <lb break="no"/> ler på, att man skall undvara det som är svårt <lb/> att skaffa sig.</p>
+         </sp>
+          <pb facs="6000-37.jpg"/>
+          <fw type="pageNum">215</fw>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Och du?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p><emph>Jag</emph>? <emph>Jag</emph> håller på, att man skall skaffa sig det <lb/> som är svårt att undvara. Apropos: hvad tyc- <lb break="no"/> ker du om den här? <stage>(Visar hatten).</stage></p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Rätt söt — fast plymerna påminna något om <lb/> Boulognerhund.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(förkrossad).</stage>
+            <p>Boulognerhund!</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Blef du sårad af mitt landtliga omdöme?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Nej, visst inte. Men nog var det otur att <lb/> det skulle komma hund till ekipaget också. Ja, <lb/> du skall få höra sedan. Men nu först ser jag, <lb/> att du bär sorgdrägt. Hjertesorg?</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Åh, nej. Hvem sörjer när man får ärfva <lb/> fem tusen kronor. <persName ref="#OnkelFabian">Onkel Fabian</persName> är död.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p><persName ref="#OnkelFabian">Den gamla smulgråt — —</persName>! <stage>(Hejdar sig ha- <lb break="no"/> stigt.)</stage> Nå, gud ske lof, att det inte var någon <lb/> värre! Men förtroende mot förtroende. Är du <lb/> lycklig, <persName ref="#Agnes">Agnes</persName>?</p>
+         </sp>
+          <pb facs="6000-38.jpg"/>
+          <fw type="pageNum">216</fw>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Åh, utmärkt. Det enda, som fattades i min <lb/> lycka, var en bordservis af nysilfver och den fick <lb/> jag här om dagen. Men jag vet inte hvad det <lb/> är som ligger i luften här och gör en så barns- <lb break="no"/> ligt stämd. Jag skall krypa upp i soffan så här, <lb/> och så skall du berätta mig sagan om ditt äkten- <lb break="no"/> skapliga lif, <persName ref="#Siri">Siri</persName>.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Sagan?</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Ja, är inte er kärlek sagolik i vår upplysta <lb/> tid, kanske, och ser inte du sjelf ut som en riktig <lb/> sagoprinsessa, med dina ljusa lockar och din <lb/> vackra drägt. Apropos: går du alltid så der <lb/> elegant hemma?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ja, det tycker jag är en pligt mot — — <lb/> mot <persName ref="#Thore">Thore</persName>.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p><emph>Mot Thore</emph>? Det är ändå lyckligt, när man <lb/> fått lära sig sina pligter, och det har både du och <lb/> jag. Och borta?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ja, då tycker jag, att det är en pligt mot <lb/> mig sjelf.</p>
+         </sp>
+          <pb facs="6000-39.jpg"/>
+          <fw type="pageNum">217</fw>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Naturligtvis. Se så, <persName ref="#Siri">liten</persName>, börja nu.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Första gången som <persName ref="#Thore">prinsen</persName> och <persName ref="#Siri">prinsessan</persName> <lb/> sågo hvarandra blefvo de kära, så förfärligt kära. <lb/> Nej du, det går inte på det der viset. Allt nog: <lb/><persName ref="#SirisMor">mamma</persName> sade nej. <persName ref="#Thore">Thore</persName> studerade då ännu och <lb/> hade ingenting, och <persName ref="#SirisMor">mamma</persName> ville ha en rik måg — <lb/> du förstår. Jo, det var en tid, den, du!</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Nå, vidare.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Så gaf <persName ref="#Thore">Thore</persName> studierna på båten och tog <lb/> den här platsen i stället, men det hjelpte ändå <lb/> inte. <persName ref="#SirisMor">Mamma</persName> tyckte ändå att han var för tarflig. <lb/> Husch, hvad jag gret! <persName ref="#Thore">Thore</persName> blef blek och dy- <lb break="no"/> ster; jag rödnäst och ful, och så gret jag för det <lb/> med. Nej, jag vill inte tänka på det der ens. Så <lb/> blef <persName ref="#SirisMor">mamma</persName> sjuk, mycket, mycket sjuk, och då, <lb/> heldre än att lemna mig ensam och utan medel, <lb/> pensionen fick ju inte jag godt af — så — —</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Jag förstår. <persName ref="#Siri">Stackars Siri</persName>. <persName ref="#Siri">Lyckliga Siri</persName>!</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ja, alldeles så. Jag var så förtviflad när <lb/><persName ref="#SirisMor">mamma</persName> dog, men när jag skulle gråta, så skrat- <lb break="no"/> tade jag, och tvärtom. Det var alls ingen reda <pb facs="6000-40.jpg"/><fw type="pageNum">218</fw> på mig. Gud så lycklig jag var! Några veckor <lb/> derefter firade <persName ref="#Thore">Thore</persName> och jag i all tysthet bröllop, <lb/> och nu är jag den lyckligaste, den mest afunds- <lb break="no"/> värda varelse, som fins under solen. Ja, det vill <lb/> säga — —</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Det fins således ett moln?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Inte precis det, inte. Men det fins något som <lb/> heter: ett bokslut.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Hvad menar du, <persName ref="#Siri">liten</persName>?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Jo, ibland, inte ofta, är <persName ref="#Thore">Thore</persName> lite underlig. <lb/> Han bara stirrar framför sig och hvarken hör <lb/> eller ser. Då har han ett bokslut i hufvudet, ser <lb/> du. Åh, hvad jag afskyr de der boksluten!</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Det är allt fler än du som gör det, antar jag. <lb/><persName ref="#Thore">Thore</persName> är således nedslagen ibland?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Nedslagen! Nej, <emph>så</emph> farligt är det inte. Om <lb/> han bara inte ville fundera så förfärligt. Brukar <lb/><persName ref="#Fideikommissarien">din man</persName> också —</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Fundera? Nej, från den svagheten fritar jag <lb/> honom alldeles. Nå, hur reder du dig med hushållet?</p>
+         </sp>
+          <pb facs="6000-41.jpg"/>
+          <fw type="pageNum">219</fw>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Åh, utmärkt. Isynnerhet sedan <persName ref="#Lisa">Lisa</persName> kom. <lb/> Hon förstår mig så bra.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Det riktigt gladde mig att se hennes gamla <lb/> ansigte. Hon bör vara dig ovärderlig.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ja, det är hon visst, det. Men nog fordras <lb/> det förstånd att upprätthålla den husmoderliga <lb/> värdigheten. Du förstår, att när hon skött mig <lb/> som liten, så — —</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Ja, jag förstår.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Också har jag, för att inte såra henne, upp- <lb break="no"/> hört att göra mina uppköp sjelf.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Nej, hör på <persName ref="#Siri">lillan</persName> bara. Har du verkligen <lb/> gjort dina uppköp sjelf?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ja, det vill säga: jag tänkte.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Jaså, du tänkte.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Och började också.</p>
+         </sp>
+          <pb facs="6000-42.jpg"/>
+          <fw type="pageNum">220</fw>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Verkligen?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ja, aldrig glömmer <emph>jag</emph> min debut på <placeName>Korn- <lb break="no"/> hamnstorg</placeName>, det är då säkert. Man talar om <emph>ramp- <lb break="no"/> feber</emph>! Men hvad är det mot <emph>torgfeber</emph>!</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Är den så svår?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ja, det må du tro, det. Aldrig hade jag tänkt <lb/> mig, att en så förfärlig plats kunde finnas här i <lb/> verlden. Och publiken se'n! Söta ni, söta hon! <lb/> Ur vägen, se upp! Jag trodde jag skulle bli tokig, <lb/> och inte visste jag hvart jag skulle vända mig <lb/> eller hur jag skulle bära mig åt.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p><persName ref="#Siri">Stackars Siri</persName>.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ja, det var inte roligt, må du tro. Bakom <lb/> mig trippade <persName ref="#Sophie">Sophie</persName> med korgen — <persName ref="#Sophie">Sophie</persName> var <lb/> min första jungfru, en mycket näsvis och obehag- <lb break="no"/> lig person, och förr än jag hade frågat <emph>henne</emph>, <lb/> så — —</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Fortfarande den husmoderliga värdigheten! <lb/> Nå, hur slutade dina pröfningar?</p>
+         </sp>
+          <pb facs="6000-43.jpg"/>
+          <fw type="pageNum">221</fw>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Jo, jag fick en lysande idé. Framför mig <lb/> gick <persName ref="#ÄldreFru">en äldre fru</persName> med ett par ögon, som tycktes <lb/> se åt alla håll, och en stor skinnväska på armen. <lb/> Henne beslöt jag att följa som skuggan, och köpa <lb/> det samma som hon.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Idén var inte så dålig.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Men det blef ett promenerande må du tro. <lb/> Ändtligen, när jag var nära att digna af trötthet, <lb/> stannade <persName ref="#ÄldreFru">min ledstjerna</persName> framför ett tält och bad <lb/> att få köpa — — — Ja, gissa hvad.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Nej, det är omöjligt.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Jo, en <emph>oxhare</emph>! Har du någonsin hört talas <lb/> om ett sådant djur, du?</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Ha, ha, ha! Läs <persName ref="#Hagdahl">Hagdahl</persName>, <persName ref="#Siri">lillan</persName>, det är mitt <lb/> råd. Nå skrämde haren dig på flykten?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Jag gaf mig visst inte tid att se på honom, <lb/> utan smög mig i stället bakom ryggen på <persName ref="#Kokerskan">en <lb/> kokerska</persName> — det var bestämdt en kokerska, hon <lb/> såg så ondsint ut — men döm om min häpnad, <lb/> min fasa, när jag hörde <emph>henne</emph> mumla något om, <pb facs="6000-44.jpg"/><fw type="pageNum">222</fw> <said who="#Kokerskan">»att det inte fans en — <emph>väl styckad fransyska</emph> <lb/> på hela torget.»</said></p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Hu, så förfärligt!</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ja, var det inte. Jag visste inte om jag skulle <lb/> gråta eller skrika, när jag lyckligtvis fick för- <lb break="no"/> klaring på de kabbalistiska orden. Och nu, stolt i <lb/> känslan af min nyförvärfvade kunskap, gick jag <lb/> från bord till bord, frågande och köpande, till dess <lb/> jag slutligen kom hem med inte mindre än <emph>fem</emph> <lb/> fransyskor i korgen.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Nå, när slutet är godt, är allting godt.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Men så tanklös jag kan vara. Här sitter jag <lb/> och alldeles tröttar ut dig med mitt prat.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Tvärtom! Jag har inte känt mig så uppfriskad <lb/> på länge.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p><persName ref="#Thore">En sådan Thore</persName>!</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Hvad har han förbrutit?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Åh, han lofvade att komma hem efter en <pb facs="6000-45.jpg"/><fw type="pageNum">223</fw> half timma och nu har han redan varit borta <lb/> en hel.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Det är oförlåtligt.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Tänk, om han blifvit hindrad och alls inte <lb/> skulle få träffa dig! Jag måste skicka bud efter <lb/> honom. Förlåt mig för ett ögonblick. <stage type="exit" who="#siri">(Skyndar <lb/> ut till venster.)</stage></p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes</speaker>
+            <stage>(ensam).</stage>
+            <p>Nu har jag situationen temligen klar för mig. <lb/> Hur var den der planschen, som gjorde ett så <lb/> lifligt intryck på mig. <persName ref="#FlickaPåPlansch">Flickan</persName> hade kastat blom- <lb break="no"/> sterkedjan kring <persName ref="#GossePåPlansch">gossens</persName> hals och så sprungo de <lb/> båda nedför branten, vid hvars fot förderfvet lu- <lb break="no"/> rade. <emph>Han</emph> blek och tvekande, ty de öppna ögo- <lb break="no"/> nen skådade faran; <emph>hon</emph> leende, tjusande — och <lb/> blind, tack vare blomsterkransen, som en oför- <lb break="no"/> ståndig hand tryckt öfver hennes ögon. Bra tänkt, <lb/> men lyckligtvis kunna somliga hejdas på halfva <lb/> vägen. Det är nog att — — Nå, det hör inte hit.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage type="entrance" who="#siri">(från venster).</stage>
+            <p>Se så der, ja, nu ha vi honom här inom <lb/> några ögonblick. <orgName ref="#Kontoret">Kontoret</orgName> ligger straxt bredvid, <lb/> och sedan skola vi ha' en den mest förtjusande <lb/> lilla supé i verlden. Du är väl fortfarande för- <lb break="no"/> tjust i munkar?</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Ja, <emph>den</emph> kärleken har jag blifvit trogen.</p>
+         </sp>
+          <pb facs="6000-46.jpg"/>
+          <fw type="pageNum">224</fw>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Riktigt runda och uppblåsta, du.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Ja, det har i alla tider ansetts vara ett sä- <lb break="no"/> kert igenkänningstecken på riktiga munkar. — <lb/> Men hvad skulle du säga, <persName ref="#Siri">Siri</persName>, om jag kommit <lb/> hit för att tala lite förstånd med dig?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(förskräckt).</stage>
+            <p>Nej, <persName ref="#Agnes">söta du</persName>, det kan jag aldrig tro!</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Du tycker kanske inte om förståndspredik- <lb break="no"/> ningar?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Nej, jag afskyr dem! Straxt vi voro gifta <lb/> skulle <persName ref="#Thore">Thore</persName> också »tala förstånd», gud bevars, <lb/> men jag vänjde honom snart af med den odyg- <lb break="no"/> den, jag.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Hur bar du dig då åt?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Jo, endera gjorde jag så här <stage>(sätter fingrarna <lb/> i öronen)</stage> eller också gaf jag honom en kyss mel- <lb break="no"/> lan hvartannat ord, till dess han glömde af allt- <lb break="no"/> sammans.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Men som du inte kan muta mig på samma <lb/> vis, så —</p>
+         </sp>
+          <pb facs="6000-47.jpg"/>
+          <fw type="pageNum">225</fw>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(lyssnar).</stage>
+            <p>Tyst! Jag tror att <persName ref="#Lisa">Lisa</persName> kommer tillbaka! <lb/> Jag skall bara springa ut och höra om hon träf- <lb break="no"/> fat <persName ref="#Thore">Thore</persName>. <stage type="exit" who="#siri">(Kastar en slängkyss och springer ut till <lb/> venster.)</stage></p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Banna <emph>henne</emph>! Jo det vore allt rättvist. <lb/> Bollen måste ju flyga dit den blifvit riktad. Men <lb/> hvad nu! <stage>(Trycker handen mot hjertat.)</stage> Ännu ett <lb/> anfall. Det går raskt. Nå, <emph>en</emph> god gerning skall <lb/> jag åtminstone få med mig på den långa färden. <lb/><persName ref="#Siri">Siri</persName> måste räddas — och räddas skall hon, i dub- <lb break="no"/> belt afseende.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage type="entrance" who="#siri">(tankfull från venster).</stage>
+            <p>Han har alls inte varit på <orgName ref="#Kontoret">kontoret</orgName>. Hvad <lb/> vill det säga. Men, <persName ref="#Agnes">Agnes</persName>, hvad fattas dig!</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Hvarför frågar du det?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Du är dödsblek!</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Det är ingenting att bry sig om. För att <lb/> bli riktigt comme il faut så har jag på senare <lb/> tiden lagt mig till med ett <emph>dåligt hjerta</emph>. Näst <lb/> att vara utan, är det det allra modernaste.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Du skämtar så besynnerligt.</p>
+         </sp>
+          <pb facs="6000-48.jpg"/>
+          <fw type="pageNum">226</fw>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Gör jag det? Då kan jag ju bli nutids- <lb break="no"/> humorist när jag vill. Se så, <persName ref="#Siri">liten</persName>, se inte så för- <lb break="no"/> skräckt ut. Om några minuter är jag alldeles <lb/> bra igen — —</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Kanske att du vill hvila dig lite inne hos mig?</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Ja, hvarför inte. <persName ref="#Thore">Thore</persName> är van vid rosiga <lb/> kinder och leende ögon. <stage>(<persName ref="#Siri">Siri</persName> slår upp dörren till <lb/> höger.)</stage> Följ mig inte, <persName ref="#Siri">liten</persName>. Jag vill vara alldeles <lb/> ostörd en stund. <stage type="exit" who="#agnes">(Går till höger.)</stage></p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Så besynnerlig <emph>hon</emph> också blifvit. Men <persName ref="#Agnes">stac- <lb break="no"/> kars Agnes</persName>! Sjuk och kanske inte lycklig. <lb/><stage>(Sätter mekaniskt på sig hatten och speglar sig.)</stage> <lb/> Boulognerhund! Nej, det var då galnare än allt <lb/> annat. <stage>(Tankfull.)</stage> <persName ref="#SirisMor">Mamma</persName> sade alltid att <persName ref="#Agnes">Agnes</persName> <lb/> gjorde <persName ref="#Fideikommissarien">ett så utmärkt parti</persName>. Men gammal, tjock <lb/> och faslig såg han ut, tyckte <emph>jag</emph>. <stage>(Speglar sig.)</stage> <lb/><emph>Om</emph> jag skulle flytta upp plymerna lite, bara helt <lb/> lite. <stage>(Otålig.)</stage> Men hvad gör då <persName ref="#Thore">Thore</persName>, som inte <lb/> kommer! <stage>(Det ringer.)</stage> Der är han! <stage>(Gömmer <lb/> sig bakom dörren.)</stage></p>
+         </sp>
+       </div>
+        <pb facs="6000-49.jpg"/>
+        <fw type="pageNum">227</fw>
+        <div type="scene" n="4">
+          <head>Fjerde Scenen.</head>
+          <stage type="presence" who="#siri">SIRI. THORE.</stage>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage type="entrance" who="#thore">(när Thore öppnar dör- <lb break="no"/> ren).</stage>
+            <p>Titt ut!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Nej, se på <persName ref="#Siri">lilla fåfängan</persName>, bara! Fortfarande <lb/> i hatt. Har <persName ref="#Siri">hennes nåd</persName> gjort söta miner åt sin <lb/> egen bild i öfver en timmas tid?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Nej, visst inte! <stage>(Tager af sig hatten.)</stage> Här <lb/> har tilldragit sig <emph>stora</emph> saker medan du varit <lb/> borta.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Stora saker! Det var inte lite det.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p><emph>Stora saker</emph>, det var inte <emph>småsaker</emph>, det. <lb/> Så skulle, du ha sagt, om du varit ärlig mot ditt <lb/> göteborgska blod. Eljest är <persName ref="#Agnes">Agnes Löwensköld</persName> <lb/> här.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Nej, hvad säger du! Nå, det skall bli roligt <lb/> att en gång få göra bekantskap med <persName ref="#Agnes">det der un- <lb break="no"/> derverket af skönhet, snille och — — —</persName></p>
+         </sp>
+          <pb facs="6000-50.jpg"/>
+          <fw type="pageNum">228</fw>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Tala inte så högt! Hon är derinne.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Aj, för tusan!</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Hon mår inte riktigt bra.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Väl inte något allvarsamt illamående, hoppas <lb/> jag.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(höjer på sig och hviskar <lb/><persName ref="#Thore">Thore</persName> i örat).</stage>
+            <p>Jag tror, att hon är olyckligt gift.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Det var allvarsamt nog, det.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ja, att inte <emph>jag</emph> gick igenom, det är då sä- <lb break="no"/> kert. Men kom och sätt dig här. — Nå, inte så <lb/> nära. <persName ref="#Agnes">Agnes</persName> kan komma. Hvarför har du dröjt <lb/> så länge?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Jag blef hindrad af oförmodadt arbete — —</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(lekfullt).</stage>
+            <p>På <orgName ref="#Kontoret">kontoret</orgName>, kanske?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Ja — ja — naturligtvis; på <orgName ref="#Kontoret">kontoret</orgName>.</p>
+         </sp>
+          <pb facs="6000-51.jpg"/>
+          <fw type="pageNum">229</fw>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p><persName ref="#Thore">Thore</persName>!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Hvad mer? Du låter helt förskräckt —</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Du narras!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Narras jag?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ja, jag hade nyss bud deruppe, och då sva- <lb break="no"/> rade <persName ref="#Lind">Lind</persName> att du alls inte varit på <orgName ref="#Kontoret">kontoret</orgName> i <lb/> afton.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore</speaker>
+            <stage>(stiger upp).</stage>
+            <p>Det lär <persName ref="#Lind">Lind</persName> föga ha reda på. För resten <lb/> var jag der helt kort, bara medan jag hämtade <lb/> penningarna.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Och nyss sade du, att du blifvit hindrad af <lb/> oförmodadt arbete!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Tänker <persName ref="#Siri">lillan</persName> bli storinqvisitor. Nåväl, då, <lb/> om jag nu skall bigta mig, så gick jag upp till <lb/><persName ref="#Knut">Knut</persName> för att bedja honom hjelpa mig lite med — <lb/> med — —</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Bokslutet, kan jag tro.</p>
+         </sp>
+          <pb facs="6000-52.jpg"/>
+          <fw type="pageNum">230</fw>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Alldeles! Minsann börjar inte <persName ref="#Siri">min lilla hustru</persName> <lb/> att bli riktigt hemmastadd med handelstermerna.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(mulen).</stage>
+            <p>Ja, åtminstone med <emph>bokslutet</emph>.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Det är också det svåraste.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Och det obehagligaste.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore</speaker>
+            <stage>(sätter sig ånyo hos <lb/><persName ref="#Siri">Siri</persName>).</stage>
+            <p>Nej, men se på lilla mun, bara! Sluter sam- <lb break="no"/> man sina blad alldeles som en törnrosknopp i <lb/> oväder.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Du har bestämdt anlag att bli poet, <persName ref="#Thore">Thore</persName>.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>För den der originella liknelsen om törnros- <lb break="no"/> knoppen, hä?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Egentligen var det bra skada att du öfvergaf <lb/> den lärda vägen.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Jag kan ju bli naturpoet. En naturlig poet <lb/> skulle inte kunna undgå att väcka uppseende.</p>
+         </sp>
+          <pb facs="6000-53.jpg"/>
+          <fw type="pageNum">231</fw>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Åh, inte för det, inte. Men »fru rektorskan» <lb/> låter allt bra mycket bättre än fru kassörskan. <lb/><stage>(Suckande.)</stage> <persName ref="#Agnes">Agnes</persName> kallas hennes nåd, hon.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Det är möjligt. Men vänta hade vi fått, som <lb/> det står i visan.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(uppklarnande).</stage>
+            <p>Ja, det har du rätt i. Och med det hade <lb/> jag visst inte stått ut.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Men det hade jag.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Retas inte, <persName ref="#Thore">Thore</persName>.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Och hade det inte varit för <emph>din</emph> skull, så — —</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(gråtfärdig).</stage>
+            <p>För <emph>min</emph> skull! Du borde just blygas, <persName ref="#Thore">Thore</persName>!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Nå, hade det varit bättre att det varit för <lb/> någon annans skull, då?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Nej, <persName ref="#Thore">Thore</persName>, nu — —</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Nå, heter du gerna »fru kassörskan» då?</p>
+         </sp>
+          <pb facs="6000-54.jpg"/>
+          <fw type="pageNum">232</fw>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Jag får väl lof, för att få fred.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Nå, det var en snäll flicka. Krigsomkostna- <lb break="no"/> derna betalar jag ädelmodigt nog sjelf. Hvad var <lb/> det den der härligheten kostade <surplus>.</surplus>? <stage>(Pekar på hatten.)</stage></p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Bara trettiåtta kronor.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Var så god! <stage>(Lemnar <persName ref="#Siri">Siri</persName> sedlar, hvarvid en <lb/> liten papperslapp faller ur hans plånbok.)</stage> Tio, tjugo, <lb/> trettio — fyratio.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Och <emph>femtio</emph>.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Jaså — och femtio. <stage>(Lemnar ännu en sedel.)</stage> <lb/> Du borde ha blifvit finansminister, <persName ref="#Siri">Siri</persName>.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Hur så?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Jo, du har ett sätt att sköta »den inre eko- <lb break="no"/> nomien» som skulle ha gjort ditt namn odödligt.</p>
+         </sp>
+          <sp who="#lisa">
+            <speaker>Lisa</speaker>
+            <stage type="entrance" who="#lisa">(från venster).</stage>
+            <p>Här är ett bref till <persName ref="#Thore">kassören</persName>.</p>
+         </sp>
+          <pb facs="6000-55.jpg"/>
+          <fw type="pageNum">233</fw>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Gif hit. <stage>(Lisa lemnar brefvet, som <persName ref="#Siri">Siri</persName> nyfiket <lb/> granskar, och <stage type="exit" who="#lisa">går till venster</stage>.)</stage> Se här, <persName ref="#Thore">Thore</persName>. <stage>(Se- <lb break="no"/> dan <persName ref="#Thore">Thore</persName> läst brefvet)</stage> Hvad är det der för ett <lb/> bref?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore</speaker>
+            <stage>(förvirrad).</stage>
+            <p>Det är ett affärsbref.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Med fruntimmersstil? <stage>(<stage type="entrance" who="#agnes">Agnes synes i dörren <lb/> till höger</stage>, <stage type="exit" who="#agnes">men drager sig tillbaka</stage>.)</stage></p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Ja, då är det ett fruntimmersaffärsbref.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Men det stod »privat» i hörnet.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore</speaker>
+            <stage>(retligt).</stage>
+            <p>Nå, då är det ett privat-fruntimmers affärsbref. <lb/> Se så, är du nöjd, nu?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p><persName ref="#Siri">Lillan</persName> vill läsa det.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Det kan du inte få.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Inte få? Du har således hemligheter för mig?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Nå ja. Det vill säga: det är möjligt.</p>
+         </sp>
+          <pb facs="6000-56.jpg"/>
+          <fw type="pageNum">234</fw>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Hemligheter, <emph>du</emph>! Och nyss stötte du mig <lb/> bort, och så — allt — annat. Nej, det kan inte <lb/> vara så.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Se så, <persName ref="#Siri">Siri</persName>. Bygg nu inte upp ett berg af <lb/> ett sandkorn.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Sandkorn. Ja visst. Du har velat leka med <lb/><persName ref="#Siri">lillan</persName>, som mången gång förut. Jag får ju läsa <lb/> brefvet?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Nej. <stage>(För sig)</stage> Jag <emph>kan</emph> inte!</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Dess innehåll skulle kanske förorsaka mig <lb/> smärta?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Ja, en allt för stor, fruktar jag.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(drager ett djupt andedrag.)</stage>
+            <p>Jaså. Vill du svara mig på en fråga, <persName ref="#Thore">Thore</persName>?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>På hundra. Betrakta mig bara inte så stelt <lb/> och förvirradt, <persName ref="#Siri">barn</persName>. Det plågar mig.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Har du varit på <orgName ref="#Kontoret">kontoret</orgName> i afton?</p>
+         </sp>
+          <pb facs="6000-57.jpg"/>
+          <fw type="pageNum">235</fw>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Nåväl då, nej.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Och hvar har du varit?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Det hvarken <emph>kan</emph> eller vill jag säga.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(tonlöst).</stage>
+            <p>Jaså, inte det.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Nej, jag skulle då blotta en oförlåtlig svaghet. <lb/> Men <persName ref="#Siri">Siri</persName>, hvad fattas dig? <stage>(Plötsligt)</stage> Är det <lb/> möjligt, att du kan misstro, tvifla på <emph>mig</emph>?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Nej, jag tviflar inte längre. <stage>(Passioneradt)</stage> <lb/><persName ref="#Thore">Thore</persName>, du har svikit mig!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p><emph>Jag</emph>! Jag, som älskar dig så högt, att jag <lb/> för att skydda dig mot sorg, skulle kunna pant- <lb break="no"/> sätta min egen själ. Åtminstone käns det så nu.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Nu förstår jag allt. Din tankspriddhet, din <lb/> köld, din — — Och när du tröttnade vid <persName ref="#Siri">din <lb/> leksak</persName> kunde du inte bli den qvitt.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Men det der är ju en barnslighet utan like.</p>
+         </sp>
+          <pb facs="6000-58.jpg"/>
+          <fw type="pageNum">236</fw>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ja, en barnslighet utan like. <persName ref="#Thore">Stackars, stac- <lb break="no"/> kars Thore</persName>, och — stackars, stackars mig!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Nåväl, så hör då!</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Hvad?</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Ingenting. <stage>(Lågt)</stage> Hur skulle hon kunna <lb/> bära det <emph>nu</emph>. <stage>(Högt)</stage> Hur kan du så förolämpa <lb/> mig, <persName ref="#Siri">Siri</persName>?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(skyggt).</stage>
+            <p>Förolämpar jag — — Jag visste inte — — <lb/> — jag tänkte inte — — —</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Ja, fins det något i mitt förflutna lif, som ger <lb/> dig rättighet att kasta en sådan skugga — —</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Blif inte ond, <persName ref="#Thore">Thore</persName>.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Ond, nej, men förtviflad! När du tager dig <lb/> så af en inbillad pröfning, <persName ref="#Siri">Siri</persName>, hvad skall du då <lb/> göra om en verklig kommer.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Jag är ju så barnslig, som du vet, och att <pb facs="6000-59.jpg"/><fw type="pageNum">237</fw> sorgen skulle drabba mig, derpå hade jag aldrig <lb/> tänkt.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Nej, jag vet det.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ser du, <persName ref="#Thore">Thore</persName>. Hvad du än döljer för mig, <lb/> är det dock <emph>något</emph>, och att något skall finnas <lb/> mellan dig och mig, det behöfver jag allt tid att <lb/> vänja mig vid.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Du har så rätt, <persName ref="#Siri">Siri</persName>. Jag känner det nu. Mellan <lb/> dig och mig får inga hemligheter finnas. Gud <lb/> välsigne dig, <persName ref="#Siri">barn</persName>, för de orden. De drefvo all <lb/> tvekan, alla mörka skuggor på flygten. Se här, <lb/> läs <stage>(räcker henne brefvet).</stage> Och förlåt mig, om <lb/> du kan. Jag har felat af svaghet och — —</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Du <emph>har</emph> således felat! Tack, men jag kan <lb/> verkligen inte läsa det just <emph>nu</emph>. <stage>(Lägger brefvet <lb/> på ett bord.)</stage> Jag <emph>kan</emph> inte!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Men så försök då att fatta — —</p>
+         </sp>
+       </div>
+        <pb facs="6000-60.jpg"/>
+        <fw type="pageNum">238</fw>
+        <div type="scene" n="5">
+          <head>Femte Scenen.</head>
+          <stage type="presence" who="#siri #thore #agnes">DE FÖRRA. AGNES.</stage>
+          <sp who="#agnes">
+            <speaker>Agnes</speaker>
+            <stage type="entrance" who="#agnes">(från höger).</stage>
+            <p>Lemna henne åt mig.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Ack, <emph>ni</emph>! Ja, ni skall tala vid henne. En <lb/> qvinna förstår ju alltid bättre än en man, att <lb/> trösta ett sjukt barn. <stage>(Till <persName ref="#Siri">Siri</persName>)</stage> <persName ref="#Siri">Min egen lilla <lb/> älskade hustru</persName> —</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Låt oss vara ensamma en stund. <stage type="exit" who="#thore">(Thore går <lb/> till venster.)</stage></p>
+         </sp>
+       </div>
+        <div type="scene" n="6">
+          <head>Sjette Scenen.</head>
+          <stage type="presence" who="#siri #agnes">SIRI. AGNES.</stage>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Jaså, <persName ref="#Siri">liten</persName>, din lycka var inte uppförd på <lb/> fastare grund än så?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Min lycka!</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Jag har hört alltsammans. Han har skam- <lb break="no"/> ligt bedragit dig.</p>
+         </sp>
+          <pb facs="6000-61.jpg"/>
+          <fw type="pageNum">239</fw>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Hvem? <persName ref="#Thore">Thore</persName>!</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Ja, låt oss bara hålla oss till fakta. Köld, <lb/> tankspriddhet, timmars bortovaro, utan att han <lb/> kan säga hvar, ett fruntimmersbref, som du inte <lb/> får läsa, med mera.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ja — ja — så är det.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Det enda, som bör kunna trösta dig, är att <lb/> han är dig fullkomligt ovärdig.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Ovärdig! Hur vet <emph>du</emph> det. Vet <emph>du</emph> kanske <lb/> hur jag plågat, pröfvat honom! Vet <emph>du</emph> kanske <lb/> att han aldrig hört ett sundt råd från mina läppar, <lb/> endast de oförnuftigaste fordringar, att jag aldrig <lb/> varit ett stöd vid hans sträfvanden, att han för <lb/> att hålla mig vid godt lynne ständigt måst haft <lb/> sina fickor fulla af namnam och presenter, som <lb/> åt ett bortskämdt barn. Säg, vet du allt detta. <lb/> Och för <persName ref="#Siri">en sådan tomhufvad docka</persName> har han upp- <lb break="no"/> offrat sin framtid och egnat sig åt en sysselsätt- <lb break="no"/> ning, som i hög grad är honom förhatlig. Är någon <lb/><emph>ovärdig</emph>, så är det <emph>jag</emph> och inte <emph>han</emph>! <stage>(Kastar <lb/> sig gråtande ned i en stol.)</stage></p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes</speaker>
+            <stage>(afsides).</stage>
+            <p>Läkemedlet var beskt, men det gjorde verkan. <pb facs="6000-62.jpg"/><fw type="pageNum">240</fw> <stage>(Högt)</stage> Nå, <persName ref="#Siri">liten</persName>, skola vi inte läsa det här för- <lb break="no"/> färliga brefvet nu?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Brefvet? Jo, läs, du. Nu kan jag höra det.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes</speaker>
+            <stage>(läser).</stage>
+            <writing who="#MosterMargreta" gradual="true"><persName ref="#Thore">Min kära brorson</persName>.</writing>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Brorson!</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes</speaker>
+            <stage>(läser).</stage>
+            <p><writing who="#MosterMargreta" gradual="true">Att det är så dyrt att lefva i <placeName>Stockholm</placeName> gör <lb/> mig ondt. Men det förefaller mig som om du <lb/> bort hafva betänkt den saken innan du gifte dig. <lb/> Hvad nu vexeln angår, som du vill att jag skall <lb/> lösa in, så nekar jag på det bestämdaste. <persName ref="#Thore">Den <lb/> man</persName> som på ett år med två tusen kronor öfver- <lb break="no"/> lefver sina inkomster är ingen hjelp värd. Att <lb/> ert bo står som säkerhet, gläder mig, ty då blir <lb/> ju ingen lidande.</writing> <stage>(Talar)</stage> Utom ni, men det tycks <lb/> ingenting betyda. <stage>(Läser)</stage> <writing who="#MosterMargreta" gradual="true">Flytta sedan på ett <lb/> par vindsrum och hushålla, det är mitt råd. <lb/> Kommer väl att kosta på <persName ref="#Siri">fina frun</persName>, men bättre <lb/> det, än att låna utan att kunna betala. <persName ref="#MosterMargreta">Din till- <lb break="no"/> gifna moster Margreta</persName>.</writing> <stage>(Viker ihop brefvet.)</stage> Ja, <lb/><emph>hennes</emph> tillgifvenhet kan då ingen betvifla.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(rycker till sig brefvet).</stage>
+            <p>Hvad läser du! <stage>(Ögnar igenom brefvet.)</stage> Två <lb/> tusen kronor — — ert bo — — vindsrum — — <lb/><persName ref="#Siri">fina frun</persName> — —</p>
+         </sp>
+          <pb facs="6000-63.jpg"/>
+          <fw type="pageNum">241</fw>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Kan du höra mig med lugn nu, <persName ref="#Siri">Siri</persName>?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(fortfarande ögnande i <lb/> brefvet).</stage>
+            <p>Ja, ja.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p><persName ref="#Thore">Din man</persName> har gjort stora ansträngningar för <lb/> att anskaffa penningar, men förgäfves, och om <lb/> onsdag förfaller vexeln.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Hur vet <emph>du</emph> allt detta?</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Det gör ju detsamma: allt nog jag vet det. <lb/> Är den inte betald till dess så — —</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Så, hvad?</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Så blir här utmätning.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Hvad vill utmätning säga?</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Ni mista allt hvad ni ega.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Och det är mitt fel, <emph>mitt</emph>!</p>
+         </sp>
+          <pb facs="6000-64.jpg"/>
+          <fw type="pageNum">242</fw>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Ja, vi kunna ju antaga det af artighet.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Det är jag, som lockat och tubbat honom till <lb/> utgift på utgift, men jag förstod aldrig hur orätt <lb/> det var. Ingen hade lärt mig penningars värde, <lb/> endast att det inte fans någon uppoffring för stor, <lb/> när det gälde prydandet af min egen person.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Du hade ändå tur, du, som slapp att <lb/> uppoffra dig sjelf.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Medan han kämpat, lidit, har jag skrattat, <lb/> lekt!</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes</speaker>
+            <stage>(tager upp och ögnar <lb/> igenom den papperslapp,
+              <lb/> som fallit ur <persName ref="#Thore">Thores</persName>
+              <lb/> plånbok).</stage>
+            <p><emph>Ödet</emph> talar förstånd sjelf i dag. Jag behöfver <lb/> inte anstränga mig. Se här, <persName ref="#Siri">Siri</persName> <stage>(lemnar henne <lb/> papperslappen).</stage> Konseqvens fattas då inte i dina <lb/> upptäckter.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(kastar en blick på pap- <lb break="no"/> peret).</stage>
+            <p>Och det för att betala <emph>den der</emph>! <stage>(Visar på <lb/> hatten.)</stage> <persName ref="#Thore">Thore</persName>, <persName ref="#Thore">Thore</persName>! <stage type="exit" who="#siri">(Springer ut till venster.)</stage></p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes</speaker>
+            <stage>(ensam).</stage>
+            <p>I dag pantsätter hon sin klocka, och i mor- <pb break="no" facs="6000-65.jpg"/><fw type="pageNum">243</fw>gon — —! <stage>(Rycker på axlarna.)</stage> Lyckligtvis till- <lb break="no"/> hör den här morgondagen mig. <stage>(Tager fram ett <lb/> papper ur sin annotationsbok och sätter sig vid skrif- <lb break="no"/> bordet.)</stage></p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(i rummet till venster).</stage>
+            <p><persName ref="#Thore">Älskade, älskade Thore</persName>!</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Att kunna känna så, tala så.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore</speaker>
+            <stage>(i rummet till venster).</stage>
+            <p>Nej, <persName ref="#Siri">Siri</persName>, felet var mitt, endast mitt, men <lb/> min kärlek gjorde mig feg.</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Hvad de plåga mig! <stage>(Förseglar skyndsamt ett <lb/> bref.)</stage> Se så, nu är <emph>deras</emph> sorg botad. Det fins <lb/> annan som tär intill döden. Hvarför lät jag <lb/> sälja mig!</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(i rummet till venster).</stage>
+            <p>Fattiga! Hvad gör det, vi ha ju hvarandra!</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes</speaker>
+            <stage>(stiger upp).</stage>
+            <p>Men jag! Jag har ett fideikomiss och en <lb/> friherinnetitel; <persName ref="#AgnesMor">min mor</persName> visste åtminstone att <lb/> sätta pris på sin vara. Nej, bort härifrån. Jag <lb/> tål inte atmosferen här, märker jag. Frisk luft <lb/> blir gift för förskämda lungor. <stage>(Sätter skyndsamt <lb/> på sig hatt och kappa.)</stage></p>
+         </sp>
+          <pb facs="6000-66.jpg"/>
+          <fw type="pageNum">244</fw>
+          <sp who="#thore">
+            <speaker>Thore</speaker>
+            <stage>(innanför).</stage>
+            <p>Jag skall arbeta med dubbel kraft —</p>
+         </sp>
+          <sp who="#agnes">
+            <speaker>Agnes.</speaker>
+            <p>Nej, jag måste se dem — ännu en gång. <lb/><stage>(Tittar i nyckelhålet.)</stage> Han på knä med hufvudet <lb/> gömdt i hennes sköte. Hon skrattande, gråtande, <lb/> talande på en gång. Så lycklig hon ser ut, trots <lb/> de väntande försakelserna, de der <emph>förfärliga för- <lb break="no"/> sakelserna</emph>, med hvilka vi skrämmas vid minsta upp- <lb break="no"/> studsighet af vårt hjerta. — <persName ref="#Siri">Enfaldiga Siri</persName>, brukade <lb/> jag kalla henne. Bah, enfaldig är blott den <lb/> qvinna, som tror sig vara klok. <stage type="exit" who="#agnes">(Går genom fonden.)</stage></p>
+         </sp>
+       </div>
+        <div type="scene" n="7">
+          <head>Sjunde Scenen.</head>
+          <stage type="presence"><stage type="entrance" who="#thore #siri">THORE och SIRI från venster</stage>, med armarna
+              <lb/> kring hvarandras lif.</stage>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Nu får du inte säga ett ord vidare. Du <lb/> skämmer bort mig, och det är slut på det nu. <lb/> Men en fråga skulle <persName ref="#Siri">lillan</persName> vilja göra.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Fråga, fråga!</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Om inte min oresonliga svartsjuka kommit, <lb/> när hade jag då fått veta sanningen?</p>
+         </sp>
+          <pb facs="6000-67.jpg"/>
+          <fw type="pageNum">245</fw>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Jag hoppas till Gud, i tid. Men låt mig <lb/> få vara fullt, odeladt lycklig nu, och slippa tänka <lb/> på hvad som kunnat vara.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Du skall få se hur förtjusande vi skola få <lb/> det i våra vindsrum!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Hvem kunde tro att en sådan liten hjelte- <lb break="no"/> modig själ kunde finnas hos <persName ref="#Siri">en — modedocka</persName>.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Åh, vi ha nog själar vi med, fast de inte <lb/> märkas för bjeffs och grannlåt! Usch, en sådan <lb/> stygga jag varit! Men också <persName ref="#Thore">en sådan stygg <lb/> Thore</persName>, som inte hade förtroende för <persName ref="#Siri">lillan</persName>.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Vågade jag väl det?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Nej, du har rätt. Jag var intet förtroende <lb/> värd, men ändå — —</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Ändå — ?</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Hå, jag undrar bara om det <emph>fins</emph> någon <lb/> hustru, hon må nu vara hur fåfäng, hur barnslig <lb/> som helst, som inte sätter sin makes förtroende <pb facs="6000-68.jpg"/><fw type="pageNum">246</fw> framför allt annat. Men vi glömma ju alldeles af <lb/><persName ref="#Agnes">Agnes</persName>! <stage>(Tittar i dörren till höger.)</stage> Hon är borta!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Se här ett bref till dig, <persName ref="#Siri">lilla moralpredikant</persName>. <lb/> Kanske att det upplyser något.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Öppna då.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore</speaker>
+            <stage>(öppnar brefvet).</stage>
+            <p>Hvad ser jag! Min egen vexel öfverkorsad, <lb/> och hvad står här. <writing who="#Agnes" gradual="true">» <persName ref="#Agnes">Agnes</persName> bröllopsgåfva till <persName ref="#Siri">Siri</persName>.»</writing></p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Och se här inunder! <writing who="#Agnes" gradual="true">» <persName ref="#OnkelFabian">Onkel Fabian</persName> var den <lb/> rätte ehuru osynlige fordringsegaren»</writing>, och jag fick <lb/> välja mitt arf. Ack, då förstår jag allt!</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Det är mer än jag gör. Men jag förstår till- <lb break="no"/> räckligt, för att af innersta hjerta gläda mig, <persName ref="#Siri">Siri</persName> <lb/> — för din skull.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri</speaker>
+            <stage>(lekfullt).</stage>
+            <p>Jaså, bara för min skull, nu igen.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Ja, ser du, <persName ref="#Siri">Siri</persName>, hända hvad det hända vill, <lb/> är jag <emph>en rik</emph> man nu och behöfver intet. <stage>(Om- <lb break="no"/> famnar <persName ref="#Siri">Siri</persName>.)</stage></p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Gud är allt god, du, och <persName ref="#Agnes">Agnes</persName> se'n! Men — <pb facs="6000-69.jpg"/><fw type="pageNum">247</fw> <stage>(håller på att sätta sig på hatten).</stage> Hu, så rädd <lb/> jag blef! Så ful den blifvit.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Och nyss var den likväl en hufvudsak.</p>
+         </sp>
+          <sp who="#siri">
+            <speaker>Siri.</speaker>
+            <p>Du <persName ref="#Thore">dumma Thore</persName>! Det är den väl ännu, <lb/> fast aldrig, aldrig mer för mig.</p>
+         </sp>
+          <sp who="#thore">
+            <speaker>Thore.</speaker>
+            <p>Ja, kanske är <emph>det</emph> »hufvudsaken!»</p>
+         </sp>
+       </div>
+        <stage>Ridån faller.</stage>
+     </div>
+   </body>
+    <back>
+      <pb facs="6000-70.jpg"/>
+      <!-- tomma sidor -->
+      <pb facs="6000-71.jpg"/>
+      <pb facs="6000-72.jpg"/>
+      <pb facs="6000-73.jpg"/>
+      <!-- insida, omslag -->
+      <pb facs="6000-74.jpg"/>
+      <!-- omslag -->
+      <div type="editorial">
+        <listPerson>
+          <listPerson type="cast">
+            <person xml:id="Thore" sex="male">
+              <persName>
+                <forename>Thore</forename>
+             </persName>
+              <occupation scheme="#HISCO" code="33110" cert="medium">kassör</occupation>
+              <!-- flera koder i HISCO: 33110 (bookkeeper general), 33130 (office cashier), 33190 (other bookkeepers and cashiers)etc. -->
+           </person>
+            <person xml:id="Siri" sex="female">
+              <persName>
+                <forename>Siri</forename>
+             </persName>
+           </person>
+            <person xml:id="Agnes" sex="female">
+              <persName>
+                <roleName>friherrinna</roleName>
+                <forename>Agnes</forename>
+                <surname>Löwensköld</surname>
+             </persName>
+           </person>
+            <person xml:id="Lisa" sex="female">
+              <persName>
+                <forename>Lisa</forename>
+             </persName>
+              <occupation scheme="#HISCO" code="54020">jungfru</occupation>
+           </person>
+         </listPerson>
+          <listPerson type="noncast">
+            <listPerson type="fictive">
+              <person xml:id="OnkelFabian" sex="male">
+                <persName>
+                  <forename>Fabian</forename>
+               </persName>
+                <death notAfter-custom="#playstart"/>
+             </person>
+              <person xml:id="MosterMargreta" sex="female">
+                <persName>
+                  <forename>Margreta</forename>
+               </persName>
+             </person>
+              <person xml:id="Lind" sex="male">
+                <persName>
+                  <surname>Lind</surname>
+               </persName>
+             </person>
+              <person xml:id="Knut" sex="male">
+                <persName>
+                  <forename>Knut</forename>
+               </persName>
+             </person>
+              <person xml:id="Sophie" sex="female">
+                <persName>
+                  <forename>Sophie</forename>
+               </persName>
+                <occupation scheme="#HISCO" code="54020">jungfru</occupation>
+             </person>
+              <person xml:id="SirisMor" sex="female">
+                <death notAfter-custom="#playstart"/>
+             </person>
+              <person xml:id="AgnesMor" sex="female"/>
+              <person xml:id="Fideikommissarien" sex="male">
+                <persName>
+                  <roleName>fideikommissarie</roleName>
+               </persName>
+             </person>
+              <person xml:id="ÄldreFru" sex="female">
+                <persName>
+                  <roleName>fru</roleName>
+               </persName>
+             </person>
+              <person xml:id="Kokerskan" sex="female">
+                <occupation scheme="#HISCO" code="53100">kokerska</occupation>
+             </person>
+              <listPerson type="intertextual">
+                <person xml:id="FlickaPåPlansch" sex="female"/>
+                <person xml:id="GossePåPlansch" sex="female"/>
+             </listPerson>
+              <listPerson type="mythical">
+                <person xml:id="Aurora" sex="female">
+                  <persName>
+                    <forename>Aurora</forename>
+                 </persName>
+                  <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Aurora_%28mytologi%29</idno>
+               </person>
+             </listPerson>
+           </listPerson>
+            <listPerson type="historical">
+              <person xml:id="Hagdahl" sex="male">
+                <persName>
+                  <forename>Charles Emil</forename>
+                  <surname>Hagdahl</surname>
+               </persName>
+                <birth when="1809">1809</birth>
+                <death when="1897">1897</death>
+                <occupation scheme="#HISCO" code="15990" cert="medium">kokboksförfattare</occupation>
+                <!-- faktaförfattare i HISCO: 15990 (other authors, journalists and related writers), 15900 (author, journalist or related writer, specialist unknown), 15965 (technical writer [inga exempel]) -->
+                <note>Eventuellt Charles Emil Hagdahl, läkare och författare till "Kokkonsten som vetenskap och konst" (1879)?</note>
+                <idno type="LIBRIS">http://libris.kb.se/auth/216836</idno>
+                <idno type="SBL">http://www.nad.riksarkivet.se/sbl/artikel/13494</idno>
+                <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Hagdahl, _Charles_Emil</idno>
+             </person>
+           </listPerson>
+         </listPerson>
+          <listRelation>
+            <relation type="personal" name="gift" mutual="#Siri #Thore"/>
+            <relation type="personal" name="väninna" mutual="#Agnes #Siri"/>
+            <relation type="social" name="jungfru" active="#Lisa" passive="#Siri"/>
+            <relation type="personal" name="farbror" active="#OnkelFabian" passive="#Agnes"/>
+            <relation type="personal" name="moster" active="#MosterMargreta" passive="#Thore"/>
+            <relation type="personal" name="gift" mutual="#Agnes #Fideikommissarien"/>
+            <relation type="social" name="jungfru" active="#Sophie" passive="#Siri" to-custom="#playstart"/>
+            <relation type="other" name="ref" active="#Agnes" passive="#Hagdahl"/>
+            <relation type="other" name="ref." active="#Lisa" passive="#KlaraFörsamling"/>
+            <relation type="social" name="kassör" active="#Thore" passive="#Kontoret"/>
+            <relation type="social" name="arbetar" active="#Lind #Knut" passive="#Kontoret" cert="medium"/>
+            <relation type="other" name="ärver" active="#Agnes" passive="#OnkelFabian"/>
+            <relation type="other" name="gäldenär" active="#Thore" passive="#OnkelFabian" cert="medium"/>
+            <relation type="other" name="viggar" active="#Thore" passive="#MosterMargreta"/>
+            <relation type="personal" name="dotter" active="#Siri" passive="#SirisMor"/>
+            <relation type="personal" name="dotter" active="#Agnes" passive="#AgnesMor"/>
+            <relation type="other" name="såg.ned.på" active="#SirisMor" passive="#Thore"/>
+            <relation type="other" name="likn." active="#Siri" passive="#Aurora"/>
+            <relation type="other" name="ledstjärna" active="#ÄldreFru #Kokerskan" passive="#Siri"/>
+            <relation type="other" name="likn." active="#Siri" passive="#FlickaPåPlansch"/>
+            <relation type="other" name="likn." active="#Thore" passive="#GossePåPlansch"/>
+            <relation type="other" name="tjusar" active="#FlickaPåPlansch" passive="#GossePåPlansch"/>
+         </listRelation>
+       </listPerson>
+        <listOrg>
+          <org xml:id="KlaraFörsamling">
+            <orgName>Klara församling</orgName>
+            <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Klara_f%C3%B6rsamling</idno>
+         </org>
+          <org xml:id="Kontoret"/>
+       </listOrg>
+        <!-- IDEA: Märk upp kostym (hattar) i pjäsen?/SaraB -->
+        <!-- IDEA: Märk upp pengar (ekonomi, hushållning, lön, pension, arv osv)?/SaraB -->
+     </div>
+   </back>
+ </text>
+</TEI>
