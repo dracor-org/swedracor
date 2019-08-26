@@ -34,6 +34,8 @@
 
   <xsl:template match="/">
     <xsl:text>&#10;</xsl:text>
+    <xsl:processing-instruction name="xml-stylesheet">type="text/css" href="../css/tei.css"</xsl:processing-instruction>
+    <xsl:text>&#10;</xsl:text>
     <xsl:apply-templates select="/tei:TEI"/>
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
