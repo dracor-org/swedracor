@@ -167,7 +167,7 @@
                     </xsl:attribute>
                     <xsl:if test="$sex">
                       <xsl:attribute name="sex">
-                        <xsl:value-of select="$sex"/>
+                        <xsl:value-of select="upper-case($sex)"/>
                       </xsl:attribute>
                     </xsl:if>
                     <xsl:text>&#10;            </xsl:text>
@@ -231,7 +231,7 @@
                     </xsl:attribute>
                     <xsl:if test="$sex">
                       <xsl:attribute name="sex">
-                        <xsl:value-of select="$sex"/>
+                        <xsl:value-of select="upper-case($sex)"/>
                       </xsl:attribute>
                     </xsl:if>
                     <xsl:text>&#10;            </xsl:text>
