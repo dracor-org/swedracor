@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schemas/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="../stylesheets/tiny_TEI_template.css"?>
-<?oxygen RNGSchema="../schemas/tei_all.rng" type="xml"?>
-<!-- $Id: LefflerAC_SannaKvinnor.xml 115400 2015-04-23 07:54:01Z maril $ -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -4016,7 +4012,7 @@
                 <persName>stadsbud</persName>
                 <occupation scheme="#HISCO" code="97190">stadsbud</occupation>
                   </person>
-              <person  xml:id="portvakterska" sex="female">
+              <person xml:id="portvakterska" sex="female">
                 <occupation scheme="#HISCO" code="55130">portvakterska</occupation>
               </person>
               <person xml:id="KamrerLundbergsmor" sex="female">
@@ -4038,9 +4034,9 @@
                <relation type="personal" name="dotter" active="#Berta #Lissi" passive="#Bark #FruBark"/>
               <relation type="personal" name="faster" active="#Malla" passive="#FruBark"/>
               <relation type="personal" name="gift" mutual="#Lissi #Wilhelm"/>
-              <relation  type="personal" name="svägerska" active="#Berta" passive="#Wilhelm"></relation>
-              <relation  type="personal" name="systrar" mutual="#Berta #Lissi"></relation>
-              <relation type="personal" name="svärson" active="#Wilhelm" passive="#Bark"></relation>
+              <relation type="personal" name="svägerska" active="#Berta" passive="#Wilhelm"/>
+              <relation type="personal" name="systrar" mutual="#Berta #Lissi"/>
+              <relation type="personal" name="svärson" active="#Wilhelm" passive="#Bark"/>
               <relation type="personal" name="uppvaktar" active="#KamrerLundberg" passive="#Berta"/>
               <relation type="personal" name="son" active="#Ville" passive="#Lissi #Wilhelm"/>
               <relation type="personal" name="vän" active="#KamrerLundberg" passive="#Berta"/>

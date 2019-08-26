@@ -11,7 +11,7 @@ git checkout dramawebben
 cd -
 
 # clear tei files
-rm -v tei/*.xml
+rm tei/*.xml
 
 for f in ./dramawebben/tei/*.xml; do
   # adjust file name
@@ -22,5 +22,6 @@ for f in ./dramawebben/tei/*.xml; do
     sed -E 's/([a-z])([A-Z])/\1-\2/g' | \
     tr '[:upper:]' '[:lower:]'
   )
-  cp -v $f tei/$n.xml
+  echo $n
+  saxon $f dramawebben2dracor.xsl > tei/$n.xml
 done

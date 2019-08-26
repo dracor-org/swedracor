@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="../schemas/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="../stylesheets/tiny_TEI_template.css"?>
-<?oxygen RNGSchema="../schemas/tei_all.rng" type="xml"?>
-<!-- $Id: StrindbergA_Kamraterna.xml 114252 2015-03-30 09:56:03Z eva $ -->
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -188,8 +184,7 @@
         <p>Till venster dörr till fruns rum.</p>
         <p>Midt på golfvet något åt venster en estrad för modeller. Till höger
           <lb/> ett staffli med tillbehör.</p>
-        <p>En kanapè. En stor kamin med genomskinliga glimmer-luckor, hvar&#xad;<lb
-          break="no"/>igenom kolelden synes.</p>
+        <p>En kanapè. En stor kamin med genomskinliga glimmer-luckor, hvar­<lb break="no"/>igenom kolelden synes.</p>
         <p>I taket en hänglampa.</p>
       </set>
       <castList>
@@ -318,11 +313,10 @@
             <speaker>AXEL.</speaker>
             <p>Vi ha arrangerat oss som kamrater, ser du,
               <pb facs="6289-10.jpg"/><fw type="pageNum">9</fw>
-              och vänskapen är högre och varaktigare än kär&#xad;<lb
-              break="no"/>leken!</p>
+              och vänskapen är högre och varaktigare än kär­<lb break="no"/>leken!</p>
           </sp>
           <sp who="#spDoktorn">
-            <speaker>Doktorn">DOKTORN.</speaker>
+            <speaker>Doktorn"&gt;DOKTORN.</speaker>
             <p>Hm!  —  Nå <persName ref="#Bertha">Bertha</persName> målar också? Bra?</p>
           </sp>
           <sp who="#spAxel">
@@ -352,8 +346,7 @@
           </sp>
           <sp who="#spFruStarck">
             <speaker>Fru STARCK.</speaker>
-            <p>Tack, <persName ref="#Axel">käre Axel</persName>, det har varit en verklig lust&#xad;<lb
-              break="no"/>resa för oss! Men hvar har du <persName ref="#Bertha">Bertha</persName>?</p>
+            <p>Tack, <persName ref="#Axel">käre Axel</persName>, det har varit en verklig lust­<lb break="no"/>resa för oss! Men hvar har du <persName ref="#Bertha">Bertha</persName>?</p>
           </sp>
           <sp who="#spCarl">
             <speaker>CARL.</speaker>
@@ -514,8 +507,7 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>Jo, vill ni vara så god och sitta ner ett ögon&#xad;<lb
-              break="no"/>blick!</p>
+            <p>Jo, vill ni vara så god och sitta ner ett ögon­<lb break="no"/>blick!</p>
           </sp>
           <sp who="#spModellen">
             <speaker>MODELLEN</speaker> <stage type="exit" who="#Modellen">(går bakom skärmen).</stage>
@@ -703,8 +695,7 @@
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Från <orgName ref="#Salongen">salongen</orgName>! <stage>(till <persName ref="#Modellen">modellen</persName>).</stage> Kläd på Er! vi få
-              <lb/> uppskjuta séansen! — <persName ref="#Axel">Axel</persName>! <persName ref="#Abel">Abel</persName> är här med ny&#xad;<lb
-              break="no"/>heter från <orgName ref="#Salongen">salongen</orgName>!</p>
+              <lb/> uppskjuta séansen! — <persName ref="#Axel">Axel</persName>! <persName ref="#Abel">Abel</persName> är här med ny­<lb break="no"/>heter från <orgName ref="#Salongen">salongen</orgName>!</p>
           </sp>
           <stage>(<stage type="entrance" who="#Abel #Axel #Willmer">Axel in; ABEL, WILLMER;</stage> <stage type="exit" who="#Modellen">Modellen går oförmärkt under följande scen</stage>).</stage>
         </div>
@@ -851,8 +842,7 @@
             <speaker>AXEL.</speaker>
             <p>Ja, äfven derför! Det är underligt, men det
               <lb/> kännes som om ni skulle göra intrång, komma och
-              <lb/> marodera der vi ha slagits medan ni satt vid spi&#xad;<lb
-              break="no"/>sen! Förlåt mig <persName ref="#Bertha">Bertha</persName> att jag talar så, men så
+              <lb/> marodera der vi ha slagits medan ni satt vid spi­<lb break="no"/>sen! Förlåt mig <persName ref="#Bertha">Bertha</persName> att jag talar så, men så
               <lb/> komma tankarna.</p>
           </sp>
           <sp who="#spBertha">
@@ -880,9 +870,7 @@
           </sp>
           <sp who="#spWillmer">
             <speaker>WILLMER</speaker>
-            <p>Se så, se så, <persName ref="#Axel #Bertha">god vänner</persName>! Nej, men <persName ref="#Axel #Bertha">kära vän&#xad;<lb
-              break="no"/>ner</persName>! <persName ref="#Bertha">Bertha</persName> lugna dig! <stage>(Han ger henne en blick, som hon sö&#xad;<lb
-              break="no"/>ker tyda).</stage></p>
+            <p>Se så, se så, <persName ref="#Axel #Bertha">god vänner</persName>! Nej, men <persName ref="#Axel #Bertha">kära vän­<lb break="no"/>ner</persName>! <persName ref="#Bertha">Bertha</persName> lugna dig! <stage>(Han ger henne en blick, som hon sö­<lb break="no"/>ker tyda).</stage></p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA</speaker>
@@ -890,12 +878,9 @@
               <lb/> ett ögonblick! Tycker du att min ställning i ditt
               <lb/> hus — för det <emph>är</emph> ditt — är behaglig? Du ger mig
               <lb/> mitt uppehälle, du betalar mina lektioner hos <orgName ref="#AcadémieJulian">Julian</orgName>,
-              <lb/> under det du sjef icke får råd att ta någon un&#xad;<lb
-              break="no"/>dervisning. Tror du att jag kan se hur du sitter
-              <lb/> och släpar ut dig och din talang med dessa ritnin&#xad;<lb
-              break="no"/>gar och bara får måla på lediga stunder. Har du
-              <lb/> haft råd att taga modeller ens, under det du beta&#xad;<lb
-              break="no"/>lar mina me dryga fem francs i timmen. Du vet
+              <lb/> under det du sjef icke får råd att ta någon un­<lb break="no"/>dervisning. Tror du att jag kan se hur du sitter
+              <lb/> och släpar ut dig och din talang med dessa ritnin­<lb break="no"/>gar och bara får måla på lediga stunder. Har du
+              <lb/> haft råd att taga modeller ens, under det du beta­<lb break="no"/>lar mina me dryga fem francs i timmen. Du vet
               <lb/> icke sjelf huru god, huru ädel, huru uppoffrande
               <lb/> du är, men du vet också icke huru jag lider af att
               <lb/> se dig släpa så för mig. Ack, <persName ref="#Axel">Axel</persName>, du kan icke
@@ -927,13 +912,11 @@
           <sp who="#spBertha">
             <speaker>BERTHA</speaker>
             <p>Jo, förr, i gamla äktenskap var det så, men
-              <lb/> vi skulle inte ha det så! Vi skulle ju vara kam&#xad;<lb
-              break="no"/>rater!</p>
+              <lb/> vi skulle inte ha det så! Vi skulle ju vara kam­<lb break="no"/>rater!</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL</speaker>
-            <p>Hvad är det för prat, ska inte <persName ref="#Axel">mannen</persName> un&#xad;<lb
-              break="no"/>derhålla <persName ref="#Bertha">sin hustru</persName>?</p>
+            <p>Hvad är det för prat, ska inte <persName ref="#Axel">mannen</persName> un­<lb break="no"/>derhålla <persName ref="#Bertha">sin hustru</persName>?</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA</speaker>
@@ -946,8 +929,7 @@
               <lb/> det vore en annan sak, men för mig. För mig!
               <lb/> Nu ber jag dig så vackert jag kan. Lyft upp mig
               <lb/> ur min förnedring, till din sida, och jag skall tacka
-              <lb/> dig, jag skall aldrig plåga dig mer med att på&#xad;<lb
-              break="no"/>minna om min ställning, aldrig <persName ref="#Axel">Axel</persName>!</p>
+              <lb/> dig, jag skall aldrig plåga dig mer med att på­<lb break="no"/>minna om min ställning, aldrig <persName ref="#Axel">Axel</persName>!</p>
           </sp>
           <pb facs="6289-24.jpg"/><fw type="pageNum">23</fw>
           <sp who="#spAxel">
@@ -962,8 +944,7 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL</speaker> <stage>(till <persName ref="#Willmer">Willmer</persName>).</stage>
-            <p>Hör du <persName ref="#Willmer">Gaga</persName>, tycker du inte att fruntim&#xad;<lb
-              break="no"/>merna äro ena rysliga tyranner?</p>
+            <p>Hör du <persName ref="#Willmer">Gaga</persName>, tycker du inte att fruntim­<lb break="no"/>merna äro ena rysliga tyranner?</p>
           </sp>
           <sp who="#spWillmer">
             <speaker>WILLMER</speaker> <stage>(plågad).</stage>
@@ -1002,8 +983,7 @@
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Hm! Du kan väl hitta på något på vägen.
-              <lb/> Säg att, att, att <persName ref="#Bertha">din hustru</persName> — nej — att du vän&#xad;<lb
-              break="no"/>tar en kristning ...</p>
+              <lb/> Säg att, att, att <persName ref="#Bertha">din hustru</persName> — nej — att du vän­<lb break="no"/>tar en kristning ...</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -1019,8 +999,7 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Säg hvad du vill då! Kom nu ska jag fri&#xd;<lb
-              break="no"/>sera dig, så du ser presentabel ut. Känner du
+            <p>Säg hvad du vill då! Kom nu ska jag fri&#xD;<lb break="no"/>sera dig, så du ser presentabel ut. Känner du
               <lb/> <persName ref="#MadameRoubey">hans hustru</persName>?</p>
           </sp>
           <sp who="#spAxel">
@@ -1074,9 +1053,7 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>Nej, det gör jag inte, men jag tillhör <persName ref="#Kamrater">en kam&#xad;<lb
-              break="no"/>ratkrets</persName> som lofvat hvarandra att icke bära meri&#xad;<lb
-              break="no"/>ten på rocken.</p>
+            <p>Nej, det gör jag inte, men jag tillhör <persName ref="#Kamrater">en kam­<lb break="no"/>ratkrets</persName> som lofvat hvarandra att icke bära meri­<lb break="no"/>ten på rocken.</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -1100,8 +1077,7 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>Ja, men när <persName ref="#Kamrater">kamraterna</persName> som äro mera för&#xad;<lb
-              break="no"/>tjenta än jag gå utan, så nedsätter jag dem med
+            <p>Ja, men när <persName ref="#Kamrater">kamraterna</persName> som äro mera för­<lb break="no"/>tjenta än jag gå utan, så nedsätter jag dem med
               <lb/> att bära tecknet.</p>
           </sp>
           <sp who="#spBertha">
@@ -1154,8 +1130,7 @@
             <p><persName ref="#Bertha">Bertha</persName>, <persName ref="#Bertha">Bertha</persName>! Men ni gör ju mig alldeles
               <lb/> galen. Inte anser jag det vara något brott att
               <lb/> bära det der bandet, och inte har jag aflagt någon
-              <lb/> ed att ej göra det, men det har ingått i våra före&#xad;<lb
-              break="no"/>ställningar att det är fegt icke våga gå fram sin
+              <lb/> ed att ej göra det, men det har ingått i våra före­<lb break="no"/>ställningar att det är fegt icke våga gå fram sin
               <lb/> väg utan.</p>
           </sp>
           <sp who="#spBertha">
@@ -1203,7 +1178,7 @@
               <lb/> trött af Ert prat och att det ska bli skönt att
               <lb/> komma ut. Farväl!</p>
           </sp>
-          <stage type="exit" who="#Axel"></stage>
+          <stage type="exit" who="#Axel"/>
         </div>
         <div type="scene" n="7">
           <head>SJUNDE SCENEN.</head>
@@ -1274,8 +1249,7 @@
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Synd! Hvarför det! Alla kunna ju inte få
-              <lb/> rum på <orgName ref="#Salongen">salongens</orgName> väggar. Det är så många frun&#xad;<lb
-              break="no"/>timmer som bli refuserade, så att en herre också
+              <lb/> rum på <orgName ref="#Salongen">salongens</orgName> väggar. Det är så många frun­<lb break="no"/>timmer som bli refuserade, så att en herre också
               <lb/> kan tåla vid att få känna på't. Men kommer jag
               <lb/> nu in, då få vi nog höra huru <emph>han</emph> har målat min
               <lb/> tafla, huru han har lärt mig, huru han har betalt
@@ -1288,10 +1262,7 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Nej jag tror, antaget att jag icke blir refu&#xad;<lb
-              break="no"/>serad, att vi komma att få se något mycket van&#xad;<lb
-              break="no"/>ligt. Men jag är ändå rädd för den stunden. Nå&#xad;<lb
-              break="no"/>got säger mig att det icke blir bra emellan <persName ref="#Axel">Axel</persName>
+            <p>Nej jag tror, antaget att jag icke blir refu­<lb break="no"/>serad, att vi komma att få se något mycket van­<lb break="no"/>ligt. Men jag är ändå rädd för den stunden. Nå­<lb break="no"/>got säger mig att det icke blir bra emellan <persName ref="#Axel">Axel</persName>
               <lb/> och mig mer.</p>
           </sp>
           <sp who="#spAbel">
@@ -1301,8 +1272,7 @@
           </sp>
           <sp who="#spWillmer">
             <speaker>WILLMER.</speaker>
-            <p>Jag tycker er ställning skall bli mcket kla&#xad;<lb
-              break="no"/>rare, och din mycket behagligare när du får sälja
+            <p>Jag tycker er ställning skall bli mcket kla­<lb break="no"/>rare, och din mycket behagligare när du får sälja
               <lb/> och kan försörja dig sjelf.</p>
           </sp>
           <pb facs="6289-32.jpg"/><fw type="pageNum">31</fw>
@@ -1318,8 +1288,7 @@
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Ett grönt bref, till <persName ref="#Axel">Axel</persName>! Der är det! Der
-              <lb/> är det! Han är refuserad! Ja, men det är ju för&#xad;<lb
-              break="no"/>förfärligt; detta är ändock en tröst för mig, om det
+              <lb/> är det! Han är refuserad! Ja, men det är ju för­<lb break="no"/>förfärligt; detta är ändock en tröst för mig, om det
               <lb/> går mig illa!</p>
           </sp>
           <sp who="#spAbel">
@@ -1390,8 +1359,7 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Oädel? Ädel! Hvad är det för slag! Hvar&#xad;<lb
-              break="no"/>för gick han nyss när jag skickade honom? Jo,
+            <p>Oädel? Ädel! Hvad är det för slag! Hvar­<lb break="no"/>för gick han nyss när jag skickade honom? Jo,
               <lb/> derför att jag var <emph>hans</emph> hustru. För en annan
               <lb/> skulle han aldrig gått!</p>
           </sp>
@@ -1403,8 +1371,7 @@
           <pb facs="6289-34.jpg"/><fw type="pageNum">33</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Farväl med Er, nu få ni gå, innan han kom&#xad;<lb
-              break="no"/>mer tillbaka!</p>
+            <p>Farväl med Er, nu få ni gå, innan han kom­<lb break="no"/>mer tillbaka!</p>
           </sp>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
@@ -1488,8 +1455,7 @@
           <pb facs="6289-36.jpg"/><fw type="pageNum">35</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Och jag som alltid trodde att <persName ref="#Doktorn">doktor Öster&#xad;<lb
-              break="no"/>mark</persName> var en hederlig man.</p>
+            <p>Och jag som alltid trodde att <persName ref="#Doktorn">doktor Öster­<lb break="no"/>mark</persName> var en hederlig man.</p>
           </sp>
           <sp who="#spFruHall">
             <speaker>FRU HALL.</speaker>
@@ -1528,8 +1494,7 @@
           </sp>
           <sp who="#spFruHall">
             <speaker>FRU HALL.</speaker>
-            <p>Vänta nu bara! Han kastade åt mig en fat&#xad;<lb
-              break="no"/>tig summa om året, som inte räckte till hyran en
+            <p>Vänta nu bara! Han kastade åt mig en fat­<lb break="no"/>tig summa om året, som inte räckte till hyran en
               <pb facs="6289-37.jpg"/><fw type="pageNum">36</fw>
               gång! Och nu när <persName ref="#FröknarnaHall">flickorna</persName> äro vuxna och ska
               <lb/> ut i lifvet, nu skrifver han att han är ruinerad, så
@@ -1544,8 +1509,7 @@
               <lb/> på er sida och att domstolen kan tvinga honom
               <lb/> att betala! Och han skall tvingas! Hör ni det!
               <lb/> Jaså, man går och skaffar <persName ref="#FröknarnaHall">barn</persName> till verlden och
-              <lb/> släpper dem sedan handlöst med <persName ref="#FruHall">den stackars öfver&#xad;<lb
-              break="no"/>gifna modren</persName>! Åh, han ska få se på annat! Vill
+              <lb/> släpper dem sedan handlöst med <persName ref="#FruHall">den stackars öfver­<lb break="no"/>gifna modren</persName>! Åh, han ska få se på annat! Vill
               <lb/> ni ge mig er adress?</p>
           </sp>
           <sp who="#spFruHall">
@@ -1555,8 +1519,7 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Ni kan lita på mig fullkomligt. Jag ska ge&#xad;<lb
-              break="no"/>nast skrifva till <persName ref="#Sekreteraren">sekreteraren</persName> ...</p>
+            <p>Ni kan lita på mig fullkomligt. Jag ska ge­<lb break="no"/>nast skrifva till <persName ref="#Sekreteraren">sekreteraren</persName> ...</p>
           </sp>
           <sp who="#spFruHall">
             <speaker>FRU HALL.</speaker>
@@ -1571,8 +1534,7 @@
             <p>Nej, <persName ref="#FruHall">min fru</persName>, jag har inga pengar. Det är
               <lb/> <persName ref="#Axel">min man</persName> som försörjer mig tillsvidare, och jag får
               <lb/> nog veta af det. Det är bittert att äta nådebröd
-              <lb/> när man är ung, men det kanske kan komma an&#xad;<lb
-              break="no"/>dra dagar för mig också!</p>
+              <lb/> när man är ung, men det kanske kan komma an­<lb break="no"/>dra dagar för mig också!</p>
           </sp>
           <pb facs="6289-38.jpg"/><fw type="pageNum">37</fw>
           <sp who="#spFruHall">
@@ -1591,8 +1553,7 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Ni ska få dessa pengar till låns! <stage>(Hon går till chif&#xad;<lb
-              break="no"/>foniern).</stage> Tjugo, fyrtio, sextio, åttio! Fattas tjugo.
+            <p>Ni ska få dessa pengar till låns! <stage>(Hon går till chif­<lb break="no"/>foniern).</stage> Tjugo, fyrtio, sextio, åttio! Fattas tjugo.
               <lb/> Hvar har jag gjort af dem? Hm! Frukosten!
               <lb/> <stage>(Skrifver i hushållsboken).</stage> <writing who="#Bertha">Färg: tjugo; diverse: tjugo.</writing> —
               <lb/> Se der!</p>
@@ -1667,8 +1628,7 @@
               Att komma in på <orgName ref="#Salongen">salongen</orgName> är ingenting. Det är
               <lb/> en slump! Det kan bero på hvad bokstaf ens
               <lb/> namn börjar med. Du kom på O efter som du
-              <lb/> stafvade på franska och när bokstafveringen bör&#xad;<lb
-              break="no"/>jade med M så går det alltid lättare.</p>
+              <lb/> stafvade på franska och när bokstafveringen bör­<lb break="no"/>jade med M så går det alltid lättare.</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -1681,8 +1641,7 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Nå, om du blir refuserad, så är det väl der&#xad;<lb
-              break="no"/>för att ditt namn börjar med A.</p>
+            <p>Nå, om du blir refuserad, så är det väl der­<lb break="no"/>för att ditt namn börjar med A.</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -1721,21 +1680,20 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>Du ser skadeglad ut, <persName ref="#Bertha">Bertha</persName>. Åh jag kän&#xa;<lb
-              break="no"/>ner att det börjar växa ett stort hat mot dig här inne.</p>
+            <p>Du ser skadeglad ut, <persName ref="#Bertha">Bertha</persName>. Åh jag kän
+<lb break="no"/>ner att det börjar växa ett stort hat mot dig här inne.</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Jag ser glad ut, kanske, derför att jag haft
-              <lb/> en framgång, men när man är bunden vid <persName ref="#Axel">en men&#xad;<lb
-              break="no"/>niska</persName> som ej kan glädjas åt ens lycka, då har man
+              <lb/> en framgång, men när man är bunden vid <persName ref="#Axel">en men­<lb break="no"/>niska</persName> som ej kan glädjas åt ens lycka, då har man
               <lb/> svårt att känna medlidande med hennes olycka.</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Jag vet ej hur det är, men det förefaller mig
-              <lb/> som om vi blifvit fiender nu. Kampen om ställ&#xa;<lb
-              break="no"/>ningen har kommit emellan oss, derför kunna vi
+              <lb/> som om vi blifvit fiender nu. Kampen om ställ
+<lb break="no"/>ningen har kommit emellan oss, derför kunna vi
               <lb/> aldrig vara vänner mer.</p>
           </sp>
           <sp who="#spBertha">
@@ -1763,8 +1721,7 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>Ja, nog är det visst. Men för öfrigt, du ar&#xad;<lb
-              break="no"/>betade under gynsammare omständigheter än jag.
+            <p>Ja, nog är det visst. Men för öfrigt, du ar­<lb break="no"/>betade under gynsammare omständigheter än jag.
               <lb/> Du hade icke ritarbete, du fick gå på atelier, du
               <lb/> hade modeller, och du var fruntimmer!</p>
           </sp>
@@ -1780,27 +1737,23 @@
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Åh det har verlden redan fått veta. Men säg
-              <lb/> mig, varför lider du ej af att en kamrat, en man&#xad;<lb
-              break="no"/>lig kamrat, gått in med mindre meriter.</p>
+              <lb/> mig, varför lider du ej af att en kamrat, en man­<lb break="no"/>lig kamrat, gått in med mindre meriter.</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Jag måste tänka efter. Ser du vi ha aldrig
               <lb/> tagit er med kritik utan på känn, och derför har
-              <lb/> jag aldrig tänkt öfver vår ställning mot hvaran&#xad;<lb
-              break="no"/>dra. Nu när skon klämmer till, förefaller det mig
+              <lb/> jag aldrig tänkt öfver vår ställning mot hvaran­<lb break="no"/>dra. Nu när skon klämmer till, förefaller det mig
               <lb/> som om vi icke vore kamrater, efter som jag kan
               <lb/> erfara det som om ni ej hade här att göra. En
               <lb/> kamrat är en mer eller mindre lojal konkurrent,
-              <lb/> vi äro fiender. Ni ha legat bakom buskarne me&#xad;<lb
-              break="no"/>dan vi gjorde drabbningarne, och nu när vi
+              <lb/> vi äro fiender. Ni ha legat bakom buskarne me­<lb break="no"/>dan vi gjorde drabbningarne, och nu när vi
               <lb/> dukat bordet, slår ni er ned som hemma hos er!</p>
           </sp>
           <pb facs="6289-43.jpg"/><fw type="pageNum">42</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Åh fy! Ha vi fått vara med i strider nå&#xad;<lb
-              break="no"/>gonsin?</p>
+            <p>Åh fy! Ha vi fått vara med i strider nå­<lb break="no"/>gonsin?</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -1809,8 +1762,7 @@
               <lb/> skulle tekniken gå igenom hela sin utveckling och
               <lb/> fulländas af oss, innan ni kommo fram. Och nu
               <lb/> köper ni seklernas arbete för tio francs i timmen
-              <lb/> på <orgName ref="#AcadémieJulian">atelier</orgName> och för pengar som vi med vårt ar&#xad;<lb
-              break="no"/>bete förvärfvat.</p>
+              <lb/> på <orgName ref="#AcadémieJulian">atelier</orgName> och för pengar som vi med vårt ar­<lb break="no"/>bete förvärfvat.</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -1828,13 +1780,11 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Det behöfver du inte; när jag får sälja, för&#xad;<lb
-              break="no"/>sörjer jag mig sjelf.</p>
+            <p>Det behöfver du inte; när jag får sälja, för­<lb break="no"/>sörjer jag mig sjelf.</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>För öfrigt ... Hvad är det för slags före&#xad;<lb
-              break="no"/>ning vi ingått? Äktenskapet skulle vara bygdt
+            <p>För öfrigt ... Hvad är det för slags före­<lb break="no"/>ning vi ingått? Äktenskapet skulle vara bygdt
               <lb/> på gemensamma intressen, vårt är bygdt på stridiga.</p>
           </sp>
           <sp who="#spBertha">
@@ -1894,8 +1844,7 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>Och spela det besegrade lejonet för triumf&#xad;<lb
-              break="no"/>vagnen! Nej vet du. Jag behöfver tid på mig
+            <p>Och spela det besegrade lejonet för triumf­<lb break="no"/>vagnen! Nej vet du. Jag behöfver tid på mig
               <lb/> att lära min rol till eftermiddagens föreställning.</p>
           </sp>
           <sp who="#spBertha">
@@ -1995,8 +1944,7 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>Hör du <persName ref="#Abel">Abel</persName>, du som har ett manligt för&#xad;<lb
-              break="no"/>stånd och som man kan räsonnera med, hör du,
+            <p>Hör du <persName ref="#Abel">Abel</persName>, du som har ett manligt för­<lb break="no"/>stånd och som man kan räsonnera med, hör du,
               <lb/> säg hur det käns att vara fruntimmer! Är det så
               <lb/> förskräckligt.</p>
           </sp>
@@ -2011,8 +1959,7 @@
           </sp>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
-            <p>Jag vet att du är en svärmare — — och der&#xad;<lb
-              break="no"/>för går det dig aldrig väl. </p>
+            <p>Jag vet att du är en svärmare — — och der­<lb break="no"/>för går det dig aldrig väl. </p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -2079,8 +2026,7 @@
               <lb/> tigger pengar af henne och hon ställer dig under
               <lb/> förmyndare. Nej, du är ingen man! Men det var
               <pb facs="6289-50.jpg"/><fw type="pageNum">49</fw>
-              derför hon tog dig, när hennes affärer voro deran&#xad;<lb
-              break="no"/>gerade.</p>
+              derför hon tog dig, när hennes affärer voro deran­<lb break="no"/>gerade.</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -2100,9 +2046,7 @@
             <p>Ibland! Ibland inte! Hva ska man kunna
               <lb/> tro på numera! Stundom förefaller det mig som
               <lb/> om det gamla var förmånligast. Som mödrar
-              <lb/> hade vi en aktad och ärad ställning, då vi der&#xad;<lb
-              break="no"/>med uppfylde vår medborgarpligt; som husmöd&#xad;<lb
-              break="no"/>rar voro vi enväldiga, och att uppfostra slägtet
+              <lb/> hade vi en aktad och ärad ställning, då vi der­<lb break="no"/>med uppfylde vår medborgarpligt; som husmöd­<lb break="no"/>rar voro vi enväldiga, och att uppfostra slägtet
               <lb/> var ju icke någon vanhederlig syssla. Ge mig en
               <lb/> kognak, <persName ref="#Axel">Axel</persName>! Vi ha pratat så mycket!</p>
           </sp>
@@ -2252,8 +2196,7 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Jag tycker <persName ref="#Axel">herrn</persName> behandlar <persName ref="#Bertha">sin hustru</persName> akt&#xad;<lb
-              break="no"/>ningslöst. Man bör dock veta hvad aktning man ...</p>
+            <p>Jag tycker <persName ref="#Axel">herrn</persName> behandlar <persName ref="#Bertha">sin hustru</persName> akt­<lb break="no"/>ningslöst. Man bör dock veta hvad aktning man ...</p>
           </sp>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
@@ -2282,19 +2225,16 @@
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Säg inte det! — Hör du <persName ref="#Bertha">Bertha</persName>. Efter som
-              <lb/> vår ekonomi hädanefter kommer att undergå för&#xad;<lb
-              break="no"/>ändringar, så vill jag veta husets ställning. Var
+              <lb/> vår ekonomi hädanefter kommer att undergå för­<lb break="no"/>ändringar, så vill jag veta husets ställning. Var
               <lb/> snäll och låt mig se hushållsboken!</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Det är en nobel hämd derför att du blef re&#xad;<lb
-              break="no"/>fuserad!</p>
+            <p>Det är en nobel hämd derför att du blef re­<lb break="no"/>fuserad!</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>Hvad för hämd! I hvad sammanhang står hus&#xad;<lb
-              break="no"/>hållsboken med mitt missöde på <orgName ref="#Salongen">salongen</orgName>? Ge
+            <p>Hvad för hämd! I hvad sammanhang står hus­<lb break="no"/>hållsboken med mitt missöde på <orgName ref="#Salongen">salongen</orgName>? Ge
               <lb/> mig nyckeln till chiffoniern!</p>
           </sp>
           <sp who="#spBertha">
@@ -2410,8 +2350,7 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Det går inte an att inställa det, då ju <persName ref="#Doktorn">Öster&#xad;<lb
-              break="no"/>mark</persName> och <persName ref="#Carl">Carl</persName> ha kommit i dag och jag har bedt
+            <p>Det går inte an att inställa det, då ju <persName ref="#Doktorn">Öster­<lb break="no"/>mark</persName> och <persName ref="#Carl">Carl</persName> ha kommit i dag och jag har bedt
               <lb/> dem vara med.</p>
           </sp>
           <sp who="#spAxel">
@@ -2468,8 +2407,7 @@
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Så oförskämd! Vet du jag skulle ha lust att
-              <lb/> böja honom, så djupt att han skulle komma kry&#xad;<lb
-              break="no"/>pande efter mig.</p>
+              <lb/> böja honom, så djupt att han skulle komma kry­<lb break="no"/>pande efter mig.</p>
           </sp>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
@@ -2589,8 +2527,7 @@
           </sp>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
-            <p>Strängt taget har han inte med dina inkom&#xad;<lb
-              break="no"/>ster att göra, efter som ni ha äkteskapsförord, och
+            <p>Strängt taget har han inte med dina inkom­<lb break="no"/>ster att göra, efter som ni ha äkteskapsförord, och
               <lb/> du har all anledning vara stram mot honom, om
               <lb/> inte för annat så för att statuera ett exempel. Stå
               <lb/> på dig, du, när han kommer med sina predikningar
@@ -2599,8 +2536,7 @@
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Åh jag vet nog hur jag ska sköta honom.
-              <lb/> Men — en annan sak. Hur ska vi behandla Öster&#xad;<lb
-              break="no"/>markska affären?</p>
+              <lb/> Men — en annan sak. Hur ska vi behandla Öster­<lb break="no"/>markska affären?</p>
           </sp>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
@@ -2680,8 +2616,7 @@
           </sp>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
-            <p>Kan du det bara! Det der med chiffonier&#xad;<lb
-              break="no"/>nyckeln var dumt. Så dumt!</p>
+            <p>Kan du det bara! Det der med chiffonier­<lb break="no"/>nyckeln var dumt. Så dumt!</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -2799,8 +2734,7 @@
           <pb facs="6289-66.jpg"/><fw type="pageNum">65</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Du skref upp det vi pratade, det var allt&#xad;<lb
-              break="no"/>sammans!</p>
+            <p>Du skref upp det vi pratade, det var allt­<lb break="no"/>sammans!</p>
           </sp>
           <sp who="#spWillmer">
             <speaker>WILLMER.</speaker>
@@ -2955,15 +2889,13 @@
       <div type="act" n="3">
         <head>TREDJE AKTEN</head>
         <stage type="setting">
-          <p>Samma dekoration som förra. Taklampan tänd. Månsken utanför på atelier&#xad;<lb
-            break="no"/>fönstret. Kaminen är eldad.</p>
+          <p>Samma dekoration som förra. Taklampan tänd. Månsken utanför på atelier­<lb break="no"/>fönstret. Kaminen är eldad.</p>
         </stage>
         <div type="scene" n="1">
           <head>FÖRSTA SCENEN.</head>
           <anchor xml:id="handakt1start"/>
           <anchor xml:id="handakt2start"/>
-          <stage type="presence" who="#Bertha #Pigan">BERTHA och PIGAN. (BERTHA klädd i en morgonrock af spet&#xad;<lb
-            break="no"/>sar, syr på <rs type="hand" ref="#handrekv1">den spanska fruntimmerskostymen</rs>; PIGAN plisserar <rs type="hand" ref="#handrekv2">ett fräs</rs>).</stage>
+          <stage type="presence" who="#Bertha #Pigan">BERTHA och PIGAN. (BERTHA klädd i en morgonrock af spet­<lb break="no"/>sar, syr på <rs type="hand" ref="#handrekv1">den spanska fruntimmerskostymen</rs>; PIGAN plisserar <rs type="hand" ref="#handrekv2">ett fräs</rs>).</stage>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Det är inte roligt att sitta uppe och vänta <persName ref="#Axel">sin
@@ -2977,8 +2909,7 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Nå hvad gör han, när han sitter ensam hem&#xad;<lb
-              break="no"/>ma då?</p>
+            <p>Nå hvad gör han, när han sitter ensam hem­<lb break="no"/>ma då?</p>
           </sp>
           <sp who="#spPigan">
             <speaker>PIGAN.</speaker>
@@ -3043,8 +2974,7 @@
           <head>ANDRA SCENEN.</head>
           <anchor xml:id="handakt1slut"/>
           <stage type="presence" who="#Bertha" rend="setting">BERTHA
-            <lb/> ensam: <stage>lägger bort arbetet; kastar sig på kanapèn; ordnar spetsarne på mor&#xad;<lb
-            break="no"/>gonrocken. Derpå springer hon upp: skrufvar ner lampan till hälften,
+            <lb/> ensam: <stage>lägger bort arbetet; kastar sig på kanapèn; ordnar spetsarne på mor­<lb break="no"/>gonrocken. Derpå springer hon upp: skrufvar ner lampan till hälften,
             <lb/> återtar posituren på soffan och låtsas sofva.</stage> <stage>En paus:</stage> <stage type="entrance" who="#Axel">derpå kommer
             <lb/> Axel in.</stage></stage>
           <sp who="#spAxel">
@@ -3065,16 +2995,14 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>Det ljuger du, för jag såg genom gårdsfönst&#xad;<lb
-              break="no"/>ret när du intog den der ställningen på soffan.</p>
+            <p>Det ljuger du, för jag såg genom gårdsfönst­<lb break="no"/>ret när du intog den der ställningen på soffan.</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker> <stage>(rusar upp).</stage>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL</speaker> <stage>(lugnt).</stage>
-            <p>Inga förförelsescener i nattrockar! Inga me&#xad;<lb
-              break="no"/>lodramer! Var sansad och hör på hvad jag har
+            <p>Inga förförelsescener i nattrockar! Inga me­<lb break="no"/>lodramer! Var sansad och hör på hvad jag har
               <lb/> att säga dig! <stage>(Sätter sig på en stol midt på golfvet.)</stage></p>
           </sp>
           <sp who="#spBertha">
@@ -3094,8 +3022,7 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>Gör inte hysteri, för då slår jag vattenkaraf&#xad;<lb
-              break="no"/>fin på dina spetsar!</p>
+            <p>Gör inte hysteri, för då slår jag vattenkaraf­<lb break="no"/>fin på dina spetsar!</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -3114,8 +3041,7 @@
             <speaker>AXEL.</speaker>
             <p>Jo, jag har älskat dig, det var mitt enda
               <lb/> motiv till att gifta mig med dig; men hvarför gifte
-              <lb/> du dig med mig? Derför att du hade dåliga affä&#xad;<lb
-              break="no"/>rer, och bleksot!</p>
+              <lb/> du dig med mig? Derför att du hade dåliga affä­<lb break="no"/>rer, och bleksot!</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -3124,8 +3050,7 @@
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Det vore ingen olycka om någon hörde oss.
-              <lb/> Jag har behandlat dig som en kamrat, med obe&#xad;<lb
-              break="no"/>gränsadt förtroende, och jag har äfven gjort små
+              <lb/> Jag har behandlat dig som en kamrat, med obe­<lb break="no"/>gränsadt förtroende, och jag har äfven gjort små
               <lb/> offer som du känner. — Har <persName ref="#Smeden">sme'n</persName> varit här?</p>
           </sp>
           <sp who="#spBertha">
@@ -3135,8 +3060,7 @@
           <pb facs="6289-74.jpg"/><fw type="pageNum">73</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>Det behöfs inte heller. Jag har läst dina rä&#xad;<lb
-              break="no"/>kenskaper.</p>
+            <p>Det behöfs inte heller. Jag har läst dina rä­<lb break="no"/>kenskaper.</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -3145,8 +3069,7 @@
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Hushållsboken är gemensam! Du har fört
-              <lb/> upp falska utgiftsposter, och underlåtit införa in&#xad;<lb
-              break="no"/>komster.</p>
+              <lb/> upp falska utgiftsposter, och underlåtit införa in­<lb break="no"/>komster.</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -3154,8 +3077,7 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>Inte vi heller! Och hvad uppfostran beträf&#xad;<lb
-              break="no"/>far har du fått mycket bättre sådan än jag: du
+            <p>Inte vi heller! Och hvad uppfostran beträf­<lb break="no"/>far har du fått mycket bättre sådan än jag: du
               <lb/> har gått på seminarium, men jag har bara gått i
               <lb/> en folkskola.</p>
           </sp>
@@ -3175,8 +3097,7 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>De flesta straffade, skall du säga, men bak&#xad;<lb
-              break="no"/>om nittionio procent brottsliga män kan man med
+            <p>De flesta straffade, skall du säga, men bak­<lb break="no"/>om nittionio procent brottsliga män kan man med
               <lb/> domaren fråga: <said>où est la femme?</said> — Men — för
               <lb/> att återvända till dig. — Du har ljugit för mig
               <lb/> hela vägen igenom, och till sist bedragit mig. Der
@@ -3253,8 +3174,7 @@
             <speaker>AXEL.</speaker>
             <p>O heliga, okränkbara, vördade fånighet! — Jag
               <lb/> skulle kunna anklaga dig för förfalskning, ty du
-              <lb/> har gjort skuld hos <persName ref="#Willmer">Willmer</persName> och påfört mig be&#xad;<lb
-              break="no"/>loppen.</p>
+              <lb/> har gjort skuld hos <persName ref="#Willmer">Willmer</persName> och påfört mig be­<lb break="no"/>loppen.</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -3262,14 +3182,9 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>Jag skildes nyss från honom efter att ha be&#xad;<lb
-              break="no"/>talt honom trehundrafemtio francs som du var skyl&#xad;<lb
-              break="no"/>dig honom. Men vi ska inte vara småaktiga i pen&#xad;<lb
-              break="no"/>ningsakerna. Vi ha värre affärer ändå att uppgöra.
+            <p>Jag skildes nyss från honom efter att ha be­<lb break="no"/>talt honom trehundrafemtio francs som du var skyl­<lb break="no"/>dig honom. Men vi ska inte vara småaktiga i pen­<lb break="no"/>ningsakerna. Vi ha värre affärer ändå att uppgöra.
               <pb facs="6289-77.jpg"/><fw type="pageNum">76</fw>
-              Du har låtit <persName ref="#Willmer">denna slyngel</persName> delvis betala mitt hus&#xad;<lb
-              break="no"/>håll, och derigenom har du totalt förstört mitt an&#xad;<lb
-              break="no"/>seende. Hvad har du gjort med pengarne?</p>
+              Du har låtit <persName ref="#Willmer">denna slyngel</persName> delvis betala mitt hus­<lb break="no"/>håll, och derigenom har du totalt förstört mitt an­<lb break="no"/>seende. Hvad har du gjort med pengarne?</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -3286,9 +3201,7 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>Ack, <persName ref="#Bertha">du sparsamma själ</persName>! Den der nattroc&#xad;<lb
-              break="no"/>ken kostar två hundra francs och min kostar tju&#xad;<lb
-              break="no"/>gofem.</p>
+            <p>Ack, <persName ref="#Bertha">du sparsamma själ</persName>! Den der nattroc­<lb break="no"/>ken kostar två hundra francs och min kostar tju­<lb break="no"/>gofem.</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -3309,9 +3222,7 @@
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Nu när jag fått upp ögonen börja förflutna
-              <lb/> händelser få en annan färg. Det förefaller mig nä&#xad;<pb
-              break="no" facs="6289-78.jpg"/><fw
-              type="pageNum">77</fw>stan som om du framkallade det der frieriet; det
+              <lb/> händelser få en annan färg. Det förefaller mig nä­<pb break="no" facs="6289-78.jpg"/><fw type="pageNum">77</fw>stan som om du framkallade det der frieriet; det
               <lb/> förefaller mig nästan som om jag då och då varit
               <lb/> utsatt för hvad Ni kallar en förförelse; det syntes
               <lb/> mig numera som som jag råkat i händerna på <persName ref="#Bertha">en
@@ -3322,13 +3233,11 @@
               <lb/> mig och jag ser din nacke med det korta håret,
               <lb/> är det — — — ja det är precis som om — husch!
               <lb/> som om du var <persName ref="#Judith">Judith</persName> och skänkt mig din kropp
-              <lb/> för att få ta hufvudet af mig. Se der ligger dräg&#xad;<lb
-              break="no"/>ten som jag skulle bära, som du ville förnedra mig
+              <lb/> för att få ta hufvudet af mig. Se der ligger dräg­<lb break="no"/>ten som jag skulle bära, som du ville förnedra mig
               <lb/> med! Ja, för du kände att det var en förnedring
               <lb/> att bära dessa vida veck, som skulle dölja för att
               <lb/> reta, detta nerskurna lif som på korsettens tallrikar
-              <lb/> skulle bjuda ut varan. Nej! Der har du din kär&#xad;<lb
-              break="no"/>lekslön igen, nu kastar jag min boja! <stage>(Kastar vigselringen).</stage></p>
+              <lb/> skulle bjuda ut varan. Nej! Der har du din kär­<lb break="no"/>lekslön igen, nu kastar jag min boja! <stage>(Kastar vigselringen).</stage></p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker> <stage>(ser på honom med förundran).</stage>
@@ -3635,8 +3544,7 @@
             <lb/> rummen stå uppslagna. I trädgården synes ett serveringsbord med
             <lb/> glas och buteljer m. m.</p>
           <p>(AXEL är klädd i svart bonjour utan orden; med uppstående krage och
-            <lb/>långhalsduk, samt har håret uppstruket. BERTHA: i mörk kläd&#xad;<lb
-            break="no"/>ning, urskuren i fyrkant, med fichu och krås. Hon har en blomma
+            <lb/>långhalsduk, samt har håret uppstruket. BERTHA: i mörk kläd­<lb break="no"/>ning, urskuren i fyrkant, med fichu och krås. Hon har en blomma
             <lb/> på venstra axeln. CARL: civil med orden. Fröknarne HALL
             <lb/> extravagant och dyrbart klädda.</p>
         </stage>
@@ -3667,8 +3575,7 @@
           <pb facs="6289-86.jpg"/><fw type="pageNum">85</fw>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
-            <p>Hvad är det med dig i dag? Det är nå&#xad;<lb
-              break="no"/>gonting.</p>
+            <p>Hvad är det med dig i dag? Det är nå­<lb break="no"/>gonting.</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -3794,8 +3701,7 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Du tänker på — åhnej jag vet det natur&#xad;<lb
-              break="no"/>ligtvis inte — såvida det inte skulle vara på den
+            <p>Du tänker på — åhnej jag vet det natur­<lb break="no"/>ligtvis inte — såvida det inte skulle vara på den
               <lb/> första supern vi hade som förlofvade på <placeName>Djurgården</placeName>,
               <lb/> den vårqvällen då du hade friat ...</p>
           </sp>
@@ -3806,8 +3712,7 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p><persName ref="#Axel">Axel</persName>! — Och nu är det den sista; sista gån&#xad;<lb
-              break="no"/>gen. Det var en kort sommar!</p>
+            <p><persName ref="#Axel">Axel</persName>! — Och nu är det den sista; sista gån­<lb break="no"/>gen. Det var en kort sommar!</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -3881,9 +3786,7 @@
           </sp>
           <sp who="#spFrökenAmelie">
             <speaker>Fröken AMELIE.</speaker>
-            <p>Nå det var bra, för <persName ref="#Axel #Bertha">de här artisterna</persName> äro så&#xad;<lb
-              break="no"/>dana frihandlare. Tyst, der ha vi bestämdt <persName ref="#Diplomaten">en di&#xad;<lb
-              break="no"/>plomat</persName> ... han ser så distinguerad ut. <stage>(De sätta sig
+            <p>Nå det var bra, för <persName ref="#Axel #Bertha">de här artisterna</persName> äro så­<lb break="no"/>dana frihandlare. Tyst, der ha vi bestämdt <persName ref="#Diplomaten">en di­<lb break="no"/>plomat</persName> ... han ser så distinguerad ut. <stage>(De sätta sig
               <lb/> på kanapén.)</stage></p>
           </sp>
           <pb facs="6289-91.jpg"/><fw type="pageNum">90</fw>
@@ -3936,8 +3839,7 @@
           <pb facs="6289-92.jpg"/><fw type="pageNum">91</fw>
           <sp who="#spDoktorn">
             <speaker>DOKTORN.</speaker>
-            <p><persName ref="#FröknarnaHall">Fröknarne</persName> komma visst nyligen från <placeName>Stock&#xad;<lb
-              break="no"/>holm</placeName>. Här i landet törs man tala vid hvarandra
+            <p><persName ref="#FröknarnaHall">Fröknarne</persName> komma visst nyligen från <placeName>Stock­<lb break="no"/>holm</placeName>. Här i landet törs man tala vid hvarandra
               <lb/> utan att begära borgen.</p>
           </sp>
           <sp who="#spFrökenAmelie">
@@ -3948,8 +3850,7 @@
             <speaker>DOKTORN.</speaker>
             <p>Hvad begör Ni då? Att få Er nyfikenhet
               <lb/> tillfredsstäld. Nå, jag är en gammal husläkare och
-              <lb/> heter Andersson.Kanske jag nu kan få veta <persName ref="#FröknarnaHall">frök&#xad;<lb
-              break="no"/>narnes</persName> namn — — Karakteren behöfver jag inte.</p>
+              <lb/> heter Andersson.Kanske jag nu kan få veta <persName ref="#FröknarnaHall">frök­<lb break="no"/>narnes</persName> namn — — Karakteren behöfver jag inte.</p>
           </sp>
           <sp who="#spFrökenTherèse">
             <speaker>Fröken THERÈSE.</speaker>
@@ -3958,8 +3859,7 @@
           </sp>
           <sp who="#spDoktorn">
             <speaker>DOKTORN.</speaker>
-            <p><persName ref="#FröknarnaHall">Hall</persName>? Hm! Jag har bestämdt hört det nam&#xad;<lb
-              break="no"/>net förr. Förlåt, förlåter Ni en fråga? En något
+            <p><persName ref="#FröknarnaHall">Hall</persName>? Hm! Jag har bestämdt hört det nam­<lb break="no"/>net förr. Förlåt, förlåter Ni en fråga? En något
               <lb/> lantdtlig fråga?</p>
           </sp>
           <sp who="#spFrökenAmelie">
@@ -3982,8 +3882,7 @@
           </sp>
           <sp who="#spFrökenTherèse">
             <speaker>Fröken THERÈSE.</speaker>
-            <p><persName ref="#HerrHall">Vår far</persName> var intendent vid <orgName ref="#Brandförsäkringsverket">Brandförsäkrings&#xad;<lb
-              break="no"/>verket</orgName> i <placeName>Göteborg</placeName>.</p>
+            <p><persName ref="#HerrHall">Vår far</persName> var intendent vid <orgName ref="#Brandförsäkringsverket">Brandförsäkrings­<lb break="no"/>verket</orgName> i <placeName>Göteborg</placeName>.</p>
           </sp>
           <sp who="#spDoktorn">
             <speaker>DOKTORN.</speaker>
@@ -3997,8 +3896,7 @@
           </sp>
           <sp who="#spFrökenTherèse">
             <speaker>Fröken THERÈSE.</speaker>
-            <p>Troligen lemnade du den i trädgårdspavil&#xad;<lb
-              break="no"/>jongen ... <stage>(reser sig).</stage></p>
+            <p>Troligen lemnade du den i trädgårdspavil­<lb break="no"/>jongen ... <stage>(reser sig).</stage></p>
           </sp>
           <sp who="#spDoktorn">
             <speaker>DOKTORN</speaker> <stage>(stiger upp).</stage>
@@ -4083,8 +3981,7 @@
             <speaker>CARL.</speaker>
             <p>Som jag. Jag intog genast min ställning som
               <lb/> familjens chef och öfverhufvud, till hvilken plats
-              <lb/> jag fann mig kallad både på grund af mitt öfver&#xad;<lb
-              break="no"/>lägsna förstånd och naturlig fallenhet.</p>
+              <lb/> jag fann mig kallad både på grund af mitt öfver­<lb break="no"/>lägsna förstånd och naturlig fallenhet.</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -4235,8 +4132,7 @@
             <speaker>BERTHA.</speaker>
             <p>Ja, så är det! Men om icke mitt beskydd är
               <lb/> tillräckligt, så kanske <persName ref="#Doktorn">doktor Östermark</persName> ville taga
-              <lb/> dem under sitt, efter som han har en viss skyl&#xad;<lb
-              break="no"/>dighet till det.</p>
+              <lb/> dem under sitt, efter som han har en viss skyl­<lb break="no"/>dighet till det.</p>
           </sp>
           <sp who="#spCarl">
             <speaker>CARL.</speaker>
@@ -4283,9 +4179,7 @@
           </sp>
           <sp who="#spDoktorn">
             <speaker>DOKTORN.</speaker>
-            <p>Efter som du anser dig ha rätt att vara när&#xad;<lb
-              break="no"/>gången och göra mina familjeförhållanden till före&#xad;<lb
-              break="no"/>mål för offentlig granskning, så ska jag svara dig
+            <p>Efter som du anser dig ha rätt att vara när­<lb break="no"/>gången och göra mina familjeförhållanden till före­<lb break="no"/>mål för offentlig granskning, så ska jag svara dig
               <pb facs="6289-100.jpg"/><fw type="pageNum">99</fw>
               offentligt! Du tyckes ha tagit reda på att jag icke
               <lb/> är enkling, utan en frånskild. Godt! För tjugo år
@@ -4305,8 +4199,7 @@
               <lb/> eller raglade om du så vill, och så fick hon halfva
               <lb/> mina inkomster ända tills jag fick veta att hon —
               <lb/> — nog sagdt. Kunde du ha ett begrepp om hvad
-              <lb/> det kostat mig i arbete och försakelser att under&#xad;<lb
-              break="no"/>hålla två hushåll, skulle du besparat mig denna
+              <lb/> det kostat mig i arbete och försakelser att under­<lb break="no"/>hålla två hushåll, skulle du besparat mig denna
               <lb/> obehagliga stund, men det kan inte en sådan som
               <lb/> du komma sig för att tänka ut. Mera behöfver du
               <lb/> inte veta, helst hela denna sak inte angår dig!</p>
@@ -4320,8 +4213,7 @@
             <speaker>DOKTORN.</speaker>
             <p>Jag tror inte det skulle roa dig höra att hon
               <lb/> var stygg, småsinnad, lumpen, och att jag var för
-              <lb/> god emot henne! Tänk nu, <persName ref="#Bertha">du ömhjertade, fin&#xad;<lb
-              break="no"/>känsliga Bertha</persName>, tänk om det verkligen hade varit
+              <lb/> god emot henne! Tänk nu, <persName ref="#Bertha">du ömhjertade, fin­<lb break="no"/>känsliga Bertha</persName>, tänk om det verkligen hade varit
               <lb/> mina döttrar, <persName ref="#FröknarnaHall">dessa dina och <persName ref="#Carl">Carls</persName> gemensamma
               <lb/> väninnor</persName>; tänk huru mitt gamla hjärta skulle ha
               <lb/> gladt sig åt att efter aderton år se igen <persName ref="#FröknarnaHall">dessa barn</persName>
@@ -4329,8 +4221,7 @@
               <lb/> långa natt. Och tänk om hon, <persName ref="#FruHall">min första kärlek,
               <lb/> min hustru</persName>, med hvilken lifvet första gången blef
               <pb facs="6289-101.jpg"/><fw type="pageNum">100</fw>
-              lif, hade mottagit din bjudning och kommit. Hvil&#xad;<lb
-              break="no"/>ken tacksam femte akt i den melodram du ville
+              lif, hade mottagit din bjudning och kommit. Hvil­<lb break="no"/>ken tacksam femte akt i den melodram du ville
               <lb/> bjuda oss på, hvilken nobel hämd på en oskyldig.
               <lb/> Tack <persName ref="#Bertha">min gamla vän</persName>, tack skall du ha för denna
               <lb/> återbetalning af den vänskap jag visat dig.</p>
@@ -4378,8 +4269,7 @@
           <stage type="presence" who="#Abel #Axel #Bertha #Carl #Diplomaten #Doktorn #FruHall #FruStarck #Willmer">Alla ut i trädgården. <persName ref="#Doktorn">DOKTORN</persName> (ensam).</stage>
           <stage>(Musiken från trädgården tränger dämpad in i rummet).</stage>
           <stage>(<persName ref="#Doktorn">DOKTORN</persName> går och betraktar teckningarne på högra väggen hän emot dörren
-            <lb/> till <persName ref="#Axel">Axels</persName> rum; <persName ref="#FruHall">fru HALL</persName> träder ut, går med osäkra steg fram i rummet; stan&#xad;<lb
-            break="no"/>nar och sätter sig på en stol. <persName ref="#Doktorn">Doktorn</persName>, som icke igenkänner henne, bugar sig).</stage>
+            <lb/> till <persName ref="#Axel">Axels</persName> rum; <persName ref="#FruHall">fru HALL</persName> träder ut, går med osäkra steg fram i rummet; stan­<lb break="no"/>nar och sätter sig på en stol. <persName ref="#Doktorn">Doktorn</persName>, som icke igenkänner henne, bugar sig).</stage>
           <sp who="#spFruHall">
             <speaker>FRU HALL.</speaker>
             <p>Hvad är det för musik derute?</p>
@@ -4494,8 +4384,7 @@
           </sp>
           <sp who="#spDoktorn">
             <speaker>DOKTORN.</speaker>
-            <p>Ljuger fortfarande! — Förr, när jag var oför&#xad;<lb
-              break="no"/>ståndig, lade jag dig det till last; men nu vet jag
+            <p>Ljuger fortfarande! — Förr, när jag var oför­<lb break="no"/>ståndig, lade jag dig det till last; men nu vet jag
               <lb/> att det är ett naturfel. Du tror sjelf på hvad du
               <lb/> ljuger, och ser du det är betänkligt! Men det hör
               <lb/> inte hit! Tänker du gå, eller vill du att jag ska gå?</p>
@@ -4518,8 +4407,7 @@
           </sp>
           <sp who="#spDoktorn">
             <speaker>DOKTORN.</speaker>
-            <p>Ja man blir sjuk, när man dricker för myc&#xad;<lb
-              break="no"/>ket! Men! Detta var svårare än jag tänkt. Jag
+            <p>Ja man blir sjuk, när man dricker för myc­<lb break="no"/>ket! Men! Detta var svårare än jag tänkt. Jag
               <lb/> har dödat små ofödda barn för att rädda modren,
               <lb/> och jag har kännt dem skälfva i dödskamp, jag
               <lb/> har sågat i lefvande muskler och sett märgen krypa
@@ -4543,8 +4431,7 @@
               <lb/> fina hvita handen; och jag kysste den ändå. -
               <lb/> Åh! Nu är den vissen och slår inte mer ... Ah
               <lb/> Dolce <placeName>Napoli</placeName>! Lifsglädje, hvart tog du vägen?
-              <lb/> Gick din väg som hon der! Som var min ungdoms&#xad;<lb
-              break="no"/>brud!</p>
+              <lb/> Gick din väg som hon der! Som var min ungdoms­<lb break="no"/>brud!</p>
           </sp>
           <pb facs="6289-106.jpg"/><fw type="pageNum">105</fw>
           <sp who="#spFruHall">
@@ -4605,8 +4492,7 @@
           </sp>
           <sp who="#spFruStarck">
             <speaker>Fru STARCK.</speaker>
-            <p>Hvarför skulle jag inte vara det, när du me&#xad;<lb
-              break="no"/>nar så väl med mig!</p>
+            <p>Hvarför skulle jag inte vara det, när du me­<lb break="no"/>nar så väl med mig!</p>
           </sp>
         </div>
         <div type="scene" n="13">
@@ -4619,8 +4505,7 @@
           </sp>
           <sp who="#spPigan">
             <speaker>PIGAN.</speaker>
-            <p><persName ref="#Portvakten">Portvakten</persName> sa, att den skulle bäras in i ate&#xad;<lb
-              break="no"/>liern, för han kunde inte ha den hos sig.</p>
+            <p><persName ref="#Portvakten">Portvakten</persName> sa, att den skulle bäras in i ate­<lb break="no"/>liern, för han kunde inte ha den hos sig.</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -4667,8 +4552,7 @@
           <sp who="#spFruStarck">
             <speaker>Fru STARCK.</speaker>
             <p>Hjelp Gud, hvad är detta! <persName ref="#Bertha">Stackars liten</persName>!
-              <lb/> <persName ref="#Doktorn">Doktor Östermark</persName>, gör då någonting! Säg någon&#xad;<lb
-              break="no"/>ting! Och <persName ref="#Axel">Axel</persName> som står alldeles handfallen.</p>
+              <lb/> <persName ref="#Doktorn">Doktor Östermark</persName>, gör då någonting! Säg någon­<lb break="no"/>ting! Och <persName ref="#Axel">Axel</persName> som står alldeles handfallen.</p>
           </sp>
           <stage><supplied>(</supplied><persName ref="#Axel">AXEL</persName> och <persName ref="#Willmer">WILLMER</persName> ensamma.<supplied>)</supplied></stage>
           <sp who="#spAxel">
@@ -4786,8 +4670,7 @@
           </sp>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
-            <p>Jag kan se det, för hon var blå om handle&#xad;<lb
-              break="no"/>derna<supplied>.</supplied> Se på mig! — Det trodde jag dig aldrig
+            <p>Jag kan se det, för hon var blå om handle­<lb break="no"/>derna<supplied>.</supplied> Se på mig! — Det trodde jag dig aldrig
               <lb/> om. Nå <persName ref="#Axel">segrare</persName>, triumfera nu!</p>
           </sp>
           <sp who="#spAxel">
@@ -4885,8 +4768,7 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>Nå men var i då Herrans namn litet älsk&#xad;<lb
-              break="no"/>värdare, och styr inte ut er, så att man måste
+            <p>Nå men var i då Herrans namn litet älsk­<lb break="no"/>värdare, och styr inte ut er, så att man måste
               <lb/> tänka på strafflagen när man ser er.</p>
           </sp>
           <sp who="#spAbel">

@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="../schemas/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="../stylesheets/tiny_TEI_template.css"?>
-<?oxygen RNGSchema="../schemas/tei_all.rng" type="xml"?>
-<!-- $Id: StrindbergA_FrokenJulie.xml 115988 2015-05-06 13:08:44Z maril $-->
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -3427,7 +3423,7 @@
           </sp>
           <sp who="#spJean">
             <speaker>JEAN.</speaker>
-            <p>—&#160;att du kunnat missakta andra! —</p>
+            <p>— att du kunnat missakta andra! —</p>
           </sp>
           <pb facs="6272-106.jpg"/>
           <fw type="pageNum">77</fw>
@@ -3886,12 +3882,12 @@
           <listRelation>
           <relation type="personal" name="dotter" active="#FrökenJulie" passive="#Grefven #Grefvinnan"/>
           <relation type="other" name="talar.om" active="#FrökenJulie" passive="#Grefvinnan"/>
-          <relation  type="other" name="talar.om" active="#Jean" passive="#Anna #Grefvinnan"/>
+          <relation type="other" name="talar.om" active="#Jean" passive="#Anna #Grefvinnan"/>
           <relation type="personal" name="fästfolk" mutual="#Jean #Kristin"/>
             <relation type="personal" name="matte" active="#FrökenJulie" passive="#GrönsiskanSerine"/>
           <relation type="personal" name="matte" active=" #FrökenJulie" passive="#Diana"/>
           <relation type="personal" name="sexuell.relation" mutual="#FrökenJulie #Jean" from-custom="#JulieJeanRelChange1" to-custom="#playend"/>
-          <relation type="social" name="underlydande" active="#Jean" passive="#FrökenJulie"></relation>
+          <relation type="social" name="underlydande" active="#Jean" passive="#FrökenJulie"/>
           <relation type="social" name="betjänt" active="#Jean" passive="#Grefven"/>
           <relation type="social" name="jungfru" active="#Clara" passive="#FrökenJulie" cert="medium"/><!-- har klätt Julie -->
           <relation type="social" name="kokerska" active="#Kristin" passive="#Grefven"/>
@@ -3903,8 +3899,8 @@
           <relation type="other" name="talar.om" active="#Kristin" passive="#Jesus #Clara #Sofi #FrökenJulie"/>
           <relation type="other" name="talar.om" active="#FrökenJulie" passive="#DonJuan #Josef #Jesus #KungLudvig #Rafael #Rubens"/>
           <relation type="other" name="talar.om" active="#Kristin" passive="#JohannesDöparen"/>
-            <relation type="other" name="talar.om" active="#Kristin #FrökenJulie" passive="#Jesus"></relation>
-            <relation type="other" name="talar.om" active="#Kristin #Jean" passive="#Grefven"></relation>
+            <relation type="other" name="talar.om" active="#Kristin #FrökenJulie" passive="#Jesus"/>
+            <relation type="other" name="talar.om" active="#Kristin #Jean" passive="#Grefven"/>
           <relation type="other" name="sjunger.om" active="#Bondfolket" passive="#FrökenJulie #Jean #Kristin"/>
           <relation type="other" name="stjäl.danskavaljer.från" active="#FrökenJulie" passive="#Anna"/>
         </listRelation>
@@ -3912,5 +3908,4 @@
     </back>
     <anchor xml:id="playend"/>
   </text>
-</TEI> 
-      
+</TEI>

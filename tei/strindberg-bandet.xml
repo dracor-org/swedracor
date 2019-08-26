@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="../schemas/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="../stylesheets/tiny_TEI_template.css"?>
-<?oxygen RNGSchema="../schemas/tei_all.rng" type="xml"?>
-<!-- $Id: StrindbergA_Bandet.xml 108147 2014-12-14 16:49:13Z eva $ -->
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -15,7 +11,7 @@
             <surname>Strindberg</surname>
           </persName>
           <idno type="LIBRIS">http://libris.kb.se/auth/94541</idno>
-          <idno type="Litteraturbanken" >http://litteraturbanken.se/#forfattare/StrindbergA</idno>
+          <idno type="Litteraturbanken">http://litteraturbanken.se/#forfattare/StrindbergA</idno>
           <idno type="SBL">http://www.nad.riksarkivet.se/sbl/artikel/34518</idno>
         </author>
         <sponsor>
@@ -84,7 +80,7 @@
            </author>
             <title level="m" type="main">Tryckt och otryckt</title>
             <title level="m" type="sub">Ny samling</title>
-            <idno type="LIBRIS" >http://libris.kb.se/bib/1664033</idno>
+            <idno type="LIBRIS">http://libris.kb.se/bib/1664033</idno>
             <imprint>
               <pubPlace>Stockholm</pubPlace>
               <publisher>Albert Bonniers förlag</publisher>
@@ -226,12 +222,10 @@
           <role xml:id="spAdvokaten"><persName ref="#Advokaten">Advokaten</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spAlexandersson"><persName ref="#Alexandersson">Hemmansägaren Alexan&#xad;<lb
-            break="no"/>dersson</persName></role>.
+          <role xml:id="spAlexandersson"><persName ref="#Alexandersson">Hemmansägaren Alexan­<lb break="no"/>dersson</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spTjänsteflickan"><persName ref="#Tjänsteflickan">Tjänsteflickan Alma Jons&#xad;<lb
-            break="no"/>son</persName></role>.
+          <role xml:id="spTjänsteflickan"><persName ref="#Tjänsteflickan">Tjänsteflickan Alma Jons­<lb break="no"/>son</persName></role>.
         </castItem>
         <castItem>
           <role xml:id="spDejan"><persName ref="#Dejan">Dejan</persName></role>.
@@ -251,11 +245,9 @@
             <lb/> fönstren synas kyrkogården och klockstapeln. Dörr
             <lb/> till höger. Till vänster dombordet i form af en kateder
             <lb/> på en estrad, katedern prydd med förgyllda ornament
-            <lb/> af svärdet och vågskålen. På båda sidor om dom&#xad;<lb
-            break="no"/>bordet, stolar och bord för <persName ref="#Nämnden">nämnden</persName>. Midt på golfvet
+            <lb/> af svärdet och vågskålen. På båda sidor om dom­<lb break="no"/>bordet, stolar och bord för <persName ref="#Nämnden">nämnden</persName>. Midt på golfvet
             <lb/> bänkar för åhörarna. Väggarna bestå af fasta skåp,
-            <lb/> på hvilkas dörrar synas markegångstaxor och kun&#xad;<lb
-            break="no"/>görelser.</p>
+            <lb/> på hvilkas dörrar synas markegångstaxor och kun­<lb break="no"/>görelser.</p>
         </stage>
         <pb facs="6348-5.jpg"/><fw type="pageNum">4</fw>
         <div type="scene" n="1">
@@ -321,8 +313,7 @@
               <lb/> i huset! <persName ref="#LänsmansFru">Min</persName> brukar läsa ett blad som hon får
               <lb/> på herrgårn, och så berättar hon ena dagen som
               <lb/> något ytterst märkvärdigt att <persName ref="#Dalkulla">en dalkulla</persName> har börjat
-              <lb/> på att mura, en annan gång att <persName ref="#Käring">en käring</persName> öfver&#xad;<lb
-              break="no"/>fallit och slagit <persName ref="#KäringsMan">sin sjuka man</persName>. Jag vet inte hvad
+              <lb/> på att mura, en annan gång att <persName ref="#Käring">en käring</persName> öfver­<lb break="no"/>fallit och slagit <persName ref="#KäringsMan">sin sjuka man</persName>. Jag vet inte hvad
               <lb/> det går ut på alltihop, men hon tycks vara arg
               <lb/> på mig för att jag är karl!</p>
           </sp>
@@ -395,10 +386,8 @@
           </sp>
           <sp who="#spBaronen">
             <speaker>Baronen.</speaker>
-            <p>Bra! Vidare: Du behåller <persName ref="#Barnet">barnet</persName> under skill&#xad;<lb
-              break="no"/>nadsåret, med villkor att det får besöka mig, när
-              <lb/> jag behagar, och att det uppfostras efter de prin&#xad;<lb
-              break="no"/>ciper jag uppställt, och hvilka du godkänt?</p>
+            <p>Bra! Vidare: Du behåller <persName ref="#Barnet">barnet</persName> under skill­<lb break="no"/>nadsåret, med villkor att det får besöka mig, när
+              <lb/> jag behagar, och att det uppfostras efter de prin­<lb break="no"/>ciper jag uppställt, och hvilka du godkänt?</p>
           </sp>
           <sp who="#spFriherrinnan">
             <speaker>Friherrinnan.</speaker>
@@ -421,7 +410,7 @@
               <lb/> får ingen veta det. Men jag besvär dig också
               <lb/> för hans skull: upptag ingen strid, så att vi retas
               <lb/> att smutsa <persName ref="#Baronen #Friherrinnan">hans föräldrars</persName> namn. Det händer nog
-              <pb facs="6348-9.jpg"/><fw type="pageNum" >8</fw>
+              <pb facs="6348-9.jpg"/><fw type="pageNum">8</fw>
               ändå att han ute i det grymma lifvet får umgälla
               <lb/> detta att <persName ref="#Baronen #Friherrinnan">hans föräldrar</persName> äro skilda.</p>
           </sp>
@@ -465,8 +454,7 @@
           <sp who="#spBaronen">
             <speaker>Baronen.</speaker>
             <p>Det behöfver du heller inte, då vi ju beslutat
-              <lb/> att ej jäfva hvarandra. Vi ha aldrig kommit öfver&#xad;<lb
-              break="no"/>ens förr, men i denna enda punkt äro vi ju sams:
+              <lb/> att ej jäfva hvarandra. Vi ha aldrig kommit öfver­<lb break="no"/>ens förr, men i denna enda punkt äro vi ju sams:
               <lb/> att vi skola skiljas utan osämja! <stage>(Till <persName ref="#Länsman">länsman</persName>.)</stage> Är
               <pb facs="6348-10.jpg"/><fw type="pageNum">9</fw>
               det tillåtet för <persName ref="#Friherrinnan">friherrinnan</persName> att vänta där inne i
@@ -486,11 +474,9 @@
           <sp who="#spAdvokaten">
             <speaker>Advokaten</speaker> <stage>(till <persName ref="#Tjänsteflickan">tjänsteflickan</persName>).</stage>
             <p>Ser du, <persName ref="#Tjänsteflickan">min vän</persName>: att du har stulit, det betviflar
-              <lb/> jag inte ett ögonblick, men alldenstund <persName ref="#Alexandersson">din hus&#xad;<lb
-              break="no"/>bonde</persName> inte har vittnen på det, så är du oskyldig.
+              <lb/> jag inte ett ögonblick, men alldenstund <persName ref="#Alexandersson">din hus­<lb break="no"/>bonde</persName> inte har vittnen på det, så är du oskyldig.
               <lb/> Men efter som <persName ref="#Alexandersson">din husbonde</persName> kallat dig tjuf, i <persName ref="#Dejan #Tröskaren">två
-              <lb/> vittnens</persName> närvaro, så är han skyldig till ärekränk&#xad;<lb
-              break="no"/>ning. Och nu är du kärande och han svarande.
+              <lb/> vittnens</persName> närvaro, så är han skyldig till ärekränk­<lb break="no"/>ning. Och nu är du kärande och han svarande.
               <lb/> Kom nu ihåg denna regel: en brottslings första
               <lb/> plikt är: att bestrida.</p>
           </sp>
@@ -502,8 +488,7 @@
           <sp who="#spAdvokaten">
             <speaker>Advokaten.</speaker>
             <p>Du är brottslig eftersom du har stulit, men
-              <lb/> eftersom du begärt advokat, så är det min oaf&#xad;<lb
-              break="no"/>viseliga plikt att rentvå dig och få <persName ref="#Alexandersson">din husbonde</persName>
+              <lb/> eftersom du begärt advokat, så är det min oaf­<lb break="no"/>viseliga plikt att rentvå dig och få <persName ref="#Alexandersson">din husbonde</persName>
               <lb/> fälld. Därför, och sista gången: bestrid! <stage>(Till
               <lb/> <persName ref="#Dejan #Tröskaren">vittnena</persName>.)</stage> Och <persName ref="#Dejan #Tröskaren">vittnena</persName>, hvad de skola vittna? Hör
               <lb/> på: ett godt vittne skall hålla sig till saken. Märken
@@ -542,8 +527,7 @@
             <p>Jo, som ni vet är detta mitt första ting. Jag
               <lb/> har egentligen haft fruktan för denna bana på
               <lb/> hvilken jag nästan mot min vilja blifvit inkastad.
-              <lb/> Ty dels äro lagarna så bristfälliga, rättegångs&#xad;<lb
-              break="no"/>väsendet så osäkert och den mänskliga naturen
+              <lb/> Ty dels äro lagarna så bristfälliga, rättegångs­<lb break="no"/>väsendet så osäkert och den mänskliga naturen
               <lb/> så full af osanning och förställning, att jag mången
               <lb/> gång undrat hur en domare kan ha mod att uttala
               <lb/> en bestämd mening. Och i dag har ni väckt mina
@@ -572,15 +556,12 @@
           <sp who="#spPastorn">
             <speaker>Pastorn.</speaker>
             <p>Det vill säga: <persName ref="#Häradshöfdingen">häradshöfdingen</persName> vill göra mig
-              <lb/> till domare, eller ställa sin dom på mitt vittnes&#xad;<lb
-              break="no"/>mål. Däremot måste jag endast hänvisa till <orgName ref="#Kyrkorådet">kyrko&#xad;<lb
-              break="no"/>rådets</orgName> protokoll.</p>
+              <lb/> till domare, eller ställa sin dom på mitt vittnes­<lb break="no"/>mål. Däremot måste jag endast hänvisa till <orgName ref="#Kyrkorådet">kyrko­<lb break="no"/>rådets</orgName> protokoll.</p>
           </sp>
           <sp who="#spHäradshöfdingen">
             <speaker>Häradshöfdingen.</speaker>
             <p>Ja, protokollen, dem känner jag. Men det
-              <lb/> är just hvad som inte står i protokollen jag be&#xad;<lb
-              break="no"/>höfver få reda på.</p>
+              <lb/> är just hvad som inte står i protokollen jag be­<lb break="no"/>höfver få reda på.</p>
           </sp>
           <sp who="#spPastorn">
             <speaker>Pastorn.</speaker>
@@ -622,10 +603,8 @@
           <sp who="#spPastorn">
             <speaker>Pastorn.</speaker>
             <p>Nej, <persName ref="#Baronen #Friherrinnan">makarna</persName> anklaga icke hvarandra offentligt.
-              <lb/> Och för öfrigt: två falska vittnen äro full bevis&#xad;<lb
-              break="no"/>ning, och en menedare är lika god. Tror ni att
-              <lb/> jag skulle bygga dom på pigors skvaller, afund&#xad;<lb
-              break="no"/>sjuka grannars prat, eller <persName ref="#BaronensMor #FriherrinnansMor">partiska släktingars</persName> hämnd!</p>
+              <lb/> Och för öfrigt: två falska vittnen äro full bevis­<lb break="no"/>ning, och en menedare är lika god. Tror ni att
+              <lb/> jag skulle bygga dom på pigors skvaller, afund­<lb break="no"/>sjuka grannars prat, eller <persName ref="#BaronensMor #FriherrinnansMor">partiska släktingars</persName> hämnd!</p>
           </sp>
           <sp who="#spHäradshöfdingen">
             <speaker>Häradshöfdingen.</speaker>
@@ -673,13 +652,11 @@
         <pb facs="6348-15.jpg"/><fw type="pageNum">14</fw>
         <div type="scene" n="5">
           <head>Femte scenen.</head>
-          <stage type="presence" who="#Advokaten #Dejan #Fjärdingsman #Häradshöfdingen #Länsman #Notarien #Nämnden #Tjänsteflickan #Tröskaren">DE FÖRRA. DE TOLF NÄMNDEMÄNNEN. LÄNS&#xad;<lb
-            break="no"/>MANNEN  <stage rend="italic">(ringer i en klocka i öppna fonddörren.
+          <stage type="presence" who="#Advokaten #Dejan #Fjärdingsman #Häradshöfdingen #Länsman #Notarien #Nämnden #Tjänsteflickan #Tröskaren">DE FÖRRA. DE TOLF NÄMNDEMÄNNEN. LÄNS­<lb break="no"/>MANNEN  <stage rend="italic">(ringer i en klocka i öppna fonddörren.
             <lb/> <persName ref="#Häradshöfdingen #Nämnden"><orgName ref="#Häradsrätten">Rättens</orgName> ledamöter</persName> taga plats; <stage type="entrance" who="#Folk">folk strömmar in</stage>.)</stage></stage>
           <sp who="#spHäradshöfdingen">
             <speaker>Häradshöfdingen.</speaker>
-            <p>Erinrande om <title>strafflagens</title> bestämmelser röran&#xad;<lb
-              break="no"/>de tingsfrid i dess elfte kapitel, femte, sjette och
+            <p>Erinrande om <title>strafflagens</title> bestämmelser röran­<lb break="no"/>de tingsfrid i dess elfte kapitel, femte, sjette och
               <lb/> åttonde paragrafer, förklarar jag härmed <orgName ref="#Häradsrätten">rättens</orgName>
               <lb/> förhandlingar öppnade. <stage>(Sakta till <persName ref="#Notarien">notarien</persName>; därpå:)</stage>
               <lb/> Behagar <persName ref="#Nämnden">den nyvalda nämnden</persName> aflägga ed.</p>
@@ -722,8 +699,7 @@
           </sp>
           <sp who="#spHäradshöfdingen">
             <speaker>Häradshöfdingen</speaker> <stage>(till <persName ref="#Länsman">länsman</persName>).</stage>
-            <p>Ropa på målet <persName ref="#Tjänsteflickan">Alma Jonsson</persName> mot hemmans&#xad;<lb
-              break="no"/>ägaren <persName ref="#Alexandersson">Alexandersson</persName>.</p>
+            <p>Ropa på målet <persName ref="#Tjänsteflickan">Alma Jonsson</persName> mot hemmans­<lb break="no"/>ägaren <persName ref="#Alexandersson">Alexandersson</persName>.</p>
           </sp>
         </div>
         <div type="scene" n="6">
@@ -732,8 +708,7 @@
             <lb/> TJÄNSTEFLICKAN. DEJAN. TRÖSKAREN.</stage>
           <sp who="#spLänsman">
             <speaker>Länsman</speaker> <stage>(ropar upp).</stage>
-            <p><persName ref="#Tjänsteflickan">Tjänsteflickan Alma Jonsson</persName> mot <persName ref="#Alexandersson">hemmans&#xad;<lb
-              break="no"/>ägaren Alexandersson</persName>.</p>
+            <p><persName ref="#Tjänsteflickan">Tjänsteflickan Alma Jonsson</persName> mot <persName ref="#Alexandersson">hemmans­<lb break="no"/>ägaren Alexandersson</persName>.</p>
           </sp>
           <sp who="#spAdvokaten">
             <speaker>Advokaten.</speaker>
@@ -791,26 +766,20 @@
             <speaker>Advokaten.</speaker>
             <p>Tyst du! <persName ref="#Tjänsteflickan">Alma Jonsson</persName>, som i detta mål
               <lb/> icke är svarande, utan kärande, ber att få sina
-              <lb/> vittnen hörda, för att <persName ref="#Alexandersson">Alexanderssons</persName> ärekränk&#xad;<lb
-              break="no"/>ning må ledas i bevis!</p>
+              <lb/> vittnen hörda, för att <persName ref="#Alexandersson">Alexanderssons</persName> ärekränk­<lb break="no"/>ning må ledas i bevis!</p>
           </sp>
           <pb facs="6348-18.jpg"/><fw type="pageNum">17</fw>
           <sp who="#spHäradshöfdingen">
             <speaker>Häradshöfdingen.</speaker>
-            <p>När <persName ref="#Alexandersson">Alexandersson</persName> har påtagit sig ärekränk&#xad;<lb
-              break="no"/>ningen, fordrar jag inga vittnen. Däremot är det
-              <lb/> af vikt för mig att veta om <persName ref="#Tjänsteflickan">Alma Jonsson</persName> är skyl&#xad;<lb
-              break="no"/>dig till förseelsen, ty har <persName ref="#Alexandersson">Alexandersson</persName> haft sanno&#xad;<lb
-              break="no"/>lika skäl för sitt uttalande, inverkar detta på domens
+            <p>När <persName ref="#Alexandersson">Alexandersson</persName> har påtagit sig ärekränk­<lb break="no"/>ningen, fordrar jag inga vittnen. Däremot är det
+              <lb/> af vikt för mig att veta om <persName ref="#Tjänsteflickan">Alma Jonsson</persName> är skyl­<lb break="no"/>dig till förseelsen, ty har <persName ref="#Alexandersson">Alexandersson</persName> haft sanno­<lb break="no"/>lika skäl för sitt uttalande, inverkar detta på domens
               <lb/> mildrande.</p>
           </sp>
           <sp who="#spAdvokaten">
             <speaker>Advokaten.</speaker>
-            <p>Jag ber att få bestrida detta <persName ref="#Häradshöfdingen">domarens</persName> på&#xad;<lb
-              break="no"/>stående i kraft af <title>Strafflagens</title> sextonde kapitel,
+            <p>Jag ber att få bestrida detta <persName ref="#Häradshöfdingen">domarens</persName> på­<lb break="no"/>stående i kraft af <title>Strafflagens</title> sextonde kapitel,
               <lb/> trettonde paragraf, däri den som för ärekränkning
-              <lb/> tilltalas ej tillåtes framställa bevisning om san&#xad;<lb
-              break="no"/>ningen af sitt tillmäle.</p>
+              <lb/> tilltalas ej tillåtes framställa bevisning om san­<lb break="no"/>ningen af sitt tillmäle.</p>
           </sp>
           <sp who="#spHäradshöfdingen">
             <speaker>Häradshöfdingen.</speaker>
@@ -854,15 +823,13 @@
           </sp>
           <sp who="#spHäradshöfdingen">
             <speaker>Häradshöfdingen.</speaker>
-            <p>Och ändå kan jag icke finna anledning upp&#xad;<lb
-              break="no"/>skjuta målet, då saken är klar och <persName ref="#Alexandersson">Alexandersson</persName>
+            <p>Och ändå kan jag icke finna anledning upp­<lb break="no"/>skjuta målet, då saken är klar och <persName ref="#Alexandersson">Alexandersson</persName>
               <lb/> ingenting får bevisa. Är det någon som har något
               <lb/> att tillägga eller invända?</p>
           </sp>
           <sp who="#spAlexanderEklund">
             <speaker>Alexander Eklund.</speaker>
-            <p>Jag vill endast tillåta mig en allmän betrak&#xad;<lb
-              break="no"/>telse: ett mål som detta, där <persName ref="#Alexandersson">den icke allenast
+            <p>Jag vill endast tillåta mig en allmän betrak­<lb break="no"/>telse: ett mål som detta, där <persName ref="#Alexandersson">den icke allenast
               <lb/> oskyldige, utan förfördelade</persName> får ta straffet, och
               <lb/> <persName ref="#Tjänsteflickan">tjufven</persName> blir upprättad, till sin så kallade ära, kan
               <lb/> lätt leda till de följder, att människor bli mindre
@@ -871,8 +838,7 @@
           </sp>
           <sp who="#spHäradshöfdingen">
             <speaker>Häradshöfdingen.</speaker>
-            <p>Detta är mycket möjligt, men allmänna be&#xad;<lb
-              break="no"/>traktelser tillhöra icke protokollen, och dom måste
+            <p>Detta är mycket möjligt, men allmänna be­<lb break="no"/>traktelser tillhöra icke protokollen, och dom måste
               <lb/> fällas. Jag frågar därför endast <persName ref="#Nämnden">nämnden</persName> om
               <lb/> <persName ref="#Alexandersson">Alexandersson</persName> kan anses skyldig enligt <title>Strafflagens</title>
               <lb/> sextonde kapitel, trettonde paragraf?</p>
@@ -892,8 +858,7 @@
           <stage type="presence" who="#Fjärdingsman #Häradshöfdingen #Länsman #Notarien #Nämnden"><stage type="entrance" who="#Advokaten #Alexandersson #Dejan #Folk #Tjänsteflickan #Tröskaren">ALLA in.</stage></stage>
           <sp who="#spHäradshöfdingen">
             <speaker>Häradshöfdingen.</speaker>
-            <p>I målet mellan <persName ref="#Tjänsteflickan">Alma Jonsson</persName> och <persName ref="#Alexandersson">hemmans&#xad;<lb
-              break="no"/>ägaren <persName ref="#Alexandersson">Alexandersson</persName></persName>, dömes <persName ref="#Alexandersson">Alexandersson</persName> för
+            <p>I målet mellan <persName ref="#Tjänsteflickan">Alma Jonsson</persName> och <persName ref="#Alexandersson">hemmans­<lb break="no"/>ägaren <persName ref="#Alexandersson">Alexandersson</persName></persName>, dömes <persName ref="#Alexandersson">Alexandersson</persName> för
               <lb/> ärekränkning till hundra kronors böter.</p>
           </sp>
           <sp who="#spAlexandersson">
@@ -958,8 +923,7 @@
           <sp who="#spHäradshöfdingen">
             <speaker>Häradshöfdingen.</speaker>
             <p>I uttagen stämning mot <persName ref="#Friherrinnan">sin maka</persName>, har <persName ref="#Baronen">baron
-              <lb/> Sprengel</persName> förklarat att han icke vidare ämnar fort&#xad;<lb
-              break="no"/>sätta äktenskapet, och anhåller att, då <orgName ref="#Kyrkorådet">kyrkorådets</orgName>
+              <lb/> Sprengel</persName> förklarat att han icke vidare ämnar fort­<lb break="no"/>sätta äktenskapet, och anhåller att, då <orgName ref="#Kyrkorådet">kyrkorådets</orgName>
               <lb/> varningar visat sig fruktlösa, bli dömd till ett års
               <lb/> skillnad i säng och säte. Hvad har <persName ref="#Friherrinnan">friherrinnan</persName>
               <lb/> att invända häremot?</p>
@@ -983,11 +947,8 @@
             <speaker>Häradshöfdingen.</speaker>
             <p>Och det är därför af stor vikt för <persName ref="#Häradshöfdingen">domaren</persName>
               <lb/> att få veta hvem som vållat oenigheten, hvarpå
-              <lb/> skilsmässan är grundad. Enligt vidfogadt kyrko&#xad;<lb
-              break="no"/>rådsprotokoll synes att <persName ref="#Friherrinnan">hustrun</persName> påtagit sig, att hon
-              <lb/> stundom haft ett stridigt och svårt lynne, hvar&#xad;<lb
-              break="no"/>emot <persName ref="#Baronen">mannen</persName> icke vidgått någon skuld. <persName ref="#Friherrinnan">Friherr&#xad;<lb
-              break="no"/>innan</persName> synes således ha erkänt ...</p>
+              <lb/> skilsmässan är grundad. Enligt vidfogadt kyrko­<lb break="no"/>rådsprotokoll synes att <persName ref="#Friherrinnan">hustrun</persName> påtagit sig, att hon
+              <lb/> stundom haft ett stridigt och svårt lynne, hvar­<lb break="no"/>emot <persName ref="#Baronen">mannen</persName> icke vidgått någon skuld. <persName ref="#Friherrinnan">Friherr­<lb break="no"/>innan</persName> synes således ha erkänt ...</p>
           </sp>
           <sp who="#spFriherrinnan">
             <speaker>Friherrinnan.</speaker>
@@ -995,8 +956,7 @@
           </sp>
           <sp who="#spHäradshöfdingen">
             <speaker>Häradshöfdingen.</speaker>
-            <p>Jag har svårt att antaga det <orgName ref="#Kyrkorådet">kyrkorådets</orgName> pro&#xad;<lb
-              break="no"/>tokoll, bevittnadt af <persName ref="#Pastorn">kyrkoherden</persName> och <persName ref="#ÅttaMän">åtta andra
+            <p>Jag har svårt att antaga det <orgName ref="#Kyrkorådet">kyrkorådets</orgName> pro­<lb break="no"/>tokoll, bevittnadt af <persName ref="#Pastorn">kyrkoherden</persName> och <persName ref="#ÅttaMän">åtta andra
               <lb/> trovärdiga män</persName>, skulle vara oriktigt.</p>
           </sp>
           <sp who="#spFriherrinnan">
@@ -1010,8 +970,7 @@
           </sp>
           <sp who="#spBaronen">
             <speaker>Baronen.</speaker>
-            <p>Jag skall be att få observeradt det jag god&#xad;<lb
-              break="no"/>villigt afstått <persName ref="#Barnet">barnet</persName> till <persName ref="#Friherrinnan">friherrinnan</persName> under vissa
+            <p>Jag skall be att få observeradt det jag god­<lb break="no"/>villigt afstått <persName ref="#Barnet">barnet</persName> till <persName ref="#Friherrinnan">friherrinnan</persName> under vissa
               <lb/> villkor.</p>
           </sp>
           <sp who="#spHäradshöfdingen">
@@ -1050,8 +1009,7 @@
           <sp who="#spHäradshöfdingen">
             <speaker>Häradshöfdingen.</speaker>
             <p>Målet är redan handlagdt och måste fullföljas!
-              <lb/> — <persName ref="#Friherrinnan">Friherrinnan</persName> påstår således att <persName ref="#Baronen">mannen</persName> är vål&#xad;<lb
-              break="no"/>lande till skilsmässan. Kan det bevisas?</p>
+              <lb/> — <persName ref="#Friherrinnan">Friherrinnan</persName> påstår således att <persName ref="#Baronen">mannen</persName> är vål­<lb break="no"/>lande till skilsmässan. Kan det bevisas?</p>
           </sp>
           <sp who="#spFriherrinnan">
             <speaker>Friherrinnan.</speaker>
@@ -1072,9 +1030,8 @@
             <speaker>Baronen.</speaker>
             <p>Jag nödgas härtill upplysa att jag aldrig nekat
               <lb/> <persName ref="#Friherrinnan">friherrinnan</persName> sömn; jag har endast bedt henne icke
-              <lb/> sofva till middagen, emedan huset därigenom van&#xad;<lb
-              break="no"/>sköttes och <persName ref="#Barnet">barnet</persName> lämnades utan tillsyn. Hvad
-              <pb facs="6348-24.jpg"/><fw type="pageNum" >23</fw>
+              <lb/> sofva till middagen, emedan huset därigenom van­<lb break="no"/>sköttes och <persName ref="#Barnet">barnet</persName> lämnades utan tillsyn. Hvad
+              <pb facs="6348-24.jpg"/><fw type="pageNum">23</fw>
               födan beträffar, har jag alltid låtit <persName ref="#Friherrinnan">frun i huset</persName>
               <lb/> bestämma därom, och jag har endast afstyrkt ett
               <lb/> par öfverflödiga kalas, då det vanskötta hushållet
@@ -1099,8 +1056,7 @@
           <sp who="#spHäradshöfdingen">
             <speaker>Häradshöfdingen.</speaker>
             <p>Allt detta är icke af den natur att det kan
-              <lb/> tagas i betraktande vid dömandet af ett så allvar&#xad;<lb
-              break="no"/>ligt mål. Det måste finnas djupare motiv.</p>
+              <lb/> tagas i betraktande vid dömandet af ett så allvar­<lb break="no"/>ligt mål. Det måste finnas djupare motiv.</p>
           </sp>
           <sp who="#spFriherrinnan">
             <speaker>Friherrinnan.</speaker>
@@ -1114,8 +1070,7 @@
               <lb/> sköta <persName ref="#Barnet">barnet</persName>, och där hon själf lagt hand vid
               <lb/> vården, har det alltid varit galet; för det andra
               <lb/> har hon velat utbilda <persName ref="#Barnet">gossen</persName> till kvinna i stället
-              <lb/> för till man; sålunda lät hon honom gå i flick&#xad;<lb
-              break="no"/>kläder tills han var fyra år; och än i dag vid åtta
+              <lb/> för till man; sålunda lät hon honom gå i flick­<lb break="no"/>kläder tills han var fyra år; och än i dag vid åtta
               <pb facs="6348-25.jpg"/><fw type="pageNum">24</fw>
               års ålder går han med långt hår som en flicka,
               <lb/> tvingas att sy och virka, samt leker med dockor,
@@ -1143,8 +1098,7 @@
               <lb/> villkorligt, och under förutsättning att lagen icke
               <lb/> befattade sig med ämnet; men eftersom vi kommit
               <lb/> in på anklagelsernas område har jag ändrat beslut,
-              <lb/> i synnerhet som jag ifrån kärande har blifvit sva&#xad;<lb
-              break="no"/>rande.</p>
+              <lb/> i synnerhet som jag ifrån kärande har blifvit sva­<lb break="no"/>rande.</p>
           </sp>
           <sp who="#spFriherrinnan">
             <speaker>Friherrinnan.</speaker>
@@ -1152,8 +1106,7 @@
           </sp>
           <sp who="#spBaronen">
             <speaker>Baronen.</speaker>
-            <p>Mina löften ha som andras alltid varit vill&#xad;<lb
-              break="no"/>korliga, och så länge villkoren uppfyllts, har jag
+            <p>Mina löften ha som andras alltid varit vill­<lb break="no"/>korliga, och så länge villkoren uppfyllts, har jag
               <lb/> hållit lofven.</p>
           </sp>
           <sp who="#spFriherrinnan">
@@ -1164,15 +1117,13 @@
           <pb facs="6348-26.jpg"/><fw type="pageNum">25</fw>
           <sp who="#spBaronen">
             <speaker>Baronen.</speaker>
-            <p>Naturligtvis under förutsättning att anständig&#xad;<lb
-              break="no"/>hetens lagar icke kränktes, men när alla gränser
+            <p>Naturligtvis under förutsättning att anständig­<lb break="no"/>hetens lagar icke kränktes, men när alla gränser
               <lb/> öfverskredos och under frihet insmugits begreppet
               <lb/> själfsvåld, ansåg jag mitt löfte kringgånget.</p>
           </sp>
           <sp who="#spFriherrinnan">
             <speaker>Friherrinnan.</speaker>
-            <p>Och därför pinade han mig med den orim&#xad;<lb
-              break="no"/>ligaste svartsjuka, som brukar vara nog för att
+            <p>Och därför pinade han mig med den orim­<lb break="no"/>ligaste svartsjuka, som brukar vara nog för att
               <lb/> göra en samlefnad olidlig. Han var till och med
               <lb/> nog löjlig att vara svartsjuk på <persName ref="#Läkaren">läkaren</persName>.</p>
           </sp>
@@ -1180,15 +1131,13 @@
             <speaker>Baronen.</speaker>
             <p>Den svartsjukan upplöste sig i att jag afrådde
               <lb/> från att begagna <persName ref="#Läkaren">en ökänd och pratsjuk massör</persName>
-              <lb/> för en krämpa som brukade behandlas af ett frun&#xad;<lb
-              break="no"/>timmer, såvida icke <persName ref="#Friherrinnan">friherrinnan</persName> åsyftar det fallet,
+              <lb/> för en krämpa som brukade behandlas af ett frun­<lb break="no"/>timmer, såvida icke <persName ref="#Friherrinnan">friherrinnan</persName> åsyftar det fallet,
               <lb/> då jag körde ut <persName ref="#Inspektorn">inspektoren</persName> när han rökte i min
               <lb/> salong och bjöd <persName ref="#Friherrinnan">friherrinnan</persName> på cigarrer.</p>
           </sp>
           <sp who="#spFriherrinnan">
             <speaker>Friherrinnan.</speaker>
-            <p>Eftersom vi råkat in på skamlösheternas om&#xad;<lb
-              break="no"/>råde, är det så godt att hela sanningen kommer
+            <p>Eftersom vi råkat in på skamlösheternas om­<lb break="no"/>råde, är det så godt att hela sanningen kommer
               <lb/> fram: <persName ref="#Baronen">baronen</persName> har begått äktenskapsbrott. Är
               <lb/> det nog för att göra honom ovärdig att ensam
               <lb/> uppfostra <persName ref="#Barnet">mitt barn</persName>?</p>
@@ -1212,8 +1161,7 @@
           </sp>
           <sp who="#spHäradshöfdingen">
             <speaker>Häradshöfdingen.</speaker>
-            <p>Tiden för åtals väckande är visserligen för&#xad;<lb
-              break="no"/>suten, men själfva sakförhållandet väger tungt mot
+            <p>Tiden för åtals väckande är visserligen för­<lb break="no"/>suten, men själfva sakförhållandet väger tungt mot
               <lb/> <persName ref="#Baronen">mannen</persName> och kan förorsaka honom <persName ref="#Barnet">barnets</persName> och
               <lb/> giftorättens delvisa förlust. Erkänner <persName ref="#Baronen">baronen</persName>
               <lb/> äktenskapsbrottet?</p>
@@ -1221,10 +1169,8 @@
           <sp who="#spBaronen">
             <speaker>Baronen.</speaker>
             <p>Ja, och med ånger och blygsel, men där funnos
-              <lb/> omständigheter hvilka måste betraktas som för&#xad;<lb
-              break="no"/>mildrande. Jag var tvingad till ett nesligt celibat
-              <lb/> genom <persName ref="#Friherrinnan">friherrinnans</persName> beräknade kallsinnighet, oak&#xad;<lb
-              break="no"/>tadt jag endast höfviskt bad att som en gunst få
+              <lb/> omständigheter hvilka måste betraktas som för­<lb break="no"/>mildrande. Jag var tvingad till ett nesligt celibat
+              <lb/> genom <persName ref="#Friherrinnan">friherrinnans</persName> beräknade kallsinnighet, oak­<lb break="no"/>tadt jag endast höfviskt bad att som en gunst få
               <lb/> vinna hvad lagen tillstäder mig som en rättighet;
               <lb/> jag ledsnade på att köpa hennes kärlek, då hon
               <lb/> infört prostitution i mitt äktenskap och sålde
@@ -1341,8 +1287,7 @@
           </sp>
           <sp who="#spHäradshöfdingen">
             <speaker>Häradshöfdingen.</speaker>
-            <p>Då ni anklagat henne för brott, är hon sva&#xad;<lb
-              break="no"/>rande. Hvad anser <persName ref="#Nämnden">nämnden</persName>?</p>
+            <p>Då ni anklagat henne för brott, är hon sva­<lb break="no"/>rande. Hvad anser <persName ref="#Nämnden">nämnden</persName>?</p>
           </sp>
           <sp who="#spEmanuelWickberg">
             <speaker>Emanuel Wickberg.</speaker>
@@ -1379,8 +1324,7 @@
           <sp who="#spHäradshöfdingen">
             <speaker>Häradshöfdingen.</speaker>
             <p>Af så många olika meningar kan jag icke hafva
-              <lb/> någon ledning. Men då <persName ref="#Baronen">baronens</persName> brott kan be&#xad;<lb
-              break="no"/>visas, och <persName ref="#Friherrinnan">friherrinnans</persName> ännu är obevisadt, måste
+              <lb/> någon ledning. Men då <persName ref="#Baronen">baronens</persName> brott kan be­<lb break="no"/>visas, och <persName ref="#Friherrinnan">friherrinnans</persName> ännu är obevisadt, måste
               <lb/> jag fordra värjemålsed af <persName ref="#Friherrinnan">friherrinnan</persName>.</p>
           </sp>
           <sp who="#spFriherrinnan">
@@ -1390,8 +1334,7 @@
           <sp who="#spHäradshöfdingen">
             <speaker>Häradshöfdingen.</speaker>
             <p>Nej, vänta ett ögonblick! — Kan <persName ref="#Baronen">baronen</persName> icke
-              <lb/> med uppskof framte bevis eller vittnen för sitt på&#xad;<lb
-              break="no"/>stående?</p>
+              <lb/> med uppskof framte bevis eller vittnen för sitt på­<lb break="no"/>stående?</p>
           </sp>
           <sp who="#spBaronen">
             <speaker>Baronen.</speaker>
@@ -1430,8 +1373,7 @@
           </sp>
           <sp who="#spBaronen">
             <speaker>Baronen.</speaker>
-            <p>Brefven äro brända, men de bevittnade af&#xad;<lb
-              break="no"/>skrifterna finnas i behåll.</p>
+            <p>Brefven äro brända, men de bevittnade af­<lb break="no"/>skrifterna finnas i behåll.</p>
           </sp>
           <sp who="#spFriherrinnan">
             <speaker>Friherrinnan.</speaker>
@@ -1462,8 +1404,7 @@
           </sp>
           <sp who="#spBaronen">
             <speaker>Baronen.</speaker>
-            <p>Är det bättre att <persName ref="#Barnet">barnet</persName> förlorar <persName ref="#Baronen #Friherrinnan">båda för&#xad;<lb
-              break="no"/>äldrarna</persName> och står ensamt i världen? ...</p>
+            <p>Är det bättre att <persName ref="#Barnet">barnet</persName> förlorar <persName ref="#Baronen #Friherrinnan">båda för­<lb break="no"/>äldrarna</persName> och står ensamt i världen? ...</p>
           </sp>
           <sp who="#spFriherrinnan">
             <speaker>Friherrinnan.</speaker>
@@ -1475,8 +1416,7 @@
               <lb/> att du står öfver lagar och medmänniskor, har
               <lb/> narrat dig upptaga denna kamp, i hvilken en med
               <lb/> säkerhet blir <persName ref="#Barnet">den förlorande: vår son</persName>! Hvad tänkte
-              <lb/> du på när du började detta anfall, som måste ut&#xad;<lb
-              break="no"/>mana till försvar? Icke var det på <persName ref="#Barnet">barnet</persName>! Det
+              <lb/> du på när du började detta anfall, som måste ut­<lb break="no"/>mana till försvar? Icke var det på <persName ref="#Barnet">barnet</persName>! Det
               <lb/> var på hämnden? Hämnden för hvad? För att
               <lb/> jag kom på ditt brott!</p>
           </sp>
@@ -1563,13 +1503,11 @@
           </sp>
           <sp who="#spFriherrinnan">
             <speaker>Friherrinnan.</speaker>
-            <p>Inte numera! Det är som om vi blifvit in&#xad;<lb
-              break="no"/>dragna i kvarnverket och fått kläderna mellan
+            <p>Inte numera! Det är som om vi blifvit in­<lb break="no"/>dragna i kvarnverket och fått kläderna mellan
               <lb/> hjulen! Och <persName ref="#Folk">alla dessa elaka människor</persName> stå och
               <lb/> se på skrattande! — Hvad ha vi gjort? Hvad ha
               <lb/> vi gjort i vår vrede? Tänk hvad de ska njuta
-              <lb/> <persName ref="#Folk">alla dessa</persName>, som nu se <persName ref="#Baronen">baron</persName> och <persName ref="#Friherrinnan">friherrinnan</persName> af&#xad;<lb
-              break="no"/>klädda, spöande hvarandra. — Å! Jag tycker
+              <lb/> <persName ref="#Folk">alla dessa</persName>, som nu se <persName ref="#Baronen">baron</persName> och <persName ref="#Friherrinnan">friherrinnan</persName> af­<lb break="no"/>klädda, spöande hvarandra. — Å! Jag tycker
               <lb/> att jag står naken här. <stage>(Hon knäpper igen sin kappa.)</stage></p>
           </sp>
           <sp who="#spBaronen">
@@ -1580,7 +1518,7 @@
               <lb/> igen! — — Gud vete! Nej, det kan vi inte. Det
               <lb/> har gått för långt. Det är slut! Och detta sista,
               <lb/> ja, må det vara det sista! Och det måste följa
-              <pb facs="6348-35.jpg"/><fw type="pageNum" >34</fw>
+              <pb facs="6348-35.jpg"/><fw type="pageNum">34</fw>
               på det andra! — Nej, vi äro fiender för lifvet!
               <lb/> Och släpper jag dig nu med <persName ref="#Barnet">barnet</persName>, så kan du
               <lb/> gifta om dig — jag ser det nu; och då kan <persName ref="#Barnet">mitt
@@ -1620,7 +1558,7 @@
               <lb/> vara båda, ty du är den sannaste kvinna jag sett!
               <lb/> Och du är redan svartsjuk på min opåtänkta
               <lb/> hustru. Hvilken skada att du blef min maka! Som
-              <pb facs="6348-36.jpg"/><fw type="pageNum" >35</fw>
+              <pb facs="6348-36.jpg"/><fw type="pageNum">35</fw>
               min älskarinna skulle du haft en obestridd seger,
               <lb/> och dina otroheter skulle endast ha varit bouquet’n
               <lb/> på mitt unga vin.</p>
@@ -1656,8 +1594,7 @@
           </sp>
           <sp who="#spBaronen">
             <speaker>Baronen.</speaker>
-            <p>Ja, nu och alltid! Och vet du hvarför? Där&#xad;<lb
-              break="no"/>för att han är vår kärlek som tagit kropp. Han
+            <p>Ja, nu och alltid! Och vet du hvarför? Där­<lb break="no"/>för att han är vår kärlek som tagit kropp. Han
               <lb/> är minnet af våra sköna stunder, bandet som
               <lb/> knyter våra själar, mötesplatsen där vi alltid råkas
               <lb/> utan att vilja det. Och det är därför vi aldrig
@@ -1678,9 +1615,7 @@
               <lb/> synes mig som om lagarna vore ett par sekel
               <lb/> efter rättsbegreppen. Fick jag inte döma <persName ref="#Alexandersson">den
               <lb/> oskyldige Alexandersson</persName> till straff och gifva äran
-              <lb/> åt <persName ref="#Tjänsteflickan">den till stöld skyldiga pigan</persName>! Hvad detta skill&#xad;<lb
-              break="no"/>nadsmålet angår, så vet jag i denna stund ingen&#xad;<lb
-              break="no"/>ting, och jag har ej samvete att fälla dom.</p>
+              <lb/> åt <persName ref="#Tjänsteflickan">den till stöld skyldiga pigan</persName>! Hvad detta skill­<lb break="no"/>nadsmålet angår, så vet jag i denna stund ingen­<lb break="no"/>ting, och jag har ej samvete att fälla dom.</p>
           </sp>
           <sp who="#spPastorn">
             <speaker>Pastorn.</speaker>
@@ -1706,13 +1641,11 @@
             <p>Det är ett sätt, och jag tror att de skola bli
               <lb/> ganska eniga mot mig, ty jag har en opinion i
               <pb facs="6348-38.jpg"/><fw type="pageNum">37</fw>
-              denna sak, ehuru jag fått den på känsel och där&#xad;<lb
-              break="no"/>för icke vågar lita på den — — Tack för rådet!</p>
+              denna sak, ehuru jag fått den på känsel och där­<lb break="no"/>för icke vågar lita på den — — Tack för rådet!</p>
           </sp>
           <sp who="#spLänsman">
               <speaker>Länsman.</speaker>
-              <stage rend="centered">(som talat vid <persName ref="#Alexandersson">Alexandersson</persName>, framträder till <persName  ref="#Häradshöfdingen">härads&#xad;<lb
-                break="no"/>höfdingen</persName>).</stage>
+              <stage rend="centered">(som talat vid <persName ref="#Alexandersson">Alexandersson</persName>, framträder till <persName ref="#Häradshöfdingen">härads­<lb break="no"/>höfdingen</persName>).</stage>
             <p>I egenskap af allmän åklagare ber jag att få
               <lb/> anmäla <persName ref="#Alexandersson">hemmansägaren Alexandersson</persName> som vittne
               <lb/> emot <persName ref="#Friherrinnan">friherrinnan Sprengel</persName>.</p>
@@ -1775,8 +1708,7 @@
             <p><orgName ref="#Häradsrätten">Rättens</orgName> förhandlingar upptagas ånyo! — — —
               <lb/> Enligt anmälan af <persName ref="#Länsman">allmänna åklagaren, länsman
               <lb/> Viberg</persName>, har ett vittne framträdt emot <persName ref="#Friherrinnan">friherrinnan</persName>,
-              <lb/> och hvilket bekräftar hennes äktenskapsbrott. <persName ref="#Alexandersson">Hem&#xad;<lb
-              break="no"/>mansägaren Alexandersson</persName>!</p>
+              <lb/> och hvilket bekräftar hennes äktenskapsbrott. <persName ref="#Alexandersson">Hem­<lb break="no"/>mansägaren Alexandersson</persName>!</p>
           </sp>
           <sp who="#spAlexandersson">
             <speaker>Alexandersson.</speaker>
@@ -1818,8 +1750,7 @@
             <speaker>Baronen.</speaker>
             <p><persName ref="#Alexandersson">Alexanderssons</persName> vittnesmål är öfverflödigt. Jag
               <lb/> skall be att få öfverlämna till <persName ref="#Häradshöfdingen">domaren</persName> hela den
-              <lb/> korrespondens som ger full bevisning på <persName ref="#Friherrinnan">friherr&#xad;<lb
-              break="no"/>innans</persName> äktenskapsbrott. — Här äro originalen;
+              <lb/> korrespondens som ger full bevisning på <persName ref="#Friherrinnan">friherr­<lb break="no"/>innans</persName> äktenskapsbrott. — Här äro originalen;
               <lb/> kopian finnes hos <persName ref="#Friherrinnan">svaranden</persName>.</p>
           </sp>
           <stage>(<persName ref="#Friherrinnan">Friherrinnan</persName> skriker till, men hämtar sig.)</stage>
@@ -1839,8 +1770,7 @@
           </sp>
           <sp who="#spFriherrinnan">
             <speaker>Friherrinnan.</speaker>
-            <p>Då skall jag på samma gång be att få lag&#xad;<lb
-              break="no"/>faren min fordran på <persName ref="#Baronen">baronen</persName> för min hemgift,
+            <p>Då skall jag på samma gång be att få lag­<lb break="no"/>faren min fordran på <persName ref="#Baronen">baronen</persName> för min hemgift,
               <lb/> som han förstört.</p>
           </sp>
           <sp who="#spHäradshöfdingen">
@@ -1853,18 +1783,14 @@
             <speaker>Baronen.</speaker>
             <p><persName ref="#Friherrinnan">Friherrinnan</persName> medförde vid giftet sex tusen
               <lb/> kronor i aktier, som voro osäljbara och blefvo
-              <lb/> värdelösa. Som hon vid giftermålet hade anställ&#xad;<lb
-              break="no"/>ning som telegrafist, och förklarade att hon icke
-              <lb/> ville bli försörjd af <persName ref="#Baronen">sin man</persName>, ingingo vi äktenskaps&#xad;<lb
-              break="no"/>förord, under öfverenskommelse att hvar och en
-              <lb/> skulle försörja sig själf. Men efter giftermålet för&#xad;<lb
-              break="no"/>lorade hon sin plats, och sedan har jag försörjt
+              <lb/> värdelösa. Som hon vid giftermålet hade anställ­<lb break="no"/>ning som telegrafist, och förklarade att hon icke
+              <lb/> ville bli försörjd af <persName ref="#Baronen">sin man</persName>, ingingo vi äktenskaps­<lb break="no"/>förord, under öfverenskommelse att hvar och en
+              <lb/> skulle försörja sig själf. Men efter giftermålet för­<lb break="no"/>lorade hon sin plats, och sedan har jag försörjt
               <lb/> henne. Därpå har jag icke haft något att tala,
               <lb/> men eftersom hon nu kommer med räkningen,
               <lb/> skall jag be att få presentera min moträkning!
               <lb/> Den slutar på trettiofem tusen kronor, utgörande
-              <lb/> tredjedelen af husets kostnader under vårt äkten&#xad;<lb
-              break="no"/>skap, då jag således ikläder mig två tredjedelar.</p>
+              <lb/> tredjedelen af husets kostnader under vårt äkten­<lb break="no"/>skap, då jag således ikläder mig två tredjedelar.</p>
           </sp>
           <sp who="#spHäradshöfdingen">
             <speaker>Häradshöfdingen.</speaker>
@@ -1895,7 +1821,7 @@
         <pb facs="6348-42.jpg"/><fw type="pageNum">41</fw>
         <div type="scene" n="13">
           <head>Trettonde scenen.</head>
-          <stage type="presence" who="#Alexandersson #Baronen #Fjärdingsman #Folk #Friherrinnan #Häradshöfdingen #Länsman #Notarien #Nämnden #Pastorn">NÄMNDEN och HÄRADSHÖFDINGEN <stage type="exit" who="#Häradshöfdingen #Notarien #Nämnden" rend="italic">(gå till höger)</stage>.<stage type="exit" who="#Folk" cert="medium"></stage></stage>
+          <stage type="presence" who="#Alexandersson #Baronen #Fjärdingsman #Folk #Friherrinnan #Häradshöfdingen #Länsman #Notarien #Nämnden #Pastorn">NÄMNDEN och HÄRADSHÖFDINGEN <stage type="exit" who="#Häradshöfdingen #Notarien #Nämnden" rend="italic">(gå till höger)</stage>.<stage type="exit" who="#Folk" cert="medium"/></stage>
           <sp who="#spAlexandersson">
             <speaker>Alexandersson</speaker> <stage>(till <persName ref="#Länsman">länsman</persName>).</stage>
             <p>Den här rättvisan blir jag inte klok på!</p>
@@ -1903,8 +1829,7 @@
           <sp who="#spLänsman">
             <speaker>Länsman.</speaker>
             <p>Jag tycker det vore rådligast att han gick
-              <lb/> hem nu, annars kunde det hända honom som <persName ref="#Bonden">bon&#xad;<lb
-              break="no"/>den i <placeName>Mariestad</placeName></persName>. Har han hört det?</p>
+              <lb/> hem nu, annars kunde det hända honom som <persName ref="#Bonden">bon­<lb break="no"/>den i <placeName>Mariestad</placeName></persName>. Har han hört det?</p>
           </sp>
           <sp who="#spAlexandersson">
             <speaker>Alexandersson.</speaker>
@@ -1937,8 +1862,7 @@
           </sp>
           <sp who="#spBaronen">
             <speaker>Baronen.</speaker>
-            <p>Nej, bara moträkningar! Ditt kurage är för&#xad;<lb
-              break="no"/>tviflans och den lifdömdes. Och när du kommer
+            <p>Nej, bara moträkningar! Ditt kurage är för­<lb break="no"/>tviflans och den lifdömdes. Och när du kommer
               <lb/> härifrån faller du tillsammans. Då har du icke
               <pb facs="6348-43.jpg"/><fw type="pageNum">42</fw>
               mig längre att lassa sorg och skuld på, och då
@@ -1986,10 +1910,8 @@
               <lb/> <persName ref="#Barnet">barnets</persName> börd, och att det var orsaken hvarför du
               <lb/> icke ville lämna <persName ref="#Barnet">barnet</persName> åt mig, så att jag skulle
               <pb facs="6348-44.jpg"/><fw type="pageNum">43</fw>
-              bygga min sällhet på en falsk grund. Därpå sva&#xad;<lb
-              break="no"/>rade han: <said who="#Pastorn">Nej, det tror jag inte henne om, ett
-              <lb/> så vackert motiv</said>. Jag tror inte du själf vet hvar&#xad;<lb
-              break="no"/>för du är så fanatisk i denna punkt, men det är
+              bygga min sällhet på en falsk grund. Därpå sva­<lb break="no"/>rade han: <said who="#Pastorn">Nej, det tror jag inte henne om, ett
+              <lb/> så vackert motiv</said>. Jag tror inte du själf vet hvar­<lb break="no"/>för du är så fanatisk i denna punkt, men det är
               <lb/> striden om att få fortlefva som jagar oss att icke
               <lb/> vilja släppa taget. <persName ref="#Barnet">Vår son</persName> har din kropp, men
               <lb/> min själ och den kan du icke utrota. Du skall
@@ -2026,9 +1948,7 @@
               <lb/> och att det börjar gro en man hos dig. Kanske
               <lb/> det är denna man som jag märkt i dina kyssar,
               <pb facs="6348-45.jpg"/><fw type="pageNum">44</fw>
-              i dina omfamningar, och som är mig så <choice><sic>veder&#xad;<lb
-              break="no"/>värdig</sic><corr>veder&#xad;<lb
-              break="no"/>värdiga</corr></choice>!</p>
+              i dina omfamningar, och som är mig så <choice><sic>veder­<lb break="no"/>värdig</sic><corr>veder­<lb break="no"/>värdiga</corr></choice>!</p>
           </sp>
           <sp who="#spFriherrinnan">
             <speaker>Friherrinnan.</speaker>
@@ -2112,8 +2032,7 @@
             <p>Så hade det blifvit lika mycket — som ett
               <lb/> förkortadt bråk. Alltså: icke lagens fel, icke vårt
               <lb/> fel, icke andras fel! Och ändå få vi bära skulden!
-              <lb/> <stage>(<persName ref="#Länsman">Länsman</persName> nalkas.)</stage> Så! Nu är domen fallen. — Far&#xad;<lb
-              break="no"/>väl, <persName ref="#Friherrinnan">Hélène</persName>!</p>
+              <lb/> <stage>(<persName ref="#Länsman">Länsman</persName> nalkas.)</stage> Så! Nu är domen fallen. — Far­<lb break="no"/>väl, <persName ref="#Friherrinnan">Hélène</persName>!</p>
           </sp>
           <sp who="#spFriherrinnan">
             <speaker>Friherrinnan.</speaker>
@@ -2184,14 +2103,12 @@
           <sp who="#spKarlJohanSjöberg">
             <speaker>Karl Johan Sjöberg.</speaker>
             <p>I vigselformuläret, som ju gifver äktenskapet
-              <lb/> bindande kraft, ålägges hustrun vara mannen under&#xad;<lb
-              break="no"/>dånig, hvaraf synes mig att mannen går före
+              <lb/> bindande kraft, ålägges hustrun vara mannen under­<lb break="no"/>dånig, hvaraf synes mig att mannen går före
               <lb/> kvinnan.</p>
           </sp>
           <sp who="#spErikOttoBoman">
             <speaker>Erik Otto Boman.</speaker>
-            <p>Och barnen skola uppfostras i faderns be&#xad;<lb
-              break="no"/>kännelse.</p>
+            <p>Och barnen skola uppfostras i faderns be­<lb break="no"/>kännelse.</p>
           </sp>
           <sp who="#spErenfridSöderberg">
             <speaker>Erenfrid Söderberg.</speaker>
@@ -2261,8 +2178,7 @@
               <lb/> mig i protokollet mot denna som mig synes onödigt
               <lb/> grymma dom. — <persName ref="#Baronen #Friherrinnan">Makarna</persName> dömas till ett års skillnad
               <lb/> i säng och säte vid äfventyr af fängelse, om de
-              <lb/> under tiden söka hvarandra. <stage>(Till <persName ref="#Länsman">Länsman</persName>.)</stage> In&#xad;<lb
-              break="no"/>kalla <persName ref="#Baronen #Friherrinnan">parterna</persName>!</p>
+              <lb/> under tiden söka hvarandra. <stage>(Till <persName ref="#Länsman">Länsman</persName>.)</stage> In­<lb break="no"/>kalla <persName ref="#Baronen #Friherrinnan">parterna</persName>!</p>
           </sp>
         </div>
         <pb facs="6348-50.jpg"/><fw type="pageNum">49</fw>
@@ -2284,25 +2200,21 @@
               <lb/> Sprengel</persName> dömas till ett års skillnad i säng och
               <lb/> säte, <persName ref="#Barnet">barnet</persName> tages från <persName ref="#Baronen #Friherrinnan">föräldrarna</persName> och lämnas
               <lb/> till <persName ref="#AlexanderEklund #ErenfridSöderberg">två gode män</persName> att uppfostras, samt har <orgName ref="#Häradsrätten">rätten</orgName>
-              <lb/> därtill utsett och förordnat <persName ref="#AlexanderEklund #ErenfridSöderberg">nämndemännen Alexan&#xad;<lb
-              break="no"/>der Eklund och Ernfrid Söderberg</persName>.</p>
+              <lb/> därtill utsett och förordnat <persName ref="#AlexanderEklund #ErenfridSöderberg">nämndemännen Alexan­<lb break="no"/>der Eklund och Ernfrid Söderberg</persName>.</p>
           </sp>
           <anchor xml:id="Sentence"/>
-          <stage><persName ref="#Friherrinnan">(Friherrinnan</persName> skriker och faller. <persName ref="#Länsman">Länsman</persName> och <persName ref="#Fjärdingsman">fjär&#xad;<lb
-            break="no"/>dingsman</persName> lyfta upp henne och sätta henne på en stol.
+          <stage><persName ref="#Friherrinnan">(Friherrinnan</persName> skriker och faller. <persName ref="#Länsman">Länsman</persName> och <persName ref="#Fjärdingsman">fjär­<lb break="no"/>dingsman</persName> lyfta upp henne och sätta henne på en stol.
             <lb/> <stage type="exit" who="#Folk">En del af folket har gått ut.</stage>)</stage>
           <sp who="#spBaronen">
             <speaker>Baronen</speaker> <stage type="entrance" who="#Baronen">(in).</stage>
-            <p><persName ref="#Häradshöfdingen">Herr domare</persName>! Efter att ha hört <orgName ref="#Häradsrätten">rättens</orgName> dom&#xad;<lb
-              break="no"/>slut där ute, ber jag att få anmäla jäf dels emot
+            <p><persName ref="#Häradshöfdingen">Herr domare</persName>! Efter att ha hört <orgName ref="#Häradsrätten">rättens</orgName> dom­<lb break="no"/>slut där ute, ber jag att få anmäla jäf dels emot
               <lb/> <persName ref="#Nämnden">hela nämnden</persName>, som äro mina personliga fiender,
               <lb/> dels emot <persName ref="#AlexanderEklund #ErenfridSöderberg">de gode männen Alexander Eklund och
               <lb/> Ernfrid Söderberg</persName>, af hvilka ingendera äger den
               <lb/> säkra ekonomi som man fordrar af gode män;
               <lb/> dessutom kommer jag att anlägga sak mot <persName ref="#Häradshöfdingen">domaren</persName>
               <lb/> för oförstånd i ämbetets utöfning, då han icke
-              <lb/> kunde urskilja att den som börjat bryta äkten&#xad;<lb
-              break="no"/>skapet är vållande till att den andra parten bröt,
+              <lb/> kunde urskilja att den som börjat bryta äkten­<lb break="no"/>skapet är vållande till att den andra parten bröt,
               <lb/> och att sålunda icke båda äro lika vållande.</p>
           </sp>
           <pb facs="6348-51.jpg"/><fw type="pageNum">50</fw>
@@ -2342,8 +2254,7 @@
           <sp who="#spBaronen">
             <speaker>Baronen.</speaker>
             <p><persName ref="#Pastorn">Din enda pålitliga fiende</persName>! Ja! Hvem skulle
-              <lb/> jag annars våga lita på! Och det gjorde jag där&#xad;<lb
-              break="no"/>för att jag läste ut en blick i ditt öga nyss, som
+              <lb/> jag annars våga lita på! Och det gjorde jag där­<lb break="no"/>för att jag läste ut en blick i ditt öga nyss, som
               <lb/> sade, att du möjligen skulle komma att döda dig
               <lb/> och <persName ref="#Barnet">barnet</persName>.</p>
           </sp>
@@ -2404,8 +2315,7 @@
               <lb/> ju strider ändå, och vi försakade en af lifvets
               <lb/> största njutningar, människors aktning, och så
               <lb/> gifte vi oss. Men vi skulle öfverlista samhället
-              <lb/> med dess lagar; vi skulle inte ha vigsel, utan krång&#xad;<lb
-              break="no"/>lade oss till ett civilt äktenskap; vi skulle icke
+              <lb/> med dess lagar; vi skulle inte ha vigsel, utan krång­<lb break="no"/>lade oss till ett civilt äktenskap; vi skulle icke
               <lb/> stå i något beroende af hvarandra ... icke ha
               <lb/> samma kassa, icke pocka på äganderätt till person
               <lb/> — och så gick det in i det gamla spåret igen!
@@ -2419,12 +2329,9 @@
               <lb/> naturen! Och den härskaren retade upp oss i
               <lb/> hat mot hvarandra, såsom han retar mänskor till
               <lb/> kärlek. Och nu äro vi dömda att sarga hvarandra
-              <lb/> så länge det finns en gnista lif i oss. Nya pro&#xad;<lb
-              break="no"/>cesser i <orgName ref="#Hovrätten">hofrätten</orgName>, återförvisning af målet, <orgName ref="#Kyrkorådet">kyrko&#xad;<lb
-              break="no"/>rådets</orgName> hörande, <orgName ref="#Domkapitlet">domkapitlets</orgName> utlåtande, <orgName ref="#HögstaDomstolen">högsta
+              <lb/> så länge det finns en gnista lif i oss. Nya pro­<lb break="no"/>cesser i <orgName ref="#Hovrätten">hofrätten</orgName>, återförvisning af målet, <orgName ref="#Kyrkorådet">kyrko­<lb break="no"/>rådets</orgName> hörande, <orgName ref="#Domkapitlet">domkapitlets</orgName> utlåtande, <orgName ref="#HögstaDomstolen">högsta
               <lb/> domstolens</orgName> utslag! Men så kommer min anmälan
-              <lb/> hos <orgName ref="#Justitieombudsmannen">justitieombudsmannen</orgName>, min ansökan om för&#xad;<lb
-              break="no"/>myndare, dina jäf och motprocesser: från schavott
+              <lb/> hos <orgName ref="#Justitieombudsmannen">justitieombudsmannen</orgName>, min ansökan om för­<lb break="no"/>myndare, dina jäf och motprocesser: från schavott
               <lb/> till schavott! Utan att finna en barmhärtig bödel!
               <lb/> — Gårdens vanskötsel, ekonomisk ruin, <persName ref="#Barnet">barnets</persName>
               <lb/> försummade uppfostran! Och hvarför göra vi ej
