@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>När nyår kom</title>
         <title type="sub">En nyårspjes för Kamraten</title>
-        <author xml:id="KuylenstiernaE">
+        <author key="wikidata:Q4960199" xml:id="KuylenstiernaE">
           <persName>
             <forename>Elisabeth</forename>
             <surname>Kuylenstierna</surname>
@@ -63,6 +63,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">KuylenstiernaE_NarNyarKom</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000019</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59618347</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -163,9 +166,49 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spFjorår" sex="male">
+            <persName>Fjorår</persName>
+          </person>
+          
+          <person xml:id="spNyår" sex="male">
+            <persName>Nyår</persName>
+          </person>
+          
+          <person xml:id="spVårljus" sex="female">
+            <persName>prinsessan Vårljus</persName>
+          </person>
+          
+          <person xml:id="spSommarfröjd" sex="female">
+            <persName>prinsessan Sommarfröjd</persName>
+          </person>
+          
+          <person xml:id="spVinterras" sex="male">
+            <persName>prins Vinterras</persName>
+          </person>
+          
+          <person xml:id="spSkymningslek" sex="male">
+            <persName>prins Skymningslek</persName>
+          </person>
+          
+          <person xml:id="spKungTid" sex="male">
+            <persName>kung Tid</persName>
+          </person>
+          
+          <person xml:id="spDrottningÖdegod" sex="female">
+            <persName>drottning Ödegod</persName>
+          </person>
+          <personGrp xml:id="spHoffolk">
+            <name>Hoffolk</name>
+          </personGrp>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="KuylenstiernaE_NarNyarKom">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="6092-0.jpg"/><!-- pärm -->
@@ -178,34 +221,34 @@
       <castList>
         <head>PERSONER:</head>
         <castItem>
-          <role xml:id="spKungTid"><persName ref="#KungTid">Konung Tid</persName></role>.
+          <role><persName ref="#KungTid">Konung Tid</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spDrottningÖdegod"><persName ref="#DrottningÖdegod">Drottning Ödegod</persName></role>.
+          <role><persName ref="#DrottningÖdegod">Drottning Ödegod</persName></role>.
         </castItem>
         <castGroup rend="braced">
           <castItem>
-            <role xml:id="spVårljus"><persName ref="#Vårljus">Vårljus</persName></role>
+            <role><persName ref="#Vårljus">Vårljus</persName></role>
           </castItem>
           <castItem>
-            <role xml:id="spSommarfröjd"><persName ref="#Sommarfröjd">Sommarfröjd</persName></role>
+            <role><persName ref="#Sommarfröjd">Sommarfröjd</persName></role>
           </castItem>
           <roleDesc>prinsessor.</roleDesc>
         </castGroup>
         <castGroup rend="braced">
           <castItem>
-            <role xml:id="spSkymningslek"><persName ref="#Skymningslek">Skymningslek</persName></role>
+            <role><persName ref="#Skymningslek">Skymningslek</persName></role>
           </castItem>
           <castItem>
-            <role xml:id="spVinterras"><persName ref="#Vinterras">Vinterras</persName></role>
+            <role><persName ref="#Vinterras">Vinterras</persName></role>
           </castItem>
           <roleDesc>prinsar.</roleDesc>
         </castGroup>
         <castItem>
-          <role xml:id="spFjorår"><persName ref="#Fjorår">Fjorår</persName></role>, <roleDesc>gammal hofman</roleDesc>.
+          <role><persName ref="#Fjorår">Fjorår</persName></role>, <roleDesc>gammal hofman</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spNyår"><persName ref="#Nyår">Nyår</persName></role>, <roleDesc>nyutnämnd page</roleDesc>.
+          <role><persName ref="#Nyår">Nyår</persName></role>, <roleDesc>nyutnämnd page</roleDesc>.
         </castItem>
         <castItem>
           <roleGroup xml:id="spHoffolk">

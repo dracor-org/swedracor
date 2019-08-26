@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Första varningen</title>
         <title type="sub">Komedi i en akt</title>
-        <author xml:id="StrindbergA">
+        <author key="wikidata:Q7724" xml:id="StrindbergA">
           <persName>
             <forename>August</forename>
             <surname>Strindberg</surname>
@@ -74,6 +74,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">StrindbergA_ForstaVarningen</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000040</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q10501513</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -163,9 +166,34 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spHerrn" sex="male">
+            <persName>herr Axel Brunner</persName>
+          </person>
+          
+          <person xml:id="spFrun" sex="female">
+            <persName>fru Olga Brunner</persName>
+          </person>
+          
+          <person xml:id="spRosa" sex="female">
+            <persName>Rosa</persName>
+          </person>
+          
+          <person xml:id="spBaronessan" sex="female">
+            <persName>baronessan</persName>
+          </person>
+          
+          <person xml:id="spPigan" sex="female">
+            <persName>PIGAN</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="StrindbergA_ForstaVarningen">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="6293-0.jpg"/><!-- omslag -->
@@ -184,20 +212,20 @@
       <castList>
         <head>PERSONERNA:</head>
         <castItem>
-          <role xml:id="spHerrn"><persName ref="#Herrn">HERRN</persName></role>, <roleDesc>37 år</roleDesc>.
+          <role><persName ref="#Herrn">HERRN</persName></role>, <roleDesc>37 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spFrun"><persName ref="#Frun">FRUN</persName></role>, <roleDesc>36 år</roleDesc>.
+          <role><persName ref="#Frun">FRUN</persName></role>, <roleDesc>36 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spRosa"><persName ref="#Rosa">ROSA</persName></role>, <roleDesc>15 år</roleDesc>.
+          <role><persName ref="#Rosa">ROSA</persName></role>, <roleDesc>15 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spBaronessan"><persName ref="#Baronessan">BARONESSAN</persName></role>, <roleDesc>hennes mor, 47 år</roleDesc>.
+          <role><persName ref="#Baronessan">BARONESSAN</persName></role>, <roleDesc>hennes mor, 47 år</roleDesc>.
         </castItem>
         <addSpan spanTo="#slutTillagt"/>
         <castItem>
-          <role xml:id="spPigan"><persName ref="#Pigan">PIGAN</persName></role>.
+          <role><persName ref="#Pigan">PIGAN</persName></role>.
         </castItem>
         <anchor xml:id="slutTillagt"/>
       </castList>

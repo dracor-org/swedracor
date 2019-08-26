@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main"><title>Ett pojkstreck</title> eller <title>Äppelkaka med vaniljsås</title></title>
-        <author xml:id="MeyersonG">
+        <author key="wikidata:Q4967157" xml:id="MeyersonG">
           <persName>Gerda Meyerson</persName>
           <idno type="LIBRIS">http://libris.kb.se/auth/229139</idno>
           <idno type="SBL">http://www.nad.riksarkivet.se/sbl/artikel/9335</idno>
@@ -71,6 +71,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">MeyersonG_EttPojkstreck</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000033</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59618622</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -167,9 +170,42 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spOscar" sex="male">
+            <persName>Oscar</persName>
+          </person>
+          
+          <person xml:id="spStina" sex="female">
+            <persName>Stina</persName>
+          </person>
+          
+          <person xml:id="spHenrik" sex="male">
+            <persName>Henrik</persName>
+          </person>
+          
+          <person xml:id="spFruBorg" sex="female">
+            <persName>fru Marie Borg</persName>
+          </person>
+          
+          <person xml:id="spKalle" sex="male">
+            <persName>Kalle Björk</persName>
+          </person>
+          
+          <person xml:id="spFarbrorS" sex="male">
+            <persName>farbror Samuel Vellander</persName>
+          </person>
+          
+          <person xml:id="spTantUlla" sex="female">
+            <persName>tant Ulla</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="MeyersonG_EttPojkstreck"> 
+  <text> 
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="5866-0.jpg"/><!-- omslag, bunden volym -->
@@ -178,28 +214,28 @@
       <castList>
         <head>Personerna.</head>
         <castItem>
-          <role xml:id="spFruBorg"><persName ref="#FruBorg">Fru Borg</persName></role>,
+          <role><persName ref="#FruBorg">Fru Borg</persName></role>,
         </castItem>
         <castGroup rend="braced">
           <castItem>
-            <role xml:id="spHenrik"><persName ref="#Henrik">Henrik</persName></role>
+            <role><persName ref="#Henrik">Henrik</persName></role>
           </castItem>    
           <castItem>
-            <role xml:id="spOscar"><persName ref="#Oscar">Oscar</persName></role>
+            <role><persName ref="#Oscar">Oscar</persName></role>
           </castItem>
           <roleDesc>hennes söner 13 o. 14 år.</roleDesc>  
         </castGroup>
         <castItem>
-          <role xml:id="spKalle"><persName ref="#Kalle">Kalle Björk</persName></role>, <roleDesc>deras skolkamrat, 14 år</roleDesc>.
+          <role><persName ref="#Kalle">Kalle Björk</persName></role>, <roleDesc>deras skolkamrat, 14 år</roleDesc>.
         </castItem>    
         <castItem>
-          <role xml:id="spFarbrorS"><persName ref="#FarbrorS">Farbror Samuel</persName></role>.
+          <role><persName ref="#FarbrorS">Farbror Samuel</persName></role>.
         </castItem>    
         <castItem>
-          <role xml:id="spTantUlla"><persName ref="#TantUlla">Tant Ulla</persName></role>.
+          <role><persName ref="#TantUlla">Tant Ulla</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spStina"><persName ref="#Stina">Stina</persName></role>, <roleDesc>jungfru hos Borgs</roleDesc>.
+          <role><persName ref="#Stina">Stina</persName></role>, <roleDesc>jungfru hos Borgs</roleDesc>.
         </castItem>    
       </castList>
       <figure>

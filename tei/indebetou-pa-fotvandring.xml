@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">På fotvandring</title>
         <title type="sub">Komedi i en akt</title>
-        <author xml:id="IndebetouH">
+        <author key="wikidata:Q18242858" xml:id="IndebetouH">
           <persName>
             <forename>Hedvig</forename>
             <surname>Indebetou</surname>
@@ -63,6 +63,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">IndebetouH_PaFotvandring</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/"/>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/"/>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -170,9 +173,42 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spElsa" sex="female">
+            <persName>Elsa Klang</persName>
+          </person>
+          
+          <person xml:id="spGertrud" sex="female">
+            <persName>Gertrud</persName>
+          </person>
+          
+          <person xml:id="spLina" sex="female">
+            <persName>Lina</persName>
+          </person>
+          
+          <person xml:id="spHelming" sex="male">
+            <persName>docent Helming</persName>
+          </person>
+          
+          <person xml:id="spGrön" sex="male">
+            <persName>kandidat Hans Grön</persName>
+          </person>
+          
+          <person xml:id="spFruKlang" sex="female">
+            <persName>fru Lena Klang</persName>
+          </person>
+          
+          <person xml:id="spGrosshandlaren" sex="male">
+            <persName>grosshandlar Klang</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="IndebetouH_PaFotvandring">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="5967-0.jpg"/><!-- pärm -->
@@ -187,25 +223,25 @@
       <castList>
         <head>PERSONERNA:</head>
         <castItem>
-          <role xml:id="spGrosshandlaren"><persName ref="#Grosshandlaren">Grosshandlar Klang</persName></role>.
+          <role><persName ref="#Grosshandlaren">Grosshandlar Klang</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spFruKlang"><persName ref="#FruKlang">Fru Klang</persName></role>.
+          <role><persName ref="#FruKlang">Fru Klang</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spElsa"><persName ref="#Elsa">Elsa</persName></role>, <roleDesc>deras dotter</roleDesc>.
+          <role><persName ref="#Elsa">Elsa</persName></role>, <roleDesc>deras dotter</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spGertrud"><persName ref="#Gertrud">Gertrud</persName></role>, <roleDesc>hennes kusin</roleDesc>.
+          <role><persName ref="#Gertrud">Gertrud</persName></role>, <roleDesc>hennes kusin</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spGrön"><persName ref="#Grön">Hans Grön</persName></role>, <roleDesc>student</roleDesc>.
+          <role><persName ref="#Grön">Hans Grön</persName></role>, <roleDesc>student</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spHelming"><persName ref="#Helming">Helming</persName></role>, <roleDesc>docent</roleDesc>.
+          <role><persName ref="#Helming">Helming</persName></role>, <roleDesc>docent</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spLina"><persName ref="#Lina">Lina</persName></role>, <roleDesc>jungfru hos <persName ref="#FruKlang #Grosshandlaren">grosshandlarns</persName></roleDesc>.
+          <role><persName ref="#Lina">Lina</persName></role>, <roleDesc>jungfru hos <persName ref="#FruKlang #Grosshandlaren">grosshandlarns</persName></roleDesc>.
         </castItem>
       </castList>
       <set>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Fordringsegare</title>
         <title type="sub">Tragi-komedi</title>
-        <author xml:id="StrindbergA">
+        <author key="wikidata:Q7724" xml:id="StrindbergA">
           <persName>
             <forename>August</forename>
             <surname>Strindberg</surname>
@@ -69,6 +69,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">StrindbergA_Fordringsegare</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000039</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q3492067</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -160,9 +163,26 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spAdolf" sex="male">
+            <persName>Adolf</persName>
+          </person>
+          
+          <person xml:id="spGustaf" sex="male">
+            <persName>Gustaf Sjöberg</persName>
+          </person>
+          
+          <person xml:id="spTekla" sex="female">
+            <persName>Tekla Kurre</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="StrindbergA_Fordringsegare">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="38671-0.jpg"/><!-- omslag -->
@@ -181,13 +201,13 @@
       <castList>
         <head>Personer:</head>
         <castItem>
-          <role xml:id="spTekla"><persName ref="#Tekla">TEKLA</persName></role>.
+          <role><persName ref="#Tekla">TEKLA</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spAdolf"><persName ref="#Adolf">ADOLF</persName></role>, <roleDesc>hennes man, målare</roleDesc>.
+          <role><persName ref="#Adolf">ADOLF</persName></role>, <roleDesc>hennes man, målare</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spGustaf"><persName ref="#Gustaf">GUSTAF</persName></role>, <roleDesc>hennes frånskilda man, lektor. (Reser
+          <role><persName ref="#Gustaf">GUSTAF</persName></role>, <roleDesc>hennes frånskilda man, lektor. (Reser
             <lb/> under antaget namn.)</roleDesc>
         </castItem>
         <addSpan spanTo="#slutTillagt"/>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Anno fyrtiåtta</title>
         <title type="sub">Lustspel i fyra akter</title>
-        <author xml:id="StrindbergA">
+        <author key="wikidata:Q7724" xml:id="StrindbergA">
           <persName>
             <forename>August</forename>
             <surname>Strindberg</surname>
@@ -64,6 +64,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">StrindbergA_AnnoFyrtiatta</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000035</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q10412491</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -162,9 +165,94 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spPigan1" sex="female">
+            <persName>Mari</persName>
+          </person>
+          
+          <person xml:id="spPigan2" sex="female">
+            <persName>Kristin</persName>
+          </person>
+          
+          <person xml:id="spPer" sex="male">
+            <persName>Per Nygren</persName>
+          </person>
+          
+          <person xml:id="spLarsson" sex="male">
+            <persName>Jöns Abraham Larsson</persName>
+          </person>
+          
+          <person xml:id="spAdjunkten" sex="male">
+            <persName>August Agust Gren Green</persName>
+          </person>
+          
+          <person xml:id="spKSektern" sex="male">
+            <persName>K. Sektern</persName>
+          </person>
+          
+          <person xml:id="spAktören" sex="male">
+            <persName>Klinger</persName>
+          </person>
+          
+          <person xml:id="spDina" sex="female">
+            <persName>mamsell Dina</persName>
+          </person>
+          
+          <person xml:id="spLinda" sex="female">
+            <persName>Linda</persName>
+          </person>
+          
+          <person xml:id="spLundqvist" sex="male">
+            <persName>Lundqvist</persName>
+          </person>
+          
+          <person xml:id="spArvid" sex="male">
+            <persName>kandidat Arvid</persName>
+          </person>
+          
+          <person xml:id="spPianostämmaren" sex="male">
+            <persName>Pianostämmaren</persName>
+          </person>
+          
+          <person xml:id="spPoliskonstapeln" sex="male">
+            <persName>Poliskonstapeln</persName>
+          </person>
+          
+          <person xml:id="spKyparen" sex="male">
+            <persName>Kyparen</persName>
+          </person>
+          
+          <person xml:id="spFruLarsson" sex="female">
+            <persName>fru Amalia Larsson</persName>
+          </person>
+          
+          <person xml:id="spPolis1" sex="male">
+            <persName>POLIS 1</persName>
+          </person>
+          
+          <person xml:id="spPolis2" sex="male">
+            <persName>POLIS 2.</persName>
+          </person>
+          
+          <person xml:id="spGossen1" sex="male">
+            <persName>GOSSEN 1.</persName>
+          </person>
+          
+          <person xml:id="spGossen2" sex="male">
+            <persName>GOSSARNE.</persName>
+          </person>
+          
+          <person xml:id="spDrängen" sex="male">
+            <persName>Johansson</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="StrindbergA_AnnoFyrtiatta">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="37598-0.jpg"/><!-- titelsida -->
@@ -174,65 +262,65 @@
       <castList>
         <head>PERSONER:</head>
         <castItem>
-          <role xml:id="spLarsson"><persName ref="#Larsson">Abraham Larsson</persName></role>, <roleDesc>bryggare och ryttmästare vid borgerskapets
+          <role><persName ref="#Larsson">Abraham Larsson</persName></role>, <roleDesc>bryggare och ryttmästare vid borgerskapets
             <lb/> kavalleri, 53 år</roleDesc>. 
 	      </castItem>
         <castItem>
-          <role xml:id="spArvid"><persName ref="#Arvid">Arvid</persName></role>, <roleDesc>hans <choice><sic>brorson</sic><corr>systerson</corr></choice>, student, 28 år</roleDesc>.<!-- kallar Larsson för morbror i hela texten -->
+          <role><persName ref="#Arvid">Arvid</persName></role>, <roleDesc>hans <choice><sic>brorson</sic><corr>systerson</corr></choice>, student, 28 år</roleDesc>.<!-- kallar Larsson för morbror i hela texten -->
         </castItem>
         <castItem>
-          <role xml:id="spAdjunkten"><persName ref="#Adjunkten">Gren</persName></role>, <roleDesc>komministeradjunkt, 49 år</roleDesc>.
+          <role><persName ref="#Adjunkten">Gren</persName></role>, <roleDesc>komministeradjunkt, 49 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spPer"><persName ref="#Per">Per</persName></role>, <roleDesc>målare, 27 år</roleDesc>.
+          <role><persName ref="#Per">Per</persName></role>, <roleDesc>målare, 27 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spAktören"><persName ref="#Aktören">Klinger</persName></role>, <roleDesc>aktör, 41 år</roleDesc>.
+          <role><persName ref="#Aktören">Klinger</persName></role>, <roleDesc>aktör, 41 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spKSektern"><persName ref="#KSektern">K. Sektern</persName></role>, <roleDesc>33 år</roleDesc>.
+          <role><persName ref="#KSektern">K. Sektern</persName></role>, <roleDesc>33 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spLundqvist"><persName ref="#Lundqvist">Lundqvist</persName></role>, <roleDesc>bokhållare hos Larsson, 26 år</roleDesc>.
+          <role><persName ref="#Lundqvist">Lundqvist</persName></role>, <roleDesc>bokhållare hos Larsson, 26 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spPianostämmaren"><persName ref="#Pianostämmaren">Pianostämmaren</persName></role>.
+          <role><persName ref="#Pianostämmaren">Pianostämmaren</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spFruLarsson"><persName ref="#FruLarsson">Fru Larsson</persName></role>, <roleDesc>46 år</roleDesc>.
+          <role><persName ref="#FruLarsson">Fru Larsson</persName></role>, <roleDesc>46 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spLinda"><persName ref="#Linda">Linda</persName></role>, <roleDesc>hennes dotter, 20 år</roleDesc>.
+          <role><persName ref="#Linda">Linda</persName></role>, <roleDesc>hennes dotter, 20 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spDina"><persName ref="#Dina">M:ll Dina</persName></role>, <roleDesc>adjunktens fästmö, 47 år</roleDesc>.
+          <role><persName ref="#Dina">M:ll Dina</persName></role>, <roleDesc>adjunktens fästmö, 47 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spDrängen"><persName ref="#Drängen">Drängen</persName></role>.
+          <role><persName ref="#Drängen">Drängen</persName></role>.
         </castItem>
         <castItem>
           <roleGroup corresp="#Pigor">
             <roleDesc>2 Pigor</roleDesc>.
-            <role xml:id="spPigan1" corresp="#Pigan1"/>
-            <role xml:id="spPigan2" corresp="#Pigan2"/>
+            <role corresp="#Pigan1"/>
+            <role corresp="#Pigan2"/>
           </roleGroup>
         </castItem>
         <castItem>
           <roleGroup corresp="#Barn">
             <roleDesc>2 Barn</roleDesc>.
-            <role xml:id="spGossen1" corresp="#Gossen1"/>
-            <role xml:id="spGossen2" corresp="#Gossen2"/>
+            <role corresp="#Gossen1"/>
+            <role corresp="#Gossen2"/>
           </roleGroup>
         </castItem>
         <addSpan spanTo="#slutTillagt"/>
         <castItem type="list">
           <roleGroup corresp="#Poliser">
             <roleDesc>2 Poliser</roleDesc>,
-            <role xml:id="spPolis1" corresp="#Polis1"/>
-            <role xml:id="spPolis2" corresp="#Polis2"/>
+            <role corresp="#Polis1"/>
+            <role corresp="#Polis2"/>
           </roleGroup>
-          <role xml:id="spKyparen"><persName ref="#Kyparen">Kyparen</persName></role>,   
-          <role xml:id="spPoliskonstapeln"><persName ref="#Poliskonstapeln">Poliskonstapeln</persName></role>. 
+          <role><persName ref="#Kyparen">Kyparen</persName></role>,   
+          <role><persName ref="#Poliskonstapeln">Poliskonstapeln</persName></role>. 
         </castItem>
         <!-- roller utan replik -->
         <castItem type="list">

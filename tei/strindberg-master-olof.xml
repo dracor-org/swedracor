@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Mäster Olof</title>
         <title type="sub">Skådespel i fem akter</title>
-        <author xml:id="StrindbergA">
+        <author key="wikidata:Q7724" xml:id="StrindbergA">
           <persName>
             <forename>August</forename>
             <surname>Strindberg</surname>
@@ -59,6 +59,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">StrindbergA_MasterOlof</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000049</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q1765367</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -169,9 +172,148 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spScholaris1" sex="male">
+            <persName>Vilhelm</persName>
+          </person>
+          
+          <person xml:id="spScholaris2" sex="male">
+            <persName>Nils</persName>
+          </person>
+          
+          <person xml:id="spLaurentiusAndreæ" sex="male">
+            <persName>Lars Andersson</persName>
+          </person>
+          
+          <person xml:id="spMästerOlof" sex="male">
+            <persName>mäster Olof Pederson</persName>
+          </person>
+          
+          <person xml:id="spGerdtBokprentare" sex="male">
+            <persName>Gerdt Bokprentare</persName>
+          </person>
+          
+          <person xml:id="spBorgaren" sex="male">
+            <persName>BORGAREN</persName>
+          </person>
+          
+          <person xml:id="spBorgarqvinnan" sex="female">
+            <persName>BORGARQVINNAN</persName>
+          </person>
+          
+          <person xml:id="spSecretarius" sex="male">
+            <persName>SECRETARIUS</persName>
+          </person>
+          
+          <person xml:id="spFolket">
+            <persName>FOLKET</persName>
+          </person>
+          
+          <person xml:id="spEnannanborgare" sex="male">
+            <persName>EN ANNAN BORGARE</persName>
+          </person>
+          
+          <person xml:id="spMånsSommar" sex="male">
+            <persName>Magnus Måns Sommar</persName>
+          </person>
+          
+          <person xml:id="spHansBrask" sex="male">
+            <persName>Hans Brask</persName>
+          </person>
+          
+          <person xml:id="spGustavVasa" sex="male">
+            <persName>kung Gustaf I Eriksson Vasa av Sverige</persName>
+          </person>
+          
+          <person xml:id="spTysk" sex="male">
+            <persName>TYSK</persName>
+          </person>
+          
+          <person xml:id="spDansk" sex="male">
+            <persName>DANSK</persName>
+          </person>
+          
+          <person xml:id="spHansWindrank" sex="male">
+            <persName>Hans Windrank</persName>
+          </person>
+          
+          <person xml:id="spSmåländing" sex="male">
+            <persName>SMÅLÄNDING</persName>
+          </person>
+          
+          <person xml:id="spSkökan" sex="female">
+            <persName>SKÖKAN</persName>
+          </person>
+          
+          <person xml:id="spMårten" sex="male">
+            <persName>Mårten</persName>
+          </person>
+          
+          <person xml:id="spNils" sex="male">
+            <persName>Nils</persName>
+          </person>
+          
+          <person xml:id="spVärdshusvärd" sex="male">
+            <persName>VÄRDSHUSVÄRD</persName>
+          </person>
+          
+          <person xml:id="spKnipperdollink" sex="male">
+            <persName>Bernhard Bernd Knipperdolling Knipperdollinck</persName>
+          </person>
+          
+          <person xml:id="spFruChristina" sex="female">
+            <persName>fru Kristina Christina Larsdotter</persName>
+          </person>
+          
+          <person xml:id="spChristina" sex="female">
+            <persName>Christina Mikaelsdotter</persName>
+          </person>
+          
+          <person xml:id="spKyrkvaktaren" sex="male">
+            <persName>Bengt</persName>
+          </person>
+          
+          <person xml:id="spKyrkvaktarenshustru" sex="female">
+            <persName>Katrina</persName>
+          </person>
+          
+          <person xml:id="spBetjenten" sex="male">
+            <persName>BETJENTEN</persName>
+          </person>
+          
+          <person xml:id="spLarsSiggeson" sex="male">
+            <persName>Lars Siggeson</persName>
+          </person>
+          
+          <person xml:id="spAdelsman" sex="male">
+            <persName>ADELSMAN</persName>
+          </person>
+          
+          <person xml:id="spLaurentiusPetri" sex="male">
+            <persName>Lars Pederson</persName>
+          </person>
+          
+          <person xml:id="spLikdräng" sex="male">
+            <persName>LIKDRÄNG</persName>
+          </person>
+          
+          <person xml:id="spAbbedissan" sex="female">
+            <persName>ABBEDISSAN</persName>
+          </person>
+          <!--unknown speaker: munkar-->
+          <!--unknown speaker: nunnor-->
+          
+          <person xml:id="spArbetsfogden" sex="male">
+            <persName>ARBETSFOGDEN</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="StrindbergA_MasterOlof">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="37680-0.jpg"/><!-- titelsida -->
@@ -181,146 +323,146 @@
       <head>PERSONER:</head>
       <castList>
         <castItem>
-          <role xml:id="spMästerOlof">
+          <role>
             <persName ref="#MästerOlof">MÄSTER OLOF</persName>
           </role>
           <roleDesc>(OLAUS PETRI)</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spGerdtBokprentare">
+          <role>
           <persName ref="#GerdtBokprentare">GERDT BOKPRENTARE</persName>.</role>
         </castItem>
         <castItem>
-          <role xml:id="spGustavVasa">
+          <role>
           <persName ref="#GustavVasa">GUSTAF ERIKSSON VASA</persName>.</role>
         </castItem>
         <castItem>
-          <role xml:id="spHansBrask">
+          <role>
             <persName ref="#HansBrask">HANS BRASK</persName>
           </role>
           <roleDesc>i <placeName>Linköping</placeName>.</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="spMånsSommar">
+          <role>
             <persName ref="#MånsSommar">MÅNS SOMMAR</persName>
           </role>
           <roleDesc>i <placeName>Strengnäs</placeName>.</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="spLarsSiggeson">
+          <role>
             <persName ref="#LarsSiggeson">LARS SIGGESON</persName>
             </role>, <roleDesc>Riksmarsk</roleDesc>.
 	</castItem>
         <castItem>
-          <role xml:id="spLaurentiusAndreæ">
+          <role>
             <persName ref="#LaurentiusAndreæ">LAURENTIUS ANDREÆ</persName>.
           </role>
         </castItem>
         <castItem>
-          <role xml:id="spLaurentiusPetri">
+          <role>
             <persName ref="#LaurentiusPetri">LAURENTIUS PETRI</persName>.
           </role>
         </castItem>
         <castItem>
-          <role xml:id="spHansWindrank">
+          <role>
             <persName ref="#HansWindrank">HANS WINDRANK</persName>
             </role>, <roleDesc>skeppare</roleDesc>.
 	</castItem>
         <castItem>
-          <role xml:id="spSmåländing">
+          <role>
             <persName ref="#Småländing">SMÅLÄNDING</persName>.
           </role>
         </castItem>
         <castItem>
-          <role xml:id="spTysk">
+          <role>
             <persName ref="#Tysk">TYSK</persName>.
           </role>
         </castItem>
         <castItem>
-          <role xml:id="spDansk">
+          <role>
             <persName ref="#Dansk">DANSK</persName>.
           </role>
         </castItem>
         <castGroup rend="braced">
           <castItem>
-            <role xml:id="spMårten">
+            <role>
               <persName ref="#Mårten">MÅRTEN</persName>
             </role>
           </castItem>
           <castItem>
-            <role xml:id="spNils">
+            <role>
               <persName ref="#Nils">NILS</persName>
             </role>
           </castItem>
           <roleDesc>Svartebröder.</roleDesc>
         </castGroup>
         <castItem>
-          <role xml:id="spVärdshusvärd">
+          <role>
             <persName ref="#Värdshusvärd">VÄRDSHUSVÄRD</persName>.
           </role>
         </castItem>
         <castItem>
-          <role xml:id="spLikdräng">
+          <role>
             <persName ref="#Likdräng">LIKDRÄNG</persName>.
           </role>
         </castItem>
         <castItem>
-          <role xml:id="spScholaris1">
+          <role>
             <persName ref="#Scholaris1">SCHOLARIS 1</persName>.
           </role>
         </castItem>
         <castItem>
-          <role xml:id="spScholaris2">
+          <role>
             <persName ref="#Scholaris2">SCHOLARIS 2</persName>.
           </role>
         </castItem>
         <castItem>
-          <role xml:id="spKyrkvaktaren">
+          <role>
             <persName ref="#Kyrkvaktaren">KYRKVAKTAREN</persName>.
 	  </role>
         </castItem>
         <castItem>
-          <role xml:id="spBetjenten">
+          <role>
             <persName ref="#Betjenten">BETJENTEN</persName>.
           </role>
         </castItem>
         <castItem>
-          <role xml:id="spArbetsfogden">
+          <role>
             <persName ref="#Arbetsfogden">ARBETSFOGDEN</persName>.
           </role>
         </castItem>
         <castItem>
-          <role xml:id="spBorgaren">
+          <role>
             <persName ref="#Borgaren">BORGAREN</persName>.
           </role>
         </castItem>
         <castItem>
-          <role xml:id="spFruChristina">
+          <role>
             <persName ref="#FruChristina">FRU CHRISTINA</persName>
             </role>, <roleDesc>Olofs moder</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spAdelsman">
+          <role>
             <persName ref="#Adelsman">ADELSMAN</persName>.
           </role>
         </castItem>
         <castItem>
-          <role xml:id="spChristina">
+          <role>
             <persName ref="#Christina">CHRISTINA</persName>
             </role>, <roleDesc>Gerdts dotter</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spSkökan">
+          <role>
             <persName ref="#Skökan">SKÖKAN</persName>.
 	  </role>
         </castItem>
         <castItem>
-          <role xml:id="spBorgarqvinnan">
+          <role>
             <persName ref="#Borgarqvinnan">BORGARQVINNAN</persName>.
 	  </role>
         </castItem>
         <castItem>
-          <role xml:id="spKyrkvaktarenshustru">
+          <role>
             <persName ref="#Kyrkvaktarenshustru">KYRKVAKTARENS HUSTRU</persName>.
           </role>
         </castItem>
@@ -329,27 +471,27 @@
         </castItem>
         <addSpan spanTo="#slutTillagt"/>
         <castItem>
-          <role xml:id="spSecretarius">
+          <role>
             <persName ref="#Secretarius">SECRETARIUS</persName>.
           </role>
         </castItem>
         <castItem>
-          <role xml:id="spKnipperdollink">
+          <role>
             <persName ref="#Knipperdollink">KNIPPERDOLLINK</persName>.
           </role>
         </castItem>
         <castItem>
-          <role xml:id="spAbbedissan">
+          <role>
             <persName ref="#Abbedissan">ABBEDISSAN</persName>.
           </role>
         </castItem>
         <castItem>
-          <role xml:id="spFolket">
+          <role>
             <persName ref="#Folket">FOLKET</persName>.
           </role>
         </castItem>
         <castItem>
-          <role xml:id="spEnannanborgare">
+          <role>
             <persName ref="#Enannanborgare">EN ANNAN BORGARE</persName>.
           </role>
         </castItem>

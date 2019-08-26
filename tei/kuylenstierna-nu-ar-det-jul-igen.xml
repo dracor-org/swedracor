@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Nu är det jul igen</title>
         <title type="sub">Sagospel i en akt</title>
-        <author xml:id="KuylenstiernaE">
+        <author key="wikidata:Q4960199" xml:id="KuylenstiernaE">
           <persName>
             <forename>Elisabeth</forename>
             <surname>Kuylenstierna</surname>
@@ -70,6 +70,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">KuylenstiernaE_NuArDetJulIgen</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000020</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59618329</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -176,9 +179,37 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spGodJul" sex="unknown">
+            <persName>God Jul</persName>
+          </person>
+          
+          <person xml:id="spRimtusse" sex="male">
+            <persName>Rimtusse</persName>
+          </person>
+          <personGrp xml:id="spTomtar">
+            <name>TOMTAR</name>
+          </personGrp>
+          
+          <person xml:id="spTomtekungen" sex="male">
+            <persName>kung</persName>
+          </person>
+          
+          <person xml:id="spSnöflinga" sex="female">
+            <persName>Snöflinga</persName>
+          </person>
+          
+          <person xml:id="spJulros" sex="female">
+            <persName>prinsessan Julros</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="KuylenstiernaE_NuArDetJulIgen">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="5894-0.jpg"/> <!-- pärm -->
@@ -198,19 +229,19 @@
       <castList>
         <head>Personer:</head>
         <castItem>
-          <role xml:id="spJulros"><persName ref="#Julros">PRINSESSAN JULROS</persName></role>. 
+          <role><persName ref="#Julros">PRINSESSAN JULROS</persName></role>. 
         </castItem>
         <castItem>
-          <role xml:id="spTomtekungen"><persName ref="#Tomtekungen">TOMTEKUNGEN</persName></role>. 
+          <role><persName ref="#Tomtekungen">TOMTEKUNGEN</persName></role>. 
         </castItem> 
         <castItem>
-          <role xml:id="spGodJul"><persName ref="#GodJul">GOD JUL</persName></role>.
+          <role><persName ref="#GodJul">GOD JUL</persName></role>.
         </castItem> 
         <castItem>
-          <role xml:id="spRimtusse"><persName ref="#Rimtusse">RIMTUSSE</persName></role>. 
+          <role><persName ref="#Rimtusse">RIMTUSSE</persName></role>. 
         </castItem> 
         <castItem>
-          <role xml:id="spSnöflinga"><persName ref="#Snöflinga">SNÖFLINGA</persName></role>.
+          <role><persName ref="#Snöflinga">SNÖFLINGA</persName></role>.
         </castItem> 
         <castItem type="list">
           <roleGroup xml:id="spTomtar"><roleDesc><persName ref="#Tomtar">TOMTAR</persName></roleDesc></roleGroup><delSpan spanTo="#deleteSlut"/>,

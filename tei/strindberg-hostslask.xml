@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main"><title>Höstslask</title> eller <title>Den Samhällsvådlige Reformatorn</title></title>
         <title type="sub">Toalett-pjes af Rococo</title>
-        <author xml:id="StrindbergA">
+        <author key="wikidata:Q7724" xml:id="StrindbergA">
           <persName>
             <forename>August</forename>
             <surname>Strindberg</surname>
@@ -64,6 +64,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">StrindbergA_Hostslask</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000044</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59618183</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -155,9 +158,46 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spMogol" sex="male">
+            <persName>Mogol</persName>
+          </person>
+          
+          <person xml:id="spLama" sex="male">
+            <persName>Lama</persName>
+          </person>
+          
+          <person xml:id="spRococo" sex="male">
+            <persName>Rococo</persName>
+          </person>
+          
+          <person xml:id="spDeMissnöjda">
+            <persName>De Missnöjda</persName>
+          </person>
+          
+          <person xml:id="spAnsvaringenförFinanserna" sex="male">
+            <persName>Ansvaringen.</persName>
+          </person>
+          
+          <person xml:id="spAnsvaringenförLyxen" sex="male">
+            <persName>Ansvaringen.</persName>
+          </person>
+          
+          <person xml:id="spAnsvaringenförSoldaterna" sex="male">
+            <persName>Ansvaringen.</persName>
+          </person>
+          
+          <person xml:id="spAnsvaringenförDynastien" sex="male">
+            <persName>Ansvaringen.</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="StrindbergA_Hostslask">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="35750-0.jpg" n="1"/>
@@ -165,24 +205,24 @@
       <castList>
         <head>Toaletter:</head>
         <castItem>
-          <role xml:id="spMogol"><persName ref="#Mogol">Mogol</persName></role>.
+          <role><persName ref="#Mogol">Mogol</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spLama"><persName ref="#Lama">Lama</persName></role>.
+          <role><persName ref="#Lama">Lama</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spRococo"><persName ref="#Rococo">Rococo</persName></role> <roleDesc>eller Den Samhällsvådlige</roleDesc>.
+          <role><persName ref="#Rococo">Rococo</persName></role> <roleDesc>eller Den Samhällsvådlige</roleDesc>.
         </castItem>
         <castItem>
           <roleGroup xml:id="spAnsvaringarne"><roleDesc><persName ref="#Ansvaringarne">Ansvaringarne</persName></roleDesc>.
-            <role xml:id="spAnsvaringenförFinanserna" corresp="#AnsvaringenförFinanserna"/>
-            <role xml:id="spAnsvaringenförSoldaterna" corresp="#AnsvaringenförSoldaterna"/>
-            <role xml:id="spAnsvaringenförDynastien" corresp="#AnsvaringenförDynastien"/>
-            <role xml:id="spAnsvaringenförLyxen" corresp="#AnsvaringenförLyxen"/>
+            <role corresp="#AnsvaringenförFinanserna"/>
+            <role corresp="#AnsvaringenförSoldaterna"/>
+            <role corresp="#AnsvaringenförDynastien"/>
+            <role corresp="#AnsvaringenförLyxen"/>
           </roleGroup>
         </castItem>
         <castItem>
-          <role xml:id="spDeMissnöjda"><persName ref="#DeMissnöjda">De Missnöjda</persName></role>.
+          <role><persName ref="#DeMissnöjda">De Missnöjda</persName></role>.
         </castItem>
       </castList>
     </front>

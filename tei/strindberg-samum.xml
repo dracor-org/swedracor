@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Samum</title>
-        <author xml:id="StrindbergA">
+        <author key="wikidata:Q7724" xml:id="StrindbergA">
           <persName>
             <forename>August</forename>
             <surname>Strindberg</surname>
@@ -68,6 +68,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">StrindbergA_Samum</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000052</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q10661034</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -158,9 +161,26 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spBiskra" sex="female">
+            <persName>Biskra</persName>
+          </person>
+          
+          <person xml:id="spYoussef" sex="male">
+            <persName>shejk Youssef</persName>
+          </person>
+          
+          <person xml:id="spGuimard" sex="male">
+            <persName>Charles Guimard</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="StrindbergA_Samum">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="38643-0.jpg"/><!-- omslag -->
@@ -179,13 +199,13 @@
       <castList>
         <head>Personer:</head>
         <castItem>
-          <role xml:id="spBiskra"><persName ref="#Biskra">BISKRA</persName></role>, <roleDesc>arabisk flicka</roleDesc>.
+          <role><persName ref="#Biskra">BISKRA</persName></role>, <roleDesc>arabisk flicka</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spYoussef"><persName ref="#Youssef">YOUSSEF</persName></role>, <roleDesc>hennes älskare</roleDesc>.
+          <role><persName ref="#Youssef">YOUSSEF</persName></role>, <roleDesc>hennes älskare</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spGuimard"><persName ref="#Guimard">GUIMARD</persName></role>, <roleDesc>löjtnant vid <persName ref="#Frankerna">zuaverna</persName></roleDesc>.
+          <role><persName ref="#Guimard">GUIMARD</persName></role>, <roleDesc>löjtnant vid <persName ref="#Frankerna">zuaverna</persName></roleDesc>.
         </castItem>
       </castList>
       <set>

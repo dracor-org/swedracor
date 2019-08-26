@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Kärlek</title>
         <title type="sub">Dramatisk teckning ur hvardagslifvet</title>
-        <author xml:id="KullgrenL">
+        <author key="wikidata:Q16595525" xml:id="KullgrenL">
           <persName>
             <forename>Lydia</forename>
             <surname>Kullgren</surname>
@@ -63,6 +63,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">KullgrenL_Karlek</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000018</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59625974</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -145,9 +148,46 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spAnna" sex="female">
+            <persName>Anna</persName>
+          </person>
+          
+          <person xml:id="spMajorskan" sex="female">
+            <persName>majorska</persName>
+          </person>
+          
+          <person xml:id="spViktor" sex="male">
+            <persName>Viktor</persName>
+          </person>
+          
+          <person xml:id="spEllen" sex="female">
+            <persName>Ellen Ella</persName>
+          </person>
+          
+          <person xml:id="spMari" sex="female">
+            <persName>Mari</persName>
+          </person>
+          
+          <person xml:id="spKarl" sex="male">
+            <persName>Karl Lesser</persName>
+          </person>
+          
+          <person xml:id="spElisabet" sex="female">
+            <persName>Elisabet</persName>
+          </person>
+          
+          <person xml:id="spFarbrorGöran" sex="male">
+            <persName>Göran</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="KullgrenL_Karlek">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="36632-0.jpg"/><!-- smutstitel -->
@@ -163,31 +203,31 @@
       <castList>
         <head>PERSONER:</head>
         <castItem>
-          <role xml:id="spMajorskan"><persName ref="#Majorskan">Majorskan</persName></role>, <roleDesc>änka</roleDesc>.   
+          <role><persName ref="#Majorskan">Majorskan</persName></role>, <roleDesc>änka</roleDesc>.   
         </castItem>
         <castGroup rend="braced">
           <castItem>
-            <role xml:id="spAnna"><persName ref="#Anna">Anna</persName></role>
+            <role><persName ref="#Anna">Anna</persName></role>
           </castItem>
           <castItem>
-            <role xml:id="spEllen"><persName ref="#Ellen">Ellen</persName></role>
+            <role><persName ref="#Ellen">Ellen</persName></role>
           </castItem>
           <castItem>
-            <role xml:id="spViktor"><persName ref="#Viktor">Viktor</persName></role>
+            <role><persName ref="#Viktor">Viktor</persName></role>
           </castItem>
           <roleDesc>hennes barn.</roleDesc>
         </castGroup>
         <castItem>
-          <role xml:id="spKarl"><persName ref="#Karl">Karl</persName></role>, <roleDesc>häradshöfding, Annas fästman</roleDesc>.
+          <role><persName ref="#Karl">Karl</persName></role>, <roleDesc>häradshöfding, Annas fästman</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spFarbrorGöran"><persName ref="#FarbrorGöran">Farbror Göran</persName></role>.
+          <role><persName ref="#FarbrorGöran">Farbror Göran</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spElisabet"><persName ref="#Elisabet">Elisabet</persName></role>, <roleDesc>sömmerska</roleDesc>.
+          <role><persName ref="#Elisabet">Elisabet</persName></role>, <roleDesc>sömmerska</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spMari"><persName ref="#Mari">Mari</persName></role>, <roleDesc>tjänarinna hos majorskan</roleDesc>.
+          <role><persName ref="#Mari">Mari</persName></role>, <roleDesc>tjänarinna hos majorskan</roleDesc>.
         </castItem>
         <castItem type="list">
           <role><persName ref="#Betjänt">En betjänt</persName></role>. <role><persName ref="#Gosse">En gosse</persName></role>.

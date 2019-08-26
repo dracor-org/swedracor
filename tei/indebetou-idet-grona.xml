@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>I det gröna</title>
         <title type="sub">Komedi i två akter</title>
-        <author xml:id="IndebetouH">
+        <author key="wikidata:Q18242858" xml:id="IndebetouH">
           <persName>
             <forename>Hedvig</forename>
             <surname>Indebetou</surname>
@@ -65,6 +65,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">IndebetouH_IDetGrona</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000016</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59618558</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -171,9 +174,58 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spKandidaten" sex="male">
+            <persName>kandidat Erland</persName>
+          </person>
+          
+          <person xml:id="spLilly" sex="female">
+            <persName>Lilly Al</persName>
+          </person>
+          
+          <person xml:id="spLöjtnanten" sex="male">
+            <persName>Löjtnanten</persName>
+          </person>
+          
+          <person xml:id="spAgda" sex="female">
+            <persName>Agda</persName>
+          </person>
+          
+          <person xml:id="spFarbrorFritz" sex="male">
+            <persName>farbror Fritz</persName>
+          </person>
+          
+          <person xml:id="spMia" sex="female">
+            <persName>Mia</persName>
+          </person>
+          
+          <person xml:id="spPatronen" sex="male">
+            <persName>patron</persName>
+          </person>
+          
+          <person xml:id="spFruMarika" sex="female">
+            <persName>fru Marika</persName>
+          </person>
+          
+          <person xml:id="spMosterUlla" sex="female">
+            <persName>moster Ulla</persName>
+          </person>
+          
+          <person xml:id="spMoje" sex="male">
+            <persName>Moje</persName>
+          </person>
+          
+          <person xml:id="spDoktorinnan" sex="female">
+            <persName>doktorinna Lilli Al</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="IndebetouH_IDetGrona">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="36370-0.jpg"/><!-- omslag -->
@@ -189,45 +241,45 @@
       <castList>
 	      <head>PERSONERNA:</head>
 	      <castItem>
-          <role xml:id="spPatronen"><persName ref="#Patronen">Patronen</persName></role>.
+          <role><persName ref="#Patronen">Patronen</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spFruMarika"><persName ref="#FruMarika">Marika</persName></role>, <roleDesc>hans fru</roleDesc>.
+          <role><persName ref="#FruMarika">Marika</persName></role>, <roleDesc>hans fru</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spAgda"><persName ref="#Agda">Agda</persName></role>, <roleDesc>deras fullvuxna dotter</roleDesc>.
+          <role><persName ref="#Agda">Agda</persName></role>, <roleDesc>deras fullvuxna dotter</roleDesc>.
         </castItem>
         <castGroup rend="braced">
           <castItem>
-            <role xml:id="spMia"><persName ref="#Mia">Mia</persName></role>
+            <role><persName ref="#Mia">Mia</persName></role>
           </castItem>
           <castItem>
-            <role xml:id="spMoje"><persName ref="#Moje">Moje</persName>
+            <role><persName ref="#Moje">Moje</persName>
             </role>
           </castItem>
           <roleDesc>deras yngre, halfvuxna barn.</roleDesc>
         </castGroup>
         <castItem>
-          <role xml:id="spDoktorinnan"><persName ref="#Doktorinnan">Doktorinnan Lilli Al</persName></role>, 
+          <role><persName ref="#Doktorinnan">Doktorinnan Lilli Al</persName></role>, 
         </castItem>
         <castGroup rend="braced">
           <castItem>
-            <role xml:id="spLilly"><persName ref="#Lilly">Lilly</persName></role>, <roleDesc>hennes dotter</roleDesc>.
+            <role><persName ref="#Lilly">Lilly</persName></role>, <roleDesc>hennes dotter</roleDesc>.
           </castItem>
           <castItem>
-            <role xml:id="spKandidaten"><persName ref="#Kandidaten">Kandidaten</persName></role>, <roleDesc>deras släkting</roleDesc>.
+            <role><persName ref="#Kandidaten">Kandidaten</persName></role>, <roleDesc>deras släkting</roleDesc>.
           </castItem>
           <roleDesc>Hemligt förlofvade 
                 <lb/> med hvarandra.</roleDesc>
         </castGroup>
         <castItem>
-          <role xml:id="spLöjtnanten"><persName ref="#Löjtnanten">Löjtnanten</persName></role>.
+          <role><persName ref="#Löjtnanten">Löjtnanten</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spFarbrorFritz"><persName ref="#FarbrorFritz">Farbror Fritz</persName></role>.
+          <role><persName ref="#FarbrorFritz">Farbror Fritz</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spMosterUlla"><persName ref="#MosterUlla">Moster Ulla</persName></role>.
+          <role><persName ref="#MosterUlla">Moster Ulla</persName></role>.
         </castItem>
       </castList>
       <set>

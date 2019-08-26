@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Tidernas spegel</title>
-        <author xml:id="TopeliusZ">
+        <author key="wikidata:Q139549" xml:id="TopeliusZ">
           <persName>
             <forename>Zacharias</forename>
             <surname>Topelius</surname>
@@ -70,6 +70,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">TopeliusZ_TidernasSpegel</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000064</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59652118</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -190,9 +193,34 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spLotta" sex="female">
+            <persName>Lotta</persName>
+          </person>
+          
+          <person xml:id="spMormor" sex="female">
+            <persName>Beate Sophie Randers Silfversparre</persName>
+          </person>
+          
+          <person xml:id="spSpegelbildEtt" sex="female">
+            <persName>Beate Sophie Randers</persName>
+          </person>
+          
+          <person xml:id="spSpegelbildTvå" sex="female">
+            <persName>doktorinnan Magneta Hypothenusa Problem</persName>
+          </person>
+          
+          <person xml:id="spSpegelbildTre" sex="female">
+            <persName>Eva</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="TopeliusZ_TidernasSpegel">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="37993-0.jpg"/><!-- pärm -->
@@ -212,17 +240,17 @@
       <castList>
         <head>Personer:</head>
         <castItem>
-          <role xml:id="spMormor"><persName ref="#Mormor">Mormor</persName></role> <roleDesc>(75 år)</roleDesc>.
+          <role><persName ref="#Mormor">Mormor</persName></role> <roleDesc>(75 år)</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spLotta"><persName ref="#Lotta">Lotta</persName></role> <roleDesc>(15 år)</roleDesc>.
+          <role><persName ref="#Lotta">Lotta</persName></role> <roleDesc>(15 år)</roleDesc>.
         </castItem>
         <castItem>
           <roleGroup>
             <roleDesc corresp="#Spegelbilder">Spegelbilder</roleDesc>.
-            <role xml:id="spSpegelbildEtt" corresp="#SpegelbildEtt"/>
-            <role xml:id="spSpegelbildTvå" corresp="#SpegelbildTvå"/>
-            <role xml:id="spSpegelbildTre" corresp="#SpegelbildTre"/>
+            <role corresp="#SpegelbildEtt"/>
+            <role corresp="#SpegelbildTvå"/>
+            <role corresp="#SpegelbildTre"/>
             <role corresp="#Orm"/>
           </roleGroup>
         </castItem>

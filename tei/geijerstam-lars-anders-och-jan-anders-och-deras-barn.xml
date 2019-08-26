@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Lars Anders och Jan Anders och deras barn</title>
         <title type="sub">En landtlig comoedia i tre akter</title>
-        <author xml:id="GeijerstamG">
+        <author key="wikidata:Q343550" xml:id="GeijerstamG">
           <persName>
             <forename>Gustaf</forename>
             <nameLink>af</nameLink>
@@ -70,7 +70,10 @@
               <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
             </licence>
           </availability>
-        </publicationStmt>
+          <idno type="dramawebben">GeijerstamG_LarsAndersOchJanAndersOchDerasBarn</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000014</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59618667</idno>
+      </publicationStmt>
         <sourceDesc>
           <biblStruct>
             <monogr>
@@ -172,9 +175,64 @@
         <langUsage>
           <language ident="sv">Swedish</language>
         </langUsage>
-      </profileDesc>
+        <particDesc>
+        <listPerson>
+          
+          <person xml:id="spJonas" sex="male">
+            <persName>Jonas</persName>
+          </person>
+          
+          <person xml:id="spKarlJohan" sex="male">
+            <persName>Karl Johan</persName>
+          </person>
+          
+          <person xml:id="spLena" sex="female">
+            <persName>Lena</persName>
+          </person>
+          
+          <person xml:id="spLarsAnders" sex="male">
+            <persName>Lars Anders</persName>
+          </person>
+          
+          <person xml:id="spBritaStina" sex="female">
+            <persName>Brita Stina</persName>
+          </person>
+          
+          <person xml:id="spJanAnders" sex="male">
+            <persName>Jan Anders</persName>
+          </person>
+          
+          <person xml:id="spKarolina" sex="female">
+            <persName>Karolina</persName>
+          </person>
+          
+          <person xml:id="spAnna" sex="female">
+            <persName>Anna Månsson</persName>
+          </person>
+          
+          <person xml:id="spFörstaBondpojken" sex="male">
+            <persName>Första bondpojken</persName>
+          </person>
+          
+          <person xml:id="spAndraBondpojken" sex="male">
+            <persName>Andra bondpojken</persName>
+          </person>
+          
+          <person xml:id="spSpelmannen" sex="male">
+            <persName>Spelmannen.</persName>
+          </person>
+          <personGrp xml:id="spFolk">
+            <name>FOLK af båda könen</name>
+          </personGrp>
+          <personGrp xml:id="spTvåPojkar" sex="male">
+            <name>Petter</name>
+          </personGrp>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+
     </teiHeader>
-    <text xml:id="GeijerstamG_LarsAndersOchJanAndersOchDerasBarn">
+  <text>
       <anchor xml:id="playstart"/>
       <front>
         <pb facs="6896-0.jpg"/><!-- omslag -->
@@ -215,36 +273,36 @@
         <castList>
           <head>PERSONERNA.</head>
           <castItem>
-            <role xml:id="spLarsAnders"><persName ref="#LarsAnders">LARS ANDERS</persName></role>, <roleDesc>torpare</roleDesc>.
+            <role><persName ref="#LarsAnders">LARS ANDERS</persName></role>, <roleDesc>torpare</roleDesc>.
           </castItem>
           <castItem>
-            <role xml:id="spBritaStina"><persName ref="#BritaStina">BRITA STINA</persName></role>, <roleDesc>hans hustru</roleDesc><supplied>.</supplied>
+            <role><persName ref="#BritaStina">BRITA STINA</persName></role>, <roleDesc>hans hustru</roleDesc><supplied>.</supplied>
           </castItem>
           <castItem>
-            <role xml:id="spLena"><persName ref="#Lena">LENA</persName></role>, <roleDesc>deras dotter</roleDesc><supplied>.</supplied>
+            <role><persName ref="#Lena">LENA</persName></role>, <roleDesc>deras dotter</roleDesc><supplied>.</supplied>
           </castItem>
           <castItem>
-            <role xml:id="spJanAnders"><persName ref="#JanAnders">JAN ANDERS</persName></role>, <roleDesc>torpare</roleDesc>.
+            <role><persName ref="#JanAnders">JAN ANDERS</persName></role>, <roleDesc>torpare</roleDesc>.
           </castItem>
           <castItem>
-            <role xml:id="spKarolina"><persName ref="#Karolina">KAROLINA</persName></role>, <roleDesc>hans hustru</roleDesc>.
+            <role><persName ref="#Karolina">KAROLINA</persName></role>, <roleDesc>hans hustru</roleDesc>.
           </castItem>
           <castItem>
-            <role xml:id="spKarlJohan"><persName ref="#KarlJohan">KARL JOHAN</persName></role>, <roleDesc>deras son</roleDesc><supplied>.</supplied>
+            <role><persName ref="#KarlJohan">KARL JOHAN</persName></role>, <roleDesc>deras son</roleDesc><supplied>.</supplied>
           </castItem>
           <castItem>
-            <role xml:id="spJonas"><persName ref="#Jonas">JONAS</persName></role>, <roleDesc>dräng hos Lars Anders</roleDesc><supplied>.</supplied>
+            <role><persName ref="#Jonas">JONAS</persName></role>, <roleDesc>dräng hos Lars Anders</roleDesc><supplied>.</supplied>
           </castItem>
           <castItem>
-            <role xml:id="spAnna"><persName ref="#Anna">ANNA MÅNSSON</persName></role>, <roleDesc>ung änka</roleDesc>.
+            <role><persName ref="#Anna">ANNA MÅNSSON</persName></role>, <roleDesc>ung änka</roleDesc>.
           </castItem>
           <castItem type="list">
             <roleGroup xml:id="spFolk">
               <roleDesc corresp="#Folk">FOLK af båda könen</roleDesc>.
-              <role xml:id="spSpelmannen" corresp="#Spelmannen"/>
+              <role corresp="#Spelmannen"/>
               <roleGroup corresp="#Dansfölje"/>
-              <role xml:id="spFörstaBondpojken" corresp="#FörstaBondpojken"/>
-              <role xml:id="spAndraBondpojken" corresp="#AndraBondpojken"/>
+              <role corresp="#FörstaBondpojken"/>
+              <role corresp="#AndraBondpojken"/>
               <roleGroup xml:id="spTvåPojkar" corresp="#TvåPojkar"/>
             </roleGroup>
           </castItem>

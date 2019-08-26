@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Sanna kvinnor</title>
         <title type="sub">Skådespel i tre akter</title>
-        <author xml:id="LefflerAC">
+        <author key="wikidata:Q243068" xml:id="LefflerAC">
           <persName>
             <forename>Anne Charlotte</forename>
             <surname>Leffler</surname>
@@ -64,6 +64,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">LefflerAC_SannaKvinnor</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000025</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q10661543</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -140,9 +143,42 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spFruBark" sex="female">
+            <persName>Julie Bark</persName>
+          </person>
+          
+          <person xml:id="spBerta" sex="female">
+            <persName>Berta Bark</persName>
+          </person>
+          
+          <person xml:id="spWilhelm" sex="male">
+            <persName>Wilhelm</persName>
+          </person>
+          
+          <person xml:id="spBark" sex="male">
+            <persName>Pontus Bark</persName>
+          </person>
+          
+          <person xml:id="spLissi" sex="female">
+            <persName>Lissi</persName>
+          </person>
+          
+          <person xml:id="spKamrerLundberg" sex="male">
+            <persName>Kamrer Lundberg</persName>
+          </person>
+          
+          <person xml:id="spLovisa" sex="female">
+            <persName>Lovisa</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="LefflerAC_SannaKvinnor">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="36263-0.jpg"/><!-- omslag -->
@@ -160,40 +196,40 @@
       <castList>
         <head>PERSONERNA:</head>
         <castItem>
-          <role xml:id="spBark">
+          <role>
             <persName ref="#Bark">BARK</persName>
             </role>.
         </castItem>
         <castItem>
-          <role xml:id="spFruBark">
+          <role>
             <persName ref="#FruBark">FRU BARK</persName>
             </role>.
         </castItem>
         <castGroup rend="braced">
           <castItem>
-            <role xml:id="spBerta">
+            <role>
               <persName ref="#Berta">BERTA</persName>
             </role>
           </castItem>
           <castItem>
-            <role xml:id="spLissi">
+            <role>
               <persName ref="#Lissi">LISSI</persName>
             </role>
           </castItem>
           <roleDesc> deras döttrar.</roleDesc>
         </castGroup>
         <castItem>
-          <role xml:id="spWilhelm">
+          <role>
             <persName ref="#Wilhelm">WILHELM</persName>
             </role>, <roleDesc>Lissis man</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spKamrerLundberg">
+          <role>
             <persName ref="#KamrerLundberg">KAMRER LUNDBERG</persName>
             </role>.
         </castItem>
         <castItem>
-          <role xml:id="spLovisa">
+          <role>
             <persName ref="#Lovisa">LOVISA</persName>
             </role>.
         </castItem>
@@ -4099,4 +4135,4 @@
       </back>
       <anchor xml:id="playend"/>
     </text>
-  </TEI>
+</TEI>

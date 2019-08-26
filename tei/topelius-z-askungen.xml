@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Askungen</title>
         <title type="sub">(Sagolek i tre äfventyr.)</title>
-        <author xml:id="TopeliusZ">
+        <author key="wikidata:Q139549" xml:id="TopeliusZ">
           <persName>
             <forename>Zacharias</forename>
             <surname>Topelius</surname>
@@ -68,6 +68,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">TopeliusZ_Askungen</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000056</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59651619</idno>
       </publicationStmt>
       <sourceDesc>
         <listBibl>
@@ -209,9 +212,66 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spThora" sex="female">
+            <persName>prinsessan Thora av Burgund</persName>
+          </person>
+          
+          <person xml:id="spTrilla" sex="female">
+            <persName>Trilla</persName>
+          </person>
+          
+          <person xml:id="spSuperba" sex="female">
+            <persName>prinsessan Superba av Burgund</persName>
+          </person>
+          
+          <person xml:id="spDina" sex="female">
+            <persName>prinsessan Dina Askungen av Burgund</persName>
+          </person>
+          
+          <person xml:id="spBarbra" sex="female">
+            <persName>Barbra</persName>
+          </person>
+          
+          <person xml:id="spGrim" sex="male">
+            <persName>Grim</persName>
+          </person>
+          
+          <person xml:id="spMumma" sex="female">
+            <persName>Mumma</persName>
+          </person>
+          
+          <person xml:id="spPimpe" sex="male">
+            <persName>Pimpe</persName>
+          </person>
+          
+          <person xml:id="spPumpa" sex="female">
+            <persName>Pumpa</persName>
+          </person>
+          
+          <person xml:id="spKungen" sex="male">
+            <persName>kung Lothar av Frankland</persName>
+          </person>
+          
+          <person xml:id="spDrottningen" sex="female">
+            <persName>drottning Brunhilda</persName>
+          </person>
+          
+          <person xml:id="spPrinsen" sex="male">
+            <persName>prins Childebert</persName>
+          </person>
+          
+          <person xml:id="spEntrubadur" sex="unknown">
+            <persName>EN TRUBADUR</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="TopeliusZ_Askungen">
+  <text>
     <anchor xml:id="playstart"/>
     <group>
       <text corresp="#bibl_TopeliusZ_Askungen_1">
@@ -227,22 +287,22 @@
             <head>Personer:</head>
             <castGroup rend="braced">
               <castItem>
-                <role xml:id="spThora"><persName ref="#Thora">THORA</persName></role>,
+                <role><persName ref="#Thora">THORA</persName></role>,
               </castItem>
               <castItem>
-                <role xml:id="spSuperba"><persName ref="#Superba">SUPERBA</persName></role>,
+                <role><persName ref="#Superba">SUPERBA</persName></role>,
               </castItem>
               <roleDesc>landsflyktiga prinsessor af Burg­<lb break="no"/>und.</roleDesc>
             </castGroup>
             <castItem>
-              <role xml:id="spTrilla"><persName ref="#Trilla">TRILLA</persName></role>, <roleDesc>deras kammartärna</roleDesc>.
+              <role><persName ref="#Trilla">TRILLA</persName></role>, <roleDesc>deras kammartärna</roleDesc>.
             </castItem>
             <castItem>
-              <role xml:id="spDina"><persName ref="#Dina">DINA</persName></role>, <roleDesc>kallad <persName ref="#Dina">Askungen</persName>, en fattig flicka,
+              <role><persName ref="#Dina">DINA</persName></role>, <roleDesc>kallad <persName ref="#Dina">Askungen</persName>, en fattig flicka,
                 <lb/> deras fostersyster</roleDesc>.
             </castItem>
             <castItem> 
-              <role xml:id="spBarbra"><persName ref="#Barbra">BARBRA</persName></role>, <roleDesc>gåsvakterska</roleDesc>.
+              <role><persName ref="#Barbra">BARBRA</persName></role>, <roleDesc>gåsvakterska</roleDesc>.
             </castItem>
           </castList>
         </front>
@@ -681,28 +741,28 @@
           <castList>
             <head>Personer:</head>
             <castItem>
-              <role xml:id="spKungen"><persName ref="#Kungen">LOTHAR</persName></role>, <roleDesc>konung i <placeName>Frankland</placeName></roleDesc>.
+              <role><persName ref="#Kungen">LOTHAR</persName></role>, <roleDesc>konung i <placeName>Frankland</placeName></roleDesc>.
             </castItem>
             <castItem>
-              <role xml:id="spDrottningen"><persName ref="#Drottningen">BRUNHILDA</persName></role>, <roleDesc>hans drottning</roleDesc>.
+              <role><persName ref="#Drottningen">BRUNHILDA</persName></role>, <roleDesc>hans drottning</roleDesc>.
             </castItem>
             <castItem>
-              <role xml:id="spPrinsen"><persName ref="#Prinsen">PRINS CHILDEBERT</persName></role>, <roleDesc>deras son</roleDesc>.
+              <role><persName ref="#Prinsen">PRINS CHILDEBERT</persName></role>, <roleDesc>deras son</roleDesc>.
             </castItem>
             <castItem>
-              <role xml:id="spGrim"><persName ref="#Grim">GRIM</persName></role>, <roleDesc>hofmarskalk</roleDesc>.
+              <role><persName ref="#Grim">GRIM</persName></role>, <roleDesc>hofmarskalk</roleDesc>.
             </castItem>
             <castItem>
-              <role xml:id="spMumma"><persName ref="#Mumma">MUMMA</persName></role>, <roleDesc>öfverhofmästarinna</roleDesc>.
+              <role><persName ref="#Mumma">MUMMA</persName></role>, <roleDesc>öfverhofmästarinna</roleDesc>.
             </castItem>
             <castItem>
-              <role xml:id="spPimpe"><persName ref="#Pimpe">PIMPE</persName></role>, <roleDesc>konungens favoritdverg</roleDesc>.
+              <role><persName ref="#Pimpe">PIMPE</persName></role>, <roleDesc>konungens favoritdverg</roleDesc>.
             </castItem>
             <castItem>
-              <role xml:id="spPumpa"><persName ref="#Pumpa">PUMPA</persName></role>, <roleDesc>drottningens dverginna</roleDesc>.
+              <role><persName ref="#Pumpa">PUMPA</persName></role>, <roleDesc>drottningens dverginna</roleDesc>.
             </castItem>
             <castItem>
-              <role xml:id="spEntrubadur"><persName ref="#Entrubadur">EN TRUBADUR</persName></role>,
+              <role><persName ref="#Entrubadur">EN TRUBADUR</persName></role>,
             </castItem>
             <castItem type="list">
               <role sameAs="#spThora"><persName ref="#Thora">Thora</persName></role>, <role sameAs="#spSuperba"><persName ref="#Superba">Superba</persName></role> och <role sameAs="#spDina"><persName ref="#Dina">Dina</persName></role>.

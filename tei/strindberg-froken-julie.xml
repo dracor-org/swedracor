@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Fröken Julie</title>
         <title type="sub">Ett naturalistiskt sorgespel</title>
-        <author xml:id="StrindbergA">
+        <author key="wikidata:Q7724" xml:id="StrindbergA">
           <persName>
             <forename>August</forename>
             <surname>Strindberg</surname>
@@ -64,6 +64,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">StrindbergA_FrokenJulie</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000041</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q658557</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -150,9 +153,30 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spJean" sex="male">
+            <persName>Jean</persName>
+          </person>
+          
+          <person xml:id="spKristin" sex="female">
+            <persName>Kristin</persName>
+          </person>
+          
+          <person xml:id="spFrökenJulie" sex="female">
+            <persName>fröken Julie</persName>
+          </person>
+          
+          <person xml:id="spBondfolket">
+            <persName>Bondfolket</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="StrindbergA_FrokenJulie">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="6272-0.jpg"/><!-- smutstitel -->
@@ -212,23 +236,23 @@
       <castList>
         <head>PERSONER.</head>
         <castItem>
-          <role xml:id="spFrökenJulie">
+          <role>
             <persName ref="#FrökenJulie">FRÖKEN JULIE</persName>
             </role>, <roleDesc>25 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spJean">
+          <role>
             <persName ref="#Jean">JEAN</persName>
             </role>, <roleDesc>betjent, 30 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spKristin">
+          <role>
             <persName ref="#Kristin">KRISTIN</persName>
             </role>, <roleDesc>kokerska, 35 år</roleDesc>.
         </castItem>
         <addSpan spanTo="#slutTillagt"/>
         <castItem>
-	  <role xml:id="spBondfolket">
+	  <role>
             <persName ref="#Bondfolket">Bondfolket</persName>
             </role>.
         </castItem>

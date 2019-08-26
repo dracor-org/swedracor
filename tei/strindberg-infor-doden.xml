@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Inför döden</title>
         <title type="sub">Sorgespel i nio scener</title>
-        <author xml:id="StrindbergA">
+        <author key="wikidata:Q7724" xml:id="StrindbergA">
           <persName>
             <forename>August</forename>
             <surname>Strindberg</surname>
@@ -69,6 +69,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">StrindbergA_InforDoden</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000045</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q10535423</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -160,9 +163,38 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spAdèle" sex="female">
+            <persName>Adèle Durand</persName>
+          </person>
+          
+          <person xml:id="spDurand" sex="male">
+            <persName>Durand</persName>
+          </person>
+          
+          <person xml:id="spPierre" sex="male">
+            <persName>Pierre</persName>
+          </person>
+          
+          <person xml:id="spAntonio" sex="male">
+            <persName>Antonio</persName>
+          </person>
+          
+          <person xml:id="spThérèse" sex="female">
+            <persName>Thérèse Durand</persName>
+          </person>
+          
+          <person xml:id="spAnnette" sex="female">
+            <persName>Annette Durand</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="StrindbergA_InforDoden">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="6523-0.jpg"/><!-- omslag volym -->
@@ -181,24 +213,24 @@
       <castList>
         <head>PERSONERNA:</head>
         <castItem>
-          <role xml:id="spDurand"><persName ref="#Durand">MONSIEUR DURAND</persName></role>, <roleDesc>pensionatsvärd, f. d. employé vid
+          <role><persName ref="#Durand">MONSIEUR DURAND</persName></role>, <roleDesc>pensionatsvärd, f. d. employé vid
             <lb/><orgName ref="#StatensJärnvägar">Statens järnvägar</orgName></roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spAdèle"><persName ref="#Adèle">ADÈLE</persName></role>, <roleDesc>hans dotter, 27 år</roleDesc>.
+          <role><persName ref="#Adèle">ADÈLE</persName></role>, <roleDesc>hans dotter, 27 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spAnnette"><persName ref="#Annette">ANNETTE</persName></role>, <roleDesc>d:o 24 år</roleDesc>.
+          <role><persName ref="#Annette">ANNETTE</persName></role>, <roleDesc>d:o 24 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spThérèse"><persName ref="#Thérèse">THÉRÈSE</persName></role>, <roleDesc>d:o 18 år</roleDesc>.
+          <role><persName ref="#Thérèse">THÉRÈSE</persName></role>, <roleDesc>d:o 18 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spAntonio"><persName ref="#Antonio">ANTONIO</persName></role>, <roleDesc>löjtnant vid ett italienskt kavalleriregemente</roleDesc>.
+          <role><persName ref="#Antonio">ANTONIO</persName></role>, <roleDesc>löjtnant vid ett italienskt kavalleriregemente</roleDesc>.
         </castItem>
         <addSpan spanTo="#slutTillagt"/>
         <castItem>
-          <role xml:id="spPierre"><persName ref="#Pierre">PIERRE</persName></role>.
+          <role><persName ref="#Pierre">PIERRE</persName></role>.
         </castItem>
         <anchor xml:id="slutTillagt"/>
       </castList>

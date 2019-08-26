@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Elfvan</title>
         <title type="sub">Skådespel i tre akter</title>
-        <author xml:id="LefflerAC">
+        <author key="wikidata:Q243068" xml:id="LefflerAC">
           <persName>
             <forename>Anne Charlotte</forename>
             <surname>Leffler</surname>
@@ -64,6 +64,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">LefflerAC_Elfvan</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000021</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q10481351</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -143,9 +146,70 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spProstinnan" sex="female">
+            <persName>prostinna Mariana</persName>
+          </person>
+          
+          <person xml:id="spBorgmästaren" sex="male">
+            <persName>borgmästare Harald</persName>
+          </person>
+          
+          <person xml:id="spFröken" sex="female">
+            <persName>fröken</persName>
+          </person>
+          
+          <person xml:id="spDoktorinnan" sex="female">
+            <persName>doktorinna Augusta</persName>
+          </person>
+          
+          <person xml:id="spPastorskan" sex="female">
+            <persName>pastorska Malvina</persName>
+          </person>
+          
+          <person xml:id="spKyrkoherden" sex="male">
+            <persName>kyrkoherde</persName>
+          </person>
+          
+          <person xml:id="spAssessorskan" sex="female">
+            <persName>assessorska Kajsa</persName>
+          </person>
+          
+          <person xml:id="spElfvan" sex="female">
+            <persName>borgmästarinna Elfvan</persName>
+          </person>
+          
+          <person xml:id="spMajorskan" sex="female">
+            <persName>majorska Emelie</persName>
+          </person>
+          
+          <person xml:id="spMalvina" sex="female">
+            <persName>Malvina</persName>
+          </person>
+          
+          <person xml:id="spRektorskan" sex="female">
+            <persName>rektorska Maria</persName>
+          </person>
+          
+          <person xml:id="spGrefvinnan" sex="female">
+            <persName>grevinna Saima</persName>
+          </person>
+          
+          <person xml:id="spBaronen" sex="male">
+            <persName>baron Magnus</persName>
+          </person>
+          
+          <person xml:id="spBetjänt">
+            <persName>Betjänten</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="LefflerAC_Elfvan">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="31021-0.jpg"/><!-- omslag -->
@@ -162,55 +226,55 @@
       <castList>
         <head>PERSONERNA:</head>
         <castItem>
-          <role xml:id="spProstinnan"><persName ref="#Prostinnan">Prostinnan</persName>.</role>
+          <role><persName ref="#Prostinnan">Prostinnan</persName>.</role>
         </castItem>
         <castItem>
-          <role xml:id="spBorgmästaren"><persName ref="#Borgmästaren">Borgmästaren</persName></role>, <roleDesc>hennes son</roleDesc>.
+          <role><persName ref="#Borgmästaren">Borgmästaren</persName></role>, <roleDesc>hennes son</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spElfvan"><persName ref="#Elfvan">Borgmästarinnan</persName></role>.
+          <role><persName ref="#Elfvan">Borgmästarinnan</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spGrefvinnan"><persName ref="#Grefvinnan">Grefvinnan</persName></role>.
+          <role><persName ref="#Grefvinnan">Grefvinnan</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spBaronen"><persName ref="#Baronen">Baronen</persName></role>, <roleDesc>hennes bror</roleDesc>.
+          <role><persName ref="#Baronen">Baronen</persName></role>, <roleDesc>hennes bror</roleDesc>.
         </castItem>
         <castItem>
           <role><persName ref="#Postmästaren">Postmästaren</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spMajorskan"><persName ref="#Majorskan">Majorskan</persName></role>, <roleDesc>hans fru</roleDesc>.
+          <role><persName ref="#Majorskan">Majorskan</persName></role>, <roleDesc>hans fru</roleDesc>.
         </castItem>
         <castItem>
           <role><persName ref="#Doktorn">Doktorn</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spDoktorinnan"><persName ref="#Doktorinnan">Doktorinnan</persName></role>.
+          <role><persName ref="#Doktorinnan">Doktorinnan</persName></role>.
         </castItem>
        <castItem>
          <role><persName ref="#Rektorn">Rektorn</persName></role>.
        </castItem>
         <castItem>
-          <role xml:id="spRektorskan"><persName ref="#Rektorskan">Rektorskan</persName></role>.
+          <role><persName ref="#Rektorskan">Rektorskan</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spKyrkoherden"><persName ref="#Kyrkoherden">Kyrkoheden</persName></role>.
+          <role><persName ref="#Kyrkoherden">Kyrkoheden</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spPastorskan"><persName ref="#Pastorskan">Pastorskan</persName></role>, <roleDesc>hans fru</roleDesc>.
+          <role><persName ref="#Pastorskan">Pastorskan</persName></role>, <roleDesc>hans fru</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spMalvina"><persName ref="#Malvina">Malvina</persName></role>, <roleDesc>deras dotter</roleDesc>.
+          <role><persName ref="#Malvina">Malvina</persName></role>, <roleDesc>deras dotter</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spAssessorskan"><persName ref="#Assessorskan">Assessorskan</persName></role>.
+          <role><persName ref="#Assessorskan">Assessorskan</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spFröken"><persName ref="#Fröken">Fröken</persName></role>.
+          <role><persName ref="#Fröken">Fröken</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spBetjänt"/><roleDesc corresp="#Betjänt">En betjänt hos baronen</roleDesc>.
+          <role/><roleDesc corresp="#Betjänt">En betjänt hos baronen</roleDesc>.
         </castItem>
         <addSpan spanTo="#slutTillagt"/>
         <castItem>

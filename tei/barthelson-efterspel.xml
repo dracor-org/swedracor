@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Efterspel</title>
         <title type="sub">Komedi i tre akter</title>
-        <author xml:id="BarthelsonA">
+        <author key="wikidata:Q18237593" xml:id="BarthelsonA">
           <persName>
             <forename>Augusta</forename>
             <surname>Barthelson</surname>
@@ -67,6 +67,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">BarthelsonA_Efterspel</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000009</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59618221</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -155,9 +158,54 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spFruHillner" sex="female">
+            <persName>professorskan Hilma Hillner</persName>
+          </person>
+          
+          <person xml:id="spBjörnklo" sex="male">
+            <persName>Sixten Björnklo</persName>
+          </person>
+          
+          <person xml:id="spGertrud" sex="female">
+            <persName>Gertrud Björnklo</persName>
+          </person>
+          
+          <person xml:id="spIvar" sex="male">
+            <persName>ingenjör Ivar Hillner</persName>
+          </person>
+          
+          <person xml:id="spBetjenten">
+            <persName>Betjenten</persName>
+          </person>
+          
+          <person xml:id="spVide" sex="male">
+            <persName>Olof Vide</persName>
+          </person>
+          
+          <person xml:id="spLisen" sex="female">
+            <persName>Lisen Vide</persName>
+          </person>
+          
+          <person xml:id="spValborg" sex="female">
+            <persName>professorskan Valborg Vide</persName>
+          </person>
+          
+          <person xml:id="spHelge" sex="male">
+            <persName>löjtnant Helge Vide</persName>
+          </person>
+          
+          <person xml:id="spvonBlixt" sex="male">
+            <persName>löjtnant von Blixt</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="BarthelsonA_Efterspel">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="6016-0.jpg"/><!-- pärm -->
@@ -176,38 +224,38 @@
       <castList>
         <head>PERSONER.</head>
         <castItem>
-          <role xml:id="spBjörnklo"><persName ref="#Björnklo">Sixten Björnklo</persName></role>, <roleDesc>f.d. kapten</roleDesc>.
+          <role><persName ref="#Björnklo">Sixten Björnklo</persName></role>, <roleDesc>f.d. kapten</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spGertrud"><persName ref="#Gertrud">Gertrud</persName></role>, <roleDesc>hans hustru</roleDesc>.
+          <role><persName ref="#Gertrud">Gertrud</persName></role>, <roleDesc>hans hustru</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spFruHillner"><persName ref="#FruHillner">Enkefru Hillner</persName></role>, <roleDesc>hennes mor</roleDesc>.
+          <role><persName ref="#FruHillner">Enkefru Hillner</persName></role>, <roleDesc>hennes mor</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spVide"><persName ref="#Vide">Olof Vide</persName></role>, <roleDesc>professor</roleDesc>.
+          <role><persName ref="#Vide">Olof Vide</persName></role>, <roleDesc>professor</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spValborg"><persName ref="#Valborg">Valborg</persName></role>, <roleDesc>hans hustru</roleDesc>.
+          <role><persName ref="#Valborg">Valborg</persName></role>, <roleDesc>hans hustru</roleDesc>.
         </castItem>
         <castGroup rend="braced">
           <castItem>
-            <role xml:id="spLisen"><persName ref="#Lisen">Lisen</persName>
+            <role><persName ref="#Lisen">Lisen</persName>
             </role>,
           </castItem>
           <castItem>
-            <role xml:id="spHelge"><persName ref="#Helge">Helge</persName></role>,
+            <role><persName ref="#Helge">Helge</persName></role>,
           </castItem>
           <roleDesc>deras barn.</roleDesc>
         </castGroup>
         <castItem>
-          <role xml:id="spIvar"><persName ref="#Ivar">Ivar Hillner</persName></role>, <roleDesc>ingeniör</roleDesc>.
+          <role><persName ref="#Ivar">Ivar Hillner</persName></role>, <roleDesc>ingeniör</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spvonBlixt"><persName ref="#vonBlixt">von Blixt</persName></role>, <roleDesc>löjtnant</roleDesc>.
+          <role><persName ref="#vonBlixt">von Blixt</persName></role>, <roleDesc>löjtnant</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spBetjenten"/><persName ref="#Betjenten">Johan</persName>, <roleDesc>betjent hos Björnklo</roleDesc>.
+          <role/><persName ref="#Betjenten">Johan</persName>, <roleDesc>betjent hos Björnklo</roleDesc>.
         </castItem>
         <addSpan spanTo="#slutTillagt"/>
         <castItem type="list">

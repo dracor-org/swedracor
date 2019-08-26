@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>"Förlåt mig!"</title>
         <title type="sub">Komedi i en akt</title>
-        <author xml:id="LundbergE">
+        <author key="wikidata:Q18244062" xml:id="LundbergE">
           <persName>
             <forename>Emilie</forename>
             <surname>Lundberg</surname>
@@ -63,6 +63,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">LundbergE_ForlatMig</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000029</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59618575</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -141,9 +144,26 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spVännen" sex="male">
+            <persName>Oskar</persName>
+          </person>
+          
+          <person xml:id="spHerrn" sex="male">
+            <persName>Karl Kalle</persName>
+          </person>
+          
+          <person xml:id="spFrun" sex="female">
+            <persName>Alma</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="LundbergE_ForlatMig">
+  <text>
     <anchor xml:id="playstart"/>    
     <front>  
       <pb facs="6943-0.jpg"/><!-- smutstitel -->
@@ -159,13 +179,13 @@
       <castList>
         <head>PERSONERNA:</head>
         <castItem>
-          <role xml:id="spHerrn"><persName ref="#Herrn">HERRN</persName></role>.
+          <role><persName ref="#Herrn">HERRN</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spFrun"><persName ref="#Frun">FRUN</persName></role>.
+          <role><persName ref="#Frun">FRUN</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spVännen"><persName ref="#Vännen">VÄNNEN</persName></role>.
+          <role><persName ref="#Vännen">VÄNNEN</persName></role>.
         </castItem>
       </castList>
       <set>

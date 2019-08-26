@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Småstadslif</title>
         <title type="sub">Lustspel i tre akter</title>
-        <author xml:id="AgrellA">
+        <author key="wikidata:Q469339" xml:id="AgrellA">
           <persName>
             <forename>Alfhild</forename>
             <surname>Agrell</surname>
@@ -69,6 +69,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">AgrellA_Smastadslif</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000007</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q18245923</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -167,9 +170,87 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spEk" sex="male">
+            <persName>Ek</persName>
+          </person>
+          
+          <person xml:id="spLundell" sex="male">
+            <persName>Pehr August Lundell</persName>
+          </person>
+          
+          <person xml:id="spAnnSophie" sex="female">
+            <persName>Ann Sophie Lundell</persName>
+          </person>
+          
+          <person xml:id="spKatrina" sex="female">
+            <persName>Katrina Lundell</persName>
+          </person>
+          
+          <person xml:id="spSandberg" sex="male">
+            <persName>Josaias Sandberg</persName>
+          </person>
+          
+          <person xml:id="spKajsa" sex="female">
+            <persName>Kajsa</persName>
+          </person>
+          
+          <person xml:id="spSundin" sex="male">
+            <persName>Sundin</persName>
+          </person>
+          
+          <person xml:id="spAlmén" sex="male">
+            <persName>Almén</persName>
+          </person>
+          
+          <person xml:id="spGranqvist" sex="male">
+            <persName>Granqvist</persName>
+          </person>
+          
+          <person xml:id="spQviding" sex="male">
+            <persName>Qviding</persName>
+          </person>
+          
+          <person xml:id="spRosenqvist" sex="male">
+            <persName>Rosenqvist</persName>
+          </person>
+          
+          <person xml:id="spKalle" sex="male">
+            <persName>Kalle</persName>
+          </person>
+          
+          <person xml:id="spFruSundin" sex="female">
+            <persName>fru Ulrika Sundin</persName>
+          </person>
+          
+          <person xml:id="spFruQviding" sex="female">
+            <persName>fru Qviding</persName>
+          </person>
+          
+          <person xml:id="spFruAlmén" sex="female">
+            <persName>fru Almén</persName>
+          </person>
+          
+          <person xml:id="spFruBoberg" sex="female">
+            <persName>Fru Vendla Boberg</persName>
+          </person>
+          
+          <person xml:id="spZitter" sex="female">
+            <persName>mamsell Lovisa Zitter</persName>
+          </person>
+          
+          <person xml:id="spUlrikaEleonora" sex="female">
+            <persName>Ulrika Eleonora Sundin</persName>
+          </person>
+          <!--unknown speaker: spAlmen-->
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="AgrellA_Smastadslif">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="35564-0.jpg"/><!-- pärm -->
@@ -186,59 +267,59 @@
       <castList>
         <head>PERSONER:</head>
         <castItem rend="braced">
-          <role xml:id="spLundell"><persName ref="#Lundell">Lundell</persName></role>, <roleDesc>illiterat rådman och tillförordnad
+          <role><persName ref="#Lundell">Lundell</persName></role>, <roleDesc>illiterat rådman och tillförordnad
             <lb/> borgmästare i Näsvik</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spKatrina"><persName ref="#Katrina">Katrina</persName></role>, <roleDesc>hans hustru</roleDesc>.
+          <role><persName ref="#Katrina">Katrina</persName></role>, <roleDesc>hans hustru</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spAnnSophie"><persName ref="#AnnSophie">Ann’ Sophie</persName></role>, <roleDesc>deras dotter</roleDesc>.
+          <role><persName ref="#AnnSophie">Ann’ Sophie</persName></role>, <roleDesc>deras dotter</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spEk"><persName ref="#Ek">Ek</persName></role>, <roleDesc>skrifvare hos <persName ref="#Lundell">Lundell</persName></roleDesc>.
+          <role><persName ref="#Ek">Ek</persName></role>, <roleDesc>skrifvare hos <persName ref="#Lundell">Lundell</persName></roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spSandberg"><persName ref="#Sandberg">Sandberg</persName></role>, <roleDesc>läderhandlare</roleDesc>.
+          <role><persName ref="#Sandberg">Sandberg</persName></role>, <roleDesc>läderhandlare</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spGranqvist"><persName ref="#Granqvist">Granqvist</persName></role>, <roleDesc>postskrifvare</roleDesc>.
+          <role><persName ref="#Granqvist">Granqvist</persName></role>, <roleDesc>postskrifvare</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spQviding"><persName ref="#Qviding">Qviding</persName></role>, <roleDesc>mjölhandlare</roleDesc>.
+          <role><persName ref="#Qviding">Qviding</persName></role>, <roleDesc>mjölhandlare</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spFruQviding"><persName ref="#FruQviding">Fru Qviding</persName></role>.
+          <role><persName ref="#FruQviding">Fru Qviding</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spSundin"><persName ref="#Sundin">Sundin</persName></role>, <roleDesc>diversehandlare</roleDesc>.
+          <role><persName ref="#Sundin">Sundin</persName></role>, <roleDesc>diversehandlare</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spFruSundin"><persName ref="#FruSundin">Fru Sundin</persName></role>.
+          <role><persName ref="#FruSundin">Fru Sundin</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spUlrikaEleonora"><persName ref="#UlrikaEleonora">Ulrika Eleonora</persName></role>, <roleDesc>deras dotter</roleDesc>.
+          <role><persName ref="#UlrikaEleonora">Ulrika Eleonora</persName></role>, <roleDesc>deras dotter</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spAlmén"><persName ref="#Almén">Almén</persName></role>, <roleDesc>f. d. landsfiskal</roleDesc>.
+          <role><persName ref="#Almén">Almén</persName></role>, <roleDesc>f. d. landsfiskal</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spFruAlmén"><persName ref="#FruAlmén">Fru Almén</persName></role>.
+          <role><persName ref="#FruAlmén">Fru Almén</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spRosenqvist"><persName ref="#Rosenqvist">Rosenqvist</persName></role>, <roleDesc>provisor</roleDesc>.
+          <role><persName ref="#Rosenqvist">Rosenqvist</persName></role>, <roleDesc>provisor</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spFruBoberg"><persName ref="#FruBoberg">Fru Boberg</persName></role>, <roleDesc>enka</roleDesc>.
+          <role><persName ref="#FruBoberg">Fru Boberg</persName></role>, <roleDesc>enka</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spZitter"><persName ref="#Zitter">Zitter</persName></role>, <roleDesc>mamsell</roleDesc>.
+          <role><persName ref="#Zitter">Zitter</persName></role>, <roleDesc>mamsell</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spKajsa"><persName ref="#Kajsa">Kajsa</persName></role>, <roleDesc>piga hos <persName ref="#Lundell">Lundell</persName></roleDesc>.
+          <role><persName ref="#Kajsa">Kajsa</persName></role>, <roleDesc>piga hos <persName ref="#Lundell">Lundell</persName></roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spKalle"><persName ref="#Kalle">Kalle</persName></role>, <roleDesc>springpojke hos <persName ref="#Sandberg">Sandberg</persName></roleDesc>.
+          <role><persName ref="#Kalle">Kalle</persName></role>, <roleDesc>springpojke hos <persName ref="#Sandberg">Sandberg</persName></roleDesc>.
         </castItem>
         <addSpan spanTo="#slutTillagt"/>
         <castItem>

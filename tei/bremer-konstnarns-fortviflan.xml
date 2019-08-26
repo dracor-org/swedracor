@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Konstnärns förtviflan</title>
-        <author xml:id="BremerF">
+        <author key="wikidata:Q262145" xml:id="BremerF">
           <persName>
             <forename>Fredrika</forename>
             <surname>Bremer</surname>
@@ -63,6 +63,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">BremerF_KonstnarnsFortviflan</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000013</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59618616</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -149,9 +152,22 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spEdvard" sex="male">
+            <persName>Edvard</persName>
+          </person>
+          
+          <person xml:id="spAline" sex="female">
+            <persName>Aline</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
-  </teiHeader> 
-  <text xml:id="BremerF_KonstnarnsFortviflan">
+
+  </teiHeader>
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="36388-0.jpg"/><!-- titelsida, bok -->
@@ -175,11 +191,11 @@
       <castList>
         <head>PERSONER:</head>
         <castItem>
-          <role xml:id="spEdvard">
+          <role>
             <persName ref="#Edvard">Edvard</persName></role>, <roleDesc>kompositör</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spAline">
+          <role>
             <persName ref="#Aline">Aline</persName></role> <roleDesc>hans hustru</roleDesc>.
         </castItem>
       </castList>
@@ -433,5 +449,5 @@
       </div>
     </back>
     <anchor xml:id="playend"/>
-  </text>        
+  </text>
 </TEI>

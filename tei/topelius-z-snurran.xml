@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Snurran</title>
         <title type="sub">Skämtsaga i fyra äfventyr</title>
-        <author xml:id="TopeliusZ">
+        <author key="wikidata:Q139549" xml:id="TopeliusZ">
           <persName>
             <forename>Zacharias</forename>
             <surname>Topelius</surname>
@@ -87,6 +87,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">TopeliusZ_Snurran</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000062</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59652151</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -198,9 +201,110 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spPetter" sex="male">
+            <persName>Petter Hans</persName>
+          </person>
+          
+          <person xml:id="spMästerHans" sex="male">
+            <persName>mäster Hans</persName>
+          </person>
+          
+          <person xml:id="spLisa" sex="female">
+            <persName>Elisabeth Lisa Hans</persName>
+          </person>
+          
+          <person xml:id="spMatts" sex="male">
+            <persName>Mats Hans</persName>
+          </person>
+          
+          <person xml:id="spPytt" sex="male">
+            <persName>Pytt</persName>
+          </person>
+          
+          <person xml:id="spIllflaxa" sex="female">
+            <persName>Illflaxa</persName>
+          </person>
+          
+          <person xml:id="spOlle" sex="male">
+            <persName>Olle Hans</persName>
+          </person>
+          
+          <person xml:id="spSnurran" sex="female">
+            <persName>prinsessan Munviga Snurran</persName>
+          </person>
+          
+          <person xml:id="spKaptenPuff" sex="male">
+            <persName>kapten Puff</persName>
+          </person>
+          
+          <person xml:id="spRosenkind" sex="female">
+            <persName>Rosenkind</persName>
+          </person>
+          
+          <person xml:id="spSpindelben" sex="male">
+            <persName>guvernör Spindelben</persName>
+          </person>
+          <personGrp xml:id="spTvåTävlande" sex="male">
+            <name/>
+          </personGrp>
+          
+          <person xml:id="spKungen" sex="male">
+            <persName>kung</persName>
+          </person>
+          
+          <person xml:id="spGuvernörskan" sex="female">
+            <persName>guvernörskan</persName>
+          </person>
+          
+          <person xml:id="spHärolden" sex="male">
+            <persName>Kungens Härold</persName>
+          </person>
+          
+          <person xml:id="spRådmanOrre" sex="male">
+            <persName>rådman Orre</persName>
+          </person>
+          <personGrp xml:id="spFleraRöster" sex="unknown">
+            <name>FLERA RÖSTER.</name>
+          </personGrp>
+          <personGrp xml:id="spMångaRöster" sex="unknown">
+            <name>MÅNGA RÖSTER.</name>
+          </personGrp>
+          
+          <person xml:id="spDrottningen" sex="female">
+            <persName>drottning</persName>
+          </person>
+          <personGrp xml:id="spHofdamer">
+            <name>Hofdamer</name>
+          </personGrp>
+          
+          <person xml:id="spGummanHans" sex="female">
+            <persName>fru Hans</persName>
+          </person>
+          
+          <person xml:id="spFörstaRösten" sex="unknown">
+            <persName>FÖRSTA RÖSTEN.</persName>
+          </person>
+          
+          <person xml:id="spAndraRösten" sex="unknown">
+            <persName>ANDRA RÖSTEN.</persName>
+          </person>
+          
+          <person xml:id="spThordön" sex="female">
+            <persName>Thordön</persName>
+          </person>
+          
+          <person xml:id="spSnöflinga" sex="female">
+            <persName>Snöflinga</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="TopeliusZ_Snurran">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="38460-0.jpg"/><!-- pärm -->
@@ -226,62 +330,62 @@
       <castList>
         <head>Personer:</head>
         <castItem>
-          <role xml:id="spKungen"><persName ref="#Kungen">Kungen</persName></role>.
+          <role><persName ref="#Kungen">Kungen</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spDrottningen"><persName ref="#Drottningen">Drottningen</persName></role>.
+          <role><persName ref="#Drottningen">Drottningen</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spSnurran"><persName ref="#Snurran">Prinsessan Munviga</persName></role>, <roleDesc>deras dotter, benämnd <persName ref="#Snurran">Snurran</persName></roleDesc>.
+          <role><persName ref="#Snurran">Prinsessan Munviga</persName></role>, <roleDesc>deras dotter, benämnd <persName ref="#Snurran">Snurran</persName></roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spSpindelben"><persName ref="#Spindelben">Guvernör Spindelben</persName></role>.
+          <role><persName ref="#Spindelben">Guvernör Spindelben</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spGuvernörskan"><persName ref="#Guvernörskan">Guvernörskan Eau de Cologne</persName></role>, <roleDesc>prinsessans lärarinna</roleDesc>.
+          <role><persName ref="#Guvernörskan">Guvernörskan Eau de Cologne</persName></role>, <roleDesc>prinsessans lärarinna</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spRådmanOrre"><persName ref="#RådmanOrre">Rådman Orre</persName></role>, <roleDesc>öfverdomare</roleDesc>.
+          <role><persName ref="#RådmanOrre">Rådman Orre</persName></role>, <roleDesc>öfverdomare</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spKaptenPuff"><persName ref="#KaptenPuff">Kapten Puff</persName></role>, <roleDesc>chef för lifvakten, Spindelbens adjutant</roleDesc>.
+          <role><persName ref="#KaptenPuff">Kapten Puff</persName></role>, <roleDesc>chef för lifvakten, Spindelbens adjutant</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spPytt"><persName ref="#Pytt">Pytt</persName></role>, <roleDesc>hans son, dverg</roleDesc>.
+          <role><persName ref="#Pytt">Pytt</persName></role>, <roleDesc>hans son, dverg</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spHärolden"><persName ref="#Härolden">Kungens Härold</persName></role>.
+          <role><persName ref="#Härolden">Kungens Härold</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spMästerHans"><persName ref="#MästerHans">Mäster Hans</persName></role>, <roleDesc>smed</roleDesc>.
+          <role><persName ref="#MästerHans">Mäster Hans</persName></role>, <roleDesc>smed</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spGummanHans"><persName ref="#GummanHans">Gumman Hans</persName></role>, <roleDesc>hans hustru</roleDesc>.
+          <role><persName ref="#GummanHans">Gumman Hans</persName></role>, <roleDesc>hans hustru</roleDesc>.
         </castItem>
         <castGroup rend="braced">
           <castItem>
-            <role xml:id="spPetter"><persName ref="#Petter">Lustiga Petter</persName></role>,
+            <role><persName ref="#Petter">Lustiga Petter</persName></role>,
           </castItem>
           <castItem>
-            <role xml:id="spMatts"><persName ref="#Matts">Kloka Matts</persName></role>,
+            <role><persName ref="#Matts">Kloka Matts</persName></role>,
           </castItem>
           <castItem>
-            <role xml:id="spOlle"><persName ref="#Olle">Dumma Olle</persName></role>,
+            <role><persName ref="#Olle">Dumma Olle</persName></role>,
           </castItem>
           <roleDesc>deras söner, smedslärlingar.</roleDesc>
         </castGroup>
         <castItem>
-          <role xml:id="spLisa"><persName ref="#Lisa">Lisa</persName></role>, <roleDesc>deras fosterdotter</roleDesc>.
+          <role><persName ref="#Lisa">Lisa</persName></role>, <roleDesc>deras fosterdotter</roleDesc>.
         </castItem>
         <castGroup rend="braced">
           <castItem>
-            <role xml:id="spRosenkind"><persName ref="#Rosenkind">Rosenkind</persName></role>,
+            <role><persName ref="#Rosenkind">Rosenkind</persName></role>,
           </castItem>
           <castItem>
-            <role xml:id="spSnöflinga"><persName ref="#Snöflinga">Snöflinga</persName></role>,
+            <role><persName ref="#Snöflinga">Snöflinga</persName></role>,
           </castItem>
           <castItem>
-            <role xml:id="spThordön"><persName ref="#Thordön">Thordön</persName></role>,
+            <role><persName ref="#Thordön">Thordön</persName></role>,
           </castItem>
           <roleDesc>féer.</roleDesc>
         </castGroup>
@@ -296,13 +400,13 @@
         <pb facs="38460-9.jpg"/><!-- tom sida -->
         <pb facs="38460-10.jpg"/><fw type="pageNum">153</fw>
         <castItem>
-          <role xml:id="spIllflaxa"><persName ref="#Illflaxa">Illflaxa</persName></role>, <roleDesc>en hexa</roleDesc>.
+          <role><persName ref="#Illflaxa">Illflaxa</persName></role>, <roleDesc>en hexa</roleDesc>.
         </castItem>
         <castItem type="list">
           <roleGroup xml:id="spHofdamer"><roleDesc corresp="#Hofdamer">Hofdamer</roleDesc></roleGroup> och 
           <roleGroup><roleDesc>röster, som tala</roleDesc>
-            <role xml:id="spFörstaRösten" corresp="#FörstaRösten"/>
-            <role xml:id="spAndraRösten" corresp="#AndraRösten"/>
+            <role corresp="#FörstaRösten"/>
+            <role corresp="#AndraRösten"/>
             <roleGroup xml:id="spFleraRöster" corresp="#FleraRöster"/>
             <roleGroup xml:id="spMångaRöster" corresp="#MångaRöster"/>
             <roleGroup xml:id="spTvåTävlande" corresp="#TvåTävlande"/>

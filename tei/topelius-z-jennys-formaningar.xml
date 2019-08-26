@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Jennys förmaningar</title>
         <title type="sub">Kammarlek</title>
-        <author xml:id="TopeliusZ">
+        <author key="wikidata:Q139549" xml:id="TopeliusZ">
           <persName>
             <forename>Zacharias</forename>
             <surname>Topelius</surname>
@@ -70,6 +70,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">TopeliusZ_JennysFormaningar</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000057</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59652174</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -175,9 +178,23 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spJenny" sex="female">
+            <persName>Jenny</persName>
+          </person>
+          <!--unknown speaker: spRösten-->
+          
+          <person xml:id="spVakt" sex="male">
+            <persName>Vakt</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="TopeliusZ_JennysFormaningar">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="38078-0.jpg"/><!-- titelsida, volym -->
@@ -191,10 +208,10 @@
       <castList>
         <head>Personer:</head>
         <castItem>
-          <role xml:id="spJenny"><persName ref="#Jenny">Jenny</persName></role>.
+          <role><persName ref="#Jenny">Jenny</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spVakt"><persName ref="#Vakt">Gårdshunden Vakt</persName></role>.
+          <role><persName ref="#Vakt">Gårdshunden Vakt</persName></role>.
         </castItem>
         <castItem>
           <role><persName ref="#Peppi">Dockan Peppi</persName></role>.

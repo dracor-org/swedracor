@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>I telefon</title>
         <title type="sub">Bagatell i en akt</title>
-        <author xml:id="BenedictssonV">
+        <author key="wikidata:Q273950" xml:id="BenedictssonV">
           <persName>
             <forename>Victoria</forename>
             <surname>Benedictsson</surname>
@@ -69,6 +69,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">BenedictssonV_ITelefon</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000010</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59645770</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -193,9 +196,46 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spSiri" sex="female">
+            <persName>Siri</persName>
+          </person>
+          
+          <person xml:id="spHäradshöfdingen" sex="male">
+            <persName>häradshövding Eskilson</persName>
+          </person>
+          
+          <person xml:id="spIda" sex="female">
+            <persName>Ida</persName>
+          </person>
+          
+          <person xml:id="spNotarien" sex="male">
+            <persName>notarie</persName>
+          </person>
+          
+          <person xml:id="spDenyngreflickan" sex="female">
+            <persName>Flickorna</persName>
+          </person>
+          
+          <person xml:id="spDenäldreflickan" sex="female">
+            <persName>Flickorna</persName>
+          </person>
+          
+          <person xml:id="spNilla" sex="female">
+            <persName>Nilla</persName>
+          </person>
+          
+          <person xml:id="spBirger" sex="male">
+            <persName>Birger</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="BenedictssonV_ITelefon">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="29194-0.jpg"/>
@@ -210,28 +250,28 @@
       <castList>
         <head>Personerna:</head>
         <castItem>
-          <role xml:id="spHäradshöfdingen"><persName ref="#Häradshöfdingen">Häradshöfding Eskilson</persName></role>, <roleDesc>domhafvande på landet</roleDesc>,
+          <role><persName ref="#Häradshöfdingen">Häradshöfding Eskilson</persName></role>, <roleDesc>domhafvande på landet</roleDesc>,
         </castItem>
         <castItem>
-          <role xml:id="spSiri"><persName ref="#Siri">Siri</persName></role>, <roleDesc>hans brorsdotter</roleDesc>,
+          <role><persName ref="#Siri">Siri</persName></role>, <roleDesc>hans brorsdotter</roleDesc>,
         </castItem>
         <castItem>
-          <role xml:id="spIda"><persName ref="#Ida">Ida</persName></role>, <roleDesc>hans systerdotter</roleDesc>,
+          <role><persName ref="#Ida">Ida</persName></role>, <roleDesc>hans systerdotter</roleDesc>,
         </castItem>
         <castItem>
-          <role xml:id="spBirger"><persName ref="#Birger">Birger</persName></role>, <roleDesc><persName ref="#Ida">Idas</persName> fästman</roleDesc>,
+          <role><persName ref="#Birger">Birger</persName></role>, <roleDesc><persName ref="#Ida">Idas</persName> fästman</roleDesc>,
         </castItem>
         <castItem>
-          <role xml:id="spNilla"><persName ref="#Nilla">Nilla</persName></role>, <roleDesc>gammal hushållerska</roleDesc>,
+          <role><persName ref="#Nilla">Nilla</persName></role>, <roleDesc>gammal hushållerska</roleDesc>,
         </castItem>
         <castItem>
-          <role xml:id="spNotarien"><persName ref="#Notarien">Notarien</persName></role>,
+          <role><persName ref="#Notarien">Notarien</persName></role>,
         </castItem>
       	<castItem>
           <roleGroup>
             <roleDesc><persName ref="#Flickorna">Flickorna</persName></roleDesc>.
-            <role xml:id="spDenyngreflickan" corresp="#Denyngreflickan"/>
-            <role xml:id="spDenäldreflickan" corresp="#Denäldreflickan"/>
+            <role corresp="#Denyngreflickan"/>
+            <role corresp="#Denäldreflickan"/>
           </roleGroup>
         </castItem>
       </castList>

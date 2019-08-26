@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Fadren</title>
         <title type="sub">Sorgespel i tre akter</title>
-        <author xml:id="StrindbergA">
+        <author key="wikidata:Q7724" xml:id="StrindbergA">
           <persName>
             <forename>August</forename>
             <surname>Strindberg</surname>
@@ -64,6 +64,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">StrindbergA_Fadren</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000038</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q1197789</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -143,9 +146,50 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spRyttmästarn" sex="male">
+            <persName>Adolf</persName>
+          </person>
+          
+          <person xml:id="spKalfaktorn" sex="male">
+            <persName>Svärd</persName>
+          </person>
+          
+          <person xml:id="spPastorn" sex="male">
+            <persName>pastor Jonas</persName>
+          </person>
+          
+          <person xml:id="spNöjd" sex="male">
+            <persName>Nöjd</persName>
+          </person>
+          
+          <person xml:id="spLaura" sex="female">
+            <persName>Laura</persName>
+          </person>
+          
+          <person xml:id="spSvärmodren" sex="female">
+            <persName>SVÄRMODREN</persName>
+          </person>
+          
+          <person xml:id="spDoktorÖstermark" sex="male">
+            <persName>doktor Östermark</persName>
+          </person>
+          
+          <person xml:id="spAmman" sex="female">
+            <persName>Margret</persName>
+          </person>
+          
+          <person xml:id="spBertha" sex="female">
+            <persName>Bertha</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="StrindbergA_Fadren">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="6261-0.jpg"/>
@@ -161,48 +205,48 @@
       <castList>
         <head>ROLER:</head>
         <castItem>
-          <role xml:id="spRyttmästarn">
+          <role>
             <persName ref="#Ryttmästarn">RYTTMÄSTARN</persName>
             </role>.
         </castItem>
         <castItem>
-          <role xml:id="spLaura">
+          <role>
             <persName ref="#Laura">LAURA</persName>
             </role>, <roleDesc>Hans Hustru</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spBertha">
+          <role>
             <persName ref="#Bertha">BERTHA</persName>
             </role>, <roleDesc>Deras Dotter</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spDoktorÖstermark">
+          <role>
             <persName ref="#DoktorÖstermark">DOKTOR ÖSTERMARK</persName>
             </role>.
         </castItem>
         <castItem>
-          <role xml:id="spPastorn">
+          <role>
             <persName ref="#Pastorn">PASTORN</persName>
             </role>.
         </castItem>
         <castItem>
-          <role xml:id="spAmman">
+          <role>
             <persName ref="#Amman">AMMAN</persName>
             </role>.
         </castItem>
         <castItem>
-          <role xml:id="spNöjd">
+          <role>
             <persName ref="#Nöjd">NÖJD</persName>
             </role>.
         </castItem>
         <castItem>
-          <role xml:id="spKalfaktorn">
+          <role>
             <persName ref="#Kalfaktorn">KALFAKTORN</persName>
             </role>.
         </castItem>
         <addSpan spanTo="#slutTillagt"/>
         <castItem>
-          <role xml:id="spSvärmodren">
+          <role>
             <persName ref="#Svärmodren">SVÄRMODREN</persName>
             </role>. 
         </castItem>

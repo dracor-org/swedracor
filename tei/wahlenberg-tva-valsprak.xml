@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Två valspråk</title>
         <title type="sub">Komedi i tre akter</title>
-        <author xml:id="WahlenbergA">
+        <author key="wikidata:Q4990085" xml:id="WahlenbergA">
           <persName>Anna Wahlenberg</persName>
           <idno type="LIBRIS">http://libris.kb.se/auth/100647</idno>
           <idno type="Litteraturbanken">http://litteraturbanken.se/#!forfattare/WahlenbergA</idno>
@@ -60,6 +60,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">WahlenbergA_TvaValsprak</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000066</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59652303</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -137,9 +140,58 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spKonsulinnan" sex="female">
+            <persName>konsulinnan Horner</persName>
+          </person>
+          
+          <person xml:id="spFruHermens" sex="female">
+            <persName>fru Tilda Hermens</persName>
+          </person>
+          
+          <person xml:id="spAda" sex="female">
+            <persName>Ada</persName>
+          </person>
+          
+          <person xml:id="spKammarrådinnan" sex="female">
+            <persName>kammarrådinnan Kull</persName>
+          </person>
+          
+          <person xml:id="spFriherrinnan" sex="female">
+            <persName>friherrinnan Lejonskjöld</persName>
+          </person>
+          
+          <person xml:id="spFruLetström" sex="female">
+            <persName>fru Letström</persName>
+          </person>
+          
+          <person xml:id="spHanna" sex="female">
+            <persName>Hanna</persName>
+          </person>
+          
+          <person xml:id="spBergenhjelm" sex="male">
+            <persName>häradshövding Ernst Bergenhjelm</persName>
+          </person>
+          
+          <person xml:id="spWalter" sex="male">
+            <persName>Walter</persName>
+          </person>
+          
+          <person xml:id="spThorin" sex="male">
+            <persName>Wilhelm Thorin</persName>
+          </person>
+          
+          <person xml:id="spHermens" sex="male">
+            <persName>Hermens</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="WahlenbergA_TvaValsprak">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="6099-0.jpg"/><!-- pärm -->
@@ -155,40 +207,40 @@
       <castList>
         <head>PERSONERNA:</head>
         <castItem>
-          <role xml:id="spHermens"><persName ref="#Hermens">HERMENS</persName></role>, <roleDesc>bankdirektör</roleDesc>.
+          <role><persName ref="#Hermens">HERMENS</persName></role>, <roleDesc>bankdirektör</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spFruHermens"><persName ref="#FruHermens">FRU HERMENS</persName></role>.
+          <role><persName ref="#FruHermens">FRU HERMENS</persName></role>.
         </castItem>
         <castGroup rend="braced">
           <castItem>
-            <role xml:id="spWalter"><persName ref="#Walter">WALTER</persName></role>, <roleDesc>kamrer i faderns bank</roleDesc>
+            <role><persName ref="#Walter">WALTER</persName></role>, <roleDesc>kamrer i faderns bank</roleDesc>
           </castItem>
           <castItem>
-            <role xml:id="spAda"><persName ref="#Ada">ADA</persName></role>.
+            <role><persName ref="#Ada">ADA</persName></role>.
           </castItem>
           <roleDesc>deras barn.</roleDesc>
         </castGroup>
         <castItem>
-          <role xml:id="spHanna"><persName ref="#Hanna">HANNA</persName></role>, <roleDesc><persName ref="#Walter">Walters</persName> fästmö</roleDesc>.
+          <role><persName ref="#Hanna">HANNA</persName></role>, <roleDesc><persName ref="#Walter">Walters</persName> fästmö</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spBergenhjelm"><persName ref="#Bergenhjelm">ERNST BERGENHJELM</persName></role>, <roleDesc>häradshöfding, <persName ref="#Ada">Adas</persName> fästman</roleDesc>.
+          <role><persName ref="#Bergenhjelm">ERNST BERGENHJELM</persName></role>, <roleDesc>häradshöfding, <persName ref="#Ada">Adas</persName> fästman</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spThorin"><persName ref="#Thorin">WILHELM THORIN</persName></role>, <roleDesc>artist</roleDesc>.
+          <role><persName ref="#Thorin">WILHELM THORIN</persName></role>, <roleDesc>artist</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spFriherrinnan"><persName ref="#Friherrinnan">FRIHERRINNAN LEJONSKJÖLD</persName></role>.
+          <role><persName ref="#Friherrinnan">FRIHERRINNAN LEJONSKJÖLD</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spKonsulinnan"><persName ref="#Konsulinnan">KONSULINNAN HORNER</persName></role>.
+          <role><persName ref="#Konsulinnan">KONSULINNAN HORNER</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spFruLetström"><persName ref="#FruLetström">FRU LETSTRÖM</persName></role>.
+          <role><persName ref="#FruLetström">FRU LETSTRÖM</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spKammarrådinnan"><persName ref="#Kammarrådinnan">KAMMARRÅDINNAN KULL</persName></role>.
+          <role><persName ref="#Kammarrådinnan">KAMMARRÅDINNAN KULL</persName></role>.
         </castItem>
         <addSpan spanTo="#slutTillagt"/>
         <castItem type="list">

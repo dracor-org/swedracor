@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Den starkare</title>
         <title type="sub">En scen</title>
-        <author xml:id="StrindbergA">
+        <author key="wikidata:Q7724" xml:id="StrindbergA">
           <persName>
             <forename>August</forename>
             <surname>Strindberg</surname>
@@ -69,6 +69,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">StrindbergA_DenStarkare</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000037</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q7767064</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -151,9 +154,26 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spFruX" sex="female">
+            <persName>fru X.</persName>
+          </person>
+          
+          <person xml:id="spMlleY" sex="female">
+            <persName>fröken Amelie Y.</persName>
+          </person>
+          
+          <person xml:id="spUppasserskan" sex="female">
+            <persName>EN UPPASSERSKA</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
-  </teiHeader> 
-  <text xml:id="StrindbergA_DenStarkare">
+
+  </teiHeader>
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="6350-0.jpg"/><!-- titelsida, volym -->
@@ -170,14 +190,14 @@
       <castList>
         <head>Personer:</head>
         <castItem>
-          <role xml:id="spFruX"><persName ref="#FruX">FRU X.</persName></role>, <roleDesc>skådespelerska, gift</roleDesc>.
+          <role><persName ref="#FruX">FRU X.</persName></role>, <roleDesc>skådespelerska, gift</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spMlleY"><persName ref="#MlleY">M:LLE Y.</persName></role>, <roleDesc>skådespelerska, ogift</roleDesc>.
+          <role><persName ref="#MlleY">M:LLE Y.</persName></role>, <roleDesc>skådespelerska, ogift</roleDesc>.
         </castItem>
         <addSpan spanTo="#slutTillagt"/>
 	      <castItem>
-	        <role xml:id="spUppasserskan"><persName ref="#Uppasserskan">EN UPPASSERSKA</persName></role>.
+	        <role><persName ref="#Uppasserskan">EN UPPASSERSKA</persName></role>.
         </castItem>
 	      <anchor xml:id="slutTillagt"/>
       </castList>

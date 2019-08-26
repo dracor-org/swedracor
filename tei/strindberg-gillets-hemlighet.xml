@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Gillets hemlighet</title>
         <title type="sub">Comedi i fyra akter</title>
-        <author xml:id="StrindbergA">
+        <author key="wikidata:Q7724" xml:id="StrindbergA">
           <persName>
             <forename>August</forename>
             <surname>Strindberg</surname>
@@ -64,6 +64,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">StrindbergA_GilletsHemlighet</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000042</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q10504934</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -147,9 +150,80 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spHelvig" sex="female">
+            <persName>Helvig</persName>
+          </person>
+          
+          <person xml:id="spDomherren" sex="male">
+            <persName>Nils</persName>
+          </person>
+          
+          <person xml:id="spOlof" sex="male">
+            <persName>Olof</persName>
+          </person>
+          
+          <person xml:id="spCecilia" sex="female">
+            <persName>Cecilia</persName>
+          </person>
+          
+          <person xml:id="spJurgen" sex="male">
+            <persName>Jurgen</persName>
+          </person>
+          
+          <person xml:id="spJacques" sex="male">
+            <persName>Jacques</persName>
+          </person>
+          
+          <person xml:id="spGerhard" sex="male">
+            <persName>Gerhard</persName>
+          </person>
+          
+          <person xml:id="spHans" sex="male">
+            <persName>Hans Gamlen</persName>
+          </person>
+          
+          <person xml:id="spSten" sex="male">
+            <persName>Sten</persName>
+          </person>
+          
+          <person xml:id="spClaus" sex="male">
+            <persName>Claus</persName>
+          </person>
+          
+          <person xml:id="spMartin" sex="male">
+            <persName>Martin</persName>
+          </person>
+          
+          <person xml:id="spMargaretha" sex="female">
+            <persName>Margaretha</persName>
+          </person>
+          
+          <person xml:id="spFörsteBorgaren" sex="male">
+            <persName>Bengt</persName>
+          </person>
+          
+          <person xml:id="spAndreBorgaren" sex="male">
+            <persName>Lasse</persName>
+          </person>
+          <personGrp xml:id="spTreBorgare">
+            <name>Tre Borgare</name>
+          </personGrp>
+          
+          <person xml:id="spTredjeBorgaren" sex="male">
+            <persName>Hindrik</persName>
+          </person>
+          <personGrp xml:id="spGesällerna">
+            <name>Gesäller</name>
+          </personGrp>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="StrindbergA_GilletsHemlighet">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="6365-0.jpg"/><!-- smutstitel -->
@@ -163,48 +237,48 @@
       <castList>
         <head>PERSONER:</head>
         <castItem>
-          <role xml:id="spHans"><persName ref="#Hans">HANS</persName></role>: <roleDesc>förre ålderman vid <orgName ref="#SanktLarsGillet">Sankt Lars Bygg-gille</orgName> vid <placeName>Upsala</placeName>
+          <role><persName ref="#Hans">HANS</persName></role>: <roleDesc>förre ålderman vid <orgName ref="#SanktLarsGillet">Sankt Lars Bygg-gille</orgName> vid <placeName>Upsala</placeName>
             <lb/> domkyrka</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spJacques"><persName ref="#Jacques">JACQUES</persName></role>: <roleDesc><persName ref="#Hans">Hans’</persName> son; nuvarande ålderman</roleDesc>.
+          <role><persName ref="#Jacques">JACQUES</persName></role>: <roleDesc><persName ref="#Hans">Hans’</persName> son; nuvarande ålderman</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spJurgen"><persName ref="#Jurgen">JURGEN</persName></role>: <roleDesc>Smedesmästare</roleDesc>.
+          <role><persName ref="#Jurgen">JURGEN</persName></role>: <roleDesc>Smedesmästare</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spGerhard"><persName ref="#Gerhard">GERHARD</persName></role>: <roleDesc>Stenhuggarmästare</roleDesc>.
+          <role><persName ref="#Gerhard">GERHARD</persName></role>: <roleDesc>Stenhuggarmästare</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spSten"><persName ref="#Sten">STEN</persName></role>: <roleDesc>Stenhuggarmästare</roleDesc>.
+          <role><persName ref="#Sten">STEN</persName></role>: <roleDesc>Stenhuggarmästare</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spDomherren"><persName ref="#Domherren">NILS</persName></role>: <roleDesc>Domherre, superintendent öfver <orgName ref="#SanktLarsGillet">Gillet</orgName> under erkebiskop
+          <role><persName ref="#Domherren">NILS</persName></role>: <roleDesc>Domherre, superintendent öfver <orgName ref="#SanktLarsGillet">Gillet</orgName> under erkebiskop
             <lb/> <persName ref="#HenricCarlsson">Henric Carlssons</persName> vistande i <placeName>Rom</placeName></roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spClaus"><persName ref="#Claus">CLAUS</persName></role>: <roleDesc>Narr hos erkebiskopen</roleDesc>.
+          <role><persName ref="#Claus">CLAUS</persName></role>: <roleDesc>Narr hos erkebiskopen</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spOlof"><persName ref="#Olof">OLOF</persName></role>: <roleDesc>Korgosse</roleDesc>.
+          <role><persName ref="#Olof">OLOF</persName></role>: <roleDesc>Korgosse</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spMartin"><persName ref="#Martin">MARTIN</persName></role>: <roleDesc>Gråbroder</roleDesc>.
+          <role><persName ref="#Martin">MARTIN</persName></role>: <roleDesc>Gråbroder</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spHelvig"><persName ref="#Helvig">HELVIG</persName></role>: <roleDesc>Husfru hos domherren</roleDesc>.
+          <role><persName ref="#Helvig">HELVIG</persName></role>: <roleDesc>Husfru hos domherren</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spMargaretha"><persName ref="#Margaretha">MARGARETHA</persName></role>: <roleDesc><persName ref="#Jacques">Jacques’</persName> hustru</roleDesc>.
+          <role><persName ref="#Margaretha">MARGARETHA</persName></role>: <roleDesc><persName ref="#Jacques">Jacques’</persName> hustru</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spCecilia"><persName ref="#Cecilia">CECILIA</persName></role>: <roleDesc><persName ref="#Hans">Hans’</persName> fosterdotter; <orgName ref="#SanktLarsGillet">Gillets</orgName> skyddsling</roleDesc>.
+          <role><persName ref="#Cecilia">CECILIA</persName></role>: <roleDesc><persName ref="#Hans">Hans’</persName> fosterdotter; <orgName ref="#SanktLarsGillet">Gillets</orgName> skyddsling</roleDesc>.
         </castItem>
         <castItem type="list">
           <roleGroup xml:id="spTreBorgare"><roleDesc><persName ref="#TreBorgare">Tre Borgare</persName></roleDesc>.
-            <role xml:id="spFörsteBorgaren" corresp="#FörsteBorgaren"/>
-            <role xml:id="spAndreBorgaren" corresp="#AndreBorgaren"/>
-            <role xml:id="spTredjeBorgaren" corresp="#TredjeBorgaren"/>
+            <role corresp="#FörsteBorgaren"/>
+            <role corresp="#AndreBorgaren"/>
+            <role corresp="#TredjeBorgaren"/>
           </roleGroup>
           <addSpan spanTo="#slutTillagt"/>
           <roleGroup xml:id="spGesällerna">

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Familjelycka</title>
         <title type="sub">Komedi i tre akter</title>
-        <author xml:id="LefflerAC">
+        <author key="wikidata:Q243068" xml:id="LefflerAC">
           <persName>
             <forename>Anne Charlotte</forename>
             <surname>Leffler</surname>
@@ -69,6 +69,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">LefflerAC_Familjelycka</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000022</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q10493926</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -166,9 +169,50 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spFadern" sex="male">
+            <persName>Fadern</persName>
+          </person>
+          
+          <person xml:id="spMormor" sex="female">
+            <persName>Mormor</persName>
+          </person>
+          
+          <person xml:id="spHilma" sex="female">
+            <persName>Hilma</persName>
+          </person>
+          
+          <person xml:id="spModern" sex="female">
+            <persName>Emelie</persName>
+          </person>
+          
+          <person xml:id="spLolo" sex="female">
+            <persName>Lolo</persName>
+          </person>
+          
+          <person xml:id="spErhard" sex="male">
+            <persName>Erhard</persName>
+          </person>
+          
+          <person xml:id="spJohanna" sex="female">
+            <persName>Johanna</persName>
+          </person>
+          
+          <person xml:id="spSally" sex="female">
+            <persName>Sally</persName>
+          </person>
+          
+          <person xml:id="spLina" sex="female">
+            <persName>Lina</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="LefflerAC_Familjelycka">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="5621-0.jpg"/><!-- pärm -->
@@ -191,35 +235,35 @@
       <castList>
         <head>PERSONERNA.</head>
         <castItem>
-          <role xml:id="spFadern"><persName ref="#Fadern">Fadern</persName></role>, <roleDesc>högre ämbetsman med pension</roleDesc>.
+          <role><persName ref="#Fadern">Fadern</persName></role>, <roleDesc>högre ämbetsman med pension</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spModern"><persName ref="#Modern">Modern</persName></role>.
+          <role><persName ref="#Modern">Modern</persName></role>.
         </castItem>
         <castGroup rend="braced">
           <castItem>
-            <role xml:id="spHilma"><persName ref="#Hilma">Hilma</persName></role>, <roleDesc>20 år</roleDesc>.
+            <role><persName ref="#Hilma">Hilma</persName></role>, <roleDesc>20 år</roleDesc>.
           </castItem>
           <castItem>
-            <role xml:id="spSally"><persName ref="#Sally">Sally</persName></role>, <roleDesc>19 år</roleDesc>.
+            <role><persName ref="#Sally">Sally</persName></role>, <roleDesc>19 år</roleDesc>.
           </castItem>
           <castItem>
-            <role xml:id="spLolo"><persName ref="#Lolo">Lolo</persName></role>, <roleDesc>15 år</roleDesc>.
+            <role><persName ref="#Lolo">Lolo</persName></role>, <roleDesc>15 år</roleDesc>.
           </castItem>
           <castItem>
-            <role xml:id="spErhard"><persName ref="#Erhard">Erhard</persName></role> <roleDesc>17 år</roleDesc>.
+            <role><persName ref="#Erhard">Erhard</persName></role> <roleDesc>17 år</roleDesc>.
           </castItem>
           <roleDesc>Deras barn.</roleDesc>
         </castGroup>
         <castItem>
-          <role xml:id="spMormor"><persName ref="#Mormor">Mormor</persName></role>.
+          <role><persName ref="#Mormor">Mormor</persName></role>.
         </castItem>
         <castGroup rend="braced">
           <castItem>
-            <role xml:id="spJohanna"><persName ref="#Johanna">Gamla Johanna</persName></role>.
+            <role><persName ref="#Johanna">Gamla Johanna</persName></role>.
           </castItem>
           <castItem>
-            <role xml:id="spLina"><persName ref="#Lina">Lina</persName></role>.
+            <role><persName ref="#Lina">Lina</persName></role>.
           </castItem>
           <roleDesc>Husets tjänarinnor.</roleDesc>
         </castGroup>

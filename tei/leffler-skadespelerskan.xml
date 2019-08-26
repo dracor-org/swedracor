@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Skådespelerskan</title>
         <title type="sub">Dramatisk teckning i två akter</title>
-        <author xml:id="LefflerAC">
+        <author key="wikidata:Q243068" xml:id="LefflerAC">
           <persName>
             <forename>Anne Charlotte</forename>
             <surname>Leffler</surname>
@@ -64,6 +64,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">LefflerAC_Skadespelerskan</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000026</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q10671060</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -149,9 +152,54 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spAgda" sex="female">
+            <persName>Agda</persName>
+          </person>
+          
+          <person xml:id="spElin" sex="female">
+            <persName>Elin</persName>
+          </person>
+          
+          <person xml:id="spFruStålberg" sex="female">
+            <persName>Malin Stålberg</persName>
+          </person>
+          
+          <person xml:id="spSven" sex="male">
+            <persName>Sven</persName>
+          </person>
+          
+          <person xml:id="spHelge" sex="male">
+            <persName>Helge</persName>
+          </person>
+          
+          <person xml:id="spBrukspatronen" sex="male">
+            <persName>brukspatron Stålberg</persName>
+          </person>
+          
+          <person xml:id="spAnna" sex="female">
+            <persName>Anna</persName>
+          </person>
+          
+          <person xml:id="spEster" sex="female">
+            <persName>Ester Larson</persName>
+          </person>
+          
+          <person xml:id="spIvar" sex="male">
+            <persName>Ivar</persName>
+          </person>
+          
+          <person xml:id="spSeth" sex="male">
+            <persName>Seth</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="LefflerAC_Skadespelerskan">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="36738-0.jpg"/><!-- bokomslag -->
@@ -172,37 +220,37 @@
       <castList>
         <head>PERSONERNA:</head>
         <castItem>
-          <role xml:id="spEster"><persName ref="#Ester">Ester Larson</persName></role>.
+          <role><persName ref="#Ester">Ester Larson</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spBrukspatronen"><persName ref="#Brukspatronen">Brukspatron Stålberg</persName></role>.
+          <role><persName ref="#Brukspatronen">Brukspatron Stålberg</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spFruStålberg"><persName ref="#FruStålberg">Fru Stålberg</persName></role>.
+          <role><persName ref="#FruStålberg">Fru Stålberg</persName></role>.
         </castItem>
         <castGroup rend="braced">
           <castItem>
-            <role xml:id="spElin"><persName ref="#Elin">Elin</persName></role>
+            <role><persName ref="#Elin">Elin</persName></role>
           </castItem>
           <castItem>
-            <role xml:id="spAgda"><persName ref="#Agda">Agda</persName></role>
+            <role><persName ref="#Agda">Agda</persName></role>
           </castItem>
           <castItem>
-            <role xml:id="spIvar"><persName ref="#Ivar">Ivar</persName></role>
+            <role><persName ref="#Ivar">Ivar</persName></role>
           </castItem>
           <castItem>
-            <role xml:id="spSeth"><persName ref="#Seth">Seth</persName></role>
+            <role><persName ref="#Seth">Seth</persName></role>
           </castItem>
           <roleDesc>deras barn.</roleDesc>
         </castGroup>
         <castItem>
-          <role xml:id="spHelge"><persName ref="#Helge">Helge</persName></role>, <roleDesc>fru Stålbergs son i ett föregående gifte</roleDesc>.
+          <role><persName ref="#Helge">Helge</persName></role>, <roleDesc>fru Stålbergs son i ett föregående gifte</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spSven"><persName ref="#Sven">Sven</persName></role>, <roleDesc>Elins fästman</roleDesc>.
+          <role><persName ref="#Sven">Sven</persName></role>, <roleDesc>Elins fästman</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spAnna"><persName ref="#Anna">Anna</persName></role>, <roleDesc>tjänarinna</roleDesc>.
+          <role><persName ref="#Anna">Anna</persName></role>, <roleDesc>tjänarinna</roleDesc>.
         </castItem>
         <castItem type="list">
           <role><persName ref="#Betjänt">En betjänt</persName></role>

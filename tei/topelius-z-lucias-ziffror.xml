@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Lucias ziffror</title>
         <title type="sub">En jul-lek</title>
-        <author xml:id="TopeliusZ">
+        <author key="wikidata:Q139549" xml:id="TopeliusZ">
           <persName>
             <forename>Zacharias</forename>
             <surname>Topelius</surname>
@@ -68,6 +68,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">TopeliusZ_LuciasZiffror</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000059</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59652099</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -186,9 +189,69 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spFacit" sex="male">
+            <persName>magister Facit</persName>
+          </person>
+          
+          <person xml:id="spFlora" sex="female">
+            <persName>Flora</persName>
+          </person>
+          
+          <person xml:id="spAnna" sex="female">
+            <persName>Anna</persName>
+          </person>
+          
+          <person xml:id="spBertha" sex="female">
+            <persName>Bertha</persName>
+          </person>
+          
+          <person xml:id="spDora" sex="female">
+            <persName>Dora</persName>
+          </person>
+          
+          <person xml:id="spHanna" sex="female">
+            <persName>Hanna</persName>
+          </person>
+          
+          <person xml:id="spMelicerta" sex="female">
+            <persName>Melicerta</persName>
+          </person>
+          
+          <person xml:id="spMärtha" sex="female">
+            <persName>Märtha</persName>
+          </person>
+          
+          <person xml:id="spNanna" sex="female">
+            <persName>Nanna</persName>
+          </person>
+          
+          <person xml:id="spNora" sex="female">
+            <persName>Nora</persName>
+          </person>
+          
+          <person xml:id="spThomas" sex="male">
+            <persName>Thomas</persName>
+          </person>
+          
+          <person xml:id="spVaktmästaren" sex="male">
+            <persName>Skolvaktmästaren</persName>
+          </person>
+          <personGrp xml:id="spRöster">
+            <name>Röster utanför</name>
+          </personGrp>
+          
+          <person xml:id="spLucia" sex="female">
+            <persName>Lucia</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="TopeliusZ_LuciasZiffror">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="38508-0.jpg"/><!-- titelsida, volym -->
@@ -201,46 +264,46 @@
         <head>Personer:</head>
         <castGroup rend="braced">
           <castItem>
-            <role xml:id="spNanna"><persName ref="#Nanna">Nanna</persName>, N:o 1</role>
+            <role><persName ref="#Nanna">Nanna</persName>, N:o 1</role>
           </castItem>
           <castItem>
-            <role xml:id="spHanna"><persName ref="#Hanna">Hanna</persName>, N:o 2</role>
+            <role><persName ref="#Hanna">Hanna</persName>, N:o 2</role>
           </castItem>
           <castItem>
-            <role xml:id="spAnna"><persName ref="#Anna">Anna</persName>, N:o 3</role>
+            <role><persName ref="#Anna">Anna</persName>, N:o 3</role>
           </castItem>
           <castItem>
-            <role xml:id="spMärtha"><persName ref="#Märtha">Märtha</persName>, N:o 4</role>
+            <role><persName ref="#Märtha">Märtha</persName>, N:o 4</role>
           </castItem>
           <castItem>
-            <role xml:id="spBertha"><persName ref="#Bertha">Bertha</persName>, N:o 5</role>
+            <role><persName ref="#Bertha">Bertha</persName>, N:o 5</role>
           </castItem>
           <castItem>
-            <role xml:id="spMelicerta"><persName ref="#Melicerta">Melicerta</persName>, N:o 6</role>
+            <role><persName ref="#Melicerta">Melicerta</persName>, N:o 6</role>
           </castItem>
           <castItem>
-            <role xml:id="spNora"><persName ref="#Nora">Nora</persName>, N:o 7</role>
+            <role><persName ref="#Nora">Nora</persName>, N:o 7</role>
           </castItem>
           <castItem>
-            <role xml:id="spDora"><persName ref="#Dora">Dora</persName>, N:o 8</role>
+            <role><persName ref="#Dora">Dora</persName>, N:o 8</role>
           </castItem>
           <castItem>
-            <role xml:id="spFlora"><persName ref="#Flora">Flora</persName>, N:o 9</role>
+            <role><persName ref="#Flora">Flora</persName>, N:o 9</role>
           </castItem>
           <roleDesc>Skolflickor<ref type="noteAnchor" target="#note1">*)</ref><note xml:id="note1" place="bottom"><label>*)</label> <persName ref="#Nanna">Nanna</persName> är den minsta, de öfriga i ordning
             <lb/> efter längden.</note>.</roleDesc>
         </castGroup>
         <castItem>
-          <role xml:id="spFacit"><persName ref="#Facit">Magister Facit</persName></role>, <roleDesc>deras lärare</roleDesc>.
+          <role><persName ref="#Facit">Magister Facit</persName></role>, <roleDesc>deras lärare</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spThomas"><persName ref="#Thomas">Thomas</persName></role>, <roleDesc>en okänd gubbe</roleDesc>.
+          <role><persName ref="#Thomas">Thomas</persName></role>, <roleDesc>en okänd gubbe</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spLucia"><persName ref="#Lucia">Lucia</persName></role>, <roleDesc>hans unga gumma, en fé</roleDesc>.
+          <role><persName ref="#Lucia">Lucia</persName></role>, <roleDesc>hans unga gumma, en fé</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spVaktmästaren"><persName ref="#Vaktmästaren">Skolvaktmästaren</persName></role>.
+          <role><persName ref="#Vaktmästaren">Skolvaktmästaren</persName></role>.
         </castItem>
         <castItem>
           <roleGroup xml:id="spRöster"><roleDesc><persName ref="#Röster"/>Röster utanför</roleDesc>.</roleGroup>

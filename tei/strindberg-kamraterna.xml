@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Kamraterna</title>
         <title type="sub">Komedi i fyra akter</title>
-        <author xml:id="StrindbergA">
+        <author key="wikidata:Q7724" xml:id="StrindbergA">
           <persName>
             <forename>August</forename>
             <surname>Strindberg</surname>
@@ -64,6 +64,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">StrindbergA_Kamraterna</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000046</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q10543210</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -160,9 +163,63 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spAxel" sex="male">
+            <persName>Axel Alberg</persName>
+          </person>
+          
+          <person xml:id="spDoktorn" sex="male">
+            <persName>doktor Östermark</persName>
+          </person>
+          
+          <person xml:id="spFruStarck" sex="male">
+            <persName>fru Starck</persName>
+          </person>
+          
+          <person xml:id="spCarl" sex="male">
+            <persName>Carl Starck</persName>
+          </person>
+          <!--unknown speaker: pDoktorn-->
+          
+          <person xml:id="spModellen" sex="male">
+            <persName>Modellen</persName>
+          </person>
+          
+          <person xml:id="spBertha" sex="female">
+            <persName>fru Bertha Alberg Ålund</persName>
+          </person>
+          
+          <person xml:id="spAbel" sex="female">
+            <persName>Abel</persName>
+          </person>
+          
+          <person xml:id="spWillmer" sex="male">
+            <persName>Gaga Willmer</persName>
+          </person>
+          
+          <person xml:id="spFruHall" sex="female">
+            <persName>fru Carolina Hall</persName>
+          </person>
+          
+          <person xml:id="spPigan" sex="female">
+            <persName>Ida</persName>
+          </person>
+          
+          <person xml:id="spFrökenAmelie" sex="female">
+            <persName>fröken Amelie Hall</persName>
+          </person>
+          
+          <person xml:id="spFrökenTherèse">
+            <persName>Fröken THERÈSE.</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="StrindbergA_Kamraterna">
+  <text>
     <front>
       <anchor xml:id="playstart"/>
       <pb facs="6289-0.jpg"/><!-- smutstitel (med påklistrad förlagslapp) -->
@@ -190,40 +247,40 @@
       <castList>
         <head>PERSONER:</head>
         <castItem>
-          <role xml:id="spAxel"><persName ref="#Axel">AXEL</persName></role>, <roleDesc>målare.</roleDesc>
+          <role><persName ref="#Axel">AXEL</persName></role>, <roleDesc>målare.</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="spBertha"><persName ref="#Bertha">BERTHA</persName></role>, <roleDesc>hans hustru, målarinna.</roleDesc>
+          <role><persName ref="#Bertha">BERTHA</persName></role>, <roleDesc>hans hustru, målarinna.</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="spAbel"><persName ref="#Abel">ABEL</persName></role>, <roleDesc>väninna.</roleDesc>
+          <role><persName ref="#Abel">ABEL</persName></role>, <roleDesc>väninna.</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="spWillmer"><persName ref="#Willmer">WILLMER</persName></role>, <roleDesc>litterat.</roleDesc>
+          <role><persName ref="#Willmer">WILLMER</persName></role>, <roleDesc>litterat.</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="spDoktorn"><persName ref="#Doktorn">ÖSTERMARK</persName></role>, <roleDesc>doktor.</roleDesc>
+          <role><persName ref="#Doktorn">ÖSTERMARK</persName></role>, <roleDesc>doktor.</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="spFruHall"><persName ref="#FruHall">Fru HALL</persName></role>, <roleDesc>dennes frånskilda hustru.</roleDesc>
+          <role><persName ref="#FruHall">Fru HALL</persName></role>, <roleDesc>dennes frånskilda hustru.</roleDesc>
         </castItem>
         <castItem>
           <roleGroup corresp="#FröknarnaHall">
             <roleDesc>Fröknarne HALL</roleDesc>
-            <role xml:id="spFrökenAmelie" corresp="#FrökenAmelie"/>
-            <role xml:id="spFrökenTherèse" corresp="#Therèse"/>
+            <role corresp="#FrökenAmelie"/>
+            <role corresp="#Therèse"/>
           </roleGroup>, <roleDesc>hennes döttrar i senare förbindelse.</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="spCarl"><persName ref="#Carl">STARCK</persName></role>, <roleDesc>löjtnant.</roleDesc>
+          <role><persName ref="#Carl">STARCK</persName></role>, <roleDesc>löjtnant.</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="spFruStarck"><persName ref="#FruStarck">Fru STARCK</persName></role>.
+          <role><persName ref="#FruStarck">Fru STARCK</persName></role>.
         </castItem>
         <addSpan spanTo="#slutTillagt"/>
         <castItem type="list">
-          <role xml:id="spModellen"><persName ref="#Modellen">Modellen</persName></role>,
-          <role xml:id="spPigan"><persName ref="#Pigan">pigan Ida</persName></role>,
+          <role><persName ref="#Modellen">Modellen</persName></role>,
+          <role><persName ref="#Pigan">pigan Ida</persName></role>,
           <roleGroup corresp="#TvåKarlar"><roleDesc>två karlar</roleDesc></roleGroup>,
           <role><persName ref="#Diplomaten">en diplomat</persName></role>.
         </castItem>

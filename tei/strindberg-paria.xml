@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Paria</title>
         <title type="sub">En akt.</title>
         <title type="sub">Fritt efter en novell af Ola Hansson</title>
-        <author xml:id="StrindbergA">
+        <author key="wikidata:Q7724" xml:id="StrindbergA">
           <persName>
             <forename>August</forename>
             <surname>Strindberg</surname>
@@ -70,6 +70,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">StrindbergA_Paria</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000051</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q10620375</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -157,9 +160,22 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spHerrY" sex="male">
+            <persName>herr Y</persName>
+          </person>
+          
+          <person xml:id="spHerrX" sex="male">
+            <persName>herr X</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="StrindbergA_Paria">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="38603-0.jpg"/><!-- omslag -->
@@ -179,10 +195,10 @@
         <head>Personer:</head>
         <castGroup rend="braced">
           <castItem>
-            <role xml:id="spHerrX"><persName ref="#HerrX">HERR X.</persName></role>, <roleDesc>arkeolog</roleDesc>.
+            <role><persName ref="#HerrX">HERR X.</persName></role>, <roleDesc>arkeolog</roleDesc>.
           </castItem>
           <castItem>
-            <role xml:id="spHerrY"><persName ref="#HerrY">HERR Y.</persName></role>, <roleDesc>resande från <placeName>Amerika</placeName></roleDesc>.
+            <role><persName ref="#HerrY">HERR Y.</persName></role>, <roleDesc>resande från <placeName>Amerika</placeName></roleDesc>.
           </castItem>
           <roleDesc>Medelålders män.</roleDesc>
         </castGroup>

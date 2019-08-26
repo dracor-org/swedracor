@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Mödrar</title>
         <title type="sub">Skådespel i tre akter</title>
-        <author xml:id="LindhéW">
+        <author key="wikidata:Q4962825" xml:id="LindhéW">
           <persName>
             <forename>Wilma</forename>
             <surname>Lindhé</surname>
@@ -62,6 +62,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">LindheW_Modrar</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000028</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59651508</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -142,9 +145,54 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spFruDahl" sex="female">
+            <persName>fru Dahl</persName>
+          </person>
+          
+          <person xml:id="spCecilia" sex="female">
+            <persName>fröken Cecilia Björk</persName>
+          </person>
+          
+          <person xml:id="spFanny" sex="female">
+            <persName>Fanny Borg</persName>
+          </person>
+          
+          <person xml:id="spOlof" sex="male">
+            <persName>Olof Dahl</persName>
+          </person>
+          
+          <person xml:id="spHarald" sex="male">
+            <persName>Harald Borg</persName>
+          </person>
+          
+          <person xml:id="spHerrBorg" sex="male">
+            <persName>herr Borg</persName>
+          </person>
+          
+          <person xml:id="spFrökenSirén" sex="female">
+            <persName>fröken Jeanna Sirén</persName>
+          </person>
+          
+          <person xml:id="spFruBorg" sex="female">
+            <persName>fru Eugenie Borg</persName>
+          </person>
+          
+          <person xml:id="spLotta" sex="female">
+            <persName>Lotta</persName>
+          </person>
+          
+          <person xml:id="spSömmerskan" sex="female">
+            <persName>Mina</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="LindheW_Modrar">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="36826-0.jpg"/><!-- smutstitel -->
@@ -161,34 +209,34 @@
       <castList>
         <head>PERSONER:</head>
         <castItem>
-          <role xml:id="spFruDahl"><persName ref="#FruDahl">Fru <emph>Dahl</emph></persName></role>, <roleDesc>enka</roleDesc> <actor>Fru <emph>Skotte</emph></actor>.
+          <role><persName ref="#FruDahl">Fru <emph>Dahl</emph></persName></role>, <roleDesc>enka</roleDesc> <actor>Fru <emph>Skotte</emph></actor>.
         </castItem>
         <castItem>
-          <role xml:id="spOlof"><persName ref="#Olof"><emph>Olof</emph></persName></role>, <roleDesc>hennes son, Ingeniör</roleDesc> <actor>Herr <emph>Eric Zachrison</emph></actor>.
+          <role><persName ref="#Olof"><emph>Olof</emph></persName></role>, <roleDesc>hennes son, Ingeniör</roleDesc> <actor>Herr <emph>Eric Zachrison</emph></actor>.
         </castItem>
         <castItem>
-          <role xml:id="spHerrBorg"><persName ref="#HerrBorg"><emph>Borg</emph></persName></role>, <roleDesc>Grosshandlare</roleDesc><actor>Herr <emph>Sternvall</emph></actor>.
+          <role><persName ref="#HerrBorg"><emph>Borg</emph></persName></role>, <roleDesc>Grosshandlare</roleDesc><actor>Herr <emph>Sternvall</emph></actor>.
         </castItem>
         <castItem>
-          <role xml:id="spFruBorg"><persName ref="#FruBorg">Fru <emph>Borg</emph></persName></role> <actor>Fru <emph>Sternvall</emph></actor>.
+          <role><persName ref="#FruBorg">Fru <emph>Borg</emph></persName></role> <actor>Fru <emph>Sternvall</emph></actor>.
         </castItem>
         <castItem>
-          <role xml:id="spFanny"><persName ref="#Fanny"><emph>Fanny</emph></persName></role>, <roleDesc>deras dotter</roleDesc> <actor>Fröken <emph>Malmgren</emph></actor>.
+          <role><persName ref="#Fanny"><emph>Fanny</emph></persName></role>, <roleDesc>deras dotter</roleDesc> <actor>Fröken <emph>Malmgren</emph></actor>.
         </castItem>
         <castItem>
-          <role xml:id="spHarald"><persName ref="#Harald"><emph>Harald</emph></persName></role>, <roleDesc>deras son, Löjtnant</roleDesc> <actor>Herr <emph>Oscar Byström</emph></actor>.
+          <role><persName ref="#Harald"><emph>Harald</emph></persName></role>, <roleDesc>deras son, Löjtnant</roleDesc> <actor>Herr <emph>Oscar Byström</emph></actor>.
         </castItem>
         <castItem>
-          <role xml:id="spCecilia"><persName ref="#Cecilia"><emph>Cecilia Björk</emph></persName></role> <actor>Fröken <emph>Kurk</emph></actor>.
+          <role><persName ref="#Cecilia"><emph>Cecilia Björk</emph></persName></role> <actor>Fröken <emph>Kurk</emph></actor>.
         </castItem>
         <castItem>
-          <role xml:id="spFrökenSirén"><persName ref="#FrökenSirén">Fröken <emph>Sirén</emph></persName></role> <actor>Fröken <emph>Rylander</emph></actor>.
+          <role><persName ref="#FrökenSirén">Fröken <emph>Sirén</emph></persName></role> <actor>Fröken <emph>Rylander</emph></actor>.
         </castItem>
         <castItem>
-          <role xml:id="spLotta"><persName ref="#Lotta"><emph>Lotta</emph></persName></role>, <roleDesc>i tjenst hos Borgs</roleDesc> <actor>Fru <emph>Lundberg</emph></actor>.
+          <role><persName ref="#Lotta"><emph>Lotta</emph></persName></role>, <roleDesc>i tjenst hos Borgs</roleDesc> <actor>Fru <emph>Lundberg</emph></actor>.
         </castItem>
         <castItem>
-          <role xml:id="spSömmerskan"><persName ref="#Sömmerskan">En sömmerska</persName></role> <actor>Fröken <emph>Söderberg</emph></actor>.
+          <role><persName ref="#Sömmerskan">En sömmerska</persName></role> <actor>Fröken <emph>Söderberg</emph></actor>.
         </castItem>
         <addSpan spanTo="#slutTillagt"/>
         <castItem type="list">

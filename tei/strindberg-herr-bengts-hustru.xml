@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Herr Bengts hustru</title>
         <title type="sub">Skådespel i fem akter</title>
-        <author xml:id="StrindbergA">
+        <author key="wikidata:Q7724" xml:id="StrindbergA">
           <persName>
             <forename>August</forename>
             <surname>Strindberg</surname>
@@ -64,6 +64,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">StrindbergA_HerrBengtsHustru</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000043</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q11975209</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -152,9 +155,78 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spMetta" sex="female">
+            <persName>syster Metta</persName>
+          </person>
+          
+          <person xml:id="spMargit" sex="female">
+            <persName>Margit</persName>
+          </person>
+          
+          <person xml:id="spGårdsmästaren" sex="male">
+            <persName>Hans</persName>
+          </person>
+          
+          <person xml:id="spAbedissan" sex="female">
+            <persName>abbedissa</persName>
+          </person>
+          
+          <person xml:id="spBiktfadern" sex="male">
+            <persName>broder Franciscus</persName>
+          </person>
+          
+          <person xml:id="spAgnes" sex="female">
+            <persName>syster Agnes</persName>
+          </person>
+          
+          <person xml:id="spBengt" sex="male">
+            <persName>riddare Bengt</persName>
+          </person>
+          
+          <person xml:id="spHushållerskan" sex="female">
+            <persName>Malin</persName>
+          </person>
+          
+          <person xml:id="spKorpen" sex="unknown">
+            <persName>EN RÖST</persName>
+          </person>
+          
+          <person xml:id="spLagmannen" sex="male">
+            <persName>lagman Lars</persName>
+          </person>
+          
+          <person xml:id="spLagmanskan" sex="female">
+            <persName>Christina</persName>
+          </person>
+          
+          <person xml:id="spFogaten" sex="male">
+            <persName>fogat Erik</persName>
+          </person>
+          
+          <person xml:id="spVittnet" sex="male">
+            <persName>Jöns</persName>
+          </person>
+          
+          <person xml:id="spKerstin" sex="female">
+            <persName>Kerstin</persName>
+          </person>
+          
+          <person xml:id="spQvinnan" sex="female">
+            <persName>QVINNAN.</persName>
+          </person>
+          
+          <person xml:id="spAmman" sex="female">
+            <persName>AMMAN</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="StrindbergA_HerrBengtsHustru">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="6286-0.jpg"/><!-- smutstitel -->
@@ -168,40 +240,40 @@
       <castList>
         <head>PERSONER:</head>
         <castItem>
-          <role xml:id="spBengt"><persName ref="#Bengt">Herr BENGT</persName></role>.
+          <role><persName ref="#Bengt">Herr BENGT</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spMargit"><persName ref="#Margit">MARGIT</persName></role>.
+          <role><persName ref="#Margit">MARGIT</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spAbedissan"><persName ref="#Abedissan"><choice><sic>ABBEDISSAN</sic><corr>ABEDISSAN</corr></choice></persName></role>.
+          <role><persName ref="#Abedissan"><choice><sic>ABBEDISSAN</sic><corr>ABEDISSAN</corr></choice></persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spBiktfadern"><persName ref="#Biktfadern">BIKTFADERN</persName></role>.
+          <role><persName ref="#Biktfadern">BIKTFADERN</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spMetta"><persName ref="#Metta">Syster METTA</persName></role>.
+          <role><persName ref="#Metta">Syster METTA</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spGårdsmästaren"><persName ref="#Gårdsmästaren">GÅRDSMÄSTAREN (sedan HOFMÄSTAREN.)</persName></role>
+          <role><persName ref="#Gårdsmästaren">GÅRDSMÄSTAREN (sedan HOFMÄSTAREN.)</persName></role>
         </castItem>
         <castItem>
-          <role xml:id="spLagmannen"><persName ref="#Lagmannen">LAGMANNEN</persName></role>.
+          <role><persName ref="#Lagmannen">LAGMANNEN</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spLagmanskan"><persName ref="#Lagmanskan">LAGMANSKAN</persName></role>.
+          <role><persName ref="#Lagmanskan">LAGMANSKAN</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spFogaten"><persName ref="#Fogaten">FOGATEN</persName></role>.
+          <role><persName ref="#Fogaten">FOGATEN</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spVittnet"><persName ref="#Vittnet"><choice><sic>VITNET</sic><corr>VITTNET</corr></choice></persName></role>.
+          <role><persName ref="#Vittnet"><choice><sic>VITNET</sic><corr>VITTNET</corr></choice></persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spHushållerskan"><persName ref="#Hushållerskan">HUSHÅLLERSKAN</persName></role>.
+          <role><persName ref="#Hushållerskan">HUSHÅLLERSKAN</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spKerstin"><persName ref="#Kerstin">KERSTIN</persName></role>.<!-- även KAMMARPIGAN -->
+          <role><persName ref="#Kerstin">KERSTIN</persName></role>.<!-- även KAMMARPIGAN -->
         </castItem>
         <castItem>
           <role><persName ref="#Pagen">PAGEN</persName></role>.
@@ -209,11 +281,11 @@
         <castItem type="list">
           <roleGroup>
             <roleDesc>(Bipersoner.)</roleDesc>
-            <role xml:id="spAgnes" corresp="#Agnes"/>
+            <role corresp="#Agnes"/>
             <role corresp="#Tjenare"/>
-            <role xml:id="spAmman" corresp="#Amman"/>
-            <role xml:id="spKorpen" corresp="#Korpen"/>
-            <role xml:id="spQvinnan" corresp="#Qvinnan"/>
+            <role corresp="#Amman"/>
+            <role corresp="#Korpen"/>
+            <role corresp="#Qvinnan"/>
             <role corresp="#Falkeneraren"/>
           </roleGroup>
         </castItem>

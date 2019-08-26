@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>En lektion</title>
         <title type="sub">Konversation i en akt</title>
-        <author xml:id="AgrellA">
+        <author key="wikidata:Q469339" xml:id="AgrellA">
           <persName>
             <forename>Alfhild</forename>
             <surname>Agrell</surname>
@@ -61,6 +61,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">AgrellA_EnLektion</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000003</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q10483370</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -157,9 +160,22 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spElsa" sex="female">
+            <persName>Elsa</persName>
+          </person>
+          
+          <person xml:id="spÅke" sex="male">
+            <persName>Åke</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="AgrellA_EnLektion">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="37040-0.jpg"/><!-- omslag -->
@@ -175,12 +191,12 @@
       <castList>
         <head>Personer:</head>
         <castItem>
-          <role xml:id="spÅke">
+          <role>
             <persName ref="#Åke">ÅKE</persName>
             </role>, <roleDesc>löjtnant och possesionat</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spElsa">
+          <role>
             <persName ref="#Elsa">ELSA</persName>
             </role>, <roleDesc>hans hustru</roleDesc>.
         </castItem>

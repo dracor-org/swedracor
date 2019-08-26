@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Station Sylvester</title>
         <title type="sub">En nyårslek</title>
-        <author xml:id="TopeliusZ">
+        <author key="wikidata:Q139549" xml:id="TopeliusZ">
           <persName>
             <forename>Zacharias</forename>
             <surname>Topelius</surname>
@@ -63,6 +63,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">TopeliusZ_StationSylvester</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000063</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59652187</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -182,9 +185,148 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spMab" sex="female">
+            <persName>fru Mab Äppelkärna</persName>
+          </person>
+          
+          <person xml:id="spSibb" sex="female">
+            <persName>jungfru Sibb Smultronblomma</persName>
+          </person>
+          
+          <person xml:id="spFar" sex="male">
+            <persName>Far</persName>
+          </person>
+          
+          <person xml:id="spMor" sex="female">
+            <persName>Mor</persName>
+          </person>
+          
+          <person xml:id="spKalle" sex="male">
+            <persName>Kalle</persName>
+          </person>
+          
+          <person xml:id="spLotta" sex="female">
+            <persName>Lotta</persName>
+          </person>
+          
+          <person xml:id="spPaltNo1">
+            <persName>Palt N:o 1.</persName>
+          </person>
+          
+          <person xml:id="spPaltNo2">
+            <persName>Palt N:o 2.</persName>
+          </person>
+          
+          <person xml:id="spVingflax" sex="male">
+            <persName>Vingflax</persName>
+          </person>
+          
+          <person xml:id="spRöstUtanför" sex="unknown">
+            <persName>Röst utanför.</persName>
+          </person>
+          <personGrp xml:id="spPassagerare">
+            <name>passagerare</name>
+          </personGrp>
+          
+          <person xml:id="spEnHerre" sex="male">
+            <persName>En herre</persName>
+          </person>
+          
+          <person xml:id="spEnGumma" sex="female">
+            <persName>en gumma</persName>
+          </person>
+          <personGrp xml:id="spHurrabasar">
+            <name>hurrabasar</name>
+          </personGrp>
+          
+          <person xml:id="spFonograf" sex="male">
+            <persName>Fonograf</persName>
+          </person>
+          
+          <person xml:id="spKungen" sex="male">
+            <persName>kung Fugax 1889</persName>
+          </person>
+          
+          <person xml:id="spStenograf" sex="male">
+            <persName>Stenograf</persName>
+          </person>
+          
+          <person xml:id="spBajonett" sex="male">
+            <persName>Bajonett</persName>
+          </person>
+          
+          <person xml:id="spAlmanacka" sex="female">
+            <persName>drottning Almanacka</persName>
+          </person>
+          
+          <person xml:id="spDenOkända" sex="female">
+            <persName>Urania</persName>
+          </person>
+          
+          <person xml:id="spTelegraf" sex="male">
+            <persName>Telegraf</persName>
+          </person>
+          
+          <person xml:id="spJanuari" sex="male">
+            <persName>Januari</persName>
+          </person>
+          
+          <person xml:id="spFebruari" sex="male">
+            <persName>Februari</persName>
+          </person>
+          
+          <person xml:id="spMars" sex="unknown">
+            <persName>Mars</persName>
+          </person>
+          
+          <person xml:id="spApril" sex="unknown">
+            <persName>April</persName>
+          </person>
+          
+          <person xml:id="spMaja" sex="female">
+            <persName>Maja</persName>
+          </person>
+          
+          <person xml:id="spJunia" sex="female">
+            <persName>Junia</persName>
+          </person>
+          
+          <person xml:id="spJulia" sex="female">
+            <persName>Julia</persName>
+          </person>
+          
+          <person xml:id="spAugusta" sex="female">
+            <persName>Augusta</persName>
+          </person>
+          
+          <person xml:id="spSeptember" sex="unknown">
+            <persName>September</persName>
+          </person>
+          
+          <person xml:id="spOktober" sex="unknown">
+            <persName>Oktober</persName>
+          </person>
+          
+          <person xml:id="spNovember" sex="unknown">
+            <persName>November</persName>
+          </person>
+          
+          <person xml:id="spDecember" sex="unknown">
+            <persName>December</persName>
+          </person>
+          
+          <person xml:id="spSöndagen" sex="unknown">
+            <persName>Söndag</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="TopeliusZ_StationSylvester">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="38085-0.jpg"/><!-- titelsida, volym -->
@@ -199,76 +341,76 @@
       </performance>
       <castList>
         <castItem>
-          <role xml:id="spKungen"><persName ref="#Kungen">Fugax <emph>den 1889:de</emph></persName></role>, <roleDesc>nutidens konung</roleDesc>.
+          <role><persName ref="#Kungen">Fugax <emph>den 1889:de</emph></persName></role>, <roleDesc>nutidens konung</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spAlmanacka"><persName ref="#Almanacka">Almanacka</persName></role>, <roleDesc>hans drottning</roleDesc>.
+          <role><persName ref="#Almanacka">Almanacka</persName></role>, <roleDesc>hans drottning</roleDesc>.
         </castItem>
         <castItem>
           <role><persName ref="#Fugax">Fugax <emph>den 1890:de</emph></persName></role>, <roleDesc>framtidens konung</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spDenOkända"><persName ref="#DenOkända">Den okända</persName></role>, <roleDesc>hans sköterska</roleDesc>.
+          <role><persName ref="#DenOkända">Den okända</persName></role>, <roleDesc>hans sköterska</roleDesc>.
         </castItem>
         <castItem type="list">
           <role><persName ref="#Elektrik">Elektrik</persName></role> och
-          <role xml:id="spBajonett"><persName ref="#Bajonett">Bajonett</persName></role>, <roleDesc>konungens adju­<lb break="no"/>tanter.</roleDesc>
+          <role><persName ref="#Bajonett">Bajonett</persName></role>, <roleDesc>konungens adju­<lb break="no"/>tanter.</roleDesc>
         </castItem>
         <castItem type="list">
-          <role xml:id="spTelegraf"><persName ref="#Telegraf">Telegraf</persName></role>,
-          <role xml:id="spStenograf"><persName ref="#Stenograf">Stenograf</persName></role>,
+          <role><persName ref="#Telegraf">Telegraf</persName></role>,
+          <role><persName ref="#Stenograf">Stenograf</persName></role>,
           <role><persName ref="#Telefon">Telefon</persName></role> och
-          <role xml:id="spFonograf"><persName ref="#Fonograf">Fono­<lb break="no"/>graf</persName></role>, <roleDesc>konungens springpojkar.</roleDesc>
+          <role><persName ref="#Fonograf">Fono­<lb break="no"/>graf</persName></role>, <roleDesc>konungens springpojkar.</roleDesc>
         </castItem>
         <castItem type="list">
           <roleGroup corresp="#DeTolfMånaderna"><roleDesc>De tolf månaderna</roleDesc>
-            <role xml:id="spJanuari" corresp="#Januari"/>
-            <role xml:id="spFebruari" corresp="#Februari"/>
-            <role xml:id="spMars" corresp="#Mars"/>
-            <role xml:id="spApril" corresp="#April"/>
-            <role xml:id="spMaja" corresp="#Maja"/>
-            <role xml:id="spJunia" corresp="#Junia"/>
-            <role xml:id="spJulia" corresp="#Julia"/>
-            <role xml:id="spAugusta" corresp="#Augusta"/>
-            <role xml:id="spSeptember" corresp="#September"/>
-            <role xml:id="spOktober" corresp="#Oktober"/>
-            <role xml:id="spNovember" corresp="#November"/>
-            <role xml:id="spDecember" corresp="#December"/>
+            <role corresp="#Januari"/>
+            <role corresp="#Februari"/>
+            <role corresp="#Mars"/>
+            <role corresp="#April"/>
+            <role corresp="#Maja"/>
+            <role corresp="#Junia"/>
+            <role corresp="#Julia"/>
+            <role corresp="#Augusta"/>
+            <role corresp="#September"/>
+            <role corresp="#Oktober"/>
+            <role corresp="#November"/>
+            <role corresp="#December"/>
           </roleGroup>
           och
           <roleGroup corresp="#DeSjuVeckodagarna"><roleDesc>De sju veckoda­<lb break="no"/>garna</roleDesc>,
-            <role xml:id="spSöndagen" corresp="#Söndagen"/>
+            <role corresp="#Söndagen"/>
           </roleGroup>,
           <roleDesc>konungens svit</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spVingflax"><persName ref="#Vingflax">Vingflax</persName></role>, <roleDesc>stationsinspektör</roleDesc>.
+          <role><persName ref="#Vingflax">Vingflax</persName></role>, <roleDesc>stationsinspektör</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spMab"><persName ref="#Mab">Fru Mab Äppelkärna</persName></role>, <roleDesc>restauratris</roleDesc>.
+          <role><persName ref="#Mab">Fru Mab Äppelkärna</persName></role>, <roleDesc>restauratris</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spSibb"><persName ref="#Sibb">Jungfru Sibb Smultronblomma</persName></role>, <roleDesc>städerska</roleDesc>.
+          <role><persName ref="#Sibb">Jungfru Sibb Smultronblomma</persName></role>, <roleDesc>städerska</roleDesc>.
         </castItem>
         <castItem type="list">
-          <role xml:id="spFar"><persName ref="#Far">Far</persName></role> och
-          <role xml:id="spMor"><persName ref="#Mor">Mor</persName></role> samt deras barn:
-          <role xml:id="spKalle"><persName ref="#Kalle">Kalle
+          <role><persName ref="#Far">Far</persName></role> och
+          <role><persName ref="#Mor">Mor</persName></role> samt deras barn:
+          <role><persName ref="#Kalle">Kalle
             <lb/> Perfekt</persName></role>,
-          <role xml:id="spLotta"><persName ref="#Lotta">Lotta</persName></role>,
+          <role><persName ref="#Lotta">Lotta</persName></role>,
           <roleGroup corresp="#Paltarne">
             <roleDesc rend="italic">Paltarne</roleDesc>
-            <role xml:id="spPaltNo1"><emph><persName ref="#PaltNo1">N:o 1</persName></emph></role> och
-            <role xml:id="spPaltNo2"><emph><persName ref="#PaltNo2">2</persName></emph></role>
+            <role><emph><persName ref="#PaltNo1">N:o 1</persName></emph></role> och
+            <role><emph><persName ref="#PaltNo2">2</persName></emph></role>
           </roleGroup>.
         </castItem>
         <castItem type="list">
           Dessutom
-          <role xml:id="spEnHerre"><persName ref="#EnHerre">En herre</persName></role>,
-          <role xml:id="spEnGumma"><persName ref="#EnGumma">en gumma</persName></role>,
+          <role><persName ref="#EnHerre">En herre</persName></role>,
+          <role><persName ref="#EnGumma">en gumma</persName></role>,
           <roleGroup corresp="#Röster">
             <roleDesc>röster</roleDesc>
-            <role xml:id="spRöstUtanför" corresp="#RöstUtanför"/>
+            <role corresp="#RöstUtanför"/>
           </roleGroup>,
           <roleGroup xml:id="spPassagerare"><roleDesc corresp="#Passagerare">passagerare</roleDesc></roleGroup>,
           <role><persName ref="#Biljettförsäljerskan">biljettförsäljerska</persName></role>,

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Ingrid: En döds kärlekssaga</title>
         <title type="sub">Skådespel i tre akter och epilog</title>
-        <author xml:id="AgrellA">
+        <author key="wikidata:Q469339" xml:id="AgrellA">
           <persName>
             <forename>Alfhild</forename>
             <surname>Agrell</surname>
@@ -69,6 +69,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">AgrellA_IngridEnDodsKarlekssaga</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000006</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q18242883</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -159,9 +162,69 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spKapten" sex="male">
+            <persName>Henning von Holst</persName>
+          </person>
+          
+          <person xml:id="spEmy" sex="female">
+            <persName>Emy Stadig</persName>
+          </person>
+          
+          <person xml:id="spIngrid" sex="female">
+            <persName>Ingrid Adolphson Bertrand</persName>
+          </person>
+          
+          <person xml:id="spMormor" sex="female">
+            <persName>Enna</persName>
+          </person>
+          
+          <person xml:id="spAssessorn" sex="male">
+            <persName>Teodor von Holst</persName>
+          </person>
+          
+          <person xml:id="spJansson" sex="male">
+            <persName>Jansson</persName>
+          </person>
+          
+          <person xml:id="spKurt" sex="male">
+            <persName>Kurt Kurre Lind</persName>
+          </person>
+          
+          <person xml:id="spMaj" sex="male">
+            <persName>Kurt Kurre Lind</persName>
+          </person>
+          
+          <person xml:id="spHalfdan" sex="male">
+            <persName>Halfdan Halfdanson</persName>
+          </person>
+          
+          <person xml:id="spHulda" sex="female">
+            <persName>Hulda</persName>
+          </person>
+          <personGrp xml:id="spTyperna">
+            <name>Några artisttyper</name>
+          </personGrp>
+          
+          <person xml:id="spArtisten" sex="male">
+            <persName>Edberg</persName>
+          </person>
+          
+          <person xml:id="spAnna" sex="female">
+            <persName>Anna</persName>
+          </person>
+          
+          <person xml:id="spUngItalienska" sex="female">
+            <persName>En kvinnlig artist</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="AgrellA_IngridEnDodsKarlekssaga">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="6854-0.jpg"/><!-- omslag -->
@@ -173,38 +236,38 @@
       <castList>
         <head>PERSONER:</head>
         <castItem>
-          <role xml:id="spIngrid"><persName ref="#Ingrid">INGRID</persName></role>, <roleDesc>änka efter hofrättsrådet Adolphson</roleDesc>.
+          <role><persName ref="#Ingrid">INGRID</persName></role>, <roleDesc>änka efter hofrättsrådet Adolphson</roleDesc>.
         </castItem>
         <castGroup rend="braced">
           <castItem>
-            <role xml:id="spKapten"><persName ref="#Kapten">Kapten von HOLST</persName></role>
+            <role><persName ref="#Kapten">Kapten von HOLST</persName></role>
           </castItem>
           <castItem>
-            <role xml:id="spAssessorn"><persName ref="#Assessorn">Assessor von HOLST</persName></role>,
+            <role><persName ref="#Assessorn">Assessor von HOLST</persName></role>,
           </castItem>
           <roleDesc>Ingrids halfsvågrar.</roleDesc>
         </castGroup>
         <castItem>
-          <role xml:id="spMormor"><persName ref="#Mormor">»MORMOR»</persName></role>.
+          <role><persName ref="#Mormor">»MORMOR»</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spEmy"><persName ref="#Emy">EMY</persName></role>, <roleDesc>Ingrids väninna</roleDesc>.
+          <role><persName ref="#Emy">EMY</persName></role>, <roleDesc>Ingrids väninna</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spKurt"><persName ref="#Kurt">KURT LIND</persName></role>, <roleDesc>ingeniör och gymnast</roleDesc>.
+          <role><persName ref="#Kurt">KURT LIND</persName></role>, <roleDesc>ingeniör och gymnast</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spMaj"><persName ref="#Kurt">MAJ</persName></role>, <roleDesc>hans hustru</roleDesc>.
+          <role><persName ref="#Kurt">MAJ</persName></role>, <roleDesc>hans hustru</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spHalfdan"><persName ref="#Halfdan">HALFDAN HALFDANSON</persName></role>, <roleDesc>medicine kand. och <choice><sic>Ingrid</sic><corr>Ingrids</corr></choice>
+          <role><persName ref="#Halfdan">HALFDAN HALFDANSON</persName></role>, <roleDesc>medicine kand. och <choice><sic>Ingrid</sic><corr>Ingrids</corr></choice>
             <lb/> kusin</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spJansson"><persName ref="#Jansson">JANSSON</persName></role>, <roleDesc>betjent</roleDesc>.
+          <role><persName ref="#Jansson">JANSSON</persName></role>, <roleDesc>betjent</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spHulda"><persName ref="#Hulda">HULDA</persName></role>, <roleDesc>tjänarinna</roleDesc>.
+          <role><persName ref="#Hulda">HULDA</persName></role>, <roleDesc>tjänarinna</roleDesc>.
         </castItem>
       </castList>
       <set>
@@ -4451,16 +4514,16 @@
           </castItem>
           <cb n="2"/>
           <castItem>
-            <role xml:id="spArtisten"><persName ref="#Artisten">En manlig artist</persName></role>.
+            <role><persName ref="#Artisten">En manlig artist</persName></role>.
           </castItem>
           <castItem>
-            <role xml:id="spUngItalienska"><persName ref="#UngItalienska">En kvinnlig artist</persName></role>.
+            <role><persName ref="#UngItalienska">En kvinnlig artist</persName></role>.
           </castItem>
           <castItem>
             <role sameAs="#spJansson"><persName ref="#Jansson">Janson</persName></role>.
           </castItem>
           <castItem>
-            <role xml:id="spAnna"><persName ref="#Anna">Anna</persName></role>.
+            <role><persName ref="#Anna">Anna</persName></role>.
           </castItem>
           <addSpan spanTo="#slutTillagt"/>
           <castItem type="list">

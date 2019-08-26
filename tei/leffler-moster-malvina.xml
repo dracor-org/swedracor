@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Moster Malvina</title>
         <title type="sub">Dramatisk situation i en akt</title>
-        <author xml:id="LefflerAC">
+        <author key="wikidata:Q243068" xml:id="LefflerAC">
           <persName>
             <forename>Anne Charlotte</forename>
             <surname>Leffler</surname>
@@ -69,6 +69,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">LefflerAC_MosterMalvina</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000024</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q10589602</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -155,9 +158,50 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spFruSvenson" sex="female">
+            <persName>fru Svenson</persName>
+          </person>
+          
+          <person xml:id="spFruRosin" sex="female">
+            <persName>fru Rosin</persName>
+          </person>
+          
+          <person xml:id="spMalvina" sex="female">
+            <persName>fru Malvina Isberg</persName>
+          </person>
+          
+          <person xml:id="spFruStröm" sex="female">
+            <persName>fru Ström</persName>
+          </person>
+          
+          <person xml:id="spMadamen">
+            <persName>Städerskan</persName>
+          </person>
+          
+          <person xml:id="spFruBillgren" sex="female">
+            <persName>fru Lydia Billgren</persName>
+          </person>
+          
+          <person xml:id="spMina" sex="female">
+            <persName>fru Mina Billgren</persName>
+          </person>
+          
+          <person xml:id="spHulda" sex="female">
+            <persName>fru Hulda Hjort</persName>
+          </person>
+          
+          <person xml:id="spKlara" sex="female">
+            <persName>Klara Billgren</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="LefflerAC_MosterMalvina">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="5630-0.jpg"/><!-- pärm -->
@@ -180,29 +224,29 @@
       <castList>
         <head>PERSONERNA:</head>
         <castItem>
-          <role xml:id="spMalvina"><persName ref="#Malvina">Moster Malvina</persName></role>.
+          <role><persName ref="#Malvina">Moster Malvina</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spKlara"><persName ref="#Klara">Klara</persName></role>, <roleDesc>hennes dotter</roleDesc>.
+          <role><persName ref="#Klara">Klara</persName></role>, <roleDesc>hennes dotter</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spFruBillgren"><persName ref="#FruBillgren">Fru Billgren</persName></role>, <roleDesc>senior</roleDesc>.
+          <role><persName ref="#FruBillgren">Fru Billgren</persName></role>, <roleDesc>senior</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spMina"><persName ref="#Mina">Fru Mina Billgren</persName></role>, <roleDesc>hennes sonhustru</roleDesc>.
+          <role><persName ref="#Mina">Fru Mina Billgren</persName></role>, <roleDesc>hennes sonhustru</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spHulda"><persName ref="#Hulda">Fru Hulda Hjort</persName></role>, <roleDesc>född Billgren</roleDesc>.
+          <role><persName ref="#Hulda">Fru Hulda Hjort</persName></role>, <roleDesc>född Billgren</roleDesc>.
         </castItem>
         <castGroup rend="braced">
           <castItem>
-            <role xml:id="spFruSvenson"><persName ref="#FruSvenson">Fru Svenson</persName></role>.
+            <role><persName ref="#FruSvenson">Fru Svenson</persName></role>.
           </castItem>
           <castItem>
-            <role xml:id="spFruStröm"><persName ref="#FruStröm">Fru Ström</persName></role>.
+            <role><persName ref="#FruStröm">Fru Ström</persName></role>.
           </castItem>
           <castItem>
-            <role xml:id="spFruRosin"><persName ref="#FruRosin">Fru Rosin</persName></role>.
+            <role><persName ref="#FruRosin">Fru Rosin</persName></role>.
           </castItem>
           <castItem xml:id="spFemFruar">
             <roleGroup>
@@ -214,7 +258,7 @@
           <roleDesc>Pauvres-honteuses.</roleDesc>
         </castGroup>
         <castItem>
-          <role xml:id="spMadamen" rend="normal"><persName ref="#Madamen">Städerskan</persName></role>.
+          <role rend="normal"><persName ref="#Madamen">Städerskan</persName></role>.
         </castItem>
       </castList>
       <set>

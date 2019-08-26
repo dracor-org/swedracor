@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>I ”fruntimmersveckan”</title>
         <title type="sub">Skämt i 1 akt</title>
-        <author xml:id="IndebetouH">
+        <author key="wikidata:Q18242858" xml:id="IndebetouH">
           <persName>
             <forename>Hedvig</forename>
             <surname>Indebetou</surname>
@@ -63,6 +63,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">IndebetouH_IFruntimmersveckan</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000017</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59625508</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -165,9 +168,38 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spFruAllmin" sex="female">
+            <persName>fru Kerstin Allmin</persName>
+          </person>
+          
+          <person xml:id="spKristine" sex="female">
+            <persName>Kristine</persName>
+          </person>
+          
+          <person xml:id="spBlomsterkvist" sex="male">
+            <persName>Leonard Blomsterkvist</persName>
+          </person>
+          
+          <person xml:id="spEmma" sex="female">
+            <persName>Emma</persName>
+          </person>
+          
+          <person xml:id="spStröm" sex="male">
+            <persName>doktor Ström</persName>
+          </person>
+          
+          <person xml:id="spSofie" sex="female">
+            <persName>Sofie</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="IndebetouH_IFruntimmersveckan">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="5533-0.jpg"/><!-- pärm -->
@@ -179,23 +211,23 @@
       <castList>
         <head>Personerna:</head>
         <castItem>
-         <role xml:id="spFruAllmin"><persName ref="#FruAllmin">Fru Kerstin Allmin</persName></role>.
+         <role><persName ref="#FruAllmin">Fru Kerstin Allmin</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spEmma"><persName ref="#Emma">Emma </persName>, </role><roleDesc>hennes dotter</roleDesc>.
+          <role><persName ref="#Emma">Emma </persName>, </role><roleDesc>hennes dotter</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spStröm"><persName ref="#Ström">Ström</persName>, </role><roleDesc>filosofie doktor</roleDesc>.
+          <role><persName ref="#Ström">Ström</persName>, </role><roleDesc>filosofie doktor</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spBlomsterkvist"><persName ref="#Blomsterkvist">Leonhard Blomsterkvist</persName>, </role> <roleDesc>ung trädgårdsmästare hos
+          <role><persName ref="#Blomsterkvist">Leonhard Blomsterkvist</persName>, </role> <roleDesc>ung trädgårdsmästare hos
             <lb/> Allmins</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spKristine"><persName ref="#Kristine">Kristine</persName>, </role> <roleDesc>jungfru hos Allmins</roleDesc>.
+          <role><persName ref="#Kristine">Kristine</persName>, </role> <roleDesc>jungfru hos Allmins</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spSofie"><persName ref="#Sofie">Sofie</persName></role>, <roleDesc>jungfru i granngården</roleDesc>.
+          <role><persName ref="#Sofie">Sofie</persName></role>, <roleDesc>jungfru i granngården</roleDesc>.
         </castItem>
       </castList>
       <set>

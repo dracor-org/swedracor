@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Vårflod</title>
         <title type="sub">Komedi i fyra akter</title>
-        <author xml:id="MolanderH">
+        <author key="wikidata:Q5990904" xml:id="MolanderH">
           <persName>
             <forename>Harald</forename>
             <surname>Molander</surname>
@@ -68,6 +68,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">MolanderH_Varflod</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000034</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59618305</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -149,9 +152,46 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spLina" sex="female">
+            <persName>Lina</persName>
+          </person>
+          
+          <person xml:id="spFruGerman" sex="female">
+            <persName>fru German</persName>
+          </person>
+          
+          <person xml:id="spSigrid" sex="female">
+            <persName>fröken Sigrid German</persName>
+          </person>
+          
+          <person xml:id="spCharlotte" sex="female">
+            <persName>fru Charlotte Faxe</persName>
+          </person>
+          
+          <person xml:id="spPastorn" sex="male">
+            <persName>pastor Paulus Stenborg</persName>
+          </person>
+          
+          <person xml:id="spMarie" sex="female">
+            <persName>mamsell Maria Marie Andersson</persName>
+          </person>
+          
+          <person xml:id="spKristofer" sex="male">
+            <persName>herr Kristofer German</persName>
+          </person>
+          
+          <person xml:id="spWolff" sex="male">
+            <persName>herr Gustaf Wolff</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="MolanderH_Varflod">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="6231-0.jpg"/><!-- omslag -->
@@ -177,28 +217,28 @@
       <castList>
         <head>PERSONER</head>
         <castItem>
-          <role xml:id="spFruGerman"><persName ref="#FruGerman">FRU GERMAN</persName></role> <actor>Fru Dorsch-Bosin</actor>.
+          <role><persName ref="#FruGerman">FRU GERMAN</persName></role> <actor>Fru Dorsch-Bosin</actor>.
         </castItem>
         <castItem>
-          <role xml:id="spKristofer"><persName ref="#Kristofer">KRISTOFER</persName></role> <actor>Hr Hartman</actor>.
+          <role><persName ref="#Kristofer">KRISTOFER</persName></role> <actor>Hr Hartman</actor>.
         </castItem>
         <castItem>
-          <role xml:id="spSigrid"><persName ref="#Sigrid">SIGRID</persName></role> <actor>M:lle Björkegren</actor>.
+          <role><persName ref="#Sigrid">SIGRID</persName></role> <actor>M:lle Björkegren</actor>.
         </castItem>
         <castItem>
-          <role xml:id="spWolff"><persName ref="#Wolff">GUSTAF WOLFF</persName></role> <actor>Hr Personne</actor>.
+          <role><persName ref="#Wolff">GUSTAF WOLFF</persName></role> <actor>Hr Personne</actor>.
         </castItem>
         <castItem>
-          <role xml:id="spCharlotte"><persName ref="#Charlotte">CHARLOTTE FAXE</persName></role> <actor>Fru Hartman</actor>.
+          <role><persName ref="#Charlotte">CHARLOTTE FAXE</persName></role> <actor>Fru Hartman</actor>.
         </castItem>
         <castItem>
-          <role xml:id="spPastorn"><persName ref="#Pastorn">PASTOR STENBORG</persName></role> <actor>Hr A. Örtengren</actor>.
+          <role><persName ref="#Pastorn">PASTOR STENBORG</persName></role> <actor>Hr A. Örtengren</actor>.
         </castItem>
         <castItem>
-          <role xml:id="spMarie"><persName ref="#Marie">MARIE</persName></role> <actor>Fru Ulff</actor>.
+          <role><persName ref="#Marie">MARIE</persName></role> <actor>Fru Ulff</actor>.
         </castItem>
         <castItem>
-          <role xml:id="spLina"><persName ref="#Lina">LINA</persName></role> <actor>Fru Lindström</actor>.
+          <role><persName ref="#Lina">LINA</persName></role> <actor>Fru Lindström</actor>.
         </castItem>
       </castList>
       <set>

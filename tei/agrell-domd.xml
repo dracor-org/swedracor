@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Dömd</title>
         <title type="sub">Skådespel i tre akter</title>
-        <author xml:id="AgrellA">
+        <author key="wikidata:Q469339" xml:id="AgrellA">
           <persName>
             <forename>Alfhild</forename>
             <surname>Agrell</surname>
@@ -64,6 +64,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">AgrellA_Domd</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000001</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q18238498</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -165,9 +168,74 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spIvar" sex="male">
+            <persName>Ivar Hillner</persName>
+          </person>
+          
+          <person xml:id="spValborg" sex="female">
+            <persName>Valborg Lindén</persName>
+          </person>
+          
+          <person xml:id="spOlof" sex="male">
+            <persName>kandidat Olof Wide</persName>
+          </person>
+          
+          <person xml:id="spLisen" sex="female">
+            <persName>Lisen</persName>
+          </person>
+          
+          <person xml:id="spHilma" sex="female">
+            <persName>Hilma Hillner</persName>
+          </person>
+          
+          <person xml:id="spProfessorn" sex="male">
+            <persName>Hillner</persName>
+          </person>
+          
+          <person xml:id="spGertrud" sex="female">
+            <persName>Gertrud Hillner</persName>
+          </person>
+          
+          <person xml:id="spBjörnklo" sex="male">
+            <persName>Sixten Björnklo</persName>
+          </person>
+          
+          <person xml:id="spFruHillner" sex="female">
+            <persName>Amalia Hillner</persName>
+          </person>
+          
+          <person xml:id="spDirektörHillner" sex="male">
+            <persName>Ludvig Hillner</persName>
+          </person>
+          
+          <person xml:id="spAssessorn" sex="male">
+            <persName>Holm</persName>
+          </person>
+          
+          <person xml:id="spFrökenBonn" sex="female">
+            <persName>Louise Bonn</persName>
+          </person>
+          
+          <person xml:id="spFarmor" sex="female">
+            <persName>Hillner</persName>
+          </person>
+          
+          <person xml:id="spMantell" sex="male">
+            <persName>Thure Mantell</persName>
+          </person>
+          
+          <person xml:id="spAnna" sex="female">
+            <persName>Anna</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="AgrellA_Domd">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="6008-0.jpg"/><!-- pärm -->
@@ -183,49 +251,49 @@
       <castList>
         <head>PERSONER:</head>
         <castItem>
-          <role xml:id="spProfessorn"><persName ref="#Professorn">Hillner</persName></role>, <roleDesc>professor</roleDesc>.
+          <role><persName ref="#Professorn">Hillner</persName></role>, <roleDesc>professor</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spHilma"><persName ref="#Hilma">Hilma</persName></role>, <roleDesc>hans hustru</roleDesc>.
+          <role><persName ref="#Hilma">Hilma</persName></role>, <roleDesc>hans hustru</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spGertrud"><persName ref="#Gertrud">Gertrud</persName></role>, <roleDesc>deras dotter</roleDesc>.
+          <role><persName ref="#Gertrud">Gertrud</persName></role>, <roleDesc>deras dotter</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spIvar"><persName ref="#Ivar">Ivar</persName></role>, <roleDesc>deras son, 8 år</roleDesc>.
+          <role><persName ref="#Ivar">Ivar</persName></role>, <roleDesc>deras son, 8 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spValborg"><persName ref="#Valborg">Valborg Lindén</persName></role>, <roleDesc>guvernant för <persName ref="#Ivar">Ivar</persName></roleDesc>.
+          <role><persName ref="#Valborg">Valborg Lindén</persName></role>, <roleDesc>guvernant för <persName ref="#Ivar">Ivar</persName></roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spBjörnklo"><persName ref="#Björnklo">Sixten Björnklo</persName></role>, <roleDesc>kapten</roleDesc>.
+          <role><persName ref="#Björnklo">Sixten Björnklo</persName></role>, <roleDesc>kapten</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spOlof"><persName ref="#Olof">Olof Wide</persName></role>, <roleDesc>kandidat</roleDesc>.
+          <role><persName ref="#Olof">Olof Wide</persName></role>, <roleDesc>kandidat</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spLisen"><persName ref="#Lisen">Moster Lisen</persName></role>.
+          <role><persName ref="#Lisen">Moster Lisen</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spFarmor"><persName ref="#Farmor">Enkefru Hillner</persName></role>, <roleDesc>professorns mor</roleDesc>.
+          <role><persName ref="#Farmor">Enkefru Hillner</persName></role>, <roleDesc>professorns mor</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spDirektörHillner"><persName ref="#DirektörHillner">Direktör Hillner</persName></role>.
+          <role><persName ref="#DirektörHillner">Direktör Hillner</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spFruHillner"><persName ref="#FruHillner">Fru Hillner</persName></role>.
+          <role><persName ref="#FruHillner">Fru Hillner</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spAssessorn"><persName ref="#Assessorn">Assessor Holm</persName></role>.
+          <role><persName ref="#Assessorn">Assessor Holm</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spFrökenBonn"><persName ref="#FrökenBonn">Fröken Bonn</persName></role>.
+          <role><persName ref="#FrökenBonn">Fröken Bonn</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spMantell"><persName ref="#Mantell">Thure Mantell</persName></role>, <roleDesc>kongl. sekter</roleDesc>.
+          <role><persName ref="#Mantell">Thure Mantell</persName></role>, <roleDesc>kongl. sekter</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spAnna"><persName ref="#Anna">Anna</persName></role>, <roleDesc>tjenarinna</roleDesc>.
+          <role><persName ref="#Anna">Anna</persName></role>, <roleDesc>tjenarinna</roleDesc>.
         </castItem>
         <addSpan spanTo="#slutTillagt"/>
         <castItem type="list">

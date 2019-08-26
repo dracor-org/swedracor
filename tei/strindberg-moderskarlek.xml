@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Moderskärlek</title>
         <title type="sub">En akt</title>
-        <author xml:id="StrindbergA">
+        <author key="wikidata:Q7724" xml:id="StrindbergA">
           <persName>
             <forename>August</forename>
             <surname>Strindberg</surname>
@@ -64,6 +64,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">StrindbergA_Moderskarlek</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000050</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q10587278</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -156,9 +159,30 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spModern" sex="female">
+            <persName>Amelie</persName>
+          </person>
+          
+          <person xml:id="spDottern" sex="female">
+            <persName>Hélène</persName>
+          </person>
+          
+          <person xml:id="spKläderskan" sex="female">
+            <persName>Augusta</persName>
+          </person>
+          
+          <person xml:id="spLisen" sex="female">
+            <persName>Lisen</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="StrindbergA_Moderskarlek">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="6290-0.jpg"/><!-- omslag volym -->
@@ -178,16 +202,16 @@
       <castList>
         <head>PERSONERNA:</head>
         <castItem>
-          <role xml:id="spModern"><persName ref="#Modern">MODERN</persName></role>, <roleDesc>f. d. sköka, 42 år</roleDesc>.
+          <role><persName ref="#Modern">MODERN</persName></role>, <roleDesc>f. d. sköka, 42 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spDottern"><persName ref="#Dottern">DOTTERN</persName></role>, <roleDesc>aktris, 20 år</roleDesc>.
+          <role><persName ref="#Dottern">DOTTERN</persName></role>, <roleDesc>aktris, 20 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spLisen"><persName ref="#Lisen">LISEN</persName></role>, <roleDesc>18 år</roleDesc>.
+          <role><persName ref="#Lisen">LISEN</persName></role>, <roleDesc>18 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spKläderskan"><persName ref="#Kläderskan">EN KLÄDERSKA</persName></role> <roleDesc>vid <orgName ref="#Teatern">teatern</orgName></roleDesc>.
+          <role><persName ref="#Kläderskan">EN KLÄDERSKA</persName></role> <roleDesc>vid <orgName ref="#Teatern">teatern</orgName></roleDesc>.
         </castItem>
       </castList>
     </front>

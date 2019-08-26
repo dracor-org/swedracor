@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Otteringning</title>
         <title type="sub">En huslig scen</title>
-        <author>
+        <author key="wikidata:Q89768">
           <persName type="pseudonym">
             <forename>Laura</forename>
             <surname>Marholm</surname>
@@ -64,6 +64,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">MarholmL_Otteringning</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000031</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59625918</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -150,9 +153,26 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spFrun" sex="female">
+            <persName>Lilly</persName>
+          </person>
+          
+          <person xml:id="spResei" sex="female">
+            <persName>Resei</persName>
+          </person>
+          
+          <person xml:id="spHerrn" sex="male">
+            <persName>Karl</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="MarholmL_Otteringning">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="6892-0.jpg"/> <!-- titelsida -->
@@ -162,13 +182,13 @@
       <castList>
         <head>Personer:</head>
         <castItem>
-          <role xml:id="spFrun"><persName ref="#Frun">Frun</persName></role>.
+          <role><persName ref="#Frun">Frun</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spHerrn"><persName ref="#Herrn">Herrn</persName></role>.
+          <role><persName ref="#Herrn">Herrn</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spResei"><persName ref="#Resei">Resei</persName></role>.
+          <role><persName ref="#Resei">Resei</persName></role>.
         </castItem>
       </castList>
       <anchor xml:id="slutTillagt"/>

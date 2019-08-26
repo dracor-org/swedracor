@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">På vakt</title>
         <title type="sub">Komedi i tre akter</title>
-        <author xml:id="WahlenbergA">
+        <author key="wikidata:Q4990085" xml:id="WahlenbergA">
           <persName>Anna Wahlenberg</persName>
           <idno type="LIBRIS">http://libris.kb.se/auth/100647</idno>
           <idno type="Litteraturbanken">http://litteraturbanken.se/#!forfattare/WahlenbergA</idno>
@@ -65,6 +65,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">WahlenbergA_PaVakt</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000065</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59652323</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -145,9 +148,38 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spFruBerg" sex="female">
+            <persName>fru Albertina Berg</persName>
+          </person>
+          
+          <person xml:id="spKarolina" sex="female">
+            <persName>Karolina</persName>
+          </person>
+          
+          <person xml:id="spKerstin" sex="female">
+            <persName>Kerstin Dahlman Den lilla rödögda synålen</persName>
+          </person>
+          
+          <person xml:id="spDahlman" sex="male">
+            <persName>fabrikör Dahlman</persName>
+          </person>
+          
+          <person xml:id="spMattsson" sex="male">
+            <persName>Mattsson</persName>
+          </person>
+          
+          <person xml:id="spSundin" sex="male">
+            <persName>Max Sundin</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="WahlenbergA_PaVakt">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="6023-0.jpg"/><!-- pärm -->
@@ -163,22 +195,22 @@
       <castList>
         <head>PERSONERNA:</head>
         <castItem>
-          <role xml:id="spDahlman"><persName ref="#Dahlman">DAHLMAN</persName></role>, <roleDesc>fabrikör</roleDesc>.
+          <role><persName ref="#Dahlman">DAHLMAN</persName></role>, <roleDesc>fabrikör</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spKerstin"><persName ref="#Kerstin">KERSTIN</persName></role>, <roleDesc>hans dotter</roleDesc>.
+          <role><persName ref="#Kerstin">KERSTIN</persName></role>, <roleDesc>hans dotter</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spFruBerg"><persName ref="#FruBerg">FRU BERG</persName></role>, <roleDesc>husförestånderska hos <persName ref="#Dahlman">Dahlmans</persName></roleDesc>.
+          <role><persName ref="#FruBerg">FRU BERG</persName></role>, <roleDesc>husförestånderska hos <persName ref="#Dahlman">Dahlmans</persName></roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spSundin"><persName ref="#Sundin">MAX SUNDIN</persName></role>, <roleDesc>hennes kusin, ingeniör</roleDesc>.
+          <role><persName ref="#Sundin">MAX SUNDIN</persName></role>, <roleDesc>hennes kusin, ingeniör</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spMattsson"><persName ref="#Mattsson">MATTSSON</persName></role>, <roleDesc>verkmästare på <orgName ref="#Fabriken"><persName ref="#Dahlman">Dahlmans</persName> fabrik</orgName>, halt</roleDesc>.
+          <role><persName ref="#Mattsson">MATTSSON</persName></role>, <roleDesc>verkmästare på <orgName ref="#Fabriken"><persName ref="#Dahlman">Dahlmans</persName> fabrik</orgName>, halt</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spKarolina"><persName ref="#Karolina">KAROLINA</persName></role>, <roleDesc>trotjenarinna hos <persName ref="#Dahlman">Dahlmans</persName></roleDesc>.
+          <role><persName ref="#Karolina">KAROLINA</persName></role>, <roleDesc>trotjenarinna hos <persName ref="#Dahlman">Dahlmans</persName></roleDesc>.
         </castItem>
       </castList>
       <pb facs="6023-7.jpg"/><!-- tom sida -->

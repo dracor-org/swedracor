@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">I små maffarnas land</title>
-        <author xml:id="TopeliusT">
+        <author key="wikidata:Q15042696" xml:id="TopeliusT">
           <persName>
             <forename>Toino</forename>
             <surname>Topelius</surname>
@@ -66,6 +66,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">TopeliusT_ISmaMaffarnasLand</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000054</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59645587</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -162,9 +165,30 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spElsa" sex="female">
+            <persName>Elsa</persName>
+          </person>
+          
+          <person xml:id="spMaffeNo1" sex="unknown">
+            <persName>MAFFE N:O 1</persName>
+          </person>
+          
+          <person xml:id="spMaffeNo2" sex="unknown">
+            <persName>MAFFE N:O 2</persName>
+          </person>
+          
+          <person xml:id="spMaffeNo3" sex="unknown">
+            <persName>MAFFARNA</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="TopeliusT_ISmaMaffarnasLand">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="38555-0.jpg"/><!-- pärm -->
@@ -187,14 +211,14 @@
       <castList>
         <head>PERSONER:</head>
         <castItem>
-          <role xml:id="spElsa"><persName ref="#Elsa">ELSA</persName></role>, <roleDesc>skolflicka</roleDesc>.
+          <role><persName ref="#Elsa">ELSA</persName></role>, <roleDesc>skolflicka</roleDesc>.
         </castItem>
         <castItem>
           <roleGroup>
             <roleDesc>TRE SMÅ MAFFAR i röda mössor</roleDesc>.
-            <role xml:id="spMaffeNo1" corresp="#MaffeNo1"/>
-            <role xml:id="spMaffeNo2" corresp="#MaffeNo2"/>
-            <role xml:id="spMaffeNo3" corresp="#MaffeNo3"/>
+            <role corresp="#MaffeNo1"/>
+            <role corresp="#MaffeNo2"/>
+            <role corresp="#MaffeNo3"/>
           </roleGroup>
         </castItem>
       </castList>

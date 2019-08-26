@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Den nya klassen</title>
         <title type="sub">En liten nyårspjes att spelas i jullofvet</title>
-        <author xml:id="MeyersonG">
+        <author key="wikidata:Q4967157" xml:id="MeyersonG">
           <persName>
             <forename>Gerda</forename>
             <surname>Meyerson</surname>
@@ -70,6 +70,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">MeyersonG_DenNyaKlassen</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000032</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59618652</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -155,9 +158,70 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spTiden" sex="male">
+            <persName>Tiden</persName>
+          </person>
+          
+          <person xml:id="spTomten" sex="male">
+            <persName>Tomten</persName>
+          </person>
+          
+          <person xml:id="spJanuarius" sex="male">
+            <persName>Januarius</persName>
+          </person>
+          
+          <person xml:id="spFebruarius" sex="male">
+            <persName>Februarius</persName>
+          </person>
+          
+          <person xml:id="spMars" sex="male">
+            <persName>Mars</persName>
+          </person>
+          
+          <person xml:id="spAprilla" sex="female">
+            <persName>Aprilla</persName>
+          </person>
+          
+          <person xml:id="spMaja" sex="female">
+            <persName>Maja</persName>
+          </person>
+          
+          <person xml:id="spAugusta" sex="female">
+            <persName>Augusta Sommar</persName>
+          </person>
+          
+          <person xml:id="spJulius" sex="male">
+            <persName>Julius Sommar</persName>
+          </person>
+          
+          <person xml:id="spJunia" sex="female">
+            <persName>Junia Sommar</persName>
+          </person>
+          
+          <person xml:id="spSeptembrus" sex="male">
+            <persName>Septembrus</persName>
+          </person>
+          
+          <person xml:id="spOktobra" sex="female">
+            <persName>Oktobra</persName>
+          </person>
+          
+          <person xml:id="spNovembrus" sex="male">
+            <persName>Novembrus</persName>
+          </person>
+          
+          <person xml:id="spDecembra" sex="male">
+            <persName>Decembra</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="MeyersonG_DenNyaKlassen">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="36998-0.jpg"/><!-- omslag tidskrift -->
@@ -174,29 +238,29 @@
       <castList>
         <head>Personer:</head>
         <castItem>
-          <role xml:id="spTiden"><persName ref="#Tiden">Tiden</persName></role>, <roleDesc>en gammal skolmästare</roleDesc>.
+          <role><persName ref="#Tiden">Tiden</persName></role>, <roleDesc>en gammal skolmästare</roleDesc>.
         </castItem>
         <castItem type="list" rend="braced">
-          <role xml:id="spJanuarius"><persName ref="#Januarius">Januarius</persName></role>,
-          <role xml:id="spFebruarius"><persName ref="#Februarius">Februarius</persName></role>,
+          <role><persName ref="#Januarius">Januarius</persName></role>,
+          <role><persName ref="#Februarius">Februarius</persName></role>,
           <lb/>
-          <role xml:id="spMars"><persName ref="#Mars">Mars</persName></role>,
-          <role xml:id="spAprilla"><persName ref="#Aprilla">Aprilla</persName></role>,
-          <role xml:id="spMaja"><persName ref="#Maja">Maja</persName></role>,
+          <role><persName ref="#Mars">Mars</persName></role>,
+          <role><persName ref="#Aprilla">Aprilla</persName></role>,
+          <role><persName ref="#Maja">Maja</persName></role>,
           <lb/>
-          <role xml:id="spJunia"><persName ref="#Junia">Junia</persName></role>,
-          <role xml:id="spJulius"><persName ref="#Julius">Julius</persName></role>,
-          <role xml:id="spAugusta"><persName ref="#Augusta">Augusta</persName></role>,
+          <role><persName ref="#Junia">Junia</persName></role>,
+          <role><persName ref="#Julius">Julius</persName></role>,
+          <role><persName ref="#Augusta">Augusta</persName></role>,
           <lb/>
-          <role xml:id="spSeptembrus"><persName ref="#Septembrus">Septembrus</persName></role>,
-          <role xml:id="spOktobra"><persName ref="#Oktobra">Oktobra</persName></role>,
+          <role><persName ref="#Septembrus">Septembrus</persName></role>,
+          <role><persName ref="#Oktobra">Oktobra</persName></role>,
           <lb/>
-          <role xml:id="spNovembrus"><persName ref="#Novembrus">Novembrus</persName></role>,
-          <role xml:id="spDecembra"><persName ref="#Decembra">Decembra</persName></role>.
+          <role><persName ref="#Novembrus">Novembrus</persName></role>,
+          <role><persName ref="#Decembra">Decembra</persName></role>.
           <roleDesc>Skolbarn.</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="spTomten"><persName ref="#Tomten">En Tomte</persName></role>.
+          <role><persName ref="#Tomten">En Tomte</persName></role>.
         </castItem>
       </castList>
     </front>

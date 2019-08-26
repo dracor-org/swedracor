@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Fru Leonora</title>
         <title type="sub">Komedi i fyra akter</title>
-        <author xml:id="MallingM">
+        <author key="wikidata:Q4965144" xml:id="MallingM">
           <persName>
             <forename>Mathilda</forename>
             <surname>Malling</surname>
@@ -69,6 +69,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">MallingM_FruLeonora</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000030</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59645535</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -153,9 +156,54 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spLeonora" sex="female">
+            <persName>fru Leonora Haxton</persName>
+          </person>
+          
+          <person xml:id="spHans" sex="male">
+            <persName>filosofie doktor Hans Haxton</persName>
+          </person>
+          
+          <person xml:id="spAnna" sex="female">
+            <persName>Anna</persName>
+          </person>
+          
+          <person xml:id="spMax" sex="male">
+            <persName>löjtnant Max Bruun</persName>
+          </person>
+          
+          <person xml:id="spKatrine" sex="female">
+            <persName>fröken Katrine Haxton</persName>
+          </person>
+          
+          <person xml:id="spEmilie" sex="female">
+            <persName>fröken Emilie Haxton</persName>
+          </person>
+          
+          <person xml:id="spFruSchwartsHansen" sex="female">
+            <persName>fru Kally Schwarts-Hansen</persName>
+          </person>
+          
+          <person xml:id="spSchwartsHansen" sex="male">
+            <persName>fabrikör Vilhelm Schwarts-Hansen</persName>
+          </person>
+          
+          <person xml:id="spNielsen" sex="male">
+            <persName>Nielsen</persName>
+          </person>
+          
+          <person xml:id="spBunsen" sex="male">
+            <persName>agent Bunsen</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="MallingM_FruLeonora">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="6903-0.jpg"/><!-- omslag -->
@@ -172,34 +220,34 @@
       <castList>
         <head>PERSONER:</head>
         <castItem>
-          <role xml:id="spHans"><persName ref="#Hans">Filosofie doktor <hi rend="smallcaps">Hans Haxton</hi></persName></role>, <roleDesc>37 år</roleDesc>.
+          <role><persName ref="#Hans">Filosofie doktor <hi rend="smallcaps">Hans Haxton</hi></persName></role>, <roleDesc>37 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spLeonora"><persName ref="#Leonora">Fru <hi rend="smallcaps">Leonora Haxton</hi></persName></role>, <roleDesc>hans hustru, 28 år</roleDesc>.
+          <role><persName ref="#Leonora">Fru <hi rend="smallcaps">Leonora Haxton</hi></persName></role>, <roleDesc>hans hustru, 28 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spKatrine"><persName ref="#Katrine">Fröken <hi rend="smallcaps">Katrine Haxton</hi></persName></role>, <roleDesc>hans syster, 39 år</roleDesc>.
+          <role><persName ref="#Katrine">Fröken <hi rend="smallcaps">Katrine Haxton</hi></persName></role>, <roleDesc>hans syster, 39 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spEmilie"><persName ref="#Emilie">Fröken <hi rend="smallcaps">Emilie Haxton</hi></persName></role>, <roleDesc>hans styfsyster, 23 år</roleDesc>.
+          <role><persName ref="#Emilie">Fröken <hi rend="smallcaps">Emilie Haxton</hi></persName></role>, <roleDesc>hans styfsyster, 23 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spMax"><persName ref="#Max" rend="smallcaps">Max Bruun</persName></role>, <roleDesc>löjtnant vid flottan, 33 år</roleDesc>.
+          <role><persName ref="#Max" rend="smallcaps">Max Bruun</persName></role>, <roleDesc>löjtnant vid flottan, 33 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spBunsen"><persName ref="#Bunsen">Agent <hi rend="smallcaps">Bunsen</hi></persName></role>, <roleDesc>40 år</roleDesc>.
+          <role><persName ref="#Bunsen">Agent <hi rend="smallcaps">Bunsen</hi></persName></role>, <roleDesc>40 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spSchwartsHansen"><persName ref="#SchwartsHansen">Fabrikör <hi rend="smallcaps">Schwarts-Hansen</hi></persName></role>, <roleDesc>55 år</roleDesc>.
+          <role><persName ref="#SchwartsHansen">Fabrikör <hi rend="smallcaps">Schwarts-Hansen</hi></persName></role>, <roleDesc>55 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spFruSchwartsHansen"><persName ref="#FruSchwartsHansen">Fru <hi rend="smallcaps">Kally Schwarts-Hansen</hi></persName></role>, <roleDesc>35 år</roleDesc>.
+          <role><persName ref="#FruSchwartsHansen">Fru <hi rend="smallcaps">Kally Schwarts-Hansen</hi></persName></role>, <roleDesc>35 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spNielsen"><persName ref="#Nielsen" rend="smallcaps">Nielsen</persName></role>, <roleDesc>murare</roleDesc>.
+          <role><persName ref="#Nielsen" rend="smallcaps">Nielsen</persName></role>, <roleDesc>murare</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spAnna"><persName ref="#Anna" rend="smallcaps">Anna</persName></role>, <roleDesc>jungfru hos Haxtons</roleDesc>.
+          <role><persName ref="#Anna" rend="smallcaps">Anna</persName></role>, <roleDesc>jungfru hos Haxtons</roleDesc>.
         </castItem>
       </castList>
       <set>

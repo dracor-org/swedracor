@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Romeos Julia.</title>
         <title type="sub">Dramatisk interiör i 1 akt</title>
-        <author xml:id="BenedictssonV">
+        <author key="wikidata:Q273950" xml:id="BenedictssonV">
           <persName>
             <forename>Victoria</forename>
             <surname>Benedictsson</surname>
@@ -69,6 +69,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">BenedictssonV_RomeosJulia</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000012</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59618743</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -151,9 +154,37 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spZetterschöld" sex="male">
+            <persName>baron Arthur Zetterschöld</persName>
+          </person>
+          
+          <person xml:id="spPigan">
+            <persName>Pigan.</persName>
+          </person>
+          
+          <person xml:id="spAlmquist" sex="male">
+            <persName>Frits Almquist</persName>
+          </person>
+          
+          <person xml:id="spFruRamberg" sex="female">
+            <persName>Stella Ramberg</persName>
+          </person>
+          <personGrp xml:id="spBarnen">
+            <name>Barnen</name>
+          </personGrp>
+          
+          <person xml:id="spTorsten" sex="male">
+            <persName>Torsten Ramberg</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="BenedictssonV_RomeosJulia">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="38576-0.jpg"/>
@@ -161,21 +192,21 @@
       <castList>
         <head>Personer:</head>
         <castItem>
-          <role xml:id="spFruRamberg"><persName ref="#FruRamberg">Stella Ramberg</persName></role>, <roleDesc>skådespelerska</roleDesc>.
+          <role><persName ref="#FruRamberg">Stella Ramberg</persName></role>, <roleDesc>skådespelerska</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spZetterschöld"><persName ref="#Zetterschöld">Arthur Zetterschöld</persName></role>, <roleDesc>ung diplomat</roleDesc>.
+          <role><persName ref="#Zetterschöld">Arthur Zetterschöld</persName></role>, <roleDesc>ung diplomat</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spAlmquist"><persName ref="#Almquist">Frits Almquist</persName></role>, <roleDesc>författare, fil. d:r</roleDesc>.
+          <role><persName ref="#Almquist">Frits Almquist</persName></role>, <roleDesc>författare, fil. d:r</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spPigan"/><roleDesc><persName ref="#Pigan">En piga</persName></roleDesc>.
+          <role/><roleDesc><persName ref="#Pigan">En piga</persName></roleDesc>.
         </castItem>
         <castItem>
           <roleGroup xml:id="spBarnen">
             <roleDesc><persName ref="#Barnen">Barnen</persName></roleDesc>.
-            <role xml:id="spTorsten" corresp="#Torsten"/>
+            <role corresp="#Torsten"/>
           </roleGroup>
         </castItem>
       </castList>

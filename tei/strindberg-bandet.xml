@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Bandet</title>
         <title type="sub">Sorgespel i en akt.</title>
-        <author xml:id="StrindbergA">
+        <author key="wikidata:Q7724" xml:id="StrindbergA">
           <persName>
             <forename>August</forename>
             <surname>Strindberg</surname>
@@ -64,6 +64,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">StrindbergA_Bandet</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000036</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q10425863</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -163,9 +166,109 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spLänsman" sex="male">
+            <persName>länsman Viberg</persName>
+          </person>
+          
+          <person xml:id="spFjärdingsman" sex="male">
+            <persName>fjärdingsman Öman</persName>
+          </person>
+          
+          <person xml:id="spBaronen" sex="male">
+            <persName>baron Axel Sprengel</persName>
+          </person>
+          
+          <person xml:id="spFriherrinnan" sex="female">
+            <persName>friherrinna Hélène Malmberg Sprengel</persName>
+          </person>
+          
+          <person xml:id="spAdvokaten" sex="male">
+            <persName>advokat</persName>
+          </person>
+          
+          <person xml:id="spTjänsteflickan" sex="female">
+            <persName>Alma Jonsson</persName>
+          </person>
+          
+          <person xml:id="spDejan" sex="female">
+            <persName>Dejan</persName>
+          </person>
+          
+          <person xml:id="spTröskaren" sex="male">
+            <persName>Tröskaren</persName>
+          </person>
+          
+          <person xml:id="spHäradshöfdingen" sex="male">
+            <persName>häradshövding</persName>
+          </person>
+          
+          <person xml:id="spPastorn" sex="male">
+            <persName>pastor</persName>
+          </person>
+          <personGrp xml:id="spNämnden">
+            <name>De tolf nämndemännen</name>
+          </personGrp>
+          
+          <person xml:id="spAlexandersson" sex="male">
+            <persName>hemmansägare Alexandersson</persName>
+          </person>
+          
+          <person xml:id="spErikOttoBoman" sex="male">
+            <persName>Erik Otto Boman</persName>
+          </person>
+          
+          <person xml:id="spLudvigÖstman" sex="male">
+            <persName>Ludvig Östman</persName>
+          </person>
+          
+          <person xml:id="spAlexanderEklund" sex="male">
+            <persName>Alexander Eklund</persName>
+          </person>
+          
+          <person xml:id="spEmanuelWickberg" sex="male">
+            <persName>Emanuel Wickberg</persName>
+          </person>
+          
+          <person xml:id="spSvenOskarErling" sex="male">
+            <persName>Sven Oskar Erling</persName>
+          </person>
+          
+          <person xml:id="spAugustAlexanderVass" sex="male">
+            <persName>August Alexander Vass</persName>
+          </person>
+          
+          <person xml:id="spAndersErikRuth" sex="male">
+            <persName>Anders Erik Ruth</persName>
+          </person>
+          
+          <person xml:id="spAxelVallin" sex="male">
+            <persName>Axel Vallin</persName>
+          </person>
+          
+          <person xml:id="spKarlJohanSjöberg" sex="male">
+            <persName>Karl Johan Sjöberg</persName>
+          </person>
+          
+          <person xml:id="spErenfridSöderberg" sex="male">
+            <persName>Erenfrid Söderberg</persName>
+          </person>
+          
+          <person xml:id="spOlofAndersson" sex="male">
+            <persName>Olof Andersson</persName>
+          </person>
+          
+          <person xml:id="spKarlPeterAndersson" sex="male">
+            <persName>Karl Peter Andersson</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="StrindbergA_Bandet">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="6348-0.jpg"/><!-- titelsida, volym -->
@@ -180,58 +283,58 @@
       <castList>
         <head>PERSONER:</head>
         <castItem>
-          <role xml:id="spHäradshöfdingen"><persName ref="#Häradshöfdingen">Häradshöfdingen</persName></role>, <roleDesc>27 år</roleDesc>.
+          <role><persName ref="#Häradshöfdingen">Häradshöfdingen</persName></role>, <roleDesc>27 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spPastorn"><persName ref="#Pastorn">Pastorn</persName></role>, <roleDesc>60 år</roleDesc>.
+          <role><persName ref="#Pastorn">Pastorn</persName></role>, <roleDesc>60 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spBaronen"><persName ref="#Baronen">Baronen</persName></role>, <roleDesc>42 år</roleDesc>.
+          <role><persName ref="#Baronen">Baronen</persName></role>, <roleDesc>42 år</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spFriherrinnan"><persName ref="#Friherrinnan">Friherrinnan</persName></role>, <roleDesc>40 år</roleDesc>.
+          <role><persName ref="#Friherrinnan">Friherrinnan</persName></role>, <roleDesc>40 år</roleDesc>.
         </castItem>
         <castItem>
           <roleGroup xml:id="spNämnden">
             <roleDesc><persName ref="#Nämnden">De tolf nämndemännen</persName></roleDesc>.
-            <role xml:id="spAlexanderEklund" corresp="#AlexanderEklund"/>
-            <role xml:id="spEmanuelWickberg" corresp="#EmanuelWickberg"/>
-            <role xml:id="spKarlJohanSjöberg" corresp="#KarlJohanSjöberg"/>
-            <role xml:id="spErikOttoBoman" corresp="#ErikOttoBoman"/>
-            <role xml:id="spErenfridSöderberg" corresp="#ErenfridSöderberg"/>
-            <role xml:id="spOlofAndersson" corresp="#OlofAndersson"/>
-            <role xml:id="spKarlPeterAndersson" corresp="#KarlPeterAndersson"/>
-            <role xml:id="spAxelVallin" corresp="#AxelVallin"/>
-            <role xml:id="spAndersErikRuth" corresp="#AndersErikRuth"/>
-            <role xml:id="spSvenOskarErling" corresp="#SvenOskarErling"/>
-            <role xml:id="spAugustAlexanderVass" corresp="#AugustAlexanderVass"/>
-            <role xml:id="spLudvigÖstman" corresp="#LudvigÖstman"/>
+            <role corresp="#AlexanderEklund"/>
+            <role corresp="#EmanuelWickberg"/>
+            <role corresp="#KarlJohanSjöberg"/>
+            <role corresp="#ErikOttoBoman"/>
+            <role corresp="#ErenfridSöderberg"/>
+            <role corresp="#OlofAndersson"/>
+            <role corresp="#KarlPeterAndersson"/>
+            <role corresp="#AxelVallin"/>
+            <role corresp="#AndersErikRuth"/>
+            <role corresp="#SvenOskarErling"/>
+            <role corresp="#AugustAlexanderVass"/>
+            <role corresp="#LudvigÖstman"/>
           </roleGroup>
         </castItem>
         <castItem>
           <role><persName ref="#Notarien">Notarien</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spLänsman"><persName ref="#Länsman">Länsmannen</persName></role>.
+          <role><persName ref="#Länsman">Länsmannen</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spFjärdingsman"><persName ref="#Fjärdingsman">Fjärdingsmannen</persName></role>.
+          <role><persName ref="#Fjärdingsman">Fjärdingsmannen</persName></role>.
         </castItem>
         <cb n="2"/>
         <castItem>
-          <role xml:id="spAdvokaten"><persName ref="#Advokaten">Advokaten</persName></role>.
+          <role><persName ref="#Advokaten">Advokaten</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spAlexandersson"><persName ref="#Alexandersson">Hemmansägaren Alexan­<lb break="no"/>dersson</persName></role>.
+          <role><persName ref="#Alexandersson">Hemmansägaren Alexan­<lb break="no"/>dersson</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spTjänsteflickan"><persName ref="#Tjänsteflickan">Tjänsteflickan Alma Jons­<lb break="no"/>son</persName></role>.
+          <role><persName ref="#Tjänsteflickan">Tjänsteflickan Alma Jons­<lb break="no"/>son</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spDejan"><persName ref="#Dejan">Dejan</persName></role>.
+          <role><persName ref="#Dejan">Dejan</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spTröskaren"><persName ref="#Tröskaren">Tröskaren</persName></role>.
+          <role><persName ref="#Tröskaren">Tröskaren</persName></role>.
         </castItem>
         <castItem>
           <roleGroup corresp="#Folk"><roleDesc>Folk</roleDesc></roleGroup>.

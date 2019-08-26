@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Under toffeln</title>
         <title type="sub">Komedi i två akter</title>
-        <author xml:id="LefflerAC">
+        <author key="wikidata:Q243068" xml:id="LefflerAC">
           <persName>
             <forename>Anne Charlotte</forename>
             <surname>Leffler</surname>
@@ -64,6 +64,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">LefflerAC_UnderToffeln</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000027</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q10709356</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -149,9 +152,34 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spAgnes" sex="female">
+            <persName>Agnes Wäng</persName>
+          </person>
+          
+          <person xml:id="spBorgmästaren" sex="male">
+            <persName>borgmästare</persName>
+          </person>
+          
+          <person xml:id="spHenning" sex="male">
+            <persName>Henning Wäng</persName>
+          </person>
+          
+          <person xml:id="spEbba" sex="female">
+            <persName>Ebba Hjorthufvud</persName>
+          </person>
+          
+          <person xml:id="spFriherrinnan" sex="female">
+            <persName>friherrinna Hjorthufvud</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="LefflerAC_UnderToffeln">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="5559-0.jpg"/><!-- omslag -->
@@ -170,19 +198,19 @@
       <castList>
         <head>PERSONERNA:</head>
         <castItem>
-          <role xml:id="spHenning"><persName ref="#Henning">Henning Wäng</persName></role>, <roleDesc>landtbrukare</roleDesc>.
+          <role><persName ref="#Henning">Henning Wäng</persName></role>, <roleDesc>landtbrukare</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spAgnes"><persName ref="#Agnes">Agnes</persName></role>, <roleDesc>hans syster</roleDesc>.
+          <role><persName ref="#Agnes">Agnes</persName></role>, <roleDesc>hans syster</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spBorgmästaren"><persName ref="#Borgmästaren">Borgmästaren</persName></role>.
+          <role><persName ref="#Borgmästaren">Borgmästaren</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spFriherrinnan"><persName ref="#Friherrinnan">Friherrinnan Hjorthufvud</persName></role>.
+          <role><persName ref="#Friherrinnan">Friherrinnan Hjorthufvud</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spEbba"><persName ref="#Ebba">Ebba</persName></role>, <roleDesc>hennes dotter</roleDesc>.
+          <role><persName ref="#Ebba">Ebba</persName></role>, <roleDesc>hennes dotter</roleDesc>.
         </castItem>
         <addSpan spanTo="#slutTillagt"/>
         <castItem type="list">

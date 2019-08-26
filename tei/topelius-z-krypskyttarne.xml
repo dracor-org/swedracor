@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Krypskyttarne</title>
         <title type="sub">Sommarlek</title>
-        <author xml:id="TopeliusZ">
+        <author key="wikidata:Q139549" xml:id="TopeliusZ">
           <persName>
             <forename>Zacharias</forename>
             <surname>Topelius</surname>
@@ -66,6 +66,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">TopeliusZ_Krypskyttarne</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000058</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59651602</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -168,9 +171,26 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spPalte" sex="male">
+            <persName>Palte</persName>
+          </person>
+          
+          <person xml:id="spMalte" sex="male">
+            <persName>Malte</persName>
+          </person>
+          
+          <person xml:id="spJösse" sex="male">
+            <persName>Jösse</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="TopeliusZ_Krypskyttarne">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="38071-0.jpg"/><!-- titelsida, volym -->
@@ -184,9 +204,9 @@
       <castList>
         <head>Personer:</head>
         <castItem type="list">
-          <role xml:id="spMalte"><persName ref="#Malte">Malte</persName></role>,
-          <role xml:id="spPalte"><persName ref="#Palte">Palte</persName></role> och
-          <role xml:id="spJösse"><persName ref="#Jösse">Jösse</persName></role>.
+          <role><persName ref="#Malte">Malte</persName></role>,
+          <role><persName ref="#Palte">Palte</persName></role> och
+          <role><persName ref="#Jösse">Jösse</persName></role>.
         </castItem>
       </castList>
     </front>

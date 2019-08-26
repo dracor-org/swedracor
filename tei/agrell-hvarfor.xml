@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">"Hvarför?"</title>
         <title type="sub">Komedie i en akt</title>
-        <author xml:id="AgrellA">
+        <author key="wikidata:Q469339" xml:id="AgrellA">
           <persName>
             <forename>Alfhild</forename>
             <surname>Agrell</surname>
@@ -64,6 +64,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">AgrellA_Hvarfor</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000005</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q18242708</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -148,9 +151,30 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spAlf" sex="male">
+            <persName>Alf</persName>
+          </person>
+          
+          <person xml:id="spEsther" sex="female">
+            <persName>Esther</persName>
+          </person>
+          
+          <person xml:id="spBeate" sex="female">
+            <persName>Beate</persName>
+          </person>
+          
+          <person xml:id="spLisen" sex="female">
+            <persName>Lisen</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
-  </teiHeader>  
-  <text xml:id="AgrellA_Hvarfor">
+
+  </teiHeader>
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="6004-0.jpg"/><!-- omslag -->
@@ -170,16 +194,16 @@
       <castList>
         <head>PERSONERNA.</head>
         <castItem>
-          <role xml:id="spAlf"><persName ref="#Alf">ALF</persName></role>, <roleDesc>löjtnant</roleDesc>,
+          <role><persName ref="#Alf">ALF</persName></role>, <roleDesc>löjtnant</roleDesc>,
         </castItem>        
         <castItem>
-          <role xml:id="spEsther"><persName ref="#Esther">ESTHER</persName></role>, <roleDesc>hans hustru</roleDesc>,
+          <role><persName ref="#Esther">ESTHER</persName></role>, <roleDesc>hans hustru</roleDesc>,
         </castItem>
         <castItem>
-          <role xml:id="spBeate"><persName ref="#Beate">MOSTER BEATE</persName></role>, <roleDesc>kusin till Alfs far</roleDesc>,
+          <role><persName ref="#Beate">MOSTER BEATE</persName></role>, <roleDesc>kusin till Alfs far</roleDesc>,
         </castItem>
         <castItem>
-          <role xml:id="spLisen"><persName ref="#Lisen">LISEN</persName></role>.
+          <role><persName ref="#Lisen">LISEN</persName></role>.
         </castItem>
       </castList>
     </front>

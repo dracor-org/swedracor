@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Skogskonungen</title>
-        <author xml:id="TopeliusZ">
+        <author key="wikidata:Q139549" xml:id="TopeliusZ">
           <persName>
             <forename>Zacharias</forename>
             <surname>Topelius</surname>
@@ -69,6 +69,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">TopeliusZ_Skogskonungen</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000061</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59652164</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -191,9 +194,54 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spMetsänPiika" sex="female">
+            <persName>Metsän Piika</persName>
+          </person>
+          
+          <person xml:id="spTapio" sex="male">
+            <persName>Tapio</persName>
+          </person>
+          
+          <person xml:id="spFörstaHaltian" sex="unknown">
+            <persName>Första</persName>
+          </person>
+          
+          <person xml:id="spAndraHaltian" sex="unknown">
+            <persName>andra</persName>
+          </person>
+          
+          <person xml:id="spTredjeHaltian" sex="unknown">
+            <persName>tredje</persName>
+          </person>
+          
+          <person xml:id="spTellervo" sex="female">
+            <persName>Tellervo</persName>
+          </person>
+          
+          <person xml:id="spNyyrikki" sex="male">
+            <persName>Nyyrikki</persName>
+          </person>
+          
+          <person xml:id="spTuulikki" sex="female">
+            <persName>Tuulikki</persName>
+          </person>
+          
+          <person xml:id="spJägare" sex="male">
+            <persName>En jägare</persName>
+          </person>
+          
+          <person xml:id="spMielikki" sex="female">
+            <persName>Mielikki</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="TopeliusZ_Skogskonungen">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="32418-0.jpg"/><!-- pärm -->
@@ -213,33 +261,33 @@
       <castList>
         <head>Personer:</head>
         <castItem>
-          <role xml:id="spTapio" rend="bold"><persName ref="#Tapio">Tapio</persName></role>, <roleDesc>gubbe; mörkbrunt skägg, hög barrhatt, pels af trädmossa, gyl­<lb break="no"/>lene klubba</roleDesc>.
+          <role rend="bold"><persName ref="#Tapio">Tapio</persName></role>, <roleDesc>gubbe; mörkbrunt skägg, hög barrhatt, pels af trädmossa, gyl­<lb break="no"/>lene klubba</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spMielikki" rend="bold"><persName ref="#Mielikki">Mielikki</persName></role>, <roleDesc>ung qvinna; gyllene armband och kransar, blå strumpor,
+          <role rend="bold"><persName ref="#Mielikki">Mielikki</persName></role>, <roleDesc>ung qvinna; gyllene armband och kransar, blå strumpor,
             <lb/> röda skoband, gyllene nycklar</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spNyyrikki" rend="bold"><persName ref="#Nyyrikki">Nyyrikki</persName></role>, <roleDesc>gosse; blå mantel, blå eller röd hög mössa, yxa</roleDesc>.
+          <role rend="bold"><persName ref="#Nyyrikki">Nyyrikki</persName></role>, <roleDesc>gosse; blå mantel, blå eller röd hög mössa, yxa</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spTellervo" rend="bold"><persName ref="#Tellervo">Tellervo</persName></role>, <roleDesc>flicka; gullgult hår, lätt skjorta med fina fållar</roleDesc>.
+          <role rend="bold"><persName ref="#Tellervo">Tellervo</persName></role>, <roleDesc>flicka; gullgult hår, lätt skjorta med fina fållar</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spTuulikki" rend="bold"><persName ref="#Tuulikki">Tuulikki</persName></role>, <roleDesc>flicka; björkris, röd sidenduk</roleDesc>.
+          <role rend="bold"><persName ref="#Tuulikki">Tuulikki</persName></role>, <roleDesc>flicka; björkris, röd sidenduk</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spMetsänPiika" rend="bold"><persName ref="#MetsänPiika">Metsän piika</persName></role>, <roleDesc>liten flicka med flöjt</roleDesc>.
+          <role rend="bold"><persName ref="#MetsänPiika">Metsän piika</persName></role>, <roleDesc>liten flicka med flöjt</roleDesc>.
         </castItem>
         <castItem><roleGroup><roleDesc corresp="#TvåHaltiat">Två haltiat med honungsskrinet</roleDesc></roleGroup>.</castItem>
         <castItem type="list">
-          <role xml:id="spFörstaHaltian"><persName ref="#FörstaHaltian">Första</persName></role>,
-          <role xml:id="spAndraHaltian"><persName ref="#AndraHaltian">andra</persName></role> och
-          <role xml:id="spTredjeHaltian"><persName ref="#TredjeHaltian">tredje</persName></role>
+          <role><persName ref="#FörstaHaltian">Första</persName></role>,
+          <role><persName ref="#AndraHaltian">andra</persName></role> och
+          <role><persName ref="#TredjeHaltian">tredje</persName></role>
           <roleDesc>haltian</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spJägare"><persName ref="#Jägare">En jägare</persName></role>.
+          <role><persName ref="#Jägare">En jägare</persName></role>.
         </castItem>
         <castItem>
           <roleGroup>

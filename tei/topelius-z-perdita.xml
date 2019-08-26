@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main"><title>Perdita</title> eller <title>Den förlorade våren</title></title>
-        <author xml:id="TopeliusZ">
+        <author key="wikidata:Q139549" xml:id="TopeliusZ">
           <persName>
             <forename>Zacharias</forename>
             <surname>Topelius</surname>
@@ -67,6 +67,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">TopeliusZ_Perdita</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000060</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59652213</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -192,9 +195,48 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spMaja" sex="female">
+            <persName>Maja Perdita</persName>
+          </person>
+          
+          <person xml:id="spSvante" sex="male">
+            <persName>Svante April</persName>
+          </person>
+          <personGrp xml:id="spEkoröster">
+            <name>Ekoröster</name>
+          </personGrp>
+          
+          <person xml:id="spEko" sex="male">
+            <persName>Eko</persName>
+          </person>
+          
+          <person xml:id="spFlorio" sex="male">
+            <persName>prins Florio</persName>
+          </person>
+          
+          <person xml:id="spFjärilen" sex="male">
+            <persName>En fjäril</persName>
+          </person>
+          
+          <person xml:id="spSländan" sex="female">
+            <persName>En slända</persName>
+          </person>
+          
+          <person xml:id="spGöken" sex="male">
+            <persName>Göken</persName>
+          </person>
+          <personGrp xml:id="spSkolbarnen">
+            <name>Skolbarnen, gossar och flickor</name>
+          </personGrp>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="TopeliusZ_Perdita">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="32490-0.jpg"/><!-- pärm -->
@@ -214,22 +256,22 @@
       <castList>
         <head>Personer:</head>
         <castItem>
-          <role xml:id="spMaja"><persName ref="#Maja">Maja</persName></role>, <roleDesc>en skolflicka, kallad Perdita</roleDesc>.
+          <role><persName ref="#Maja">Maja</persName></role>, <roleDesc>en skolflicka, kallad Perdita</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spSvante"><persName ref="#Svante">Svante April</persName></role>, <roleDesc>en tjufpojke, stum person</roleDesc>.
+          <role><persName ref="#Svante">Svante April</persName></role>, <roleDesc>en tjufpojke, stum person</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spEko"><persName ref="#Eko">Eko</persName></role>, <roleDesc>en gosse med trumpet</roleDesc>.
+          <role><persName ref="#Eko">Eko</persName></role>, <roleDesc>en gosse med trumpet</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spFlorio"><persName ref="#Florio">Prins Florio</persName></role>, <roleDesc><persName ref="#Skogen">skogens</persName> konung, förklädd</roleDesc>.
+          <role><persName ref="#Florio">Prins Florio</persName></role>, <roleDesc><persName ref="#Skogen">skogens</persName> konung, förklädd</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spFjärilen"><persName ref="#Fjärilen">En fjäril</persName></role>, <roleDesc>gosse</roleDesc>.
+          <role><persName ref="#Fjärilen">En fjäril</persName></role>, <roleDesc>gosse</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spSländan"><persName ref="#Sländan">En slända</persName></role>, <roleDesc>flicka</roleDesc>.
+          <role><persName ref="#Sländan">En slända</persName></role>, <roleDesc>flicka</roleDesc>.
         </castItem>
         <castItem>
           <roleGroup>
@@ -237,7 +279,7 @@
           </roleGroup>
         </castItem>
         <castItem>
-          <role xml:id="spGöken"><persName ref="#Göken">Göken</persName></role>, <roleDesc>en gosse</roleDesc>.
+          <role><persName ref="#Göken">Göken</persName></role>, <roleDesc>en gosse</roleDesc>.
         </castItem>
         <castItem>
           <roleGroup xml:id="spSkolbarnen">

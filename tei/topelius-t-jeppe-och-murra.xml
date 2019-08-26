@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Jeppe och Murra</title>
         <title type="sub">Ett uppträde på morgonkvisten i Björkuddens matsal.</title>
-        <author xml:id="TopeliusT">
+        <author key="wikidata:Q15042696" xml:id="TopeliusT">
           <persName>
             <forename>Toino</forename>
             <surname>Topelius</surname>
@@ -62,6 +62,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">TopeliusT_JeppeOchMurra</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000055</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59645707</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -155,9 +158,22 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spJeppe" sex="male">
+            <persName>Jeppe</persName>
+          </person>
+          
+          <person xml:id="spMurra" sex="female">
+            <persName>Murre</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="TopeliusT_JeppeOchMurra">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="5531-0.jpg"/><!-- pärm -->
@@ -180,11 +196,11 @@
       <castList>
         <head>PERSONER:</head>
         <castItem>
-          <role xml:id="spJeppe"><persName ref="#Jeppe">JEPPE</persName></role><ref type="noteAnchor" target="#note1">*</ref><note place="bottom" xml:id="note1"><label>*</label> Råtthundar av engelsk ras.</note>,
+          <role><persName ref="#Jeppe">JEPPE</persName></role><ref type="noteAnchor" target="#note1">*</ref><note place="bottom" xml:id="note1"><label>*</label> Råtthundar av engelsk ras.</note>,
           <roleDesc>öfverråttjägmästare på <orgName ref="#Björkudden">Björkudden</orgName></roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spMurra"><persName ref="#Murra">MURRA</persName></role><ref type="noteAnchor" target="#note1">*</ref>,
+          <role><persName ref="#Murra">MURRA</persName></role><ref type="noteAnchor" target="#note1">*</ref>,
           <roleDesc>källarvaktmastarinna därsammastädes</roleDesc>.
         </castItem>
       </castList>

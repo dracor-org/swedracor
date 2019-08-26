@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Ensam</title>
         <title type="sub">Skådespel i tre akter</title>
-        <author xml:id="AgrellA">
+        <author key="wikidata:Q469339" xml:id="AgrellA">
           <persName>
             <forename>Alfhild</forename>
             <surname>Agrell</surname>
@@ -69,6 +69,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">AgrellA_Ensam</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000004</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q18238675</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -162,9 +165,42 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spSandén" sex="male">
+            <persName>doktor Sandén</persName>
+          </person>
+          
+          <person xml:id="spThora" sex="female">
+            <persName>Thora Edlin</persName>
+          </person>
+          
+          <person xml:id="spYngva" sex="female">
+            <persName>Yngva Edlin</persName>
+          </person>
+          
+          <person xml:id="spRask" sex="female">
+            <persName>Rask</persName>
+          </person>
+          
+          <person xml:id="spEttStadsbud" sex="male">
+            <persName>Ett stadsbud</persName>
+          </person>
+          
+          <person xml:id="spAllan" sex="male">
+            <persName>löjtnant Allan Eksköld</persName>
+          </person>
+          
+          <person xml:id="spEksköld" sex="male">
+            <persName>protokollsekreterare Georg Eksköld</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="AgrellA_Ensam">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="38333-0.jpg"/><!-- pärm -->
@@ -179,24 +215,24 @@
       <castList>
         <head>Personer:</head>
         <castItem>
-          <role xml:id="spThora"><persName ref="#Thora">Thora Edlin</persName></role>.
+          <role><persName ref="#Thora">Thora Edlin</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spYngva"><persName ref="#Yngva">Yngva</persName></role>, <roleDesc>hennes dotter</roleDesc>.
+          <role><persName ref="#Yngva">Yngva</persName></role>, <roleDesc>hennes dotter</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spEksköld"><persName ref="#Eksköld">Georg Eksköld</persName></role>, <roleDesc>f. d. protokollsekreterare</roleDesc>.
+          <role><persName ref="#Eksköld">Georg Eksköld</persName></role>, <roleDesc>f. d. protokollsekreterare</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spAllan"><persName ref="#Allan">Allan</persName></role>, <roleDesc>hans fosterson, löjtnant</roleDesc>.
+          <role><persName ref="#Allan">Allan</persName></role>, <roleDesc>hans fosterson, löjtnant</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spSandén"><persName ref="#Sandén">Sandén</persName></role>, <roleDesc>läkare</roleDesc>.</castItem>
+          <role><persName ref="#Sandén">Sandén</persName></role>, <roleDesc>läkare</roleDesc>.</castItem>
         <castItem>
-          <role xml:id="spRask"><persName ref="#Rask">Madam Rask</persName></role>.
+          <role><persName ref="#Rask">Madam Rask</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spEttStadsbud"><persName ref="#EttStadsbud" rend="normal">Ett stadsbud</persName></role>.
+          <role><persName ref="#EttStadsbud" rend="normal">Ett stadsbud</persName></role>.
         </castItem>
       </castList>
       <gap reason="irrelevant"/><!-- tryckinfo -->

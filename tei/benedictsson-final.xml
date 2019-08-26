@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Final</title>
         <title type="sub">Skådespel i tre akter</title>
-        <author xml:id="BenedictssonV">
+        <author key="wikidata:Q273950" xml:id="BenedictssonV">
           <persName>
             <forename>Victoria</forename>
             <surname>Benedictsson</surname>
@@ -14,7 +14,7 @@
           <idno type="Litteraturbanken">http://litteraturbanken.se/#!forfattare/BenedictssonV</idno>
           <idno type="SBL">http://www.nad.riksarkivet.se/sbl/artikel/18474</idno>
         </author>
-        <author xml:id="LundegårdA">
+        <author key="wikidata:Q5966284" xml:id="LundegårdA">
           <persName>
             <forename>Axel</forename>
             <surname>Lundegård</surname>
@@ -73,6 +73,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">BenedictssonV_Final</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000010</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59647545</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -169,9 +172,73 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spFrökenSandgren" sex="female">
+            <persName>fröken Bertha Sandgren</persName>
+          </person>
+          
+          <person xml:id="spFrökenLundberg" sex="female">
+            <persName>fröken Agda Lundberg</persName>
+          </person>
+          
+          <person xml:id="spFrökenTörnbom" sex="female">
+            <persName>fröken Lisen Törnbom</persName>
+          </person>
+          
+          <person xml:id="spSörling" sex="male">
+            <persName>Sörling</persName>
+          </person>
+          
+          <person xml:id="spFruBruhn" sex="female">
+            <persName>fru Betty Bettina Bruhn</persName>
+          </person>
+          
+          <person xml:id="spDirektörBruhn" sex="male">
+            <persName>direktör Hugo Bruhn</persName>
+          </person>
+          
+          <person xml:id="spSaima" sex="female">
+            <persName>Saima Rönne</persName>
+          </person>
+          
+          <person xml:id="spStenström" sex="male">
+            <persName>Stenström</persName>
+          </person>
+          
+          <person xml:id="spRönne" sex="male">
+            <persName>Karl Rönne</persName>
+          </person>
+          
+          <person xml:id="spGrosshandlareHollgren" sex="male">
+            <persName>grosshandlare Hollgren</persName>
+          </person>
+          
+          <person xml:id="spAnderberg" sex="male">
+            <persName>Anderberg</persName>
+          </person>
+          
+          <person xml:id="spSofi" sex="female">
+            <persName>Sofi</persName>
+          </person>
+          <!--unknown speaker: DirektörBruhn-->
+          <!--unknown speaker: FruBruhn-->
+          <!--unknown speaker: FrökenLundberg-->
+          <!--unknown speaker: FrökenSandgren-->
+          <!--unknown speaker: FrökenTörnbom-->
+          <!--unknown speaker: Rönne-->
+          <!--unknown speaker: Stenström-->
+          
+          <person xml:id="spBanktjänstemannen" sex="male">
+            <persName>En banktjänsteman</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="BenedictssonV_Final">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="6346-0.jpg"/><!-- smutstitel -->
@@ -185,44 +252,44 @@
       <castList>
         <head>PERSONER:</head>
         <castItem>
-          <role xml:id="spDirektörBruhn"><persName ref="#DirektörBruhn">HUGO BRUHN</persName></role>, <roleDesc>bankdirektör</roleDesc>.
+          <role><persName ref="#DirektörBruhn">HUGO BRUHN</persName></role>, <roleDesc>bankdirektör</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spFruBruhn"><persName ref="#FruBruhn">BETTY BRUHN</persName></role>.
+          <role><persName ref="#FruBruhn">BETTY BRUHN</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spSaima"><persName ref="#Saima">SAIMA RÖNNE</persName></role>.
+          <role><persName ref="#Saima">SAIMA RÖNNE</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spRönne"><persName ref="#Rönne">KARL RÖNNE</persName></role>, <roleDesc>medicine studerande</roleDesc>.
+          <role><persName ref="#Rönne">KARL RÖNNE</persName></role>, <roleDesc>medicine studerande</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spSörling"><persName ref="#Sörling">SÖRLING</persName></role>, <roleDesc>bankbokhållare</roleDesc>.
+          <role><persName ref="#Sörling">SÖRLING</persName></role>, <roleDesc>bankbokhållare</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spStenström"><persName ref="#Stenström">STENSTRÖM</persName></role>, <roleDesc>artist</roleDesc>.
+          <role><persName ref="#Stenström">STENSTRÖM</persName></role>, <roleDesc>artist</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spGrosshandlareHollgren"><persName ref="#GrosshandlareHollgren">GROSSHANDLARE HOLLGREN</persName></role>.
+          <role><persName ref="#GrosshandlareHollgren">GROSSHANDLARE HOLLGREN</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spFrökenSandgren"><persName ref="#FrökenSandgren"><choice><sic>FRÖREN</sic> <corr>FRÖKEN</corr></choice> BERTHA SANDGREN</persName></role>.
+          <role><persName ref="#FrökenSandgren"><choice><sic>FRÖREN</sic> <corr>FRÖKEN</corr></choice> BERTHA SANDGREN</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spFrökenLundberg"><persName ref="#FrökenLundberg">FRÖKEN AGDA LUNDBERG</persName></role>.
+          <role><persName ref="#FrökenLundberg">FRÖKEN AGDA LUNDBERG</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spFrökenTörnbom"><persName ref="#FrökenTörnbom">FRÖKEN LISEN TÖRNBOM</persName></role>.
+          <role><persName ref="#FrökenTörnbom">FRÖKEN LISEN TÖRNBOM</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spAnderberg"><persName ref="#Anderberg">ANDERBERG</persName></role>, <roleDesc>betjänt</roleDesc>.
+          <role><persName ref="#Anderberg">ANDERBERG</persName></role>, <roleDesc>betjänt</roleDesc>.
         </castItem>
         <castItem>
-          <role xml:id="spSofi"><persName ref="#Sofi">SOFI</persName></role>, <roleDesc>husjungfru</roleDesc>.
+          <role><persName ref="#Sofi">SOFI</persName></role>, <roleDesc>husjungfru</roleDesc>.
         </castItem>
         <addSpan spanTo="#slutTillagt"/>
         <castItem>
-          <role xml:id="spBanktjänstemannen"><persName ref="#Banktjänstemannen">En banktjänsteman</persName></role>.
+          <role><persName ref="#Banktjänstemannen">En banktjänsteman</persName></role>.
         </castItem>
         <castItem type="list">
           <roleGroup corresp="#Gäster">

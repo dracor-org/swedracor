@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Den kärleken!</title>
         <title type="sub">Komedi i två akter</title>
-        <author xml:id="LefflerAC">
+        <author key="wikidata:Q243068" xml:id="LefflerAC">
           <persName>
             <forename>Anne Charlotte</forename>
             <surname>Leffler</surname>
@@ -69,6 +69,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">LefflerAC_DenKarleken</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/"/>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/"/>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -172,9 +175,38 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spVendla" sex="female">
+            <persName>Vendla Sundberg</persName>
+          </person>
+          
+          <person xml:id="spFruSandström" sex="female">
+            <persName>fru Sandström</persName>
+          </person>
+          
+          <person xml:id="spGunborg" sex="female">
+            <persName>Gunborg Edlén</persName>
+          </person>
+          
+          <person xml:id="spAsp" sex="male">
+            <persName>Asp</persName>
+          </person>
+          
+          <person xml:id="spMina" sex="female">
+            <persName>Mina Johnson</persName>
+          </person>
+          
+          <person xml:id="spRudolf" sex="male">
+            <persName>Rudolf Wilson</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="LefflerAC_DenKarleken">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="36925-0.jpg"/><!-- pärm -->
@@ -197,23 +229,23 @@
       <castList>
         <head>PERSONERNA.</head>
         <castItem>
-          <role xml:id="spFruSandström"><persName ref="#FruSandström">Fru Sandström</persName></role>, <roleDesc>änka med inackorderingar</roleDesc>.
+          <role><persName ref="#FruSandström">Fru Sandström</persName></role>, <roleDesc>änka med inackorderingar</roleDesc>.
         </castItem>
         <castGroup rend="braced">
           <castItem>
-            <role xml:id="spVendla"><persName ref="#Vendla">Vendla Sundberg</persName></role>, <roleDesc>20 år, student</roleDesc>.
+            <role><persName ref="#Vendla">Vendla Sundberg</persName></role>, <roleDesc>20 år, student</roleDesc>.
           </castItem>
           <castItem>
-            <role xml:id="spGunborg"><persName ref="#Gunborg">Gunborg Edlén</persName></role>, <roleDesc>30 år, lärarinna</roleDesc>.
+            <role><persName ref="#Gunborg">Gunborg Edlén</persName></role>, <roleDesc>30 år, lärarinna</roleDesc>.
           </castItem>
           <castItem>
-            <role xml:id="spMina"><persName ref="#Mina">Mina Johnson</persName></role>, <roleDesc>26 år, kontorist</roleDesc>.
+            <role><persName ref="#Mina">Mina Johnson</persName></role>, <roleDesc>26 år, kontorist</roleDesc>.
           </castItem>
           <castItem>
-            <role xml:id="spRudolf"><persName ref="#Rudolf">Rudolf Wilson</persName></role>, <roleDesc>jägmästare</roleDesc>.
+            <role><persName ref="#Rudolf">Rudolf Wilson</persName></role>, <roleDesc>jägmästare</roleDesc>.
           </castItem>
           <castItem>
-            <role xml:id="spAsp"><persName ref="#Asp">Notarien Asp</persName></role>.
+            <role><persName ref="#Asp">Notarien Asp</persName></role>.
           </castItem>
           <roleDesc rend="small">Alla boende
             <lb/> hos <persName ref="#FruSandström">fru

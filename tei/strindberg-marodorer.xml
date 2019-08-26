@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Marodörer</title>
         <title type="sub">Komedi i fem akter</title>
-        <author xml:id="StrindbergA">
+        <author key="wikidata:Q7724" xml:id="StrindbergA">
           <persName>
             <forename>August</forename>
             <surname>Strindberg</surname>
@@ -64,6 +64,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">StrindbergA_Marodorer</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000048</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q10543210</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -147,9 +150,58 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spBertha" sex="female">
+            <persName>Bertha Ålund</persName>
+          </person>
+          
+          <person xml:id="spIda" sex="female">
+            <persName>Ida</persName>
+          </person>
+          
+          <person xml:id="spAbel" sex="female">
+            <persName>Elin Abel</persName>
+          </person>
+          
+          <person xml:id="spWillmer" sex="male">
+            <persName>herr Gaga Willmer</persName>
+          </person>
+          
+          <person xml:id="spDoktorn" sex="male">
+            <persName>doktor Östermark</persName>
+          </person>
+          
+          <person xml:id="spCarl" sex="male">
+            <persName>Carl Starck</persName>
+          </person>
+          
+          <person xml:id="spAxel" sex="male">
+            <persName>Axel Alberg</persName>
+          </person>
+          
+          <person xml:id="spModellen" sex="male">
+            <persName>Modellen</persName>
+          </person>
+          
+          <person xml:id="spFruHall" sex="female">
+            <persName>fru Hall</persName>
+          </person>
+          
+          <person xml:id="spPigan" sex="female">
+            <persName>Jeanne</persName>
+          </person>
+          
+          <person xml:id="spFruStarck" sex="female">
+            <persName>fru Starck</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
-  </teiHeader>  
-  <text xml:id="StrindbergA_Marodorer">
+
+  </teiHeader>
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="6381-0.jpg"/><!-- smutstitel, handskrivna anteckningar -->
@@ -163,48 +215,48 @@
       <castList>
         <head>Roler:</head>
         <castItem>
-          <role xml:id="spBertha"><persName ref="#Bertha">BERTHA ÅLUND</persName>.</role> <roleDesc>Jacka, skjortbröst, uppstående kragar,
+          <role><persName ref="#Bertha">BERTHA ÅLUND</persName>.</role> <roleDesc>Jacka, skjortbröst, uppstående kragar,
             <lb/> manshalsduk, kort hår. 23 år, mörk.</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="spAbel"><persName ref="#Abel">ELIN ABEL</persName>.</role> <roleDesc>Kortklippt hår; klädd som Bertha, men
+          <role><persName ref="#Abel">ELIN ABEL</persName>.</role> <roleDesc>Kortklippt hår; klädd som Bertha, men
             <lb/> kappan en »kuskrock», 20 år, cendré.</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="spDoktorn"><persName ref="#Doktorn">DOKTOR ÖSTERMARK</persName>.</role> <roleDesc>50 år. Gråsprängda polisonger
+          <role><persName ref="#Doktorn">DOKTOR ÖSTERMARK</persName>.</role> <roleDesc>50 år. Gråsprängda polisonger
             <lb/> och mustacher. Pince-nez. Något kal; korpulent.</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="spWillmer"><persName ref="#Willmer">HERR WILLMER</persName>.</role> <roleDesc>Författare. Lugg, skägglös, urringad
+          <role><persName ref="#Willmer">HERR WILLMER</persName>.</role> <roleDesc>Författare. Lugg, skägglös, urringad
             <lb/> krage och halsband med medaljong; liten och späd.</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="spAxel"><persName ref="#Axel">AXEL ALBERG</persName>.</role> <roleDesc>Målare. Cendré, mustacher och hakskägg;
+          <role><persName ref="#Axel">AXEL ALBERG</persName>.</role> <roleDesc>Målare. Cendré, mustacher och hakskägg;
             <lb/> engelsk reskostym, kavaj med veck och sleifer; icke
             <lb/> dekorerad.</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="spCarl"><persName ref="#Carl">CARL STARCK</persName>.</role> <roleDesc>Löjtnant vid artilleriet. Helt svart skägg;
+          <role><persName ref="#Carl">CARL STARCK</persName>.</role> <roleDesc>Löjtnant vid artilleriet. Helt svart skägg;
             <lb/> grofväxt; släpuniform med orden.</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="spFruStarck"><persName ref="#FruStarck">FRU STARCK</persName>.</role> <roleDesc>Liten, fet; godlynt, om några och trettio år.</roleDesc>
+          <role><persName ref="#FruStarck">FRU STARCK</persName>.</role> <roleDesc>Liten, fet; godlynt, om några och trettio år.</roleDesc>
         </castItem>
         <castItem>
-          <role xml:id="spFruHall"><persName ref="#FruHall">FRU HALL</persName>.</role>
+          <role><persName ref="#FruHall">FRU HALL</persName>.</role>
         </castItem>
         <castItem>
           <role><persName ref="#FröknarnaHall">FRÖKNARNA HALL</persName>.</role>
         </castItem>
         <castItem>
-          <role xml:id="spIda"><persName ref="#Ida">IDA</persName>,</role> <roleDesc>i tjenst hos Bertha.</roleDesc>
+          <role><persName ref="#Ida">IDA</persName>,</role> <roleDesc>i tjenst hos Bertha.</roleDesc>
         </castItem>
         <addSpan spanTo="#slutTillagt1"/>
         <castItem>
-          <role xml:id="spModellen"><persName ref="#Modellen">Modellen</persName></role>.
+          <role><persName ref="#Modellen">Modellen</persName></role>.
         </castItem>
         <castItem>
-          <role xml:id="spPigan"><persName ref="#Pigan">Pigan</persName></role>.
+          <role><persName ref="#Pigan">Pigan</persName></role>.
         </castItem>
         <anchor xml:id="slutTillagt1"/>
       </castList>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Farmors födelsedag</title>
         <title type="sub">Ett äfventyr i skogen.</title>
-        <author xml:id="AureliusH">
+        <author key="wikidata:Q16497462" xml:id="AureliusH">
           <persName>
             <forename>Hedvig</forename>
             <surname>Aurelius</surname>
@@ -62,6 +62,9 @@
             <p>Detta verk är licensierat under licensen Creative Commons Erkännande-DelaLika 3.0, Sverige.</p>
           </licence>
         </availability>
+        <idno type="dramawebben">AureliusH_FarmorsFodelsedag</idno>
+        <idno type="dracor" xml:base="https://dracor.org/id/">swe000008</idno>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">Q59625323</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -157,9 +160,62 @@
       <langUsage>
         <language ident="sv">Swedish</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          
+          <person xml:id="spSnöflinga" sex="female">
+            <persName>Snöflinga</persName>
+          </person>
+          
+          <person xml:id="spLasse" sex="male">
+            <persName>Lasse</persName>
+          </person>
+          
+          <person xml:id="spKnutte" sex="male">
+            <persName>Knutte</persName>
+          </person>
+          
+          <person xml:id="spPrinsessan" sex="female">
+            <persName>prinsessan i månen</persName>
+          </person>
+          
+          <person xml:id="spRuff" sex="male">
+            <persName>Ruff</persName>
+          </person>
+          
+          <person xml:id="spHjärtegoda" sex="female">
+            <persName>Hjärtegoda</persName>
+          </person>
+          
+          <person xml:id="spAnna" sex="female">
+            <persName>Anna Björk</persName>
+          </person>
+          
+          <person xml:id="spFilip" sex="male">
+            <persName>Filip Björk</persName>
+          </person>
+          
+          <person xml:id="spHjalmar" sex="male">
+            <persName>Hjalmar Björk</persName>
+          </person>
+          
+          <person xml:id="spKetty" sex="female">
+            <persName>Ketty Stråå</persName>
+          </person>
+          
+          <person xml:id="spLotten" sex="female">
+            <persName>Lotten Björk</persName>
+          </person>
+          
+          <person xml:id="spRiken" sex="female">
+            <persName>Riken Blom</persName>
+          </person>
+        </listPerson>
+      </particDesc>
     </profileDesc>
+
   </teiHeader>
-  <text xml:id="AureliusH_FarmorsFodelsedag">
+  <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="5865-0.jpg"/><!-- tidskriftens omslag -->
@@ -252,20 +308,20 @@
             <castList xml:id="AureliusH_EttAfventyrISkogen_Main">
               <head>Personerna voro:</head>
               <castItem type="list">
-                <role xml:id="spKnutte"><persName ref="#Knutte">Knutte</persName></role> och <role xml:id="spLasse"><persName ref="#Lasse">Lasse</persName></role>, spelas af <actor><persName ref="#Filip">Filip</persName></actor> och <actor><persName ref="#Hjalmar">Hjalmar</persName></actor>.
+                <role><persName ref="#Knutte">Knutte</persName></role> och <role><persName ref="#Lasse">Lasse</persName></role>, spelas af <actor><persName ref="#Filip">Filip</persName></actor> och <actor><persName ref="#Hjalmar">Hjalmar</persName></actor>.
               </castItem>
               <castItem>
-                <role xml:id="spPrinsessan"><persName ref="#Prinsessan">Prinsessan i månen</persName></role>, spelas af <actor><persName ref="#Lotten">Lotten</persName></actor>.
+                <role><persName ref="#Prinsessan">Prinsessan i månen</persName></role>, spelas af <actor><persName ref="#Lotten">Lotten</persName></actor>.
               </castItem>
               <castItem>
-                <role xml:id="spRuff"><persName ref="#Ruff">Jätten Ruff</persName></role>, spelas af <actor><persName ref="#Riken">Riken</persName></actor>.
+                <role><persName ref="#Ruff">Jätten Ruff</persName></role>, spelas af <actor><persName ref="#Riken">Riken</persName></actor>.
               </castItem>
               <castItem>
-                <role xml:id="spHjärtegoda"><persName ref="#Hjärtegoda">Féen Hjärtegoda</persName></role>, spelas af <actor><persName ref="#Ketty">fröken Ketty</persName></actor>.
+                <role><persName ref="#Hjärtegoda">Féen Hjärtegoda</persName></role>, spelas af <actor><persName ref="#Ketty">fröken Ketty</persName></actor>.
               </castItem>
               <addSpan spanTo="#slutTillagt"/>
               <castItem>
-                <role xml:id="spSnöflinga"><persName ref="#Snöflinga">Snöflinga</persName></role>, spelas af <actor><persName ref="#Anna">Anna</persName></actor>.
+                <role><persName ref="#Snöflinga">Snöflinga</persName></role>, spelas af <actor><persName ref="#Anna">Anna</persName></actor>.
               </castItem>
               <anchor xml:id="slutTillagt"/>
             </castList>
@@ -525,22 +581,22 @@
               <addSpan spanTo="#slutTillagt2"/>
               <castList xml:id="AureliusH_EttAfventyrISkogen_Epilogue">
                 <castItem>
-                  <role xml:id="spAnna"><persName ref="#Anna">Anna</persName></role>.
+                  <role><persName ref="#Anna">Anna</persName></role>.
                 </castItem>
                 <castItem>
-                  <role xml:id="spFilip"><persName ref="#Filip">Filip</persName></role>.
+                  <role><persName ref="#Filip">Filip</persName></role>.
                 </castItem>
                 <castItem>
-                  <role xml:id="spHjalmar"><persName ref="#Hjalmar">Hjalmar</persName></role>.
+                  <role><persName ref="#Hjalmar">Hjalmar</persName></role>.
                 </castItem>
                 <castItem> 
-                  <role xml:id="spLotten"><persName ref="#Lotten">Lotten</persName></role>.
+                  <role><persName ref="#Lotten">Lotten</persName></role>.
                 </castItem>
                 <castItem>
-                  <role xml:id="spRiken"><persName ref="#Riken">Riken Blom</persName></role>.
+                  <role><persName ref="#Riken">Riken Blom</persName></role>.
                 </castItem>
                 <castItem>
-                  <role xml:id="spKetty"><persName ref="#Ketty">Ketty Stråå</persName></role>.
+                  <role><persName ref="#Ketty">Ketty Stråå</persName></role>.
                 </castItem>
                 <castItem>
                   <role><persName ref="#Farmor">Farmor</persName></role>.
