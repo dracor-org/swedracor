@@ -79,10 +79,12 @@
       <idno type="dracor" xml:base="https://dracor.org/id/">
         <xsl:value-of select="$dracor-id"/>
       </idno>
-      <xsl:text>&#10;        </xsl:text>
-      <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">
-        <xsl:value-of select="$play-wikidata-id"/>
-      </idno>
+      <xsl:if test="$play-wikidata-id">
+        <xsl:text>&#10;        </xsl:text>
+        <idno type="wikidata" xml:base="https://www.wikidata.org/entity/">
+          <xsl:value-of select="$play-wikidata-id"/>
+        </idno>
+      </xsl:if>
       <xsl:text>&#10;      </xsl:text>
     </publicationStmt>
   </xsl:template>
