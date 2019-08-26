@@ -257,4 +257,24 @@
     </profileDesc>
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
+
+  <!-- add 'originalSource' dates -->
+  <xsl:template match="tei:sourceDesc">
+    <xsl:variable
+      name="print"
+      select="tei:biblStruct/tei:monogr/tei:imprint/tei:date/@when"
+    />
+    <sourceDesc>
+      <xsl:apply-templates/>
+      <xsl:if test="$print">
+        <xsl:text>  </xsl:text>
+        <bibl type="originalSource">
+            <xsl:text>&#10;          </xsl:text>
+            <date type="print" when="{$print}"/>
+            <xsl:text>&#10;        </xsl:text>
+        </bibl>
+        <xsl:text>&#10;      </xsl:text>
+      </xsl:if>
+    </sourceDesc>
+  </xsl:template>
 </xsl:stylesheet>
