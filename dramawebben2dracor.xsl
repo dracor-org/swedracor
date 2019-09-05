@@ -264,7 +264,7 @@
   <xsl:template match="tei:sourceDesc">
     <xsl:variable
       name="print"
-      select="tei:biblStruct/tei:monogr[1]/tei:imprint/tei:date/@when"
+      select="(.//tei:biblStruct/tei:monogr/tei:imprint/tei:date/@when)[1]"
     />
     <sourceDesc>
       <xsl:apply-templates/>
