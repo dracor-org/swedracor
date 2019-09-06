@@ -58,6 +58,8 @@
 
   <!-- remove xml:id from castList roles -->
   <xsl:template match="tei:role/@xml:id"></xsl:template>
+  <!-- remove xml:id from castList roleGroup -->
+  <xsl:template match="tei:roleGroup/@xml:id"></xsl:template>
 
   <!-- remove xml:id from tei:text -->
   <xsl:template match="tei:text[@xml:id]">
