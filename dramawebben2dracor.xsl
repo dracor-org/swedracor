@@ -27,6 +27,7 @@
     name="play-wikidata-id"
     select="$ids//play[@dramawebben=$dwid]/@wikidata"
   />
+  <xsl:variable name="castList" select="/tei:TEI//tei:castList"/>
   <xsl:variable
     name="editorial-cast"
     select="/tei:TEI//tei:div[@type='editorial']//tei:listPerson[@type='cast']"
@@ -113,146 +114,13 @@
 
   <!-- create particDesc -->
   <xsl:template match="tei:profileDesc">
-    <xsl:variable name="castList" select="/tei:TEI//tei:castList"/>
     <profileDesc>
       <xsl:apply-templates/>
       <xsl:text>  </xsl:text>
       <particDesc>
         <xsl:text>&#10;        </xsl:text>
         <listPerson>
-        <xsl:for-each select="/tei:TEI//tei:sp[@who]">
-          <xsl:variable name="sp" select="."/>
-          <xsl:variable
-            name="whos" select="tokenize(normalize-space(@who), '\s+')"/>
-          <xsl:for-each select="$whos">
-            <xsl:variable name="who" select="substring(., 2)"/>
-            <xsl:if test="not(
-              $sp/preceding::tei:sp[tokenize(@who) = concat('#', $who)]
-            )">
-
-              <xsl:variable
-                name="role"
-                select="$castList//tei:role[@xml:id = $who]"/>
-              <xsl:variable
-                name="roleGroup"
-                select="$castList//tei:roleGroup[@xml:id = $who]"/>
-
-              <xsl:text>&#10;          </xsl:text>
-
-              <xsl:choose>
-                <!-- ROLE -->
-                <xsl:when test="$role">
-                  <xsl:variable name="ref">
-                    <xsl:choose>
-                      <xsl:when test="$role/tei:persName/@ref">
-                        <xsl:value-of select="$role/tei:persName/@ref"/>
-                      </xsl:when>
-                      <xsl:when test="$role/@corresp">
-                        <xsl:value-of select="$role/@corresp"/>
-                      </xsl:when>
-                    </xsl:choose>
-                  </xsl:variable>
-                  <xsl:variable
-                    name="person"
-                    select="$editorial-cast//tei:person[@xml:id=substring($ref, 2)]"
-                  />
-                  <xsl:variable
-                    name="editorial-name"
-                    select="$person/tei:persName[1]"
-                  />
-                  <xsl:variable name="sex" select="$person/@sex"/>
-
-                  <xsl:text>&#10;          </xsl:text>
-                  <person>
-                    <xsl:attribute name="xml:id">
-                      <xsl:value-of select="$who"/>
-                    </xsl:attribute>
-                    <xsl:if test="$sex">
-                      <xsl:attribute name="sex">
-                        <xsl:value-of select="upper-case($sex)"/>
-                      </xsl:attribute>
-                    </xsl:if>
-                    <xsl:text>&#10;            </xsl:text>
-                    <persName>
-                      <xsl:choose>
-                        <xsl:when test="$editorial-name">
-                          <xsl:value-of
-                            select="normalize-space($editorial-name)"
-                          />
-                          <!-- <xsl:comment>editorial</xsl:comment> -->
-                        </xsl:when>
-                        <xsl:when test="$role/tei:persName">
-                          <xsl:value-of
-                            select="normalize-space($role/tei:persName)"
-                          />
-                          <!-- <xsl:comment>castList</xsl:comment> -->
-                        </xsl:when>
-                        <xsl:when test="not($role/text())">
-                          <xsl:value-of
-                            select="normalize-space($sp/tei:speaker)"
-                          />
-                          <!-- <xsl:comment>speaker</xsl:comment> -->
-                        </xsl:when>
-                        <xsl:otherwise>
-                          <xsl:value-of select="normalize-space($role)"/>
-                        </xsl:otherwise>
-                      </xsl:choose>
-                    </persName>
-                    <xsl:text>&#10;          </xsl:text>
-                  </person>
-                </xsl:when>
-
-                <!-- ROLE GROUP -->
-                <xsl:when test="$roleGroup">
-                  <xsl:variable name="ref" select="$roleGroup/@corresp"/>
-                  <xsl:variable
-                    name="group"
-                    select="$editorial-cast//tei:personGrp[@xml:id=substring($ref, 2)]"
-                  />
-                  <xsl:variable
-                    name="editorial-name"
-                    select="$group/tei:persName[1]"
-                  />
-                  <xsl:variable name="sex" select="$group/@sex"/>
-                  <xsl:variable name="name">
-                    <xsl:choose>
-                      <xsl:when test="$roleGroup/tei:roleDesc">
-                        <xsl:value-of select="$roleGroup/tei:roleDesc"/>
-                      </xsl:when>
-                      <xsl:when test="$editorial-name">
-                        <xsl:value-of select="$editorial-name"/>
-                      </xsl:when>
-                      <xsl:otherwise>
-                        <xsl:value-of select="$sp/tei:speaker"/>
-                      </xsl:otherwise>
-                    </xsl:choose>
-                  </xsl:variable>
-                  <personGrp>
-                    <xsl:attribute name="xml:id">
-                      <xsl:value-of select="$who"/>
-                    </xsl:attribute>
-                    <xsl:if test="$sex">
-                      <xsl:attribute name="sex">
-                        <xsl:value-of select="upper-case($sex)"/>
-                      </xsl:attribute>
-                    </xsl:if>
-                    <xsl:text>&#10;            </xsl:text>
-                    <name>
-                      <xsl:value-of select="normalize-space($name)"/>
-                    </name>
-                    <xsl:text>&#10;          </xsl:text>
-                  </personGrp>
-                </xsl:when>
-                <xsl:otherwise>
-                  <xsl:comment>
-                    <xsl:text>unknown speaker: </xsl:text>
-                    <xsl:value-of select="$who"/>
-                  </xsl:comment>
-                </xsl:otherwise>
-              </xsl:choose>
-            </xsl:if>
-          </xsl:for-each>
-        </xsl:for-each>
+        <xsl:call-template name="listPerson"/>
         <xsl:text>&#10;        </xsl:text>
         </listPerson>
         <xsl:text>&#10;      </xsl:text>
@@ -280,5 +148,193 @@
         <xsl:text>&#10;      </xsl:text>
       </xsl:if>
     </sourceDesc>
+  </xsl:template>
+  
+  <xsl:template name="listPerson">
+    <xsl:for-each select="/tei:TEI//tei:sp[@who]">
+      <xsl:variable name="sp" select="."/>
+      <xsl:variable
+        name="speaker"
+        select="replace(normalize-space($sp/tei:speaker), '[.:]+$', '')"/>
+      <xsl:variable
+        name="whos"
+        select="tokenize(normalize-space(@who), '\s+')"/>
+
+      <!--
+        We preferably use speaches with a single speaker to dereference ID refs.
+        This is to avoid ending up with a collective speaker label for a single
+        character.
+      -->
+      <xsl:if test="count($whos) = 1">
+        <xsl:variable name="who" select="substring($whos[1], 2)"/>
+        <xsl:if test="not(
+          $sp/preceding::tei:sp[@who = concat('#', $who)]
+        )">
+          <xsl:call-template name="person">
+            <xsl:with-param name="id">
+              <xsl:value-of select="$who"/>
+            </xsl:with-param>
+            <xsl:with-param name="speaker">
+              <xsl:value-of select="$speaker"/>
+            </xsl:with-param>
+          </xsl:call-template>
+        </xsl:if>
+      </xsl:if>
+
+      <!--
+        Only if an ID ref only ever occurs together with others we try to
+        derefence it.
+      -->
+      <xsl:if test="count($whos) > 1">
+        <xsl:message>
+          <xsl:value-of select="$whos"/>
+        </xsl:message>
+        <xsl:for-each select="$whos">
+          <xsl:message>
+            <xsl:text>   </xsl:text>
+            <xsl:value-of select="."/>
+          </xsl:message>
+          <xsl:variable name="ref" select="."/>
+          <xsl:variable name="who" select="substring(., 2)"/>
+          <!-- only handle those refs that don't occur standalone -->
+          <xsl:if test="not($sp/preceding::tei:sp[tokenize(@who) = $ref])
+            and not($sp/following::tei:sp[@who = $ref])">
+            <xsl:message>
+              <xsl:text>      </xsl:text>
+              <xsl:value-of select="$who"/>
+            </xsl:message>
+            <xsl:call-template name="person">
+              <xsl:with-param name="id">
+                <xsl:value-of select="$who"/>
+              </xsl:with-param>
+            </xsl:call-template>
+          </xsl:if>
+        </xsl:for-each>
+      </xsl:if>
+    </xsl:for-each>
+  </xsl:template>
+
+  <xsl:template name="person">
+    <xsl:param name="id"/>
+    <xsl:param name="speaker"/>
+
+    <xsl:variable
+      name="role"
+      select="$castList//tei:role[@xml:id = $id]"/>
+    <xsl:variable
+      name="roleGroup"
+      select="$castList//tei:roleGroup[@xml:id = $id]"/>
+
+    <xsl:text>&#10;          </xsl:text>
+
+    <xsl:choose>
+      <!-- ROLE -->
+      <xsl:when test="$role">
+        <xsl:variable name="ref">
+          <xsl:choose>
+            <xsl:when test="$role/tei:persName/@ref">
+              <xsl:value-of select="$role/tei:persName/@ref"/>
+            </xsl:when>
+            <xsl:when test="$role/@corresp">
+              <xsl:value-of select="$role/@corresp"/>
+            </xsl:when>
+          </xsl:choose>
+        </xsl:variable>
+        <xsl:variable
+          name="person"
+          select="$editorial-cast//tei:person[@xml:id=substring($ref, 2)]"
+        />
+        <xsl:variable
+          name="editorial-name"
+          select="$person/tei:persName[1]"
+        />
+        <xsl:variable name="sex" select="$person/@sex"/>
+
+        <xsl:text>&#10;          </xsl:text>
+
+        <person>
+          <xsl:attribute name="xml:id">
+            <xsl:value-of select="$id"/>
+          </xsl:attribute>
+          <xsl:if test="$sex">
+            <xsl:attribute name="sex">
+              <xsl:value-of select="upper-case($sex)"/>
+            </xsl:attribute>
+          </xsl:if>
+          <xsl:if test="$role/tei:persName">
+            <xsl:text>&#10;            </xsl:text>
+            <persName>
+              <xsl:value-of select="normalize-space($role/tei:persName)"/>
+            </persName>
+            <xsl:comment>castList</xsl:comment>
+          </xsl:if>
+          <xsl:if test="not($speaker = '')">
+            <xsl:text>&#10;            </xsl:text>
+            <persName><xsl:value-of select="$speaker"/></persName>
+            <xsl:comment>speaker</xsl:comment>
+          </xsl:if>
+          <xsl:if test="$editorial-name">
+            <xsl:text>&#10;            </xsl:text>
+            <persName>
+              <xsl:value-of select="normalize-space($editorial-name)"/>
+            </persName>
+            <xsl:comment>editorial</xsl:comment>
+          </xsl:if>
+          <xsl:text>&#10;          </xsl:text>
+        </person>
+      </xsl:when>
+
+      <!-- ROLE GROUP -->
+      <xsl:when test="$roleGroup">
+        <xsl:variable name="ref" select="$roleGroup/@corresp"/>
+        <xsl:variable
+          name="group"
+          select="$editorial-cast//tei:personGrp[@xml:id=substring($ref, 2)]"
+        />
+        <xsl:variable
+          name="editorial-name"
+          select="$group/tei:persName[1]"
+        />
+        <xsl:variable name="sex" select="$group/@sex"/>
+
+        <personGrp>
+          <xsl:attribute name="xml:id">
+            <xsl:value-of select="$id"/>
+          </xsl:attribute>
+          <xsl:if test="$sex">
+            <xsl:attribute name="sex">
+              <xsl:value-of select="upper-case($sex)"/>
+            </xsl:attribute>
+          </xsl:if>
+
+          <xsl:if test="$roleGroup/tei:roleDesc">
+            <xsl:text>&#10;            </xsl:text>
+            <name><xsl:value-of select="$roleGroup/tei:roleDesc"/></name>
+            <xsl:comment>castList</xsl:comment>
+          </xsl:if>
+
+          <xsl:if test="not($speaker = '')">
+            <xsl:text>&#10;            </xsl:text>
+            <name><xsl:value-of select="$speaker"/></name>
+            <xsl:comment>speaker</xsl:comment>
+          </xsl:if>
+
+          <xsl:if test="$editorial-name">
+            <xsl:text>&#10;            </xsl:text>
+            <name><xsl:value-of select="$editorial-name"/></name>
+            <xsl:comment>editorial</xsl:comment>
+          </xsl:if>
+
+          <xsl:text>&#10;          </xsl:text>
+        </personGrp>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:comment>
+          <xsl:text>unknown speaker: </xsl:text>
+          <xsl:value-of select="$id"/>
+        </xsl:comment>
+      </xsl:otherwise>
+    </xsl:choose>
+
   </xsl:template>
 </xsl:stylesheet>
