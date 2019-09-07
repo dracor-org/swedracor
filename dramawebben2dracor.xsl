@@ -264,7 +264,11 @@
           <xsl:if test="$role/tei:persName">
             <xsl:text>&#10;            </xsl:text>
             <persName>
-              <xsl:value-of select="normalize-space($role/tei:persName)"/>
+              <xsl:call-template name="normal-case">
+                <xsl:with-param name="string">
+                  <xsl:value-of select="normalize-space($role/tei:persName)"/>
+                </xsl:with-param>
+              </xsl:call-template>
             </persName>
             <xsl:comment>castList</xsl:comment>
           </xsl:if>
@@ -335,6 +339,22 @@
         </xsl:comment>
       </xsl:otherwise>
     </xsl:choose>
-
   </xsl:template>
+
+  <xsl:template name="normal-case">
+    <xsl:param name="string"/>
+    <xsl:choose>
+      <xsl:when test="matches($string, '^[\p{Lu}\s]+$', '')">
+        <xsl:variable name="tokens" select="tokenize($string, '\s')"/>
+        <xsl:for-each select="$tokens">
+          <xsl:sequence
+            select="concat(upper-case(substring(.,1,1)), lower-case(substring(., 2)), ' '[not(last())])"/>
+        </xsl:for-each>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$string"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
 </xsl:stylesheet>
