@@ -1,1 +1,0 @@
-Derived from the [eDrama](http://www.dramawebben.se/sida/edrama) project. Features 68 Swedish plays from around 1880 to 1900. More information in the [README on GitHub](https://github.com/dracor-org/gerdracor). Corpus licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
