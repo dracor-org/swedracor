@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
@@ -51,12 +51,12 @@
           <resp>korrekturläsning</resp>
           <persName xml:id="BergströmS">Sara Bergström</persName>
           <orgName>Dramawebben</orgName>
-        </respStmt>        
+        </respStmt>
         <respStmt>
           <resp>redigering</resp>
           <persName xml:id="ForsbomE">Eva Forsbom</persName>
           <orgName>Dramawebben</orgName>
-        </respStmt>        
+        </respStmt>
       </titleStmt>
       <editionStmt>
         <edition>eDrama</edition>
@@ -167,17 +167,17 @@
       </classDecl>
       <tagsDecl>
         <rendition>
-          <!-- Scenanvisningar anges med kursiv stil;
+<!-- Scenanvisningar anges med kursiv stil;
                undantag en i normal stil (rend=normal) /EF-->
-          <!-- Scenbeskrivning först i akt anges med normal stil /EF -->
-          <!-- Scenanvisningar direkt efter talarrubrik är inline, vid flera rader indrag till rak vänstermarginal;
+<!-- Scenbeskrivning först i akt anges med normal stil /EF -->
+<!-- Scenanvisningar direkt efter talarrubrik är inline, vid flera rader indrag till rak vänstermarginal;
                undantag en som börjar på ny rad (rend=newline) /EF -->
-          <!-- Stycken i repliker är indragna första raden -->
-          <!-- Fristående scenanvisningar är centrerade vid en rad, vid flera rader indrag första raden som stycken /EF -->
-          <!-- Versrader som bryts får långt indrag -->
-          <!-- Första och sista sången är centrerade med rak vänstermarginal (rend=centered) /EF -->
-          <!-- Rubriker är centrerade /EF -->
-          </rendition>
+<!-- Stycken i repliker är indragna första raden -->
+<!-- Fristående scenanvisningar är centrerade vid en rad, vid flera rader indrag första raden som stycken /EF -->
+<!-- Versrader som bryts får långt indrag -->
+<!-- Första och sista sången är centrerade med rak vänstermarginal (rend=centered) /EF -->
+<!-- Rubriker är centrerade /EF -->
+        </rendition>
       </tagsDecl>
     </encodingDesc>
     <profileDesc>
@@ -186,51 +186,64 @@
       </langUsage>
       <particDesc>
         <listPerson>
-          
           <person xml:id="spSnöflinga" sex="FEMALE">
-            <persName>Snöflinga</persName><!--castList-->
-            <persName>SNÖFLINGA</persName><!--speaker-->
-            <persName>Snöflinga</persName><!--editorial-->
+            <persName>Snöflinga</persName>
+<!--castList-->
+            <persName>SNÖFLINGA</persName>
+<!--speaker-->
+            <persName>Snöflinga</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spTomtekungen" sex="MALE">
-            <persName>Tomtekungen</persName><!--castList-->
-            <persName>TOMTEKUNGEN</persName><!--speaker-->
-            <persName>kung</persName><!--editorial-->
+            <persName>Tomtekungen</persName>
+<!--castList-->
+            <persName>TOMTEKUNGEN</persName>
+<!--speaker-->
+            <persName>kung</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spGodJul" sex="UNKNOWN">
-            <persName>God Jul</persName><!--castList-->
-            <persName>GOD JUL</persName><!--speaker-->
-            <persName>God Jul</persName><!--editorial-->
+            <persName>God Jul</persName>
+<!--castList-->
+            <persName>GOD JUL</persName>
+<!--speaker-->
+            <persName>God Jul</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spRimtusse" sex="MALE">
-            <persName>Rimtusse</persName><!--castList-->
-            <persName>Rimtusse</persName><!--editorial-->
+            <persName>Rimtusse</persName>
+<!--castList-->
+            <persName>Rimtusse</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spJulros" sex="FEMALE">
-            <persName>Prinsessan Julros</persName><!--castList-->
-            <persName>JULROS</persName><!--speaker-->
-            <persName>prinsessan Julros</persName><!--editorial-->
+            <persName>Prinsessan Julros</persName>
+<!--castList-->
+            <persName>JULROS</persName>
+<!--speaker-->
+            <persName>prinsessan Julros</persName>
+<!--editorial-->
           </person>
           <personGrp xml:id="spTomtar">
-            <name>TOMTAR</name><!--castList-->
-            <name>ALLA TOMTAR</name><!--speaker-->
+            <name>TOMTAR</name>
+<!--castList-->
+            <name>ALLA TOMTAR</name>
+<!--speaker-->
           </personGrp>
         </listPerson>
       </particDesc>
     </profileDesc>
-
   </teiHeader>
   <text>
     <anchor xml:id="playstart"/>
     <front>
-      <pb facs="5894-0.jpg"/> <!-- pärm -->
-      <pb facs="5894-1.jpg"/> <!-- titelsida volym -->
+      <pb facs="5894-0.jpg"/>
+<!-- pärm -->
+      <pb facs="5894-1.jpg"/>
+<!-- titelsida volym -->
       <gap reason="irrelevant"/>
-      <pb facs="5894-2.jpg"/><fw type="pageNum">374</fw>
+      <pb facs="5894-2.jpg"/>
+      <fw type="pageNum">374</fw>
       <figure>
         <graphic url="KuylenstiernaE_NuArDetJulIgen-1.jpg"/>
         <figDesc>En bild högst upp på sidan. På bilden syns flera sagospelets karaktärer; Tomtekungen, God Jul,
@@ -238,30 +251,53 @@
           Längst fram i bild till vänster står bergfolken. De liknar små tomtar med sina långa kraftiga skägg och de har hackor i händerna. Längst fram till höger i bild
           återfinns tre älvor. De har långa kläningar och spetsiga vingar. De ser ut att dansa. I mitten av bilden står en liten flicka.
           Även hon har en lång böljande klänning på sig. Och på huvudet har hon en blomma.</figDesc>
-        <bibl><author role="illustrator" ref="#LjungdahlD">D. Ljungdahl</author></bibl>
+        <bibl>
+          <author role="illustrator" ref="#LjungdahlD">D. Ljungdahl</author>
+        </bibl>
       </figure>
-      <gap reason="irrelevant"/><!-- titel, författare -->      
+      <gap reason="irrelevant"/>
+<!-- titel, författare -->
       <castList>
         <head>Personer:</head>
         <castItem>
-          <role><persName ref="#Julros">PRINSESSAN JULROS</persName></role>. 
+          <role>
+            <persName ref="#Julros">PRINSESSAN JULROS</persName>
+          </role>. 
         </castItem>
         <castItem>
-          <role><persName ref="#Tomtekungen">TOMTEKUNGEN</persName></role>. 
-        </castItem> 
+          <role>
+            <persName ref="#Tomtekungen">TOMTEKUNGEN</persName>
+          </role>. 
+        </castItem>
         <castItem>
-          <role><persName ref="#GodJul">GOD JUL</persName></role>.
-        </castItem> 
+          <role>
+            <persName ref="#GodJul">GOD JUL</persName>
+          </role>.
+        </castItem>
         <castItem>
-          <role><persName ref="#Rimtusse">RIMTUSSE</persName></role>. 
-        </castItem> 
+          <role>
+            <persName ref="#Rimtusse">RIMTUSSE</persName>
+          </role>. 
+        </castItem>
         <castItem>
-          <role><persName ref="#Snöflinga">SNÖFLINGA</persName></role>.
-        </castItem> 
+          <role>
+            <persName ref="#Snöflinga">SNÖFLINGA</persName>
+          </role>.
+        </castItem>
         <castItem type="list">
-          <roleGroup><roleDesc><persName ref="#Tomtar">TOMTAR</persName></roleDesc></roleGroup><delSpan spanTo="#deleteSlut"/>,
-          <roleGroup><roleDesc>ÄLFVOR</roleDesc></roleGroup> OCH
-          <roleGroup><roleDesc>BERGFOLK</roleDesc></roleGroup><anchor xml:id="deleteSlut"/>.
+          <roleGroup>
+            <roleDesc>
+              <persName ref="#Tomtar">TOMTAR</persName>
+            </roleDesc>
+          </roleGroup>
+          <delSpan spanTo="#deleteSlut"/>,
+          <roleGroup>
+            <roleDesc>ÄLFVOR</roleDesc>
+          </roleGroup> OCH
+          <roleGroup>
+            <roleDesc>BERGFOLK</roleDesc>
+          </roleGroup>
+          <anchor xml:id="deleteSlut"/>.
           <!-- Bergfolken och älvorna är aldrig med /ME -->
         </castItem>
       </castList>
@@ -275,25 +311,34 @@
             <lb/> långa, gråa skägg. <emph>God jul</emph> står och lyser på dem
             <lb/> med sin lykta. <emph>Rimtusse</emph> har stigit upp på en stol,
             <lb/> svänger en taktpinne. Alla sjunga på melodien:
-            <lb/> <title>»Mandom, mod och morske män»</title> etc.</p>
+            <lb/>
+            <title>»Mandom, mod och morske män»</title> etc.</p>
         </stage>
         <sp who="#spGodJul #spRimtusse #spTomtar #spTomtekungen">
           <lg rend="centered">
             <l>Nu är julen här igen,</l>
             <l>må vi glädtigt fira den,</l>
             <l>tända julljus, pryda gran,</l>
-            <l><persName ref="#Tomtar">tomtebissen</persName> så är van.</l>
+            <l>
+              <persName ref="#Tomtar">tomtebissen</persName> så är van.</l>
           </lg>
           <lg rend="centered">
             <l>Hvarje år</l>
             <l>kring han går,</l>
             <l>hvarje hem sin tomte har,</l>
-            <l><persName ref="#Barnen">barnens</persName> vän han städse var.</l>
+            <l>
+              <persName ref="#Barnen">barnens</persName> vän han städse var.</l>
           </lg>
         </sp>
-        <stage rend="normal"><emph><persName ref="#Rimtusse">Rimtusse</persName></emph> hoppar ned af stolen och sätter sig
-          <lb/> bland de andra. Det knackar på dörren. <emph><persName ref="#GodJul">God jul</persName></emph>
-          <lb/> går och öppnar. <stage type="entrance" who="#Snöflinga"><emph>Snöflinga</emph> kommer in.</stage> Det är en
+        <stage rend="normal">
+          <emph>
+            <persName ref="#Rimtusse">Rimtusse</persName>
+          </emph> hoppar ned af stolen och sätter sig
+          <lb/> bland de andra. Det knackar på dörren. <emph>
+            <persName ref="#GodJul">God jul</persName>
+          </emph>
+          <lb/> går och öppnar. <stage type="entrance" who="#Snöflinga">
+            <emph>Snöflinga</emph> kommer in.</stage> Det är en
           <lb/> liten, hvitklädd flicka, som dansar fram på golfvet.
           <lb/> När hon är helt nära <persName ref="#Tomtar">tomtarna</persName>, kastar hon ett fång
           <lb/> snöflingor öfver dem.</stage>
@@ -311,7 +356,8 @@
           <speaker>TOMTEKUNGEN:</speaker>
           <p>Och hvarför kommer du hit, <persName ref="#Snöflinga">lilla flinga</persName>? <stage>(Han
             <lb/> drager betänksamt i sitt långa, gråa skägg och ser på
-            <lb/> <persName ref="#Snöflinga">den lilla</persName>.)</stage> Du hör egentligen inte till <persName ref="#Rimtusse #Tomtar #Tomtekungen">tomtarnes</persName> rike.</p>
+            <lb/>
+              <persName ref="#Snöflinga">den lilla</persName>.)</stage> Du hör egentligen inte till <persName ref="#Rimtusse #Tomtar #Tomtekungen">tomtarnes</persName> rike.</p>
         </sp>
         <sp who="#spSnöflinga">
           <speaker>SNÖFLINGA:</speaker>
@@ -319,18 +365,23 @@
             <lb/> fall, och <persName ref="#Barnen">människobarnen</persName> önska sig. Det är ju du, <persName ref="#Tomtekungen">tomte­<lb break="no"/>kung</persName>, som skrifver upp deras önskningar?</p>
         </sp>
         <sp who="#spTomtekungen">
-          <speaker>TOMTEKUNGEN</speaker> <stage>(allvarligt):</stage>
+          <speaker>TOMTEKUNGEN</speaker>
+          <stage>(allvarligt):</stage>
           <p>Ja, det gör jag, och min bok är full af julönsk­<lb break="no"/>ningar, men öfver många stryker jag ett kors; det
             <lb/> är att döda deras uppfyllelse, förstår du.</p>
         </sp>
         <sp who="#spSnöflinga">
-          <speaker>SNÖFLINGA</speaker> <stage>(nyfiket):</stage>
+          <speaker>SNÖFLINGA</speaker>
+          <stage>(nyfiket):</stage>
           <p> Hvarför gör du det?</p>
         </sp>
-        <pb facs="5894-3.jpg"/><fw type="pageNum">375</fw>
+        <pb facs="5894-3.jpg"/>
+        <fw type="pageNum">375</fw>
         <sp who="#spTomtekungen">
-          <speaker>TOMTEKUNGEN</speaker> <stage>(reser sig, 
-            <lb/> <persName ref="#Tomtar">de andra tomtarna</persName> följa hans
+          <speaker>TOMTEKUNGEN</speaker>
+          <stage>(reser sig, 
+            <lb/>
+            <persName ref="#Tomtar">de andra tomtarna</persName> följa hans
             <lb/> exempel):</stage>
           <p>Därför, <persName ref="#Snöflinga">barn</persName>, att det finns goda
             <lb/> önskningar och dåraktiga sådana,
@@ -338,10 +389,12 @@
             <lb/> finge önskningarnas ogräs frodas,
             <lb/> skulle snart den vackra säden för­<lb break="no"/>därfvas. Om det där vet du ing­<lb break="no"/>enting, <persName ref="#Snöflinga">du lilla dagslända</persName>, men <persName ref="#Rimtusse #Tomtar #Tomtekungen">vi
             <lb/> tomtar</persName> ha en uppgift i världen,
-            <lb/> ser du. <stage>(Nickar tankfullt.)</stage></p>
+            <lb/> ser du. <stage>(Nickar tankfullt.)</stage>
+          </p>
         </sp>
         <sp who="#spSnöflinga">
-          <speaker>SNÖFLINGA</speaker> <stage>(skrattar):</stage>
+          <speaker>SNÖFLINGA</speaker>
+          <stage>(skrattar):</stage>
           <p>En uppgift! Hvad är det för
             <lb/> något?</p>
         </sp>
@@ -349,13 +402,19 @@
           <speaker>TOMTEKUNGEN:</speaker>
           <p>Det är en länk, som samman­<lb break="no"/>håller lifvets stora kedja. Men nu
             <lb/> ha vi inte tid att prata längre.
-            <lb/> Det är julafton i morgon, och bå­<lb break="no"/>de <emph><persName ref="#GodJul">God Jul</persName></emph> och <emph><persName ref="#Rimtusse">Rimtusse</persName></emph> ha hän­<lb break="no"/>derna fulla med arbete. <persName ref="#Tomtar">De andra
+            <lb/> Det är julafton i morgon, och bå­<lb break="no"/>de <emph>
+              <persName ref="#GodJul">God Jul</persName>
+            </emph> och <emph>
+              <persName ref="#Rimtusse">Rimtusse</persName>
+            </emph> ha hän­<lb break="no"/>derna fulla med arbete. <persName ref="#Tomtar">De andra
             <lb/> bissarne</persName> måste hjälpa dem. <stage>(Sät­<lb break="no"/>ter sig och tecknar åt <persName ref="#Tomtar">de andra 
             <lb/> tomtarna</persName> att göra detsamma; de
             <lb/> fläta papper till julgranskorgar,
             <lb/> lägga in leksaker, göra julljus etc.
-            <lb/> <persName ref="#Rimtusse">Rimtusse</persName> skrifver på små pap­<lb break="no"/>perslappar, endast <persName ref="#GodJul">God Jul</persName> står
-            <lb/> sysslolös och drömmer.)</stage></p>
+            <lb/>
+              <persName ref="#Rimtusse">Rimtusse</persName> skrifver på små pap­<lb break="no"/>perslappar, endast <persName ref="#GodJul">God Jul</persName> står
+            <lb/> sysslolös och drömmer.)</stage>
+          </p>
         </sp>
         <sp who="#spSnöflinga">
           <speaker>SNÖFLINGA</speaker>
@@ -364,7 +423,8 @@
             <lb/> ser inte så ut.</p>
         </sp>
         <sp who="#spGodJul">
-          <speaker>GOD JUL</speaker> <stage>(stilla):</stage>
+          <speaker>GOD JUL</speaker>
+          <stage>(stilla):</stage>
           <p>Jag diktar.</p>
         </sp>
         <sp who="#spSnöflinga">
@@ -379,12 +439,14 @@
             <lb/> som ett tändt julljus i <persName ref="#Människorna">människor­<lb break="no"/>nas</persName> hjärtan.</p>
         </sp>
         <sp who="#spSnöflinga">
-          <speaker>SNÖFLINGA</speaker> <stage>(dansar rundt):</stage>
+          <speaker>SNÖFLINGA</speaker>
+          <stage>(dansar rundt):</stage>
           <p>Det låter så högtidligt så, men
             <lb/> jag skall dansa och sjunga min vi­<lb break="no"/>sa för dig, om du sedan låter mig
             <lb/> höra en af dina dikter: <stage>(Dansar och 
             <lb/> sjunger på melodien: <title>»Kom skall du
-            <lb/> få en sväng utaf mig»</title> etc.)</stage></p>
+            <lb/> få en sväng utaf mig»</title> etc.)</stage>
+          </p>
           <lg>
             <l>Jag är en liten flinga af snö,</l>
             <l>när det blir vår, så måste jag dö,</l>
@@ -393,7 +455,9 @@
           </lg>
           <lg>
             <l>Kälkbackar gör jag höga som <emph>så,</emph>
-              <lb/> <stage>(mäter)</stage></l>
+              <lb/>
+              <stage>(mäter)</stage>
+            </l>
             <l>snöbollar kan jag forma också,</l>
             <l>leker i fönstren gärna tittut,</l>
             <l>yr är jag som ett väder.</l>
@@ -401,7 +465,9 @@
           <cb n="2"/>
           <figure>
             <graphic url="KuylenstiernaE_NuArDetJulIgen-2.jpg"/>
-            <bibl><author role="illustrator" ref="#LjungdahlD"/></bibl>
+            <bibl>
+              <author role="illustrator" ref="#LjungdahlD"/>
+            </bibl>
             <figDesc>Tre bilder i en lodrät rad.</figDesc>
             <figure>
               <figDesc>Prinsessan Julros har en klänning med rosor på och håller också ett fång rosor i sin famn.</figDesc>
@@ -420,11 +486,21 @@
           <lg>
             <l>Mig taga fatt är inte så lätt,</l>
             <l>jag dansar kring så liten och nätt,</l>
-            <l>hålla sig stilla! — Tråkigt det är<choice><sic>.</sic><corr>,</corr></choice></l>
-            <l><persName ref="#Snöflinga">glad liten flinga</persName> tycker.</l>
+            <l>hålla sig stilla! — Tråkigt det är<choice>
+                <sic>.</sic>
+                <corr>,</corr>
+              </choice>
+            </l>
+            <l>
+              <persName ref="#Snöflinga">glad liten flinga</persName> tycker.</l>
           </lg>
-          <p><stage>(Stannar flämtande.)</stage> Nå, <persName ref="#GodJul">God
-            <lb/> Jul</persName>, låt mig nu höra, hvad du kan<choice><sic>,</sic><corr>.</corr></choice></p>
+          <p>
+            <stage>(Stannar flämtande.)</stage> Nå, <persName ref="#GodJul">God
+            <lb/> Jul</persName>, låt mig nu höra, hvad du kan<choice>
+              <sic>,</sic>
+              <corr>.</corr>
+            </choice>
+          </p>
         </sp>
         <sp who="#spGodJul">
           <speaker>GOD JUL:</speaker>
@@ -443,18 +519,22 @@
         </sp>
         <sp who="#spTomtekungen">
           <speaker>TOMTEKUNGEN:</speaker>
-          <p><persName ref="#Rimtusse">Rimtusse</persName>! Gå och se efter
+          <p>
+            <persName ref="#Rimtusse">Rimtusse</persName>! Gå och se efter
             <lb/> om ej <persName ref="#Julros">prinsessan Julros</persName> synes än.
             <lb/> Hon borde vara här nu, tycker jag.</p>
         </sp>
         <sp who="#spSnöflinga">
-          <speaker>SNÖFLINGA</speaker> <stage>(häpen):</stage>
-          <p><persName ref="#Julros">En prinsessa</persName>! <persName ref="#Julros">En riktig prin­<lb break="no"/>sessa</persName>!</p>
+          <speaker>SNÖFLINGA</speaker>
+          <stage>(häpen):</stage>
+          <p>
+            <persName ref="#Julros">En prinsessa</persName>! <persName ref="#Julros">En riktig prin­<lb break="no"/>sessa</persName>!</p>
         </sp>
         <stage>(<stage type="exit" who="#Rimtusse">Rimtusse går</stage>, <stage type="entrance" who="#Rimtusse">men kommer
           <lb/> strax tillbaka</stage> och slår upp dör­<lb break="no"/>ren på vid gafvel, ropar högt:)</stage>
         <sp who="#spRimtusse">
-          <p><persName ref="#Julros">Prinsessan Julros</persName>!</p>
+          <p>
+            <persName ref="#Julros">Prinsessan Julros</persName>!</p>
         </sp>
         <stage>(<stage type="entrance" who="#Julros">In genom dörren kommer en
           <lb/> ung flicka, klädd i skär klädning,
@@ -470,8 +550,10 @@
             <lb/> det knappast mitt fel. Jag blef
             <lb/> oupphörligt hindrad af folk, som
             <lb/> ville skicka med en önskeros till
-            <lb/> <persName ref="#Rimtusse #Tomtar #Tomtekungen">tomtarnas</persName> rike. De äro underliga,
-            <lb/> <persName ref="#Människorna">människorna</persName>, allt tröttna de på, ut­<lb break="no"/>om på att önska.</p>
+            <lb/>
+            <persName ref="#Rimtusse #Tomtar #Tomtekungen">tomtarnas</persName> rike. De äro underliga,
+            <lb/>
+            <persName ref="#Människorna">människorna</persName>, allt tröttna de på, ut­<lb break="no"/>om på att önska.</p>
         </sp>
         <sp who="#spTomtekungen">
           <speaker>TOMTEKUNGEN:</speaker>
@@ -479,7 +561,8 @@
             <lb/> rättighet att bli vårdade, och jul­<lb break="no"/>rosornas doft skall i den signade
             <lb/> julenatten bli <persName ref="#Tomtar">alla mina bissars</persName> väg,
             <lb/> ledningstecken. Dela nu ut dem,
-            <lb/> <persName ref="#Julros">prinsessa</persName>, och säg <persName ref="#Tomtar">tomtarne</persName>, hvart
+            <lb/>
+            <persName ref="#Julros">prinsessa</persName>, och säg <persName ref="#Tomtar">tomtarne</persName>, hvart
             <lb/> de skola gå.</p>
         </sp>
         <stage>(<persName ref="#Julros">Prinsessan</persName> ställer sig så, att <persName ref="#Tomtar">alla
@@ -489,12 +572,14 @@
           <lb/> hon:)</stage>
         <sp who="#spJulros">
           <lg>
-            <l><persName ref="#Tomtar">Små tomtar</persName>, tagen af rosor alla</l>
+            <l>
+              <persName ref="#Tomtar">Små tomtar</persName>, tagen af rosor alla</l>
             <l>och gå omkring uti tusen hem,</l>
             <l>må röda rosor i doftregn falla,</l>
             <l>må hvita, skära få följa dem.</l>
           </lg>
-          <pb facs="5894-4.jpg"/><fw type="pageNum">376</fw>
+          <pb facs="5894-4.jpg"/>
+          <fw type="pageNum">376</fw>
           <lg>
             <l>Och hvart I kommen må glädjen
               <lb/> tändas,</l>
@@ -508,17 +593,20 @@
             <lb/> öron om gångna tider.</p>
         </sp>
         <sp who="#spTomtekungen">
-          <speaker>TOMTEKUNGEN</speaker> <stage>(infaller):</stage>
-          <p><persName ref="#Julros">Julros</persName>, säg mig, hvarför äro
+          <speaker>TOMTEKUNGEN</speaker>
+          <stage>(infaller):</stage>
+          <p>
+            <persName ref="#Julros">Julros</persName>, säg mig, hvarför äro
             <lb/> minnets rosor så bleka?</p>
         </sp>
         <sp who="#spJulros">
-          <speaker>JULROS</speaker> <stage>(ler):</stage>
+          <speaker>JULROS</speaker>
+          <stage>(ler):</stage>
           <p>Därför, att de gömmas un­<lb break="no"/>dan dagens starkaste sol.</p>
         </sp>
         <sp who="#spRimtusse">
           <speaker>RIMTUSSE:</speaker>
-        <p>Och de röda rosorna, åt hvil­<lb break="no"/>ka ska vi ge dem?</p>
+          <p>Och de röda rosorna, åt hvil­<lb break="no"/>ka ska vi ge dem?</p>
         </sp>
         <sp who="#spJulros">
           <speaker>JULROS:</speaker>
@@ -548,25 +636,32 @@
               Bakom örat sitter en pensel. I ena handen håller han en stav.</figDesc>
             <head>Rimtusse.</head>
           </figure>
-          <bibl><author role="illustrator" ref="#LjungdahlD"/></bibl>
+          <bibl>
+            <author role="illustrator" ref="#LjungdahlD"/>
+          </bibl>
         </figure>
         <cb n="3"/>
         <sp who="#spJulros">
           <speaker>JULROS:</speaker>
           <p>Och så kommer ordningen
-            <surplus><lb/></surplus>
+            <surplus>
+              <lb/>
+            </surplus>
             <lb/> till de skära rosorna, de äro små
             <lb/> knoppar ännu, som vänta på som­<lb break="no"/>maren. Men tro inte, att de där­<lb break="no"/>för äro mindre rika på önsk­<lb break="no"/>ningar. De äro <persName ref="#Barnen">barnens</persName> rosor,
             <lb/> och de dofta en hälsning till
-            <lb/> <persName ref="#Rimtusse #Tomtar #Tomtekungen">tomtarnas</persName> rike från <persName ref="#Barnen">tusentals
-            <lb/> småttingar</persName> <surplus>.</surplus> som hoppas på ju­<lb break="no"/>lens fröjder.</p>
+            <lb/>
+            <persName ref="#Rimtusse #Tomtar #Tomtekungen">tomtarnas</persName> rike från <persName ref="#Barnen">tusentals
+            <lb/> småttingar</persName>
+            <surplus>.</surplus> som hoppas på ju­<lb break="no"/>lens fröjder.</p>
           <p>Så, nu är mitt förråd slut,
             <lb/> och I veten, att det är eder sak
             <lb/> att förvandla hvarje blomblad
             <lb/> till en skatt åt <persName ref="#Människorna">människorna</persName>.</p>
         </sp>
         <sp who="#spTomtekungen">
-          <speaker>TOMTEKUNGEN</speaker> <stage>(ringer i en stor
+          <speaker>TOMTEKUNGEN</speaker>
+          <stage>(ringer i en stor
             <lb/> klocka):</stage>
           <p>Tiden är inne att draga ut
             <lb/> i världen. Ställen upp eder!</p>
@@ -581,7 +676,8 @@
             <l>Nu är julen här igen,</l>
             <l>må vi glädtigt fira den,</l>
             <l>tända julljus, pryda gran,</l>
-            <l><persName ref="#Tomtar">tomtebissen</persName> så är van.</l>
+            <l>
+              <persName ref="#Tomtar">tomtebissen</persName> så är van.</l>
           </lg>
           <lg rend="centered">
             <l>Hvarje år</l>
@@ -593,10 +689,12 @@
         <stage>(Ridån faller.)</stage>
       </div>
       <byline>(Illustratör: <docAuthor ref="#LjungdahlD">David Ljungdahl</docAuthor>.)</byline>
-      <gap reason="irrelevant"/><!-- ny pjäs börjar -->
+      <gap reason="irrelevant"/>
+<!-- ny pjäs börjar -->
     </body>
     <back>
-      <pb facs="5894-5.jpg"/><!-- pärm -->
+      <pb facs="5894-5.jpg"/>
+<!-- pärm -->
       <div type="editorial">
         <listPerson>
           <listPerson type="cast">

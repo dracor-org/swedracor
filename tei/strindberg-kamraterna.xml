@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
@@ -83,7 +83,7 @@
               <pubPlace>Helsingborg</pubPlace>
               <publisher>H. Österlings förlag</publisher>
               <date when="1888">1888</date>
-              <!-- påklistrad lapp på smutstitel säger Albert Bonniers förlag, Stockholm, men inte titelsida och Libris-posten /EF -->
+<!-- påklistrad lapp på smutstitel säger Albert Bonniers förlag, Stockholm, men inte titelsida och Libris-posten /EF -->
               <respStmt>
                 <resp>tryckning</resp>
                 <orgName>H. Österling &amp; C:o boktr.</orgName>
@@ -148,19 +148,19 @@
       </editorialDecl>
       <tagsDecl>
         <rendition>
-          <!-- Stycken i repliker är indragna första raden /EF -->
-          <!-- Rubriker är centrerade, i versaler, i större storlek /EF -->
-          <!-- Talarrubriker är centrerade (inkl. ev. följande scenanvisning), i versaler, i större storlek /EF -->
-          <!-- Scenanvisningar är i mindre stil /EF -->
-          <!-- Stycken i rumsbeskrivningar för akt har hängande indrag /EF -->
-          <!-- Scenanvisningar av typen presence har rollnamnen i större stil;
+<!-- Stycken i repliker är indragna första raden /EF -->
+<!-- Rubriker är centrerade, i versaler, i större storlek /EF -->
+<!-- Talarrubriker är centrerade (inkl. ev. följande scenanvisning), i versaler, i större storlek /EF -->
+<!-- Scenanvisningar är i mindre stil /EF -->
+<!-- Stycken i rumsbeskrivningar för akt har hängande indrag /EF -->
+<!-- Scenanvisningar av typen presence har rollnamnen i större stil;
                en är formaterad med hängande indrag efter andra raden (rend=setting) /EF -->
-          <!-- Scenanvisningar för akt (ridå) är centrerade, i kursiv, spärrad stil /EF -->
-          <!-- Scenanvisningar i scen (utanför replik) är centrerade (en är i spärrad stil, rend=spaced-out) /EF -->
-          <!-- Vissa scenanvisningar utanför replik står inom parentes;
+<!-- Scenanvisningar för akt (ridå) är centrerade, i kursiv, spärrad stil /EF -->
+<!-- Scenanvisningar i scen (utanför replik) är centrerade (en är i spärrad stil, rend=spaced-out) /EF -->
+<!-- Vissa scenanvisningar utanför replik står inom parentes;
             vissa med rollnamn (med eller utan parentes efter rollnamn) är svåra att skilja från stumma repliker;
             de med parentes är tolkade som stumma repliker, de utan som stage (med tillagda parenteser) /EF -->
-          <!-- Scenanvisningar direkt efter talarrubrik är inline /EF -->
+<!-- Scenanvisningar direkt efter talarrubrik är inline /EF -->
         </rendition>
       </tagsDecl>
     </encodingDesc>
@@ -170,91 +170,116 @@
       </langUsage>
       <particDesc>
         <listPerson>
-          
           <person xml:id="spAxel" sex="MALE">
-            <persName>Axel</persName><!--castList-->
-            <persName>AXEL</persName><!--speaker-->
-            <persName>Axel Alberg</persName><!--editorial-->
+            <persName>Axel</persName>
+<!--castList-->
+            <persName>AXEL</persName>
+<!--speaker-->
+            <persName>Axel Alberg</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spDoktorn" sex="MALE">
-            <persName>Östermark</persName><!--castList-->
-            <persName>DOKTORN</persName><!--speaker-->
-            <persName>doktor Östermark</persName><!--editorial-->
+            <persName>Östermark</persName>
+<!--castList-->
+            <persName>DOKTORN</persName>
+<!--speaker-->
+            <persName>doktor Östermark</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spFruStarck" sex="MALE">
-            <persName>Fru STARCK</persName><!--castList-->
-            <persName>Fru STARCK</persName><!--speaker-->
-            <persName>fru Starck</persName><!--editorial-->
+            <persName>Fru STARCK</persName>
+<!--castList-->
+            <persName>Fru STARCK</persName>
+<!--speaker-->
+            <persName>fru Starck</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spCarl" sex="MALE">
-            <persName>Starck</persName><!--castList-->
-            <persName>CARL</persName><!--speaker-->
-            <persName>Carl Starck</persName><!--editorial-->
+            <persName>Starck</persName>
+<!--castList-->
+            <persName>CARL</persName>
+<!--speaker-->
+            <persName>Carl Starck</persName>
+<!--editorial-->
           </person>
-          <!--unknown speaker: pDoktorn-->
-          
+<!--unknown speaker: pDoktorn-->
           <person xml:id="spModellen" sex="MALE">
-            <persName>Modellen</persName><!--castList-->
-            <persName>MODELLEN</persName><!--speaker-->
+            <persName>Modellen</persName>
+<!--castList-->
+            <persName>MODELLEN</persName>
+<!--speaker-->
           </person>
-          
           <person xml:id="spBertha" sex="FEMALE">
-            <persName>Bertha</persName><!--castList-->
-            <persName>BERTHA</persName><!--speaker-->
-            <persName>fru Bertha Alberg Ålund</persName><!--editorial-->
+            <persName>Bertha</persName>
+<!--castList-->
+            <persName>BERTHA</persName>
+<!--speaker-->
+            <persName>fru Bertha Alberg Ålund</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spAbel" sex="FEMALE">
-            <persName>Abel</persName><!--castList-->
-            <persName>ABEL</persName><!--speaker-->
-            <persName>Abel</persName><!--editorial-->
+            <persName>Abel</persName>
+<!--castList-->
+            <persName>ABEL</persName>
+<!--speaker-->
+            <persName>Abel</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spWillmer" sex="MALE">
-            <persName>Willmer</persName><!--castList-->
-            <persName>WILLMER</persName><!--speaker-->
-            <persName>Gaga Willmer</persName><!--editorial-->
+            <persName>Willmer</persName>
+<!--castList-->
+            <persName>WILLMER</persName>
+<!--speaker-->
+            <persName>Gaga Willmer</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spFruHall" sex="FEMALE">
-            <persName>Fru HALL</persName><!--castList-->
-            <persName>FRU HALL</persName><!--speaker-->
-            <persName>fru Carolina Hall</persName><!--editorial-->
+            <persName>Fru HALL</persName>
+<!--castList-->
+            <persName>FRU HALL</persName>
+<!--speaker-->
+            <persName>fru Carolina Hall</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spPigan" sex="FEMALE">
-            <persName>pigan Ida</persName><!--castList-->
-            <persName>PIGAN</persName><!--speaker-->
-            <persName>Ida</persName><!--editorial-->
+            <persName>pigan Ida</persName>
+<!--castList-->
+            <persName>PIGAN</persName>
+<!--speaker-->
+            <persName>Ida</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spFrökenAmelie" sex="FEMALE">
-            <persName>Fröken AMELIE</persName><!--speaker-->
-            <persName>fröken Amelie Hall</persName><!--editorial-->
+            <persName>Fröken AMELIE</persName>
+<!--speaker-->
+            <persName>fröken Amelie Hall</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spFrökenTherèse">
-            <persName>Fröken THERÈSE</persName><!--speaker-->
+            <persName>Fröken THERÈSE</persName>
+<!--speaker-->
           </person>
         </listPerson>
       </particDesc>
     </profileDesc>
-
   </teiHeader>
   <text>
     <front>
       <anchor xml:id="playstart"/>
-      <pb facs="6289-0.jpg"/><!-- smutstitel (med påklistrad förlagslapp) -->
+      <pb facs="6289-0.jpg"/>
+<!-- smutstitel (med påklistrad förlagslapp) -->
       <gap reason="irrelevant"/>
-      <pb facs="6289-1.jpg"/><!-- tom sida -->
-      <pb facs="6289-2.jpg"/><!-- titel -->
+      <pb facs="6289-1.jpg"/>
+<!-- tom sida -->
+      <pb facs="6289-2.jpg"/>
+<!-- titel -->
       <gap reason="irrelevant"/>
-      <pb facs="6289-3.jpg"/><!-- tom sida -->
-      <pb facs="6289-4.jpg"/><!-- titelsida (med tryckt förlag) -->
-      <pb facs="6289-5.jpg"/><!-- trycksida -->
+      <pb facs="6289-3.jpg"/>
+<!-- tom sida -->
+      <pb facs="6289-4.jpg"/>
+<!-- titelsida (med tryckt förlag) -->
+      <pb facs="6289-5.jpg"/>
+<!-- trycksida -->
       <gap reason="irrelevant"/>
       <pb facs="6289-6.jpg"/>
       <set>
@@ -272,22 +297,34 @@
       <castList>
         <head>PERSONER:</head>
         <castItem>
-          <role><persName ref="#Axel">AXEL</persName></role>, <roleDesc>målare.</roleDesc>
+          <role>
+            <persName ref="#Axel">AXEL</persName>
+          </role>, <roleDesc>målare.</roleDesc>
         </castItem>
         <castItem>
-          <role><persName ref="#Bertha">BERTHA</persName></role>, <roleDesc>hans hustru, målarinna.</roleDesc>
+          <role>
+            <persName ref="#Bertha">BERTHA</persName>
+          </role>, <roleDesc>hans hustru, målarinna.</roleDesc>
         </castItem>
         <castItem>
-          <role><persName ref="#Abel">ABEL</persName></role>, <roleDesc>väninna.</roleDesc>
+          <role>
+            <persName ref="#Abel">ABEL</persName>
+          </role>, <roleDesc>väninna.</roleDesc>
         </castItem>
         <castItem>
-          <role><persName ref="#Willmer">WILLMER</persName></role>, <roleDesc>litterat.</roleDesc>
+          <role>
+            <persName ref="#Willmer">WILLMER</persName>
+          </role>, <roleDesc>litterat.</roleDesc>
         </castItem>
         <castItem>
-          <role><persName ref="#Doktorn">ÖSTERMARK</persName></role>, <roleDesc>doktor.</roleDesc>
+          <role>
+            <persName ref="#Doktorn">ÖSTERMARK</persName>
+          </role>, <roleDesc>doktor.</roleDesc>
         </castItem>
         <castItem>
-          <role><persName ref="#FruHall">Fru HALL</persName></role>, <roleDesc>dennes frånskilda hustru.</roleDesc>
+          <role>
+            <persName ref="#FruHall">Fru HALL</persName>
+          </role>, <roleDesc>dennes frånskilda hustru.</roleDesc>
         </castItem>
         <castItem>
           <roleGroup corresp="#FröknarnaHall">
@@ -297,21 +334,34 @@
           </roleGroup>, <roleDesc>hennes döttrar i senare förbindelse.</roleDesc>
         </castItem>
         <castItem>
-          <role><persName ref="#Carl">STARCK</persName></role>, <roleDesc>löjtnant.</roleDesc>
+          <role>
+            <persName ref="#Carl">STARCK</persName>
+          </role>, <roleDesc>löjtnant.</roleDesc>
         </castItem>
         <castItem>
-          <role><persName ref="#FruStarck">Fru STARCK</persName></role>.
+          <role>
+            <persName ref="#FruStarck">Fru STARCK</persName>
+          </role>.
         </castItem>
         <addSpan spanTo="#slutTillagt"/>
         <castItem type="list">
-          <role><persName ref="#Modellen">Modellen</persName></role>,
-          <role><persName ref="#Pigan">pigan Ida</persName></role>,
-          <roleGroup corresp="#TvåKarlar"><roleDesc>två karlar</roleDesc></roleGroup>,
-          <role><persName ref="#Diplomaten">en diplomat</persName></role>.
+          <role>
+            <persName ref="#Modellen">Modellen</persName>
+          </role>,
+          <role>
+            <persName ref="#Pigan">pigan Ida</persName>
+          </role>,
+          <roleGroup corresp="#TvåKarlar">
+            <roleDesc>två karlar</roleDesc>
+          </roleGroup>,
+          <role>
+            <persName ref="#Diplomaten">en diplomat</persName>
+          </role>.
         </castItem>
         <anchor xml:id="slutTillagt"/>
       </castList>
-      <pb facs="6289-7.jpg"/><!-- tom sida -->
+      <pb facs="6289-7.jpg"/>
+<!-- tom sida -->
     </front>
     <body>
       <pb facs="6289-8.jpg"/>
@@ -321,7 +371,9 @@
           <head>FÖRSTA SCENEN.</head>
           <stage type="presence" who="#Axel #Doktorn">AXEL och DOKTORN.</stage>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage><supplied>(</supplied>sitter och målar<supplied>)</supplied>.</stage>
+            <speaker>AXEL</speaker>
+            <stage>
+              <supplied>(</supplied>sitter och målar<supplied>)</supplied>.</stage>
             <p>Och du också i <placeName>Paris</placeName>?</p>
           </sp>
           <sp who="#spDoktorn">
@@ -347,7 +399,8 @@
             <speaker>DOKORN.</speaker>
             <p>Mycket bra ... för henne!</p>
           </sp>
-          <pb facs="6289-9.jpg"/><fw type="pageNum">8</fw>
+          <pb facs="6289-9.jpg"/>
+          <fw type="pageNum">8</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Och för dig?</p>
@@ -394,7 +447,8 @@
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Vi ha arrangerat oss som kamrater, ser du,
-              <pb facs="6289-10.jpg"/><fw type="pageNum">9</fw>
+              <pb facs="6289-10.jpg"/>
+              <fw type="pageNum">9</fw>
               och vänskapen är högre och varaktigare än kär­<lb break="no"/>leken!</p>
           </sp>
           <sp who="#spDoktorn">
@@ -409,17 +463,20 @@
             <speaker>DOKTORN.</speaker>
             <p>Vi voro goda vänner förr hon och jag, det
               <lb/> vill säga, vi grälade alltid lite. — Här kommer
-              <lb/> <persName ref="#Carl #FruStarck">främmande</persName>. — Tyst! Det är <persName ref="#Carl">Carl</persName> med <persName ref="#FruStarck">fru</persName>!</p>
+              <lb/>
+              <persName ref="#Carl #FruStarck">främmande</persName>. — Tyst! Det är <persName ref="#Carl">Carl</persName> med <persName ref="#FruStarck">fru</persName>!</p>
           </sp>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage>(upp).</stage>
+            <speaker>AXEL</speaker>
+            <stage>(upp).</stage>
             <p>Och <persName ref="#Bertha">Bertha</persName> som inte är hemma! Sacristi!</p>
           </sp>
         </div>
         <div type="scene" n="2">
           <head>ANDRA SCENEN.</head>
           <stage type="presence" who="#Axel #Doktorn">De FÖRRE. <stage type="entrance" who="#Carl #FruStarck">Löjtnant CARL STARCK med fru
-            <lb/> STARCK, (in).</stage></stage>
+            <lb/> STARCK, (in).</stage>
+          </stage>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Nå, välkomna! Här ha vi ju stämt möte från
@@ -434,13 +491,17 @@
             <speaker>CARL.</speaker>
             <p>Ja, hvar är <persName ref="#Bertha">unga frun</persName>!</p>
           </sp>
-          <pb facs="6289-11.jpg"/><fw type="pageNum">10</fw>
+          <pb facs="6289-11.jpg"/>
+          <fw type="pageNum">10</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Hon är på <orgName ref="#AcadémieJulian">ateliern</orgName>; men hon väntas hem
               <lb/> hvarje ögonblick! Vill ni inte sitta ner!</p>
           </sp>
-          <stage><supplied>(</supplied><persName ref="#Doktorn">DOKTORN</persName> helsar de nykomne.<supplied>)</supplied></stage>
+          <stage>
+            <supplied>(</supplied>
+            <persName ref="#Doktorn">DOKTORN</persName> helsar de nykomne.<supplied>)</supplied>
+          </stage>
           <sp who="#spCarl">
             <speaker>CARL.</speaker>
             <p>Knappast vet du. Vi bara skulle titta upp i
@@ -459,7 +520,8 @@
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Jo, hon målar, hon som jag. Vi vänta just
-              <lb/> <persName ref="#Modellen">modellen</persName> åt henne! Så kanske — jag inte kan be
+              <lb/>
+              <persName ref="#Modellen">modellen</persName> åt henne! Så kanske — jag inte kan be
               <lb/> Er sitta! Om jag ska vara upprigtig!</p>
           </sp>
           <sp who="#spCarl">
@@ -477,7 +539,8 @@
           <sp who="#spCarl">
             <speaker>CARL.</speaker>
             <p>En karl! Fy fan! — Nej, <emph>det</emph> ville <emph>jag</emph> inte
-              <pb facs="6289-12.jpg"/><fw type="pageNum">11</fw>
+              <pb facs="6289-12.jpg"/>
+              <fw type="pageNum">11</fw>
               låta <persName ref="#FruStarck">min hustru</persName> vara med om. Ensam med <persName ref="#Modellen">en
               <lb/> naken karl</persName>?</p>
           </sp>
@@ -524,9 +587,11 @@
           <sp who="#spFruStarck">
             <speaker>Fru STARCK.</speaker>
             <p>Då gå vi! Farväl alltså och au revoir! Helsa
-              <lb/> <persName ref="#Bertha">Bertha</persName> så hjertligt från mig!</p>
+              <lb/>
+              <persName ref="#Bertha">Bertha</persName> så hjertligt från mig!</p>
           </sp>
-          <pb facs="6289-13.jpg"/><fw type="pageNum">12</fw>
+          <pb facs="6289-13.jpg"/>
+          <fw type="pageNum">12</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Farväl då, efter ni är så rädda af Er. Och
@@ -537,7 +602,8 @@
             <p>Farväl <persName ref="#Axel">Axel</persName>!</p>
           </sp>
           <sp who="#spAxel">
-            <speaker>CARL</speaker> <stage>(till <persName ref="#Axel">AXEL</persName>).</stage>
+            <speaker>CARL</speaker>
+            <stage>(till <persName ref="#Axel">AXEL</persName>).</stage>
             <p>Du stannar väl här inne åtminstone?</p>
           </sp>
           <sp who="#spAxel">
@@ -545,7 +611,8 @@
             <p>Nej! Hvarför det?</p>
           </sp>
           <sp who="#spCarl">
-            <speaker>CARL</speaker> <stage type="exit" who="#Carl #Doktorn #FruStarck">(går, ruskande på hufvet).</stage>
+            <speaker>CARL</speaker>
+            <stage type="exit" who="#Carl #Doktorn #FruStarck">(går, ruskande på hufvet).</stage>
             <p>Usch!</p>
           </sp>
         </div>
@@ -557,7 +624,8 @@
             <p>Stig in!</p>
           </sp>
           <sp who="#spModellen">
-            <speaker>MODELLEN</speaker> <stage type="entrance" who="#Modellen">(in).</stage>
+            <speaker>MODELLEN</speaker>
+            <stage type="entrance" who="#Modellen">(in).</stage>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -574,13 +642,15 @@
               <lb/> har väl varit något förhinder på <orgName ref="#AcadémieJulian">ateliern</orgName>. Hur
               <lb/> mycket är jag skyldig?</p>
           </sp>
-          <pb facs="6289-14.jpg"/><fw type="pageNum">13</fw>
+          <pb facs="6289-14.jpg"/>
+          <fw type="pageNum">13</fw>
           <sp who="#spModellen">
             <speaker>MODELLEN.</speaker>
             <p>Det är fem francs som vanligt!</p>
           </sp>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage>(betalar).</stage>
+            <speaker>AXEL</speaker>
+            <stage>(betalar).</stage>
             <p>Se här! Ni kan ju stanna en stund i alla fall.</p>
           </sp>
           <sp who="#spModellen">
@@ -592,12 +662,14 @@
             <p>Jo, vill ni vara så god och sitta ner ett ögon­<lb break="no"/>blick!</p>
           </sp>
           <sp who="#spModellen">
-            <speaker>MODELLEN</speaker> <stage type="exit" who="#Modellen">(går bakom skärmen).</stage>
+            <speaker>MODELLEN</speaker>
+            <stage type="exit" who="#Modellen">(går bakom skärmen).</stage>
           </sp>
         </div>
         <div type="scene" n="4">
           <head>FJERDE SCENEN.</head>
-          <stage type="presence" who="#Axel">AXEL ensam. Ritar och hvisslar. <stage type="entrance" who="#Bertha">Strax derefter BERTHA.</stage></stage>
+          <stage type="presence" who="#Axel">AXEL ensam. Ritar och hvisslar. <stage type="entrance" who="#Bertha">Strax derefter BERTHA.</stage>
+          </stage>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Nå goddag kära du, är du hemma ändtligen?</p>
@@ -611,14 +683,16 @@
             <p>Ja, <persName ref="#Modellen">modellen</persName> väntar!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(rörelse).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(rörelse).</stage>
             <p>Nej! nej! Har han varit här igen?</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Du hade beställt honom till klockan elfva.</p>
           </sp>
-          <pb facs="6289-15.jpg"/><fw type="pageNum">14</fw>
+          <pb facs="6289-15.jpg"/>
+          <fw type="pageNum">14</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Jag! Nej! Sa' han det?</p>
@@ -662,19 +736,22 @@
             <p>Så är det bra då! — Men, hvad betalte du
               <lb/> honom med?</p>
           </sp>
-          <pb facs="6289-16.jpg"/><fw type="pageNum">15</fw>
+          <pb facs="6289-16.jpg"/>
+          <fw type="pageNum">15</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Jo det är sant, jag fick igen de tjugo francs
               <lb/> som <persName ref="#Willmer">Gaga</persName> lånat af mig.</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(tar fram en hushållsbok).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(tar fram en hushållsbok).</stage>
             <p>Jaså, du har fått igen dem. Kom så ska' jag
               <lb/> skrifva in dem! För ordningens skull. Det är dina
               <lb/> pengar, så du gör naturligtvis hvad du vill med
               <lb/> dem, men efter som jag skall sköta finanserna, som
-              <lb/> du vill, så ... <stage>(skrifver)</stage> <writing who="#Bertha">"Femton francs in; fem francs
+              <lb/> du vill, så ... <stage>(skrifver)</stage>
+              <writing who="#Bertha">"Femton francs in; fem francs
               <lb/> ut, <persName ref="#Modellen">modell</persName>"</writing>. Så der.</p>
           </sp>
           <sp who="#spAxel">
@@ -707,26 +784,32 @@
             <speaker>AXEL.</speaker>
             <p>Har jag ...? — <persName ref="#Modellen">Karlen</persName> väntar?</p>
           </sp>
-          <pb facs="6289-17.jpg"/><fw type="pageNum">16</fw>
+          <pb facs="6289-17.jpg"/>
+          <fw type="pageNum">16</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Jaså! Ställ i ordning är du snäll!</p>
           </sp>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage>(arrangerar estraden; ropar åt skärmen).</stage>
+            <speaker>AXEL</speaker>
+            <stage>(arrangerar estraden; ropar åt skärmen).</stage>
             <p>Är ni afklädd än?</p>
           </sp>
           <sp who="#spModellen">
-            <speaker>MODELLEN</speaker> <stage>(bakom skärmen).</stage>
+            <speaker>MODELLEN</speaker>
+            <stage>(bakom skärmen).</stage>
             <p>Strax, <persName ref="#Axel">min herre</persName>!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(stänger dörren; lägger ved i kaminen).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(stänger dörren; lägger ved i kaminen).</stage>
             <p>Så! Nu får du gå ut!</p>
           </sp>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage>(dröjande).</stage>
-            <p><persName ref="#Bertha">Bertha</persName>!</p>
+            <speaker>AXEL</speaker>
+            <stage>(dröjande).</stage>
+            <p>
+              <persName ref="#Bertha">Bertha</persName>!</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -751,13 +834,16 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>Sant! Men det är otäckt i alla fall <stage type="exit" who="#Axel">(går till höger).</stage></p>
+            <p>Sant! Men det är otäckt i alla fall <stage type="exit" who="#Axel">(går till höger).</stage>
+            </p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(tar penslar och palett; ropar åt skärmen till).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(tar penslar och palett; ropar åt skärmen till).</stage>
             <p>Är ni färdig?</p>
           </sp>
-          <pb facs="6289-18.jpg"/><fw type="pageNum">17</fw>
+          <pb facs="6289-18.jpg"/>
+          <fw type="pageNum">17</fw>
           <sp who="#spModellen">
             <speaker>MODELLEN.</speaker>
             <p>Jag är färdig!</p>
@@ -771,32 +857,39 @@
             <p>Hvem är der! Jag har <persName ref="#Modellen">modell</persName>!</p>
           </sp>
           <sp who="#spAbel">
-            <speaker>ABEL</speaker> <stage>(utanför).</stage>
-            <p><persName ref="#Abel">Abel</persName>! Med nyheter från <orgName ref="#Salongen">salongen</orgName>!</p>
+            <speaker>ABEL</speaker>
+            <stage>(utanför).</stage>
+            <p>
+              <persName ref="#Abel">Abel</persName>! Med nyheter från <orgName ref="#Salongen">salongen</orgName>!</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Från <orgName ref="#Salongen">salongen</orgName>! <stage>(till <persName ref="#Modellen">modellen</persName>).</stage> Kläd på Er! vi få
               <lb/> uppskjuta séansen! — <persName ref="#Axel">Axel</persName>! <persName ref="#Abel">Abel</persName> är här med ny­<lb break="no"/>heter från <orgName ref="#Salongen">salongen</orgName>!</p>
           </sp>
-          <stage>(<stage type="entrance" who="#Abel #Axel #Willmer">Axel in; ABEL, WILLMER;</stage> <stage type="exit" who="#Modellen">Modellen går oförmärkt under följande scen</stage>).</stage>
+          <stage>(<stage type="entrance" who="#Abel #Axel #Willmer">Axel in; ABEL, WILLMER;</stage>
+            <stage type="exit" who="#Modellen">Modellen går oförmärkt under följande scen</stage>).</stage>
         </div>
         <div type="scene" n="5">
           <head>FEMTE SCENEN.</head>
           <stage type="presence" who="#Abel #Axel #Bertha #Willmer">DE FÖRRE, WILLMER, ABEL.</stage>
-          <stage type="exit" who="#Abel" cert="medium"/><!-- måste gå någon gång i scenen för att kunna komma in igen i nästa /EF -->
+          <stage type="exit" who="#Abel" cert="medium"/>
+<!-- måste gå någon gång i scenen för att kunna komma in igen i nästa /EF -->
           <sp who="#spWillmer">
             <speaker>WILLMER.</speaker>
             <p>God dag, <persName ref="#Axel #Bertha">go vänner</persName>! I morgon börjar <orgName ref="#Juryn">juryn</orgName>
               <lb/> sina arbeten. — Se här <persName ref="#Bertha">Bertha</persName> har du pastellerna!
-              <lb/> <stage>(plockar fram packet ur fickorna).</stage></p>
+              <lb/>
+              <stage>(plockar fram packet ur fickorna).</stage>
+            </p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Tack <persName ref="#Willmer">snälla Gaga</persName>; Hur mycket kostade de?
               <lb/> De voro väl dyra?</p>
           </sp>
-          <pb facs="6289-19.jpg"/><fw type="pageNum">18</fw>
+          <pb facs="6289-19.jpg"/>
+          <fw type="pageNum">18</fw>
           <sp who="#spWillmer">
             <speaker>WILLMER.</speaker>
             <p>Åh, inte vidare!</p>
@@ -842,9 +935,11 @@
             <speaker>AXEL.</speaker>
             <p>Jaså du vet det! Gör mig inte ond då!</p>
           </sp>
-          <pb facs="6289-20.jpg"/><fw type="pageNum">19</fw>
+          <pb facs="6289-20.jpg"/>
+          <fw type="pageNum">19</fw>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(smeker honom).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(smeker honom).</stage>
             <p>Du vill inte offra något för <persName ref="#Bertha">din hustru</persName>! Inte!</p>
           </sp>
           <sp who="#spAxel">
@@ -886,10 +981,12 @@
             <speaker>AXEL.</speaker>
             <p>Ni har ingen stolthet!</p>
           </sp>
-          <pb facs="6289-21.jpg"/><fw type="pageNum">20</fw>
+          <pb facs="6289-21.jpg"/>
+          <fw type="pageNum">20</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p><persName ref="#Axel">Axel</persName>!</p>
+            <p>
+              <persName ref="#Axel">Axel</persName>!</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -917,7 +1014,8 @@
               <lb/> Både derför att jag målar bättre än du, och derför ...</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(går några slag på golfvet).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(går några slag på golfvet).</stage>
             <p>Säg ut du, derför att jag är fruntimmer!</p>
           </sp>
           <sp who="#spAxel">
@@ -932,7 +1030,8 @@
             <p>Ser du att du är lika som alla andra herrar,
               <lb/> precis!</p>
           </sp>
-          <pb facs="6289-22.jpg"/><fw type="pageNum">21</fw>
+          <pb facs="6289-22.jpg"/>
+          <fw type="pageNum">21</fw>
           <sp who="#spAxel">
             <speaker>AXEL</speaker>
             <p>Som alla andra! Jag hoppas väl det!</p>
@@ -945,18 +1044,21 @@
           <sp who="#spAxel">
             <speaker>AXEL</speaker>
             <p>Det är väl derför att jag är öfverlägsen! Gör
-              <lb/> något som inte vi gjort förut!</p> </sp>
+              <lb/> något som inte vi gjort förut!</p>
+          </sp>
           <sp who="#spBertha">
             <speaker>BERTHA</speaker>
             <p>Hva! Hvad säger du? Skäms du inte!</p>
           </sp>
           <sp who="#spWillmer">
             <speaker>WILLMER</speaker>
-            <p>Se så, se så, <persName ref="#Axel #Bertha">god vänner</persName>! Nej, men <persName ref="#Axel #Bertha">kära vän­<lb break="no"/>ner</persName>! <persName ref="#Bertha">Bertha</persName> lugna dig! <stage>(Han ger henne en blick, som hon sö­<lb break="no"/>ker tyda).</stage></p>
+            <p>Se så, se så, <persName ref="#Axel #Bertha">god vänner</persName>! Nej, men <persName ref="#Axel #Bertha">kära vän­<lb break="no"/>ner</persName>! <persName ref="#Bertha">Bertha</persName> lugna dig! <stage>(Han ger henne en blick, som hon sö­<lb break="no"/>ker tyda).</stage>
+            </p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA</speaker>
-            <p><persName ref="#Axel">Axel</persName>, låt oss vara vänner! Och hör på mig
+            <p>
+              <persName ref="#Axel">Axel</persName>, låt oss vara vänner! Och hör på mig
               <lb/> ett ögonblick! Tycker du att min ställning i ditt
               <lb/> hus — för det <emph>är</emph> ditt — är behaglig? Du ger mig
               <lb/> mitt uppehälle, du betalar mina lektioner hos <orgName ref="#AcadémieJulian">Julian</orgName>,
@@ -970,7 +1072,8 @@
               <lb/> är jag för dig? I hvad egenskap är jag i ditt
               <lb/> hus? Åh, jag blygs när jag tänker på det?</p>
           </sp>
-          <pb facs="6289-23.jpg"/><fw type="pageNum">22</fw>
+          <pb facs="6289-23.jpg"/>
+          <fw type="pageNum">22</fw>
           <sp who="#spAxel">
             <speaker>AXEL</speaker>
             <p>Hva, hva, hva! Är du inte min hustru?</p>
@@ -1013,23 +1116,28 @@
               <lb/> ur min förnedring, till din sida, och jag skall tacka
               <lb/> dig, jag skall aldrig plåga dig mer med att på­<lb break="no"/>minna om min ställning, aldrig <persName ref="#Axel">Axel</persName>!</p>
           </sp>
-          <pb facs="6289-24.jpg"/><fw type="pageNum">23</fw>
+          <pb facs="6289-24.jpg"/>
+          <fw type="pageNum">23</fw>
           <sp who="#spAxel">
             <speaker>AXEL</speaker>
             <p>Be mig inte, du vet ju huru svag jag är!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(omfamnar honom).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(omfamnar honom).</stage>
             <p>Jo jag ska be dig, be dig tills du uppfyller
               <lb/> min bön! Se så, se inte så stolt ut nu, utan var
-              <lb/> mensklig! Så! <stage>(Kysser honom).</stage></p>
+              <lb/> mensklig! Så! <stage>(Kysser honom).</stage>
+            </p>
           </sp>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage>(till <persName ref="#Willmer">Willmer</persName>).</stage>
+            <speaker>AXEL</speaker>
+            <stage>(till <persName ref="#Willmer">Willmer</persName>).</stage>
             <p>Hör du <persName ref="#Willmer">Gaga</persName>, tycker du inte att fruntim­<lb break="no"/>merna äro ena rysliga tyranner?</p>
           </sp>
           <sp who="#spWillmer">
-            <speaker>WILLMER</speaker> <stage>(plågad).</stage>
+            <speaker>WILLMER</speaker>
+            <stage>(plågad).</stage>
             <p>Jo i synnerhet när de äro undergifna!</p>
           </sp>
           <sp who="#spBertha">
@@ -1052,11 +1160,13 @@
             <p>Ja, men du är ju en intrigante, <persName ref="#Bertha">Berta</persName>!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(tar fram en svart bonjour ur skåpet).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(tar fram en svart bonjour ur skåpet).</stage>
             <p>Nå det måste man vara, annars kommer man
               <lb/> ingenstans. Se här är svarta rocken! Så!</p>
           </sp>
-          <pb facs="6289-25.jpg"/><fw type="pageNum">24</fw>
+          <pb facs="6289-25.jpg"/>
+          <fw type="pageNum">24</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Ja, men det är förskräckligt. Hvad ska jag
@@ -1082,14 +1192,16 @@
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Säg hvad du vill då! Kom nu ska jag fri&#xD;<lb break="no"/>sera dig, så du ser presentabel ut. Känner du
-              <lb/> <persName ref="#MadameRoubey">hans hustru</persName>?</p>
+              <lb/>
+              <persName ref="#MadameRoubey">hans hustru</persName>?</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Inte alls!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(borstar hans hår med lugg).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(borstar hans hår med lugg).</stage>
             <p>Så ska jag låta presentera dig för henne. Hon
               <lb/> lär ha mycket stort inflytande, men hon tycker
               <lb/> inte om fruntimmer.</p>
@@ -1098,7 +1210,8 @@
             <speaker>AXEL.</speaker>
             <p>Hvad gör du nu med mitt hår?</p>
           </sp>
-          <pb facs="6289-26.jpg"/><fw type="pageNum">25</fw>
+          <pb facs="6289-26.jpg"/>
+          <fw type="pageNum">25</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Jag friserar dig så som herrarna nu bruka.</p>
@@ -1111,7 +1224,8 @@
             <speaker>BERTHA.</speaker>
             <p>Seså! Nu är du fin! Lyd nu mig bara! <stage>(Hon
               <lb/> går till chiffoniern och tar fram ett etui, i hvilket ligger <orgName ref="#SanktAnnasOrden">Ryska Annaeorden</orgName>
-              <lb/> som hon vill sätta i knapphålet).</stage></p>
+                <lb/> som hon vill sätta i knapphålet).</stage>
+            </p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -1141,7 +1255,8 @@
             <speaker>BERTHA.</speaker>
             <p>Men som ha mottagit salongsmedaljer!</p>
           </sp>
-          <pb facs="6289-27.jpg"/><fw type="pageNum">26</fw>
+          <pb facs="6289-27.jpg"/>
+          <fw type="pageNum">26</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Hvilka icke bäras på rocken!</p>
@@ -1174,42 +1289,50 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p><persName ref="#Bertha #Willmer">Jesuiter</persName>! När man gifvit Er ett finger, så
+            <p>
+              <persName ref="#Bertha #Willmer">Jesuiter</persName>! När man gifvit Er ett finger, så
               <lb/> tar ni snart hela armen.</p>
           </sp>
         </div>
         <div type="scene" n="6">
           <head>SJETTE SCENEN.</head>
-          <stage type="presence" who="#Axel #Bertha #Willmer">DE FÖRRE, <stage type="entrance" who="#Abel">ABEL (in; klädd i pels och skinnmössa).</stage></stage>
+          <stage type="presence" who="#Axel #Bertha #Willmer">DE FÖRRE, <stage type="entrance" who="#Abel">ABEL (in; klädd i pels och skinnmössa).</stage>
+          </stage>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Se der ha vi <persName ref="#Abel">Abel</persName>! Kom nu och slit denna tvist.</p>
           </sp>
-          <pb facs="6289-28.jpg"/><fw type="pageNum">27</fw>
+          <pb facs="6289-28.jpg"/>
+          <fw type="pageNum">27</fw>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
             <p>God dag <persName ref="#Bertha">Bertha</persName>, god dag <persName ref="#Axel">Axel</persName>. Hur mår du
-              <lb/> <persName ref="#Willmer">Gaga</persName>? Hvad gäller frågan?</p>
+              <lb/>
+              <persName ref="#Willmer">Gaga</persName>? Hvad gäller frågan?</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p><persName ref="#Axel">Axel</persName> vill icke bära sin orden, derför att han
+            <p>
+              <persName ref="#Axel">Axel</persName> vill icke bära sin orden, derför att han
               <lb/> ej törs för <persName ref="#Kamrater">sina kamrater</persName>.</p>
           </sp>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
             <p>Naturligtvis gå <persName ref="#Kamrater">kamraterna</persName> före <persName ref="#Bertha">hustrun</persName>, det
               <lb/> är ju en naturlag bland de många. <stage>(Sätter sig vid ett
-              <lb/> bord, tar upp sitt tobakspaket och rullar cigaretter).</stage></p>
+              <lb/> bord, tar upp sitt tobakspaket och rullar cigaretter).</stage>
+            </p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(fäster bandet i <persName ref="#Axel">Axels</persName> knapphål och lägger stjernan i etuiet).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(fäster bandet i <persName ref="#Axel">Axels</persName> knapphål och lägger stjernan i etuiet).</stage>
             <p>Han kan gagna mig, utan att skada någon,
               <lb/> men jag fruktar han hellre vill skada mig!</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p><persName ref="#Bertha">Bertha</persName>, <persName ref="#Bertha">Bertha</persName>! Men ni gör ju mig alldeles
+            <p>
+              <persName ref="#Bertha">Bertha</persName>, <persName ref="#Bertha">Bertha</persName>! Men ni gör ju mig alldeles
               <lb/> galen. Inte anser jag det vara något brott att
               <lb/> bära det der bandet, och inte har jag aflagt någon
               <lb/> ed att ej göra det, men det har ingått i våra före­<lb break="no"/>ställningar att det är fegt icke våga gå fram sin
@@ -1228,7 +1351,8 @@
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Jag känner på mig att det ni säger är falskt,
-              <pb facs="6289-29.jpg"/><fw type="pageNum">28</fw>
+              <pb facs="6289-29.jpg"/>
+              <fw type="pageNum">28</fw>
               men jag har icke haft tid och kraft att tänka ut
               <lb/> svaret, ty det fins ett svar! Det är som om ni
               <lb/> skulle kasta nät omkring mig medan jag sitter
@@ -1242,8 +1366,10 @@
               <lb/> Farväl! — Det är sant! Hvar bor <persName ref="#Roubey">Roubey</persName>.</p>
           </sp>
           <sp who="#spAbel #spBertha #spWillmer">
-            <speaker>WILLMER, ABEL, BERTHA</speaker> <stage>(på en gång)</stage>
-            <p><placeName>Sextiofem rue des Martyrs</placeName>!</p>
+            <speaker>WILLMER, ABEL, BERTHA</speaker>
+            <stage>(på en gång)</stage>
+            <p>
+              <placeName>Sextiofem rue des Martyrs</placeName>!</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -1270,7 +1396,8 @@
             <p>Det är synd om <persName ref="#Axel">Axel</persName>! Det är synd om honom<supplied>.</supplied>
               <lb/> Ni vet inte af att han är refuserad!</p>
           </sp>
-          <pb facs="6289-30.jpg"/><fw type="pageNum">29</fw>
+          <pb facs="6289-30.jpg"/>
+          <fw type="pageNum">29</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Och jag då?</p>
@@ -1316,7 +1443,8 @@
               <lb/> har ju ingenting att säga, då deremot <persName ref="#MadameRoubey">madame</persName> är
               <lb/> ordförande i <orgName ref="#MålarinnornasSkyddsförening">målarinnornas skyddsförening</orgName>.</p>
           </sp>
-          <pb facs="6289-31.jpg"/><fw type="pageNum">30</fw>
+          <pb facs="6289-31.jpg"/>
+          <fw type="pageNum">30</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Alltså: jag är icke refuserad — ännu!</p>
@@ -1326,7 +1454,8 @@
             <p>Nej, som du hör, och <persName ref="#Axel">Axels</persName> visit kommer att
               <lb/> göra godt. Han har en rysk orden, och <placeName>Ryssland</placeName>
               <lb/> är mycket populärt i <placeName>Paris</placeName>. Men det är synd om
-              <lb/> <persName ref="#Axel">Axel</persName> i alla fall.</p>
+              <lb/>
+              <persName ref="#Axel">Axel</persName> i alla fall.</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -1357,7 +1486,8 @@
             <p>Jag tycker er ställning skall bli mcket kla­<lb break="no"/>rare, och din mycket behagligare när du får sälja
               <lb/> och kan försörja dig sjelf.</p>
           </sp>
-          <pb facs="6289-32.jpg"/><fw type="pageNum">31</fw>
+          <pb facs="6289-32.jpg"/>
+          <fw type="pageNum">31</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Den skulle bli! Vi få väl se! Vi få väl se!</p>
@@ -1365,7 +1495,8 @@
         </div>
         <div type="scene" n="8">
           <head>ÅTTONDE SCENEN.</head>
-          <stage type="presence" who="#Abel #Bertha #Willmer">DE FÖRRE, <stage type="entrance" who="#Pigan">PIGAN (med ett grönt bref).</stage></stage>
+          <stage type="presence" who="#Abel #Bertha #Willmer">DE FÖRRE, <stage type="entrance" who="#Pigan">PIGAN (med ett grönt bref).</stage>
+          </stage>
           <stage type="exit" who="#Pigan" cert="medium"/>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -1378,7 +1509,8 @@
             <p>Men om det går dig bra?</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(paus).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(paus).</stage>
           </sp>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
@@ -1405,7 +1537,8 @@
             <speaker>ABEL.</speaker>
             <p>Du var på frukosten i dag? Var det roligt?</p>
           </sp>
-          <pb facs="6289-33.jpg"/><fw type="pageNum">32</fw>
+          <pb facs="6289-33.jpg"/>
+          <fw type="pageNum">32</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Åhja.</p>
@@ -1435,7 +1568,8 @@
               <lb/> fått detta slaget. </p>
           </sp>
           <sp who="#spAbel">
-            <speaker>ABEL</speaker> <stage>(reser sig).</stage>
+            <speaker>ABEL</speaker>
+            <stage>(reser sig).</stage>
             <p>Jag tror inte <persName ref="#Axel">Axel</persName> är så oädel att han skulle
               <lb/> taga revanche på dig.</p>
           </sp>
@@ -1450,7 +1584,8 @@
             <p>Skulle du ha tyckt om i fall han gjort det
               <lb/> för en annan?</p>
           </sp>
-          <pb facs="6289-34.jpg"/><fw type="pageNum">33</fw>
+          <pb facs="6289-34.jpg"/>
+          <fw type="pageNum">33</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Farväl med Er, nu få ni gå, innan han kom­<lb break="no"/>mer tillbaka!</p>
@@ -1466,7 +1601,8 @@
         </div>
         <div type="scene" n="9">
           <head>NIONDE SCENEN.</head>
-          <stage type="presence" who="#Abel #Bertha #Willmer">DE FÖRRE. <stage type="entrance" who="#Pigan">PIGAN anmäler FRU HALL.</stage></stage>
+          <stage type="presence" who="#Abel #Bertha #Willmer">DE FÖRRE. <stage type="entrance" who="#Pigan">PIGAN anmäler FRU HALL.</stage>
+          </stage>
           <stage type="exit" who="#Pigan" cert="medium"/>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -1481,7 +1617,8 @@
         <div type="scene" n="10">
           <head>TIONDE SCENEN.</head>
           <stage type="presence" who="#Bertha">BERTHA. <stage type="entrance" who="#FruHall">Fru HALL (utstyrd, men slarfvigt klädd, och med
-            <lb/> äfventyrligt utseende).</stage></stage>
+            <lb/> äfventyrligt utseende).</stage>
+          </stage>
           <sp who="#spFruHall">
             <speaker>FRU HALL.</speaker>
             <p>Jag vet inte om jag har den äran att vara
@@ -1491,7 +1628,8 @@
             <speaker>BERTHA.</speaker>
             <p>Ja, det är jag, var så god och sitt!</p>
           </sp>
-          <pb facs="6289-35.jpg"/><fw type="pageNum">34</fw>
+          <pb facs="6289-35.jpg"/>
+          <fw type="pageNum">34</fw>
           <sp who="#spFruHall">
             <speaker>FRU HALL.</speaker>
             <p>Mitt namn är Hall! Åh min Gud, jag är så
@@ -1504,7 +1642,8 @@
           </sp>
           <sp who="#spFruHall">
             <speaker>FRU HALL.</speaker>
-            <p><persName ref="#Bertha">Fru Alberg</persName> känner en <persName ref="#Doktorn">Doktor Östermark</persName>;
+            <p>
+              <persName ref="#Bertha">Fru Alberg</persName> känner en <persName ref="#Doktorn">Doktor Östermark</persName>;
               <lb/> icke sant.</p>
           </sp>
           <sp who="#spBertha">
@@ -1513,7 +1652,8 @@
           </sp>
           <sp who="#spFruHall">
             <speaker>FRU HALL.</speaker>
-            <p><persName ref="#Doktorn">En gammal vän</persName>, ja! Ja! Se <persName ref="#Bertha">lilla fru Alberg</persName>,
+            <p>
+              <persName ref="#Doktorn">En gammal vän</persName>, ja! Ja! Se <persName ref="#Bertha">lilla fru Alberg</persName>,
               <lb/> jag var gift med honom förr, men vi skildes. Jag
               <lb/> är en frånskild hustru.</p>
           </sp>
@@ -1534,7 +1674,8 @@
             <p>Nå, ni var en ung flicka då, och han är väl
               <lb/> inte så angelägen om att det blir bekant.</p>
           </sp>
-          <pb facs="6289-36.jpg"/><fw type="pageNum">35</fw>
+          <pb facs="6289-36.jpg"/>
+          <fw type="pageNum">35</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Och jag som alltid trodde att <persName ref="#Doktorn">doktor Öster­<lb break="no"/>mark</persName> var en hederlig man.</p>
@@ -1567,7 +1708,8 @@
           </sp>
           <sp who="#spFruHall">
             <speaker>FRU HALL.</speaker>
-            <p><persName ref="#FröknarnaHall">Två barn; två döttrar</persName>, <persName ref="#Bertha">fru Ålund</persName>!</p>
+            <p>
+              <persName ref="#FröknarnaHall">Två barn; två döttrar</persName>, <persName ref="#Bertha">fru Ålund</persName>!</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -1577,7 +1719,8 @@
           <sp who="#spFruHall">
             <speaker>FRU HALL.</speaker>
             <p>Vänta nu bara! Han kastade åt mig en fat­<lb break="no"/>tig summa om året, som inte räckte till hyran en
-              <pb facs="6289-37.jpg"/><fw type="pageNum">36</fw>
+              <pb facs="6289-37.jpg"/>
+              <fw type="pageNum">36</fw>
               gång! Och nu när <persName ref="#FröknarnaHall">flickorna</persName> äro vuxna och ska
               <lb/> ut i lifvet, nu skrifver han att han är ruinerad, så
               <lb/> att han icke kan skicka mer än hälften. Är det
@@ -1595,8 +1738,10 @@
               <lb/> ni ge mig er adress?</p>
           </sp>
           <sp who="#spFruHall">
-            <speaker>FRU HALL</speaker> <stage>(lemnar ett visitkort).</stage>
-            <p><persName ref="#Bertha">Goda fru Alberg</persName>! Ni blir väl icke ledsen på
+            <speaker>FRU HALL</speaker>
+            <stage>(lemnar ett visitkort).</stage>
+            <p>
+              <persName ref="#Bertha">Goda fru Alberg</persName>! Ni blir väl icke ledsen på
               <lb/> mig, om jag ber er om en liten tjenst.</p>
           </sp>
           <sp who="#spBertha">
@@ -1606,7 +1751,8 @@
           <sp who="#spFruHall">
             <speaker>FRU HALL.</speaker>
             <p>Ack ja, ni är så oändligt god, men innan
-              <lb/> <persName ref="#Sekreteraren">sekreteraren</persName> svarat, har jag och <persName ref="#FröknarnaHall">mina fattiga barn</persName>
+              <lb/>
+              <persName ref="#Sekreteraren">sekreteraren</persName> svarat, har jag och <persName ref="#FröknarnaHall">mina fattiga barn</persName>
               <lb/> kanske blifvit kastade på gatan. <persName ref="#Bertha">Goda fru Ålund</persName>,
               <lb/> ni kan väl inte låna mig, en obetydlighet, vänta
               <lb/> nu bara! en småsak, på en tjugo francs.</p>
@@ -1614,11 +1760,13 @@
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Nej, <persName ref="#FruHall">min fru</persName>, jag har inga pengar. Det är
-              <lb/> <persName ref="#Axel">min man</persName> som försörjer mig tillsvidare, och jag får
+              <lb/>
+              <persName ref="#Axel">min man</persName> som försörjer mig tillsvidare, och jag får
               <lb/> nog veta af det. Det är bittert att äta nådebröd
               <lb/> när man är ung, men det kanske kan komma an­<lb break="no"/>dra dagar för mig också!</p>
           </sp>
-          <pb facs="6289-38.jpg"/><fw type="pageNum">37</fw>
+          <pb facs="6289-38.jpg"/>
+          <fw type="pageNum">37</fw>
           <sp who="#spFruHall">
             <speaker>FRU HALL.</speaker>
             <p>Ack <persName ref="#Bertha">kära, goda fru Alberg</persName>, ni får inte neka
@@ -1637,7 +1785,9 @@
             <speaker>BERTHA.</speaker>
             <p>Ni ska få dessa pengar till låns! <stage>(Hon går till chif­<lb break="no"/>foniern).</stage> Tjugo, fyrtio, sextio, åttio! Fattas tjugo.
               <lb/> Hvar har jag gjort af dem? Hm! Frukosten!
-              <lb/> <stage>(Skrifver i hushållsboken).</stage> <writing who="#Bertha">Färg: tjugo; diverse: tjugo.</writing> —
+              <lb/>
+              <stage>(Skrifver i hushållsboken).</stage>
+              <writing who="#Bertha">Färg: tjugo; diverse: tjugo.</writing> —
               <lb/> Se der!</p>
           </sp>
           <sp who="#spFruHall">
@@ -1650,7 +1800,8 @@
               <lb/> dag. Farväl och lita på mig!</p>
           </sp>
           <sp who="#spFruHall">
-            <speaker>FRU HALL</speaker> <stage>(osäker).</stage>
+            <speaker>FRU HALL</speaker>
+            <stage>(osäker).</stage>
             <p>Vänta lite bara!</p>
           </sp>
           <sp who="#spBertha">
@@ -1664,11 +1815,15 @@
             <stage type="exit" who="#FruHall">(Går).</stage>
           </sp>
         </div>
-        <pb facs="6289-39.jpg"/><fw type="pageNum">38</fw>
+        <pb facs="6289-39.jpg"/>
+        <fw type="pageNum">38</fw>
         <div type="scene" n="11">
           <head>ELFTE SCENEN.</head>
-          <stage type="presence" who="#Bertha">BERTHA ensam. <stage type="entrance" who="#Axel">Strax derpå AXEL.</stage> <stage><persName ref="#Bertha">BERTHA</persName> (stoppar
-          <lb/> det gröna brefvet i sin ficka när hon hör honom komma).</stage></stage>
+          <stage type="presence" who="#Bertha">BERTHA ensam. <stage type="entrance" who="#Axel">Strax derpå AXEL.</stage>
+            <stage>
+              <persName ref="#Bertha">BERTHA</persName> (stoppar
+          <lb/> det gröna brefvet i sin ficka när hon hör honom komma).</stage>
+          </stage>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Redan gjordt! Nå träffade du <persName ref="#MadameRoubey">henne</persName> — <persName ref="#Roubey">honom</persName>.</p>
@@ -1677,7 +1832,8 @@
             <speaker>AXEL.</speaker>
             <p>Jag träffade icke honom, men henne. Och
               <lb/> det var så mycket bättre det. Jag gratulerar dig
-              <lb/> <persName ref="#Bertha">Bertha</persName>! Din tafla är redan antagen!</p>
+              <lb/>
+              <persName ref="#Bertha">Bertha</persName>! Din tafla är redan antagen!</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -1706,7 +1862,8 @@
             <p>Har jag inte gjort det? Jag tyckte precis
               <lb/> att jag sa jag gratulerar dig! För öfrigt, man
               <lb/> skall icke sälja skinnet förrän man har skjutit björn.
-              <pb facs="6289-40.jpg"/><fw type="pageNum">39</fw>
+              <pb facs="6289-40.jpg"/>
+              <fw type="pageNum">39</fw>
               Att komma in på <orgName ref="#Salongen">salongen</orgName> är ingenting. Det är
               <lb/> en slump! Det kan bero på hvad bokstaf ens
               <lb/> namn börjar med. Du kom på O efter som du
@@ -1748,11 +1905,14 @@
             <p>Hva!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(tar fram brefvet).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(tar fram brefvet).</stage>
           </sp>
-          <pb facs="6289-41.jpg"/><fw type="pageNum">40</fw>
+          <pb facs="6289-41.jpg"/>
+          <fw type="pageNum">40</fw>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage>(tar sig i venstra sidan och sätter sig på en stol).</stage>
+            <speaker>AXEL</speaker>
+            <stage>(tar sig i venstra sidan och sätter sig på en stol).</stage>
             <p>Hva! — — — <stage>(Bemannar sig).</stage> Det var ett slag,
               <lb/> som jag icke väntat. Det var högst obehagligt!</p>
           </sp>
@@ -1789,12 +1949,15 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p><orgName ref="#Juryn">Juryn</orgName> måtte ha tyckt det ändå!</p>
+            <p>
+              <orgName ref="#Juryn">Juryn</orgName> måtte ha tyckt det ändå!</p>
           </sp>
-          <pb facs="6289-42.jpg"/><fw type="pageNum">41</fw>
+          <pb facs="6289-42.jpg"/>
+          <fw type="pageNum">41</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p><orgName ref="#Juryn">Juryn</orgName>? Men du vet väl att du målar sämre
+            <p>
+              <orgName ref="#Juryn">Juryn</orgName>? Men du vet väl att du målar sämre
               <lb/> än jag!</p>
           </sp>
           <sp who="#spBertha">
@@ -1832,7 +1995,8 @@
               <lb/> vi äro fiender. Ni ha legat bakom buskarne me­<lb break="no"/>dan vi gjorde drabbningarne, och nu när vi
               <lb/> dukat bordet, slår ni er ned som hemma hos er!</p>
           </sp>
-          <pb facs="6289-43.jpg"/><fw type="pageNum">42</fw>
+          <pb facs="6289-43.jpg"/>
+          <fw type="pageNum">42</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Åh fy! Ha vi fått vara med i strider nå­<lb break="no"/>gonsin?</p>
@@ -1874,7 +2038,8 @@
             <p>Det der får du grubbla på ensam; nu går jag
               <lb/> ut och äter middag; går du med?</p>
           </sp>
-          <pb facs="6289-44.jpg"/><fw type="pageNum">43</fw>
+          <pb facs="6289-44.jpg"/>
+          <fw type="pageNum">43</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Nej, jag vill vara ensam med min sorg.</p>
@@ -1892,7 +2057,8 @@
               <lb/> Låt dem komma.</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>klär sig för att gå ut).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>klär sig för att gå ut).</stage>
             <p>Men du måste bli med, eljes skulle det se ut
               <lb/> som om du vore feg.</p>
           </sp>
@@ -1918,9 +2084,11 @@
             <p>Kan du låna mig tio francs?</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(tar upp portemonnäen).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(tar upp portemonnäen).</stage>
             <p>Tio francs, Jaha! Om jag har! Här ska du
-              <pb facs="6289-45.jpg"/><fw type="pageNum">44</fw>
+              <pb facs="6289-45.jpg"/>
+              <fw type="pageNum">44</fw>
               få! — Kommer du inte med? Säg! Man ska tycka
               <lb/> det ser underligt ut!</p>
           </sp>
@@ -1966,15 +2134,17 @@
             <p>Ja, hvarför? Kanske derför att ni inte tåla
               <lb/> ses utan förställning.</p>
           </sp>
-          <pb facs="6289-46.jpg"/><fw type="pageNum">45</fw>
+          <pb facs="6289-46.jpg"/>
+          <fw type="pageNum">45</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Adjö med dig <persName ref="#Axel">din gamla pratmakare</persName>! — Du
               <lb/> går inte med?</p>
-              <stage type="exit" who="#Bertha">(Går).</stage>
+            <stage type="exit" who="#Bertha">(Går).</stage>
           </sp>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage>(stiger upp, och tar af sig bonjouren för att byta rock).</stage>
+            <speaker>AXEL</speaker>
+            <stage>(stiger upp, och tar af sig bonjouren för att byta rock).</stage>
             <p>Nej!</p>
           </sp>
         </div>
@@ -2015,7 +2185,8 @@
             <speaker>ABEL.</speaker>
             <p>Nej det kan du inte.</p>
           </sp>
-          <pb facs="6289-48.jpg"/><fw type="pageNum">47</fw>
+          <pb facs="6289-48.jpg"/>
+          <fw type="pageNum">47</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Hvarför det då?</p>
@@ -2031,7 +2202,8 @@
               <lb/> förskräckligt.</p>
           </sp>
           <sp who="#spAbel">
-            <speaker>ABEL</speaker> <stage>(skämtsamt).</stage>
+            <speaker>ABEL</speaker>
+            <stage>(skämtsamt).</stage>
             <p>Ja naturligtvis! Det käns som att vara neger.</p>
           </sp>
           <sp who="#spAxel">
@@ -2054,14 +2226,16 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p><persName ref="#Abel">Abel</persName>, har du verkligen aldrig något behof af
+            <p>
+              <persName ref="#Abel">Abel</persName>, har du verkligen aldrig något behof af
               <lb/> att älska en man?</p>
           </sp>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
             <p>Så dum du är!</p>
           </sp>
-          <pb facs="6289-49.jpg"/><fw type="pageNum">48</fw>
+          <pb facs="6289-49.jpg"/>
+          <fw type="pageNum">48</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Har du aldrig funnit någon?</p>
@@ -2097,7 +2271,7 @@
               <lb/> hon har fadermördare och polkahår; akta dig; hon
               <lb/> tar snart byxorna af dig!</p>
           </sp>
-          <!-- Fadermördare är en slags krage på en herrskjorta. Polkahår är typ pagefrisyr. /GM -->
+<!-- Fadermördare är en slags krage på en herrskjorta. Polkahår är typ pagefrisyr. /GM -->
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Så du pratar!</p>
@@ -2107,7 +2281,8 @@
             <p>Och hvilken ställning har du i ditt hus? Du
               <lb/> tigger pengar af henne och hon ställer dig under
               <lb/> förmyndare. Nej, du är ingen man! Men det var
-              <pb facs="6289-50.jpg"/><fw type="pageNum">49</fw>
+              <pb facs="6289-50.jpg"/>
+              <fw type="pageNum">49</fw>
               derför hon tog dig, när hennes affärer voro deran­<lb break="no"/>gerade.</p>
           </sp>
           <sp who="#spAxel">
@@ -2133,7 +2308,8 @@
               <lb/> kognak, <persName ref="#Axel">Axel</persName>! Vi ha pratat så mycket!</p>
           </sp>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage>(tar fram kognak).</stage>
+            <speaker>AXEL</speaker>
+            <stage>(tar fram kognak).</stage>
             <p>Hvarför dricker du?</p>
           </sp>
           <sp who="#spAbel">
@@ -2149,7 +2325,8 @@
             <p>Det skulle vara en man som beherrskade en
               <lb/> qvinna?</p>
           </sp>
-          <pb facs="6289-51.jpg"/><fw type="pageNum">50</fw>
+          <pb facs="6289-51.jpg"/>
+          <fw type="pageNum">50</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Nå om du fick se det?</p>
@@ -2196,7 +2373,8 @@
             <speaker>AXEL.</speaker>
             <p>Nej det har hon inte talat om! När var det?</p>
           </sp>
-          <pb facs="6289-52.jpg"/><fw type="pageNum">51</fw>
+          <pb facs="6289-52.jpg"/>
+          <fw type="pageNum">51</fw>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
             <p>I förgår! Vet du inte det? Nå då tänker
@@ -2213,9 +2391,11 @@
         </div>
         <div type="scene" n="2">
           <head>ANDRA SCENEN.</head>
-          <stage type="presence" who="#Abel #Axel">DE FÖRRE. <stage type="entrance" who="#Bertha">BERTHA.</stage></stage>
+          <stage type="presence" who="#Abel #Axel">DE FÖRRE. <stage type="entrance" who="#Bertha">BERTHA.</stage>
+          </stage>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(till <persName ref="#Abel">Abel</persName>).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(till <persName ref="#Abel">Abel</persName>).</stage>
             <p>Se god afton, är du här? Hvarför gick du
               <lb/> din väg?</p>
           </sp>
@@ -2239,7 +2419,8 @@
             <speaker>AXEL.</speaker>
             <p>Ja, jag sitter här och knåpar.</p>
           </sp>
-          <pb facs="6289-53.jpg"/><fw type="pageNum">52</fw>
+          <pb facs="6289-53.jpg"/>
+          <fw type="pageNum">52</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Får jag se! Det är bra det der, men den der
@@ -2252,7 +2433,9 @@
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Tror jag? Det kan jag väl se! Ta hit ...
-              <lb/> <stage>(Tar penseln från honom).</stage></p>
+              <lb/>
+              <stage>(Tar penseln från honom).</stage>
+            </p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -2263,7 +2446,8 @@
             <p>Hvad säger du för slag!</p>
           </sp>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage>(ond).</stage>
+            <speaker>AXEL</speaker>
+            <stage>(ond).</stage>
             <p>Skäms, sa jag! <stage>(stiger upp.)</stage> Ska du komma och
               <lb/> lära mig måla!</p>
           </sp>
@@ -2286,7 +2470,8 @@
               <lb/> det för specialaktning mannen är skyldig qvinnan,
               <lb/> när de skola vara likställiga?</p>
           </sp>
-          <pb facs="6289-54.jpg"/><fw type="pageNum">53</fw>
+          <pb facs="6289-54.jpg"/>
+          <fw type="pageNum">53</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Jaså du finner det rigtigt att <persName ref="#Axel">en man</persName> är grof
@@ -2320,7 +2505,8 @@
               <lb/> mig nyckeln till chiffoniern!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(letar i fickan).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(letar i fickan).</stage>
             <p>Var så god! — Hm! Det var besynnerligt,
               <lb/> jag tyckte nyss jag hade den!</p>
           </sp>
@@ -2328,7 +2514,8 @@
             <speaker>AXEL.</speaker>
             <p>Sök!</p>
           </sp>
-          <pb facs="6289-55.jpg"/><fw type="pageNum">54</fw>
+          <pb facs="6289-55.jpg"/>
+          <fw type="pageNum">54</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Du talar i sådan befallande ton! Jag tycker
@@ -2339,7 +2526,8 @@
             <p>Sök reda på nyckeln!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(letar i rummet).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(letar i rummet).</stage>
             <p>Ja men det här är oförklarligt! — Den är
               <lb/> borta! Jag kan inte finna den. Den måste vara
               <lb/> bortkommen!</p>
@@ -2353,7 +2541,8 @@
             <p>Fullkomligt säker!</p>
           </sp>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage>(ringer i lufttelegrafen).</stage>
+            <speaker>AXEL</speaker>
+            <stage>(ringer i lufttelegrafen).</stage>
           </sp>
           <stage rend="spaced-out">(Paus).</stage>
         </div>
@@ -2372,9 +2561,11 @@
             <speaker>AXEL.</speaker>
             <p>En smed som dyrkar opp en lås!</p>
           </sp>
-          <pb facs="6289-56.jpg"/><fw type="pageNum">55</fw>
+          <pb facs="6289-56.jpg"/>
+          <fw type="pageNum">55</fw>
           <sp who="#spPigan">
-            <speaker>PIGAN</speaker> <stage>(får en blick af <persName ref="#Bertha">Bertha</persName>).</stage>
+            <speaker>PIGAN</speaker>
+            <stage>(får en blick af <persName ref="#Bertha">Bertha</persName>).</stage>
             <p>Jag ska genast gå!</p>
             <stage type="exit" who="#Pigan">(Går.)</stage>
           </sp>
@@ -2383,11 +2574,13 @@
           <head>FJERDE SCENEN.</head>
           <stage type="presence" who="#Abel #Axel #Bertha">DE FÖRRE utom PIGAN.</stage>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage>(byter om rock; tar bort ordensbandet och kastar det på bordet).</stage>
+            <speaker>AXEL</speaker>
+            <stage>(byter om rock; tar bort ordensbandet och kastar det på bordet).</stage>
             <p>Ursäkta <persName ref="#Abel #Bertha">mina damer</persName>!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(mjukt).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(mjukt).</stage>
             <p>Genera dig inte! Ska du gå ut?</p>
           </sp>
           <sp who="#spAxel">
@@ -2412,10 +2605,12 @@
               <lb/> mig än att höra på ert vrövel.</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(orolig).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(orolig).</stage>
             <p>Hvart tänker du gå?</p>
           </sp>
-          <pb facs="6289-57.jpg"/><fw type="pageNum">56</fw>
+          <pb facs="6289-57.jpg"/>
+          <fw type="pageNum">56</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Det behöfver jag inte redogöra för, när jag
@@ -2424,11 +2619,13 @@
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Du glömmer väl icke bort att vi bjudit
-              <lb/> <persName ref="#Abel #Carl #Diplomaten #Doktorn #FruHall #FruStarck #FrökenAmelie #FrökenTherèse #Willmer">karnevals-fremmande</persName> till oss i morgon afton.</p>
+              <lb/>
+              <persName ref="#Abel #Carl #Diplomaten #Doktorn #FruHall #FruStarck #FrökenAmelie #FrökenTherèse #Willmer">karnevals-fremmande</persName> till oss i morgon afton.</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p><persName ref="#Abel #Carl #Diplomaten #Doktorn #FruHall #FruStarck #FrökenAmelie #FrökenTherèse #Willmer">Fremmande</persName>! Det är sant. I morgon afton. Hm!</p>
+            <p>
+              <persName ref="#Abel #Carl #Diplomaten #Doktorn #FruHall #FruStarck #FrökenAmelie #FrökenTherèse #Willmer">Fremmande</persName>! Det är sant. I morgon afton. Hm!</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -2442,24 +2639,29 @@
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Kom nu hem i god tid så att du hinner profva
-              <lb/> <rs type="hand" ref="#handrekv1">din kostym</rs>.</p>
+              <lb/>
+              <rs type="hand" ref="#handrekv1">din kostym</rs>.</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p><rs type="hand" ref="#handrekv1">Min kostym</rs>! Ja det var sant. Jag ska spela
+            <p>
+              <rs type="hand" ref="#handrekv1">Min kostym</rs>! Ja det var sant. Jag ska spela
               <lb/> fruntimmer.</p>
           </sp>
         </div>
         <div type="scene" n="5">
           <head>FEMTE SCENEN.</head>
-          <stage type="presence" who="#Abel #Axel #Bertha">DE FÖRRE; <stage type="entrance" who="#Pigan">PIGAN.</stage></stage>
+          <stage type="presence" who="#Abel #Axel #Bertha">DE FÖRRE; <stage type="entrance" who="#Pigan">PIGAN.</stage>
+          </stage>
           <sp who="#spPigan">
             <speaker>PIGAN.</speaker>
-            <p><persName ref="#Smeden">Smeden</persName> hade inte tid nu, men han kommer
+            <p>
+              <persName ref="#Smeden">Smeden</persName> hade inte tid nu, men han kommer
               <lb/> om ett par timmar.</p>
           </sp>
           <stage type="exit" who="#Pigan" cert="medium"/>
-          <pb facs="6289-58.jpg"/><fw type="pageNum">57</fw>
+          <pb facs="6289-58.jpg"/>
+          <fw type="pageNum">57</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Har han inte tid! — Så! — Kanske nyckeln
@@ -2467,11 +2669,13 @@
               <lb/> fall. Adjö!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(mjukt).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(mjukt).</stage>
             <p>Adjö med dig då! Kom inte sent hem!</p>
           </sp>
           <sp who="#spAbel">
-            <speaker>ABEL</speaker> <stage>(nickar åt <persName ref="#Axel">Axel</persName> till afsked).</stage>
+            <speaker>ABEL</speaker>
+            <stage>(nickar åt <persName ref="#Axel">Axel</persName> till afsked).</stage>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -2502,7 +2706,8 @@
             <p>Älskat? — Jag tyckte rätt mycket om honom
               <lb/> för han var snäll. Men han är dum och ... när
               <lb/> han vrenskar sig så känner jag att jag skulle kunna
-              <pb facs="6289-59.jpg"/><fw type="pageNum">58</fw>
+              <pb facs="6289-59.jpg"/>
+              <fw type="pageNum">58</fw>
               hata honom. Tänk det har redan kommit ut att
               <lb/> han har målat min tafla.</p>
           </sp>
@@ -2549,7 +2754,8 @@
               <lb/> vill inte ha någon befattning med saken. Jag vill
               <lb/> kunna stå ren och svära på att jag är oskyldig.</p>
           </sp>
-          <pb facs="6289-60.jpg"/><fw type="pageNum">59</fw>
+          <pb facs="6289-60.jpg"/>
+          <fw type="pageNum">59</fw>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
             <p>Det ska du få! Jag sköter om saken.</p>
@@ -2596,7 +2802,8 @@
             <speaker>BERTHA.</speaker>
             <p>Rör det honom, om jag säljer!</p>
           </sp>
-          <pb facs="6289-61.jpg"/><fw type="pageNum">60</fw>
+          <pb facs="6289-61.jpg"/>
+          <fw type="pageNum">60</fw>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
             <p>Åhja, på visst sätt! Nog gör det väl det!</p>
@@ -2622,7 +2829,8 @@
           </sp>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
-            <p><persName ref="#Doktorn">Östermark</persName>, ja, det är min stora ovän. Låt mig
+            <p>
+              <persName ref="#Doktorn">Östermark</persName>, ja, det är min stora ovän. Låt mig
               <lb/> ta hand om honom! Vi ha en räkning ouppgjord
               <lb/> sen gammalt, han och jag. Var lugn du! Honom
               <lb/> ska vi nog få bugt med, ty vi ha lagen på vår sida.</p>
@@ -2639,7 +2847,8 @@
             <speaker>BERTHA.</speaker>
             <p>Hvad betyder det?</p>
           </sp>
-          <pb facs="6289-62.jpg"/><fw type="pageNum">61</fw>
+          <pb facs="6289-62.jpg"/>
+          <fw type="pageNum">61</fw>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
             <p>Bjud hit <persName ref="#FruHall">fru Hall</persName> och <persName ref="#FröknarnaHall">båda hennes döttrar</persName>,
@@ -2683,7 +2892,8 @@
             <p>Du har retat <persName ref="#Axel">Axel</persName>; du har trampat honom,
               <lb/> men han kan bita dig i hälen ännu. Alltså!</p>
           </sp>
-          <pb facs="6289-63.jpg"/><fw type="pageNum">62</fw>
+          <pb facs="6289-63.jpg"/>
+          <fw type="pageNum">62</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Tror du han vågar göra något?</p>
@@ -2721,9 +2931,11 @@
           <sp who="#spPigan">
             <speaker>PIGAN.</speaker>
             <p>Men det är väl till <persName ref="#Bertha">frun</persName>, efter som det är
-              <lb/> <rs type="hand" ref="#handrekv1">fruntimmerskläder</rs>.</p>
+              <lb/>
+              <rs type="hand" ref="#handrekv1">fruntimmerskläder</rs>.</p>
           </sp>
-          <pb facs="6289-64.jpg"/><fw type="pageNum">63</fw>
+          <pb facs="6289-64.jpg"/>
+          <fw type="pageNum">63</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Nej det är nog rätt! Det är till <persName ref="#Axel">herrn</persName>.</p>
@@ -2733,9 +2945,11 @@
             <p>Nej kors, ska nu <persName ref="#Axel">herrn</persName> gå i <rs type="hand" ref="#handrekv1">kjolar</rs> också!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(går).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(går).</stage>
             <p>Hvarför inte det, när vi gå i kjolar. Adjö
-              <lb/> med dig! <stage>(Hon öppnar knytet och tar fram <rs type="hand" ref="#handrekv1">en spansk qvinnodrägt</rs>).</stage></p>
+              <lb/> med dig! <stage>(Hon öppnar knytet och tar fram <rs type="hand" ref="#handrekv1">en spansk qvinnodrägt</rs>).</stage>
+            </p>
           </sp>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
@@ -2748,7 +2962,8 @@
           <head>ÅTTONDE SCENEN.</head>
           <stage type="presence" who="#Abel #Bertha">DE FÖRRE, <stage type="entrance" who="#Willmer">WILLMER (med ett bud som bär paketer)</stage>.</stage>
           <sp who="#spWillmer">
-            <speaker>WILLMER</speaker> <stage>(klädd i svart frack med hvita uppslag; blomma i knapphålet;
+            <speaker>WILLMER</speaker>
+            <stage>(klädd i svart frack med hvita uppslag; blomma i knapphålet;
               <lb/> knäbyxor; röd halsduk; och veckade manchetter).</stage>
             <p>God afton, ä ni ensamma! Se här har du
               <lb/> ljusen, och här ä buteljerna. En chartreuse och
@@ -2766,7 +2981,8 @@
             <speaker>BERTHA.</speaker>
             <p>Är hon qvitterad! Då har du lagt ut igen!</p>
           </sp>
-          <pb facs="6289-65.jpg"/><fw type="pageNum">64</fw>
+          <pb facs="6289-65.jpg"/>
+          <fw type="pageNum">64</fw>
           <sp who="#spWillmer">
             <speaker>WILLMER.</speaker>
             <p>Ja det hinner vi nog göra upp. Men skynda
@@ -2789,7 +3005,8 @@
               <lb/> allt ha blifvit en bra liten man du <persName ref="#Willmer">Gaga</persName>.</p>
           </sp>
           <sp who="#spWillmer">
-            <speaker>WILLMER</speaker> <stage>(lägger sin hand om <persName ref="#Bertha">Berthas</persName> hals och kysser henne i nacken).</stage>
+            <speaker>WILLMER</speaker>
+            <stage>(lägger sin hand om <persName ref="#Bertha">Berthas</persName> hals och kysser henne i nacken).</stage>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -2801,7 +3018,8 @@
             <p>Tål du det <persName ref="#Willmer">Gaga</persName>, så tål du knifven.</p>
           </sp>
           <sp who="#spWillmer">
-            <speaker>WILLMER</speaker> <stage>(ursinnig).</stage>
+            <speaker>WILLMER</speaker>
+            <stage>(ursinnig).</stage>
             <p>Pojkvas? Vet du inte hvem jag är! Vet du
               <lb/> inte att jag är en författare af rang!</p>
           </sp>
@@ -2813,7 +3031,8 @@
             <speaker>WILLMER.</speaker>
             <p>Det var inte smörja när jag skref för er.</p>
           </sp>
-          <pb facs="6289-66.jpg"/><fw type="pageNum">65</fw>
+          <pb facs="6289-66.jpg"/>
+          <fw type="pageNum">65</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Du skref upp det vi pratade, det var allt­<lb break="no"/>sammans!</p>
@@ -2829,7 +3048,8 @@
           </sp>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
-            <p><persName ref="#Bertha">Bertha</persName>, tänk på hvad du säger!</p>
+            <p>
+              <persName ref="#Bertha">Bertha</persName>, tänk på hvad du säger!</p>
           </sp>
           <sp who="#spWillmer">
             <speaker>WILLMER.</speaker>
@@ -2853,7 +3073,8 @@
             <p>Se så, lugnen er nu, innan ni ångrar er!</p>
           </sp>
           <sp who="#spWillmer">
-            <speaker>WILLMER</speaker> <stage>(till <persName ref="#Bertha">Bertha</persName>).</stage>
+            <speaker>WILLMER</speaker>
+            <stage>(till <persName ref="#Bertha">Bertha</persName>).</stage>
             <p>Vet du hvad man har rätt att säga om <persName ref="#Bertha">ett gift
               <lb/> fruntimmer</persName>, som mottager presenter af <persName ref="#Willmer">en ungherre</persName>.</p>
           </sp>
@@ -2861,7 +3082,8 @@
             <speaker>BERTHA.</speaker>
             <p>Presenter!</p>
           </sp>
-          <pb facs="6289-67.jpg"/><fw type="pageNum">66</fw>
+          <pb facs="6289-67.jpg"/>
+          <fw type="pageNum">66</fw>
           <sp who="#spWillmer">
             <speaker>WILLMER.</speaker>
             <p>I två år har du mottagit mina presenter.</p>
@@ -2873,7 +3095,8 @@
               <lb/> inte jag kan rå på dig!</p>
           </sp>
           <sp who="#spWillmer">
-            <speaker>WILLMER</speaker> <stage>(med en axelryckning).</stage>
+            <speaker>WILLMER</speaker>
+            <stage>(med en axelryckning).</stage>
             <p>Jo, det är möjligt.</p>
           </sp>
           <sp who="#spBertha">
@@ -2884,7 +3107,8 @@
             <speaker>WILLMER.</speaker>
             <p>Heder! Hm! Du har heder af att jag fått
               <lb/> köpa en del hushållssaker som du skrifvit upp på
-              <lb/> <persName ref="#Axel">din man</persName>.</p>
+              <lb/>
+              <persName ref="#Axel">din man</persName>.</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -2895,7 +3119,8 @@
             <p>Ditt hus! Med kamrater räknar man inte så
               <lb/> noga, men med fiender ska man räkna hårstrån!
               <lb/> Och du ska få räkna mig med — <persName ref="#Bertha">äfventyrerska</persName>,
-              <lb/> lita på det! <stage type="exit" who="#Willmer">(Går).</stage></p>
+              <lb/> lita på det! <stage type="exit" who="#Willmer">(Går).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene" n="9">
@@ -2904,7 +3129,8 @@
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
             <p>Du kommer att stupa på din dumhet, <persName ref="#Bertha">Bertha</persName>!
-              <pb facs="6289-68.jpg"/><fw type="pageNum">67</fw>
+              <pb facs="6289-68.jpg"/>
+              <fw type="pageNum">67</fw>
               Att låta <persName ref="#Willmer">en vän</persName> gå ifrån sig som fiende, det är
               <lb/> farliga saker.</p>
           </sp>
@@ -2939,18 +3165,22 @@
         </div>
         <div type="scene" n="10">
           <head>TIONDE SCENEN.</head>
-          <stage type="presence" who="#Abel #Bertha">DE FÖRRE. <stage type="entrance" who="#Pigan">PIGAN.</stage></stage>
+          <stage type="presence" who="#Abel #Bertha">DE FÖRRE. <stage type="entrance" who="#Pigan">PIGAN.</stage>
+          </stage>
           <sp who="#spPigan">
-            <speaker>PIGAN</speaker> <stage>(håller igen sitt skratt).</stage>
+            <speaker>PIGAN</speaker>
+            <stage>(håller igen sitt skratt).</stage>
             <p>Det är <persName ref="#Richard">en fru</persName> derute, som kallar sig ...
               <lb/> Richard ... Richard Wahlström!</p>
           </sp>
           <stage type="exit" who="#Pigan" cert="medium"/>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(går mot dörren).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(går mot dörren).</stage>
             <p>Åh, <persName ref="#Richard">Richard</persName> är här!</p>
           </sp>
-          <pb facs="6289-69.jpg"/><fw type="pageNum">68</fw>
+          <pb facs="6289-69.jpg"/>
+          <fw type="pageNum">68</fw>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
             <p>Nå då få vi öppna sammankomsten! — Nu
@@ -3005,7 +3235,8 @@
             <speaker>PIGAN.</speaker>
             <p>Ja, han har stora högar med trä, som han målar på.</p>
           </sp>
-          <pb facs="6289-71.jpg"/><fw type="pageNum">70</fw>
+          <pb facs="6289-71.jpg"/>
+          <fw type="pageNum">70</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Hm! Säg mig <persName ref="#Pigan">Ida</persName>, en sak. Har <persName ref="#Axel">herrn</persName> aldrig
@@ -3020,7 +3251,8 @@
             <p>Är det säkert det!</p>
           </sp>
           <sp who="#spPigan">
-            <speaker>PIGAN.</speaker> <stage>(alldeles säkert).</stage>
+            <speaker>PIGAN.</speaker>
+            <stage>(alldeles säkert).</stage>
             <p>Tror <persName ref="#Bertha">frun</persName>, jag är en sådan ...</p>
           </sp>
           <sp who="#spBertha">
@@ -3047,31 +3279,39 @@
           </sp>
           <sp who="#spPigan">
             <speaker>PIGAN.</speaker>
-            <p>God natt <persName ref="#Bertha">frun</persName>! Sof godt! <stage type="exit" who="#Pigan">(Går).</stage></p>
+            <p>God natt <persName ref="#Bertha">frun</persName>! Sof godt! <stage type="exit" who="#Pigan">(Går).</stage>
+            </p>
           </sp>
           <anchor xml:id="handakt2slut"/>
         </div>
-        <pb facs="6289-72.jpg"/><fw type="pageNum">71</fw>
+        <pb facs="6289-72.jpg"/>
+        <fw type="pageNum">71</fw>
         <div type="scene" n="2">
           <head>ANDRA SCENEN.</head>
           <anchor xml:id="handakt1slut"/>
           <stage type="presence" who="#Bertha" rend="setting">BERTHA
             <lb/> ensam: <stage>lägger bort arbetet; kastar sig på kanapèn; ordnar spetsarne på mor­<lb break="no"/>gonrocken. Derpå springer hon upp: skrufvar ner lampan till hälften,
-            <lb/> återtar posituren på soffan och låtsas sofva.</stage> <stage>En paus:</stage> <stage type="entrance" who="#Axel">derpå kommer
-            <lb/> Axel in.</stage></stage>
+            <lb/> återtar posituren på soffan och låtsas sofva.</stage>
+            <stage>En paus:</stage>
+            <stage type="entrance" who="#Axel">derpå kommer
+            <lb/> Axel in.</stage>
+          </stage>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Är någon här? — Är <persName ref="#Bertha">Bertha</persName> här?</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(tyst).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(tyst).</stage>
           </sp>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage>(går fram till henne).</stage>
+            <speaker>AXEL</speaker>
+            <stage>(går fram till henne).</stage>
             <p>Sofver du?</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(mjukt).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(mjukt).</stage>
             <p>Ah! Är det du <persName ref="#Axel">min vän</persName>! God afton! Jag
               <lb/> låg och slumrade af, och jag drömde så illa ...</p>
           </sp>
@@ -3080,12 +3320,15 @@
             <p>Det ljuger du, för jag såg genom gårdsfönst­<lb break="no"/>ret när du intog den der ställningen på soffan.</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA.</speaker> <stage>(rusar upp).</stage>
+            <speaker>BERTHA.</speaker>
+            <stage>(rusar upp).</stage>
           </sp>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage>(lugnt).</stage>
+            <speaker>AXEL</speaker>
+            <stage>(lugnt).</stage>
             <p>Inga förförelsescener i nattrockar! Inga me­<lb break="no"/>lodramer! Var sansad och hör på hvad jag har
-              <lb/> att säga dig! <stage>(Sätter sig på en stol midt på golfvet.)</stage></p>
+              <lb/> att säga dig! <stage>(Sätter sig på en stol midt på golfvet.)</stage>
+            </p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -3096,7 +3339,8 @@
             <p>En hel mängd saker; men jag skall börja med
               <lb/> slutet: vi måste upplösa det här konkubinatet.</p>
           </sp>
-          <pb facs="6289-73.jpg"/><fw type="pageNum">72</fw>
+          <pb facs="6289-73.jpg"/>
+          <fw type="pageNum">72</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Hvad? <stage>(Kastar sig baklänges på soffan).</stage> Åh, min Gud
@@ -3139,7 +3383,8 @@
             <speaker>BERTHA.</speaker>
             <p>Nej, han kom aldrig!</p>
           </sp>
-          <pb facs="6289-74.jpg"/><fw type="pageNum">73</fw>
+          <pb facs="6289-74.jpg"/>
+          <fw type="pageNum">73</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Det behöfs inte heller. Jag har läst dina rä­<lb break="no"/>kenskaper.</p>
@@ -3183,7 +3428,8 @@
               <lb/> domaren fråga: <said>où est la femme?</said> — Men — för
               <lb/> att återvända till dig. — Du har ljugit för mig
               <lb/> hela vägen igenom, och till sist bedragit mig. Der
-              <pb facs="6289-75.jpg"/><fw type="pageNum">74</fw>
+              <pb facs="6289-75.jpg"/>
+              <fw type="pageNum">74</fw>
               står till exempel tjugo francs färg i stället för
               <lb/> tjugo francs frukost hos <orgName ref="#Marguery">Marguery</orgName>.</p>
           </sp>
@@ -3198,7 +3444,8 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p><quote>"Hvad qvinnan genom arbete förvärfvar,
+            <p>
+              <quote>"Hvad qvinnan genom arbete förvärfvar,
               <lb/> deröfver må hon och råda"</quote>. Står det i vår lag!</p>
           </sp>
           <sp who="#spAxel">
@@ -3225,7 +3472,8 @@
             <p>Det angick mig inte! Nå då återstår bara
               <lb/> att jag lägger in ansökan om skilsmessa</p>
           </sp>
-          <pb facs="6289-76.jpg"/><fw type="pageNum">75</fw>
+          <pb facs="6289-76.jpg"/>
+          <fw type="pageNum">75</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Skilsmessa! Tror du att jag tänker gå med
@@ -3265,7 +3513,8 @@
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Jag skildes nyss från honom efter att ha be­<lb break="no"/>talt honom trehundrafemtio francs som du var skyl­<lb break="no"/>dig honom. Men vi ska inte vara småaktiga i pen­<lb break="no"/>ningsakerna. Vi ha värre affärer ändå att uppgöra.
-              <pb facs="6289-77.jpg"/><fw type="pageNum">76</fw>
+              <pb facs="6289-77.jpg"/>
+              <fw type="pageNum">76</fw>
               Du har låtit <persName ref="#Willmer">denna slyngel</persName> delvis betala mitt hus­<lb break="no"/>håll, och derigenom har du totalt förstört mitt an­<lb break="no"/>seende. Hvad har du gjort med pengarne?</p>
           </sp>
           <sp who="#spBertha">
@@ -3304,14 +3553,16 @@
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Nu när jag fått upp ögonen börja förflutna
-              <lb/> händelser få en annan färg. Det förefaller mig nä­<pb break="no" facs="6289-78.jpg"/><fw type="pageNum">77</fw>stan som om du framkallade det der frieriet; det
+              <lb/> händelser få en annan färg. Det förefaller mig nä­<pb break="no" facs="6289-78.jpg"/>
+              <fw type="pageNum">77</fw>stan som om du framkallade det der frieriet; det
               <lb/> förefaller mig nästan som om jag då och då varit
               <lb/> utsatt för hvad Ni kallar en förförelse; det syntes
               <lb/> mig numera som som jag råkat i händerna på <persName ref="#Bertha">en
               <lb/> äfventyrerska</persName> som ville locka af mig pengarne på
               <lb/> ett hôtel garni; det tycks mig nästan som om jag
               <lb/> lefvat i laster, sedan jag förenades med dig!
-              <lb/> <stage>(Stiger upp).</stage> Nu när du står så der med ryggen åt
+              <lb/>
+              <stage>(Stiger upp).</stage> Nu när du står så der med ryggen åt
               <lb/> mig och jag ser din nacke med det korta håret,
               <lb/> är det — — — ja det är precis som om — husch!
               <lb/> som om du var <persName ref="#Judith">Judith</persName> och skänkt mig din kropp
@@ -3319,13 +3570,16 @@
               <lb/> med! Ja, för du kände att det var en förnedring
               <lb/> att bära dessa vida veck, som skulle dölja för att
               <lb/> reta, detta nerskurna lif som på korsettens tallrikar
-              <lb/> skulle bjuda ut varan. Nej! Der har du din kär­<lb break="no"/>lekslön igen, nu kastar jag min boja! <stage>(Kastar vigselringen).</stage></p>
+              <lb/> skulle bjuda ut varan. Nej! Der har du din kär­<lb break="no"/>lekslön igen, nu kastar jag min boja! <stage>(Kastar vigselringen).</stage>
+            </p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA.</speaker> <stage>(ser på honom med förundran).</stage>
+            <speaker>BERTHA.</speaker>
+            <stage>(ser på honom med förundran).</stage>
           </sp>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage>(stryker upp håret).</stage>
+            <speaker>AXEL</speaker>
+            <stage>(stryker upp håret).</stage>
             <p>Du vågade inte se att jag hade högre panna
               <lb/> än du, och derför lät jag håret dölja den, för att
               <lb/> inte förödmjuka dig och skrämma dig! Men ser du,
@@ -3343,7 +3597,8 @@
             <p>Jag var dig öfverlägsen äfven då jag målade
               <lb/> din tafla!</p>
           </sp>
-          <pb facs="6289-79.jpg"/><fw type="pageNum">78</fw>
+          <pb facs="6289-79.jpg"/>
+          <fw type="pageNum">78</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Har du målat min tafla. Säg om det, och
@@ -3356,10 +3611,12 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Tror du inte jag rår! <stage>(Hon går emot honom).</stage></p>
+            <p>Tror du inte jag rår! <stage>(Hon går emot honom).</stage>
+            </p>
           </sp>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage>(tar henne om båda handlofvarne med en hand och håller fast dem).</stage>
+            <speaker>AXEL</speaker>
+            <stage>(tar henne om båda handlofvarne med en hand och håller fast dem).</stage>
             <p>Nej det tror jag inte! Är du öfvertygad nu,
               <lb/> att jag <emph>äfven</emph> är den fysiskt öfverlägsne! Böj dig,
               <lb/> eller bryter jag dig!</p>
@@ -3382,19 +3639,24 @@
             <p>Att du är otillräknelig.</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(söker göra sig lös).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(söker göra sig lös).</stage>
             <p>Ah, släpp mig!</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>När du bedt om förlåtelse! Så, på knä med dig!
-              <lb/> <stage>(Han bryter ner henne med ena handen.)</stage> Se nu opp till mig,
+              <lb/>
+              <stage>(Han bryter ner henne med ena handen.)</stage> Se nu opp till mig,
               <lb/> nerifrån! Der är din plats, som du sjelf valt!</p>
           </sp>
-          <pb facs="6289-80.jpg"/><fw type="pageNum">79</fw>
+          <pb facs="6289-80.jpg"/>
+          <fw type="pageNum">79</fw>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(ger sig).</stage>
-            <p><persName ref="#Axel">Axel</persName>, <persName ref="#Axel">Axel</persName>! Jag känner inte igen dig, mer!
+            <speaker>BERTHA</speaker>
+            <stage>(ger sig).</stage>
+            <p>
+              <persName ref="#Axel">Axel</persName>, <persName ref="#Axel">Axel</persName>! Jag känner inte igen dig, mer!
               <lb/> Är det du som svor att älska mig, du som bad
               <lb/> att få bära mig, att få lyfta mig.</p>
           </sp>
@@ -3409,7 +3671,8 @@
               <lb/> att tala om!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(upp: sätter sig på soffan och gråter).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(upp: sätter sig på soffan och gråter).</stage>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -3418,7 +3681,9 @@
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Jag vet inte! Derför att jag är svag kanske!
-              <lb/> <stage>(<persName ref="#Bertha">Bertha</persName> stumt spel hela tiden: markerande öfvergången).</stage></p>
+              <lb/>
+              <stage>(<persName ref="#Bertha">Bertha</persName> stumt spel hela tiden: markerande öfvergången).</stage>
+            </p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -3428,13 +3693,16 @@
               <lb/> föll du ihop som en tom säck.</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(utan att se upp).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(utan att se upp).</stage>
             <p>Jag vet icke om det är som du säger, men
               <lb/> sedan vi blefvo osams, har min styrka gått af mig!
-              <lb/> <persName ref="#Axel">Axel</persName>, vill du tro mig, jag har aldrig erfarit för
+              <lb/>
+              <persName ref="#Axel">Axel</persName>, vill du tro mig, jag har aldrig erfarit för
               <lb/> dig hvad jag nu känner!</p>
           </sp>
-          <pb facs="6289-81.jpg"/><fw type="pageNum">80</fw>
+          <pb facs="6289-81.jpg"/>
+          <fw type="pageNum">80</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Så, hvad känner du så?</p>
@@ -3455,7 +3723,9 @@
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Ja, var hellre lite elak, men var icke svag.
-              <lb/> <stage>(Upp).</stage> <persName ref="#Axel">Axel</persName>, förlåt mig, men öfvergif mig inte. Älska
+              <lb/>
+              <stage>(Upp).</stage>
+              <persName ref="#Axel">Axel</persName>, förlåt mig, men öfvergif mig inte. Älska
               <lb/> mig! O, älska mig!</p>
           </sp>
           <sp who="#spAxel">
@@ -3474,16 +3744,19 @@
               <lb/> äfven det sista!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(tar hans händer).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(tar hans händer).</stage>
             <p>Hvad menar du?</p>
           </sp>
-          <pb facs="6289-82.jpg"/><fw type="pageNum">81</fw>
+          <pb facs="6289-82.jpg"/>
+          <fw type="pageNum">81</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Jag har varit dig otrogen!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(far tillsammans).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(far tillsammans).</stage>
             <p>Ah!</p>
           </sp>
           <sp who="#spAxel">
@@ -3491,12 +3764,15 @@
             <p>Det var det enda sättet att slita mig lös!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(hemtar sig).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(hemtar sig).</stage>
             <p>Hvem var hon?</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p><persName ref="#Älskarinnan">En qvinna</persName> ... <stage>(Paus).</stage></p>
+            <p>
+              <persName ref="#Älskarinnan">En qvinna</persName> ... <stage>(Paus).</stage>
+            </p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -3516,29 +3792,36 @@
             <p>En sådan, två sådana, många sådana!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(hemtar andan).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(hemtar andan).</stage>
             <p>Och i morgon äro <persName ref="#Abel #Carl #Doktorn #FruHall #FruStarck #FrökenAmelie #FrökenTherèse #Willmer">våra vänner</persName> inbjudna. Vill
               <lb/> du göra skandal och inställa bjudningen?</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Nej, jag vill inte vara låg i min hämd! I
-              <pb facs="6289-83.jpg"/><fw type="pageNum">82</fw>
+              <pb facs="6289-83.jpg"/>
+              <fw type="pageNum">82</fw>
               morgon hålla vi bjudningen, och i öfvermorgon
               <lb/> skiljas våra vägar!</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Ja nu måste våra vägar skiljas! — God natt!
-              <lb/> <stage>(går till venstra dörren).</stage></p>
+              <lb/>
+              <stage>(går till venstra dörren).</stage>
+            </p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>God natt! <stage>(går till högra dörren).</stage></p>
+            <p>God natt! <stage>(går till högra dörren).</stage>
+            </p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(stannar).</stage>
-            <p><persName ref="#Axel">Axel</persName>!</p>
+            <speaker>BERTHA</speaker>
+            <stage>(stannar).</stage>
+            <p>
+              <persName ref="#Axel">Axel</persName>!</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -3554,7 +3837,8 @@
             <p>Vill du dela med <persName ref="#Älskarinnan">en annan</persName>?</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(paus.)</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(paus.)</stage>
             <p>Ja! Blott du älskar mig!</p>
           </sp>
           <sp who="#spAxel">
@@ -3574,7 +3858,8 @@
               <lb/> jag icke befalla fram någon kärlek. Det är slut,
               <lb/> det är dödt!</p>
           </sp>
-          <pb facs="6289-84.jpg"/><fw type="pageNum">83</fw>
+          <pb facs="6289-84.jpg"/>
+          <fw type="pageNum">83</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Jag tigger om <persName ref="#Axel">en mans</persName> kärlek, jag en qvinna,
@@ -3587,7 +3872,8 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p><persName ref="#Bertha">En qvinna</persName> som bjuder ut sig åt <persName ref="#Axel">en man</persName> och
+            <p>
+              <persName ref="#Bertha">En qvinna</persName> som bjuder ut sig åt <persName ref="#Axel">en man</persName> och
               <lb/> får nej!</p>
           </sp>
           <sp who="#spAxel">
@@ -3598,7 +3884,8 @@
               <lb/> tala sedan om hur det kändes!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(reser sig).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(reser sig).</stage>
             <p>God natt! Alltså i öfvermorgon!</p>
           </sp>
           <sp who="#spAxel">
@@ -3633,7 +3920,8 @@
         <div type="scene" n="1">
           <head>FÖRSTA SCENEN.</head>
           <stage type="presence" who="#Axel #Bertha #Carl #Diplomaten #Doktorn #FruStarck #FröknarnaHall">BERTHA in från trädgården. Blek och med blå skuggor omkring ögonen.
-            <lb/> <stage type="entrance" who="#Abel">ABEL in från fonddörren.</stage> De omfamnas och kyssas.</stage>
+            <lb/>
+            <stage type="entrance" who="#Abel">ABEL in från fonddörren.</stage> De omfamnas och kyssas.</stage>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>God dag, välkommen! Du kommer sent!</p>
@@ -3652,9 +3940,11 @@
               <lb/> bad om förlåtelse.</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(rättar på kråset).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(rättar på kråset).</stage>
           </sp>
-          <pb facs="6289-86.jpg"/><fw type="pageNum">85</fw>
+          <pb facs="6289-86.jpg"/>
+          <fw type="pageNum">85</fw>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
             <p>Hvad är det med dig i dag? Det är nå­<lb break="no"/>gonting.</p>
@@ -3695,14 +3985,16 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p><persName ref="#FruHall">Frun</persName> kommer senare, men <persName ref="#FröknarnaHall">flickorna</persName> äro här,
+            <p>
+              <persName ref="#FruHall">Frun</persName> kommer senare, men <persName ref="#FröknarnaHall">flickorna</persName> äro här,
               <lb/> inne i mitt rum.</p>
           </sp>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
             <p>Det här blir väl också bara pannkaka.</p>
           </sp>
-          <pb facs="6289-87.jpg"/><fw type="pageNum">86</fw>
+          <pb facs="6289-87.jpg"/>
+          <fw type="pageNum">86</fw>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Nej inte det här, du!</p>
@@ -3711,7 +4003,8 @@
         <div type="scene" n="2">
           <head>ANDRA SCENEN.</head>
           <stage type="presence" who="#Abel #Axel #Bertha #Carl #Diplomaten #Doktorn #FruStarck #FröknarnaHall">DE FÖRRE, <stage type="entrance" who="#Willmer">WILLMER</stage> med en blombukett. Går fram till
-          <lb/> <persName ref="#Bertha">BERTHA</persName>, kysser hennes hand och lemnar buketten.</stage>
+          <lb/>
+            <persName ref="#Bertha">BERTHA</persName>, kysser hennes hand och lemnar buketten.</stage>
           <sp who="#spWillmer">
             <speaker>WILLMER.</speaker>
             <p>Förlåt! För min kärleks skull!</p>
@@ -3726,9 +4019,13 @@
         <div type="scene" n="3">
           <head>TREDJE SCENEN.</head>
           <stage type="presence" who="#Abel #Axel #Bertha #Carl #Diplomaten #Doktorn #FruStarck #FröknarnaHall #Willmer">DE FÖRRE. AXEL.</stage>
-          <stage><supplied>(</supplied><persName ref="#Bertha">BERTHA</persName> och <persName ref="#Willmer">WILLMER</persName> förlägna.<supplied>)</supplied></stage>
+          <stage>
+            <supplied>(</supplied>
+            <persName ref="#Bertha">BERTHA</persName> och <persName ref="#Willmer">WILLMER</persName> förlägna.<supplied>)</supplied>
+          </stage>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage>(till <persName ref="#Bertha">Bertha</persName>, utan att låtsa om <persName ref="#Willmer">Willmer</persName>).</stage>
+            <speaker>AXEL</speaker>
+            <stage>(till <persName ref="#Bertha">Bertha</persName>, utan att låtsa om <persName ref="#Willmer">Willmer</persName>).</stage>
             <p>Förlåt! ... Om jag störde!</p>
           </sp>
           <sp who="#spBertha">
@@ -3747,15 +4044,25 @@
             <speaker>AXEL.</speaker>
             <p>Ja jag bara ville veta det!</p>
           </sp>
-          <pb facs="6289-88.jpg"/><fw type="pageNum">87</fw>
+          <pb facs="6289-88.jpg"/>
+          <fw type="pageNum">87</fw>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
             <p>Så högtidliga ni se ut!</p>
           </sp>
-          <stage><supplied>(</supplied><persName ref="#Bertha">BERTHA</persName> och <persName ref="#Axel">AXEL</persName>. <persName ref="#Willmer"><choice><sic>GAGA</sic><corr>WILLMER</corr></choice></persName> går ut i trädgården.<supplied>)</supplied></stage>
+          <stage>
+            <supplied>(</supplied>
+            <persName ref="#Bertha">BERTHA</persName> och <persName ref="#Axel">AXEL</persName>. <persName ref="#Willmer">
+              <choice>
+                <sic>GAGA</sic>
+                <corr>WILLMER</corr>
+              </choice>
+            </persName> går ut i trädgården.<supplied>)</supplied>
+          </stage>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
-            <p>Hör! <persName ref="#Willmer">Gaga</persName>! <stage>(Skyndar efter honom.)</stage></p>
+            <p>Hör! <persName ref="#Willmer">Gaga</persName>! <stage>(Skyndar efter honom.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene" n="4">
@@ -3766,11 +4073,13 @@
             <p>Hvad har du beställt till supern?</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(ser på honom och ler).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(ser på honom och ler).</stage>
             <p>Hummer och poulet.</p>
           </sp>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage>(osäker).</stage>
+            <speaker>AXEL</speaker>
+            <stage>(osäker).</stage>
             <p>Hvad ler du åt?</p>
           </sp>
           <sp who="#spBertha">
@@ -3787,14 +4096,17 @@
               <lb/> första supern vi hade som förlofvade på <placeName>Djurgården</placeName>,
               <lb/> den vårqvällen då du hade friat ...</p>
           </sp>
-          <pb facs="6289-89.jpg"/><fw type="pageNum">88</fw>
+          <pb facs="6289-89.jpg"/>
+          <fw type="pageNum">88</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p><emph>Du</emph> hade friat ...</p>
+            <p>
+              <emph>Du</emph> hade friat ...</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p><persName ref="#Axel">Axel</persName>! — Och nu är det den sista; sista gån­<lb break="no"/>gen. Det var en kort sommar!</p>
+            <p>
+              <persName ref="#Axel">Axel</persName>! — Och nu är det den sista; sista gån­<lb break="no"/>gen. Det var en kort sommar!</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -3831,17 +4143,20 @@
             <speaker>BERTHA.</speaker>
             <p>Det är en nobel tanke.</p>
           </sp>
-          <pb facs="6289-90.jpg"/><fw type="pageNum">89</fw>
+          <pb facs="6289-90.jpg"/>
+          <fw type="pageNum">89</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Seså - - inte rifva upp det gamla! Vi
               <lb/> talade om supern! Och vi få inte glömma <persName ref="#Abel #Carl #Diplomaten #Doktorn #FruStarck #FröknarnaHall #Willmer">våra
-              <lb/> gäster</persName>! Så! <stage>(går i sitt rum.)</stage></p>
+              <lb/> gäster</persName>! Så! <stage>(går i sitt rum.)</stage>
+            </p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Om supern! Ja naturligtvis! Det var den vi
-              <lb/> skulle talat om. <stage>(Går in i sitt rum, upprörd.)</stage></p>
+              <lb/> skulle talat om. <stage>(Går in i sitt rum, upprörd.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene" n="5">
@@ -3859,7 +4174,8 @@
           </sp>
           <sp who="#spFrökenAmelie">
             <speaker>Fröken AMELIE.</speaker>
-            <p><persName ref="#Bertha">Frun</persName> är mig särdeles obehaglig. En så'n der
+            <p>
+              <persName ref="#Bertha">Frun</persName> är mig särdeles obehaglig. En så'n der
               <lb/> med polka-hår!</p>
           </sp>
           <sp who="#spFrökenTherèse">
@@ -3869,11 +4185,14 @@
           <sp who="#spFrökenAmelie">
             <speaker>Fröken AMELIE.</speaker>
             <p>Nå det var bra, för <persName ref="#Axel #Bertha">de här artisterna</persName> äro så­<lb break="no"/>dana frihandlare. Tyst, der ha vi bestämdt <persName ref="#Diplomaten">en di­<lb break="no"/>plomat</persName> ... han ser så distinguerad ut. <stage>(De sätta sig
-              <lb/> på kanapén.)</stage></p>
+              <lb/> på kanapén.)</stage>
+            </p>
           </sp>
-          <pb facs="6289-91.jpg"/><fw type="pageNum">90</fw>
+          <pb facs="6289-91.jpg"/>
+          <fw type="pageNum">90</fw>
           <sp who="#spDoktorn">
-            <speaker>DOKTORN</speaker> <stage>(från trädgården, betraktar dem genom sin pincenez).</stage>
+            <speaker>DOKTORN</speaker>
+            <stage>(från trädgården, betraktar dem genom sin pincenez).</stage>
             <p>Jag har den äran <persName ref="#FröknarnaHall">mina damer</persName>. Hm! Man
               <lb/> träffar så mycket landsmäninnor här. <persName ref="#FröknarnaHall">Fröknarne</persName>
               <lb/> äro också artister? Måla kan jag tro?</p>
@@ -3893,7 +4212,8 @@
           </sp>
           <sp who="#spDoktorn">
             <speaker>DOKTORN.</speaker>
-            <p><persName ref="#FröknarnaHall">Fröknarne</persName> spela då?</p>
+            <p>
+              <persName ref="#FröknarnaHall">Fröknarne</persName> spela då?</p>
           </sp>
           <sp who="#spFrökenAmelie">
             <speaker>Fröken AMELIE.</speaker>
@@ -3918,10 +4238,12 @@
             <speaker>Fröken THERÈSE.</speaker>
             <p>Förlåt, vi vet inte med hvem vi ha den äran?</p>
           </sp>
-          <pb facs="6289-92.jpg"/><fw type="pageNum">91</fw>
+          <pb facs="6289-92.jpg"/>
+          <fw type="pageNum">91</fw>
           <sp who="#spDoktorn">
             <speaker>DOKTORN.</speaker>
-            <p><persName ref="#FröknarnaHall">Fröknarne</persName> komma visst nyligen från <placeName>Stock­<lb break="no"/>holm</placeName>. Här i landet törs man tala vid hvarandra
+            <p>
+              <persName ref="#FröknarnaHall">Fröknarne</persName> komma visst nyligen från <placeName>Stock­<lb break="no"/>holm</placeName>. Här i landet törs man tala vid hvarandra
               <lb/> utan att begära borgen.</p>
           </sp>
           <sp who="#spFrökenAmelie">
@@ -3937,11 +4259,13 @@
           <sp who="#spFrökenTherèse">
             <speaker>Fröken THERÈSE.</speaker>
             <p>Vi heta <persName ref="#FröknarnaHall">fröknarne Hall</persName>, om det kan intressera
-              <lb/> <persName ref="#Doktorn">doktorn</persName>.</p>
+              <lb/>
+              <persName ref="#Doktorn">doktorn</persName>.</p>
           </sp>
           <sp who="#spDoktorn">
             <speaker>DOKTORN.</speaker>
-            <p><persName ref="#FröknarnaHall">Hall</persName>? Hm! Jag har bestämdt hört det nam­<lb break="no"/>net förr. Förlåt, förlåter Ni en fråga? En något
+            <p>
+              <persName ref="#FröknarnaHall">Hall</persName>? Hm! Jag har bestämdt hört det nam­<lb break="no"/>net förr. Förlåt, förlåter Ni en fråga? En något
               <lb/> lantdtlig fråga?</p>
           </sp>
           <sp who="#spFrökenAmelie">
@@ -3950,13 +4274,15 @@
           </sp>
           <sp who="#spDoktorn">
             <speaker>DOKTORN.</speaker>
-            <p>Lefver <persName ref="#HerrHall"><persName ref="#FröknarnaHall">fröknarnes</persName> far</persName>?</p>
+            <p>Lefver <persName ref="#HerrHall">
+                <persName ref="#FröknarnaHall">fröknarnes</persName> far</persName>?</p>
           </sp>
           <sp who="#spFrökenAmelie">
             <speaker>Fröken AMELIE.</speaker>
             <p>Nej, han är död!</p>
           </sp>
-          <pb facs="6289-93.jpg"/><fw type="pageNum">92</fw>
+          <pb facs="6289-93.jpg"/>
+          <fw type="pageNum">92</fw>
           <sp who="#spDoktorn">
             <speaker>DOKTORN.</speaker>
             <p>Jaså! Ja nu har jag gått så långt att det
@@ -3964,7 +4290,8 @@
           </sp>
           <sp who="#spFrökenTherèse">
             <speaker>Fröken THERÈSE.</speaker>
-            <p><persName ref="#HerrHall">Vår far</persName> var intendent vid <orgName ref="#Brandförsäkringsverket">Brandförsäkrings­<lb break="no"/>verket</orgName> i <placeName>Göteborg</placeName>.</p>
+            <p>
+              <persName ref="#HerrHall">Vår far</persName> var intendent vid <orgName ref="#Brandförsäkringsverket">Brandförsäkrings­<lb break="no"/>verket</orgName> i <placeName>Göteborg</placeName>.</p>
           </sp>
           <sp who="#spDoktorn">
             <speaker>DOKTORN.</speaker>
@@ -3974,30 +4301,36 @@
           <sp who="#spFrökenAmelie">
             <speaker>Fröken AMELIE.</speaker>
             <p>Mycket! — <persName ref="#FrökenTherèse">Therèse</persName> har du sett hvar jag lagt
-              <lb/> min schal? Här drar så kallt. <stage>Reser sig.</stage></p>
+              <lb/> min schal? Här drar så kallt. <stage>Reser sig.</stage>
+            </p>
           </sp>
           <sp who="#spFrökenTherèse">
             <speaker>Fröken THERÈSE.</speaker>
-            <p>Troligen lemnade du den i trädgårdspavil­<lb break="no"/>jongen ... <stage>(reser sig).</stage></p>
+            <p>Troligen lemnade du den i trädgårdspavil­<lb break="no"/>jongen ... <stage>(reser sig).</stage>
+            </p>
           </sp>
           <sp who="#spDoktorn">
-            <speaker>DOKTORN</speaker> <stage>(stiger upp).</stage>
+            <speaker>DOKTORN</speaker>
+            <stage>(stiger upp).</stage>
             <p>Nej, gå inte ut. Får jag inte lof skall jag
               <lb/> skaffa reda på den. — Nej, sitt stilla nu! Sitt
-              <lb/> bara stilla. <stage>(Går ut i trädgården).</stage></p>
+              <lb/> bara stilla. <stage>(Går ut i trädgården).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene" n="6">
           <head>SJETTE SCENEN.</head>
           <stage type="presence" who="#Abel #Axel #Bertha #Carl #Diplomaten #Doktorn #FruStarck #FröknarnaHall #Willmer">FRÖKNARNE HALL. <stage type="entrance" who="#FruHall">FRU HALL (från venster temligen
-            <lb/> välbeskänkt, med flammigt röda kinder och snubblande mål).</stage></stage>
+            <lb/> välbeskänkt, med flammigt röda kinder och snubblande mål).</stage>
+          </stage>
           <sp who="#spFrökenAmelie">
             <speaker>Fröken AMELIE.</speaker>
             <p>Se der är <persName ref="#FruHall">mamma</persName>! Och sådan igen! Gud
               <lb/> hvad skulle hon här att göra! — Hvad skulle du
               <lb/> här att göra, <persName ref="#FruHall">mamma</persName>?</p>
           </sp>
-          <pb facs="6289-94.jpg"/><fw type="pageNum">93</fw>
+          <pb facs="6289-94.jpg"/>
+          <fw type="pageNum">93</fw>
           <sp who="#spFruHall">
             <speaker>FRU HALL.</speaker>
             <p>Tyst Ni! Jag kan vara här, likaväl som Ni!</p>
@@ -4021,32 +4354,38 @@
             <speaker>FRU HALL.</speaker>
             <p>Det är vackert att behandla <persName ref="#FruHall">sin mor</persName> på det
               <lb/> sättet, och säga att hon har druckit, säga det åt
-              <lb/> <persName ref="#FruHall">sin egen mor</persName>.</p>
+              <lb/>
+              <persName ref="#FruHall">sin egen mor</persName>.</p>
           </sp>
           <sp who="#spFrökenTherèse">
             <speaker>Fröken THERÈSE.</speaker>
-            <p>Prata inte, utan gå genast in! <stage>(Leder henne in till höger).</stage></p>
+            <p>Prata inte, utan gå genast in! <stage>(Leder henne in till höger).</stage>
+            </p>
           </sp>
           <sp who="#spFruHall">
-            <speaker>FRU HALL</speaker> <stage>(motsträfvigt).</stage>
+            <speaker>FRU HALL</speaker>
+            <stage>(motsträfvigt).</stage>
             <p>Att behandla <persName ref="#FruHall">sin mor</persName> på ett sådant sätt. Har
               <lb/> Ni då ingen aktning för <persName ref="#FruHall">Er mor</persName>?</p>
           </sp>
           <sp who="#spFrökenAmelie">
             <speaker>Fröken AMELIE.</speaker>
             <p>Det är inte mycket det. Raska på nu! <stage>(De gå
-              <lb/> in till höger).</stage></p>
+              <lb/> in till höger).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene" n="7">
           <head>SJUNDE SCENEN.</head>
-          <stage type="presence" who="#Abel #Axel #Bertha #Carl #Diplomaten #Doktorn #FruHall #FruStarck #FröknarnaHall #Willmer"><persName ref="#Axel">AXEL</persName> och <persName ref="#Carl">CARL</persName> från trädgården.</stage>
+          <stage type="presence" who="#Abel #Axel #Bertha #Carl #Diplomaten #Doktorn #FruHall #FruStarck #FröknarnaHall #Willmer">
+            <persName ref="#Axel">AXEL</persName> och <persName ref="#Carl">CARL</persName> från trädgården.</stage>
           <sp who="#spCarl">
             <speaker>CARL.</speaker>
             <p>Nå du ser dugtig ut, min ära <persName ref="#Axel">Axel</persName>, och har
               <lb/> ett manligare utseende än förr.</p>
           </sp>
-          <pb facs="6289-95.jpg"/><fw type="pageNum">94</fw>
+          <pb facs="6289-95.jpg"/>
+          <fw type="pageNum">94</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Ja jag har emanciperat mig!</p>
@@ -4090,7 +4429,8 @@
             <speaker>AXEL.</speaker>
             <p>Jaja! — Men hon hade ju pengar</p>
           </sp>
-          <pb facs="6289-96.jpg"/><fw type="pageNum">95</fw>
+          <pb facs="6289-96.jpg"/>
+          <fw type="pageNum">95</fw>
           <sp who="#spCarl">
             <speaker>CARL.</speaker>
             <p>Inte alls! Hon förde inte mer i boet än en
@@ -4108,12 +4448,14 @@
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Får jag lof att presentera! <persName ref="#Carl">Löjtnant Stark</persName>,
-              <lb/> <persName ref="#FröknarnaHall">fröknarne Hall</persName>.</p>
+              <lb/>
+              <persName ref="#FröknarnaHall">fröknarne Hall</persName>.</p>
           </sp>
           <sp who="#spCarl">
             <speaker>CARL.</speaker>
             <p>Det var roligt att få göra <persName ref="#FröknarnaHall">fröknarnes</persName> ...
-              <lb/> <stage>(igenkänningsmin)</stage> bekantskap.</p>
+              <lb/>
+              <stage>(igenkänningsmin)</stage> bekantskap.</p>
           </sp>
           <stage type="exit" who="#FröknarnaHall">(Fröknarne HALL förlägna; niga och gå ut i trädgården).</stage>
           <sp who="#spCarl">
@@ -4133,7 +4475,8 @@
             <speaker>AXEL.</speaker>
             <p>Hvad vill du säga?</p>
           </sp>
-          <pb facs="6289-97.jpg"/><fw type="pageNum">96</fw>
+          <pb facs="6289-97.jpg"/>
+          <fw type="pageNum">96</fw>
           <sp who="#spCarl">
             <speaker>CARL.</speaker>
             <p>Hm! Jag träffade dem i <placeName>Petersburg</placeName> en natt!</p>
@@ -4153,7 +4496,8 @@
           <sp who="#spCarl">
             <speaker>CARL.</speaker>
             <p>Neej! Det är inte något misstag. Det var
-              <lb/> <persName ref="#FröknarnaHall">mycket bekanta damer</persName> i <placeName>Petersburg</placeName>!</p>
+              <lb/>
+              <persName ref="#FröknarnaHall">mycket bekanta damer</persName> i <placeName>Petersburg</placeName>!</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -4177,7 +4521,8 @@
               <lb/> att de icke kunna stanna i <persName ref="#Axel #Carl">dessa herrars</persName> sällskap!
               <lb/> Hvad har händt?</p>
           </sp>
-          <pb facs="6289-98.jpg"/><fw type="pageNum">97</fw>
+          <pb facs="6289-98.jpg"/>
+          <fw type="pageNum">97</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Känner du <persName ref="#FröknarnaHall">dessa damer</persName>?</p>
@@ -4208,7 +4553,8 @@
           </sp>
           <sp who="#spCarl">
             <speaker>CARL.</speaker>
-            <p>Jag måste fråga: är det <persName ref="#FröknarnaHall"><persName ref="#Bertha">Berthas</persName> väninnor</persName>?</p>
+            <p>Jag måste fråga: är det <persName ref="#FröknarnaHall">
+                <persName ref="#Bertha">Berthas</persName> väninnor</persName>?</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
@@ -4219,7 +4565,8 @@
           <sp who="#spCarl">
             <speaker>CARL.</speaker>
             <p>Här är ett misstag begånget. Du menar att
-              <pb facs="6289-99.jpg"/><fw type="pageNum">98</fw>
+              <pb facs="6289-99.jpg"/>
+              <fw type="pageNum">98</fw>
               jag som haft förbindelse med <persName ref="#FröknarnaHall">dessa damer</persName> skulle
               <lb/> uppträda som deras riddare.</p>
           </sp>
@@ -4233,7 +4580,8 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p><persName ref="#FröknarnaHall">Sådana damer</persName>! Det ljuger du!</p>
+            <p>
+              <persName ref="#FröknarnaHall">Sådana damer</persName>! Det ljuger du!</p>
           </sp>
           <sp who="#spCarl">
             <speaker>CARL.</speaker>
@@ -4247,7 +4595,8 @@
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Du ville helst icke ha något att skaffa med
-              <lb/> <persName ref="#FröknarnaHall">dina öfvergifna barn</persName>!</p>
+              <lb/>
+              <persName ref="#FröknarnaHall">dina öfvergifna barn</persName>!</p>
           </sp>
           <sp who="#spDoktorn">
             <speaker>DOKTORN.</speaker>
@@ -4262,7 +4611,8 @@
           <sp who="#spDoktorn">
             <speaker>DOKTORN.</speaker>
             <p>Efter som du anser dig ha rätt att vara när­<lb break="no"/>gången och göra mina familjeförhållanden till före­<lb break="no"/>mål för offentlig granskning, så ska jag svara dig
-              <pb facs="6289-100.jpg"/><fw type="pageNum">99</fw>
+              <pb facs="6289-100.jpg"/>
+              <fw type="pageNum">99</fw>
               offentligt! Du tyckes ha tagit reda på att jag icke
               <lb/> är enkling, utan en frånskild. Godt! För tjugo år
               <lb/> sedan upplöstes mitt äktenskap, som var barnlöst.
@@ -4302,7 +4652,8 @@
               <lb/> som jag burit på mina armar under sjukdomens
               <lb/> långa natt. Och tänk om hon, <persName ref="#FruHall">min första kärlek,
               <lb/> min hustru</persName>, med hvilken lifvet första gången blef
-              <pb facs="6289-101.jpg"/><fw type="pageNum">100</fw>
+              <pb facs="6289-101.jpg"/>
+              <fw type="pageNum">100</fw>
               lif, hade mottagit din bjudning och kommit. Hvil­<lb break="no"/>ken tacksam femte akt i den melodram du ville
               <lb/> bjuda oss på, hvilken nobel hämd på en oskyldig.
               <lb/> Tack <persName ref="#Bertha">min gamla vän</persName>, tack skall du ha för denna
@@ -4341,11 +4692,13 @@
             <p>Jag ingriper inte i dina rättigheter hvarken
               <lb/> till att skymfa eller skymfas!</p>
             <stage>(Musik i trädgården; guitarr och italiensk sång).</stage>
-            <p><persName ref="#Sångarna">Sångarne</persName> ha kommit, kanske <persName ref="#Abel #Carl #Diplomaten #Doktorn #FruHall #FruStarck #Willmer">herrskapet</persName> behagar
+            <p>
+              <persName ref="#Sångarna">Sångarne</persName> ha kommit, kanske <persName ref="#Abel #Carl #Diplomaten #Doktorn #FruHall #FruStarck #Willmer">herrskapet</persName> behagar
               <lb/> stiga ut för att få litet harmoni ofvanpå detta!</p>
           </sp>
         </div>
-        <pb facs="6289-102.jpg"/><fw type="pageNum">101</fw>
+        <pb facs="6289-102.jpg"/>
+        <fw type="pageNum">101</fw>
         <div type="scene" n="11">
           <head>ELFTE SCENEN.</head>
           <stage type="presence" who="#Abel #Axel #Bertha #Carl #Diplomaten #Doktorn #FruHall #FruStarck #Willmer">Alla ut i trädgården. <persName ref="#Doktorn">DOKTORN</persName> (ensam).</stage>
@@ -4362,7 +4715,8 @@
           </sp>
           <sp who="#spFruHall">
             <speaker>FRU HALL.</speaker>
-            <p>Jaså; det är väl de der jag hörde i <placeName>Monte Carlo</placeName></p>
+            <p>Jaså; det är väl de der jag hörde i <placeName>Monte Carlo</placeName>
+            </p>
           </sp>
           <sp who="#spDoktorn">
             <speaker>DOKTORN.</speaker>
@@ -4374,17 +4728,20 @@
               <lb/> fans ingen som var så snar i svaren som han.</p>
           </sp>
           <sp who="#spDoktorn">
-            <speaker>DOKTORN</speaker> <stage>(fixerar henne).</stage>
+            <speaker>DOKTORN</speaker>
+            <stage>(fixerar henne).</stage>
             <p>Ah! — Tänk, att det fins saker ... som ...
               <lb/> äro mindre fruktansvärda än fruktan! Det är du
-              <lb/> <persName ref="#FruHall">Carolina</persName>! Och detta är det ögonblick jag i aderton
+              <lb/>
+              <persName ref="#FruHall">Carolina</persName>! Och detta är det ögonblick jag i aderton
               <lb/> år flytt, drömt om, sökt, fruktat, önskat; önskat
               <lb/> för att få känna slaget, och sedan icke ha något
               <lb/> mera att frukta! <stage>(Han tar upp en liten flaska och fuktar tungan
               <lb/> med några droppar).</stage> Var inte rädd, det är inte gift; i så
               <lb/> här liten dosis. Det är för hjertat, ser du!</p>
           </sp>
-          <pb facs="6289-103.jpg"/><fw type="pageNum">102</fw>
+          <pb facs="6289-103.jpg"/>
+          <fw type="pageNum">102</fw>
           <sp who="#spFruHall">
             <speaker>FRU HALL.</speaker>
             <p>Ack det hjertat. Ja! Du hade så mycket
@@ -4428,7 +4785,8 @@
             <speaker>FRU HALL.</speaker>
             <p>Det gamla kanske var bättre?</p>
           </sp>
-          <pb facs="6289-104.jpg"/><fw type="pageNum">103</fw>
+          <pb facs="6289-104.jpg"/>
+          <fw type="pageNum">103</fw>
           <sp who="#spDoktorn">
             <speaker>DOKTORN.</speaker>
             <p>Nej det var inte bättre, efter som det var
@@ -4440,7 +4798,8 @@
             <p>Och du? hur lefver du?</p>
           </sp>
           <sp who="#spFruHall">
-            <speaker>FRU HALL</speaker> <stage>(förnärmad).</stage>
+            <speaker>FRU HALL</speaker>
+            <stage>(förnärmad).</stage>
             <p>Hur jag lefver?</p>
           </sp>
           <sp who="#spDoktorn">
@@ -4458,7 +4817,8 @@
             <p>Ja, du var aldrig nöjd! Men när man är
               <lb/> ung så vill man ha allting prima, och så får man
               <lb/> tertia när man är gammal. Nå! Du har sagt åt
-              <lb/> <persName ref="#Bertha">fru Alberg</persName> här att <persName ref="#FröknarnaHall">dina flickor</persName> voro mina barn!</p>
+              <lb/>
+              <persName ref="#Bertha">fru Alberg</persName> här att <persName ref="#FröknarnaHall">dina flickor</persName> voro mina barn!</p>
           </sp>
           <sp who="#spFruHall">
             <speaker>FRU HALL.</speaker>
@@ -4471,10 +4831,13 @@
               <lb/> ljuger, och ser du det är betänkligt! Men det hör
               <lb/> inte hit! Tänker du gå, eller vill du att jag ska gå?</p>
           </sp>
-          <pb facs="6289-105.jpg"/><fw type="pageNum">104</fw>
+          <pb facs="6289-105.jpg"/>
+          <fw type="pageNum">104</fw>
           <sp who="#spFruHall">
-            <speaker>Fru HALL</speaker> <stage>(reser sig).</stage>
-            <p>Jag ska gå! <stage>(Faller ner på stolen och trefvar omkring sig).</stage></p>
+            <speaker>Fru HALL</speaker>
+            <stage>(reser sig).</stage>
+            <p>Jag ska gå! <stage>(Faller ner på stolen och trefvar omkring sig).</stage>
+            </p>
           </sp>
           <sp who="#spDoktorn">
             <speaker>DOKTORN.</speaker>
@@ -4506,7 +4869,8 @@
               <lb/> Ge mig din hand!</p>
           </sp>
           <sp who="#spDoktorn">
-            <speaker>DOKTORN</speaker> <stage>(leder henne till fonddörren).</stage>
+            <speaker>DOKTORN</speaker>
+            <stage>(leder henne till fonddörren).</stage>
             <p>Den gången var det jag, som bad om din hand;
               <lb/> och den hvilade tungt öfver mig, den lilla fina
               <lb/> handen. Den slog mig en gång i ansigtet, den
@@ -4515,15 +4879,19 @@
               <lb/> Dolce <placeName>Napoli</placeName>! Lifsglädje, hvart tog du vägen?
               <lb/> Gick din väg som hon der! Som var min ungdoms­<lb break="no"/>brud!</p>
           </sp>
-          <pb facs="6289-106.jpg"/><fw type="pageNum">105</fw>
+          <pb facs="6289-106.jpg"/>
+          <fw type="pageNum">105</fw>
           <sp who="#spFruHall">
-            <speaker>FRU HALL</speaker> <stage>(i tamburdörren).</stage>
+            <speaker>FRU HALL</speaker>
+            <stage>(i tamburdörren).</stage>
             <p>Hvar är min kappa?</p>
           </sp>
           <sp who="#spDoktorn">
-            <speaker>DOKTORN</speaker> <stage>(stänger dörren).</stage>
+            <speaker>DOKTORN</speaker>
+            <stage>(stänger dörren).</stage>
             <p>I tamburen, förmodligen. — Det är rysligt!
-              <lb/> <stage>(Tänder en cigarr).</stage> Oh Dolce <placeName>Napoli</placeName>! Jag undrar om
+              <lb/>
+              <stage>(Tänder en cigarr).</stage> Oh Dolce <placeName>Napoli</placeName>! Jag undrar om
               <lb/> det är så ljuft i den der kolerasjuka fiskarhamnen?
               <lb/> Blague! förmodligen! Blague! Blague! Brudar,
               <lb/> kärlek, <placeName>Neapel</placeName>, lifsglädje, antikveradt, modernt,
@@ -4534,8 +4902,10 @@
         </div>
         <div type="scene" n="12">
           <head>TOLFTE SCENEN.</head>
-          <stage type="presence" who="#Abel #Axel #Bertha #Carl #Diplomaten #Doktorn #FruStarck #Willmer"><persName ref="#Doktorn">DOKTORN</persName>, <persName ref="#Axel">AXEL</persName>, <persName ref="#Abel">ABEL</persName>, <persName ref="#Willmer">WILLMER</persName>,
-            <lb/> <persName ref="#FruStarck">Fru Starck</persName>.</stage>
+          <stage type="presence" who="#Abel #Axel #Bertha #Carl #Diplomaten #Doktorn #FruStarck #Willmer">
+            <persName ref="#Doktorn">DOKTORN</persName>, <persName ref="#Axel">AXEL</persName>, <persName ref="#Abel">ABEL</persName>, <persName ref="#Willmer">WILLMER</persName>,
+            <lb/>
+            <persName ref="#FruStarck">Fru Starck</persName>.</stage>
           <sp who="#spFruStarck">
             <speaker>Fru STARCK.</speaker>
             <p>Hvart tar <persName ref="#Doktorn">doktorn</persName> vägen?</p>
@@ -4548,7 +4918,8 @@
           </sp>
           <sp who="#spFruStarck">
             <speaker>Fru STARCK.</speaker>
-            <p><persName ref="#FröknarnaHall">Flickorna</persName>!</p>
+            <p>
+              <persName ref="#FröknarnaHall">Flickorna</persName>!</p>
           </sp>
           <sp who="#spCarl">
             <speaker>CARL.</speaker>
@@ -4559,7 +4930,8 @@
             <speaker>Fru STARCK.</speaker>
             <p>Ack du ser alltid fiender, du, <persName ref="#Carl">kära Carl</persName>.</p>
           </sp>
-          <pb facs="6289-107.jpg"/><fw type="pageNum">106</fw>
+          <pb facs="6289-107.jpg"/>
+          <fw type="pageNum">106</fw>
           <sp who="#spCarl">
             <speaker>CARL.</speaker>
             <p>Nej, jag ser dem inte, men jag känner dem!</p>
@@ -4580,14 +4952,16 @@
         <div type="scene" n="13">
           <head>TRETONDE SCENEN.</head>
           <stage type="presence" who="#Abel #Axel #Bertha #Carl #Diplomaten #Doktorn #FruStarck #Willmer">DE FÖRRE. <stage type="entrance" who="#Pigan #TvåKarlar">Fonddörrarne slås upp och två karlar bära in en tafla.
-            <lb/> PIGAN.</stage></stage>
+            <lb/> PIGAN.</stage>
+          </stage>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Hvad är det för slag!</p>
           </sp>
           <sp who="#spPigan">
             <speaker>PIGAN.</speaker>
-            <p><persName ref="#Portvakten">Portvakten</persName> sa, att den skulle bäras in i ate­<lb break="no"/>liern, för han kunde inte ha den hos sig.</p>
+            <p>
+              <persName ref="#Portvakten">Portvakten</persName> sa, att den skulle bäras in i ate­<lb break="no"/>liern, för han kunde inte ha den hos sig.</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -4595,32 +4969,38 @@
           </sp>
           <sp who="#spPigan">
             <speaker>PIGAN.</speaker>
-            <p><persName ref="#Bertha">Frun</persName> har ju skickat efter sin tafla sjelf.</p>
+            <p>
+              <persName ref="#Bertha">Frun</persName> har ju skickat efter sin tafla sjelf.</p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Det är inte sant! För öfrigt är det inte
               <lb/> min tafla. Det är <persName ref="#Axel">herrns</persName>! Ställ den der!</p>
-              <pb facs="6289-108.jpg"/><fw type="pageNum">107</fw>
+            <pb facs="6289-108.jpg"/>
+            <fw type="pageNum">107</fw>
             <stage type="exit" who="#Pigan #TvåKarlar">(PIGAN och KARLARNE gå).</stage>
             <p>Kanske det inte är din, <persName ref="#Axel">Axel</persName>? Få vi se!</p>
           </sp>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage>(ställer sig för taflan).</stage>
+            <speaker>AXEL</speaker>
+            <stage>(ställer sig för taflan).</stage>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Gå undan lite, så få vi se!</p>
           </sp>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage>(går undan).</stage>
+            <speaker>AXEL</speaker>
+            <stage>(går undan).</stage>
             <p>Det är ett misstag!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(skriker).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(skriker).</stage>
             <p>Hvad! Hvad är det! Det är ett misstag!
               <lb/> Hvad vill det säga! Det är min tafla, men, det
-              <lb/> är <persName ref="#Axel">Axels</persName> nummer. Ah! <stage>(Hon faller).</stage></p>
+              <lb/> är <persName ref="#Axel">Axels</persName> nummer. Ah! <stage>(Hon faller).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene" n="14">
@@ -4634,9 +5014,13 @@
           <sp who="#spFruStarck">
             <speaker>Fru STARCK.</speaker>
             <p>Hjelp Gud, hvad är detta! <persName ref="#Bertha">Stackars liten</persName>!
-              <lb/> <persName ref="#Doktorn">Doktor Östermark</persName>, gör då någonting! Säg någon­<lb break="no"/>ting! Och <persName ref="#Axel">Axel</persName> som står alldeles handfallen.</p>
+              <lb/>
+              <persName ref="#Doktorn">Doktor Östermark</persName>, gör då någonting! Säg någon­<lb break="no"/>ting! Och <persName ref="#Axel">Axel</persName> som står alldeles handfallen.</p>
           </sp>
-          <stage><supplied>(</supplied><persName ref="#Axel">AXEL</persName> och <persName ref="#Willmer">WILLMER</persName> ensamma.<supplied>)</supplied></stage>
+          <stage>
+            <supplied>(</supplied>
+            <persName ref="#Axel">AXEL</persName> och <persName ref="#Willmer">WILLMER</persName> ensamma.<supplied>)</supplied>
+          </stage>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Det har du gjort!</p>
@@ -4645,9 +5029,11 @@
             <speaker>WILLMER.</speaker>
             <p>Har jag?</p>
           </sp>
-          <pb facs="6289-109.jpg"/><fw type="pageNum">108</fw>
+          <pb facs="6289-109.jpg"/>
+          <fw type="pageNum">108</fw>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage>(tar honom i örat).</stage>
+            <speaker>AXEL</speaker>
+            <stage>(tar honom i örat).</stage>
             <p>Du, men inte alltsammans! Här ska du få
               <lb/> din del. <stage>(Leder honom till dörren, som han öppnar med ena foten: med
               <lb/> den andra sparkar han ut <persName ref="#Willmer">Willmer</persName>).</stage> Ut!</p>
@@ -4688,7 +5074,8 @@
             <p>Ja, men här är något annat också! Hon säger
               <lb/> att du inte älskar henne mer.</p>
           </sp>
-          <pb facs="6289-110.jpg"/><fw type="pageNum">109</fw>
+          <pb facs="6289-110.jpg"/>
+          <fw type="pageNum">109</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Det har hon rätt i. Så är det, och i morgon
@@ -4711,7 +5098,8 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>Ja, jag vill ut — ut härifrån. <stage>(De gå mot fonden).</stage></p>
+            <p>Ja, jag vill ut — ut härifrån. <stage>(De gå mot fonden).</stage>
+            </p>
           </sp>
         </div>
         <div type="scene" n="16">
@@ -4733,7 +5121,8 @@
             <speaker>AXEL.</speaker>
             <p>Tala!</p>
           </sp>
-          <pb facs="6289-111.jpg"/><fw type="pageNum">110</fw>
+          <pb facs="6289-111.jpg"/>
+          <fw type="pageNum">110</fw>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
             <p>Vill du inte gå in till <persName ref="#Bertha">Bertha</persName>?</p>
@@ -4762,8 +5151,10 @@
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
             <p>Är du så säker på det! <stage>(Böjer sig hän emot honom
-              <lb/> och säger dämpadt).</stage></p>
-            <p><persName ref="#Bertha">Bertha</persName> älskar dig sedan — — — sedan du
+              <lb/> och säger dämpadt).</stage>
+            </p>
+            <p>
+              <persName ref="#Bertha">Bertha</persName> älskar dig sedan — — — sedan du
               <lb/> böjde henne.</p>
           </sp>
           <sp who="#spAxel">
@@ -4778,7 +5169,8 @@
             <speaker>AXEL.</speaker>
             <p>Nej, det är slut <stage>(tar <persName ref="#Doktorn">Doktorns</persName> arm)</stage> kom!</p>
           </sp>
-          <pb facs="6289-112.jpg"/><fw type="pageNum">111</fw>
+          <pb facs="6289-112.jpg"/>
+          <fw type="pageNum">111</fw>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
             <p>Får jag inte helsa till <persName ref="#Bertha">Bertha</persName>?</p>
@@ -4816,7 +5208,8 @@
               <lb/> ditt vis, efter som du ville skilja mig och <persName ref="#Bertha">Bertha</persName>.</p>
           </sp>
           <sp who="#spAbel">
-            <speaker>ABEL</speaker> <stage>(rullar en cigarett).</stage>
+            <speaker>ABEL</speaker>
+            <stage>(rullar en cigarett).</stage>
             <p>Älskat! — Jag undrar hur det skulle vara
               <lb/> att älska? Nej, jag kan inte älska; jag måtte vara
               <lb/> lytt — — för det gladde mig att se på Er, tills
@@ -4826,7 +5219,8 @@
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Nej på min ära! Du var för mig en treflig
-              <pb facs="6289-113.jpg"/><fw type="pageNum">112</fw>
+              <pb facs="6289-113.jpg"/>
+              <fw type="pageNum">112</fw>
               kamrat, som råkade vara klädd som qvinna; du
               <lb/> gjorde aldrig intryck af att tillhöra ett annat kön;
               <lb/> och kärleken, ser du, kan och får endast existera
@@ -4864,19 +5258,22 @@
           </sp>
         </div>
         <div type="scene" n="17">
-        <head>SJUTONDE SCENEN.</head>
+          <head>SJUTONDE SCENEN.</head>
           <stage type="presence" who="#Abel #Axel #Bertha #Carl #Diplomaten #Doktorn #FruStarck">DE FÖRRE. BERTHA.</stage>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(till <persName ref="#Axel">Axel</persName>).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(till <persName ref="#Axel">Axel</persName>).</stage>
             <p>Ämnar du gå?</p>
           </sp>
-          <pb facs="6289-114.jpg"/><fw type="pageNum">113</fw>
+          <pb facs="6289-114.jpg"/>
+          <fw type="pageNum">113</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Ja, nyss ämnade jag, men nu stannar jag!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(mjukt)</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(mjukt)</stage>
             <p>Hvad? Du ...</p>
           </sp>
           <sp who="#spAxel">
@@ -4916,7 +5313,8 @@
             <speaker>BERTHA.</speaker>
             <p>Du kör ut mig således!</p>
           </sp>
-          <pb facs="6289-115.jpg"/><fw type="pageNum">114</fw>
+          <pb facs="6289-115.jpg"/>
+          <fw type="pageNum">114</fw>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Nej, lagen!</p>
@@ -4932,7 +5330,8 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p><persName ref="#Axel">Axel</persName>! Så du talar! Om du visste hur jag ...
+            <p>
+              <persName ref="#Axel">Axel</persName>! Så du talar! Om du visste hur jag ...
               <lb/> älskar dig!</p>
           </sp>
           <sp who="#spAxel">
@@ -4941,7 +5340,8 @@
               <lb/> inte dig mer!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(upp).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(upp).</stage>
             <p>Derför att du älskar <persName ref="#Abel">henne der</persName>!</p>
           </sp>
           <sp who="#spAxel">
@@ -4961,9 +5361,11 @@
               <lb/> att hon har antydt något sådant, ja jag vill minnas
               <lb/> hon sa' det rent ut; hur var det nu?</p>
           </sp>
-          <pb facs="6289-116.jpg"/><fw type="pageNum">115</fw>
+          <pb facs="6289-116.jpg"/>
+          <fw type="pageNum">115</fw>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(slår om).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(slår om).</stage>
             <p>Du är verkligen den oförskämdaste menniska,
               <lb/> jag nånsin råkat!</p>
           </sp>
@@ -4972,7 +5374,8 @@
             <p>Jo, jag skulle tro det!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(tar på kappa och hatt).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(tar på kappa och hatt).</stage>
             <p>Och nu tänker du lemna mig på gatan? Är
               <lb/> det ditt allvar?</p>
           </sp>
@@ -4981,7 +5384,8 @@
             <p>På gatan, eller hvar du behagar?</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(rasande).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(rasande).</stage>
             <p>Tror du, att <persName ref="#Bertha">en qvinna</persName> låter behandla sig på
               <lb/> det sättet?</p>
           </sp>
@@ -5007,11 +5411,14 @@
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Här har du en månads förskott! <stage>(Lägger ett par
-              <lb/> sedlar på bordet).</stage></p>
+              <lb/> sedlar på bordet).</stage>
+            </p>
           </sp>
-          <pb facs="6289-117.jpg"/><fw type="pageNum">116</fw>
+          <pb facs="6289-117.jpg"/>
+          <fw type="pageNum">116</fw>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(tar pengarne och räknar dem).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(tar pengarne och räknar dem).</stage>
             <p>Du har ändå någon heder i dig!</p>
           </sp>
           <sp who="#spAbel">
@@ -5035,17 +5442,20 @@
             <p>Nej, jag skäms!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(förvånad).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(förvånad).</stage>
             <p>Skäms?</p>
           </sp>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
-            <p>Ja, jag skäms! Farväl! <stage type="exit" who="#Abel">(Går).</stage></p>
+            <p>Ja, jag skäms! Farväl! <stage type="exit" who="#Abel">(Går).</stage>
+            </p>
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
             <p>Jag förstår inte! — Farväl <persName ref="#Axel">Axel</persName>! Tack för detta!
-              <lb/> Äro vi vänner? <stage>(Håller hans hand).</stage></p>
+              <lb/> Äro vi vänner? <stage>(Håller hans hand).</stage>
+            </p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -5053,16 +5463,21 @@
               <lb/> hand, annars tror jag att du vill förföra mig igen!</p>
           </sp>
           <sp who="#spBertha">
-            <speaker>BERTHA</speaker> <stage>(går mot dörren).</stage>
+            <speaker>BERTHA</speaker>
+            <stage>(går mot dörren).</stage>
           </sp>
-          <pb facs="6289-118.jpg"/><fw type="pageNum">117</fw>
+          <pb facs="6289-118.jpg"/>
+          <fw type="pageNum">117</fw>
           <sp who="#spAxel">
-            <speaker>AXEL</speaker> <stage>(med en suck af lättnad).</stage>
+            <speaker>AXEL</speaker>
+            <stage>(med en suck af lättnad).</stage>
             <p>Trefliga kamrater! Åh!</p>
           </sp>
           <sp who="#spPigan">
-            <speaker>PIGAN</speaker> <stage type="entrance" who="#Pigan">(in från trädgårdsporten).</stage>
-            <p><persName ref="#Älskarinnan">Mamsell</persName> väntar <persName ref="#Axel">herrn</persName>!</p>
+            <speaker>PIGAN</speaker>
+            <stage type="entrance" who="#Pigan">(in från trädgårdsporten).</stage>
+            <p>
+              <persName ref="#Älskarinnan">Mamsell</persName> väntar <persName ref="#Axel">herrn</persName>!</p>
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
@@ -5099,9 +5514,12 @@
       </div>
     </body>
     <back>
-      <pb facs="6289-119.jpg"/><!-- tom sida -->
-      <pb facs="6289-120.jpg"/><!-- insida -->
-      <pb facs="6289-121.jpg"/><!-- omslag (övriga böcker på förlaget) -->
+      <pb facs="6289-119.jpg"/>
+<!-- tom sida -->
+      <pb facs="6289-120.jpg"/>
+<!-- insida -->
+      <pb facs="6289-121.jpg"/>
+<!-- omslag (övriga böcker på förlaget) -->
       <gap reason="irrelevant"/>
       <div type="editorial">
         <listPerson>
@@ -5143,7 +5561,7 @@
                 <surname>Andersson</surname>
               </persName>
               <note>Använder namnet Andersson vid ett tillfälle för att inte avslöja sin rätta identitet.</note>
-	            <occupation scheme="#HISCO" code="06100">doktor</occupation>
+              <occupation scheme="#HISCO" code="06100">doktor</occupation>
             </person>
             <person xml:id="FruHall" sex="female">
               <persName>
@@ -5246,7 +5664,7 @@
               </person>
               <person xml:id="Portvakten" sex="male">
                 <occupation scheme="#HISCO" code="55130">portvakt</occupation>
-              </person> 
+              </person>
               <person xml:id="Professorn" sex="male">
                 <occupation scheme="#HISCO" code="13190">konstlärare</occupation>
               </person>
@@ -5270,7 +5688,7 @@
                 </persName>
                 <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Judits_bok</idno>
                 <note>i Apokryferna</note>
-              </person>            
+              </person>
             </listPerson>
           </listPerson>
           <listRelation>
@@ -5287,7 +5705,7 @@
             <relation type="personal" name="gift" mutual="#Roubey #MadameRoubey"/>
             <relation type="personal" name="vän" active="#Richard" passive="#Bertha"/>
             <relation type="other" name="likn." active="#Bertha" passive="#Judith"/>
-            <!-- tillagt/EF -->
+<!-- tillagt/EF -->
             <relation type="personal" name="änka" active="#FruHall" passive="#HerrHall"/>
             <relation type="personal" name="vän" mutual="#Axel #Roubey"/>
             <relation type="personal" name="vän" mutual="#Bertha #Abel"/>
@@ -5353,30 +5771,38 @@
             <idno type="LIBRIS">http://libris.kb.se/auth/293341</idno>
           </org>
         </listOrg>
-        <!-- IDEA: Markera ordet "neger"? /TB (s. 47) -->
-        <!-- IDEA: Referens till utseende/kläder /TB (lugg, barhalsad, fadermördare, polkahår, s. 48) -->
-        <!-- IDEA: prostitution
+<!-- IDEA: Markera ordet "neger"? /TB (s. 47) -->
+<!-- IDEA: Referens till utseende/kläder /TB (lugg, barhalsad, fadermördare, polkahår, s. 48) -->
+<!-- IDEA: prostitution
           Intressant omskrivning av prostitution! /TB (en afton i lyktsken, s. 88)
           Även här omskrivning för prostitution. /MallikG (mycket bekanta damer, s. 96)
           Ännu en syftning till prostitution /MallikG (samboning, s. 109)
         -->
-        <!-- IDEA: Jag skulle vilja märka upp förekomsten av musik. /TB (Musik i trädgården; guitarr och italiensk sång, s. 100) -->
+<!-- IDEA: Jag skulle vilja märka upp förekomsten av musik. /TB (Musik i trädgården; guitarr och italiensk sång, s. 100) -->
         <fs type="hand" xml:id="handrekv1">
-          <f name="props"><symbol value="dräkt"/></f>
+          <f name="props">
+            <symbol value="dräkt"/>
+          </f>
           <f name="start" fVal="#handakt1start"/>
           <f name="slut" fVal="#handakt1slut"/>
         </fs>
         <fs type="hand" xml:id="handrekv2">
-          <f name="props"><symbol value="fräs"/></f>
+          <f name="props">
+            <symbol value="fräs"/>
+          </f>
         </fs>
         <fs type="hand" xml:id="handakt1">
-          <f name="aktivitet"><symbol value="sömnad"/></f>
+          <f name="aktivitet">
+            <symbol value="sömnad"/>
+          </f>
           <f name="vem" fVal="#Bertha"/>
           <f name="start" fVal="#handakt1start"/>
           <f name="slut" fVal="#handakt1slut"/>
         </fs>
         <fs type="hand" xml:id="handakt2">
-          <f name="aktivitet"><symbol value="plissering"/></f>
+          <f name="aktivitet">
+            <symbol value="plissering"/>
+          </f>
           <f name="vem" fVal="#Pigan"/>
           <f name="start" fVal="#handakt2start"/>
           <f name="slut" fVal="#handakt2slut"/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
@@ -86,7 +86,7 @@
             <idno type="LIBRIS">http://libris.kb.se/bib/3130246</idno>
             <imprint>
               <date when="1887">1887</date>
-              <!-- Förlag och förlagsort framgår ej av faksimilen, däremot tryckeri och tryckeriort -->
+<!-- Förlag och förlagsort framgår ej av faksimilen, däremot tryckeri och tryckeriort -->
               <respStmt>
                 <resp>tryckning</resp>
                 <orgName>
@@ -143,13 +143,13 @@
       </classDecl>
       <tagsDecl>
         <rendition>
-          <!-- Text i kursiv -->
-          <!-- Talarrubriker, scenanvisningar anges med normal stil-->
-          <!-- Talarrubriker, scenanvisningar, stycken i repliker är "inline", indrag första raden av replik -->
-          <!-- Rollposter har indrag första raden -->
-          <!-- Roller i rollförteckning, talarrubriker, dokumenttitel anges med fet normal stil -->
-          <!-- Rubrik och dokumenttitel är centrerade -->
-          <!-- Paginering: jämna sidor vänsterställd, udda sidor högerställd -->
+<!-- Text i kursiv -->
+<!-- Talarrubriker, scenanvisningar anges med normal stil-->
+<!-- Talarrubriker, scenanvisningar, stycken i repliker är "inline", indrag första raden av replik -->
+<!-- Rollposter har indrag första raden -->
+<!-- Roller i rollförteckning, talarrubriker, dokumenttitel anges med fet normal stil -->
+<!-- Rubrik och dokumenttitel är centrerade -->
+<!-- Paginering: jämna sidor vänsterställd, udda sidor högerställd -->
         </rendition>
       </tagsDecl>
     </encodingDesc>
@@ -159,30 +159,36 @@
       </langUsage>
       <particDesc>
         <listPerson>
-          
           <person xml:id="spEdvard" sex="MALE">
-            <persName>Edvard</persName><!--castList-->
-            <persName>Edvard</persName><!--speaker-->
-            <persName>Edvard</persName><!--editorial-->
+            <persName>Edvard</persName>
+<!--castList-->
+            <persName>Edvard</persName>
+<!--speaker-->
+            <persName>Edvard</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spAline" sex="FEMALE">
-            <persName>Aline</persName><!--castList-->
-            <persName>Aline</persName><!--speaker-->
-            <persName>Aline</persName><!--editorial-->
+            <persName>Aline</persName>
+<!--castList-->
+            <persName>Aline</persName>
+<!--speaker-->
+            <persName>Aline</persName>
+<!--editorial-->
           </person>
         </listPerson>
       </particDesc>
     </profileDesc>
-
   </teiHeader>
   <text>
     <anchor xml:id="playstart"/>
     <front>
-      <pb facs="36388-0.jpg"/><!-- titelsida, bok -->
+      <pb facs="36388-0.jpg"/>
+<!-- titelsida, bok -->
       <gap reason="irrelevant"/>
-      <pb facs="36388-1.jpg"/><!-- tom sida -->
-      <pb facs="36388-2.jpg"/><!-- brevtext -->
+      <pb facs="36388-1.jpg"/>
+<!-- tom sida -->
+      <pb facs="36388-2.jpg"/>
+<!-- brevtext -->
       <gap reason="irrelevant"/>
       <pb facs="36388-3.jpg"/>
       <gap reason="irrelevant"/>
@@ -192,8 +198,10 @@
       <gap reason="irrelevant"/>
       <pb facs="36388-6.jpg"/>
       <gap reason="irrelevant"/>
-      <pb facs="36388-7.jpg"/><fw type="pageNum">8</fw>
-      <gap reason="irrelevant"/><!-- brevtext -->
+      <pb facs="36388-7.jpg"/>
+      <fw type="pageNum">8</fw>
+      <gap reason="irrelevant"/>
+<!-- brevtext -->
       <docTitle>
         <titlePart type="main">Konstnärns förtviflan.</titlePart>
       </docTitle>
@@ -201,20 +209,27 @@
         <head>PERSONER:</head>
         <castItem>
           <role>
-            <persName ref="#Edvard">Edvard</persName></role>, <roleDesc>kompositör</roleDesc>.
+            <persName ref="#Edvard">Edvard</persName>
+          </role>, <roleDesc>kompositör</roleDesc>.
         </castItem>
         <castItem>
           <role>
-            <persName ref="#Aline">Aline</persName></role> <roleDesc>hans hustru</roleDesc>.
+            <persName ref="#Aline">Aline</persName>
+          </role>
+          <roleDesc>hans hustru</roleDesc>.
         </castItem>
       </castList>
     </front>
     <body>
       <div type="act" n="1">
         <sp who="#spEdvard">
-          <speaker>Edvard</speaker> <stage>(bakom scenen).</stage> <p>Ha, bravo! Char­<lb break="no"/>mant <persName ref="#Rudolf">min vän</persName>! mycket mycket roligt! Som sagt
-            <lb/> <persName ref="#Rudolf">Rudolf</persName> vi träffas i afton efter aftal. Adjö, adjö! <!-- Här vill jag ha slut på stycket och att ett nytt börjar efter scenanvisningen. /ljo -->
-            <lb/> <stage type="entrance" who="#Edvard">(Inne på scenen).</stage> Fördömt! förtviflat! rasande!
+          <speaker>Edvard</speaker>
+          <stage>(bakom scenen).</stage>
+          <p>Ha, bravo! Char­<lb break="no"/>mant <persName ref="#Rudolf">min vän</persName>! mycket mycket roligt! Som sagt
+            <lb/>
+            <persName ref="#Rudolf">Rudolf</persName> vi träffas i afton efter aftal. Adjö, adjö! <!-- Här vill jag ha slut på stycket och att ett nytt börjar efter scenanvisningen. /ljo -->
+            <lb/>
+            <stage type="entrance" who="#Edvard">(Inne på scenen).</stage> Fördömt! förtviflat! rasande!
             <lb/> elende! Ah! Gud ske lof jag är då ensam! Jag 
             <lb/> får då ge mig luft, och slipper förställning, trö­<lb break="no"/>stare, anmärkare, fiender, vänner, hela verlden!
             <lb/> Det är förbi! Min opera förolyckad! Natten
@@ -229,9 +244,11 @@
             <lb/> — melodier, toner som skulle göra stenar till bröd
             <lb/> för <persName ref="#Aline">min Aline</persName> och mig — — ingen gripes, ingen
             <lb/> smälter för er! O! att jag kunde gråta! Men 
-            <pb facs="36388-8.jpg"/><fw type="pageNum">9</fw>
+            <pb facs="36388-8.jpg"/>
+            <fw type="pageNum">9</fw>
             nej! Jag skall bli kall och hård som verlden. —
-            <lb/> <persName ref="#Rudolf">Rudolf</persName> har rätt — lifvet är för kort att nöta
+            <lb/>
+            <persName ref="#Rudolf">Rudolf</persName> har rätt — lifvet är för kort att nöta
             <lb/> bort i fåfäng sträfvan och suckan. Han har rätt
             <lb/> — det finnes lättare vägar till lyckan. Välan, 
             <lb/> jag vill försöka dem. Efter konstens Gud nekar
@@ -245,18 +262,25 @@
             <lb/> mer — farväl <stage>(ville rifva sönder noterna)</stage>.</p>
         </sp>
         <sp who="#spAline">
-          <speaker>Aline</speaker> <stage type="entrance" who="#Aline">(som inkommit hindrar honom).</stage> <p>Hvil­<lb break="no"/>ken tragedie spelas här? Men <persName ref="#Edvard">Edvard</persName> är du all­<lb break="no"/>deles galen? <stage>(rycker noterna från honom).</stage></p>
+          <speaker>Aline</speaker>
+          <stage type="entrance" who="#Aline">(som inkommit hindrar honom).</stage>
+          <p>Hvil­<lb break="no"/>ken tragedie spelas här? Men <persName ref="#Edvard">Edvard</persName> är du all­<lb break="no"/>deles galen? <stage>(rycker noterna från honom).</stage>
+          </p>
         </sp>
         <sp who="#spEdvard">
-          <speaker>Edvard.</speaker> <p>Galen? Först nu är jag förnuftig
-            <lb/><persName ref="#Aline">Aline</persName> Förr var jag en dåre, men nu har jag
+          <speaker>Edvard.</speaker>
+          <p>Galen? Först nu är jag förnuftig
+            <lb/>
+            <persName ref="#Aline">Aline</persName> Förr var jag en dåre, men nu har jag
             <lb/> insett det. Jag duger icke för musiken eller ock
             <lb/> verlden icke för min musik hvilket kan komma på 
             <lb/> ett ut. Kort och godt, jag öfverger mitt gamla
             <lb/> yrke och tänker försöka ett mera lönande.</p>
         </sp>
         <sp who="#spAline">
-          <speaker>Aline</speaker> <stage>(afsides).</stage> <p>Ah! Jag vet väl! <persName ref="#Rudolf">Den 
+          <speaker>Aline</speaker>
+          <stage>(afsides).</stage>
+          <p>Ah! Jag vet väl! <persName ref="#Rudolf">Den 
             <lb/> förledaren Rudolf</persName>. <stage>(Högt).</stage> O nej <persName ref="#Edvard">Edvard</persName>. Icke
             <lb/> kan du öfverge din älskade konst, och det för en 
             <lb/> öfvergående motgångs skuld! Ty ganska visst — 
@@ -264,9 +288,11 @@
             <lb/> ännu lyckas, om du blott ville arbeta om vissa 
             <lb/> delar, och ändra några — — —</p>
         </sp>
-        <pb facs="36388-9.jpg"/><fw type="pageNum">10</fw>
+        <pb facs="36388-9.jpg"/>
+        <fw type="pageNum">10</fw>
         <sp who="#spEdvard">
-          <speaker>Edvard.</speaker> <p>Ändra? Jag hatar det ordet! Jag
+          <speaker>Edvard.</speaker>
+          <p>Ändra? Jag hatar det ordet! Jag
             <lb/> ändrar ingenting alls. Jag vill icke ändra nå­<lb break="no"/>gonting. Man skulle ändå klaga och anmärka derpå. 
             <lb/> O <persName ref="#Aline">Aline</persName>! Konstnärens lif är uslare på jorden än 
             <lb/> den fattigaste skoflikares. Denne betalar man för
@@ -277,16 +303,19 @@
             <lb/> en oändlig kamp med — verlden, sig sjelf med.</p>
         </sp>
         <sp who="#spAline">
-          <speaker>Aline.</speaker> <p>Ju högre mål, ju större kamp — ju 
+          <speaker>Aline.</speaker>
+          <p>Ju högre mål, ju större kamp — ju 
             <lb/> större kamp, ju härligare seger.</p>
         </sp>
         <sp who="#spEdvard">
-          <speaker>Edvard.</speaker> <p>Och när han gjort sitt bästa — 
+          <speaker>Edvard.</speaker>
+          <p>Och när han gjort sitt bästa — 
             <lb/> när han vakat och kämpat och arbetat, och likväl
             <lb/> hans verk ej lyckas — hvad återstår?</p>
         </sp>
         <sp who="#spAline">
-          <speaker>Aline.</speaker> <p>Att göra bättre! Att icke vara så
+          <speaker>Aline.</speaker>
+          <p>Att göra bättre! Att icke vara så
             <lb/> ömtålig för några sår, utan våga sig ånyo i kam­<lb break="no"/>pen och fullborda segren. O, <persName ref="#Edvard">Edvard</persName>! huru skönt, 
             <lb/> hur ädelt är ej konstnärens mål, hur värdt att
             <lb/> lefva för till sista andedraget! Må han äfven 
@@ -297,26 +326,34 @@
             <lb/> När menniskan vill fastna i de jordiska bekym­
             <lb/>rens mull, då upprullar konstnären för hennes blickar 
             <lb/> lifvets idealer, och påminner henne om sitt ursprung
-            <lb/> och sitt rätta hem! Så <choice><sic>står</sic><corr>sår</corr></choice> han i verlden ett         
+            <lb/> och sitt rätta hem! Så <choice>
+              <sic>står</sic>
+              <corr>sår</corr>
+            </choice> han i verlden ett         
             <lb/> medlare-ord som försonar himmelen och jorden
-            <pb facs="36388-10.jpg"/><fw type="pageNum">11</fw>
+            <pb facs="36388-10.jpg"/>
+            <fw type="pageNum">11</fw>
             och låter evighetens ljusstrålar tränga igenom vår
             <lb/> töckniga verld. O, <persName ref="#Edvard">Edvard</persName>! hvilket härligt mål
             <lb/> att lefva för!!</p>
         </sp>
         <sp who="#spEdvard">
-          <speaker>Edvard.</speaker> <p>Härligt i sanning <persName ref="#Aline">Aline</persName>! Men du
+          <speaker>Edvard.</speaker>
+          <p>Härligt i sanning <persName ref="#Aline">Aline</persName>! Men du
             <lb/> glömmer den svåra törnbeklädda stigen dit.</p>
         </sp>
         <sp who="#spAline">
-          <speaker>Aline.</speaker> <p>Mins du <persName ref="#Crusell">Bernhard Crusell</persName>?</p>
+          <speaker>Aline.</speaker>
+          <p>Mins du <persName ref="#Crusell">Bernhard Crusell</persName>?</p>
         </sp>
         <sp who="#spEdvard">
-          <speaker>Edvard.</speaker> <p>Hvem mins ej honom som en gång
+          <speaker>Edvard.</speaker>
+          <p>Hvem mins ej honom som en gång
             <lb/> hört honom? Han var god mot mig.</p>
         </sp>
         <sp who="#spAline">
-          <speaker>Aline.</speaker> <p>Nå väl! Han gick <emph>fram</emph> på denna
+          <speaker>Aline.</speaker>
+          <p>Nå väl! Han gick <emph>fram</emph> på denna
             <lb/> törnbeströdda väg. <persName ref="#Crusell">Han</persName> var fattig en gång som 
             <lb/> du, hade motgångar som du, men <emph>han</emph> kämpade 
             <lb/> med dem och segrade. Så blef han en af sitt fo­<lb break="no"/>sterlands älsklingar, och spridde lif och hugnad så 
@@ -334,12 +371,16 @@
             <lb/> som vandra hans väg.</p>
         </sp>
         <sp who="#spEdvard">
-          <speaker>Edvard.</speaker> <p>Ja så lefde han! Men nu är äfven
-            <lb/> <emph>han</emph> död och snart kanske — glömd.</p>
+          <speaker>Edvard.</speaker>
+          <p>Ja så lefde han! Men nu är äfven
+            <lb/>
+            <emph>han</emph> död och snart kanske — glömd.</p>
         </sp>
-        <pb facs="36388-11.jpg"/><fw type="pageNum">12</fw>  
+        <pb facs="36388-11.jpg"/>
+        <fw type="pageNum">12</fw>
         <sp who="#spAline">
-          <speaker>Aline.</speaker> <p>Död, glömd? <persName ref="#Crusell">Den sanne konstnären</persName>?
+          <speaker>Aline.</speaker>
+          <p>Död, glömd? <persName ref="#Crusell">Den sanne konstnären</persName>?
             <lb/> Oh nej! <persName ref="#Crusell">Han</persName> är — dock detta måste jag säga
             <lb/> dig i sång.</p>
           <lg>
@@ -378,31 +419,40 @@
             <l>När ren han höjt i himmelen</l>
             <l>sin sång hos Gud.</l>
           </lg>
-          <p><stage>(Efter någon tystnad).</stage> Men <persName ref="#Edvard">Edvard</persName> du hör
+          <p>
+            <stage>(Efter någon tystnad).</stage> Men <persName ref="#Edvard">Edvard</persName> du hör
             <lb/> mig ej! Du skrifver.</p>
         </sp>
         <sp who="#spEdvard">
-          <speaker>Edvard.</speaker> <p>Just emedan jag hört din sång
+          <speaker>Edvard.</speaker>
+          <p>Just emedan jag hört din sång
             <lb/> och den gripit mig skrifver jag. Jag skrifver
-            <pb facs="36388-12.jpg"/><fw type="pageNum">13</fw>
+            <pb facs="36388-12.jpg"/>
+            <fw type="pageNum">13</fw>
             återbud till <persName ref="#Rudolf">en god vän</persName> som jag från denna stund
             <lb/> ej mer vill se. Jag skall genast afsända denna
             <lb/> billette och sedan ——— börjar jag att arbeta om
-            <lb/> min opera</p> <stage type="exit" who="#Edvard">(springer ut).</stage>
+            <lb/> min opera</p>
+          <stage type="exit" who="#Edvard">(springer ut).</stage>
         </sp>
         <sp who="#spAline">
-          <speaker>Aline.</speaker> <p>Och jag har lyckligt utfört mitt 
-            <lb/> värf. Tack vare <persName ref="#Crusell">Crusell</persName>.</p> <stage type="exit" who="#Aline">(Går).</stage>
+          <speaker>Aline.</speaker>
+          <p>Och jag har lyckligt utfört mitt 
+            <lb/> värf. Tack vare <persName ref="#Crusell">Crusell</persName>.</p>
+          <stage type="exit" who="#Aline">(Går).</stage>
         </sp>
-     </div>
+      </div>
     </body>
     <back>
-      <gap reason="irrelevant"/><!-- brevtext -->
+      <gap reason="irrelevant"/>
+<!-- brevtext -->
       <pb facs="36388-13.jpg"/>
       <gap reason="irrelevant"/>
-      <pb facs="36388-14.jpg"/><!-- epilog -->
+      <pb facs="36388-14.jpg"/>
+<!-- epilog -->
       <gap reason="irrelevant"/>
-      <pb facs="36388-15.jpg"/><!-- tom sida -->
+      <pb facs="36388-15.jpg"/>
+<!-- tom sida -->
       <div type="editorial">
         <listPerson>
           <listPerson type="cast">
@@ -411,7 +461,7 @@
                 <forename>Edvard</forename>
               </persName>
               <occupation scheme="#HISCO" code="17120">kompositör</occupation>
-            </person>   
+            </person>
             <person xml:id="Aline" sex="female">
               <persName>
                 <forename>Aline</forename>
@@ -424,7 +474,7 @@
                 <persName>
                   <forename>Rudolf</forename>
                 </persName>
-              </person>            
+              </person>
             </listPerson>
             <listPerson type="historical">
               <person xml:id="Crusell" sex="male">
@@ -433,19 +483,19 @@
                   <surname>Crusell</surname>
                 </persName>
                 <occupation scheme="#HISCO" code="17120">tonsättare</occupation>
-                <!-- klarinettist, tonsättare, översättare -->
+<!-- klarinettist, tonsättare, översättare -->
                 <idno type="LIBRIS">http://libris.kb.se/auth/182938</idno>
                 <idno type="SBL">http://www.nad.riksarkivet.se/sbl/artikel/15721</idno>
                 <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Bernhard_Crusell</idno>
-              </person>            
+              </person>
             </listPerson>
           </listPerson>
           <listRelation>
-            <relation type="personal" name="gift" mutual="#Aline #Edvard"/>          
-            <relation type="personal" name="vän" mutual="#Edvard #Rudolf"/> 
+            <relation type="personal" name="gift" mutual="#Aline #Edvard"/>
+            <relation type="personal" name="vän" mutual="#Edvard #Rudolf"/>
             <relation type="other" name="ref." active="#Aline" passive="#Crusell"/>
             <relation type="other" name="förebild" active="#Crusell" passive="#Edvard"/>
-            <!-- tillagt /EF -->
+<!-- tillagt /EF -->
             <relation type="other" name="likn." active="#Crusell" passive="#Betesda"/>
           </listRelation>
         </listPerson>

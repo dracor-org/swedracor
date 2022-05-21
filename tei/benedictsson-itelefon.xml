@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
@@ -182,19 +182,19 @@
       <tagsDecl>
         <rendition xml:id="rend.p">first-indent(1)</rendition>
         <rendition>
-          <!-- Rubriker och talarrubriker är centrerade -->
-          <!-- Talarrubriker, och roller i rolllistan, är i spärrad stil -->
-          <!-- Scenanvisningar är i mindre stil -->
-          <!-- Fristående scenanvisningar i repliker (utom direkt efter talarrubriker) är centrerade om de är på en rad, eller har samma indrag som stycken om de är på flera rader -->
-          <!-- Scenanvisningar direkt efter talarrubrik är inline -->
-          <!-- Scenanvisningar mellan replik är centrerade (eller om p-märkta indragna som stycken), ett undantag: rend="right-aligned" -->
-          <!-- Scenanvisning type="curtain" är i normal storlek, kursiverad och i annat typsnitt -->
+<!-- Rubriker och talarrubriker är centrerade -->
+<!-- Talarrubriker, och roller i rolllistan, är i spärrad stil -->
+<!-- Scenanvisningar är i mindre stil -->
+<!-- Fristående scenanvisningar i repliker (utom direkt efter talarrubriker) är centrerade om de är på en rad, eller har samma indrag som stycken om de är på flera rader -->
+<!-- Scenanvisningar direkt efter talarrubrik är inline -->
+<!-- Scenanvisningar mellan replik är centrerade (eller om p-märkta indragna som stycken), ett undantag: rend="right-aligned" -->
+<!-- Scenanvisning type="curtain" är i normal storlek, kursiverad och i annat typsnitt -->
         </rendition>
         <namespace name="http://www.tei-c.org/ns/1.0">
           <tagUsage gi="stars" render="rend.stars">Rollkaraktären Siri pratar i telefon. Pauserna då
             Siri är tyst och den tänkta karaktären pratar i andra luren, markeras i denna utgåva med
             tre st stjärnor, varav den mittersta är nedsänkt.</tagUsage>
-         </namespace>
+        </namespace>
       </tagsDecl>
     </encodingDesc>
     <profileDesc>
@@ -203,90 +203,120 @@
       </langUsage>
       <particDesc>
         <listPerson>
-          
           <person xml:id="spSiri" sex="FEMALE">
-            <persName>Siri</persName><!--castList-->
-            <persName>Siri</persName><!--speaker-->
-            <persName>Siri</persName><!--editorial-->
+            <persName>Siri</persName>
+<!--castList-->
+            <persName>Siri</persName>
+<!--speaker-->
+            <persName>Siri</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spHäradshöfdingen" sex="MALE">
-            <persName>Häradshöfding Eskilson</persName><!--castList-->
-            <persName>Häradshöfdingen</persName><!--speaker-->
-            <persName>häradshövding Eskilson</persName><!--editorial-->
+            <persName>Häradshöfding Eskilson</persName>
+<!--castList-->
+            <persName>Häradshöfdingen</persName>
+<!--speaker-->
+            <persName>häradshövding Eskilson</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spIda" sex="FEMALE">
-            <persName>Ida</persName><!--castList-->
-            <persName>Ida</persName><!--speaker-->
-            <persName>Ida</persName><!--editorial-->
+            <persName>Ida</persName>
+<!--castList-->
+            <persName>Ida</persName>
+<!--speaker-->
+            <persName>Ida</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spNotarien" sex="MALE">
-            <persName>Notarien</persName><!--castList-->
-            <persName>Notarien</persName><!--speaker-->
-            <persName>notarie</persName><!--editorial-->
+            <persName>Notarien</persName>
+<!--castList-->
+            <persName>Notarien</persName>
+<!--speaker-->
+            <persName>notarie</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spDenäldreflickan" sex="FEMALE">
-            <persName>Den äldre</persName><!--speaker-->
+            <persName>Den äldre</persName>
+<!--speaker-->
           </person>
-          
           <person xml:id="spDenyngreflickan" sex="FEMALE">
-            <persName>Den yngre</persName><!--speaker-->
+            <persName>Den yngre</persName>
+<!--speaker-->
           </person>
-          
           <person xml:id="spNilla" sex="FEMALE">
-            <persName>Nilla</persName><!--castList-->
-            <persName>Nilla</persName><!--speaker-->
-            <persName>Nilla</persName><!--editorial-->
+            <persName>Nilla</persName>
+<!--castList-->
+            <persName>Nilla</persName>
+<!--speaker-->
+            <persName>Nilla</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spBirger" sex="MALE">
-            <persName>Birger</persName><!--castList-->
-            <persName>Birger</persName><!--speaker-->
-            <persName>Birger</persName><!--editorial-->
+            <persName>Birger</persName>
+<!--castList-->
+            <persName>Birger</persName>
+<!--speaker-->
+            <persName>Birger</persName>
+<!--editorial-->
           </person>
         </listPerson>
       </particDesc>
     </profileDesc>
-
   </teiHeader>
   <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="29194-0.jpg"/>
-      <gap reason="irrelevant"/><!-- annan text -->
+      <gap reason="irrelevant"/>
+<!-- annan text -->
       <performance>
         <p>Uppförd tjugosju gånger å Kgl. Dramatiska teatern,
           <lb/> första gången <date when="1887-03-07">den 7 mars 1887</date>, med fru <emph>Ellen Hartman</emph>
-          <lb/> i hufvudrollen<ref type="noteAnchor" target="#note1">*)</ref><note place="bottom" xml:id="note1"><label>*)</label> Vi äro öfvertygade om att vi göra våra läsare ett särskildt nöje 
+          <lb/> i hufvudrollen<ref type="noteAnchor" target="#note1">*)</ref>
+          <note place="bottom" xml:id="note1">
+            <label>*)</label> Vi äro öfvertygade om att vi göra våra läsare ett särskildt nöje 
           <lb/> genom att bifoga ofvanstående porträtt af den frejdade konst­<lb break="no"/>närinnan i denna hennes så omtyckta roll.</note>.</p>
       </performance>
-      <gap reason="irrelevant"/><!-- eftertryck förbjudes, etc. -->
+      <gap reason="irrelevant"/>
+<!-- eftertryck förbjudes, etc. -->
       <castList>
         <head>Personerna:</head>
         <castItem>
-          <role><persName ref="#Häradshöfdingen">Häradshöfding Eskilson</persName></role>, <roleDesc>domhafvande på landet</roleDesc>,
+          <role>
+            <persName ref="#Häradshöfdingen">Häradshöfding Eskilson</persName>
+          </role>, <roleDesc>domhafvande på landet</roleDesc>,
         </castItem>
         <castItem>
-          <role><persName ref="#Siri">Siri</persName></role>, <roleDesc>hans brorsdotter</roleDesc>,
+          <role>
+            <persName ref="#Siri">Siri</persName>
+          </role>, <roleDesc>hans brorsdotter</roleDesc>,
         </castItem>
         <castItem>
-          <role><persName ref="#Ida">Ida</persName></role>, <roleDesc>hans systerdotter</roleDesc>,
+          <role>
+            <persName ref="#Ida">Ida</persName>
+          </role>, <roleDesc>hans systerdotter</roleDesc>,
         </castItem>
         <castItem>
-          <role><persName ref="#Birger">Birger</persName></role>, <roleDesc><persName ref="#Ida">Idas</persName> fästman</roleDesc>,
+          <role>
+            <persName ref="#Birger">Birger</persName>
+          </role>, <roleDesc>
+            <persName ref="#Ida">Idas</persName> fästman</roleDesc>,
         </castItem>
         <castItem>
-          <role><persName ref="#Nilla">Nilla</persName></role>, <roleDesc>gammal hushållerska</roleDesc>,
+          <role>
+            <persName ref="#Nilla">Nilla</persName>
+          </role>, <roleDesc>gammal hushållerska</roleDesc>,
         </castItem>
         <castItem>
-          <role><persName ref="#Notarien">Notarien</persName></role>,
+          <role>
+            <persName ref="#Notarien">Notarien</persName>
+          </role>,
         </castItem>
-      	<castItem>
+        <castItem>
           <roleGroup>
-            <roleDesc><persName ref="#Flickorna">Flickorna</persName></roleDesc>.
+            <roleDesc>
+              <persName ref="#Flickorna">Flickorna</persName>
+            </roleDesc>.
             <role corresp="#Denyngreflickan"/>
             <role corresp="#Denäldreflickan"/>
           </roleGroup>
@@ -312,84 +342,89 @@
             <lb/> bordet står <rs type="hand" ref="#handarbetep1">ett syskrin</rs>.</p>
         </stage>
         <figure>
-         <graphic url="BenedictssonV_ITelefon-1.jpeg"/>
-         <figDesc>Etsning (efter foto) föreställande Ellen Hartman. Hon står vid en väggfast telefon och telefonerar.</figDesc>
+          <graphic url="BenedictssonV_ITelefon-1.jpeg"/>
+          <figDesc>Etsning (efter foto) föreställande Ellen Hartman. Hon står vid en väggfast telefon och telefonerar.</figDesc>
         </figure>
         <sp who="#spSiri">
-         <speaker>Siri</speaker> <stage>(sitter och skrifver. Det 
+          <speaker>Siri</speaker>
+          <stage>(sitter och skrifver. Det 
            <lb/> ringer i telefonen. Hon springer upp; talar i luren).</stage>
-         <p>Är det du, <persName ref="#Karl">Karl</persName>?</p>
-         <stage>(Paus. Hon lyssnar på svaret.)</stage>
-         <p>Hvarför har du inte ringt på under de här 
+          <p>Är det du, <persName ref="#Karl">Karl</persName>?</p>
+          <stage>(Paus. Hon lyssnar på svaret.)</stage>
+          <p>Hvarför har du inte ringt på under de här 
            <lb/> två dagarne?</p>
-         <stage rend="stars">* * *</stage>
-         <p>Jag kunde just tro det! Det låter så under­<lb break="no"/>ligt när du talar. Stryk talg under fötterna och 
+          <stage rend="stars">* * *</stage>
+          <p>Jag kunde just tro det! Det låter så under­<lb break="no"/>ligt när du talar. Stryk talg under fötterna och 
            <lb/> bind en ullstrumpa om halsen i qväll när du lägger 
            <lb/> dig, men kom i håg, att afvigan skall vara utåt, 
            <lb/> annars hjelper det inte. Så gör alltid jag, när 
            <lb/> jag är förkyld.</p>
-         <stage rend="stars">* * *</stage>
-         <p>Hvarför skrattar du?</p>
-         <stage rend="stars">* * *</stage>
-         <cb n="2"/>
-         <stage rend="stars">* * *</stage>
-         <p>Jo, jag tyckte bestämdt att du skrattade.</p>
-         <stage rend="stars">* * *</stage>
-         <p>Ja så. — Vet du jag blir alldeles ensam 
+          <stage rend="stars">* * *</stage>
+          <p>Hvarför skrattar du?</p>
+          <stage rend="stars">* * *</stage>
+          <cb n="2"/>
+          <stage rend="stars">* * *</stage>
+          <p>Jo, jag tyckte bestämdt att du skrattade.</p>
+          <stage rend="stars">* * *</stage>
+          <p>Ja så. — Vet du jag blir alldeles ensam 
            <lb/> hemma i qväll. De andra skola på bal.</p>
-         <stage rend="stars">* * *</stage>
-         <p>Herre Gud, du må väl veta att inte jag har 
+          <stage rend="stars">* * *</stage>
+          <p>Herre Gud, du må väl veta att inte jag har 
            <lb/> någon klädning att komma på bal med!</p>
-         <stage rend="stars">* * *</stage>
-         <p>Jo, <persName ref="#Ida">Ida</persName> skall med. Och <persName ref="#Notarien">notarien</persName>! Du kan 
+          <stage rend="stars">* * *</stage>
+          <p>Jo, <persName ref="#Ida">Ida</persName> skall med. Och <persName ref="#Notarien">notarien</persName>! Du kan 
            <lb/> tro att han slår vådligt för henne.</p>
-         <stage rend="stars">* * *</stage>
-         <p>Jo nog är hon förtjust i honom, det slår 
+          <stage rend="stars">* * *</stage>
+          <p>Jo nog är hon förtjust i honom, det slår 
            <lb/> aldrig fel. Och <persName ref="#Häradshöfdingen">farbror</persName> har grälat alldeles rysligt 
            <lb/> på henne. Det hörde jag sjelf, för dörren var inte 
            <lb/> riktigt stängd. Han sade att <persName ref="#Birger">hennes fästman</persName> är 
            <lb/> den bästa menniska i verlden, och att det är både
            <lb/> synd och skam som hon bär sig åt emot honom.</p>
-         <stage rend="stars">* * *</stage>
-         <p>Åh, hon förlofvade sig väl med honom derför 
+          <stage rend="stars">* * *</stage>
+          <p>Åh, hon förlofvade sig väl med honom derför 
            <lb/> att han är så rik, kan jag tro.</p>
-         <stage rend="stars">* * *</stage>
-         <p>Det vet jag inte, men jag har hört <persName ref="#Flickorna">flickorna</persName>
-           <lb/> tala om honom. I sällskap är han tvär som en 
+          <stage rend="stars">* * *</stage>
+          <p>Det vet jag inte, men jag har hört <persName ref="#Flickorna">flickorna</persName>
+            <lb/> tala om honom. I sällskap är han tvär som en 
            <lb/> dogg, och så kommer han in i rummen med stora 
            <lb/> ridstöflar på. Han är inte alls chic. — Vet du 
            <lb/> hvad det är: chic?</p>
-         <stage rend="stars">* * *</stage>
-         <p>Det är när man är riktigt stilig, — som <persName ref="#Notarien">no­<lb break="no"/>tarien</persName>. <persName ref="#Ida">Ida</persName> säger alltid att han är chic.</p>
-         <stage rend="stars">* * *</stage>
-         <p>Du!? — Nej, det blir du aldrig i tiden.</p>
-         <stage rend="stars">* * *</stage>
-         <p>Nu måtte du blygs! Har jag någonsin sagt 
+          <stage rend="stars">* * *</stage>
+          <p>Det är när man är riktigt stilig, — som <persName ref="#Notarien">no­<lb break="no"/>tarien</persName>. <persName ref="#Ida">Ida</persName> säger alltid att han är chic.</p>
+          <stage rend="stars">* * *</stage>
+          <p>Du!? — Nej, det blir du aldrig i tiden.</p>
+          <stage rend="stars">* * *</stage>
+          <p>Nu måtte du blygs! Har jag någonsin sagt 
            <lb/> det? Du är en lång räkel med stora öron och 
            <lb/> smala ben; men jag kan tycka bra om dig i 
            <lb/> alla fall.</p>
-         <stage rend="stars">* * *</stage>
-         <p>Nej, du! Det kan aldrig falla mig in. Jag 
+          <stage rend="stars">* * *</stage>
+          <p>Nej, du! Det kan aldrig falla mig in. Jag 
            <lb/> vet precis hur min fästman skall se ut. Han skall
            <lb/> inte alls vara lik dig, och så skall han vara så
            <lb/> snäll och förståndig, och — —</p>
-         <stage rend="stars">* * *</stage>
-         <p>Kors, hvad du intresserar dig för <persName ref="#Notarien">notarien</persName>!
+          <stage rend="stars">* * *</stage>
+          <p>Kors, hvad du intresserar dig för <persName ref="#Notarien">notarien</persName>!
            <lb/> Jo, <persName ref="#Häradshöfdingen">farbror</persName> säger, att han blir nog vice härads­<lb break="no"/>höfding efter nästa <orgName ref="#Tinget">ting</orgName>. Han kommer att sluta 
-           <lb/> som statsråd, säger <persName ref="#Häradshöfdingen">farbror</persName>, och — — —</p> <stage>(Afbryter 
+           <lb/> som statsråd, säger <persName ref="#Häradshöfdingen">farbror</persName>, och — — —</p>
+          <stage>(Afbryter 
            <lb/> hastigt, sätter sig vid bordet och börjar skrifva.)</stage>
         </sp>
         <stage type="entrance" who="#Häradshöfdingen"/>
         <sp who="#spHäradshöfdingen">
           <speaker>Häradshöfdingen.</speaker>
           <p>Det var rätt, att du arbetar, <persName ref="#Siri">min pulla lilla</persName>.</p>
-            <lb/> <stage>(Det ringer.)</stage> <p>Hvem ringer i telefonen så här dags?</p>
+          <lb/>
+          <stage>(Det ringer.)</stage>
+          <p>Hvem ringer i telefonen så här dags?</p>
         </sp>
         <sp who="#spSiri">
           <speaker>Siri.</speaker>
           <p>Jag skall höra efter. <stage>(Går fram till telefonen.)</stage>
             <lb/> Hvem der? <stage>(Barskt, i telefonen.)</stage> Låt bli att ringa
-            <lb/> på; jag har inte tid.</p> <stage>(Återtager sin plats.)</stage>
+            <lb/> på; jag har inte tid.</p>
+          <stage>(Återtager sin plats.)</stage>
         </sp>
         <sp who="#spHäradshöfdingen">
           <speaker>Häradshöfdingen.</speaker>
@@ -401,7 +436,8 @@
         </sp>
         <sp who="#spHäradshöfdingen">
           <speaker>Häradshöfdingen.</speaker>
-          <p>Ja så, <persName ref="#Karl"><persName ref="#Länsman">länsmannens</persName> pojke</persName>! Jag vet inte hvad
+          <p>Ja så, <persName ref="#Karl">
+              <persName ref="#Länsman">länsmannens</persName> pojke</persName>! Jag vet inte hvad
             <lb/> det är för ett oskick att låta honom regera med
             <lb/> telefonen, jag skall — — —</p>
         </sp>
@@ -416,11 +452,13 @@
             <lb/> Var nu inte ledsen för det du skall stanna hemma.
             <lb/> Du är så ung ännu, och det är bara flärd och dår­<lb break="no"/>skap. Du har mycket bättre af att sitta här och
             <lb/> skrifva; — och din tid kommer nog. Var nu inte
-            <lb/> ledsen!</p> <stage type="exit" who="#Häradshöfdingen">(Går.)</stage>
+            <lb/> ledsen!</p>
+          <stage type="exit" who="#Häradshöfdingen">(Går.)</stage>
         </sp>
         <pb facs="29194-1.jpg"/>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(ringer häftigt på tele­<lb break="no"/>fonen. Blir otålig, ringer ännu en gång).</stage>
+          <speaker>Siri</speaker>
+          <stage>(ringer häftigt på tele­<lb break="no"/>fonen. Blir otålig, ringer ännu en gång).</stage>
           <p>Är du der, <persName ref="#Karl">Karl</persName>?</p>
           <stage>(Lyssnar.)</stage>
           <p>Har jag inte sagt dig mång hundrade gånger,
@@ -429,16 +467,20 @@
             <lb/> af. Nu stod du der igen och pinglade medan <persName ref="#Häradshöfdingen">far­<lb break="no"/>bror</persName> var här! Jag förbehåller mig att sådant inte
             <lb/> sker oftare. — Hvad var det du ville säga?</p>
           <stage rend="stars">* * *</stage>
-          <stage>(Lifligt.)</stage> <p>Åh prat! Är <persName ref="#Birger"><persName ref="#Ida">Idas</persName> fästman</persName> hos er?</p>
+          <stage>(Lifligt.)</stage>
+          <p>Åh prat! Är <persName ref="#Birger">
+              <persName ref="#Ida">Idas</persName> fästman</persName> hos er?</p>
           <stage rend="stars">* * *</stage>
           <p>Det var roligt: jag vill så gerna se honom.</p>
           <stage rend="stars">* * *</stage>
           <p>Rider han ginvägen, så kan han vara här om
             <lb/> en knapp halftimma. Men du bör säga honom, att
-            <lb/> <persName ref="#Ida">Ida</persName> kommer inte hem förr än sent i qväll.</p>
+            <lb/>
+            <persName ref="#Ida">Ida</persName> kommer inte hem förr än sent i qväll.</p>
           <stage rend="stars">* * *</stage>
           <p>Jag? — Jo, jag skall sitta här inne och skrifva
-            <lb/> hela qvällen. Adjö med dig.</p> <stage>(Nickar i telefonen.
+            <lb/> hela qvällen. Adjö med dig.</p>
+          <stage>(Nickar i telefonen.
             <lb/> Hon sätter sig vid skrifbordet och bläddrar i papperen.)</stage>
         </sp>
         <stage type="entrance" who="#Ida"/>
@@ -451,26 +493,31 @@
             <lb/> jag är varm!</p>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(syr fast <rs type="hand" ref="#handarbetep4">knappen</rs>).</stage>
+          <speaker>Siri</speaker>
+          <stage>(syr fast <rs type="hand" ref="#handarbetep4">knappen</rs>).</stage>
         </sp>
         <sp who="#spIda">
-          <speaker>Ida</speaker> <stage>(ropar utåt fonden).</stage>
+          <speaker>Ida</speaker>
+          <stage>(ropar utåt fonden).</stage>
           <p>Snälla <persName ref="#Notarien">notarien</persName>, jag glömde min solfjäder der
             <lb/> uppe på bordet!</p>
         </sp>
         <sp who="#spNotarien">
-          <speaker>Notarien</speaker> <stage type="entrance" who="#Notarien">(med solfjädern).</stage>
+          <speaker>Notarien</speaker>
+          <stage type="entrance" who="#Notarien">(med solfjädern).</stage>
           <p>Spiran var det enda som fattades, — jag har
             <lb/> den äran.</p>
         </sp>
         <sp who="#spIda">
           <speaker>Ida.</speaker>
           <p>Akta er för min onåd! — Se så. Adjö, <persName ref="#Siri">lilla
-            <lb/> Siri</persName>; tack för hjelpen.</p> <stage type="exit" who="#Ida #Notarien">(Ida och notarien gå.)</stage>
+            <lb/> Siri</persName>; tack för hjelpen.</p>
+          <stage type="exit" who="#Ida #Notarien">(Ida och notarien gå.)</stage>
         </sp>
         <anchor type="hand" xml:id="handarbete1slut"/>
         <sp who="#spDenyngreflickan #spDenäldreflickan">
-          <speaker>Flickorna</speaker> <stage type="entrance" who="#Denyngreflickan #Denäldreflickan">(komma balklädda in från fonden).</stage>
+          <speaker>Flickorna</speaker>
+          <stage type="entrance" who="#Denyngreflickan #Denäldreflickan">(komma balklädda in från fonden).</stage>
           <p>Adjö, <persName ref="#Siri">Siri</persName>!</p>
         </sp>
         <sp who="#spSiri">
@@ -478,7 +525,8 @@
           <p>Nej, kom in, låt mig se riktigt på er.</p>
         </sp>
         <sp who="#spDenäldreflickan">
-          <speaker>Den äldre</speaker> <stage>(vänder sig rundt om).</stage>
+          <speaker>Den äldre</speaker>
+          <stage>(vänder sig rundt om).</stage>
           <p>Nå?</p>
         </sp>
         <sp who="#spSiri">
@@ -489,7 +537,8 @@
           <speaker>Den yngre.</speaker>
           <p>Du kan tro, att <persName ref="#Flickorna">elevernas</persName> blomsterdans tar
             <lb/> sig ut. Det är som en riktig balett. Vi skola
-            <lb/> dansa ett pas de deux. Se här!</p> <stage>(De dansa.)</stage>
+            <lb/> dansa ett pas de deux. Se här!</p>
+          <stage>(De dansa.)</stage>
         </sp>
         <sp who="#spSiri">
           <speaker>Siri.</speaker>
@@ -498,7 +547,8 @@
         <sp who="#spDenyngreflickan">
           <speaker>Den yngre.</speaker>
           <p>Men svårt, kan du tro! Man skall vara så
-            <lb/> lätt och mjuk. Se här!</p> <stage>(Gör några dansställningar.)</stage>
+            <lb/> lätt och mjuk. Se här!</p>
+          <stage>(Gör några dansställningar.)</stage>
         </sp>
         <sp who="#spDenäldreflickan">
           <speaker>Den äldre.</speaker>
@@ -506,23 +556,31 @@
         </sp>
         <sp who="#spDenyngreflickan">
           <speaker>Den yngre.</speaker>
-          <p>Adjö!</p> <stage type="exit" who="#Denyngreflickan #Denäldreflickan">(De springa ut.)</stage>
+          <p>Adjö!</p>
+          <stage type="exit" who="#Denyngreflickan #Denäldreflickan">(De springa ut.)</stage>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(kastar sig ned vid skrif­<lb break="no"/>bordet och gömmer ansigtet i sina händer. Man hör en
+          <speaker>Siri</speaker>
+          <stage>(kastar sig ned vid skrif­<lb break="no"/>bordet och gömmer ansigtet i sina händer. Man hör en
             <lb/> bortrullande vagn).</stage>
         </sp>
-        <gap reason="irrelevant"/><!-- pjäsen avbryts och fortsätter i nytt nummer -->
-        <pb facs="29194-2.jpg"/><fw type="pageNum">271</fw>
+        <gap reason="irrelevant"/>
+<!-- pjäsen avbryts och fortsätter i nytt nummer -->
+        <pb facs="29194-2.jpg"/>
+        <fw type="pageNum">271</fw>
         <gap reason="irrelevant"/>
         <sp who="#spNilla">
-          <speaker>Nilla</speaker> <stage type="entrance" who="#Nilla">(från sidodörren).</stage>
-          <p><persName ref="#Siri">Kära mitt lilla barn</persName>! Sitter hon här och är
+          <speaker>Nilla</speaker>
+          <stage type="entrance" who="#Nilla">(från sidodörren).</stage>
+          <p>
+            <persName ref="#Siri">Kära mitt lilla barn</persName>! Sitter hon här och är
             <lb/> ledsen?</p>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(torkar ögonen).</stage>
-          <p>Nej, jag är visst inte ledsen.</p> <stage>(Börjar skrifva.)</stage>
+          <speaker>Siri</speaker>
+          <stage>(torkar ögonen).</stage>
+          <p>Nej, jag är visst inte ledsen.</p>
+          <stage>(Börjar skrifva.)</stage>
         </sp>
         <sp who="#spNilla">
           <speaker>Nilla.</speaker>
@@ -539,35 +597,47 @@
           <speaker>Nilla.</speaker>
           <p>Ja, jag sade ifrån att jag kunde väl få plocka
             <lb/> litet godt åt henne, efter som hon skulle sitta så
-            <lb/> ensam hemma. — <said who="#Häradshöfdingen"><quote type="proverb">»Ju mer dess bättre«</quote></said>, sa <persName ref="#Häradshöfdingen">härads­<lb break="no"/>höfdingen</persName>. Och nu skall hon bara få se!</p>
+            <lb/> ensam hemma. — <said who="#Häradshöfdingen">
+              <quote type="proverb">»Ju mer dess bättre«</quote>
+            </said>, sa <persName ref="#Häradshöfdingen">härads­<lb break="no"/>höfdingen</persName>. Och nu skall hon bara få se!</p>
         </sp>
         <sp who="#spSiri">
           <speaker>Siri.</speaker>
-          <p><persName ref="#Nilla">Nilla</persName> är alltid snäll.</p>
+          <p>
+            <persName ref="#Nilla">Nilla</persName> är alltid snäll.</p>
         </sp>
         <sp who="#spNilla">
           <speaker>Nilla.</speaker>
           <p>Skulle väl det! — mot <persName ref="#Siri">min egen lille vän</persName>.</p>
-            <lb/> <stage>(<stage type="exit" who="#Nilla">Går ut</stage> och <stage type="entrance" who="#Nilla">kommer strax in</stage> med läckerheterna.)</stage> <p>Se så; 
+          <lb/>
+          <stage>(<stage type="exit" who="#Nilla">Går ut</stage> och <stage type="entrance" who="#Nilla">kommer strax in</stage> med läckerheterna.)</stage>
+          <p>Se så; 
             <lb/> nu kan hon ta sig en bit när hon har lust. Adjö,
-            <lb/> <persName ref="#Siri">mitt lilla gryn</persName>!</p> <stage type="exit" who="#Nilla">(Går.)</stage>
+            <lb/>
+            <persName ref="#Siri">mitt lilla gryn</persName>!</p>
+          <stage type="exit" who="#Nilla">(Går.)</stage>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(sitter och funderar).</stage>
-          <p><persName ref="#Karl">Stackars Kalle</persName>! Om jag ändå kunde telefonera
-            <lb/> något af allt detta till honom!</p> <stage>(Börjar att ordna för­<lb break="no"/>friskningarne. Skakar missmodigt på hufvudet, men klar­<lb break="no"/>nar igen. Sätter beskäftigt en stol till bordet och låtsar
+          <speaker>Siri</speaker>
+          <stage>(sitter och funderar).</stage>
+          <p>
+            <persName ref="#Karl">Stackars Kalle</persName>! Om jag ändå kunde telefonera
+            <lb/> något af allt detta till honom!</p>
+          <stage>(Börjar att ordna för­<lb break="no"/>friskningarne. Skakar missmodigt på hufvudet, men klar­<lb break="no"/>nar igen. Sätter beskäftigt en stol till bordet och låtsar
             <lb/> som om hon talade till någon. Bjuder af assietterna,
             <lb/> tager vinflaskan och sätter korkskrufven i.)</stage>
         </sp>
         <stage type="entrance" who="#Nilla"/>
         <sp who="#spNilla">
           <speaker>Nilla.</speaker>
-          <p>Kan hon tänka sig! <persName ref="#Birger"><persName ref="#Ida">Fröken Idas</persName> fästman</persName> är
+          <p>Kan hon tänka sig! <persName ref="#Birger">
+              <persName ref="#Ida">Fröken Idas</persName> fästman</persName> är
             <lb/> kommen, — flängande på ett ök som om hin vore
             <lb/> efter honom.</p>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(sätter flaskan).</stage>
+          <speaker>Siri</speaker>
+          <stage>(sätter flaskan).</stage>
           <p>Ja så.</p>
         </sp>
         <sp who="#spNilla">
@@ -583,19 +653,24 @@
           <speaker>Nilla.</speaker>
           <p>Jag bad honom stiga upp i salongen, men han
             <lb/> sade att han hellre ville gå hit in, så kunde han
-            <lb/> få någon att prata med.</p> <stage>(Har, medan hon talat, gömt
-            <lb/> undan förfriskningarne.)</stage> <p>Ack, se der! Låt mig bara 
-            <lb/> komma ut!</p> <stage type="exit" who="#Nilla">(Försvinner genom sidodörren.)</stage>
+            <lb/> få någon att prata med.</p>
+          <stage>(Har, medan hon talat, gömt
+            <lb/> undan förfriskningarne.)</stage>
+          <p>Ack, se der! Låt mig bara 
+            <lb/> komma ut!</p>
+          <stage type="exit" who="#Nilla">(Försvinner genom sidodörren.)</stage>
         </sp>
         <stage type="entrance" who="#Birger"/>
         <sp who="#spBirger">
-          <speaker>Birger</speaker> <stage>(i riddrägt).</stage>
+          <speaker>Birger</speaker>
+          <stage>(i riddrägt).</stage>
           <p>Förlåt att jag tränger in så här. — Jag är
             <lb/> wäl på sätt och vis presenterad? — eller anmäld,
             <lb/> rättare sagdt.</p>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(helsar, generad).</stage>
+          <speaker>Siri</speaker>
+          <stage>(helsar, generad).</stage>
         </sp>
         <sp who="#spBirger">
           <speaker>Birger.</speaker>
@@ -666,11 +741,13 @@
             <lb/> vi skulle kunna bli rätt goda vänner.</p>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker>  <stage>(reser sig).</stage>
+          <speaker>Siri</speaker>
+          <stage>(reser sig).</stage>
           <p>Vill ni inte ha — kaffe?</p>
         </sp>
         <sp who="#spBirger">
-          <speaker>Birger</speaker> <stage>(skrattar).</stage>
+          <speaker>Birger</speaker>
+          <stage>(skrattar).</stage>
           <p>Nej tack.</p>
           <stage>(Paus.)</stage>
           <p>Om jag nu inte kommit och stört er, hvad
@@ -689,7 +766,8 @@
           <p>Ja; jag skrifver rent.</p>
         </sp>
         <sp who="#spBirger">
-          <speaker>Birger</speaker> <stage>(går fram till bordet).</stage>
+          <speaker>Birger</speaker>
+          <stage>(går fram till bordet).</stage>
           <p>Är detta er stil?</p>
         </sp>
         <sp who="#spSiri">
@@ -777,7 +855,8 @@
         </sp>
         <sp who="#spBirger">
           <speaker>Birger.</speaker>
-          <p>Han ville gerna kommit hit<supplied>.</supplied></p>
+          <p>Han ville gerna kommit hit<supplied>.</supplied>
+          </p>
         </sp>
         <sp who="#spSiri">
           <speaker>Siri.</speaker>
@@ -796,7 +875,8 @@
           <p>Ni gömde någonting innan jag kom?</p>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(skrattar).</stage>
+          <speaker>Siri</speaker>
+          <stage>(skrattar).</stage>
         </sp>
         <sp who="#spBirger">
           <speaker>Birger.</speaker>
@@ -843,7 +923,8 @@
           <p>Hvilken fråssare!</p>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(triumferande).</stage>
+          <speaker>Siri</speaker>
+          <stage>(triumferande).</stage>
           <p>Och hasselnötter och valnötter!</p>
         </sp>
         <sp who="#spBirger">
@@ -854,7 +935,8 @@
           <speaker>Siri.</speaker>
           <p>Jag hade väl fått försöka.</p>
         </sp>
-        <gap reason="irrelevant"/><!-- pjäsen avbryts och fortsätter i nytt nummer -->
+        <gap reason="irrelevant"/>
+<!-- pjäsen avbryts och fortsätter i nytt nummer -->
         <pb facs="29194-3.jpg"/>
         <gap reason="irrelevant"/>
         <sp who="#spBirger">
@@ -874,7 +956,8 @@
           <p>Men — — — —</p>
         </sp>
         <sp who="#spBirger">
-          <speaker>Birger</speaker> <stage>(skrattar).</stage>
+          <speaker>Birger</speaker>
+          <stage>(skrattar).</stage>
           <p>— det passar sig inte?</p>
         </sp>
         <sp who="#spSiri">
@@ -934,8 +1017,10 @@
         </sp>
         <sp who="#spSiri">
           <speaker>Siri.</speaker>
-          <p>Nå, då!</p> <stage>(Springer upp och börjar ställa i ordning.
-            <lb/> Betänksamt.)</stage> <p>Men vi borde visst gå in i salongen?</p>
+          <p>Nå, då!</p>
+          <stage>(Springer upp och börjar ställa i ordning.
+            <lb/> Betänksamt.)</stage>
+          <p>Men vi borde visst gå in i salongen?</p>
         </sp>
         <sp who="#spBirger">
           <speaker>Birger.</speaker>
@@ -943,7 +1028,8 @@
             <lb/> stanna här.</p>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(fortfar att ordna, lägger
+          <speaker>Siri</speaker>
+          <stage>(fortfar att ordna, lägger
             <lb/> ved i ugnen).</stage>
           <p>Se så, ha vi det inte trefligt?</p>
         </sp>
@@ -955,10 +1041,12 @@
         <sp who="#spSiri">
           <speaker>Siri.</speaker>
           <p>Inte ett dugg! Hjelp mig med den här.</p>
-          <lb/> <stage>(Räcker honom vinbuteljen.)</stage>
+          <lb/>
+          <stage>(Räcker honom vinbuteljen.)</stage>
         </sp>
         <sp who="#spBirger">
-          <speaker>Birger</speaker> <stage>(drar upp den och slår
+          <speaker>Birger</speaker>
+          <stage>(drar upp den och slår
             <lb/>i glasen).</stage>
           <p>Så der.</p>
         </sp>
@@ -1020,7 +1108,8 @@
           <speaker>Siri.</speaker>
           <p>Ja, — fast inte är det som hemma ändå.</p>
         </sp>
-        <pb facs="29194-4.jpg"/><fw type="pageNum">279</fw>
+        <pb facs="29194-4.jpg"/>
+        <fw type="pageNum">279</fw>
         <sp who="#spBirger">
           <speaker>Birger.</speaker>
           <p>Berätta om ert hem för mig.</p>
@@ -1031,7 +1120,8 @@
             <lb/> inte varit annat än tjenstflicka, och <persName ref="#SirisFar">pappas</persName> slägt
             <lb/> tyckte illa om att han gifte sig med henne. Och
             <lb/> så brydde de sig inte om att hjelpa honom. Och
-            <lb/> <persName ref="#SirisMor">mamma</persName> blef så sjuk. Det var svårt för <persName ref="#SirisFar">pappa</persName> att
+            <lb/>
+            <persName ref="#SirisMor">mamma</persName> blef så sjuk. Det var svårt för <persName ref="#SirisFar">pappa</persName> att
             <lb/> slå sig fram. Han hade arrenderat <persName ref="#Länsman">länsmannens</persName>
             <lb/> gård, och vi bodde i en liten flygelbyggnad. <persName ref="#Karl">Karl</persName>
             <lb/> och jag lekte alltid till samman. — — — — Jag
@@ -1086,7 +1176,8 @@
             <lb/> är trefligare än att sitta på ett kontor! — — —
             <lb/> Ja visst, jag förstår. Och så blir man fru och får
             <lb/> appanage. <quote>»De spinna icke och samla icke i la­<lb break="no"/>dorna«</quote> — det göra fruarna aldrig — <quote>»men icke
-            <lb/> <persName ref="#Salomo">Salomo</persName> i all sin prakt var härligare klädd än en
+            <lb/>
+              <persName ref="#Salomo">Salomo</persName> i all sin prakt var härligare klädd än en
             <lb/> af dem.«</quote> — Detta är hvad qvinnorna mena med
             <lb/> att komma ut i verlden. Ja så, det är så ni vill
             <lb/> ha det?</p>
@@ -1184,7 +1275,8 @@
         </sp>
         <sp who="#spSiri">
           <speaker>Siri.</speaker>
-          <p><placeName>Italien</placeName> till exempel.</p>
+          <p>
+            <placeName>Italien</placeName> till exempel.</p>
         </sp>
         <sp who="#spBirger">
           <speaker>Birger.</speaker>
@@ -1194,7 +1286,8 @@
         <sp who="#spSiri">
           <speaker>Siri.</speaker>
           <p>Nej, jag tror det inte; jag säger bara att det
-            <lb/> <emph>kunde</emph> komma en. — — — — Det viste jag! 
+            <lb/>
+            <emph>kunde</emph> komma en. — — — — Det viste jag! 
             <lb/> Det är så tokigt, — och ni skrattar!</p>
         </sp>
         <sp who="#spBirger">
@@ -1254,7 +1347,8 @@
         </sp>
         <sp who="#spSiri">
           <speaker>Siri.</speaker>
-          <p>Ne—ej, inte glad, för det var ju fasligt led­<lb break="no"/>samt. Men jag tycker bättre om er.</p> <stage>(Flyttar sig
+          <p>Ne—ej, inte glad, för det var ju fasligt led­<lb break="no"/>samt. Men jag tycker bättre om er.</p>
+          <stage>(Flyttar sig
             <lb/> närmare.)</stage>
         </sp>
         <cb n="3"/>
@@ -1353,8 +1447,10 @@
             <lb/> att göra narr åt mig, derför att jag inte är så fin
             <lb/> som de!</p>
         </sp>
-        <gap reason="irrelevant"/><!-- pjäsen avbryts och fortsätter i nytt nummer -->
-        <pb facs="29194-5.jpg"/><fw type="pageNum">287</fw>
+        <gap reason="irrelevant"/>
+<!-- pjäsen avbryts och fortsätter i nytt nummer -->
+        <pb facs="29194-5.jpg"/>
+        <fw type="pageNum">287</fw>
         <gap reason="irrelevant"/>
         <sp who="#spBirger">
           <speaker>Birger.</speaker>
@@ -1378,7 +1474,8 @@
           <p>Så—å? — Men hvad tror ni att <persName ref="#Ida">Ida</persName> skall säga?</p>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(hastigt).</stage>
+          <speaker>Siri</speaker>
+          <stage>(hastigt).</stage>
           <p>Tala inte om det!</p>
         </sp>
         <sp who="#spBirger">
@@ -1433,7 +1530,8 @@
             <lb/> gång till?</p>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(ser på honom).</stage>
+          <speaker>Siri</speaker>
+          <stage>(ser på honom).</stage>
         </sp>
         <sp who="#spBirger">
           <speaker>Birger.</speaker>
@@ -1450,16 +1548,19 @@
           <p>Tag mig i hand på det.</p>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(räcker honom handen).</stage>
+          <speaker>Siri</speaker>
+          <stage>(räcker honom handen).</stage>
         </sp>
         <sp who="#spBirger">
-          <speaker>Birger</speaker> <stage>(qvarhållande hennes 
+          <speaker>Birger</speaker>
+          <stage>(qvarhållande hennes 
             <lb/> hand).</stage>
           <p>Kan ni taga mig i hand på det andra också?
             <lb/> — det om <persName ref="#Ida">Ida</persName>.</p>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(rycker handen till sig).</stage>
+          <speaker>Siri</speaker>
+          <stage>(rycker handen till sig).</stage>
         </sp>
         <sp who="#spBirger">
           <speaker>Birger.</speaker>
@@ -1476,7 +1577,8 @@
             <lb/> Här skall ni sitta. Se så. Vänd er hitåt. Så der ja.
             <lb/> Hör nu på:</p>
           <p>Jag var inte mer än tjugu år, när jag träffade
-            <lb/> <persName ref="#Ida">Ida</persName>, och jag hade inte varit bekant med många
+            <lb/>
+            <persName ref="#Ida">Ida</persName>, och jag hade inte varit bekant med många
             <lb/> flickor. Jag blef betagen i henne med ens. Jag
             <lb/> viste hvarken om hon var elak eller god, jag viste
             <lb/> bara att hon var den vackraste flicka jag sett. Vi
@@ -1487,7 +1589,8 @@
             <lb/> antingen jag är fattig eller rik, antingen jag kan
             <lb/> ge presenter eller ej. Ser ni, det fins stora, vuxna
             <lb/> karlar, som ha behof af ömhet precis som små barn.</p>
-          <p><persName ref="#BirgersMor">Min mor</persName> dog när jag var en pys på nio år.
+          <p>
+            <persName ref="#BirgersMor">Min mor</persName> dog när jag var en pys på nio år.
             <lb/> Men jag mins henne så väl. Mörka höstqvällar,
             <lb/> när det stormade riktigt, då kunde jag ligga med
             <lb/> lakanet upp öfver öronen och skrämma upp mig
@@ -1543,7 +1646,8 @@
             <lb/> födelsedag.</p>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(sakta).</stage>
+          <speaker>Siri</speaker>
+          <stage>(sakta).</stage>
           <p>Men ni skulle hålla af henne för det.</p>
         </sp>
         <sp who="#spBirger">
@@ -1551,7 +1655,8 @@
           <p>Kunde det uppväga allt det andra?</p>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(tvärt).</stage>
+          <speaker>Siri</speaker>
+          <stage>(tvärt).</stage>
           <p>Om ni inte vill ha mer af det här, så flyttar
           <lb/> jag ut det.</p>
         </sp>
@@ -1586,16 +1691,21 @@
           <p>Och här ha vi nu blifvit hemmastadda.</p>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(<stage type="exit" who="#Siri">går ut</stage> och <stage type="entrance" who="#Siri">kommer strax 
+          <speaker>Siri</speaker>
+          <stage>(<stage type="exit" who="#Siri">går ut</stage> och <stage type="entrance" who="#Siri">kommer strax 
             <lb/> igen</stage>).</stage>
         </sp>
         <stage type="entrance" who="#Nilla"/>
         <sp who="#spNilla">
-          <speaker>Nilla</speaker> <stage>(<stage>med tébrickan.</stage> <stage><persName ref="#Siri">Siri</persName>
-          <lb/> hjelper henne</stage>).</stage>
+          <speaker>Nilla</speaker>
+          <stage>(<stage>med tébrickan.</stage>
+            <stage>
+              <persName ref="#Siri">Siri</persName>
+              <lb/> hjelper henne</stage>).</stage>
         </sp>
         <sp who="#spBirger">
-          <speaker>Birger</speaker> <stage>(sakta).</stage>
+          <speaker>Birger</speaker>
+          <stage>(sakta).</stage>
           <p>Hör ni, är det inte lustigt i alla fall? Alla
             <lb/> de andra äro resta ifrån oss, och vi två lemnade
             <lb/> ensamma hemma, — stälda i skamvrån — af brist
@@ -1608,7 +1718,8 @@
         </sp>
         <sp who="#spNilla">
           <speaker>Nilla.</speaker>
-          <p>Jo, Gud välsigne henne!</p> <stage type="exit" who="#Nilla">(Går.)</stage>
+          <p>Jo, Gud välsigne henne!</p>
+          <stage type="exit" who="#Nilla">(Går.)</stage>
         </sp>
         <sp who="#spBirger">
           <speaker>Birger.</speaker>
@@ -1626,24 +1737,28 @@
           <p>Var ni det strax?</p>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(skrattar).</stage>
+          <speaker>Siri</speaker>
+          <stage>(skrattar).</stage>
           <p>Jo, jag skulle tro det! Och min första tanke
             <lb/> var: Allt mitt namnam! Ni kom ju och förstörde
             <lb/> hela mitt, kalas, trodde jag. Se så, nu gå vi till
             <lb/> bords! Det är jag som är värdinna. Jag har all­<lb break="no"/>tid tyckt det skulle vara så härligt att få presidera
-            <lb/> vid bordet och sköta tékannan.</p> <stage>(Serverar.)</stage>
+            <lb/> vid bordet och sköta tékannan.</p>
+          <stage>(Serverar.)</stage>
         </sp>
         <sp who="#spBirger">
           <speaker>Birger.</speaker>
           <p>Tack, tack; ni är för frikostig. Nå, glöm inte
             <lb/> er sjelf.</p>
         </sp>
-        <gap reason="irrelevant"/><!-- pjäsen avbryts och fortsätter i nytt nummer -->
+        <gap reason="irrelevant"/>
+<!-- pjäsen avbryts och fortsätter i nytt nummer -->
         <pb facs="29194-6.jpg"/>
         <gap reason="irrelevant"/>
         <sp who="#spSiri">
           <speaker>Siri.</speaker>
-          <p>Ni kan inte tänka er så läckra cakes det är<unclear>.</unclear></p>
+          <p>Ni kan inte tänka er så läckra cakes det är<unclear>.</unclear>
+          </p>
         </sp>
         <sp who="#spBirger">
           <speaker>Birger.</speaker>
@@ -1669,10 +1784,10 @@
           <p>Hvarför skall ni alltid tala om det! Kunde
             <lb/> ni inte väntat tills jag hunnit dricka mitt té? Nu
           <lb/> kan jag hvarken äta eller annat.</p>
-	</sp>
+        </sp>
         <stage rend="ind">(Det ringer i telefonen. <persName ref="#Siri">Siri</persName> vill springa upp, men
-        <lb/> <persName ref="#Birger">Birger</persName> hejdar henne.)</stage>
-
+        <lb/>
+          <persName ref="#Birger">Birger</persName> hejdar henne.)</stage>
         <sp who="#spBirger">
           <speaker>Birger.</speaker>
           <p>Bry er inte om det der. Hör nu på hvad jag
@@ -1696,7 +1811,9 @@
           <speaker>Birger.</speaker>
           <p>Nej, nu <emph>skall</emph> ni höra! — Jag kom hit med 
             <lb/> det fasta beslutet, att innan jag reser härifrån ha
-            <lb/> återlemnat den här.</p> <stage>(Visar förlofningsringen.)</stage> <p>Lika
+            <lb/> återlemnat den här.</p>
+          <stage>(Visar förlofningsringen.)</stage>
+          <p>Lika
             <lb/> mycket hvad ni sagt eller inte sagt.</p>
         </sp>
         <sp who="#spSiri">
@@ -1711,19 +1828,31 @@
         </sp>
         <sp who="#spSiri">
           <speaker>Siri.</speaker>
-          <p>Ja, min skull är det då inte; jag har ingen­<lb break="no"/>ting sagt.</p> <stage>(Det ringer.)</stage> <p>Det var <persName ref="#Karl">en välsignad pojke</persName>!</p>
-            <lb/> <stage>(Springer till telefonen. Talar i den.)</stage> <p>Men är du to­<lb break="no"/>kig, <persName ref="#Karl">Karl</persName>!</p>
+          <p>Ja, min skull är det då inte; jag har ingen­<lb break="no"/>ting sagt.</p>
+          <stage>(Det ringer.)</stage>
+          <p>Det var <persName ref="#Karl">en välsignad pojke</persName>!</p>
+          <lb/>
+          <stage>(Springer till telefonen. Talar i den.)</stage>
+          <p>Men är du to­<lb break="no"/>kig, <persName ref="#Karl">Karl</persName>!</p>
           <stage rend="stars">* * *</stage>
           <p>Ja ja, du skall väl inte rifva ned huset för
-            <lb/> det! Jag har för resten <persName ref="#Birger">främmande</persName>.</p> <stage>(Till <persName ref="#Birger">Birger</persName>,
-            <lb/> som söker afbryta henne.)</stage> <p>Nej, vänta; jag skall ge
-            <lb/> <persName ref="#Karl">pojken</persName> en dufning först.</p> <stage>(I telefonen.)</stage> <p>Hur bar du
-            <pb facs="29194-7.jpg"/><fw type="pageNum">295</fw>
+            <lb/> det! Jag har för resten <persName ref="#Birger">främmande</persName>.</p>
+          <stage>(Till <persName ref="#Birger">Birger</persName>,
+            <lb/> som söker afbryta henne.)</stage>
+          <p>Nej, vänta; jag skall ge
+            <lb/>
+            <persName ref="#Karl">pojken</persName> en dufning först.</p>
+          <stage>(I telefonen.)</stage>
+          <p>Hur bar du
+            <pb facs="29194-7.jpg"/>
+            <fw type="pageNum">295</fw>
             dig åt för en stund sedan! Pinglade midt för nä­<lb break="no"/>san på <persName ref="#Häradshöfdingen">farbror</persName>!</p>
           <stage rend="stars">* * *</stage>
           <p>Inte varit vid telefonen! Hvad är det för
-            <lb/> prat? — — — Och — — —</p> <stage>(Ser på <persName ref="#Birger">Birger</persName>.)</stage>
-            <lb/> <p>Nej, detta är <persName ref="#Karl">Karls</persName> röst, och förut — — — — </p>
+            <lb/> prat? — — — Och — — —</p>
+          <stage>(Ser på <persName ref="#Birger">Birger</persName>.)</stage>
+          <lb/>
+          <p>Nej, detta är <persName ref="#Karl">Karls</persName> röst, och förut — — — — </p>
         </sp>
         <sp who="#spBirger">
           <speaker>Birger.</speaker>
@@ -1731,9 +1860,14 @@
         </sp>
         <sp who="#spSiri">
           <speaker>Siri.</speaker>
-          <p>Ja, det var <emph>er</emph> röst!</p> <stage>(I telefonen.)</stage> <p>God natt,
-            <lb/> <persName ref="#Karl">Karl</persName>. Jag har inte tid mer.</p> <stage>(Stänger telefonen och 
-            <lb/> vänder sig mot <persName ref="#Birger">Birger</persName>.)</stage> <p>Nej, det var — det var —
+          <p>Ja, det var <emph>er</emph> röst!</p>
+          <stage>(I telefonen.)</stage>
+          <p>God natt,
+            <lb/>
+            <persName ref="#Karl">Karl</persName>. Jag har inte tid mer.</p>
+          <stage>(Stänger telefonen och 
+            <lb/> vänder sig mot <persName ref="#Birger">Birger</persName>.)</stage>
+          <p>Nej, det var — det var —
             <lb/> Nej, <emph>det</emph> skulle jag aldrig trott er om! Sade ni 
             <lb/> inte att ni var <persName ref="#Karl">Karl</persName>? Och ni sade <emph>du</emph> till mig!</p>
         </sp>
@@ -1752,13 +1886,15 @@
           <p>Men låt mig då tala om, hur det gick till!</p>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(kastar sig i en stol).</stage>
+          <speaker>Siri</speaker>
+          <stage>(kastar sig i en stol).</stage>
           <p>Ja, nu kan ni säga hvad ni vill, nu bryr jag
             <lb/> mig inte om det!</p>
         </sp>
         <sp who="#spBirger">
           <speaker>Birger.</speaker>
-          <p><persName ref="#Karl">Karl</persName> var en smula förkyld, och <persName ref="#Länsmaninnan">hans mor</persName> hade
+          <p>
+            <persName ref="#Karl">Karl</persName> var en smula förkyld, och <persName ref="#Länsmaninnan">hans mor</persName> hade
             <lb/> tvingat honom att bli liggande till sängs. I dag,
             <lb/> när jag skulle gå in på <orgName ref="#Tinget">tingshuset</orgName> för att fråga
             <lb/> om <persName ref="#Ida">Ida</persName> var qvar här, så säger <persName ref="#Karl">Karl</persName>: <said who="#Karl">då är det
@@ -1781,7 +1917,7 @@
             <lb/> öfverfölls jag af en tjufpojksaktig lust att få veta
             <lb/> hvad ni två kunna ha att telefonera er emellan
             <lb/> hvarje eftermiddag.</p>
-         </sp>
+        </sp>
         <sp who="#spSiri">
           <speaker>Siri.</speaker>
           <p>Inte är det hvarje eftermiddag heller!</p>
@@ -1792,7 +1928,8 @@
             <lb/> längre; det blef alldeles för intressant.</p>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(far upp från stolen).</stage>
+          <speaker>Siri</speaker>
+          <stage>(far upp från stolen).</stage>
           <p>Jesus — jag talade om <persName ref="#Ida">Ida</persName>! Då är det min
            <lb/> skull ändå! — Åh, det är förfärligt.</p>
         </sp>
@@ -1806,16 +1943,19 @@
           <speaker>Siri.</speaker>
           <p>Tyst! Det är en vagn! Inte kan det vara de?
             <lb/> Det är ju så tidigt. — Vi måste ha ut det här!</p>
-            <lb/> <stage>(<stage type="exit" who="#Siri">Springer ut</stage> och <stage type="entrance" who="#Siri">in</stage>, rymmande undan téservisen.)</stage>
+          <lb/>
+          <stage>(<stage type="exit" who="#Siri">Springer ut</stage> och <stage type="entrance" who="#Siri">in</stage>, rymmande undan téservisen.)</stage>
         </sp>
         <sp who="#spBirger">
-          <speaker>Birger</speaker> <stage>(vill hålla henne qvar).</stage>
+          <speaker>Birger</speaker>
+          <stage>(vill hålla henne qvar).</stage>
           <p>Vänta ett ögonblick! Ni far ju som en tätting.</p>
         </sp>
         <sp who="#spSiri">
           <speaker>Siri.</speaker>
           <p>Jag känner igen vagnen så väl. Jag måste
-            <lb/> skynda mig.</p> <stage>(Gör sig lös.)</stage>
+            <lb/> skynda mig.</p>
+          <stage>(Gör sig lös.)</stage>
         </sp>
         <sp who="#spBirger">
           <speaker>Birger.</speaker>
@@ -1823,33 +1963,40 @@
         </sp>
         <sp who="#spSiri">
           <speaker>Siri.</speaker>
-          <p>Det får bli en annan gång.</p> <stage>(Springer allt jemt.)</stage>
+          <p>Det får bli en annan gång.</p>
+          <stage>(Springer allt jemt.)</stage>
         </sp>
         <sp who="#spBirger">
-          <speaker>Birger</speaker> <stage>(håller henne qvar med
+          <speaker>Birger</speaker>
+          <stage>(håller henne qvar med
 	  <lb/> våld, skrattande).</stage>
           <p>Måste det nödvändigt vara en gammal fru ni
             <lb/> skall resa till <placeName>Italien</placeName> med?</p>
         </sp>
         <cb n="2"/>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(förvånad).</stage>
+          <speaker>Siri</speaker>
+          <stage>(förvånad).</stage>
           <p>Fru?</p>
         </sp>
         <sp who="#spBirger">
-          <speaker>Birger</speaker> <stage>(ger henne lös).</stage>
+          <speaker>Birger</speaker>
+          <stage>(ger henne lös).</stage>
           <p>Ja. Och så en sak till: Är det så alldeles
             <lb/> säkert, att ni hatar mig, om jag inte är fattig?</p>
         </sp>
         <sp who="#spSiri">
           <speaker>Siri.</speaker>
           <p>Då — då har ni gycklat med mig! Och då
-            <lb/> är det alldeles säkert.</p> <stage type="exit" who="#Siri">(Ut.)</stage>
+            <lb/> är det alldeles säkert.</p>
+          <stage type="exit" who="#Siri">(Ut.)</stage>
         </sp>
         <stage type="entrance" who="#Häradshöfdingen"/>
         <sp who="#spHäradshöfdingen">
-          <speaker>Häradshöfdingen</speaker> <stage>(klädd i pels).</stage>
-          <p><persName ref="#Birger">Min käre gosse</persName>! God qväll, god qväll. Ja så,
+          <speaker>Häradshöfdingen</speaker>
+          <stage>(klädd i pels).</stage>
+          <p>
+            <persName ref="#Birger">Min käre gosse</persName>! God qväll, god qväll. Ja så,
             <lb/> du är kommen. Ja, det var ju en faslig händelse,
             <lb/> jag fick höra det först i qväll. Och du står ju i
             <lb/> borgen! Det talades allmänt om det på balen. Ja,
@@ -1869,19 +2016,35 @@
           <speaker>Häradshöfdingen.</speaker>
           <p>Nå, Gud ske lof, Gud ske lof! Men väl var
             <lb/> det att du kom, i alla fall. Jag är så riktigt glad
-            <lb/> att du kom. <stage>(Ropar utåt.)</stage> <persName ref="#Ida"><emph>Ida</emph></persName>! — Ja, vet du,
+            <lb/> att du kom. <stage>(Ropar utåt.)</stage>
+            <persName ref="#Ida">
+              <emph>Ida</emph>
+            </persName>! — Ja, vet du,
             <lb/> jag hade verkligen tänkt att skrifva till dig i qväll.
-            <lb/> Jag hade ingen ro på den välsignade — den för­<lb break="no"/>bannade balen — skulle jag säga.</p> <stage>(Ropar åter.)</stage>
-            <lb/> <p><emph><persName ref="#Ida">Ida</persName>! Hör du inte, <persName ref="#Ida">Ida</persName>!</emph> —</p> <p>Du kom som om
+            <lb/> Jag hade ingen ro på den välsignade — den för­<lb break="no"/>bannade balen — skulle jag säga.</p>
+          <stage>(Ropar åter.)</stage>
+          <lb/>
+          <p>
+            <emph>
+              <persName ref="#Ida">Ida</persName>! Hör du inte, <persName ref="#Ida">Ida</persName>!</emph> —</p>
+          <p>Du kom som om
             <lb/> du vore kallad, <persName ref="#Birger">min gosse</persName>. Det var så riktigt bra,
-            <lb/> att du kom. — — —</p> <p>Men det var då besynner­<lb break="no"/>liga menniskor!</p> <stage>(Går bort i dörren och ropar.)</stage> <p><emph>Vill 
-            <lb/> <persName ref="#Notarien">notarien</persName> vara god och säga åt <persName ref="#Ida">Ida</persName> att
-            <lb/> komma hit!</emph> —</p> <p><persName ref="#Notarien">En präktig jurist</persName>, men <persName ref="#Notarien">en satans
+            <lb/> att du kom. — — —</p>
+          <p>Men det var då besynner­<lb break="no"/>liga menniskor!</p>
+          <stage>(Går bort i dörren och ropar.)</stage>
+          <p>
+            <emph>Vill 
+            <lb/>
+              <persName ref="#Notarien">notarien</persName> vara god och säga åt <persName ref="#Ida">Ida</persName> att
+            <lb/> komma hit!</emph> —</p>
+          <p>
+            <persName ref="#Notarien">En präktig jurist</persName>, men <persName ref="#Notarien">en satans
             <lb/> menniska</persName> i alla fall. Ja, nu får du sjelf — — — —</p>
         </sp>
         <stage type="entrance" who="#Ida"/>
         <sp who="#spIda">
-          <speaker>Ida</speaker> <stage>(tveksam, betraktar <persName ref="#Birger">Bir­<lb break="no"/>ger</persName> forskande och närmar sig långsamt).</stage>
+          <speaker>Ida</speaker>
+          <stage>(tveksam, betraktar <persName ref="#Birger">Bir­<lb break="no"/>ger</persName> forskande och närmar sig långsamt).</stage>
           <p>Ja så, du är kommen! — Det var ju svårt
             <lb/> — hm — <persName ref="#Häradshöfdingen">Morbror</persName> hade visst tänkt skrifva till
             <lb/> dig. Jag har inte haft en aning om det förr än
@@ -1897,7 +2060,8 @@
             <lb/> Du tror det kanske inte, men — — — det är
             <lb/> verkligen för dig personligen — — — nej, jag
             <lb/> menar — — — jag kan inte förklara mig, men
-            <lb/> det är så förfärligt tungt!</p> <stage>(Lägger handen öfver
+            <lb/> det är så förfärligt tungt!</p>
+          <stage>(Lägger handen öfver
             <lb/> sina ögon.)</stage>
         </sp>
         <sp who="#spBirger">
@@ -1913,7 +2077,8 @@
             <lb/> förmögenhet skulle stryka åt.</p>
         </sp>
         <sp who="#spIda">
-          <speaker>Ida</speaker> <stage>(med spänning).</stage>
+          <speaker>Ida</speaker>
+          <stage>(med spänning).</stage>
           <p>Är det då inte sant?</p>
         </sp>
         <sp who="#spBirger">
@@ -1926,7 +2091,8 @@
           <p>Är det inte sant?</p>
         </sp>
         <sp who="#spBirger">
-          <speaker>Birger</speaker> <stage>(betraktar henne med
+          <speaker>Birger</speaker>
+          <stage>(betraktar henne med
             <lb/> ett ironiskt löje).</stage>
           <p>Nej.</p>
         </sp>
@@ -1938,23 +2104,27 @@
           <speaker>Birger.</speaker>
           <p>Du tyckte då inte att du kunde gjort det, om
             <lb/> jag varit en ruinerad man? Tack! Och se här
-            <lb/> belöningen för ditt ädelmod.</p> <stage>(Drar förlofningsringen
+            <lb/> belöningen för ditt ädelmod.</p>
+          <stage>(Drar förlofningsringen
             <lb/> af och räcker henne den.)</stage>
         </sp>
         <anchor xml:id="BirgerIdaEngagementEnds"/>
-        <!-- Siri är inte på scen /EF -->
+<!-- Siri är inte på scen /EF -->
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(kikar in genom den runda 
+          <speaker>Siri</speaker>
+          <stage>(kikar in genom den runda 
             <lb/> glasrutan på dörren).</stage>
         </sp>
         <sp who="#spIda">
-          <speaker>Ida</speaker> <stage>(innan hon tar ringen).</stage>
+          <speaker>Ida</speaker>
+          <stage>(innan hon tar ringen).</stage>
           <p>Du vill det sjelf?</p>
         </sp>
         <cb n="3"/>
         <sp who="#spBirger">
           <speaker>Birger.</speaker>
-          <p> Ja, jag vill det.</p> <stage>(Blir <persName ref="#Siri">Siri</persName> varse och håller på
+          <p> Ja, jag vill det.</p>
+          <stage>(Blir <persName ref="#Siri">Siri</persName> varse och håller på
             <lb/> att skratta, men låtsar om intet.)</stage>
         </sp>
         <sp who="#spIda">
@@ -1971,9 +2141,15 @@
 	  <lb/> mig längre?</p>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(<stage>håller på att falla, griper
-            <lb/> tag i <choice><sic>dorren</sic><corr>dörren</corr></choice>, som går upp.</stage> <stage type="entrance" who="#Siri">Hon kommer hufvudstupa
-            <lb/> in i rummet.</stage> <stage>De öfriga se förvånade på henne. Hon
+          <speaker>Siri</speaker>
+          <stage>(<stage>håller på att falla, griper
+            <lb/> tag i <choice>
+                <sic>dorren</sic>
+                <corr>dörren</corr>
+              </choice>, som går upp.</stage>
+            <stage type="entrance" who="#Siri">Hon kommer hufvudstupa
+            <lb/> in i rummet.</stage>
+            <stage>De öfriga se förvånade på henne. Hon
             <lb/> sparkar hastigt undan en pall och tillsluter dörren</stage>).</stage>
           <p>Jag — jag skulle be <persName ref="#Häradshöfdingen">farbror</persName> så mycket — —
             <lb/> Jag skulle be om förlåtelse — det har blifvit så
@@ -1981,15 +2157,18 @@
         </sp>
         <sp who="#spHäradshöfdingen">
           <speaker>Häradshöfdingen.</speaker>
-          <p><persName ref="#Siri">Kära barn</persName>, inte behöfver du komma flygande
+          <p>
+            <persName ref="#Siri">Kära barn</persName>, inte behöfver du komma flygande
             <lb/> enda ärende för att säga mig det! Jag är väl
             <lb/> ingen sådan buse?</p>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(hemtande sig).</stage>
+          <speaker>Siri</speaker>
+          <stage>(hemtande sig).</stage>
           <p>Nej, men — men det är skam att det blifvit
             <lb/> så litet gjordt. Det var bara det jag ville säga
-            <lb/> <persName ref="#Häradshöfdingen">farbror</persName>, så att i morgon — — —</p>
+            <lb/>
+            <persName ref="#Häradshöfdingen">farbror</persName>, så att i morgon — — —</p>
         </sp>
         <sp who="#spHäradshöfdingen">
           <speaker>Häradshöfdingen.</speaker>
@@ -2004,12 +2183,13 @@
             <lb/> lille renskrifvaren</persName> att hålla mig sällskap.</p>
         </sp>
         <stage rend="ind">(Under de sista orden ha <persName ref="#Ida">Ida</persName> och <persName ref="#Häradshöfdingen">häradshöfdingen</persName>
-            <lb/> börjat tala helt lågt med hvar andra. Hon håller honom
+          <lb/> börjat tala helt lågt med hvar andra. Hon håller honom
             <lb/> ifrigt i pelsuppslaget, till hälften bortvänd. De stå vid
             <lb/> dörren, i begrepp att gå ut. <persName ref="#Birger">Birger</persName> och <persName ref="#Siri">Siri</persName> ha närmat
             <lb/> sig rampen.)</stage>
         <sp who="#spBirger">
-          <speaker>Birger</speaker> <stage>(sakta, till <persName ref="#Siri">Siri</persName>).</stage>
+          <speaker>Birger</speaker>
+          <stage>(sakta, till <persName ref="#Siri">Siri</persName>).</stage>
           <p>Nu väntar er straffet; jag såg er!</p>
         </sp>
         <sp who="#spSiri">
@@ -2019,7 +2199,8 @@
             <lb/> genom rutan.</p>
         </sp>
         <sp who="#spBirger">
-          <speaker>Birger</speaker> <stage>(skrattar).</stage>
+          <speaker>Birger</speaker>
+          <stage>(skrattar).</stage>
           <p>Hvad skulle ni der då!</p>
         </sp>
         <sp who="#spSiri">
@@ -2050,15 +2231,18 @@
           <speaker>Birger.</speaker>
           <p>Tack! <stage>(Räcker henne handen.)</stage> Och god natt nu.
             <lb/> Ska’ vi komma öfverens om att drömma om —
-            <lb/> <placeName>Italien</placeName>?</p>
+            <lb/>
+            <placeName>Italien</placeName>?</p>
         </sp>
         <sp who="#spSiri">
-          <speaker>Siri</speaker> <stage>(ser först frågande på
+          <speaker>Siri</speaker>
+          <stage>(ser först frågande på
             <lb/> honom, derefter gladt, med strålande lycka).</stage>
           <p>Ja!</p>
         </sp>
         <stage type="curtain">Ridå.</stage>
-        <gap reason="irrelevant"/><!-- annan text -->
+        <gap reason="irrelevant"/>
+<!-- annan text -->
       </div>
     </body>
     <back>
@@ -2106,7 +2290,7 @@
               <personGrp xml:id="Flickorna" sex="female" size="2"/>
               <person xml:id="Denyngreflickan" sex="female"/>
               <person xml:id="Denäldreflickan" sex="female"/>
-              <!-- IDEA: flickorna har en oklar relation i familjen - är de döttrar till häradshövdingen eller systrar till Ida - obegripligt varför Ida men inte Siri får följa med på balen! -->
+<!-- IDEA: flickorna har en oklar relation i familjen - är de döttrar till häradshövdingen eller systrar till Ida - obegripligt varför Ida men inte Siri får följa med på balen! -->
             </listPerson>
           </listPerson>
           <listPerson type="noncast">
@@ -2118,7 +2302,8 @@
                 <age value="18">18 år</age>
               </person>
               <person xml:id="Länsman" sex="male">
-                <occupation scheme="#HISCO" code="58220" cert="medium">länsman</occupation><!-- enl. Wikipedia kronolänsman, i HISCO finns 2 koder: 58220 (11 st), 12910 (2 st) -->
+                <occupation scheme="#HISCO" code="58220" cert="medium">länsman</occupation>
+<!-- enl. Wikipedia kronolänsman, i HISCO finns 2 koder: 58220 (11 st), 12910 (2 st) -->
               </person>
               <person xml:id="Länsmaninnan" sex="female"/>
               <person xml:id="SirisMor" sex="female">
@@ -2173,28 +2358,42 @@
         <listOrg>
           <org xml:id="Tinget"/>
         </listOrg>
-        <!-- IDEA: mat (mitt lilla gryn, s. 271) -->
+<!-- IDEA: mat (mitt lilla gryn, s. 271) -->
         <fs type="hand" xml:id="handarbete1">
-          <f name="aktivitet"><symbol value="sömnad"/></f>
+          <f name="aktivitet">
+            <symbol value="sömnad"/>
+          </f>
           <f name="vem" fVal="#Siri"/>
           <f name="start" fVal="#handarbete1start"/>
           <f name="slut" fVal="#handarbete1slut"/>
         </fs>
         <fs type="hand" xml:id="handarbetep1">
-          <f name="props"><symbol value="syskrin"/></f>
+          <f name="props">
+            <symbol value="syskrin"/>
+          </f>
         </fs>
         <fs type="hand" xml:id="handarbetep2">
-          <f name="props"><symbol value="nål"/></f>
+          <f name="props">
+            <symbol value="nål"/>
+          </f>
         </fs>
         <fs type="hand" xml:id="handarbetep3">
-          <f name="props"><symbol value="tråd"/></f>
+          <f name="props">
+            <symbol value="tråd"/>
+          </f>
         </fs>
         <fs type="hand" xml:id="handarbetep4">
-          <f name="props"><symbol value="knapp"/></f>
+          <f name="props">
+            <symbol value="knapp"/>
+          </f>
         </fs>
         <fs type="hand" xml:id="handarbete5">
-          <f name="prat"><symbol value="spinning"/></f>
-          <f name="typ"><symbol value="symboliskt"/></f>
+          <f name="prat">
+            <symbol value="spinning"/>
+          </f>
+          <f name="typ">
+            <symbol value="symboliskt"/>
+          </f>
           <f name="vem" fVal="#Birger"/>
           <f name="start" fVal="#handarbete5start"/>
           <f name="slut" fVal="#handarbete5slut"/>

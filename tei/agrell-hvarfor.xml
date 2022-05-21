@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
@@ -35,7 +35,7 @@
           <resp>kodning</resp>
           <persName xml:id="StrindmarNorströmE">Emma Strindmar Norström</persName>
           <orgName>Dramawebben</orgName>
-          </respStmt>
+        </respStmt>
         <respStmt>
           <resp>korrekturläsning</resp>
           <persName xml:id="BergströmS">Sara Bergström</persName>
@@ -144,11 +144,11 @@
       </classDecl>
       <tagsDecl>
         <rendition>
-          <!-- Scenanvisningar anges med kursiv stil -->
-          <!-- Stycken i repliker är indragna första raden -->
-          <!-- Scenanvisningar utanför repliker är indragna första raden -->
-          <!-- performance i kursiv stil -->
-          <!-- Talarrubriker i kapitäler -->
+<!-- Scenanvisningar anges med kursiv stil -->
+<!-- Stycken i repliker är indragna första raden -->
+<!-- Scenanvisningar utanför repliker är indragna första raden -->
+<!-- performance i kursiv stil -->
+<!-- Talarrubriker i kapitäler -->
         </rendition>
       </tagsDecl>
     </encodingDesc>
@@ -158,65 +158,86 @@
       </langUsage>
       <particDesc>
         <listPerson>
-          
           <person xml:id="spAlf" sex="MALE">
-            <persName>Alf</persName><!--castList-->
-            <persName>Alf</persName><!--speaker-->
-            <persName>Alf</persName><!--editorial-->
+            <persName>Alf</persName>
+<!--castList-->
+            <persName>Alf</persName>
+<!--speaker-->
+            <persName>Alf</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spEsther" sex="FEMALE">
-            <persName>Esther</persName><!--castList-->
-            <persName>Esther</persName><!--speaker-->
-            <persName>Esther</persName><!--editorial-->
+            <persName>Esther</persName>
+<!--castList-->
+            <persName>Esther</persName>
+<!--speaker-->
+            <persName>Esther</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spBeate" sex="FEMALE">
-            <persName>Moster Beate</persName><!--castList-->
-            <persName>Beate</persName><!--speaker-->
-            <persName>Beate</persName><!--editorial-->
+            <persName>Moster Beate</persName>
+<!--castList-->
+            <persName>Beate</persName>
+<!--speaker-->
+            <persName>Beate</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spLisen" sex="FEMALE">
-            <persName>Lisen</persName><!--castList-->
-            <persName>Lisen</persName><!--speaker-->
-            <persName>Lisen</persName><!--editorial-->
+            <persName>Lisen</persName>
+<!--castList-->
+            <persName>Lisen</persName>
+<!--speaker-->
+            <persName>Lisen</persName>
+<!--editorial-->
           </person>
         </listPerson>
       </particDesc>
     </profileDesc>
-
   </teiHeader>
   <text>
     <anchor xml:id="playstart"/>
     <front>
-      <pb facs="6004-0.jpg"/><!-- omslag -->
-      <pb facs="6004-1.jpg"/><!-- tom sida -->
-      <pb facs="6004-2.jpg"/><!-- tom sida -->
-      <pb facs="6004-3.jpg"/><!-- titelsida, volym -->
+      <pb facs="6004-0.jpg"/>
+<!-- omslag -->
+      <pb facs="6004-1.jpg"/>
+<!-- tom sida -->
+      <pb facs="6004-2.jpg"/>
+<!-- tom sida -->
+      <pb facs="6004-3.jpg"/>
+<!-- titelsida, volym -->
       <gap reason="irrelevant"/>
-      <pb facs="6004-4.jpg"/><!-- trycksida -->
+      <pb facs="6004-4.jpg"/>
+<!-- trycksida -->
       <gap reason="irrelevant"/>
-      <pb facs="6004-5.jpg"/><!-- titelsida, pjäs -->
+      <pb facs="6004-5.jpg"/>
+<!-- titelsida, pjäs -->
       <gap reason="irrelevant"/>
       <performance>
         <p>(Uppförd första gången å Kongl. Dramatiska Teatern
           <lb/> den <date when="1881-02-25">25 februari 1881</date>).</p>
-      </performance>      
+      </performance>
       <pb facs="6004-6.jpg"/>
       <castList>
         <head>PERSONERNA.</head>
         <castItem>
-          <role><persName ref="#Alf">ALF</persName></role>, <roleDesc>löjtnant</roleDesc>,
-        </castItem>        
-        <castItem>
-          <role><persName ref="#Esther">ESTHER</persName></role>, <roleDesc>hans hustru</roleDesc>,
+          <role>
+            <persName ref="#Alf">ALF</persName>
+          </role>, <roleDesc>löjtnant</roleDesc>,
         </castItem>
         <castItem>
-          <role><persName ref="#Beate">MOSTER BEATE</persName></role>, <roleDesc>kusin till Alfs far</roleDesc>,
+          <role>
+            <persName ref="#Esther">ESTHER</persName>
+          </role>, <roleDesc>hans hustru</roleDesc>,
         </castItem>
         <castItem>
-          <role><persName ref="#Lisen">LISEN</persName></role>.
+          <role>
+            <persName ref="#Beate">MOSTER BEATE</persName>
+          </role>, <roleDesc>kusin till Alfs far</roleDesc>,
+        </castItem>
+        <castItem>
+          <role>
+            <persName ref="#Lisen">LISEN</persName>
+          </role>.
         </castItem>
       </castList>
     </front>
@@ -231,7 +252,8 @@
           <anchor type="hand" xml:id="handarbete1start"/>
           <p>Vid ridåns uppdragande promenerar ALF fram
             <lb/> och åter. ESTHER sitter till höger, sysselsatt med
-            <lb/> <rs type="hand" ref="#handrekv1">ett broderi</rs>.</p>
+            <lb/>
+            <rs type="hand" ref="#handrekv1">ett broderi</rs>.</p>
         </stage>
         <div type="scene" n="1">
           <head>Första Scenen.</head>
@@ -244,16 +266,19 @@
           </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
-            <p>Ja, det regnar verkligen ihärdigt. <stage>(Paus.)</stage></p>
+            <p>Ja, det regnar verkligen ihärdigt. <stage>(Paus.)</stage>
+            </p>
           </sp>
           <anchor type="hand" xml:id="handprat1start"/>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
-            <p><rs type="hand" ref="#handrekv1">Charmant broderi</rs>, det der.</p>
+            <p>
+              <rs type="hand" ref="#handrekv1">Charmant broderi</rs>, det der.</p>
           </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
-            <p>Tycker du? <stage>(Paus.)</stage></p>
+            <p>Tycker du? <stage>(Paus.)</stage>
+            </p>
           </sp>
           <anchor type="hand" xml:id="handprat1slut"/>
           <sp who="#spAlf">
@@ -261,14 +286,15 @@
             <p>Skulle du vilja vara af den godheten och
               <lb/> upplysa mig om, hur länge vi varit gifta? För
               <lb/> mig käns det som om jag blifvit både förlofvad
-              <pb facs="6004-8.jpg"/><fw type="pageNum">134</fw> 
+              <pb facs="6004-8.jpg"/>
+              <fw type="pageNum">134</fw> 
               och gift på en helt och hållet annan planet, för
               <lb/> minst tusen år sedan.</p>
-          </sp>  
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Det blir åtta dagar i morgon.</p>
-          </sp> 
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Vi befinna oss således midt i smekmånaden?</p>
@@ -279,10 +305,12 @@
           </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
-            <p>Ja, —  så tycks det verkligen. <stage>(Paus.)</stage></p>
+            <p>Ja, —  så tycks det verkligen. <stage>(Paus.)</stage>
+            </p>
           </sp>
           <sp who="#spAlf">
-            <speaker>Alf</speaker> <stage>(kastar tidningen ifrån
+            <speaker>Alf</speaker>
+            <stage>(kastar tidningen ifrån
               <lb/> sig. Stiger upp).</stage>
             <p>Nej, minsann om jag står ut med det här!
               <lb/> Jag har gift mig af kärlek, hade all orsak tro
@@ -291,9 +319,10 @@
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Blir du inte trött, <persName ref="#Alf">Alf</persName>?</p>
-          </sp> 
+          </sp>
           <sp who="#spAlf">
-            <speaker>Alf</speaker> <stage>(lifligt).</stage>
+            <speaker>Alf</speaker>
+            <stage>(lifligt).</stage>
             <p>Af att behandlas på detta vis? Jo, det för­<lb break="no"/>säkrar jag.</p>
           </sp>
           <sp who="#spEsther">
@@ -301,12 +330,13 @@
             <p>Jag menar af att tala så mycket. Jag har,
               <lb/> hört talas om <persName ref="#SvimmandeSkådespelare">en skådespelare</persName>, som svimmade
               <lb/> efter hvarje akt, i hvilken han uppträdde.</p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
-          <p>Hvad menar du?</p>
+            <p>Hvad menar du?</p>
           </sp>
-          <pb facs="6004-9.jpg"/><fw type="pageNum">135</fw> 
+          <pb facs="6004-9.jpg"/>
+          <fw type="pageNum">135</fw>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Åh, ingenting; tankarna flyga.</p>
@@ -316,11 +346,11 @@
             <p>Skulle du händelsevis vara sjuk, <persName ref="#Esther">Esther</persName>? Du
               <lb/> har aldrig varit dig lik sedan den der olyckliga
               <lb/> dagen, när vi funno dig afsvimmad vid din kam­<lb break="no"/>mardörr.</p>
-          </sp>  
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Ser jag sjuk ut?</p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Nej, endast blek och sorgsen, så gränslöst
@@ -331,23 +361,25 @@
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Du lofvade ju nyss — — </p>
-          </sp> 
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Att i ännu trenne dagar tåligt vänta på gåtans
               <lb/> lösning. Ja, bevars. Också är jag tålig som ett
               <lb/> lam, och väntar gör jag, det är då säkert.</p>
-          </sp>  
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
-            <p><persName ref="#Snickaren">Snickaren</persName> har varit här medan du var ute,
+            <p>
+              <persName ref="#Snickaren">Snickaren</persName> har varit här medan du var ute,
               <lb/> för att erhålla ritning till ett bokskåp.</p>
           </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Skåp? Ja ha, ja så.</p>
           </sp>
-          <pb facs="6004-10.jpg"/><fw type="pageNum">136</fw>
+          <pb facs="6004-10.jpg"/>
+          <fw type="pageNum">136</fw>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Jag bad honom komma igen i qväll.</p>
@@ -359,7 +391,7 @@
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Han sade, att vridna fötter — — </p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Vridna? Ja visst, komplett vridna! Vi äro
@@ -370,11 +402,12 @@
               <lb/> hvad — — — </p>
           </sp>
           <sp who="#spEsther">
-            <speaker>Esther</speaker> <stage>(hastigt.)</stage>
+            <speaker>Esther</speaker>
+            <stage>(hastigt.)</stage>
             <p>Men tycker du inte, att gardiner i samma
               <lb/> stil som möbeln voro lämpligare än de här luftiga
               <lb/> hvita? När du röker — — — </p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>En glömska af sig sjelf, sådan som <emph>din</emph>, är
@@ -384,20 +417,21 @@
               <lb/> alldeles som om jag gift mig bara för att sätta
               <lb/> upp ett fullständigt ungkarlsbo!</p>
           </sp>
-          <pb facs="6004-11.jpg"/><fw type="pageNum">137</fw>  
+          <pb facs="6004-11.jpg"/>
+          <fw type="pageNum">137</fw>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Jag förmodar det <emph>fins</emph> männer, som gifta sig
               <lb/> af den orsaken.</p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Det är möjligt, men jag hör inte till dem.</p>
-          </sp>  
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Nej, naturligtvis inte.</p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Också vore jag dig dubbelt tacksam, om du
@@ -407,25 +441,31 @@
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Vill du jag skall läsa något för dig?</p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Ja, <emph>lagen</emph>, om jag brutit något. Allt annat
               <lb/> heldre än detta.</p>
-          </sp>  
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
-            <p><persName ref="#Snoilsky">Snoilsky's</persName> poesi — — </p>
-          </sp>  
+            <p>
+              <persName ref="#Snoilsky">Snoilsky's</persName> poesi — — </p>
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Är klumpig.</p>
-          </sp>  
+          </sp>
           <sp who="#spEsther">
-            <speaker><choice><sic>Estrer</sic><corr>Esther</corr></choice>.</speaker>
+            <speaker>
+              <choice>
+                <sic>Estrer</sic>
+                <corr>Esther</corr>
+              </choice>.</speaker>
             <p>Du har ändrat smak.</p>
           </sp>
-          <pb facs="6004-12.jpg"/><fw type="pageNum">138</fw>  
+          <pb facs="6004-12.jpg"/>
+          <fw type="pageNum">138</fw>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Nej, det är förgäfves jag grubblar; jag famlar
@@ -437,7 +477,7 @@
             <speaker>Esther.</speaker>
             <p>Du <emph>försöker</emph> inte ens att hålla det löfte du
               <lb/> nyss gaf.</p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Försöker! Jag gör ju inte annat än försöker.
@@ -462,14 +502,16 @@
             <speaker>Alf.</speaker>
             <p>Naturligtvis. Rik eller fattig älskar jag dig
               <lb/> blott för din egen skuld.</p>
-          </sp>  
+          </sp>
           <anchor type="hand" xml:id="handarbete1slut"/>
           <sp who="#spEsther">
-            <speaker>Esther</speaker> <stage>(reser sig hastigt).</stage>
+            <speaker>Esther</speaker>
+            <stage>(reser sig hastigt).</stage>
             <p>Jag tror det klarnar. Kanske vi kunna göra
               <lb/> en promenad?</p>
           </sp>
-          <pb facs="6004-13.jpg"/><fw type="pageNum">139</fw>
+          <pb facs="6004-13.jpg"/>
+          <fw type="pageNum">139</fw>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Det ösregnar.</p>
@@ -477,7 +519,7 @@
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Du vill således inte.</p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Nej, jag vill verkligen inte. Du pröfvar mitt
@@ -486,19 +528,20 @@
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Det gör mig ondt.</p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
-            <speaker>Alf</speaker> <stage>(uppbrusande).</stage>
+            <speaker>Alf</speaker>
+            <stage>(uppbrusande).</stage>
             <p>Gör dig ondt! Om det gjorde dig ondt,
               <lb/> skulle du inte ha hjerta att plåga, pina mig som
               <lb/> du gör, att såra mig både i min kärlek och min
               <lb/> manliga stolthet, att trampa dina egna löften
               <lb/> under fötterna, att göra mig löjlig, att — — — </p>
-          </sp>  
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Du glömmer dig!</p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Förlåt, att jag blef häftig, men jag är inte
@@ -508,19 +551,20 @@
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>O, min Gud, min Gud!</p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Stolt och lycklig förde jag <persName ref="#Esther">min unga maka</persName>
-              <pb facs="6004-14.jpg"/><fw type="pageNum">140</fw> 
+              <pb facs="6004-14.jpg"/>
+              <fw type="pageNum">140</fw> 
               till mitt hem, öfvertygad att hon i dess luft snart
               <lb/> skulle återfå sina fordna rosor, sina så med ens
               <lb/> förlorade leenden.</p>
-          </sp>  
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Hör upp, <persName ref="#Alf">Alf</persName>; jag ber dig!</p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Med trött, ointresserad blick såg hon sig om­<lb break="no"/>kring, vände bort hufvudet för min varma väl­<lb break="no"/>komstkyss och gled ur mina armar, förvandlad,
@@ -528,12 +572,13 @@
               <lb/> förtrollning blott kunde lösas af en nässelbeklädnad,
               <lb/> flätad af älskande händer. Och Gud skall veta
               <lb/> att jag flätat nässlor både nätter och dar.</p>
-          </sp>  
+          </sp>
           <sp who="#spEsther">
-            <speaker>Esther</speaker> <stage>(för sig).</stage>
+            <speaker>Esther</speaker>
+            <stage>(för sig).</stage>
             <p>Hvad har då jag! <stage>(Högt):</stage> Du är en skicklig
               <lb/> sagoberättare, <persName ref="#Alf">Alf</persName>!</p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Vi lefva som ett <persName ref="#Esther #Alf">ungt par</persName> comme il faut i
@@ -544,11 +589,13 @@
               <lb/> hela verlden utom för mig — och när vi komma
               <lb/> hem! God natt? God natt. — — Och der står
               <lb/> jag som en föraktad förbrytare, utan att ens veta
-              <lb/> <emph>hvarför</emph> jag straffas så hårdt. Eljest, när en
+              <lb/>
+              <emph>hvarför</emph> jag straffas så hårdt. Eljest, när en
               <lb/> man döms till döden, vet han åtminstone för hvad
               <lb/> brott, men inte ens den rättvisan är mig för­<lb break="no"/>unnad.</p>
           </sp>
-          <pb facs="6004-15.jpg"/><fw type="pageNum">141</fw>
+          <pb facs="6004-15.jpg"/>
+          <fw type="pageNum">141</fw>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Du spänner bågen högt, <persName ref="#Alf">Alf</persName>! Din oro förer
@@ -566,7 +613,7 @@
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Nej, nej!</p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Är det möjligt att du inte förstår hur illa du handlar mot mig! Hur — — — men jag
@@ -583,13 +630,14 @@
             <speaker>Alf.</speaker>
             <p>Ja, på — — äktenskapslotteri. Men hvarför
               <lb/> frågar du?</p>
-          </sp>  
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Åh, jag kom bara att tänka på hur orolig
               <lb/> du måtte ha varit dagarne före dragningen.</p>
           </sp>
-          <pb facs="6004-16.jpg"/><fw type="pageNum">142</fw>
+          <pb facs="6004-16.jpg"/>
+          <fw type="pageNum">142</fw>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Nej, <emph>mitt</emph> förstånd står stilla! En sådan ironi
@@ -605,11 +653,13 @@
             <speaker>Alf.</speaker>
             <p>Ja, i sanning, mycket förändra sig. Du har
               <lb/> ingenting annat att säga mig?</p>
-          </sp>  
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
-            <p>Nej, ingenting — nu! <stage>(Paus. <anchor type="hand" xml:id="handarbete1bstart"/><persName ref="#Esther">Esther</persName> återtager
-              <lb/> <rs type="hand" ref="#handrekv1">sitt broderi</rs>, <persName ref="#Alf">Alf</persName> sin tidning.)</stage> Jag undrar om <persName ref="#Beate">moster
+            <p>Nej, ingenting — nu! <stage>(Paus. <anchor type="hand" xml:id="handarbete1bstart"/>
+                <persName ref="#Esther">Esther</persName> återtager
+              <lb/>
+                <rs type="hand" ref="#handrekv1">sitt broderi</rs>, <persName ref="#Alf">Alf</persName> sin tidning.)</stage> Jag undrar om <persName ref="#Beate">moster
               <lb/> Beate</persName> skall våga sig ut i afton?</p>
           </sp>
           <sp who="#spAlf">
@@ -621,17 +671,18 @@
             <speaker>Esther.</speaker>
             <p>Det skulle glädja mig; jag håller mycket af
               <lb/> henne.</p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Nå, tycker och smak kan ingen disputera. På
               <lb/> mig gör hon samma verkan som rifven pepparrot;
               <lb/> hon må nu vara en aldrig så bra menniska för
               <lb/> resten.— — — Nej, jag har ingen stolthet när
-              <pb facs="6004-17.jpg"/><fw type="pageNum">143</fw> 
+              <pb facs="6004-17.jpg"/>
+              <fw type="pageNum">143</fw> 
               det gäller dig, <persName ref="#Esther">Esther</persName>! Jag <emph>kan</emph> icke lefva i denna
               <lb/> pinande ovisshet, och tvifla på dig än mindre.</p>
-          </sp>  
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Din uthållighet är verkligen beundransvärd.</p>
@@ -670,9 +721,11 @@
             <p>Ja, visst: <persName ref="#Alf">med den oskyldigt förfördelades</persName>.
               <lb/> O, jag är så trött, — så trött!</p>
           </sp>
-          <pb facs="6004-18.jpg"/><fw type="pageNum">144</fw>
+          <pb facs="6004-18.jpg"/>
+          <fw type="pageNum">144</fw>
           <sp who="#spAlf">
-            <speaker>Alf</speaker> <stage>(orolig).</stage>
+            <speaker>Alf</speaker>
+            <stage>(orolig).</stage>
             <p>Mår du illa?</p>
           </sp>
           <sp who="#spEsther">
@@ -681,7 +734,8 @@
               <lb/> annat.</p>
           </sp>
           <sp who="#spAlf">
-            <speaker>Alf</speaker> <stage>(ser länge på <persName ref="#Esther">Esther</persName>,
+            <speaker>Alf</speaker>
+            <stage>(ser länge på <persName ref="#Esther">Esther</persName>,
               <lb/> återtager sedan sin tid­<lb break="no"/>ning).</stage>
             <p>Jag hade i morse bref från <persName ref="#AlfsSyster">min syster</persName>, hvari 
               <lb/> hon beklagar, att hennes presenter inte hunno an­<lb break="no"/>komma i tid.</p>
@@ -693,33 +747,37 @@
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Ja, jag hade mina skäl.</p>
-          </sp>  
+          </sp>
           <sp who="#spEsther">
-            <speaker>Esther</speaker> <stage>(halft för sig).</stage>
+            <speaker>Esther</speaker>
+            <stage>(halft för sig).</stage>
             <p>Ja, jag vet det.</p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Du vet det — och ändå — — </p>
-          </sp>  
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Kunde jag kufva min stolthet så mycket, att
               <lb/> jag följde dig hit. Ja, det var ju min enda utväg.</p>
           </sp>
           <sp who="#spAlf">
-            <speaker>Alf</speaker> <stage>(förvirrad).</stage>
+            <speaker>Alf</speaker>
+            <stage>(förvirrad).</stage>
             <p>Enda utväg! Du visste verkligen — Nej, det
               <lb/> går omkring i mitt hufvud! Du <emph>visste!</emph> — — —</p>
           </sp>
-          <pb facs="6004-19.jpg"/><fw type="pageNum">145</fw> 
+          <pb facs="6004-19.jpg"/>
+          <fw type="pageNum">145</fw>
           <anchor type="hand" xml:id="handarbete1bslut"/>
           <sp who="#spEsther">
-            <speaker>Esther</speaker> <stage>(reser sig).</stage>
+            <speaker>Esther</speaker>
+            <stage>(reser sig).</stage>
             <p>Förlåt — du missförstår mig — — — jag
               <lb/> vet ingenting — — — jag bara tänkte — —
               <lb/> trodde. — — <stage>(Det ringer från fonden.)</stage> Gud ske lof!</p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Fan anamma!</p>
@@ -727,7 +785,9 @@
         </div>
         <div type="scene" n="2">
           <head>Andra Scenen.</head>
-          <stage type="presence" who="#Alf #Esther"><stage type="entrance" who="#Beate #Lisen">BEATE och LISEN i tamburen.</stage> <stage type="setting">ALF och ESTHER</stage>
+          <stage type="presence" who="#Alf #Esther">
+            <stage type="entrance" who="#Beate #Lisen">BEATE och LISEN i tamburen.</stage>
+            <stage type="setting">ALF och ESTHER</stage>
             <lb/> i salongen.</stage>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
@@ -735,11 +795,13 @@
           </sp>
           <sp who="#spLisen">
             <speaker>Lisen.</speaker>
-            <p>Ja, var så god och stig in.<stage> (Slår upp dör­<lb break="no"/>rarna till salongen.)</stage></p>
-          </sp>  
+            <p>Ja, var så god och stig in.<stage> (Slår upp dör­<lb break="no"/>rarna till salongen.)</stage>
+            </p>
+          </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
-            <p><persName ref="#Alf">Löjtnanten</persName> med?</p>
+            <p>
+              <persName ref="#Alf">Löjtnanten</persName> med?</p>
           </sp>
           <sp who="#spLisen">
             <speaker>Lisen.</speaker>
@@ -753,27 +815,31 @@
               <lb/> inte på kragen, såvida det inte brukas »i alla bättre
               <lb/> hus», då jag ger med mig straxt.</p>
           </sp>
-          <pb facs="6004-20.jpg"/><fw type="pageNum">146</fw>
+          <pb facs="6004-20.jpg"/>
+          <fw type="pageNum">146</fw>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Det borde finnas en lag, som skyddade en
               <lb/> för slika intrång.</p>
-          </sp> 
+          </sp>
           <stage>(<persName ref="#Esther">Esther</persName> ordnar sitt hår framför spegeln och för­<lb break="no"/>söker att utplåna hvarje uttryck af sinnesrörelse ur
-            <lb/> sitt ansigte.</stage>  
+            <lb/> sitt ansigte.</stage>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Akta väskan, så att inte kamfertspriten rinner
               <lb/> ut. Jag ska' säga henne, att kamfertsprit hjelper
               <lb/> för alla åkommor, till och med för hårväxt i 
               <lb/> pannan, om hon vill ha litet att nöta bort luggen
-              <lb/> med. <stage>(<persName ref="#Beate">Beate</persName> stiger in.)</stage></p>
+              <lb/> med. <stage>(<persName ref="#Beate">Beate</persName> stiger in.)</stage>
+            </p>
             <p>God dag, <persName ref="#Esther">kära Esther</persName>! Skulle titta in i för­<lb break="no"/>bigående och höra hur ni hafva det. God qväll,
-              <lb/> <persName ref="#Alf">herr löjtnant</persName>.</p>
+              <lb/>
+              <persName ref="#Alf">herr löjtnant</persName>.</p>
           </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
-            <p><persName ref="#Beate">Goda, älskade moster</persName>, välkommen!</p>
+            <p>
+              <persName ref="#Beate">Goda, älskade moster</persName>, välkommen!</p>
           </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
@@ -788,61 +854,66 @@
             <p>Ja var det inte otur, — — att det skulle
             <lb/> regna, menar jag. Nå, här ha' ni ju det riktigt
             <lb/> trefligt.</p>
-          </sp>  
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Så snällt af <persName ref="#Beate">moster</persName> att titta in!</p>
           </sp>
-          <pb facs="6004-21.jpg"/><fw type="pageNum">147</fw>
+          <pb facs="6004-21.jpg"/>
+          <fw type="pageNum">147</fw>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Hm! Hm!</p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>I dag är den första dag som <persName ref="#Esther">Esther</persName> och jag
               <lb/> fått — tillbringa — <emph>ensamma</emph> i det nya hemmet.</p>
-          </sp>  
+          </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Beklagar.</p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
-            <speaker>Alf</speaker> <stage>(lifligt).</stage>
+            <speaker>Alf</speaker>
+            <stage>(lifligt).</stage>
             <p>Ja, inte sant — —!</p>
-          </sp>  
+          </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Att ensamheten är en svår sak, innan man
               <lb/> blir van vid den. Jo, nog är det sant.</p>
-          </sp> 
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Nu skall <persName ref="#Beate">moster</persName> slå sig ned här. Det är den
               <lb/> beqvämaste stolen i hela rummet; <persName ref="#Alf">Alfs</persName> dolce far
               <lb/> niente-stol.</p>
-          </sp>  
+          </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Åh, kors bevars! Tack, <persName ref="#Esther">kära barn</persName>, men mina
               <lb/> gamla knotor förstå sig inte på den moderna
               <lb/> lyxen. Jag föredrar en sådan här, som åtminstone
-              <lb/> har trä <emph>i ryggen.</emph> <stage>(Sätter sig. <persName ref="#Alf">Alf</persName> återtager sin
-              <lb/> plats, men stampar otåligt med fötterna).</stage></p>
-          </sp>  
+              <lb/> har trä <emph>i ryggen.</emph>
+              <stage>(Sätter sig. <persName ref="#Alf">Alf</persName> återtager sin
+              <lb/> plats, men stampar otåligt med fötterna).</stage>
+            </p>
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Fryser <persName ref="#Beate">moster</persName>? Kanske vi skulle sätta in
               <lb/> en brasa?</p>
-          </sp>  
+          </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Brasa i Oktober? Hör också till den moderna
-              <pb facs="6004-22.jpg"/><fw type="pageNum">148</fw>
+              <pb facs="6004-22.jpg"/>
+              <fw type="pageNum">148</fw>
               lyxen. Jag fryser aldrig förr än efter jul; det är
               <lb/> en princip. Men har du en fotpåse åt <persName ref="#Alf">din man</persName>
               <lb/> skulle det inte skada. Han tycks frysa om fötterna.</p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Tillåter <persName ref="#Beate">moster</persName>, att jag läser ut tidningen?
@@ -863,11 +934,11 @@
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Och det der?</p>
-          </sp> 
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Det är <persName ref="#Alf">Alfs</persName> vapensamling.</p>
-          </sp>  
+          </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Hm, jaså. Och det der?</p>
@@ -880,28 +951,33 @@
             <speaker>Beate.</speaker>
             <p>Mycket riktigt. Fattas bara rakdonen och
               <lb/> stöfvelknekten, så är rummet komplett i ordning
-              <pb facs="6004-23.jpg"/><fw type="pageNum">149</fw> 
+              <pb facs="6004-23.jpg"/>
+              <fw type="pageNum">149</fw> 
               för <persName ref="#Esther">unga frun</persName>. Du har all heder af anordningarna,
-              <lb/> <persName ref="#Alf">Alf</persName>; de visa, att hvad du tänker bli' som äkta
+              <lb/>
+              <persName ref="#Alf">Alf</persName>; de visa, att hvad du tänker bli' som äkta
               <lb/> man, inte blir det egoist.</p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
-            <speaker>Alf</speaker> <stage>(afsides).</stage>
+            <speaker>Alf</speaker>
+            <stage>(afsides).</stage>
             <p>Jag visste, att pepparroten skulle sticka mig
               <lb/> i näsan.</p>
           </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
-            <p><persName ref="#Beate">Kära moster</persName>, det är på min enträgna bön
+            <p>
+              <persName ref="#Beate">Kära moster</persName>, det är på min enträgna bön
               <lb/> som rummen ordnats så, att <persName ref="#Alf">Alf</persName> skulle ha det
               <lb/> riktigt trefligt och beqvämt. <persName ref="#Beate">Moster</persName> förstår — — </p>
-          </sp>  
+          </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Att etuiet måste vara passande, om icke kle­<lb break="no"/>noden skall glida ut. Ja, bevars.</p>
           </sp>
           <sp who="#spAlf">
-            <speaker>Alf</speaker> <stage>(slänger tidningen ifrån
+            <speaker>Alf</speaker>
+            <stage>(slänger tidningen ifrån
               <lb/> sig).</stage>
             <p>Jag hoppas, att bådas vår trefnad — — — </p>
           </sp>
@@ -913,14 +989,17 @@
           </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
-            <p><persName ref="#Esther">Esther</persName> kommer aldrig att öka deras skara,
+            <p>
+              <persName ref="#Esther">Esther</persName> kommer aldrig att öka deras skara,
               <lb/> det är då säkert.</p>
           </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
-            <p><emph>Öka</emph> den? Nej, det är möjligt <stage>(<persName ref="#Beate">Beate</persName> och
-              <pb facs="6004-24.jpg"/><fw type="pageNum">150</fw> 
-              <persName ref="#Esther">Esther</persName> sätta sig.)</stage> Nå, <persName ref="#Esther">Esther</persName>, har du hört, att jag
+            <p>
+              <emph>Öka</emph> den? Nej, det är möjligt <stage>(<persName ref="#Beate">Beate</persName> och
+              <pb facs="6004-24.jpg"/>
+                <fw type="pageNum">150</fw>
+                <persName ref="#Esther">Esther</persName> sätta sig.)</stage> Nå, <persName ref="#Esther">Esther</persName>, har du hört, att jag
               <lb/> blifvit uppsagd till hösten?</p>
           </sp>
           <sp who="#spEsther">
@@ -930,7 +1009,11 @@
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Åh, jag kom att säga åt <persName ref="#Värden">värden, en gammal
-              <lb/> <choice><sic>för</sic><corr>före</corr></choice> detta sjökapten</persName>, som kommer hem full hvar­<lb break="no"/>enda qväll och misshandlar <persName ref="#VärdensHustru">sin beskedliga hustru</persName>,
+              <lb/>
+                <choice>
+                  <sic>för</sic>
+                  <corr>före</corr>
+                </choice> detta sjökapten</persName>, som kommer hem full hvar­<lb break="no"/>enda qväll och misshandlar <persName ref="#VärdensHustru">sin beskedliga hustru</persName>,
               <lb/> att den skuta som blir vrak i hamnen sjunker
               <lb/> ohjelpligt, ty hon sjunker i dyn. Det tog han åt
               <lb/> sig; nå nå, var honom ärligt unnadt.</p>
@@ -947,7 +1030,8 @@
           </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
-            <p><persName ref="#Beate">Moster</persName> är god och ömhjertad som få.</p>
+            <p>
+              <persName ref="#Beate">Moster</persName> är god och ömhjertad som få.</p>
           </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
@@ -960,8 +1044,9 @@
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Hm, hm, det har — det är — — <stage>(klappar
-              <pb facs="6004-25.jpg"/><fw type="pageNum">151</fw> 
-              <persName ref="#Esther">Esthers</persName> hand).</stage> Har <persName ref="#Alf">löjtnanten</persName> druckit kaffe? I
+              <pb facs="6004-25.jpg"/>
+                <fw type="pageNum">151</fw>
+                <persName ref="#Esther">Esthers</persName> hand).</stage> Har <persName ref="#Alf">löjtnanten</persName> druckit kaffe? I
               <lb/> annat fall känner jag mig disponerad att hålla
               <lb/> honom sällskap.</p>
           </sp>
@@ -977,15 +1062,17 @@
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Nej, vi hafva verkligen inte ännu — — För­<lb break="no"/>låt, <persName ref="#Beate">moster</persName>, men jag kommer straxt tillbaka. <stage type="exit" who="#Esther">(Går
-              <lb/> till höger.)</stage></p>
+              <lb/> till höger.)</stage>
+            </p>
           </sp>
-        </div>  
+        </div>
         <div type="scene" n="3">
           <head>Tredje Scenen.</head>
           <stage type="presence" who="#Alf #Beate">BEATE. ALF.</stage>
           <anchor type="hand" xml:id="handarbete2start"/>
           <sp who="#spBeate">
-            <speaker>Beate</speaker> <stage>(tager fram <rs type="hand" ref="#handrekv2">en stick­<lb break="no"/>strumpa</rs>).</stage>
+            <speaker>Beate</speaker>
+            <stage>(tager fram <rs type="hand" ref="#handrekv2">en stick­<lb break="no"/>strumpa</rs>).</stage>
             <p>Nå, <persName ref="#Alf">Alf</persName>, skall du inte betyga din glädje öfver
               <lb/> att se mig? Den sticker ändå lika tydligt igenom
               <lb/> som vargklon under jesuitrocken.</p>
@@ -998,15 +1085,18 @@
             <speaker>Beate.</speaker>
             <p>Genera dig inte; jag kom lägligt i alla fall.</p>
           </sp>
-          <pb facs="6004-26.jpg"/><fw type="pageNum">152</fw>
+          <pb facs="6004-26.jpg"/>
+          <fw type="pageNum">152</fw>
           <sp who="#spAlf">
-            <speaker>Alf</speaker> <stage>(lifligt).</stage>
+            <speaker>Alf</speaker>
+            <stage>(lifligt).</stage>
             <p>För hvem?</p>
           </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>För mig sjelf, naturligtvis. Du har fått en
-              <lb/> <persName ref="#Esther">älsklig hustru</persName>, <persName ref="#Alf">Alf</persName>.</p>
+              <lb/>
+              <persName ref="#Esther">älsklig hustru</persName>, <persName ref="#Alf">Alf</persName>.</p>
           </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
@@ -1038,12 +1128,14 @@
           </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
-            <p><persName ref="#Esther">Esther</persName> är verkligen litet blek, men natt­<lb break="no"/>vaket — — — </p>
+            <p>
+              <persName ref="#Esther">Esther</persName> är verkligen litet blek, men natt­<lb break="no"/>vaket — — — </p>
           </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Der ha vi det. Nattvaket är en riktig buse.
-              <pb facs="6004-27.jpg"/><fw type="pageNum">153</fw>
+              <pb facs="6004-27.jpg"/>
+              <fw type="pageNum">153</fw>
               inom äktenskapet, nota bene för hustrun. Det
               <lb/> förorsakar bleka kinder, sorgsna ögon — — </p>
           </sp>
@@ -1076,15 +1168,19 @@
               <lb/> min ungdom.</p>
           </sp>
         </div>
-        <pb facs="6004-28.jpg"/><fw type="pageNum">154</fw>
+        <pb facs="6004-28.jpg"/>
+        <fw type="pageNum">154</fw>
         <div type="scene" n="4">
           <head>Fjerde Scenen.</head>
           <stage type="presence" who="#Alf #Beate">DE FÖRRE. ESTHER. LISEN.</stage>
           <sp who="#spEsther">
-            <speaker>Esther</speaker> <stage type="entrance" who="#Esther #Lisen">(kommer åtföljd af Li­<lb break="no"/>sen, som bär en kaffe­<lb break="no"/>bricka).</stage>
+            <speaker>Esther</speaker>
+            <stage type="entrance" who="#Esther #Lisen">(kommer åtföljd af Li­<lb break="no"/>sen, som bär en kaffe­<lb break="no"/>bricka).</stage>
             <p>Nu ska' vi duka kaffebord, så blir det straxt
               <lb/> litet hemtrefligare! Eller hvad tycker <persName ref="#Beate">moster</persName>?
-              <lb/> <stage>(<persName ref="#Esther">Esther</persName> och <persName ref="#Lisen">Lisen</persName> duka kaffebord.)</stage></p>
+              <lb/>
+              <stage>(<persName ref="#Esther">Esther</persName> och <persName ref="#Lisen">Lisen</persName> duka kaffebord.)</stage>
+            </p>
           </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
@@ -1104,7 +1200,8 @@
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Men så veta de så mycket annat i stället.
-              <lb/> <persName ref="#Lisen">Lisen</persName>, gif mig den der blomvasen.</p>
+              <lb/>
+              <persName ref="#Lisen">Lisen</persName>, gif mig den der blomvasen.</p>
           </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
@@ -1112,14 +1209,17 @@
               <lb/> förra får ingen näring alls, och den senare mer
               <lb/> än den kan smälta.</p>
           </sp>
-          <pb facs="6004-29.jpg"/><fw type="pageNum">155</fw>
+          <pb facs="6004-29.jpg"/>
+          <fw type="pageNum">155</fw>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
-            <p><persName ref="#Beate">Moster</persName> är pessimist.</p>
+            <p>
+              <persName ref="#Beate">Moster</persName> är pessimist.</p>
           </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
-            <p><emph>Jag!</emph> Skulle <emph>jag</emph> gå in på, att mannen är
+            <p>
+              <emph>Jag!</emph> Skulle <emph>jag</emph> gå in på, att mannen är
               <lb/> qvinnan öfverlägsen både till skönhet och för­<lb break="no"/>stånd, att gamla qvinnor äro en styggelse, att — —
               <lb/> Nej, aldrig på tiden.</p>
           </sp>
@@ -1127,7 +1227,8 @@
             <speaker>Esther.</speaker>
             <p>Så der, ja! — Flytta gräddsnäckan litet, <persName ref="#Lisen">Lisen</persName>.
               <lb/> Och nu, <persName ref="#Beate">moster</persName>, skölj ner pessimismen med en
-              <lb/> kopp doftande mocca. <stage>(<persName ref="#Esther">Esther</persName> serverar kaffe.)</stage></p>
+              <lb/> kopp doftande mocca. <stage>(<persName ref="#Esther">Esther</persName> serverar kaffe.)</stage>
+            </p>
           </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
@@ -1135,7 +1236,8 @@
               <lb/> Tack emellertid, <persName ref="#Esther">rosenknopp</persName>.</p>
           </sp>
           <sp who="#spEsther">
-            <speaker>Esther</speaker> <stage>(till <persName ref="#Alf">Alf</persName>).</stage>
+            <speaker>Esther</speaker>
+            <stage>(till <persName ref="#Alf">Alf</persName>).</stage>
             <p>Behagar du?</p>
           </sp>
           <sp who="#spAlf">
@@ -1143,7 +1245,8 @@
             <p>Tack, helt litet.</p>
           </sp>
           <sp who="#spBeate">
-            <speaker>Beate</speaker> <stage>(till <persName ref="#Lisen">Lisen</persName>).</stage>
+            <speaker>Beate</speaker>
+            <stage>(till <persName ref="#Lisen">Lisen</persName>).</stage>
             <p>Nå, hur trifs hon i <placeName>Stockholm</placeName>?</p>
           </sp>
           <sp who="#spLisen">
@@ -1152,17 +1255,20 @@
           </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
-            <p>Aldrig möjligt. Det måtte väl alla menni­<lb break="no"/>skor se, att hon är en <emph>öländning!</emph> <stage>(Gör en gest som
+            <p>Aldrig möjligt. Det måtte väl alla menni­<lb break="no"/>skor se, att hon är en <emph>öländning!</emph>
+              <stage>(Gör en gest som
               <lb/> för att beteckna en pannlugg.)</stage> Ha ha ha!</p>
           </sp>
-          <pb facs="6004-30.jpg"/><fw type="pageNum">156</fw>
+          <pb facs="6004-30.jpg"/>
+          <fw type="pageNum">156</fw>
           <sp who="#spLisen">
             <speaker>Lisen.</speaker>
             <p>Behagar <persName ref="#Esther">frun</persName> något mer?</p>
           </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
-            <p>Nej, tack. <stage type="exit" who="#Lisen">(Lisen går.)</stage></p>
+            <p>Nej, tack. <stage type="exit" who="#Lisen">(Lisen går.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene" n="5">
@@ -1170,11 +1276,14 @@
           <stage type="presence" who="#Esther #Alf #Beate">ESTHER. ALF. BEATE.</stage>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
-            <p><persName ref="#Beate">Moster</persName> får lof att dra sin stol närmare;
-              <lb/> <persName ref="#Beate">moster</persName> sitter illa.</p>
+            <p>
+              <persName ref="#Beate">Moster</persName> får lof att dra sin stol närmare;
+              <lb/>
+              <persName ref="#Beate">moster</persName> sitter illa.</p>
           </sp>
           <sp who="#spAlf">
-            <speaker>Alf</speaker> <stage>(betraktar <persName ref="#Esther">Esther</persName>).</stage>
+            <speaker>Alf</speaker>
+            <stage>(betraktar <persName ref="#Esther">Esther</persName>).</stage>
             <p>Obegripligt!</p>
           </sp>
           <sp who="#spBeate">
@@ -1185,24 +1294,29 @@
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Hur underbart det skulle kännas att minnas
-              <lb/> <persName ref="#EsthersFar">sin far</persName>, <persName ref="#EsthersMor">sin mor</persName>, annat än i drömmen.</p>
+              <lb/>
+              <persName ref="#EsthersFar">sin far</persName>, <persName ref="#EsthersMor">sin mor</persName>, annat än i drömmen.</p>
           </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
-            <p><persName ref="#Esther">Stackars lilla upptagna fågel</persName> i ett främmande
+            <p>
+              <persName ref="#Esther">Stackars lilla upptagna fågel</persName> i ett främmande
               <lb/> bo! Mins du ingen af dem?</p>
           </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Nej, ingen.</p>
           </sp>
-          <pb facs="6004-31.jpg"/><fw type="pageNum">157</fw>
+          <pb facs="6004-31.jpg"/>
+          <fw type="pageNum">157</fw>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
-            <p><persName ref="#Alf">Alf</persName> liknar mycket <persName ref="#AlfsFar">sin far</persName>. Det var en heders­<lb break="no"/>man af bättre qvalité än de vanliga.</p>
+            <p>
+              <persName ref="#Alf">Alf</persName> liknar mycket <persName ref="#AlfsFar">sin far</persName>. Det var en heders­<lb break="no"/>man af bättre qvalité än de vanliga.</p>
           </sp>
           <sp who="#spEsther">
-            <speaker>Esther</speaker> <stage>(afbrytande).</stage>
+            <speaker>Esther</speaker>
+            <stage>(afbrytande).</stage>
             <p>Behagar inte <persName ref="#Beate">moster</persName> litet mer socker?</p>
           </sp>
           <sp who="#spBeate">
@@ -1222,10 +1336,11 @@
               <lb/> om saken; trefligare sällskap än <persName ref="#Beate">en gammal ut­<lb break="no"/>tråkad allas moster</persName> kan man få. Dessutom har
               <lb/> du alltid kommit i håg <persName ref="#Beate">gumman</persName> de dagar det
               <lb/> varit henne kärt blifva ihågkommen.</p>
-          </sp>  
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
-            <p><persName ref="#Alf">Alfs</persName> — omtänksamhet förnekar sig inte.</p>
+            <p>
+              <persName ref="#Alf">Alfs</persName> — omtänksamhet förnekar sig inte.</p>
           </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
@@ -1236,10 +1351,12 @@
             <p>Så att den som är borta kan komma hem,
               <lb/> menar du; hä?</p>
           </sp>
-          <pb facs="6004-32.jpg"/><fw type="pageNum">158</fw>
+          <pb facs="6004-32.jpg"/>
+          <fw type="pageNum">158</fw>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
-            <p><persName ref="#Beate">Moster</persName> måste dricka en påtår.</p>
+            <p>
+              <persName ref="#Beate">Moster</persName> måste dricka en påtår.</p>
           </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
@@ -1248,7 +1365,8 @@
               <lb/> abnormitet. Men hvar är din vigselring, <persName ref="#Esther">Esther</persName>?</p>
           </sp>
           <sp who="#spEsther">
-            <speaker>Esther</speaker> <stage>(förvirrad).</stage>
+            <speaker>Esther</speaker>
+            <stage>(förvirrad).</stage>
             <p>Den blef för trång — Jag måste lemna den
               <lb/> till <persName ref="#Guldsmeden">guldsmeden</persName> för att slås ut — —</p>
           </sp>
@@ -1263,7 +1381,7 @@
               <lb/> som ett elakt omen, men ingenting, nej, <emph>ingenting</emph>
               <lb/> förmår rubba min förströstan på framtiden. Emeller­<lb break="no"/>tid är <persName ref="#Guldsmeden">guldsmedens</persName> slarf oförlåtligt; jag skall sjelf
               <lb/> gå dit i qväll.</p>
-          </sp>  
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Det tjenar till ingenting. Jag har varit der i
@@ -1275,12 +1393,15 @@
             <p>Hm hm. Nå, <persName ref="#Esther">Esther</persName>, skall du vara med om
               <lb/> det stora spektaklet?</p>
           </sp>
-          <pb facs="6004-33.jpg"/><fw type="pageNum">159</fw>
+          <pb facs="6004-33.jpg"/>
+          <fw type="pageNum">159</fw>
           <sp who="#spEsther">
-            <speaker>Esther</speaker> <stage>(ringer. Till <stage type="entrance" who="#Lisen">Lisen, som
+            <speaker>Esther</speaker>
+            <stage>(ringer. Till <stage type="entrance" who="#Lisen">Lisen, som
               <lb/> kommer från höger</stage>).</stage>
             <p>Duka af. Förlåt, men jag hörde inte hvad
-              <lb/> <persName ref="#Beate">moster</persName> sade.</p>
+              <lb/>
+              <persName ref="#Beate">moster</persName> sade.</p>
           </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
@@ -1311,14 +1432,17 @@
           </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
-            <p><persName ref="#Beate">Moster</persName> kan inte tro hur <persName ref="#Esther">Esther</persName> rör sig på
+            <p>
+              <persName ref="#Beate">Moster</persName> kan inte tro hur <persName ref="#Esther">Esther</persName> rör sig på
               <lb/> scenen. Det skulle riktigt glädja mig få visa
               <lb/> Stockholmarne hvilken fin och riktig uppfattning
               <lb/> en liten landtflicka kan ega.</p>
           </sp>
-          <pb facs="6004-34.jpg"/><fw type="pageNum">160</fw>
+          <pb facs="6004-34.jpg"/>
+          <fw type="pageNum">160</fw>
           <sp who="#spBeate">
-            <speaker>Beate</speaker> <stage>(med en menande blick
+            <speaker>Beate</speaker>
+            <stage>(med en menande blick
               <lb/> på <persName ref="#Alf">Alf</persName>).</stage>
             <p>Åh, det har hon redan visat. Jaså, <persName ref="#Esther">rosen­<lb break="no"/>knopp</persName>, att du har anlag för det teatraliska?</p>
           </sp>
@@ -1333,7 +1457,7 @@
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Som <persName ref="#Rosita">Rosita</persName>! Det är så länge, länge sedan!</p>
-          </sp> 
+          </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Ett helt år. Det var ju i fjol på <persName ref="#HerrmanLind">din för­<lb break="no"/>myndares</persName> egendom, som <persName ref="#Alf">Alf</persName> gjorde din bekantskap?</p>
@@ -1351,18 +1475,21 @@
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Naturligtvis. Men ändå, hvilka små förtju­<lb break="no"/>sande felsteg var det inte!</p>
-          </sp> 
+          </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Emellertid hotar nu hela nöjet att gå upp i
-              <pb facs="6004-35.jpg"/><fw type="pageNum">161</fw> 
+              <pb facs="6004-35.jpg"/>
+              <fw type="pageNum">161</fw> 
               rök. Jag var i morse uppe hos <persName ref="#FruLandenstjerna">fru Landenstjerna</persName>,
               <lb/> som står i spetsen för barmhertighetsverket, och
               <lb/> fann henne bragt till förtviflan. <persName ref="#Flickor">Fem unga flickor</persName>
               <lb/> och <persName ref="#Fruar">tre unga fruar</persName> rivalisera om <persName ref="#Älskarinnan">älskarinnans</persName>
               <lb/> roll — hon byter om toilett tre gånger —
               <lb/> medan deremot ingen mamma står att finna. Det
-              <lb/> är så mycket obehagligare som det fins <persName ref="#Mammor"><emph>två</emph> mam­<lb break="no"/>mor</persName> i pjesen och bara <persName ref="#Älskarinnan"><emph>en</emph> älskarinna</persName>.</p>
+              <lb/> är så mycket obehagligare som det fins <persName ref="#Mammor">
+                <emph>två</emph> mam­<lb break="no"/>mor</persName> i pjesen och bara <persName ref="#Älskarinnan">
+                <emph>en</emph> älskarinna</persName>.</p>
           </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
@@ -1380,7 +1507,8 @@
           </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
-            <p>Känner <persName ref="#Beate">moster</persName> <persName ref="#Elise #Barn">familjen</persName> i fråga?</p>
+            <p>Känner <persName ref="#Beate">moster</persName>
+              <persName ref="#Elise #Barn">familjen</persName> i fråga?</p>
           </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
@@ -1394,7 +1522,8 @@
             <speaker>Beate.</speaker>
             <p>Det kan du göra. <persName ref="#Löjtnanten">Mannen, löjtnant vid flottan</persName>,
               <lb/> dog i fjol, lemnande <persName ref="#Elise">hustrun</persName> och <persName ref="#Barn">barn</persName> — fyra
-              <pb facs="6004-36.jpg"/><fw type="pageNum">162</fw>
+              <pb facs="6004-36.jpg"/>
+              <fw type="pageNum">162</fw>
               stycken — fullkomligt medellösa. När man dertill
               <lb/> lägger, att hon älskade honom med hela sitt varma,
               <lb/> dåraktiga hjerta — </p>
@@ -1408,22 +1537,26 @@
             <p>Ja, så pass någon man är det. Ber om ur­<lb break="no"/>säkt, <persName ref="#Alf">Alf</persName>!</p>
           </sp>
           <sp who="#spEsther">
-            <speaker>Esther</speaker> <stage>(för sig).</stage>
-            <p>Lycklig hon. <stage>(Högt.)</stage> <persName ref="#Elise">Arma moder</persName>!</p>
+            <speaker>Esther</speaker>
+            <stage>(för sig).</stage>
+            <p>Lycklig hon. <stage>(Högt.)</stage>
+              <persName ref="#Elise">Arma moder</persName>!</p>
           </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Ja, det var en sorglig historia. Se här <persName ref="#Beate">moster</persName>
-              <lb/> <stage>(lemnar <persName ref="#Beate">Beate</persName> penningar).</stage> Det är inte mycket,
+              <lb/>
+              <stage>(lemnar <persName ref="#Beate">Beate</persName> penningar).</stage> Det är inte mycket,
               <lb/> men det kan ju få komma från <persName ref="#Beate">moster</persName> sjelf. Och
               <lb/> under förväntan på <persName ref="#Mammor">mammorna</persName> så, — —</p>
-          </sp>  
+          </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Två tio kron'stycken! Förbåldt hederligt!
               <lb/> Men så lätt slipper du inte undan. Saken är den,
               <lb/> att jag hade ett ärende hit i dag, eljest hade jag
-              <lb/> väl inte — vågat mig ut i regnet. <stage>(Med en god­<lb break="no"/>modig nick åt <persName ref="#Alf">Alf</persName>).</stage></p>
+              <lb/> väl inte — vågat mig ut i regnet. <stage>(Med en god­<lb break="no"/>modig nick åt <persName ref="#Alf">Alf</persName>).</stage>
+            </p>
           </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
@@ -1432,15 +1565,17 @@
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Jag har vakat i natt hos <persName ref="#Elise">Elise</persName>, så heter den
-              <lb/> <persName ref="#Elise">unga enkan</persName>, <persName ref="#Barn">hvars äldsta barn</persName> ligga sjuka, och
-              <pb facs="6004-37.jpg"/><fw type="pageNum">163</fw> 
+              <lb/>
+              <persName ref="#Elise">unga enkan</persName>, <persName ref="#Barn">hvars äldsta barn</persName> ligga sjuka, och
+              <pb facs="6004-37.jpg"/>
+              <fw type="pageNum">163</fw> 
               der står bedröfligt till. Inte ens, bokstafligt taladt,
               <lb/> det nödvändigaste fins i huset. Med barnslig öm­<lb break="no"/>het har hon i det längsta sökt bevara en kinesisk
               <lb/> kaffeservis, som <persName ref="#Löjtnanten">mannen</persName> fört med sig från en af
               <lb/> sina resor. Nu ser hon sig tvungen att skiljas
               <lb/> äfven från detta minne. Jag tänkte på er. Ni
               <lb/> äro unga, rika, hafva nyss bo — — </p>
-          </sp>   
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Ja, naturligtvis skola vi köpa den!</p>
@@ -1462,16 +1597,18 @@
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Du nekar!</p>
-          </sp> 
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
-            <p>Ja, på det bestämdaste, hur ondt det än gör mig om <persName ref="#Elise #Barn"><persName ref="#Beate">mosters</persName> skyddslingar</persName>.</p>
+            <p>Ja, på det bestämdaste, hur ondt det än gör mig om <persName ref="#Elise #Barn">
+                <persName ref="#Beate">mosters</persName> skyddslingar</persName>.</p>
           </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Du behöfver mycket, <persName ref="#Alf">Alf</persName>.</p>
           </sp>
-          <pb facs="6004-38.jpg"/><fw type="pageNum">164</fw>
+          <pb facs="6004-38.jpg"/>
+          <fw type="pageNum">164</fw>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Det är möjligt. Men vi ha verkligen inte råd
@@ -1481,7 +1618,7 @@
             <speaker>Beate.</speaker>
             <p>Du bör kunna känna dig lugn, <persName ref="#Esther">Esther</persName>. <persName ref="#Alf">Alf</persName>
               <lb/> kommer då inte att slösa bort dina åttiotusen.</p>
-          </sp>   
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Nej, det är säkert.</p>
@@ -1498,7 +1635,8 @@
               <lb/> galenskap.</p>
           </sp>
           <sp who="#spEsther">
-            <speaker>Esther</speaker> <stage>(föraktligt).</stage>
+            <speaker>Esther</speaker>
+            <stage>(föraktligt).</stage>
             <p>Du tappar masken.</p>
           </sp>
           <sp who="#spAlf">
@@ -1508,23 +1646,28 @@
               <lb/> vore en löjlighet med mina förmögenhetsvilkor.</p>
           </sp>
           <sp who="#spBeate">
-            <speaker>Beate</speaker> <stage>(drager <persName ref="#Alf">Alf</persName> till fönstret).</stage>
+            <speaker>Beate</speaker>
+            <stage>(drager <persName ref="#Alf">Alf</persName> till fönstret).</stage>
           </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Nå, men hvad skall det nu bli af?</p>
           </sp>
-          <pb facs="6004-39.jpg"/><fw type="pageNum">165</fw>
+          <pb facs="6004-39.jpg"/>
+          <fw type="pageNum">165</fw>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Kom bara. Ansigtet är faderns, men hvems
               <lb/> är hjertat? Se här <persName ref="#Alf">min gosse</persName>, tag igen dina
               <lb/> penningar; det var falsk klang i dem. Ännu har
-              <lb/> <persName ref="#Beate">moster Beate</persName> litet som hon kan dela med sig åt
-              <lb/> <persName ref="#Elise">de behöfvande</persName>.</p>
+              <lb/>
+              <persName ref="#Beate">moster Beate</persName> litet som hon kan dela med sig åt
+              <lb/>
+              <persName ref="#Elise">de behöfvande</persName>.</p>
           </sp>
           <sp who="#spAlf">
-            <speaker>Alf</speaker> <stage>(kastar förargad pennin­<lb break="no"/>garna ifrån sig).</stage>
+            <speaker>Alf</speaker>
+            <stage>(kastar förargad pennin­<lb break="no"/>garna ifrån sig).</stage>
             <p>Moralkakor till på köpet!</p>
           </sp>
           <sp who="#spBeate">
@@ -1553,11 +1696,12 @@
             <speaker>Beate.</speaker>
             <p>Nej, <persName ref="#Esther">barn</persName>, det skall du inte göra. Högra
               <lb/> handen får ge utan att den venstra vet det, men
-              <pb facs="6004-40.jpg"/><fw type="pageNum">166</fw>
+              <pb facs="6004-40.jpg"/>
+              <fw type="pageNum">166</fw>
               ena halfvan av hjertat får inte klappa när den
               <lb/> andra står still. Adjö, <persName ref="#Alf">Alf</persName>. Sköt väl om <persName ref="#Esther">Esther</persName>;
               <lb/> hon tycks ha lidit mycket — af nattvaket redan.</p>
-          </sp>   
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Nej, nej, <persName ref="#Beate">moster</persName>! Du <emph>får</emph> icke gå, eller tag
@@ -1572,9 +1716,10 @@
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Jag vet inte — — jag tror knappt — Vänta!
-              <lb/> Jag har ju vinaigre inne hos mig. <stage type="exit" who="#Alf">(Går till venster.)</stage></p>
+              <lb/> Jag har ju vinaigre inne hos mig. <stage type="exit" who="#Alf">(Går till venster.)</stage>
+            </p>
           </sp>
-        </div>  
+        </div>
         <div type="scene" n="6">
           <head>Sjette Scenen.</head>
           <stage type="presence" who="#Esther #Beate">ESTHER. BEATE.</stage>
@@ -1592,7 +1737,8 @@
             <speaker>Esther.</speaker>
             <p>Du vet inte — — </p>
           </sp>
-          <pb facs="6004-41.jpg"/><fw type="pageNum">167</fw>
+          <pb facs="6004-41.jpg"/>
+          <fw type="pageNum">167</fw>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Jag <emph>vet</emph>, att du har svurit älska <persName ref="#Alf">din make</persName> i nöd
@@ -1619,9 +1765,11 @@
           <head>Sjunde Scenen.</head>
           <stage type="presence" who="#Esther #Beate">DE FÖRRE. ALF.</stage>
           <sp who="#spAlf">
-            <speaker>Alf</speaker> <stage type="entrance" who="#Alf">(från venster).</stage>
+            <speaker>Alf</speaker>
+            <stage type="entrance" who="#Alf">(från venster).</stage>
             <p>Ändtligen fann jag vinaigern. Hur mår du,
-              <lb/> <persName ref="#Esther">min Esther</persName>?</p>
+              <lb/>
+              <persName ref="#Esther">min Esther</persName>?</p>
           </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
@@ -1631,24 +1779,27 @@
             <speaker>Beate.</speaker>
             <p>Ja, hon har kryat upp sig nu, Gud ske lof.
               <lb/> Men nu måste jag verkligen gå. Tag in min
-              <pb facs="6004-42.jpg"/><fw type="pageNum">168</fw> 
+              <pb facs="6004-42.jpg"/>
+              <fw type="pageNum">168</fw> 
               kappa, är du snäll, <persName ref="#Alf">Alf</persName>. Jag känner mig aldrig
               <lb/> så bortkommen som när jag står i en tambur
               <lb/> och famlar efter min varmare hälft.</p>
           </sp>
           <sp who="#spAlf">
-            <speaker>Alf</speaker> <stage>(i tamburen).</stage>
+            <speaker>Alf</speaker>
+            <stage>(i tamburen).</stage>
             <p>Är det <persName ref="#Beate">mosters</persName> pirat också?</p>
-          </sp>     
+          </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Ja, det förstås. Friskt mod, <persName ref="#Esther">liten</persName>. En storm
               <lb/> i ett vatt'glas har ännu aldrig blåst någons lefnads­<lb break="no"/>julle omkull.</p>
           </sp>
           <sp who="#spAlf">
-            <speaker>Alf</speaker> <stage>(i salongen med <persName ref="#Beate">Beates</persName>
+            <speaker>Alf</speaker>
+            <stage>(i salongen med <persName ref="#Beate">Beates</persName>
               <lb/> kläder).</stage>
-              <p>Västen först.</p>
+            <p>Västen först.</p>
           </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
@@ -1661,11 +1812,15 @@
           </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
-            <p>Du och <persName ref="#Alf"><emph>din man</emph></persName> äro alltid välkomna till
-              <lb/> <persName ref="#Beate">gumman</persName>.</p>
+            <p>Du och <persName ref="#Alf">
+                <emph>din man</emph>
+              </persName> äro alltid välkomna till
+              <lb/>
+              <persName ref="#Beate">gumman</persName>.</p>
           </sp>
           <sp who="#spAlf">
-            <speaker>Alf</speaker> <stage>(ifrigt).</stage>
+            <speaker>Alf</speaker>
+            <stage>(ifrigt).</stage>
             <p>Nu kappan.</p>
           </sp>
           <sp who="#spBeate">
@@ -1676,7 +1831,8 @@
             <speaker>Alf.</speaker>
             <p>Så hatten — piraten och paraplyet.</p>
           </sp>
-          <pb facs="6004-43.jpg"/><fw type="pageNum">169</fw>
+          <pb facs="6004-43.jpg"/>
+          <fw type="pageNum">169</fw>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Låt mig få hemta andan; din tjenstvillighet
@@ -1687,7 +1843,7 @@
             <speaker>Alf.</speaker>
             <p>Handskarna behöfver <persName ref="#Beate">moster</persName> inte dra' på nu
               <lb/> i mörkret.</p>
-          </sp> 
+          </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Jo, om jag får lof. <stage>(Drager på sig hand­<lb break="no"/>skarna.)</stage> Kan helsa från <persName ref="#Skyddslingen">din skyddsling</persName>.</p>
@@ -1698,7 +1854,8 @@
           </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
-            <p><persName ref="#Skyddslingen">Gumman i den förfärliga hatten och pelisen</persName>,
+            <p>
+              <persName ref="#Skyddslingen">Gumman i den förfärliga hatten och pelisen</persName>,
               <lb/> som du konvojerade nedför <placeName>Drottninggatan</placeName> i fjol
               <lb/> när halkan var som svårast.</p>
           </sp>
@@ -1717,11 +1874,13 @@
             <speaker>Alf.</speaker>
             <p>Nu — —!</p>
           </sp>
-          <pb facs="6004-44.jpg"/><fw type="pageNum">170</fw>
+          <pb facs="6004-44.jpg"/>
+          <fw type="pageNum">170</fw>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Ja, nu dagas det. Kyss <persName ref="#Beate">gumman</persName> till afsked,
-              <lb/> <persName ref="#Esther">Esther</persName>. Så kalla dina läppar äro! Tittar kanske
+              <lb/>
+              <persName ref="#Esther">Esther</persName>. Så kalla dina läppar äro! Tittar kanske
               <lb/> upp i qväll med några droppar; riktiga universal­<lb break="no"/>droppar för — utvakade fruar.</p>
           </sp>
           <sp who="#spAlf">
@@ -1749,18 +1908,22 @@
             <p>Gud ske lof! Jag trodde, hon aldrig skulle gå!</p>
           </sp>
           <sp who="#spEsther">
-            <speaker>Esther</speaker> <stage>(springer hastigt ut i
+            <speaker>Esther</speaker>
+            <stage>(springer hastigt ut i
               <lb/> tamburen och ropar):</stage>
-            <p><persName ref="#Beate">Moster</persName>, <persName ref="#Beate">moster</persName>! Gå in, <persName ref="#Lisen">Lisen</persName>. <persName ref="#Alf">Löjtnan­<lb break="no"/>ten</persName> följer <persName ref="#Beate">fröken</persName> hem. <stage>(Drager <persName ref="#Beate">Beate</persName> med sig in.)</stage>
+            <p>
+              <persName ref="#Beate">Moster</persName>, <persName ref="#Beate">moster</persName>! Gå in, <persName ref="#Lisen">Lisen</persName>. <persName ref="#Alf">Löjtnan­<lb break="no"/>ten</persName> följer <persName ref="#Beate">fröken</persName> hem. <stage>(Drager <persName ref="#Beate">Beate</persName> med sig in.)</stage>
               <lb/> Nej, <persName ref="#Beate">moster</persName>, du får inte gå och lemna mig qvar.
               <lb/> Här hvarken kan eller vill jag stanna!</p>
           </sp>
           <stage type="exit" who="#Lisen"/>
-          <pb facs="6004-45.jpg"/><fw type="pageNum">171</fw>
+          <pb facs="6004-45.jpg"/>
+          <fw type="pageNum">171</fw>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
-            <p><persName ref="#Esther">Esther</persName>!</p>
-          </sp>     
+            <p>
+              <persName ref="#Esther">Esther</persName>!</p>
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Nu må det bära eller brista, men tala måste
@@ -1780,7 +1943,8 @@
           </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
-            <p><persName ref="#Esther">Esther</persName>, du är sjuk!</p>
+            <p>
+              <persName ref="#Esther">Esther</persName>, du är sjuk!</p>
           </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
@@ -1797,7 +1961,8 @@
             <speaker>Esther.</speaker>
             <p>Inte sant! Lägg ej feghet till hvad du redan
               <lb/> brutit. — Nej <persName ref="#Beate">moster</persName>, vänta. <stage>(Till <persName ref="#Alf">Alf</persName>.)</stage> Tror du
-              <pb facs="6004-46.jpg"/><fw type="pageNum">172</fw> 
+              <pb facs="6004-46.jpg"/>
+              <fw type="pageNum">172</fw> 
               då, att om hela verlden uppträdt och sagt, att
               <lb/> den man du aktar, älskar högst i verlden, är en
               <lb/> föraktlig lycksökare, att hans kärlekseder äro
@@ -1825,11 +1990,18 @@
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Släpp mig, <persName ref="#Esther">barn</persName>, jag skall inte lemna dig.
-              <lb/> <stage>(Börjar taga af sig ytterkläderna.)</stage></p>
+              <lb/>
+              <stage>(Börjar taga af sig ytterkläderna.)</stage>
+            </p>
           </sp>
           <sp who="#spEsther">
-            <speaker><choice><sic>Estreh</sic><corr>Esther</corr></choice>.</speaker>
-            <p><said who="#Alf">»För penningarnas skull? Jo, visst är det
+            <speaker>
+              <choice>
+                <sic>Estreh</sic>
+                <corr>Esther</corr>
+              </choice>.</speaker>
+            <p>
+              <said who="#Alf">»För penningarnas skull? Jo, visst är det
               <lb/> för penningarnas skuld, men hon är ju rätt näpen
               <lb/> som bihang betraktad.»</said> Nej, nej, jag förmår icke
               <lb/> upprepa de skymfliga orden!</p>
@@ -1838,7 +2010,8 @@
             <speaker>Alf.</speaker>
             <p>Ah, ändtligen! <persName ref="#Esther">Min stackars älskling</persName>!</p>
           </sp>
-          <pb facs="6004-47.jpg"/><fw type="pageNum">173</fw>
+          <pb facs="6004-47.jpg"/>
+          <fw type="pageNum">173</fw>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Och skrattet sedan, det klingande, lättsinniga,
@@ -1851,16 +2024,20 @@
             <p>Har du sagt och gjort detta, <persName ref="#Alf">Alf</persName>?</p>
           </sp>
           <sp who="#spAlf">
-            <speaker>Alf</speaker> <stage>(jublande).</stage>
-            <p><emph>Ja, ja, ja!</emph></p>
-          </sp>   
+            <speaker>Alf</speaker>
+            <stage>(jublande).</stage>
+            <p>
+              <emph>Ja, ja, ja!</emph>
+            </p>
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Hur skulle han kunna, våga, neka!</p>
           </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
-            <p><persName ref="#Esther">Stackars barn</persName>! Men kom, låt oss gå in till
+            <p>
+              <persName ref="#Esther">Stackars barn</persName>! Men kom, låt oss gå in till
               <lb/> dig så länge, du är uppskakad, sjuk nu — — sedan
               <lb/> skola vi tala lugnt.</p>
           </sp>
@@ -1879,11 +2056,13 @@
             <speaker>Alf.</speaker>
             <p>Härligt, härligt!</p>
           </sp>
-          <pb facs="6004-48.jpg"/><fw type="pageNum">174</fw> 
+          <pb facs="6004-48.jpg"/>
+          <fw type="pageNum">174</fw>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Hejda dig, <persName ref="#Esther">barn</persName>, och betänk att det är om
-              <lb/> <persName ref="#Alf">din make</persName> du talar.</p>
+              <lb/>
+              <persName ref="#Alf">din make</persName> du talar.</p>
           </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
@@ -1891,14 +2070,18 @@
           </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
-            <p><emph><persName ref="#Alf">Min make</persName>!</emph> Hvilka strider kostade icke det
+            <p>
+              <emph>
+                <persName ref="#Alf">Min make</persName>!</emph> Hvilka strider kostade icke det
               <lb/> steget mig. Men kunde jag låta <persName ref="#Alf">den man</persName>, jag
               <lb/> hyllat som mitt hjertas konung, lik en tiggare
               <lb/> lemna min port?</p>
           </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
-            <p><persName ref="#Esther">Älskling</persName>, jag — — <stage>(Hejdar sig hastigt).</stage></p>
+            <p>
+              <persName ref="#Esther">Älskling</persName>, jag — — <stage>(Hejdar sig hastigt).</stage>
+            </p>
           </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
@@ -1908,7 +2091,7 @@
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Ungdom!</p>
-          </sp>   
+          </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Och det var den enda räddningen för mig
@@ -1922,7 +2105,8 @@
             <speaker>Esther.</speaker>
             <p>Ja, på hvem, på hvad kunde jag nu tro.
               <lb/> Hela min skimrande verld hade störtat samman,
-              <pb facs="6004-49.jpg"/><fw type="pageNum">175</fw>
+              <pb facs="6004-49.jpg"/>
+              <fw type="pageNum">175</fw>
               dess spillror skulle resa sig mellan mig och mensk­<lb break="no"/>ligheten, och <emph>älska?</emph> Hvem kan väl <emph>det</emph> mer än
               <lb/> en gång i sitt lif.</p>
           </sp>
@@ -1943,9 +2127,11 @@
               <lb/> min förmögenhet.</p>
           </sp>
           <sp who="#spAlf">
-            <speaker>Alf</speaker> <stage>(afsides).</stage>
-            <p><persName ref="#HerrmanLind">Den hycklande skälmen</persName>!</p>
-          </sp> 
+            <speaker>Alf</speaker>
+            <stage>(afsides).</stage>
+            <p>
+              <persName ref="#HerrmanLind">Den hycklande skälmen</persName>!</p>
+          </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Förefaller mig något besynnerligt allt det här.</p>
@@ -1961,20 +2147,22 @@
             <speaker>Alf.</speaker>
             <p>Och sedan, när förmögenheten väl var min —?</p>
           </sp>
-          <pb facs="6004-50.jpg"/><fw type="pageNum">176</fw> 
+          <pb facs="6004-50.jpg"/>
+          <fw type="pageNum">176</fw>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Skulle jag lemna ditt hus så, som <persName ref="#Nora">Nora</persName>
               <lb/> lemnade <persName ref="#Helmer">Helmers</persName>, men ej, som hon, för att lära
               <lb/> mig att lefva, utan för att lära mig att dö.</p>
-          </sp> 
+          </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
             <p>Hm, hm, <persName ref="#Esther">rosenknopp</persName>, romaneska griller.</p>
           </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
-            <p><persName ref="#Esther">Min egen, barnsliga, präktiga Esther</persName>! Har
+            <p>
+              <persName ref="#Esther">Min egen, barnsliga, präktiga Esther</persName>! Har
               <lb/> jag verkligen varit så förfärlig!</p>
           </sp>
           <sp who="#spBeate">
@@ -1997,48 +2185,58 @@
             <p>Glädjen!</p>
           </sp>
           <sp who="#spBeate">
-            <speaker>Beate</speaker> <stage>(afsides).</stage>
+            <speaker>Beate</speaker>
+            <stage>(afsides).</stage>
             <p>Så ser inte en brottslig man ut. <stage>(Högt)</stage>
-              <lb/> <persName ref="#Esther">Barn</persName>, jag skall inte öfvergifva dig, men gammalt
+              <lb/>
+              <persName ref="#Esther">Barn</persName>, jag skall inte öfvergifva dig, men gammalt
               <lb/> folk behöfver tid att öfvertänka sina beslut. Jag
-              <lb/> går dit in så länge. <stage type="exit" who="#Beate">(Går till höger.)</stage></p>
+              <lb/> går dit in så länge. <stage type="exit" who="#Beate">(Går till höger.)</stage>
+            </p>
           </sp>
         </div>
-        <pb facs="6004-51.jpg"/><fw type="pageNum">177</fw>
+        <pb facs="6004-51.jpg"/>
+        <fw type="pageNum">177</fw>
         <div type="scene" n="8">
           <head>Åttonde Scenen.</head>
           <stage type="presence" who="#Esther #Alf">ALF. ESTHER.</stage>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
-            <p>Så vet jag då ändtligen <emph>hvarför!</emph> <persName ref="#Esther">Min egen
+            <p>Så vet jag då ändtligen <emph>hvarför!</emph>
+              <persName ref="#Esther">Min egen
               <lb/> älskade</persName> — — — men det är sant — — <stage>(Drager
               <lb/> sig tillbaka).</stage> Ah, det är med mig som med <persName ref="#FattigeMannen">den
               <lb/> fattige mannen</persName>, hvilken af <persName ref="#GodaFén">en god fé</persName> fick en
-              <lb/> <persName ref="#Esther">skön rosenbuske</persName> och upptäckte, att dess rötter
+              <lb/>
+              <persName ref="#Esther">skön rosenbuske</persName> och upptäckte, att dess rötter
               <lb/> voro af idel guld!</p>
           </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Och så ryckte du upp <persName ref="#Esther">rosenbusken</persName>, trampade
               <lb/> den under fötterna, för att dess förr komma
-              <lb/> åt det gyllene underlaget. <persName ref="#Esther"><persName ref="#GodaFén">Féens</persName> gåfva</persName> förde för­<lb break="no"/>bannelsen med sig.</p>
+              <lb/> åt det gyllene underlaget. <persName ref="#Esther">
+                <persName ref="#GodaFén">Féens</persName> gåfva</persName> förde för­<lb break="no"/>bannelsen med sig.</p>
           </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Nej, <persName ref="#Esther">Esther</persName>, endast välsignelse, en oändlig
               <lb/> välsignelse! Men syndabekännelsen först. Det är
-              <lb/> <persName ref="#Alf">en stor syndare</persName>, <persName ref="#Esther">Esther</persName>, som här på sina knän
-              <lb/> ber dig om förlåtelse. <stage>(Knäböjer.)</stage></p>
+              <lb/>
+              <persName ref="#Alf">en stor syndare</persName>, <persName ref="#Esther">Esther</persName>, som här på sina knän
+              <lb/> ber dig om förlåtelse. <stage>(Knäböjer.)</stage>
+            </p>
           </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Stig upp, låt komedin sluta. Jag är trött
               <lb/> intill döden.</p>
-          </sp>  
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Men hör mig först. Det är sant, att jag för
-              <pb facs="6004-52.jpg"/><fw type="pageNum">178</fw>
+              <pb facs="6004-52.jpg"/>
+              <fw type="pageNum">178</fw>
               <persName ref="#Kurt">Kurt</persName> medgaf att det var för penningarnas skull
               <lb/> jag friade till dig.</p>
           </sp>
@@ -2064,7 +2262,8 @@
             <p>Skämtade!</p>
           </sp>
           <sp who="#spAlf">
-            <speaker>Alf</speaker> <stage>(stiger upp).</stage>
+            <speaker>Alf</speaker>
+            <stage>(stiger upp).</stage>
             <p>Det ljuder en falsk ton bland oss nutids­<lb break="no"/>männer. Vi blygas för våra ädlaste och bästa
               <lb/> känslor samt skryta med handlingar, som i botten
               <lb/> ingenting skulle kunna förmå oss begå. Jag visste,
@@ -2075,7 +2274,8 @@
               <lb/> lättsinningt förolämpade <persName ref="#Esther">den qvinna</persName> jag aktade högst
               <lb/> på jorden.</p>
           </sp>
-          <pb facs="6004-53.jpg"/><fw type="pageNum">179</fw>
+          <pb facs="6004-53.jpg"/>
+          <fw type="pageNum">179</fw>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Din — aktning har kostat mig dyrt, <persName ref="#Alf">Alf</persName>.</p>
@@ -2098,7 +2298,7 @@
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Ja ja! — — Farväl, <persName ref="#Alf">Alf</persName>.</p>
-          </sp> 
+          </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Du lemnar mig, trots — —?</p>
@@ -2115,9 +2315,12 @@
               <lb/> Jag känner mig så lycklig, att jag skulle vilja
               <lb/> taga hela verlden i famn. <persName ref="#Esther">Esther</persName>, hys förbar­<lb break="no"/>mande med mig och låt mig åtminstone få kyssa
               <lb/> din hand, om du inte vill att jag skall förgås,
-              <lb/> <stage>(Fattar <persName ref="#Esther">Esthers</persName> hand.)</stage></p>
+              <lb/>
+              <stage>(Fattar <persName ref="#Esther">Esthers</persName> hand.)</stage>
+            </p>
           </sp>
-          <pb facs="6004-54.jpg"/><fw type="pageNum">180</fw>
+          <pb facs="6004-54.jpg"/>
+          <fw type="pageNum">180</fw>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>Släpp mig!</p>
@@ -2125,7 +2328,8 @@
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Straxt! <stage>(Kysser hennes hand än en gång.)</stage>
-              <lb/> <persName ref="#Esther">Esther</persName>, nu kommer syndabekännelsen numro två.
+              <lb/>
+              <persName ref="#Esther">Esther</persName>, nu kommer syndabekännelsen numro två.
               <lb/> Har du mod att lefva på <persName ref="#Alf">en löjtnants</persName> inkomster,
               <lb/> ordinarie och extra.</p>
           </sp>
@@ -2152,7 +2356,8 @@
           </sp>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
-            <p><persName ref="#HerrmanLind">Min förmyndares</persName> stil och namnteckning!</p>
+            <p>
+              <persName ref="#HerrmanLind">Min förmyndares</persName> stil och namnteckning!</p>
           </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
@@ -2160,22 +2365,28 @@
               <lb/> för resten.</p>
           </sp>
         </div>
-        <pb facs="6004-55.jpg"/><fw type="pageNum">181</fw>
+        <pb facs="6004-55.jpg"/>
+        <fw type="pageNum">181</fw>
         <div type="scene" n="9">
           <head>Nionde Scenen.</head>
-          <stage type="presence" who="#Esther #Alf">DE FÖRRE. <stage type="entrance">BEATE (synes på trö­<lb break="no"/>skeln.)</stage></stage>
+          <stage type="presence" who="#Esther #Alf">DE FÖRRE. <stage type="entrance">BEATE (synes på trö­<lb break="no"/>skeln.)</stage>
+          </stage>
           <sp who="#spEsther">
-            <speaker>Esther</speaker> <stage>(läser).</stage>
-            <writing who="#HerrmanLind"><persName ref="#Alf">Hedersbror</persName>!</writing>
+            <speaker>Esther</speaker>
+            <stage>(läser).</stage>
+            <writing who="#HerrmanLind">
+              <persName ref="#Alf">Hedersbror</persName>!</writing>
           </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Smickrande!</p>
           </sp>
           <sp who="#spEsther">
-            <speaker>Esther</speaker> <stage>(läser).</stage>
+            <speaker>Esther</speaker>
+            <stage>(läser).</stage>
             <writing who="#HerrmanLind">När du läser dessa rader är jag på väg till
-              <lb/> <placeName>Amerika</placeName>. Blef för hett här hemma. Är ledsen
+              <lb/>
+              <placeName>Amerika</placeName>. Blef för hett här hemma. Är ledsen
               <lb/> för <persName ref="#Esther">Esthers</persName> åttio tusen, men den som håller på
               <lb/> att ramla nedför ett bråddjup tänker inte på de
               <lb/> små stenar han drager med sig i fallet. Skämtet
@@ -2199,7 +2410,8 @@
             <speaker>Esther.</speaker>
             <p>Och det visste du?</p>
           </sp>
-          <pb facs="6004-56.jpg"/><fw type="pageNum">182</fw>
+          <pb facs="6004-56.jpg"/>
+          <fw type="pageNum">182</fw>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Han sade mig allt, samma dag jag framförde
@@ -2221,34 +2433,44 @@
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Så har jag! Men nu! <stage>(Sträcker armarna mot
-              <lb/> <persName ref="#Esther">Esther</persName>.)</stage></p>
+              <lb/>
+                <persName ref="#Esther">Esther</persName>.)</stage>
+            </p>
           </sp>
           <sp who="#spEsther">
-            <speaker>Esther</speaker> <stage>(kastar sig i hans
+            <speaker>Esther</speaker>
+            <stage>(kastar sig i hans
               <lb/> famn).</stage>
             <p>O, förlåt mig, förlåt mig! Jag var fattig,
               <lb/> fattig!</p>
           </sp>
           <sp who="#spBeate">
             <speaker>Beate.</speaker>
-            <p>Gud ske lof! <persName ref="#Alf"><persName ref="#AlfsFar"><emph>Hans</emph></persName> son</persName> hade inte gräft
+            <p>Gud ske lof! <persName ref="#Alf">
+                <persName ref="#AlfsFar">
+                  <emph>Hans</emph>
+                </persName> son</persName> hade inte gräft
               <lb/> ned sina pund i den moderna lifränte- och
               <lb/> kapitalförsäkringsanstalten, och för <emph>henne</emph> hoppas
               <lb/> jag att värsta — — — nattvaket skall vara öfver.
-              <lb/> <stage type="entrance" who="#Beate">(Tager sina kläder och smyger ut genom fonden).</stage></p>
+              <lb/>
+              <stage type="entrance" who="#Beate">(Tager sina kläder och smyger ut genom fonden).</stage>
+            </p>
           </sp>
           <sp who="#spAlf">
             <speaker>Alf.</speaker>
             <p>Aldrig har väl ett härligare solsken strålat
               <lb/> efter ett häftigare åskväder.</p>
           </sp>
-          <pb facs="6004-57.jpg"/><fw type="pageNum">183</fw>
+          <pb facs="6004-57.jpg"/>
+          <fw type="pageNum">183</fw>
           <sp who="#spEsther">
             <speaker>Esther.</speaker>
             <p>O, jag skäms så förfärligt!</p>
           </sp>
           <sp who="#spAlf">
-            <speaker>Alf</speaker> <stage>(slår armen kring <persName ref="#Esther">Esthers</persName>
+            <speaker>Alf</speaker>
+            <stage>(slår armen kring <persName ref="#Esther">Esthers</persName>
               <lb/> lif och för henne till en soffa).</stage>
             <p>Hvarför?</p>
           </sp>
@@ -2257,14 +2479,20 @@
             <p>Derför — — — </p>
           </sp>
         </div>
-        <stage><p>Ridån faller.</p></stage>
+        <stage>
+          <p>Ridån faller.</p>
+        </stage>
       </div>
     </body>
     <back>
-      <pb facs="6004-58.jpg"/><!-- tom sida -->
-      <pb facs="6004-59.jpg"/><!-- tom sida -->
-      <pb facs="6004-60.jpg"/><!-- tom sida -->
-      <pb facs="6004-61.jpg"/><!-- omslag -->
+      <pb facs="6004-58.jpg"/>
+<!-- tom sida -->
+      <pb facs="6004-59.jpg"/>
+<!-- tom sida -->
+      <pb facs="6004-60.jpg"/>
+<!-- tom sida -->
+      <pb facs="6004-61.jpg"/>
+<!-- omslag -->
       <div type="editorial">
         <listPerson>
           <listPerson type="cast">
@@ -2366,7 +2594,7 @@
               <listPerson>
                 <personGrp xml:id="Fruar" sex="female" size="3"/>
               </listPerson>
-              <!-- ev. intertextuella /EF -->
+<!-- ev. intertextuella /EF -->
               <person xml:id="Älskarinnan" sex="female"/>
               <listPerson>
                 <personGrp xml:id="Mammor" sex="female" size="2"/>
@@ -2462,7 +2690,7 @@
             <relation type="other" name="roll" active="#Älskarinnan #Mammor" passive="#Blancheteatern"/>
             <relation type="other" name="vill.spela" active="#Flickor #Fruar" passive="#Älskarinnan"/>
             <relation type="other" name="bistår" active="#Beate" passive="#Esther"/>
-          </listRelation> 
+          </listRelation>
         </listPerson>
         <listOrg>
           <org xml:id="Blancheteatern">
@@ -2471,7 +2699,9 @@
           </org>
         </listOrg>
         <fs type="hand" xml:id="handarbete1">
-          <f name="aktivitet"><symbol value="broderi"/></f>
+          <f name="aktivitet">
+            <symbol value="broderi"/>
+          </f>
           <f name="vem" fVal="#Esther"/>
           <f name="start" fVal="#handarbete1start"/>
           <f name="slut" fVal="#handarbete1slut"/>
@@ -2479,23 +2709,31 @@
           <f name="slut" fVal="#handarbete1bslut"/>
         </fs>
         <fs type="hand" xml:id="handrekv1">
-          <f name="props"><symbol value="broderi"/></f>
+          <f name="props">
+            <symbol value="broderi"/>
+          </f>
         </fs>
         <fs type="hand" xml:id="handprat1">
-          <f name="prat"><symbol value="broderi"/></f>
+          <f name="prat">
+            <symbol value="broderi"/>
+          </f>
           <f name="vem" fVal="#Alf"/>
           <f name="vem" fVal="#Esther"/>
           <f name="start" fVal="#handprat1start"/>
           <f name="slut" fVal="#handprat1slut"/>
         </fs>
         <fs type="hand" xml:id="handarbete2">
-          <f name="aktivitet"><symbol value="stickning"/></f>
+          <f name="aktivitet">
+            <symbol value="stickning"/>
+          </f>
           <f name="vem" fVal="#Beate"/>
           <f name="start" fVal="#handarbete2start"/>
           <f name="slut" fVal="#handarbete2slut"/>
         </fs>
         <fs type="hand" xml:id="handrekv2">
-          <f name="props"><symbol value="stickstrumpa"/></f>
+          <f name="props">
+            <symbol value="stickstrumpa"/>
+          </f>
         </fs>
       </div>
     </back>

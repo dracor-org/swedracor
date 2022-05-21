@@ -1,10 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main"><title>Perdita</title> eller <title>Den förlorade våren</title></title>
+        <title type="main">
+          <title>Perdita</title> eller <title>Den förlorade våren</title>
+        </title>
         <author xml:id="TopeliusZ">
           <persName>
             <forename>Zacharias</forename>
@@ -79,14 +81,16 @@
             <author sameAs="#TopeliusZ">
               <persName>Zacharias Topelius</persName>
             </author>
-            <title level="a" type="main"><title>Perdita</title> eller <title>Den förlorade våren</title></title>
+            <title level="a" type="main">
+              <title>Perdita</title> eller <title>Den förlorade våren</title>
+            </title>
           </analytic>
           <monogr>
             <author sameAs="#TopeliusZ">
               <persName>Zacharias Topelius</persName>
             </author>
             <author role="illustrator" xml:id="AckeJAG">
-              <!-- Acke Andersson -->
+<!-- Acke Andersson -->
               <persName>
                 <forename>J.A.G.</forename>
                 <surname>Acke</surname>
@@ -96,7 +100,7 @@
               <idno type="Wikipedia">http://sv.wikipedia.org/wiki/J.A.G._Acke</idno>
             </author>
             <author role="illustrator" xml:id="HjortzbergO">
-              <!-- finns med i faksimilen /EF -->
+<!-- finns med i faksimilen /EF -->
               <persName>
                 <forename>Olle</forename>
                 <surname>Hjortzberg</surname>
@@ -183,16 +187,16 @@
       </editorialDecl>
       <tagsDecl>
         <rendition>
-          <!-- Rollista är "centrerad", med rak vänstermarginal /EF -->
-          <!-- Scenanvisningar anges med kursiv stil -->
-          <!-- Fristående scenanvisningar utom replker är indragna första raden;
+<!-- Rollista är "centrerad", med rak vänstermarginal /EF -->
+<!-- Scenanvisningar anges med kursiv stil -->
+<!-- Fristående scenanvisningar utom replker är indragna första raden;
                den sista är centrerad (rend=centered) /EF -->
-          <!-- Rubriker är centrerade /EF -->
-          <!-- Talarrubriker är inline, med versaler i mindre punktstorlek /EF -->
-          <!-- Repliker är indragna första raden /EF -->
-          <!-- Versrubrik är centrerad i kursiv stil /EF -->
-          <!-- Versrader är "centrerade", med rak vänstermarginal /EF -->
-          <!-- Paginering är överst till höger för ojämna sidor, till vänster för jämna sidor /EF -->
+<!-- Rubriker är centrerade /EF -->
+<!-- Talarrubriker är inline, med versaler i mindre punktstorlek /EF -->
+<!-- Repliker är indragna första raden /EF -->
+<!-- Versrubrik är centrerad i kursiv stil /EF -->
+<!-- Versrader är "centrerade", med rak vänstermarginal /EF -->
+<!-- Paginering är överst till höger för ojämna sidor, till vänster för jämna sidor /EF -->
         </rendition>
       </tagsDecl>
     </encodingDesc>
@@ -202,117 +206,161 @@
       </langUsage>
       <particDesc>
         <listPerson>
-          
           <person xml:id="spMaja" sex="FEMALE">
-            <persName>Maja</persName><!--castList-->
-            <persName>MAJA</persName><!--speaker-->
-            <persName>Maja Perdita</persName><!--editorial-->
+            <persName>Maja</persName>
+<!--castList-->
+            <persName>MAJA</persName>
+<!--speaker-->
+            <persName>Maja Perdita</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spSvante" sex="MALE">
-            <persName>Svante April</persName><!--castList-->
-            <persName>SVANTE</persName><!--speaker-->
-            <persName>Svante April</persName><!--editorial-->
+            <persName>Svante April</persName>
+<!--castList-->
+            <persName>SVANTE</persName>
+<!--speaker-->
+            <persName>Svante April</persName>
+<!--editorial-->
           </person>
           <personGrp xml:id="spEkoröster">
-            <name>Ekoröster</name><!--castList-->
-            <name>EKORÖSTER</name><!--speaker-->
+            <name>Ekoröster</name>
+<!--castList-->
+            <name>EKORÖSTER</name>
+<!--speaker-->
           </personGrp>
-          
           <person xml:id="spEko" sex="MALE">
-            <persName>Eko</persName><!--castList-->
-            <persName>EKO</persName><!--speaker-->
-            <persName>Eko</persName><!--editorial-->
+            <persName>Eko</persName>
+<!--castList-->
+            <persName>EKO</persName>
+<!--speaker-->
+            <persName>Eko</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spFlorio" sex="MALE">
-            <persName>Prins Florio</persName><!--castList-->
-            <persName>SNÖGUBBEN</persName><!--speaker-->
-            <persName>prins Florio</persName><!--editorial-->
+            <persName>Prins Florio</persName>
+<!--castList-->
+            <persName>SNÖGUBBEN</persName>
+<!--speaker-->
+            <persName>prins Florio</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spFjärilen" sex="MALE">
-            <persName>En fjäril</persName><!--castList-->
-            <persName>FJÄRILN</persName><!--speaker-->
+            <persName>En fjäril</persName>
+<!--castList-->
+            <persName>FJÄRILN</persName>
+<!--speaker-->
           </person>
-          
           <person xml:id="spSländan" sex="FEMALE">
-            <persName>En slända</persName><!--castList-->
-            <persName>SLÄNDAN</persName><!--speaker-->
+            <persName>En slända</persName>
+<!--castList-->
+            <persName>SLÄNDAN</persName>
+<!--speaker-->
           </person>
-          
           <person xml:id="spGöken" sex="MALE">
-            <persName>Göken</persName><!--castList-->
-            <persName>GÖKEN</persName><!--speaker-->
-            <persName>Göken</persName><!--editorial-->
+            <persName>Göken</persName>
+<!--castList-->
+            <persName>GÖKEN</persName>
+<!--speaker-->
+            <persName>Göken</persName>
+<!--editorial-->
           </person>
           <personGrp xml:id="spSkolbarnen">
-            <name>Skolbarnen, gossar och flickor</name><!--castList-->
+            <name>Skolbarnen, gossar och flickor</name>
+<!--castList-->
           </personGrp>
         </listPerson>
       </particDesc>
     </profileDesc>
-
   </teiHeader>
   <text>
     <anchor xml:id="playstart"/>
     <front>
-      <pb facs="32490-0.jpg"/><!-- pärm -->
+      <pb facs="32490-0.jpg"/>
+<!-- pärm -->
       <gap reason="irrelevant"/>
-      <pb facs="32490-1.jpg"/><!-- insida pärm -->
-      <pb facs="32490-2.jpg"/><!-- tom sida -->
-      <pb facs="32490-3.jpg"/><!-- tom sida -->
-      <pb facs="32490-4.jpg"/><!-- tom sida -->
-      <pb facs="32490-5.jpg"/><!-- illustration volym -->
+      <pb facs="32490-1.jpg"/>
+<!-- insida pärm -->
+      <pb facs="32490-2.jpg"/>
+<!-- tom sida -->
+      <pb facs="32490-3.jpg"/>
+<!-- tom sida -->
+      <pb facs="32490-4.jpg"/>
+<!-- tom sida -->
+      <pb facs="32490-5.jpg"/>
+<!-- illustration volym -->
       <gap reason="irrelevant"/>
-      <pb facs="32490-6.jpg"/><!-- titelsida volym -->
+      <pb facs="32490-6.jpg"/>
+<!-- titelsida volym -->
       <gap reason="irrelevant"/>
-      <pb facs="32490-7.jpg"/><!-- trycksida -->
+      <pb facs="32490-7.jpg"/>
+<!-- trycksida -->
       <gap reason="irrelevant"/>
       <pb facs="32490-8.jpg"/>
-      <gap reason="irrelevant"/><!-- titel -->
+      <gap reason="irrelevant"/>
+<!-- titel -->
       <castList>
         <head>Personer:</head>
         <castItem>
-          <role><persName ref="#Maja">Maja</persName></role>, <roleDesc>en skolflicka, kallad Perdita</roleDesc>.
+          <role>
+            <persName ref="#Maja">Maja</persName>
+          </role>, <roleDesc>en skolflicka, kallad Perdita</roleDesc>.
         </castItem>
         <castItem>
-          <role><persName ref="#Svante">Svante April</persName></role>, <roleDesc>en tjufpojke, stum person</roleDesc>.
+          <role>
+            <persName ref="#Svante">Svante April</persName>
+          </role>, <roleDesc>en tjufpojke, stum person</roleDesc>.
         </castItem>
         <castItem>
-          <role><persName ref="#Eko">Eko</persName></role>, <roleDesc>en gosse med trumpet</roleDesc>.
+          <role>
+            <persName ref="#Eko">Eko</persName>
+          </role>, <roleDesc>en gosse med trumpet</roleDesc>.
         </castItem>
         <castItem>
-          <role><persName ref="#Florio">Prins Florio</persName></role>, <roleDesc><persName ref="#Skogen">skogens</persName> konung, förklädd</roleDesc>.
+          <role>
+            <persName ref="#Florio">Prins Florio</persName>
+          </role>, <roleDesc>
+            <persName ref="#Skogen">skogens</persName> konung, förklädd</roleDesc>.
         </castItem>
         <castItem>
-          <role><persName ref="#Fjärilen">En fjäril</persName></role>, <roleDesc>gosse</roleDesc>.
+          <role>
+            <persName ref="#Fjärilen">En fjäril</persName>
+          </role>, <roleDesc>gosse</roleDesc>.
         </castItem>
         <castItem>
-          <role><persName ref="#Sländan">En slända</persName></role>, <roleDesc>flicka</roleDesc>.
+          <role>
+            <persName ref="#Sländan">En slända</persName>
+          </role>, <roleDesc>flicka</roleDesc>.
         </castItem>
         <castItem>
           <roleGroup>
-            <roleDesc><persName ref="#Blåsippor">Två blåsippor</persName>, stumma flickor</roleDesc>.
+            <roleDesc>
+              <persName ref="#Blåsippor">Två blåsippor</persName>, stumma flickor</roleDesc>.
           </roleGroup>
         </castItem>
         <castItem>
-          <role><persName ref="#Göken">Göken</persName></role>, <roleDesc>en gosse</roleDesc>.
+          <role>
+            <persName ref="#Göken">Göken</persName>
+          </role>, <roleDesc>en gosse</roleDesc>.
         </castItem>
         <castItem>
           <roleGroup>
-            <roleDesc><persName ref="#Skolbarnen">Skolbarnen</persName>, gossar och flickor</roleDesc>.
+            <roleDesc>
+              <persName ref="#Skolbarnen">Skolbarnen</persName>, gossar och flickor</roleDesc>.
           </roleGroup>
         </castItem>
         <addSpan spanTo="#slutTillagt"/>
         <castItem>
           <roleGroup>
-            <roleDesc><persName ref="#Ekoröster">Ekoröster</persName></roleDesc>.
+            <roleDesc>
+              <persName ref="#Ekoröster">Ekoröster</persName>
+            </roleDesc>.
           </roleGroup>
         </castItem>
         <castItem type="list">
           <roleGroup>
-            <roleDesc><persName ref="#Skogen">Skog</persName></roleDesc>,
+            <roleDesc>
+              <persName ref="#Skogen">Skog</persName>
+            </roleDesc>,
             <role corresp="#Furuhjelm"/>
             <role corresp="#Granfelt"/>
             <role corresp="#Häggblom"/>
@@ -321,7 +369,9 @@
             <role corresp="#Rönnqvist"/>
           </roleGroup>
           <roleGroup>
-            <roleDesc><persName ref="#Fåglarna">fåglar</persName></roleDesc>,
+            <roleDesc>
+              <persName ref="#Fåglarna">fåglar</persName>
+            </roleDesc>,
             <role corresp="#Kråkan"/>
             <role corresp="#Lärkan"/>
             <role corresp="#Skatan"/>
@@ -341,24 +391,37 @@
         <stage type="entrance" who="#Svante">(Svante April springer dansande in med en blomsterkorg i
           <lb/> sin hand, stannar, ser sig tillbaka och gör gäckande åtbörder.)</stage>
         <sp who="#spMaja">
-          <speaker>MAJA</speaker> <stage>(utom scenen).</stage> <p><persName ref="#Svante">Svante</persName>! Min korg! Mina blommor!</p>
+          <speaker>MAJA</speaker>
+          <stage>(utom scenen).</stage>
+          <p>
+            <persName ref="#Svante">Svante</persName>! Min korg! Mina blommor!</p>
         </sp>
         <sp who="#spSvante">
-          <speaker>SVANTE</speaker> <stage>(vinkar gäckande med korgen).</stage>
+          <speaker>SVANTE</speaker>
+          <stage>(vinkar gäckande med korgen).</stage>
         </sp>
-        <stage><stage type="entrance" who="#Maja">Maja inträder ovig och flämtande.</stage> Hon är vinterklädd i
+        <stage>
+          <stage type="entrance" who="#Maja">Maja inträder ovig och flämtande.</stage> Hon är vinterklädd i
           <lb/> pels, muff, hufva, schal, ullvantar och ytterkängor. <persName ref="#Svante">Svante</persName> visar
           <lb/> lång näsa.)</stage>
-        <pb facs="32490-9.jpg"/><fw type="pageNum">144</fw>
+        <pb facs="32490-9.jpg"/>
+        <fw type="pageNum">144</fw>
         <sp who="#spMaja">
-          <speaker>MAJA.</speaker> <p>Men så stanna då, <persName ref="#Svante">Svante</persName>, gif mig igen
-            <lb/> mina blommor! <stage>(<persName ref="#Svante">Svante</persName> kastar en slängkyss, flyr och för­<lb break="no"/>svinner.)</stage> Han flyr, han synes ej mer! O, <persName ref="#Svante">den tjufpoj­<lb break="no"/>ken</persName>! <stage>(Höjer rösten.)</stage> <persName ref="#Svante">Svante-e</persName>!</p>
+          <speaker>MAJA.</speaker>
+          <p>Men så stanna då, <persName ref="#Svante">Svante</persName>, gif mig igen
+            <lb/> mina blommor! <stage>(<persName ref="#Svante">Svante</persName> kastar en slängkyss, flyr och för­<lb break="no"/>svinner.)</stage> Han flyr, han synes ej mer! O, <persName ref="#Svante">den tjufpoj­<lb break="no"/>ken</persName>! <stage>(Höjer rösten.)</stage>
+            <persName ref="#Svante">Svante-e</persName>!</p>
         </sp>
         <sp who="#spEkoröster">
-          <speaker>EKORÖSTER</speaker> <stage>(från alla sidor).</stage> <p><persName ref="#Svante">Svante-e</persName>!</p>
+          <speaker>EKORÖSTER</speaker>
+          <stage>(från alla sidor).</stage>
+          <p>
+            <persName ref="#Svante">Svante-e</persName>!</p>
         </sp>
         <sp who="#spMaja">
-          <speaker>MAJA</speaker> <stage>(sätter sig pustande på en tufva).</stage> <p>Det fattades
+          <speaker>MAJA</speaker>
+          <stage>(sätter sig pustande på en tufva).</stage>
+          <p>Det fattades
             <lb/> ännu! <persName ref="#Skogen">Hela skogen</persName> gör narr af mig. Och ingen barm­<lb break="no"/>hertig granruska håller fast <persName ref="#Svante">tjufven</persName>, <persName ref="#Svante">min egen bror,
             <lb/> Svante April</persName>, som stulit alla mina blommor! <stage>(Aftorkar
             <lb/> ögonen.)</stage> Nej ... ingen skall se mig lipa. <stage>(Uppstår raskt
@@ -366,7 +429,9 @@
             <lb/> Furuhjelm</persName>? Kanske <persName ref="#Granfelt">fru Granfelt</persName> mins mig från förra året?
             <lb/> Var jag ej du med <persName ref="#Häggblom #Lindgren #Lönnblad #Rönnqvist">fröknarna Lindgren, Lönnblad, Rönn­<lb break="no"/>qvist och Häggblom</persName>? Åren förgå, <persName ref="#Häggblom #Lindgren #Lönnblad #Rönnqvist">små flickor</persName> växa ur
             <lb/> sina klädningar ... Jaså. <persName ref="#Skogen">Herrskapet</persName> ser så obekant ut,
-            <lb/> <persName ref="#Skogen">herrskapet</persName> har intet den äran? Jag måste väl då pre­<lb break="no"/>sentera <persName ref="#Maja">min lilla person</persName> <stage>(niger)</stage>. Jag är Maja, blomster­<lb break="no"/>flickan, som hela <placeName>Europa</placeName>, <placeName>norra Asien</placeName> och <placeName>norra Amerika</placeName>
+            <lb/>
+            <persName ref="#Skogen">herrskapet</persName> har intet den äran? Jag måste väl då pre­<lb break="no"/>sentera <persName ref="#Maja">min lilla person</persName>
+            <stage>(niger)</stage>. Jag är Maja, blomster­<lb break="no"/>flickan, som hela <placeName>Europa</placeName>, <placeName>norra Asien</placeName> och <placeName>norra Amerika</placeName>
             <lb/> känna. Men i år kallas jag Perdita, den förlorade Maj.
             <lb/> Tänken er, i går, sista April, var solsken; i dag, första
             <lb/> Maj, är vinter och snö! O, hvad jag frös i dag på
@@ -375,29 +440,45 @@
             <lb/> krupit under mitt hvita täcke. Gissa, om det blef sorg
             <lb/> och klagan i alla hem! <persName ref="#Skolbarnen">Barnen</persName> skulle ju få i dag sin
             <lb/> gladaste fridag, och hvar är nu deras glada första Maj?
-            <lb/> <persName ref="#Maja">Perdita</persName>! <persName ref="#Maja">Perdita</persName>!</p>
+            <lb/>
+            <persName ref="#Maja">Perdita</persName>! <persName ref="#Maja">Perdita</persName>!</p>
         </sp>
         <sp who="#spEko">
-          <speaker>EKO</speaker> <stage>(osynligt).</stage> <p><persName ref="#Maja">Perdita</persName>! <persName ref="#Maja">Perdita</persName>!</p>
+          <speaker>EKO</speaker>
+          <stage>(osynligt).</stage>
+          <p>
+            <persName ref="#Maja">Perdita</persName>! <persName ref="#Maja">Perdita</persName>!</p>
         </sp>
         <sp who="#spMaja">
-          <speaker>MAJA.</speaker> <p>Där hör ni det! Men det är icke nog med
-            <lb/> <persName ref="#Eko">en röst</persName> i <persName ref="#Skogen">skogen</persName>. Alla berg, kullar och dalar, <persName ref="#Skogen">alla vän­<lb break="no"/>tande löfknoppar</persName>, <persName ref="#Fåglarna">alla frusna sångfåglar</persName>, <persName ref="#Myggorna">alla myggor</persName>,
+          <speaker>MAJA.</speaker>
+          <p>Där hör ni det! Men det är icke nog med
+            <lb/>
+            <persName ref="#Eko">en röst</persName> i <persName ref="#Skogen">skogen</persName>. Alla berg, kullar och dalar, <persName ref="#Skogen">alla vän­<lb break="no"/>tande löfknoppar</persName>, <persName ref="#Fåglarna">alla frusna sångfåglar</persName>, <persName ref="#Myggorna">alla myggor</persName>,
             <lb/> som skulle dansa fransäs i dag, söka och sörja mig.
-            <pb facs="32490-10.jpg"/><fw type="pageNum">145</fw>
+            <pb facs="32490-10.jpg"/>
+            <fw type="pageNum">145</fw>
             Säg dem bara ett ord, och du skall få hundra svar.
-            <lb/> Säg till dem: <stage>(höjer rösten)</stage> <persName ref="#Maja">Perdita</persName>!</p>
+            <lb/> Säg till dem: <stage>(höjer rösten)</stage>
+            <persName ref="#Maja">Perdita</persName>!</p>
         </sp>
-        <stage>(<persName ref="#Ekoröster">Hundrade osynliga ekon</persName> upprepa från alla sidor <sp who="#spEkoröster" rend="inline"><p><persName ref="#Maja">Perdita</persName>!
-          <lb/> <persName ref="#Maja">Perdita</persName>!</p></sp></stage>
+        <stage>(<persName ref="#Ekoröster">Hundrade osynliga ekon</persName> upprepa från alla sidor <sp who="#spEkoröster" rend="inline">
+            <p>
+              <persName ref="#Maja">Perdita</persName>!
+          <lb/>
+              <persName ref="#Maja">Perdita</persName>!</p>
+          </sp>
+        </stage>
         <sp who="#spMaja">
-          <speaker>MAJA.</speaker> <p>Se så, sakta, låt det nu vara nog! <stage>(<persName ref="#Ekoröster">Eko­<lb break="no"/>rösterna</persName> tystna.)</stage> Märker du nu, <persName ref="#Skogen">skog</persName>, att allt i naturen
+          <speaker>MAJA.</speaker>
+          <p>Se så, sakta, låt det nu vara nog! <stage>(<persName ref="#Ekoröster">Eko­<lb break="no"/>rösterna</persName> tystna.)</stage> Märker du nu, <persName ref="#Skogen">skog</persName>, att allt i naturen
             <lb/> hör oss och svarar oss? Allt väntar, saknar och hoppas
             <lb/> med oss ... När jag stod upp och sökte mina blommor,
             <lb/> hade <persName ref="#Svante">min bror Svante</persName> tagit dem. O, <persName ref="#Svante">den förrädaren</persName>,
             <lb/> jag sprang ut att få fatt på honom, och ... uh, det var
             <lb/> kallt! <persName ref="#Almanacka">Min moster, tant Almanacka</persName>, kom springande
-            <lb/> efter mig. <stage>(Härmar en hes gumma.)</stage> <said who="#Almanacka"><persName ref="#Maja">Barn</persName>, <persName ref="#Maja">barn</persName>, hvad
+            <lb/> efter mig. <stage>(Härmar en hes gumma.)</stage>
+            <said who="#Almanacka">
+              <persName ref="#Maja">Barn</persName>, <persName ref="#Maja">barn</persName>, hvad
             <lb/> tänker du på? Går ut i den tunna klädningen och får
             <lb/> influensan! <stage>(Hostar.)</stage> Kläd dig förståndigt, <persName ref="#Maja">flicka</persName>, se
             <lb/> här!</said> Och så pelsade hon på mig allt, hvad hon fann
@@ -406,100 +487,141 @@
             <lb/> blomsterflicka och ser ut som en vinterbuse!</p>
         </sp>
         <sp who="#spEko">
-          <speaker>EKO</speaker> <stage>(osynligt).</stage> <p><persName ref="#Maja">Vinterbuse</persName>!</p>
+          <speaker>EKO</speaker>
+          <stage>(osynligt).</stage>
+          <p>
+            <persName ref="#Maja">Vinterbuse</persName>!</p>
         </sp>
         <sp who="#spMaja">
-          <speaker>MAJA.</speaker> <p>Åh, tyst du, jag behöfver ej höra det om.
-            <lb/> <stage>(Högre.)</stage> <persName ref="#Svante">Svante-e</persName>!</p>
+          <speaker>MAJA.</speaker>
+          <p>Åh, tyst du, jag behöfver ej höra det om.
+            <lb/>
+            <stage>(Högre.)</stage>
+            <persName ref="#Svante">Svante-e</persName>!</p>
         </sp>
         <sp who="#spEko">
-          <speaker>EKO</speaker> <stage>(osynligt).</stage> <p><persName ref="#Svante">Svante-e</persName>!</p>
+          <speaker>EKO</speaker>
+          <stage>(osynligt).</stage>
+          <p>
+            <persName ref="#Svante">Svante-e</persName>!</p>
         </sp>
         <sp who="#spMaja">
-          <speaker>MAJA</speaker> <stage>(harmset).</stage> <p>Håll munnen, <persName ref="#Eko">din narr</persName>!</p>
+          <speaker>MAJA</speaker>
+          <stage>(harmset).</stage>
+          <p>Håll munnen, <persName ref="#Eko">din narr</persName>!</p>
         </sp>
         <sp who="#spEko">
-          <speaker>EKO</speaker> <stage>(som förut).</stage> <p>Håll munnen, <persName ref="#Eko" cert="medium">din narr</persName>!</p>
+          <speaker>EKO</speaker>
+          <stage>(som förut).</stage>
+          <p>Håll munnen, <persName ref="#Eko" cert="medium">din narr</persName>!</p>
         </sp>
         <sp who="#spMaja">
-          <speaker>MAJA.</speaker> <p>Nej, det lönar sig då intet att träta med
-            <lb/> <persName ref="#Eko">den där</persName>. O, hvad jag är frusen och trött! Se där äro
-            <lb/> <persName ref="#Blåsippor">två ihjälfrusna blåsippor</persName>. Jag vill sätta mig bredvid
+          <speaker>MAJA.</speaker>
+          <p>Nej, det lönar sig då intet att träta med
+            <lb/>
+            <persName ref="#Eko">den där</persName>. O, hvad jag är frusen och trött! Se där äro
+            <lb/>
+            <persName ref="#Blåsippor">två ihjälfrusna blåsippor</persName>. Jag vill sätta mig bredvid
             <lb/> dem. <stage>(Sätter sig.)</stage> Förlåt, <persName ref="#Granfelt">fru Granfelt</persName>, att jag sätter
             <lb/> mig på <persName ref="#Granfelt">fruns</persName> klädningsfåll! <stage>(Suckar.)</stage> Hvad ljuset är
             <lb/> skönt, när det tillika är varmt! Hvad våren är glad,
             <lb/> när den verkligen är vår! ... Men hvem kommer där?
-            <lb/> <persName ref="#Florio">En snögubbe</persName>!</p>
+            <lb/>
+            <persName ref="#Florio">En snögubbe</persName>!</p>
         </sp>
-        <pb facs="32490-11.jpg"/><fw type="pageNum">146</fw>
+        <pb facs="32490-11.jpg"/>
+        <fw type="pageNum">146</fw>
         <stage type="entrance" who="#Florio">(En snögubbe, insvept i hvitt lakan, med mask för ansigtet
           <lb/> och långt, hvitt skägg, inträder, haltande på två kryckor.)</stage>
         <sp who="#spMaja">
-          <speaker>MAJA.</speaker> <p>Hvad han ser gammal och bräcklig ut! Hvar
+          <speaker>MAJA.</speaker>
+          <p>Hvad han ser gammal och bräcklig ut! Hvar
             <lb/> ifrån kommer du, <persName ref="#Florio">fattige gubbe</persName>?</p>
         </sp>
         <sp who="#spFlorio">
-          <speaker>SNÖGUBBEN.</speaker> <p>Från <placeName>Alperna</placeName>.</p>
+          <speaker>SNÖGUBBEN.</speaker>
+          <p>Från <placeName>Alperna</placeName>.</p>
         </sp>
         <sp who="#spMaja">
-          <speaker>MAJA.</speaker> <p>Du menar från <placeName>Lappland</placeName>. Ingen slant har
+          <speaker>MAJA.</speaker>
+          <p>Du menar från <placeName>Lappland</placeName>. Ingen slant har
             <lb/> jag att gifva dig, men är du trött, så hvila dig här på
-            <lb/> <persName ref="#Granfelt">det mjuka granriset</persName>!</p>
+            <lb/>
+            <persName ref="#Granfelt">det mjuka granriset</persName>!</p>
         </sp>
         <sp who="#spFlorio">
-          <speaker>SNÖGUBBEN.</speaker> <p>Tack. Jag vill sofva mig varm. <stage>(Han
-            <lb/> sätter sig och insomnar på <persName ref="#Granfelt">granriset</persName>.)</stage></p>
+          <speaker>SNÖGUBBEN.</speaker>
+          <p>Tack. Jag vill sofva mig varm. <stage>(Han
+            <lb/> sätter sig och insomnar på <persName ref="#Granfelt">granriset</persName>.)</stage>
+          </p>
         </sp>
         <sp who="#spMaja">
-          <speaker>MAJA.</speaker> <p>Hvad? Sofver han redan? Och jag är nästan
+          <speaker>MAJA.</speaker>
+          <p>Hvad? Sofver han redan? Och jag är nästan
             <lb/> lika trött som han. Om jag skulle hålla mig vaken med
             <lb/> en lexa från <orgName ref="#Skolan">skolan</orgName>? ... <placeName>Jangtsekiang</placeName> eller <placeName>Blå floden</placeName> ...
-            <lb/> <placeName>Hoangho</placeName> eller <placeName>Gula floden</placeName> <stage>(gäspar)</stage> ... <placeName>Tschingkiang</placeName>, <placeName>Sut­<lb break="no"/>schen</placeName>, <placeName>Schanghai</placeName> ... Jag undrar, när <persName ref="#Florio">prins Florio</persName> ändt­<lb break="no"/>ligen behagar inträffa här i den frusna norden. Han
+            <lb/>
+            <placeName>Hoangho</placeName> eller <placeName>Gula floden</placeName>
+            <stage>(gäspar)</stage> ... <placeName>Tschingkiang</placeName>, <placeName>Sut­<lb break="no"/>schen</placeName>, <placeName>Schanghai</placeName> ... Jag undrar, när <persName ref="#Florio">prins Florio</persName> ändt­<lb break="no"/>ligen behagar inträffa här i den frusna norden. Han
             <lb/> gör sig ingen brådska; han skall bäras in i triumf af
             <lb/> hela sitt hof, och det dröjer, innan alla ha klädt sig i
             <lb/> hofdrägt. Vi andra <stage>(gäspar)</stage> få vänta ... Om jag skulle
-            <lb/> sofva en blund? Godnatt, solstråle! <stage>(Somnar.)</stage></p>
+            <lb/> sofva en blund? Godnatt, solstråle! <stage>(Somnar.)</stage>
+          </p>
         </sp>
         <stage type="entrance" who="#Fjärilen #Sländan">(En fjäril och en trollslända flyga in.)</stage>
         <sp who="#spFjärilen">
-          <speaker>FJÄRILN.</speaker> <p>Här har <persName ref="#Maja">vårens flicka</persName> gått före oss. Jag
+          <speaker>FJÄRILN.</speaker>
+          <p>Här har <persName ref="#Maja">vårens flicka</persName> gått före oss. Jag
             <lb/> ser hennes spår i snön. <persName ref="#Sländan">Slända</persName>, jag är frusen och hung­<lb break="no"/>rig, gif mig en enda körsbärsblomma!</p>
         </sp>
         <sp who="#spSländan">
-          <speaker>SLÄNDAN.</speaker> <p><persName ref="#Fjärilen">Fjäril</persName>, jag är frusen som du och mycket
+          <speaker>SLÄNDAN.</speaker>
+          <p>
+            <persName ref="#Fjärilen">Fjäril</persName>, jag är frusen som du och mycket
             <lb/> törstig. Gif mig en blå sjö med krusiga vågor!</p>
         </sp>
         <sp who="#spFjärilen">
-          <speaker>FJÄRILN.</speaker> <p>Om jag vore en sparf, skulle jag strax
+          <speaker>FJÄRILN.</speaker>
+          <p>Om jag vore en sparf, skulle jag strax
             <lb/> äta upp dig.</p>
         </sp>
         <sp who="#spSländan">
-          <speaker>SLÄNDAN.</speaker> <p>Om du vore en daggdroppe, skulle jag
+          <speaker>SLÄNDAN.</speaker>
+          <p>Om du vore en daggdroppe, skulle jag
             <lb/> strax dricka upp dig.</p>
         </sp>
         <sp who="#spFjärilen">
-          <speaker>FJÄRILN.</speaker> <p>Hör du, <persName ref="#Sländan">slända</persName>, jag tycker vi två kunde
+          <speaker>FJÄRILN.</speaker>
+          <p>Hör du, <persName ref="#Sländan">slända</persName>, jag tycker vi två kunde
             <lb/> blifva ett par. I går, när solen sken, kröpo vi båda
             <lb/> ur puppan; i dag, utan sol, kunna vi dö tillsamman.
-            <pb facs="32490-12.jpg"/><fw type="pageNum">147</fw>
+            <pb facs="32490-12.jpg"/>
+            <fw type="pageNum">147</fw>
             Vi ha lefvat en dag och en natt som goda vänner. Vi
             <lb/> ha lefvat nog.</p>
         </sp>
         <sp who="#spSländan">
-          <speaker>SLÄNDAN.</speaker> <p>En dag i ljus, en natt i skugga. Du har
+          <speaker>SLÄNDAN.</speaker>
+          <p>En dag i ljus, en natt i skugga. Du har
             <lb/> rätt, låt oss dö i natt vid hvarandras sida i snön och
             <lb/> prisa Gud.</p>
         </sp>
-        <stage>(De sätta sig på marken och insomna. Snön<ref type="noteAnchor" target="#note1">*</ref><note xml:id="note1" place="bottom"><label>*</label> Snön göres af hvitt, finklippt papper.</note> faller hvit
+        <stage>(De sätta sig på marken och insomna. Snön<ref type="noteAnchor" target="#note1">*</ref>
+          <note xml:id="note1" place="bottom">
+            <label>*</label> Snön göres af hvitt, finklippt papper.</note> faller hvit
           <lb/> öfver dem, öfver <persName ref="#Maja">Maja</persName>, <persName ref="#Florio">snögubben</persName> och <persName ref="#Blåsippor">de två blåsipporna</persName>. <stage type="entrance" who="#Eko">Eko
           <lb/> framträder.</stage>)</stage>
         <sp who="#spEko">
-          <speaker>EKO.</speaker> <p><persName ref="#Fjärilen #Sländan">Stackars barn</persName>! Gud såg på dem med sin
+          <speaker>EKO.</speaker>
+          <p>
+            <persName ref="#Fjärilen #Sländan">Stackars barn</persName>! Gud såg på dem med sin
             <lb/> varma sol, och de vaknade till lif. Gud bortvände sitt
             <lb/> ansigte, och de voro ej mer! Deras lif var en dag och
             <lb/> en natt. Men Gud är barmhertig, han skall åter upp­<lb break="no"/>väcka allt, som tåligt lider och dör på jorden. Jag vill
             <lb/> lägga den första gröna videqvisten öfver <persName ref="#Fjärilen">fjärilns</persName> och
-            <lb/> <persName ref="#Sländan">sländans</persName> graf. <stage>(Han lägger en grön qvist öfver dem.)</stage> Man
+            <lb/>
+            <persName ref="#Sländan">sländans</persName> graf. <stage>(Han lägger en grön qvist öfver dem.)</stage> Man
             <lb/> säger, att jag är elak och pratsjuk. Det är för att alla
             <lb/> gyckla med mig. Men jag kan också vara god. Säg
             <lb/> mig vänliga, vackra ord, och jag skall svara, som man
@@ -509,41 +631,56 @@
             <lb/> hans gröna slott. <persName ref="#Florio">Florio</persName> är en beskedlig gosse, men
             <lb/> litet fåfäng, som alla unga prinsar. Han vill hålla ett
             <lb/> kungligt intåg. Därför få vi andra vänta och frysa.
-            <lb/> <stage>(Lyssnar åter.)</stage> Men hvem drillar där högt i skyn? <stage>(Man
+            <lb/>
+            <stage>(Lyssnar åter.)</stage> Men hvem drillar där högt i skyn? <stage>(Man
             <lb/> hör <persName ref="#Lärkan">lärkan</persName> drilla.)</stage> Skulle det vara <persName ref="#Lärkan">lärkan</persName>? Omöjligt,
             <lb/> hon fryser ihjäl. <stage>(Ny drill.)</stage> Men det är likväl hon!
             <lb/> Jag håller vad om allt sqvaller i verlden, att nu kan 
-            <lb/> <persName ref="#Florio">prins Florio</persName> ej vara långt borta. Det fattas bara, att också
-            <lb/> <persName ref="#Göken">göken</persName> ... <stage><persName ref="#Göken">Göken</persName> gal.)</stage> Nej, hör, där är han verkligen!</p>
+            <lb/>
+            <persName ref="#Florio">prins Florio</persName> ej vara långt borta. Det fattas bara, att också
+            <lb/>
+            <persName ref="#Göken">göken</persName> ... <stage>
+              <persName ref="#Göken">Göken</persName> gal.)</stage> Nej, hör, där är han verkligen!</p>
         </sp>
-        <pb facs="32490-13.jpg"/><fw type="pageNum">148</fw>
+        <pb facs="32490-13.jpg"/>
+        <fw type="pageNum">148</fw>
         <stage type="entrance" who="#Göken">(Göken, en bevingad gråklädd gosse, framträder.)</stage>
         <sp who="#spGöken">
-          <speaker>GÖKEN.</speaker> <p>God morgon, <persName ref="#Eko">Eko</persName>! Hvarför svarar du ej
+          <speaker>GÖKEN.</speaker>
+          <p>God morgon, <persName ref="#Eko">Eko</persName>! Hvarför svarar du ej
             <lb/> på mitt kucku?</p>
         </sp>
         <sp who="#spEko">
-          <speaker>EKO.</speaker> <p>Nej, hör nu, <persName ref="#Göken">kucku lilla</persName>, det måste vara ett
+          <speaker>EKO.</speaker>
+          <p>Nej, hör nu, <persName ref="#Göken">kucku lilla</persName>, det måste vara ett
             <lb/> misstag. Jag ser ingen blå himmel, snön har upphört,
-            <lb/> men regnet slår mig i ansigtet<supplied>.</supplied> <persName ref="#Granfelt">Fru Granfelt</persName>, var så
+            <lb/> men regnet slår mig i ansigtet<supplied>.</supplied>
+            <persName ref="#Granfelt">Fru Granfelt</persName>, var så
             <lb/> god och låna mig ett paraply!</p>
         </sp>
         <sp who="#spGöken">
-          <speaker>GÖKEN.</speaker> <p><persName ref="#Florio">Prins Florio, <persName ref="#Skogen">skogens</persName> unge konung</persName>, helsar
-            <lb/> <persName ref="#Blåsippor #Fåglarna #Skogen">sina trogna träd, örter, blommor och fåglar</persName>. Han åter­<lb break="no"/>kommer från <placeName>Alperna</placeName> till sitt nordiska rike och frågar,
+          <speaker>GÖKEN.</speaker>
+          <p>
+            <persName ref="#Florio">Prins Florio, <persName ref="#Skogen">skogens</persName> unge konung</persName>, helsar
+            <lb/>
+            <persName ref="#Blåsippor #Fåglarna #Skogen">sina trogna träd, örter, blommor och fåglar</persName>. Han åter­<lb break="no"/>kommer från <placeName>Alperna</placeName> till sitt nordiska rike och frågar,
             <lb/> om han är välkommen.</p>
         </sp>
         <sp who="#spEkoröster">
-          <speaker>EKORÖSTERNA</speaker> <stage>(rundtomkring).</stage> <p>Välkommen!</p>
+          <speaker>EKORÖSTERNA</speaker>
+          <stage>(rundtomkring).</stage>
+          <p>Välkommen!</p>
         </sp>
         <sp who="#spGöken">
-          <speaker>GÖKEN.</speaker> <p>Bort alla vintermoln, isar, snö, mörker och
+          <speaker>GÖKEN.</speaker>
+          <p>Bort alla vintermoln, isar, snö, mörker och
             <lb/> dimmor! Blå himmel, grön jord, fritt haf! Alla bäckar
             <lb/> på språng! <persName ref="#Skogen">Alla skogar</persName> i löf! Alla ängar i blom! <persName ref="#Skolbarnen">Alla
             <lb/> barn</persName> i ringdans!</p>
         </sp>
         <sp who="#spEko">
-          <speaker>EKO.</speaker> <p>Och det skäms han intet att inbilla oss,
+          <speaker>EKO.</speaker>
+          <p>Och det skäms han intet att inbilla oss,
             <lb/> medan <stage>(hostar och snyter sig)</stage> folk och fänad förgås i hosta
             <lb/> och snufva. Hvar är <persName ref="#Florio">hans prins</persName>? Jag ser honom intet.
             <lb/> Jag är hes, jag förlorar min vackra röst, jag kan intet
@@ -553,7 +690,8 @@
           <lb/> lakan, skägget och masken falla. Vid det tredje står han som
           <lb/> en ung blomsterklädd prins midt på scenen.)</stage>
         <sp who="#spFlorio">
-          <speaker>FLORIO.</speaker> <p>Här är jag, <persName ref="#Skogen">skog</persName>! Här är jag, himmel!
+          <speaker>FLORIO.</speaker>
+          <p>Här är jag, <persName ref="#Skogen">skog</persName>! Här är jag, himmel!
             <lb/> Här är jag, haf! Allt stort kommer tyst. All morgon
             <lb/> dagas ur natt. All vår glömska ur vintersnö. Allt,
             <lb/> som lider, skall andas helsa. Allt, som dör, skall vakna
@@ -561,97 +699,130 @@
         </sp>
         <stage>(Vid dessa ord resa sig <persName ref="#Maja">Maja</persName>, <persName ref="#Blåsippor">de döda blåsipporna</persName>, <persName ref="#Fjärilen">fjäriln</persName>
           <lb/> och <persName ref="#Sländan">sländan</persName>.)</stage>
-        <pb facs="32490-14.jpg"/><fw type="pageNum">149</fw>
+        <pb facs="32490-14.jpg"/>
+        <fw type="pageNum">149</fw>
         <sp who="#spFjärilen">
-          <speaker>FJÄRILN.</speaker> <p>Så förunderligt! Jag drömde, att jag
+          <speaker>FJÄRILN.</speaker>
+          <p>Så förunderligt! Jag drömde, att jag
             <lb/> frusit ihjäl.</p>
         </sp>
         <sp who="#spFlorio">
-          <speaker>FLORIO.</speaker> <p>Nej, du skall lefva lycklig ditt korta fjä­<lb break="no"/>rilslif. Du skall en hel vecka ännu flyga från blomma
+          <speaker>FLORIO.</speaker>
+          <p>Nej, du skall lefva lycklig ditt korta fjä­<lb break="no"/>rilslif. Du skall en hel vecka ännu flyga från blomma
             <lb/> till blomma och prisa Gud.</p>
         </sp>
         <sp who="#spSländan">
-          <speaker>SLÄNDAN.</speaker> <p>Jag drömde om en blå sjö, som jag aldrig
+          <speaker>SLÄNDAN.</speaker>
+          <p>Jag drömde om en blå sjö, som jag aldrig
             <lb/> skulle få se.</p>
         </sp>
         <sp who="#spFlorio">
-          <speaker>FLORIO.</speaker> <p>Du skall flyga i glimmande solsken öfver
+          <speaker>FLORIO.</speaker>
+          <p>Du skall flyga i glimmande solsken öfver
             <lb/> de blå vågor, och när du dör, skall <persName ref="#UndaMarina">Unda Marina</persName> bära
             <lb/> dig som ett diamantsmycke på sitt fladdrande hår.</p>
         </sp>
         <sp who="#spMaja">
-          <speaker>MAJA.</speaker> <p><persName ref="#Florio">Florio</persName>, <persName ref="#Florio">Florio</persName>, hvar har du dröjt så länge?
+          <speaker>MAJA.</speaker>
+          <p>
+            <persName ref="#Florio">Florio</persName>, <persName ref="#Florio">Florio</persName>, hvar har du dröjt så länge?
             <lb/> Vi väntade på dig som en prins i lysande triumf, och du
             <lb/> kom som en fattig snögubbe, okänd och glömd!</p>
         </sp>
         <sp who="#spFlorio">
-          <speaker>FLORIO.</speaker> <p>Hvem är du, <persName ref="#Maja">gamla frusna gumma</persName>, som
+          <speaker>FLORIO.</speaker>
+          <p>Hvem är du, <persName ref="#Maja">gamla frusna gumma</persName>, som
             <lb/> jag aldrig sett förr?</p>
         </sp>
         <sp who="#spMaja">
-          <speaker>MAJA.</speaker> <p>Han frågar mig hvem jag är! Och det var
+          <speaker>MAJA.</speaker>
+          <p>Han frågar mig hvem jag är! Och det var
             <lb/> likväl jag, som i tusen år byggt qvarnar med honom i
             <lb/> bäcken och målat <persName ref="#Fjärilen">fjärilarnas</persName> vingar och <anchor type="hand" xml:id="handprat1start"/>nystat guldtråd
             <lb/> i <persName ref="#Morgonrodnaden">morgonrodnadens</persName> slöja!<anchor type="hand" xml:id="handprat1slut"/> Se, hur de murat in mig i
             <lb/> vinterns pelsar!</p>
         </sp>
         <sp who="#spFlorio">
-          <speaker>FLORIO.</speaker> <p>Är det du, <persName ref="#Maja">Maja</persName>? O, de grymma, förstån­<lb break="no"/>diga menniskorna, hur ha de missklädt <persName ref="#Maja">vårens gladaste
-            <lb/> flicka</persName>! Kom, tag din frihet åter! Du, muff <stage>(han bort­<lb break="no"/>kastar muffen)</stage>, skall blifva en lekstuga för <persName ref="#EkorrensUngar"><persName ref="#Ekorren">ekorrens</persName> ungar</persName>.
+          <speaker>FLORIO.</speaker>
+          <p>Är det du, <persName ref="#Maja">Maja</persName>? O, de grymma, förstån­<lb break="no"/>diga menniskorna, hur ha de missklädt <persName ref="#Maja">vårens gladaste
+            <lb/> flicka</persName>! Kom, tag din frihet åter! Du, muff <stage>(han bort­<lb break="no"/>kastar muffen)</stage>, skall blifva en lekstuga för <persName ref="#EkorrensUngar">
+              <persName ref="#Ekorren">ekorrens</persName> ungar</persName>.
             <lb/> Du, vinterhufva <stage>(han bortkastar hufvan)</stage>, skall blifva ett
             <lb/> passande <persName ref="#Kråkan">kråkbo</persName>. Du, schal <stage>(han bortkastar schalen)</stage>, skall
-            <lb/> fladdra för vinden i <persName ref="#Granfelt"><persName ref="#Skogen">skogens</persName> högsta grantopp</persName>. Dig, pels
-            <lb/> <stage>(bortkastar pelsen)</stage>, förärar jag åt <persName ref="#Jultomten">jultomten</persName> nästa jul. I
+            <lb/> fladdra för vinden i <persName ref="#Granfelt">
+              <persName ref="#Skogen">skogens</persName> högsta grantopp</persName>. Dig, pels
+            <lb/>
+            <stage>(bortkastar pelsen)</stage>, förärar jag åt <persName ref="#Jultomten">jultomten</persName> nästa jul. I
             <lb/> den högra kängan <stage>(bortkastar ytterkängorna)</stage> skall <persName ref="#Sädesärlan">sädes­<lb break="no"/>ärlan</persName> och i den venstra <persName ref="#Skatan">skatan</persName> värpa sitt ägg.</p>
         </sp>
         <sp who="#spMaja">
-          <speaker>MAJA</speaker> <stage>(som nu står i blomsterprydd vårdrägt).</stage> <p>Jag har en
+          <speaker>MAJA</speaker>
+          <stage>(som nu står i blomsterprydd vårdrägt).</stage>
+          <p>Jag har en
             <lb/> bön till dig, <persName ref="#Florio">Florio</persName>. <persName ref="#Skolbarnen">Alla skolbarn</persName> ha i dag sin fridag,
-            <pb facs="32490-15.jpg"/><fw type="pageNum">150</fw>
+            <pb facs="32490-15.jpg"/>
+            <fw type="pageNum">150</fw>
             och alla ha varit olyckliga för kölden och snön. Bed
             <lb/> himmelen klarna! Gif oss en vacker första Maj!
           </p>
         </sp>
         <sp who="#spFlorio">
-          <speaker>FLORIO.</speaker> <p>Har icke <persName ref="#Göken">göken</persName> redan lofvat er det? Titta
+          <speaker>FLORIO.</speaker>
+          <p>Har icke <persName ref="#Göken">göken</persName> redan lofvat er det? Titta
             <lb/> upp! Hvad ser du?</p>
         </sp>
         <sp who="#spMaja">
-          <speaker>MAJA.</speaker> <p>Solen! Solen!</p>
+          <speaker>MAJA.</speaker>
+          <p>Solen! Solen!</p>
         </sp>
         <sp who="#spEko">
-          <speaker>EKO.</speaker> <p>Solen! Solen! <stage>(Lägger fingret på munnen.)</stage> Ack,
+          <speaker>EKO.</speaker>
+          <p>Solen! Solen! <stage>(Lägger fingret på munnen.)</stage> Ack,
             <lb/> förlåt, <persName ref="#Florio">min prins</persName>, jag har varit hes i tjugo minuter och
             <lb/> ej kunnat sköta mitt embete, men nu kan jag ej tiga
             <lb/> längre.</p>
         </sp>
         <sp who="#spFlorio">
-          <speaker>FLORIO.</speaker> <p>Prata du, <persName ref="#Eko">Eko</persName>, och låt <persName ref="#Skogen">skogen</persName> genljuda af
+          <speaker>FLORIO.</speaker>
+          <p>Prata du, <persName ref="#Eko">Eko</persName>, och låt <persName ref="#Skogen">skogen</persName> genljuda af
             <lb/> glada röster. <stage type="entrance" who="#Skolbarnen">(Skolbarnen inkomma från båda sidor.)</stage> Hvar
             <lb/> är <persName ref="#Göken">min kapellmästare</persName>?</p>
         </sp>
         <sp who="#spGöken">
-          <speaker>GÖKEN.</speaker> <p>Hvad befaller <persName ref="#Florio">ers höghet</persName>!</p>
+          <speaker>GÖKEN.</speaker>
+          <p>Hvad befaller <persName ref="#Florio">ers höghet</persName>!</p>
         </sp>
         <sp who="#spFlorio">
-          <speaker>FLORIO.</speaker> <p>Stäm upp till dans! <persName ref="#Skolbarnen">Alla barn</persName> i ringen!
-            <lb/> <persName ref="#Skogen">Alla löf</persName> i beredskap att fladdra! <persName ref="#Fåglarna">Alla fåglar</persName> i qvitter!
-            <lb/> <persName ref="#Myggorna">Alla myggor</persName> i kadrilj, — men på behörigt afstånd!</p>
+          <speaker>FLORIO.</speaker>
+          <p>Stäm upp till dans! <persName ref="#Skolbarnen">Alla barn</persName> i ringen!
+            <lb/>
+            <persName ref="#Skogen">Alla löf</persName> i beredskap att fladdra! <persName ref="#Fåglarna">Alla fåglar</persName> i qvitter!
+            <lb/>
+            <persName ref="#Myggorna">Alla myggor</persName> i kadrilj, — men på behörigt afstånd!</p>
         </sp>
         <stage>(<persName ref="#Skolbarnen">Alla skolbarn</persName>, <persName ref="#Fjärilen">fjärilar</persName>, <persName ref="#Sländan">sländor</persName> och <persName ref="#Blåsippor">blåsippor</persName> taga i ring
           <lb/> kring <persName ref="#Florio">Florio</persName>, som räcker sin hand åt <persName ref="#Maja">Maja</persName>. <persName ref="#Eko">Eko</persName> blåser i sin
           <lb/> trumpet. <persName ref="#Göken">Göken</persName> gifver signal med kucku.)</stage>
         <sp who="#spSkolbarnen">
           <lg>
-            <head rend="italic"><persName ref="#Skolbarnen">Skolbarnens</persName> majsång i dansen.<ref type="noteAnchor" target="#note2">*</ref><note xml:id="note2" place="bottom"><label>*</label> <bibl>Melodi n:r 101 i Jul. Hammarlunds <title>»Barnens sångbok»</title>.</bibl></note></head>
+            <head rend="italic">
+              <persName ref="#Skolbarnen">Skolbarnens</persName> majsång i dansen.<ref type="noteAnchor" target="#note2">*</ref>
+              <note xml:id="note2" place="bottom">
+                <label>*</label>
+                <bibl>Melodi n:r 101 i Jul. Hammarlunds <title>»Barnens sångbok»</title>.</bibl>
+              </note>
+            </head>
             <l>Spraka, vinterfrost, i drifvans hvita snö!</l>
             <l>Braka, blanka is, för skridskon på vår sjö!</l>
             <l>Här är ingen rädd för nattens frusna troll.</l>
             <l>Våren gömmer sig i drifvans klädningsfåll.</l>
             <l>Sväng på klacken, han är re'n i backen!</l>
-            <l><persName ref="#Maja">Majsol</persName> blänker huld vid himlens mörka bryn,</l>
-            <l><persName ref="#Maja">Majsol</persName> stänker guld i <persName ref="#Morgonrodnaden">röda morgonskyn</persName>!</l>
-            <pb facs="32490-16.jpg"/><fw type="pageNum">151</fw>
+            <l>
+              <persName ref="#Maja">Majsol</persName> blänker huld vid himlens mörka bryn,</l>
+            <l>
+              <persName ref="#Maja">Majsol</persName> stänker guld i <persName ref="#Morgonrodnaden">röda morgonskyn</persName>!</l>
+            <pb facs="32490-16.jpg"/>
+            <fw type="pageNum">151</fw>
             <l>Spraka, vinterfrost, i drifvans hvita snö!</l>
             <l>Braka, blanka is, för skridskon på vår sjö!</l>
             <l>Här är ingen rädd för nattens frusna troll.</l>
@@ -659,31 +830,44 @@
             <l>Sväng på klacken, han är re'n i backen!</l>
           </lg>
           <lg>
-            <l>Nu så kransa vi med <persName ref="#Blåsippor">blommor</persName> <persName ref="#Florio">vårens kung</persName>,</l>
+            <l>Nu så kransa vi med <persName ref="#Blåsippor">blommor</persName>
+              <persName ref="#Florio">vårens kung</persName>,</l>
             <l>Nu så dansa vi i ring på <persName ref="#Skogen">skogens</persName> ljung.</l>
-            <l><persName ref="#Skogen">Alla grenar</persName> gunga, bäcken är på språng,</l>
-            <l><persName ref="#Fåglarna #Göken">Alla fåglar</persName> sjunga vårens ottesång.</l>
-            <l><persName ref="#Maja">Maj</persName> oss helsar: bort galosch och pelsar!</l>
+            <l>
+              <persName ref="#Skogen">Alla grenar</persName> gunga, bäcken är på språng,</l>
+            <l>
+              <persName ref="#Fåglarna #Göken">Alla fåglar</persName> sjunga vårens ottesång.</l>
+            <l>
+              <persName ref="#Maja">Maj</persName> oss helsar: bort galosch och pelsar!</l>
             <l>Aldrig såg man förr så grön <persName ref="#Skogen">en skog</persName> i svaj,</l>
             <l>Aldrig såg man förr så skön en första Maj!</l>
-            <l>Nu så kransa vi med <persName ref="#Blåsippor">blommor</persName> <persName ref="#Florio">vårens kung</persName>,</l>
+            <l>Nu så kransa vi med <persName ref="#Blåsippor">blommor</persName>
+              <persName ref="#Florio">vårens kung</persName>,</l>
             <l>Nu så dansa vi i ring på <persName ref="#Skogen">skogens</persName> ljung.</l>
-            <l><persName ref="#Skogen">Alla grenar gunga</persName>, bäcken är på språng,</l>
-            <l><persName ref="#Fåglarna #Göken">Alla fåglar</persName> sjunga vårens ottesång.</l>
-            <l><persName ref="#Maja">Maj</persName> oss helsar: bort galosch och pelsar!</l>
+            <l>
+              <persName ref="#Skogen">Alla grenar gunga</persName>, bäcken är på språng,</l>
+            <l>
+              <persName ref="#Fåglarna #Göken">Alla fåglar</persName> sjunga vårens ottesång.</l>
+            <l>
+              <persName ref="#Maja">Maj</persName> oss helsar: bort galosch och pelsar!</l>
           </lg>
         </sp>
         <stage rend="centered">(Leken slutar med blomsterregn.)</stage>
       </div>
     </body>
     <back>
-      <pb facs="32490-17.jpg"/><!-- innehållsförteckning volym -->
+      <pb facs="32490-17.jpg"/>
+<!-- innehållsförteckning volym -->
       <gap reason="irrelevant"/>
-      <pb facs="32490-18.jpg"/><!-- innehållsförteckning forts. -->
+      <pb facs="32490-18.jpg"/>
+<!-- innehållsförteckning forts. -->
       <gap reason="irrelevant"/>
-      <pb facs="32490-19.jpg"/><!-- tom sida -->
-      <pb facs="32490-20.jpg"/><!-- insida pärm -->
-      <pb facs="32490-21.jpg"/><!-- pärm,övrig utgivning -->
+      <pb facs="32490-19.jpg"/>
+<!-- tom sida -->
+      <pb facs="32490-20.jpg"/>
+<!-- insida pärm -->
+      <pb facs="32490-21.jpg"/>
+<!-- pärm,övrig utgivning -->
       <gap reason="irrelevant"/>
       <div type="editorial">
         <listPerson>
@@ -719,7 +903,7 @@
               </persName>
               <age>barn</age>
               <note>från Topelius Unda Marinas fotspår, i Läsning för barn 3</note>
-              <!-- http://runeberg.org/topbarn/3/0130.html -->
+<!-- http://runeberg.org/topbarn/3/0130.html -->
             </person>
             <person xml:id="Fjärilen" sex="male" role="animal">
               <age>barn</age>
@@ -810,7 +994,7 @@
                   <persName>Unda Marina</persName>
                   <age>barn</age>
                   <note>från Topelius Unda Marinas fotspår, i Läsning för barn 3</note>
-                  <!-- http://runeberg.org/topbarn/3/0130.html -->
+<!-- http://runeberg.org/topbarn/3/0130.html -->
                 </person>
                 <person xml:id="Jultomten" sex="male">
                   <persName>
@@ -844,7 +1028,7 @@
             <relation type="other" name="härmar" active="#Eko" passive="#Maja"/>
             <relation type="personal" name="vän" mutual="#Fjärilen #Sländan"/>
             <relation type="other" name="härmar" active="#Ekoröster" passive="#Maja #Göken"/>
-            <!-- tillagda/ersatta /EF -->
+<!-- tillagda/ersatta /EF -->
             <relation type="social" name="elev" active="#Maja #Skolbarnen" passive="#Skolan"/>
             <relation type="personal" name="vän" mutual="#Florio #UndaMarina"/>
             <relation type="other" name="ska.bära" active="#UndaMarina" passive="#Sländan" notBefore-custom="#playend"/>
@@ -872,9 +1056,15 @@
           <org xml:id="Skolan"/>
         </listOrg>
         <fs type="hand" xml:id="handprat1">
-          <f name="prat"><symbol value="nystning"/></f>
-          <f name="typ"><symbol value="konkret"/></f>
-          <f name="plats"><symbol value="episkt"/></f>
+          <f name="prat">
+            <symbol value="nystning"/>
+          </f>
+          <f name="typ">
+            <symbol value="konkret"/>
+          </f>
+          <f name="plats">
+            <symbol value="episkt"/>
+          </f>
           <f name="vem" fVal="#Maja"/>
           <f name="start" fVal="#handprat1start"/>
           <f name="slut" fVal="#handprat1slut"/>

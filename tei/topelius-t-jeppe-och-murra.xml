@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
@@ -70,18 +70,19 @@
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
-         <analytic>
-           <author sameAs="#TopeliusT">
-             <persName>Toini Topelius</persName>
-           </author>
-           <title level="a" type="main">Jeppe och Murra</title>
-           <title level="a" type="sub">Ett uppträde på morgonkvisten i Björkuddens matsal.</title>
-         </analytic>
+          <analytic>
+            <author sameAs="#TopeliusT">
+              <persName>Toini Topelius</persName>
+            </author>
+            <title level="a" type="main">Jeppe och Murra</title>
+            <title level="a" type="sub">Ett uppträde på morgonkvisten i Björkuddens matsal.</title>
+          </analytic>
           <monogr>
             <author sameAs="#TopeliusT">
               <persName>Toini Topelius</persName>
             </author>
-            <author xml:id="HögstedtA" role="illustrator"><!-- med i faksimil -->
+            <author xml:id="HögstedtA" role="illustrator">
+<!-- med i faksimil -->
               <persName>
                 <forename>Arthur</forename>
                 <surname>Högstedt</surname>
@@ -149,12 +150,12 @@
       </classDecl>
       <tagsDecl>
         <rendition>
-          <!-- Scenanvisningar anges med kursiv stil -->
-          <!-- Rubriker är centrerade /EF -->
-          <!-- Talarrubriker och repliker är inline, och indragna första raden;
+<!-- Scenanvisningar anges med kursiv stil -->
+<!-- Rubriker är centrerade /EF -->
+<!-- Talarrubriker och repliker är inline, och indragna första raden;
                en replik inom stage är helt inline (rend=inline) /EF -->
-          <!-- Talarrubriker är i versaler i mindre punktstorlek /EF -->
-          <!-- Scenanvisningar utanför repliker är indragna första raden,
+<!-- Talarrubriker är i versaler i mindre punktstorlek /EF -->
+<!-- Scenanvisningar utanför repliker är indragna första raden,
                utom den sista som är centrerad (rend=centered) /EF -->
         </rendition>
       </tagsDecl>
@@ -165,51 +166,74 @@
       </langUsage>
       <particDesc>
         <listPerson>
-          
           <person xml:id="spJeppe" sex="MALE">
-            <persName>Jeppe</persName><!--castList-->
-            <persName>JEPPE</persName><!--speaker-->
-            <persName>Jeppe</persName><!--editorial-->
+            <persName>Jeppe</persName>
+<!--castList-->
+            <persName>JEPPE</persName>
+<!--speaker-->
+            <persName>Jeppe</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spMurra" sex="FEMALE">
-            <persName>Murra</persName><!--castList-->
-            <persName>MURRA</persName><!--speaker-->
-            <persName>Murre</persName><!--editorial-->
+            <persName>Murra</persName>
+<!--castList-->
+            <persName>MURRA</persName>
+<!--speaker-->
+            <persName>Murre</persName>
+<!--editorial-->
           </person>
         </listPerson>
       </particDesc>
     </profileDesc>
-
   </teiHeader>
   <text>
     <anchor xml:id="playstart"/>
     <front>
-      <pb facs="5531-0.jpg"/><!-- pärm -->
+      <pb facs="5531-0.jpg"/>
+<!-- pärm -->
       <gap reason="irrelevant"/>
-      <pb facs="5531-1.jpg"/><!-- insida pärm -->
-      <pb facs="5531-2.jpg"/><!-- tom sida (med anteckning författarens namn) -->
-      <pb facs="5531-3.jpg"/><!-- tom sida -->
-      <pb facs="5531-4.jpg"/><!-- smutstitel -->
+      <pb facs="5531-1.jpg"/>
+<!-- insida pärm -->
+      <pb facs="5531-2.jpg"/>
+<!-- tom sida (med anteckning författarens namn) -->
+      <pb facs="5531-3.jpg"/>
+<!-- tom sida -->
+      <pb facs="5531-4.jpg"/>
+<!-- smutstitel -->
       <gap reason="irrelevant"/>
-      <pb facs="5531-5.jpg"/><!-- tom sida -->
-      <pb facs="5531-6.jpg"/><!-- tom sida -->
-      <pb facs="5531-7.jpg"/><!-- illustration -->
+      <pb facs="5531-5.jpg"/>
+<!-- tom sida -->
+      <pb facs="5531-6.jpg"/>
+<!-- tom sida -->
+      <pb facs="5531-7.jpg"/>
+<!-- illustration -->
       <gap reason="irrelevant"/>
-      <pb facs="5531-8.jpg"/><!-- titelsida volym -->
+      <pb facs="5531-8.jpg"/>
+<!-- titelsida volym -->
       <gap reason="irrelevant"/>
-      <pb facs="5531-9.jpg"/><!-- trycksida -->
+      <pb facs="5531-9.jpg"/>
+<!-- trycksida -->
       <gap reason="irrelevant"/>
       <pb facs="5531-10.jpg"/>
-      <gap reason="irrelevant"/><!-- titel -->
+      <gap reason="irrelevant"/>
+<!-- titel -->
       <castList>
         <head>PERSONER:</head>
         <castItem>
-          <role><persName ref="#Jeppe">JEPPE</persName></role><ref type="noteAnchor" target="#note1">*</ref><note place="bottom" xml:id="note1"><label>*</label> Råtthundar av engelsk ras.</note>,
-          <roleDesc>öfverråttjägmästare på <orgName ref="#Björkudden">Björkudden</orgName></roleDesc>.
+          <role>
+            <persName ref="#Jeppe">JEPPE</persName>
+          </role>
+          <ref type="noteAnchor" target="#note1">*</ref>
+          <note place="bottom" xml:id="note1">
+            <label>*</label> Råtthundar av engelsk ras.</note>,
+          <roleDesc>öfverråttjägmästare på <orgName ref="#Björkudden">Björkudden</orgName>
+          </roleDesc>.
         </castItem>
         <castItem>
-          <role><persName ref="#Murra">MURRA</persName></role><ref type="noteAnchor" target="#note1">*</ref>,
+          <role>
+            <persName ref="#Murra">MURRA</persName>
+          </role>
+          <ref type="noteAnchor" target="#note1">*</ref>,
           <roleDesc>källarvaktmastarinna därsammastädes</roleDesc>.
         </castItem>
       </castList>
@@ -218,18 +242,22 @@
       <div type="act" n="1">
         <div type="scene" n="1">
           <head>Första scenen.</head>
-          <stage type="setting" who="#Jeppe"><orgName ref="#Björkudden">En rymlig matsal</orgName> med hvita möbler och en munter
+          <stage type="setting" who="#Jeppe">
+            <orgName ref="#Björkudden">En rymlig matsal</orgName> med hvita möbler och en munter
             <lb/> brasa i kakelugnen. Jeppe ligger utsträckt framför brasan.
             <lb/> Helhvit kostym.</stage>
           <sp who="#spJeppe">
-            <speaker>JEPPE.</speaker> <stage>(Rätar på benen och gäspar.)</stage> <p>A-a-u-u! Den
+            <speaker>JEPPE.</speaker>
+            <stage>(Rätar på benen och gäspar.)</stage>
+            <p>A-a-u-u! Den
               <lb/> här värmen gör godt, när man på gamla dagar fått gikt
               <lb/> i bakbenen. Den fick jag, när jag som yngling gick
               <lb/> vilse på isen och blef funnen halft ihjälfrusen i en snö­<lb break="no"/>drifva ... Det är precis åtta år sedan dess. Men allt
               <lb/> ännu naggar gikten mitt vänstra bakben och skrufvar
               <lb/> om hörselapparaten, så jag inte hör riktigt bra. Man
               <lb/> sliter ondt, när man har en så ansvarsfull syssla, som
-              <pb facs="5531-11.jpg"/><fw type="pageNum">127</fw>
+              <pb facs="5531-11.jpg"/>
+              <fw type="pageNum">127</fw>
               öfverråttjägarmästareämbetet på <orgName ref="#Björkudden">Björkudden</orgName>. Hvart skulle
               <lb/> man taga vägen utan mig? Jag måste ständigt vara på
               <lb/> vakt, att inte <persName ref="#Råttsvansare">några råttsvansare</persName> lisma sig till medborgare­<lb break="no"/>rätt i detta kattlösa samhälle. Och därför ligger jag
@@ -244,13 +272,17 @@
               <lb/> som den borde vara, jag tar ibland miste på en kråka
               <lb/> och en människa. Men vaksam får jag vara ändå, och
               <lb/> det tar på krafterna. <stage>(Stora klockan i matsalen slår åtta.
-              <lb/> <persName ref="#Jeppe">Jeppe</persName> spetsar öronen och ser sig omkring.)</stage> Hvad var det?
+              <lb/>
+                <persName ref="#Jeppe">Jeppe</persName> spetsar öronen och ser sig omkring.)</stage> Hvad var det?
               <lb/> Någonting är visst på färde där ute, man får se åt.
-              <lb/> <stage>Lunkar beställsamt fram till fönstret och sticker hufvudet
+              <lb/>
+              <stage>Lunkar beställsamt fram till fönstret och sticker hufvudet
               <lb/> under gardinen.)</stage> Uff, det är ju kolmörka natten, man
               <lb/> ser ingenting, man kan gärna taga sig en lur till, innan
-              <lb/> <persName ref="#Murra">Murra</persName> kommer med rapporten. <stage>(Lägger sig åter framför
-              <lb/> brasan.)</stage></p>
+              <lb/>
+              <persName ref="#Murra">Murra</persName> kommer med rapporten. <stage>(Lägger sig åter framför
+              <lb/> brasan.)</stage>
+            </p>
           </sp>
         </div>
         <div type="scene" n="2">
@@ -258,14 +290,18 @@
           <stage type="setting" who="#Jeppe">Jeppe sofvande. <stage type="entrance" who="#Murra">Murra kilar in</stage>, liten, kvick, i helsvart
             <lb/> kostym, snokar lifligt omkring, blir varse <persName ref="#Jeppe">Jeppe</persName>.</stage>
           <sp who="#spMurra">
-            <speaker>MURRA.</speaker> <stage>(Oafbrutet svansande och slingrande.)</stage> <p>Jaha,
+            <speaker>MURRA.</speaker>
+            <stage>(Oafbrutet svansande och slingrande.)</stage>
+            <p>Jaha,
               <lb/> jag kunde just tro det! Där ligger <persName ref="#Jeppe">herr öfverråttjäg­<lb break="no"/>mästaren</persName> i sin sötaste sömn klockan åtta på morgonen,
               <lb/> fastän han sofvit i god ro hela natten under köksspiseln.
               <lb/> Och det kallar han att sköta sin tjänst! Nå ja, man
-              <pb facs="5531-12.jpg"/><fw type="pageNum">128</fw>
+              <pb facs="5531-12.jpg"/>
+              <fw type="pageNum">128</fw>
               får ursäkta honom, han börjar bli barn på nytt ... Mån­<lb break="no"/>tro jag skall våga väcka honom? ... <stage>(Uppger ett försiktigt
               <lb/> vov-vov!)</stage> Nej, han hör inte, han snarkar för hårdt.
-              <lb/> <stage>(Springer omkring, otålig och småmorrande.)</stage> Och här får
+              <lb/>
+              <stage>(Springer omkring, otålig och småmorrande.)</stage> Och här får
               <lb/> jag förnöta tiden för att aflägga min rapport; jag kunde
               <lb/> lika gärna ha slutat morgonstädningen i källaren innan
               <lb/> jag gick upp...</p>
@@ -273,11 +309,15 @@
           <stage>(Ett kol från brasan sprakar i <persName ref="#Jeppe">Jeppes</persName> päls, så han
             <lb/> vaknar.)</stage>
           <sp who="#spJeppe">
-            <speaker>JEPPE.</speaker> <stage>(Reser sig bestört.)</stage> <p>Hvad var det? Var det
+            <speaker>JEPPE.</speaker>
+            <stage>(Reser sig bestört.)</stage>
+            <p>Hvad var det? Var det
               <lb/> du, <persName ref="#Murra">Murra</persName>, som bet mig? Hur kunde du under ...?</p>
           </sp>
           <sp who="#spMurra">
-            <speaker>MURRA.</speaker> <stage>(Ödmjukt afbrytande.)</stage> <p>Nej, <persName ref="#Jeppe">herr öfverråttjäg­
+            <speaker>MURRA.</speaker>
+            <stage>(Ödmjukt afbrytande.)</stage>
+            <p>Nej, <persName ref="#Jeppe">herr öfverråttjäg­
               <lb break="no"/>mästare</persName>, hur kan ni tänka så svart om mig? Det var
               <lb/> ett kol, som djärfdes hoppa rakt ned i er fina päls.
               <lb/> Blef där ett hål, låt mig se, jag skall nog snart sy ihop
@@ -286,57 +326,81 @@
               <lb/> natten, behagar ni skänka mig er uppmärksamhet?</p>
           </sp>
           <sp who="#spJeppe">
-            <speaker>JEPPE.</speaker> <p>Jag är vaken nu ...<stage>(Gäspar.)</stage> A-u-u! Gå
+            <speaker>JEPPE.</speaker>
+            <p>Jag är vaken nu ...<stage>(Gäspar.)</stage> A-u-u! Gå
               <lb/> på bara!</p>
           </sp>
           <sp who="#spMurra">
-            <speaker>MURRA.</speaker> <stage>(Tager fram ett papper. Läser.)</stage> <p><writing who="#Murra">Tjänst­<lb break="no"/>göring i västra källaren från klockan nio på aftonen till
+            <speaker>MURRA.</speaker>
+            <stage>(Tager fram ett papper. Läser.)</stage>
+            <p>
+              <writing who="#Murra">Tjänst­<lb break="no"/>göring i västra källaren från klockan nio på aftonen till
               <lb/> klockan åtta morgonen. Vädrat upp <persName ref="#Råttmamman">en råttmamma</persName> med
-              <lb/> <persName ref="#Råttungarna">fem ungar</persName> ... .</writing> <stage>(<persName ref="#Jeppe">Jeppe</persName> blir uppmärksam: <sp who="#spJeppe" rend="inline"><p>Ha!</p></sp>)</stage> Kommit en
+              <lb/>
+                <persName ref="#Råttungarna">fem ungar</persName> ... .</writing>
+              <stage>(<persName ref="#Jeppe">Jeppe</persName> blir uppmärksam: <sp who="#spJeppe" rend="inline">
+                  <p>Ha!</p>
+                </sp>)</stage> Kommit en
               <lb/> sammansvärjning af <persName ref="#TioRåttsvansare">tio råttsvansare</persName> på spåren. Sett svans­<lb break="no"/>spetsen af <persName ref="#TreRåttsvansare">tre råttsvansare</persName>, som togo till flykten vid min
               <lb/> ankomst. — Observerat två nya smyghål bakom rot­<lb break="no"/>fruktslåren. — Iakttagit tre afbitna potäter i potatislåren.
               <lb/> — Uppmärksammat ett hål på rågmjölssäcken. — Luktat
               <lb/> mig till ett råttbesök i hafrelåren... Som ni hör, öfver­<lb break="no"/> hufvudtaget en fredlig natt.</p>
           </sp>
-          <pb facs="5531-13.jpg"/><fw type="pageNum">129</fw>
+          <pb facs="5531-13.jpg"/>
+          <fw type="pageNum">129</fw>
           <sp who="#spJeppe">
-            <speaker>JEPPE.</speaker> <stage>(Gäspar.)</stage> <p>Go-odt! Är det något mera?</p>
+            <speaker>JEPPE.</speaker>
+            <stage>(Gäspar.)</stage>
+            <p>Go-odt! Är det något mera?</p>
           </sp>
           <sp who="#spMurra">
-            <speaker>MURRA.</speaker> <stage>(Ödmjukt svansande.)</stage> <p>Jo, <persName ref="#Jeppe">nådige herr Jeppe</persName>,
+            <speaker>MURRA.</speaker>
+            <stage>(Ödmjukt svansande.)</stage>
+            <p>Jo, <persName ref="#Jeppe">nådige herr Jeppe</persName>,
               <lb/> det är ännu något till. Jag ... jag har ... en bekännelse
               <lb/> att göra.</p>
           </sp>
           <sp who="#spJeppe">
-            <speaker>JEPPE.</speaker> <stage>(Morskar upp sig.)</stage> <p>Ha! En bekännelse?</p>
+            <speaker>JEPPE.</speaker>
+            <stage>(Morskar upp sig.)</stage>
+            <p>Ha! En bekännelse?</p>
           </sp>
           <sp who="#spMurra">
-            <speaker>MURRA.</speaker> <p>Ja. Jag ... lät med flit <persName ref="#Råttmamman">råttsvansaremamman</persName>
+            <speaker>MURRA.</speaker>
+            <p>Ja. Jag ... lät med flit <persName ref="#Råttmamman">råttsvansaremamman</persName>
               <lb/> komma undan. Jag hade henne redan mellan mina
               <lb/> framtänder, men så ... så släppte jag henne.</p>
           </sp>
           <sp who="#spJeppe">
-            <speaker>JEPPE.</speaker> <p>På min ära, du förtjänar att afsättas från
+            <speaker>JEPPE.</speaker>
+            <p>På min ära, du förtjänar att afsättas från
               <lb/> tjänsten och efterträdas af en katt. Hur kunde du vara
               <lb/> så släppmunt?</p>
           </sp>
           <sp who="#spMurra">
-            <speaker>MURRA.</speaker> <p>Jo, ser ni, <persName ref="#Jeppe">nådige Jeppe</persName>, jag tänkte på <persName ref="#Råttungarna">de
+            <speaker>MURRA.</speaker>
+            <p>Jo, ser ni, <persName ref="#Jeppe">nådige Jeppe</persName>, jag tänkte på <persName ref="#Råttungarna">de
               <lb/> fem små råttsvansarungarna</persName>, och deras lyckliga familje­<lb break="no"/>lif. Hvem skulle skaffa dem mat och hålla dem hela
               <lb/> och snygga och lära dem förtjäna sitt bröd ...</p>
           </sp>
           <sp who="#spJeppe">
-            <speaker>JEPPE.</speaker> <stage>(Afbryter.)</stage> <p><emph>Stjäla</emph> sitt bröd, menar du.</p>
+            <speaker>JEPPE.</speaker>
+            <stage>(Afbryter.)</stage>
+            <p>
+              <emph>Stjäla</emph> sitt bröd, menar du.</p>
           </sp>
           <sp who="#spMurra">
-            <speaker>MURRA.</speaker> <p>Nå ja, <emph>de</emph> anse det icke som stöld. Allt­<lb break="no"/>nog, hvem skulle vara dem i moders ställe, om jag nu
+            <speaker>MURRA.</speaker>
+            <p>Nå ja, <emph>de</emph> anse det icke som stöld. Allt­<lb break="no"/>nog, hvem skulle vara dem i moders ställe, om jag nu
               <lb/> bitit ihjäl <persName ref="#Råttmamman">deras mamma</persName>? Och så tänkte jag, att ... att
-              <lb/> <persName ref="#Råttsvansare">råttsvansarenas</persName> brott är väl inte så stort, eftersom de
+              <lb/>
+              <persName ref="#Råttsvansare">råttsvansarenas</persName> brott är väl inte så stort, eftersom de
               <lb/> lefva enligt sin natur och så ... Ja, straffa mig nu <persName ref="#Jeppe">nådige
               <lb/> Jeppe</persName>.</p>
           </sp>
           <sp who="#spJeppe">
-            <speaker>JEPPE.</speaker> <p>Hm ... hm ... Med sådana principer duger
+            <speaker>JEPPE.</speaker>
+            <p>Hm ... hm ... Med sådana principer duger
               <lb/> du egentligen inte till källarvaktmästarinna. Man skall
               <lb/> vara <emph>fast</emph>, ser du, inte blunda för plikten. Men jag för­<lb break="no"/>låter dig den här gången och hoppas, att <persName ref="#HögaVederbörande">höga veder­<lb break="no"/>börande</persName> på <orgName ref="#Björkudden">Björkudden</orgName> inte har något emot vissa efter­<lb break="no"/>gifter. Och ... <stage>(harskar sig)</stage> i anledning av <persName ref="#Kejsaren">vår nye
               <lb/> kejsares</persName> pardonplakat tillåter jag mig att efterskänka
@@ -344,29 +408,40 @@
               <lb/> under den senaste veckan. Och af samma anledning
               <lb/> förlåter jag dig.</p>
           </sp>
-          <pb facs="5531-14.jpg"/><fw type="pageNum">130</fw>
+          <pb facs="5531-14.jpg"/>
+          <fw type="pageNum">130</fw>
           <sp who="#spMurra">
-            <speaker>MURRA.</speaker> <stage>(Ifrigt svansande.)</stage> <p>Hur skall jag kunna
+            <speaker>MURRA.</speaker>
+            <stage>(Ifrigt svansande.)</stage>
+            <p>Hur skall jag kunna
               <lb/> betyga min tacksamhet? I afton skall det illumineras i
               <lb/> källaren och jag skall bjuda <persName ref="#Råttungarna">alla små råttsvansareungar</persName>
               <lb/> på barnkalas.</p>
           </sp>
           <sp who="#spJeppe">
-            <speaker>JEPPE.</speaker> <stage>(Vinkar nådigt med tassen.)</stage> <p>Du har mitt till­<lb break="no"/>stånd. Och nu får du gå. Jag skall uppsöka en annan
-              <lb/> brasa, ty denna är strax nedbrunnen. <stage type="exit" who="#Jeppe">(Lunkar ut.)</stage></p>
+            <speaker>JEPPE.</speaker>
+            <stage>(Vinkar nådigt med tassen.)</stage>
+            <p>Du har mitt till­<lb break="no"/>stånd. Och nu får du gå. Jag skall uppsöka en annan
+              <lb/> brasa, ty denna är strax nedbrunnen. <stage type="exit" who="#Jeppe">(Lunkar ut.)</stage>
+            </p>
           </sp>
-          <!-- Murra verkar vara kvar när ridån går /ML -->
+<!-- Murra verkar vara kvar när ridån går /ML -->
         </div>
         <stage rend="centered">Ridån ned.</stage>
       </div>
     </body>
     <back>
-      <pb facs="5531-15.jpg"/><!-- innehållsförteckning -->
+      <pb facs="5531-15.jpg"/>
+<!-- innehållsförteckning -->
       <gap reason="irrelevant"/>
-      <pb facs="5531-16.jpg"/><!-- tom sida -->
-      <pb facs="5531-17.jpg"/><!-- tom sida -->
-      <pb facs="5531-18.jpg"/><!-- tom sida -->
-      <pb facs="5531-19.jpg"/><!-- illustration -->
+      <pb facs="5531-16.jpg"/>
+<!-- tom sida -->
+      <pb facs="5531-17.jpg"/>
+<!-- tom sida -->
+      <pb facs="5531-18.jpg"/>
+<!-- tom sida -->
+      <pb facs="5531-19.jpg"/>
+<!-- illustration -->
       <gap reason="irrelevant"/>
       <div type="editorial">
         <listPerson>
@@ -413,7 +488,7 @@
             <relation type="social" name="överordnad" active="#Jeppe" passive="#Murra"/>
             <relation type="social" name="överråttjägarmästare" active="#Jeppe" passive="#Björkudden"/>
             <relation type="social" name="källarvaktmästarinna" active="#Murra" passive="#Björkudden"/>
-            <!-- tillagda /EF -->
+<!-- tillagda /EF -->
             <relation type="other" name="skonar" active="#Murra" passive="#Råttmamman"/>
             <relation type="personal" name="barn" active="#Råttungarna" passive="#Råttmamman"/>
             <relation type="other" name="benådar.enligt" active="#Jeppe" passive="#Kejsaren"/>

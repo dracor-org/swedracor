@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
@@ -79,7 +79,7 @@
             <title level="a" type="sub">En nyårslek</title>
           </analytic>
           <monogr xml:id="bibl_NyaTrollsländan">
-            <!-- redaktörer bl.a. enl. provnummer för 1886, http://digi.lib.helsinki.fi/aikakausi/binding/976800#?page=7 /EF -->
+<!-- redaktörer bl.a. enl. provnummer för 1886, http://digi.lib.helsinki.fi/aikakausi/binding/976800#?page=7 /EF -->
             <editor xml:id="TopeliusT">
               <persName>
                 <forename>Toini</forename>
@@ -98,7 +98,7 @@
             <title level="j" type="main">Nya Trollsländan</title>
             <title level="j" type="sub">Illustrerad barntidning</title>
             <idno type="LIBRIS">http://libris.kb.se/bib/14226055</idno>
-            <!-- digitaliserad https://fennica.linneanet.fi/vwebv/search?searchArg=Nya+trollsländan /EF -->
+<!-- digitaliserad https://fennica.linneanet.fi/vwebv/search?searchArg=Nya+trollsländan /EF -->
             <imprint>
               <pubPlace>Helsingfors</pubPlace>
               <publisher>G. W. Edlunds förlag</publisher>
@@ -169,20 +169,20 @@
       </classDecl>
       <tagsDecl>
         <rendition>
-          <!-- Scenanvisningar anges med kursiv stil i mindre punktstorlek -->
-          <!-- Scenanvisningar utom replik har första raden indragen;
+<!-- Scenanvisningar anges med kursiv stil i mindre punktstorlek -->
+<!-- Scenanvisningar utom replik har första raden indragen;
                utom ridå som är centrerad i normal stil och i normal punktstorlek (rend="centered") /EF
           -->
-          <!-- Rumsbeskrivning för akt är i normal stil i normal punktstorlek /EF -->
-          <!-- Rollposter i rollistan har första raden indragen /EF -->
-          <!-- Roller i rollförteckningen är kursiverade (utom emph i normal stil, och sista castItem) /ME+EF -->
-          <!-- Rollbeskrivningar i rollförteckningen är i normal stil, utom en kursiv (rend=italic) /EF -->
-          <!-- Rubriker är centrerade /EF -->
-          <!-- Talarrubriker är inline och i kursiv stil -->
-          <!-- Repliker är inline, med första raden indragen /EF -->
-          <!-- Versrader har rak vänstermarginal, vid radbryt inom raden indragen rad /EF -->
-          <!-- Strofer börjar på ny rad, utom en som är inline (rend=inline) /EF -->
-          <!-- Paginering är överst till höger för ojämna sidor, till vänster för jämna sidor /EF -->
+<!-- Rumsbeskrivning för akt är i normal stil i normal punktstorlek /EF -->
+<!-- Rollposter i rollistan har första raden indragen /EF -->
+<!-- Roller i rollförteckningen är kursiverade (utom emph i normal stil, och sista castItem) /ME+EF -->
+<!-- Rollbeskrivningar i rollförteckningen är i normal stil, utom en kursiv (rend=italic) /EF -->
+<!-- Rubriker är centrerade /EF -->
+<!-- Talarrubriker är inline och i kursiv stil -->
+<!-- Repliker är inline, med första raden indragen /EF -->
+<!-- Versrader har rak vänstermarginal, vid radbryt inom raden indragen rad /EF -->
+<!-- Strofer börjar på ny rad, utom en som är inline (rend=inline) /EF -->
+<!-- Paginering är överst till höger för ojämna sidor, till vänster för jämna sidor /EF -->
         </rendition>
       </tagsDecl>
     </encodingDesc>
@@ -192,225 +192,294 @@
       </langUsage>
       <particDesc>
         <listPerson>
-          
           <person xml:id="spMab" sex="FEMALE">
-            <persName>Fru Mab Äppelkärna</persName><!--castList-->
-            <persName>Fru Mab</persName><!--speaker-->
-            <persName>fru Mab Äppelkärna</persName><!--editorial-->
+            <persName>Fru Mab Äppelkärna</persName>
+<!--castList-->
+            <persName>Fru Mab</persName>
+<!--speaker-->
+            <persName>fru Mab Äppelkärna</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spSibb" sex="FEMALE">
-            <persName>Jungfru Sibb Smultronblomma</persName><!--castList-->
-            <persName>Sibb</persName><!--speaker-->
-            <persName>jungfru Sibb Smultronblomma</persName><!--editorial-->
+            <persName>Jungfru Sibb Smultronblomma</persName>
+<!--castList-->
+            <persName>Sibb</persName>
+<!--speaker-->
+            <persName>jungfru Sibb Smultronblomma</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spFar" sex="MALE">
-            <persName>Far</persName><!--castList-->
-            <persName>Far</persName><!--speaker-->
+            <persName>Far</persName>
+<!--castList-->
+            <persName>Far</persName>
+<!--speaker-->
           </person>
-          
           <person xml:id="spMor" sex="FEMALE">
-            <persName>Mor</persName><!--castList-->
-            <persName>Mor</persName><!--speaker-->
+            <persName>Mor</persName>
+<!--castList-->
+            <persName>Mor</persName>
+<!--speaker-->
           </person>
-          
           <person xml:id="spKalle" sex="MALE">
-            <persName>Kalle Perfekt</persName><!--castList-->
-            <persName>Kalle</persName><!--speaker-->
-            <persName>Kalle</persName><!--editorial-->
+            <persName>Kalle Perfekt</persName>
+<!--castList-->
+            <persName>Kalle</persName>
+<!--speaker-->
+            <persName>Kalle</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spLotta" sex="FEMALE">
-            <persName>Lotta</persName><!--castList-->
-            <persName>Lotta</persName><!--speaker-->
-            <persName>Lotta</persName><!--editorial-->
+            <persName>Lotta</persName>
+<!--castList-->
+            <persName>Lotta</persName>
+<!--speaker-->
+            <persName>Lotta</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spPaltNo1">
-            <persName>Palt N:o 1</persName><!--speaker-->
+            <persName>Palt N:o 1</persName>
+<!--speaker-->
           </person>
-          
           <person xml:id="spPaltNo2">
-            <persName>Palt N:o 2</persName><!--speaker-->
+            <persName>Palt N:o 2</persName>
+<!--speaker-->
           </person>
-          
           <person xml:id="spVingflax" sex="MALE">
-            <persName>Vingflax</persName><!--castList-->
-            <persName>Vingflax</persName><!--speaker-->
-            <persName>Vingflax</persName><!--editorial-->
+            <persName>Vingflax</persName>
+<!--castList-->
+            <persName>Vingflax</persName>
+<!--speaker-->
+            <persName>Vingflax</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spRöstUtanför" sex="UNKNOWN">
-            <persName>Röst utanför</persName><!--speaker-->
+            <persName>Röst utanför</persName>
+<!--speaker-->
           </person>
           <personGrp xml:id="spPassagerare">
-            <name>passagerare</name><!--castList-->
-            <name>Röster om hvarandra</name><!--speaker-->
+            <name>passagerare</name>
+<!--castList-->
+            <name>Röster om hvarandra</name>
+<!--speaker-->
           </personGrp>
-          
           <person xml:id="spEnHerre" sex="MALE">
-            <persName>En herre</persName><!--castList-->
-            <persName>En herre</persName><!--speaker-->
+            <persName>En herre</persName>
+<!--castList-->
+            <persName>En herre</persName>
+<!--speaker-->
           </person>
-          
           <person xml:id="spEnGumma" sex="FEMALE">
-            <persName>en gumma</persName><!--castList-->
-            <persName>En gumma</persName><!--speaker-->
+            <persName>en gumma</persName>
+<!--castList-->
+            <persName>En gumma</persName>
+<!--speaker-->
           </person>
           <personGrp xml:id="spHurrabasar">
-            <name>hurrabasar</name><!--castList-->
+            <name>hurrabasar</name>
+<!--castList-->
           </personGrp>
-          
           <person xml:id="spFonograf" sex="MALE">
-            <persName>Fono­graf</persName><!--castList-->
-            <persName>Fonografen</persName><!--speaker-->
-            <persName>Fonograf</persName><!--editorial-->
+            <persName>Fono­graf</persName>
+<!--castList-->
+            <persName>Fonografen</persName>
+<!--speaker-->
+            <persName>Fonograf</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spKungen" sex="MALE">
-            <persName>Fugax den 1889:de</persName><!--castList-->
-            <persName>Kungen</persName><!--speaker-->
-            <persName>kung Fugax 1889</persName><!--editorial-->
+            <persName>Fugax den 1889:de</persName>
+<!--castList-->
+            <persName>Kungen</persName>
+<!--speaker-->
+            <persName>kung Fugax 1889</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spStenograf" sex="MALE">
-            <persName>Stenograf</persName><!--castList-->
-            <persName>Stenograf</persName><!--speaker-->
-            <persName>Stenograf</persName><!--editorial-->
+            <persName>Stenograf</persName>
+<!--castList-->
+            <persName>Stenograf</persName>
+<!--speaker-->
+            <persName>Stenograf</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spBajonett" sex="MALE">
-            <persName>Bajonett</persName><!--castList-->
-            <persName>Bajonett</persName><!--speaker-->
-            <persName>Bajonett</persName><!--editorial-->
+            <persName>Bajonett</persName>
+<!--castList-->
+            <persName>Bajonett</persName>
+<!--speaker-->
+            <persName>Bajonett</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spAlmanacka" sex="FEMALE">
-            <persName>Almanacka</persName><!--castList-->
-            <persName>Almanacka</persName><!--speaker-->
-            <persName>drottning Almanacka</persName><!--editorial-->
+            <persName>Almanacka</persName>
+<!--castList-->
+            <persName>Almanacka</persName>
+<!--speaker-->
+            <persName>drottning Almanacka</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spDenOkända" sex="FEMALE">
-            <persName>Den okända</persName><!--castList-->
-            <persName>Den okända</persName><!--speaker-->
-            <persName>Urania</persName><!--editorial-->
+            <persName>Den okända</persName>
+<!--castList-->
+            <persName>Den okända</persName>
+<!--speaker-->
+            <persName>Urania</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spTelegraf" sex="MALE">
-            <persName>Telegraf</persName><!--castList-->
-            <persName>Telegraf</persName><!--speaker-->
-            <persName>Telegraf</persName><!--editorial-->
+            <persName>Telegraf</persName>
+<!--castList-->
+            <persName>Telegraf</persName>
+<!--speaker-->
+            <persName>Telegraf</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spJanuari" sex="MALE">
-            <persName>Januari</persName><!--speaker-->
-            <persName>Januari</persName><!--editorial-->
+            <persName>Januari</persName>
+<!--speaker-->
+            <persName>Januari</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spFebruari" sex="MALE">
-            <persName>Februari</persName><!--speaker-->
-            <persName>Februari</persName><!--editorial-->
+            <persName>Februari</persName>
+<!--speaker-->
+            <persName>Februari</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spMars" sex="UNKNOWN">
-            <persName>Mars</persName><!--speaker-->
-            <persName>Mars</persName><!--editorial-->
+            <persName>Mars</persName>
+<!--speaker-->
+            <persName>Mars</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spApril" sex="UNKNOWN">
-            <persName>April</persName><!--speaker-->
-            <persName>April</persName><!--editorial-->
+            <persName>April</persName>
+<!--speaker-->
+            <persName>April</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spMaja" sex="FEMALE">
-            <persName>Maja</persName><!--speaker-->
-            <persName>Maja</persName><!--editorial-->
+            <persName>Maja</persName>
+<!--speaker-->
+            <persName>Maja</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spJunia" sex="FEMALE">
-            <persName>Junia</persName><!--speaker-->
-            <persName>Junia</persName><!--editorial-->
+            <persName>Junia</persName>
+<!--speaker-->
+            <persName>Junia</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spJulia" sex="FEMALE">
-            <persName>Julia</persName><!--speaker-->
-            <persName>Julia</persName><!--editorial-->
+            <persName>Julia</persName>
+<!--speaker-->
+            <persName>Julia</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spAugusta" sex="FEMALE">
-            <persName>Augusta</persName><!--speaker-->
-            <persName>Augusta</persName><!--editorial-->
+            <persName>Augusta</persName>
+<!--speaker-->
+            <persName>Augusta</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spSeptember" sex="UNKNOWN">
-            <persName>September</persName><!--speaker-->
-            <persName>September</persName><!--editorial-->
+            <persName>September</persName>
+<!--speaker-->
+            <persName>September</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spOktober" sex="UNKNOWN">
-            <persName>Oktober</persName><!--speaker-->
-            <persName>Oktober</persName><!--editorial-->
+            <persName>Oktober</persName>
+<!--speaker-->
+            <persName>Oktober</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spNovember" sex="UNKNOWN">
-            <persName>November</persName><!--speaker-->
-            <persName>November</persName><!--editorial-->
+            <persName>November</persName>
+<!--speaker-->
+            <persName>November</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spDecember" sex="UNKNOWN">
-            <persName>December</persName><!--speaker-->
-            <persName>December</persName><!--editorial-->
+            <persName>December</persName>
+<!--speaker-->
+            <persName>December</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spSöndagen" sex="UNKNOWN">
-            <persName>Söndagen med veckodagarna</persName><!--speaker-->
-            <persName>Söndag</persName><!--editorial-->
+            <persName>Söndagen med veckodagarna</persName>
+<!--speaker-->
+            <persName>Söndag</persName>
+<!--editorial-->
           </person>
         </listPerson>
       </particDesc>
     </profileDesc>
-
   </teiHeader>
   <text>
     <anchor xml:id="playstart"/>
     <front>
-      <pb facs="38085-0.jpg"/><!-- titelsida, volym -->
+      <pb facs="38085-0.jpg"/>
+<!-- titelsida, volym -->
       <gap reason="irrelevant"/>
-      <pb facs="38085-1.jpg"/><!-- trycksida, volym -->
+      <pb facs="38085-1.jpg"/>
+<!-- trycksida, volym -->
       <gap reason="irrelevant"/>
       <pb facs="38085-2.jpg"/>
-      <gap reason="irrelevant"/><!-- tidskriftshuvud nr 21, titel, undertitel, författare -->
+      <gap reason="irrelevant"/>
+<!-- tidskriftshuvud nr 21, titel, undertitel, författare -->
       <performance>
         <p>Personerna kunna vara så många man
           <lb/> har råd till.</p>
       </performance>
       <castList>
         <castItem>
-          <role><persName ref="#Kungen">Fugax <emph>den 1889:de</emph></persName></role>, <roleDesc>nutidens konung</roleDesc>.
+          <role>
+            <persName ref="#Kungen">Fugax <emph>den 1889:de</emph>
+            </persName>
+          </role>, <roleDesc>nutidens konung</roleDesc>.
         </castItem>
         <castItem>
-          <role><persName ref="#Almanacka">Almanacka</persName></role>, <roleDesc>hans drottning</roleDesc>.
+          <role>
+            <persName ref="#Almanacka">Almanacka</persName>
+          </role>, <roleDesc>hans drottning</roleDesc>.
         </castItem>
         <castItem>
-          <role><persName ref="#Fugax">Fugax <emph>den 1890:de</emph></persName></role>, <roleDesc>framtidens konung</roleDesc>.
+          <role>
+            <persName ref="#Fugax">Fugax <emph>den 1890:de</emph>
+            </persName>
+          </role>, <roleDesc>framtidens konung</roleDesc>.
         </castItem>
         <castItem>
-          <role><persName ref="#DenOkända">Den okända</persName></role>, <roleDesc>hans sköterska</roleDesc>.
+          <role>
+            <persName ref="#DenOkända">Den okända</persName>
+          </role>, <roleDesc>hans sköterska</roleDesc>.
         </castItem>
         <castItem type="list">
-          <role><persName ref="#Elektrik">Elektrik</persName></role> och
-          <role><persName ref="#Bajonett">Bajonett</persName></role>, <roleDesc>konungens adju­<lb break="no"/>tanter.</roleDesc>
+          <role>
+            <persName ref="#Elektrik">Elektrik</persName>
+          </role> och
+          <role>
+            <persName ref="#Bajonett">Bajonett</persName>
+          </role>, <roleDesc>konungens adju­<lb break="no"/>tanter.</roleDesc>
         </castItem>
         <castItem type="list">
-          <role><persName ref="#Telegraf">Telegraf</persName></role>,
-          <role><persName ref="#Stenograf">Stenograf</persName></role>,
-          <role><persName ref="#Telefon">Telefon</persName></role> och
-          <role><persName ref="#Fonograf">Fono­<lb break="no"/>graf</persName></role>, <roleDesc>konungens springpojkar.</roleDesc>
+          <role>
+            <persName ref="#Telegraf">Telegraf</persName>
+          </role>,
+          <role>
+            <persName ref="#Stenograf">Stenograf</persName>
+          </role>,
+          <role>
+            <persName ref="#Telefon">Telefon</persName>
+          </role> och
+          <role>
+            <persName ref="#Fonograf">Fono­<lb break="no"/>graf</persName>
+          </role>, <roleDesc>konungens springpojkar.</roleDesc>
         </castItem>
         <castItem type="list">
-          <roleGroup corresp="#DeTolfMånaderna"><roleDesc>De tolf månaderna</roleDesc>
+          <roleGroup corresp="#DeTolfMånaderna">
+            <roleDesc>De tolf månaderna</roleDesc>
             <role corresp="#Januari"/>
             <role corresp="#Februari"/>
             <role corresp="#Mars"/>
@@ -425,44 +494,79 @@
             <role corresp="#December"/>
           </roleGroup>
           och
-          <roleGroup corresp="#DeSjuVeckodagarna"><roleDesc>De sju veckoda­<lb break="no"/>garna</roleDesc>,
+          <roleGroup corresp="#DeSjuVeckodagarna">
+            <roleDesc>De sju veckoda­<lb break="no"/>garna</roleDesc>,
             <role corresp="#Söndagen"/>
           </roleGroup>,
           <roleDesc>konungens svit</roleDesc>.
         </castItem>
         <castItem>
-          <role><persName ref="#Vingflax">Vingflax</persName></role>, <roleDesc>stationsinspektör</roleDesc>.
+          <role>
+            <persName ref="#Vingflax">Vingflax</persName>
+          </role>, <roleDesc>stationsinspektör</roleDesc>.
         </castItem>
         <castItem>
-          <role><persName ref="#Mab">Fru Mab Äppelkärna</persName></role>, <roleDesc>restauratris</roleDesc>.
+          <role>
+            <persName ref="#Mab">Fru Mab Äppelkärna</persName>
+          </role>, <roleDesc>restauratris</roleDesc>.
         </castItem>
         <castItem>
-          <role><persName ref="#Sibb">Jungfru Sibb Smultronblomma</persName></role>, <roleDesc>städerska</roleDesc>.
+          <role>
+            <persName ref="#Sibb">Jungfru Sibb Smultronblomma</persName>
+          </role>, <roleDesc>städerska</roleDesc>.
         </castItem>
         <castItem type="list">
-          <role><persName ref="#Far">Far</persName></role> och
-          <role><persName ref="#Mor">Mor</persName></role> samt deras barn:
-          <role><persName ref="#Kalle">Kalle
-            <lb/> Perfekt</persName></role>,
-          <role><persName ref="#Lotta">Lotta</persName></role>,
+          <role>
+            <persName ref="#Far">Far</persName>
+          </role> och
+          <role>
+            <persName ref="#Mor">Mor</persName>
+          </role> samt deras barn:
+          <role>
+            <persName ref="#Kalle">Kalle
+            <lb/> Perfekt</persName>
+          </role>,
+          <role>
+            <persName ref="#Lotta">Lotta</persName>
+          </role>,
           <roleGroup corresp="#Paltarne">
             <roleDesc rend="italic">Paltarne</roleDesc>
-            <role><emph><persName ref="#PaltNo1">N:o 1</persName></emph></role> och
-            <role><emph><persName ref="#PaltNo2">2</persName></emph></role>
+            <role>
+              <emph>
+                <persName ref="#PaltNo1">N:o 1</persName>
+              </emph>
+            </role> och
+            <role>
+              <emph>
+                <persName ref="#PaltNo2">2</persName>
+              </emph>
+            </role>
           </roleGroup>.
         </castItem>
         <castItem type="list">
           Dessutom
-          <role><persName ref="#EnHerre">En herre</persName></role>,
-          <role><persName ref="#EnGumma">en gumma</persName></role>,
+          <role>
+            <persName ref="#EnHerre">En herre</persName>
+          </role>,
+          <role>
+            <persName ref="#EnGumma">en gumma</persName>
+          </role>,
           <roleGroup corresp="#Röster">
             <roleDesc>röster</roleDesc>
             <role corresp="#RöstUtanför"/>
           </roleGroup>,
-          <roleGroup><roleDesc corresp="#Passagerare">passagerare</roleDesc></roleGroup>,
-          <role><persName ref="#Biljettförsäljerskan">biljettförsäljerska</persName></role>,
-          <role><persName ref="#Bagagekarlen">bagagekarl</persName></role>,
-          <role><persName ref="#Göken">stationsgöken</persName></role>,
+          <roleGroup>
+            <roleDesc corresp="#Passagerare">passagerare</roleDesc>
+          </roleGroup>,
+          <role>
+            <persName ref="#Biljettförsäljerskan">biljettförsäljerska</persName>
+          </role>,
+          <role>
+            <persName ref="#Bagagekarlen">bagagekarl</persName>
+          </role>,
+          <role>
+            <persName ref="#Göken">stationsgöken</persName>
+          </role>,
           <roleGroup>
             <roleDesc corresp="#Hurrabasar">hurrabasar</roleDesc>
             <role corresp="#Handfast"/>
@@ -487,176 +591,246 @@
         <stage type="entrance" who="#Göken">Göken galar 11.</stage>
         <stage type="exit" who="#Göken"/>
         <sp who="#spMab">
-          <speaker>Fru Mab</speaker> <stage>vid buffeten. Hon bär blått band
-            <lb/> vid axeln.</stage> <p><persName ref="#Sibb">Sibb</persName>!</p>
+          <speaker>Fru Mab</speaker>
+          <stage>vid buffeten. Hon bär blått band
+            <lb/> vid axeln.</stage>
+          <p>
+            <persName ref="#Sibb">Sibb</persName>!</p>
         </sp>
         <sp who="#spSibb">
-          <speaker>Sibb</speaker> <stage>(utanför.)</stage> <p>Ja, <persName ref="#Mab">frun</persName>.</p>
+          <speaker>Sibb</speaker>
+          <stage>(utanför.)</stage>
+          <p>Ja, <persName ref="#Mab">frun</persName>.</p>
         </sp>
         <sp who="#spMab">
-          <speaker>Mab.</speaker> <p>Men så skynda dig! Det är brådt.</p>
+          <speaker>Mab.</speaker>
+          <p>Men så skynda dig! Det är brådt.</p>
         </sp>
         <sp who="#spSibb">
-          <speaker>Sibb</speaker> <stage>(utanför).</stage> <p>Kommer strax, <persName ref="#Mab">frun</persName>.</p>
+          <speaker>Sibb</speaker>
+          <stage>(utanför).</stage>
+          <p>Kommer strax, <persName ref="#Mab">frun</persName>.</p>
         </sp>
         <sp who="#spMab">
-          <speaker>Mab.</speaker> <p>Strax och strax, hvad är detta för
-            <lb/> strax? <stage>(skriker)</stage> <persName ref="#Sibb">Sibb</persName>!</p>
+          <speaker>Mab.</speaker>
+          <p>Strax och strax, hvad är detta för
+            <lb/> strax? <stage>(skriker)</stage>
+            <persName ref="#Sibb">Sibb</persName>!</p>
         </sp>
         <sp who="#spSibb">
-          <speaker>Sibb</speaker> <stage>(<stage type="entrance" who="#Sibb">inträder</stage>. Näbbigt).</stage> <p>Nå, hvad är det
-            <lb/> nu åter igen? Jag har annat att göra<supplied>.</supplied></p>
+          <speaker>Sibb</speaker>
+          <stage>(<stage type="entrance" who="#Sibb">inträder</stage>. Näbbigt).</stage>
+          <p>Nå, hvad är det
+            <lb/> nu åter igen? Jag har annat att göra<supplied>.</supplied>
+          </p>
         </sp>
         <sp who="#spMab">
-          <speaker>Mab.</speaker> <p>Klockan slog 11. Bantåget från
-            <lb/> <placeName ref="#Jorden">jorden</placeName> anländer klockan half 12 och bantåget
+          <speaker>Mab.</speaker>
+          <p>Klockan slog 11. Bantåget från
+            <lb/>
+            <placeName ref="#Jorden">jorden</placeName> anländer klockan half 12 och bantåget
             <lb/> från <placeName ref="#Solen">solen</placeName> precis klockan 12. Gör i ordning
             <lb/> thé, kaffe, choklad, socker, grädde, skorpor,
             <lb/> smörgåsar, biffstekar, potäter, sill, lax, kall
             <lb/> skinka, ost, sillsallad, hvassbuk, tunga, med­<lb break="no"/>vurst, bakelser, stek, selters och annat mer,
             <lb/> som hör till en gentil huggsexa. Inga starka
-            <pb facs="38085-3.jpg"/><fw type="pageNum">162</fw>
+            <pb facs="38085-3.jpg"/>
+            <fw type="pageNum">162</fw>
             varor, du vet. Allt skall vara färdigt inom
             <lb/> en half timme.</p>
         </sp>
         <sp who="#spSibb">
-          <speaker>Sibb</speaker> <stage>(otåligt dammande möblerna).</stage> <p>Potäter,
+          <speaker>Sibb</speaker>
+          <stage>(otåligt dammande möblerna).</stage>
+          <p>Potäter,
             <lb/> sill, lax ... ja, ja, när jag får tid.</p>
         </sp>
         <sp who="#spMab">
-          <speaker>Mab.</speaker> <p>Tid? Här är tidens gångjern. Vet
+          <speaker>Mab.</speaker>
+          <p>Tid? Här är tidens gångjern. Vet
             <lb/> du intet, att här är verldens ände? Du skall
             <lb/> ha tid till allt. Är du intet förlofvad med
-            <lb/> <persName ref="#Stopp">banvakten Stopp</persName>? Du skall tänka på ditt
-            <lb/> utstyre, <persName ref="#Sibb">Sibb</persName></p>
+            <lb/>
+            <persName ref="#Stopp">banvakten Stopp</persName>? Du skall tänka på ditt
+            <lb/> utstyre, <persName ref="#Sibb">Sibb</persName>
+          </p>
         </sp>
         <sp who="#spSibb">
-          <speaker>Sibb</speaker> <stage>(gråtande).</stage> <p>Det lönar visst mödan
+          <speaker>Sibb</speaker>
+          <stage>(gråtande).</stage>
+          <p>Det lönar visst mödan
             <lb/> för sådan lön! Här betalas ju allt bara med
-            <lb/> tid. Tvi så'na pengar, intet gå de i banken<supplied>.</supplied></p>
+            <lb/> tid. Tvi så'na pengar, intet gå de i banken<supplied>.</supplied>
+          </p>
         </sp>
         <sp who="#spMab">
-          <speaker>Mab.</speaker> <p>Fri kost och ett par kängor om
+          <speaker>Mab.</speaker>
+          <p>Fri kost och ett par kängor om
             <lb/> året. Du har ju löfte om löneförhöjning.
             <lb/> Det är din syssla att hålla <orgName ref="#StationSylvester">tidens gångjern</orgName>
             <lb/> blanka. Jernvägen går genom <orgName ref="#StationSylvester">station Syl­<lb break="no"/>vester</orgName> runtomkring verlden. Och, nu ser du,
             <lb/> vänta vi <persName ref="#Kungen">kungen</persName>. Du förstår, det skall vara fint.</p>
         </sp>
         <sp who="#spSibb">
-          <speaker>Sibb</speaker> <stage>(aftorkar tårarna med förklädet).</stage> <p>Hjer­<lb break="no"/>tandes, kommer <persName ref="#Kungen">kungen</persName>? Hur ser han ut?</p>
+          <speaker>Sibb</speaker>
+          <stage>(aftorkar tårarna med förklädet).</stage>
+          <p>Hjer­<lb break="no"/>tandes, kommer <persName ref="#Kungen">kungen</persName>? Hur ser han ut?</p>
         </sp>
         <sp who="#spMab">
-          <speaker>Mab.</speaker> <p>Som en kung skall se ut i skinn­<lb break="no"/>mössa och respels. <stage>(Stampningar utanför).</stage> Men
+          <speaker>Mab.</speaker>
+          <p>Som en kung skall se ut i skinn­<lb break="no"/>mössa och respels. <stage>(Stampningar utanför).</stage> Men
             <lb/> jag hör någon komma.</p>
         </sp>
         <sp who="#spSibb">
-          <speaker>Sibb</speaker> <stage>(för sig).</stage> <p>Tänk, om det vore <persName ref="#Kungen">kungen</persName>!
+          <speaker>Sibb</speaker>
+          <stage>(för sig).</stage>
+          <p>Tänk, om det vore <persName ref="#Kungen">kungen</persName>!
             <lb/> Nu skall jag passa på.</p>
         </sp>
         <stage type="entrance" who="#Far #Kalle #Lotta #Matte #Mor #PaltNo1 #PaltNo2">Far, mor, Kalle, Lotta och paltarne inträda
           <lb/> stampande snön af fötterna. Deras dränggosse in­<lb break="no"/>bär bagaget.</stage>
         <sp who="#spFar">
-          <speaker>Far</speaker> <stage>(till <persName ref="#Matte">gossen</persName>).</stage> <p>Låt hästarne pusta, <persName ref="#Matte">Matte</persName>!
+          <speaker>Far</speaker>
+          <stage>(till <persName ref="#Matte">gossen</persName>).</stage>
+          <p>Låt hästarne pusta, <persName ref="#Matte">Matte</persName>!
             <lb/> Spara intet på hafrepåsen. Se om <persName ref="#Blacken">Blacken</persName>,
             <lb/> han är ömskodd och haltar på venstra bak­<lb break="no"/>foten.</p>
         </sp>
         <sp who="#spMor">
-          <speaker>Mor.</speaker> <p>Adjö med dig, <persName ref="#Matte">Matte</persName>. Helsa <persName ref="#Lena">Lena</persName>,
+          <speaker>Mor.</speaker>
+          <p>Adjö med dig, <persName ref="#Matte">Matte</persName>. Helsa <persName ref="#Lena">Lena</persName>,
             <lb/> och bed henne se väl efter elden. Jag glömde
-            <lb/> <persName ref="#Kalle">Kalles</persName> strumpor i nedersta byrålådan; <persName ref="#Lena">Lena</persName>
+            <lb/>
+            <persName ref="#Kalle">Kalles</persName> strumpor i nedersta byrålådan; <persName ref="#Lena">Lena</persName>
             <lb/> kan skicka dem efter med nästa bantåg.
-            <lb/> <stage type="exit" who="#Matte">(Matte går).</stage> Ha vi kommit i tid, <persName ref="#Far">pappa</persName>?</p>
+            <lb/>
+            <stage type="exit" who="#Matte">(Matte går).</stage> Ha vi kommit i tid, <persName ref="#Far">pappa</persName>?</p>
         </sp>
         <sp who="#spFar">
-          <speaker>Far</speaker> <stage>(ser på klockan)</stage> <p>Skulle tro det, <persName ref="#Mor">gum­<lb break="no"/>man min</persName>. Tre qvart före tåget. Du hade
+          <speaker>Far</speaker>
+          <stage>(ser på klockan)</stage>
+          <p>Skulle tro det, <persName ref="#Mor">gum­<lb break="no"/>man min</persName>. Tre qvart före tåget. Du hade
             <lb/> så brådt, att vi skållade oss med heta öl­<lb break="no"/>supan i middags.</p>
         </sp>
         <sp who="#spMor">
-          <speaker>Mor.</speaker> <p>Men ha vi allt vårt med oss?</p>
+          <speaker>Mor.</speaker>
+          <p>Men ha vi allt vårt med oss?</p>
         </sp>
         <sp who="#spFar">
-          <speaker>Far</speaker> <stage>(räknar på fingrarna).</stage> <p>Grå kofferten,
+          <speaker>Far</speaker>
+          <stage>(räknar på fingrarna).</stage>
+          <p>Grå kofferten,
             <lb/> bruna kappsäcken, öfverplaggsbyltet, blom­
             <lb break="no"/>krukan, två paraplyer, tidtabellen, <persName ref="#Kalle">Kalle</persName>,
-            <lb/> <persName ref="#Lotta">Lotta</persName>, <persName ref="#PaltNo1 #PaltNo2">paltarna</persName>, käpphästarna, <persName ref="#Mor">mamma</persName>, <rs type="hand" ref="#handarbetep1">strump­<lb break="no"/>stickorna</rs>, pipan, tobakspungen, summa 17
+            <lb/>
+            <persName ref="#Lotta">Lotta</persName>, <persName ref="#PaltNo1 #PaltNo2">paltarna</persName>, käpphästarna, <persName ref="#Mor">mamma</persName>, <rs type="hand" ref="#handarbetep1">strump­<lb break="no"/>stickorna</rs>, pipan, tobakspungen, summa 17
             <lb/> kolly och jag 18:de. Det har sin riktighet.</p>
         </sp>
         <sp who="#spMor">
-          <speaker>Mor.</speaker> <p>Skynda dig, köp biljetter och in­<lb break="no"/>lemna bagaget! Vi ha ingen tid att förlora.</p>
+          <speaker>Mor.</speaker>
+          <p>Skynda dig, köp biljetter och in­<lb break="no"/>lemna bagaget! Vi ha ingen tid att förlora.</p>
         </sp>
         <stage type="entrance" who="#Bagagekarlen #Biljettförsäljerskan #Resande">Biljettförsäljerskan och Bagagekarlen visa sig
           <lb/> på sin post. Resande börja anlända med sina byl­<lb break="no"/>ten och korgar.</stage>
         <cb n="2"/>
         <sp who="#spKalle">
-          <speaker>Kalle.</speaker> <p>Nästa gång skall jag löra loko­<lb break="no"/>motivet, <persName ref="#Lotta">Lotta</persName>. Bara jag kommer på femte
+          <speaker>Kalle.</speaker>
+          <p>Nästa gång skall jag löra loko­<lb break="no"/>motivet, <persName ref="#Lotta">Lotta</persName>. Bara jag kommer på femte
             <lb/> klassen, skall jag bli förare.</p>
         </sp>
         <sp who="#spLotta">
-          <speaker>Lotta.</speaker> <p>Du, <persName ref="#Kalle">din stackare</persName>? Kissen kan du
+          <speaker>Lotta.</speaker>
+          <p>Du, <persName ref="#Kalle">din stackare</persName>? Kissen kan du
             <lb/> köra och intet folk.</p>
         </sp>
         <sp who="#spKalle">
-          <speaker>Kalle.</speaker> <p>Jo, jag kan. Jag skall köra en
+          <speaker>Kalle.</speaker>
+          <p>Jo, jag kan. Jag skall köra en
             <lb/> mil i minuten.</p>
         </sp>
         <sp who="#spLotta">
-          <speaker>Lotta.</speaker> <p>Ja, och köra i putten, som de
+          <speaker>Lotta.</speaker>
+          <p>Ja, och köra i putten, som de
             <lb/> gjorde vid <placeName ref="#Borki">Borki</placeName>.</p>
         </sp>
-        <!-- vid stationen i Borki var det en tågkatastrof 1888 -->
+<!-- vid stationen i Borki var det en tågkatastrof 1888 -->
         <sp who="#spPaltNo1">
-          <speaker>Palt N:o 1.</speaker> <p><persName ref="#Mor">Söta mamma</persName>, en smörgås!</p>
+          <speaker>Palt N:o 1.</speaker>
+          <p>
+            <persName ref="#Mor">Söta mamma</persName>, en smörgås!</p>
         </sp>
         <sp who="#spPaltNo2">
-          <speaker>Palt N:o 2.</speaker> <p><persName ref="#Mor">Töta mamma</persName>, en möjgåt!</p>
+          <speaker>Palt N:o 2.</speaker>
+          <p>
+            <persName ref="#Mor">Töta mamma</persName>, en möjgåt!</p>
         </sp>
         <sp who="#spMor">
-          <speaker>Mor.</speaker> <p>Men, <persName ref="#PaltNo1 #PaltNo2">kära paltar</persName>, ni hade ju sex
+          <speaker>Mor.</speaker>
+          <p>Men, <persName ref="#PaltNo1 #PaltNo2">kära paltar</persName>, ni hade ju sex
             <lb/> smörgåsar med er i kursläden.</p>
         </sp>
         <sp who="#spPaltNo1">
-          <speaker>Palt N:o 1.</speaker> <p>Uhu ...</p>
+          <speaker>Palt N:o 1.</speaker>
+          <p>Uhu ...</p>
         </sp>
         <sp who="#spPaltNo2">
-          <speaker>Palt N:o 2.</speaker> <p>Uhu ...</p>
+          <speaker>Palt N:o 2.</speaker>
+          <p>Uhu ...</p>
         </sp>
         <sp who="#spMor">
-          <speaker>Mor</speaker> <stage>(synar deras paltåer.)</stage> <p>Hvad i alla da­<lb break="no"/>gar! Har ni suttit på smörgåsarna? Der
+          <speaker>Mor</speaker>
+          <stage>(synar deras paltåer.)</stage>
+          <p>Hvad i alla da­<lb break="no"/>gar! Har ni suttit på smörgåsarna? Der
             <lb/> är smulorna af en och der den andra med
             <lb/> smörsidan inåt! <persName ref="#PaltNo1 #PaltNo2">Paltar</persName>, <persName ref="#PaltNo1 #PaltNo2">paltar</persName>, hvad i verl­<lb break="no"/>den skall <persName ref="#Mor">mamma stackare</persName> säga, när ni
             <lb/> komma så grisiga till <persName ref="#Farmor">farmor</persName> och gratulera
             <lb/> henne till godt nytt år?</p>
         </sp>
         <sp who="#spPaltNo1 #spPaltNo2">
-          <speaker>Båda paltarne.</speaker> <p>Uhuu ...</p>
+          <speaker>Båda paltarne.</speaker>
+          <p>Uhuu ...</p>
         </sp>
         <sp who="#spMor">
-          <speaker>Mor.</speaker> <p><persName ref="#Lotta">Lotta</persName>, köp åt dem ett par smör­<lb break="no"/>gåsar vid buffetten!</p>
+          <speaker>Mor.</speaker>
+          <p>
+            <persName ref="#Lotta">Lotta</persName>, köp åt dem ett par smör­<lb break="no"/>gåsar vid buffetten!</p>
         </sp>
         <sp who="#spLotta">
-          <speaker>Lotta</speaker> <stage>(vid buffetten).</stage> <p>Var så god, fyra! Nog
+          <speaker>Lotta</speaker>
+          <stage>(vid buffetten).</stage>
+          <p>Var så god, fyra! Nog
             <lb/> gå de åt.</p>
         </sp>
         <sp who="#spMab">
-          <speaker>Mab.</speaker> <p>Fem minuter stycket, <persName ref="#Lotta">lilla fröken</persName>.
+          <speaker>Mab.</speaker>
+          <p>Fem minuter stycket, <persName ref="#Lotta">lilla fröken</persName>.
             <lb/> Det gör tjugo minuter.</p>
         </sp>
         <sp who="#spLotta">
-          <speaker>Lotta.</speaker> <p>Hvad för något? Tjugo minuter?</p>
+          <speaker>Lotta.</speaker>
+          <p>Hvad för något? Tjugo minuter?</p>
         </sp>
         <sp who="#spMab">
-          <speaker>Mab.</speaker> <p>Ja, <persName ref="#Lotta">lilla fröken</persName> vet ju, att tid är
+          <speaker>Mab.</speaker>
+          <p>Ja, <persName ref="#Lotta">lilla fröken</persName> vet ju, att tid är
             <lb/> är pengar. Fins det ej smått, kan jag vexla
             <lb/> en dag till timmar och en timme till minuter.</p>
         </sp>
         <sp who="#spFar">
-          <speaker>Far</speaker> <stage>(vid biljettluckan).</stage> <p>En vecka för bil­<lb break="no"/>jetten! Det är ju skamlöst. <persName ref="#Kalle">Kalle</persName>, hjelp mig
-            <lb/> med sakerna! <stage>(De inlemna bagaget).</stage></p>
+          <speaker>Far</speaker>
+          <stage>(vid biljettluckan).</stage>
+          <p>En vecka för bil­<lb break="no"/>jetten! Det är ju skamlöst. <persName ref="#Kalle">Kalle</persName>, hjelp mig
+            <lb/> med sakerna! <stage>(De inlemna bagaget).</stage>
+          </p>
         </sp>
         <stage type="exit" who="#PaltNo1 #PaltNo2" cert="medium"/>
         <sp who="#spSibb">
-          <speaker>Sibb</speaker> <stage>(för sig).</stage> <p>Nu skall jag passa på.
-            <lb/> <stage>(Nigande).</stage> <persName ref="#Far">Nådig herr majestät</persName>, jag skulle
+          <speaker>Sibb</speaker>
+          <stage>(för sig).</stage>
+          <p>Nu skall jag passa på.
+            <lb/>
+            <stage>(Nigande).</stage>
+            <persName ref="#Far">Nådig herr majestät</persName>, jag skulle
             <lb/> ödmjukast be om en liten löneförhöjning.
             <lb/> Jag släpar här med damborsten sju dagar i
             <lb/> veckan, utom thé och kaffe och <persName ref="#Mab">frun</persName> och
@@ -665,66 +839,89 @@
         <stage>(Ett tåg hvisslar. Brådska och språng.)</stage>
         <stage type="exit" who="#Resande" cert="medium"/>
         <sp who="#spFar">
-          <speaker>Far.</speaker> <p>Ur vägen <persName ref="#Sibb">menniska</persName>! Har jag tid
+          <speaker>Far.</speaker>
+          <p>Ur vägen <persName ref="#Sibb">menniska</persName>! Har jag tid
             <lb/> att vara majestätisk med 18 kolly? Var god och
             <lb/> gif qvitto! Jaså, öfvervigt? Jo, det fattades!</p>
         </sp>
         <stage type="exit" who="#Bagagekarlen #Biljettförsäljerskan" cert="medium"/>
         <stage type="entrance" who="#Hurrabasar" cert="medium"/>
         <sp who="#spVingflax">
-          <speaker>Vingflax</speaker> <stage type="entrance" who="#Vingflax"><supplied>(</supplied>rusar in<supplied>).</supplied></stage> <p>Ankommande tåget N:o
+          <speaker>Vingflax</speaker>
+          <stage type="entrance" who="#Vingflax">
+            <supplied>(</supplied>rusar in<supplied>).</supplied>
+          </stage>
+          <p>Ankommande tåget N:o
             <lb/> 365. Lyktorna tända! Grön flagg! Allt klart
             <lb/> att mottaga <persName ref="#Kungen">hans majestät</persName>!</p>
         </sp>
         <stage>Han upphänger en tafla på hvilken läses med
           <lb/> stora bokstäfver: <writing>„Lefve <persName ref="#Kungen">nutidens konung, den
-          <pb facs="38085-4.jpg"/><fw type="pageNum">163</fw>
+          <pb facs="38085-4.jpg"/>
+              <fw type="pageNum">163</fw>
           stormäktige Fugax den 1889:de</persName>, i tusen
-          <lb/> år!“</writing></stage>
+          <lb/> år!“</writing>
+        </stage>
         <stage type="exit" who="#Vingflax" cert="medium"/>
         <stage>Man hör tåget bullra och stadna.</stage>
         <sp who="#spRöstUtanför">
-          <speaker>Röst utanför.</speaker> <p><orgName ref="#StationSylvester">Station Sylvester</orgName>, en half tim­<lb break="no"/>me. <persName ref="#Passagerare">Alla passagerare</persName> byta om vagn.</p>
+          <speaker>Röst utanför.</speaker>
+          <p>
+            <orgName ref="#StationSylvester">Station Sylvester</orgName>, en half tim­<lb break="no"/>me. <persName ref="#Passagerare">Alla passagerare</persName> byta om vagn.</p>
         </sp>
         <sp who="#spSibb">
-          <speaker>Sibb</speaker> <stage>(för sig).</stage> <p>Nu skall jag passa på.</p>
+          <speaker>Sibb</speaker>
+          <stage>(för sig).</stage>
+          <p>Nu skall jag passa på.</p>
         </sp>
-        <stage type="entrance" who="#EnGumma #EnHerre #Passagerare">Passagerare instörta och anfalla buffetten<supplied>.</supplied></stage>
+        <stage type="entrance" who="#EnGumma #EnHerre #Passagerare">Passagerare instörta och anfalla buffetten<supplied>.</supplied>
+        </stage>
         <sp who="#spPassagerare">
-          <speaker>Röster om hvarandra.</speaker> <p>En kopp thé ... En
+          <speaker>Röster om hvarandra.</speaker>
+          <p>En kopp thé ... En
             <lb/> knif! ... Var så god, langa hit en en bröd­<lb break="no"/>bit ... Mera smör!.. Osten, jag ber!..
             <lb/> Kära bror, låna mig gaffeln!..</p>
         </sp>
         <sp who="#spEnHerre">
-          <speaker>En herre.</speaker> <p>En biff och en half öl, men inte
+          <speaker>En herre.</speaker>
+          <p>En biff och en half öl, men inte
             <lb/> för mycket stekt!</p>
         </sp>
         <sp who="#spMab">
-          <speaker>Mab.</speaker> <p>Här finns intet stekt öl.</p>
+          <speaker>Mab.</speaker>
+          <p>Här finns intet stekt öl.</p>
         </sp>
         <sp who="#spEnHerre">
-          <speaker>Herrn.</speaker> <p>Nå, fort ett glas vin!</p>
+          <speaker>Herrn.</speaker>
+          <p>Nå, fort ett glas vin!</p>
         </sp>
         <sp who="#spMab">
-          <speaker>Mab.</speaker> <p>Här säljes intet vin.</p>
+          <speaker>Mab.</speaker>
+          <p>Här säljes intet vin.</p>
         </sp>
         <sp who="#spEnHerre">
-          <speaker>Herrn.</speaker> <p>Jag trodde, att vinet skulle gå
+          <speaker>Herrn.</speaker>
+          <p>Jag trodde, att vinet skulle gå
             <lb/> till <orgName ref="#StationSylvester">verldens ände</orgName>.</p>
         </sp>
         <sp who="#spEnGumma">
-          <speaker>En gumma.</speaker> <p>Var så beskedlig, en kopp kaffe!</p>
+          <speaker>En gumma.</speaker>
+          <p>Var så beskedlig, en kopp kaffe!</p>
         </sp>
         <sp who="#spMab">
-          <speaker>Mab.</speaker> <p>Ja, fjorton om det behagas. Der
+          <speaker>Mab.</speaker>
+          <p>Ja, fjorton om det behagas. Der
             <lb/> hör <persName ref="#EnHerre">herrn</persName>. Det är kaffet, som går till <orgName ref="#StationSylvester">verl­<lb break="no"/>dens ände</orgName>.</p>
         </sp>
         <sp who="#spEnGumma">
-          <speaker>Gumman.</speaker> <p>Kära hjertandes, hvad vore
+          <speaker>Gumman.</speaker>
+          <p>Kära hjertandes, hvad vore
             <lb/> verlden utan kaffe?</p>
         </sp>
         <sp who="#spVingflax">
-          <speaker>Vingflax.</speaker> <stage type="entrance" who="#Vingflax">(åter inrusande)</stage> <p>Plats för <persName ref="#Kungen">hans
+          <speaker>Vingflax.</speaker>
+          <stage type="entrance" who="#Vingflax">(åter inrusande)</stage>
+          <p>Plats för <persName ref="#Kungen">hans
             <lb/> majestät</persName>, som behagat mönstra banan och
             <lb/> strax skall vara här! <persName ref="#Handfast">Polis Handfast</persName>, harskla
             <lb/> sig, passa på, när jag ger signal till hurra!</p>
@@ -734,22 +931,31 @@
           <lb/> en mycket gammal hostande herre i skinnpels och
           <lb/> stöder sig på sina adjutanter.</stage>
         <sp who="#spVingflax">
-          <speaker>Vingflax.</speaker> <p>Hip, hip, hurra!</p>
+          <speaker>Vingflax.</speaker>
+          <p>Hip, hip, hurra!</p>
         </sp>
         <sp who="#spEnGumma #spEnHerre #spFar #spHurrabasar #spKalle #spLotta #spMab #spMor #spPassagerare #spSibb #spVingflax">
-          <speaker>Alla.</speaker> <p>Hurra!</p>
+          <speaker>Alla.</speaker>
+          <p>Hurra!</p>
         </sp>
         <sp who="#spFonograf">
-          <speaker>Fonografen</speaker> <stage>(alltid härmande med hes röst).</stage>
-          <lb/> <p><said who="#Vingflax">Hip, hip, hurra!</said></p>
+          <speaker>Fonografen</speaker>
+          <stage>(alltid härmande med hes röst).</stage>
+          <lb/>
+          <p>
+            <said who="#Vingflax">Hip, hip, hurra!</said>
+          </p>
         </sp>
         <sp who="#spKungen">
-          <speaker>Kungen</speaker> <stage>(nådigt).</stage> <p>Det är bra <persName ref="#EnGumma #EnHerre #Far #Hurrabasar #Kalle #Lotta #Mab #Mor #Passagerare #Sibb #Vingflax">mina vänner</persName>,
+          <speaker>Kungen</speaker>
+          <stage>(nådigt).</stage>
+          <p>Det är bra <persName ref="#EnGumma #EnHerre #Far #Hurrabasar #Kalle #Lotta #Mab #Mor #Passagerare #Sibb #Vingflax">mina vänner</persName>,
             <lb/> mycket bra, men skonen nu mina öron! Banan
             <lb/> är i ordning; hur skulle det gå med verlden,
             <lb/> om <emph>jag</emph> spårar ur? <persName ref="#Elektrik">Adjutant Elektrik</persName>, jag
             <lb/> afsätter ångan och utnämner dig till loko­<lb break="no"/>motivförare. <stage>(Blir varse taflan).</stage> Hvad ser jag?
-            <lb/> <persName ref="#EnGumma #EnHerre #Far #Hurrabasar #Kalle #Lotta #Mab #Mor #Passagerare #Sibb #Vingflax">Mina trogna undersåter</persName> önska, att jag må
+            <lb/>
+            <persName ref="#EnGumma #EnHerre #Far #Hurrabasar #Kalle #Lotta #Mab #Mor #Passagerare #Sibb #Vingflax">Mina trogna undersåter</persName> önska, att jag må
             <lb/> lefva i tusen år! <stage>(rörd)</stage> Ack, mina vänner, jag
             <lb/> är intet odödlig, jag börjar bli gammal och
             <lb/> har ej hunnit uträtta hälften af hvad jag
@@ -757,161 +963,239 @@
             <lb/> jag uträttat?</p>
         </sp>
         <sp who="#spStenograf">
-          <speaker>Stenograf</speaker> <stage>(alltid skrifvande).</stage> <p><placeName ref="#Paris">Paris</placeName> ...</p>
+          <speaker>Stenograf</speaker>
+          <stage>(alltid skrifvande).</stage>
+          <p>
+            <placeName ref="#Paris">Paris</placeName> ...</p>
         </sp>
         <sp who="#spKungen">
-          <speaker>Kungen.</speaker> <p>Ja, jag vet, jag vet.</p>
+          <speaker>Kungen.</speaker>
+          <p>Ja, jag vet, jag vet.</p>
         </sp>
         <sp who="#spStenograf">
-          <speaker>Stenograf.</speaker> <p>Eiffeltornet ...</p>
+          <speaker>Stenograf.</speaker>
+          <p>Eiffeltornet ...</p>
         </sp>
         <sp who="#spKungen">
-          <speaker>Kungen.</speaker> <p>Jag skulle tro det. Allt litet
+          <speaker>Kungen.</speaker>
+          <p>Jag skulle tro det. Allt litet
             <lb/> högre, än Babels torn. Nå, hvad mer?</p>
         </sp>
         <cb n="2"/>
         <sp who="#spStenograf">
-          <speaker>Stenograf.</speaker> <p>Pariserutställningen ...</p>
+          <speaker>Stenograf.</speaker>
+          <p>Pariserutställningen ...</p>
         </sp>
         <sp who="#spKungen">
-          <speaker>Kungen.</speaker> <p>Gå öfver det der! Jag har nog
+          <speaker>Kungen.</speaker>
+          <p>Gå öfver det der! Jag har nog
             <lb/> af <placeName ref="#Paris">Paris</placeName>. Hvad mer?</p>
         </sp>
         <sp who="#spStenograf">
-          <speaker>Stenograf.</speaker> <p><placeName ref="#Panamanäset">Panamanäset</placeName> ...</p>
+          <speaker>Stenograf.</speaker>
+          <p>
+            <placeName ref="#Panamanäset">Panamanäset</placeName> ...</p>
         </sp>
         <sp who="#spKungen">
-          <speaker>Kungen.</speaker> <p>Tyst, tyst för all del! Der har
+          <speaker>Kungen.</speaker>
+          <p>Tyst, tyst för all del! Der har
             <lb/> jag gräft ner mig i gyttjan. Hvad mer?</p>
         </sp>
         <sp who="#spStenograf">
-          <speaker>Stenograf.</speaker> <p>Den beväpnade freden ...</p>
+          <speaker>Stenograf.</speaker>
+          <p>Den beväpnade freden ...</p>
         </sp>
         <sp who="#spKungen">
-          <speaker>Kungen.</speaker> <p>Sinkadus, ja! <persName ref="#Bajonett">Bajonett</persName>, huru
+          <speaker>Kungen.</speaker>
+          <p>Sinkadus, ja! <persName ref="#Bajonett">Bajonett</persName>, huru
             <lb/> många <persName ref="#Soldater">soldater</persName> har jag nu i <placeName ref="#Europa">Europa</placeName>?</p>
         </sp>
         <sp who="#spBajonett">
-          <speaker>Bajonett.</speaker> <p>Fjorton miljoner, <persName ref="#Kungen">ers majestät</persName>.</p>
+          <speaker>Bajonett.</speaker>
+          <p>Fjorton miljoner, <persName ref="#Kungen">ers majestät</persName>.</p>
         </sp>
         <sp who="#spKungen">
-          <speaker>Kungen.</speaker> <p>Det var katten. Hvem skall
+          <speaker>Kungen.</speaker>
+          <p>Det var katten. Hvem skall
             <lb/> betala dem?</p>
         </sp>
         <sp who="#spBajonett">
-          <speaker>Bajonett.</speaker> <p><persName ref="#Fugax"><persName ref="#Kungen">Ers majestäts</persName> efterträdare</persName>.</p>
+          <speaker>Bajonett.</speaker>
+          <p>
+            <persName ref="#Fugax">
+              <persName ref="#Kungen">Ers majestäts</persName> efterträdare</persName>.</p>
         </sp>
         <sp who="#spFonograf">
-          <speaker>Fonograf</speaker> <stage>(härmar).</stage> <p><said who="#Kungen">Det var katten!</said></p>
+          <speaker>Fonograf</speaker>
+          <stage>(härmar).</stage>
+          <p>
+            <said who="#Kungen">Det var katten!</said>
+          </p>
         </sp>
         <sp who="#spKalle">
-          <speaker>Kalle</speaker> <stage>(till <persName ref="#Lotta">Lotta</persName>).</stage> <p>Jag vill bli general.</p>
+          <speaker>Kalle</speaker>
+          <stage>(till <persName ref="#Lotta">Lotta</persName>).</stage>
+          <p>Jag vill bli general.</p>
         </sp>
         <sp who="#spStenograf">
-          <speaker>Stenograf.</speaker> <p><persName ref="#Kungen">Ers majestät</persName> har också spat­<lb break="no"/>serat tvärs över <placeName ref="#Grönland">Grönland</placeName>.</p>
+          <speaker>Stenograf.</speaker>
+          <p>
+            <persName ref="#Kungen">Ers majestät</persName> har också spat­<lb break="no"/>serat tvärs över <placeName ref="#Grönland">Grönland</placeName>.</p>
         </sp>
         <sp who="#spKungen">
-          <speaker>Kungen.</speaker> <p>Har jag det? Ja, jag vill min­<lb break="no"/>nas, jag gick på skidor i doktorshatt.</p>
+          <speaker>Kungen.</speaker>
+          <p>Har jag det? Ja, jag vill min­<lb break="no"/>nas, jag gick på skidor i doktorshatt.</p>
         </sp>
         <sp who="#spStenograf">
-          <speaker>Stenograf.</speaker> <p>Och så har <persName ref="#Kungen">ers majestät</persName> hittat
-            <lb/> <persName ref="#Stanley">Stanley</persName> i <placeName ref="#Afrika">Afrika</placeName>.</p>
+          <speaker>Stenograf.</speaker>
+          <p>Och så har <persName ref="#Kungen">ers majestät</persName> hittat
+            <lb/>
+            <persName ref="#Stanley">Stanley</persName> i <placeName ref="#Afrika">Afrika</placeName>.</p>
         </sp>
         <sp who="#spKungen">
-          <speaker>Kungen.</speaker> <p>Puh, jag svettas, bara jag tänker
+          <speaker>Kungen.</speaker>
+          <p>Puh, jag svettas, bara jag tänker
             <lb/> derpå. Är det mer?</p>
         </sp>
         <sp who="#spStenograf">
-          <speaker>Stenograf.</speaker> <p><persName ref="#Boulanger">Boulanger</persName> ...</p>
+          <speaker>Stenograf.</speaker>
+          <p>
+            <persName ref="#Boulanger">Boulanger</persName> ...</p>
         </sp>
         <sp who="#spKungen">
-          <speaker>Kungen.</speaker> <p>Riktigt. Han tog till harpasset,
+          <speaker>Kungen.</speaker>
+          <p>Riktigt. Han tog till harpasset,
             <lb/> tror jag. Vet någon hvar <persName ref="#Boulanger">min rumormästare</persName>
             <lb/> nu håller hus?</p>
         </sp>
         <sp who="#spLotta">
-          <speaker>Lotta</speaker> <stage>(till <persName ref="#Kalle">Kalle</persName>)</stage> <p><persName ref="#Kalle">Kalle</persName>, <persName ref="#Kungen">kungen</persName> frågar ef­<lb break="no"/>ter <persName ref="#Boulanger">sin rumormästare</persName>!</p>
+          <speaker>Lotta</speaker>
+          <stage>(till <persName ref="#Kalle">Kalle</persName>)</stage>
+          <p>
+            <persName ref="#Kalle">Kalle</persName>, <persName ref="#Kungen">kungen</persName> frågar ef­<lb break="no"/>ter <persName ref="#Boulanger">sin rumormästare</persName>!</p>
         </sp>
         <sp who="#spKalle">
-          <speaker>Kalle</speaker> <stage><supplied>(</supplied>bockar).</stage> <p>Var det mig <persName ref="#Kungen">herr kungen</persName>
+          <speaker>Kalle</speaker>
+          <stage>
+            <supplied>(</supplied>bockar).</stage>
+          <p>Var det mig <persName ref="#Kungen">herr kungen</persName>
             <lb/> ville tala med.</p>
         </sp>
         <sp who="#spMor">
-          <speaker>Mor</speaker> <stage>(förskräckt).</stage> <p><persName ref="#Kalle">Kalle</persName>, skäms du intet?</p>
+          <speaker>Mor</speaker>
+          <stage>(förskräckt).</stage>
+          <p>
+            <persName ref="#Kalle">Kalle</persName>, skäms du intet?</p>
         </sp>
         <sp who="#spFonograf">
-          <speaker>Fonograf.</speaker> <p><said who="#Mor"><persName ref="#Kalle">Kalle</persName>, skäms du intet?</said></p>
+          <speaker>Fonograf.</speaker>
+          <p>
+            <said who="#Mor">
+              <persName ref="#Kalle">Kalle</persName>, skäms du intet?</said>
+          </p>
         </sp>
         <sp who="#spKungen">
-          <speaker>Kungen</speaker> <stage>(till <persName ref="#Kalle">Kalle</persName>).</stage> <p>Hvad är du för en
+          <speaker>Kungen</speaker>
+          <stage>(till <persName ref="#Kalle">Kalle</persName>).</stage>
+          <p>Hvad är du för en
             <lb/> snyffel?</p>
         </sp>
         <sp who="#spKalle">
-          <speaker>Kalle.</speaker> <p>Jag är Kalle Perfekt och kan allting.</p>
+          <speaker>Kalle.</speaker>
+          <p>Jag är Kalle Perfekt och kan allting.</p>
         </sp>
         <sp who="#spKungen">
-          <speaker>Kungen.</speaker> <p>Det förstås. I vår tid kunna
+          <speaker>Kungen.</speaker>
+          <p>Det förstås. I vår tid kunna
             <lb/> pojkarne allting. <stage>(Hostar)</stage> Nå, gör mig ett
             <lb/> Eiffeltorn af knäckor! Jag är hes, jag har
             <lb/> förkylt mig på resan. Hvarför lät jag det
             <lb/> ösregna halfva sommaren?</p>
         </sp>
         <sp who="#spSibb">
-          <speaker>Sibb</speaker> <stage>(för sig).</stage> <p>Nu skall jag passa på.
-            <lb/> <stage>(Nigande).</stage> <persName ref="#Kungen">Nådig herr kung</persName>, jag skulle öd­<lb break="no"/>mjukast be om en liten löneförhöjning. Jag
+          <speaker>Sibb</speaker>
+          <stage>(för sig).</stage>
+          <p>Nu skall jag passa på.
+            <lb/>
+            <stage>(Nigande).</stage>
+            <persName ref="#Kungen">Nådig herr kung</persName>, jag skulle öd­<lb break="no"/>mjukast be om en liten löneförhöjning. Jag
             <lb/> släpar här med damborsten sju dagar i vec­<lb break="no"/>kan, utom thé och kaffe och <persName ref="#Mab">frun</persName> ...</p>
         </sp>
         <stage>Afgående tåget ringer första gången.</stage>
         <sp who="#spKungen">
-          <speaker>Kungen.</speaker> <p>Hvad? Tåget ringer! Och jag,
+          <speaker>Kungen.</speaker>
+          <p>Hvad? Tåget ringer! Och jag,
             <lb/> som ännu har så mycket ogjort i verlden!</p>
         </sp>
-        <gap reason="irrelevant"/><!-- slut avsnitt 1 -->
+        <gap reason="irrelevant"/>
+<!-- slut avsnitt 1 -->
         <pb facs="38085-5.jpg"/>
-        <gap reason="irrelevant"/><!-- tidskriftshuvud nr 22, pjäsen fortsätter -->
+        <gap reason="irrelevant"/>
+<!-- tidskriftshuvud nr 22, pjäsen fortsätter -->
         <sp who="#spMor">
-          <speaker>Mor.</speaker> <p>Hvar är <persName ref="#PaltNo1 #PaltNo2">paltarne</persName>? Tåget går. Har
+          <speaker>Mor.</speaker>
+          <p>Hvar är <persName ref="#PaltNo1 #PaltNo2">paltarne</persName>? Tåget går. Har
             <lb/> någon sett <persName ref="#PaltNo1 #PaltNo2">mina paltar</persName>?</p>
         </sp>
         <sp who="#spFonograf">
-          <speaker>Fonograf.</speaker> <p><said who="#Mor">Har någon sett <persName ref="#PaltNo1 #PaltNo2">mina paltar</persName>?</said></p>
+          <speaker>Fonograf.</speaker>
+          <p>
+            <said who="#Mor">Har någon sett <persName ref="#PaltNo1 #PaltNo2">mina paltar</persName>?</said>
+          </p>
         </sp>
         <sp who="#spFar">
-          <speaker>Far.</speaker> <p>Ingen brådska, <persName ref="#Mor">mamma</persName>. Är du per­<lb break="no"/>plex? Tåget går ju till <placeName ref="#Solen">solen</placeName>.</p>
+          <speaker>Far.</speaker>
+          <p>Ingen brådska, <persName ref="#Mor">mamma</persName>. Är du per­<lb break="no"/>plex? Tåget går ju till <placeName ref="#Solen">solen</placeName>.</p>
         </sp>
         <sp who="#spMor">
-          <speaker>Mor.</speaker> <p>Det kan ingen så noga veta. <persName ref="#PaltNo1 #PaltNo2">Paltar</persName>!
-            <lb/> <persName ref="#PaltNo1 #PaltNo2">Paltar</persName>!</p>
+          <speaker>Mor.</speaker>
+          <p>Det kan ingen så noga veta. <persName ref="#PaltNo1 #PaltNo2">Paltar</persName>!
+            <lb/>
+            <persName ref="#PaltNo1 #PaltNo2">Paltar</persName>!</p>
         </sp>
         <sp who="#spMab">
-          <speaker>Mab</speaker> <stage>(till <persName ref="#Sibb">Sibb</persName>).</stage> <p><persName ref="#Sibb">Sibb</persName>, der springer <persName ref="#EnHerre">en
+          <speaker>Mab</speaker>
+          <stage>(till <persName ref="#Sibb">Sibb</persName>).</stage>
+          <p>
+            <persName ref="#Sibb">Sibb</persName>, der springer <persName ref="#EnHerre">en
             <lb/> herre</persName> som intet betalat!</p>
         </sp>
         <stage type="exit" who="#EnGumma #EnHerre #Passagerare" cert="medium"/>
         <stage>Tåget ringer andra gången.</stage>
         <sp who="#spKungen">
-          <speaker>Kungen.</speaker> <p>Nej, jag reser platt intet, förrän
+          <speaker>Kungen.</speaker>
+          <p>Nej, jag reser platt intet, förrän
             <lb/> jag sett <persName ref="#Fugax">min thronföljare</persName>. <persName ref="#Telegraf">Telegraf</persName>, stoppa tå­<lb break="no"/>get! <persName ref="#Telefon">Telefon</persName>, ropa hoj! <persName ref="#Bajonett">Bajonett</persName>, spetsa
-            <lb/> <persName ref="#Vingflax">stationschefen</persName>!</p>
+            <lb/>
+            <persName ref="#Vingflax">stationschefen</persName>!</p>
         </sp>
         <stage>Ett ankommande tåg hvisslar.</stage>
         <sp who="#spVingflax">
-          <speaker>Vingflax</speaker> <stage>(med hög röst)<supplied>.</supplied></stage> <p>Ankommande tå­<lb break="no"/>get N:o 1 anländer från <placeName ref="#Solen">solen</placeName>! <stage>(för sig).</stage> Det
+          <speaker>Vingflax</speaker>
+          <stage>(med hög röst)<supplied>.</supplied>
+          </stage>
+          <p>Ankommande tå­<lb break="no"/>get N:o 1 anländer från <placeName ref="#Solen">solen</placeName>! <stage>(för sig).</stage> Det
             <lb/> är hög tid att jag vänder om taflan.</p>
         </sp>
         <stage>Han omvänder taflan på hvars andra sida man
-          <lb/> läser: <writing>„Lefve framtidens konung, <persName ref="#Fugax">den stor­<lb break="no"/>mäktige Fugax den 1890:de</persName>, i tusen år!“</writing></stage>
+          <lb/> läser: <writing>„Lefve framtidens konung, <persName ref="#Fugax">den stor­<lb break="no"/>mäktige Fugax den 1890:de</persName>, i tusen år!“</writing>
+        </stage>
         <cb n="2"/>
         <sp who="#spKalle">
-          <speaker>Kalle</speaker> <stage>(till <persName ref="#Kungen">kungen</persName>).</stage> <p>Ser <persName ref="#Kungen">herr kungen</persName> hvad
+          <speaker>Kalle</speaker>
+          <stage>(till <persName ref="#Kungen">kungen</persName>).</stage>
+          <p>Ser <persName ref="#Kungen">herr kungen</persName> hvad
             <lb/> der står? Fy, stora skammen, att så ne­<lb break="no"/>drigt svika sin trohetsed!</p>
         </sp>
         <sp who="#spKungen">
-          <speaker>Kungen.</speaker> <p>O, hvilken svart otack! <persName ref="#Elektrik">Elek­<lb break="no"/>trik</persName>, spring med blixtens hastighet, och spräng
+          <speaker>Kungen.</speaker>
+          <p>O, hvilken svart otack! <persName ref="#Elektrik">Elek­<lb break="no"/>trik</persName>, spring med blixtens hastighet, och spräng
             <lb/> ankommande tåget i luften!</p>
         </sp>
         <sp who="#spVingflax">
-          <speaker>Vingflax</speaker> <stage>(griper <persName ref="#Elektrik">Elektrik</persName> i kragen).</stage> <p>Vill du
+          <speaker>Vingflax</speaker>
+          <stage>(griper <persName ref="#Elektrik">Elektrik</persName> i kragen).</stage>
+          <p>Vill du
             <lb/> hålla dig stilla, <persName ref="#Elektrik">sprakfåle</persName>? Ser du intet, att
             <lb/> alla öfvergifva <persName ref="#Kungen">den gamla konungen</persName> för att
             <lb/> tjena <persName ref="#Fugax">den nya</persName>?</p>
@@ -919,150 +1203,208 @@
         <stage type="exit" who="#DeSjuVeckodagarna #DeTolfMånaderna" cert="low">Hela sviten vänder <persName ref="#Kungen">den gamla konungen</persName> ryggen.</stage>
         <stage type="exit" who="#Bajonett #Elektrik #Telegraf" cert="medium"/>
         <sp who="#spKungen">
-          <speaker>Kungen.</speaker> <p>Förräderi! Hvar har jag mina
+          <speaker>Kungen.</speaker>
+          <p>Förräderi! Hvar har jag mina
             <lb/> fjorton miljoner soldater? Marsch hit med
             <lb/> pipor och trummor! <persName ref="#Almanacka">Almanacka, min drott­<lb break="no"/>ning</persName>, vill också du blifva mig otrogen?</p>
         </sp>
         <sp who="#spAlmanacka">
-          <speaker>Almanacka</speaker> <stage>(svängande om på klacken).</stage> <p>Jag
+          <speaker>Almanacka</speaker>
+          <stage>(svängande om på klacken).</stage>
+          <p>Jag
             <lb/> har varit gift 349 gånger förut.</p>
         </sp>
         <sp who="#spKungen">
-          <speaker>Kungen.</speaker> <p>Nej, se på <persName ref="#Almanacka">den spåkäringen</persName>! I
+          <speaker>Kungen.</speaker>
+          <p>Nej, se på <persName ref="#Almanacka">den spåkäringen</persName>! I
             <lb/> tolf runda månader har hon ljugit på mig
             <lb/> för 20 penni. Men <stage>(suckar)</stage> hon har rätt,
             <lb/> det är verldens gång. Mitt folk hyllar <persName ref="#Fugax">den
             <lb/> uppgående solen</persName>, och jag — jag tillhör nu­<lb break="no"/>mera historien! Kom, <persName ref="#Kalle">Kalle Perfekt</persName>, du, den
             <lb/> ende som förblifvit mig trogen, du skall köra
-            <pb facs="38085-6.jpg"/><fw type="pageNum">170</fw>
+            <pb facs="38085-6.jpg"/>
+            <fw type="pageNum">170</fw>
             mitt bantåg, du skall blifva min siste ru­<lb break="no"/>mormästare.</p>
         </sp>
         <anchor xml:id="Succession"/>
-        <stage>Afgående tåget ringer tredje gången<supplied>.</supplied> <stage type="entrance" who="#Göken">Göken ga­<lb break="no"/>lar 12.</stage><stage type="exit" who="#Göken"/> <stage type="exit" who="#Kungen #Kalle">Kungen stöder sig på Kalles arm och går
+        <stage>Afgående tåget ringer tredje gången<supplied>.</supplied>
+          <stage type="entrance" who="#Göken">Göken ga­<lb break="no"/>lar 12.</stage>
+          <stage type="exit" who="#Göken"/>
+          <stage type="exit" who="#Kungen #Kalle">Kungen stöder sig på Kalles arm och går
           <lb/> med honom hostande ut.</stage> Paus. Man hör ett tåg
           <lb/> rulla bort.</stage>
         <sp who="#spMor">
-          <speaker>Mor</speaker> <stage>(skrikande).</stage> <p><persName ref="#Kalle">Kalle</persName>! Hvar är <persName ref="#Kalle">Kalle</persName>?</p>
+          <speaker>Mor</speaker>
+          <stage>(skrikande).</stage>
+          <p>
+            <persName ref="#Kalle">Kalle</persName>! Hvar är <persName ref="#Kalle">Kalle</persName>?</p>
         </sp>
         <sp who="#spVingflax">
-          <speaker>Vingflax.</speaker> <p>Lugna er <persName ref="#Mor">min fru</persName>. Han reste
+          <speaker>Vingflax.</speaker>
+          <p>Lugna er <persName ref="#Mor">min fru</persName>. Han reste
             <lb/> nyss med <persName ref="#Kungen">högstsalig hans majestät</persName> till <placeName ref="#Solen">solen</placeName>.</p>
         </sp>
         <sp who="#spMor">
-          <speaker>Mor.</speaker> <p>Min <persName ref="#Kalle">Kalle</persName>, <persName ref="#Kalle">min olyckliga Kalle</persName>!</p>
+          <speaker>Mor.</speaker>
+          <p>Min <persName ref="#Kalle">Kalle</persName>, <persName ref="#Kalle">min olyckliga Kalle</persName>!</p>
         </sp>
         <sp who="#spLotta">
-          <speaker>Lotta.</speaker> <p>Var intet ledsen nu, <persName ref="#Mor">mamma</persName>. Intet
+          <speaker>Lotta.</speaker>
+          <p>Var intet ledsen nu, <persName ref="#Mor">mamma</persName>. Intet
             <lb/> hålls <persName ref="#Kalle">Kalle</persName> länge i <placeName ref="#Solen">solen</placeName>, Han kommer
             <lb/> tillbaka med nästa tåg.</p>
         </sp>
         <sp who="#spFar">
-          <speaker>Far</speaker> <stage>(snusar).</stage> <p>Det måtte jag säga; näst
+          <speaker>Far</speaker>
+          <stage>(snusar).</stage>
+          <p>Det måtte jag säga; näst
             <lb/> flickor vet jag ingenting krångligare än poj­<lb break="no"/>kar. Men se der, <persName ref="#Mor">mamma</persName>, har du ju <persName ref="#PaltNo1 #PaltNo2">dina
             <lb/> paltar</persName>!</p>
         </sp>
         <stage type="entrance" who="#PaltNo1 #PaltNo2" cert="medium">Paltarne framkrypa mellan bagaget.</stage>
         <sp who="#spMor">
-          <speaker>Mor</speaker> <stage>(med ett glädjerop).</stage> <p><persName ref="#PaltNo1 #PaltNo2">Mina paltar</persName>! <persName ref="#PaltNo1 #PaltNo2">Mina
+          <speaker>Mor</speaker>
+          <stage>(med ett glädjerop).</stage>
+          <p>
+            <persName ref="#PaltNo1 #PaltNo2">Mina paltar</persName>! <persName ref="#PaltNo1 #PaltNo2">Mina
             <lb/> egenhändiga paltar</persName>! <stage>(besinnar sig).</stage> Men ris
             <lb/> borde ni få.</p>
         </sp>
         <sp who="#spPaltNo1 #spPaltNo2">
-          <speaker>Paltarne.</speaker> <p>Uhuu ...</p>
+          <speaker>Paltarne.</speaker>
+          <p>Uhuu ...</p>
         </sp>
         <stage>Ankommande tåget bullrar och stadnar.</stage>
         <sp who="#spRöstUtanför">
-          <speaker>Röst utanför.</speaker> <p><orgName ref="#StationSylvester">Station Sylvester</orgName> 15 minuter.</p>
+          <speaker>Röst utanför.</speaker>
+          <p>
+            <orgName ref="#StationSylvester">Station Sylvester</orgName> 15 minuter.</p>
         </sp>
         <sp who="#spVingflax">
-          <speaker>Vingflax</speaker> <p>Plats för <persName ref="#Fugax">hans majestät, fram­<lb break="no"/>tidens konung, Fugax den 1890:de</persName>!</p>
+          <speaker>Vingflax</speaker>
+          <p>Plats för <persName ref="#Fugax">hans majestät, fram­<lb break="no"/>tidens konung, Fugax den 1890:de</persName>!</p>
         </sp>
         <stage type="entrance" who="#DenOkända #Fugax">Den nye konungen, ett lindebarn, inbäres af
           <lb/> den okända och <unclear reason="smudged_first_s">helsas</unclear> med allmänt hurra.</stage>
         <stage type="exit" who="#Hurrabasar" cert="medium"/>
         <sp who="#spMab">
-          <speaker>Mab.</speaker> <p><persName ref="#Sibb">Sibb</persName>, gå och mjölka <persName ref="#Ko">vår bästa ko</persName>, och
+          <speaker>Mab.</speaker>
+          <p>
+            <persName ref="#Sibb">Sibb</persName>, gå och mjölka <persName ref="#Ko">vår bästa ko</persName>, och
             <lb/> hemta rätt spenvarm mjölk för <persName ref="#Fugax">den lilla söt­<lb break="no"/>nosens</persName> dihorn!</p>
         </sp>
         <sp who="#spSibb">
-          <speaker>Sibb</speaker> <stage>(för sig).</stage> <p>Nej, nu skall jag passa på.
+          <speaker>Sibb</speaker>
+          <stage>(för sig).</stage>
+          <p>Nej, nu skall jag passa på.
             <lb/> Jaså, det är bara <persName ref="#Fugax">en liten parfvel</persName>; jag skall
-            <lb/> tala, så han förstår. <stage>(Nigande)</stage> <persName ref="#Fugax">Söta lilla rara
+            <lb/> tala, så han förstår. <stage>(Nigande)</stage>
+            <persName ref="#Fugax">Söta lilla rara
             <lb/> rödaste gull</persName>, var så innerligen söt och rar
             <lb/> och beskedlig och gif mig en liten löne­<lb break="no"/>förhöjning! Jag släpar här sju dagar i vec­<lb break="no"/>kan ...</p>
         </sp>
         <sp who="#spFonograf">
-          <speaker>Fonograf.</speaker> <p><said who="#Sibb"><persName ref="#Fugax">Söta, lilla, raraste gull</persName>, bara
-            <lb/> en liten, liten löneförhöjning ...</said></p>
+          <speaker>Fonograf.</speaker>
+          <p>
+            <said who="#Sibb">
+              <persName ref="#Fugax">Söta, lilla, raraste gull</persName>, bara
+            <lb/> en liten, liten löneförhöjning ...</said>
+          </p>
         </sp>
         <sp who="#spDenOkända">
-          <speaker>Den okända</speaker> <stage>(sätter sig, tätt beslöjad med <persName ref="#Fugax">barnet</persName>
-            <lb/> på en thron. Till <persName ref="#Fonograf">Fonograf</persName>).</stage> <lg rend="inline"><l>Tig, <persName ref="#Fonograf">papegoja</persName>!
-            <lb/> <stage>(Till <persName ref="#Sibb">Sibb</persName>.)</stage> <persName ref="#Sibb">Stackars slitna trasa</persName>,</l>
+          <speaker>Den okända</speaker>
+          <stage>(sätter sig, tätt beslöjad med <persName ref="#Fugax">barnet</persName>
+            <lb/> på en thron. Till <persName ref="#Fonograf">Fonograf</persName>).</stage>
+          <lg rend="inline">
+            <l>Tig, <persName ref="#Fonograf">papegoja</persName>!
+            <lb/>
+              <stage>(Till <persName ref="#Sibb">Sibb</persName>.)</stage>
+              <persName ref="#Sibb">Stackars slitna trasa</persName>,</l>
             <l>Om nu den store konungen deruppe</l>
             <l>Vill löna dig och oss, som vi förtjent,</l>
             <l>Hvad får vi då? ... Och du begär förhöjning!</l>
-            </lg>
+          </lg>
         </sp>
         <sp who="#spPaltNo1">
-          <speaker>Palt N:o 1.</speaker> <p><persName ref="#Mor">Mamma</persName>, hvem är <persName ref="#Fugax">den der</persName>?</p>
+          <speaker>Palt N:o 1.</speaker>
+          <p>
+            <persName ref="#Mor">Mamma</persName>, hvem är <persName ref="#Fugax">den der</persName>?</p>
         </sp>
         <sp who="#spPaltNo2">
-          <speaker>Palt N:o 2.</speaker> <p><persName ref="#Mor">Mamma</persName>, hvem ä <persName ref="#Fugax">den dej</persName>?</p>
+          <speaker>Palt N:o 2.</speaker>
+          <p>
+            <persName ref="#Mor">Mamma</persName>, hvem ä <persName ref="#Fugax">den dej</persName>?</p>
         </sp>
         <sp who="#spMor">
-          <speaker>Mor.</speaker> <p>Tyst, tyst <persName ref="#PaltNo1 #PaltNo2">kära barn</persName>. Det är <persName ref="#Fugax">en,
+          <speaker>Mor.</speaker>
+          <p>Tyst, tyst <persName ref="#PaltNo1 #PaltNo2">kära barn</persName>. Det är <persName ref="#Fugax">en,
             <lb/> som skall göra er hufvudet längre</persName>, om ni
             <lb/> är' snälla.</p>
         </sp>
         <sp who="#spLotta">
-          <speaker>Lotta.</speaker> <p>Det är <persName ref="#Fugax">en, som skall rida på käpp­<lb break="no"/>häst kring verlden, så det sprakar i knutarna</persName>.</p>
+          <speaker>Lotta.</speaker>
+          <p>Det är <persName ref="#Fugax">en, som skall rida på käpp­<lb break="no"/>häst kring verlden, så det sprakar i knutarna</persName>.</p>
         </sp>
         <cb n="2"/>
         <sp who="#spFar">
-          <speaker>Far.</speaker> <p>Det är <persName ref="#Fugax">tidens lilla palt</persName>, som ni äta
+          <speaker>Far.</speaker>
+          <p>Det är <persName ref="#Fugax">tidens lilla palt</persName>, som ni äta
             <lb/> till frukost och <persName ref="#Mor">mamma</persName> och jag till afton­<lb break="no"/>vard</p>
         </sp>
         <sp who="#spMor">
-          <speaker>Mor.</speaker> <p>Prata nu intet, <persName ref="#Far">pappa</persName>; gör oss i
+          <speaker>Mor.</speaker>
+          <p>Prata nu intet, <persName ref="#Far">pappa</persName>; gör oss i
             <lb/> ordning, tåget går på blanka minuten. Det
             <lb/> fins intet löjligare, än att försumma ett bantåg.
             <lb/> Ack, <persName ref="#Kalle">Kalle</persName>, <persName ref="#Kalle">Kalle</persName>, att du skulle resa ifrån
             <lb/> oss till <placeName ref="#Solen">solen</placeName>!</p>
         </sp>
         <sp who="#spTelegraf">
-          <speaker>Telegraf</speaker> <stage type="entrance" who="#Telegraf" cert="medium">(med en depesch).</stage> <p>Telegram från
-            <lb/> <placeName ref="#Venus">morgonstjernan</placeName>! Tåget N:o 365 har spårat ur
+          <speaker>Telegraf</speaker>
+          <stage type="entrance" who="#Telegraf" cert="medium">(med en depesch).</stage>
+          <p>Telegram från
+            <lb/>
+            <placeName ref="#Venus">morgonstjernan</placeName>! Tåget N:o 365 har spårat ur
             <lb/> mot <placeName ref="#Venus">planeten Venus</placeName>. Ingen skadad, men sju
             <lb/> vagnar svedda. Olyckan har skett för att
-            <lb/> <persName ref="#Kalle">en ung lokomotivförare vid namn Kalle Per­<lb break="no"/>fekt</persName> körde med ljusets hastighet två miljo­<lb break="no"/>ner mil i minuten.</p>
+            <lb/>
+            <persName ref="#Kalle">en ung lokomotivförare vid namn Kalle Per­<lb break="no"/>fekt</persName> körde med ljusets hastighet två miljo­<lb break="no"/>ner mil i minuten.</p>
         </sp>
         <sp who="#spLotta">
-          <speaker>Lotta.</speaker> <p>Jo, han kan köra!</p>
+          <speaker>Lotta.</speaker>
+          <p>Jo, han kan köra!</p>
         </sp>
         <sp who="#spMor">
-          <speaker>Mor.</speaker> <p>Men det är ju förskräckligt! Nu
+          <speaker>Mor.</speaker>
+          <p>Men det är ju förskräckligt! Nu
             <lb/> skall man få se att de steka <persName ref="#Kalle">Kalle</persName> på hal­<lb break="no"/>ster i <placeName ref="#Solen">solen</placeName>!</p>
         </sp>
         <sp who="#spPaltNo1 #spPaltNo2">
-          <speaker>Paltarne.</speaker> <p>Uhuu ...</p>
+          <speaker>Paltarne.</speaker>
+          <p>Uhuu ...</p>
         </sp>
         <sp who="#spFar">
-          <speaker>Far.</speaker> <p>Steka på halster? Nej, <persName ref="#Mor">mamma</persName>, i
+          <speaker>Far.</speaker>
+          <p>Steka på halster? Nej, <persName ref="#Mor">mamma</persName>, i
             <lb/> våra dagar steks man ej för ett framsteg,
             <lb/> man får medalj.</p>
         </sp>
         <stage>Tåget ringer första gången.</stage>
         <sp who="#spVingflax">
-          <speaker>Vingflax.</speaker> <p>Tåget N:o 1 afgår till <placeName ref="#Jorden">jorden</placeName>.</p>
+          <speaker>Vingflax.</speaker>
+          <p>Tåget N:o 1 afgår till <placeName ref="#Jorden">jorden</placeName>.</p>
         </sp>
         <sp who="#spAlmanacka">
-          <speaker>Almanacka</speaker> <stage>(till <persName ref="#Fugax">lindebarnet</persName>).</stage> <p>Välkommen
+          <speaker>Almanacka</speaker>
+          <stage>(till <persName ref="#Fugax">lindebarnet</persName>).</stage>
+          <p>Välkommen
             <lb/> till <placeName ref="#Jorden">jorden</placeName>, <persName ref="#Fugax">min trehundrafemtioförsta gemål</persName>!</p>
         </sp>
-        <stage type="entrance" who="#DeSjuVeckodagarna #DeTolfMånaderna" cert="low"><persName ref="#DeTolfMånaderna">Månaderna</persName> framträda.</stage>
+        <stage type="entrance" who="#DeSjuVeckodagarna #DeTolfMånaderna" cert="low">
+          <persName ref="#DeTolfMånaderna">Månaderna</persName> framträda.</stage>
         <sp who="#spJanuari">
-          <speaker>Januari</speaker> <stage>(hvit).</stage>
+          <speaker>Januari</speaker>
+          <stage>(hvit).</stage>
           <lg>
             <l>Jag, <persName ref="#Januari">årets äldste son</persName>, dig helsar nu</l>
             <l> Med klara stjernor och med frusen sjö,</l>
@@ -1070,7 +1412,8 @@
           </lg>
         </sp>
         <sp who="#spFebruari">
-          <speaker>Februari</speaker> <stage>(hvit).</stage>
+          <speaker>Februari</speaker>
+          <stage>(hvit).</stage>
           <lg>
             <l>Välkommen till min fastlagsbulle du,</l>
             <l>Att krydda lexan med en munter sång</l>
@@ -1078,7 +1421,8 @@
           </lg>
         </sp>
         <sp who="#spMars">
-          <speaker>Mars</speaker> <stage>(mörkblå).</stage>
+          <speaker>Mars</speaker>
+          <stage>(mörkblå).</stage>
           <lg>
             <l>Må sorgens drifvor smälta för din blick,</l>
             <l>Må solsken droppa på din unga fröjd.</l>
@@ -1086,7 +1430,8 @@
           </lg>
         </sp>
         <sp who="#spApril">
-          <speaker>April</speaker> <stage>(brokig.)</stage>
+          <speaker>April</speaker>
+          <stage>(brokig.)</stage>
           <lg>
             <l>Är jag föränderlig, blif trofast du!</l>
             <l>Låt menskolifvets hvita sippor gro</l>
@@ -1094,7 +1439,8 @@
           </lg>
         </sp>
         <sp who="#spMaja">
-          <speaker>Maja</speaker> <stage>(grön).</stage>
+          <speaker>Maja</speaker>
+          <stage>(grön).</stage>
           <lg>
             <l>Och när du går med lösta vågor ut</l>
             <l>Att kläda hafvet blått och jorden grön,</l>
@@ -1102,16 +1448,19 @@
           </lg>
         </sp>
         <sp who="#spJunia">
-          <speaker>Junia</speaker> <stage>(grön).</stage>
+          <speaker>Junia</speaker>
+          <stage>(grön).</stage>
           <lg>
             <l>Men när du i din högsta fägring står,</l>
             <l>Var ej allenast skön, var öm, var god,</l>
             <l>Var stark, var frisk, var stor i hjeltemod!</l>
           </lg>
         </sp>
-        <pb facs="38085-7.jpg"/><fw type="pageNum">171</fw>
+        <pb facs="38085-7.jpg"/>
+        <fw type="pageNum">171</fw>
         <sp who="#spJulia">
-          <speaker>Julia</speaker> <stage>(röd).</stage>
+          <speaker>Julia</speaker>
+          <stage>(röd).</stage>
           <lg>
             <l>Och lef, i blomman af din kraft, ej blott,</l>
             <l>Lik syrsan tanklös, för den dag, som går,</l>
@@ -1119,7 +1468,8 @@
           </lg>
         </sp>
         <sp who="#spAugusta">
-          <speaker>Augusta</speaker> <stage>(gul med ax).</stage>
+          <speaker>Augusta</speaker>
+          <stage>(gul med ax).</stage>
           <lg>
             <l>Hvad du har sått, det skall jag berga in.</l>
             <l>Gif bröd, gif seger åt allt godt och sant,</l>
@@ -1127,7 +1477,8 @@
           </lg>
         </sp>
         <sp who="#spSeptember">
-          <speaker>September</speaker> <stage>(brokig).</stage>
+          <speaker>September</speaker>
+          <stage>(brokig).</stage>
           <lg>
             <l>Och gulna löfven i din lefnads höst,</l>
             <l>Med tankens äppleskördar än oss gläd!</l>
@@ -1135,7 +1486,8 @@
           </lg>
         </sp>
         <sp who="#spOktober">
-          <speaker>Oktober</speaker> <stage>(grå.)</stage>
+          <speaker>Oktober</speaker>
+          <stage>(grå.)</stage>
           <lg>
             <l>Arbeta, <persName ref="#Fugax">konung</persName>! Arbete är kraft.</l>
             <l>Ju mer det mörknar kring din lefnads stig,</l>
@@ -1143,7 +1495,8 @@
           </lg>
         </sp>
         <sp who="#spNovember">
-          <speaker>November</speaker> <stage>(svart med silfver).</stage>
+          <speaker>November</speaker>
+          <stage>(svart med silfver).</stage>
           <lg>
             <l>Säg ej: mitt lif, min kraft, min fröjd är slut!</l>
             <l>Spänn blanka skridskon på din snabba fot,</l>
@@ -1151,11 +1504,13 @@
           </lg>
         </sp>
         <sp who="#spDecember">
-          <speaker>December</speaker> <stage>(hvit med jul-ljus).</stage>
+          <speaker>December</speaker>
+          <stage>(hvit med jul-ljus).</stage>
           <lg>
             <l>Din jul skall komma, Gläd dig åt hans fröjd,</l>
             <l>Men sof ej bort Guds rikes morgonväkt;</l>
-            <l>Tänd himlens ljus, när <placeName ref="#Solen"><placeName ref="#Jorden">jordens</placeName> sol</placeName> är släckt!</l>
+            <l>Tänd himlens ljus, när <placeName ref="#Solen">
+                <placeName ref="#Jorden">jordens</placeName> sol</placeName> är släckt!</l>
           </lg>
         </sp>
         <sp who="#spSöndagen">
@@ -1169,7 +1524,8 @@
         <sp who="#spDenOkända">
           <speaker>Den okända.</speaker>
           <lg>
-            <l>Här sofver <persName ref="#Fugax">tidens yngsta spenabarn</persName></l>
+            <l>Här sofver <persName ref="#Fugax">tidens yngsta spenabarn</persName>
+            </l>
             <l>Han fyller upp den nionde dekaden</l>
             <l>Af detta segerstolta, ljusbekrönta,</l>
             <l>Maskstungna nittonde århundrade.</l>
@@ -1181,16 +1537,21 @@
         </sp>
         <stage>Tåget ringer andra gången.</stage>
         <sp who="#spVingflax">
-          <speaker>Vingflax</speaker> <stage>(till <persName ref="#DenOkända">den okända</persName>).</stage> <p>Tåget går. Ur­<lb break="no"/>säkta, har <persName ref="#DenOkända">madam</persName> köpt biljett?</p>
+          <speaker>Vingflax</speaker>
+          <stage>(till <persName ref="#DenOkända">den okända</persName>).</stage>
+          <p>Tåget går. Ur­<lb break="no"/>säkta, har <persName ref="#DenOkända">madam</persName> köpt biljett?</p>
         </sp>
         <sp who="#spDenOkända">
-          <speaker>Den okända</speaker> <stage><supplied>(</supplied>uppreser sig, afkastar slöjan och
+          <speaker>Den okända</speaker>
+          <stage>
+            <supplied>(</supplied>uppreser sig, afkastar slöjan och
             <lb/> är nu himmelsblå med ett diadem af stjernor).&gt;</stage>
           <lg>
             <l>Jag är Urania, den stjernbeströdda</l>
             <l>Natthimlens äldsta, evigt unga dotter.</l>
             <l>Jag var, förr'n någon af er än var till,</l>
-            <l>Och jag är sänd att bära <persName ref="#Fugax">denne pilt</persName></l>
+            <l>Och jag är sänd att bära <persName ref="#Fugax">denne pilt</persName>
+            </l>
             <l>Till spiran af hans korta herravälde.</l>
             <l>Ni, kryp af tiden, myror för i dag</l>
             <l>Och luft i morgon, akten eder stack!</l>
@@ -1198,14 +1559,21 @@
           </lg>
         </sp>
         <stage type="exit" who="#DenOkända #Fugax" cert="medium"/>
-        <stage>Tåget ringer tredje gången. <stage type="exit" who="#Almanacka #DeSjuVeckodagarna #DeTolfMånaderna #Fonograf #Stenograf #Telefon #Telegraf #Vingflax">Vingflax, drottnin­<lb break="no"/>gen och hela sviten rusa ut.</stage></stage>
+        <stage>Tåget ringer tredje gången. <stage type="exit" who="#Almanacka #DeSjuVeckodagarna #DeTolfMånaderna #Fonograf #Stenograf #Telefon #Telegraf #Vingflax">Vingflax, drottnin­<lb break="no"/>gen och hela sviten rusa ut.</stage>
+        </stage>
         <cb n="2"/>
         <sp who="#spLotta">
-          <speaker>Lotta</speaker> <stage type="exit" who="#Far #Lotta">(dragande Far ut med sig).</stage> <p><persName ref="#Mor">Mamma</persName>,
-            <lb/> <persName ref="#Mor">mamma</persName>, tåget går!</p>
+          <speaker>Lotta</speaker>
+          <stage type="exit" who="#Far #Lotta">(dragande Far ut med sig).</stage>
+          <p>
+            <persName ref="#Mor">Mamma</persName>,
+            <lb/>
+            <persName ref="#Mor">mamma</persName>, tåget går!</p>
         </sp>
         <sp who="#spMor">
-          <speaker>Mor</speaker> <stage>(sysslande med <persName ref="#PaltNo1 #PaltNo2">paltarne</persName>).</stage> <p>Jag kommer,
+          <speaker>Mor</speaker>
+          <stage>(sysslande med <persName ref="#PaltNo1 #PaltNo2">paltarne</persName>).</stage>
+          <p>Jag kommer,
             <lb/> jag kommer strax, <persName ref="#Lotta">kära barn</persName>. Jag måste
             <lb/> ju knäppa <persName ref="#PaltNo1 #PaltNo2">paltarnes</persName> paletåer, att de intet
             <lb/> förkyla sig. Och se nu, slarfva ej deras
@@ -1213,41 +1581,53 @@
         </sp>
         <stage>Man hör tåget rulla bort.</stage>
         <sp who="#spMab">
-          <speaker>Mab.</speaker> <p><persName ref="#Mor">Frun</persName> har försummat sig. Tåget
+          <speaker>Mab.</speaker>
+          <p>
+            <persName ref="#Mor">Frun</persName> har försummat sig. Tåget
             <lb/> gick.</p>
         </sp>
         <sp who="#spMor">
-          <speaker>Mor.</speaker> <p>Tåget? Åh, det är intet möjligt!</p>
+          <speaker>Mor.</speaker>
+          <p>Tåget? Åh, det är intet möjligt!</p>
         </sp>
         <sp who="#spMab">
-          <speaker>Mab.</speaker> <p>Allt är möjligt. <persName ref="#Mor">Frun</persName> får ackor­<lb break="no"/>dera in sig hos mig till nästa år.</p>
+          <speaker>Mab.</speaker>
+          <p>Allt är möjligt. <persName ref="#Mor">Frun</persName> får ackor­<lb break="no"/>dera in sig hos mig till nästa år.</p>
         </sp>
         <sp who="#spSibb">
-          <speaker>Sibb.</speaker> <p>Och hjelpa mig att skura <orgName ref="#StationSylvester">tidens gång­<lb break="no"/>jern</orgName> blanka.</p>
+          <speaker>Sibb.</speaker>
+          <p>Och hjelpa mig att skura <orgName ref="#StationSylvester">tidens gång­<lb break="no"/>jern</orgName> blanka.</p>
         </sp>
         <sp who="#spMor">
-          <speaker>Mor</speaker> <stage>(dragande <persName ref="#PaltNo1 #PaltNo2">paltarne</persName> med sig).</stage> <p>Skynden
+          <speaker>Mor</speaker>
+          <stage>(dragande <persName ref="#PaltNo1 #PaltNo2">paltarne</persName> med sig).</stage>
+          <p>Skynden
             <lb/> er, <persName ref="#PaltNo1 #PaltNo2">barn</persName>! Åh, det vore förskräckligt! Men
             <lb/> det är intet möjligt!</p>
         </sp>
         <sp who="#spDenOkända">
-          <speaker>Den okända</speaker> <stage type="entrance" who="#DenOkända #Fugax" cert="medium">(nyss försvunnen, framträder med
-            <lb/> <persName ref="#Fugax">barnet</persName> vid dörren).</stage>
+          <speaker>Den okända</speaker>
+          <stage type="entrance" who="#DenOkända #Fugax" cert="medium">(nyss försvunnen, framträder med
+            <lb/>
+            <persName ref="#Fugax">barnet</persName> vid dörren).</stage>
           <lg>
             <l>Nej, du har rätt. Att lemna öfvergifven</l>
-            <l><persName ref="#Mor">En mor</persName> med <persName ref="#PaltNo1 #PaltNo2">sina barn</persName>, det är omöjligt.</l>
+            <l>
+              <persName ref="#Mor">En mor</persName> med <persName ref="#PaltNo1 #PaltNo2">sina barn</persName>, det är omöjligt.</l>
             <l>Se, här är jag med <persName ref="#Fugax">kungen</persName> qvar ännu!</l>
             <l>Förutan oss blir intet nyår af.</l>
           </lg>
         </sp>
         <stage>Man hör tåget rulla tillbaka.</stage>
         <sp who="#spVingflax">
-          <speaker>Vingflax</speaker> <stage type="entrance" who="#Vingflax">(inrusande, kastar sig på knä).</stage>
+          <speaker>Vingflax</speaker>
+          <stage type="entrance" who="#Vingflax">(inrusande, kastar sig på knä).</stage>
           <p>Nåd! Nåd, <persName ref="#Fugax">ers majestät</persName>! <orgName ref="#StationSylvester">Stationens</orgName> klocka
             <lb/> slog längesedan tolf ...</p>
         </sp>
         <sp who="#spDenOkända">
-          <speaker>Den okända.</speaker> <p>Ditt ur går galet.
+          <speaker>Den okända.</speaker>
+          <p>Ditt ur går galet.
             <lb/> Du räknar soltid, men jag räknar stjerntid.</p>
           <lg>
             <l>Först nu är klockan tolf. <stage>(Till <persName ref="#Mor">Mor</persName>).</stage> Kom,
@@ -1255,20 +1635,26 @@
             <l>Nu signe Herren Gud det nya år.</l>
           </lg>
         </sp>
-        <stage><stage type="exit" who="#DenOkända #Fugax #Mor #PaltNo1 #PaltNo2 #Vingflax">Den okända, Vingflax, Mor och paltarne gå.</stage>
-          <lb/> <persName ref="#Mab">Mab</persName> och <persName ref="#Sibb">Sibb</persName> blifva ensamma qvar. Man hör tå­<lb break="no"/>get ånyå rulla bort.</stage>
+        <stage>
+          <stage type="exit" who="#DenOkända #Fugax #Mor #PaltNo1 #PaltNo2 #Vingflax">Den okända, Vingflax, Mor och paltarne gå.</stage>
+          <lb/>
+          <persName ref="#Mab">Mab</persName> och <persName ref="#Sibb">Sibb</persName> blifva ensamma qvar. Man hör tå­<lb break="no"/>get ånyå rulla bort.</stage>
         <sp who="#spMab">
-          <speaker>Mab.</speaker> <p>Godt nytt år, <persName ref="#Sibb">Sibb</persName>!</p>
+          <speaker>Mab.</speaker>
+          <p>Godt nytt år, <persName ref="#Sibb">Sibb</persName>!</p>
         </sp>
         <sp who="#spSibb">
-          <speaker>Sibb.</speaker> <p>Äfvenledes. <stage>(För sig).</stage> Nu skall jag
-            <lb/> passa på. <stage>(Nigande).</stage> <persName ref="#Publiken">Mitt herrskap</persName>, jag slä­<lb break="no"/>par här sju dagar i veckan. Jag har den
+          <speaker>Sibb.</speaker>
+          <p>Äfvenledes. <stage>(För sig).</stage> Nu skall jag
+            <lb/> passa på. <stage>(Nigande).</stage>
+            <persName ref="#Publiken">Mitt herrskap</persName>, jag slä­<lb break="no"/>par här sju dagar i veckan. Jag har den
             <lb/> äran önska er det allrabästa nya år ... och
             <lb/> alla fattiga tjensteflickor — löneförhöjning!</p>
         </sp>
         <stage rend="centered">(Ridå faller).</stage>
       </div>
-      <gap reason="irrelevant"/><!-- annat inslag -->
+      <gap reason="irrelevant"/>
+<!-- annat inslag -->
     </body>
     <back>
       <div type="editorial">
@@ -1294,11 +1680,11 @@
                 <genName>1890</genName>
               </persName>
             </person>
-           <person xml:id="DenOkända" sex="female">
+            <person xml:id="DenOkända" sex="female">
               <persName>
                 <forename>Urania</forename>
               </persName>
-             <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Urania</idno>
+              <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Urania</idno>
             </person>
             <person xml:id="Elektrik" sex="male">
               <persName>
@@ -1553,19 +1939,21 @@
             <relation type="social" name="anställd" active="#Sibb" passive="#Mab"/>
             <relation type="social" name="adjutant" active="#Bajonett #Elektrik" passive="#Kungen" to-custom="#Succession"/>
             <relation type="social" name="springpojke" active="#Fonograf #Stenograf #Telefon #Telegraf" passive="#Kungen" to-custom="#Succession"/>
-            <relation type="social" name="dräng" active="#Matte" passive="#Far"/><!-- även till #Mor, men förenklat /EF -->
+            <relation type="social" name="dräng" active="#Matte" passive="#Far"/>
+<!-- även till #Mor, men förenklat /EF -->
             <relation type="other" name="kund" active="#EnGumma #EnHerre #Lotta #Passagerare" passive="#Mab"/>
 <!--            <relation type="other" name="samtalar" mutual="#Vingflax #DenOkända"/>-->
             <relation type="other" name="utropare" active="#RöstUtanför #Göken" passive="#StationSylvester"/>
 <!--            <relation type="other" name="resenärer" active="#Passagerare #RöstUtanför" passive="#StationSylvester"/>-->
 <!--            <relation type="other" name="närvarar" active="#Hurrabasar" passive="#StationSylvester"/>-->
 <!--            <relation type="other" name="talar.till" active="#Januari #Februari #Mars #April #Maja #Junia #Julia #Augusta #September #Oktober #November #December #DeTolfMånaderna #DeSjuVeckodagarna #Söndagen" passive="#Fugax"/>-->
-            <!-- tillagda/ersatta (ref) /EF -->
+<!-- tillagda/ersatta (ref) /EF -->
             <relation type="personal" name="gift" mutual="#Far #Mor"/>
             <relation type="personal" name="förlovad" mutual="#Stopp #Sibb"/>
             <relation type="other" name="sköter" active="#Matte" passive="#Blacken"/>
             <relation type="social" name="häst" active="#Blacken" passive="#Far"/>
-            <relation type="social" name="piga" active="#Lena" passive="#Mor" cert="medium"/><!-- även till #Far, men förenklat /EF -->
+            <relation type="social" name="piga" active="#Lena" passive="#Mor" cert="medium"/>
+<!-- även till #Far, men förenklat /EF -->
             <relation type="social" name="säljare" active="#Biljettförsäljerskan" passive="#StationSylvester"/>
             <relation type="social" name="bagagekarl" active="#Bagagekarlen" passive="#StationSylvester"/>
             <relation type="other" name="tar.emot" active="#Bagagekarlen" passive="#PaltNo1 #PaltNo2"/>
@@ -1574,11 +1962,13 @@
             <relation type="social" name="stins" active="#Vingflax" passive="#StationSylvester"/>
             <relation type="social" name="banvakt" active="#Stopp" passive="#StationSylvester"/>
             <relation type="social" name="kund" active="#Far" passive="#Bagagekarlen #Biljettförsäljerskan"/>
-            <relation type="other" name="löneförhandlar" active="#Sibb" passive="#Far #Fugax #Kungen #Publiken"/><!-- kanske /EF -->
+            <relation type="other" name="löneförhandlar" active="#Sibb" passive="#Far #Fugax #Kungen #Publiken"/>
+<!-- kanske /EF -->
             <relation type="other" name="resenär" active="#Passagerare #Resande" passive="#StationSylvester"/>
             <relation type="other" name="hittade" active="#Kungen" passive="#Stanley" notAfter-custom="#playstart"/>
             <relation type="personal" name="mor" active="#Farmor" passive="#Far"/>
-            <relation type="other" name="ska.besöka" active="#Far" passive="#Farmor" notBefore-custom="#playend"/><!-- även övriga i familjen, förenklat /EF -->
+            <relation type="other" name="ska.besöka" active="#Far" passive="#Farmor" notBefore-custom="#playend"/>
+<!-- även övriga i familjen, förenklat /EF -->
             <relation type="other" name="hurrar" active="#Hurrabasar" passive="#Fugax #Kungen"/>
             <relation type="other" name="leder" active="#Handfast" passive="#Hurrabasar"/>
             <relation type="other" name="organiserar" active="#Vingflax" passive="#Hurrabasar"/>
@@ -1668,9 +2058,11 @@
             <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Venus</idno>
           </place>
         </listPlace>
-        <!-- IDEA: Jfr Strindbergs Den Okände i Till Damaskus. En återkommande rollfigur? /Marika (den okända, s. 171) -->
+<!-- IDEA: Jfr Strindbergs Den Okände i Till Damaskus. En återkommande rollfigur? /Marika (den okända, s. 171) -->
         <fs type="hand" xml:id="handarbetep1">
-          <f name="props"><symbol value="strumpstickor"/></f>
+          <f name="props">
+            <symbol value="strumpstickor"/>
+          </f>
         </fs>
       </div>
     </back>

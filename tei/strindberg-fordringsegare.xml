@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
@@ -149,18 +149,18 @@
       </classDecl>
       <tagsDecl>
         <rendition>
-          <!-- Rollbeskrivningar i castItem är i kursiv stil /TB -->
-          <!-- Scenanvisningar anges med mindre punktstorlek /EF -->
-          <!-- Scenanvisningar av typen setting anges med kursiv stil /EF -->
-          <!-- Scenanvisningar av typen presence anges med kursiv stil och i normal storlek;
+<!-- Rollbeskrivningar i castItem är i kursiv stil /TB -->
+<!-- Scenanvisningar anges med mindre punktstorlek /EF -->
+<!-- Scenanvisningar av typen setting anges med kursiv stil /EF -->
+<!-- Scenanvisningar av typen presence anges med kursiv stil och i normal storlek;
                rollnamn (i versaler) är i normal stil /EF -->
-          <!-- Övriga scenanvisningar är i normal stil /EF -->
-          <!-- Scenanvisningar direkt efter talarrubrik är inline, vid flera rader indraget till rak vänstermarginal;
+<!-- Övriga scenanvisningar är i normal stil /EF -->
+<!-- Scenanvisningar direkt efter talarrubrik är inline, vid flera rader indraget till rak vänstermarginal;
                en börjar på ny rad och har inget indrag (rend=newline) /EF -->
-          <!-- Fristående scenanvisningar är centrerade vid en rad; indragna första raden vid flera rader /EF -->
-          <!-- Stycken är indragna första raden /TB -->
-          <!-- Rubriker är centrerade /EF -->
-          <!-- Talarrubriker anges med mindre punktstorlek /EF -->
+<!-- Fristående scenanvisningar är centrerade vid en rad; indragna första raden vid flera rader /EF -->
+<!-- Stycken är indragna första raden /TB -->
+<!-- Rubriker är centrerade /EF -->
+<!-- Talarrubriker anges med mindre punktstorlek /EF -->
         </rendition>
       </tagsDecl>
     </encodingDesc>
@@ -170,55 +170,73 @@
       </langUsage>
       <particDesc>
         <listPerson>
-          
           <person xml:id="spAdolf" sex="MALE">
-            <persName>Adolf</persName><!--castList-->
-            <persName>ADOLF</persName><!--speaker-->
-            <persName>Adolf</persName><!--editorial-->
+            <persName>Adolf</persName>
+<!--castList-->
+            <persName>ADOLF</persName>
+<!--speaker-->
+            <persName>Adolf</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spGustaf" sex="MALE">
-            <persName>Gustaf</persName><!--castList-->
-            <persName>GUSTAF</persName><!--speaker-->
-            <persName>Gustaf Sjöberg</persName><!--editorial-->
+            <persName>Gustaf</persName>
+<!--castList-->
+            <persName>GUSTAF</persName>
+<!--speaker-->
+            <persName>Gustaf Sjöberg</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spTekla" sex="FEMALE">
-            <persName>Tekla</persName><!--castList-->
-            <persName>TEKLA</persName><!--speaker-->
-            <persName>Tekla Kurre</persName><!--editorial-->
+            <persName>Tekla</persName>
+<!--castList-->
+            <persName>TEKLA</persName>
+<!--speaker-->
+            <persName>Tekla Kurre</persName>
+<!--editorial-->
           </person>
         </listPerson>
       </particDesc>
     </profileDesc>
-
   </teiHeader>
   <text>
     <anchor xml:id="playstart"/>
     <front>
-      <pb facs="38671-0.jpg"/><!-- omslag -->
+      <pb facs="38671-0.jpg"/>
+<!-- omslag -->
       <gap reason="irrelevant"/>
-      <pb facs="38671-1.jpg"/><!-- omslag insida -->
-      <pb facs="38671-2.jpg"/><!-- smutstitel -->
+      <pb facs="38671-1.jpg"/>
+<!-- omslag insida -->
+      <pb facs="38671-2.jpg"/>
+<!-- smutstitel -->
       <gap reason="irrelevant"/>
-      <pb facs="38671-3.jpg"/><!-- titelsida volym -->
+      <pb facs="38671-3.jpg"/>
+<!-- titelsida volym -->
       <gap reason="irrelevant"/>
-      <pb facs="38671-4.jpg"/><!-- trycksida -->
+      <pb facs="38671-4.jpg"/>
+<!-- trycksida -->
       <gap reason="irrelevant"/>
-      <pb facs="38671-5.jpg"/><!-- titelsida -->
+      <pb facs="38671-5.jpg"/>
+<!-- titelsida -->
       <gap reason="irrelevant"/>
-      <pb facs="38671-6.jpg"/><!-- tom sida -->
+      <pb facs="38671-6.jpg"/>
+<!-- tom sida -->
       <pb facs="38671-7.jpg"/>
       <castList>
         <head>Personer:</head>
         <castItem>
-          <role><persName ref="#Tekla">TEKLA</persName></role>.
+          <role>
+            <persName ref="#Tekla">TEKLA</persName>
+          </role>.
         </castItem>
         <castItem>
-          <role><persName ref="#Adolf">ADOLF</persName></role>, <roleDesc>hennes man, målare</roleDesc>.
+          <role>
+            <persName ref="#Adolf">ADOLF</persName>
+          </role>, <roleDesc>hennes man, målare</roleDesc>.
         </castItem>
         <castItem>
-          <role><persName ref="#Gustaf">GUSTAF</persName></role>, <roleDesc>hennes frånskilda man, lektor. (Reser
+          <role>
+            <persName ref="#Gustaf">GUSTAF</persName>
+          </role>, <roleDesc>hennes frånskilda man, lektor. (Reser
             <lb/> under antaget namn.)</roleDesc>
         </castItem>
         <addSpan spanTo="#slutTillagt"/>
@@ -240,20 +258,24 @@
         </stage>
         <stage type="presence" who="#Adolf #Gustaf">ADOLF och GUSTAF vid bordet till höger.</stage>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(knådar en vaxfigur på
+          <speaker>ADOLF</speaker>
+          <stage>(knådar en vaxfigur på
             <lb/> en miniatyr-kavalett; har sina
             <lb/> två kryckkäppar stående bred­<lb break="no"/>vid sig).</stage>
           <p>— — — och allt detta har jag dig att tacka för!</p>
         </sp>
         <sp who="#spGustaf">
-          <speaker>GUSTAF</speaker> <stage>(röker cigarr).</stage>
+          <speaker>GUSTAF</speaker>
+          <stage>(röker cigarr).</stage>
           <p>Åh prat!</p>
         </sp>
-        <pb facs="38671-8.jpg"/><fw type="pageNum">18</fw>
+        <pb facs="38671-8.jpg"/>
+        <fw type="pageNum">18</fw>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
           <p>Alldeles bestämdt! Under de första dagarna
-            <lb/> <persName ref="#Tekla">min hustru</persName> var bortrest låg jag på en soffa
+            <lb/>
+            <persName ref="#Tekla">min hustru</persName> var bortrest låg jag på en soffa
             <lb/> maktlös och bara längtade! Det var som om
             <lb/> hon gått bort med mina kryckor, så att jag icke
             <lb/> kunde flytta mig ur stället. Sedan jag sofvit
@@ -288,7 +310,8 @@
           <speaker>GUSTAF.</speaker>
           <p>Du har anlag för den sjukan, du!</p>
         </sp>
-        <pb facs="38671-9.jpg"/><fw type="pageNum">19</fw>
+        <pb facs="38671-9.jpg"/>
+        <fw type="pageNum">19</fw>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
           <p>Jag fruktade att förlora henne — och sökte
@@ -331,10 +354,12 @@
           <p>... Men från alla andra!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(efter en paus).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(efter en paus).</stage>
           <p>Ja! — Och det tycktes som om hon sär­<lb break="no"/>skildt skulle hata mina meningar, därför att de
             <lb/> kommo från mig och icke därför att de voro
-            <pb facs="38671-10.jpg"/><fw type="pageNum">20</fw>
+            <pb facs="38671-10.jpg"/>
+            <fw type="pageNum">20</fw>
             orimliga. Ty ofta kunde det hända att hon
             <lb/> kom fram med mina idéer från äldre datum och
             <lb/> forcerade som sina; ja, det kunde hända, att
@@ -376,7 +401,8 @@
           <speaker>ADOLF.</speaker>
           <p>Hvad skulle det vara för slag? Hon är ju
             <lb/> ett själfständigt väsen, med en massa egna
-            <pb facs="38671-11.jpg"/><fw type="pageNum">21</fw>
+            <pb facs="38671-11.jpg"/>
+            <fw type="pageNum">21</fw>
             tankar; och när jag träffade henne, var jag ingen­<lb break="no"/>ting, ett artist-barn, som hon uppfostrade!</p>
         </sp>
         <sp who="#spGustaf">
@@ -416,7 +442,8 @@
           <p>Därför att hon inte kände honom; och
             <lb/> man lär ju aldrig känna hvarann förrän efteråt!</p>
         </sp>
-        <pb facs="38671-12.jpg"/><fw type="pageNum">22</fw>
+        <pb facs="38671-12.jpg"/>
+        <fw type="pageNum">22</fw>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Därför skulle man inte gifta sig förrän —
@@ -461,11 +488,13 @@
           <p>Visst kan man bli det; och du är det re­<lb break="no"/>dan! Grundligt!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(konvulsiviskt).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(konvulsiviskt).</stage>
           <p>Jag! Det var det sista jag ville bli, och
             <lb/> här ska bli andra ordningar.</p>
         </sp>
-        <pb facs="38671-13.jpg"/><fw type="pageNum">23</fw>
+        <pb facs="38671-13.jpg"/>
+        <fw type="pageNum">23</fw>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Inte så häftigt! Du får ditt anfall igen!</p>
@@ -509,17 +538,20 @@
           <p>Efter som du är hennes man!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(frånvarande).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(frånvarande).</stage>
         </sp>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Har jag inte rätt?</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(orolig).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(orolig).</stage>
           <p>Jag vet inte! — Man lefver tillsammans
             <lb/> med <persName ref="#Tekla">en kvinna</persName> i åratal, och man tänker aldrig
-            <pb facs="38671-14.jpg"/><fw type="pageNum">24</fw>
+            <pb facs="38671-14.jpg"/>
+            <fw type="pageNum">24</fw>
             öfver henne, eller öfver förhållandet, och så ...
             <lb/> börjar man reflektera — och så är det i gång!</p>
           <p>— <persName ref="#Gustaf">Gustaf</persName>, du är min vän! Du är den enda
@@ -556,7 +588,8 @@
             <lb/> mig lämpligt materiel att uttrycka hvad jag
             <lb/> ville ha fram, men när du gaf mig motivet till
             <lb/> fenomenet och du förklarade hvarför måleriet
-            <pb facs="38671-15.jpg"/><fw type="pageNum">25</fw>
+            <pb facs="38671-15.jpg"/>
+            <fw type="pageNum">25</fw>
             icke kunde vara tidens form för konstnärlig drift,
             <lb/> då gick det upp ett ljus för mig och jag insåg
             <lb/> att hädanefter var det mig omöjligt producera
@@ -593,11 +626,13 @@
             <lb/> kropp, utsträckning i de tre dimensionerna ...</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(sväfvande).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(sväfvande).</stage>
           <p>De tre dimensionerna ... ja, med ett ord
             <lb/> kropp!</p>
         </sp>
-        <pb facs="38671-16.jpg"/><fw type="pageNum">26</fw>
+        <pb facs="38671-16.jpg"/>
+        <fw type="pageNum">26</fw>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Och så blef du skulptör; det vill säga, du
@@ -622,7 +657,8 @@
           <p>Utan modell? Och så lefvande!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(slött).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(slött).</stage>
           <p>Ja, men den liknar någon! Det är märk­<lb break="no"/>värdigt att <persName ref="#Tekla">denna kvinna</persName> fins i min kropp, lik­<lb break="no"/>som jag i hennes!</p>
         </sp>
         <sp who="#spGustaf">
@@ -641,7 +677,8 @@
             <lb/> annat, som jag bara anat förut. Du har älskat
             <lb/> henne ofantligt!</p>
         </sp>
-        <pb facs="38671-17.jpg"/><fw type="pageNum">27</fw>
+        <pb facs="38671-17.jpg"/>
+        <fw type="pageNum">27</fw>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
           <p>Ja, så, att jag icke skulle kunna säga om
@@ -657,7 +694,8 @@
             <lb/> symptomen till fallandesot!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(skakad).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(skakad).</stage>
           <p>Jag! Hur kan du säga det!</p>
         </sp>
         <sp who="#spGustaf">
@@ -671,10 +709,15 @@
           <p>Hur, hur yttrade sig — det?</p>
         </sp>
         <sp who="#spGustaf">
-          <speaker>GUSTAF</speaker> <stage>(lifligt målande).</stage>
+          <speaker>GUSTAF</speaker>
+          <stage>(lifligt målande).</stage>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(åhör ytterst <choice><sic>uppmärsamt</sic><corr>uppmärksamt</corr></choice>
+          <speaker>ADOLF</speaker>
+          <stage>(åhör ytterst <choice>
+              <sic>uppmärsamt</sic>
+              <corr>uppmärksamt</corr>
+            </choice>
             <lb/> och imiterar ofrivilligt <persName ref="#Gustaf">Gustafs</persName>
             <lb/> åtbörder).</stage>
         </sp>
@@ -684,17 +727,20 @@
             <lb/> dig svag, vill jag inte plåga dig med en be­<lb break="no"/>skrifning.</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(med ångest).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(med ångest).</stage>
           <p>Gå på du bara, gå på!</p>
         </sp>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Jo! <persName ref="#Brodern">Gossen</persName> hade råkat att gifta sig med
-            <lb/> <persName ref="#Flickan">en liten oskyldig flicka med lockar och dufvo­<pb break="no" facs="38671-18.jpg"/><fw type="pageNum">28</fw>ögon</persName>, ett barnansikte och en engels rena själ.
+            <lb/>
+            <persName ref="#Flickan">en liten oskyldig flicka med lockar och dufvo­<pb break="no" facs="38671-18.jpg"/>
+              <fw type="pageNum">28</fw>ögon</persName>, ett barnansikte och en engels rena själ.
             <lb/> Men icke desto mindre lyckades hon tillvälla
             <lb/> sig de manliga prerogativen ...</p>
         </sp>
-        <!-- "dufvoögon", enligt Nationalupplagan Höga visan 1:15 /EF -->
+<!-- "dufvoögon", enligt Nationalupplagan Höga visan 1:15 /EF -->
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
           <p>Hvad är det?</p>
@@ -706,11 +752,13 @@
             <lb/> Men först skulle han på korset och känna spi­<lb break="no"/>karna i köttet. Det var rysligt!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(andlös).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(andlös).</stage>
           <p>Nå, hur var det då?</p>
         </sp>
         <sp who="#spGustaf">
-          <speaker>GUSTAF</speaker> <stage>(långsamt).</stage>
+          <speaker>GUSTAF</speaker>
+          <stage>(långsamt).</stage>
           <p>Vi kunde sitta och tala, han och jag —
             <lb/> och när jag talat en stund blef han hvit i an­<lb break="no"/>siktet som kalk; armar och ben stelnade och
             <lb/> tummarna vredo sig inåt handen, så här! <stage>(Gest;
@@ -721,24 +769,28 @@
             <lb/> — ner — bakåt — i stolen, som om han drunk­<lb break="no"/>nade! Därpå ...</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(hviskande).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(hviskande).</stage>
           <p>Sluta nu!</p>
         </sp>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Därpå ... Är du sjuk?</p>
         </sp>
-        <pb facs="38671-19.jpg"/><fw type="pageNum">29</fw>
+        <pb facs="38671-19.jpg"/>
+        <fw type="pageNum">29</fw>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
           <p>Ja!</p>
         </sp>
         <sp who="#spGustaf">
-          <speaker>GUSTAF</speaker> <stage>(upp efter ett glas vatten).</stage>
+          <speaker>GUSTAF</speaker>
+          <stage>(upp efter ett glas vatten).</stage>
           <p>Så, drick nu, ska vi tala om något annat!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(matt).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(matt).</stage>
           <p>Tack! Men fortsätt!</p>
         </sp>
         <sp who="#spGustaf">
@@ -749,7 +801,8 @@
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
           <p>Ja, jag har haft svindelanfall ibland, men
-            <lb/> <persName ref="#Läkaren">läkaren</persName> säger att det är anemi.</p>
+            <lb/>
+            <persName ref="#Läkaren">läkaren</persName> säger att det är anemi.</p>
         </sp>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
@@ -779,13 +832,15 @@
           <p>Det kan jag inte! Det skulle störa vårt
             <lb/> samlif!</p>
         </sp>
-        <pb facs="38671-20.jpg"/><fw type="pageNum">30</fw>
+        <pb facs="38671-20.jpg"/>
+        <fw type="pageNum">30</fw>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Farväl med dig, då!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(lägger duken öfver vax­<lb break="no"/>bilden).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(lägger duken öfver vax­<lb break="no"/>bilden).</stage>
           <p>Jag kan det inte!</p>
         </sp>
         <sp who="#spGustaf">
@@ -822,7 +877,8 @@
             <lb/> blick på ett dåligt porträtt, men jag kunde inte
             <lb/> se någon likhet.</p>
         </sp>
-        <pb facs="38671-21.jpg"/><fw type="pageNum">31</fw>
+        <pb facs="38671-21.jpg"/>
+        <fw type="pageNum">31</fw>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Nå, porträtt likna aldrig, och han kunde
@@ -845,7 +901,8 @@
             <lb/> enkorna i Indien, som du vet! — Nå, säg! Har
             <lb/> du aldrig varit svartsjuk på honom, på hans
             <lb/> minne? Skulle det inte äckla dig att möta ho­<lb break="no"/>nom på en promenad och han med ögonen på
-            <lb/> <persName ref="#Tekla">din Tekla</persName> skulle säga dig: Vi i stället för jag?
+            <lb/>
+            <persName ref="#Tekla">din Tekla</persName> skulle säga dig: Vi i stället för jag?
             <lb/> — Vi?</p>
         </sp>
         <sp who="#spAdolf">
@@ -861,7 +918,8 @@
             <lb/> massor af nya intryck på däcksluckan, så blir
             <lb/> liket stilla.</p>
         </sp>
-        <pb facs="38671-22.jpg"/><fw type="pageNum">32</fw>
+        <pb facs="38671-22.jpg"/>
+        <fw type="pageNum">32</fw>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
           <p>Förlåt jag afbryter dig! — Men — det är
@@ -903,7 +961,8 @@
           <speaker>ADOLF.</speaker>
           <p>Hvad för slag!</p>
         </sp>
-        <pb facs="38671-23.jpg"/><fw type="pageNum">33</fw>
+        <pb facs="38671-23.jpg"/>
+        <fw type="pageNum">33</fw>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Jaha, ursäkta! Men ser du, kvinnans kärlek
@@ -950,12 +1009,14 @@
           <speaker>ADOLF.</speaker>
           <p>Det kan du inte!</p>
         </sp>
-        <pb facs="38671-24.jpg"/><fw type="pageNum">34</fw>
+        <pb facs="38671-24.jpg"/>
+        <fw type="pageNum">34</fw>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Åh, med den kännedom du gifvit mig om
             <lb/> dig och <persName ref="#Tekla">din hustru</persName>, kan jag konstruera ut det
-            <lb/> där förloppet! Hör på, får du höra. <stage>(Opassione­<lb break="no"/>radt, nästan skämtsamt.)</stage> <persName ref="#Gustaf">Mannen</persName> var ute i en studie­<lb break="no"/>resa och hon var ensam. Först kände hon
+            <lb/> där förloppet! Hör på, får du höra. <stage>(Opassione­<lb break="no"/>radt, nästan skämtsamt.)</stage>
+            <persName ref="#Gustaf">Mannen</persName> var ute i en studie­<lb break="no"/>resa och hon var ensam. Först kände hon
             <lb/> ett behag att vara fri; så kom tomheten, för
             <lb/> jag antar att hon var tämligen tom när hon
             <lb/> lefvat ensam fjorton dagar. Så kommer han,
@@ -970,7 +1031,8 @@
         </sp>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
-          <p><persName ref="#Adolf">Bror</persName> och <persName ref="#Tekla">syster</persName>? Hur vet du det?</p>
+          <p>
+            <persName ref="#Adolf">Bror</persName> och <persName ref="#Tekla">syster</persName>? Hur vet du det?</p>
         </sp>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
@@ -983,7 +1045,8 @@
             <lb/> dem! <stage>(Med spelad stränghet.)</stage> Men de känna på sig
             <lb/> att en ser dem genom mörkret — och de bli
             <lb/> skrämda — och i skrämseln börjar <persName ref="#Gustaf">den från­<lb break="no"/>varandes figur</persName> att spöka — antaga dimensioner
-            <pb facs="38671-25.jpg"/><fw type="pageNum">35</fw>
+            <pb facs="38671-25.jpg"/>
+            <fw type="pageNum">35</fw>
             — förvandlas, och han blir en mara, som stör
             <lb/> deras älskogssömn, <persName ref="#Gustaf">en fordringsegare</persName>, som knackar
             <lb/> på dörrarne, och de se hans svarta hand mellan
@@ -1020,7 +1083,8 @@
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Det är sant, han var idiot! Men det är
-            <lb/> ett mycket sväfvande begrepp, och i hennes ro­<pb break="no" facs="38671-26.jpg"/><fw type="pageNum">36</fw>man skildras hans idioti såsom hufvudsakligen
+            <lb/> ett mycket sväfvande begrepp, och i hennes ro­<pb break="no" facs="38671-26.jpg"/>
+            <fw type="pageNum">36</fw>man skildras hans idioti såsom hufvudsakligen
             <lb/> bestående däri, att han icke förstod henne.
             <lb/> Förlåt, men är <persName ref="#Tekla">din hustru</persName> verkligen så djup­<lb break="no"/>sinnig? Jag har icke funnit något djupt i hen­<lb break="no"/>nes skrifter!</p>
         </sp>
@@ -1042,10 +1106,13 @@
           <p>Nej, det tror jag inte! Och jag tycker
             <lb/> nästan alltid, att hon har orätt. — Vill du läsa
             <lb/> det här brefvet, till exempel, som jag fick i dag.
-            <lb/> <stage>(Tar upp ett bref ur plånboken.)</stage></p>
+            <lb/>
+            <stage>(Tar upp ett bref ur plånboken.)</stage>
+          </p>
         </sp>
         <sp who="#spGustaf">
-          <speaker>GUSTAF</speaker> <stage>(läser flyktigt).</stage>
+          <speaker>GUSTAF</speaker>
+          <stage>(läser flyktigt).</stage>
           <p>Hm! Den där stilen förefaller mig så be­<lb break="no"/>kant!</p>
         </sp>
         <sp who="#spAdolf">
@@ -1059,7 +1126,8 @@
             <lb/> Spela ni komedi ännu för er själfva! — Fikon­<lb break="no"/>löfven sitta kvar, fastän vissna! — Kallar du
             <lb/> inte henne du?</p>
         </sp>
-        <pb facs="38671-27.jpg"/><fw type="pageNum">37</fw>
+        <pb facs="38671-27.jpg"/>
+        <fw type="pageNum">37</fw>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
           <p>Nej, jag tycker respekten går bort då!</p>
@@ -1101,7 +1169,8 @@
             <lb/> lärt henne stafva, för det kunde hon inte. Men
             <lb/> nu ska du få höra. När hon så tog an husets
             <lb/> korrespondens, så upphörde jag att skrifva; och
-            <pb facs="38671-28.jpg"/><fw type="pageNum">38</fw>
+            <pb facs="38671-28.jpg"/>
+            <fw type="pageNum">38</fw>
             kan du tänka dig — nu har jag af brist på öf­<lb break="no"/>ning under årens lopp glömt bort grammatikan
             <lb/> här och där. Men tror du hon mins att det
             <lb/> var jag som lärde henne från början? Nej, nu
@@ -1129,7 +1198,8 @@
             <lb/> henne att skrifva sin första bok ...</p>
         </sp>
         <sp who="#spGustaf">
-          <speaker>GUSTAF</speaker> <stage>(min).</stage>
+          <speaker>GUSTAF</speaker>
+          <stage>(min).</stage>
           <p>Såå?</p>
         </sp>
         <sp who="#spAdolf">
@@ -1143,7 +1213,8 @@
             <lb/> på hennes tro; blåste så länge att jag tappade
             <lb/> andan sjelf! Jag gaf, jag gaf, jag gaf — tills
             <lb/> jag icke hade något kvar själf! Vet du — nu
-            <pb facs="38671-29.jpg"/><fw type="pageNum">39</fw>
+            <pb facs="38671-29.jpg"/>
+            <fw type="pageNum">39</fw>
             ska jag säga allt — vet du, det förefaller mig
             <lb/> nu — och själen är så underbar — när mina
             <lb/> artistiska framgångar höllo på att fördunkla henne
@@ -1167,7 +1238,8 @@
         </sp>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
-          <p><persName ref="#Tekla">Ormen</persName> är mätt och nu spyr han!</p>
+          <p>
+            <persName ref="#Tekla">Ormen</persName> är mätt och nu spyr han!</p>
         </sp>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
@@ -1187,7 +1259,8 @@
           <speaker>GUSTAF.</speaker>
           <p>Utan du henne! Ganska visst. Men det
             <lb/> var hennes konst att få dig tycka motsatsen!
-            <pb facs="38671-30.jpg"/><fw type="pageNum">40</fw>
+            <pb facs="38671-30.jpg"/>
+            <fw type="pageNum">40</fw>
             Får jag fråga hur bar hon sig åt att uppfostra
             <lb/> dig?</p>
         </sp>
@@ -1222,11 +1295,13 @@
             <lb/> en ny tro.</p>
         </sp>
         <sp who="#spGustaf">
-          <speaker>GUSTAF</speaker> <stage>(ler).</stage>
+          <speaker>GUSTAF</speaker>
+          <stage>(ler).</stage>
           <p>På skulpturen?</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(tvehågsen).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(tvehågsen).</stage>
           <p>Ja!</p>
         </sp>
         <sp who="#spGustaf">
@@ -1238,9 +1313,11 @@
             <lb/> — att du kan ge illusion utan färg, utan färg,
             <lb/> hör du! Tror du det?</p>
         </sp>
-        <pb facs="38671-31.jpg"/><fw type="pageNum">41</fw>
+        <pb facs="38671-31.jpg"/>
+        <fw type="pageNum">41</fw>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(krossad).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(krossad).</stage>
           <p>Nej!</p>
         </sp>
         <sp who="#spGustaf">
@@ -1281,7 +1358,8 @@
         </sp>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
-          <p><persName ref="#Adolf">Slaf</persName>!</p>
+          <p>
+            <persName ref="#Adolf">Slaf</persName>!</p>
         </sp>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
@@ -1291,7 +1369,8 @@
           <speaker>GUSTAF.</speaker>
           <p>Fy fan, ta då hellre tillbaka Gud! — efter du
             <lb/> nödvändigt ska ha något att korsa dig framför! <persName ref="#Adolf">En
-            <pb facs="38671-32.jpg"/><fw type="pageNum">42</fw>
+            <pb facs="38671-32.jpg"/>
+              <fw type="pageNum">42</fw>
             så’n ateist</persName>, som har kvinnovidskepelsen kvar! En
             <lb/> så’n fritänkare, som inte kan tänka fritt om frun­<lb break="no"/>timmerna! Vet du hvad det ofattliga, det
             <lb/> sphinxartade, det djupa hos <persName ref="#Tekla">din hustru</persName> är för
@@ -1302,7 +1381,8 @@
             <lb/> henne och rita mustascher med ett sotkol under
             <lb/> näsan; ställ dig sen på nykter kaluf och hör
             <lb/> på henne, så ska du få höra hur det låter annor­<lb break="no"/>lunda.</p>
-          <p><persName ref="#Tekla">En fonograf</persName>, bara, som ger igen dina —
+          <p>
+            <persName ref="#Tekla">En fonograf</persName>, bara, som ger igen dina —
             <lb/> och andras — ord, liten smula förtunnade!</p>
           <p>Har du sett en naken kvinna? — Ja, natur­<lb break="no"/>ligtvis! <persName ref="#Tekla">En yngling med spenar på bröstet</persName>, <persName ref="#Tekla">en
             <lb/> ofullgången man</persName>, <persName ref="#Tekla">ett barn</persName>, som rännt upp och
@@ -1320,8 +1400,10 @@
           <p>Hallucination, kjolarnas fascineringsförmåga!
             <lb/> Eller — också därför att ni blifvit lika. Nivelle­<lb break="no"/>ringen är gjord; hennes kapillaritetskraft har
             <lb/> sugit upp vattenståndet i nivå! — Säg en sak —
-            <lb/> <stage>(tar upp klockan)</stage> nu ha vi talat i sex timmar och
-            <pb facs="38671-33.jpg"/><fw type="pageNum">43</fw>
+            <lb/>
+            <stage>(tar upp klockan)</stage> nu ha vi talat i sex timmar och
+            <pb facs="38671-33.jpg"/>
+            <fw type="pageNum">43</fw>
             <persName ref="#Tekla">din hustru</persName> bör vara här snart! Ska vi sluta nu,
             <lb/> så att du får hvila dig?</p>
         </sp>
@@ -1346,7 +1428,8 @@
         </sp>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
-          <p><persName ref="#Adolf">Min vän</persName>, det gör mig ondt om dig! Utan
+          <p>
+            <persName ref="#Adolf">Min vän</persName>, det gör mig ondt om dig! Utan
             <lb/> att vara läkare kan jag säga dig ändå, att du
             <lb/> är en döende! Det behöfver man bara se dina
             <lb/> sista taflor för att kunna få klart!</p>
@@ -1366,22 +1449,28 @@
           <speaker>ADOLF.</speaker>
           <p>Sluta, sluta!</p>
         </sp>
-        <pb facs="38671-34.jpg"/><fw type="pageNum">44</fw>
+        <pb facs="38671-34.jpg"/>
+        <fw type="pageNum">44</fw>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Ja, det är inte bara min enskilda mening.
             <lb/> Har du inte läst dagens tidning?</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(far samman).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(far samman).</stage>
           <p>Nej!</p>
         </sp>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
-          <p>Den <choice><sic>liggen</sic><corr>ligger</corr></choice> här på bordet!</p>
+          <p>Den <choice>
+              <sic>liggen</sic>
+              <corr>ligger</corr>
+            </choice> här på bordet!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(griper efter tidningen utan
+          <speaker>ADOLF</speaker>
+          <stage>(griper efter tidningen utan
             <lb/> att våga ta den).</stage>
           <p>Står det här?</p>
         </sp>
@@ -1411,7 +1500,8 @@
             <lb/> ligger och ser hur han blir allt tunnare och
             <lb/> tunnare och hur rullen på spelet blir allt tjockare!
             <lb/> — Nu tycker jag du har vuxit sedan du gräfde
-            <pb facs="38671-35.jpg"/><fw type="pageNum">45</fw>
+            <pb facs="38671-35.jpg"/>
+            <fw type="pageNum">45</fw>
             ur mig, och när du går, går du bort med mitt
             <lb/> innanmäte och lemnar <persName ref="#Adolf">ett skal</persName> kvar.</p>
         </sp>
@@ -1455,12 +1545,15 @@
           <p>Gör med mig hvad du vill! Jag lyder!</p>
         </sp>
         <sp who="#spGustaf">
-          <speaker>GUSTAF</speaker> <stage>(reser sig).</stage>
+          <speaker>GUSTAF</speaker>
+          <stage>(reser sig).</stage>
           <p>Se på mig!</p>
         </sp>
-        <pb facs="38671-36.jpg"/><fw type="pageNum">46</fw>
+        <pb facs="38671-36.jpg"/>
+        <fw type="pageNum">46</fw>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(ser på <persName ref="#Gustaf">Gustaf</persName>).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(ser på <persName ref="#Gustaf">Gustaf</persName>).</stage>
           <p>Nu ser du på mig igen med de där andra
             <lb/> ögonen, som dra mig till dig!</p>
         </sp>
@@ -1490,7 +1583,8 @@
             <lb/> du! — Res dig!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(reser sig; faller <persName ref="#Gustaf">Gustaf</persName>
+          <speaker>ADOLF</speaker>
+          <stage>(reser sig; faller <persName ref="#Gustaf">Gustaf</persName>
             <lb/> om halsen).</stage>
           <p>Jag är som ett benlöst barn och min hjärna
             <lb/> ligger öppen!</p>
@@ -1507,9 +1601,11 @@
           <speaker>GUSTAF.</speaker>
           <p>Du ska, annars slår jag dig!</p>
         </sp>
-        <pb facs="38671-37.jpg"/><fw type="pageNum">47</fw>
+        <pb facs="38671-37.jpg"/>
+        <fw type="pageNum">47</fw>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(rätar på sig).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(rätar på sig).</stage>
           <p>Hvad säger du?</p>
         </sp>
         <sp who="#spGustaf">
@@ -1517,7 +1613,8 @@
           <p>Jag slår dig! sa’ jag!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(gör ett språng tillbaka,
+          <speaker>ADOLF</speaker>
+          <stage>(gör ett språng tillbaka,
             <lb/> ursinnig).</stage>
           <p>Du!</p>
         </sp>
@@ -1552,17 +1649,20 @@
         </sp>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
-          <p><orgName ref="#Barnkrubban">Ett barnhemsmöte</orgName>!</p>
+          <p>
+            <orgName ref="#Barnkrubban">Ett barnhemsmöte</orgName>!</p>
         </sp>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Skildes ni som vänner?</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(dröjande)</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(dröjande)</stage>
           <p>Inte som vänner!</p>
         </sp>
-        <pb facs="38671-38.jpg"/><fw type="pageNum">48</fw>
+        <pb facs="38671-38.jpg"/>
+        <fw type="pageNum">48</fw>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Alltså fiender! — Hvad sa du som retade
@@ -1590,7 +1690,9 @@
         </sp>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
-          <p>Jag sa: <said who="#Adolf"><persName ref="#Tekla">gamla kokett</persName>!</said></p>
+          <p>Jag sa: <said who="#Adolf">
+              <persName ref="#Tekla">gamla kokett</persName>!</said>
+          </p>
         </sp>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
@@ -1611,12 +1713,14 @@
           <speaker>ADOLF.</speaker>
           <p>Jag mins det inte!</p>
         </sp>
-        <pb facs="38671-39.jpg"/><fw type="pageNum">49</fw>
+        <pb facs="38671-39.jpg"/>
+        <fw type="pageNum">49</fw>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Men jag vet det! Du sa så här: <said who="#Adolf">Du skulle
             <lb/> skämmas att kokettera, när du är så gammal,
-            <lb/> att du ingen älskare kan få mer!</said></p>
+            <lb/> att du ingen älskare kan få mer!</said>
+          </p>
         </sp>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
@@ -1659,9 +1763,11 @@
             <lb/> orsaken hvarför en man aldrig kan känna sin
             <lb/> hustru! Har du ett porträtt af henne?</p>
         </sp>
-        <pb facs="38671-40.jpg"/><fw type="pageNum">50</fw>
+        <pb facs="38671-40.jpg"/>
+        <fw type="pageNum">50</fw>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(tar upp ett porträtt ur
+          <speaker>ADOLF</speaker>
+          <stage>(tar upp ett porträtt ur
             <lb/> plånboken; nyfiken).</stage>
         </sp>
         <sp who="#spGustaf">
@@ -1705,7 +1811,8 @@
           <p>Hennes hämd! Kom ihåg att du har sårat
             <lb/> henne i det som utgör hennes enda och högsta,
             <lb/> då du sagt, att hon inte kan ådraga sig en man!
-            <pb facs="38671-41.jpg"/><fw type="pageNum">51</fw>
+            <pb facs="38671-41.jpg"/>
+            <fw type="pageNum">51</fw>
             Om du sagt att det var smörja det hon skref,
             <lb/> så skulle hon skrattat åt din dåliga smak, men
             <lb/> nu — tro mig, har hon inte redan tagit hämd,
@@ -1754,7 +1861,8 @@
           <speaker>GUSTAF.</speaker>
           <p>Nej! Du ska stanna här! Du ska vara
             <lb/> oartig! Har hon nu rent samvete, så får du en
-            <pb facs="38671-42.jpg"/><fw type="pageNum">52</fw>
+            <pb facs="38671-42.jpg"/>
+            <fw type="pageNum">52</fw>
             skur så det haglar om öronen; är hon skyldig,
             <lb/> så kommer hon och smeker dig!</p>
         </sp>
@@ -1792,7 +1900,8 @@
             <lb/> gjort någon bekantskap under hennes frånvaro!
             <lb/> Inte ett ord! Hennes svaga punkt skall jag leta
             <lb/> upp själf! Tyst, nu är hon redan uppe och
-            <pb facs="38671-43.jpg"/><fw type="pageNum">53</fw>
+            <pb facs="38671-43.jpg"/>
+            <fw type="pageNum">53</fw>
             inne i sitt rum! — Hon småsjunger! — Då är
             <lb/> hon ursinnig! — Så, rak i ryggen; och sätt dig
             <lb/> där på din stol, så måste hon sätta sig på min,
@@ -1830,14 +1939,17 @@
             <lb/> på rockuppslaget o. s. v.).</stage>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage type="entrance" who="#Tekla">(in; går rakt fram och
+          <speaker>TEKLA</speaker>
+          <stage type="entrance" who="#Tekla">(in; går rakt fram och
             <lb/> kysser honom, vänligt,
             <lb/> öppet, gladt och in­<lb break="no"/>tagande).</stage>
           <p>God dag, <persName ref="#Adolf">lilla bror</persName>! Hur har han det?</p>
         </sp>
-        <pb facs="38671-44.jpg"/><fw type="pageNum">54</fw>
+        <pb facs="38671-44.jpg"/>
+        <fw type="pageNum">54</fw>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(halft besegrad; motsträf­<lb break="no"/>vigt, skämtsamt).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(halft besegrad; motsträf­<lb break="no"/>vigt, skämtsamt).</stage>
           <p>Hvad har du nu gjort för ondt, efter som
             <lb/> du kysser mig?</p>
         </sp>
@@ -1871,7 +1983,8 @@
           <p>Alldeles ensam!</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(observerar honom; sätter
+          <speaker>TEKLA</speaker>
+          <stage>(observerar honom; sätter
             <lb/> sig i chäslongen).</stage>
           <p>Hvem har suttit här?</p>
         </sp>
@@ -1885,7 +1998,8 @@
             <lb/> är en grop efter armbågen i resåren! Har han
             <lb/> haft fruntimmersfrämmande?</p>
         </sp>
-        <pb facs="38671-45.jpg"/><fw type="pageNum">55</fw>
+        <pb facs="38671-45.jpg"/>
+        <fw type="pageNum">55</fw>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
           <p>Jag? Det tror du inte!</p>
@@ -1895,11 +2009,15 @@
           <p>Men han rodnar! Jag tror <persName ref="#Adolf">lille bror</persName> narras?
             <lb/> — Kom och tala om för <persName ref="#Tekla">Kurre</persName> nu hvad han
             <lb/> har på samvetet!</p>
-          <stage>(Drar honom till sig; han <choice><sic>sjun ker</sic><corr>sjunker</corr></choice> ner med hufvudet i
+          <stage>(Drar honom till sig; han <choice>
+              <sic>sjun ker</sic>
+              <corr>sjunker</corr>
+            </choice> ner med hufvudet i
             <lb/> hennes knä.)</stage>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(leende).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(leende).</stage>
           <p>Du är en djeflett, vet du det?</p>
         </sp>
         <sp who="#spTekla">
@@ -1911,7 +2029,8 @@
           <p>Du tänker aldrig öfver dig själf!</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(vädrar och observerar).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(vädrar och observerar).</stage>
           <p>Jag tänker bara på mig själf — jag är en
             <lb/> ryslig egoist! — Men, hvad du har blifvit
             <lb/> filosofisk!</p>
@@ -1921,7 +2040,8 @@
           <p>Lägg din hand på min panna!</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(jollrar).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(jollrar).</stage>
           <p>Är det myror i hufvet igen? Ska jag jaga
             <lb/> bort dem, hva! <stage>(Kysser hans panna.)</stage> Så där!
             <lb/> Är det bra nu?</p>
@@ -1936,7 +2056,8 @@
           <p>Nå, tala om nu hvad han roat sig med?
             <lb/> Har han målat något?</p>
         </sp>
-        <pb facs="38671-46.jpg"/><fw type="pageNum">56</fw>
+        <pb facs="38671-46.jpg"/>
+        <fw type="pageNum">56</fw>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
           <p>Nej! Jag har slutat måla!</p>
@@ -1968,7 +2089,8 @@
             <lb/> där figuren!</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(afhöljer vaxfiguren).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(afhöljer vaxfiguren).</stage>
           <p>Nej, se bara! — Hvem ska det vara?</p>
         </sp>
         <sp who="#spAdolf">
@@ -1976,7 +2098,8 @@
           <p>Gissa!</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(blidt).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(blidt).</stage>
           <p>Ska det vara <persName ref="#Tekla">Kurre</persName>? Att han inte skäms!</p>
         </sp>
         <sp who="#spAdolf">
@@ -1992,15 +2115,18 @@
           <speaker>ADOLF.</speaker>
           <p>Ja, men det är så mycket annat — vackert!</p>
         </sp>
-        <pb facs="38671-47.jpg"/><fw type="pageNum">57</fw>
+        <pb facs="38671-47.jpg"/>
+        <fw type="pageNum">57</fw>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(slår honom smeksamt på
+          <speaker>TEKLA</speaker>
+          <stage>(slår honom smeksamt på
             <lb/> kinden).</stage>
           <p>Vill han hålla sin mun, annars kysser jag
             <lb/> honom!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(värjer sig).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(värjer sig).</stage>
           <p>Så, så! — Det kan komma någon!</p>
         </sp>
         <sp who="#spTekla">
@@ -2038,7 +2164,8 @@
           <p>Hvem? Du vädrar alltid någon bakom
             <lb/> mig och mina tankar! Du är svartsjuk!</p>
         </sp>
-        <pb facs="38671-48.jpg"/><fw type="pageNum">58</fw>
+        <pb facs="38671-48.jpg"/>
+        <fw type="pageNum">58</fw>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
           <p>Ja, det är jag! Jag är rädd att någon
@@ -2056,11 +2183,13 @@
             <lb/> är <persName ref="#AdolfsVänner">vännerna</persName>, som ge dig inbillningar!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(forskande).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(forskande).</stage>
           <p>Du fruktar alltså — hvad fruktar du?</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(upp).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(upp).</stage>
           <p>Det har varit någon här! Hvem har varit här?</p>
         </sp>
         <sp who="#spAdolf">
@@ -2089,7 +2218,8 @@
           <speaker>TEKLA.</speaker>
           <p>Var så god och se! Det finns ingenting
             <lb/> som ska döljas. — Men — du talar också på
-            <pb facs="38671-49.jpg"/><fw type="pageNum">59</fw>
+            <pb facs="38671-49.jpg"/>
+            <fw type="pageNum">59</fw>
             ett annat sätt — du har uttryck — <stage>(forskande)</stage>
             <lb/> du filosoferar — hva? <stage>(Går emot honom hotande.)</stage>
             <lb/> Hvem har varit här?</p>
@@ -2100,11 +2230,14 @@
         </sp>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
-          <p><persName ref="#Gustaf">Din läkare</persName>! Hvem är det?</p>
+          <p>
+            <persName ref="#Gustaf">Din läkare</persName>! Hvem är det?</p>
         </sp>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
-          <p><persName ref="#Gustaf">Doktorn från <placeName>Strömstad</placeName></persName>!</p>
+          <p>
+            <persName ref="#Gustaf">Doktorn från <placeName>Strömstad</placeName>
+            </persName>!</p>
         </sp>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
@@ -2112,7 +2245,8 @@
         </sp>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
-          <p><persName ref="#Gustaf">Sjöberg</persName>!</p>
+          <p>
+            <persName ref="#Gustaf">Sjöberg</persName>!</p>
         </sp>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
@@ -2144,7 +2278,8 @@
           <p>Se där! Kunde jag inte tro det! Man
             <lb/> vill skilja oss åt; jag har nog märkt det länge!</p>
         </sp>
-        <pb facs="38671-50.jpg"/><fw type="pageNum">60</fw>
+        <pb facs="38671-50.jpg"/>
+        <fw type="pageNum">60</fw>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
           <p>Det har du inte kunnat märka, när det
@@ -2173,7 +2308,8 @@
             <lb/> ynglingarne</persName> på ångbåten? Hvasa?</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(utan att tappa fattningen).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(utan att tappa fattningen).</stage>
           <p>Jaha; man kan få lära något af <persName ref="#Ynglingarna">ungdomen</persName>
             <lb/> också!</p>
         </sp>
@@ -2191,9 +2327,11 @@
           <p>Nej; men jag såg helst att jag fick vara
             <lb/> ensam!</p>
         </sp>
-        <pb facs="38671-51.jpg"/><fw type="pageNum">61</fw>
+        <pb facs="38671-51.jpg"/>
+        <fw type="pageNum">61</fw>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(skämtsamt jollrande).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(skämtsamt jollrande).</stage>
           <p>Mitt hjärta är så stort, ser han, <persName ref="#Adolf">lilla bror</persName>,
             <lb/> att det räcker för <persName ref="#Ynglingarna">många flera</persName> än honom.</p>
         </sp>
@@ -2212,15 +2350,18 @@
           <p>Nej, jag vill inte leka! Jag vill tala allvar­<lb break="no"/>samt!</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(jollrar).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(jollrar).</stage>
           <p>Herre Jessus, vill han tala allvarsamt! Det
             <lb/> var fasligt hvad han har blifvit allvarsam.</p>
           <stage>(Tar hans hufvud och kysser honom.)</stage>
           <p>Skratta lite nu! — Så där ja!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(ler motvilligt).</stage>
-          <p><persName ref="#Tekla">Din förbannade menniska</persName>; jag tror rakt att
+          <speaker>ADOLF</speaker>
+          <stage>(ler motvilligt).</stage>
+          <p>
+            <persName ref="#Tekla">Din förbannade menniska</persName>; jag tror rakt att
             <lb/> du kan trolla!</p>
         </sp>
         <sp who="#spTekla">
@@ -2229,8 +2370,10 @@
             <lb/> för då trollar jag bort honom!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(upp).</stage>
-          <p><persName ref="#Tekla">Tekla</persName>! Sitt ett ögonblick för mig i profil,
+          <speaker>ADOLF</speaker>
+          <stage>(upp).</stage>
+          <p>
+            <persName ref="#Tekla">Tekla</persName>! Sitt ett ögonblick för mig i profil,
             <lb/> så ska jag sätta ansiktet på din figur.</p>
         </sp>
         <sp who="#spTekla">
@@ -2238,9 +2381,11 @@
           <p>Det kan jag väl göra!</p>
           <stage>(Vänder profilen till.)</stage>
         </sp>
-        <pb facs="38671-52.jpg"/><fw type="pageNum">62</fw>
+        <pb facs="38671-52.jpg"/>
+        <fw type="pageNum">62</fw>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(fixerar henne; låtsas mo­<lb break="no"/>dellera).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(fixerar henne; låtsas mo­<lb break="no"/>dellera).</stage>
           <p>Tänk inte på mig nu! Tänk på någon
             <lb/> annan!</p>
         </sp>
@@ -2250,7 +2395,8 @@
         </sp>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
-          <p><persName ref="#Ynglingen">Den rena ynglingen</persName>?</p>
+          <p>
+            <persName ref="#Ynglingen">Den rena ynglingen</persName>?</p>
         </sp>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
@@ -2259,7 +2405,8 @@
             <lb/> bita i det!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(mörknar).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(mörknar).</stage>
           <p>Behåll det där draget vid mun!</p>
         </sp>
         <sp who="#spTekla">
@@ -2272,7 +2419,8 @@
             <lb/> sett förr!</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(gör en grimas).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(gör en grimas).</stage>
           <p>Det här?</p>
         </sp>
         <sp who="#spAdolf">
@@ -2281,14 +2429,16 @@
             <lb/> Harte</persName> skildrar <persName ref="#Äktenskapsbryterskan">äktenskapsbryterskan</persName>?</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(ler).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(ler).</stage>
           <p>Nej! Jag har aldrig läst <persName ref="#BretHarte">Bret Chose</persName>!</p>
         </sp>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
           <p>Jo, det är <persName ref="#Äktenskapsbryterskan">en blek som aldrig rodnar</persName>!</p>
         </sp>
-        <pb facs="38671-53.jpg"/><fw type="pageNum">63</fw>
+        <pb facs="38671-53.jpg"/>
+        <fw type="pageNum">63</fw>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
           <p>Aldrig? Men när hon träffar <persName ref="#Älskaren">älskaren</persName>, lär
@@ -2300,22 +2450,27 @@
           <p>Är du viss på det?</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(som förut).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(som förut).</stage>
           <p>Ja, efter som <persName ref="#Mannen">mannen</persName> inte kan få blodet åt
             <lb/> hufvet på henne, så får han väl aldrig se det
             <lb/> vackra skådespelet!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(rasande).</stage>
-          <p><persName ref="#Tekla">Tekla</persName>!</p>
+          <speaker>ADOLF</speaker>
+          <stage>(rasande).</stage>
+          <p>
+            <persName ref="#Tekla">Tekla</persName>!</p>
         </sp>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
-          <p><persName ref="#Adolf">Lilla tosing</persName>!</p>
+          <p>
+            <persName ref="#Adolf">Lilla tosing</persName>!</p>
         </sp>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
-          <p><persName ref="#Tekla">Tekla</persName>!</p>
+          <p>
+            <persName ref="#Tekla">Tekla</persName>!</p>
         </sp>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
@@ -2323,25 +2478,30 @@
             <lb/> vackert för honom! Ska jag det, säg?</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(afväpnad).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(afväpnad).</stage>
           <p>Jag är så ond på dig, <persName ref="#Tekla">ditt odjur</persName>, så att jag
             <lb/> skulle vilja bita dig —</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(lekande).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(lekande).</stage>
           <p>Kom och bit mig då! — Kom!</p>
           <stage>(Sträcker armarne mot honom.)</stage>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(tar henne om halsen och
+          <speaker>ADOLF</speaker>
+          <stage>(tar henne om halsen och
             <lb/> kysser henne).</stage>
           <p>Ja, jag ska bita dig så att du dör!</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(skämtsamt).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(skämtsamt).</stage>
           <p>Akta; det kan komma någon.</p>
         </sp>
-        <pb facs="38671-54.jpg"/><fw type="pageNum">64</fw>
+        <pb facs="38671-54.jpg"/>
+        <fw type="pageNum">64</fw>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
           <p>Ja, hvad bryr jag mig om det! Jag bryr
@@ -2363,7 +2523,8 @@
         </sp>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
-          <p><persName ref="#Tekla">Tekla</persName>, du har inte glömt mina ord! Jag
+          <p>
+            <persName ref="#Tekla">Tekla</persName>, du har inte glömt mina ord! Jag
             <lb/> tar tillbaka dem nu!</p>
         </sp>
         <sp who="#spTekla">
@@ -2382,7 +2543,8 @@
             <lb/> Jag har aldrig sett honom, men bara den tanken
             <lb/> att det finns <persName ref="#Gustaf">en menska</persName> som sitter och väntar
             <lb/> på min olycka, en som dagligen ber ned för­<lb break="no"/>bannelser, och som ska gapskratta när jag störtar,
-            <pb facs="38671-55.jpg"/><fw type="pageNum">65</fw>
+            <pb facs="38671-55.jpg"/>
+            <fw type="pageNum">65</fw>
             bara den föreställningen rider mig, drifver mig
             <lb/> till dig, fascinerar mig, förlamar mig!</p>
         </sp>
@@ -2429,7 +2591,8 @@
           <speaker>ADOLF.</speaker>
           <p>Tänker du aldrig på honom?</p>
         </sp>
-        <pb facs="38671-56.jpg"/><fw type="pageNum">66</fw>
+        <pb facs="38671-56.jpg"/>
+        <fw type="pageNum">66</fw>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
           <p>Nej! — Sedan <persName ref="#Barnet">barnet</persName> dog ha vi icke haft
@@ -2479,7 +2642,8 @@
             <lb/> Och det är mer än egendom! Det kan inte
             <lb/> ersättas!</p>
         </sp>
-        <pb facs="38671-57.jpg"/><fw type="pageNum">67</fw>
+        <pb facs="38671-57.jpg"/>
+        <fw type="pageNum">67</fw>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
           <p>Jo bevars! Fick du bara höra att han var
@@ -2529,7 +2693,8 @@
           <speaker>TEKLA.</speaker>
           <p>Nej, det är inte sagdt!</p>
         </sp>
-        <pb facs="38671-58.jpg"/><fw type="pageNum">68</fw>
+        <pb facs="38671-58.jpg"/>
+        <fw type="pageNum">68</fw>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
           <p>Du kunde väl inte älska två på en gång?</p>
@@ -2559,7 +2724,8 @@
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
           <p>Nej, verkligen! <stage>(Paus, hvarunder <persName ref="#Adolf">Adolf</persName> synes med
-            <lb/> svårighet erinra sig något han ej kan komma på.)</stage> <persName ref="#Tekla">Tekla</persName>!
+            <lb/> svårighet erinra sig något han ej kan komma på.)</stage>
+            <persName ref="#Tekla">Tekla</persName>!
             <lb/> Vet du att din uppriktighet börjar bli plågsam.</p>
         </sp>
         <sp who="#spTekla">
@@ -2581,7 +2747,8 @@
           <p>Jag vet inte, men jag tycker det börjar bli
             <lb/> otrefligt här. Vill du, så resa vi hem — i afton!</p>
         </sp>
-        <pb facs="38671-59.jpg"/><fw type="pageNum">69</fw>
+        <pb facs="38671-59.jpg"/>
+        <fw type="pageNum">69</fw>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
           <p>Hvad är det nu för påhitt! Jag har nyss
@@ -2634,7 +2801,8 @@
             <lb/> som kvinna, är att ta! — Och jag har gifvit
             <lb/> dig, gifvit, gifvit!</p>
         </sp>
-        <pb facs="38671-60.jpg"/><fw type="pageNum">70</fw>
+        <pb facs="38671-60.jpg"/>
+        <fw type="pageNum">70</fw>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
           <p>Äh! Hvad har du gifvit?</p>
@@ -2675,14 +2843,16 @@
             <lb/> borta; då ville du korsa öfver reversen, och för
             <lb/> att inte öka gälden hos mig, upphörde du att
             <lb/> ta ur mitt skrin, utan gick omkring till andra.
-            <pb facs="38671-61.jpg"/><fw type="pageNum">71</fw>
+            <pb facs="38671-61.jpg"/>
+            <fw type="pageNum">71</fw>
             Jag blef din man utan att vilja det, och då kom
             <lb/> ditt hat! Men nu ska jag bli din man antingen
             <lb/> du vill eller inte, efter som jag inte får vara din
             <lb/> älskare!</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(lekande).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(lekande).</stage>
           <p>Prata inte nonsens, <persName ref="#Adolf">lilla idiot</persName>!</p>
         </sp>
         <sp who="#spAdolf">
@@ -2719,7 +2889,8 @@
           <p>Ser du! — Men du ska inte tala så högt,
             <lb/> för man kan höra oss!</p>
         </sp>
-        <pb facs="38671-62.jpg"/><fw type="pageNum">72</fw>
+        <pb facs="38671-62.jpg"/>
+        <fw type="pageNum">72</fw>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
           <p>Hvad gjorde det, om man toge oss för gift
@@ -2764,14 +2935,17 @@
           <p>För knifven!</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(jollrar).</stage>
-          <p><persName ref="#Adolf">Lilla bror</persName> ska inte leka med så farliga saker!</p>
+          <speaker>TEKLA</speaker>
+          <stage>(jollrar).</stage>
+          <p>
+            <persName ref="#Adolf">Lilla bror</persName> ska inte leka med så farliga saker!</p>
         </sp>
         <sp who="#spAdolf">
           <speaker>ADOLF</speaker>
           <p>Jag leker inte längre!</p>
         </sp>
-        <pb facs="38671-63.jpg"/><fw type="pageNum">73</fw>
+        <pb facs="38671-63.jpg"/>
+        <fw type="pageNum">73</fw>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
           <p>Jaså, det är allvar! Fullt allvar! Då ska
@@ -2807,7 +2981,8 @@
             <lb/> emedan du icke egde en enda vän och allmänna
             <lb/> meningen krossade dig. Jag fick intala dig
             <lb/> mod, tills min tunga torkade och mitt hufvud
-            <pb facs="38671-64.jpg"/><fw type="pageNum">74</fw>
+            <pb facs="38671-64.jpg"/>
+            <fw type="pageNum">74</fw>
             värkte, jag fick sitta och dikta mig själf stark,
             <lb/> tvang mig att tro på framtiden, och lyckades
             <lb/> slutligen få lif i dig, då du låg som död. Då
@@ -2839,7 +3014,8 @@
             <lb/> aflägsna <persName ref="#Adolf">fordringsegaren</persName> och <persName ref="#Adolf">vittnet</persName>! Din kärlek
             <lb/> börjar antaga <persName ref="#Tekla">den öfverlägsna systerns</persName> karaktär,
             <lb/> och i brist på bättre vänjer jag mig in i den
-            <pb facs="38671-65.jpg"/><fw type="pageNum">75</fw>
+            <pb facs="38671-65.jpg"/>
+            <fw type="pageNum">75</fw>
             nya rolen af <persName ref="#Adolf">lille bror</persName>. Din ömhet är kvar,
             <lb/> ökas till och med, men den är fodrad med ett
             <lb/> grand medlidande, som håller en god del ring­<lb break="no"/>aktning, hvilken ökas till förakt när min talang
@@ -2872,7 +3048,8 @@
             <lb/> nyanserna, alla halftonerna, alla öfvergångarna,
             <lb/> men i ditt positiv fins bara en ton!</p>
         </sp>
-        <pb facs="38671-66.jpg"/><fw type="pageNum">76</fw>
+        <pb facs="38671-66.jpg"/>
+        <fw type="pageNum">76</fw>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
           <p>Jaja, men resumén af det hela blef att du
@@ -2890,7 +3067,8 @@
           <p>Men du har menat det?</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(ursinnig).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(ursinnig).</stage>
           <p>Jag har inte menat det!</p>
         </sp>
         <sp who="#spTekla">
@@ -2898,7 +3076,8 @@
           <p>Men summan —</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(vild).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(vild).</stage>
           <p>Det fins ingen summa när man inte adderar,
             <lb/> det blir en kvot, ett långt, ändlöst decimalbråk
             <lb/> till kvot när man dividerar och det inte går
@@ -2918,33 +3097,41 @@
           <p>Men du har velat göra det!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(maktlös, sluter ögonen).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(maktlös, sluter ögonen).</stage>
           <p>Nej, nej, nej — tala inte vid mig mer!
             <lb/> Jag får konvulsioner! — Tyst! Gå bort ifrån
-            <pb facs="38671-67.jpg"/><fw type="pageNum">77</fw>
+            <pb facs="38671-67.jpg"/>
+            <fw type="pageNum">77</fw>
             mig! Du förstör min hjärna med dina grofva
             <lb/> nyptänger — du sätter klorna i mina tankar och
             <lb/> rifver sönder dem!</p>
           <stage>(Blir medvetslös; stirrar framför sig och rullar med tummarna.)</stage>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(ömt).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(ömt).</stage>
           <p>Hur är det med dig? Är du sjuk? —
-            <lb/> <persName ref="#Adolf">Adolf</persName>!</p>
+            <lb/>
+            <persName ref="#Adolf">Adolf</persName>!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(slår ifrån sig).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(slår ifrån sig).</stage>
         </sp>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
-          <p><persName ref="#Adolf">Adolf</persName>!</p>
+          <p>
+            <persName ref="#Adolf">Adolf</persName>!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(skakar på hufvudet).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(skakar på hufvudet).</stage>
         </sp>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
-          <p><persName ref="#Adolf">Adolf</persName>!</p>
+          <p>
+            <persName ref="#Adolf">Adolf</persName>!</p>
         </sp>
         <sp who="#spAdolf">
           <speaker>ADOLF.</speaker>
@@ -2972,11 +3159,13 @@
           <p>Kyss min hand nu!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(kysser handen).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(kysser handen).</stage>
           <p>Jag kysser din hand! Bara du inte talar
             <lb/> vid mig!</p>
         </sp>
-        <pb facs="38671-68.jpg"/><fw type="pageNum">78</fw>
+        <pb facs="38671-68.jpg"/>
+        <fw type="pageNum">78</fw>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
           <p>Och nu går du ut och tar frisk luft innan
@@ -2992,7 +3181,8 @@
           <p>Nej!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(upp).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(upp).</stage>
           <p>Hvarför? Det måste finnas ett skäl!</p>
         </sp>
         <sp who="#spTekla">
@@ -3027,7 +3217,8 @@
             <lb/> det kanske någon som tagit löfte af dig att du
             <lb/> ska komma?</p>
         </sp>
-        <pb facs="38671-69.jpg"/><fw type="pageNum">79</fw>
+        <pb facs="38671-69.jpg"/>
+        <fw type="pageNum">79</fw>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
           <p>Ja!</p>
@@ -3066,17 +3257,21 @@
             <lb/> länge! Och tänk på hvad du gör!</p>
           <stage type="exit" who="#Adolf">(Går ut genom fonddörren och sedan åt höger.)</stage>
         </sp>
-        <stage type="presence" who="#Tekla">TEKLA ensam; <stage type="entrance" who="#Gustaf">strax därpå GUSTAF in.</stage></stage>
-          <sp who="#spGustaf">
-            <speaker>GUSTAF</speaker> <stage>(går rakt fram till bordet
+        <stage type="presence" who="#Tekla">TEKLA ensam; <stage type="entrance" who="#Gustaf">strax därpå GUSTAF in.</stage>
+        </stage>
+        <sp who="#spGustaf">
+          <speaker>GUSTAF</speaker>
+          <stage>(går rakt fram till bordet
               <lb/> för att ta en tidning,
               <lb/> utan att låtsa se <persName ref="#Tekla">Tekla</persName>).</stage>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(rörelse; beherskar sig).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(rörelse; beherskar sig).</stage>
           <p>Är det du?</p>
         </sp>
-        <pb facs="38671-70.jpg"/><fw type="pageNum">80</fw>
+        <pb facs="38671-70.jpg"/>
+        <fw type="pageNum">80</fw>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Det är jag! — Förlåt! ...</p>
@@ -3126,7 +3321,8 @@
             <lb/> den ovanliga förmågan — som du alltid hade
             <lb/> — att vara taktfull och fin!</p>
         </sp>
-        <pb facs="38671-71.jpg"/><fw type="pageNum">81</fw>
+        <pb facs="38671-71.jpg"/>
+        <fw type="pageNum">81</fw>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Du är alltför artig! Men det är inte sagdt
@@ -3163,7 +3359,8 @@
             <lb/> i ögonen och be honom vårda den skatt som
             <lb/> försynen lemnat i hans ego. Jag ville där­<lb break="no"/>med på samma gång släcka detta ofrivilliga hat,
             <lb/> som måste finnas härinne, och jag önskade få
-            <pb facs="38671-72.jpg"/><fw type="pageNum">82</fw>
+            <pb facs="38671-72.jpg"/>
+            <fw type="pageNum">82</fw>
             frid och ödmjukhet i sinnet, att jag kunde lefva
             <lb/> ut mina sorgliga dagar!</p>
         </sp>
@@ -3198,7 +3395,8 @@
         </sp>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
-          <p><persName ref="#Gustaf">Stackars Gustaf</persName>! — Kan du förlåta mig?
+          <p>
+            <persName ref="#Gustaf">Stackars Gustaf</persName>! — Kan du förlåta mig?
             <lb/> Kan du, säg?</p>
         </sp>
         <sp who="#spGustaf">
@@ -3206,14 +3404,17 @@
           <p>Förlåta? Hvad? Det är ju jag som ber
             <lb/> dig om förlåtelse!</p>
         </sp>
-        <pb facs="38671-73.jpg"/><fw type="pageNum">83</fw>
+        <pb facs="38671-73.jpg"/>
+        <fw type="pageNum">83</fw>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(turnerar).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(turnerar).</stage>
           <p>Jag tror att vi gråta båda två — <persName ref="#Gustaf #Tekla">gamla
             <lb/> menskorna</persName>!</p>
         </sp>
         <sp who="#spGustaf">
-          <speaker>GUSTAF</speaker> <stage>(turnerar varligt).</stage>
+          <speaker>GUSTAF</speaker>
+          <stage>(turnerar varligt).</stage>
           <p>Gamla! Ja! jag är gammal! Men du, du
             <lb/> blir yngre och yngre!</p>
           <stage>(Sätter sig oförmärkt på stolen till venster, hvarpå <persName ref="#Tekla">Tekla</persName>
@@ -3253,7 +3454,8 @@
           <p>Jo du, när du skulle lära mig tänka — mins
             <lb/> du det? För det kunde jag inte alls!</p>
         </sp>
-        <pb facs="38671-74.jpg"/><fw type="pageNum">84</fw>
+        <pb facs="38671-74.jpg"/>
+        <fw type="pageNum">84</fw>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Visst kunde du tänka! Det kan ju alla
@@ -3261,7 +3463,8 @@
             <lb/> du skrifver åtminstone!</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(obehagligt berörd, raskar
+          <speaker>TEKLA</speaker>
+          <stage>(obehagligt berörd, raskar
             <lb/> på med dialogen).</stage>
           <p>Ja, <persName ref="#Gustaf">kära Gustaf</persName>, det var emellertid roligt
             <lb/> att se dig igen, och under så lugna omständig­<lb break="no"/>heter.</p>
@@ -3298,23 +3501,29 @@
           <p>Det kan bli för mycket af det goda också!</p>
         </sp>
         <sp who="#spGustaf">
-          <speaker>GUSTAF</speaker> <stage>(turnerar).</stage>
+          <speaker>GUSTAF</speaker>
+          <stage>(turnerar).</stage>
           <p>Hva! Jag tror du bär mina örhängen ännu!</p>
         </sp>
-        <pb facs="38671-75.jpg"/><fw type="pageNum">85</fw>
+        <pb facs="38671-75.jpg"/>
+        <fw type="pageNum">85</fw>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(generad).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(generad).</stage>
           <p>Ja, hvarför skulle jag inte det? — Vi ha ju
             <lb/> aldrig varit fiender — och så tyckte jag, att
             <lb/> jag ville bära dem som ett tecken — och en
             <lb/> erinran — att vi inte voro ovänner — för öfrigt,
             <lb/> vet du hvad, så får man inte köpa sådana mer!
-            <lb/> <stage>(Tar lös ett örhänge.)</stage></p>
+            <lb/>
+            <stage>(Tar lös ett örhänge.)</stage>
+          </p>
         </sp>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Ja, det är godt och väl, men hvad säger
-            <lb/> <persName ref="#Adolf">mannen</persName> om det?</p>
+            <lb/>
+            <persName ref="#Adolf">mannen</persName> om det?</p>
         </sp>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
@@ -3326,11 +3535,13 @@
             <lb/> förfång med det! — Det kan göra honom löjlig!</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(kort, liksom för sig själf).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(kort, liksom för sig själf).</stage>
           <p>Det är han så bra förut!</p>
         </sp>
         <sp who="#spGustaf">
-          <speaker>GUSTAF</speaker> <stage>(som sett att hon har svårt
+          <speaker>GUSTAF</speaker>
+          <stage>(som sett att hon har svårt
             <lb/> fästa i örhänget, reser sig).</stage>
           <p>Får jag lof att hjälpa, kanske?</p>
         </sp>
@@ -3339,7 +3550,8 @@
           <p>Åh, tack sa mycket!</p>
         </sp>
         <sp who="#spGustaf">
-          <speaker>GUSTAF</speaker> <stage>(nyper henne i örat).</stage>
+          <speaker>GUSTAF</speaker>
+          <stage>(nyper henne i örat).</stage>
           <p>Det lilla örat! — Tänk om <persName ref="#Adolf">mannen</persName> såg
             <lb/> oss nu!</p>
         </sp>
@@ -3351,7 +3563,8 @@
           <speaker>GUSTAF.</speaker>
           <p>Är han svartsjuk då?</p>
         </sp>
-        <pb facs="38671-76.jpg"/><fw type="pageNum">86</fw>
+        <pb facs="38671-76.jpg"/>
+        <fw type="pageNum">86</fw>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
           <p>Om den är svartsjuk! Jo, det vill jag lofva!</p>
@@ -3371,7 +3584,8 @@
           <p>Tala om hur du har det!</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(brydd; lyfter i tankarne
+          <speaker>TEKLA</speaker>
+          <stage>(brydd; lyfter i tankarne
             <lb/> af duken från bilden).</stage>
         </sp>
         <sp who="#spGustaf">
@@ -3387,17 +3601,20 @@
           <p>Men det är likt dig!</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(cyniskt).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(cyniskt).</stage>
           <p>Tycker du!</p>
         </sp>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Det erinrar om anekdoten: <title>Hur kunde
-            <lb/> <persName ref="#HennesMajestät">Hennes Majestät</persName> se det</title>!</p>
+            <lb/>
+              <persName ref="#HennesMajestät">Hennes Majestät</persName> se det</title>!</p>
         </sp>
-        <!-- Enligt Nationalupplagan förklaras den frivola anspelningen i Strindbergs franska översättning av dramat: eftersom soldaterna badade nakna – hur kunde drottningen se att de var soldater? /EF -->
+<!-- Enligt Nationalupplagan förklaras den frivola anspelningen i Strindbergs franska översättning av dramat: eftersom soldaterna badade nakna – hur kunde drottningen se att de var soldater? /EF -->
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(gapskrattar).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(gapskrattar).</stage>
           <p>Du är för galen! — Kan du några nya
             <lb/> historier?</p>
         </sp>
@@ -3405,7 +3622,8 @@
           <speaker>GUSTAF.</speaker>
           <p>Nej, men du bör väl kunna.</p>
         </sp>
-        <pb facs="38671-77.jpg"/><fw type="pageNum">87</fw>
+        <pb facs="38671-77.jpg"/>
+        <fw type="pageNum">87</fw>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
           <p>Jag får aldrig höra något roligt mer!</p>
@@ -3432,12 +3650,14 @@
             <lb/> andras getingbon!</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(skrattar).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(skrattar).</stage>
           <p>Du är för galen!</p>
         </sp>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
-          <p><persName ref="#Tekla">Stackars liten</persName>! — Mins du en gång när vi
+          <p>
+            <persName ref="#Tekla">Stackars liten</persName>! — Mins du en gång när vi
             <lb/> voro nygifta — att vi bodde i det här rummet!
             <lb/> Hva! Det var annorlunda möbleradt då! Där
             <lb/> stod till exempel en byrå där på pelarn, och
@@ -3456,7 +3676,8 @@
           <p>Det kan jag väl göra!</p>
           <stage>(De se på hvarandra.)</stage>
         </sp>
-        <pb facs="38671-78.jpg"/><fw type="pageNum">88</fw>
+        <pb facs="38671-78.jpg"/>
+        <fw type="pageNum">88</fw>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Tror du att man kan glömma det som gjort
@@ -3491,7 +3712,8 @@
           <speaker>TEKLA.</speaker>
           <p>Ska du gifta om dig?</p>
         </sp>
-        <pb facs="38671-79.jpg"/><fw type="pageNum">89</fw>
+        <pb facs="38671-79.jpg"/>
+        <fw type="pageNum">89</fw>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Ja! Jag ska fresta lyckan en gång till, men
@@ -3538,7 +3760,8 @@
           <speaker>GUSTAF.</speaker>
           <p>Ni har lekt kurra gömma så länge, att ni
             <lb/> inte får fatt i hvarann! Sådant händer! Du
-            <pb facs="38671-80.jpg"/><fw type="pageNum">90</fw>
+            <pb facs="38671-80.jpg"/>
+            <fw type="pageNum">90</fw>
             har måst spela oskuld för dig själf, så att han
             <lb/> inte vågar! Ja, ser du, det har sina olägenheter
             <lb/> att skifta. Det har sina olägenheter!</p>
@@ -3568,7 +3791,8 @@
             <lb/> man</persName>!</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(reser sig).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(reser sig).</stage>
           <p>Och nu ska vi skiljas! För alltid!</p>
         </sp>
         <sp who="#spGustaf">
@@ -3577,15 +3801,19 @@
             <lb/> Inte sant?</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(orolig).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(orolig).</stage>
           <p>Nej!</p>
         </sp>
         <sp who="#spGustaf">
-          <speaker>GUSTAF</speaker> <stage>(följer henne på golfvet).</stage>
+          <speaker>GUSTAF</speaker>
+          <stage>(följer henne på golfvet).</stage>
           <p>Jo! — Vi ska ta afsked! Vi ska dränka
             <lb/> minnena i ett rus, som ska bli så tungt, att när
-            <pb facs="38671-81.jpg"/><fw type="pageNum">91</fw>
-            vi vakna, ha vi förlorat minnet — det fins så­<lb break="no"/>dana rus ser du! <stage>(Lägger armen om hennes lif.)</stage></p>
+            <pb facs="38671-81.jpg"/>
+            <fw type="pageNum">91</fw>
+            vi vakna, ha vi förlorat minnet — det fins så­<lb break="no"/>dana rus ser du! <stage>(Lägger armen om hennes lif.)</stage>
+          </p>
           <p>Du är nerdragen af <persName ref="#Adolf">en sjuk ande</persName>, som smittar
             <lb/> dig med tvinsot! Jag skall blåsa nytt lif i dig,
             <lb/> jag ska få din talang att blomma i hösten, som
@@ -3594,11 +3822,13 @@
             <lb/> öfverraskade ut; peka fingret, skratta, <stage type="exit" who="#ResandeDamer">och gå sin väg</stage>.)</stage>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(gör sig lös).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(gör sig lös).</stage>
           <p>Hvem var där?</p>
         </sp>
         <sp who="#spGustaf">
-          <speaker>GUSTAF</speaker> <stage>(likgiltigt).</stage>
+          <speaker>GUSTAF</speaker>
+          <stage>(likgiltigt).</stage>
           <p>Det var <persName ref="#ResandeDamer">några resande</persName>!</p>
         </sp>
         <sp who="#spTekla">
@@ -3629,7 +3859,8 @@
             <lb/> första inteckningen! — Säg nu. När — och
             <lb/> — hvar?</p>
         </sp>
-        <pb facs="38671-82.jpg"/><fw type="pageNum">92</fw>
+        <pb facs="38671-82.jpg"/>
+        <fw type="pageNum">92</fw>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
           <p>Nej! Det är synd om honom! Han älskar
@@ -3644,7 +3875,8 @@
           <p>Hur ska du kunna skaffa det?</p>
         </sp>
         <sp who="#spGustaf">
-          <speaker>GUSTAF</speaker> <stage>(tar upp bitarne af foto­<lb break="no"/>grafien från golfvet).</stage>
+          <speaker>GUSTAF</speaker>
+          <stage>(tar upp bitarne af foto­<lb break="no"/>grafien från golfvet).</stage>
           <p>Här! Se själf!</p>
         </sp>
         <sp who="#spTekla">
@@ -3657,7 +3889,8 @@
         </sp>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
-          <p><persName ref="#Adolf">Hvilken falsk usling</persName>!</p>
+          <p>
+            <persName ref="#Adolf">Hvilken falsk usling</persName>!</p>
         </sp>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
@@ -3678,9 +3911,11 @@
           <p>Hvem bor där inne, som för ett sådant
             <lb/> väsen?</p>
         </sp>
-        <pb facs="38671-83.jpg"/><fw type="pageNum">93</fw>
+        <pb facs="38671-83.jpg"/>
+        <fw type="pageNum">93</fw>
         <sp who="#spGustaf">
-          <speaker>GUSTAF</speaker> <stage>(går till nyckelhålet).</stage>
+          <speaker>GUSTAF</speaker>
+          <stage>(går till nyckelhålet).</stage>
           <p>Vi ska se efter! — Där ligger ett kull­<lb break="no"/>slaget divansbord och en krossad vattenkaraffin!
             <lb/> Ingenting annat! Kanske de har låst in en
             <lb/> hund! — Alltså klockan nio!</p>
@@ -3713,7 +3948,8 @@
             <lb/> man och göra revolt mot <persName ref="#Tekla">sin hustru</persName>! Ja, det
             <lb/> var du! — Hur länge har du varit här?</p>
         </sp>
-        <pb facs="38671-84.jpg"/><fw type="pageNum">94</fw>
+        <pb facs="38671-84.jpg"/>
+        <fw type="pageNum">94</fw>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Jag har varit här i åtta dagar!</p>
@@ -3760,7 +3996,8 @@
             <lb/> haft så mycket annat att bestyra, så att någon
             <lb/> tid till intriger inte var mig öfrig! Men när
             <lb/> jag så händelsevis var ute och flanerade, och jag
-            <pb facs="38671-85.jpg"/><fw type="pageNum">95</fw>
+            <pb facs="38671-85.jpg"/>
+            <fw type="pageNum">95</fw>
             händelsevis såg dig med <persName ref="#Ynglingarna">ungherrarna</persName> på ång­<lb break="no"/>båten, så tyckte jag tiden var inne att titta
             <lb/> på Er!</p>
           <p>Jag kom hit, och <persName ref="#Adolf">ditt får</persName> kastade sig genast
@@ -3790,9 +4027,11 @@
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Jo, det är du! — Det du minst gärna ön­<lb break="no"/>skade har händt! Världen — representerad af
-            <lb/> <persName ref="#ResandeDamer">två resande damer</persName> — som jag inte skickat bud
+            <lb/>
+            <persName ref="#ResandeDamer">två resande damer</persName> — som jag inte skickat bud
             <lb/> på — ty jag är ingen intrigmakare — världen
-            <pb facs="38671-86.jpg"/><fw type="pageNum">96</fw>
+            <pb facs="38671-86.jpg"/>
+            <fw type="pageNum">96</fw>
             har sett hur du försonat dig med <persName ref="#Gustaf">din förra man</persName>
             <lb/> och — ångerfull krupit tillbaka i hans trogna
             <lb/> famn! Är det nog?</p>
@@ -3805,7 +4044,8 @@
             <lb/> som anser att allt som sker, sker med nödvän­<lb break="no"/>dighet, och att alla våra handlingar äro ofria —</p>
         </sp>
         <sp who="#spGustaf">
-          <speaker>GUSTAF</speaker> <stage>(rättar).</stage>
+          <speaker>GUSTAF</speaker>
+          <stage>(rättar).</stage>
           <p>I viss mån ofria.</p>
         </sp>
         <sp who="#spTekla">
@@ -3832,9 +4072,11 @@
             <lb/> kampen?</p>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(föraktlig min).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(föraktlig min).</stage>
         </sp>
-        <pb facs="38671-87.jpg"/><fw type="pageNum">97</fw>
+        <pb facs="38671-87.jpg"/>
+        <fw type="pageNum">97</fw>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>— hvarför ni läto lura Er? — Jo, därför att jag
@@ -3866,11 +4108,13 @@
         </sp>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
-          <p><persName ref="#Gustaf">En hämdgirig usling</persName>! Fy!</p>
+          <p>
+            <persName ref="#Gustaf">En hämdgirig usling</persName>! Fy!</p>
         </sp>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
-          <p><persName ref="#Tekla">En lättfärdig usling</persName>! Fy!</p>
+          <p>
+            <persName ref="#Tekla">En lättfärdig usling</persName>! Fy!</p>
         </sp>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
@@ -3880,7 +4124,8 @@
           <speaker>GUSTAF.</speaker>
           <p>Det är min natur, hva? — Man ska ta reda
             <lb/> på den menskliga naturen hos andra, innan man
-            <pb facs="38671-88.jpg"/><fw type="pageNum">98</fw>
+            <pb facs="38671-88.jpg"/>
+            <fw type="pageNum">98</fw>
             låter sin natur spela fritt! Det kan skära sig
             <lb/> annars, och då blir det gråt och tandagnisslan!</p>
         </sp>
@@ -3915,12 +4160,14 @@
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Jo, i viss mån, men det finns en liten söms­<lb break="no"/>mån och där sticker skulden in lika fullt; och
-            <lb/> <persName ref="#Gustaf">fordringsegarne</persName> inställa sig förr eller senare!
+            <lb/>
+            <persName ref="#Gustaf">fordringsegarne</persName> inställa sig förr eller senare!
             <lb/> Oskyldig, men ansvarig! Oskyldig inför Honom,
             <lb/> som icke finns mer; ansvarig inför sig själf och
             <lb/> inför sina medmenniskor.</p>
         </sp>
-        <pb facs="38671-89.jpg"/><fw type="pageNum">99</fw>
+        <pb facs="38671-89.jpg"/>
+        <fw type="pageNum">99</fw>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
           <p>Du kommer och kräfver alltså!</p>
@@ -3939,7 +4186,9 @@
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Nu är jag nöjd!</p>
-          <stage>(Ringer på <persName ref="#Kyparen">kypare</persName><supplied>)</supplied></stage>
+          <stage>(Ringer på <persName ref="#Kyparen">kypare</persName>
+            <supplied>)</supplied>
+          </stage>
         </sp>
         <sp who="#spTekla">
           <speaker>TEKLA.</speaker>
@@ -3964,7 +4213,8 @@
             <lb/> förlorat betydelsen! Försonas? Skulle vi kanske
             <lb/> lefva på tre man hand? Det vore du, som
             <lb/> skulle försona genom att godtgöra, men det kan
-            <pb facs="38671-90.jpg"/><fw type="pageNum">100</fw>
+            <pb facs="38671-90.jpg"/>
+            <fw type="pageNum">100</fw>
             du inte! Du har bara tagit, men det du tagit,
             <lb/> har du förtärt, så att du inte kan lemna igen
             <lb/> det! — Är du nöjd om jag säger så: förlåt mig
@@ -4007,7 +4257,8 @@
           <speaker>TEKLA.</speaker>
           <p>Du föraktar mig?</p>
         </sp>
-        <pb facs="38671-91.jpg"/><fw type="pageNum">101</fw>
+        <pb facs="38671-91.jpg"/>
+        <fw type="pageNum">101</fw>
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Jag beklagar dig! Det är en egenskap, jag
@@ -4030,26 +4281,32 @@
             <lb/> hvit fradga omkring munnen.)</stage>
         </sp>
         <sp who="#spGustaf">
-          <speaker>GUSTAF</speaker> <stage>(ryggar).</stage>
+          <speaker>GUSTAF</speaker>
+          <stage>(ryggar).</stage>
           <p>Nej, där är han! — Gör nu upp med honom,
             <lb/> får du se om han blir så generös som jag! —
             <lb/> Farväl!</p>
           <stage>(Går till venster, men stannar.)</stage>
         </sp>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(går emot <persName ref="#Adolf">Adolf</persName> med ut­<lb break="no"/>sträckta armar).</stage>
+          <speaker>TEKLA</speaker>
+          <stage>(går emot <persName ref="#Adolf">Adolf</persName> med ut­<lb break="no"/>sträckta armar).</stage>
           <p>Adolf!</p>
         </sp>
         <sp who="#spAdolf">
-          <speaker>ADOLF</speaker> <stage>(segnar ned vid dörrpanelen).</stage>
+          <speaker>ADOLF</speaker>
+          <stage>(segnar ned vid dörrpanelen).</stage>
         </sp>
         <anchor xml:id="AdolfDeath"/>
         <sp who="#spTekla">
-          <speaker>TEKLA</speaker> <stage>(kastar sig öfver <persName ref="#Adolf">Adolfs</persName>
+          <speaker>TEKLA</speaker>
+          <stage>(kastar sig öfver <persName ref="#Adolf">Adolfs</persName>
             <lb/> kropp och smeker honom).</stage>
-          <p><persName ref="#Adolf">Adolf</persName>! <persName ref="#Adolf">Mitt älskade barn</persName>! Lefver du! Säg,
+          <p>
+            <persName ref="#Adolf">Adolf</persName>! <persName ref="#Adolf">Mitt älskade barn</persName>! Lefver du! Säg,
             <lb/> säg! — Förlåt <persName ref="#Tekla">sin elaka Tekla</persName>! Förlåt! Förlåt!
-            <pb facs="38671-92.jpg"/><fw type="pageNum">102</fw>
+            <pb facs="38671-92.jpg"/>
+            <fw type="pageNum">102</fw>
             Förlåt. <persName ref="#Adolf">Lilla bror</persName> ska svara, hör han! — Nej,
             <lb/> Gud, han hör inte. Han är död! O Gud i
             <lb/> himmelen, o min Gud, hjälp oss, hjälp oss!</p>
@@ -4057,13 +4314,16 @@
         <sp who="#spGustaf">
           <speaker>GUSTAF.</speaker>
           <p>Sannerligen, hon älskar honom också! —
-            <lb/> <persName ref="#Tekla">Stackars menniska</persName>!</p>
+            <lb/>
+            <persName ref="#Tekla">Stackars menniska</persName>!</p>
         </sp>
       </div>
     </body>
     <back>
-      <pb facs="38671-93.jpg"/><!-- tom sida -->
-      <pb facs="38671-94.jpg"/><!-- omslag, andra böcker -->
+      <pb facs="38671-93.jpg"/>
+<!-- tom sida -->
+      <pb facs="38671-94.jpg"/>
+<!-- omslag, andra böcker -->
       <gap reason="irrelevant"/>
       <div type="editorial">
         <listPerson>
@@ -4087,7 +4347,8 @@
                 <forename>Gustaf</forename>
                 <surname type="pseudonym">Sjöberg</surname>
               </persName>
-              <occupation scheme="#HISCO" code="13020" cert="medium">lektor i klassiska språk</occupation><!-- 13215 (secondary level), 13020 (not primary level, subject unknown), 13170 (third level) /EF -->
+              <occupation scheme="#HISCO" code="13020" cert="medium">lektor i klassiska språk</occupation>
+<!-- 13215 (secondary level), 13020 (not primary level, subject unknown), 13170 (third level) /EF -->
             </person>
             <listPerson>
               <personGrp xml:id="ResandeDamer" sex="female"/>
@@ -4241,12 +4502,12 @@
         <listOrg>
           <org xml:id="Barnkrubban"/>
         </listOrg>
-        <!-- IDEA: har paralleller till Benedictssons Den bergtagna/UL (repliken med åderlåtning, s. 26) -->
-        <!-- IDEA: Märka upp sjukdom/UL+TB (fallandesot s. 27) -->
-        <!-- IDEA: Brevet el dokumentet/UL (s. 36) -->
-        <!-- IDEA: Djurliknelser (nio lif som katten, s. 51) -->
-        <!-- IDEA: Barnkrubban/UL (krubbmötet s.54) -->
-        <!-- IDEA: nästan samma namn som Viola finner på Oscars tappade lapp Murre /UL (Kurre s. 54) -->
+<!-- IDEA: har paralleller till Benedictssons Den bergtagna/UL (repliken med åderlåtning, s. 26) -->
+<!-- IDEA: Märka upp sjukdom/UL+TB (fallandesot s. 27) -->
+<!-- IDEA: Brevet el dokumentet/UL (s. 36) -->
+<!-- IDEA: Djurliknelser (nio lif som katten, s. 51) -->
+<!-- IDEA: Barnkrubban/UL (krubbmötet s.54) -->
+<!-- IDEA: nästan samma namn som Viola finner på Oscars tappade lapp Murre /UL (Kurre s. 54) -->
       </div>
     </back>
     <anchor xml:id="playend"/>

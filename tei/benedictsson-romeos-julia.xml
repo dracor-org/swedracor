@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
@@ -94,7 +94,7 @@
               <biblScope unit="vol">10</biblScope>
               <biblScope unit="page" from="1" to="26">1–26</biblScope>
             </imprint>
-         </monogr>
+          </monogr>
         </biblStruct>
         <bibl type="originalSource">
           <date type="print" when="1889"/>
@@ -142,16 +142,16 @@
       </classDecl>
       <tagsDecl>
         <rendition>
-          <!-- Roller anges i kursiv stil i rollista -->
-          <!-- Set är centrerat /EF -->
-          <!-- Scenanvisningar anges med mindre punktstorlek /EF -->
-          <!-- Stycken i repliker och scenanvisningar är indragna första raden -->
-          <!-- Rubriker är centrerade /EF -->
-          <!-- Talarrubriker anges i kursiv stil -->
-          <!-- Scenanvisningar direkt efter talarrubriker är inline, vid flera rader långt indrag;
+<!-- Roller anges i kursiv stil i rollista -->
+<!-- Set är centrerat /EF -->
+<!-- Scenanvisningar anges med mindre punktstorlek /EF -->
+<!-- Stycken i repliker och scenanvisningar är indragna första raden -->
+<!-- Rubriker är centrerade /EF -->
+<!-- Talarrubriker anges i kursiv stil -->
+<!-- Scenanvisningar direkt efter talarrubriker är inline, vid flera rader långt indrag;
                undantag några som börjar på ny rad och är centrerade (rend=newline) /EF -->
-          <!-- Fristående scenanvisningar är indragna långt till höger /EF -->
-          <!-- Scenanvisningar för ridå är centrerade, i kursiv stil och normal punktstorlek (rend=centered) /EF -->
+<!-- Fristående scenanvisningar är indragna långt till höger /EF -->
+<!-- Scenanvisningar för ridå är centrerade, i kursiv stil och normal punktstorlek (rend=centered) /EF -->
         </rendition>
       </tagsDecl>
     </encodingDesc>
@@ -161,64 +161,84 @@
       </langUsage>
       <particDesc>
         <listPerson>
-          
           <person xml:id="spZetterschöld" sex="MALE">
-            <persName>Arthur Zetterschöld</persName><!--castList-->
-            <persName>Zetterschöld</persName><!--speaker-->
-            <persName>baron Arthur Zetterschöld</persName><!--editorial-->
+            <persName>Arthur Zetterschöld</persName>
+<!--castList-->
+            <persName>Zetterschöld</persName>
+<!--speaker-->
+            <persName>baron Arthur Zetterschöld</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spPigan">
-            <persName>Pigan</persName><!--speaker-->
+            <persName>Pigan</persName>
+<!--speaker-->
           </person>
-          
           <person xml:id="spAlmquist" sex="MALE">
-            <persName>Frits Almquist</persName><!--castList-->
-            <persName>Almquist</persName><!--speaker-->
-            <persName>Frits Almquist</persName><!--editorial-->
+            <persName>Frits Almquist</persName>
+<!--castList-->
+            <persName>Almquist</persName>
+<!--speaker-->
+            <persName>Frits Almquist</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spFruRamberg" sex="FEMALE">
-            <persName>Stella Ramberg</persName><!--castList-->
-            <persName>Fru Ramberg</persName><!--speaker-->
-            <persName>Stella Ramberg</persName><!--editorial-->
+            <persName>Stella Ramberg</persName>
+<!--castList-->
+            <persName>Fru Ramberg</persName>
+<!--speaker-->
+            <persName>Stella Ramberg</persName>
+<!--editorial-->
           </person>
           <personGrp xml:id="spBarnen">
-            <name>Barnen</name><!--castList-->
-            <name>Barnen</name><!--speaker-->
+            <name>Barnen</name>
+<!--castList-->
+            <name>Barnen</name>
+<!--speaker-->
           </personGrp>
-          
           <person xml:id="spTorsten" sex="MALE">
-            <persName>Den minste</persName><!--speaker-->
-            <persName>Torsten Ramberg</persName><!--editorial-->
+            <persName>Den minste</persName>
+<!--speaker-->
+            <persName>Torsten Ramberg</persName>
+<!--editorial-->
           </person>
         </listPerson>
       </particDesc>
     </profileDesc>
-
   </teiHeader>
   <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="38576-0.jpg"/>
-      <gap reason="irrelevant"/><!-- titel -->
+      <gap reason="irrelevant"/>
+<!-- titel -->
       <castList>
         <head>Personer:</head>
         <castItem>
-          <role><persName ref="#FruRamberg">Stella Ramberg</persName></role>, <roleDesc>skådespelerska</roleDesc>.
+          <role>
+            <persName ref="#FruRamberg">Stella Ramberg</persName>
+          </role>, <roleDesc>skådespelerska</roleDesc>.
         </castItem>
         <castItem>
-          <role><persName ref="#Zetterschöld">Arthur Zetterschöld</persName></role>, <roleDesc>ung diplomat</roleDesc>.
+          <role>
+            <persName ref="#Zetterschöld">Arthur Zetterschöld</persName>
+          </role>, <roleDesc>ung diplomat</roleDesc>.
         </castItem>
         <castItem>
-          <role><persName ref="#Almquist">Frits Almquist</persName></role>, <roleDesc>författare, fil. d:r</roleDesc>.
+          <role>
+            <persName ref="#Almquist">Frits Almquist</persName>
+          </role>, <roleDesc>författare, fil. d:r</roleDesc>.
         </castItem>
         <castItem>
-          <role/><roleDesc><persName ref="#Pigan">En piga</persName></roleDesc>.
+          <role/>
+          <roleDesc>
+            <persName ref="#Pigan">En piga</persName>
+          </roleDesc>.
         </castItem>
         <castItem>
           <roleGroup>
-            <roleDesc><persName ref="#Barnen">Barnen</persName></roleDesc>.
+            <roleDesc>
+              <persName ref="#Barnen">Barnen</persName>
+            </roleDesc>.
             <role corresp="#Torsten"/>
           </roleGroup>
         </castItem>
@@ -235,7 +255,8 @@
             <lb/> häftade pappersblad i blått omslag; brefpressar och konstsaker. Dörrar till
             <lb/> höger och i fonden. En praktfull bukett ligger på ett bord.</p>
           <p>Scenen är tom, man hör en tamburklocka från entréen i fonden.</p>
-          <p><stage type="entrance" who="#Almquist #Pigan #Zetterschöld">En piga kommer och öppnar för Zetterschöld och Almquist</stage>.</p>
+          <p>
+            <stage type="entrance" who="#Almquist #Pigan #Zetterschöld">En piga kommer och öppnar för Zetterschöld och Almquist</stage>.</p>
         </stage>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
@@ -250,9 +271,11 @@
           <p>Var god och anmäl <persName ref="#Almquist">d:r Almquist</persName> och <persName ref="#Zetterschöld">baron Zetter­<lb break="no"/>schöld</persName>.</p>
         </sp>
         <sp who="#spPigan">
-          <speaker>Pigan</speaker> <stage type="exit" who="#Pigan">(går).</stage>
+          <speaker>Pigan</speaker>
+          <stage type="exit" who="#Pigan">(går).</stage>
         </sp>
-        <pb facs="38576-1.jpg"/><fw type="pageNum">2</fw>
+        <pb facs="38576-1.jpg"/>
+        <fw type="pageNum">2</fw>
         <sp who="#spAlmquist">
           <speaker>Almquist.</speaker>
           <p>Du kommer att ångra det.</p>
@@ -263,14 +286,20 @@
             <lb/> Adolfs torg</placeName> till <placeName>Sturegatan</placeName>.</p>
         </sp>
         <sp who="#spPigan">
-          <speaker>Pigan</speaker> <stage type="entrance" who="#Pigan">(från höger).</stage>
-          <p><persName ref="#FruRamberg">Frun</persName> bad <persName ref="#Almquist #Zetterschöld">herrarne</persName> taga plats och vänta ett ögonblick.
-            <lb/> <stage type="exit" who="#Pigan">(Går.)</stage></p>
+          <speaker>Pigan</speaker>
+          <stage type="entrance" who="#Pigan">(från höger).</stage>
+          <p>
+            <persName ref="#FruRamberg">Frun</persName> bad <persName ref="#Almquist #Zetterschöld">herrarne</persName> taga plats och vänta ett ögonblick.
+            <lb/>
+            <stage type="exit" who="#Pigan">(Går.)</stage>
+          </p>
         </sp>
         <sp who="#spAlmquist">
-          <speaker>Almquist</speaker> <stage>(sätter sig).</stage>
+          <speaker>Almquist</speaker>
+          <stage>(sätter sig).</stage>
           <p>Du skall bränna dina kol förgäfves. <persName ref="#FruRamberg">Fru Ramberg</persName> är
-            <lb/> <stage>(med en axelryckning)</stage> en »ärbar kvinna».</p>
+            <lb/>
+            <stage>(med en axelryckning)</stage> en »ärbar kvinna».</p>
         </sp>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
@@ -279,7 +308,8 @@
         </sp>
         <sp who="#spAlmquist">
           <speaker>Almquist.</speaker>
-          <p><persName ref="#DonJuan">Don Juan</persName>!</p>
+          <p>
+            <persName ref="#DonJuan">Don Juan</persName>!</p>
         </sp>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
@@ -307,9 +337,12 @@
           <speaker>Almquist.</speaker>
           <p>Nå, jag vill inte såra din unga själfkänsla med ett tvifvel.
             <lb/> Men jag kunde ha lust att upplysa dig om ännu en sak ...
-            <lb/> <stage>(Hviskar förtroligt.)</stage> <persName ref="#FruRamberg">Stella Ramberg</persName> är — ja — hon är dum.</p>
+            <lb/>
+            <stage>(Hviskar förtroligt.)</stage>
+            <persName ref="#FruRamberg">Stella Ramberg</persName> är — ja — hon är dum.</p>
         </sp>
-        <pb facs="38576-2.jpg"/><fw type="pageNum">3</fw>
+        <pb facs="38576-2.jpg"/>
+        <fw type="pageNum">3</fw>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
           <p>Det är inte något fel, att en vacker kvinna är ... låt oss
@@ -329,7 +362,8 @@
         <sp who="#spAlmquist">
           <speaker>Almquist.</speaker>
           <p>Jaha! Och det lockar dig — därför lockar hon dig, den
-            <lb/> <persName ref="#Julia">varma, poetiska Julia</persName>.</p>
+            <lb/>
+            <persName ref="#Julia">varma, poetiska Julia</persName>.</p>
         </sp>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
@@ -337,7 +371,8 @@
         </sp>
         <sp who="#spAlmquist">
           <speaker>Almquist.</speaker>
-          <p>Naturligtvis! <persName ref="#Julia"><persName ref="#Shakespeare">Shaksperes</persName> Julia</persName> är härlig — men — hon
+          <p>Naturligtvis! <persName ref="#Julia">
+              <persName ref="#Shakespeare">Shaksperes</persName> Julia</persName> är härlig — men — hon
             <lb/> var ingen <persName ref="#FruRamberg">grosshandlarfru</persName>.</p>
         </sp>
         <sp who="#spZetterschöld">
@@ -359,7 +394,8 @@
           <p>Visst inte. <stage>(Skrattar.)</stage> Jag skulle bara vilja betaga dig
             <lb/> dina illusioner ... I åtta år har <persName ref="#FruRamberg">tulpanen</persName> blommat för <persName ref="#HerrRamberg">kassa­<lb break="no"/>skåpet</persName>, och tre gånger har hon satt <persName ref="#Barnen">frö</persName>.</p>
         </sp>
-        <pb facs="38576-3.jpg"/><fw type="pageNum">4</fw>
+        <pb facs="38576-3.jpg"/>
+        <fw type="pageNum">4</fw>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
           <p>Åtta år! Och ingen älskare?</p>
@@ -369,7 +405,8 @@
           <p>Nej.</p>
         </sp>
         <sp who="#spZetterschöld">
-          <speaker>Zetterschöld</speaker> <stage>(upprepar långsamt, liksom för
+          <speaker>Zetterschöld</speaker>
+          <stage>(upprepar långsamt, liksom för
             <lb/> sig själf).</stage>
           <p>Åtta år med <persName ref="#HerrRamberg">en grosshandlare</persName>! Hur måste inte <persName ref="#FruRamberg">den
             <lb/> kvinnan</persName> kunna älska!</p>
@@ -404,28 +441,33 @@
         </sp>
         <sp who="#spAlmquist">
           <speaker>Almquist.</speaker>
-          <p><persName ref="#Romeo">Romeo</persName> åt <persName ref="#FruRamberg">en kälkborgarfru</persName>! Åt en inkarnation af dussin­<lb break="no"/>ärbarhet! Väl bekomme!</p>
+          <p>
+            <persName ref="#Romeo">Romeo</persName> åt <persName ref="#FruRamberg">en kälkborgarfru</persName>! Åt en inkarnation af dussin­<lb break="no"/>ärbarhet! Väl bekomme!</p>
         </sp>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
           <p>Kan du inte förstå, att just dessa kvinnor, som i sin
             <lb/> ungdom aldrig ha haft någon roman — eller låt oss säga:
             <lb/> som lefvat »ärbart» — jag håller annars inte på ordet! —
-            <pb facs="38576-4.jpg"/><fw type="pageNum">5</fw>
+            <pb facs="38576-4.jpg"/>
+            <fw type="pageNum">5</fw>
             — — kan du inte förstå, att de i sitt innersta <emph>måste</emph> ha en
             <lb/> hopspard fond af lidelse, som aldrig kommit till användning
             <lb/> i det s. k. äktenskapet — en institution som ...</p>
         </sp>
         <sp who="#spAlmquist">
-          <speaker>Almquist</speaker> <stage>(afbryter).</stage>
+          <speaker>Almquist</speaker>
+          <stage>(afbryter).</stage>
           <p>... en institution som jag tillhör — kom ihåg det! —
             <lb/> med hull och hår.</p>
         </sp>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
           <p>Gud bevars! Jag ämnar inte hacka på äktenskapet.
-            <lb/> <persName ref="#Romeo">Romeo</persName> och <persName ref="#Julia">Julia</persName> voro också gifta — »i hemlighet» säger
-            <lb/> <persName ref="#Shakespeare">den filuren Shakspere</persName> — men till saken! Jag ville säga:
+            <lb/>
+            <persName ref="#Romeo">Romeo</persName> och <persName ref="#Julia">Julia</persName> voro också gifta — »i hemlighet» säger
+            <lb/>
+            <persName ref="#Shakespeare">den filuren Shakspere</persName> — men till saken! Jag ville säga:
             <lb/> kvinnor af detta slag — de ärbara — kunna under de
             <lb/> flackaste och mest banala yttre förhållanden gå och gömma
             <lb/> på ett svärmiskt hopp om — ja om — hur skall jag säga!
@@ -438,7 +480,8 @@
           <speaker>Almquist.</speaker>
           <p>Men du, <persName ref="#Zetterschöld">alla dårars dåre</persName>, förstår du då inte hvad hela
             <lb/> sta’n vet: att hon är nöjd med <persName ref="#HerrRamberg">sin grosshandlare</persName>, att hon
-            <lb/> utom <orgName ref="#Teatern">scenen</orgName> bara lefver för <persName ref="#HerrRamberg">grosshandlaren</persName> och för <persName ref="#Barnen"><persName ref="#HerrRamberg">gross­<lb break="no"/>handlarens</persName> barn</persName>.</p>
+            <lb/> utom <orgName ref="#Teatern">scenen</orgName> bara lefver för <persName ref="#HerrRamberg">grosshandlaren</persName> och för <persName ref="#Barnen">
+              <persName ref="#HerrRamberg">gross­<lb break="no"/>handlarens</persName> barn</persName>.</p>
         </sp>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
@@ -454,9 +497,11 @@
             <lb/> illa däran, att du kunde vara i stånd att beundra — till och
             <lb/> med hennes inskränkthet.</p>
         </sp>
-        <pb facs="38576-5.jpg"/><fw type="pageNum">6</fw>
+        <pb facs="38576-5.jpg"/>
+        <fw type="pageNum">6</fw>
         <sp who="#spZetterschöld">
-          <speaker>Zetterschöld</speaker> <stage>(lägger händerna på hans axlar
+          <speaker>Zetterschöld</speaker>
+          <stage>(lägger händerna på hans axlar
             <lb/> och ser honom in i ansigtet).</stage>
           <p>Det ligger agg i tonen.</p>
         </sp>
@@ -506,7 +551,8 @@
           <p>Det fins ingenting att berätta. Hon var ung, hon var
             <lb/> vacker och hade den gåfvan att kunna säga vers. Jag såg
             <lb/> henne hvarje kväll, och naturligtvis ville jag att hon skulle
-            <pb facs="38576-6.jpg"/><fw type="pageNum">7</fw>
+            <pb facs="38576-6.jpg"/>
+            <fw type="pageNum">7</fw>
             spela <persName ref="#Titelrollen">titelrollen</persName> i skådespelet, som jag nyss fått antaget. Ja.
             <lb/> Och så studerade jag in <persName ref="#Titelrollen">rollen</persName> med henne — där har du
             <lb/> hela historien! Den är tarflig, som du ser.</p>
@@ -538,7 +584,8 @@
           <p>Det skall vara mig ett nöje.</p>
         </sp>
         <sp who="#spFruRamberg">
-          <speaker>Fru Ramberg</speaker> <stage type="entrance" who="#FruRamberg">(från höger).</stage>
+          <speaker>Fru Ramberg</speaker>
+          <stage type="entrance" who="#FruRamberg">(från höger).</stage>
           <p>God dag, <persName ref="#Almquist">doktor Almquist</persName>. Det var länge sedan man
             <lb/> hade den äran att se er!</p>
         </sp>
@@ -548,7 +595,8 @@
         </sp>
         <sp who="#spFruRamberg">
           <speaker>Fru Ramberg.</speaker>
-          <p>Fy, <persName ref="#Almquist">herr doktor</persName>! Så säger man inte till <persName ref="#FruRamberg"><orgName ref="#Teatern">en teaters</orgName> evigt
+          <p>Fy, <persName ref="#Almquist">herr doktor</persName>! Så säger man inte till <persName ref="#FruRamberg">
+              <orgName ref="#Teatern">en teaters</orgName> evigt
             <lb/> unga älskarinna</persName>!</p>
         </sp>
         <sp who="#spAlmquist">
@@ -559,7 +607,8 @@
           <speaker>Fru Ramberg.</speaker>
           <p>Välkommen! Jag känner er.</p>
         </sp>
-        <pb facs="38576-7.jpg"/><fw type="pageNum">8</fw>
+        <pb facs="38576-7.jpg"/>
+        <fw type="pageNum">8</fw>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
           <p>Åh?</p>
@@ -593,7 +642,8 @@
         </sp>
         <sp who="#spAlmquist">
           <speaker>Almquist.</speaker>
-          <p>Jag hoppas <persName ref="#Zetterschöld">min väns</persName> blir desto längre. <stage type="exit" who="#Almquist">(Bugar sig och går.)</stage></p>
+          <p>Jag hoppas <persName ref="#Zetterschöld">min väns</persName> blir desto längre. <stage type="exit" who="#Almquist">(Bugar sig och går.)</stage>
+          </p>
         </sp>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
@@ -614,12 +664,14 @@
             <lb/> än alla förnuftsgrunder: det var ett så våldsamt begär att se
             <lb/> er, att tala med er.</p>
         </sp>
-        <pb facs="38576-8.jpg"/><fw type="pageNum">9</fw>
+        <pb facs="38576-8.jpg"/>
+        <fw type="pageNum">9</fw>
         <sp who="#spFruRamberg">
           <speaker>Fru Ramberg.</speaker>
           <p>Vet ni inte, att man aldrig bör se <persName ref="#FruRamberg">en skådespelerska</persName>
             <lb/> utom <orgName ref="#Teatern">scenen</orgName>; det förtager illusionen, säger man. Nå?
-            <lb/> <stage>(Skrattar.)</stage> Désillusionné?</p>
+            <lb/>
+            <stage>(Skrattar.)</stage> Désillusionné?</p>
         </sp>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
@@ -636,7 +688,8 @@
         </sp>
         <sp who="#spFruRamberg">
           <speaker>Fru Ramberg.</speaker>
-          <p><persName ref="#FruRamberg">En skådespelerskas</persName> röst! Den är skolad, det är hela
+          <p>
+            <persName ref="#FruRamberg">En skådespelerskas</persName> röst! Den är skolad, det är hela
             <lb/> hemligheten.</p>
         </sp>
         <sp who="#spZetterschöld">
@@ -672,7 +725,8 @@
           <stage>(Paus).</stage>
           <p>Vet ni hvad det är i ert spel, som gripit mig mest?</p>
         </sp>
-        <pb facs="38576-9.jpg"/><fw type="pageNum">10</fw>
+        <pb facs="38576-9.jpg"/>
+        <fw type="pageNum">10</fw>
         <sp who="#spFruRamberg">
           <speaker>Fru Ramberg.</speaker>
           <p>Nej. Låt höra.</p>
@@ -683,7 +737,8 @@
         </sp>
         <sp who="#spFruRamberg">
           <speaker>Fru Ramberg.</speaker>
-          <p><persName ref="#Julia">Julia</persName> måste ha den förmågan.</p>
+          <p>
+            <persName ref="#Julia">Julia</persName> måste ha den förmågan.</p>
         </sp>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
@@ -728,7 +783,8 @@
           <speaker>Fru Ramberg.</speaker>
           <p>Då är det bra repliker.</p>
         </sp>
-        <pb facs="38576-10.jpg"/><fw type="pageNum">11</fw>
+        <pb facs="38576-10.jpg"/>
+        <fw type="pageNum">11</fw>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
           <p>Det är att håna <persName ref="#Zetterschöld">en värnlös</persName>. Det vore vackrare, om ni
@@ -747,9 +803,11 @@
           <p>Alldeles som ni själf önskar.</p>
         </sp>
         <sp who="#spZetterschöld">
-          <speaker>Zetterschöld</speaker> <stage>(betraktar henne forskande; tar
+          <speaker>Zetterschöld</speaker>
+          <stage>(betraktar henne forskande; tar
             <lb/> sakta hennes hand som han kysser).</stage>
-          <p><persName ref="#FruRamberg">Sfinx</persName>.</p>
+          <p>
+            <persName ref="#FruRamberg">Sfinx</persName>.</p>
         </sp>
         <sp who="#spFruRamberg">
           <speaker>Fru Ramberg.</speaker>
@@ -784,7 +842,8 @@
           <speaker>Fru Ramberg.</speaker>
           <p>En minut om dagen! Ni är blygsam.</p>
         </sp>
-        <pb facs="38576-11.jpg"/><fw type="pageNum">12</fw>
+        <pb facs="38576-11.jpg"/>
+        <fw type="pageNum">12</fw>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
           <p>Kanske skall ni vänja er vid mig — och tillåta mig att
@@ -826,23 +885,29 @@
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
           <p>Det förefaller mig annars, som höll ni mig kvar endast
-            <lb/> för nöjet att få såra mig. <stage>(Stiger upp.)</stage></p>
+            <lb/> för nöjet att få såra mig. <stage>(Stiger upp.)</stage>
+          </p>
         </sp>
         <sp who="#spFruRamberg">
-          <speaker>Fru Ramberg<surplus>.</surplus></speaker> <stage>(Stiger också upp.)</stage>
+          <speaker>Fru Ramberg<surplus>.</surplus>
+          </speaker>
+          <stage>(Stiger också upp.)</stage>
           <p>Ni har er frihet. Men hvarför inte fortsätta? Jag ger
             <lb/> er hela dagen, hela kvällen om ni vill. Jag skall höra på
             <lb/> allt hvad ni har att säga, jag skall svara på allt hvad ni vill
             <lb/> fråga.</p>
         </sp>
-        <pb facs="38576-12.jpg"/><fw type="pageNum">13</fw>
+        <pb facs="38576-12.jpg"/>
+        <fw type="pageNum">13</fw>
         <sp who="#spZetterschöld">
-          <speaker>Zetterschöld</speaker> <stage>(i det han drager sig tillbaka).</stage>
+          <speaker>Zetterschöld</speaker>
+          <stage>(i det han drager sig tillbaka).</stage>
           <p>Ni är inte sådan, jag hade väntat, inte alls sådan som ...</p>
         </sp>
         <sp who="#spFruRamberg">
           <speaker>Fru Ramberg.</speaker>
-          <p>Som — man säger. <stage>(Ler.)</stage></p>
+          <p>Som — man säger. <stage>(Ler.)</stage>
+          </p>
         </sp>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
@@ -852,19 +917,22 @@
         <sp who="#spFruRamberg">
           <speaker>Fru Ramberg.</speaker>
           <p>Åh nej, gå inte! Ni tyckte jag var gammal och elak
-            <lb/> nyss? Och nu är jag ung igen, och det gör er glad <stage>(Skrattar.)</stage></p>
+            <lb/> nyss? Och nu är jag ung igen, och det gör er glad <stage>(Skrattar.)</stage>
+          </p>
         </sp>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
           <p>Ni gör mig alldeles vimmelkantig.</p>
         </sp>
         <sp who="#spFruRamberg">
-          <speaker>Fru Ramberg</speaker> <stage>(muntert).</stage>
+          <speaker>Fru Ramberg</speaker>
+          <stage>(muntert).</stage>
           <p>Och ni kom hit med en så säker tro på ert öfvertag!
             <lb/> Ung — rik — diplomat — skrifver vers ...!</p>
         </sp>
         <sp who="#spZetterschöld">
-          <speaker>Zetterschöld</speaker> <stage>(sätter sig och betraktar henne).</stage>
+          <speaker>Zetterschöld</speaker>
+          <stage>(sätter sig och betraktar henne).</stage>
           <p>Jag är rädd för er.</p>
         </sp>
         <sp who="#spFruRamberg">
@@ -873,35 +941,42 @@
             <lb/> med ästetiska sympatier</persName>. Hur skulle jag kunna motstå?</p>
         </sp>
         <sp who="#spZetterschöld">
-          <speaker>Zetterschöld</speaker> <stage>(enkelt och varmt).</stage>
+          <speaker>Zetterschöld</speaker>
+          <stage>(enkelt och varmt).</stage>
           <p>Jag har förnärmat er. Förlåt mig.</p>
         </sp>
         <sp who="#spFruRamberg">
-          <speaker>Fru Ramberg</speaker> <stage>(ser på honom en stund. Med
+          <speaker>Fru Ramberg</speaker>
+          <stage>(ser på honom en stund. Med
             <lb/> ett småleende).</stage>
           <p>Hur må <persName ref="#Systrar">era systrar</persName>?</p>
         </sp>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
-          <p><persName ref="#Systrar">Mina systrar</persName>?</p>
+          <p>
+            <persName ref="#Systrar">Mina systrar</persName>?</p>
         </sp>
         <sp who="#spFruRamberg">
           <speaker>Fru Ramberg.</speaker>
-          <p>Ja. Jag är säker på, att ni <emph>har</emph> <persName ref="#Systrar">systrar</persName>.</p>
+          <p>Ja. Jag är säker på, att ni <emph>har</emph>
+            <persName ref="#Systrar">systrar</persName>.</p>
         </sp>
-        <pb facs="38576-13.jpg"/><fw type="pageNum">14</fw>
+        <pb facs="38576-13.jpg"/>
+        <fw type="pageNum">14</fw>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
           <p>Hur?</p>
         </sp>
         <sp who="#spFruRamberg">
           <speaker>Fru Ramberg.</speaker>
-          <p><persName ref="#FruRamberg">En erfaren kvinna</persName> märker det så lätt på <persName ref="#Zetterschöld">en mans</persName> sätt
+          <p>
+            <persName ref="#FruRamberg">En erfaren kvinna</persName> märker det så lätt på <persName ref="#Zetterschöld">en mans</persName> sätt
             <lb/> att göra kur. <stage>(Skrattande.)</stage> Jag är inte så enfaldig, som <persName ref="#Almquist">doktor
             <lb/> Almquist</persName> säger. Ni hör jag vet hur han bedömer mig.</p>
         </sp>
         <sp who="#spZetterschöld">
-          <speaker>Zetterschöld</speaker> <stage>(fattar hennes händer).</stage>
+          <speaker>Zetterschöld</speaker>
+          <stage>(fattar hennes händer).</stage>
           <p>Är ni ond på mig?</p>
         </sp>
         <sp who="#spFruRamberg">
@@ -934,7 +1009,8 @@
           <p>Han stör oss inte. Han är ett mönster för äkta män.
             <lb/> Han känner sin plats. Han är endast kälkborgaren, och jag
             <lb/> är en konstnärinna, som tar emot beundrare. Det är ju så
-            <lb/> det skall vara? <stage>(Paus. De lyssna båda, men ingenting hörs.)</stage></p>
+            <lb/> det skall vara? <stage>(Paus. De lyssna båda, men ingenting hörs.)</stage>
+          </p>
           <p>Ser ni! Det kom inte någon svartsjuk äkta man in
             <lb/> genom dörren. Om jag så önskar, skall ingen störa oss.
             <lb/> Jag är inte någon kufvad hustru, jag bevakas inte som en
@@ -942,7 +1018,8 @@
             <lb/> hvad jag vill. <stage>(Går omkring och ordnar i rummet.)</stage> Ni kan stanna
             <lb/> så länge ni har lust.</p>
         </sp>
-        <pb facs="38576-14.jpg"/><fw type="pageNum">15</fw>
+        <pb facs="38576-14.jpg"/>
+        <fw type="pageNum">15</fw>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
           <p>Tack för påminnelsen. Jag har uppehållit er för länge.</p>
@@ -958,7 +1035,8 @@
         <sp who="#spFruRamberg">
           <speaker>Fru Ramberg.</speaker>
           <p>Sätt er ner och låt oss tala. <stage>(De sätta sig.)</stage> Ni är ung.
-            <lb/> <stage>(Ler godmodigt.)</stage> Jag vet nog, att ni inte tycker om att man
+            <lb/>
+            <stage>(Ler godmodigt.)</stage> Jag vet nog, att ni inte tycker om att man
             <lb/> säger det; men det bryr jag mig inte om. Det ligger hos
             <lb/> er, under den salongsblaserade masken, något så friskt —
             <lb/> ja, jag skulle vilja säga <emph>rent</emph> — fast ni — <persName ref="#Zetterschöld">världsmannen</persName> —
@@ -986,11 +1064,13 @@
             <lb/> ni lär er att dölja det!</p>
         </sp>
         <sp who="#spZetterschöld">
-          <speaker>Zetterschöld</speaker> <stage>(skrattar).</stage>
+          <speaker>Zetterschöld</speaker>
+          <stage>(skrattar).</stage>
           <p>Och ni själf? Det tycks mig, som om också ni spelade
             <lb/> en roll som är er främmande.</p>
         </sp>
-        <pb facs="38576-15.jpg"/><fw type="pageNum">16</fw>
+        <pb facs="38576-15.jpg"/>
+        <fw type="pageNum">16</fw>
         <sp who="#spFruRamberg">
           <speaker>Fru Ramberg.</speaker>
           <p>Nåväl, ja. Er tillgjordhet har smittat. Om vi skulle
@@ -1029,11 +1109,13 @@
         <sp who="#spFruRamberg">
           <speaker>Fru Ramberg.</speaker>
           <p>Jo, jag vill svara: ja. En gång — och just så, som
-            <lb/> <persName ref="#Julia">Julia</persName>.</p>
+            <lb/>
+            <persName ref="#Julia">Julia</persName>.</p>
         </sp>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
-          <p><persName ref="#HerrRamberg">Er man</persName>?</p>
+          <p>
+            <persName ref="#HerrRamberg">Er man</persName>?</p>
         </sp>
         <sp who="#spFruRamberg">
           <speaker>Fru Ramberg.</speaker>
@@ -1045,7 +1127,8 @@
           <speaker>Zetterschöld.</speaker>
           <p>Jag vet inte.</p>
         </sp>
-        <pb facs="38576-16.jpg"/><fw type="pageNum">17</fw>
+        <pb facs="38576-16.jpg"/>
+        <fw type="pageNum">17</fw>
         <sp who="#spFruRamberg">
           <speaker>Fru Ramberg.</speaker>
           <p>Man menar, att det <emph>måste</emph> finnas — hos kvinnor som
@@ -1081,18 +1164,21 @@
           <speaker>Fru Ramberg.</speaker>
           <p>Nej, jag ångrar mig inte. Jag vill vara uppriktig. Kanske
             <lb/> skall det göra er godt, och mig kan det inte skada. <stage>(Sätter
-            <lb/> sig bättre till ro i stolen.)</stage></p>
+            <lb/> sig bättre till ro i stolen.)</stage>
+          </p>
           <p>Ni är diktare — — konstnär. Ni måste ju känna människo­<lb break="no"/>hjärtat, ty det är människor ni skall framställa. Jag är också
             <lb/> konstnär — ringare tycker ni kanske — — bara en skåde­<lb break="no"/>spelerska — — men ändå! Också för mig är lifvet allt,
             <lb/> också för mig är konsten att spela på de känsligaste strän­<lb break="no"/>garna i människornas sinnen. När vi ega makt öfver andra,
             <lb/> makt att smälta och böja deras stämningar efter vår egen,
             <lb/> då är det därför att vi känna starkare och mångsidigare än
-            <lb/> de, därför att lifvet griper djupare tag i oss än i hvardags­<pb break="no" facs="38576-17.jpg"/><fw type="pageNum">18</fw>folket. Blott det, som ligger inom räckvidden af vår egen
+            <lb/> de, därför att lifvet griper djupare tag i oss än i hvardags­<pb break="no" facs="38576-17.jpg"/>
+            <fw type="pageNum">18</fw>folket. Blott det, som ligger inom räckvidden af vår egen
             <lb/> natur, är äkta. — — Ni såg, att <persName ref="#Julia">Julias</persName> kärlek var det, därför
             <lb/> sträckte ni ut er hand och sade: gif hit!</p>
         </sp>
         <sp who="#spZetterschöld">
-          <speaker>Zetterschöld</speaker> <stage>(sakta).</stage>
+          <speaker>Zetterschöld</speaker>
+          <stage>(sakta).</stage>
           <p>Den låg utanför min räckvidd.</p>
         </sp>
         <sp who="#spFruRamberg">
@@ -1106,7 +1192,8 @@
             <lb/> just nu.</p>
         </sp>
         <sp who="#spFruRamberg">
-          <speaker>Fru Ramberg</speaker> <stage>(vekt).</stage>
+          <speaker>Fru Ramberg</speaker>
+          <stage>(vekt).</stage>
           <p>Ni är lyriker, och ändå ... den naiva dårskapen att ge
             <lb/> alla sina tankar, sina finaste känslor, utan att fråga efter hvad
             <lb/> man får igen — den känner ni inte! Men <emph>jag</emph> har varit en
@@ -1138,7 +1225,8 @@
           <speaker>Fru Ramberg.</speaker>
           <p>Ni har rätt. <stage>(Räcker honom sin hand.)</stage> Ni är god och ni är
             <lb/> ung; ni får inte gå bort som en främling, jag vill att ni skall
-            <pb facs="38576-18.jpg"/><fw type="pageNum">19</fw>
+            <pb facs="38576-18.jpg"/>
+            <fw type="pageNum">19</fw>
             minnas mig och ni skall kunna tänka: <emph>sådan</emph> var hon och
             <lb/> inte sådan, som ... som ... <emph>han</emph> kanske sagt er.</p>
         </sp>
@@ -1179,21 +1267,24 @@
             <lb/> andligen omyndig, att jag knappt var mer än ett barn. Men
             <lb/> ett barn med hundra lynnen, med skratt och sång och gråt
             <lb/> i sin röst — allt som det bar till — och med hundra skift­<lb break="no"/>ningar i sitt ansigte. Min minsta lilla tanke och min snab­<lb break="no"/>baste stämning syntes strax i det ansigtet; och hvad jag —
-            <lb/> <persName ref="#FruRamberg">stackars toka</persName>! benämnde själ, det bodde i ett glashus.
+            <lb/>
+            <persName ref="#FruRamberg">stackars toka</persName>! benämnde själ, det bodde i ett glashus.
             <lb/> Därför togs det ansigtet i skola; det skulle lära säga andras
             <lb/> tankar och återge andras stämningar. Det var läraktigt, och
             <lb/> jag kom snart på <orgName ref="#Teatern">scenen</orgName>. Men hvad jag kallade själ tog inte
             <lb/> jämna steg med mimiken. Gud, hvad jag var naiv och hvad
             <lb/> jag var god! Och jag spelade på instinkt — allting! — på
             <lb/> outvecklade möjligheter: <persName ref="#TäckaIngenuer">täcka ingenuer</persName>, <persName ref="#NäbbigaFröknar">näbbiga fröknar</persName>,
-            <pb facs="38576-19.jpg"/><fw type="pageNum">20</fw>
+            <pb facs="38576-19.jpg"/>
+            <fw type="pageNum">20</fw>
             <persName ref="#Ofelior">brutna Ofelior</persName>, allt. Jag var något att göra af. Intrigera
             <lb/> kunde jag inte, men jag kom fram ändå; jag <emph>drogs</emph> fram.
             <lb/> Jag, <persName ref="#FruRamberg">stackars fattiga unge från gränderna</persName> — jag blef nästan
             <lb/> rädd för applåder och hyllning, jag hade ingen tro på att
             <lb/> allt detta kunde räcka; jag darrade alltid för att nödgas
             <lb/> vända tillbaka till kyffena, och ju mer man skämde bort
-            <lb/> <persName ref="#FruRamberg">favoriten</persName>, dess ödmjukare blef hon.</p>
+            <lb/>
+            <persName ref="#FruRamberg">favoriten</persName>, dess ödmjukare blef hon.</p>
         </sp>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
@@ -1221,7 +1312,8 @@
         </sp>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
-          <p><persName ref="#Almquist">Frits</persName>! — <persName ref="#Almquist">Frits Almquist</persName>!</p>
+          <p>
+            <persName ref="#Almquist">Frits</persName>! — <persName ref="#Almquist">Frits Almquist</persName>!</p>
         </sp>
         <sp who="#spFruRamberg">
           <speaker>Fru Ramberg.</speaker>
@@ -1235,7 +1327,8 @@
             <lb/> För mig var han mer än världsman, han var en skald — en
             <lb/> gudarnas älskling: han blef min kejsare och kung.</p>
         </sp>
-        <pb facs="38576-20.jpg"/><fw type="pageNum">21</fw>
+        <pb facs="38576-20.jpg"/>
+        <fw type="pageNum">21</fw>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
           <p>Det är starka ord.</p>
@@ -1280,7 +1373,8 @@
           <p>Hans första stora succès, som ni skapade — kanske af
             <lb/> intet.</p>
         </sp>
-        <pb facs="38576-21.jpg"/><fw type="pageNum">22</fw>
+        <pb facs="38576-21.jpg"/>
+        <fw type="pageNum">22</fw>
         <sp who="#spFruRamberg">
           <speaker>Fru Ramberg.</speaker>
           <p>Så får ni inte säga! Hvad jag var, var jag genom ho­<lb break="no"/>nom. Jag gick upp i hans verk. Jag lefde i hans repliker.
@@ -1295,7 +1389,8 @@
           <p>Älskade han er?</p>
         </sp>
         <sp who="#spFruRamberg">
-          <speaker>Fru Ramberg</speaker> <stage>(höjer på axlarna).</stage>
+          <speaker>Fru Ramberg</speaker>
+          <stage>(höjer på axlarna).</stage>
           <p>Jag tror, att somliga män kalla det att älska — därför
             <lb/> att språket är så fattigt.</p>
         </sp>
@@ -1328,7 +1423,8 @@
             <lb/> han för att säga farväl. <stage>(Afbrutet och med ansträngning.)</stage> Det
             <lb/> var en kväll. Vi voro alldeles ensamma — hemma hos
             <lb/> mig. — Han var inte som vanligt, han var både mera varm
-            <pb facs="38576-22.jpg"/><fw type="pageNum">23</fw>
+            <pb facs="38576-22.jpg"/>
+            <fw type="pageNum">23</fw>
             och mera kall: — — hans värme var fordrande, och kylan
             <lb/> — som låg inunder — gjorde mig rädd. — — Ett enda
             <lb/> ord af verklig känsla, och jag hade fallit; fem minuters tåla­<lb break="no"/>mod och mitt lif skulle haft sitt benrangel att dölja ...
@@ -1343,7 +1439,8 @@
         </sp>
         <sp who="#spFruRamberg">
           <speaker>Fru Ramberg.</speaker>
-          <p><persName ref="#FruAlmquist">Sin hustru</persName> ... och <persName ref="#Älskarinnor">alla de andra</persName>! Jag har förstått det
+          <p>
+            <persName ref="#FruAlmquist">Sin hustru</persName> ... och <persName ref="#Älskarinnor">alla de andra</persName>! Jag har förstått det
             <lb/> sedan.</p>
         </sp>
         <sp who="#spZetterschöld">
@@ -1375,7 +1472,8 @@
           <speaker>Zetterschöld.</speaker>
           <p>Och ni är lycklig nu?</p>
         </sp>
-        <pb facs="38576-23.jpg"/><fw type="pageNum">24</fw>
+        <pb facs="38576-23.jpg"/>
+        <fw type="pageNum">24</fw>
         <sp who="#spFruRamberg">
           <speaker>Fru Ramberg.</speaker>
           <p>Den frågan vill jag knappt besvara. Den låter så banal,
@@ -1391,7 +1489,8 @@
             <lb/> af det andra, ni spelar?</p>
         </sp>
         <sp who="#spFruRamberg">
-          <speaker>Fru Ramberg</speaker> <stage>(reser sig också).</stage>
+          <speaker>Fru Ramberg</speaker>
+          <stage>(reser sig också).</stage>
           <p>Nej. Sådant gör en människa gammal. Jag spelar på
             <lb/> det, som håller mig ung.</p>
         </sp>
@@ -1400,14 +1499,19 @@
           <p>Och det är?</p>
         </sp>
         <sp who="#spFruRamberg">
-          <speaker>Fru Ramberg</speaker> <stage>(knappast hörbart).</stage>
+          <speaker>Fru Ramberg</speaker>
+          <stage>(knappast hörbart).</stage>
           <p>Det skulle ni inte kunna förstå. <stage type="entrance" who="#Barnen">(Under repliken slås dörren
-            <lb/> upp, och tre barn komma instormande, hållande hvarandra i bakskörten.)</stage></p>
+            <lb/> upp, och tre barn komma instormande, hållande hvarandra i bakskörten.)</stage>
+          </p>
         </sp>
         <sp who="#spBarnen">
           <speaker>Barnen.</speaker>
-          <p><persName ref="#FruRamberg">Mamma</persName>! <persName ref="#FruRamberg">Mamma</persName>! P-o-o-o-h, — — tåget kommer.
-            <lb/> <stage>(De göra en sväng kring rummet.)</stage></p>
+          <p>
+            <persName ref="#FruRamberg">Mamma</persName>! <persName ref="#FruRamberg">Mamma</persName>! P-o-o-o-h, — — tåget kommer.
+            <lb/>
+            <stage>(De göra en sväng kring rummet.)</stage>
+          </p>
         </sp>
         <sp who="#spTorsten">
           <speaker>Den minste.</speaker>
@@ -1415,37 +1519,50 @@
         </sp>
         <sp who="#spFruRamberg">
           <speaker>Fru Ramberg.</speaker>
-          <p>Tack — inte nu. Kan inte tåget stanna? Här är sta­<lb break="no"/>tionen. <stage>(Drar fram en näsduk och efterliknar en stationssignal.)</stage></p>
+          <p>Tack — inte nu. Kan inte tåget stanna? Här är sta­<lb break="no"/>tionen. <stage>(Drar fram en näsduk och efterliknar en stationssignal.)</stage>
+          </p>
         </sp>
         <sp who="#spTorsten">
           <speaker>Den minste.</speaker>
           <p>P-o-o-o-o-h. <stage>(<persName ref="#Barnen">Barnen</persName> skocka sig kring <persName ref="#FruRamberg">modern</persName> och betrakta <persName ref="#Zetterschöld">den
-            <lb/> främmande</persName>.)</stage></p>
+            <lb/> främmande</persName>.)</stage>
+          </p>
         </sp>
         <sp who="#spFruRamberg">
-          <speaker>Fru Ramberg</speaker> <stage>(tar <persName ref="#Torsten">den minste</persName> upp i sina
-            <lb/> armar<surplus>)</surplus>. Till <persName ref="#Zetterschöld">Zetterschöld</persName>.<supplied>)</supplied></stage>
+          <speaker>Fru Ramberg</speaker>
+          <stage>(tar <persName ref="#Torsten">den minste</persName> upp i sina
+            <lb/> armar<surplus>)</surplus>. Till <persName ref="#Zetterschöld">Zetterschöld</persName>.<supplied>)</supplied>
+          </stage>
           <p>Ni kan inte tänka er, hur det käns att komma hem från
-            <lb/> <orgName ref="#Teatern">teatern</orgName> — pappgrannlåter, utanlexor, småskandaler och kotteri­<pb break="no" facs="38576-24.jpg"/><fw type="pageNum">25</fw>kritik — och så få tvätta af sminket och se in i de här ögonen.
+            <lb/>
+            <orgName ref="#Teatern">teatern</orgName> — pappgrannlåter, utanlexor, småskandaler och kotteri­<pb break="no" facs="38576-24.jpg"/>
+            <fw type="pageNum">25</fw>kritik — och så få tvätta af sminket och se in i de här ögonen.
             <lb/> Det är som en dryck rent friskt källvatten. — — <persName ref="#Torsten">Torsten</persName>,
             <lb/> se på <persName ref="#Zetterschöld">den farbror’en</persName>. <stage>(<persName ref="#Torsten">Den lille</persName> gör så.)</stage> Nå — tycker ni <emph>jag</emph>
             <lb/> kan vara gammal till sinnet? — — <persName ref="#Torsten">Torsten</persName>, visa hur man
             <lb/> gör, när <persName ref="#FruRamberg">mamma</persName> kommer hem från <orgName ref="#Teatern">teatern</orgName>.</p>
         </sp>
         <sp who="#spTorsten">
-          <speaker>Den lille</speaker> <stage>(tar henne om halsen och kysser
+          <speaker>Den lille</speaker>
+          <stage>(tar henne om halsen och kysser
             <lb/> henne).</stage>
         </sp>
         <sp who="#spFruRamberg">
-          <speaker>Fru Ramberg</speaker> <stage>(ställer honom ner på på golfvet).</stage>
+          <speaker>Fru Ramberg</speaker>
+          <stage>(ställer honom ner på på golfvet).</stage>
           <p>Så. Nu kan tåget gå igen. <stage>(Sätter fingrarna till munnen och
-            <lb/> härmar en stationshvissling.)</stage></p>
-          <stage type="exit" who="#Barnen"><supplied>(</supplied>Barnen storma ut på samma sätt som de kommit in.<supplied>)</supplied></stage>
+            <lb/> härmar en stationshvissling.)</stage>
+          </p>
+          <stage type="exit" who="#Barnen">
+            <supplied>(</supplied>Barnen storma ut på samma sätt som de kommit in.<supplied>)</supplied>
+          </stage>
         </sp>
         <sp who="#spFruRamberg">
-          <speaker>Fru Ramberg</speaker> <stage>(ropar efter dem).</stage>
+          <speaker>Fru Ramberg</speaker>
+          <stage>(ropar efter dem).</stage>
           <p>Nästa gång följer <persName ref="#FruRamberg">mamma</persName> med. <stage>(Till <persName ref="#Zetterschöld">Zetterschöld</persName>.)</stage> Jag
-            <lb/> har spelat <persName ref="#Kvinnoroller"><persName ref="#Almquist">Frits Almquists</persName> kvinnoroller</persName>. Jag har gifvit dem
+            <lb/> har spelat <persName ref="#Kvinnoroller">
+              <persName ref="#Almquist">Frits Almquists</persName> kvinnoroller</persName>. Jag har gifvit dem
             <lb/> hvad de saknade: mänsklig värme — hjärta ... Det har jag
             <lb/> härifrån, <stage>(med en gest)</stage> från mitt hem.</p>
         </sp>
@@ -1474,7 +1591,8 @@
             <lb/> flyr man in under den: där är värme och trygghet. Och
             <lb/> emot detta blir allt annat smått.</p>
         </sp>
-        <pb facs="38576-25.jpg"/><fw type="pageNum">26</fw>
+        <pb facs="38576-25.jpg"/>
+        <fw type="pageNum">26</fw>
         <sp who="#spZetterschöld">
           <speaker>Zetterschöld.</speaker>
           <p>Jag förstår er nu. <stage>(Reser sig.)</stage> Och nu vill jag gå.</p>
@@ -1487,7 +1605,8 @@
           <speaker>Zetterschöld.</speaker>
           <p>Nej! Jag gick att uppsöka <persName ref="#FruRamberg">en konstnär</persName> och fann — <persName ref="#FruRamberg">en
             <lb/> människa</persName>. Jag ville bli bekant med <persName ref="#FruRamberg">en framstående skåde­<lb break="no"/>spelerska</persName> — och jag lärde känna <persName ref="#FruRamberg">en fint tänkande kvinna</persName> ...
-            <lb/> <stage>(Sakta.)</stage> Detta är så oändligt mycket mera!</p>
+            <lb/>
+            <stage>(Sakta.)</stage> Detta är så oändligt mycket mera!</p>
         </sp>
         <sp who="#spFruRamberg">
           <speaker>Fru Ramberg.</speaker>
@@ -1648,7 +1767,8 @@
                   <forename>William</forename>
                   <surname>Shakespeare</surname>
                 </persName>
-                <occupation scheme="#HISCO" code="15120">författare</occupation><!-- dramatiker, poet, skådespelare -->
+                <occupation scheme="#HISCO" code="15120">författare</occupation>
+<!-- dramatiker, poet, skådespelare -->
                 <note>Shakspere alternativ stavning, jfr http://en.wikipedia.org/wiki/Spelling_of_Shakespeare%27s_name</note>
               </person>
               <person xml:id="Rachel" sex="female">
@@ -1669,7 +1789,7 @@
             <relation type="personal" name="barn" active="#Barnen" passive="#FruRamberg #HerrRamberg"/>
             <relation type="personal" name="son" active="#Torsten" passive="#FruRamberg #HerrRamberg"/>
             <relation type="personal" name="beundrare" active="#Zetterschöld" passive="#FruRamberg"/>
-            <!-- tillagda/ersatta /EF -->
+<!-- tillagda/ersatta /EF -->
             <relation type="personal" name="kär" mutual="#Julia #Romeo"/>
             <relation type="other" name="likn." active="#HerrRamberg #Zetterschöld" passive="#Romeo"/>
             <relation type="other" name="likn." active="#Zetterschöld" passive="#DonJuan"/>
@@ -1696,13 +1816,19 @@
           <org xml:id="EuropasTeatrar"/>
         </listOrg>
         <fs type="hand" xml:id="handarbetep1">
-          <f name="props"><symbol value="sybord"/></f>
+          <f name="props">
+            <symbol value="sybord"/>
+          </f>
         </fs>
         <fs type="hand" xml:id="handarbetep2">
-          <f name="props"><symbol value="arbetskorg"/></f>
+          <f name="props">
+            <symbol value="arbetskorg"/>
+          </f>
         </fs>
         <fs type="hand" xml:id="handarbetep3">
-          <f name="props"><symbol value="broderi"/></f>
+          <f name="props">
+            <symbol value="broderi"/>
+          </f>
         </fs>
       </div>
     </back>

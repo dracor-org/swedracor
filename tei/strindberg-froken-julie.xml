@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
@@ -136,16 +136,16 @@
       </classDecl>
       <tagsDecl>
         <rendition>
-          <!-- Scenanvisningar anges med kursiv stil.
+<!-- Scenanvisningar anges med kursiv stil.
 	       undantag markeras med @rend, t ex @rend="normal"  -->
-          <!-- Pjästexten är centrerad. -->
-          <!-- Stycken i repliker är indragna. -->
-          <!-- Stycken i scenanvisningar är indragna. -->
-          <!-- Rubriker anges med kursiv stil. -->
-          <!-- Scenanvisningar i direkt anslutning till speaker-element 
+<!-- Pjästexten är centrerad. -->
+<!-- Stycken i repliker är indragna. -->
+<!-- Stycken i scenanvisningar är indragna. -->
+<!-- Rubriker anges med kursiv stil. -->
+<!-- Scenanvisningar i direkt anslutning till speaker-element 
 	       har indrag vid varje radbrytning. -->
-	  <!-- Scenanvisningar i sp-element är inline. -->
-	  <!-- Paus markeras med:
+<!-- Scenanvisningar i sp-element är inline. -->
+<!-- Paus markeras med:
 	       * "—",
 	       * "...",
 	       * "Paus" eller "paus" i stage-element,
@@ -160,47 +160,58 @@
       </langUsage>
       <particDesc>
         <listPerson>
-          
           <person xml:id="spJean" sex="MALE">
-            <persName>Jean</persName><!--castList-->
-            <persName>JEAN</persName><!--speaker-->
-            <persName>Jean</persName><!--editorial-->
+            <persName>Jean</persName>
+<!--castList-->
+            <persName>JEAN</persName>
+<!--speaker-->
+            <persName>Jean</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spKristin" sex="FEMALE">
-            <persName>Kristin</persName><!--castList-->
-            <persName>KRISTIN</persName><!--speaker-->
-            <persName>Kristin</persName><!--editorial-->
+            <persName>Kristin</persName>
+<!--castList-->
+            <persName>KRISTIN</persName>
+<!--speaker-->
+            <persName>Kristin</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spFrökenJulie" sex="FEMALE">
-            <persName>Fröken Julie</persName><!--castList-->
-            <persName>FRÖKEN</persName><!--speaker-->
-            <persName>fröken Julie</persName><!--editorial-->
+            <persName>Fröken Julie</persName>
+<!--castList-->
+            <persName>FRÖKEN</persName>
+<!--speaker-->
+            <persName>fröken Julie</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spBondfolket">
-            <persName>Bondfolket</persName><!--castList-->
+            <persName>Bondfolket</persName>
+<!--castList-->
           </person>
         </listPerson>
       </particDesc>
     </profileDesc>
-
   </teiHeader>
   <text>
     <anchor xml:id="playstart"/>
     <front>
-      <pb facs="6272-0.jpg"/><!-- smutstitel -->
+      <pb facs="6272-0.jpg"/>
+<!-- smutstitel -->
       <gap reason="irrelevant"/>
-      <pb facs="6272-1.jpg"/><!-- tom sida -->
-      <pb facs="6272-2.jpg"/><!-- titelsida -->
+      <pb facs="6272-1.jpg"/>
+<!-- tom sida -->
+      <pb facs="6272-2.jpg"/>
+<!-- titelsida -->
       <gap reason="irrelevant"/>
       <pb facs="6272-3.jpg"/>
       <gap reason="irrevelant"/>
-      <pb facs="6272-4.jpg"/><!-- förord -->
+      <pb facs="6272-4.jpg"/>
+<!-- förord -->
       <gap reason="irrelevant"/>
-      <pb facs="6272-5.jpg"/><!-- tom sida -->
-      <pb facs="6272-6.jpg"/><!-- förord -->
+      <pb facs="6272-5.jpg"/>
+<!-- tom sida -->
+      <pb facs="6272-6.jpg"/>
+<!-- förord -->
       <gap reason="irrelevant"/>
       <pb facs="6272-7.jpg"/>
       <gap reason="irrelevant"/>
@@ -240,39 +251,42 @@
       <gap reason="irrelevant"/>
       <pb facs="6272-25.jpg"/>
       <gap reason="irrelevant"/>
-      <pb facs="6272-26.jpg"/><!-- titel -->
+      <pb facs="6272-26.jpg"/>
+<!-- titel -->
       <gap reason="irrelevant"/>
-      <pb facs="6272-27.jpg"/><!-- tom sida -->
+      <pb facs="6272-27.jpg"/>
+<!-- tom sida -->
       <pb facs="6272-28.jpg"/>
       <castList>
         <head>PERSONER.</head>
         <castItem>
           <role>
             <persName ref="#FrökenJulie">FRÖKEN JULIE</persName>
-            </role>, <roleDesc>25 år</roleDesc>.
+          </role>, <roleDesc>25 år</roleDesc>.
         </castItem>
         <castItem>
           <role>
             <persName ref="#Jean">JEAN</persName>
-            </role>, <roleDesc>betjent, 30 år</roleDesc>.
+          </role>, <roleDesc>betjent, 30 år</roleDesc>.
         </castItem>
         <castItem>
           <role>
             <persName ref="#Kristin">KRISTIN</persName>
-            </role>, <roleDesc>kokerska, 35 år</roleDesc>.
+          </role>, <roleDesc>kokerska, 35 år</roleDesc>.
         </castItem>
         <addSpan spanTo="#slutTillagt"/>
         <castItem>
-	  <role>
+          <role>
             <persName ref="#Bondfolket">Bondfolket</persName>
-            </role>.
+          </role>.
         </castItem>
         <anchor xml:id="slutTillagt"/>
       </castList>
       <set>
         <p>Handlingen i <persName ref="#Grefven">grefvens</persName> kök, midsommarnatten.</p>
       </set>
-      <pb facs="6272-29.jpg"/><!-- tom sida -->
+      <pb facs="6272-29.jpg"/>
+<!-- tom sida -->
     </front>
     <body>
       <pb facs="6272-30.jpg"/>
@@ -307,7 +321,8 @@
           <stage type="setting" who="#Kristin">
             <stage>KRISTIN står vid spisen och steker i en stekpanna; hon
               <lb/> är klädd i ljus bomullsklädning och har ett köksförkläde
-              <lb/> framför sig;</stage> <stage type="entrance" who="#Jean">JEAN kommer in, klädd i livré, bärande ett
+              <lb/> framför sig;</stage>
+            <stage type="entrance" who="#Jean">JEAN kommer in, klädd i livré, bärande ett
               <lb/> par stora ridstöflar med sporrar, som han ställer ifrån sig
               <lb/> på en synlig plats på golfvet.</stage>
           </stage>
@@ -342,7 +357,7 @@
             <p>Ja, hvad var det med den historien? Det var
             <lb/> ju en fin karl, fast han inte var rik. Ack! de har
             <lb/> så mycke choser för sig. <stage>Sätter sig vid bordsändan.</stage>
-            <lb/> Det är besynnerligt i alla fall, med en fröken, hm,
+              <lb/> Det är besynnerligt i alla fall, med en fröken, hm,
             <lb/> att hellre vilja stanna hemma med folket, hva?, än
             <lb/> följa sin far bort till slägtingar?</p>
           </sp>
@@ -383,23 +398,28 @@
             <lb/> kan du nu ha för godt att ge mig, <persName ref="#Kristin">Kristin</persName>?</p>
           </sp>
           <sp who="#spKristin">
-            <speaker>KRISTIN</speaker> <stage>lägger upp ur pannan och
+            <speaker>KRISTIN</speaker>
+            <stage>lägger upp ur pannan och
             <lb/> sätter för <persName ref="#Jean">Jean</persName>.</stage>
             <p>Åh, det är en smula njure bara, som jag skar
             <lb/> ur kalfsteken!</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>luktar på maten.</stage>
-            <p>Skönt! Det är min stora <emph>délice!</emph> <stage>Känner på tall­
+            <speaker>JEAN</speaker>
+            <stage>luktar på maten.</stage>
+            <p>Skönt! Det är min stora <emph>délice!</emph>
+              <stage>Känner på tall­
 	    <lb break="no"/>riken.</stage> Men du kunde ha värmt tallriken!</p>
           </sp>
           <sp who="#spKristin">
             <speaker>KRISTIN.</speaker>
             <p>Han är då kinkigare än sjelfva <persName ref="#Grefven">grefven</persName>, när han
-            <lb/> sätter till.</p> <stage>Drar honom smeksamt i håret.</stage>
+            <lb/> sätter till.</p>
+            <stage>Drar honom smeksamt i håret.</stage>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>ond.</stage>
+            <speaker>JEAN</speaker>
+            <stage>ond.</stage>
             <p>Nej du får inte lugga mig! Du vet hur ömtålig
             <lb/> jag är.</p>
           </sp>
@@ -408,21 +428,27 @@
             <p>Så, så, det var bara kärlek vet han ju!</p>
           </sp>
           <stage>
-	    <stage><persName ref="#Jean">JEAN</persName> äter.</stage> <stage><persName ref="#Kristin">KRISTIN</persName> drar upp en butelj öl.</stage>
+            <stage>
+              <persName ref="#Jean">JEAN</persName> äter.</stage>
+            <stage>
+              <persName ref="#Kristin">KRISTIN</persName> drar upp en butelj öl.</stage>
           </stage>
           <sp who="#spJean">
             <speaker>JEAN.</speaker>
             <p>Öl, på midsommarafton; nej, tack ska du ha!</p>
-            <lb/> <p>Då har jag bättre sjelf. <stage>Öppnar en bordslåda och tar
+            <lb/>
+            <p>Då har jag bättre sjelf. <stage>Öppnar en bordslåda och tar
             <lb/> fram en butelj rödvin med gult lack.</stage> Gula lacket, ser
-            <lb/> du! —</p> <p>Ge mig nu ett glas! Ett fotglas förstås, när
+            <lb/> du! —</p>
+            <p>Ge mig nu ett glas! Ett fotglas förstås, när
             <lb/> man dricker <emph>pur!</emph>
             </p>
           </sp>
           <pb facs="6272-34.jpg"/>
           <fw type="pageNum">5</fw>
           <sp who="#spKristin">
-            <speaker>KRISTIN</speaker> <stage>återvänder till spisen och
+            <speaker>KRISTIN</speaker>
+            <stage>återvänder till spisen och
             <lb/> sätter på en liten kastrull.</stage>
             <p>Gud bevare den som skulle få honom till man!
             <lb/> En sån kinkblåsa!</p>
@@ -460,7 +486,7 @@
             <p>Fröken är allt högfärdig i somliga fall och för
             <lb/> litet stolt i andra, alldeles som grefvinnan i lifstiden.
             <pb facs="6272-35.jpg"/>
-            <fw type="pageNum">6</fw>
+              <fw type="pageNum">6</fw>
             Hon trifdes bäst i köket och lagårn, men hon ville
             <lb/> aldrig åka efter <emph>en</emph> häst; hon gick med smutsiga man­
 	    <lb break="no"/>chetter, men skulle ha grefvekronan i knapparna. —
@@ -476,7 +502,7 @@
           <sp who="#spKristin">
             <speaker>KRISTIN.</speaker>
             <p>Åh ja, skryt lagom! Jag har hört hvad <persName ref="#Clara">Clara</persName>
-            <lb/> säger jag, som har klädt henne.</p>
+              <lb/> säger jag, som har klädt henne.</p>
           </sp>
           <sp who="#spJean">
             <speaker>JEAN.</speaker>
@@ -507,29 +533,37 @@
             <stage>Slår korken i buteljen.</stage>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage type="entrance" who="#FrökenJulie">i dörren, talar utåt.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage type="entrance" who="#FrökenJulie">i dörren, talar utåt.</stage>
             <p>Jag är straxt tillbaka! Gå på ni så länge!</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>smyger buteljen i bords­
+            <speaker>JEAN</speaker>
+            <stage>smyger buteljen i bords­
 	    <lb break="no"/>lådan; reser sig aktnings­
 	    <lb break="no"/>fullt.</stage>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage><stage>in</stage>; <stage>fram till <persName ref="#Kristin">Kristin</persName> vid
-            <lb/> spegeln.</stage></stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>
+              <stage>in</stage>; <stage>fram till <persName ref="#Kristin">Kristin</persName> vid
+            <lb/> spegeln.</stage>
+            </stage>
             <p>Nå! är du i ordning?</p>
           </sp>
           <sp who="#spKristin">
-            <speaker>KRISTIN</speaker> <stage>tecknar att <persName ref="#Jean">JEAN</persName> är när­
+            <speaker>KRISTIN</speaker>
+            <stage>tecknar att <persName ref="#Jean">JEAN</persName> är när­
 	    <lb break="no"/>varande.</stage>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>galant.</stage>
+            <speaker>JEAN</speaker>
+            <stage>galant.</stage>
             <p>Är det hemligheter damerna ha för sig?</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>slår honom i ansigtet med 
+            <speaker>FRÖKEN</speaker>
+            <stage>slår honom i ansigtet med 
             <lb/> näsduken.</stage>
             <p>Det är nyfiken!</p>
           </sp>
@@ -538,26 +572,31 @@
             <p>Ah, hvad det luktade godt af den violetten!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>kokett.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>kokett.</stage>
             <p>Oförskämdt! Förstår han sig på parfymer också?
             <lb/> Dansa, det kan han bra ... så, inte titta! gå sin väg</p>
           </sp>
           <pb facs="6272-37.jpg"/>
           <fw type="pageNum">8</fw>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>näsvist, artigt.</stage>
+            <speaker>JEAN</speaker>
+            <stage>näsvist, artigt.</stage>
             <p>Är det någon trollsoppa på midsommarnatten som
             <lb/> damerna koka? Någonting att spå med i lyckans
             <lb/> stjerna, der man får se den tillkommande!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>skarpt.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>skarpt.</stage>
             <p>Får han se <emph>den</emph>, så ska han ha starka ögon!
-            <lb/> <stage>Till <persName ref="#Kristin">Kristin</persName>.</stage> Slå opp på en halfbutelj och korka väl.
+            <lb/>
+              <stage>Till <persName ref="#Kristin">Kristin</persName>.</stage> Slå opp på en halfbutelj och korka väl.
             <lb/> — Kom nu och dansa en scottish med mig, <persName ref="#Jean">Jean</persName> ...</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>dröjande.</stage>
+            <speaker>JEAN</speaker>
+            <stage>dröjande.</stage>
             <p>Jag vill inte vara oartig mot någon, men den
             <lb/> här dansen hade jag lofvat <persName ref="#Kristin">Kristin</persName> ...</p>
           </sp>
@@ -583,12 +622,14 @@
           <pb facs="6272-38.jpg"/>
           <fw type="pageNum">9</fw>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>brusar upp.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>brusar upp.</stage>
             <p>Hvad för slag? Hvad för slags tydningar? Hvad
             <lb/> menar han?</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>undfallande.</stage>
+            <speaker>JEAN</speaker>
+            <stage>undfallande.</stage>
             <p>Efter fröken inte vill förstå, så måste jag tala
             <lb/> tydligare. Det ser illa ut att föredra en af sin under­
 	    <lb break="no"/>hafvande för andra som vänta samma ovanliga ära ...</p>
@@ -606,14 +647,17 @@
             <p>Som fröken befaller! Jag är till tjenst!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>blidt.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>blidt.</stage>
             <p>Tag det inte så nu att jag befaller! I afton äro
             <lb/> vi ju till fest som glada menskor och lägga bort all
             <lb/> rang! Så, bjud mig armen nu! — Var inte orolig,
-            <lb/> <persName ref="#Kristin">Kristin</persName>! Jag ska inte ta din fästman ifrån dig!</p>
+            <lb/>
+              <persName ref="#Kristin">Kristin</persName>! Jag ska inte ta din fästman ifrån dig!</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage type="exit" who="#FrökenJulie #Jean">bjuder sin arm och för ut
+            <speaker>JEAN</speaker>
+            <stage type="exit" who="#FrökenJulie #Jean">bjuder sin arm och för ut
             <lb/> fröken.</stage>
           </sp>
         </div>
@@ -625,14 +669,16 @@
           <lb/> i lokalen; vänder vid behof ryggen åt publiken; ser icke ut
           <lb/> i salongen; brådskar icke som om hon vore rädd publiken
           <lb/> skulle bli otålig.</stage>
-	  <sp who="#spKristin">
-            <speaker>KRISTIN</speaker> <stage rend="normal">ensam. Svag fiolmusik på afstånd i scottishtakt.</stage>
-	  </sp>
-	  <sp who="#spKristin">
-            <speaker>KRISTIN</speaker> <stage rend="normal">gnolande efter musiken; dukar af efter <persName ref="#Jean">Jean</persName>,
+          <sp who="#spKristin">
+            <speaker>KRISTIN</speaker>
+            <stage rend="normal">ensam. Svag fiolmusik på afstånd i scottishtakt.</stage>
+          </sp>
+          <sp who="#spKristin">
+            <speaker>KRISTIN</speaker>
+            <stage rend="normal">gnolande efter musiken; dukar af efter <persName ref="#Jean">Jean</persName>,
             <lb/> diskar tallriken vid slaskbordet, torkar och ställer in i ett
             <lb/> skåp.</stage>
-	  </sp>
+          </sp>
           <stage rend="normal">Derpå lägger hon af sig köksförklädet, tar fram en liten
           <lb/> spegel ur en bordslåda, ställer den mot syrenkrukan på bor­
 	  <lb break="no"/>det; tänder ett talgljus och värmer en hårnål, hvarmed hon
@@ -646,7 +692,8 @@
         <fw type="pageNum">11</fw>
         <div>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage type="entrance" who="#Jean">in ensam.</stage>
+            <speaker>JEAN</speaker>
+            <stage type="entrance" who="#Jean">in ensam.</stage>
             <p>Ja, men hon <emph>är</emph> galen! Ett sådant sätt att dansa!
             <lb/> Och folket står och grinar åt henne bakom dörrarna.
             <lb/> Hvad säger du om det, <persName ref="#Kristin">Kristin</persName>?</p>
@@ -667,15 +714,18 @@
             <lb/> jag vet min plats också ...</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>lägger handen om hennes lif.</stage>
+            <speaker>JEAN</speaker>
+            <stage>lägger handen om hennes lif.</stage>
             <p>Du är en förståndig flicka, <persName ref="#Kristin">Kristin</persName>, och du skulle
             <lb/> bli en bra hustru ...</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage><stage type="entrance" who="#FrökenJulie">in</stage>; <stage>obehagligt öfverraskad;
+            <speaker>FRÖKEN</speaker>
+            <stage>
+              <stage type="entrance" who="#FrökenJulie">in</stage>; <stage>obehagligt öfverraskad;
             <lb/> med tvungen skämtsamhet.</stage>
-          </stage>
-          <p>Ni är just en charmangt kavaljer — som springer
+            </stage>
+            <p>Ni är just en charmangt kavaljer — som springer
           <lb/> ifrån er dam.</p>
           </sp>
           <pb facs="6272-41.jpg"/>
@@ -686,7 +736,8 @@
             <lb/> uppsöka min öfvergifna!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>turnerar.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>turnerar.</stage>
             <p>Vet ni att ni dansar som ingen! — Men hvar­
 	    <lb break="no"/>för går ni i livré på helgdagsafton! Tag af det der
             <lb/> genast!</p>
@@ -711,7 +762,8 @@
             <lb/> ser hans arm när han byter rock.</stage>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>till <persName ref="#Kristin">KRISTIN</persName>.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>till <persName ref="#Kristin">KRISTIN</persName>.</stage>
             <p>Hör <persName ref="#Kristin">Kristin</persName>; är <persName ref="#Jean">Jean</persName> din fästman, efter han är
             <lb/> så förtrolig?</p>
           </sp>
@@ -738,7 +790,8 @@
             <p>Men det blef ju till ingenting ändå ...</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>in i svart bonjour och svart
+            <speaker>JEAN</speaker>
+            <stage>in i svart bonjour och svart
             <lb/> melonhatt.</stage>
           </sp>
           <sp who="#spFrökenJulie">
@@ -770,7 +823,8 @@
             <p>Åh ni smickrar!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>stött.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>stött.</stage>
             <p>Smickrar honom?</p>
           </sp>
           <pb facs="6272-43.jpg"/>
@@ -843,11 +897,13 @@
             <p>Det gör hon inte, men hon talar i sömnen.</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>cyniskt.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>cyniskt.</stage>
             <p>Hur vet ni att hon talar i sömnen?</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>fräckt.</stage>
+            <speaker>JEAN</speaker>
+            <stage>fräckt.</stage>
             <p>Jag har hört det!</p>
           </sp>
           <stage>Paus, hvarunder de betrakta hvarandra.</stage>
@@ -885,7 +941,8 @@
             <lb/> att jag föredrar det för vin.</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>tar fram ur islåren en öl­
+            <speaker>JEAN</speaker>
+            <stage>tar fram ur islåren en öl­
 	    <lb break="no"/>butelj, som han drar upp;
             <lb/> söker i skåpet ett glas och
             <lb/> en tallrik samt serverar.</stage>
@@ -917,14 +974,16 @@
             <p>Drick min skål nu!</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>tvekande.</stage>
+            <speaker>JEAN</speaker>
+            <stage>tvekande.</stage>
           </sp>
           <sp who="#spFrökenJulie">
             <speaker>FRÖKEN.</speaker>
             <p>Jag tror att gamla karlen är blyg!</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>på knä, skämtande parodiskt;
+            <speaker>JEAN</speaker>
+            <stage>på knä, skämtande parodiskt;
             <lb/> höjande sitt glas.</stage>
             <p>Min herskarinnas skål!</p>
           </sp>
@@ -934,7 +993,8 @@
             <lb/> är det riktigt träffadt.</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>tvekande, men derpå djerft
+            <speaker>JEAN</speaker>
+            <stage>tvekande, men derpå djerft
             <lb/> fattande hennes fot, som han
             <lb/> kysser lätt.</stage>
           </sp>
@@ -943,7 +1003,8 @@
             <p>Utmärkt! Ni skulle ha blifvit aktör.</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>stiger upp.</stage>
+            <speaker>JEAN</speaker>
+            <stage>stiger upp.</stage>
             <p>Detta går inte an längre! fröken; någon skulle
             <lb/> kunna komma och se oss.</p>
           </sp>
@@ -964,7 +1025,8 @@
             <lb/> — Sitt ner nu!</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>sätter sig.</stage>
+            <speaker>JEAN</speaker>
+            <stage>sätter sig.</stage>
             <p>Jag vill inte såra er, men de begagnade uttryck —
             <lb/> som kastade misstankar af den art, att ... ja det kan
             <lb/> ni fatta sjelf! Ni är ju inte något barn, och när man
@@ -974,7 +1036,8 @@
           <sp who="#spFrökenJulie">
             <speaker>FRÖKEN.</speaker>
             <p>Så hvad? Och för öfrigt äro vi icke ensamma.
-            <lb/> <persName ref="#Kristin">Kristin</persName> är ju här.</p>
+            <lb/>
+              <persName ref="#Kristin">Kristin</persName> är ju här.</p>
           </sp>
           <sp who="#spJean">
             <speaker>JEAN.</speaker>
@@ -982,34 +1045,44 @@
           </sp>
           <sp who="#spFrökenJulie">
             <speaker>FRÖKEN.</speaker>
-            <p>Då skall jag väcka henne.</p> <stage>reser sig.</stage> <p><persName ref="#Kristin">Kristin</persName>!
+            <p>Då skall jag väcka henne.</p>
+            <stage>reser sig.</stage>
+            <p>
+              <persName ref="#Kristin">Kristin</persName>!
             <lb/> Sofver du?</p>
           </sp>
           <sp who="#spKristin">
-            <speaker>KRISTIN</speaker> <stage>i sömnen.</stage>
+            <speaker>KRISTIN</speaker>
+            <stage>i sömnen.</stage>
             <p>Bla- bla- bla- bla!</p>
           </sp>
           <sp who="#spFrökenJulie">
             <speaker>FRÖKEN.</speaker>
-            <p><persName ref="#Kristin">Kristin</persName>! — Den kan sofva!</p>
+            <p>
+              <persName ref="#Kristin">Kristin</persName>! — Den kan sofva!</p>
           </sp>
           <pb facs="6272-48.jpg"/>
           <fw type="pageNum">19</fw>
           <sp who="#spKristin">
-            <speaker>KRISTIN</speaker> <stage>i sömnen.</stage>
-            <p><persName ref="#Grefven">Grefvens</persName> stöflar är borstade — sätta på kaffet
+            <speaker>KRISTIN</speaker>
+            <stage>i sömnen.</stage>
+            <p>
+              <persName ref="#Grefven">Grefvens</persName> stöflar är borstade — sätta på kaffet
             <lb/> — straxt, straxt, straxt. — hå hå — puh!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>tar henne i näsan.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>tar henne i näsan.</stage>
             <p>Vill du vakna opp!</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>strängt.</stage>
+            <speaker>JEAN</speaker>
+            <stage>strängt.</stage>
             <p>Inte störa den som sofver!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>skarpt.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>skarpt.</stage>
             <p>Hva!</p>
           </sp>
           <sp who="#spJean">
@@ -1019,9 +1092,12 @@
             <lb/> respektera ...</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>turnerar.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>turnerar.</stage>
             <p>Det är vackert tänkt, och det hedrar honom —
-            <lb/> tack för det!</p> <stage>räcker <persName ref="#Jean">Jean</persName> handen.</stage> <p>Kom nu ut och
+            <lb/> tack för det!</p>
+            <stage>räcker <persName ref="#Jean">Jean</persName> handen.</stage>
+            <p>Kom nu ut och
             <lb/> plocka lite syrener åt mig!</p>
           </sp>
           <stage>Under det följande vaknar <persName ref="#Kristin">Kristin</persName>, <stage type="exit" who="#Kristin">går sömndrucken
@@ -1120,7 +1196,8 @@
           <sp who="#spFrökenJulie">
             <speaker>FRÖKEN.</speaker>
             <p>Här står jag och pratar om drömmar med er.
-            <lb/> Kom nu! Bara ut i parken!</p> <stage>Hon bjuder honom armen,
+            <lb/> Kom nu! Bara ut i parken!</p>
+            <stage>Hon bjuder honom armen,
             <lb/> och de gå.</stage>
           </sp>
           <pb facs="6272-51.jpg"/>
@@ -1131,8 +1208,9 @@
             <lb/> så bli vi sanndrömmade! fröken!</p>
           </sp>
           <sp who="#spFrökenJulie #spJean">
-            <speaker>FRÖKEN och JEAN</speaker> <stage>vända i dörren. <persName ref="#Jean">Jean</persName>
-            <lb/> håller handen för
+            <speaker>FRÖKEN och JEAN</speaker>
+            <stage>vända i dörren. <persName ref="#Jean">Jean</persName>
+              <lb/> håller handen för
             <lb/> ena ögat.</stage>
           </sp>
           <sp who="#spFrökenJulie">
@@ -1147,16 +1225,22 @@
           <sp who="#spFrökenJulie">
             <speaker>FRÖKEN.</speaker>
             <p>Det var min klädningsärm som skrubbade er;
-            <lb/> sitt ner nu, så ska jag hjelpa er!</p> <stage>tar honom i armen
+            <lb/> sitt ner nu, så ska jag hjelpa er!</p>
+            <stage>tar honom i armen
             <lb/> och sätter honom, fattar hans hufvud och lutar det bakåt;
-            <lb/> med snibben af näsduken söker hon få ut smolket.</stage> <p>Sitt still
-            <lb/> nu, alldeles still! —</p> <stage>Slår honom öfver handen.</stage> <p>Så! vill
+            <lb/> med snibben af näsduken söker hon få ut smolket.</stage>
+            <p>Sitt still
+            <lb/> nu, alldeles still! —</p>
+            <stage>Slår honom öfver handen.</stage>
+            <p>Så! vill
             <lb/> han lyda! — Jag tror han darrar stora, starka karlen!
             <lb/> — <stage>Känner på hans öfverarm.</stage> Med sådana armar!</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>varnande.</stage>
-            <p><persName ref="#FrökenJulie">Fröken Julie</persName>!</p>
+            <speaker>JEAN</speaker>
+            <stage>varnande.</stage>
+            <p>
+              <persName ref="#FrökenJulie">Fröken Julie</persName>!</p>
           </sp>
           <sp who="#spFrökenJulie">
             <speaker>FRÖKEN.</speaker>
@@ -1174,9 +1258,11 @@
             <lb/> Kyss min hand, och tacka mig!</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>stiger upp.</stage>
-            <p><persName ref="#FrökenJulie">Fröken Julie</persName>! hör på mig! — Nu har <persName ref="#Kristin">Kristin</persName>
-            <lb/> gått och lagt sig! — Vill ni höra på mig!</p>
+            <speaker>JEAN</speaker>
+            <stage>stiger upp.</stage>
+            <p>
+              <persName ref="#FrökenJulie">Fröken Julie</persName>! hör på mig! — Nu har <persName ref="#Kristin">Kristin</persName>
+              <lb/> gått och lagt sig! — Vill ni höra på mig!</p>
           </sp>
           <sp who="#spFrökenJulie">
             <speaker>FRÖKEN.</speaker>
@@ -1208,7 +1294,8 @@
             <p>Inte för mig; jag är assurerad!</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>djerft.</stage>
+            <speaker>JEAN</speaker>
+            <stage>djerft.</stage>
             <p>Nej, det är ni inte! Och om ni är det, så fins
             <lb/> det eldfarlig inrättning i grannskapet!</p>
           </sp>
@@ -1238,12 +1325,14 @@
             <p>Jag fruktar nästan!</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>djerft fram och vill ta hen­
+            <speaker>JEAN</speaker>
+            <stage>djerft fram och vill ta hen­
 	    <lb break="no"/>ne om lifvet för att kyssa
             <lb/> henne.</stage>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>slår honom en örfil.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>slår honom en örfil.</stage>
             <p>Hut!</p>
           </sp>
           <sp who="#spJean">
@@ -1259,7 +1348,7 @@
             <p>Då var det också allvar nyss! Ni leker alldeles
             <lb/> för allvarsamt och det är det farliga! Nu är jag trött
             <pb facs="6272-54.jpg"/>
-            <fw type="pageNum">25</fw>
+              <fw type="pageNum">25</fw>
             på leken och ber om ursäkt att jag återgår till mitt
             <lb/> arbete. <persName ref="#Grefven">Grefven</persName> skall ha sina stöflar i tid och mid­
 	    <lb break="no"/>natten är längesen förbi.</p>
@@ -1299,7 +1388,8 @@
             <p>Hvem var det?</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>tiger.</stage>
+            <speaker>JEAN</speaker>
+            <stage>tiger.</stage>
           </sp>
           <pb facs="6272-55.jpg"/>
           <fw type="pageNum">26</fw>
@@ -1321,7 +1411,8 @@
             <p>Det var ni!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>sätter sig.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>sätter sig.</stage>
             <p>Så kostligt ...!</p>
           </sp>
           <sp who="#spJean">
@@ -1372,7 +1463,8 @@
             <lb/> inte annat än att välja den!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>som tagit syrenen, låter
+            <speaker>FRÖKEN</speaker>
+            <stage>som tagit syrenen, låter
             <lb/> den falla på bordet.</stage>
           </sp>
           <sp who="#spJean">
@@ -1380,7 +1472,7 @@
             <p>Derpå satte jag till att springa, störtade igenom
             <lb/> en hallonhäck, rusade öfver ett jordgubbsland, och
             <pb facs="6272-57.jpg"/>
-            <fw type="pageNum">28</fw>
+              <fw type="pageNum">28</fw>
             kom upp på rosenterassen. Der fick jag se en skär
             <lb/> klädning och ett par hvita strumpor — det var ni.
             <lb/> Jag lade mig ner under en ogräshög, under kan ni
@@ -1393,12 +1485,14 @@
             <lb/> dotter</persName>!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>elegiskt.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>elegiskt.</stage>
             <p>Tror ni att alla fattiga barn haft samma tankar
             <lb/> som ni i detta fall?</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>först tvekande, sedan öfver­
+            <speaker>JEAN</speaker>
+            <stage>först tvekande, sedan öfver­
 	    <lb break="no"/>tygande.</stage>
             <p>Om <emph>alla</emph> fattiga — ja — naturligtvis! Natur­
 	    <lb break="no"/>ligtvis!</p>
@@ -1409,7 +1503,8 @@
             <lb/> fattig!</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>med djup smärta, starkt 
+            <speaker>JEAN</speaker>
+            <stage>med djup smärta, starkt 
             <lb/> chargeradt.</stage>
             <p>Åh, <persName ref="#FrökenJulie">fröken Julie</persName>! Åh! — En hund kan få ligga
             <lb/> i grefvinnans soffa, en häst kan bli smekt på nosen
@@ -1418,7 +1513,7 @@
             <lb/> opp i verlden, men hur ofta är det! — Emellertid,
             <lb/> vet ni hvad jag så gjorde! — Jag sprang ner i qvarn­
 	    <pb break="no" facs="6272-58.jpg"/>
-            <fw type="pageNum">29</fw>bäcken med kläderna på; blef uppdragen och fick
+              <fw type="pageNum">29</fw>bäcken med kläderna på; blef uppdragen och fick
             <lb/> stryk. Men nästa söndag, när far och alla i huset
             <lb/> foro bort till mormors, så lagade jag så att jag blef
             <lb/> hemma. Och så tvättade jag mig med såpa och
@@ -1479,7 +1574,8 @@
             <lb/> fästfolk.</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>fixerar henne.</stage>
+            <speaker>JEAN</speaker>
+            <stage>fixerar henne.</stage>
             <p>Är det säkert det? — Ja, för mig är det inte
             <lb/> värdt att fröken gör sig oskyldig ...</p>
           </sp>
@@ -1511,7 +1607,8 @@
             <p>Som ifrågavarande! Sista gången ...</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>stiger upp.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>stiger upp.</stage>
             <p>Tyst! Jag vill inte höra mer!</p>
           </sp>
           <sp who="#spJean">
@@ -1520,7 +1617,8 @@
             <lb/> Nå, då ber jag att få gå och lägga mig.</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>blidt.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>blidt.</stage>
             <p>Gå och lägga sig på midsommarnatten!</p>
           </sp>
           <sp who="#spJean">
@@ -1571,7 +1669,7 @@
             <lb/> jag inte hör orätt — kommer folket hitåt för att
             <lb/> söka mig! Och finner man oss här, är ni förlorad!</p>
           </sp>
-	  <sp who="#spBondfolket">
+          <sp who="#spBondfolket">
             <stage>Kören nalkas sjungande:</stage>
             <lg rend="2ind">
               <l>Det kommo två fruar från skogen</l>
@@ -1591,7 +1689,7 @@
               <l>En annan jag påtänker</l>
               <l>Tridiridi-ralla-la!</l>
             </lg>
-	  </sp>
+          </sp>
           <pb facs="6272-62.jpg"/>
           <fw type="pageNum">33</fw>
           <sp who="#spFrökenJulie">
@@ -1607,7 +1705,8 @@
             <lb/> inte på dem!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>lyss.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>lyss.</stage>
             <p>Hvad sjunger de?</p>
           </sp>
           <sp who="#spJean">
@@ -1626,7 +1725,8 @@
           <sp who="#spFrökenJulie">
             <speaker>FRÖKEN.</speaker>
             <p>Fly? Men hvart? Ut kommer vi inte! Och till
-            <lb/> <persName ref="#Kristin">Kristin</persName> kan vi inte gå!</p>
+            <lb/>
+              <persName ref="#Kristin">Kristin</persName> kan vi inte gå!</p>
           </sp>
           <sp who="#spJean">
             <speaker>JEAN.</speaker>
@@ -1646,7 +1746,8 @@
             <lb/> skjuter jag! — Kom! <stage>på knä.</stage> Kom!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>betydelsefullt.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>betydelsefullt.</stage>
             <p>Lofvar ni mig ...?</p>
           </sp>
           <sp who="#spJean">
@@ -1654,36 +1755,47 @@
             <p>Jag svär!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage type="exit" who="#FrökenJulie">ut hastigt till höger.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage type="exit" who="#FrökenJulie">ut hastigt till höger.</stage>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage type="exit" who="#Jean">häftigt efter.</stage>
+            <speaker>JEAN</speaker>
+            <stage type="exit" who="#Jean">häftigt efter.</stage>
           </sp>
           <anchor xml:id="JulieJeanRelChange1"/>
         </div>
         <div>
           <head>BALLETT.</head>
           <sp who="#spBondfolket">
-	    <speaker>BONDFOLKET</speaker> <stage type="setting"><stage type="entrance" who="#Bondfolket">in högtidsklädda, med blommor i hat­
-	    <lb break="no"/>tarna;</stage> <stage>en fiolspelare i spetsen</stage>; <stage>en ankare svagdricka och
+            <speaker>BONDFOLKET</speaker>
+            <stage type="setting">
+              <stage type="entrance" who="#Bondfolket">in högtidsklädda, med blommor i hat­
+	    <lb break="no"/>tarna;</stage>
+              <stage>en fiolspelare i spetsen</stage>; <stage>en ankare svagdricka och
             <lb/> en kutting i bränvin, sirade med grönt, läggas upp på bordet</stage>;
-            <lb/> <stage>glas tagas fram. Derpå drickes. Sedan tar man i ring
+            <lb/>
+              <stage>glas tagas fram. Derpå drickes. Sedan tar man i ring
             <lb/> och sjunger och dansar dansleken: “Det kommo två fruar
-            <lb/> från skogen.“</stage></stage>
-	    </sp>
-            <stage type="exit" who="#Bondfolket" rend="ind">När detta är gjordt, gå de igen sjungande.</stage>
+            <lb/> från skogen.“</stage>
+            </stage>
+          </sp>
+          <stage type="exit" who="#Bondfolket" rend="ind">När detta är gjordt, gå de igen sjungande.</stage>
         </div>
         <div>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage type="entrance" who="#FrökenJulie">in ensam: ser förödelsen 
+            <speaker>FRÖKEN</speaker>
+            <stage type="entrance" who="#FrökenJulie">in ensam: ser förödelsen 
             <lb/> i köket; slår ihop hän­
 	    <lb break="no"/>derna; derpå tar hon upp
             <lb/> en pudervippa och pudrar
             <lb/> sitt ansigte.</stage>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage><stage type="entrance" who="#Jean">in</stage>; <stage>exalterad.</stage></stage>
-          <p>Der ser ni! Och ni har hört! Anser ni det möj­
+            <speaker>JEAN</speaker>
+            <stage>
+              <stage type="entrance" who="#Jean">in</stage>; <stage>exalterad.</stage>
+            </stage>
+            <p>Der ser ni! Och ni har hört! Anser ni det möj­
 	  <lb break="no"/>ligt att stanna här?</p>
           </sp>
           <pb facs="6272-64.jpg"/>
@@ -1732,7 +1844,7 @@
             <p>Det är ett lif skall ni tro; oupphörligt nya an­
 	    <lb break="no"/>sigten, nya språk; inte en minuts ledighet till grubbel
             <pb facs="6272-65.jpg"/>
-            <fw type="pageNum">36</fw>
+              <fw type="pageNum">36</fw>
             eller nerver; intet letande efter sysselsättning — då
             <lb/> arbetet ger sig sjelf: natt och dag klockan som ringer,
             <lb/> tåget som blåser, omnibussen som kommer och går;
@@ -1755,7 +1867,8 @@
             <lb/> skall sockra på dem med ert vackraste leende —
             <lb/> ack! låt oss resa härifrån — <stage>tar upp en kommunikations­
 	    <lb break="no"/>tabell ur fickan —</stage> genast, med nästa tåg! — vi äro i
-            <lb/> <placeName>Malmö</placeName> klockan sex och trettio; <placeName>Hamburg</placeName> åtta och
+            <lb/>
+              <placeName>Malmö</placeName> klockan sex och trettio; <placeName>Hamburg</placeName> åtta och
             <lb/> fyrtio i morgon tidigt; <placeName>Frankfurt</placeName>-<placeName>Basel</placeName> en dag, och
             <lb/> i <placeName>Como</placeName> genom Gotthardsbanan om, låt mig se, tre
             <lb/> dar. Tre dar!</p>
@@ -1767,20 +1880,23 @@
 	    <lb break="no"/>famna mig!</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>tvekande.</stage>
+            <speaker>JEAN</speaker>
+            <stage>tvekande.</stage>
             <p>Jag vill — men jag törs inte! Inte här i huset
             <pb facs="6272-66.jpg"/>
-            <fw type="pageNum">37</fw>
+              <fw type="pageNum">37</fw>
             mer. Jag älskar er — utan tvifvel — kan ni tvifla
             <lb/> på det?</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>blygt, sant qvinligt.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>blygt, sant qvinligt.</stage>
             <p>Ni! — Säg du! Mellan oss fins inga skrankor
             <lb/> mer! — Säg du!</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>plågad.</stage>
+            <speaker>JEAN</speaker>
+            <stage>plågad.</stage>
             <p>Jag kan inte! — Det fins skrankor mellan oss
             <lb/> ännu, så länge vi vistas i detta hus — det fins det
             <lb/> förflutna, det fins <persName ref="#Grefven">grefven</persName> — och jag har aldrig träffat
@@ -1801,7 +1917,8 @@
 	    <lb break="no"/>tjent i dag, men nästa år är jag proprietär, om tio
             <lb/> år är jag rentier, och sedan reser jag till <placeName>Rumänien</placeName>,
             <lb/> låter dekorera mig, och kan — märk väl jag säger
-            <lb/> <emph>kan</emph> — sluta som grefve!</p>
+            <lb/>
+              <emph>kan</emph> — sluta som grefve!</p>
           </sp>
           <sp who="#spFrökenJulie">
             <speaker>FRÖKEN.</speaker>
@@ -1826,11 +1943,12 @@
             <lb/> inte här! Och framför allt, inga känslor, om icke allt
             <lb/> skall vara förloradt! Vi måste ta saken kallt, som
             <lb/> kloka menskor. <stage>tar upp en cigarr, snoppar och tänder den.</stage>
-            <lb/> Sitt nu ner der! så sätter jag mig här, och så språka
+              <lb/> Sitt nu ner der! så sätter jag mig här, och så språka
             <lb/> vi, som om ingenting skulle ha inträffat.</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>förtviflad.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>förtviflad.</stage>
             <p>O, min Gud! Har ni då inga känslor!</p>
           </sp>
           <sp who="#spJean">
@@ -1843,7 +1961,8 @@
             <p>Nyss kunde ni kyssa min sko — och nu!</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>hårdt.</stage>
+            <speaker>JEAN</speaker>
+            <stage>hårdt.</stage>
             <p>Ja, det var då! Nu ha vi annat att tänka på.</p>
           </sp>
           <sp who="#spFrökenJulie">
@@ -1866,7 +1985,8 @@
             <lb/> har ni det?</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>tuggar cigarren.</stage>
+            <speaker>JEAN</speaker>
+            <stage>tuggar cigarren.</stage>
             <p>Jag! Helt visst! Jag har mina fackkunskaper, min
             <lb/> oerhörda erfarenhet, min språkkännedom! Det är ka­
 	    <lb break="no"/>pital som duger, vill jag tro!</p>
@@ -1924,7 +2044,8 @@
             <lb/> har gjort? Detsamma som mången före er!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>skriker i krampanfall.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>skriker i krampanfall.</stage>
             <p>Och nu föraktar ni mig! — Jag faller, jag faller!</p>
           </sp>
           <sp who="#spJean">
@@ -2004,7 +2125,8 @@
             <p>Oskyldiga, hm!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>går fram och åter.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>går fram och åter.</stage>
             <p>Fins det någon menniska på jorden i denna stund
             <lb/> som är så olycklig som jag!</p>
           </sp>
@@ -2024,11 +2146,12 @@
             <p>Och hora är hora!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>på knä med knäppta hän­
+            <speaker>FRÖKEN</speaker>
+            <stage>på knä med knäppta hän­
 	    <lb break="no"/>der.</stage>
             <p>O, Gud i himmelen, gör slut på mitt eländiga
             <pb facs="6272-72.jpg"/>
-            <fw type="pageNum">43</fw>
+              <fw type="pageNum">43</fw>
             lif! Tag mig bort från denna smuts som jag sjunker
             <lb/> i! Rädda mig! Rädda mig!</p>
           </sp>
@@ -2052,7 +2175,8 @@
             <p>Lögn således!</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>börjar bli sömnig.</stage>
+            <speaker>JEAN</speaker>
+            <stage>börjar bli sömnig.</stage>
             <p>Närapå! Historien har jag visst läst i en tidning
             <lb/> om en sotare, som lade sig i en vedlår med syrener,
             <lb/> derför att han blef stämd för barnuppfostringshjelp ...</p>
@@ -2134,13 +2258,15 @@
             <lb/> Sådant har jag bara sett bland djur och fallna qvinnor!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>krossad.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>krossad.</stage>
             <p>Det är rätt; slå mig; trampa mig; jag har icke
             <lb/> förtjenat bättre. Jag är en usling; men hjelp mig!
             <lb/> Hjelp mig ut ur detta, om det fins någon möjlighet!</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>blidare.</stage>
+            <speaker>JEAN</speaker>
+            <stage>blidare.</stage>
             <p>Jag vill inte skämma ut mig med att afstå min
             <lb/> andel i hedern att ha förfört; men tror ni att en
             <lb/> person i min ställning skulle ha vågat att kasta ögo­
@@ -2163,7 +2289,8 @@
           <pb facs="6272-75.jpg"/>
           <fw type="pageNum">46</fw>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>reser sig.</stage>
+            <speaker>JEAN</speaker>
+            <stage>reser sig.</stage>
             <p>Nej! Förlåt mig i stället för hvad jag sagt! Jag
             <lb/> slår icke en afväpnad och allra minst ett fruntim­
 	    <lb break="no"/>mer. Jag kan inte neka till att det å ena sidan
@@ -2213,7 +2340,7 @@
             <lb/> i huset, och man räknar icke det för stöld att bar­
 	    <lb break="no"/>nen snatta ett bär af fulla buskar! <stage>Hans passion vaknar
             <lb/> upp igen.</stage>
-            <persName ref="#FrökenJulie">Fröken Julie</persName>, ni är en herrlig qvinna, all­
+              <persName ref="#FrökenJulie">Fröken Julie</persName>, ni är en herrlig qvinna, all­
 	    <lb break="no"/>deles för god åt en sådan som mig! Ni har varit rof
             <lb/> för en berusning, och ni vill dölja felet genom att
             <lb/> inbilla er att ni älskar mig! Det gör ni inte, om inte
@@ -2261,14 +2388,16 @@
             <p>Fly med mig!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>rätar på sig.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>rätar på sig.</stage>
             <p>Fly? Ja vi ska fly! — Men jag är så trött! Ge
             <lb/> mig ett glas vin!</p>
             <stage>
-            <persName ref="#Jean">Jean</persName> slår i vin.</stage>
+              <persName ref="#Jean">Jean</persName> slår i vin.</stage>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>ser på sitt ur.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>ser på sitt ur.</stage>
             <p>Men vi ska tala först; vi ha ännu lite tid på
             <lb/> oss.</p>
             <stage>dricker ett glas; räcker fram glaset efter mer.</stage>
@@ -2291,7 +2420,7 @@
             <p>Vi ska fly! Men vi ska tala först, det vill säga,
             <lb/> jag skall tala, för det är bara ni som talat hittills.
             <pb facs="6272-78.jpg"/>
-            <fw type="pageNum">49</fw>
+              <fw type="pageNum">49</fw>
             Ni har berättat ert lif, nu vill jag berätta mitt, så
             <lb/> känna vi hvarandra i botten, innan vi börja vandrin­
 	    <lb break="no"/>gen tillsammans.</p>
@@ -2329,7 +2458,7 @@
 	    <lb break="no"/>gårn; jag måste rykta och sela på och gå på jagt,
             <lb/> ja till och med försöka lära jordbruk! Och på gården
             <pb facs="6272-79.jpg"/>
-            <fw type="pageNum">50</fw>
+              <fw type="pageNum">50</fw>
             sattes männen till qvinnosysslor, och qvinnor till mans­
 	    <lb break="no"/>sysslor — med den påföljd, att egendomen höll på
             <lb/> att gå under, och vi blefvo till åtlöje på trakten.
@@ -2360,7 +2489,8 @@
 	    <lb break="no"/>domsvän till henne, en tegelfabrikant här i närheten.
             <lb/> Far lånar, men får icke betala någon ränta, hvilket
             <lb/> förvånade honom. Och så blef gården uppbyggd! —
-            <lb/> <stage>dricker igen.</stage> Vet ni hvem som brännt af gården?</p>
+            <lb/>
+              <stage>dricker igen.</stage> Vet ni hvem som brännt af gården?</p>
           </sp>
           <sp who="#spJean">
             <speaker>JEAN.</speaker>
@@ -2390,7 +2520,8 @@
           </sp>
           <sp who="#spJean">
             <speaker>JEAN.</speaker>
-            <p><persName ref="#Grefven">Grefvens</persName> alltså, om det icke var paktum?</p>
+            <p>
+              <persName ref="#Grefven">Grefvens</persName> alltså, om det icke var paktum?</p>
           </sp>
           <sp who="#spFrökenJulie">
             <speaker>FRÖKEN.</speaker>
@@ -2410,7 +2541,7 @@
             <lb/> process, inte betala sin hustrus älskare, inte bevisa
             <lb/> att det är hustruns pengar! — Det var min mors
             <pb facs="6272-81.jpg"/>
-            <fw type="pageNum">52</fw>
+              <fw type="pageNum">52</fw>
             hämd för att han tog väldet i huset. — Den gången
             <lb/> höll han på att skjuta sig! — det gick rykten att
             <lb/> han gjort det och misslyckats! Men han lefver opp,
@@ -2512,7 +2643,8 @@
             <lb/> upp hotell!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>utan att höra <persName ref="#Jean">Jean</persName>.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>utan att höra <persName ref="#Jean">Jean</persName>.</stage>
             <p> — vid <placeName>Comosjön</placeName>, der solen alltid skiner, der lager­
 	    <lb break="no"/>träden grönska om julen och orangerna glöda.</p>
           </sp>
@@ -2528,7 +2660,8 @@
             <lb/> veckor!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>naivt.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>naivt.</stage>
             <p>Hvarför efter tre veckor?</p>
           </sp>
           <sp who="#spJean">
@@ -2568,13 +2701,15 @@
             <lb/> han skämt?</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>tar opp portemonnän och 
+            <speaker>JEAN</speaker>
+            <stage>tar opp portemonnän och 
             <lb/> kastar ett silfvermynt på
             <lb/> bordet.</stage>
             <p>Var så god! Jag vill inte vara skyldig något!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>utan att låtsas märka 
+            <speaker>FRÖKEN</speaker>
+            <stage>utan att låtsas märka 
             <lb/> skymfen.</stage>
             <p>Vet ni hvad lagen stadgar ...</p>
           </sp>
@@ -2586,7 +2721,8 @@
           <pb facs="6272-85.jpg"/>
           <fw type="pageNum">56</fw>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>som förut.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>som förut.</stage>
             <p>Ser ni någon annan utväg än att vi resa, viga
             <lb/> oss och skiljas?</p>
           </sp>
@@ -2688,7 +2824,8 @@
 	    <lb break="no"/>got dylikt!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>dröjande.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>dröjande.</stage>
             <p>Men, — det kan ske en gång till!</p>
           </sp>
           <sp who="#spJean">
@@ -2700,7 +2837,8 @@
             <p>Och följderna?</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>skrämd.</stage>
+            <speaker>JEAN</speaker>
+            <stage>skrämd.</stage>
             <p>Följderna! — Hvar har jag haft mitt hufvud
             <lb/> att jag inte tänkt på det? Ja, då fins bara ett —
             <lb/> härifrån! Genast! Jag följer er ej, ty då är allt för­
@@ -2752,7 +2890,8 @@
           <pb facs="6272-89.jpg"/>
           <fw type="pageNum">60</fw>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>halfhögt.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>halfhögt.</stage>
             <p>Följ med opp!</p>
           </sp>
           <sp who="#spJean">
@@ -2763,7 +2902,8 @@
             <lb/> leder henne ut.</stage>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>i det hon går.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>i det hon går.</stage>
             <p>Tala då vänligt till mig, <persName ref="#Jean">Jean</persName>!</p>
           </sp>
           <sp who="#spJean">
@@ -2771,18 +2911,20 @@
             <p>En befallning låter alltid ovänlig; känn på!
             <lb/> känn på!</p>
           </sp>
-	  <stage type="exit" who="#FrökenJulie"/>
+          <stage type="exit" who="#FrökenJulie"/>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>ensam; drar en suck af
+            <speaker>JEAN</speaker>
+            <stage>ensam; drar en suck af
             <lb/> lättnad; sätter sig vid bordet; tar fram annotationsbok och
             <lb/> penna; räknar högt då och då; stumt minspel, tills <persName ref="#Kristin">Kristin</persName>
-            <lb/> kommer in kyrkklädd, med en nattkappa och en hvit halsduk
+              <lb/> kommer in kyrkklädd, med en nattkappa och en hvit halsduk
             <lb/> i handen.</stage>
           </sp>
-	  <stage type="entrance" who="#Kristin"/>
+          <stage type="entrance" who="#Kristin"/>
           <sp who="#spKristin">
             <speaker>KRISTIN.</speaker>
-            <p><persName ref="#Jesus">Herre Jesus</persName>, hvad här ser ut! Hvad har ni tagit
+            <p>
+              <persName ref="#Jesus">Herre Jesus</persName>, hvad här ser ut! Hvad har ni tagit
             <lb/> er till för slag?</p>
           </sp>
           <sp who="#spJean">
@@ -2814,7 +2956,8 @@
           </sp>
           <stage>Paus.</stage>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>sömnigt.</stage>
+            <speaker>JEAN</speaker>
+            <stage>sömnigt.</stage>
             <p>Hvad är det för evangelium i dag?</p>
           </sp>
           <sp who="#spKristin">
@@ -2867,7 +3010,8 @@
           </sp>
           <stage>Paus.</stage>
           <sp who="#spKristin">
-            <speaker>KRISTIN</speaker> <stage>ser på glasen som stå
+            <speaker>KRISTIN</speaker>
+            <stage>ser på glasen som stå
             <lb/> halftömda på bordet.</stage>
             <p>Har ni druckit också tillsammans?</p>
           </sp>
@@ -2890,7 +3034,8 @@
           <pb facs="6272-92.jpg"/>
           <fw type="pageNum">63</fw>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>efter betänkande.</stage>
+            <speaker>JEAN</speaker>
+            <stage>efter betänkande.</stage>
             <p>Ja! Det är det!</p>
           </sp>
           <sp who="#spKristin">
@@ -2905,7 +3050,7 @@
           <sp who="#spKristin">
             <speaker>KRISTIN.</speaker>
             <p>Nej, inte på henne! Om det hade varit <persName ref="#Clara">Clara</persName>
-            <lb/> eller <persName ref="#Sofi">Sofi</persName>; då hade jag rifvit ut ögonen på dig! —
+              <lb/> eller <persName ref="#Sofi">Sofi</persName>; då hade jag rifvit ut ögonen på dig! —
             <lb/> Ja, det är så nu en gång; hvarför det vet jag inte.
             <lb/> — Nej, det var otäckt!</p>
           </sp>
@@ -2971,7 +3116,7 @@
             <speaker>KRISTIN.</speaker>
             <p>Ja, efter vi kommit på tal om det, så vore på
             <pb facs="6272-94.jpg"/>
-            <fw type="pageNum">65</fw>
+              <fw type="pageNum">65</fw>
             tiden att han såg sig om efter något, efter som vi ju
             <lb/> ändå ska gifta oss.</p>
           </sp>
@@ -2988,7 +3133,8 @@
             <lb/> och så får hustru och barn pension ...</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>med en grimas.</stage>
+            <speaker>JEAN</speaker>
+            <stage>med en grimas.</stage>
             <p>Det är mycket bra det der, men inte är det i
             <lb/> min genre att så straxt börja tänka på att dö för
             <lb/> hustru och barn. Jag får erkänna att jag verkligen
@@ -3018,17 +3164,21 @@
             <p>Jag vet inte jag, om inte det är <persName ref="#Clara">Clara</persName>.</p>
           </sp>
           <sp who="#spKristin">
-            <speaker>KRISTIN</speaker> <stage>går.</stage>
+            <speaker>KRISTIN</speaker>
+            <stage>går.</stage>
             <p>Det kan väl aldrig vara <persName ref="#Grefven">grefven</persName> heller som kom­
 	    <lb break="no"/>mit hem så ingen hört honom.</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>rädd.</stage>
-            <p><persName ref="#Grefven">Grefven</persName>? Nej, det kan jag aldrig tro, för då
+            <speaker>JEAN</speaker>
+            <stage>rädd.</stage>
+            <p>
+              <persName ref="#Grefven">Grefven</persName>? Nej, det kan jag aldrig tro, för då
             <lb/> skulle han nog ha ringt.</p>
           </sp>
           <sp who="#spKristin">
-            <speaker>KRISTIN</speaker> <stage type="exit" who="#Kristin">går.</stage>
+            <speaker>KRISTIN</speaker>
+            <stage type="exit" who="#Kristin">går.</stage>
             <p>Ja Gud hjelpe oss! Aldrig har jag varit med om
             <lb/> slikt.</p>
           </sp>
@@ -3036,11 +3186,13 @@
           <lb/> skenet flyttar sig småningom, tills det snedt faller in genom
           <lb/> fönsterna.</stage>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>går till dörren och ger ett
+            <speaker>JEAN</speaker>
+            <stage>går till dörren och ger ett
             <lb/> tecken.</stage>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage type="entrance" who="#FrökenJulie">in resklädd med en liten
+            <speaker>FRÖKEN</speaker>
+            <stage type="entrance" who="#FrökenJulie">in resklädd med en liten
             <lb/> fågelbur, höljd af en hand­
 	    <lb break="no"/>duk, och hvilken hon stäl­
 	    <lb break="no"/>ler på en stol.</stage>
@@ -3051,7 +3203,8 @@
             <p>Tyst! <persName ref="#Kristin">Kristin</persName> är vaken!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>ytterligt nervöst det föl­
+            <speaker>FRÖKEN</speaker>
+            <stage>ytterligt nervöst det föl­
 	    <lb break="no"/>jande.</stage>
             <p>Misstänkte hon någonting?</p>
           </sp>
@@ -3084,10 +3237,12 @@
           <sp who="#spFrökenJulie">
             <speaker>FRÖKEN.</speaker>
             <p>Ja, det är trollen som varit ute i natt! — Men,
-            <lb/> <persName ref="#Jean">Jean</persName>, hör på! Följ med, för nu har jag medel!</p>
+            <lb/>
+              <persName ref="#Jean">Jean</persName>, hör på! Följ med, för nu har jag medel!</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>tvekande.</stage>
+            <speaker>JEAN</speaker>
+            <stage>tvekande.</stage>
             <p>Tillräckligt?</p>
           </sp>
           <sp who="#spFrökenJulie">
@@ -3098,7 +3253,7 @@
             <lb/> ska gapa på en; stå stilla på stationerna, när man
             <lb/> ville flyga. Nej, jag kan inte, jag kan inte! Och
             <pb facs="6272-97.jpg"/>
-            <fw type="pageNum">68</fw>
+              <fw type="pageNum">68</fw>
             så komma minnena; barndomens minnen af mid­
 	    <lb break="no"/>sommardagar med den löfvade kyrkan — björklöf
             <lb/> och syrener; middagen med det dukade bordet, släg­
@@ -3126,7 +3281,8 @@
             <p>Nej, ingenting! Bara det man kan ha i kupén.</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>har tagit sin hatt.</stage>
+            <speaker>JEAN</speaker>
+            <stage>har tagit sin hatt.</stage>
             <p>Hvad har ni der för slag? Hvad är det!</p>
           </sp>
           <sp who="#spFrökenJulie">
@@ -3143,13 +3299,13 @@
             <speaker>FRÖKEN.</speaker>
             <p>Mitt enda jag tar med från hemmet; den enda
             <pb facs="6272-98.jpg"/>
-            <fw type="pageNum">69</fw>
+              <fw type="pageNum">69</fw>
             lefvande varelse som håller af mig, sedan <persName ref="#Diana">Diana</persName> blef
             <lb/> mig otrogen! Var inte grym! Låt mig få ta den med!</p>
           </sp>
           <sp who="#spJean">
             <speaker>JEAN.</speaker>
-	    <p>Släpp buren, säger jag, — och tala inte så högt
+            <p>Släpp buren, säger jag, — och tala inte så högt
             <lb/> — <persName ref="#Kristin">Kristin</persName> hör oss!</p>
           </sp>
           <sp who="#spFrökenJulie">
@@ -3171,7 +3327,8 @@
             <p>Tag hit; jag kan jag!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>tar ut fogeln ur buren
+            <speaker>FRÖKEN</speaker>
+            <stage>tar ut fogeln ur buren
             <lb/> och kysser den.</stage>
             <p>Åh, min lilla <persName ref="#GrönsiskanSerine">Serine</persName>, ska du dö ifrån din mat­
 	    <lb break="no"/>mor nu?</p>
@@ -3184,18 +3341,20 @@
             <lb/> till huggkubben och tar köksyxan.</stage>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>vänder sig bort.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>vänder sig bort.</stage>
           </sp>
           <sp who="#spJean">
             <speaker>JEAN.</speaker>
             <p>Ni skulle ha lärt er slagta kycklingar i stället
             <pb facs="6272-99.jpg"/>
-            <fw type="pageNum">70</fw>
+              <fw type="pageNum">70</fw>
             för att skjuta med revolver — <stage>hugger till</stage> — så skulle
             <lb/> ni inte dånat för en blodsdroppe!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>skriker.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>skriker.</stage>
             <p>Döda mig också! Döda mig! Ni som kan slagta
             <lb/> ett oskyldigt djur utan att darra på handen. O, jag
             <lb/> hatar och afskyr er; det är blod emellan oss! Jag
@@ -3207,7 +3366,8 @@
             <p>Ja, hvad hjelper det att ni bannar! Gå!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>närmar sig huggkubben, 
+            <speaker>FRÖKEN</speaker>
+            <stage>närmar sig huggkubben, 
             <lb/> liksom dragen dit mot sin
             <lb/> vilja.</stage>
             <p>Nej, jag vill inte gå ännu; jag kan inte ... jag
@@ -3226,7 +3386,7 @@
             <lb/> blod — föda ditt barn och ta ditt namn! Hör du,
             <lb/> hvad heter du? jag har aldrig hört ditt tillnamn —
             <pb facs="6272-100.jpg"/>
-            <fw type="pageNum">71</fw>
+              <fw type="pageNum">71</fw>
             du har väl inte något kan jag tro. Jag skulle bli fru
             <lb/> »Grindstugan» — eller madam »Sopbacken» — du 
             <lb/> hund som bär mitt halsband, du dräng som bär mitt
@@ -3252,11 +3412,13 @@
             <lb/> Julie</persName>! Stoppa nu mjölnarn i säcken bara!</p>
           </sp>
           <sp who="#spKristin">
-            <speaker>KRISTIN</speaker> <stage type="entrance" who="#Kristin">in kyrkklädd med psalm­
+            <speaker>KRISTIN</speaker>
+            <stage type="entrance" who="#Kristin">in kyrkklädd med psalm­
 	    <lb break="no"/>bok i handen.</stage>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>skyndar emot henne och 
+            <speaker>FRÖKEN</speaker>
+            <stage>skyndar emot henne och 
             <lb/> faller i hennes armar, lik­
 	    <lb break="no"/>som för att söka skydd.</stage>
             <p>Hjelp mig, <persName ref="#Kristin">Kristin</persName>! Hjelp mig mot denne man!</p>
@@ -3264,18 +3426,22 @@
           <pb facs="6272-101.jpg"/>
           <fw type="pageNum">72</fw>
           <sp who="#spKristin">
-            <speaker>KRISTIN</speaker> <stage>orörlig och kall.</stage>
+            <speaker>KRISTIN</speaker>
+            <stage>orörlig och kall.</stage>
             <p>Hvad är det nu för spektakel på helgdagsmorgon!
-            <lb/> <stage>ser på huggkubben.</stage> Och så ni svinat till här! — Hvad
+            <lb/>
+              <stage>ser på huggkubben.</stage> Och så ni svinat till här! — Hvad
             <lb/> vill det här betyda? Och så ni skriker och väsnas!</p>
           </sp>
           <sp who="#spFrökenJulie">
             <speaker>FRÖKEN.</speaker>
-            <p><persName ref="#Kristin">Kristin</persName>! Du är en qvinna och du är min vän!
+            <p>
+              <persName ref="#Kristin">Kristin</persName>! Du är en qvinna och du är min vän!
             <lb/> Akta dig för denna usling!</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>litet skygg och förlägen.</stage>
+            <speaker>JEAN</speaker>
+            <stage>litet skygg och förlägen.</stage>
             <p>Medan damerna räsonnera så går jag in och
             <lb/> rakar mig!</p>
             <stage>glider ut till höger.</stage>
@@ -3308,12 +3474,14 @@
           <sp who="#spKristin">
             <speaker>KRISTIN.</speaker>
             <p>Hvad är det om? Är det om dumheterna med
-            <lb/> <persName ref="#Jean">Jean</persName>! Ja si det bryr jag mig inte alls om, för det
+            <lb/>
+              <persName ref="#Jean">Jean</persName>! Ja si det bryr jag mig inte alls om, för det
             <lb/> lägger jag mig inte i. Men tänker hon narra honom
             <lb/> att schappa, så ska vi sätta p för det!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>ytterligt nervös.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>ytterligt nervös.</stage>
             <p>Försök nu att vara lugn <persName ref="#Kristin">Kristin</persName> och hör på
             <lb/> mig! Jag kan inte stanna här och <persName ref="#Jean">Jean</persName> kan inte stanna
             <lb/> här — vi måste således resa ...</p>
@@ -3323,7 +3491,8 @@
             <p>Hm, hm!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>ljusnar.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>ljusnar.</stage>
             <p>Men ser du, nu fick jag en idé — om vi skulle
             <lb/> resa alla tre — utomlands — till <placeName>Schweiz</placeName> och sätta
             <lb/> opp ett hotell tillsammans. — — Jag har pengar ser
@@ -3334,16 +3503,18 @@
             <stage rend="left">omfamnar <persName ref="#Kristin">Kristin</persName> och klappar henne.</stage>
           </sp>
           <sp who="#spKristin">
-            <speaker>KRISTIN</speaker> <stage>kall och eftertänksam.</stage>
+            <speaker>KRISTIN</speaker>
+            <stage>kall och eftertänksam.</stage>
             <p>Hm, hm!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>presto tempo.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>presto tempo.</stage>
             <p>Du har aldrig varit ute och rest, <persName ref="#Kristin">Kristin</persName> — du
             <lb/> ska ut och se dig om i verlden. Du kan aldrig tro
             <lb/> så roligt det är att resa på tåg — nya menniskor
             <pb facs="6272-103.jpg"/>
-            <fw type="pageNum">74</fw>
+              <fw type="pageNum">74</fw>
             oupphörligt — — nya länder — och så kommer vi
             <lb/> till <placeName>Hamburg</placeName> och ser på zoologiska trägårn i förbi­
 	    <lb break="no"/>farten — det tycker du om — och så gå vi i teatern
@@ -3355,7 +3526,8 @@
             <lb/> ska vi se hans slott — han har slott ännu som äro
             <lb/> inredda alldeles som i sagorna — och derifrån är
             <lb/> inte långt till <placeName>Schweiz</placeName> — med <placeName>Alperna</placeName> du — tänk
-            <lb/> <placeName>Alperna</placeName> med snö på midt i sommarn — och der
+            <lb/>
+              <placeName>Alperna</placeName> med snö på midt i sommarn — och der
             <lb/> vexer det apelsiner och lagrar som äro gröna hela
             <lb/> året om — — —</p>
           </sp>
@@ -3364,7 +3536,8 @@
             <lb/> en rem, som han håller med tänderna och venstra handen;
           <lb/> lyss förnöjd på samtalet och nickar bifall då och då.</stage>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>tempo prestissimo.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>tempo prestissimo.</stage>
             <p>— Och der ta vi ett hotell — och jag sitter vid
             <lb/> kassan, medan <persName ref="#Jean">Jean</persName> står och tar emot de resande ...
             <lb/> går ut och handlar ... skrifver bref — — Det blir
@@ -3377,7 +3550,7 @@
             <lb/> i köket. — Du ska naturligtvis inte stå vid spisen
             <lb/> sjelf — och du får lof att gå fint och nätt klädd,
             <pb facs="6272-104.jpg"/>
-            <fw type="pageNum">75</fw>
+              <fw type="pageNum">75</fw>
             när du ska visa dig för folk — och du med ditt
             <lb/> utseende — ja jag smickrar dig inte — du kan nog
             <lb/> knipa dig en man en vacker dag! en rik engelsman,
@@ -3395,7 +3568,8 @@
             <p>Hör nu! Tror fröken sjelf på det der?</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>tillintetgjord.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>tillintetgjord.</stage>
             <p>Om jag tror på det sjelf?</p>
           </sp>
           <sp who="#spKristin">
@@ -3403,22 +3577,27 @@
             <p>Ja!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>trött.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>trött.</stage>
             <p>Jag vet inte; jag tror inte på någonting mer.
-            <lb/> <stage>Hon faller ner på bänken; lägger hufvet mellan armarne
+            <lb/>
+              <stage>Hon faller ner på bänken; lägger hufvet mellan armarne
             <lb/> på bordet.</stage> Ingenting! Ingenting alls!</p>
           </sp>
           <sp who="#spKristin">
-            <speaker>KRISTIN</speaker> <stage>vänder sig åt höger der
-            <lb/> <persName ref="#Jean">Jean</persName> står.</stage>
+            <speaker>KRISTIN</speaker>
+            <stage>vänder sig åt höger der
+            <lb/>
+              <persName ref="#Jean">Jean</persName> står.</stage>
             <p>Jaså, han tänkte rymma!</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>snopen, lägger ifrån sig rak­
+            <speaker>JEAN</speaker>
+            <stage>snopen, lägger ifrån sig rak­
 	    <lb break="no"/>knifven på bordet.</stage>
             <p>Rymma? Det är nu för mycket sagdt! Du hörde
             <pb facs="6272-105.jpg"/>
-            <fw type="pageNum">76</fw>
+              <fw type="pageNum">76</fw>
             ju frökens projekt, och fastän hon är trött nu efter
             <lb/> nattvaket, kan det projektet mycket väl utföras!</p>
           </sp>
@@ -3428,7 +3607,8 @@
             <lb/> bli köksa hos den der ...</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>skarpt.</stage>
+            <speaker>JEAN</speaker>
+            <stage>skarpt.</stage>
             <p>Var så god och begagna ett städadt språk när
             <lb/> du talar vid din matmor! Förstår du det!</p>
           </sp>
@@ -3550,7 +3730,8 @@
             <p>Ja, men då har han ju anseende till de yttersta?</p>
           </sp>
           <sp who="#spKristin">
-            <speaker>KRISTIN</speaker> <stage>fortsätter.</stage>
+            <speaker>KRISTIN</speaker>
+            <stage>fortsätter.</stage>
             <p>— och det är lättare för en kamel att gå ige­
 	    <lb break="no"/>nom ett nålsöga än för en rik att komma in i Guds
             <lb/> rike! Si, så är det, <persName ref="#FrökenJulie">fröken Julie</persName>! Nu går jag emeller­
@@ -3566,12 +3747,14 @@
 	    <lb break="no"/>siskas skull! —</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>slö.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>slö.</stage>
             <p>Låt grönsiskan vara! — — Ser ni någon utväg,
             <lb/> ur detta, något slut på detta?</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>funderar.</stage>
+            <speaker>JEAN</speaker>
+            <stage>funderar.</stage>
             <p>Nej!</p>
           </sp>
           <sp who="#spFrökenJulie">
@@ -3584,7 +3767,8 @@
             <lb/> som — sjunken. Jag vet inte — jo! nu vet jag!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>tar rakknifven och gör en
+            <speaker>FRÖKEN</speaker>
+            <stage>tar rakknifven och gör en
             <lb/> gest.</stage>
             <p>Så här?</p>
           </sp>
@@ -3605,7 +3789,8 @@
             <p>Samma skilnad — som — mellan man och qvinna!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>med knifven i hand.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>med knifven i hand.</stage>
             <p>Jag vill det! Men jag kan det inte! — Min far
             <lb/> kunde det inte heller, den gången då han skulle ha
             <lb/> gjort det.</p>
@@ -3632,7 +3817,7 @@
             <lb/> är skulden till hvad som skett? Min fars, min mors
             <lb/> mitt eget! Mitt eget? Jag har ju intet eget? Jag har
             <pb facs="6272-110.jpg"/>
-            <fw type="pageNum">81</fw>
+              <fw type="pageNum">81</fw>
             inte en tanke som jag inte fått af min far, inte en
             <lb/> passion som jag inte fått af min mor, och det sista
             <lb/> — det der om att alla menskor äro lika — det fick
@@ -3655,7 +3840,9 @@
           </sp>
           <sp who="#spJean">
             <speaker>JEAN.</speaker>
-            <p><persName ref="#Grefven">Grefven</persName> är hemma! Tänk om <persName ref="#Kristin">Kristin</persName> — — —</p> <stage>går till talröret; knackar och lyss.</stage>
+            <p>
+              <persName ref="#Grefven">Grefven</persName> är hemma! Tänk om <persName ref="#Kristin">Kristin</persName> — — —</p>
+            <stage>går till talröret; knackar och lyss.</stage>
           </sp>
           <sp who="#spFrökenJulie">
             <speaker>FRÖKEN.</speaker>
@@ -3665,11 +3852,13 @@
             <speaker>JEAN.</speaker>
             <p>Det är <persName ref="#Jean">Jean</persName>! <persName ref="#Grefven">herr grefve</persName>! <stage>lyss; (Obs: åskådaren
             <lb/> hör icke hvad <persName ref="#Grefven">grefven</persName> talar.)</stage> Ja, <persName ref="#Grefven">herr grefven</persName>! <stage>lyss.</stage> Ja,
-            <lb/> <persName ref="#Grefven">herr grefven</persName>! Strax! <stage>lyss.</stage> Genast, <persName ref="#Grefven">herr grefven</persName>! <stage>lyss.</stage>
-            <lb/> Jaha! Om en half timme!</p>
+            <lb/>
+              <persName ref="#Grefven">herr grefven</persName>! Strax! <stage>lyss.</stage> Genast, <persName ref="#Grefven">herr grefven</persName>! <stage>lyss.</stage>
+              <lb/> Jaha! Om en half timme!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>ytterligt ängslig.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>ytterligt ängslig.</stage>
             <p>Hvad sa han? Herre Jesus, hvad sa han?</p>
           </sp>
           <pb facs="6272-111.jpg"/>
@@ -3707,7 +3896,8 @@
             <lb/> kunde ju spela nyss så bra, när ni låg på knä — då
             <lb/> var ni adelsmannen — eller — har ni aldrig varit
             <lb/> på teatern och sett magnetisören? — <stage>Jakande gest af
-            <lb/> <persName ref="#Jean">Jean</persName>.</stage> — Han säger åt subjektet: tag qvasten; han tar
+            <lb/>
+                <persName ref="#Jean">Jean</persName>.</stage> — Han säger åt subjektet: tag qvasten; han tar
             <lb/> den; han säger: sopa, och den sopar — — —</p>
           </sp>
           <pb facs="6272-112.jpg"/>
@@ -3717,7 +3907,8 @@
             <p>Då måste ju den andra sofva!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>exstatisk.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>exstatisk.</stage>
             <p>Jag sofver redan — hela rummet står som en
             <lb/> rök för mig ... och ni ser ut som en jernkamin ...
             <lb/> som liknar en svartklädd man i hög hatt — och era
@@ -3729,14 +3920,16 @@
             <lb/> lugnt!</p>
           </sp>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>tar rakknifven och sätter
+            <speaker>JEAN</speaker>
+            <stage>tar rakknifven och sätter
             <lb/> i hennes hand</stage>
             <p>Der är qvasten! Gå nu medan det är ljust —
             <lb/> ut på logen — och ...</p>
             <stage>hviskar i hennes öra.</stage>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage>vaken.</stage>
+            <speaker>FRÖKEN</speaker>
+            <stage>vaken.</stage>
             <p>Tack! Nu går jag till hvila! Men säg nu bara
             <lb/> — att de främsta också kunna få nådens gåfva. Säg
             <lb/> det, om ni också inte tror det.</p>
@@ -3780,13 +3973,15 @@
           </sp>
           <stage>Två starka ringningar i klockan.</stage>
           <sp who="#spJean">
-            <speaker>JEAN</speaker> <stage>far tillsammans; derpå 
+            <speaker>JEAN</speaker>
+            <stage>far tillsammans; derpå 
             <lb/> rätar han upp sig.</stage>
             <p>Det är rysligt! Men det fins intet annat slut!
             <lb/> — Gå!</p>
           </sp>
           <sp who="#spFrökenJulie">
-            <speaker>FRÖKEN</speaker> <stage type="exit" who="#FrökenJulie">går bestämdt ut genom 
+            <speaker>FRÖKEN</speaker>
+            <stage type="exit" who="#FrökenJulie">går bestämdt ut genom 
             <lb/> dörren.</stage>
           </sp>
         </div>
@@ -3794,8 +3989,10 @@
       </div>
     </body>
     <back>
-      <pb facs="6272-114.jpg"/><!-- tom sida -->
-      <pb facs="6272-115.jpg"/><!-- andra böcker -->
+      <pb facs="6272-114.jpg"/>
+<!-- tom sida -->
+      <pb facs="6272-115.jpg"/>
+<!-- andra böcker -->
       <gap reason="irrelevant"/>
       <div type="editorial">
         <listPerson type="cast">
@@ -3823,7 +4020,6 @@
           <listPerson>
             <personGrp xml:id="Bondfolket" sex="unknown"/>
           </listPerson>
-       
         </listPerson>
         <listPerson type="noncast">
           <listPerson type="fictive">
@@ -3913,33 +4109,33 @@
             </listPerson>
           </listPerson>
         </listPerson>
-       
-          <listRelation>
+        <listRelation>
           <relation type="personal" name="dotter" active="#FrökenJulie" passive="#Grefven #Grefvinnan"/>
           <relation type="other" name="talar.om" active="#FrökenJulie" passive="#Grefvinnan"/>
           <relation type="other" name="talar.om" active="#Jean" passive="#Anna #Grefvinnan"/>
           <relation type="personal" name="fästfolk" mutual="#Jean #Kristin"/>
-            <relation type="personal" name="matte" active="#FrökenJulie" passive="#GrönsiskanSerine"/>
+          <relation type="personal" name="matte" active="#FrökenJulie" passive="#GrönsiskanSerine"/>
           <relation type="personal" name="matte" active=" #FrökenJulie" passive="#Diana"/>
           <relation type="personal" name="sexuell.relation" mutual="#FrökenJulie #Jean" from-custom="#JulieJeanRelChange1" to-custom="#playend"/>
           <relation type="social" name="underlydande" active="#Jean" passive="#FrökenJulie"/>
           <relation type="social" name="betjänt" active="#Jean" passive="#Grefven"/>
-          <relation type="social" name="jungfru" active="#Clara" passive="#FrökenJulie" cert="medium"/><!-- har klätt Julie -->
+          <relation type="social" name="jungfru" active="#Clara" passive="#FrökenJulie" cert="medium"/>
+<!-- har klätt Julie -->
           <relation type="social" name="kokerska" active="#Kristin" passive="#Grefven"/>
           <relation type="social" name="tjänstefolk" mutual="#Clara #Kristin" cert="medium"/>
           <relation type="social" name="tjänstefolk" mutual="#Kristin #Sofi" cert="medium"/>
           <relation type="social" name="kokerska" active=" #Kristin" passive="#FrökenJulie"/>
           <relation type="other" name="dödar" active="#Jean" passive="#GrönsiskanSerine"/>
-        <relation type="other" name="kokar.mat.åt" active="#Kristin" passive="#Diana"/>
+          <relation type="other" name="kokar.mat.åt" active="#Kristin" passive="#Diana"/>
           <relation type="other" name="talar.om" active="#Kristin" passive="#Jesus #Clara #Sofi #FrökenJulie"/>
           <relation type="other" name="talar.om" active="#FrökenJulie" passive="#DonJuan #Josef #Jesus #KungLudvig #Rafael #Rubens"/>
           <relation type="other" name="talar.om" active="#Kristin" passive="#JohannesDöparen"/>
-            <relation type="other" name="talar.om" active="#Kristin #FrökenJulie" passive="#Jesus"/>
-            <relation type="other" name="talar.om" active="#Kristin #Jean" passive="#Grefven"/>
+          <relation type="other" name="talar.om" active="#Kristin #FrökenJulie" passive="#Jesus"/>
+          <relation type="other" name="talar.om" active="#Kristin #Jean" passive="#Grefven"/>
           <relation type="other" name="sjunger.om" active="#Bondfolket" passive="#FrökenJulie #Jean #Kristin"/>
           <relation type="other" name="stjäl.danskavaljer.från" active="#FrökenJulie" passive="#Anna"/>
         </listRelation>
-         </div>
+      </div>
     </back>
     <anchor xml:id="playend"/>
   </text>

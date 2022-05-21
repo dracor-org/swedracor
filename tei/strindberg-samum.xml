@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
@@ -147,18 +147,18 @@
       </classDecl>
       <tagsDecl>
         <rendition>
-          <!-- Rollbeskrivningar i castItem är i kursiv stil /TB -->
-          <!-- Set anges med kursiv stil /ME -->
-          <!-- Scenanvisningar anges med en punktstorlek mindre /SB -->
-          <!-- Scenanvisningar av typen setting anges med kursiv stil /ME -->
-          <!-- Scenanvisningar av typen presence anges med kursiv stil och i normal storlek;
+<!-- Rollbeskrivningar i castItem är i kursiv stil /TB -->
+<!-- Set anges med kursiv stil /ME -->
+<!-- Scenanvisningar anges med en punktstorlek mindre /SB -->
+<!-- Scenanvisningar av typen setting anges med kursiv stil /ME -->
+<!-- Scenanvisningar av typen presence anges med kursiv stil och i normal storlek;
                rollnamn (i versaler) är i normal stil /EF -->
-          <!-- Övriga scenanvisningar är i normal stil /EF -->
-          <!-- Scenanvisningar direkt efter talarrubrik är inline, vid flera rader indraget till rak vänstermarginal /EF -->
-          <!-- Fristående scenanvisningar är centrerade vid en rad; indragna första raden vid flera rader /EF -->
-          <!-- Stycken är indragna första raden /ME -->
-          <!-- Rubriker är centrerade /EF -->
-          <!-- Talarrubriker anges med mindre punktstorlek /EF -->
+<!-- Övriga scenanvisningar är i normal stil /EF -->
+<!-- Scenanvisningar direkt efter talarrubrik är inline, vid flera rader indraget till rak vänstermarginal /EF -->
+<!-- Fristående scenanvisningar är centrerade vid en rad; indragna första raden vid flera rader /EF -->
+<!-- Stycken är indragna första raden /ME -->
+<!-- Rubriker är centrerade /EF -->
+<!-- Talarrubriker anges med mindre punktstorlek /EF -->
         </rendition>
       </tagsDecl>
     </encodingDesc>
@@ -168,55 +168,74 @@
       </langUsage>
       <particDesc>
         <listPerson>
-          
           <person xml:id="spBiskra" sex="FEMALE">
-            <persName>Biskra</persName><!--castList-->
-            <persName>BISKRA</persName><!--speaker-->
-            <persName>Biskra</persName><!--editorial-->
+            <persName>Biskra</persName>
+<!--castList-->
+            <persName>BISKRA</persName>
+<!--speaker-->
+            <persName>Biskra</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spYoussef" sex="MALE">
-            <persName>Youssef</persName><!--castList-->
-            <persName>YOUSSEF</persName><!--speaker-->
-            <persName>shejk Youssef</persName><!--editorial-->
+            <persName>Youssef</persName>
+<!--castList-->
+            <persName>YOUSSEF</persName>
+<!--speaker-->
+            <persName>shejk Youssef</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spGuimard" sex="MALE">
-            <persName>Guimard</persName><!--castList-->
-            <persName>GUIMARD</persName><!--speaker-->
-            <persName>Charles Guimard</persName><!--editorial-->
+            <persName>Guimard</persName>
+<!--castList-->
+            <persName>GUIMARD</persName>
+<!--speaker-->
+            <persName>Charles Guimard</persName>
+<!--editorial-->
           </person>
         </listPerson>
       </particDesc>
     </profileDesc>
-
   </teiHeader>
   <text>
     <anchor xml:id="playstart"/>
     <front>
-      <pb facs="38643-0.jpg"/><!-- omslag -->
+      <pb facs="38643-0.jpg"/>
+<!-- omslag -->
       <gap reason="irrelevant"/>
-      <pb facs="38643-1.jpg"/><!-- omslag insida -->
-      <pb facs="38643-2.jpg"/><!-- smutstitel -->
+      <pb facs="38643-1.jpg"/>
+<!-- omslag insida -->
+      <pb facs="38643-2.jpg"/>
+<!-- smutstitel -->
       <gap reason="irrelevant"/>
-      <pb facs="38643-3.jpg"/><!-- titelsida volym -->
+      <pb facs="38643-3.jpg"/>
+<!-- titelsida volym -->
       <gap reason="irrelevant"/>
-      <pb facs="38643-4.jpg"/><!-- trycksida -->
+      <pb facs="38643-4.jpg"/>
+<!-- trycksida -->
       <gap reason="irrelevant"/>
-      <pb facs="38643-5.jpg"/><!-- titelsida -->
+      <pb facs="38643-5.jpg"/>
+<!-- titelsida -->
       <gap reason="irrelevant"/>
-      <pb facs="38643-6.jpg"/><!-- tom sida -->
+      <pb facs="38643-6.jpg"/>
+<!-- tom sida -->
       <pb facs="38643-7.jpg"/>
       <castList>
         <head>Personer:</head>
         <castItem>
-          <role><persName ref="#Biskra">BISKRA</persName></role>, <roleDesc>arabisk flicka</roleDesc>.
+          <role>
+            <persName ref="#Biskra">BISKRA</persName>
+          </role>, <roleDesc>arabisk flicka</roleDesc>.
         </castItem>
         <castItem>
-          <role><persName ref="#Youssef">YOUSSEF</persName></role>, <roleDesc>hennes älskare</roleDesc>.
+          <role>
+            <persName ref="#Youssef">YOUSSEF</persName>
+          </role>, <roleDesc>hennes älskare</roleDesc>.
         </castItem>
         <castItem>
-          <role><persName ref="#Guimard">GUIMARD</persName></role>, <roleDesc>löjtnant vid <persName ref="#Frankerna">zuaverna</persName></roleDesc>.
+          <role>
+            <persName ref="#Guimard">GUIMARD</persName>
+          </role>, <roleDesc>löjtnant vid <persName ref="#Frankerna">zuaverna</persName>
+          </roleDesc>.
         </castItem>
       </castList>
       <set>
@@ -234,18 +253,21 @@
             <lb/> fondväggen. Små sandhögar här och där på golfvet; en upp­<lb break="no"/>ryckt aloë, palmblad, alphagräs i en hög.</p>
         </stage>
         <div type="scene" n="1">
-         <head>Första scenen.</head>
-          <stage type="presence"><stage type="entrance" who="#Biskra">BISKRA in med burnus-kapuschongen neddragen för
+          <head>Första scenen.</head>
+          <stage type="presence">
+            <stage type="entrance" who="#Biskra">BISKRA in med burnus-kapuschongen neddragen för
             <lb/> ansiktet, och en guitarr på ryggen, kastar sig ner på en
             <lb/> matta och gör bön med armarne öfver bröstet</stage>.</stage>
           <stage>(Det blåser utanför.)</stage>
-          <pb facs="38643-8.jpg"/><fw type="pageNum">138</fw>
+          <pb facs="38643-8.jpg"/>
+          <fw type="pageNum">138</fw>
           <sp who="#spBiskra">
             <speaker>BISKRA.</speaker>
             <p>La ilâha all allâh!</p>
           </sp>
           <sp who="#spYoussef">
-            <speaker>YOUSSEF</speaker> <stage type="entrance" who="#Youssef">(in hastigt).</stage>
+            <speaker>YOUSSEF</speaker>
+            <stage type="entrance" who="#Youssef">(in hastigt).</stage>
             <p>Samum kommer! Hvar är <persName ref="#Guimard">franken</persName>?</p>
           </sp>
           <sp who="#spBiskra">
@@ -281,7 +303,8 @@
               <lb/> om en half timme kan allt vara öfver. — <persName ref="#Biskra">Biskra</persName>!
               <lb/> Kan du hata ännu?</p>
           </sp>
-          <pb facs="38643-9.jpg"/><fw type="pageNum">139</fw>
+          <pb facs="38643-9.jpg"/>
+          <fw type="pageNum">139</fw>
           <sp who="#spBiskra">
             <speaker>BISKRA.</speaker>
             <p>Om jag kan hata? — Mitt hat är gränslöst
@@ -308,7 +331,8 @@
           </sp>
           <sp who="#spBiskra">
             <speaker>BISKRA.</speaker>
-            <p><persName ref="#Youssef">Stolte cheik</persName>, <persName ref="#Youssef">stolte man</persName>!</p>
+            <p>
+              <persName ref="#Youssef">Stolte cheik</persName>, <persName ref="#Youssef">stolte man</persName>!</p>
           </sp>
           <sp who="#spYoussef">
             <speaker>YOUSSEF.</speaker>
@@ -326,7 +350,8 @@
             <speaker>YOUSSEF.</speaker>
             <p>Nåväl! Nu går jag ner och sofver vid
               <lb/> källan! — Behöfver jag lära dig de hemliga
-              <pb facs="38643-10.jpg"/><fw type="pageNum">140</fw>
+              <pb facs="38643-10.jpg"/>
+              <fw type="pageNum">140</fw>
               konster, som du lärt af <persName ref="#MaraboutSiddiCheik">den store Marabout
               <lb/> Siddi-cheik</persName>, och som du öfvar på marknader,
               <lb/> sedan du var barn?</p>
@@ -334,11 +359,13 @@
           <sp who="#spBiskra">
             <speaker>BISKRA.</speaker>
             <p>Det behöfver du icke! — Jag kan alla hem­<lb break="no"/>ligheter, som behöfvas för att skrämma lifvet ur
-              <lb/> <persName ref="#Guimard">en feg frank</persName>; <persName ref="#Guimard">den fege</persName>, som kryper på sin fiende
+              <lb/>
+              <persName ref="#Guimard">en feg frank</persName>; <persName ref="#Guimard">den fege</persName>, som kryper på sin fiende
               <lb/> och skickar blykulan före! Jag kan allt — ända
               <lb/> intill buktalarkonsten. Och hvad min konst ej
               <lb/> förmår, det skall solen göra, ty solen är med
-              <lb/> <persName ref="#Youssef">Youssef</persName> och <persName ref="#Biskra">Biskra</persName>.</p>
+              <lb/>
+              <persName ref="#Youssef">Youssef</persName> och <persName ref="#Biskra">Biskra</persName>.</p>
           </sp>
           <sp who="#spYoussef">
             <speaker>YOUSSEF.</speaker>
@@ -346,10 +373,12 @@
               <lb/> på. Du kan bränna dig, <persName ref="#Biskra">flicka</persName>!</p>
             <p>Tag först en dryck vatten, ty jag ser, att
               <lb/> dina händer skrumpna och — <stage>(har lyftat en matta, och
-              <lb/> går ner efter en skål vatten, som han räcker <persName ref="#Biskra">Biskra</persName>.)</stage></p>
+              <lb/> går ner efter en skål vatten, som han räcker <persName ref="#Biskra">Biskra</persName>.)</stage>
+            </p>
           </sp>
           <sp who="#spBiskra">
-            <speaker>BISKRA</speaker> <stage>(lyfter skålen till munnen).</stage>
+            <speaker>BISKRA</speaker>
+            <stage>(lyfter skålen till munnen).</stage>
             <p>— Och mitt öga börjar redan se rödt — mina
               <lb/> lungor torka — jag hör — jag hör — ser du
               <lb/> sanden rinner redan genom taket — och det
@@ -366,7 +395,8 @@
             <p>Först helvetet och sedan döden! Tror du
               <lb/> jag sviker!</p>
             <stage>(Slår ut vattnet på en sandhög.)</stage>
-            <pb facs="38643-11.jpg"/><fw type="pageNum">141</fw>
+            <pb facs="38643-11.jpg"/>
+            <fw type="pageNum">141</fw>
             <p>Jag skall vattna på sanden, så växer hämden!
               <lb/> och jag skall torka mitt hjärta. Väx hat! Bränn
               <lb/> sol! Kväf vind!</p>
@@ -381,7 +411,8 @@
             <lb/> gult.)</stage>
           <sp who="#spBiskra">
             <speaker>BISKRA.</speaker>
-            <p><persName ref="#Guimard">Franken</persName> kommer, och — Samum är här!
+            <p>
+              <persName ref="#Guimard">Franken</persName> kommer, och — Samum är här!
               <lb/> — Gå!</p>
           </sp>
           <sp who="#spYoussef">
@@ -402,7 +433,8 @@
           </sp>
           <sp who="#spBiskra">
             <speaker>BISKRA.</speaker>
-            <p><persName ref="#Frankerna">Ditt folk</persName> ledde jag vester till öst!</p>
+            <p>
+              <persName ref="#Frankerna">Ditt folk</persName> ledde jag vester till öst!</p>
           </sp>
           <sp who="#spGuimard">
             <speaker>GUIMARD.</speaker>
@@ -410,20 +442,24 @@
               <lb/> är rätt i öster och — vester! — Sätt mig på
               <lb/> en stol och ge mig vatten!</p>
           </sp>
-          <pb facs="38643-12.jpg"/><fw type="pageNum">142</fw>
+          <pb facs="38643-12.jpg"/>
+          <fw type="pageNum">142</fw>
           <sp who="#spBiskra">
-            <speaker>BISKRA</speaker> <stage>(leder <persName ref="#Guimard">Guimard</persName> till sand­<lb break="no"/>högen, lägger honom på
+            <speaker>BISKRA</speaker>
+            <stage>(leder <persName ref="#Guimard">Guimard</persName> till sand­<lb break="no"/>högen, lägger honom på
               <lb/> golfvet med hufvudet på
               <lb/> sandhögen).</stage>
             <p>Sitter du bra så?</p>
           </sp>
           <sp who="#spGuimard">
-            <speaker>GUIMARD</speaker> <stage>(ser på henne).</stage>
+            <speaker>GUIMARD</speaker>
+            <stage>(ser på henne).</stage>
             <p>Jag sitter litet krokig. Lägg något under
               <lb/> hufvet.</p>
           </sp>
           <sp who="#spBiskra">
-            <speaker>BISKRA</speaker> <stage>(trafvar sandhögen upp
+            <speaker>BISKRA</speaker>
+            <stage>(trafvar sandhögen upp
               <lb/> under hufvudet).</stage>
             <p>Där har du en kudde under hufvet!</p>
           </sp>
@@ -442,7 +478,8 @@
               <lb/> under — hufvet!</p>
           </sp>
           <sp who="#spBiskra">
-            <speaker>BISKRA</speaker> <stage>(släpar fram aloen och läg­<lb break="no"/>ger under knäna på <persName ref="#Guimard">Guimard</persName>).</stage>
+            <speaker>BISKRA</speaker>
+            <stage>(släpar fram aloen och läg­<lb break="no"/>ger under knäna på <persName ref="#Guimard">Guimard</persName>).</stage>
             <p>Där har du en pall!</p>
           </sp>
           <sp who="#spGuimard">
@@ -450,14 +487,17 @@
             <p>Och så vatten! — Vatten!</p>
           </sp>
           <sp who="#spBiskra">
-            <speaker>BISKRA</speaker> <stage>(tar den tomma skålen,
+            <speaker>BISKRA</speaker>
+            <stage>(tar den tomma skålen,
               <lb/> fyller den med sand och
               <lb/> räcker <persName ref="#Guimard">Guimard</persName>).</stage>
             <p>Drick medan det är kallt!</p>
           </sp>
-          <pb facs="38643-13.jpg"/><fw type="pageNum">143</fw>
+          <pb facs="38643-13.jpg"/>
+          <fw type="pageNum">143</fw>
           <sp who="#spGuimard">
-            <speaker>GUIMARD</speaker> <stage>(läppjar på skålen).</stage>
+            <speaker>GUIMARD</speaker>
+            <stage>(läppjar på skålen).</stage>
             <p>Det <emph>är</emph> kallt — men det släcker ändå inte
               <lb/> törsten! — Jag kan inte dricka — jag afskyr
               <lb/> vatten — tag bort det!</p>
@@ -489,12 +529,14 @@
               <lb/> Känner du inte såret sticka? —</p>
           </sp>
           <sp who="#spGuimard">
-            <speaker>GUIMARD</speaker> <stage>(tar sig åt vaden, sticker
+            <speaker>GUIMARD</speaker>
+            <stage>(tar sig åt vaden, sticker
               <lb/> sig på aloën).</stage>
             <p>Jo, jag känner det! — Vatten! Vatten!</p>
           </sp>
           <sp who="#spBiskra">
-            <speaker>BISKRA</speaker> <stage>(räcker honom sandskålen).</stage>
+            <speaker>BISKRA</speaker>
+            <stage>(räcker honom sandskålen).</stage>
             <p>Drick, drick!</p>
           </sp>
           <sp who="#spGuimard">
@@ -502,15 +544,18 @@
             <p>Nej, jag kan inte! Heliga Maria, Guds
               <lb/> Moder — jag har fått skräcken.</p>
           </sp>
-          <pb facs="38643-14.jpg"/><fw type="pageNum">144</fw>
+          <pb facs="38643-14.jpg"/>
+          <fw type="pageNum">144</fw>
           <sp who="#spBiskra">
             <speaker>BISKRA.</speaker>
             <p>Var inte rädd; jag skall läka dig och drifva
               <lb/> ut demonen med musikens allmakt! Hör!</p>
           </sp>
           <sp who="#spGuimard">
-            <speaker>GUIMARD</speaker> <stage>(skriker).</stage>
-            <p><persName ref="#Biskra">Ali</persName>! <persName ref="#Biskra">Ali</persName>! Icke musik! Jag kan icke lida
+            <speaker>GUIMARD</speaker>
+            <stage>(skriker).</stage>
+            <p>
+              <persName ref="#Biskra">Ali</persName>! <persName ref="#Biskra">Ali</persName>! Icke musik! Jag kan icke lida
               <lb/> det! Och hvad gagn har jag af den!</p>
           </sp>
           <sp who="#spBiskra">
@@ -518,11 +563,13 @@
             <p>Musiken tämjer ormens lömska ande, tror
               <lb/> du ej den rår på <persName ref="#Hunden">en rasande hunds</persName>! Hör!</p>
             <stage>(Sjunger vid guitarren.)</stage>
-            <p><persName ref="#Biskra">Biskra-Biskra</persName>, <persName ref="#Biskra">Biskra-Biskra</persName>, <persName ref="#Biskra">Biskra-Biskra</persName>.
+            <p>
+              <persName ref="#Biskra">Biskra-Biskra</persName>, <persName ref="#Biskra">Biskra-Biskra</persName>, <persName ref="#Biskra">Biskra-Biskra</persName>.
               <lb/>Samum! Samum</p>
           </sp>
           <sp who="#spYoussef">
-            <speaker>YOUSSEF</speaker> <stage>(underifrån).</stage>
+            <speaker>YOUSSEF</speaker>
+            <stage>(underifrån).</stage>
             <p>Samum! Samum!</p>
           </sp>
           <sp who="#spGuimard">
@@ -534,10 +581,12 @@
             <p>Har jag sjungit? Ser du, nu tar jag ett
               <lb/> palmblad i munnen!</p>
             <stage>(Tar en palmkvist mellan tänderna. Sång uppifrån.)</stage>
-            <p><persName ref="#Biskra">Biskra-Biskra</persName>, <persName ref="#Biskra">Biskra-Biskra</persName>, <persName ref="#Biskra">Biskra-Biskra</persName>.</p>
+            <p>
+              <persName ref="#Biskra">Biskra-Biskra</persName>, <persName ref="#Biskra">Biskra-Biskra</persName>, <persName ref="#Biskra">Biskra-Biskra</persName>.</p>
           </sp>
           <sp who="#spYoussef">
-            <speaker>YOUSSEF</speaker> <stage>(underifrån).</stage>
+            <speaker>YOUSSEF</speaker>
+            <stage>(underifrån).</stage>
             <p>Samum! Samum!</p>
           </sp>
           <sp who="#spGuimard">
@@ -548,14 +597,18 @@
             <speaker>BISKRA.</speaker>
             <p>Nu sjunger jag!</p>
           </sp>
-          <pb facs="38643-15.jpg"/><fw type="pageNum">145</fw>
+          <pb facs="38643-15.jpg"/>
+          <fw type="pageNum">145</fw>
           <sp who="#spBiskra #spYoussef">
-            <speaker>BISKRA och YOUSSEF</speaker> <stage>(tillsammans).</stage>
-            <p><persName ref="#Biskra">Biskra-Biskra</persName>, <persName ref="#Biskra">Biskra-Biskra</persName>, <persName ref="#Biskra">Biskra-Biskra</persName>!
+            <speaker>BISKRA och YOUSSEF</speaker>
+            <stage>(tillsammans).</stage>
+            <p>
+              <persName ref="#Biskra">Biskra-Biskra</persName>, <persName ref="#Biskra">Biskra-Biskra</persName>, <persName ref="#Biskra">Biskra-Biskra</persName>!
               <lb/> Samum!</p>
           </sp>
           <sp who="#spGuimard">
-            <speaker>GUIMARD</speaker> <stage>(reser sig).</stage>
+            <speaker>GUIMARD</speaker>
+            <stage>(reser sig).</stage>
             <p>Hvem är du <persName ref="#Biskra">djäfvul</persName>, som sjunger med två
               <lb/> röster! Är du en man eller en kvinna? Eller
               <lb/> båda delarna?</p>
@@ -578,14 +631,16 @@
           </sp>
           <sp who="#spGuimard">
             <speaker>GUIMARD.</speaker>
-            <p><persName ref="#Guimard">Afgudadyrkare</persName>?</p>
+            <p>
+              <persName ref="#Guimard">Afgudadyrkare</persName>?</p>
           </sp>
           <sp who="#spBiskra">
             <speaker>BISKRA.</speaker>
             <p>Ja! Tag fram <persName ref="#SanktEduard">den idol</persName> du bär på bröstet!</p>
           </sp>
           <sp who="#spGuimard">
-            <speaker>GUIMARD</speaker> <stage>(tar fram en medaljong).</stage>
+            <speaker>GUIMARD</speaker>
+            <stage>(tar fram en medaljong).</stage>
           </sp>
           <sp who="#spBiskra">
             <speaker>BISKRA.</speaker>
@@ -593,10 +648,13 @@
               <lb/> den Ende, den Barmhertige, Förbarmaren.</p>
           </sp>
           <sp who="#spGuimard">
-            <speaker>GUIMARD</speaker> <stage>(tvekande).</stage>
-            <p><persName ref="#SanktEduard">Den helige Eduard, min skyddspatron</persName>.</p>
+            <speaker>GUIMARD</speaker>
+            <stage>(tvekande).</stage>
+            <p>
+              <persName ref="#SanktEduard">Den helige Eduard, min skyddspatron</persName>.</p>
           </sp>
-          <pb facs="38643-16.jpg"/><fw type="pageNum">146</fw>
+          <pb facs="38643-16.jpg"/>
+          <fw type="pageNum">146</fw>
           <sp who="#spBiskra">
             <speaker>BISKRA.</speaker>
             <p>Kan han skydda dig? Kan han?</p>
@@ -612,7 +670,8 @@
             <stage>(Öppnar dörren, gardinen fläktar och gräset rör sig.)</stage>
           </sp>
           <sp who="#spGuimard">
-            <speaker>GUIMARD</speaker> <stage>(håller för mun).</stage>
+            <speaker>GUIMARD</speaker>
+            <stage>(håller för mun).</stage>
             <p>Stäng dörren!</p>
           </sp>
           <sp who="#spBiskra">
@@ -629,7 +688,8 @@
               <lb/> mig, men dig, <persName ref="#Guimard">otrogne</persName>, dödar han! Ner med <persName ref="#SanktEduard">af­<lb break="no"/>guden</persName>!</p>
           </sp>
           <sp who="#spGuimard">
-            <speaker>GUIMARD</speaker> <stage>(kastar medaljongen på
+            <speaker>GUIMARD</speaker>
+            <stage>(kastar medaljongen på
               <lb/> golfvet).</stage>
             <p>Vatten! Jag dör!</p>
           </sp>
@@ -645,7 +705,8 @@
             <speaker>BISKRA.</speaker>
             <p>Säg mina ord!</p>
           </sp>
-          <pb facs="38643-17.jpg"/><fw type="pageNum">147</fw>
+          <pb facs="38643-17.jpg"/>
+          <fw type="pageNum">147</fw>
           <sp who="#spGuimard">
             <speaker>GUIMARD.</speaker>
             <p>Tala!</p>
@@ -665,7 +726,8 @@
             <p>Lägg dig ner på golfvet!</p>
           </sp>
           <sp who="#spGuimard">
-            <speaker>GUIMARD</speaker> <stage>(lägger sig ner motvilligt).</stage>
+            <speaker>GUIMARD</speaker>
+            <stage>(lägger sig ner motvilligt).</stage>
           </sp>
           <sp who="#spBiskra">
             <speaker>BISKRA.</speaker>
@@ -693,9 +755,11 @@
           </sp>
           <sp who="#spGuimard">
             <speaker>GUIMARD.</speaker>
-            <p><persName ref="#Elise">Min hustru — Elise</persName>!</p>
+            <p>
+              <persName ref="#Elise">Min hustru — Elise</persName>!</p>
           </sp>
-          <pb facs="38643-18.jpg"/><fw type="pageNum">148</fw>
+          <pb facs="38643-18.jpg"/>
+          <fw type="pageNum">148</fw>
           <sp who="#spBiskra">
             <speaker>BISKRA.</speaker>
             <p>Hvem står bakom gardinen och lägger sin
@@ -716,7 +780,8 @@
           <sp who="#spBiskra">
             <speaker>BISKRA.</speaker>
             <p>Och han kan redan stå bakom gardinen
-              <lb/> och hålla <persName ref="#Elise"><persName ref="#Guimard">en annans</persName> hustru</persName> om halsen?</p>
+              <lb/> och hålla <persName ref="#Elise">
+                <persName ref="#Guimard">en annans</persName> hustru</persName> om halsen?</p>
           </sp>
           <sp who="#spGuimard">
             <speaker>GUIMARD.</speaker>
@@ -748,9 +813,11 @@
             <speaker>GUIMARD.</speaker>
             <p>Nej, icke nu mer!</p>
           </sp>
-          <pb facs="38643-19.jpg"/><fw type="pageNum">149</fw>
+          <pb facs="38643-19.jpg"/>
+          <fw type="pageNum">149</fw>
           <sp who="#spBiskra">
-            <speaker>BISKRA</speaker> <stage>(imiterar klockringning på
+            <speaker>BISKRA</speaker>
+            <stage>(imiterar klockringning på
               <lb/> guitarren).</stage>
             <p>Hvad ser du nu?</p>
           </sp>
@@ -767,7 +834,8 @@
           <sp who="#spGuimard">
             <speaker>GUIMARD.</speaker>
             <p>Vänta nu! — Jag kan inte höra det —
-              <lb/> <stage>(svårmodigt)</stage> men önskar du det? — så — nu hör
+              <lb/>
+              <stage>(svårmodigt)</stage> men önskar du det? — så — nu hör
               <lb/> jag det!</p>
           </sp>
           <sp who="#spBiskra">
@@ -783,28 +851,36 @@
             <speaker>BISKRA.</speaker>
             <p>Det är violetta band — och där står med
               <lb/> silfver tryckt — <writing who="#Guimard">»Farväl, <persName ref="#Georges">min älskade Georges</persName> —
-              <lb/> <persName ref="#Guimard">Din Fader</persName>»</writing>.</p>
+              <lb/>
+                <persName ref="#Guimard">Din Fader</persName>»</writing>.</p>
           </sp>
           <sp who="#spGuimard">
             <speaker>GUIMARD.</speaker>
-            <p>Ja, det står där! — <stage>(Gråter.)</stage> <persName ref="#Georges">Min Georges</persName>!
-              <lb/> <persName ref="#Georges">Georges</persName>! <persName ref="#Georges">Mitt älskade barn</persName>! — <persName ref="#Elise">Elise, min
+            <p>Ja, det står där! — <stage>(Gråter.)</stage>
+              <persName ref="#Georges">Min Georges</persName>!
+              <lb/>
+              <persName ref="#Georges">Georges</persName>! <persName ref="#Georges">Mitt älskade barn</persName>! — <persName ref="#Elise">Elise, min
               <lb/> hustru</persName>, trösta mig! — Hjälp mig! <stage>(Famlar omkring
               <lb/> sig.)</stage> Hvar är du? <persName ref="#Elise">Elise</persName>! Har du gått ifrån mig?
               <lb/> Svara! Ropa <persName ref="#Guimard">din älskades</persName> namn!</p>
           </sp>
           <sp>
-            <speaker>EN RÖST</speaker> <stage>(från taket).</stage>
-            <p><persName ref="#Jules">Jules</persName>! <persName ref="#Jules">Jules</persName>!</p>
+            <speaker>EN RÖST</speaker>
+            <stage>(från taket).</stage>
+            <p>
+              <persName ref="#Jules">Jules</persName>! <persName ref="#Jules">Jules</persName>!</p>
           </sp>
-          <pb facs="38643-20.jpg"/><fw type="pageNum">150</fw>
+          <pb facs="38643-20.jpg"/>
+          <fw type="pageNum">150</fw>
           <sp who="#spGuimard">
             <speaker>GUIMARD.</speaker>
-            <p><persName ref="#Jules">Jules</persName>! — Jag heter ju — Hvad heter jag?
+            <p>
+              <persName ref="#Jules">Jules</persName>! — Jag heter ju — Hvad heter jag?
               <lb/> — Charles heter jag! — Och hon ropade Jules!
               <lb/> — <persName ref="#Elise">Elise — älskade hustru</persName> — svara mig, ty din
               <lb/> ande är här — jag känner det — och du lofvade
-              <lb/> mig att aldrig älska någon annan —</p> </sp>
+              <lb/> mig att aldrig älska någon annan —</p>
+          </sp>
           <stage>(Rösten skrattar.)</stage>
           <sp who="#spGuimard">
             <speaker>GUIMARD.</speaker>
@@ -812,24 +888,28 @@
           </sp>
           <sp who="#spBiskra">
             <speaker>BISKRA.</speaker>
-            <p><persName ref="#Elise">Elise</persName>! <persName ref="#Elise">Din hustru</persName>!</p>
+            <p>
+              <persName ref="#Elise">Elise</persName>! <persName ref="#Elise">Din hustru</persName>!</p>
           </sp>
           <sp who="#spGuimard">
             <speaker>GUIMARD.</speaker>
             <p>Döda mig! — Jag vill inte lefva längre!
               <lb/> Lifvet äcklar mig som surkål i Saint-Doux —
               <lb/> vet du hvad Saint-Doux är, du? Svinister!
-              <lb/> <stage>(Spottar för sig.)</stage> Jag har ingen saliv mer — vatten!
+              <lb/>
+              <stage>(Spottar för sig.)</stage> Jag har ingen saliv mer — vatten!
               <lb/> vatten! annars biter jag dig!</p>
           </sp>
           <stage>(Full storm utanför.)</stage>
           <sp who="#spBiskra">
-            <speaker>BISKRA</speaker> <stage>(håller för munnen och
+            <speaker>BISKRA</speaker>
+            <stage>(håller för munnen och
               <lb/> hostar).</stage>
             <p>Nu dör du, <persName ref="#Guimard">frank</persName>! Skrif din sista vilja me­<lb break="no"/>dan tid är! — Hvar är din notisbok?</p>
           </sp>
           <sp who="#spGuimard">
-            <speaker>GUIMARD</speaker> <stage>(tar upp notisboken och
+            <speaker>GUIMARD</speaker>
+            <stage>(tar upp notisboken och
               <lb/> en penna).</stage>
             <p>Hvad skall jag skrifva!</p>
           </sp>
@@ -838,11 +918,15 @@
             <p>En man tänker på sin hustru när han skall
               <lb/> dö — och på sina barn!</p>
           </sp>
-          <pb facs="38643-21.jpg"/><fw type="pageNum">151</fw>
+          <pb facs="38643-21.jpg"/>
+          <fw type="pageNum">151</fw>
           <sp who="#spGuimard">
-            <speaker>GUIMARD</speaker> <stage>(skrifver).</stage>
-            <p><writing who="#Guimard">»<persName ref="#Elise">Elise</persName> — jag förbannar dig! Samum —
-              <lb/> jag dör —»</writing></p>
+            <speaker>GUIMARD</speaker>
+            <stage>(skrifver).</stage>
+            <p>
+              <writing who="#Guimard">»<persName ref="#Elise">Elise</persName> — jag förbannar dig! Samum —
+              <lb/> jag dör —»</writing>
+            </p>
           </sp>
           <sp who="#spBiskra">
             <speaker>BISKRA.</speaker>
@@ -857,7 +941,8 @@
             <p>Skrif: La ilâha ill allâh!</p>
           </sp>
           <sp who="#spGuimard">
-            <speaker>GUIMARD</speaker> <stage>(skrifver).</stage>
+            <speaker>GUIMARD</speaker>
+            <stage>(skrifver).</stage>
             <p>Det är skrifvet! Får jag dö nu?</p>
           </sp>
           <sp who="#spBiskra">
@@ -872,15 +957,20 @@
               <lb/> — <persName ref="#Araberna">araberna</persName> skjuta i spridd ordning — <persName ref="#Frankerna">fran­<lb break="no"/>kerna</persName> fly! —</p>
           </sp>
           <sp who="#spGuimard">
-            <speaker>GUIMARD</speaker> <stage>(reser sig).</stage>
-            <p><persName ref="#Frankerna">Frankerna</persName> fly icke!</p>
+            <speaker>GUIMARD</speaker>
+            <stage>(reser sig).</stage>
+            <p>
+              <persName ref="#Frankerna">Frankerna</persName> fly icke!</p>
           </sp>
           <sp who="#spBiskra">
-            <speaker>BISKRA</speaker> <stage>(blåser »reträtt» på en flöjt
+            <speaker>BISKRA</speaker>
+            <stage>(blåser »reträtt» på en flöjt
               <lb/> hon tagit fram).</stage>
-            <p><persName ref="#Frankerna">Frankerna</persName> fly, när det blåser reträtt!</p>
+            <p>
+              <persName ref="#Frankerna">Frankerna</persName> fly, när det blåser reträtt!</p>
           </sp>
-          <pb facs="38643-22.jpg"/><fw type="pageNum">152</fw>
+          <pb facs="38643-22.jpg"/>
+          <fw type="pageNum">152</fw>
           <sp who="#spGuimard">
             <speaker>GUIMARD.</speaker>
             <p>De retirera — det är reträtten — och jag
@@ -920,28 +1010,34 @@
               <lb/> satt, som <persName ref="#Georges">din Georges</persName> brukade kyssa om morg­<lb break="no"/>narne vid kaffebordet — ser du inte hvar bilan
               <lb/> tog här i nacken — när <persName ref="#Bödeln">bödeln</persName> aflifvade <persName ref="#Guimard">deser­<lb break="no"/>tören</persName>! — —</p>
           </sp>
-          <pb facs="38643-23.jpg"/><fw type="pageNum">153</fw>
+          <pb facs="38643-23.jpg"/>
+          <fw type="pageNum">153</fw>
           <sp who="#spGuimard">
-            <speaker>GUIMARD</speaker> <stage>(som med fasa sett och
+            <speaker>GUIMARD</speaker>
+            <stage>(som med fasa sett och
               <lb/> hört på, faller ner död).</stage>
           </sp>
           <anchor xml:id="GuimardDeath"/>
           <sp who="#spBiskra">
-            <speaker>BISKRA</speaker> <stage>(som legat på knä, reser sig
+            <speaker>BISKRA</speaker>
+            <stage>(som legat på knä, reser sig
               <lb/> sedan hon undersökt hans
               <lb/> pulsar. Sjunger).</stage>
             <p>Samum! Samum!</p>
             <stage>(Öppnar dörrarne; draperiet fladdrar, hon håller sig för
               <lb/> munnen och faller baklänges.)</stage>
-            <p><persName ref="#Youssef">Youssef</persName>!</p>
+            <p>
+              <persName ref="#Youssef">Youssef</persName>!</p>
           </sp>
         </div>
         <div type="scene" n="3">
           <head>Tredje scenen.</head>
           <stage type="presence" who="#Biskra #Guimard">DE FÖRRE. <stage type="entrance" who="#Youssef">YOUSSEF (upp ur källaren)</stage>.</stage>
           <sp who="#spYoussef">
-            <speaker>YOUSSEF</speaker> <stage>(undersöker <persName ref="#Guimard">Guimard</persName>, sö­<lb break="no"/>ker <persName ref="#Biskra">Biskra</persName>).</stage>
-            <p><persName ref="#Biskra">Biskra</persName>!</p>
+            <speaker>YOUSSEF</speaker>
+            <stage>(undersöker <persName ref="#Guimard">Guimard</persName>, sö­<lb break="no"/>ker <persName ref="#Biskra">Biskra</persName>).</stage>
+            <p>
+              <persName ref="#Biskra">Biskra</persName>!</p>
             <stage>(Får se <persName ref="#Biskra">Biskra</persName>, lyfter henne i sina armar.)</stage>
             <p>Lefver du?</p>
           </sp>
@@ -959,10 +1055,12 @@
             <p>Då lefver jag! Men gif mig vatten!</p>
           </sp>
           <sp who="#spYoussef">
-            <speaker>YOUSSEF</speaker> <stage>(bär henne mot luckan).</stage>
+            <speaker>YOUSSEF</speaker>
+            <stage>(bär henne mot luckan).</stage>
             <p>Här! — Nu är <persName ref="#Youssef">Youssef</persName> din!</p>
           </sp>
-          <pb facs="38643-24.jpg"/><fw type="pageNum">154</fw>
+          <pb facs="38643-24.jpg"/>
+          <fw type="pageNum">154</fw>
           <sp who="#spBiskra">
             <speaker>BISKRA.</speaker>
             <p>Och <persName ref="#Biskra">Biskra</persName> blir din sons moder! <persName ref="#Youssef">Youssef</persName>,
@@ -970,14 +1068,17 @@
           </sp>
           <sp who="#spYoussef">
             <speaker>YOUSSEF.</speaker>
-            <p><persName ref="#Biskra">Starka Biskra</persName>! Starkare än Samum!</p>
+            <p>
+              <persName ref="#Biskra">Starka Biskra</persName>! Starkare än Samum!</p>
           </sp>
         </div>
       </div>
     </body>
     <back>
-      <pb facs="38643-25.jpg"/><!-- tom sida -->
-      <pb facs="38643-26.jpg"/><!-- omslag, andra böcker -->
+      <pb facs="38643-25.jpg"/>
+<!-- tom sida -->
+      <pb facs="38643-26.jpg"/>
+<!-- omslag, andra böcker -->
       <gap reason="irrelevant"/>
       <div type="editorial">
         <listPerson>
@@ -1016,7 +1117,8 @@
                   <roleName>marabout</roleName>
                   <placeName>Siddi-cheik</placeName>
                 </persName>
-                <occupation scheme="#HISCO" code="14120" cert="medium">marabout</occupation><!-- 14120 Minister of Religion, 14190 Other Ministers of Religion and Related Members of Religious Orders -->
+                <occupation scheme="#HISCO" code="14120" cert="medium">marabout</occupation>
+<!-- 14120 Minister of Religion, 14190 Other Ministers of Religion and Related Members of Religious Orders -->
               </person>
               <person xml:id="Elise" sex="female">
                 <persName>

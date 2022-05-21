@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
@@ -43,7 +43,7 @@
           <resp>korrekturläsning</resp>
           <persName xml:id="ErnstM">Manilla Ernst</persName>
           <orgName>Dramawebben</orgName>
-        </respStmt>        
+        </respStmt>
         <respStmt>
           <resp>redigering</resp>
           <persName xml:id="ForsbomE">Eva Forsbom</persName>
@@ -154,10 +154,10 @@
       </classDecl>
       <tagsDecl>
         <rendition>
-          <!-- Stycken i scenanvisningar är indragna /SB-->
-          <!-- Talare är centrerade och anges med kursiv stil /SB -->
-          <!-- Versrader som bryts har indrag på andra raden /SB -->
-          <!-- Rubrik i rollista är centrerad och i kursiv stil /EF -->
+<!-- Stycken i scenanvisningar är indragna /SB-->
+<!-- Talare är centrerade och anges med kursiv stil /SB -->
+<!-- Versrader som bryts har indrag på andra raden /SB -->
+<!-- Rubrik i rollista är centrerad och i kursiv stil /EF -->
         </rendition>
       </tagsDecl>
     </encodingDesc>
@@ -167,86 +167,102 @@
       </langUsage>
       <particDesc>
         <listPerson>
-          
           <person xml:id="spSnöflinga" sex="FEMALE">
-            <persName>Snöflinga</persName><!--castList-->
+            <persName>Snöflinga</persName>
+<!--castList-->
           </person>
-          
           <person xml:id="spLasse" sex="MALE">
-            <persName>Lasse</persName><!--castList-->
-            <persName>Lasse</persName><!--speaker-->
-            <persName>Lasse</persName><!--editorial-->
+            <persName>Lasse</persName>
+<!--castList-->
+            <persName>Lasse</persName>
+<!--speaker-->
+            <persName>Lasse</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spKnutte" sex="MALE">
-            <persName>Knutte</persName><!--castList-->
-            <persName>Knutte</persName><!--speaker-->
-            <persName>Knutte</persName><!--editorial-->
+            <persName>Knutte</persName>
+<!--castList-->
+            <persName>Knutte</persName>
+<!--speaker-->
+            <persName>Knutte</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spPrinsessan" sex="FEMALE">
-            <persName>Prinsessan i månen</persName><!--castList-->
-            <persName>prinsessan i månen</persName><!--editorial-->
+            <persName>Prinsessan i månen</persName>
+<!--castList-->
+            <persName>prinsessan i månen</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spRuff" sex="MALE">
-            <persName>Jätten Ruff</persName><!--castList-->
-            <persName>Ruff</persName><!--editorial-->
+            <persName>Jätten Ruff</persName>
+<!--castList-->
+            <persName>Ruff</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spHjärtegoda" sex="FEMALE">
-            <persName>Féen Hjärtegoda</persName><!--castList-->
-            <persName>Hjärtegoda</persName><!--speaker-->
-            <persName>Hjärtegoda</persName><!--editorial-->
+            <persName>Féen Hjärtegoda</persName>
+<!--castList-->
+            <persName>Hjärtegoda</persName>
+<!--speaker-->
+            <persName>Hjärtegoda</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spAnna" sex="FEMALE">
-            <persName>Anna</persName><!--castList-->
-            <persName>Anna Björk</persName><!--editorial-->
+            <persName>Anna</persName>
+<!--castList-->
+            <persName>Anna Björk</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spFilip" sex="MALE">
-            <persName>Filip</persName><!--castList-->
-            <persName>Filip Björk</persName><!--editorial-->
+            <persName>Filip</persName>
+<!--castList-->
+            <persName>Filip Björk</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spHjalmar" sex="MALE">
-            <persName>Hjalmar</persName><!--castList-->
-            <persName>Hjalmar Björk</persName><!--editorial-->
+            <persName>Hjalmar</persName>
+<!--castList-->
+            <persName>Hjalmar Björk</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spKetty" sex="FEMALE">
-            <persName>Ketty Stråå</persName><!--castList-->
-            <persName>Ketty Stråå</persName><!--editorial-->
+            <persName>Ketty Stråå</persName>
+<!--castList-->
+            <persName>Ketty Stråå</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spLotten" sex="FEMALE">
-            <persName>Lotten</persName><!--castList-->
-            <persName>Lotten Björk</persName><!--editorial-->
+            <persName>Lotten</persName>
+<!--castList-->
+            <persName>Lotten Björk</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spRiken" sex="FEMALE">
-            <persName>Riken Blom</persName><!--castList-->
-            <persName>Riken Blom</persName><!--editorial-->
+            <persName>Riken Blom</persName>
+<!--castList-->
+            <persName>Riken Blom</persName>
+<!--editorial-->
           </person>
         </listPerson>
       </particDesc>
     </profileDesc>
-
   </teiHeader>
   <text>
     <anchor xml:id="playstart"/>
     <front>
-      <pb facs="5865-0.jpg"/><!-- tidskriftens omslag -->
+      <pb facs="5865-0.jpg"/>
+<!-- tidskriftens omslag -->
       <gap reason="irrelevant"/>
     </front>
     <body>
       <pb facs="5865-1.jpg"/>
-      <gap reason="irrelevant"/><!-- bl.a. titel och författare, samt tidskrift, årgång etc. -->
+      <gap reason="irrelevant"/>
+<!-- bl.a. titel och författare, samt tidskrift, årgång etc. -->
       <div>
         <p>Jullofvet var ännu icke slut, det härliga 
           <lb/> jullofvet! Det var den nionde januari,
-          <lb/> <persName ref="#Farmor">farmors</persName> födelsedag. Hon hade tillbragt hel­<lb break="no"/>gen hos <persName ref="#Björk">sin son, förvaltare Björk</persName> på Jössebo.
+          <lb/>
+          <persName ref="#Farmor">farmors</persName> födelsedag. Hon hade tillbragt hel­<lb break="no"/>gen hos <persName ref="#Björk">sin son, förvaltare Björk</persName> på Jössebo.
           <lb/> Annars brukade <persName ref="#Anna #Björk #Filip #FruBjörk #Hjalmar #Lotten">hela familjen Björk</persName> hvarje
           <lb/> jul gästa hos <persName ref="#Farmor">farmor</persName> på Malvineberg, men nu
           <lb/> hade <persName ref="#Oskar">en ny liten björktelning</persName> skjutit upp i
@@ -254,15 +270,18 @@
           <lb/> han var för liten och späd att föras ut i 20
           <lb/> graders köld. Alltså måste <persName ref="#Farmor">farmor</persName> i stället
           <lb/> komma till Jössebo.</p>
-        <p><persName ref="#Anna #Björk #Filip #FruBjörk #Hjalmar #Lotten #Oskar">Familjen Björk</persName> bestod af herr och fru
+        <p>
+          <persName ref="#Anna #Björk #Filip #FruBjörk #Hjalmar #Lotten #Oskar">Familjen Björk</persName> bestod af herr och fru
           <lb/> med fem barn: <persName ref="#Filip">Filip</persName>, <persName ref="#Hjalmar">Hjalmar</persName>, <persName ref="#Lotten">Lotten</persName> och
-          <lb/> <persName ref="#Anna">Anna</persName> samt <persName ref="#Oskar">den minste lille</persName>, som nyss blifvit
+          <lb/>
+          <persName ref="#Anna">Anna</persName> samt <persName ref="#Oskar">den minste lille</persName>, som nyss blifvit
           <lb/> döpt till Oskar och som <persName ref="#Anna #Filip #Hjalmar #Lotten">alla syskonen</persName> i pur
           <lb/> förtjusning voro färdiga att äta upp, som om
           <lb/> han varit ett rosenrödt äpple. Dessutom
           <lb/> fanns i huset <persName ref="#Ketty">en snäll och rar lärarinna, frö­<lb break="no"/>ken Ketty Stråå</persName>, samt <persName ref="#Riken">lilla Riken Blom, <persName ref="#Farmor">far­<lb break="no"/>mors</persName> hjälpreda</persName>. Nu ha vi presenterat dem
           <lb/> allesammans.</p>
-        <p><persName ref="#Farmor">Farmors</persName> födelsedag skulle naturligtvis
+        <p>
+          <persName ref="#Farmor">Farmors</persName> födelsedag skulle naturligtvis
           <lb/> firas med pompa och ståt. <persName ref="#Ketty">Ketty</persName> och <persName ref="#Riken">Riken</persName>,
           <lb/> som båda voro mycket pålitliga, hade under
           <lb/> åtta dagars tid fullt upp att göra med för­<lb break="no"/>beredelser till festen. Nu skulle den gå af
@@ -298,8 +317,10 @@
                   <lb/> och väl hade <persName ref="#Larsson">stalldrängen Larsson</persName> arbetat i
                   <lb/> sitt anletes svett för att släpa in granar i
                   <lb/> salen, sätta dem på fötter och strö bomulls­<lb break="no"/>tappar på grenarna; han blef också med <persName ref="#LarssonsFru">hustru</persName>
-                  <lb/> och <persName ref="#LarssonsBarn">barn</persName> inbjuden såsom åskådare. <stage type="entrance" who="#Snöflinga"><persName ref="#Anna">Lilla
-                  <lb/> sexåriga Anna</persName> kom först framhoppande mel­<lb break="no"/>lan granarna</stage>, klädd till snöflinga i hvit kläd­<pb break="no" facs="5865-2.jpg"/><fw type="pageNum">274</fw>ning och bomull i lockarna, neg djupt och
+                  <lb/> och <persName ref="#LarssonsBarn">barn</persName> inbjuden såsom åskådare. <stage type="entrance" who="#Snöflinga">
+                    <persName ref="#Anna">Lilla
+                  <lb/> sexåriga Anna</persName> kom först framhoppande mel­<lb break="no"/>lan granarna</stage>, klädd till snöflinga i hvit kläd­<pb break="no" facs="5865-2.jpg"/>
+                  <fw type="pageNum">274</fw>ning och bomull i lockarna, neg djupt och
                   <lb/> läste upp sin lilla strof:</p>
               </stage>
               <sp who="#spSnöflinga">
@@ -315,8 +336,10 @@
                 </lg>
               </sp>
               <stage>
-                <p><stage type="exit" who="#Snöflinga">Efter ännu en nigning flyger den lilla
-                  <lb/> snöflingan bort genom skogen.</stage></p>
+                <p>
+                  <stage type="exit" who="#Snöflinga">Efter ännu en nigning flyger den lilla
+                  <lb/> snöflingan bort genom skogen.</stage>
+                </p>
                 <p>Stycket, som nu skulle gå af stapeln
                   <lb/> hette:</p>
               </stage>
@@ -327,20 +350,44 @@
             <castList xml:id="AureliusH_EttAfventyrISkogen_Main">
               <head>Personerna voro:</head>
               <castItem type="list">
-                <role><persName ref="#Knutte">Knutte</persName></role> och <role><persName ref="#Lasse">Lasse</persName></role>, spelas af <actor><persName ref="#Filip">Filip</persName></actor> och <actor><persName ref="#Hjalmar">Hjalmar</persName></actor>.
+                <role>
+                  <persName ref="#Knutte">Knutte</persName>
+                </role> och <role>
+                  <persName ref="#Lasse">Lasse</persName>
+                </role>, spelas af <actor>
+                  <persName ref="#Filip">Filip</persName>
+                </actor> och <actor>
+                  <persName ref="#Hjalmar">Hjalmar</persName>
+                </actor>.
               </castItem>
               <castItem>
-                <role><persName ref="#Prinsessan">Prinsessan i månen</persName></role>, spelas af <actor><persName ref="#Lotten">Lotten</persName></actor>.
+                <role>
+                  <persName ref="#Prinsessan">Prinsessan i månen</persName>
+                </role>, spelas af <actor>
+                  <persName ref="#Lotten">Lotten</persName>
+                </actor>.
               </castItem>
               <castItem>
-                <role><persName ref="#Ruff">Jätten Ruff</persName></role>, spelas af <actor><persName ref="#Riken">Riken</persName></actor>.
+                <role>
+                  <persName ref="#Ruff">Jätten Ruff</persName>
+                </role>, spelas af <actor>
+                  <persName ref="#Riken">Riken</persName>
+                </actor>.
               </castItem>
               <castItem>
-                <role><persName ref="#Hjärtegoda">Féen Hjärtegoda</persName></role>, spelas af <actor><persName ref="#Ketty">fröken Ketty</persName></actor>.
+                <role>
+                  <persName ref="#Hjärtegoda">Féen Hjärtegoda</persName>
+                </role>, spelas af <actor>
+                  <persName ref="#Ketty">fröken Ketty</persName>
+                </actor>.
               </castItem>
               <addSpan spanTo="#slutTillagt"/>
               <castItem>
-                <role><persName ref="#Snöflinga">Snöflinga</persName></role>, spelas af <actor><persName ref="#Anna">Anna</persName></actor>.
+                <role>
+                  <persName ref="#Snöflinga">Snöflinga</persName>
+                </role>, spelas af <actor>
+                  <persName ref="#Anna">Anna</persName>
+                </actor>.
               </castItem>
               <anchor xml:id="slutTillagt"/>
             </castList>
@@ -348,7 +395,8 @@
           <body>
             <div type="act" n="1">
               <stage type="setting" who="#Knutte #Lasse">
-                <p><persName ref="#Knutte">Knutte</persName> och <persName ref="#Lasse">Lasse</persName> äro två elaka pojkar,
+                <p>
+                  <persName ref="#Knutte">Knutte</persName> och <persName ref="#Lasse">Lasse</persName> äro två elaka pojkar,
                 <lb/> som dock mot styckets slut bli snälla. Iklädda
                 <lb/> öfverrockar och pälsmössor stöfla de fram
                 <lb/> genom snön, som utgöres af tidningspapper
@@ -356,25 +404,25 @@
                 <lb/> de hvar sin fågelbur.</p>
               </stage>
               <sp who="#spLasse">
-                <speaker>Lasse:</speaker> 
+                <speaker>Lasse:</speaker>
                 <l>»<persName ref="#Knutte">Knutte</persName>, innan kvällen ha vi buren full».</l>
               </sp>
               <sp who="#spKnutte">
-                <speaker>Knutte:</speaker> 
+                <speaker>Knutte:</speaker>
                 <l>»Det blir mycket pengar, koppar, silfver,
                   <lb/> gull».</l>
               </sp>
               <sp who="#spLasse">
-                <speaker>Lasse:</speaker> 
+                <speaker>Lasse:</speaker>
                 <l>»Sedan ska vi vandra vägen rakt till sta'n».</l>
               </sp>
               <sp who="#spKnutte">
-                <speaker>Knutte:</speaker> 
+                <speaker>Knutte:</speaker>
                 <l>»Dela med hvarandra, mumsa hela da'n</l>
                 <l>nötter, pepparkakor, knäck och annat godt».</l>
               </sp>
               <sp who="#spLasse">
-                <speaker>Lasse:</speaker> 
+                <speaker>Lasse:</speaker>
                 <l>»Nå, nå, <persName ref="#Knutte">vännen Knutte</persName>, haf nu ej så brådt;</l>
                 <l>först vi måste smyga, lägga oss på lur,</l>
                 <l>innan fågelsvärmen hamnar i vår bur».</l>
@@ -389,36 +437,37 @@
                   <lb/> lif och hoppa hit och dit<supplied>.</supplied> Vid närmare på­<lb break="no"/>seende märker man dock en hand, som med
                   <lb/> en hel knippa fina snören manövrerar hela
                   <lb/> fågelskocken. Plötsligt höres ett gällt pip.
-                  <lb/> <persName ref="#Knutte #Lasse">Gossarne</persName> skynda fram. Två domherrar ha
+                  <lb/>
+                  <persName ref="#Knutte #Lasse">Gossarne</persName> skynda fram. Två domherrar ha
                   <lb/> fastnat på limspöna, de öfriga fåglarna äro
                   <lb/> försvunna. Gång på gång upprepas detsamma,
                   <lb/> till dess burarna äro väl försedda med in­<lb break="no"/>vånare.</p>
               </stage>
               <sp who="#spKnutte">
-                <speaker>Knutte:</speaker> 
+                <speaker>Knutte:</speaker>
                 <l>»En, två, tre och fyra, fem och sex och sju,</l>
                 <l>50 öre stycket — 3 och 50 ju».</l>
               </sp>
               <sp who="#spLasse">
-                <speaker>Lasse:</speaker> 
+                <speaker>Lasse:</speaker>
                 <l>»Fler vi måste hafva, än ett riktigt stim.</l>
                 <l>Nu ska många fastna. <persName ref="#Knutte">Knutte</persName>, stryk på
                   <lb/> lim!»</l>
               </sp>
               <sp who="#spKnutte">
-                <speaker>Knutte:</speaker> 
+                <speaker>Knutte:</speaker>
                 <l>»Hejsan, det blir pengar!</l>
                 <l>Vi ä' raska drängar.»</l>
               </sp>
               <sp who="#spLasse">
-                <speaker>Lasse:</speaker> 
+                <speaker>Lasse:</speaker>
                 <l>»Ägg och fågelungar</l>
                 <l>vi i sommar ta;</l>
                 <l>då vi må som kungar.</l>
                 <l>Det blir riktigt bra.»</l>
               </sp>
               <sp who="#spKnutte">
-                <speaker>Knutte:</speaker> 
+                <speaker>Knutte:</speaker>
                 <l>»Det blir väldigt stiligt,</l>
                 <l>det blir vådligt kiligt.</l>
                 <l>Kom nu <persName ref="#Lasse">Lasse</persName>, ska' vi hemåt dra!»</l>
@@ -440,7 +489,8 @@
                   <l>och lika raskt som i forna dar</l>
                   <l>han dansar rundt omkring jorden.</l>
                   <l>Han jämt är vaken; tro ej han drömmer,</l>
-                  <pb facs="5865-3.jpg"/><fw type="pageNum">275</fw>
+                  <pb facs="5865-3.jpg"/>
+                  <fw type="pageNum">275</fw>
                   <l>och för hans blickar sig ingen gömmer.</l>
                   <l>Glöm aldrig det!</l>
                 </lg>
@@ -455,20 +505,25 @@
                 </lg>
               </sp>
               <stage>
-                <p><persName ref="#Knutte">Knutte</persName> och <persName ref="#Lasse">Lasse</persName> komma framkrypande
+                <p>
+                  <persName ref="#Knutte">Knutte</persName> och <persName ref="#Lasse">Lasse</persName> komma framkrypande
                   <lb/> ur buskarna; gråtande och skrikande räcka
                   <lb/> de burarna åt <persName ref="#Prinsessan">prinsessan i månen</persName>, som ge­<lb break="no"/>nast befriar alla fåglarna.</p>
               </stage>
               <sp who="#spLasse">
-                <speaker>Lasse</speaker> <stage>snyftande:</stage>
-                <l>»Men om <persName ref="#Ruff">den store jätten Ruff</persName></l>
+                <speaker>Lasse</speaker>
+                <stage>snyftande:</stage>
+                <l>»Men om <persName ref="#Ruff">den store jätten Ruff</persName>
+                </l>
                 <l>ger mig och <persName ref="#Knutte">Knutte</persName> hvar sin puff,</l>
                 <l>då är det slut med båda två — hå, hå,
                   <lb/> hå, hå!»</l>
               </sp>
               <sp who="#spKnutte">
-                <speaker>Knutte</speaker> <stage>springer fram och faller på knä för
-                  <lb/> <persName ref="#Prinsessan">prinsessan</persName>:</stage>
+                <speaker>Knutte</speaker>
+                <stage>springer fram och faller på knä för
+                  <lb/>
+                  <persName ref="#Prinsessan">prinsessan</persName>:</stage>
                 <l>»Nej, låt oss hellre med dig gå — </l>
                 <l>jag lofvar, att med väldigt dån</l>
                 <l>vi skola sopa hela må'n.</l>
@@ -476,16 +531,18 @@
                 <l>de skola försvinna för såpa och tvål».</l>
               </sp>
               <sp who="#spPrinsessan">
-                <speaker>Prinsessan:</speaker> 
+                <speaker>Prinsessan:</speaker>
                 <l>»Nej tack, <persName ref="#Knutte #Lasse">era styggingar</persName>, stannen I kvar.</l>
                 <l>Nu ropar jag <persName ref="#Ruff">Ruff</persName>, innan hem jag far.</l>
-                <l><persName ref="#Ruff">Ruff</persName>, <persName ref="#Ruff">Ruff</persName>, fram, fram!»</l>
+                <l>
+                  <persName ref="#Ruff">Ruff</persName>, <persName ref="#Ruff">Ruff</persName>, fram, fram!»</l>
               </sp>
               <stage>
                 <p>En grof röst svarar från en aflägsen vrå:</p>
               </stage>
               <sp who="#spRuff">
-                <l>»Bam, bam, tram, tram!» <stage type="entrance" who="#Ruff">Jätten Ruff fram­<lb break="no"/>träder och bugar sig för <persName ref="#Prinsessan">prinsessan</persName>:</stage></l>
+                <l>»Bam, bam, tram, tram!» <stage type="entrance" who="#Ruff">Jätten Ruff fram­<lb break="no"/>träder och bugar sig för <persName ref="#Prinsessan">prinsessan</persName>:</stage>
+                </l>
               </sp>
               <sp who="#spRuff">
                 <l>»Här är jag <persName ref="#Prinsessan">min nådiga prinsessa</persName>.</l>
@@ -494,14 +551,15 @@
               <stage>
                 <p>Hon pekar på <persName ref="#Knutte">Knutte</persName> och <persName ref="#Lasse">Lasse</persName>. <persName ref="#Ruff">Jätten</persName>
                   <lb/> är fasaväckande att skåda, han är iklädd
-                  <lb/> <persName ref="#Larsson">Larssons</persName> svarta fårskinnspäls med hårsidan
+                  <lb/>
+                  <persName ref="#Larsson">Larssons</persName> svarta fårskinnspäls med hårsidan
                   <lb/> utåt, på hufvudet bär han en krans af svarta
                   <lb/> fjädrar, och midt öfver pannan äro två höns­<lb break="no"/>vingar placerade, äfvenledes svarta, alltsam­<lb break="no"/>mans lämningar efter en ärevördig tupp, som
                   <lb/> hösten förut gått all världens väg; en gam­<lb break="no"/>mal hästsvans tjänar till hakskägg. <persName ref="#Knutte #Lasse">Gossarna</persName>
                   <lb/> ämna fly men fasttagas af <persName ref="#Ruff">Ruff</persName>.</p>
               </stage>
               <sp who="#spPrinsessan">
-                <speaker>Prinsessan:</speaker> 
+                <speaker>Prinsessan:</speaker>
                 <l>»Den illa gör, han illa far.</l>
                 <l>Låt dem i kurran stanna kvar,</l>
                 <cb n="2"/>
@@ -514,13 +572,15 @@
                 <p>Hon försvinner bakom månskifvan.</p>
               </stage>
               <sp who="#spKnutte #spLasse">
-                <speaker>Knutte <emph>och</emph> Lasse</speaker> <stage>med gråten i halsen:</stage><!-- Rollnamnen kursiva, "och" med normal text -->
+                <speaker>Knutte <emph>och</emph> Lasse</speaker>
+                <stage>med gråten i halsen:</stage>
+<!-- Rollnamnen kursiva, "och" med normal text -->
                 <l>»<persName ref="#Ruff">Store Ruff</persName>, ät inte opp oss!</l>
                 <l>Var så snäll och släpp oss fram,</l>
                 <l>vi ska bli som fromma lam».</l>
               </sp>
               <sp who="#spRuff">
-                <speaker>Ruff:</speaker> 
+                <speaker>Ruff:</speaker>
                 <l>»Nu i buren med er, och det strax ändå!</l>
                 <l>där ska ni få roligt, äta hö och strå».</l>
               </sp>
@@ -536,10 +596,12 @@
                   <lb/> klädd i rödt med en lång slöja kring huf­<lb break="no"/>vud och axlar. Med sitt trollspö drar hon
                   <lb/> halfcirklar framför jättekulan. <persName ref="#Ruff">Ruff</persName> öppnar
                   <lb/> själf hålan, och <stage type="entrance" who="#Knutte #Lasse">Knutte och Lasse krypa
-                  <lb/> fram</stage>; de se bedröfvade ut och stå med ned­<lb break="no"/>slagna ögon. <stage type="exit" who="#Ruff">Ruff tar ett hopp ned i mjöl­<lb break="no"/>låren och försvinner.</stage></p>
+                  <lb/> fram</stage>; de se bedröfvade ut och stå med ned­<lb break="no"/>slagna ögon. <stage type="exit" who="#Ruff">Ruff tar ett hopp ned i mjöl­<lb break="no"/>låren och försvinner.</stage>
+                </p>
               </stage>
               <sp who="#spKnutte">
-                <speaker>Knutte,</speaker> <stage>som kysser <persName ref="#Hjärtegoda">Féens</persName> hand:</stage>
+                <speaker>Knutte,</speaker>
+                <stage>som kysser <persName ref="#Hjärtegoda">Féens</persName> hand:</stage>
                 <l>»<persName ref="#Hjärtegoda">Kära, vackra Hjärtegoda</persName>,</l>
                 <l>jag är platt liksom en groda.</l>
                 <l>Endast gräs och frön vi fått;</l>
@@ -547,12 +609,13 @@
                 <l>ha vi ätit dessa rätter».</l>
               </sp>
               <sp who="#spLasse">
-                <speaker>Lasse,</speaker> <stage>som också kysser <persName ref="#Hjärtegoda">Féens</persName> hand:</stage>
+                <speaker>Lasse,</speaker>
+                <stage>som också kysser <persName ref="#Hjärtegoda">Féens</persName> hand:</stage>
                 <l>»Jag är mager som en sill.</l>
                 <l>Tack, att du oss rädda vill!»</l>
               </sp>
               <sp who="#spHjärtegoda">
-                <speaker>Hjärtegoda:</speaker> 
+                <speaker>Hjärtegoda:</speaker>
                 <l>»Frihet hör till vår natur</l>
                 <l>både människa och djur.</l>
                 <l>När en varelse är fången,</l>
@@ -561,26 +624,29 @@
                 <l>hur det känns att lefva då.»</l>
               </sp>
               <sp who="#spKnutte">
-                <speaker>Knutte:</speaker> 
+                <speaker>Knutte:</speaker>
                 <l>»Aldrig mer vill <persName ref="#Knutte">Knutte</persName> vara</l>
                 <l>stygg och elak som förut.</l>
-                <pb facs="5865-4.jpg"/><fw type="pageNum">276</fw>
-                <gap reason="irrelevant"/><!-- annan illustration -->
-                <cb n="2"/> 
+                <pb facs="5865-4.jpg"/>
+                <fw type="pageNum">276</fw>
+                <gap reason="irrelevant"/>
+<!-- annan illustration -->
+                <cb n="2"/>
                 <l>Aldrig lägga ut en snara.</l>
                 <l>Nu är denna leken slut».</l>
               </sp>
               <sp who="#spLasse">
-                <speaker>Lasse:</speaker> 
+                <speaker>Lasse:</speaker>
                 <l>»Skogens hela fågelskara</l>
                 <l>skall i fred för <persName ref="#Lasse">Lasse</persName> vara.»</l>
               </sp>
               <sp who="#spHjärtegoda">
-                <speaker>Hjärtegoda:</speaker> 
+                <speaker>Hjärtegoda:</speaker>
                 <l>»Hör nu hvem ni tacka får,</l>
                 <l>att er frihetstimma slår:</l>
                 <l>Det är <persName ref="#Farmor">denna vackra fru</persName>,</l>
-                <lb/> <stage>— sträcker handen mot <persName ref="#Farmor">farmor</persName> —</stage>
+                <lb/>
+                <stage>— sträcker handen mot <persName ref="#Farmor">farmor</persName> —</stage>
                 <l>som befriat eder nu;</l>
                 <l>ty på denna högtidsdag</l>
                 <l>måste glädjen vara lag.</l>
@@ -589,8 +655,11 @@
                 <l>Gå se'n hem till mor och far.»</l>
               </sp>
               <stage>
-                <p><stage type="exit" who="#Knutte #Lasse">Gossarne buga sig djupt, hvarefter de gå.</stage>
-                  <lb/> <stage type="exit" who="#Hjärtegoda">Féen försvinner.</stage></p>
+                <p>
+                  <stage type="exit" who="#Knutte #Lasse">Gossarne buga sig djupt, hvarefter de gå.</stage>
+                  <lb/>
+                  <stage type="exit" who="#Hjärtegoda">Féen försvinner.</stage>
+                </p>
                 <p>En stund förgår.</p>
               </stage>
             </div>
@@ -600,25 +669,39 @@
               <addSpan spanTo="#slutTillagt2"/>
               <castList xml:id="AureliusH_EttAfventyrISkogen_Epilogue">
                 <castItem>
-                  <role><persName ref="#Anna">Anna</persName></role>.
+                  <role>
+                    <persName ref="#Anna">Anna</persName>
+                  </role>.
                 </castItem>
                 <castItem>
-                  <role><persName ref="#Filip">Filip</persName></role>.
+                  <role>
+                    <persName ref="#Filip">Filip</persName>
+                  </role>.
                 </castItem>
                 <castItem>
-                  <role><persName ref="#Hjalmar">Hjalmar</persName></role>.
-                </castItem>
-                <castItem> 
-                  <role><persName ref="#Lotten">Lotten</persName></role>.
-                </castItem>
-                <castItem>
-                  <role><persName ref="#Riken">Riken Blom</persName></role>.
+                  <role>
+                    <persName ref="#Hjalmar">Hjalmar</persName>
+                  </role>.
                 </castItem>
                 <castItem>
-                  <role><persName ref="#Ketty">Ketty Stråå</persName></role>.
+                  <role>
+                    <persName ref="#Lotten">Lotten</persName>
+                  </role>.
                 </castItem>
                 <castItem>
-                  <role><persName ref="#Farmor">Farmor</persName></role>.
+                  <role>
+                    <persName ref="#Riken">Riken Blom</persName>
+                  </role>.
+                </castItem>
+                <castItem>
+                  <role>
+                    <persName ref="#Ketty">Ketty Stråå</persName>
+                  </role>.
+                </castItem>
+                <castItem>
+                  <role>
+                    <persName ref="#Farmor">Farmor</persName>
+                  </role>.
                 </castItem>
               </castList>
               <anchor xml:id="slutTillagt2"/>
@@ -631,7 +714,8 @@
               </stage>
               <sp who="#spAnna #spFilip #spHjalmar #spKetty #spLotten #spRiken">
                 <lg>
-                  <l><supplied>»</supplied>Öfver marken</l>
+                  <l>
+                    <supplied>»</supplied>Öfver marken</l>
                   <l>snön sitt kalla täcke lagt,</l>
                   <l>och på träden uti parken</l>
                   <l>rimfrost strör sin fina prakt.</l>
@@ -655,12 +739,14 @@
                   <l>på er små i vintersnön?</l>
                   <l>Hvem är det, som mat er skänkte,</l>
                   <l>att I ej af hunger dön?</l>
-                  <l>Där ser du <persName ref="#Farmor">henne</persName></l>
+                  <l>Där ser du <persName ref="#Farmor">henne</persName>
+                  </l>
                   <l>med det mjuka silfverhår</l>
                   <l>och en blick så ljus och vacker.</l>
                   <l>Midt i vintern sol och vår!</l>
                 </lg>
-                <pb facs="5865-5.jpg"/><fw type="pageNum">277</fw>
+                <pb facs="5865-5.jpg"/>
+                <fw type="pageNum">277</fw>
                 <lg>
                   <l>Se nu trippa</l>
                   <l>gästerna till bordet fram.</l>
@@ -681,7 +767,8 @@
                   <l>denne store man och knuffar</l>
                   <l>undan alla hit och dit.</l>
                 </lg>
-                <cb n="2"/><!-- Kolumnen bryts mitt på sidan -->
+                <cb n="2"/>
+<!-- Kolumnen bryts mitt på sidan -->
                 <lg>
                   <l>Dock det räcker.</l>
                   <l>Här finns nog och öfvernog</l>
@@ -697,7 +784,8 @@
                   <l>att rätt många vänner må,</l>
                   <l>innan ännu våren knoppas,</l>
                   <l>duka bord åt fåglar små.</l>
-                  <l>Tänk på <persName ref="#Farmor">henne</persName></l>
+                  <l>Tänk på <persName ref="#Farmor">henne</persName>
+                  </l>
                   <l>med det vackra silfverhår!</l>
                   <l>Sprid omkring dig ljus och glädje,</l>
                   <l>Midt i vintern sol och vår!»</l>
@@ -784,7 +872,7 @@
                 <forename>Hjärtegoda</forename>
               </persName>
             </person>
-            <person xml:id="Snöflinga" sex="female"/>            
+            <person xml:id="Snöflinga" sex="female"/>
           </listPerson>
           <listPerson type="noncast">
             <listPerson type="fictive">
@@ -848,7 +936,7 @@
             <relation type="social" name="hjälpreda" active="#Riken" passive="#Farmor"/>
             <relation type="social" name="stalldräng" active="#Larsson" passive="#Björk"/>
             <relation type="social" name="drängpojke" active="#Klas" passive="#Björk"/>
-            <!-- tillagda /EF -->
+<!-- tillagda /EF -->
             <relation type="personal" name="gift" mutual="#Larsson #LarssonsFru"/>
             <relation type="personal" name="barn" active="#LarssonsBarn" passive="#Larsson #LarssonsFru"/>
             <relation type="other" name="hyllar" active="#Anna #Björk #Filip #FruBjörk #Hjalmar #Ketty #Klas #Larsson #LarssonsFru #LarssonsBarn #Riken" passive="#Farmor"/>

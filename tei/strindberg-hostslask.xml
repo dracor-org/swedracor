@@ -1,10 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main"><title>Höstslask</title> eller <title>Den Samhällsvådlige Reformatorn</title></title>
+        <title type="main">
+          <title>Höstslask</title> eller <title>Den Samhällsvådlige Reformatorn</title>
+        </title>
         <title type="sub">Toalett-pjes af Rococo</title>
         <author xml:id="StrindbergA">
           <persName>
@@ -76,7 +78,9 @@
             <author sameAs="#StrindbergA">
               <persName type="pseudonym">Rococo</persName>
             </author>
-            <title type="main" level="a"><title>Höstslask</title> eller <title>Den Samhällsvådlige Reformatorn</title></title>
+            <title type="main" level="a">
+              <title>Höstslask</title> eller <title>Den Samhällsvådlige Reformatorn</title>
+            </title>
             <title type="sub" level="a">Toalett-pjäs. Av Rococo. Fri översättning av August Strindberg.</title>
           </analytic>
           <monogr>
@@ -145,13 +149,13 @@
       </classDecl>
       <tagsDecl>
         <rendition>
-          <!-- Rubriker är centrerade -->
-          <!-- Rollposter och stycken i repliker är indragna första raden -->
-          <!-- Talarrubriker är centrerade och i kursiv stil -->
-          <!-- Rumsbeskrivningar anges med normal stil, men med rollnamn i kursiv -->
-          <!-- Scenanvisningar i repliker anges med normal stil och är inline -->
-          <!-- Scenanvisningar mellan repliker är med kursiv stil, centrerade -->
-	  <!-- Paus anges med:
+<!-- Rubriker är centrerade -->
+<!-- Rollposter och stycken i repliker är indragna första raden -->
+<!-- Talarrubriker är centrerade och i kursiv stil -->
+<!-- Rumsbeskrivningar anges med normal stil, men med rollnamn i kursiv -->
+<!-- Scenanvisningar i repliker anges med normal stil och är inline -->
+<!-- Scenanvisningar mellan repliker är med kursiv stil, centrerade -->
+<!-- Paus anges med:
 	       * "...",
 	       * sp-element utan prat,
 	       * Slut. i stage-element.
@@ -165,68 +169,85 @@
       </langUsage>
       <particDesc>
         <listPerson>
-          
           <person xml:id="spMogol" sex="MALE">
-            <persName>Mogol</persName><!--castList-->
-            <persName>Mogol</persName><!--speaker-->
-            <persName>Mogol</persName><!--editorial-->
+            <persName>Mogol</persName>
+<!--castList-->
+            <persName>Mogol</persName>
+<!--speaker-->
+            <persName>Mogol</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spLama" sex="MALE">
-            <persName>Lama</persName><!--castList-->
-            <persName>Lama</persName><!--speaker-->
-            <persName>Lama</persName><!--editorial-->
+            <persName>Lama</persName>
+<!--castList-->
+            <persName>Lama</persName>
+<!--speaker-->
+            <persName>Lama</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spRococo" sex="MALE">
-            <persName>Rococo</persName><!--castList-->
-            <persName>Rococo</persName><!--speaker-->
-            <persName>Rococo</persName><!--editorial-->
+            <persName>Rococo</persName>
+<!--castList-->
+            <persName>Rococo</persName>
+<!--speaker-->
+            <persName>Rococo</persName>
+<!--editorial-->
           </person>
-          
           <person xml:id="spDeMissnöjda">
-            <persName>De Missnöjda</persName><!--castList-->
-            <persName>Missnöjda</persName><!--speaker-->
+            <persName>De Missnöjda</persName>
+<!--castList-->
+            <persName>Missnöjda</persName>
+<!--speaker-->
           </person>
-          
           <person xml:id="spAnsvaringenförFinanserna" sex="MALE">
-            <persName>Ansvaringen</persName><!--speaker-->
+            <persName>Ansvaringen</persName>
+<!--speaker-->
           </person>
-          
           <person xml:id="spAnsvaringenförLyxen" sex="MALE">
-            <persName>Ansvaringen</persName><!--speaker-->
+            <persName>Ansvaringen</persName>
+<!--speaker-->
           </person>
-          
           <person xml:id="spAnsvaringenförSoldaterna" sex="MALE">
-            <persName>Ansvaringen</persName><!--speaker-->
+            <persName>Ansvaringen</persName>
+<!--speaker-->
           </person>
-          
           <person xml:id="spAnsvaringenförDynastien" sex="MALE">
-            <persName>Ansvaringen</persName><!--speaker-->
+            <persName>Ansvaringen</persName>
+<!--speaker-->
           </person>
         </listPerson>
       </particDesc>
     </profileDesc>
-
   </teiHeader>
   <text>
     <anchor xml:id="playstart"/>
     <front>
       <pb facs="35750-0.jpg" n="1"/>
-      <gap reason="irrelevant"/><!-- annan text, titel -->
+      <gap reason="irrelevant"/>
+<!-- annan text, titel -->
       <castList>
         <head>Toaletter:</head>
         <castItem>
-          <role><persName ref="#Mogol">Mogol</persName></role>.
+          <role>
+            <persName ref="#Mogol">Mogol</persName>
+          </role>.
         </castItem>
         <castItem>
-          <role><persName ref="#Lama">Lama</persName></role>.
+          <role>
+            <persName ref="#Lama">Lama</persName>
+          </role>.
         </castItem>
         <castItem>
-          <role><persName ref="#Rococo">Rococo</persName></role> <roleDesc>eller Den Samhällsvådlige</roleDesc>.
+          <role>
+            <persName ref="#Rococo">Rococo</persName>
+          </role>
+          <roleDesc>eller Den Samhällsvådlige</roleDesc>.
         </castItem>
         <castItem>
-          <roleGroup><roleDesc><persName ref="#Ansvaringarne">Ansvaringarne</persName></roleDesc>.
+          <roleGroup>
+            <roleDesc>
+              <persName ref="#Ansvaringarne">Ansvaringarne</persName>
+            </roleDesc>.
             <role corresp="#AnsvaringenförFinanserna"/>
             <role corresp="#AnsvaringenförSoldaterna"/>
             <role corresp="#AnsvaringenförDynastien"/>
@@ -234,7 +255,9 @@
           </roleGroup>
         </castItem>
         <castItem>
-          <role><persName ref="#DeMissnöjda">De Missnöjda</persName></role>.
+          <role>
+            <persName ref="#DeMissnöjda">De Missnöjda</persName>
+          </role>.
         </castItem>
       </castList>
     </front>
@@ -293,7 +316,8 @@
           <lb/> det fäderneärfda spanska röret, som i
           <lb/> sekler varit samhällets, familjens och re­
 	  <lb break="no"/>ligionens segaste stöd. Det är <persName ref="#Rococo">min pojke</persName>
-          <lb/> — jag vill inte säga man!</p> <stage>(Tar upp sin
+            <lb/> — jag vill inte säga man!</p>
+          <stage>(Tar upp sin
           <lb/> nyckelknippa och hvisslar.)</stage>
         </sp>
       </div>
@@ -391,7 +415,7 @@
         <sp who="#spAnsvaringenförFinanserna">
           <speaker>Ansvaringen.</speaker>
           <p>Han har gått och inbillat <persName ref="#DeMissnöjda">De Missnöjda</persName>
-          <lb/> att de skulle reformera sig sjelfva. Nu
+            <lb/> att de skulle reformera sig sjelfva. Nu
           <lb/> ha det tagit honom på orden och börjat
           <lb/> bli nyktra.</p>
         </sp>
@@ -426,7 +450,8 @@
           <p>Det vet jag inte, och derför ber jag 
           <lb/> få ställa min portfölj till <persName ref="#Mogol">Ers Mogol</persName>s dis­
 	  <lb break="no"/>position.</p>
-          <stage type="exit" who="#AnsvaringenförFinanserna">(Går.)</stage><anchor xml:id="avgår1"/>
+          <stage type="exit" who="#AnsvaringenförFinanserna">(Går.)</stage>
+          <anchor xml:id="avgår1"/>
         </sp>
       </div>
       <div type="act" n="5">
@@ -461,8 +486,9 @@
           <lb/> då förlorar samhället sitt <unclear>starkaste</unclear> stöd;
           <lb/> jag skall be att få ställa min <unclear>portfölj</unclear> till
           <lb/>
-          <persName ref="#Mogol">Ers Mogols</persName> disposition.</p>
-          <stage type="exit" who="#AnsvaringenförLyxen">(Går.)</stage><anchor xml:id="avgår2"/>
+            <persName ref="#Mogol">Ers Mogols</persName> disposition.</p>
+          <stage type="exit" who="#AnsvaringenförLyxen">(Går.)</stage>
+          <anchor xml:id="avgår2"/>
         </sp>
       </div>
       <div type="act" n="6">
@@ -478,7 +504,7 @@
           <p>
             <persName ref="#Mogol">O, store Mogol</persName>, hvilken <unclear>enfaldig</unclear> refor­
             <lb/>mator du sändt till <persName ref="#DeMissnöjda">De <unclear>Missnöjda</unclear>
-          </persName>.</p>
+            </persName>.</p>
         </sp>
         <sp who="#spMogol">
           <speaker>Mogol:</speaker>
@@ -493,8 +519,9 @@
 	  <lb break="no"/>gen och Evangelium att <unclear>gripa</unclear> till svärd.
           <lb/> Jag ber följaktligen få <unclear>ställa</unclear> min port­
 	  <lb break="no"/>följ till <persName ref="#Mogol">Ers Mogols</persName>
-          <unclear>disposition</unclear>.</p>
-          <stage type="exit" who="#AnsvaringenförSoldaterna">(Går.)</stage><anchor xml:id="avgår3"/>
+            <unclear>disposition</unclear>.</p>
+          <stage type="exit" who="#AnsvaringenförSoldaterna">(Går.)</stage>
+          <anchor xml:id="avgår3"/>
         </sp>
       </div>
       <pb facs="35750-1.jpg" n="2"/>
@@ -530,7 +557,8 @@
           <speaker>Ansvaringen.</speaker>
           <p>Vi ha icke armén! Den har också
           <lb/> blifvit moralisk!</p>
-          <stage type="exit" who="#AnsvaringenförDynastien">(Går).</stage><anchor xml:id="avgår4"/>
+          <stage type="exit" who="#AnsvaringenförDynastien">(Går).</stage>
+          <anchor xml:id="avgår4"/>
         </sp>
         <sp who="#spMogol">
           <speaker>Mogol:</speaker>
@@ -544,7 +572,8 @@
         <sp who="#spLama">
           <speaker>Lama:</speaker>
           <p>Jo, nu är det ljust! Den fördömda
-          <lb/> <persName ref="#Rococo">Rococo</persName> har gått och gifvit dem lof att
+          <lb/>
+            <persName ref="#Rococo">Rococo</persName> har gått och gifvit dem lof att
           <lb/> reformera sig sjelfva. Nu ha de utträdt
           <lb/> ur statskyrkan, emedan de anse det omo­
 	  <lb break="no"/>raliskt att understödja en lära, som de
@@ -656,7 +685,10 @@
           <speaker>Mogol:</speaker>
           <p>Låt oss nu börja vårt omvändelsearbete
           <lb/> på <persName ref="#DeMissnöjda">de reformerade missnöjda</persName>! Det blir
-          <lb/> kanske inte så lätt att <choice><sic>demoralisa</sic><corr>demoralisera</corr></choice> dem
+          <lb/> kanske inte så lätt att <choice>
+              <sic>demoralisa</sic>
+              <corr>demoralisera</corr>
+            </choice> dem
           <lb/> igen, <unclear>men</unclear>. ...</p>
         </sp>
         <sp who="#spLama">
@@ -703,7 +735,8 @@
                   <surname>Berg</surname>
                 </persName>
                 <occupation>riksdagsledamot</occupation>
-                <occupation scheme="#HISCO" code="14120">predikant</occupation><!-- Riksdagsledamot, Tidningsredaktör, Grosshandlare, Nykterist, EFS-predikant -->
+                <occupation scheme="#HISCO" code="14120">predikant</occupation>
+<!-- Riksdagsledamot, Tidningsredaktör, Grosshandlare, Nykterist, EFS-predikant -->
                 <idno type="LIBRIS">http://libris.kb.se/auth/273732</idno>
                 <idno type="SBL">http://www.nad.riksarkivet.se/sbl/artikel/18538</idno>
                 <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Oscar_Berg_%28politiker%29</idno>
@@ -711,7 +744,7 @@
             </listPerson>
           </listPerson>
           <listRelation>
-	    <!-- Refereras till som "min pojke" med fäderneärvd käpp mm. /ljo -->
+<!-- Refereras till som "min pojke" med fäderneärvd käpp mm. /ljo -->
             <relation type="personal" name="son" active="#Rococo" passive="#Mogol" cert="low"/>
             <relation type="social" name="despot" active="#Mogol" passive="#Ansvaringarne #DeMissnöjda #Lama #Rococo"/>
             <relation type="social" name="minister" active="#AnsvaringenförDynastien" passive="#Mogol" notAfter-custom="#avgår4"/>
@@ -720,7 +753,8 @@
             <relation type="social" name="minister" active="#AnsvaringenförSoldaterna" passive="#Mogol" notAfter-custom="#avgår3"/>
             <relation type="social" name="reformator" active="#Rococo" passive="#DeMissnöjda"/>
             <relation type="social" name="rådgivare" active="#Lama" passive="#Mogol"/>
-            <relation type="other" name="undersåtar" mutual="#DeMissnöjda #Rococo"/><!-- är de verkligen undersåtar till varandra? /EF -->
+            <relation type="other" name="undersåtar" mutual="#DeMissnöjda #Rococo"/>
+<!-- är de verkligen undersåtar till varandra? /EF -->
             <relation type="other" name="ansp.på" active="#Mogol" passive="#BergCO"/>
           </listRelation>
         </listPerson>
