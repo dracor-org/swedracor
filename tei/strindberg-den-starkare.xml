@@ -73,7 +73,6 @@
         </availability>
         <idno type="dramawebben">StrindbergA_DenStarkare</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000037</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q7767064</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -99,9 +98,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1890"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -114,15 +110,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -187,6 +183,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1890">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q7767064"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -236,7 +240,7 @@
         <sp who="#spFruX">
           <speaker>FRU X.</speaker>
           <stage type="entrance" who="#FruX">(inträder vinterklädd i hatt
-            <lb/> och kappa med en fin japansk 
+            <lb/> och kappa med en fin japansk
             <lb/> korg på armen).</stage>
         </sp>
         <sp who="#spMlleY">
@@ -247,12 +251,12 @@
         </sp>
         <sp who="#spFruX">
           <speaker>FRU X.</speaker>
-          <p>God dag, <persName ref="#MlleY">Amelie</persName> lilla! — Du sitter här så 
+          <p>God dag, <persName ref="#MlleY">Amelie</persName> lilla! — Du sitter här så
             <lb/> ensam på julafton, som en stackars ungkarl.</p>
         </sp>
         <sp who="#spMlleY">
           <speaker>M:LLE Y.</speaker>
-          <stage>(tittar upp från tidningen, 
+          <stage>(tittar upp från tidningen,
             <lb/> nickar och fortsätter att läsa).</stage>
         </sp>
         <pb facs="6350-5.jpg"/>
@@ -261,7 +265,7 @@
           <speaker>FRU X.</speaker>
           <p>Vet du, det gör mig riktigt ondt att se
             <lb/> dig; ensam, ensam på ett kafé och på själfva
-            <lb/> julafton. Det gör mig så ondt, som när jag i 
+            <lb/> julafton. Det gör mig så ondt, som när jag i
             <lb/>
             <placeName>Paris</placeName> såg ett brudfölje inne på en restaurant
             <lb/> och <persName ref="#Bruden">bruden</persName> satt och läste en skämttidning, me­<lb break="no"/>dan <persName ref="#Brudgummen">brudgummen</persName> spelade biljard med vittnena.
@@ -275,7 +279,7 @@
           <speaker>UPPASSERSKAN</speaker>
           <stage>(<stage type="entrance" who="#Uppasserskan">in</stage>, ställer en kopp
             <lb/> chokolad framför <persName ref="#FruX">fru X.</persName>
-            <stage type="exit" who="#Uppasserskan">och 
+            <stage type="exit" who="#Uppasserskan">och
             <lb/> går ut</stage>).</stage>
         </sp>
         <sp who="#spFruX">
@@ -288,7 +292,7 @@
             <lb/> hur lycklig du kände dig, då du var ute hos
             <lb/>
             <persName ref="#FästmannensFöräldrar">
-              <persName ref="#Fästmannen">din fästmans</persName> föräldrar</persName> på landet; hur du pri­<lb break="no"/>sade hemmets lycka och riktigt längtade från 
+              <persName ref="#Fästmannen">din fästmans</persName> föräldrar</persName> på landet; hur du pri­<lb break="no"/>sade hemmets lycka och riktigt längtade från
             <lb/>
             <orgName ref="#Teatern">teatern</orgName>! — Ja, kära <persName ref="#MlleY">Amelie</persName>, hemmet är allt det
             <lb/> bästa — näst <orgName ref="#Teatern">teatern</orgName> — och <persName ref="#Lisa #Maja">ungarne</persName>, ser du
@@ -303,7 +307,7 @@
         <sp who="#spFruX">
           <speaker>FRU X.</speaker>
           <stage>(dricker några skedar ur
-            <lb/> koppen; öppnar sedan korgen 
+            <lb/> koppen; öppnar sedan korgen
             <lb/> och visar julklapparna).</stage>
           <p>Här skall du se hvad jag köpt åt <persName ref="#Lisa #Maja">mina gri­<lb break="no"/>sar</persName>. <stage>(Tar upp en docka.)</stage> Ser du på den! Den ska
             <lb/>
@@ -319,15 +323,15 @@
         <sp who="#spFruX">
           <speaker>FRU X.</speaker>
           <p>Blef du rädd? Trodde du, att jag ville
-            <lb/> skjuta dig? Hva? — Min själ tror jag inte, du 
+            <lb/> skjuta dig? Hva? — Min själ tror jag inte, du
             <lb/> tänkte det! Om <emph>du</emph> skulle vilja skjuta <emph>mig</emph>, för­<lb break="no"/>vånade mig mindre, efter som jag gått i vägen
             <lb/> för dig — och det vet jag, du aldrig kan glömma
-            <lb/> — fastän jag var alldeles oskyldig. Du tror 
+            <lb/> — fastän jag var alldeles oskyldig. Du tror
             <lb/> ännu, att jag intrigerade bort dig från <orgName ref="#StoraTeatern">Stora
             <lb/> teatern</orgName>, men det gjorde jag inte! Jag gjorde
             <lb/> det inte, fastän du tror det! — Ja, det är det­<lb break="no"/>samma att jag säger det, för du tror ändå, att
             <lb/> det var jag! <stage>
-              <anchor type="hand" xml:id="handprat1start"/>(Tar fram <rs type="hand" ref="#handrekv1">ett par broderade tofflor</rs>.)</stage> Och 
+              <anchor type="hand" xml:id="handprat1start"/>(Tar fram <rs type="hand" ref="#handrekv1">ett par broderade tofflor</rs>.)</stage> Och
             <lb/> de här ska <persName ref="#Bob">min gubbe</persName> ha. Med tulpaner på,
             <lb/> som jag själf broderat — jag afskyr tulpaner,
             <lb/> förstås, men han ska ha tulpaner till allting.</p>
@@ -342,7 +346,7 @@
           <stage>(träder en hand i hvar
             <lb/>
             <rs type="hand" ref="#handrekv1">toffel</rs>).</stage>
-          <p>Ser du så små fötter <persName ref="#Bob">Bob</persName> har! Hva? Och 
+          <p>Ser du så små fötter <persName ref="#Bob">Bob</persName> har! Hva? Och
             <lb/> du skulle se en sådan elegant gång! Du har al­<pb break="no" facs="6350-7.jpg"/>
             <fw type="pageNum">266</fw>drig sett honom i tofflor, du! <stage>(<persName ref="#MlleY">M:lle Y</persName>. skrattar högt.)</stage>
             <lb/> Titta, ska du se! <stage>(Hon låter <rs type="hand" ref="#handrekv1">tofflorna</rs> gå på bordet.)</stage>
@@ -359,8 +363,8 @@
             <lb/> Häu! Nu ha <persName ref="#Pigorna">de kretinerna</persName> inte klippt lampveken
             <lb/> ordentligt!»</p>
           <p>Och så är det golfdrag, och så fryser han
-            <lb/> om fötterna: »Husch, hvad det är kallt, och <persName ref="#Pigorna">de 
-            <lb/> förhärdade idioterna</persName>, som inte kunna hålla eld i 
+            <lb/> om fötterna: »Husch, hvad det är kallt, och <persName ref="#Pigorna">de
+            <lb/> förhärdade idioterna</persName>, som inte kunna hålla eld i
             <lb/> kamin!»</p>
           <stage>(Hon gnuggar <rs type="hand" ref="#handrekv1">tofflorna</rs> med den enas sula mot den andras
             <lb/> ofvanläder.)</stage>
@@ -375,15 +379,15 @@
             <lb/> sina <rs type="hand" ref="#handrekv1">tofflor</rs>, som <persName ref="#Mari">Mari</persName> ställt under chiffonniern ...
             <lb/> Åh, men det är synd att sitta och göra narr af
             <lb/>
-            <persName ref="#Bob">sin gubbe</persName> på det där sättet. Han är snäll i 
-            <lb/> alla fall, och det är en liten bra man — och 
+            <persName ref="#Bob">sin gubbe</persName> på det där sättet. Han är snäll i
+            <lb/> alla fall, och det är en liten bra man — och
             <lb/> du skulle haft en så'n man, du, <persName ref="#MlleY">Amelie</persName>! —
             <lb/> Hvad skrattar du åt? Hva! Hva! — Och så
             <lb/> vet jag, ser du, att han är mig trogen; ja, det
             <lb/> vet jag! För det har han talat om själf ... hvad
-            <lb/> flinar du åt? — att när jag var på turné i 
+            <lb/> flinar du åt? — att när jag var på turné i
             <lb/>
-            <placeName>Norge</placeName>, så kom <persName ref="#Frédérique">den der otäcka Frédérique</persName> och 
+            <placeName>Norge</placeName>, så kom <persName ref="#Frédérique">den der otäcka Frédérique</persName> och
             <lb/> ville förföra honom — kan du tänka dig så in­<lb break="no"/>famt! <stage>(Paus.)</stage> Men jag skulle ha rifvit ögonen
             <pb facs="6350-8.jpg"/>
             <fw type="pageNum">267</fw>
@@ -391,26 +395,26 @@
             <lb/> när jag var hemma! <stage>(Paus.)</stage> Det var lyckligt
             <lb/> att <persName ref="#Bob">Bob</persName> talte om det själf, så att det inte kom
             <lb/> fram skvallervägen! <stage>(Paus.)</stage> Men <persName ref="#Frédérique">Frédérique</persName> var
-            <lb/> inte den enda, må du tro! Jag vet inte, men 
+            <lb/> inte den enda, må du tro! Jag vet inte, men
             <lb/> fruntimren äro alldeles galna efter <emph>min</emph> man.
             <lb/> De måtte tro, att han har något att säga öfver
             <lb/>
-            <orgName ref="#Teatern">teaterns</orgName> engagemanger, därför att han är i <orgName ref="#Departementet">de­<lb break="no"/>partementet</orgName>! — Kanske du också har varit och 
-            <lb/> slagit efter honom! — Jag trodde dig inte mer 
-            <lb/> än jämt — men nu <emph>vet</emph> jag, att han inte brydde 
+            <orgName ref="#Teatern">teaterns</orgName> engagemanger, därför att han är i <orgName ref="#Departementet">de­<lb break="no"/>partementet</orgName>! — Kanske du också har varit och
+            <lb/> slagit efter honom! — Jag trodde dig inte mer
+            <lb/> än jämt — men nu <emph>vet</emph> jag, att han inte brydde
             <lb/> sig om dig och att du tycktes bära något agg
             <lb/> till honom, föreföll det mig alltid!</p>
         </sp>
         <stage>(Paus; de betrakta hvarandra förläget.)</stage>
         <sp who="#spFruX">
           <speaker>FRU X.</speaker>
-          <p>Kom hem till oss i afton, <persName ref="#MlleY">Amelie</persName>, i alla 
+          <p>Kom hem till oss i afton, <persName ref="#MlleY">Amelie</persName>, i alla
             <lb/> fall, och visa, att du inte är ond på oss, inte
-            <lb/> ond på mig, i alla fall! Jag vet inte, men jag 
+            <lb/> ond på mig, i alla fall! Jag vet inte, men jag
             <lb/> tycker det är så obehagligt att vara ovän med
             <lb/>
             <emph>dig</emph> särskildt. Kanske det är därför, att jag gick
-            <lb/> dig i vägen den gången <stage>(ralentando)</stage> eller — jag 
+            <lb/> dig i vägen den gången <stage>(ralentando)</stage> eller — jag
             <lb/> vet inte alls — hvarför egentligen!</p>
         </sp>
         <stage>(Paus.)</stage>
@@ -427,18 +431,18 @@
             <lb/> ur sikte; utan hur jag kom och gick, befann
             <lb/> jag mig alltid i din närhet — jag vågade inte
             <pb facs="6350-9.jpg"/>
-            <fw type="pageNum">268</fw>       
+            <fw type="pageNum">268</fw>
             vara din ovän, därför blef jag din vän. Men
             <lb/> det rådde alltid en disharmoni, när du kom hem
             <lb/> till oss, för att jag såg att <persName ref="#Bob">min man</persName> inte kunde
             <lb/> lida dig — och då kände jag det snedt, som
-            <lb/> när kläder sitta illa — och jag gjorde allt för 
+            <lb/> när kläder sitta illa — och jag gjorde allt för
             <lb/> att få honom att visa sig vänlig mot dig, men
             <lb/> utan att lyckas — förr än du gick och förlofvade
             <lb/> dig! Då slog det upp en häftig vänskap, så
             <lb/> att det såg ut ett ögonblick, som om ni nu först
             <lb/> vågade visa era verkliga känslor, då du var i
-            <lb/> säkerhet — och så — hur var det sen? — Jag 
+            <lb/> säkerhet — och så — hur var det sen? — Jag
             <lb/> blef inte svartsjuk — så underligt! — Och jag
             <lb/> mins på dopet, då du stod fadder, att jag
             <lb/> nödgade honom att kyssa dig — det gjorde
@@ -447,14 +451,14 @@
             <lb/> sedan heller — har inte tänkt på det förr än
             <lb/> — nu!</p>
           <stage rend="centered">(Reser sig häftigt.)</stage>
-          <p>Hvarför tiger du? Du har inte sagt ett 
+          <p>Hvarför tiger du? Du har inte sagt ett
             <lb/> ord på hela tiden utan bara låtit mig sitta och
-            <lb/> tala! <anchor type="hand" xml:id="handprat3start"/>Du har suttit med ögonen och nystat ur 
+            <lb/> tala! <anchor type="hand" xml:id="handprat3start"/>Du har suttit med ögonen och nystat ur
             <lb/> mig alla dessa tankar, hvilka lågo där som råsilke
             <lb/> i sin kokong — tankar — misstankar kanske —
             <lb/> låt mig se. — Hvarför slog du upp förlofningen?
             <lb/> Hvarför kom du aldrig mer i vårt hus efter den
-            <lb/> betan? Hvarför vill du inte komma till oss i 
+            <lb/> betan? Hvarför vill du inte komma till oss i
             <lb/> afton?</p>
           <anchor type="hand" xml:id="handprat3slut"/>
         </sp>
@@ -468,7 +472,7 @@
         <sp who="#spFruX">
           <speaker>FRU X.</speaker>
           <p>Tyst! Du behöver inte säga något, för
-            <lb/> nu fattar jag allt själf! — Det var därför och 
+            <lb/> nu fattar jag allt själf! — Det var därför och
             <lb/> därför och därför! — Jaha! Nu stämmer alla
             <lb/> räkningarna! Så är det! — Fy, jag vill inte
             <lb/> sitta vid samma bord som du! <stage>(Flyttar sina saker
@@ -478,7 +482,7 @@
             </stage> vi skulle bo vid <placeName>Mä­<lb break="no"/>larn</placeName> om sommaren, därför att du inte kunde
             <lb/> lida <placeName>Saltsjön</placeName>; det var därför <persName ref="#Eskil">min gosse</persName> skulle
             <lb/> heta Eskil, därför att <persName ref="#EskilY">din far</persName> hette så; det
-            <lb/> var därför jag skulle bära dina färger, läsa dina 
+            <lb/> var därför jag skulle bära dina färger, läsa dina
             <lb/> författare, äta dina favoriträtter, dricka dina
             <lb/> drycker — din chokolad, till exempel; det var
             <lb/> därför — åh, min Gud - det är rysligt, när
@@ -490,7 +494,7 @@
             <lb/> ormen med dina svarta ögon och förtrollade
             <lb/> mig — jag kände, hur vingarna lyftes endast
             <lb/> för att draga ner mig; jag låg i vattnet med
-            <lb/> hopbundna fötter, och ju starkare jag tog sim­<lb break="no"/>tagen med händerna, dess djupare arbetade jag 
+            <lb/> hopbundna fötter, och ju starkare jag tog sim­<lb break="no"/>tagen med händerna, dess djupare arbetade jag
             <lb/> mig ner, ner, tills jag sjönk till botten, där du
             <lb/> låg som en jättekrabba för att gripa mig i dina
             <lb/> klor — och nu ligger jag där!</p>
@@ -498,25 +502,25 @@
           <fw type="pageNum">270</fw>
           <p>Fy, hvad jag hatar dig, hatar dig, hatar dig!
             <lb/> Men du, du bara sitter och tiger, lugn, likgiltig;
-            <lb/> likgiltig, om det är ny eller nedan, jul eller nyår, 
+            <lb/> likgiltig, om det är ny eller nedan, jul eller nyår,
             <lb/> om andra äro lyckliga eller olyckliga; utan för­<lb break="no"/>måga att hata eller älska; orörlig som en stork
             <lb/> vid ett råtthål - du kunde inte ta' upp ditt
             <lb/> byte själf, du kunde inte förfölja det, men du
-            <lb/> kunde vänta ut det! Här sitter du inne i ditt 
-            <lb/> hörn — vet du att det kallas efter dig för rått­<lb break="no"/>fällan — och läser dina tidningar för att se efter 
-            <lb/> om det går någon illa, om någon råkar i misère, 
+            <lb/> kunde vänta ut det! Här sitter du inne i ditt
+            <lb/> hörn — vet du att det kallas efter dig för rått­<lb break="no"/>fällan — och läser dina tidningar för att se efter
+            <lb/> om det går någon illa, om någon råkar i misère,
             <lb/> om någon får afsked från <orgName ref="#Teatern">teatern</orgName>; här sitter du
             <lb/> och passar ut dina offer, räknar ut dina chancer
             <lb/> som en lots sitt skeppbrott, tar emot dina tributer!</p>
           <p>
             <persName ref="#MlleY">Stackars Amelie</persName>! Vet du att det gör mig
-            <lb/> ondt lika fullt om dig, därför att jag vet att du 
-            <lb/> är olycklig, olycklig som en sårad och elak där­<lb break="no"/>för att du är sårad! — Jag kan inte vara ond 
+            <lb/> ondt lika fullt om dig, därför att jag vet att du
+            <lb/> är olycklig, olycklig som en sårad och elak där­<lb break="no"/>för att du är sårad! — Jag kan inte vara ond
             <lb/> på dig, fastän jag ville det — ty du är ändock
             <lb/>
             <persName ref="#MlleY">den lille</persName> — ja, det där med <persName ref="#Bob">Bob</persName>, det bryr jag
             <lb/> mig inte om! — Hvad gör det mig egentligen!
-            <lb/> — Och om du lärt mig dricka chokolad eller 
+            <lb/> — Och om du lärt mig dricka chokolad eller
             <lb/> någon annan lärt mig det, kan komma på ett ut!
             <lb/>
             <stage>(Dricker en sked ur koppen. Snusförnuftigt.)</stage> Chokolad
@@ -528,12 +532,12 @@
             <lb/> Men det var nog din mening att jag skulle gå min
             <lb/> väg — som du gjorde och som du nu sitter
             <pb facs="6350-12.jpg"/>
-            <fw type="pageNum">271</fw>       
+            <fw type="pageNum">271</fw>
             och ångrar — men ser du, det gör jag inte! —
             <lb/> Vi ska inte vara småaktiga, ser du! Och hvar­<lb break="no"/>för skulle jag bara ta det ingen annan vill ha! —</p>
           <p>Kanske du, när allt kommer omkring, att
             <lb/> jag i detta ögonblick verkligen är den starkare
-            <lb/> — du fick ju aldrig någonting af mig, men du 
+            <lb/> — du fick ju aldrig någonting af mig, men du
             <lb/> bara gaf ifrån dig — och nu är det med mig
             <lb/> som med tjufven — att när du vaknade, så egde
             <lb/> jag hvad du saknade!</p>

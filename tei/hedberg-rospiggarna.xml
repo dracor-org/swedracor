@@ -67,7 +67,6 @@
         </availability>
         <idno type="dramawebben">HedbergF_Rospiggarna</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000015</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q59618593</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -95,9 +94,6 @@
             <biblScope unit="vol">219</biblScope>
           </series>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1884"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -110,15 +106,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -407,6 +403,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1884">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q59618593"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -606,7 +610,7 @@
           <lb/>
             <placeName>Skeppsholmen</placeName> med bron och en del af staden till höger, så som
           <lb/> utsigten ter sig från gångbanan strax bortom nya huset vid <placeName>Strand­
-	  <lb break="no"/>gatan</placeName>. Mellan brobänken och förscenen en eller två rader af de 
+	  <lb break="no"/>gatan</placeName>. Mellan brobänken och förscenen en eller två rader af de
           <lb/> nyplanterade lindarne; en lyktstolpe, några bräduppslag, etc. etc.</p>
           <p>Det är tidig morgon och solklart. Små ångbåtar kila tid
           <lb/> efter annan från olika håll öfver vattnet, och <persName ref="#Promenerande">promenerande</persName>, och
@@ -760,7 +764,7 @@
           <sp who="#spHulting">
             <speaker>HULTING.</speaker>
             <p>Då är det väl så godt att man knogar
-            <lb/> sig ut ur sängkammarn, innan <persName ref="#Enpoliskonstapel">han</persName> kommer och borstar 
+            <lb/> sig ut ur sängkammarn, innan <persName ref="#Enpoliskonstapel">han</persName> kommer och borstar
             <lb/> sig! <stage>(svänger sig mödosamt öfver relingen och kommer ner
             <lb/> på bron. Han är litet låghalt och har en stöfvel på ena
             <lb/> foten och en gummigalosch på den andra.)</stage> Så der ja!
@@ -842,8 +846,8 @@
           </sp>
           <sp who="#spHulting">
             <speaker>HULTING.</speaker>
-            <p>Jag frågar om du är godpimplare! Vet 
-            <lb/> du inte hvad det är för ena? Det är sådana som 
+            <p>Jag frågar om du är godpimplare! Vet
+            <lb/> du inte hvad det är för ena? Det är sådana som
             <lb/> dricker vatten, alldeles som strömmingen ute hos ros­
 	    <lb break="no"/>piggarna, ser du! <stage>(ser utåt.)</stage> Nej se på tusan, der
             <lb/> kommer en profryttare! Han stiger åf! Hejsan, der
@@ -1119,7 +1123,7 @@
           <sp who="#spJanneBoman">
             <speaker>BOMAN</speaker>
             <stage>(<stage type="entrance" who="#JanneBoman">kommer först in</stage>;<stage>han är några och 30 år,
-            <lb/> glad och bondqvick, hatten akterstagad; blå kavaj och höga 
+            <lb/> glad och bondqvick, hatten akterstagad; blå kavaj och höga
             <lb/> stöflar; mörkt hår och hakskägg; sjömansgång, lediga ar­
 	    <lb break="no"/>mar, talar högt och fort</stage>).</stage>
             <p>
@@ -1772,7 +1776,7 @@
           <sp who="#spEnpoliskonstapel">
             <speaker>KONSTAPELN</speaker>
             <stage>(till <persName ref="#JanneBoman">Boman</persName>).</stage>
-            <p>Nå, hvad har ni att                  
+            <p>Nå, hvad har ni att
             <lb/> svara?</p>
           </sp>
           <sp who="#spJanneBoman">
@@ -2324,7 +2328,7 @@
           <sp who="#spEnpoliskonstapel">
             <speaker>KONSTAPELN.</speaker>
             <p>Kors för tusan!</p>
-            <stage type="exit" who="#Enpoliskonstapel">(skyndar ut till 
+            <stage type="exit" who="#Enpoliskonstapel">(skyndar ut till
             <lb/> venster.)</stage>
           </sp>
           <sp who="#spFörstaarbetaren">
@@ -2454,7 +2458,7 @@
           </sp>
           <sp who="#spJanneBoman">
             <speaker>BOMAN.</speaker>
-            <p>Hajös då, <persName ref="#FruÖsterberg">frun</persName>!<stage>(<persName ref="#FruÖsterberg">Fru Österberg</persName> går till 
+            <p>Hajös då, <persName ref="#FruÖsterberg">frun</persName>!<stage>(<persName ref="#FruÖsterberg">Fru Österberg</persName> går till
             <lb/> höger, han ropar efter <persName ref="#FruÖsterberg">henne</persName>.)</stage> Jaha, det ska nog gå
             <lb/> bra med sakerna! <persName ref="#FruÖsterberg">Frun</persName> kan vara lugn, för det kom­
 	    <lb break="no"/>mmer haldrig i fråga!</p>
@@ -2649,7 +2653,7 @@
             <speaker>ANDERS.</speaker>
             <p>Hvad hä’ det för slag?</p>
           </sp>
-<!-- här står /ljo 
+<!-- här står /ljo
 	       <fw rend="lower-left">Rospiggarna.</fw>
 	       <fw rend="lower-right">2</fw>
 	  -->
@@ -3312,7 +3316,7 @@
           </sp>
           <sp who="#spJanneBoman">
             <speaker>BOMAN.</speaker>
-            <p>Ja-ja, hen får fäll halt fundera med sej 
+            <p>Ja-ja, hen får fäll halt fundera med sej
             <lb/> sjelf, hom det hinte vore rätt så godt te’ ta’ hå ge
             <lb/> sej håf te’ <placeName>Hamerika</placeName>.</p>
           </sp>
@@ -3338,7 +3342,7 @@
             <speaker>BOMAN.</speaker>
             <p>Jo, det ska <persName ref="#Anna">’on</persName> si det! Tror <persName ref="#Anna">Hanna</persName>
               <lb/> det hä’ så muntert te’ ligga hå dra sand mellan <placeName>skär­
-	    <lb break="no"/>gål’n</placeName> hå <placeName>stan</placeName>, hå bli håt’utad hutåf både den hena 
+	    <lb break="no"/>gål’n</placeName> hå <placeName>stan</placeName>, hå bli håt’utad hutåf både den hena
             <lb/> hå den handra? Hå di fattiga styfrarne som hen
             <lb/> kan segla hi’op på de fem månarne som hen hä’ hi
             <lb/> fart, dom häter hen hopp på di sju handra, medan
@@ -3347,7 +3351,7 @@
           </sp>
           <sp who="#spKalle">
             <speaker>KALLE.</speaker>
-            <p>Åh, nog har fäll <persName ref="#JanneBoman">Boman</persName> lagt ihop något 
+            <p>Åh, nog har fäll <persName ref="#JanneBoman">Boman</persName> lagt ihop något
             <lb/> ändå?</p>
           </sp>
           <pb facs="6952-35.jpg"/>
@@ -3391,7 +3395,7 @@
           <sp who="#spJanneBoman">
             <speaker>BOMAN.</speaker>
             <p>Hå ja, hvad katig’eten hanbelangar, så
-            <lb/> sitter den nog qvar, hå sturskheten med, fast <persName ref="#Hanna">’on</persName> ’ar 
+            <lb/> sitter den nog qvar, hå sturskheten med, fast <persName ref="#Hanna">’on</persName> ’ar
             <lb/> blifvit bibelsprängder för rexten! <stage>(slår hastigt knyt­
 	    <lb break="no"/>näfven i taket.)</stage> Jäklar anknoka!</p>
           </sp>
@@ -5048,7 +5052,7 @@
             <p>Kan ni visan om flickan och hen­
 	    <lb break="no"/>nes sjöman, som hade varit borta i sju år?</p>
           </sp>
-<!-- här står /ljo 
+<!-- här står /ljo
 	       <fw rend="lower-left">Rospiggarna.</fw>
 	       <fw rend="lower-right">3</fw>
 	  -->
@@ -5136,7 +5140,7 @@
           </sp>
           <sp who="#spAnders">
             <speaker>ANDERS.</speaker>
-            <p>Ja, det ä’ <placeName>Skarphö qvarn</placeName>! Den syns 
+            <p>Ja, det ä’ <placeName>Skarphö qvarn</placeName>! Den syns
             <lb/> hända te’ <placeName>Lindalen</placeName>!</p>
           </sp>
           <sp who="#spJanneBoman">
@@ -5520,7 +5524,7 @@
           </sp>
           <sp who="#spVictor">
             <speaker>VICTOR.</speaker>
-            <p>’Ur bär <persName ref="#Axel #Knut">’errarna</persName> sig håt, när ni ställer 
+            <p>’Ur bär <persName ref="#Axel #Knut">’errarna</persName> sig håt, när ni ställer
             <lb/> her på grund?</p>
           </sp>
           <sp who="#spKnut">
@@ -6304,12 +6308,12 @@
             <lb/> inkommer baklänges och talar utåt).</stage>
             <p>Rappa dig nu,
             <lb/>
-              <persName ref="#Victor">Victor</persName>! för hi draget ’ar vi fäll <persName ref="#LänsmanSöderholm">kronolänsman</persName> ’är! 
+              <persName ref="#Victor">Victor</persName>! för hi draget ’ar vi fäll <persName ref="#LänsmanSöderholm">kronolänsman</persName> ’är!
             <lb/>
               <stage>(får se de innevarande.)</stage> Nej se, guds fred, <persName ref="#FruÖsterberg">frun</persName> hå
             <lb/>
               <persName ref="#Laura">lilla mamsella</persName> med! ’Ur står de te’?</p>
-            <stage>(tar dem i 
+            <stage>(tar dem i
             <lb/> hand.)</stage>
           </sp>
           <pb facs="6952-64.jpg"/>
@@ -7236,7 +7240,7 @@
           <sp who="#spVictor">
             <speaker>VICTOR.</speaker>
             <p>
-              <persName ref="#Holle">’An</persName> tycker fäll hatt di går för långsamt, 
+              <persName ref="#Holle">’An</persName> tycker fäll hatt di går för långsamt,
             <lb/> kan jag tänka! Nå, ’ar <persName ref="#Hulting">’Ulting</persName> fått något harbete då?</p>
           </sp>
           <sp who="#spHulting">
@@ -7359,7 +7363,7 @@
             <speaker>BERG</speaker>
             <stage>(en lång, mager och gänglig person med sjuk­
 	    <lb break="no"/>ligt utseende, talar i falsett, och bildar i alla afseenden
-	    <!-- här står /ljo 
+	    <!-- här står /ljo
 		 <fw rend="lower-left">Rospiggarna.</fw>
 		 <fw rend="lower-right">4</fw>
 	    -->
@@ -7759,7 +7763,7 @@
           </sp>
           <sp who="#spLänsmanSöderholm">
             <speaker>LÄNSMAN.</speaker>
-            <p>Tyst du, <persName ref="#LarsÖsterman">gamla krubbitare</persName>! Det vore 
+            <p>Tyst du, <persName ref="#LarsÖsterman">gamla krubbitare</persName>! Det vore
             <lb/> bättre du slog i en åt <persName ref="#Berg">Bergen</persName> med, annars bligar han
             <lb/> sig korsögd på <persName ref="#Hanna">dotter din</persName>! <stage>(<persName ref="#LarsÖsterman">Österman</persName> slår i åt <persName ref="#Berg">Berg</persName>
                 <lb/> och <persName ref="#Hulting">Hulting</persName>.)</stage> Ska’ vi ta’ ut lysning nu till söndan,
@@ -7884,7 +7888,7 @@
             <speaker>BERG</speaker>
             <stage>(lite lifvad).</stage>
             <p>
-              <persName ref="#Lindgren">Han</persName> har väl tagit sig ett rus 
+              <persName ref="#Lindgren">Han</persName> har väl tagit sig ett rus
             <lb/> igen, efter vanligheten!</p>
           </sp>
           <sp who="#spLänsmanSöderholm">
@@ -8353,7 +8357,7 @@
           </sp>
           <sp who="#spHulting">
             <speaker>HULTING.</speaker>
-            <p>Än sen då! <persName ref="#kvinnor">Gamla kattor</persName> vill också 
+            <p>Än sen då! <persName ref="#kvinnor">Gamla kattor</persName> vill också
             <lb/> lapa mjölk. För resten har ni väl några döttrar, som
             <lb/> ska’ gå all verldens väg, <persName ref="#kvinnor">gummor</persName>?</p>
           </sp>
@@ -8475,8 +8479,8 @@
             <lb/>
             <stage>(tar emot kastrullen af <persName ref="#Victor">Victor</persName>.)</stage>
             <p>Hvad ger ni mig för
-            <lb/> den kastrulln, <persName ref="#kvinnor">gummor och madamer</persName>, och vad ni ä’ 
-            <lb/> för ena <persName ref="#kvinnor">fruar</persName> alt? Ser ni så blank hon är? Skiner 
+            <lb/> den kastrulln, <persName ref="#kvinnor">gummor och madamer</persName>, och vad ni ä’
+            <lb/> för ena <persName ref="#kvinnor">fruar</persName> alt? Ser ni så blank hon är? Skiner
             <lb/> som sola i <placeName>Karlstad</placeName>! Tjugo riksdaler för kastrulln!
             <lb/> Tjugo riksdaler, ja!</p>
           </sp>
@@ -8491,7 +8495,7 @@
             <lb/> och då får ni både skaftet och locket på köpet! Krusa
             <lb/> inte nu, utan ge er i väg bara! Får jag inte tjugo?
             <lb/> Nå så femton då? Inte är jag nån knusslare! Femton
-            <lb/> riksdaler för hela partit! Hur var det, <persName ref="#kvinnor">mor lilla</persName>, var 
+            <lb/> riksdaler för hela partit! Hur var det, <persName ref="#kvinnor">mor lilla</persName>, var
             <lb/> det fjorton jag tyckte mig höra? Ni är så förbannadt
             <pb facs="6952-87.jpg"/>
               <fw type="pageNum">86</fw>
@@ -8551,9 +8555,9 @@
           </sp>
           <sp who="#spHulting">
             <speaker>HULTING.</speaker>
-            <p>Det var rätt, <persName ref="#EnQvinna">lilla madam</persName>! Halfvan 
+            <p>Det var rätt, <persName ref="#EnQvinna">lilla madam</persName>! Halfvan
             <lb/> ska’ man aldrig gå ifrån! Fem och en half var det
-            <lb/> ja! Ja, titta pån ni, <persName ref="#kvinnor">flickor</persName>, så kan ni spegla er med 
+            <lb/> ja! Ja, titta pån ni, <persName ref="#kvinnor">flickor</persName>, så kan ni spegla er med
             <lb/> detsamma och se om halsduken sitter snedt! — Fem
             <lb/> och en half var det ja!</p>
           </sp>
@@ -8619,7 +8623,7 @@
           </sp>
           <sp who="#spHulting">
             <speaker>HULTING.</speaker>
-            <p>Ta tillbaks, min <persName ref="#KarlHanders">gubbe</persName>! Vi går inte 
+            <p>Ta tillbaks, min <persName ref="#KarlHanders">gubbe</persName>! Vi går inte
             <lb/> kräftgången här i stan, inte! Sex och femti var bjudet!</p>
           </sp>
           <sp who="#spLänsmanSöderholm">
@@ -8759,7 +8763,7 @@
             <speaker>HULTING.</speaker>
             <p>Fem riksdaler för stekpannan! Skynda
             <lb/> er nu, <persName ref="#män">ungkarlar</persName>! Ni kan behöfva någonting som frä­
-	    <lb break="no"/>ser i huset, medan ni väntar på att bli gifta! Fem 
+	    <lb break="no"/>ser i huset, medan ni väntar på att bli gifta! Fem
             <lb/> riksdaler ...</p>
             <stage>(auktionen fortgår som förut, och man hör
             <lb/> af och till ett och annat bud samt <persName ref="#Hulting">Hultings</persName> rop och <persName ref="#Skärgårdsfolk">fol­
@@ -8936,7 +8940,7 @@
           <sp who="#spAnna">
             <speaker>ANNA</speaker>
             <stage>(till <persName ref="#Kalle">Kalle</persName>, som följt med ner).</stage>
-            <p>Hvad är det                    
+            <p>Hvad är det
             <lb/> nu med <persName ref="#Hanna">henne</persName> igen?</p>
           </sp>
           <sp who="#spKalle">
@@ -8975,7 +8979,7 @@
             <speaker>LÄNSMAN.</speaker>
             <p>Jaså, det tycker du att du kan komma
             <lb/> ut med, du <persName ref="#LottaISjöändan">Lotta i <placeName>Sjöändan</placeName>
-              </persName>? Men spendera du 
+              </persName>? Men spendera du
             <lb/> lite mindre kaffe på granngålskärngarne, så kan du
             <lb/> betala <rs type="hand" ref="#handarbetep1">rocken</rs> hvad han är värd! <stage>(skratt.)</stage> Sex kronor
             <lb/> ska’ vi börja med!</p>
@@ -9385,7 +9389,7 @@
             <lb/> han sig till <persName ref="#Blommén">Blommen</persName>.)</stage>
             <p>
               <persName ref="#Blommén">Öfverkonstapeln</persName>, som är en
-            <lb/> kronans karl, och en gentil karl, ska’ väl inte bry 
+            <lb/> kronans karl, och en gentil karl, ska’ väl inte bry
             <pb facs="6952-96.jpg"/>
               <fw type="pageNum">95</fw>
             sig om ... <stage>(sakta till <persName ref="#Blommén">Blommén</persName>, i det han pekar på <persName ref="#JanneBoman">Boman</persName>)</stage>
@@ -9394,7 +9398,7 @@
             <stage>(till <persName ref="#JanneBoman">Boman</persName>.)</stage>
             <lb/>
             <p>Och du <persName ref="#JanneBoman">Janne Boman</persName>, som är en af de raskaste <persName ref="#JanneBoman">skepparne</persName>
-              <lb/> i hela <orgName>Österåkers skeppslag</orgName>, inte ska’ du fästa dig vid 
+              <lb/> i hela <orgName>Österåkers skeppslag</orgName>, inte ska’ du fästa dig vid
             <lb/>
               <stage>(sakta)</stage> att den der <persName ref="#Blommén">finpolerade pomadburken</persName> går och
             <lb/> slänger tuppben för jäntorna!</p>
@@ -9610,7 +9614,7 @@
             <lb/>
               <persName ref="#JanneBoman">Janne Boman</persName>.</p>
           </sp>
-<!-- här står /ljo 
+<!-- här står /ljo
 	       <fw rend="lower-left">Rospiggarna.</fw>
 	       <fw rend="lower-right">5</fw>
 	  -->
@@ -10983,7 +10987,7 @@
           <sp who="#spJanneBoman">
             <speaker>BOMAN.</speaker>
             <p>Det ska’ hinte mankera!</p>
-            <stage>(tar <persName ref="#Hanna">henne</persName> i 
+            <stage>(tar <persName ref="#Hanna">henne</persName> i
             <lb/> famn och kysser henne.)</stage>
           </sp>
           <sp who="#spLänsmanSöderholm">
@@ -11067,7 +11071,7 @@
             <lb/> låter du <persName ref="#JanneBoman">honom</persName> arrendera gården, så svarar jag för
             <lb/> att <persName ref="#JanneBoman">han</persName> ska bli fjerdingsman, och kyrkvärd skall du
             <lb/> bli sjelf, i fall du inte hellre vill bli riksdagsman, när
-            <lb/> det blir så mycket folk i <orgName>skeppslaget</orgName>, så vi ska’ välja 
+            <lb/> det blir så mycket folk i <orgName>skeppslaget</orgName>, så vi ska’ välja
             <lb/> två, der!</p>
 <!-- Refererar sannolikt till Österåkers skeppslag -->
           </sp>

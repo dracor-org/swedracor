@@ -66,7 +66,6 @@
         </availability>
         <idno type="dramawebben">LindheW_Modrar</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000028</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q59651508</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -87,9 +86,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1887"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -102,15 +98,15 @@
            aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -237,6 +233,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1887">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q59651508"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -391,15 +395,15 @@
           <sp who="#spFruDahl">
             <speaker>Fru Dahl.</speaker>
             <p>För dig ja — du är ett tidens barn.
-              <lb/> Hvad mig angår så tackar jag Gud för att jag är gam­<lb break="no"/>mal och snart slipper ifrån allt bråk som våra refor­<lb break="no"/>matorer — helst fruntimren ställa till. Liksom de inte 
+              <lb/> Hvad mig angår så tackar jag Gud för att jag är gam­<lb break="no"/>mal och snart slipper ifrån allt bråk som våra refor­<lb break="no"/>matorer — helst fruntimren ställa till. Liksom de inte
               <lb/> hade något vigtigare att sköta än skrifva böcker och
-              <lb/> teaterpjeser. För mig har verlden varit god nog sådan          
+              <lb/> teaterpjeser. För mig har verlden varit god nog sådan
               <lb/> den är, Gud ske lof!</p>
           </sp>
           <sp who="#spCecilia">
             <speaker>Cecilia.</speaker>
-            <p>Åh, det kokar inom mig när jag tänker           
-              <lb/> på århundradens förtryck och orättvisa! <persName ref="#FruDahl">Tante</persName> kan väl 
+            <p>Åh, det kokar inom mig när jag tänker
+              <lb/> på århundradens förtryck och orättvisa! <persName ref="#FruDahl">Tante</persName> kan väl
               <pb facs="36826-5.jpg"/>
               <fw type="pageNum">4</fw>
               inte till exempel tycka annat än att <persName ref="#Bjørnson">Björnsson</persName> har
@@ -474,7 +478,7 @@
               <fw type="pageNum">5</fw>
               det väl om han, som så mången annen, föll i händerna
               <lb/> på den första bästa af dessa unga flickor, med så kal­<lb break="no"/>lad »briljant uppfostran,» som vår tid har så godt om.
-              <lb/> Tror du att qvinnan var ämnad till en docka den dag 
+              <lb/> Tror du att qvinnan var ämnad till en docka den dag
               <lb/> Gud sade <quote>»Jag vill göra mannen en hjelp, den sig till
               <lb/> honom hålla må.»</quote> — Hjelp af en sådan hjelplös va­<lb break="no"/>relse — nej hans förderf blir hon, och det oftare än
               <lb/> man tror.</p>
@@ -563,7 +567,7 @@
             <speaker>Fru Dahl.</speaker>
             <p>Inte ännu, låt mig först tala till
               <lb/> punkt. <persName ref="#Olof">Olof</persName> är en arbetets man; som ej tänkt på
-              <lb/> stort annat än att skapa sig en framtid, och så fort 
+              <lb/> stort annat än att skapa sig en framtid, och så fort
               <lb/> som möjligt lätta mina bekymmer, en sådan har Gud
               <lb/> ske lof, inte tid med kärleksgriller, och dröjer att
               <lb/> skänka bort sitt hjerta — men <emph>när</emph> han gör det sker
@@ -861,7 +865,7 @@
             <p>Det är det jag alltid har sagt, ni är en verk­<lb break="no"/>lig Sirén.</p>
           </sp>
           <stage type="exit" who="#Cecilia #FrökenSirén">
-            <persName ref="#Cecilia">Cecilia</persName> bjuder <persName ref="#FrökenSirén">fröken</persName> sin arm och går med henne 
+            <persName ref="#Cecilia">Cecilia</persName> bjuder <persName ref="#FrökenSirén">fröken</persName> sin arm och går med henne
             <lb/> nedåt bryggan.</stage>
           <stage type="exit" who="#Folk #Musikanter #Passagerare" cert="medium"/>
         </div>
@@ -872,7 +876,7 @@
             <speaker>Harald.</speaker>
             <p>Hvart tog <persName ref="#Cecilia">min lilla fröken</persName> vägen? <stage>(till
               <lb/>
-                <persName ref="#Olof">Olof</persName>)</stage> du underrättar henne väl om våra planer för 
+                <persName ref="#Olof">Olof</persName>)</stage> du underrättar henne väl om våra planer för
               <lb/> aftonen? </p>
           </sp>
           <sp who="#spFanny">
@@ -1501,7 +1505,7 @@
           <sp who="#spFruBorg">
             <speaker>Fru Borg.</speaker>
             <p>I det fallet har han varit orimligt
-              <lb/> envis, men jag har stått på mig, må du tro. Först 
+              <lb/> envis, men jag har stått på mig, må du tro. Först
               <lb/> ville han inte att <persName ref="#Harald">Harald</persName> skulle bli officer, som ju var
               <lb/> målet för mina ifrigaste önskningar. <said who="#HerrBorg">»Han skall bli
               <lb/> en nyttig menniska,»</said> var svaret på alla mina invänd­<lb break="no"/>ningar.</p>
@@ -1523,7 +1527,7 @@
             <speaker>Fru Borg.</speaker>
             <p>Det var mycket det: <said who="#HerrBorg">»lär henne att
               <lb/> bli en god arbetsam hustru, som kan något annat än
-              <lb/> förstöra sin mans surt förvärfvade pengar, dertill be­<lb break="no"/>höfs inte det der kramset du vill proppa i henne»</said> — 
+              <lb/> förstöra sin mans surt förvärfvade pengar, dertill be­<lb break="no"/>höfs inte det der kramset du vill proppa i henne»</said> —
               <lb/> sa' han.</p>
           </sp>
           <sp who="#spFrökenSirén">
@@ -1788,7 +1792,7 @@
           <sp who="#spCecilia">
             <speaker>Cecilia.</speaker>
             <p>
-              <emph>Kanske!</emph> Mitt lif har troligen varit helt 
+              <emph>Kanske!</emph> Mitt lif har troligen varit helt
               <lb/> annorlunda än deras.</p>
           </sp>
           <sp who="#spHarald">
@@ -2093,7 +2097,7 @@
           <sp who="#spFruBorg">
             <speaker>Fru Borg.</speaker>
             <p>Nej inte nu, <persName ref="#Fanny">unga frun</persName> orkar inte
-              <lb/> ta på sig en annan — kom hit i morgon bittida — 
+              <lb/> ta på sig en annan — kom hit i morgon bittida —
               <lb/> klockan tio till exempel.</p>
           </sp>
           <sp who="#spSömmerskan">
@@ -2305,7 +2309,7 @@
           </sp>
           <sp who="#spFanny">
             <speaker>Fanny.</speaker>
-            <p>Men tänk om han får bygga <orgName ref="#StatensJärnvägar">den nya 
+            <p>Men tänk om han får bygga <orgName ref="#StatensJärnvägar">den nya
               <lb/> jernvägen</orgName> högt uppe i <placeName>Norrland</placeName>, som han så mycket
               <lb/> önskar?</p>
           </sp>
@@ -2408,7 +2412,7 @@
             <speaker>Fru Borg.</speaker>
             <p>Han är lika kär ännu, och under
               <lb/> nära tre månader de varit gifta, har hon endast besökt
-              <lb/> oss två gånger — nu passade jag på tillfället, medan 
+              <lb/> oss två gånger — nu passade jag på tillfället, medan
               <lb/> han var borta, och fick henne hit igen.</p>
           </sp>
           <pb facs="36826-31.jpg"/>
@@ -2427,7 +2431,7 @@
           <sp who="#spFruBorg">
             <speaker>Fru Borg.</speaker>
             <p>
-              <emph>Jag</emph> är väl så älskad af <persName ref="#Fanny #Harald">mina barn</persName>, 
+              <emph>Jag</emph> är väl så älskad af <persName ref="#Fanny #Harald">mina barn</persName>,
               <lb/> någon mor kan vara, men <persName ref="#Olof">min herr mågs</persName> fjesk för
               <lb/>
               <persName ref="#FruDahl">sin gamla mamma</persName> finner jag lite löjligt.</p>
@@ -2519,7 +2523,7 @@
             <p>När jag talat med <persName ref="#Harald">Harald</persName>, kommer
               <lb/> jag in till er.</p>
           </sp>
-          <stage type="exit" who="#FrökenSirén #Fanny">Fröken Sirén och Fanny gå in i rummet med spegeln, 
+          <stage type="exit" who="#FrökenSirén #Fanny">Fröken Sirén och Fanny gå in i rummet med spegeln,
             <lb/> och stänga dörren.</stage>
         </div>
         <anchor type="hand" xml:id="handout4"/>
@@ -2736,7 +2740,7 @@
             <stage>(vårdslöst).</stage>
             <p>Åh nej — gå bara! <stage>(När
               <lb/>
-                <stage type="exit" who="#FruBorg">modren kommit ut</stage>)</stage> det är för resten för sent! <stage>(Går fram 
+                <stage type="exit" who="#FruBorg">modren kommit ut</stage>)</stage> det är för resten för sent! <stage>(Går fram
               <lb/> och åter, otåligt klatschande med ridpiskan)</stage> ja för sent —
               <lb/> det går utför — utför —  <stage>(sjunker ned i en soffa).</stage>
             </p>
@@ -2813,7 +2817,7 @@
             <speaker>Harald</speaker>
             <stage>(uppflammande).</stage>
             <p>Förbi — nej <persName ref="#Cecilia">min sköna</persName>
-              <lb/> — nu är ni i mitt våld. En kyss skall jag ha med 
+              <lb/> — nu är ni i mitt våld. En kyss skall jag ha med
               <lb/> eller mot er vilja <stage>(tager en kyss).</stage>
             </p>
           </sp>
@@ -2965,7 +2969,7 @@
           <sp who="#spHarald">
             <speaker>Harald</speaker>
             <stage>(stöter omildt undan henne).</stage>
-            <p>Jag vill inte 
+            <p>Jag vill inte
               <pb facs="36826-38.jpg"/>
               <fw type="pageNum">37</fw>
               se dem! Hvarför har du uppfostrat mig i lögn — lärt
@@ -3235,7 +3239,7 @@
           </sp>
           <sp who="#spOlof">
             <speaker>Olof.</speaker>
-            <p>Jag har flere gånger tänkt att fråga — 
+            <p>Jag har flere gånger tänkt att fråga —
               <lb/> hon mår väl godt?</p>
           </sp>
           <sp who="#spCecilia">
@@ -3362,7 +3366,7 @@
           </sp>
           <sp who="#spFanny">
             <speaker>Fanny.</speaker>
-            <p>Kunde du inte få verksamhet här i 
+            <p>Kunde du inte få verksamhet här i
               <lb/> staden?</p>
           </sp>
           <sp who="#spOlof">
@@ -3453,7 +3457,7 @@
           </sp>
           <sp who="#spFanny">
             <speaker>Fanny.</speaker>
-            <p>Du har då träffat henne? Du besökte 
+            <p>Du har då träffat henne? Du besökte
               <lb/> henne <emph>först?</emph>
             </p>
           </sp>
@@ -4134,7 +4138,7 @@
           <sp who="#spHerrBorg">
             <speaker>Herr Borg.</speaker>
             <p>
-              <persName ref="#Harald">Pojke</persName>! <stage>(sluter <persName ref="#Harald">Harald</persName> i sin famn, 
+              <persName ref="#Harald">Pojke</persName>! <stage>(sluter <persName ref="#Harald">Harald</persName> i sin famn,
               <lb/> rörd)</stage>
               <persName ref="#Harald">Pojke</persName>!</p>
           </sp>
@@ -4190,7 +4194,7 @@
           </sp>
           <sp who="#spFruBorg">
             <speaker>Fru Borg.</speaker>
-            <p>Jag tror ni ä' tokiga — har jag väl 
+            <p>Jag tror ni ä' tokiga — har jag väl
               <lb/> förtjent detta?</p>
           </sp>
           <sp who="#spOlof">
@@ -4282,7 +4286,7 @@
               <fw type="pageNum">53</fw>
               jag mig som en Guds gåfva — den bästa på jorden.
               <lb/> Jag tänkte mig henne såsom en hjelp till hvilken jag
-              <lb/> kunde gå för att hemta kraft, mod och tröst, just i 
+              <lb/> kunde gå för att hemta kraft, mod och tröst, just i
               <lb/> de svåra stunderna. Jag trodde hon skulle förstå min
               <lb/> innersta tanke, dela min sorg, min fröjd och mina
               <lb/> intressen — men jag har misstagit mig — nu får
@@ -4522,7 +4526,7 @@
             <p>
               <persName ref="#FruDahl">Tante</persName> tror då att det är prestens ord
               <lb/>
-              <emph>ensamt</emph>, som stiftar äktenskapet — fins det inte något 
+              <emph>ensamt</emph>, som stiftar äktenskapet — fins det inte något
               <lb/> innerligt själarnas samband, så är alltsammans en tom
               <lb/> formel — eller något ännu sämre.</p>
           </sp>
@@ -4565,7 +4569,7 @@
             <speaker>Fru Dahl</speaker>
             <stage>(ser <persName ref="#Cecilia">Cecilia</persName> strängt in i ögonen).</stage>
             <p>Det är
-              <lb/> en samvetsfråga jag gör dig — skulle det vara dig 
+              <lb/> en samvetsfråga jag gör dig — skulle det vara dig
               <lb/>
               <emph>svårt</emph> att se honom lycklig med <persName ref="#Fanny">sin hustru</persName>?</p>
           </sp>
@@ -4708,7 +4712,7 @@
           <sp who="#spFruDahl">
             <speaker>Fru Dahl</speaker>
             <stage>(klappar hans hand).</stage>
-            <p>Längtan <persName ref="#Olof">gosse</persName> — 
+            <p>Längtan <persName ref="#Olof">gosse</persName> —
               <lb/> men du sjelf ser — om inte äldre — så åtminstone
               <lb/> alvarligare ut.</p>
           </sp>
@@ -4940,7 +4944,7 @@
           </sp>
           <sp who="#spOlof">
             <speaker>Olof.</speaker>
-            <p>Hoppas det — jag tål inte att han fjeskar 
+            <p>Hoppas det — jag tål inte att han fjeskar
               <lb/> kring <persName ref="#Cecilia">Cecilia</persName> — hon är inte för honom.</p>
           </sp>
           <sp who="#spFruDahl">
@@ -5280,7 +5284,7 @@
             <speaker>Olof.</speaker>
             <p>Vill du då heldre att jag återvänder till
               <lb/>
-              <placeName>Ryssland</placeName> för alltid, eller slår mig ner i <placeName>Australien</placeName> — 
+              <placeName>Ryssland</placeName> för alltid, eller slår mig ner i <placeName>Australien</placeName> —
               <lb/> jag har tänkt på det också.</p>
           </sp>
           <sp who="#spFruDahl">
@@ -5518,7 +5522,7 @@
           <stage>Det ringer häftigt.</stage>
           <sp who="#spOlof">
             <speaker>Olof.</speaker>
-            <p>Se så der ja! Kan man inte får vara i 
+            <p>Se så der ja! Kan man inte får vara i
               <lb/> fred i afton en gång?</p>
           </sp>
           <stage>
@@ -5704,7 +5708,7 @@
           </sp>
           <sp who="#spFruBorg">
             <speaker>Fru Borg.</speaker>
-            <p>Jo — men det var inte förenligt med 
+            <p>Jo — men det var inte förenligt med
               <lb/> mina principer — och för att vara riktigt säker om
               <lb/> att bli insläppt gick jag köksvägen och direkt in till
               <lb/>
@@ -5713,7 +5717,7 @@
           <sp who="#spFruDahl">
             <speaker>Fru Dahl</speaker>
             <stage>(till <persName ref="#Olof">Olof</persName>).</stage>
-            <p>Jag rår inte för det <persName ref="#Olof">Olof</persName>. 
+            <p>Jag rår inte för det <persName ref="#Olof">Olof</persName>.
               <lb/> jag försökte ... <delSpan spanTo="#removedSp"/>
               <emph>Olof.</emph> Det vet jag mor.<anchor xml:id="removedSp"/>
             </p>

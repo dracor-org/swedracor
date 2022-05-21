@@ -68,7 +68,6 @@
         </availability>
         <idno type="dramawebben">KullgrenL_Karlek</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000018</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q59625974</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -89,9 +88,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1885"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -104,15 +100,15 @@
            aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -224,6 +220,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1885">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q59625974"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -248,7 +252,7 @@
         <castItem>
           <role>
             <persName ref="#Majorskan">Majorskan</persName>
-          </role>, <roleDesc>änka</roleDesc>.   
+          </role>, <roleDesc>änka</roleDesc>.
         </castItem>
         <castGroup rend="braced">
           <castItem>
@@ -307,7 +311,7 @@
       <div type="act" n="1">
         <head>FÖRSTA AKTEN.</head>
         <stage type="setting" who="#Anna #Majorskan">
-          <p>Majorskans förmak. Rummet smakfullt och elegant 
+          <p>Majorskans förmak. Rummet smakfullt och elegant
             <lb/> möbleradt. Midt på fondväggen en dörr till tamburen.
             <lb/> Sidodörrar. Till venster sofrum, till höger matsal. Längst
             <lb/> fram på båda sidor soffor. Där framför divanbord med
@@ -322,7 +326,7 @@
         </stage>
         <sp who="#spAnna">
           <speaker>Anna</speaker>
-          <stage>(ser på flera räkningar, 
+          <stage>(ser på flera räkningar,
             <lb/> eftertänksamt).</stage>
           <p>Tretton och fyra — femtisex och sjutton — elfva
             <lb/> och — <stage>(Häftigt.)</stage> Åh, <persName ref="#Majorskan">mamma</persName>, jag begriper inte, när
@@ -821,7 +825,7 @@
         </sp>
         <sp who="#spViktor">
           <speaker>Viktor.</speaker>
-          <p>Ja, ja — jag vet, att <persName ref="#Karl">Karl</persName> är en man af heder, 
+          <p>Ja, ja — jag vet, att <persName ref="#Karl">Karl</persName> är en man af heder,
             <lb/> att han arbetat och —</p>
         </sp>
         <sp who="#spAnna">
@@ -1095,7 +1099,7 @@
           <p>Jag mins så väl, hur hon vande mig vid strängt
             <lb/> arbete, omutlig sanningskärlek, och ingaf mig redan
             <lb/> som barn en stark <emph>hederskänsla</emph>. Hon hade inte
-            <lb/> mycket att lefva af — men vi hade det alltid fint, 
+            <lb/> mycket att lefva af — men vi hade det alltid fint,
             <lb/> och mycket noga var hon i valet af <persName ref="#Kamraterna">mina kamrater</persName>.</p>
         </sp>
         <sp who="#spAnna">
@@ -1141,7 +1145,7 @@
           <speaker>Karl</speaker>
           <stage>(kysser hennes händer och
             <lb/> ler).</stage>
-          <p>Dessa små rosenfingrar med bläckfläckar! Nej, 
+          <p>Dessa små rosenfingrar med bläckfläckar! Nej,
             <lb/> de äro skapade för kyssar.</p>
         </sp>
         <sp who="#spAnna">
@@ -1243,7 +1247,7 @@
           <p>
             <emph>Högakta?</emph> Det var ett strängt ord, <persName ref="#Anna">Anna</persName>. Hvad
             <lb/> ger dig anledning? <stage>(Ser forskande på henne. Hon slår
-            <lb/> ned ögonen.)</stage> Ah, jag förstår — något skvaller — men, 
+            <lb/> ned ögonen.)</stage> Ah, jag förstår — något skvaller — men,
             <lb/>
             <persName ref="#Anna">kära Anna</persName>.</p>
         </sp>
@@ -1421,7 +1425,7 @@
         <sp who="#spMajorskan">
           <speaker>Majorskan.</speaker>
           <p>Och jag går in och hvilar en stund. — <stage>(Pustar.)</stage>
-            <lb/> Det är tröttsamt gå i butiker, när man blir gammal, 
+            <lb/> Det är tröttsamt gå i butiker, när man blir gammal,
             <lb/> känner jag. — <stage>(<stage type="exit" who="#Majorskan">Går in till venster.</stage>
               <persName ref="#Anna">Anna</persName> står en stund</stage>
             <pb facs="36632-31.jpg"/>
@@ -1692,7 +1696,7 @@
         <sp who="#spMajorskan">
           <speaker>Majorskan</speaker>
           <stage>(utan att se upp).</stage>
-          <p>Hur den skall garneras, ja — naturligtvis — jo, 
+          <p>Hur den skall garneras, ja — naturligtvis — jo,
             <lb/> så elegant, som möjligt. <stage>(Ser upp.)</stage> — Men, <persName ref="#Elisabet">mamsell
             <lb/> Elisabet</persName>? Hvad i all världen! <stage>(Hon går bort till <persName ref="#Elisabet">Elisa­<lb break="no"/>bet</persName>, som sjunkit ned på en stol vid dörren. Ropar.)</stage>
             <lb/>
@@ -1700,7 +1704,7 @@
         </sp>
         <sp who="#spAnna">
           <speaker>Anna</speaker>
-          <stage type="entrance" who="#Anna">(kommer med en kopp i 
+          <stage type="entrance" who="#Anna">(kommer med en kopp i
             <lb/> handen).</stage>
           <p>Hur är det? Jag gick efter en kopp buljong, ty
             <lb/> jag såg — <stage>(Till <persName ref="#Elisabet">Elisabet</persName>.)</stage> Försök att dricka litet!
@@ -1907,7 +1911,7 @@
           <speaker>Farbror Göran</speaker>
           <stage>(slår honom på
             <lb/> axeln).</stage>
-          <p>Du är välkommen! Riktigt hjärtligt välkommen, 
+          <p>Du är välkommen! Riktigt hjärtligt välkommen,
             <lb/>
             <persName ref="#Viktor">min gosse</persName>! Och arbete skall inte saknas.</p>
         </sp>
@@ -2038,7 +2042,7 @@
         <sp who="#spMajorskan">
           <speaker>Majorskan</speaker>
           <stage type="entrance" who="#Majorskan">(kommer från mat­<lb break="no"/>salen).</stage>
-          <p>Nu är middagen färdig. Var så god! — Ja, 
+          <p>Nu är middagen färdig. Var så god! — Ja,
             <lb/>
             <persName ref="#FarbrorGöran">svåger</persName> får hålla till godo med hvar huset förmår.
             <lb/> — Var så god, <persName ref="#FarbrorGöran">bäste svåger</persName>!</p>
@@ -2864,7 +2868,7 @@
         </sp>
         <sp who="#spAnna">
           <speaker>Anna.</speaker>
-          <p>Men <persName ref="#Ellen">Ellen</persName>, skulle hon vilja gifta sig men <persName ref="#Ahls">en man</persName>, 
+          <p>Men <persName ref="#Ellen">Ellen</persName>, skulle hon vilja gifta sig men <persName ref="#Ahls">en man</persName>,
             <lb/> som — som — — och <persName ref="#AhlsBarn">barnet</persName>, hvad blir det af <persName ref="#AhlsBarn">barnet</persName>?</p>
         </sp>
         <sp who="#spMajorskan">
@@ -3651,7 +3655,7 @@
             <persName ref="#Majorskan">Majorskans</persName> förmak, klockan sex på morgonen. En­<lb break="no"/>dast en lampa är tänd. <persName ref="#Ellen">Ellens</persName> teaterkappa och supé­<lb break="no"/>mössa ligga kastade på en stol vid dörren till sängkam­<lb break="no"/>maren. Anna, klädd i en enkel, svart resklädning, utan
             <lb/> alla prydnader, sitter till höger vid bordet. Lampskenet
             <lb/> faller på hennes ansikte, som är mycket blekt. Hon stö­<lb break="no"/>der hufvudet mot venstra handen. Bredvid henne på
-            <lb/> bordet står ett skrifställ. På en stol ligga reskläder. 
+            <lb/> bordet står ett skrifställ. På en stol ligga reskläder.
             <lb/> Kort paus.</p>
           <p>
             <stage type="entrance" who="#Karl">Karl i full resdrägt med en stor blomsterbukett kom­<lb break="no"/>mer hastigt från tamburen.</stage> Han kastar mössan på en
@@ -3742,7 +3746,7 @@
           <speaker>Karl</speaker>
           <stage>(uppbrusande).</stage>
           <p>Bedrog henne! <persName ref="#Anna">Anna</persName>, du vet inte hvad du sä­<lb break="no"/>ger! Jag <emph>har</emph> ju inte bedragit henne. — Jag lofvade
-            <lb/> henne ingenting. Fast jag älskade henne lidelsefullt, 
+            <lb/> henne ingenting. Fast jag älskade henne lidelsefullt,
             <lb/> insåg jag likvisst, att det var en omöjlighet att gifta
             <lb/> mig med henne. — Jag var ju fattig och måste för­<lb break="no"/>sörja <persName ref="#FruLesser">min mor</persName>, och — i alla fall — nej —</p>
         </sp>
@@ -3831,7 +3835,7 @@
           <stage>(allvarligt).</stage>
           <p>Och så vill <emph>du</emph> urskulda ditt brott med »<emph>starka
             <lb/> passioner»</emph> och med <emph>»hvad läkare säga</emph>». Om <persName ref="#Elisabet">Elisabet</persName>
-            <lb/> också hade varit en låg, dålig kvinna - du hade 
+            <lb/> också hade varit en låg, dålig kvinna - du hade
             <lb/> ändå inte haft rättighet offra henne för ditt »<emph>väl­<lb break="no"/>befinnande</emph>». <stage>(Häftigt.)</stage> Ditt brott är långt större än
             <lb/> hans, som —</p>
         </sp>
@@ -4007,7 +4011,7 @@
             <pb facs="36632-88.jpg"/>
               <fw type="pageNum">85</fw>
               <persName ref="#Karl">Karl</persName>, utan att se upp.)</stage> Ja, <persName ref="#Anna">Anna</persName>, förlåt mig; men jag
-            <lb/> kan inte hjälpa det. — Hon var mig en gång så kär, 
+            <lb/> kan inte hjälpa det. — Hon var mig en gång så kär,
             <lb/> och jag har handlat så illa emot henne!</p>
         </sp>
         <sp who="#spAnna">
@@ -4305,7 +4309,7 @@
         <sp who="#spAnna">
           <speaker>Anna</speaker>
           <stage>(bestämdt).</stage>
-          <p>Att jag <emph>aldrig</emph> gifter mig med <persName ref="#Karl">en man</persName>, som 
+          <p>Att jag <emph>aldrig</emph> gifter mig med <persName ref="#Karl">en man</persName>, som
             <lb/> nekar att uppfylla sin bestämdaste plikt.</p>
         </sp>
         <sp who="#spKarl">

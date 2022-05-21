@@ -68,7 +68,6 @@
         </availability>
         <idno type="dramawebben">LefflerAC_UnderToffeln</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000027</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q10709356</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -97,9 +96,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1883"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -112,15 +108,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -203,6 +199,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1883">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q10709356"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -330,7 +334,7 @@
           <speaker>Borgmästaren.</speaker>
           <p>Naturligtvis!  — Men är ni nu bara riktigt säker
             <lb/> på att <persName ref="#Henning">er bror</persName> kommer hem till om torsdag? Jag
-            <lb/> skulle vara förtviflad om han inte komme med på 
+            <lb/> skulle vara förtviflad om han inte komme med på
             <lb/> mitt afskedskalas.</p>
         </sp>
         <sp who="#spAgnes">
@@ -368,7 +372,7 @@
           <stage>(som förut).</stage>
           <p>Men det är inte bara en värdinna, som fattas
             <lb/> mig  — det är  — rent ut sagdt, det är något mycket
-            <lb/> mer. Det är  — ja, ni vet det nog  —  — det är en 
+            <lb/> mer. Det är  — ja, ni vet det nog  —  — det är en
             <lb/> hustru, rent ut sagdt.</p>
         </sp>
         <sp who="#spAgnes">
@@ -451,11 +455,11 @@
             <lb/> de alltid skulle lefva för hvarandra stödja, hjälpa
             <lb/> och älska hvarandra. De ärfde hälften hvar i denna
             <lb/> egendom, som tillhört <persName ref="#Fadern #Farfadern #Farfarsfar #Modern">deras förfäder</persName>, och här bodde
-            <lb/> de sedan ensamma tillsammans i hela sitt lif. <persName ref="#Henning">Bro­<lb break="no"/>dern</persName> hade ännu inte slutat sin kurs vid <orgName ref="#Akademien">akademien</orgName>, 
+            <lb/> de sedan ensamma tillsammans i hela sitt lif. <persName ref="#Henning">Bro­<lb break="no"/>dern</persName> hade ännu inte slutat sin kurs vid <orgName ref="#Akademien">akademien</orgName>,
             <lb/> där han läste på graden. <persName ref="#Agnes">Systern</persName> satt ensam i
             <lb/> hemmet och räknade dagarna mellan <persName ref="#Henning">broderns</persName> be­<lb break="no"/>sök där. Då han tagit sin examen, slog han sig
-            <lb/> ned i hemmet för alltid. Han var ekonomiskt obe­<lb break="no"/>roende och behöfde därför inte söka sig en syssla, 
-            <lb/> utan egnade sig odeladt åt sitt älsklingsstudium, bo­<lb break="no"/>taniken. Han anlade <orgName ref="#BotaniskaTrädgården">en vacker botanisk trädgård</orgName>, 
+            <lb/> ned i hemmet för alltid. Han var ekonomiskt obe­<lb break="no"/>roende och behöfde därför inte söka sig en syssla,
+            <lb/> utan egnade sig odeladt åt sitt älsklingsstudium, bo­<lb break="no"/>taniken. Han anlade <orgName ref="#BotaniskaTrädgården">en vacker botanisk trädgård</orgName>,
             <lb/> och han skref vetenskapliga afhandlingar, som väckte
             <lb/> mycken uppmärksamhet inom den lärda verlden.
             <lb/>
@@ -569,7 +573,7 @@
         </sp>
         <sp who="#spBorgmästaren">
           <speaker>Borgmästaren.</speaker>
-          <p>Det är således denna ungdomskärlek, som gör, 
+          <p>Det är således denna ungdomskärlek, som gör,
             <lb/> att ni  —  — Ni har ännu ett litet rum kvar i ert
             <lb/> hjärta för <persName ref="#Borgmästaren">en man</persName>, som kunde gifta sig ett halft år
             <lb/> efter att ha varit älskad af er.</p>
@@ -583,7 +587,7 @@
             <lb/> svärmeri flytt ur mitt hjärta. För att visa er, hur
             <pb facs="5559-18.jpg"/>
             <fw type="pageNum">91</fw>
-            fullkomligt botad jag är för min ungdomsdårskap, 
+            fullkomligt botad jag är för min ungdomsdårskap,
             <lb/> så vill jag till och med tala om för er, hvem <persName ref="#Borgmästaren">min
             <lb/> hjälte</persName> var.</p>
         </sp>
@@ -654,7 +658,7 @@
         </sp>
         <sp who="#spBorgmästaren">
           <speaker>Borgmästaren</speaker>
-          <stage>(utan att mottaga 
+          <stage>(utan att mottaga
             <lb/> den).</stage>
           <p>God afton, <persName ref="#Agnes">mamsell Agnes</persName>, god afton! <stage type="exit" who="#Borgmästaren">(Går
             <lb/> hastigt.)</stage>
@@ -714,7 +718,7 @@
           <speaker>Henning.</speaker>
           <p>Men <persName ref="#Borgmästaren">borgmästaren</persName> har hållit dig sällskap ibland,
             <lb/> tror jag. Jag mötte honom på förstubron, och han
-            <lb/> såg så lång ut i ansigtet, att det just föll mig in, 
+            <lb/> såg så lång ut i ansigtet, att det just föll mig in,
             <lb/> att han kanske återigen fått en korg.</p>
         </sp>
         <sp who="#spAgnes">
@@ -880,7 +884,7 @@
         <sp who="#spAgnes">
           <speaker>Agnes.</speaker>
           <p>Hon var med <persName ref="#BaronElghorn #Baronessan">Elghorns</persName> i <placeName>Stockholm</placeName> förliden
-            <lb/> vinter, och då voro de jämt tillsammans med <persName ref="#Ebba #Friherren #Friherrinnan">Hjort­<lb break="no"/>hufvuds</persName>. Hon sade, att <persName ref="#Ebba">Ebba</persName> var rysligt bortskämd, 
+            <lb/> vinter, och då voro de jämt tillsammans med <persName ref="#Ebba #Friherren #Friherrinnan">Hjort­<lb break="no"/>hufvuds</persName>. Hon sade, att <persName ref="#Ebba">Ebba</persName> var rysligt bortskämd,
             <lb/> flärdfull och kokett, och att <persName ref="#Friherrinnan">modern</persName> var en intrigant
             <lb/> och högfärdig varelse, fattig, men fåfäng i högsta
             <lb/> grad.</p>
@@ -909,7 +913,7 @@
         <sp who="#spHenning">
           <speaker>Henning.</speaker>
           <p>Ja, inte sant, du och jag skola nu gemensamt
-            <lb/> arbeta för <persName ref="#Ebba">min lilla Ebbas</persName> lycka. I stället för att 
+            <lb/> arbeta för <persName ref="#Ebba">min lilla Ebbas</persName> lycka. I stället för att
             <pb facs="5559-25.jpg"/>
             <fw type="pageNum">98</fw>
             vi hittils lefvat bara för hvarandra, skola vi nu båda
@@ -936,7 +940,7 @@
           <speaker>Henning.</speaker>
           <p>Detta har jag nog också själf insett. Och det
             <lb/> är därför min afsigt att skilja <persName ref="#Ebba">Ebba</persName> från <persName ref="#Friherrinnan">sin mor</persName> så
-            <lb/> mycket som möjligt. Men det kan jag inte göra, 
+            <lb/> mycket som möjligt. Men det kan jag inte göra,
             <lb/>
             <persName ref="#Agnes">Agnes</persName>, om inte du blir öm om henne och söker er­<lb break="no"/>sätta henne, hvad hon då förlorar. Hela hennes lif
             <lb/> har hittils förflutit sorgfritt och gladt som en lycklig
@@ -972,7 +976,7 @@
         <sp who="#spAgnes">
           <speaker>Agnes</speaker>
           <stage>(upprörd).</stage>
-          <p>Skall jag redan träffa henne! Nej, inte i afton, 
+          <p>Skall jag redan träffa henne! Nej, inte i afton,
             <lb/>
             <persName ref="#Henning">Henning</persName>, jag ber dig!</p>
         </sp>
@@ -1172,7 +1176,7 @@
         </sp>
         <sp who="#spHenning">
           <speaker>Henning.</speaker>
-          <p>Nej, blif inte ledsen nu. Det kan inte hjälpas, 
+          <p>Nej, blif inte ledsen nu. Det kan inte hjälpas,
             <lb/> jag får väl då uppskjuta lysningen åtta dar.</p>
         </sp>
         <pb facs="5559-31.jpg"/>
@@ -1189,7 +1193,7 @@
         </sp>
         <sp who="#spAgnes">
           <speaker>Agnes.</speaker>
-          <p>Fyra veckor, <persName ref="#Henning">Henning</persName>. Ty du har väl inte glömt, 
+          <p>Fyra veckor, <persName ref="#Henning">Henning</persName>. Ty du har väl inte glömt,
             <lb/> att <persName ref="#Modern">vår mor</persName> begrofs söndagen efter sin död.</p>
         </sp>
         <sp who="#spHenning">
@@ -1218,7 +1222,7 @@
             <fw type="pageNum">105</fw>
             Kommer du ihåg den där vintern i <placeName>Upsala</placeName>, då du
             <lb/> plötsligt greps af en sådan längtan efter mig? Du
-            <lb/> skref, att jag skulle komma till dig ögonblickligen, 
+            <lb/> skref, att jag skulle komma till dig ögonblickligen,
             <lb/> och jag måste resa hufvudstupa, nästan utan att hinna
             <lb/> ordna det minsta hemma, innan jag for.</p>
         </sp>
@@ -1226,7 +1230,7 @@
           <speaker>Henning.</speaker>
           <p>Jag tror ändå, <persName ref="#Agnes">Agnes lilla</persName>, att jag måste fara till
             <lb/> Elghöjd i afton. Jag kommer nu ihåg, att <persName ref="#Ebba">Ebba</persName> såg
-            <lb/> lite blek ut, då hon for, och <persName ref="#Friherrinnan">hennes mamma</persName> sade, 
+            <lb/> lite blek ut, då hon for, och <persName ref="#Friherrinnan">hennes mamma</persName> sade,
             <lb/> att hon sofvit oroligt på natten. Hon såg verkligen
             <lb/> mycket, mycket klen ut.</p>
         </sp>
@@ -1404,7 +1408,7 @@
             <fw type="pageNum">109</fw>
             staden att hälsa på. <stage>(Ser sig om.)</stage>Att jag nu är
             <lb/> här i ditt hus, <persName ref="#Henning">Henning</persName>! Hvad det är underligt!  —
-            <lb/> Du anade väl aldrig, <persName ref="#Agnes">Agnes</persName>, att <persName ref="#Henning">din allvarsamme, 
+            <lb/> Du anade väl aldrig, <persName ref="#Agnes">Agnes</persName>, att <persName ref="#Henning">din allvarsamme,
             <lb/> lärde bror</persName> skulle fästa sig vid <persName ref="#Ebba">en sådan barnslig, glad
             <lb/> och munter liten flicka</persName>, som jag.</p>
         </sp>
@@ -1426,7 +1430,7 @@
         <sp who="#spEbba">
           <speaker>Ebba.</speaker>
           <p>Åh, det kan du väl förstå. <persName ref="#Henning">Henning</persName>, som är så
-            <lb/> olik <persName ref="#Ungherrarna">alla andra ungherrar</persName>. Inte kunde han dansa, 
+            <lb/> olik <persName ref="#Ungherrarna">alla andra ungherrar</persName>. Inte kunde han dansa,
             <lb/> inte kunde han föra någon konversation, och bara
             <lb/> han fick se en ung flicka, så rodnade han. Ja, <persName ref="#Henning">Hen­<lb break="no"/>ning</persName> har lefvat alldeles för ensligt här på landet, och
             <lb/> det är därför han blifvit så där egen, säger <persName ref="#Friherrinnan">mamma</persName>. </p>
@@ -1661,7 +1665,7 @@
         <sp who="#spEbba">
           <speaker>Ebba.</speaker>
           <p>Så stanna då hos <persName ref="#Agnes">Agnes</persName>! Jag skall inte störa
-            <lb/> er längre. Godnatt! <stage>(Går mot dörren i fonden; <persName ref="#Henning">Hen­<lb break="no"/>ning</persName> följer henne, hon gör en afvisande rörelse.)</stage> Nej, 
+            <lb/> er längre. Godnatt! <stage>(Går mot dörren i fonden; <persName ref="#Henning">Hen­<lb break="no"/>ning</persName> följer henne, hon gör en afvisande rörelse.)</stage> Nej,
             <lb/> du behöfver inte följa mig ut. Stanna inne hos <persName ref="#Agnes">Ag­<lb break="no"/>nes</persName>! <stage type="exit" who="#Ebba">(Går hastigt; <persName ref="#Henning">Henning</persName> står som bedöfvad och
             <lb/> ser efter henne, strax därefter höres hennes vagn rulla
             <lb/> bort.)</stage>
@@ -1688,7 +1692,7 @@
         <sp who="#spAgnes">
           <speaker>Agnes</speaker>
           <stage>(gråtande).</stage>
-          <p>Förlåta kan jag nog, <persName ref="#Henning">Henning</persName>, men glömma, 
+          <p>Förlåta kan jag nog, <persName ref="#Henning">Henning</persName>, men glömma,
             <lb/> glömma kan jag inte. <stage>(Går med händerna för ansig­<lb break="no"/>tet mot dörren till vänster.)</stage>
           </p>
         </sp>
@@ -1768,7 +1772,7 @@
         </sp>
         <sp who="#spAgnes">
           <speaker>Agnes</speaker>
-          <stage>(låtsar ej förstå vinken, 
+          <stage>(låtsar ej förstå vinken,
             <lb/> utan tar henne i hand och för
             <lb/> henne till soffan, där de båda
             <lb/> sätta sig.)</stage>
@@ -1781,7 +1785,7 @@
           <speaker>Friherrinnan.</speaker>
           <p>Det vet jag nog, <persName ref="#Agnes">bästa Agnes</persName>. <persName ref="#Ebba">Min Ebba</persName> är en
             <lb/> öm och kärleksfull dotter och lemnar inte <persName ref="#Friherrinnan">sin mor</persName> i
-            <lb/> okunnighet om sina företag. Jag vet, att <persName ref="#Ebba #Henning">vårt nya­<lb break="no"/>gifta unga par</persName> väntas hem i afton, och jag vågar tro, 
+            <lb/> okunnighet om sina företag. Jag vet, att <persName ref="#Ebba #Henning">vårt nya­<lb break="no"/>gifta unga par</persName> väntas hem i afton, och jag vågar tro,
             <lb/> att <persName ref="#Ebba">min Ebba</persName> skulle finna hemmet tomt vid sin åter­<lb break="no"/>komst, om hon inte funne mig här.</p>
         </sp>
         <sp who="#spAgnes">
@@ -1993,7 +1997,7 @@
             <lb/> åt henne af <persName ref="#Fadern">vår far</persName> såsom en syrpris på hennes bröl­<lb break="no"/>lopsdag. Det har stått orördt sedan hennes död, och
             <lb/>
             <persName ref="#Henning">Henning</persName> och jag har knappt nänts att sätta vår fot
-            <lb/> dit för att inte störa den tysta friden i detta rum, 
+            <lb/> dit för att inte störa den tysta friden i detta rum,
             <lb/> där alt så lifligt påminner om <persName ref="#Modern">vår oförgätliga moder</persName>.</p>
         </sp>
         <sp who="#spHenning">
@@ -2204,7 +2208,7 @@
         </sp>
         <sp who="#spFriherrinnan">
           <speaker>Friherrinnan.</speaker>
-          <p>Ja, du har rätt, <persName ref="#Ebba">mitt barn</persName>. Om jag vore som du, 
+          <p>Ja, du har rätt, <persName ref="#Ebba">mitt barn</persName>. Om jag vore som du,
             <lb/>
             <persName ref="#Henning">Henning</persName>, skulle jag hugga bort de där träden.</p>
         </sp>
@@ -2297,7 +2301,7 @@
         </sp>
         <sp who="#spFriherrinnan">
           <speaker>Friherrinnan.</speaker>
-          <p>Nu får du inte vara barnslig, <persName ref="#Ebba">min lilla Ebba</persName>, 
+          <p>Nu får du inte vara barnslig, <persName ref="#Ebba">min lilla Ebba</persName>,
             <lb/> utan komma ihåg din ställning. <persName ref="#Jungfru1 #Jungfru2">Tjänstfolket</persName> får ingen
             <lb/> aktning för <persName ref="#Ebba">sin matmor</persName>, om de se, att hon försum­<lb break="no"/>mar sina pligter. <stage type="entrance" who="#Jungfru1">(En jungfru kommer och hviskar
             <lb/> en fråga i <persName ref="#Agnes">Agnes</persName> öra.)</stage>
@@ -2417,7 +2421,7 @@
           <speaker>Friherrinnan</speaker>
           <stage>(förbindligt).</stage>
           <p>Men, <persName ref="#Henning">bäste Henning</persName>, <emph>något</emph> afseende vill du säkert
-            <lb/> fästa vid <persName ref="#Ebba">din unga hustru</persName>. Du vill väl inte begära, 
+            <lb/> fästa vid <persName ref="#Ebba">din unga hustru</persName>. Du vill väl inte begära,
             <lb/> att hon, som varit van vid så mycket nöjen och för­<lb break="no"/>ströelser, skall lefva hela året om på det här ensliga
             <lb/> stället.</p>
         </sp>
@@ -2691,7 +2695,7 @@
         <sp who="#spHenning">
           <speaker>Henning.</speaker>
           <p>Ja, ni, just ni, är orsaken därtill. Jag säger inte,
-            <lb/> att ni <emph>vill</emph> göra henne olycklig  — men ni gör det i 
+            <lb/> att ni <emph>vill</emph> göra henne olycklig  — men ni gör det i
             <lb/> alla fall  — både henne och mig.</p>
         </sp>
         <sp who="#spFriherrinnan">
@@ -2764,7 +2768,7 @@
         <sp who="#spAgnes">
           <speaker>Agnes</speaker>
           <stage>(skrattar).</stage>
-          <p>Hårdt behandlad af <persName ref="#Henning">Henning</persName>! Res med lugn, 
+          <p>Hårdt behandlad af <persName ref="#Henning">Henning</persName>! Res med lugn,
             <lb/>
             <persName ref="#Friherrinnan">bästa tant</persName>! I nästa minut skall han ligga <choice>
               <sic>bortfärdig</sic>
@@ -2908,7 +2912,7 @@
           <p>Sådan skulle då min första afton blifva i det nya
             <lb/> hemmet  — och jag, som längtat så efter denna dag
             <lb/> — som drömt om hur lyckliga vi skulle vara, vi båda,
-            <lb/> då vi suto tillsammans i skymningen och talade  —  
+            <lb/> då vi suto tillsammans i skymningen och talade  —
             <lb/>
             <stage>(snyftande)</stage> om  —  — framtiden  — som jag trodde  —
             <lb/> skulle le så ljust mot oss  —  —</p>

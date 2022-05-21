@@ -68,7 +68,6 @@
         </availability>
         <idno type="dramawebben">LefflerAC_Skadespelerskan</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000026</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q10671060</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -97,9 +96,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1883"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -112,15 +108,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -243,6 +239,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1883">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q10671060"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -406,7 +410,7 @@
         </sp>
         <sp who="#spAgda">
           <speaker>Agda.</speaker>
-          <p> Åh, bevara mig väl från att vålla honom en så­<lb break="no"/>dan sorg! Jag har redan gjort i ordning de där sa­<lb break="no"/>kerna, ty jag visste mycket väl, att ingen mänsklig 
+          <p> Åh, bevara mig väl från att vålla honom en så­<lb break="no"/>dan sorg! Jag har redan gjort i ordning de där sa­<lb break="no"/>kerna, ty jag visste mycket väl, att ingen mänsklig
             <pb facs="36738-12.jpg"/>
             <fw type="pageNum">7</fw>
             makt skulle kunna få dig från fönstret förr än <persName ref="#Sven">
@@ -530,14 +534,14 @@
           <p>Ja bevars, jag har varit på äppelkammaren och
             <lb/> valt ut små söta rosenkinder, jag har gjort i ordning
             <lb/> konfekten, klippt stjärnor och bakat nissar och nassar,
-            <lb/> altsammans under det <persName ref="#Elin">Elin</persName> bara suckat och längtat 
+            <lb/> altsammans under det <persName ref="#Elin">Elin</persName> bara suckat och längtat
             <lb/> efter <persName ref="#Sven">sin fästman</persName> och grubblat på verser, som hon
             <lb/> skulle skrifva på hans julklappar. Förlofvade flickor
             <lb/> äro alltid så nyttiga.</p>
         </sp>
         <sp who="#spFruStålberg">
           <speaker>Fru Stålberg</speaker>
-          <stage>(går till fönstret, 
+          <stage>(går till fönstret,
             <lb/> där <persName ref="#Elin">Elin</persName> står).</stage>
           <p>Det var ett förfärligt yrväder! <persName ref="#Ivar #Seth">Gossarna</persName> måtte
             <lb/> väl icke förkyla sig på kuskbocken! Jag ångrar, att
@@ -645,7 +649,7 @@
         </sp>
         <sp who="#spFruStålberg">
           <speaker>Fru Stålberg.</speaker>
-          <p>Välkommen, käre <persName ref="#Sven">Sven</persName>. Hu, hvad dina händer 
+          <p>Välkommen, käre <persName ref="#Sven">Sven</persName>. Hu, hvad dina händer
             <lb/> äro kalla!</p>
         </sp>
         <sp who="#spSven">
@@ -663,7 +667,7 @@
         </sp>
         <sp who="#spSven">
           <speaker>Sven.</speaker>
-          <p>Se där är <persName ref="#Agda">Agda</persName>. Du kunde väl ändå besvära 
+          <p>Se där är <persName ref="#Agda">Agda</persName>. Du kunde väl ändå besvära
             <lb/> dig med att hälsa på mig, då jag nu inte varit här
             <lb/> på 14 dar.</p>
         </sp>
@@ -694,7 +698,7 @@
             <lb/> att berätta dig. <stage>(<persName ref="#Agda">Agda</persName> vänder hufvudet och lyssnar.)</stage>
             <lb/> Kan du tänka dig, att <persName ref="#Prinsessan">din favoritko</persName>, den som du
             <lb/> alltid så gerna mjölkade i somras, blef sjuk i förra
-            <lb/> veckan, så att jag måste slagta henne. Det var en 
+            <lb/> veckan, så att jag måste slagta henne. Det var en
             <lb/> riktig förlust, ty det var min bästa mjölkko.</p>
         </sp>
         <sp who="#spElin">
@@ -725,7 +729,7 @@
           <lb/> kommer strax därefter samma väg.</stage>
           <persName ref="#Agda">Agda</persName> springer
           <lb/> med ett glädjeskri i hans famn. Därefter ömsesidiga
-          <lb/> hälsningar. Alla tala på en gång, så att endast ett 
+          <lb/> hälsningar. Alla tala på en gång, så att endast ett
           <lb/> sorl höres.)</stage>
         <pb facs="36738-19.jpg"/>
         <fw type="pageNum">14</fw>
@@ -885,7 +889,7 @@
         </sp>
         <sp who="#spAgda">
           <speaker>Agda.</speaker>
-          <p>Ack, om det vore hon! Jag var så förtjust i 
+          <p>Ack, om det vore hon! Jag var så förtjust i
             <lb/> henne, att jag inte kunde tänka på något annat på
             <lb/> länge.</p>
         </sp>
@@ -1086,14 +1090,14 @@
         </sp>
         <sp who="#spIvar">
           <speaker>Ivar.</speaker>
-          <p>Vi ha selat af <persName ref="#BrukspatronsHästar">hästarna</persName> och så gaf vi dem foder, 
+          <p>Vi ha selat af <persName ref="#BrukspatronsHästar">hästarna</persName> och så gaf vi dem foder,
             <lb/> förstås.</p>
         </sp>
         <sp who="#spEster">
           <speaker>Ester.</speaker>
           <p>Nå, det kallar jag hurtiga pojkar! Kom nu fram
             <lb/> i ljusskenet, så att jag får se på er riktigt, <persName ref="#Ivar #Seth">mina snälla
-            <lb/> små bröder</persName>! Jag har ju ännu inte sett er annat än 
+            <lb/> små bröder</persName>! Jag har ju ännu inte sett er annat än
             <lb/> i ytterrockar och pelsmössor. <stage>(Klappar förtroligt <persName ref="#Seth">Seth</persName>
               <lb/> på axeln och skakar hand med <persName ref="#Ivar">Ivar</persName>; båda se på henne
             <lb/> med blyg beundran.)</stage>
@@ -1214,9 +1218,9 @@
             <lb/> Men när jag någon afton blifvit riktigt applåderad,
             <lb/> kastade jag mig vanligtvis på min bädd om natten
             <lb/> och grät — grät! Jag kände, att jag ej med mitt
-            <lb/> spel lyckats tala till något hjärta, utan applåderna 
+            <lb/> spel lyckats tala till något hjärta, utan applåderna
             <lb/> komma egentligen från <persName ref="#Ungherrar">en massa ungherrar</persName>, som hyl­<lb break="no"/>lade mig, därför att jag var ung och vacker, och för­<lb break="no"/>olämpade mig, därför att jag var värnlös och behag­<lb break="no"/>sjuk. <stage>(Faller i tankar.)</stage> En gång såg jag, att mitt
-            <lb/> spel hade rört <persName ref="#Agda">ett oskyldigt hjärta</persName>. Ja, det var en 
+            <lb/> spel hade rört <persName ref="#Agda">ett oskyldigt hjärta</persName>. Ja, det var en
             <lb/> lycklig afton! Från den tiden fick jag mer aktning
             <lb/> för mig själf och återfick tron på min konstnärskal­<lb break="no"/>lelse, som eljelst ofta öfvergaf mig. Aldrig skall jag
             <lb/> glömma de klara, oskyldiga barnaögonen, som då
@@ -1284,7 +1288,7 @@
         </sp>
         <sp who="#spEster">
           <speaker>Ester</speaker>
-          <stage>(plötsligt, i det hon drar 
+          <stage>(plötsligt, i det hon drar
             <lb/> sig ifrån <persName ref="#FruStålberg">fru Stålberg</persName>).</stage>
           <p>Men medan jag står här och pratar och ställer
             <lb/> till scener, blir ju mitt goda té alldeles kallt. <stage>(Sätter
@@ -1311,7 +1315,7 @@
           <p>Ni äro minsann värre än <persName ref="#Tidningskritiker">mina skarpaste tidnings­<lb break="no"/>kritici</persName>! Hör nu, <persName ref="#Ivar #Seth">snälla gossar</persName>, en af er går säkert
             <lb/> efter min näsduk, om jag ber vackert. Jag har visst
             <lb/> glömt den i fickan på min resklädning, som ligger
-            <lb/> någonstans på gästrummet, där jag klädde om mig.           
+            <lb/> någonstans på gästrummet, där jag klädde om mig.
             <pb facs="36738-32.jpg"/>
             <fw type="pageNum">27</fw>
             Jag hoppas ni ursäkta, att alla mina kläder ligga
@@ -1329,9 +1333,9 @@
           <speaker>Ester.</speaker>
           <p>Hu, jag är aldeles iskall om fötterna. <persName ref="#Ivar">Ivar lille</persName>,
             <lb/> gif mig en pall! <stage>(<persName ref="#Ivar">Ivar</persName> lyder artigt.) </stage> Nej, tack du,
-            <lb/> den där värmer inte. Det skall inte vara en sådan 
+            <lb/> den där värmer inte. Det skall inte vara en sådan
             <lb/> där pärlbroderad, utan en mjuk, ullig. Jag såg en
-            <lb/> sådan i ett kabinett, som jag gick igenom, då jag 
+            <lb/> sådan i ett kabinett, som jag gick igenom, då jag
             <lb/> kom in. Du vore bra snäll, om du ville gå efter den
             <lb/> åt mig.</p>
         </sp>
@@ -1362,7 +1366,7 @@
         <sp who="#spFruStålberg">
           <speaker>Fru Stålberg.</speaker>
           <p>
-            <persName ref="#Ivar">Ivar</persName>, stig genast upp! Det förvånar mig, att du 
+            <persName ref="#Ivar">Ivar</persName>, stig genast upp! Det förvånar mig, att du
             <lb/> inte vet att uppföra dig mer passande!</p>
         </sp>
         <sp who="#spEster">
@@ -1384,7 +1388,7 @@
             <lb/> Men nu skall du till ersättning för ditt besvär få
             <lb/> dansa en sväng med mig. <stage>(Springer upp och tar <persName ref="#Seth">Seths</persName>
               <lb/> hand.)</stage>
-            <persName ref="#FruStålberg">Snälla mamma</persName>, spela en vals! Jag är verk­<lb break="no"/>ligen så utfrusen, att jag blir sjuk, om jag inte kan 
+            <persName ref="#FruStålberg">Snälla mamma</persName>, spela en vals! Jag är verk­<lb break="no"/>ligen så utfrusen, att jag blir sjuk, om jag inte kan
             <lb/> få blodet i hastigare omlopp.</p>
         </sp>
         <sp who="#spFruStålberg">
@@ -1477,7 +1481,7 @@
           <stage>(ond).</stage>
           <p>
             <persName ref="#Elin">Elin</persName>, det förvånar mig, hur du kan vilja yttra
-            <lb/> dig så ovänligt! Det är sannerligen inte mycket be­<lb break="no"/>vändt med den tillgifvenhet, du alltid sagt dig hysa 
+            <lb/> dig så ovänligt! Det är sannerligen inte mycket be­<lb break="no"/>vändt med den tillgifvenhet, du alltid sagt dig hysa
             <lb/> för mig, då du kan vara så hård i ditt omdöme om
             <lb/> någon, som är mig så kär.</p>
         </sp>
@@ -1592,7 +1596,7 @@
         <sp who="#spSven">
           <speaker>Sven</speaker>
           <stage>(skrattar).</stage>
-          <p>Minsann tror jag inte, att <persName ref="#Agda">Agda</persName> försöker att 
+          <p>Minsann tror jag inte, att <persName ref="#Agda">Agda</persName> försöker att
             <lb/> imitera <persName ref="#Ester">den förtalade aktrisen</persName>.</p>
         </sp>
         <sp who="#spBrukspatronen">
@@ -1604,7 +1608,7 @@
           <speaker>Sven</speaker>
           <stage>(skrattar).</stage>
           <p>Vi ha fått oss snubbor, både <persName ref="#Brukspatronen">svärfar</persName> och jag,
-            <lb/> för att vi ville vara <persName ref="#Ester">den anfallna oskuldens</persName> riddare. 
+            <lb/> för att vi ville vara <persName ref="#Ester">den anfallna oskuldens</persName> riddare.
             <lb/> Men vi skola hoppas, att <persName ref="#Elin #FruStålberg">våra älskade</persName> sofva bort
             <lb/> missnöjet i natt och möta oss i mildare humör i
             <lb/> morgon bittida.</p>
@@ -1813,7 +1817,7 @@
         </sp>
         <sp who="#spEster">
           <speaker>Ester.</speaker>
-          <p>Säg mig då, hur jag skall uppföra mig, hvilken 
+          <p>Säg mig då, hur jag skall uppföra mig, hvilken
             <lb/> roll jag skall spela för att behaga dem. Du känner
             <lb/> hela min repertoar och skulle den inte förslå, så har
             <lb/> jag tillräcklig uppfinningsförmåga för att kunna skapa
@@ -1865,8 +1869,8 @@
         <sp who="#spEster">
           <speaker>Ester.</speaker>
           <p>Nej, hos dig, men också endast hos dig är jag
-            <lb/> mig själf, är jag <persName ref="#Ester">Ester Larson</persName>, som endast lefver och 
-            <lb/> andas i dig. Och detta, ser du, är hemligheten af 
+            <lb/> mig själf, är jag <persName ref="#Ester">Ester Larson</persName>, som endast lefver och
+            <lb/> andas i dig. Och detta, ser du, är hemligheten af
             <lb/> min kärlek till dig och af din makt öfver mig. Då
             <pb facs="36738-45.jpg"/>
             <fw type="pageNum">40</fw>
@@ -2069,7 +2073,7 @@
             <lb/> olika ställningar. Gestikule­<lb break="no"/>rar och deklamerar).</stage>
           <p>
             <said who="#Julia">»Men tänk, då jag är graflagd, om jag skulle
-            <lb/> uppvakna förrän <persName ref="#Romeo">Romeo</persName> har kommit att mig befria, 
+            <lb/> uppvakna förrän <persName ref="#Romeo">Romeo</persName> har kommit att mig befria,
             <lb/> hvilken gruflig tanke? Skall jag ej kväfvas då i detta
             <lb/> hvalf!»</said>
             <stage>(Afbryter sig.)</stage> Nej, det måste sägas häfti­<lb break="no"/>gare! <stage>(Försöker igen.)</stage>
@@ -2174,7 +2178,7 @@
         </sp>
         <sp who="#spHelge">
           <speaker>Helge.</speaker>
-          <p>Gör dig inte några sådana illusioner, <persName ref="#Ester">min stac­<lb break="no"/>kars Ester</persName>! Jag är inte någon passionerad man, och 
+          <p>Gör dig inte några sådana illusioner, <persName ref="#Ester">min stac­<lb break="no"/>kars Ester</persName>! Jag är inte någon passionerad man, och
             <lb/> du måste lära dig att vara nöjd med den trofasta
             <lb/> kärlek, jag egnar dig, och inte begära någon exalta­<lb break="no"/>tion och svärmeri, som är främmande för mitt väsen.</p>
         </sp>
@@ -2212,7 +2216,7 @@
             <lb/> outsägliga kärlek vill bjuda mig ett deladt hjärta?
             <lb/>
             <stage>
-              <persName ref="#Ester">Ester</persName> rycker häftigt undan sina händer och vänder 
+              <persName ref="#Ester">Ester</persName> rycker häftigt undan sina händer och vänder
             <lb/> sig bort.)</stage> Vet du hur kärlekens valspråk lyder?
             <lb/>
             <stage>(<persName ref="#Ester">Ester</persName> ser på honom.)</stage> Alt eller — intet!</p>
@@ -2273,7 +2277,7 @@
         <sp who="#spEster">
           <speaker>Ester.</speaker>
           <p>Jag skall bli <persName ref="#Ester">din <persName ref="#Julia">Julia</persName>
-            </persName> och jag skall tvinga dig 
+            </persName> och jag skall tvinga dig
             <lb/> att bli <persName ref="#Helge">min <persName ref="#Romeo">Romeo</persName>
             </persName>, trots alla dina protester och ditt
             <lb/> högförnuftiga tal om en sansad kärlek.</p>
@@ -2306,7 +2310,7 @@
         </sp>
         <sp who="#spHelge">
           <speaker>Helge.</speaker>
-          <p>Om söndag 14 dagar blir det bröllop här på 
+          <p>Om söndag 14 dagar blir det bröllop här på
             <lb/>
             <orgName ref="#StrömsforsBruk">Strömsfors</orgName>.</p>
         </sp>
@@ -2425,7 +2429,7 @@
             <lb/> den flicka varit, som jag valt, skulle detta alltid blifvit
             <lb/> händelsen. Vårt samhälle är alt för litet för att <persName ref="#Balmödrar">alla
             <lb/> de omtänksamma mödrarna</persName> skulle utan grämelse kunna
-            <lb/> se <persName ref="#Helge">en af ortens få epusörer</persName> förlofva sig med någon 
+            <lb/> se <persName ref="#Helge">en af ortens få epusörer</persName> förlofva sig med någon
             <lb/> annan än en af <persName ref="#Baldöttrar">deras egna döttrar</persName>.</p>
         </sp>
         <sp who="#spFruStålberg">
@@ -2449,7 +2453,7 @@
             <lb/> parti, ty ditt eget uppförande i går, <persName ref="#Agda">min lilla Agda</persName>,
             <lb/> gjorde <persName ref="#FruStålberg">din mor</persName> verklig sorg. Du har redan haft
             <lb/> mycken skada af <persName ref="#Ester">Esters</persName> föredöme, och jag ämnar
-            <lb/> hädanefter inte tillåta dig att vara så beständigt i 
+            <lb/> hädanefter inte tillåta dig att vara så beständigt i
             <lb/> hennes sällskap. Både <persName ref="#Elin">Elin</persName> och jag sågo med smärta,
             <lb/> att äfven du gjorde dig skyldig till ett koketteri,
             <lb/> som — — —</p>
@@ -2556,7 +2560,7 @@
         <fw type="pageNum">56</fw>
         <sp who="#spHelge">
           <speaker>Helge.</speaker>
-          <p>Att <persName ref="#Ester">Ester</persName> är en liten god, men tanklös varelse, 
+          <p>Att <persName ref="#Ester">Ester</persName> är en liten god, men tanklös varelse,
             <lb/> som är så ifrig att göra alla nöjda, att hon lofvar
             <lb/> mer än hon kan hålla.</p>
         </sp>
@@ -2746,7 +2750,7 @@
         </sp>
         <sp who="#spBrukspatronen">
           <speaker>Brukspatronen</speaker>
-          <stage type="entrance" who="#Brukspatronen">(kommer in med ett 
+          <stage type="entrance" who="#Brukspatronen">(kommer in med ett
             <lb/> öppet bref i handen).</stage>
           <p>Hvad vill detta säga? Hvar är <persName ref="#Ester">Ester</persName>? <persName ref="#Helge">Helge</persName>,
             <lb/> gå och bed henne genast komma hit.</p>
@@ -2910,7 +2914,7 @@
             <lb/> värd någons kärlek. <stage>(Snyftande.)</stage> Jag <emph>kan</emph> inte för­<lb break="no"/>låta dig.</p>
         </sp>
         <stage>(<persName ref="#Sven">Sven</persName> ser sorgset på henne, tar därefter hennes
-          <lb/> ring, som ännu ligger på bordet, kysser den och sätter 
+          <lb/> ring, som ännu ligger på bordet, kysser den och sätter
           <lb/> den på sitt finger.)</stage>
         <sp who="#spFruStålberg">
           <speaker>Fru Stålberg</speaker>
@@ -2956,7 +2960,7 @@
         </sp>
         <sp who="#spEster">
           <speaker>Ester.</speaker>
-          <p>Ja, jag ser det, obegripligt allvarsamt. Du är 
+          <p>Ja, jag ser det, obegripligt allvarsamt. Du är
             <lb/> väl inte svartsjuk, <persName ref="#Helge">min <persName ref="#Romeo">Romeo</persName>
             </persName>? Det skulle inte
             <lb/> klä dig så illa!</p>
@@ -3009,9 +3013,9 @@
             <pb facs="36738-72.jpg"/>
             <fw type="pageNum">67</fw>
             mig i dag på morgonen, jag hade glömt, att jag satte
-            <lb/> ut samma tid, eller också gjorde jag det med flit — 
+            <lb/> ut samma tid, eller också gjorde jag det med flit —
             <lb/> jag mins inte rätt hvilketdera — emellertid kommo
-            <lb/> de i lufven på hvarandra och jag var sedan riktigt 
+            <lb/> de i lufven på hvarandra och jag var sedan riktigt
             <lb/> ledsen att jag mötte <persName ref="#BaronClaes">baron Claes</persName> på vägen — — det
             <lb/> skulle varit bra lustigt, om han också kommit fram­<lb break="no"/>körande till trappan.</p>
         </sp>
@@ -3052,7 +3056,7 @@
             <pb facs="36738-73.jpg"/>
             <fw type="pageNum">68</fw>
             som alltid varit god mot mig. Om det är min skuld
-            <lb/> att han missförstått mig, så måste jag be honom om 
+            <lb/> att han missförstått mig, så måste jag be honom om
             <lb/> ursäkt. Du kommer väl snart efter, <persName ref="#Helge">Helge</persName>, och då
             <lb/> får jag tala närmare med dig. Nu måste jag gå upp
             <lb/> och packa.</p>
@@ -3303,7 +3307,7 @@
         <sp who="#spEster">
           <speaker>Ester.</speaker>
           <p>Detta var det bittraste af alla de bittra ord du
-            <lb/> sagt mig. Jag vet, att jag är mycket vilseledd, men 
+            <lb/> sagt mig. Jag vet, att jag är mycket vilseledd, men
             <pb facs="36738-79.jpg"/>
             <fw type="pageNum">74</fw>
             <stage>(med hänförelse)</stage> jag känner det ädla så som jag

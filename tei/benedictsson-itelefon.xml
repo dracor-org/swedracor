@@ -73,7 +73,6 @@
         </availability>
         <idno type="dramawebben">BenedictssonV_ITelefon</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000010</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q59645770</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -125,9 +124,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1887"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -140,15 +136,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -263,6 +259,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1887">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q59645770"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -274,7 +278,7 @@
           <lb/> första gången <date when="1887-03-07">den 7 mars 1887</date>, med fru <emph>Ellen Hartman</emph>
           <lb/> i hufvudrollen<ref type="noteAnchor" target="#note1">*)</ref>
           <note place="bottom" xml:id="note1">
-            <label>*)</label> Vi äro öfvertygade om att vi göra våra läsare ett särskildt nöje 
+            <label>*)</label> Vi äro öfvertygade om att vi göra våra läsare ett särskildt nöje
           <lb/> genom att bifoga ofvanstående porträtt af den frejdade konst­<lb break="no"/>närinnan i denna hennes så omtyckta roll.</note>.</p>
       </performance>
       <gap reason="irrelevant"/>
@@ -329,16 +333,16 @@
     <body>
       <div type="act" n="1">
         <stage type="setting" who="#Siri">
-          <p>Ett stort rum, gammaldags möbleradt. Till venster 
-            <lb/> ett stort skrifbord, strax der bredvid en telefonapparat. 
+          <p>Ett stort rum, gammaldags möbleradt. Till venster
+            <lb/> ett stort skrifbord, strax der bredvid en telefonapparat.
             <lb/> Stora fönster med små rutor samt tjocka, mörka ylle­<lb break="no"/>gardiner.</p>
-          <p>Till höger en stor gammaldags kakelugn med afsats, 
-            <lb/> på hvilken står två stora vaser utan blommor. I när­<lb break="no"/>heten af kakelugnen ett mindre bord. Dörrar i fonden. 
-            <lb/> Till höger en mindre dörr, vettande åt en korridor; högt 
-            <lb/> uppe på dörren finnes en rund glasruta, på yttersidan 
-            <lb/> försedd med en liten gardin. Dörren går inåt. Bokhyllor 
-            <lb/> belastade med tjocka böcker, handlingar och papper. Ett 
-            <lb/> par stora, beqväma stolar. På venstra väggen ett gam­<lb break="no"/>malt skåp. Lampan på skrifbordet är tänd, på det mindre 
+          <p>Till höger en stor gammaldags kakelugn med afsats,
+            <lb/> på hvilken står två stora vaser utan blommor. I när­<lb break="no"/>heten af kakelugnen ett mindre bord. Dörrar i fonden.
+            <lb/> Till höger en mindre dörr, vettande åt en korridor; högt
+            <lb/> uppe på dörren finnes en rund glasruta, på yttersidan
+            <lb/> försedd med en liten gardin. Dörren går inåt. Bokhyllor
+            <lb/> belastade med tjocka böcker, handlingar och papper. Ett
+            <lb/> par stora, beqväma stolar. På venstra väggen ett gam­<lb break="no"/>malt skåp. Lampan på skrifbordet är tänd, på det mindre
             <lb/> bordet står <rs type="hand" ref="#handarbetep1">ett syskrin</rs>.</p>
         </stage>
         <figure>
@@ -347,17 +351,17 @@
         </figure>
         <sp who="#spSiri">
           <speaker>Siri</speaker>
-          <stage>(sitter och skrifver. Det 
+          <stage>(sitter och skrifver. Det
            <lb/> ringer i telefonen. Hon springer upp; talar i luren).</stage>
           <p>Är det du, <persName ref="#Karl">Karl</persName>?</p>
           <stage>(Paus. Hon lyssnar på svaret.)</stage>
-          <p>Hvarför har du inte ringt på under de här 
+          <p>Hvarför har du inte ringt på under de här
            <lb/> två dagarne?</p>
           <stage rend="stars">* * *</stage>
-          <p>Jag kunde just tro det! Det låter så under­<lb break="no"/>ligt när du talar. Stryk talg under fötterna och 
-           <lb/> bind en ullstrumpa om halsen i qväll när du lägger 
-           <lb/> dig, men kom i håg, att afvigan skall vara utåt, 
-           <lb/> annars hjelper det inte. Så gör alltid jag, när 
+          <p>Jag kunde just tro det! Det låter så under­<lb break="no"/>ligt när du talar. Stryk talg under fötterna och
+           <lb/> bind en ullstrumpa om halsen i qväll när du lägger
+           <lb/> dig, men kom i håg, att afvigan skall vara utåt,
+           <lb/> annars hjelper det inte. Så gör alltid jag, när
            <lb/> jag är förkyld.</p>
           <stage rend="stars">* * *</stage>
           <p>Hvarför skrattar du?</p>
@@ -366,49 +370,49 @@
           <stage rend="stars">* * *</stage>
           <p>Jo, jag tyckte bestämdt att du skrattade.</p>
           <stage rend="stars">* * *</stage>
-          <p>Ja så. — Vet du jag blir alldeles ensam 
+          <p>Ja så. — Vet du jag blir alldeles ensam
            <lb/> hemma i qväll. De andra skola på bal.</p>
           <stage rend="stars">* * *</stage>
-          <p>Herre Gud, du må väl veta att inte jag har 
+          <p>Herre Gud, du må väl veta att inte jag har
            <lb/> någon klädning att komma på bal med!</p>
           <stage rend="stars">* * *</stage>
-          <p>Jo, <persName ref="#Ida">Ida</persName> skall med. Och <persName ref="#Notarien">notarien</persName>! Du kan 
+          <p>Jo, <persName ref="#Ida">Ida</persName> skall med. Och <persName ref="#Notarien">notarien</persName>! Du kan
            <lb/> tro att han slår vådligt för henne.</p>
           <stage rend="stars">* * *</stage>
-          <p>Jo nog är hon förtjust i honom, det slår 
-           <lb/> aldrig fel. Och <persName ref="#Häradshöfdingen">farbror</persName> har grälat alldeles rysligt 
-           <lb/> på henne. Det hörde jag sjelf, för dörren var inte 
-           <lb/> riktigt stängd. Han sade att <persName ref="#Birger">hennes fästman</persName> är 
+          <p>Jo nog är hon förtjust i honom, det slår
+           <lb/> aldrig fel. Och <persName ref="#Häradshöfdingen">farbror</persName> har grälat alldeles rysligt
+           <lb/> på henne. Det hörde jag sjelf, för dörren var inte
+           <lb/> riktigt stängd. Han sade att <persName ref="#Birger">hennes fästman</persName> är
            <lb/> den bästa menniska i verlden, och att det är både
            <lb/> synd och skam som hon bär sig åt emot honom.</p>
           <stage rend="stars">* * *</stage>
-          <p>Åh, hon förlofvade sig väl med honom derför 
+          <p>Åh, hon förlofvade sig väl med honom derför
            <lb/> att han är så rik, kan jag tro.</p>
           <stage rend="stars">* * *</stage>
           <p>Det vet jag inte, men jag har hört <persName ref="#Flickorna">flickorna</persName>
-            <lb/> tala om honom. I sällskap är han tvär som en 
-           <lb/> dogg, och så kommer han in i rummen med stora 
-           <lb/> ridstöflar på. Han är inte alls chic. — Vet du 
+            <lb/> tala om honom. I sällskap är han tvär som en
+           <lb/> dogg, och så kommer han in i rummen med stora
+           <lb/> ridstöflar på. Han är inte alls chic. — Vet du
            <lb/> hvad det är: chic?</p>
           <stage rend="stars">* * *</stage>
           <p>Det är när man är riktigt stilig, — som <persName ref="#Notarien">no­<lb break="no"/>tarien</persName>. <persName ref="#Ida">Ida</persName> säger alltid att han är chic.</p>
           <stage rend="stars">* * *</stage>
           <p>Du!? — Nej, det blir du aldrig i tiden.</p>
           <stage rend="stars">* * *</stage>
-          <p>Nu måtte du blygs! Har jag någonsin sagt 
-           <lb/> det? Du är en lång räkel med stora öron och 
-           <lb/> smala ben; men jag kan tycka bra om dig i 
+          <p>Nu måtte du blygs! Har jag någonsin sagt
+           <lb/> det? Du är en lång räkel med stora öron och
+           <lb/> smala ben; men jag kan tycka bra om dig i
            <lb/> alla fall.</p>
           <stage rend="stars">* * *</stage>
-          <p>Nej, du! Det kan aldrig falla mig in. Jag 
+          <p>Nej, du! Det kan aldrig falla mig in. Jag
            <lb/> vet precis hur min fästman skall se ut. Han skall
            <lb/> inte alls vara lik dig, och så skall han vara så
            <lb/> snäll och förståndig, och — —</p>
           <stage rend="stars">* * *</stage>
           <p>Kors, hvad du intresserar dig för <persName ref="#Notarien">notarien</persName>!
-           <lb/> Jo, <persName ref="#Häradshöfdingen">farbror</persName> säger, att han blir nog vice härads­<lb break="no"/>höfding efter nästa <orgName ref="#Tinget">ting</orgName>. Han kommer att sluta 
+           <lb/> Jo, <persName ref="#Häradshöfdingen">farbror</persName> säger, att han blir nog vice härads­<lb break="no"/>höfding efter nästa <orgName ref="#Tinget">ting</orgName>. Han kommer att sluta
            <lb/> som statsråd, säger <persName ref="#Häradshöfdingen">farbror</persName>, och — — —</p>
-          <stage>(Afbryter 
+          <stage>(Afbryter
            <lb/> hastigt, sätter sig vid bordet och börjar skrifva.)</stage>
         </sp>
         <stage type="entrance" who="#Häradshöfdingen"/>
@@ -611,7 +615,7 @@
           <p>Skulle väl det! — mot <persName ref="#Siri">min egen lille vän</persName>.</p>
           <lb/>
           <stage>(<stage type="exit" who="#Nilla">Går ut</stage> och <stage type="entrance" who="#Nilla">kommer strax in</stage> med läckerheterna.)</stage>
-          <p>Se så; 
+          <p>Se så;
             <lb/> nu kan hon ta sig en bit när hon har lust. Adjö,
             <lb/>
             <persName ref="#Siri">mitt lilla gryn</persName>!</p>
@@ -656,7 +660,7 @@
             <lb/> få någon att prata med.</p>
           <stage>(Har, medan hon talat, gömt
             <lb/> undan förfriskningarne.)</stage>
-          <p>Ack, se der! Låt mig bara 
+          <p>Ack, se der! Låt mig bara
             <lb/> komma ut!</p>
           <stage type="exit" who="#Nilla">(Försvinner genom sidodörren.)</stage>
         </sp>
@@ -1235,7 +1239,7 @@
         </sp>
         <sp who="#spBirger">
           <speaker>Birger.</speaker>
-          <p>Och ni tycker inte om att bli en gammal 
+          <p>Och ni tycker inte om att bli en gammal
             <lb/> nucka?</p>
         </sp>
         <sp who="#spSiri">
@@ -1287,7 +1291,7 @@
           <speaker>Siri.</speaker>
           <p>Nej, jag tror det inte; jag säger bara att det
             <lb/>
-            <emph>kunde</emph> komma en. — — — — Det viste jag! 
+            <emph>kunde</emph> komma en. — — — — Det viste jag!
             <lb/> Det är så tokigt, — och ni skrattar!</p>
         </sp>
         <sp who="#spBirger">
@@ -1553,7 +1557,7 @@
         </sp>
         <sp who="#spBirger">
           <speaker>Birger</speaker>
-          <stage>(qvarhållande hennes 
+          <stage>(qvarhållande hennes
             <lb/> hand).</stage>
           <p>Kan ni taga mig i hand på det andra också?
             <lb/> — det om <persName ref="#Ida">Ida</persName>.</p>
@@ -1692,7 +1696,7 @@
         </sp>
         <sp who="#spSiri">
           <speaker>Siri</speaker>
-          <stage>(<stage type="exit" who="#Siri">går ut</stage> och <stage type="entrance" who="#Siri">kommer strax 
+          <stage>(<stage type="exit" who="#Siri">går ut</stage> och <stage type="entrance" who="#Siri">kommer strax
             <lb/> igen</stage>).</stage>
         </sp>
         <stage type="entrance" who="#Nilla"/>
@@ -1809,7 +1813,7 @@
         <stage>(Det ringer.)</stage>
         <sp who="#spBirger">
           <speaker>Birger.</speaker>
-          <p>Nej, nu <emph>skall</emph> ni höra! — Jag kom hit med 
+          <p>Nej, nu <emph>skall</emph> ni höra! — Jag kom hit med
             <lb/> det fasta beslutet, att innan jag reser härifrån ha
             <lb/> återlemnat den här.</p>
           <stage>(Visar förlofningsringen.)</stage>
@@ -1865,10 +1869,10 @@
           <p>God natt,
             <lb/>
             <persName ref="#Karl">Karl</persName>. Jag har inte tid mer.</p>
-          <stage>(Stänger telefonen och 
+          <stage>(Stänger telefonen och
             <lb/> vänder sig mot <persName ref="#Birger">Birger</persName>.)</stage>
           <p>Nej, det var — det var —
-            <lb/> Nej, <emph>det</emph> skulle jag aldrig trott er om! Sade ni 
+            <lb/> Nej, <emph>det</emph> skulle jag aldrig trott er om! Sade ni
             <lb/> inte att ni var <persName ref="#Karl">Karl</persName>? Och ni sade <emph>du</emph> till mig!</p>
         </sp>
         <sp who="#spBirger">
@@ -2033,7 +2037,7 @@
           <p>Men det var då besynner­<lb break="no"/>liga menniskor!</p>
           <stage>(Går bort i dörren och ropar.)</stage>
           <p>
-            <emph>Vill 
+            <emph>Vill
             <lb/>
               <persName ref="#Notarien">notarien</persName> vara god och säga åt <persName ref="#Ida">Ida</persName> att
             <lb/> komma hit!</emph> —</p>
@@ -2112,7 +2116,7 @@
 <!-- Siri är inte på scen /EF -->
         <sp who="#spSiri">
           <speaker>Siri</speaker>
-          <stage>(kikar in genom den runda 
+          <stage>(kikar in genom den runda
             <lb/> glasrutan på dörren).</stage>
         </sp>
         <sp who="#spIda">

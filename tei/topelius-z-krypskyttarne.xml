@@ -70,7 +70,6 @@
         </availability>
         <idno type="dramawebben">TopeliusZ_Krypskyttarne</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000058</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q59651602</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -116,9 +115,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1886"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -206,6 +202,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1886">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q59651602"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -405,7 +409,7 @@
             <figure>
               <graphic url="TopeliusZ_Krypskyttarne-1.jpg"/>
               <figDesc>En svartvit bild med Malte och Palte som ska ut på harjakt.
-                De står med ryggen vänd mot betraktaren och ser därför inte att 
+                De står med ryggen vänd mot betraktaren och ser därför inte att
                 Jösse skuttar bakom dem.</figDesc>
               <bibl>
                 <author role="illustrator" ref="#NN">

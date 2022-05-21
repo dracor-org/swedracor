@@ -70,7 +70,6 @@
         </availability>
         <idno type="dramawebben">IndebetouH_IDetGrona</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000016</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q59618558</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -120,9 +119,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1896"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -135,15 +131,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -270,6 +266,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1896">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q59618558"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -323,7 +327,7 @@
         <castItem>
           <role>
             <persName ref="#Doktorinnan">Doktorinnan Lilli Al</persName>
-          </role>, 
+          </role>,
         </castItem>
         <castGroup rend="braced">
           <castItem>
@@ -336,7 +340,7 @@
               <persName ref="#Kandidaten">Kandidaten</persName>
             </role>, <roleDesc>deras släkting</roleDesc>.
           </castItem>
-          <roleDesc>Hemligt förlofvade 
+          <roleDesc>Hemligt förlofvade
                 <lb/> med hvarandra.</roleDesc>
         </castGroup>
         <castItem>
@@ -744,7 +748,7 @@
           <sp who="#spFarbrorFritz">
             <speaker>Farbror Fritz</speaker>
             <stage>(liksom för sig):</stage>
-            <p>Jo, jo — 
+            <p>Jo, jo —
               <lb/> det brukar hända det. Det har händt mej
               <lb/> också!</p>
           </sp>
@@ -821,7 +825,7 @@
           <sp who="#spFruMarika">
             <speaker>Fru Marika:</speaker>
             <p>Gå och säg till <persName ref="#Lundqvist">Lundqvist</persName>,
-              <lb/> att han bär hit korgarne. <persName ref="#Patronen">Pappa</persName> och <persName ref="#FarbrorFritz">farbror 
+              <lb/> att han bär hit korgarne. <persName ref="#Patronen">Pappa</persName> och <persName ref="#FarbrorFritz">farbror
               <lb/> Fritz</persName> börja bli hungriga.</p>
           </sp>
           <sp who="#spMia">
@@ -863,7 +867,7 @@
           </sp>
           <sp who="#spMia">
             <speaker>Mia:</speaker>
-            <p>Ja, det måtte jag väl hörde! Men 
+            <p>Ja, det måtte jag väl hörde! Men
               <lb/> när <emph>jag</emph> ropade på honom, det hörde han <emph>inte</emph>.</p>
           </sp>
           <sp who="#spFruMarika">
@@ -1019,7 +1023,7 @@
           </sp>
           <sp who="#spAgda">
             <speaker>Agda:</speaker>
-            <p>Ingenting märkvärdigt alls! Bara 
+            <p>Ingenting märkvärdigt alls! Bara
               <lb/> stekt fläsk och rökt ål — och så är det visst
               <lb/> pannkakor på det där fatet.</p>
           </sp>
@@ -1179,7 +1183,7 @@
             <speaker>Agda:</speaker>
             <p>Kom med mig då; jag har smöret
               <lb/> i min korg.</p>
-            <stage type="exit" who="#Agda #Mia #Moje">(Agda med korgen går ut till 
+            <stage type="exit" who="#Agda #Mia #Moje">(Agda med korgen går ut till
               <lb/> höger; Mia och Moje följa.)</stage>
           </sp>
         </div>
@@ -1289,7 +1293,7 @@
             <p>
               <persName ref="#FruMarika">Tant Marika</persName>!
               <lb/>
-              <persName ref="#MosterUlla">Moster Ulla</persName>! — det börjar regna — stora 
+              <persName ref="#MosterUlla">Moster Ulla</persName>! — det börjar regna — stora
               <lb/> droppar!</p>
           </sp>
           <sp who="#spMosterUlla">
@@ -1379,7 +1383,7 @@
           </sp>
           <sp who="#spKandidaten">
             <speaker>Kandidaten:</speaker>
-            <p>Du är ju en räddande ängel, 
+            <p>Du är ju en räddande ängel,
               <lb/> farbror Fritz!</p>
           </sp>
           <sp who="#spFarbrorFritz">
@@ -1458,7 +1462,7 @@
           <stage type="presence" who="#FarbrorFritz">Farbror Fritz. Lilly.</stage>
           <sp who="#spLilly">
             <speaker>Lilly</speaker>
-            <stage type="entrance" who="#Lilly">(från fonden, går fram till 
+            <stage type="entrance" who="#Lilly">(från fonden, går fram till
               <lb/>
               <persName ref="#FarbrorFritz">farbror Fritz</persName>, som sitter på en sten).</stage>
             <p>Bästa <persName ref="#FarbrorFritz">farbror
@@ -1584,7 +1588,7 @@
           <sp who="#spLilly">
             <speaker>Lilly:</speaker>
             <p>
-              <persName ref="#Doktorinnan">Mamma</persName> tycker bara, att vi ä' så 
+              <persName ref="#Doktorinnan">Mamma</persName> tycker bara, att vi ä' så
               <lb/> unga än — —</p>
           </sp>
           <sp who="#spFarbrorFritz">
@@ -1751,7 +1755,7 @@
               <lb/> till sin ungdom. Jag känner igen själfva
               <lb/> träden och buskarna, fast det är så länge
               <lb/> sedan! Hur väl jag ännu minns en afton,
-              <lb/> just i den här ängsbacken, då — — men 
+              <lb/> just i den här ängsbacken, då — — men
               <lb/> nej! hvad är det värdt att återkalla dessa
               <lb/> minnen! Det har blåst många vindar sedan
               <lb/> dess både för mig och andra, och kanske

@@ -68,7 +68,6 @@
         </availability>
         <idno type="dramawebben">StrindbergA_Kamraterna</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000046</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q10543210</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -91,9 +90,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1888"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -263,6 +259,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1888">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q10543210"/>
+  </standOff>
   <text>
     <front>
       <anchor xml:id="playstart"/>

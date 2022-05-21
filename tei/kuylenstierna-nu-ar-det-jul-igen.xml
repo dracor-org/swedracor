@@ -74,7 +74,6 @@
         </availability>
         <idno type="dramawebben">KuylenstiernaE_NuArDetJulIgen</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000020</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q59618329</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -121,9 +120,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1899"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -136,15 +132,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -234,6 +230,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1899">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q59618329"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -262,12 +266,12 @@
         <castItem>
           <role>
             <persName ref="#Julros">PRINSESSAN JULROS</persName>
-          </role>. 
+          </role>.
         </castItem>
         <castItem>
           <role>
             <persName ref="#Tomtekungen">TOMTEKUNGEN</persName>
-          </role>. 
+          </role>.
         </castItem>
         <castItem>
           <role>
@@ -277,7 +281,7 @@
         <castItem>
           <role>
             <persName ref="#Rimtusse">RIMTUSSE</persName>
-          </role>. 
+          </role>.
         </castItem>
         <castItem>
           <role>
@@ -306,8 +310,8 @@
       <div type="act" n="1">
         <stage type="setting" who="#GodJul #Rimtusse #Tomtar #Tomtekungen">
           <p>Scenen föreställer en sal i <persName ref="#Tomtekungen">tomtekungens</persName> rike,
-            <lb/> midt på golfvet sitter <emph>kungen</emph>, och i en ring omkring 
-            <lb/> honom små tomtebissar med röda toppmössor och 
+            <lb/> midt på golfvet sitter <emph>kungen</emph>, och i en ring omkring
+            <lb/> honom små tomtebissar med röda toppmössor och
             <lb/> långa, gråa skägg. <emph>God jul</emph> står och lyser på dem
             <lb/> med sin lykta. <emph>Rimtusse</emph> har stigit upp på en stol,
             <lb/> svänger en taktpinne. Alla sjunga på melodien:
@@ -379,7 +383,7 @@
         <fw type="pageNum">375</fw>
         <sp who="#spTomtekungen">
           <speaker>TOMTEKUNGEN</speaker>
-          <stage>(reser sig, 
+          <stage>(reser sig,
             <lb/>
             <persName ref="#Tomtar">de andra tomtarna</persName> följa hans
             <lb/> exempel):</stage>
@@ -407,7 +411,7 @@
             </emph> och <emph>
               <persName ref="#Rimtusse">Rimtusse</persName>
             </emph> ha hän­<lb break="no"/>derna fulla med arbete. <persName ref="#Tomtar">De andra
-            <lb/> bissarne</persName> måste hjälpa dem. <stage>(Sät­<lb break="no"/>ter sig och tecknar åt <persName ref="#Tomtar">de andra 
+            <lb/> bissarne</persName> måste hjälpa dem. <stage>(Sät­<lb break="no"/>ter sig och tecknar åt <persName ref="#Tomtar">de andra
             <lb/> tomtarna</persName> att göra detsamma; de
             <lb/> fläta papper till julgranskorgar,
             <lb/> lägga in leksaker, göra julljus etc.
@@ -443,7 +447,7 @@
           <stage>(dansar rundt):</stage>
           <p>Det låter så högtidligt så, men
             <lb/> jag skall dansa och sjunga min vi­<lb break="no"/>sa för dig, om du sedan låter mig
-            <lb/> höra en af dina dikter: <stage>(Dansar och 
+            <lb/> höra en af dina dikter: <stage>(Dansar och
             <lb/> sjunger på melodien: <title>»Kom skall du
             <lb/> få en sväng utaf mig»</title> etc.)</stage>
           </p>
@@ -539,7 +543,7 @@
         <stage>(<stage type="entrance" who="#Julros">In genom dörren kommer en
           <lb/> ung flicka, klädd i skär klädning,
           <lb/> öfversållad med rosor.</stage> I båda
-          <lb/> händerna har hon rosor och på 
+          <lb/> händerna har hon rosor och på
           <lb/> hufvudet en krans af mattskära
           <lb/> rosenknoppar. Alla resa sig för
           <lb/> henne. <persName ref="#Snöflinga">Snöflinga</persName> niger djupt.)</stage>
@@ -557,7 +561,7 @@
         </sp>
         <sp who="#spTomtekungen">
           <speaker>TOMTEKUNGEN:</speaker>
-          <p>Välkommen <persName ref="#Julros">prinsessa</persName> och lyc­<lb break="no"/>ka till med dina rosor, de blom­<lb break="no"/>mor, som växa trots is och snö, ha 
+          <p>Välkommen <persName ref="#Julros">prinsessa</persName> och lyc­<lb break="no"/>ka till med dina rosor, de blom­<lb break="no"/>mor, som växa trots is och snö, ha
             <lb/> rättighet att bli vårdade, och jul­<lb break="no"/>rosornas doft skall i den signade
             <lb/> julenatten bli <persName ref="#Tomtar">alla mina bissars</persName> väg,
             <lb/> ledningstecken. Dela nu ut dem,
@@ -589,7 +593,7 @@
             <l>och gifva lycka i juletid.</l>
           </lg>
           <p>Sen I, <persName ref="#Tomtar">tomtar</persName> hvartenda li­<lb break="no"/>tet rosenblad bär sin egen jul­<lb break="no"/>dröm, som I skolen försöka upp­<lb break="no"/>fylla. De hvita rosorna höra ål­<lb break="no"/>derdomen till; deras doft skall
-            <lb/>lära eder hitta vägen till de gam­<lb break="no"/>la, och I skolen hviska i deras 
+            <lb/>lära eder hitta vägen till de gam­<lb break="no"/>la, och I skolen hviska i deras
             <lb/> öron om gångna tider.</p>
         </sp>
         <sp who="#spTomtekungen">
@@ -632,7 +636,7 @@
             <head>Snöflinga.</head>
           </figure>
           <figure>
-            <figDesc>Rimtusse står på ett ben uppe på en stol han har en luva på sitt huvud som står rakt upp. 
+            <figDesc>Rimtusse står på ett ben uppe på en stol han har en luva på sitt huvud som står rakt upp.
               Bakom örat sitter en pensel. I ena handen håller han en stav.</figDesc>
             <head>Rimtusse.</head>
           </figure>

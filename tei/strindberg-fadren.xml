@@ -68,7 +68,6 @@
         </availability>
         <idno type="dramawebben">StrindbergA_Fadren</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000038</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q1197789</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -90,9 +89,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1887"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -105,15 +101,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -137,11 +133,11 @@
       <tagsDecl>
         <rendition>
 <!-- Scenanvisningar anges med mindre normal stil -->
-<!-- Scenanvisningar för närvaro i scenbörjan är i större stil, 
+<!-- Scenanvisningar för närvaro i scenbörjan är i större stil,
 	       ev fet, än övriga scenanvisningar. Lite mindre än rubrikerna.
 	       Har ett indrag. -->
 <!-- Scenanvisningar i sp-element är inline -->
-<!-- Scenanvisningar direkt efer speaker-element är 
+<!-- Scenanvisningar direkt efer speaker-element är
 	       centrerade tillsammans -->
 <!-- Stycken i repliker är indragna -->
         </rendition>
@@ -227,6 +223,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1887">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q1197789"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -292,7 +296,7 @@
         <castItem>
           <role>
             <persName ref="#Svärmodren">SVÄRMODREN</persName>
-          </role>. 
+          </role>.
         </castItem>
         <anchor xml:id="slutTillagt"/>
       </castList>
@@ -358,19 +362,19 @@
           </sp>
           <sp who="#spPastorn">
             <speaker>PASTORN.</speaker>
-            <p>Är det <persName ref="#Nöjd">Nöjden</persName>? Han var ju framme i förrårs 
+            <p>Är det <persName ref="#Nöjd">Nöjden</persName>? Han var ju framme i förrårs
             <lb/> också!</p>
           </sp>
           <sp who="#spRyttmästarn">
             <speaker>RYTTMÄSTARN.</speaker>
-            <p>Ja, du minns det! Men vill du inte vara 
+            <p>Ja, du minns det! Men vill du inte vara
             <lb/> snäll och säga honom några vänliga ord, så kan­
-	    <lb break="no"/>ske det tar bättre. Jag har svurit öfver honom 
+	    <lb break="no"/>ske det tar bättre. Jag har svurit öfver honom
             <lb/> och jag har klått honom också, men det biter inte.</p>
           </sp>
           <sp who="#spPastorn">
             <speaker>PASTORN.</speaker>
-            <p>Nå, så vill du jag ska läsa öfver honom. Hvad 
+            <p>Nå, så vill du jag ska läsa öfver honom. Hvad
             <lb/> tror du Guds ord tar på en kavallerist.</p>
           </sp>
           <sp who="#spRyttmästarn">
@@ -461,7 +465,7 @@
           </sp>
           <sp who="#spRyttmästarn">
             <speaker>RYTTMÄSTARN.</speaker>
-            <p>Vill du skylla på <persName ref="#Ludvig">Ludvig</persName> då? Är det din 
+            <p>Vill du skylla på <persName ref="#Ludvig">Ludvig</persName> då? Är det din
             <lb/> mening?</p>
           </sp>
           <sp who="#spNöjd">
@@ -508,8 +512,8 @@
           </sp>
           <sp who="#spRyttmästarn">
             <speaker>RYTTMÄSTARN.</speaker>
-            <p>Då får saken gå till tinget. Jag kan inte 
-            <lb/> reda i det här, och det roar mig verkligen inte 
+            <p>Då får saken gå till tinget. Jag kan inte
+            <lb/> reda i det här, och det roar mig verkligen inte
             <lb/> heller. Se så, marsch!</p>
           </sp>
           <sp who="#spPastorn">
@@ -582,11 +586,11 @@
           </sp>
           <sp who="#spPastorn">
             <speaker>PASTORN.</speaker>
-            <p> Ja, ja! Jag dömer ingen! Men hvad var det 
+            <p> Ja, ja! Jag dömer ingen! Men hvad var det
             <pb facs="6261-14.jpg"/>
               <fw type="pageNum">13</fw>
-            vi talade om, när den här välsignade historien kom 
-            <lb/> emellan. Det var om <persName ref="#Bertha">Bertha</persName> och konfirmationen, 
+            vi talade om, när den här välsignade historien kom
+            <lb/> emellan. Det var om <persName ref="#Bertha">Bertha</persName> och konfirmationen,
             <lb/> så var det?</p>
           </sp>
           <sp who="#spRyttmästarn">
@@ -594,15 +598,15 @@
             <p>Ja det var väl icke så egentligen om konfir­
 	    <lb break="no"/>mationen, utan om hela hennes uppfostran. Här
             <lb/> är huset fullt med qvinnor, som alla vilja uppfostra
-            <lb/> mitt barn. <persName ref="#Svärmodren">Svärmor</persName> vill göra henne till spiritist; 
+            <lb/> mitt barn. <persName ref="#Svärmodren">Svärmor</persName> vill göra henne till spiritist;
             <lb/>
               <persName ref="#Laura">Laura</persName> vill ha henne till artist; guvernanten vill
-            <lb/> göra henne till metodist; <persName ref="#Amman">gamla Margret</persName> vill ha 
+            <lb/> göra henne till metodist; <persName ref="#Amman">gamla Margret</persName> vill ha
             <lb/> henne till baptist; och pigorna, till frälsningsarmén.
             <lb/> Det går naturligtvis inte an att lappa ihop en själ
             <lb/> på det sättet, helst jag som eger första rätten att
             <lb/> leda hennes naturell, oupphörligt motarbetas i mina
-            <lb/> bemödanden. Jag måste derför ha ut henne ur 
+            <lb/> bemödanden. Jag måste derför ha ut henne ur
             <lb/> detta hem.</p>
           </sp>
           <sp who="#spPastorn">
@@ -612,7 +616,7 @@
           <sp who="#spRyttmästarn">
             <speaker>RYTTMÄSTARN.</speaker>
             <p>Ja, har jag inte det! Det är som att gå in
-            <lb/> i buren till <persName ref="#Amman #Laura">tigrarna</persName>, och höll jag inte mina jern 
+            <lb/> i buren till <persName ref="#Amman #Laura">tigrarna</persName>, och höll jag inte mina jern
             <lb/> röda under näsan på dem, så skulle de rifva ner
             <lb/> mig hvilken stund som helst! Ja du skrattar du,
             <lb/> din skälm. Det var inte nog att jag tog din <persName ref="#Laura">sy­
@@ -626,7 +630,7 @@
           </sp>
           <sp who="#spRyttmästarn">
             <speaker>RYTTMÄSTARN.</speaker>
-            <p>Nej, men svärmödrar tycker du är bättre att 
+            <p>Nej, men svärmödrar tycker du är bättre att
             <lb/> ha i rum, hos andra nemligen.</p>
           </sp>
           <sp who="#spPastorn">
@@ -685,7 +689,7 @@
             <p>Emellertid, så, nu är det på tok med hela
             <pb facs="6261-16.jpg"/>
               <fw type="pageNum">15</fw>
-            huset. <persName ref="#Laura">Laura</persName> vill inte släppa <persName ref="#Bertha">Bertha</persName> ifrån sig, och 
+            huset. <persName ref="#Laura">Laura</persName> vill inte släppa <persName ref="#Bertha">Bertha</persName> ifrån sig, och
             <lb/> jag kan inte låta henne stanna i detta dårhus!</p>
           </sp>
           <sp who="#spPastorn">
@@ -700,7 +704,7 @@
           </sp>
           <sp who="#spRyttmästarn">
             <speaker>RYTTMÄSTARN.</speaker>
-            <p>Jaså hon var så då redan. Hm! Hon har 
+            <p>Jaså hon var så då redan. Hm! Hon har
             <lb/> verkligen sådana passioner ibland, att jag är rädd
             <lb/> för henne och tror att hon är sjuk.</p>
           </sp>
@@ -711,7 +715,7 @@
           </sp>
           <sp who="#spRyttmästarn">
             <speaker>RYTTMÄSTARN.</speaker>
-            <p>Du må inte tro att jag vill göra henne till 
+            <p>Du må inte tro att jag vill göra henne till
             <lb/> något underbarn eller någon afbild af mig sjelf.
             <lb/> Jag vill icke vara kopplare åt <persName ref="#Bertha">min dotter</persName> och upp­
 	    <lb break="no"/>föda henne uteslutande till äktenskap, ty blir hon
@@ -739,14 +743,14 @@
           <sp who="#spPastorn">
             <speaker>PASTORN.</speaker>
             <p>Det är rätt! Men har hon å andra sidan vi­
-	    <lb break="no"/>sat sådana anlag för målning att det vore våld på 
+	    <lb break="no"/>sat sådana anlag för målning att det vore våld på
             <lb/> naturen att undertrycka dem?</p>
           </sp>
           <sp who="#spRyttmästarn">
             <speaker>RYTTMÄSTARN.</speaker>
             <p>Nej! Jag har visat hennes prof för en fram­
 	    <lb break="no"/>stående målare, och han säger att det bara är så­
-	    <lb break="no"/>dant, som man kan lära sig i skolorna. Men så 
+	    <lb break="no"/>dant, som man kan lära sig i skolorna. Men så
             <lb/> kommer det en ung glop hit i somras, som förstod
             <lb/> saken bättre, och säger att det var kolossala anlag,
             <lb/> och dermed var saken afgjord till <persName ref="#spLaura">Lauras</persName> förmån.</p>
@@ -768,7 +772,7 @@
           <sp who="#spRyttmästarn">
             <speaker>RYTTMÄSTARN.</speaker>
             <p>Jo, det kan du lita på! Det står redan i
-            <lb/> ljusan låga hela huset, och oss emellan, det är 
+            <lb/> ljusan låga hela huset, och oss emellan, det är
             <lb/> inte någon precis så nobel strid det förs från det
             <lb/> hållet.</p>
           </sp>
@@ -794,7 +798,7 @@
 	    <lb break="no"/>fulla motiv. De kasta ord om att mannen skall
             <lb/> få se, att qvinnan kan det och kan det. Det är
             <lb/> mannen och qvinnan mot hvarandra oupphörligt,
-            <lb/> hela dan. — Ska du gå nu? Nej stanna nu till 
+            <lb/> hela dan. — Ska du gå nu? Nej stanna nu till
             <lb/> qvällen. Jag har visst inte något att bjuda på,
             <lb/> men i alla fall; du vet att jag väntar nya <persName ref="#DoktorÖstermark">doktorn</persName>
               <lb/> hit. Har du sett honom?</p>
@@ -806,7 +810,7 @@
           </sp>
           <sp who="#spRyttmästarn">
             <speaker>RYTTMÄSTARN.</speaker>
-            <p>Såå, det var godt. Tror du det kan bli en 
+            <p>Såå, det var godt. Tror du det kan bli en
             <lb/> bundsförvandt åt mig?</p>
           </sp>
           <sp who="#spPastorn">
@@ -820,8 +824,8 @@
           </sp>
           <sp who="#spPastorn">
             <speaker>PASTORN.</speaker>
-            <p>Nej tack, kära du, jag har lofvat komma hem 
-            <lb/> till qvällen, och gumman blir så orolig, om jag 
+            <p>Nej tack, kära du, jag har lofvat komma hem
+            <lb/> till qvällen, och gumman blir så orolig, om jag
             <lb/> dröjer.</p>
           </sp>
           <pb facs="6261-19.jpg"/>
@@ -834,7 +838,7 @@
           <sp who="#spPastorn">
             <speaker>PASTORN.</speaker>
             <p>Det är visst mycket kallt i qväll. Tack ska
-            <lb/> du ha. Du ska sköta din helsa, <persName ref="#Ryttmästarn">Adolf</persName>, du ser så 
+            <lb/> du ha. Du ska sköta din helsa, <persName ref="#Ryttmästarn">Adolf</persName>, du ser så
             <lb/> nervös ut!</p>
           </sp>
           <sp who="#spRyttmästarn">
@@ -855,14 +859,14 @@
             <p>
               <persName ref="#Laura">Laura</persName>? Nej, men, men du gör mig orolig.
               <lb/> Sköt om dig! Det är mitt råd! Adjö, min <persName ref="#Ryttmästarn">gubbe
-              <lb/> lilla</persName>; men var det inte konfirmationen du ville 
+              <lb/> lilla</persName>; men var det inte konfirmationen du ville
             <lb/> tala om?</p>
           </sp>
           <sp who="#spRyttmästarn">
             <speaker>RYTTMÄSTARN.</speaker>
             <p>Inte alls! Jag försäkrar dig att den saken
             <lb/> får gå sin gilla gång på det officiella samvetets
-            <lb/> räkning, för jag är hvarken något sanningsvittne 
+            <lb/> räkning, för jag är hvarken något sanningsvittne
             <lb/> eller någon martyr. Det ha vi lagt bakom oss.
             <lb/> Adjö med dig! Helsa så mycket!</p>
           </sp>
@@ -960,11 +964,11 @@
             <p>Derför att jag inte fick äta i ro, inte sofva
             <lb/> i ro, inte arbeta i ro, förrän ni fått honom hit.
             <lb/> Du ville ha honom, derför att din <persName ref="#Pastorn">bror</persName> ville bli af
-            <lb/> med honom, <persName ref="#Svärmodren">svärmor</persName> ville ha honom, derför att 
+            <lb/> med honom, <persName ref="#Svärmodren">svärmor</persName> ville ha honom, derför att
             <lb/> jag inte ville ha honom, guvernanten ville ha ho­
 	    <lb break="no"/>nom, derför att han var läsare, och <persName ref="#Amman">gamla Margret</persName>,
             <lb/> derför att hon känt hans mormor ifrån barndomen
-            <lb/> Derför blef han antagen; och hade jag inte tagit 
+            <lb/> Derför blef han antagen; och hade jag inte tagit
             <lb/> honom sutte jag nu på dårhus eller låge jag i fa­
 	    <lb break="no"/>miljegrafven. Emellertid, här äro hushållspengarne,
             <lb/> och nålpengarne. Räkningarne kan jag få sedan.</p>
@@ -989,7 +993,7 @@
           </sp>
           <sp who="#spRyttmästarn">
             <speaker>RYTTMÄSTARN.</speaker>
-            <p>Jag hade redan förut fattat mitt beslut, och 
+            <p>Jag hade redan förut fattat mitt beslut, och
             <lb/> jag hade derför endast att meddela det åt den
             <lb/> enda <persName ref="#Pastorn">vän</persName> jag och familjen eger tillsammans. <persName ref="#Bertha">Bertha</persName>
               <lb/> skall inackorderas i stan och reser om fjorton dagar.</p>
@@ -1014,7 +1018,7 @@
           </sp>
           <sp who="#spLaura">
             <speaker>LAURA.</speaker>
-            <p>Och modren har ingenting att bestämma i 
+            <p>Och modren har ingenting att bestämma i
             <lb/> den frågan.</p>
           </sp>
           <pb facs="6261-23.jpg"/>
@@ -1093,7 +1097,7 @@
           </sp>
           <sp who="#spLaura">
             <speaker>LAURA.</speaker>
-            <p>Det var märkvärdigt! Kan man inte veta 
+            <p>Det var märkvärdigt! Kan man inte veta
             <lb/> hvem som är fadren till ett barn?</p>
           </sp>
           <sp who="#spRyttmästarn">
@@ -1107,7 +1111,7 @@
           </sp>
           <sp who="#spRyttmästarn">
             <speaker>RYTTMÄSTARN.</speaker>
-            <p>Han har det endast i det fall han åtager sig 
+            <p>Han har det endast i det fall han åtager sig
             <lb/> skyldigheterna, eller ålägges skyldigheterna. Och
             <lb/> i äktenskapet fins ju inga tvifvel om faderskapet.</p>
           </sp>
@@ -1147,7 +1151,7 @@
           <sp who="#spRyttmästarn">
             <speaker>RYTTMÄSTARN</speaker>
             <stage>(går genom tapetdörren till höger).</stage>
-            <p>Så fort han kommer, för jag vill inte vara 
+            <p>Så fort han kommer, för jag vill inte vara
             <lb/> oartig mot honom. Du förstår!</p>
             <stage>(Går.)</stage>
           </sp>
@@ -1292,7 +1296,7 @@
           </sp>
           <sp who="#spLaura">
             <speaker>LAURA.</speaker>
-            <p>Nej! Ni måste höra mig först innan Ni ser            
+            <p>Nej! Ni måste höra mig först innan Ni ser
             <lb/> honom.</p>
           </sp>
           <sp who="#spDoktorÖstermark">
@@ -1335,7 +1339,7 @@
           <fw type="pageNum">28</fw>
           <sp who="#spLaura">
             <speaker>LAURA.</speaker>
-            <p>Det är det vi frukta också! Ser ni, han har         
+            <p>Det är det vi frukta också! Ser ni, han har
             <lb/> emellanåt de mest bizarra idéer, som han ju såsom
             <lb/> lärd kunde få ha för sig, om de icke inverkade
             <lb/> störande på hela hans familjs bestånd. Så till
@@ -1360,12 +1364,12 @@
           </sp>
           <sp who="#spDoktorÖstermark">
             <speaker>DOKTORN.</speaker>
-            <p>Jo, min <persName ref="#Laura">fru</persName>, jag är öfvertygad att Ni tror          
+            <p>Jo, min <persName ref="#Laura">fru</persName>, jag är öfvertygad att Ni tror
             <lb/> hvad Ni säger.</p>
           </sp>
           <sp who="#spLaura">
             <speaker>LAURA.</speaker>
-            <p>Men är detta rimligt att en <persName ref="#Ryttmästarn">menniska</persName> kan i         
+            <p>Men är detta rimligt att en <persName ref="#Ryttmästarn">menniska</persName> kan i
             <lb/> ett mikroskop se hvad som händer på en annan
             <lb/> planet?</p>
           </sp>
@@ -1732,7 +1736,7 @@
             <speaker>RYTTMÄSTARN.</speaker>
             <p>Bara mot mig, jag vet det. Men nu säger
             <lb/> jag dig <persName ref="#Amman">Margret</persName>, om du nu öfverger mig, så gör
-            <lb/> du synd. <anchor type="hand" xml:id="handarbete2start"/>För nu spinnes här omkring mig, och 
+            <lb/> du synd. <anchor type="hand" xml:id="handarbete2start"/>För nu spinnes här omkring mig, och
             <lb/>
               <persName ref="#DoktorÖstermark">den der doktorn</persName> är inte min vän!<anchor type="hand" xml:id="handarbete2slut"/>
             </p>
@@ -1875,7 +1879,7 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Men <persName ref="#Svärmodren">mormor</persName> säger att <persName ref="#Ryttmästarn">pappa</persName> inte förstår det 
+            <p>Men <persName ref="#Svärmodren">mormor</persName> säger att <persName ref="#Ryttmästarn">pappa</persName> inte förstår det
             <lb/> och att <persName ref="#Ryttmästarn">pappa</persName> har mycket värre saker som kan
             <lb/> se till andra planeter.</p>
           </sp>
@@ -1898,7 +1902,7 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Men <persName ref="#Svärmodren">mormor</persName> säger att det fins saker, som hon 
+            <p>Men <persName ref="#Svärmodren">mormor</persName> säger att det fins saker, som hon
             <lb/> kan se, men du inte kan se.</p>
           </sp>
           <sp who="#spRyttmästarn">
@@ -2616,7 +2620,7 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Jag måste sy på <persName ref="#Ryttmästarn">pappas</persName> julklapp, ser du. 
+            <p>Jag måste sy på <persName ref="#Ryttmästarn">pappas</persName> julklapp, ser du.
             <lb/> Och här har jag något godt åt dig!</p>
           </sp>
           <sp who="#spAmman">
@@ -3002,8 +3006,8 @@
           <sp who="#spDoktorÖstermark">
             <speaker>DOKTORN.</speaker>
             <p>Nej <persName ref="#Ryttmästarn">herr ryttmästare</persName>. Och vet ni, att när jag
-            <lb/> hörde <persName ref="#FruAlving">Fru Alving</persName> liktala sin döda man så tänkte 
-            <lb/> jag för mig sjelf: förbannadt synd att karlen ska 
+            <lb/> hörde <persName ref="#FruAlving">Fru Alving</persName> liktala sin döda man så tänkte
+            <lb/> jag för mig sjelf: förbannadt synd att karlen ska
             <lb/> vara död!</p>
           </sp>
           <sp who="#spRyttmästarn">
@@ -3385,7 +3389,7 @@
             <p>Ja så var det nog; far och mor <emph>ville</emph> icke ha
             <lb/> mig och derför föddes jag utan vilja. Jag tyckte
             <lb/> derför att jag skarfvade mig när jag och du blefvo
-            <lb/> ett, och derför fick du råda; jag blef, jag som i 
+            <lb/> ett, och derför fick du råda; jag blef, jag som i
             <lb/> kasernen, inför truppen var den befallande, jag var
             <lb/> hos dig den lydande, och jag växte vid dig, såg
             <lb/> upp till dig som ett högre begåfvadt väsen, lyss­
@@ -3427,7 +3431,7 @@
             <lb/> tvinga mig att beundra dina enfaldiga infall såsom
             <lb/> genialiteter; du kunde förmått mig till brott, ja
             <lb/> till lumpna handlingar. Ty du saknade för­
-	    <lb break="no"/>ståndet, och i stället för att bli verkställaren af 
+	    <lb break="no"/>ståndet, och i stället för att bli verkställaren af
             <lb/> mina råd, handlade du efter ditt eget hufvud.
             <lb/> Men när jag sedan vaknade till eftertanke och
             <lb/> kände min ära kränkt, ville jag utplåna den
@@ -3451,7 +3455,7 @@
 	    <lb break="no"/>ningar, ideal och illusioner, och så vaknade vi; det
             <lb/> gick an, men vi vaknade med fötterna på hufvud­
 	    <lb break="no"/>gärden, och den som väckte oss var sjelf en sömn­
-	    <lb break="no"/>gångare. När qvinnor bli gamla och upphört vara 
+	    <lb break="no"/>gångare. När qvinnor bli gamla och upphört vara
             <lb/> qvinnor, få de skägg på hakan, jag undrar hvad
             <lb/> män få när de bli gamla och upphört vara män?
             <lb/> De som gåfvo hanegället voro icke längre hanar

@@ -91,7 +91,6 @@
         </availability>
         <idno type="dramawebben">TopeliusZ_Snurran</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000062</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q59652151</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -137,9 +136,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1896"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -296,7 +292,7 @@
             <persName>guvernör Spindelben</persName>
 <!--editorial-->
           </person>
-          <personGrp xml:id="spTvåTävlande" sex="MALE"></personGrp>
+          <personGrp xml:id="spTvåTävlande" sex="MALE"/>
           <person xml:id="spKungen" sex="MALE">
             <persName>Kungen</persName>
 <!--castList-->
@@ -383,6 +379,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1896">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q59652151"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -539,7 +543,7 @@
         <castItem type="list">
           <roleGroup>
             <roleDesc corresp="#Hofdamer">Hofdamer</roleDesc>
-          </roleGroup> och 
+          </roleGroup> och
           <roleGroup>
             <roleDesc>röster, som tala</roleDesc>
             <role corresp="#FörstaRösten"/>

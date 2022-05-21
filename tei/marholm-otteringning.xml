@@ -68,7 +68,6 @@
         </availability>
         <idno type="dramawebben">MarholmL_Otteringning</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000031</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q59625918</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -104,9 +103,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1896"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -119,15 +115,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -191,6 +187,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1896">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q59625918"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -325,7 +329,7 @@
         </sp>
         <sp who="#spResei">
           <speaker>Resei</speaker>
-          <stage>(stickar ett par mas­ 
+          <stage>(stickar ett par mas­
             <lb break="no"/>kor, betraktar <persName ref="#Frun">frun</persName> väl­<lb break="no"/>villigt).</stage>
           <p>
             <persName ref="#Frun">Frun</persName> är trött! Det vore förnuftigast att gå
@@ -425,7 +429,7 @@
         <sp who="#spResei">
           <speaker>Resei</speaker>
           <stage>(utan att höra).</stage>
-          <p>Men en <persName ref="#Herrn">herre</persName> som <persName ref="#Frun">fruns</persName> — en sådan finns 
+          <p>Men en <persName ref="#Herrn">herre</persName> som <persName ref="#Frun">fruns</persName> — en sådan finns
             <lb/> det heller inte hvarsomhelst... ja, en sådan finns det
             <lb/> ingenstans! Och ingen annan tittar han efter...
             <lb/> en sådan ung och <persName ref="#Herrn">fin herre</persName>! — hvar ser man
@@ -526,9 +530,9 @@
             </persName> skrifver).</stage>
           <stage>(Paus.)</stage>
           <stage>(Utanför, förbi fönstren, kommer en <emph>
-              <persName ref="#Herrn">MANLIG 
+              <persName ref="#Herrn">MANLIG
             <lb/> GESTALT</persName>
-            </emph>, stannar utanför glasdörren och tittar in ge­<lb break="no"/>nom rutan. <persName ref="#Frun">FRUN</persName> rätar upp sig, långsamt, liksom 
+            </emph>, stannar utanför glasdörren och tittar in ge­<lb break="no"/>nom rutan. <persName ref="#Frun">FRUN</persName> rätar upp sig, långsamt, liksom
             <lb/> dragen, liksom omedvetet, och vänder hufvudet
             <lb/> mot dörren. <persName ref="#Herrn">Mannen</persName> öppnar sakta dörren; lika
             <lb/> sakta, ofrivilligt, reser hon sig, och de gå bägge
@@ -643,7 +647,7 @@
         </sp>
         <sp who="#spHerrn">
           <speaker>Herrn.</speaker>
-          <p>Ja, <persName ref="#Frun">barn</persName>, hvarför skall jag egentligen ha en 
+          <p>Ja, <persName ref="#Frun">barn</persName>, hvarför skall jag egentligen ha en
             <lb/> tidskrift?</p>
         </sp>
         <sp who="#spFrun">
@@ -823,7 +827,7 @@
           <p>Och när du nu var borta, så var jag som en
             <lb/> kropp, från hvilken själen vandrat ut... den följde
             <pb facs="6892-14.jpg"/>
-            <fw type="pageNum">145</fw> 
+            <fw type="pageNum">145</fw>
             med dig, alltjämt med dig, och min förgängliga
             <lb/> stofthydda, den rullade då ihop sig som en katt
             <lb/> som sofver. Ack du, det är ju så narraktigt; jag
@@ -861,7 +865,7 @@
         <sp who="#spHerrn">
           <speaker>Herrn.</speaker>
           <p>
-            <persName ref="#Frun">Mitt barn</persName>, den som inte kan låta sig trängas 
+            <persName ref="#Frun">Mitt barn</persName>, den som inte kan låta sig trängas
             <lb/> ut emellanåt, han är själf en lycksökare och ma­<lb break="no"/>rionett.</p>
         </sp>
         <pb facs="6892-15.jpg"/>

@@ -68,7 +68,6 @@
         </availability>
         <idno type="dramawebben">LefflerAC_SannaKvinnor</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000025</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q10661543</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -89,9 +88,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1883"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -104,15 +100,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -138,7 +134,7 @@
 <!-- Scenanvisningar anges med kursiv stil -->
 <!-- Scenanvisningar mellan replikerna som inte hör till föregående
 	       replik och karaktär är centrerade -->
-<!-- Scenanvisningar efter speaker-element är högerjusterade från 
+<!-- Scenanvisningar efter speaker-element är högerjusterade från
 	       speaker-elementet -->
 <!-- Stycken i repliker är indragna -->
         </rendition>
@@ -210,6 +206,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1883">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q10661543"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -306,24 +310,24 @@
         </sp>
         <sp who="#spFruBark">
           <speaker>FRU BARK.</speaker>
-          <p>Ja, men kom ihog, att du sutit uppe till 2 och 
+          <p>Ja, men kom ihog, att du sutit uppe till 2 och
           <lb/> 3 de sista nätterna</p>
         </sp>
         <sp who="#spBerta">
           <speaker>BERTA</speaker>
           <stage type="entrance" who="#Berta">(visar sig i dörren).</stage>
-          <p>Men jag har ännu flera ark kvar att skrifva. Jag 
+          <p>Men jag har ännu flera ark kvar att skrifva. Jag
           <lb/> har aldrig haft en renskrifning, som gått så långsamt.
           <pb facs="36263-9.jpg"/>
             <fw type="pageNum">2</fw>
-          Det är en så svårläst stil, och du vet att jag lofvat 
+          Det är en så svårläst stil, och du vet att jag lofvat
           <lb/> lemna af det hela i morgon bittida.</p>
         </sp>
         <sp who="#spFruBark">
           <speaker>FRU BARK</speaker>
-          <stage>(går emot henne och 
+          <stage>(går emot henne och
           <lb/> smeker hennes kind).</stage>
-          <p>Lägg dig i alla fall nu. Jag skall väcka dig 
+          <p>Lägg dig i alla fall nu. Jag skall väcka dig
           <lb/> tidigt. Du ser så trött ut — och dina ögon äro röda.
           <lb/> Kom ihog, att vi kunna vänta <persName ref="#Lissi">Lissi</persName> hvad dag som
           <lb/> hälst. Det skall göra henne ondt, om du ser alt för
@@ -408,7 +412,7 @@
         <fw type="pageNum">4</fw>
         <sp who="#spFruBark">
           <speaker>FRU BARK</speaker>
-          <stage>(smeker henne och 
+          <stage>(smeker henne och
           <lb/> runkar på hufvudet).</stage>
           <p>Går du nu?</p>
         </sp>
@@ -422,7 +426,7 @@
           <stage type="exit" who="#Berta #FruBark">(Kysser henne;
           <lb/> släcker lampan. De gå åt hvar sitt håll, Berta till
           <lb/> höger, frun till vänster; nicka åt hvarandra, då de
-          <lb/> komma till dörren, Berta kysser på fingret åt modern.  
+          <lb/> komma till dörren, Berta kysser på fingret åt modern.
           <lb/> Scenen står tom och mörk ett ögonblick.)</stage>
         </sp>
         <sp who="#spFruBark">
@@ -442,7 +446,7 @@
           <lb/> hennes hals. Härmar hennes
           <lb/> ton).</stage>
           <p>Mamma! Går du nu här och spökar igen! <stage type="exit" who="#Berta">(Sprin­
-	  <lb break="no"/>ger tillbaka in i sitt rum och ropar.)</stage> Seså, nu blåser 
+	  <lb break="no"/>ger tillbaka in i sitt rum och ropar.)</stage> Seså, nu blåser
           <lb/> jag ut ljuset och klär af mig i mörkret.</p>
         </sp>
         <sp who="#spFruBark">
@@ -459,7 +463,7 @@
           <lb/> om att jag är ärlig — jag eger inte fler.</p>
           <stage type="exit" who="#Berta #FruBark">(Räcker
           <lb/> henne en tändstickslåda, kysser henne, går in till sig
-          <lb/> och stänger dörren. Modern går åter in i sitt rum 
+          <lb/> och stänger dörren. Modern går åter in i sitt rum
           <lb/> och tar ljuset med sig.</stage>
           <anchor type="hand" xml:id="handarbete2start"/>
           <stage>Scenen står ånyo tom och mörk
@@ -469,7 +473,7 @@
           <speaker>BERTA</speaker>
           <stage type="entrance" who="#Berta">kommer i mörkret, smy­
 	  <lb break="no"/>gande på tåspetsarna, klädd i
-          <lb/> peignoir; smyger till moderns 
+          <lb/> peignoir; smyger till moderns
           <lb/> dörr och ser genom dörrsprin­
 	  <lb break="no"/>gan. Knackar på dörren).</stage>
         </sp>
@@ -503,7 +507,7 @@
           <p>Ja, visst — du blir förstörd af detta ständiga
           <lb/> nattvak. Låt pappa hålla på och spela bäst han vill
           <lb/> — det kan ju inte längre hjälpas. Men att du skall
-          <lb/> gå och bli sjuk af grämelse och öfveransträngning — 
+          <lb/> gå och bli sjuk af grämelse och öfveransträngning —
           <lb/> det är en mycket värre olycka.</p>
         </sp>
         <sp who="#spFruBark">
@@ -519,8 +523,8 @@
         <sp who="#spFruBark">
           <speaker>FRU BARK.</speaker>
           <p>Du är lite för sträng, snälla <persName ref="#Berta">Berta</persName>. Jag tror
-          <lb/> nog, att du i grund och botten håller af <persName ref="#Bark">din far</persName> — 
-          <lb/> det vore ju onaturligt annars — men du skall inte 
+          <lb/> nog, att du i grund och botten håller af <persName ref="#Bark">din far</persName> —
+          <lb/> det vore ju onaturligt annars — men du skall inte
           <lb/> tala så där hårdt om honom — det gör mig så ondt.</p>
         </sp>
         <sp who="#spBerta">
@@ -536,7 +540,7 @@
           <speaker>BERTA.</speaker>
           <p>Det är jag inte skyldig honom någon tack för.
           <lb/> Jag kan inte hålla af en person, bara därför att han
-          <lb/> är <persName ref="#Bark">min far</persName>. jag har ingen tillgifvenhet för den, jag 
+          <lb/> är <persName ref="#Bark">min far</persName>. jag har ingen tillgifvenhet för den, jag
           <lb/> inte högaktar.</p>
         </sp>
         <pb facs="36263-14.jpg"/>
@@ -547,7 +551,7 @@
 	  <lb break="no"/>kens väsen. Hvad är det för svårt att hålla af dem
           <lb/> vi kunna se upp till — men den <emph>förlåtande</emph> kärleken,
           <lb/>
-            <persName ref="#Berta">Berta</persName> lilla — den behöfva vi alt lite hvar, ser du — 
+            <persName ref="#Berta">Berta</persName> lilla — den behöfva vi alt lite hvar, ser du —
           <lb/> och därför —</p>
         </sp>
         <sp who="#spBerta">
@@ -561,7 +565,7 @@
         </sp>
         <sp who="#spFruBark">
           <speaker>FRU BARK.</speaker>
-          <p>Du vet att pappa, oaktadt sina fel, har många 
+          <p>Du vet att pappa, oaktadt sina fel, har många
           <lb/> som hålla af honom. Han har så mycken naturlig
           <lb/> älskvärdhet — — —</p>
         </sp>
@@ -593,7 +597,7 @@
         </sp>
         <sp who="#spFruBark">
           <speaker>FRU BARK.</speaker>
-          <p>Men — pappa har verkligen så goda föresatser. 
+          <p>Men — pappa har verkligen så goda föresatser.
           <lb/> Han har så ofta lofvat mig att söka öfvervinna sin
           <lb/> olyckliga passion för spel. Och jag tror nog, att
           <lb/> till slut — —</p>
@@ -612,7 +616,7 @@
           <stage>(omfamnar henne).</stage>
           <p>Det är ju bara för mammas skull, som jag är
           <lb/> så bitter mot honom. Att se hur han behandlar dig
-          <lb/> — och så se dig alltid lika öm och mild — att veta, 
+          <lb/> — och så se dig alltid lika öm och mild — att veta,
           <lb/> hvad en sådan kärlek som din är värd, och så se
           <lb/> den slitas i och trampas på som — som — ett ogräs,
           <lb/> som man förgäfves söker utrota.</p>
@@ -638,7 +642,7 @@
         <sp who="#spFruBark">
           <speaker>FRU BARK</speaker>
           <stage>(rycker till).</stage>
-          <p>Det ringer! Det är inte pappa, ty han har 
+          <p>Det ringer! Det är inte pappa, ty han har
           <lb/> nyckel. Hvem kan det vara så sent! Något har
           <lb/> händt pappa —</p>
         </sp>
@@ -663,10 +667,10 @@
         <sp who="#spWilhelm">
           <speaker>WILHELM.</speaker>
           <p>Kors bevars — hade jag anat att jag skulle
-          <lb/> skrämma er så, skulle jag väl inte kommit. Jag 
+          <lb/> skrämma er så, skulle jag väl inte kommit. Jag
           <lb/> kommer från en middag, som ni ser — och då jag
           <lb/> gick förbi här och såg att det lyste i förmaket,
-          <lb/> fick jag lust att titta upp. Man vet aldrig riktigt, 
+          <lb/> fick jag lust att titta upp. Man vet aldrig riktigt,
           <lb/> hvad man skall taga sig till så här efter en glad dag.
           <lb/> Man är för lifvad att gå i säng — och ändå är man
           <lb/> litet olustig. <stage>(Gäspar.)</stage> Det är så bekvämt här i hu­
@@ -711,8 +715,8 @@
         <fw type="pageNum">11</fw>
         <sp who="#spWilhelm">
           <speaker>WILHELM.</speaker>
-          <p>Och lemna barnen! Eller släpa dem med sig 
-          <lb/> på en så lång ångbåtsresa vid denna årstid. Nej, 
+          <p>Och lemna barnen! Eller släpa dem med sig
+          <lb/> på en så lång ångbåtsresa vid denna årstid. Nej,
           <lb/> vet du hvad, <persName ref="#Berta">Berta</persName>, gå för all del inte och sätt i
           <lb/> henne några dumheter.</p>
         </sp>
@@ -769,7 +773,7 @@
         </sp>
         <sp who="#spBerta">
           <speaker>BERTA.</speaker>
-          <p>Men <persName ref="#Lissi">Lissi</persName> hör ju inte till aristokratien. Och 
+          <p>Men <persName ref="#Lissi">Lissi</persName> hör ju inte till aristokratien. Och
           <lb/> har hon lust att betala ett par hundra kronor för en
           <lb/> klädning —</p>
         </sp>
@@ -780,21 +784,21 @@
         <sp who="#spBerta">
           <speaker>BERTA.</speaker>
           <p>Men hon skulle visst bli glad, om hon finge
-          <lb/> pengarna i stället och finge använda dem som hon 
+          <lb/> pengarna i stället och finge använda dem som hon
           <lb/> själf vill.</p>
         </sp>
         <sp who="#spWilhelm">
           <speaker>WILHELM.</speaker>
           <p>Men det skulle inte jag bli glad åt, skall jag
           <lb/> säga dig. Jag vill se min hustru väl klädd — jag
-          <lb/> kan inte länge fördra de där småstadstoaletterna, 
+          <lb/> kan inte länge fördra de där småstadstoaletterna,
           <lb/> då jag nu varit så länge i <placeName>Stockholm</placeName>. Här ha da­
 	  <lb break="no"/>merna en chic — åh!</p>
           <stage>(Kysser på fingret.)</stage>
         </sp>
         <sp who="#spBerta">
           <speaker>BERTA.</speaker>
-          <p>Jag vet ingen, som klär sig så smakfullt som 
+          <p>Jag vet ingen, som klär sig så smakfullt som
           <lb/>
             <persName ref="#Lissi">Lissi</persName>.</p>
         </sp>
@@ -802,7 +806,7 @@
           <speaker>WILHELM.</speaker>
           <p>Smakfullt — det kan väl hända — jag vill inte
           <lb/> alltid säga, att det är så smakfullt, som de kläda
-          <lb/> sig här — men det är en stil — någonting pikant, 
+          <lb/> sig här — men det är en stil — någonting pikant,
           <lb/> raffineradt, exquis — till och med schweizerimamsel­
 	  <lb break="no"/>lerna — hm! Är <persName ref="#Bark">svärfar</persName> hemma?</p>
         </sp>
@@ -872,7 +876,7 @@
         <sp who="#spWilhelm">
           <speaker>WILHELM.</speaker>
           <p>Hvad hjälpa sådana förbehåll, om han nu är i
-            <lb/> klämman. Det är ju klart, att så länge det fins 
+            <lb/> klämman. Det är ju klart, att så länge det fins
             <lb/> några pengar att ta af — — Dessutom — hvad vill
             <lb/> du göra? <persName ref="#FruBark">Svärmor</persName> kan visst säga nej — men hur
             <lb/> länge? Hon får i alla händelser ingen fred och ro,
@@ -881,7 +885,7 @@
         <sp who="#spBerta">
           <speaker>BERTA.</speaker>
           <p>Det är sant! Jag har förutsett alt detta. Och
-            <lb/> därför har jag länge sedan tänkt ut en plan att 
+            <lb/> därför har jag länge sedan tänkt ut en plan att
             <lb/> gripa till i nödfall. <persName ref="#KamrerLundberg">Kamrer Lundberg</persName> i <orgName ref="#Banken">banken</orgName> har
             <lb/> rådt mig till det.</p>
         </sp>
@@ -905,7 +909,7 @@
         <fw type="pageNum">15</fw>
         <sp who="#spBerta">
           <speaker>BERTA.</speaker>
-          <p>Träbock. Ja, det är sant, han har inte så godt 
+          <p>Träbock. Ja, det är sant, han har inte så godt
             <lb/> om ord, som ni andra. Men han kan handla i
             <lb/> stället. Så som han arbetar och försakar för sin
             <lb/> mor och sina syskon — det är storartadt.</p>
@@ -918,9 +922,9 @@
         </sp>
         <sp who="#spBerta">
           <speaker>BERTA.</speaker>
-          <p>Det är inte det minst storartade af honom — 
+          <p>Det är inte det minst storartade af honom —
             <lb/> att han för alltid måst afsäga sig all tanke på att
-            <lb/> kunna gifta sig. Och därför kan jag också så lugnt 
+            <lb/> kunna gifta sig. Och därför kan jag också så lugnt
             <lb/> ha honom till vän och förtrogen, utan att missförstås
             <lb/> — <stage>(lekfullt)</stage> så att den pilen flög förbi, min herre.</p>
         </sp>
@@ -938,11 +942,11 @@
           </speaker>
           <stage>(smekande modern).</stage>
           <p>Jag lemnar aldrig mamma. — Men vill ni nu
-              <lb/> inte höra min plan. Mamma skall inte afvakta att 
+              <lb/> inte höra min plan. Mamma skall inte afvakta att
               <lb/> pappa kommer hem en vacker natt och fordrar, att
               <lb/> du skall lemna ut till honom de där fattiga obliga­
 	      <lb break="no"/>tionerna, som äro oundgängligt nödvändiga för vår
-              <lb/> existens — du skall öfverlåta dem som gåfva med 
+              <lb/> existens — du skall öfverlåta dem som gåfva med
               <lb/> varm hand på mig, så skall jag förvalta dem och se
               <lb/> till, att pappa inte får förstöra dem.</p>
         </sp>
@@ -977,7 +981,7 @@
         <sp who="#spWilhelm">
           <speaker>WILHELM.</speaker>
           <p>Nej, verkligen. Du är alt för god. Vi komma
-            <lb/> att stanna i de största förbindelser. — Men inser 
+            <lb/> att stanna i de största förbindelser. — Men inser
             <lb/> du inte, att hela denna transaktion vore ett slags
             <lb/> bedrägeri.</p>
         </sp>
@@ -1002,14 +1006,14 @@
         <sp who="#spWilhelm">
           <speaker>WILHELM.</speaker>
           <p>Det där — det är sådana paradoxer och hår­
-	    <lb break="no"/>klyfverier. Jag ger mig inte in på sådant. Men du 
+	    <lb break="no"/>klyfverier. Jag ger mig inte in på sådant. Men du
             <lb/> kan väl begripa, att det vore att lura <persName ref="#Borg">svärfars for­
 	    <lb break="no"/>dringsegare</persName>.</p>
         </sp>
         <sp who="#spBerta">
           <speaker>BERTA.</speaker>
           <p>När de inläto sig i spel med honom, visste de
-            <lb/> mycket väl att han ingenting egde. Och de hade 
+            <lb/> mycket väl att han ingenting egde. Och de hade
             <lb/> inte den minsta rätt att sitta och spela om mammas
             <lb/> pengar.</p>
         </sp>
@@ -1031,14 +1035,14 @@
           <p>Nej — det behöfver det als inte göra. Det är
             <lb/> hustrun, som sammanhåller familjen, och om bara
             <lb/> hon aldrig glömmer sina pligter, så skall nog man­
-	    <lb break="no"/>nen till slut återkomma till den husliga härden — 
+	    <lb break="no"/>nen till slut återkomma till den husliga härden —
             <lb/> om han också varit lite lättsinnig en tid.</p>
         </sp>
         <pb facs="36263-25.jpg"/>
         <fw type="pageNum">18</fw>
         <sp who="#spBerta">
           <speaker>BERTA</speaker>
-          <stage>(sätter händerna för 
+          <stage>(sätter händerna för
             <lb/> öronen).</stage>
           <p>Åh, <persName ref="#Wilhelm">Wilhelm</persName>, hör du inte, hur det skär i öronen.
             <lb/> Jo, ni räsonnera vackert, ni, skapelsens herrar.</p>
@@ -1071,7 +1075,7 @@
         </sp>
         <sp who="#spWilhelm">
           <speaker>WILHELM.</speaker>
-          <p>Jo — det vill jag lofva. Puh! Jag är riktigt 
+          <p>Jo — det vill jag lofva. Puh! Jag är riktigt
             <lb/> svettig. — Hvarför skall du också bråka med mig
             <lb/> om affärer. Jag lägger mig inte i dina affärer. Tag
             <lb/> gärna altihop, det gör mig detsamma. Hvad är det
@@ -1087,10 +1091,10 @@
             <lb/>
             <persName ref="#Berta">Berta</persName>. Du vet nog, hur hon arbetat och försakat
             <lb/> under dessa sista år — hur hon nekat sig det minsta
-            <lb/> nöje, den obetydligaste utgift för egen del för att 
+            <lb/> nöje, den obetydligaste utgift för egen del för att
             <lb/> kunna lätta bekymren för mig. <stage>(<persName ref="#Berta">Berta</persName> vill afbryta
             <lb/> henne).</stage> Nej, låt mig tala ut. Åh, du må tro, jag
-            <lb/> vet mer än du anar. Jag vet hur du förr brukade 
+            <lb/> vet mer än du anar. Jag vet hur du förr brukade
             <lb/> oroa dig och sörja öfver, att dina inkomster inte
             <lb/> skulle kunna räcka till att försörja oss alla, då pappa
             <lb/> en gång gjort slut på det lilla, vi då ännu hade qvar.
@@ -1150,14 +1154,14 @@
           <speaker>BERTA</speaker>
           <stage>(till modern).</stage>
           <p>Vi måste ordna denna sak utan dröjsmål. Strax
-            <lb/> i morgon bittida går jag upp på <orgName ref="#Banken">banken</orgName> och söker 
+            <lb/> i morgon bittida går jag upp på <orgName ref="#Banken">banken</orgName> och söker
             <lb/>
-            <persName ref="#KamrerLundberg">kamrer Lundberg</persName> och ber att han kommer hit och 
+            <persName ref="#KamrerLundberg">kamrer Lundberg</persName> och ber att han kommer hit och
             <lb/> hjälper oss med gåfvobrefvet.</p>
         </sp>
         <sp who="#spFruBark">
           <speaker>FRU BARK.</speaker>
-          <p>Är du bara säker, att vi inte göra något orätt, 
+          <p>Är du bara säker, att vi inte göra något orätt,
             <lb/>
             <persName ref="#Berta">Berta</persName>? Hvad hustrun eger, det eger också mannen,
             <lb/> det vet du ju.</p>
@@ -1179,7 +1183,7 @@
         </sp>
         <sp who="#spFruBark">
           <speaker>FRU BARK.</speaker>
-          <p>Ja, <persName ref="#Malla">faster Malla</persName> menade mig väl — men hon 
+          <p>Ja, <persName ref="#Malla">faster Malla</persName> menade mig väl — men hon
             <lb/> var ogift och förstod aldrig hvad ett äktenskap vill
             <lb/> säga. Hon förstod inte, att en hustru måste hjälpa
             <lb/> sin man, så länge hon har något — inga lagar i
@@ -1216,7 +1220,7 @@
         </sp>
         <sp who="#spBerta">
           <speaker>BERTA.</speaker>
-          <p>Du, <persName ref="#FruBark">mamma</persName>! Du är den bästa människa på 
+          <p>Du, <persName ref="#FruBark">mamma</persName>! Du är den bästa människa på
             <lb/> jorden — så kärleksfull — så god!</p>
         </sp>
         <sp who="#spFruBark">
@@ -1226,13 +1230,13 @@
         </sp>
         <sp who="#spBerta">
           <speaker>BERTA.</speaker>
-          <p>Bry dig inte om alla mina dumma ord — jag 
+          <p>Bry dig inte om alla mina dumma ord — jag
             <lb/> blir så bitter ibland, när jag tänker på — men det
             <lb/> är detsamma. Nej, en sådan godhet som din, den
-            <lb/> är af helt annat slag. Du har rättskänsla, du, och 
-            <lb/> det tycker jag är mer än den vanliga så kallade 
+            <lb/> är af helt annat slag. Du har rättskänsla, du, och
+            <lb/> det tycker jag är mer än den vanliga så kallade
             <lb/> godheten. Och därför skall du också aldrig gå in
-            <lb/> på att lemna pappa dessa pengar — du skall inse, 
+            <lb/> på att lemna pappa dessa pengar — du skall inse,
             <lb/> hur orätt det vore. Jag arbetar ju så mycket jag
             <lb/> förmår — det vet du — men jag <emph>kan</emph> inte ensam
             <lb/> försörja oss alla tre.</p>
@@ -1240,7 +1244,7 @@
         <sp who="#spFruBark">
           <speaker>FRU BARK.</speaker>
           <p>Nej, nej! min älskade flicka. Men pappa kom­
-	    <lb break="no"/>mer att bestorma mig med böner och hotelser — 
+	    <lb break="no"/>mer att bestorma mig med böner och hotelser —
             <lb/> det blir svårt.</p>
         </sp>
         <pb facs="36263-30.jpg"/>
@@ -1259,7 +1263,7 @@
         </sp>
         <sp who="#spBerta">
           <speaker>BERTA.</speaker>
-          <p>Jag skulle alt ha lust att säga honom ett 
+          <p>Jag skulle alt ha lust att säga honom ett
             <lb/> ord — — —</p>
         </sp>
         <sp who="#spFruBark">
@@ -1274,7 +1278,7 @@
         <sp who="#spFruBark">
           <speaker>FRU BARK.</speaker>
           <p>
-            <persName ref="#Berta">Berta</persName> — för min skull! Jag får bara umgälla 
+            <persName ref="#Berta">Berta</persName> — för min skull! Jag får bara umgälla
             <lb/> det sedan!</p>
         </sp>
         <sp who="#spBerta">
@@ -1315,8 +1319,8 @@
         </sp>
         <sp who="#spBark">
           <speaker>BARK.</speaker>
-          <p>Du hör ju jag säger, att det är en föresats — 
-            <lb/> tror du inte, att jag är en sådan karl, att jag håller 
+          <p>Du hör ju jag säger, att det är en föresats —
+            <lb/> tror du inte, att jag är en sådan karl, att jag håller
             <lb/> mina föresatser! Dessutom har jag nu mist lusten
             <lb/> att spela — jag har haft den infamaste otur — —</p>
         </sp>
@@ -1359,7 +1363,7 @@
 	    <lb break="no"/>skor — de göra det så gärna. Men nu ha de för­
 	    <lb break="no"/>dömda lymlarna gått och stält till så, att alla små­
 	    <lb break="no"/>skulderna blifvit samlade på en hand — och så kom­
-	    <lb break="no"/>mer den där skojarn <persName ref="#Borg">Borg</persName> i afton och presenterar 
+	    <lb break="no"/>mer den där skojarn <persName ref="#Borg">Borg</persName> i afton och presenterar
             <lb/> mig en liten nätt räkning.</p>
         </sp>
         <sp who="#spFruBark">
@@ -1413,7 +1417,7 @@
         <sp who="#spBark">
           <speaker>BARK.</speaker>
           <p>Ja, det är obehagligt — jag medger det. Men
-            <lb/> så skall det inte häller hända mig mer — det är i 
+            <lb/> så skall det inte häller hända mig mer — det är i
             <lb/> afton sista gången jag sätter min fot i den där hålan.</p>
         </sp>
         <sp who="#spFruBark">
@@ -1454,7 +1458,7 @@
         <sp who="#spBark">
           <speaker>BARK.</speaker>
           <p>
-            <persName ref="#Berta">Berta</persName> får bidraga litet mer till huset. Det är 
+            <persName ref="#Berta">Berta</persName> får bidraga litet mer till huset. Det är
             <lb/> inte mer än billigt, då jag kostat på henne en dyr­
 	    <lb break="no"/>bar uppfostran.</p>
         </sp>
@@ -1477,7 +1481,7 @@
         </sp>
         <sp who="#spBark">
           <speaker>BARK.</speaker>
-          <p>Får hon det? Stackars unge! Nåja — det blir 
+          <p>Får hon det? Stackars unge! Nåja — det blir
             <lb/> alt någon råd, skall du få se. Jag har mycket fun­
 	    <lb break="no"/>derat på att själf skaffa mig något arbete — — —</p>
         </sp>
@@ -1550,7 +1554,7 @@
             <lb/> Om du vill, så kan du ju säga <persName ref="#Berta">Berta</persName>, att jag be­
 	    <lb break="no"/>slutat att aldrig spela mer. Och hör — du kan ju
             <lb/> också säga henne, att jag tänker skaffa mig någon
-            <lb/> sysselsättning, så att jag får bättre inkomster. Det 
+            <lb/> sysselsättning, så att jag får bättre inkomster. Det
             <lb/> skall glädja henne.</p>
         </sp>
         <sp who="#spFruBark">
@@ -1564,7 +1568,7 @@
         <sp who="#spFruBark">
           <speaker>FRU BARK.</speaker>
           <p>Misstyck inte, lille gubben — men vet du, den
-            <lb/> hälsningen vill jag inte framföra till <persName ref="#Berta">Berta</persName>. Hon 
+            <lb/> hälsningen vill jag inte framföra till <persName ref="#Berta">Berta</persName>. Hon
             <lb/> törs inte riktigt lita på dina löften. Men finge hon
             <lb/> se dig handla — det vore en annan sak.</p>
         </sp>
@@ -1577,9 +1581,9 @@
             är verkligen något så okvinligt hos <persName ref="#Berta">Berta</persName> — så
             <lb/> — afkylande — så obehagligt. Det är som jag
             <lb/> alltid sagt, <persName ref="#Malla">faster Malla</persName> går igen. Ah — du var
-            <lb/> minsann något helt annat, du — i din ungdom — ja, 
+            <lb/> minsann något helt annat, du — i din ungdom — ja,
             <lb/> du är för öfrigt än i dag mycket sötare än din yngsta
-            <lb/> dotter. <persName ref="#Lissi">Lissi</persName> — det är annat — hon liknar dig — 
+            <lb/> dotter. <persName ref="#Lissi">Lissi</persName> — det är annat — hon liknar dig —
             <lb/> hon har något sant kvinligt, hon som du. Apropos,
             <lb/> hvilken dag kommer hon?</p>
         </sp>
@@ -1624,7 +1628,7 @@
           <p>
             <persName ref="#Lissi">Lissi</persName>! Är det du, min älskling. <stage>(Omfamnar och
             <lb/> smeker henne.)</stage> Min lilla flicka — att jag har dig
-            <lb/> här nu. Och <persName ref="#Ville">Ville</persName>, hvar har du honom? Och hur 
+            <lb/> här nu. Och <persName ref="#Ville">Ville</persName>, hvar har du honom? Och hur
             <lb/> kommer du så sent på kvällen?</p>
         </sp>
         <sp who="#spLissi">
@@ -1632,7 +1636,7 @@
           <stage>(talar hela tiden stelt,
             <lb/> onaturligt).</stage>
           <p>Ångbåten har legat för dimma i skärgården.
-            <lb/> Jag lemnade <persName ref="#Ville">Ville</persName> och barnjungfrun ombord — själf 
+            <lb/> Jag lemnade <persName ref="#Ville">Ville</persName> och barnjungfrun ombord — själf
             <lb/> kunde jag inte gifva mig ro att stanna — jag läng­
 	    <lb break="no"/>tade så att träffa <persName ref="#Wilhelm">Wilhelm</persName>.</p>
         </sp>
@@ -1647,7 +1651,7 @@
         </sp>
         <sp who="#spFruBark">
           <speaker>FRU BARK.</speaker>
-          <p>Ja, han kom från en middag och tittade upp i 
+          <p>Ja, han kom från en middag och tittade upp i
             <lb/> förbifarten.</p>
         </sp>
         <sp who="#spLissi">
@@ -1658,7 +1662,7 @@
         <fw type="pageNum">32</fw>
         <sp who="#spFruBark">
           <speaker>FRU BARK.</speaker>
-          <p>Vi trodde han gick hem. Men han gick kanske 
+          <p>Vi trodde han gick hem. Men han gick kanske
             <lb/> ut och gick en stund först.</p>
         </sp>
         <sp who="#spLissi">
@@ -1722,7 +1726,7 @@
         <sp who="#spLissi">
           <speaker>LISSI</speaker>
           <stage>(som förut).</stage>
-          <p>Jag tänkte gå direkte ned till hamnen och kasta 
+          <p>Jag tänkte gå direkte ned till hamnen och kasta
             <lb/> mig i. Men så ville jag ändå lemna <persName ref="#Ville">Ville</persName> till er först.</p>
         </sp>
         <sp who="#spBerta">
@@ -1765,7 +1769,7 @@
         </sp>
         <sp who="#spKamrerLundberg">
           <speaker>KAMRERN.</speaker>
-          <p>Mycket riktigt — såvida man inte tar från en 
+          <p>Mycket riktigt — såvida man inte tar från en
             <lb/> för att betala en annan.</p>
         </sp>
         <sp who="#spFruBark">
@@ -1789,7 +1793,7 @@
         <sp who="#spKamrerLundberg">
           <speaker>KAMRERN.</speaker>
           <p>Tillåt mig fråga — om ni nu så ädelmodigt
-            <lb/> betalar er mans skulder — hvem skall sedan i en 
+            <lb/> betalar er mans skulder — hvem skall sedan i en
             <lb/> framtid betala edra egna?</p>
         </sp>
         <sp who="#spFruBark">
@@ -1800,24 +1804,24 @@
           <speaker>KAMRERN.</speaker>
           <p>Nej, inte hittils. Men när er man gjort af med
             <lb/> hela ert lilla kapital — ty får han nu en del, tar
-            <lb/> han naturligtvis snart resten — och när ni således 
+            <lb/> han naturligtvis snart resten — och när ni således
             <lb/> blifva reducerade till att lefva alla tre på fröken
             <lb/>
-            <persName ref="#Berta">Bertas</persName> inkomster — när ni då finner att dessa 
+            <persName ref="#Berta">Bertas</persName> inkomster — när ni då finner att dessa
             <lb/> icke räcka till, vet ni hvad ni då kommer att göra?
             <lb/> Ni kommer att taga lifsmedel på kredit, skuldsätta
             <lb/> er för småsummor i alla bodar — och hvem skall
             <lb/> betala? <stage>(Paus.)</stage> Förlåt att jag är nog ogrannlaga
-            <lb/> att på detta sätt lägga mig i edra handlingar — men 
+            <lb/> att på detta sätt lägga mig i edra handlingar — men
             <lb/> fröken <persName ref="#Berta">Berta</persName> har tagit mig till rådgifvare och jag
-            <lb/> anser det vara min skyldighet att tala ut. — Och 
+            <lb/> anser det vara min skyldighet att tala ut. — Och
             <pb facs="36263-43.jpg"/>
             <fw type="pageNum">36</fw>
             hur tror ni att er dotter skall kunna bära alla de
             <lb/> bekymmer och förödmjukelser, hvari ni då bli in­
 	    <lb break="no"/>dragna. Hon blir också tvungen att göra skulder —
             <lb/> kanske låna af förmän och kamrater i <orgName ref="#Banken">banken</orgName> — låna
-            <lb/> med medvetandet att aldrig kunna betala — men 
+            <lb/> med medvetandet att aldrig kunna betala — men
             <lb/> hvad gör alt detta, bara er man får pengar till sina
             <lb/> spelskulder — annars vill ju ingen spela med honom
             <lb/> mer och han får tråkigt — och dessutom, en kärleks­
@@ -1844,7 +1848,7 @@
         <sp who="#spKamrerLundberg">
           <speaker>KAMRERN.</speaker>
           <p>Er dotter, <persName ref="#FruBark">fru Bark</persName>, kan göra alt för den hon
-            <lb/> älskar, till och med förödmjuka sig. Men ni har 
+            <lb/> älskar, till och med förödmjuka sig. Men ni har
             <lb/> ingen rätt att drifva henne till denna punkt.</p>
         </sp>
         <pb facs="36263-44.jpg"/>
@@ -1852,7 +1856,7 @@
         <sp who="#spBerta">
           <speaker>BERTA</speaker>
           <stage>(halft skämtsamt).</stage>
-          <p>Tyst! Men jag förstår inte hvad det kommer 
+          <p>Tyst! Men jag förstår inte hvad det kommer
             <lb/> åt er, <persName ref="#KamrerLundberg">kamrer Lundberg</persName>. Ni tar en ton — ni uppträ­
 	    <lb break="no"/>der här med en myndighet — —</p>
         </sp>
@@ -1906,14 +1910,14 @@
         <sp who="#spKamrerLundberg">
           <speaker>KAMRERN</speaker>
           <stage>(till <persName ref="#FruBark">fru Bark</persName>).</stage>
-          <p>Jag vet bäst, hur mycket <persName ref="#Berta">er dotter</persName> gör för er — 
+          <p>Jag vet bäst, hur mycket <persName ref="#Berta">er dotter</persName> gör för er —
             <lb/> jag, som dagligen ser henne på <orgName ref="#Banken">banken</orgName>. Ibland har
             <lb/> hon varit så trött när hon kommit dit, att hon varit
             <lb/> färdig att svimma — —</p>
         </sp>
         <sp who="#spBerta">
           <speaker>BERTA</speaker>
-          <stage>(söker ifrigt att afbryta 
+          <stage>(söker ifrigt att afbryta
             <lb/> honom).</stage>
         </sp>
         <sp who="#spKamrerLundberg">
@@ -1953,7 +1957,7 @@
         </sp>
         <sp who="#spKamrerLundberg">
           <speaker>KAMRERN.</speaker>
-          <p>Men har ni skaffat det andra vittnet, <persName ref="#Berta">fröken 
+          <p>Men har ni skaffat det andra vittnet, <persName ref="#Berta">fröken
             <lb/> Berta</persName>?</p>
         </sp>
         <sp who="#spBerta">
@@ -1979,7 +1983,7 @@
         <sp who="#spLovisa">
           <speaker>LOVISA</speaker>
           <stage>(går fram till skrifbordet).</stage>
-          <p>Gud hjälpe mig för alla <persName ref="#Berta">Bertas</persName> påfund. Vill 
+          <p>Gud hjälpe mig för alla <persName ref="#Berta">Bertas</persName> påfund. Vill
             <lb/> hon nu drifva spektakel med mig igen?</p>
         </sp>
         <pb facs="36263-47.jpg"/>
@@ -1992,7 +1996,7 @@
         </sp>
         <sp who="#spLovisa">
           <speaker>LOVISA.</speaker>
-          <p>Ja, gudskelof, lite uppfostran har jag då fått i 
+          <p>Ja, gudskelof, lite uppfostran har jag då fått i
             <lb/> min dar. När vi voro på Bergfors var jag hushål­
 	    <lb break="no"/>lerska och hade hela tjänarpersonalen under mig —</p>
         </sp>
@@ -2089,14 +2093,14 @@
         <fw type="pageNum">42</fw>
         <sp who="#spBerta">
           <speaker>BERTA</speaker>
-          <stage>(omfamnar modern och 
+          <stage>(omfamnar modern och
             <lb/> svänger om med henne).</stage>
           <p>Åh, mamma, hvad jag är glad — hvad jag är
             <lb/> glad! Du vet det kommer öfver mig ibland midt
             <lb/> i alla bekymmer en sådan där uppsluppen, yster lifs­
 	    <lb break="no"/>glädje. Jag är så glad, att jag ville skrika, jubla,
             <lb/> dansa. Men så har jag också vunnit en stor seger i
-            <lb/> dag. — — Du ser helt häpen ut,<persName ref="#FruBark">mamma</persName>. Tänker 
+            <lb/> dag. — — Du ser helt häpen ut,<persName ref="#FruBark">mamma</persName>. Tänker
             <lb/> du kanske som <persName ref="#Wilhelm">Wilhelm</persName>, att jag är girig? Nej du,
             <lb/> det är något annat jag har vunnit i dag, än några
             <lb/> värdepapper. <stage>(Drar henne till en stol och sätter sig
@@ -2118,16 +2122,16 @@
 	    <lb break="no"/>baka till sin plats).</stage>
           <p>Nej, mamma, du misstar dig — det var inte det,
             <lb/> jag menade. Det vara bara om dig och mig, jag ville
-            <lb/> tala. <stage>(Talar med bortvändt ansigte, under det att hon leker 
+            <lb/> tala. <stage>(Talar med bortvändt ansigte, under det att hon leker
             <lb/> med moderns hand.)</stage> Ser du, alt sedan jag begynte
-            <lb/> tänka, är det en sak, som ständigt har grämt mig. 
+            <lb/> tänka, är det en sak, som ständigt har grämt mig.
             <lb/> Det är, att du varit så svag för <persName ref="#Bark">pappa</persName>, så att du
             <pb facs="36263-50.jpg"/>
             <fw type="pageNum">43</fw>
             uppoffrat oss, <persName ref="#Lissi">Lissi</persName> och mig, för att tillfredställa
             <lb/> hans dåliga böjelser. Jag mins till exempel när <persName ref="#Lissi">Lissi</persName>
             <lb/> måste afbryta sina pianolektioner, därför att de voro
-            <lb/> för dyra — och samtidigt slösade pappa bort stora 
+            <lb/> för dyra — och samtidigt slösade pappa bort stora
             <lb/> summor — och du hade inte ett ord af förebråelse
             <lb/> mot honom — men du bannade <persName ref="#Lissi">Lissi</persName>, för att hon
             <lb/> inte ville foga sig. Och när jag så gärna ville resa
@@ -2150,7 +2154,7 @@
             <lb/> inte tåla, när jag visste, hur jag kunde offra alt, alt,
             <lb/> hela min personliga lycka — <stage>(gör en paus och synes
             <lb/> tänka efter; upprepar efter en stund med eftertryck)</stage>
-            <lb/> ja — hela min personliga lycka för din skull. — Men 
+            <lb/> ja — hela min personliga lycka för din skull. — Men
             <lb/> så har jag alltid hållit mitt mod uppe med den tan­
 	    <lb break="no"/>ken, att om det verkligen gälde något där du <emph>kunde</emph>
             <pb facs="36263-51.jpg"/>
@@ -2159,8 +2163,8 @@
             <lb/> pappa för vår skull — eller snarare, för <emph>det rättas</emph>
             <lb/> skull. Förstår du nu, hvarför jag är så glad i dag?
             <lb/>
-            <stage>(Springer upp.)</stage> Åh, men hur jag kan glömma mig. 
-            <lb/> Jag måste ju gå med den där renskrifningen. <stage>(Går 
+            <stage>(Springer upp.)</stage> Åh, men hur jag kan glömma mig.
+            <lb/> Jag måste ju gå med den där renskrifningen. <stage>(Går
             <lb/> till skrifbordet och tar gåfvobrevet samt går ut till
             <lb/> höger; kommer strax in igen med förändradt utseende.)</stage>
             <lb/> Åh, mamma, hvad jag är lättsinnig.</p>
@@ -2191,10 +2195,10 @@
             <lb/> läser högt:)</stage> Kan du komma hit så snart som möj­
 	    <lb break="no"/>ligt. Vi ha viktiga underrättelser från <persName ref="#Lissi">Lissi</persName>. <stage>(Vi­
 	    <lb break="no"/>ker ihop brefvet och skrifver utanskrift.)</stage> Nu måtte
-            <lb/> han väl komma. <stage>(Reser sig, rullar ihop några skrifna 
+            <lb/> han väl komma. <stage>(Reser sig, rullar ihop några skrifna
             <pb facs="36263-52.jpg"/>
               <fw type="pageNum">45</fw>
-            pappersark, som hon medhaft från sitt rum.)</stage> Jag 
+            pappersark, som hon medhaft från sitt rum.)</stage> Jag
             <lb/> skall skicka ett stadsbud med detsamma. <stage>(Kysser på
             <lb/> fingret åt modern.)</stage> Jag är strax tillbaka. Om pappa
             <lb/> vaknar under tiden, så uppehåll honom med undvi­
@@ -2223,9 +2227,9 @@
         </sp>
         <sp who="#spBark">
           <speaker>BARK.</speaker>
-          <p>Kär i <persName ref="#Berta">Berta</persName>! det var en underlig smak. Ja ja, 
+          <p>Kär i <persName ref="#Berta">Berta</persName>! det var en underlig smak. Ja ja,
             <lb/> det förstås, <persName ref="#Berta">Berta</persName> är ju en förbaskadt duktig flicka
-            <lb/> — men det är det där okvinliga hos henne — 
+            <lb/> — men det är det där okvinliga hos henne —
             <lb/> inte ville jag ha henne till hustru, det vet jag då.
             <lb/> Men det vore emellertid ett förträffligt parti för
             <lb/>
@@ -2380,7 +2384,7 @@
           <speaker>BARK.</speaker>
           <p>Nej — jag har inte tid. Har han vuxit mycket?
             <lb/> — Jag har inte tid, säger jag. Jag lofvade <persName ref="#Borg">Borg</persName>
-            <lb/> komma med pengarna strax på morgonen. Kommer 
+            <lb/> komma med pengarna strax på morgonen. Kommer
             <lb/> jag inte, ställer den skojarn till spektakel — —</p>
         </sp>
         <sp who="#spFruBark">
@@ -2395,9 +2399,9 @@
           <speaker>BARK</speaker>
           <stage>(uppbrusande).</stage>
           <p>Seså — börjas det nu igen? Ha vi inte talt
-            <lb/> ut om den saken i natt? Jag skall säga dig en 
+            <lb/> ut om den saken i natt? Jag skall säga dig en
             <lb/> sak, min kära hustru — jag är en god man — det
-            <lb/> skall ingen kunna neka — men min godhet har en 
+            <lb/> skall ingen kunna neka — men min godhet har en
             <lb/> gräns — och jag är häftig — reta mig därför inte!
             <lb/> Tag ögonblickligen hit hvad jag begärt — jag är
             <lb/> ledsen att nödgas använda maktspråk — men du
@@ -2405,7 +2409,7 @@
         </sp>
         <sp who="#spFruBark">
           <speaker>FRU BARK</speaker>
-          <stage>(sjunker ned i en 
+          <stage>(sjunker ned i en
             <lb/> stol, maktlös).</stage>
           <p>Gör med mig, hvad du vill! Jag har inte dessa
             <lb/> pengar längre. Jag har gifvit bort dem.</p>
@@ -2450,7 +2454,7 @@
         </sp>
         <sp who="#spBark">
           <speaker>BARK.</speaker>
-          <p>Ja, då säger jag, att det är usla lagar, som 
+          <p>Ja, då säger jag, att det är usla lagar, som
             <lb/> tillåta sådant — det är upprörande! En hustru skulle
             <lb/> ha rätt att utan sin mans vetskap — — — där ser
             <lb/> man, hvart de modärna emancipationsidéerna leda!
@@ -2469,7 +2473,7 @@
           <p>Du talar som om hustrun och mannen vore
             <lb/> två fiendtliga partier, som måste vara på sin vakt mot
             <lb/> hvarandra — det är ju uppåt väggarna — lagstift­
-	    <lb break="no"/>ningen borde naturligtvis utgå från att man och 
+	    <lb break="no"/>ningen borde naturligtvis utgå från att man och
             <lb/> hustru äro ett och ha samma intressen.</p>
         </sp>
         <sp who="#spFruBark">
@@ -2499,7 +2503,7 @@
             <pb facs="36263-59.jpg"/>
             <fw type="pageNum">52</fw>
             som förr var en så god hustru — om du kunde
-            <lb/> se på mina ögon, hvad jag ville, så — nu bryr du 
+            <lb/> se på mina ögon, hvad jag ville, så — nu bryr du
             <lb/> dig litet om, om jag blir komprometterad, skandali­
 	    <lb break="no"/>serad, bragt till förtviflan — bara du har räddat un­
 	    <lb break="no"/>dan dina pengar och bevarat din själfständighet, så
@@ -2570,7 +2574,7 @@
           <speaker>BARK.</speaker>
           <p>Det är detsamma — jag förebrår dig ingenting
             <lb/> — du har nu beslutat att vanära mig och drifva mig
-            <lb/> till förtviflan — du har väl betänkt dig på följderna 
+            <lb/> till förtviflan — du har väl betänkt dig på följderna
             <lb/> — det återstår mig ingenting annat än att — — —
             <lb/>
             <stage>(betydelsefullt)</stage> att draga mig ur spelet.</p>
@@ -2746,7 +2750,7 @@
           <p>Jag! Taga det! Det kan inte falla mig in.
             <lb/> Mitt öde ligger nu helt och hållet i dina händer.
             <lb/> Om du ännu hade en gnista kärlek för mig, så skulle
-            <lb/> du naturligtvis göra om altsammans — förstöra hela 
+            <lb/> du naturligtvis göra om altsammans — förstöra hela
             <lb/> gåfvobrevet, innan <persName ref="#Berta">Berta</persName> kommer igen.</p>
         </sp>
         <sp who="#spFruBark">
@@ -2760,7 +2764,7 @@
         <sp who="#spBark">
           <speaker>BARK.</speaker>
           <p>Naturligtvis kan du det. Ingenting är vanli­
-	    <lb break="no"/>gare än att man till exempel ändrar ett testamente. 
+	    <lb break="no"/>gare än att man till exempel ändrar ett testamente.
             <lb/> Men gör inte ett sådant offer för min skull. Mitt lif
             <lb/> är inte så mycket värdt. Det är bättre, att du gömmer
             <lb/> dessa pengar, så att du och dina barn kunna lefva
@@ -2804,7 +2808,7 @@
             skrifva under detta, så att jag får lyfta papperen i
             <lb/>
             <orgName ref="#Banken">banken</orgName>.</p>
-          <stage>(Visar henne hvar hon skall skrifva, står 
+          <stage>(Visar henne hvar hon skall skrifva, står
             <lb/> lutad öfver henne ömt medan hon skrifver.)</stage>
         </sp>
         <sp who="#spFruBark">
@@ -2877,7 +2881,7 @@
         <sp who="#spBerta">
           <speaker>BERTA.</speaker>
           <p>Ack, du goda, känsliga lilla mamma, måste jag
-            <lb/> nu börja upprepa samma argumenter om igen. Kan 
+            <lb/> nu börja upprepa samma argumenter om igen. Kan
             <lb/> du då inte sätta tro till min rättskänsla.</p>
         </sp>
         <sp who="#spFruBark">
@@ -2951,7 +2955,7 @@
           <speaker>FRU BARK</speaker>
           <stage>(famlande efter en
             <lb/> stol).</stage>
-          <p>Du skall inte tro alt för mycket på mig, mitt 
+          <p>Du skall inte tro alt för mycket på mig, mitt
             <lb/> barn — du vet ju — jag är så svag — — <stage>(sjunker
             <lb/> ned i stolen.)</stage> Vill du ge mig litet vatten. Jag mår
             <lb/> inte riktigt bra.</p>
@@ -2982,7 +2986,7 @@
           <speaker>WILHELM</speaker>
           <stage>(går emot <persName ref="#Berta">Berta</persName>, då
             <lb/> hon kommer tillbaka).</stage>
-          <p>Hvad vill detta säga? Det var ju <persName ref="#Ville">Villes</persName> röst. 
+          <p>Hvad vill detta säga? Det var ju <persName ref="#Ville">Villes</persName> röst.
             <lb/> Hvad är det för en mystifikation. Är <persName ref="#Lissi">Lissi</persName> här?</p>
         </sp>
         <sp who="#spBerta">
@@ -3010,7 +3014,7 @@
           <speaker>BERTA.</speaker>
           <p>
             <persName ref="#Lissi">Lissi</persName> kom med ångbåten i går afton vid 10-tiden.
-            <lb/> Hon hade gladt sig så barnsligt åt att få göra dig 
+            <lb/> Hon hade gladt sig så barnsligt åt att få göra dig
             <lb/> en öfverraskning. Då hon kom till din bostad såg
             <lb/> hon dig gå in med ett främmande fruntimmer.</p>
         </sp>
@@ -3049,7 +3053,7 @@
             <lb/> dem. Hon är så god — hon håller af mig —
             <pb facs="36263-71.jpg"/>
             <fw type="pageNum">64</fw>
-            hon är en sann kvinna — hon kan inte förskjuta sina 
+            hon är en sann kvinna — hon kan inte förskjuta sina
             <lb/> barns far.</p>
         </sp>
         <sp who="#spBerta">
@@ -3064,7 +3068,7 @@
         <sp who="#spBerta">
           <speaker>BERTA.</speaker>
           <p>Ja — jag kan nog tro, att det är svårt för er
-            <lb/> män att fatta, hvad ett sådant slag kan vara för 
+            <lb/> män att fatta, hvad ett sådant slag kan vara för
             <lb/> en kvinna. Vi sätta gärna all vår lit till dem vi
             <lb/> älska.</p>
         </sp>
@@ -3096,7 +3100,7 @@
         </sp>
         <sp who="#spWilhelm">
           <speaker>WILHELM.</speaker>
-          <p>Hon är inte så där öfverspänd — hon ser lifvet 
+          <p>Hon är inte så där öfverspänd — hon ser lifvet
             <lb/> mer praktiskt.</p>
         </sp>
         <sp who="#spBerta">
@@ -3164,7 +3168,7 @@
           <p>Ja — du skall få höra. Mina samvetskval drefvo
             <lb/> mig till att göra henne en bekännelse — inte som
             <lb/> skulle jag velat sudla hennes fantasi med att omtala
-            <lb/> något — jag bara antydde — jag var ändå rädd att 
+            <lb/> något — jag bara antydde — jag var ändå rädd att
             <lb/> få se henne skrämd fly från mig vid första ord —
             <lb/> jag har kanske aldrig drifvits af en bättre impuls, än
             <lb/> då jag började denna bekännelse — —</p>
@@ -3196,7 +3200,7 @@
         </sp>
         <sp who="#spWilhelm">
           <speaker>WILHELM.</speaker>
-          <p>Ja, vet du, min förvåning var lika stor. Jag 
+          <p>Ja, vet du, min förvåning var lika stor. Jag
             <lb/> sköt henne ifrån mig och såg på henne, och jag
             <lb/> försäkrar dig — jag tyckte i det ögonblicket, att
             <lb/> uttrycket i hennes ögon var förändradt — det låg
@@ -3204,7 +3208,7 @@
             <lb/> viss djärfhet öfver den barnsliga pannan — jag kände
             <lb/> det, som om jag fått en dusch kallt vatten öfver mig.
             <lb/> Från den stunden förlorade min kärlek till henne sin
-            <lb/> finaste doft — alla mina goda föresatser bleknade — 
+            <lb/> finaste doft — alla mina goda föresatser bleknade —
             <lb/> det var mycket trefligare i det hela, ty nu kunde jag
             <lb/> ta henne mer ogeneradt i alla afseenden. — Nå, hade
             <lb/> jag så orätt i att säga, att hon är praktisk?</p>
@@ -3278,7 +3282,7 @@
         <sp who="#spLissi">
           <speaker>LISSI</speaker>
           <stage>(gråtande).</stage>
-          <p>Nej — barnen — barnen — de skola just tagas 
+          <p>Nej — barnen — barnen — de skola just tagas
             <lb/> bort från dig. Jag skall snart dö — jag skall aldrig
             <lb/> mer kunna se någon i ögonen efer detta — sedan
             <lb/> jag blifvit så skymfad — men barnen — de ska’
@@ -3325,7 +3329,7 @@
       <div type="act" n="3">
         <head>TREDJE AKTEN.</head>
         <stage type="setting" who="#FruBark #Lissi">(Samma rum. Fru Bark och Lissi sitta tillsam­
-	  <lb break="no"/>mans, modern i soffan, Lissi på en pall med hufvudet 
+	  <lb break="no"/>mans, modern i soffan, Lissi på en pall med hufvudet
           <lb/> i hennes knä.)</stage>
         <sp who="#spFruBark">
           <speaker>FRU BARK.</speaker>
@@ -3354,7 +3358,7 @@
         <fw type="pageNum">72</fw>
         <sp who="#spLissi">
           <speaker>LISSI.</speaker>
-          <p>Men mamma vet inte, hvad det vill säga — när 
+          <p>Men mamma vet inte, hvad det vill säga — när
             <lb/> man har hållit af sin man som jag gjort — och så,
             <lb/> denna skymf — — —</p>
         </sp>
@@ -3447,9 +3451,9 @@
             <lb/> med dem en hälsning till mig och säger — säger —
             <lb/> kanske säger du, <persName ref="#Lissi">Lissi</persName>, att din kärlek i alla fall inte
             <lb/> helt och hållet utslocknat — kanske säger du — att
-            <lb/> du börjar tro på mig igen, om du finner, att jag 
+            <lb/> du börjar tro på mig igen, om du finner, att jag
             <lb/> under tiden fört ett värdigt lif — kanske — efter
-            <lb/> någon tid — förlåt mig, jag vill inte uppröra dig — 
+            <lb/> någon tid — förlåt mig, jag vill inte uppröra dig —
             <lb/> men jag vill säga dig detta själf — och så ville
             <lb/> jag be att få se <persName ref="#Ville">Ville</persName>.</p>
         </sp>
@@ -3492,7 +3496,7 @@
         <sp who="#spLissi">
           <speaker>LISSI.</speaker>
           <p>Ånger! Jag bryr mig inte om din ånger —
-            <lb/> jag bryr mig bara om att du håller af mig. Och 
+            <lb/> jag bryr mig bara om att du håller af mig. Och
             <lb/> det gör du inte, när du kan tala om en lång skils­
 	    <lb break="no"/>messa, som vore det den enklaste sak i verlden. O,
             <lb/> hvad är alt det andra mot detta — att du så lugnt
@@ -3519,7 +3523,7 @@
         <fw type="pageNum">76</fw>
         <sp who="#spLissi">
           <speaker>LISSI.</speaker>
-          <p>Om du hade förstått mig rätt skulle du sett, 
+          <p>Om du hade förstått mig rätt skulle du sett,
             <lb/> att det var i förtviflan och att du bara hade behöft
             <lb/> vara lite kärleksfull mot mig för att få mig att
             <lb/> glömma och förlåta alt.</p>
@@ -3573,7 +3577,7 @@
         </sp>
         <sp who="#spWilhelm">
           <speaker>WILHELM.</speaker>
-          <p>Det är — ja, jag vill inte uttala ordet. Men 
+          <p>Det är — ja, jag vill inte uttala ordet. Men
             <lb/> du ställer dig på detta sätt själf i jämbredd med
             <lb/> detta andra slag af kvinnor.</p>
         </sp>
@@ -3628,7 +3632,7 @@
             <lb/> liten hustru och jag ville visst inte byta. <stage>(Sme­
 	    <lb break="no"/>ker henne.)</stage> Vore <persName ref="#Berta">Berta</persName> min hustru, så skulle hon
             <lb/> tvinga mig att bli en annan människa — jag vet
-            <lb/> inte hvilka ansträngningar, jag inte skulle kunna 
+            <lb/> inte hvilka ansträngningar, jag inte skulle kunna
             <lb/> göra, hällre än att utsätta mig för hennes förakt —
             <lb/> en sådan qvinnas förakt, det är en bitter, men sund
             <lb/> och stärkande dryck — men min lilla hustru hör
@@ -3669,10 +3673,10 @@
             <lb/> män, lättsinniga, som vi äro, ibland ha en viss be­
 	    <lb break="no"/>nägenhet att idealisera våra hustrur. Vi vilja gärna
             <lb/> hos dem finna, den renhet, som vi sakna hos oss
-            <lb/> själfva — det är barnsligheter — gammal romantik, 
+            <lb/> själfva — det är barnsligheter — gammal romantik,
             <lb/> som hänger i oss från <bibl>
               <title>Frithiofs saga</title>
-            </bibl> och 15-års 
+            </bibl> och 15-års
             <lb/> åldern — men kvinnornas äro mer praktiska, de —
             <lb/> de veta, att pruta med idealerna och taga lifvet som
             <lb/> det är.</p>
@@ -3686,7 +3690,7 @@
         <sp who="#spWilhelm">
           <speaker>WILHELM</speaker>
           <stage>(muntert).</stage>
-          <p>Se, välkommen hem, Berta. Se då inte så sträng 
+          <p>Se, välkommen hem, Berta. Se då inte så sträng
             <lb/> ut — det klär dig inte. Det ger dig ett visst drag af
             <lb/> okvinlighet. En kvinna bör alltid vara mild — alltid
             <lb/> kärleksfull och öfverseende — som min lilla <persName ref="#Lissi">Lissi</persName>.</p>
@@ -3766,7 +3770,7 @@
           <stage>(behåller hennes hand).</stage>
           <p>Tack, <persName ref="#Berta">Berta</persName> — ingen har någonsin skymfat mig
             <lb/> såsom du — jag skulle inte ha tålt det — om inte
-            <lb/> själfföraktet hade förlamat mig — — ja, hade du 
+            <lb/> själfföraktet hade förlamat mig — — ja, hade du
             <lb/> blifvit min hustru, <persName ref="#Berta">Berta</persName> — du skulle inte ha förgått
             <lb/> dig mot mig en gång till, det svarar jag för — men
             <lb/> du skulle ha gjort mig till en helt annan man.</p>
@@ -3807,7 +3811,7 @@
         </sp>
         <sp who="#spBerta">
           <speaker>BERTA.</speaker>
-          <p>Misstroende — till mamma! Då ville jag inte 
+          <p>Misstroende — till mamma! Då ville jag inte
             <lb/> lefva längre. Du är nu den enda jag har kvar att
             <lb/> tro på.</p>
           <stage>(Omfamnar henne.)</stage>
@@ -3861,8 +3865,8 @@
 	    <lb break="no"/>helm</persName>. Jag hade ämnat att lexa upp dig grundligt
             <lb/> — men när nu <emph>hon</emph> redan förlåtit, så är det inte
             <lb/> värdt att tala om den saken vidare. <persName ref="#Lissi">Lissi</persName> är en
-            <lb/> sann kvinna — hon som modern. — Sitt ned nu, 
-            <lb/> bäste <persName ref="#KamrerLundberg">kamrer Lundberg</persName>. Nu ska’ vi ha oss en 
+            <lb/> sann kvinna — hon som modern. — Sitt ned nu,
+            <lb/> bäste <persName ref="#KamrerLundberg">kamrer Lundberg</persName>. Nu ska’ vi ha oss en
             <lb/> treflig stund. — Jag undrar, om ni komma ihog hvad
             <lb/> det är för en dag idag. — En dubbel familjehögtid
             <lb/> — ja, minsann tror jag inte ni hade glömt det! <stage>(Till
@@ -3884,7 +3888,7 @@
         <sp who="#spBark">
           <speaker>BARK.</speaker>
           <p>Nu ska’ vi ha oss en liten feststund och dricka
-            <lb/> bägge brudparens skål. Tag hit champagneglas, 
+            <lb/> bägge brudparens skål. Tag hit champagneglas,
             <lb/>
             <persName ref="#Berta">Berta</persName>!</p>
         </sp>
@@ -3926,7 +3930,7 @@
             <lb/> — nå, som du vill — mildhet och godhet, ser du,
             <pb facs="36263-92.jpg"/>
             <fw type="pageNum">85</fw>
-            det är kvinnans ädlaste smycke — hva’ falls? Hvad 
+            det är kvinnans ädlaste smycke — hva’ falls? Hvad
             <lb/> säger du?</p>
         </sp>
         <sp who="#spBerta">
@@ -3976,7 +3980,7 @@
           <p>Din mor, min kära <persName ref="#Berta">Berta</persName>, kunde väl för ett
             <lb/> ögonblick låta sig missledas af sin moderliga svag­
 	    <lb break="no"/>het — men hon var alt för mycket sann kvinna för
-            <lb/> att inte snart inse sina pligter mot sin man — och 
+            <lb/> att inte snart inse sina pligter mot sin man — och
             <lb/> då hon nu med egen hand förstört detta olycksaliga
             <lb/> papper, har jag glömt och förlåtit alt — —</p>
         </sp>
@@ -3993,7 +3997,7 @@
         </sp>
         <sp who="#spBerta">
           <speaker>BERTA.</speaker>
-          <p>Jag har tappat sammanhanget — jag är alldeles 
+          <p>Jag har tappat sammanhanget — jag är alldeles
             <lb/> som yr i hufvudet af alla dessa fraser — jag förstår
             <lb/> ingenting längre. Förklara mig, mamma!</p>
         </sp>
@@ -4016,7 +4020,7 @@
         <fw type="pageNum">87</fw>
         <sp who="#spBerta">
           <speaker>BERTA.</speaker>
-          <p>Förebråelser! Hårda ord! Mot mamma! Nej, 
+          <p>Förebråelser! Hårda ord! Mot mamma! Nej,
             <lb/> stå inte och se så där brottslig ut — det uthärdar
             <lb/> jag inte! — O, att jag själf hade begått den uslaste,
             <lb/> föraktligaste handling — att ni alla stode här nu
@@ -4064,7 +4068,7 @@
         <fw type="pageNum">88</fw>
         <sp who="#spLissi">
           <speaker>LISSI.</speaker>
-          <p>Nu får <persName ref="#Ville">Ville</persName> dricka <persName ref="#Bark">morfars</persName> och <persName ref="#FruBark">mormors</persName> och 
+          <p>Nu får <persName ref="#Ville">Ville</persName> dricka <persName ref="#Bark">morfars</persName> och <persName ref="#FruBark">mormors</persName> och
             <lb/> pappas och mammas skål.</p>
         </sp>
         <stage>(Då <persName ref="#Ville">Ville</persName> skall dricka, springer <persName ref="#Berta">Berta</persName> fram och tar
@@ -4086,7 +4090,7 @@
           <stage>(strängt).</stage>
           <p>
             <persName ref="#Ville">Ville</persName> — du dricker inte — lyd <persName ref="#Berta">Berta</persName> och gå!</p>
-          <stage type="exit" who="#Ville">(Tar gossen vid armen och skjuter ut honom genom 
+          <stage type="exit" who="#Ville">(Tar gossen vid armen och skjuter ut honom genom
             <lb/> dörren till höger.)</stage>
         </sp>
         <sp who="#spBark">
@@ -4155,7 +4159,7 @@
         <sp who="#spBerta">
           <speaker>BERTA.</speaker>
           <p>
-            <emph>Ännu!</emph> Det ordet hade jag inte väntat af er. 
+            <emph>Ännu!</emph> Det ordet hade jag inte väntat af er.
             <lb/> Hvad som skett kan ingenting förändra i det afse­
 	    <lb break="no"/>endet — det kan endast göra offret — kanske —
             <lb/> något tyngre. Men hon behöfver mig — och mitt
@@ -4209,12 +4213,12 @@
             <lb/> det har ni — just ni lärt mig. Det har ert lif in­
 	    <lb break="no"/>skärpt hos mig — och därfiv skall jag försöka att
             <lb/> hålla fast — hur det än går.</p>
-          <stage>(Han kysser upprepade 
+          <stage>(Han kysser upprepade
             <lb/> gånger hennes händer.)</stage>
         </sp>
         <sp who="#spBark">
           <speaker>BARK</speaker>
-          <stage>(som observerat dem, reser 
+          <stage>(som observerat dem, reser
             <lb/> sig, tar sitt glas).</stage>
           <p>Mina vänner — jag tror det blir en tredubbel
             <lb/> fest vi få fira i dag — — <stage>(<persName ref="#KamrerLundberg">kamrern</persName> gör en afvisande
@@ -4228,7 +4232,7 @@
         </sp>
         <sp who="#spBerta">
           <speaker>BERTA.</speaker>
-          <p>Förlåta! Det är så sorgligt att nödgas <emph>förlåta</emph>, 
+          <p>Förlåta! Det är så sorgligt att nödgas <emph>förlåta</emph>,
             <lb/> när hela ens själ längtar att få beundra och få tro
             <lb/> på någon! <stage>(<persName ref="#FruBark">Fru Bark</persName> vill draga sig tillbaka, <persName ref="#Berta">Berta</persName>
               <lb/> kvarhåller henne.)</stage> Nej, jag ville inte stöta dig bort,

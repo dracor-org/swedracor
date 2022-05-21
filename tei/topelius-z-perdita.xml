@@ -73,7 +73,6 @@
         </availability>
         <idno type="dramawebben">TopeliusZ_Perdita</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000060</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q59652213</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -136,9 +135,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1896"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -151,15 +147,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -272,6 +268,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1896">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q59652213"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -482,7 +486,7 @@
             <lb/> tänker du på? Går ut i den tunna klädningen och får
             <lb/> influensan! <stage>(Hostar.)</stage> Kläd dig förståndigt, <persName ref="#Maja">flicka</persName>, se
             <lb/> här!</said> Och så pelsade hon på mig allt, hvad hon fann
-            <lb/> i garderoben och som redan var uthängdt för malen i 
+            <lb/> i garderoben och som redan var uthängdt för malen i
             <lb/> sommar. Jo, jag ser vacker ut! Skall föreställa en
             <lb/> blomsterflicka och ser ut som en vinterbuse!</p>
         </sp>
@@ -635,7 +639,7 @@
             <stage>(Lyssnar åter.)</stage> Men hvem drillar där högt i skyn? <stage>(Man
             <lb/> hör <persName ref="#Lärkan">lärkan</persName> drilla.)</stage> Skulle det vara <persName ref="#Lärkan">lärkan</persName>? Omöjligt,
             <lb/> hon fryser ihjäl. <stage>(Ny drill.)</stage> Men det är likväl hon!
-            <lb/> Jag håller vad om allt sqvaller i verlden, att nu kan 
+            <lb/> Jag håller vad om allt sqvaller i verlden, att nu kan
             <lb/>
             <persName ref="#Florio">prins Florio</persName> ej vara långt borta. Det fattas bara, att också
             <lb/>

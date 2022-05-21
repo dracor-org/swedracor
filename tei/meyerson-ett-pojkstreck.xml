@@ -80,7 +80,6 @@
         </availability>
         <idno type="dramawebben">MeyersonG_EttPojkstreck</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000033</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q59618622</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -125,9 +124,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1896"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -140,15 +136,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -244,6 +240,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1896">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q59618622"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -521,7 +525,7 @@
         </sp>
         <sp who="#spHenrik">
           <speaker>Henrik.</speaker>
-          <p>Och <persName ref="#FruBorg">mamma</persName> har farit till staden och vi 
+          <p>Och <persName ref="#FruBorg">mamma</persName> har farit till staden och vi
             <lb/> ska' läsa läxor.</p>
         </sp>
         <sp who="#spKalle">
@@ -1458,7 +1462,7 @@
           <speaker>Fru Borg.</speaker>
           <p>Nej, det får ni bereda er på, <persName ref="#Henrik #Oscar">kära
             <pb facs="5866-6.jpg"/>
-              <fw type="pageNum">383</fw>   
+              <fw type="pageNum">383</fw>
             gossar</persName>! Det blir straffet för ert upptåg. Så det var
             <lb/> ändå ni som blefvo lurade till sist.</p>
         </sp>

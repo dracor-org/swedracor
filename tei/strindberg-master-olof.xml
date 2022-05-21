@@ -63,7 +63,6 @@
         </availability>
         <idno type="dramawebben">StrindbergA_MasterOlof</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000049</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q1765367</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -113,9 +112,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1881"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -128,15 +124,15 @@
         aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-        kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-        olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-        författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+        kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+        olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+        författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
         förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-        närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-        en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-        Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+        närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+        en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+        Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
         sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -422,6 +418,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1881">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q1765367"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -657,7 +661,7 @@
         </sp>
         <sp who="#spMästerOlof">
           <speaker>OLOF.</speaker>
-          <p>Ja! Jag leker en liten comedia om Israels barn och 
+          <p>Ja! Jag leker en liten comedia om Israels barn och
           <lb/> Babyloniska fångenskapen!</p>
         </sp>
         <pb facs="37680-5.jpg"/>
@@ -686,13 +690,13 @@
           <quote>
             <p>“Och Herrens ord skedde till <persName ref="#Jeremias">Jeremias</persName>;</p>
             <p>Jag kände dig förrän jag tillredde dig i moderlifvet
-            <lb/> och utkorade dig förrän du af modren född vardt och satte 
+            <lb/> och utkorade dig förrän du af modren född vardt och satte
             <lb/> dig till en profet bland många folk.</p>
-            <p>Men <persName ref="#Jeremias">Jeremias</persName> sade: Ack Herre, Herre, jag duger icke 
+            <p>Men <persName ref="#Jeremias">Jeremias</persName> sade: Ack Herre, Herre, jag duger icke
             <lb/> till att predika; ty jag är för ung.</p>
             <p>Då sade Herren: säg icke: Jag är för ung; utan du
             <lb/> skall gå, dit jag sänder dig, att predika, hvad jag befaller.</p>
-            <p>Ty jag vill i denna dag göra dig till en fast stod, 
+            <p>Ty jag vill i denna dag göra dig till en fast stod,
             <lb/> till en jernpelare och till en kopparmur i hela landet emot
             <lb/>
               <persName>Juda</persName> konungar, emot hans furstar, emot hans prester, emot
@@ -822,16 +826,16 @@
           <lb/> och lekte i trädens skugga och det var pingstafton, och
           <lb/> det var vår och det var frid. Och nu — hvarför skakas
           <lb/> icke träden, hvarför mörknar icke himmelen! Lägg handen
-          <lb/> på min panna, känn hur blodets böljor börja gå! Lemna 
+          <lb/> på min panna, känn hur blodets böljor börja gå! Lemna
           <pb facs="37680-8.jpg"/>
             <fw type="pageNum">9</fw>
           mig icke, <persName ref="#LaurentiusAndreæ">Lars</persName>; jag ser en engel som kommer emot mig
           <lb/> med en kalk; hon går på aftonskyn derborta, blodröd är
           <lb/> hennes stig och hon har ett kors i handen — Nej, jag förmår
-          <lb/> icke, jag går tillbaka till den lugna dalen; må andra strida, 
+          <lb/> icke, jag går tillbaka till den lugna dalen; må andra strida,
           <lb/> jag skall se på. — Nej, jag skall gå efter och läka de så­
 	  <lb break="no"/>rade, jag skall hviska frid i de döendes öron. Frid! —
-          <lb/> Nej, jag vill strida med, men i de sista lederna; hvarför 
+          <lb/> Nej, jag vill strida med, men i de sista lederna; hvarför
           <lb/> skall jag gå främst?</p>
         </sp>
         <sp who="#spLaurentiusAndreæ">
@@ -870,7 +874,7 @@
         <sp who="#spLaurentiusAndreæ">
           <speaker>LARS.</speaker>
           <p>Jag är inte född till stridsman; jag skall blott bli
-          <lb/> din vapensmed! Guds rena ord skall bli dina vapen och 
+          <lb/> din vapensmed! Guds rena ord skall bli dina vapen och
           <lb/> du skall sätta dem i händerna på folket; ty nu är dörren
           <lb/> till de påfliges rustkammare inslagen och hvar och en med
           <lb/> namnet menniska skall sjelf kämpa för sin andes frihet!</p>
@@ -879,7 +883,7 @@
         <fw type="pageNum">10</fw>
         <sp who="#spMästerOlof">
           <speaker>OLOF.</speaker>
-          <p>Men hvar äro mina fiender? Jag brinner af stridslust, 
+          <p>Men hvar äro mina fiender? Jag brinner af stridslust,
           <lb/> men jag ser ingen att strida mot!</p>
         </sp>
         <sp who="#spLaurentiusAndreæ">
@@ -895,7 +899,7 @@
           <speaker>LARS.</speaker>
           <p>Här kommer förtruppen — rusta dig.</p>
           <stage type="exit" who="#LaurentiusAndreæ">(Går).</stage>
-          <stage type="entrance" who="#Borgarbarn #Borgaren #Borgarkvinnor #Borgarqvinnan #Enannanborgare #Folket #GerdtBokprentare">(En skara borgare med <persName ref="#Borgarkvinnor">qvinnor</persName> och <persName ref="#Borgarbarn">barn</persName> gå fram mot kyrkdörren på 
+          <stage type="entrance" who="#Borgarbarn #Borgaren #Borgarkvinnor #Borgarqvinnan #Enannanborgare #Folket #GerdtBokprentare">(En skara borgare med <persName ref="#Borgarkvinnor">qvinnor</persName> och <persName ref="#Borgarbarn">barn</persName> gå fram mot kyrkdörren på
           <lb/> högra sidan. Der stanna de, lyfta på hattarne och korsa sig.)</stage>
         </sp>
         <sp who="#spGerdtBokprentare">
@@ -903,7 +907,7 @@
           <speaker>GERDT BOKPRENTARE</speaker>
           <stage>(förklädd till borgare).</stage>
           <lb/>
-          <p>Man har icke ringt vespern på pingsafton — det är 
+          <p>Man har icke ringt vespern på pingsafton — det är
           <lb/> högst ovanligt!</p>
         </sp>
         <sp who="#spBorgaren">
@@ -963,13 +967,13 @@
           <lb/>
           <p>Guds hus är stängdt på pingstaftonen. Det högvör­
 	  <lb break="no"/>diga presterskapet ger icke audiens hos Gud i dag, derföre
-          <lb/> får det vällofliga borgerskapet gå hem och lägga sig utan 
+          <lb/> får det vällofliga borgerskapet gå hem och lägga sig utan
           <lb/> messa. Se hit, godt folk — här är en dörr, den är visser­
 	  <lb break="no"/>ligen bara af trä, men det gör ingenting, ty den är fordrad
           <lb/> med koppar, titta på den här dörren! Om jag nu säger er
           <lb/> att Gud bor härinnanför, ty det är ju hans hus, om jag
           <lb/> nu säger er, att <persName ref="#diakonus">
-              <persName ref="#MånsSommar">biskopens</persName> diakonus</persName> eller secretarius eller 
+              <persName ref="#MånsSommar">biskopens</persName> diakonus</persName> eller secretarius eller
           <lb/> kanonikus eller någon annan man som slutas på us, ty det
           <lb/> är bara andans män som slutas på us, om jag nu säger
           <lb/> att en sådan man har nyckeln till denna dörr hängande
@@ -977,10 +981,10 @@
           <lb/> att han har låst in Gud för oss och hängt nyckeln på en
           <lb/> spik i sitt sofrum, utan jag säger bara det, att vi få inte
           <lb/> komma in och hålla någon Gudstjenst i qväll, vi som stre­
-	  <lb break="no"/>tat sex dagar med att göra skor och rockar, och vi, som 
+	  <lb break="no"/>tat sex dagar med att göra skor och rockar, och vi, som
           <lb/> hela veckan hafva bryggt och bakat och slagtat åt hög­
 	  <lb break="no"/>vördiga presterkapet, på det att de på den sjunde måtte
-          <lb/> orka hålla gudstjenst åt oss. Detta förebrår jag ingalunda 
+          <lb/> orka hålla gudstjenst åt oss. Detta förebrår jag ingalunda
           <pb facs="37680-11.jpg"/>
             <fw type="pageNum">12</fw>
           höglofliga kapitlet, ty de äro ju bara menniskor de, och
@@ -1014,7 +1018,7 @@
         <stage>(<persName ref="#Folket">Folket</persName> rusar mot <persName ref="#GerdtBokprentare">Gerdt</persName>; <persName ref="#Borgarbarn">barnen</persName> skrika.)</stage>
         <sp who="#spBorgaren">
           <speaker>BORGAREN.</speaker>
-          <p>Ve dig, <persName ref="#Luther">Luther</persName>, ty en sådan är du. Vi hafva syndat, 
+          <p>Ve dig, <persName ref="#Luther">Luther</persName>, ty en sådan är du. Vi hafva syndat,
           <lb/> derför har Herren stängt sitt hus. Hör du ej hur sjelfva
           <lb/>
             <persName ref="#Borgarbarn">barnen</persName> skrika vid din åsyn, du orena ande!</p>
@@ -1043,7 +1047,7 @@
         <fw type="pageNum">13</fw>
         <sp who="#spGerdtBokprentare">
           <speaker>GERDT.</speaker>
-          <p>Om ej Gud gör det, så gör den heliga <orgName>kyrkan</orgName> det, 
+          <p>Om ej Gud gör det, så gör den heliga <orgName>kyrkan</orgName> det,
           <lb/> och jag är inom hennes vigda murar.</p>
         </sp>
         <sp who="#spBorgaren">
@@ -1052,7 +1056,7 @@
         </sp>
         <sp who="#spGerdtBokprentare">
           <speaker>GERDT.</speaker>
-          <p>Om I icke frukten Gud, så frukten åtminstone den 
+          <p>Om I icke frukten Gud, så frukten åtminstone den
           <lb/> heliga fadrens bann!</p>
         </sp>
         <sp who="#spBorgarqvinnan">
@@ -1071,12 +1075,12 @@
           <speaker>SECRETARIUS</speaker>
           <stage>(läser).</stage>
           <lb/>
-          <p>“Alldenstund vår stiftsstad ej fullgjort sin ränta till 
+          <p>“Alldenstund vår stiftsstad ej fullgjort sin ränta till
           <lb/> biskopsstolen och då staden fortfarande tredskas med ut­
 	  <lb break="no"/>görandet af densamma har domkapitlet funnit godt, lik­
 	  <lb break="no"/>mätigt sin rättighet och curians stadfästelse, stänga kyr­
 	  <lb break="no"/>kans dörrar och upphöra med messor och offer tills nämnde
-          <lb/> missförhållande vunnit rättelse, påminnande hvar och en 
+          <lb/> missförhållande vunnit rättelse, påminnande hvar och en
           <lb/> som härefter ej rättar sig all vår onåd</p>
           <p rend="right">Datum vigilia assumptionis Mariæ
           <lb/>
@@ -1112,7 +1116,7 @@
         <sp who="#spMästerOlof">
           <speaker>OLOF</speaker>
           <stage>(har gått fram och ringer nu i
-          <lb/> vesperklockan medelst en lina, som 
+          <lb/> vesperklockan medelst en lina, som
           <lb/> hänger ner från tornet).</stage>
           <lb/>
           <p>Är det allvar med er gudstjenst, så skall jag hålla
@@ -1186,7 +1190,7 @@
         </sp>
         <sp who="#spMästerOlof">
           <speaker>OLOF.</speaker>
-          <p>Nej, det är slut med detta narrspel. — I anda och 
+          <p>Nej, det är slut med detta narrspel. — I anda och
           <lb/> sanning skolen I bedja och ej med ord som I icke förstå’n.</p>
         </sp>
         <sp who="#spBorgaren">
@@ -1275,7 +1279,7 @@
         <anchor xml:id="förklädd1slut"/>
         <sp who="#spGerdtBokprentare">
           <speaker>GERDT</speaker>
-          <stage>(demaskerar sig och står nu fram 
+          <stage>(demaskerar sig och står nu fram
           <lb/> betydligt äldre).</stage>
           <lb/>
           <p>Känner du mig nu, <persName ref="#MästerOlof">Olof</persName>!</p>
@@ -1385,11 +1389,11 @@
           <lb/> dig på ett högt berg och du skall derifrån skåda ut öfver
           <lb/> verlden. Ser du, <persName ref="#MästerOlof">Olof</persName>, vi ha pingst nu. Det var då den
           <lb/> Helige Ande steg ned och göt sig öfver apostlarne, nej
-          <lb/> öfver hela menskligheten. Du kan få den Heliga Ande, 
+          <lb/> öfver hela menskligheten. Du kan få den Heliga Ande,
           <pb facs="37680-22.jpg"/>
             <fw type="pageNum">19</fw>
           jag har fått den Helige Ande, ty jag trodde det. Guds
-          <lb/> ande har stigit ned till mig, jag känner det, och derför har 
+          <lb/> ande har stigit ned till mig, jag känner det, och derför har
           <lb/> man spärrat in mig som vansinnig, men nu är jag fri, nu
           <lb/> skall jag tala ordet, ty ser du, <persName ref="#MästerOlof">Olof</persName>, nu står vi på ber­
 	  <lb break="no"/>get! Ser du huru folket krälar fram på sina knän till de
@@ -1399,19 +1403,19 @@
             <persName ref="#påfven">påfven</persName>. Nu lyfter han viggen och tusende själar draga in
           <lb/> i fördömelsen, och de andra kyssa hans fot och sjunga
           <lb/> Gloria Deo, — och han på stolen vänder sig om och ler.
-          <lb/> Se nu på den andre. Han har ett svärd och en spira. 
+          <lb/> Se nu på den andre. Han har ett svärd och en spira.
           <lb/> Böj dig för spiran eljest biter svärdet. Han rynkar sina
-          <lb/> ögonbryn och allt folket darrar. Då vänder han sig till 
+          <lb/> ögonbryn och allt folket darrar. Då vänder han sig till
           <lb/> sin granne på andra stolen och båda le. Det är två Baals­
 	  <lb break="no"/>stoder. Men då höres ett gny i luften liksom sorl af folk.
           <lb/> Hvem gnyr? ropar <persName ref="#påfven">påfven</persName> och skakar sin vigg. Hvem
-          <lb/> sorlar, och kejsaren skakar sitt svärd. Ingen svarar. Men 
+          <lb/> sorlar, och kejsaren skakar sitt svärd. Ingen svarar. Men
           <lb/> det gnyr ändå i luften och det susar och det ropar: “Tänk“!
           <lb/> Och <persName ref="#påfven">påfven</persName> far till samman och kejsaren bleknar och frå­
 	  <lb break="no"/>gar: hvem ropade “tänk“! Tag fram honom och jag tager
-          <lb/> hans lif, och <persName ref="#påfven">påfven</persName> ropar för hit honom och jag tager 
-          <lb/> hans själ! Det var luften som ropade, det ingen som 
-          <lb/> ropade; men rösten stiger och en stormvind far fram och 
+          <lb/> hans lif, och <persName ref="#påfven">påfven</persName> ropar för hit honom och jag tager
+          <lb/> hans själ! Det var luften som ropade, det ingen som
+          <lb/> ropade; men rösten stiger och en stormvind far fram och
           <lb/> han går öfver <placeName>Alperna</placeName> och han ryter öfver <placeName>Fichtelgebirge</placeName>
             <lb/> och han väcker upp <placeName>Österhafvet</placeName> och det ger eko mot
           <lb/> stränderna och tusendubbladt går ropet öfver verlden: fri­
@@ -1427,7 +1431,7 @@
           <lb/> icke andarne med någon boja! Glöm icke den stora pingst­
 	  <lb break="no"/>dagen, glöm icke ditt stora mål: andligt lif och andlig fri­
 	  <lb break="no"/>het. Lyssna icke till det dödsropet “si det är allt godt!“
-          <lb/> ty då kommer ej det tusenåriga riket, frihetens rike, stånd, 
+          <lb/> ty då kommer ej det tusenåriga riket, frihetens rike, stånd,
           <lb/> och det är just det som börjar nu!</p>
         </sp>
         <pb facs="37680-23.jpg"/>
@@ -1570,10 +1574,10 @@
         </sp>
         <sp who="#spGerdtBokprentare">
           <speaker>GERDT.</speaker>
-          <p>Ja, om det är en olycka att bli beröfvad all jordisk 
+          <p>Ja, om det är en olycka att bli beröfvad all jordisk
           <lb/> lycka, att släpas i fängelse, lida fattigdom, hånas och smä­
-	  <lb break="no"/>das för sanningen. Då är du icke värd en så stor olycka. 
-          <lb/> Jag trodde du skulle förstå mig; jag räknade på din hjelp, 
+	  <lb break="no"/>das för sanningen. Då är du icke värd en så stor olycka.
+          <lb/> Jag trodde du skulle förstå mig; jag räknade på din hjelp,
           <lb/> ty du har ännu elden qvar, men jag ser, verlden lockar
           <lb/> dig; följ med strömmen och blif lycklig!</p>
         </sp>
@@ -1593,21 +1597,21 @@
         <sp who="#spGerdtBokprentare">
           <speaker>GERDT.</speaker>
           <p>Dåre! Led strömmen, ty stömmen äro vi, de gamla
-          <lb/> äro stillastående dypölar, dem behöfver du minsann ej 
+          <lb/> äro stillastående dypölar, dem behöfver du minsann ej
           <pb facs="37680-26.jpg"/>
             <fw type="pageNum">23</fw>
-          streta emot; men låt dem icke ruttna eller torka ut; skaffa 
+          streta emot; men låt dem icke ruttna eller torka ut; skaffa
           <lb/> dem aflopp och de skola äfven strömma med!</p>
         </sp>
         <sp who="#spMästerOlof">
           <speaker>OLOF.</speaker>
-          <p>O, jag förstår dig; du har aflat en tanke i min själ, 
+          <p>O, jag förstår dig; du har aflat en tanke i min själ,
           <lb/> men jag måste qväfva henne i födseln, eljest dödar hon mig!</p>
         </sp>
         <sp who="#spGerdtBokprentare">
           <speaker>GERDT.</speaker>
           <p>Tro mig, du skall bli en <persName ref="#Daniel">Daniel</persName>, som skall säga för­
-	  <lb break="no"/>starne sanningen, och de skola stå dig efter lifvet, men 
+	  <lb break="no"/>starne sanningen, och de skola stå dig efter lifvet, men
           <lb/> Herren skall skydda dig.</p>
           <p>Nu går jag trygg; ty jag ser blixtar ljunga i ditt
           <lb/> öga, och eldstunga dallrar öfver ditt hufvud. Lycklig
@@ -1650,7 +1654,7 @@
         </sp>
         <sp who="#spMästerOlof">
           <speaker>OLOF.</speaker>
-          <p>Ja, när folket släpptes såsom får utan herde, då ville 
+          <p>Ja, när folket släpptes såsom får utan herde, då ville
           <lb/> jag samla dem!</p>
         </sp>
         <pb facs="37680-27.jpg"/>
@@ -1767,7 +1771,7 @@
         </sp>
         <sp who="#spMånsSommar">
           <speaker>MÅNS.</speaker>
-          <p>Vi proklamerade messfall på grunder fullt lagliga och 
+          <p>Vi proklamerade messfall på grunder fullt lagliga och
           <lb/> han har djerfts hålla messa, och hvad värre är en Luthersk
           <lb/> messa och derigenom retat upp folket!</p>
         </sp>
@@ -1816,7 +1820,7 @@
         <sp who="#spHansBrask">
           <speaker>BRASK.</speaker>
           <p>Det var en galning, som begagnade min press för att
-          <lb/> trycka Lutherska skrifter då jag satte anti-Lutherska i 
+          <lb/> trycka Lutherska skrifter då jag satte anti-Lutherska i
           <lb/> hand på honom. Och så svärmade han om Apokalypsen
           <lb/> och tusenåriga riket.<stage>(Till <persName ref="#MästerOlof">Olof</persName>).</stage>Har du sett honom?</p>
         </sp>
@@ -1906,7 +1910,7 @@
         </sp>
         <sp who="#spHansBrask">
           <speaker>BRASK.</speaker>
-          <p>Svea rikes biskopar taga endast befallningar af sin 
+          <p>Svea rikes biskopar taga endast befallningar af sin
           <lb/> öfverhöghet, påfven och den kanoniska lagen!</p>
         </sp>
         <sp who="#spGustavVasa">
@@ -1963,12 +1967,12 @@
           <speaker>BRASK.</speaker>
           <p>Han har i dag lagt af masken och varit nog djerf
           <lb/> att öppet bryta kapitlets förbud angående messfall, hvar­
-	  <lb break="no"/>för vi fordra <persName ref="#GustavVasa">ers nådes</persName> samtycke att han vederbörligen 
+	  <lb break="no"/>för vi fordra <persName ref="#GustavVasa">ers nådes</persName> samtycke att han vederbörligen
           <lb/> straffas!</p>
         </sp>
         <sp who="#spGustavVasa">
           <speaker>GUSTAF.</speaker>
-          <p>Den saken faller under domkapitlet och kommer mig 
+          <p>Den saken faller under domkapitlet och kommer mig
           <lb/> ej vid! Men hvad är det för uppror du talar om i <placeName>Stock­
 	  <lb break="no"/>holm</placeName>?</p>
         </sp>
@@ -1999,7 +2003,7 @@
         <sp who="#spGustavVasa">
           <speaker>GUSTAF.</speaker>
           <p>Det blir min sak! <persName ref="#MästerOlof">Olof</persName>, jag nämner dig till skrifvare<anchor xml:id="MästerOlofGustavVasaRelChange1"/>
-            <lb/> i Stockholms rådstuga. Du rester genast dit. Tala till 
+            <lb/> i Stockholms rådstuga. Du rester genast dit. Tala till
           <lb/> folket! Jag litar på dig!</p>
         </sp>
         <pb facs="37680-33.jpg"/>
@@ -2021,7 +2025,7 @@
         </sp>
         <sp who="#spGustavVasa">
           <speaker>GUSTAF.</speaker>
-          <p>Ja, inte med nycklar heller! Gå till <persName ref="#LaurentiusAndreæ">min kansler</persName>, får 
+          <p>Ja, inte med nycklar heller! Gå till <persName ref="#LaurentiusAndreæ">min kansler</persName>, får
           <lb/> du fullmagten!</p>
         </sp>
         <sp who="#spHansBrask">
@@ -2063,7 +2067,7 @@
         <sp who="#spGustavVasa">
           <speaker>GUSTAF.</speaker>
           <p>Det blir ej er sak, <persName ref="#HansBrask">biskop Brask</persName>! Ty kanonikus i
-          <placeName>Strengnäs</placeName> dömmes ej af biskop i <placeName>Linköping</placeName>. <persName ref="#MånsSommar">Biskop Måns</persName>, 
+          <placeName>Strengnäs</placeName> dömmes ej af biskop i <placeName>Linköping</placeName>. <persName ref="#MånsSommar">Biskop Måns</persName>,
           <lb/> för er talan!</p>
         </sp>
         <pb facs="37680-34.jpg"/>
@@ -2090,7 +2094,7 @@
         </sp>
         <sp who="#spGustavVasa">
           <speaker>GUSTAF.</speaker>
-          <p>Det är frågan om <persName ref="#MästerOlof">mäster Olof</persName> nu! Herrarne kunna 
+          <p>Det är frågan om <persName ref="#MästerOlof">mäster Olof</persName> nu! Herrarne kunna
           <lb/> uppskjuta ransakningen. Varen goda och lemna oss. </p>
         </sp>
         <stage type="exit" who="#HansBrask #MånsSommar" rend="right">(Biskoparne gå.)</stage>
@@ -2107,7 +2111,7 @@
         </sp>
         <sp who="#spGustavVasa">
           <speaker>GUSTAF.</speaker>
-          <p>Nej! Du skall bli min högra hand, på vilkor att den 
+          <p>Nej! Du skall bli min högra hand, på vilkor att den
           <lb/> venstra tillsvidare icke vet hvad den högra gör. Res till
           <lb/>
             <placeName>Stockholm</placeName>!</p>
@@ -2168,7 +2172,7 @@
         </sp>
         <sp who="#spScholaris1">
           <speaker>1:A SCHOLARIS</speaker>
-          <p>I kunnen ju stanna öfver pingst så att vi få uppföra 
+          <p>I kunnen ju stanna öfver pingst så att vi få uppföra
           <lb/> vår Comædia!</p>
         </sp>
         <sp who="#spScholaris2">
@@ -2252,7 +2256,7 @@
         </sp>
         <sp who="#spMästerOlof">
           <speaker>OLOF.</speaker>
-          <p>Ser du, nu sitta de bland grafvarne och leka och 
+          <p>Ser du, nu sitta de bland grafvarne och leka och
           <lb/> plocka blommor och sjunga pingstvisor.</p>
         </sp>
         <sp who="#spLaurentiusAndreæ">
@@ -2286,8 +2290,8 @@
           <p>Det var den sista ljusa morgondrömmen som gick;
           <lb/> förlåt mig — nu är jag vaken!</p>
         </sp>
-        <stage rend="ind">(De gå åt högra sidan; då <persName ref="#MästerOlof">Olof</persName> kommer i kulissen vänder han sig 
-        <lb/> ännu en gång om för att se efter <persName ref="#Scholaris1 #Scholaris2">Scholares</persName>. <stage type="entrance" who="#Mårten #Nils">Då hafva svartebröderna 
+        <stage rend="ind">(De gå åt högra sidan; då <persName ref="#MästerOlof">Olof</persName> kommer i kulissen vänder han sig
+        <lb/> ännu en gång om för att se efter <persName ref="#Scholaris1 #Scholaris2">Scholares</persName>. <stage type="entrance" who="#Mårten #Nils">Då hafva svartebröderna
         <lb/>
             <persName ref="#Mårten">Mårten</persName> och <persName ref="#Nils">Nils</persName> trädt fram just från den kulissen der Scholares gått ut.</stage>)</stage>
         <sp who="#spMästerOlof">
@@ -2308,10 +2312,10 @@
         <head>Andra akten.</head>
         <stage type="location">
           <placeName>Stockholm</placeName>.</stage>
-        <stage type="setting" who="#Dansk #HansWindrank #Mårten #Nils #Småländing #Tysk #bönder #knektar #sjömän #spelman">En ölbod i <placeName ref="#Storkyrkan">storkyrkans</placeName> mur. I fonden en disk med ölkannor och 
-        <lb/> stop m. m. Till höger om disken ett bord, bakom hvilket man ser en 
+        <stage type="setting" who="#Dansk #HansWindrank #Mårten #Nils #Småländing #Tysk #bönder #knektar #sjömän #spelman">En ölbod i <placeName ref="#Storkyrkan">storkyrkans</placeName> mur. I fonden en disk med ölkannor och
+        <lb/> stop m. m. Till höger om disken ett bord, bakom hvilket man ser en
         <lb/> jerndörr. Vid detta bord sitta två munkar förklädda (Mårten och Nils)
-        <lb/> och dricka öl. Vid de öfriga borden tyska knektar, bönder och sjömän. 
+        <lb/> och dricka öl. Vid de öfriga borden tyska knektar, bönder och sjömän.
         <lb/> Dörren till gatan är på högra sidan. En spelman sitter på en tunna
         <lb/> med sin fidla. Knektarne spela tärning. Alla äro högljudda och druckna.
         <lb/> Hans Windrank, en småländing, en tysk borgare och en dansk sitta vid
@@ -2369,7 +2373,7 @@
         </sp>
         <sp who="#spHansWindrank">
           <speaker>WINDRANK.</speaker>
-          <p>Och i morgon är det förvandladt till vin! Jag undrar 
+          <p>Och i morgon är det förvandladt till vin! Jag undrar
           <lb/> just hvem det var som gjorde den upptäckten.</p>
         </sp>
         <sp who="#spTysk">
@@ -2481,7 +2485,7 @@
           <speaker>WINDRANK</speaker>
           <stage>(rörd).</stage>
           <lb/>
-          <p>Hvad är det, stackars man? Ni ser så ledsen ut, 
+          <p>Hvad är det, stackars man? Ni ser så ledsen ut,
           <lb/> fattas det pengar? Se här må ni tro! <stage>(tar fram sin pung)</stage>
             <lb/> Halfva hyran har jag qvar! Hvad är det med er?</p>
         </sp>
@@ -2540,13 +2544,13 @@
           <speaker>SMÅLÄNDINGEN.</speaker>
           <p>Han? Nej han låter dem kläckas med rättighet att fälla
           <lb/> ek på mina egor, om jag hade några qvar, för ser ni jag
-          <lb/> har haft en jordlapp en gång, men så kom en herre och 
+          <lb/> har haft en jordlapp en gång, men så kom en herre och
           <lb/> sa’ att min morfars mor fått låna den af hans farmors
           <lb/> far och så var jag ifrån den historien.</p>
         </sp>
         <sp who="#spTysk">
           <speaker>TYSKEN.</speaker>
-          <p>Kan <persName ref="#GustavVasa">kungen</persName> vara så beskaffad? Det trodde jag då 
+          <p>Kan <persName ref="#GustavVasa">kungen</persName> vara så beskaffad? Det trodde jag då
           <lb/> rakt inte!</p>
         </sp>
         <sp who="#spSmåländing">
@@ -2610,12 +2614,12 @@
         <sp who="#spTysk">
           <speaker>TYSKEN.</speaker>
           <p>Och det har han gjort bara af elakhet för att krossa
-          <lb/> lübska handeln, <placeName>Lübeck</placeName>, till hvilken han står i så stor 
+          <lb/> lübska handeln, <placeName>Lübeck</placeName>, till hvilken han står i så stor
           <lb/> skuld!</p>
         </sp>
         <sp who="#spSmåländing">
           <speaker>SMÅLÄNDINGEN.</speaker>
-          <p>Han skall njuta’t. Oxarne ha hornen qvar ändå, fast 
+          <p>Han skall njuta’t. Oxarne ha hornen qvar ändå, fast
           <lb/> man skurit dem! Tack för godt sällskap. — Jag måste
           <lb/> gå nu!</p>
         </sp>
@@ -2628,7 +2632,7 @@
         <sp who="#spSmåländing">
           <speaker>SMÅLÄNDINGEN.</speaker>
           <p>Nej tack som är god, jag törs inte mer, för då ä’
-          <lb/> jag rädd att det inte blir bra! Ser ni, jag har hustru och 
+          <lb/> jag rädd att det inte blir bra! Ser ni, jag har hustru och
           <lb/> barn hemma och nu ska’ jag fara hem — och tala om
           <lb/> att vi ä’ förlorade — nej — det törs jag inte. Jag ska’
           <lb/> tacka er, <persName ref="#Tysk">herr tysk</persName> — vi ska’ supa lite till!</p>
@@ -2660,12 +2664,12 @@
         <lb/> i kyrkan).</stage>
         <sp who="#spHansWindrank">
           <speaker>WINDRANK.</speaker>
-          <p>Det är märkvärdigt ändå att <persName ref="#GustavVasa">kungen</persName> tillåter dem 
+          <p>Det är märkvärdigt ändå att <persName ref="#GustavVasa">kungen</persName> tillåter dem
           <lb/> hålla krog i kyrkmuren!</p>
         </sp>
         <sp who="#spTysk">
           <speaker>TYSKEN.</speaker>
-          <p>Jag tror ni har skrupler, <persName ref="#HansWindrank">skeppare</persName>! <persName ref="#GustavVasa">Kungen</persName> vet inte 
+          <p>Jag tror ni har skrupler, <persName ref="#HansWindrank">skeppare</persName>! <persName ref="#GustavVasa">Kungen</persName> vet inte
           <lb/> af detta!</p>
         </sp>
         <sp who="#spHansWindrank">
@@ -2691,7 +2695,7 @@
         <fw type="pageNum">42</fw>
         <sp who="#spTysk">
           <speaker>TYSKEN.</speaker>
-          <p>Som stoppade om er om qvällarne och lärde er: “Det 
+          <p>Som stoppade om er om qvällarne och lärde er: “Det
           <lb/> gick en engel kring vårt hus!“</p>
         </sp>
         <sp who="#spHansWindrank">
@@ -2766,12 +2770,12 @@
         <sp who="#spTysk">
           <speaker>TYSKEN.</speaker>
           <p>Den slår upp hjertat på vid gafvel och stänger igen
-          <lb/> om hufv’et; det vill säga den gör oss till goda menniskor, 
+          <lb/> om hufv’et; det vill säga den gör oss till goda menniskor,
           <lb/> ty goda äro ju de som hafva stort hjerta och litet hufvud!</p>
         </sp>
         <sp who="#spDansk">
           <speaker>DANSKEN.</speaker>
-          <p>Ja jeg gaar end videre; brændvinet gör oss religiöse, 
+          <p>Ja jeg gaar end videre; brændvinet gör oss religiöse,
           <lb/> ty det döder jo Fornuftet, og Fornuftet er ju den Klippe
           <lb/> der hindrer Religionen at drage in genem Hjertet!</p>
         </sp>
@@ -2795,7 +2799,7 @@
           <p>Skada på en så vacker själ!</p>
         </sp>
         <stage rend="ind">(<stage>Dörren slås upp, hvarvid bordet, vid hvilket <persName ref="#Mårten">Mårten</persName> och <persName ref="#Nils">Nils</persName> äro
-	<lb/> sittande, slås omkull med stop och bägare. <stage type="entrance" who="#Skökan">En qvinna klädd i svart och 
+	<lb/> sittande, slås omkull med stop och bägare. <stage type="entrance" who="#Skökan">En qvinna klädd i svart och
 	<lb/> röd kjortel med en nunneslöja öfver hufvudet störtar in</stage>; <persName ref="#GerdtBokprentare">Gerdt</persName> visar sig ett
 	<lb/> ögonblick bakom henne i dörren, som straxt slås igen.</stage>
           <supplied>)</supplied>
@@ -2826,7 +2830,7 @@
           <p>Fins det ingen som vill rädda mig? <stage>(<persName ref="#Värdshusvärd">Värden</persName> har tagit
           <lb/> henne i armen för att leda henne ut på gatan).</stage> Kasta mig icke ut
           <lb/> bland det rasande folket! Jag ville smyga mig til Herrans
-          <lb/> hus för att få en smula af hans nåd, jag ville börja ett 
+          <lb/> hus för att få en smula af hans nåd, jag ville börja ett
           <lb/> nytt lif — men <persName ref="#Mårten #Nils">munkarne</persName> drefvo mig tillbaka och het­
 	  <lb break="no"/>sade folket på mig; då kom <persName ref="#GerdtBokprentare">fader Gerdt</persName> och räddade
           <lb/> mig hit!</p>
@@ -2859,8 +2863,8 @@
         </sp>
         <sp who="#spMårten">
           <speaker>MÅRTEN.</speaker>
-          <p>En skamlig lögn! Jag har aldrig sett henne förr! 
-          <lb/> Jag är <persName ref="#Mårten">svartebroder Mårten</persName> och min <persName ref="#Nils">broder Nils</persName> är mitt 
+          <p>En skamlig lögn! Jag har aldrig sett henne förr!
+          <lb/> Jag är <persName ref="#Mårten">svartebroder Mårten</persName> och min <persName ref="#Nils">broder Nils</persName> är mitt
           <lb/> vittne!</p>
         </sp>
         <pb facs="37680-48.jpg"/>
@@ -2875,7 +2879,7 @@
         <sp who="#spSkökan">
           <speaker>SKÖKAN.</speaker>
           <p>Och ändå <persName ref="#Nils">Nils</persName>, var det du som visade mig <persName ref="#Mårten">Mårtens</persName>
-            <lb/> absolutionsbref, då jag drefs ur klostret och han stannade 
+            <lb/> absolutionsbref, då jag drefs ur klostret och han stannade
           <lb/> qvar.</p>
         </sp>
         <sp who="#spNils">
@@ -2937,8 +2941,8 @@
         </sp>
         <sp who="#spMästerOlof">
           <speaker>OLOF</speaker>
-          <stage type="entrance" who="#MästerOlof">(som står i dörren tränger sig 
-          <lb/> fram, tar <persName ref="#Skökan">skökan</persName> vid handen och 
+          <stage type="entrance" who="#MästerOlof">(som står i dörren tränger sig
+          <lb/> fram, tar <persName ref="#Skökan">skökan</persName> vid handen och
           <lb/> drar henne från de druckna).</stage>
           <lb/>
           <p>Svara mig! Hvem är denna qvinna?</p>
@@ -3005,13 +3009,13 @@
         </sp>
         <sp who="#spMästerOlof">
           <speaker>OLOF.</speaker>
-          <p>Jaså! jag gissade det! Det är I då som hetsat folket 
+          <p>Jaså! jag gissade det! Det är I då som hetsat folket
           <lb/> mot henne!</p>
         </sp>
         <sp who="#spMårten">
           <speaker>MÅRTEN.</speaker>
-          <p>Det är jag som skyddar <orgName ref="#kyrkan">kyrkan</orgName> från slemhet och vill 
-          <lb/> hålla henne ren från lasten. Det är <persName ref="#Skökan">en excommunicerad 
+          <p>Det är jag som skyddar <orgName ref="#kyrkan">kyrkan</orgName> från slemhet och vill
+          <lb/> hålla henne ren från lasten. Det är <persName ref="#Skökan">en excommunicerad
           <lb/> qvinna</persName> som drifver ocker med sin kropp, hvilken borde
           <lb/> vara ett Guds tempel!</p>
         </sp>
@@ -3028,35 +3032,35 @@
           <speaker>OLOF</speaker>
           <stage>(tar hennes hand).</stage>
           <lb/>
-          <p>Ser du, <persName ref="#Mårten">svartebroder</persName>, jag vågar ta’ hennes hand och 
-          <lb/> ställa henne mot dig! Hon har sålt sin kropp säger du, 
+          <p>Ser du, <persName ref="#Mårten">svartebroder</persName>, jag vågar ta’ hennes hand och
+          <lb/> ställa henne mot dig! Hon har sålt sin kropp säger du,
           <lb/> hur många själar har du köpt!
           <lb rend="in"/> Jag är också prest! Nej, jag är menniska, ty jag är
           <lb/> ännu ej nog förmäten, att jag satt lås för Guds hus, och
           <lb/> som syndig menniska räcker jag handen åt min medmen­
-	  <lb break="no"/>niska, som icke kan vara utan synd. Kom fram den som 
+	  <lb break="no"/>niska, som icke kan vara utan synd. Kom fram den som
           <lb/> är ren och kasta första stenen!
           <lb rend="in"/> Kom fram, <persName ref="#Mårten">broder Mårten</persName>, du ljusets engel, som klädt
           <lb/> dig i oskuldens svarta kläder och rakat ditt hår för att
-          <lb/> ingen skall kunna se huru du grånat i synd! Eller har 
+          <lb/> ingen skall kunna se huru du grånat i synd! Eller har
           <pb facs="37680-51.jpg"/>
             <fw type="pageNum">48</fw>
-          du ingen sten tillreds kanske? Ve dig, hvar har du gjort 
+          du ingen sten tillreds kanske? Ve dig, hvar har du gjort
           <lb/> af dem, som du skall räcka åt folket då de begära bröd?
           <lb/> Har du redan gifvit bort alla?</p>
           <lb/>
           <p>Kom fram, du <persName ref="#HansWindrank">aktningsvärde borgare</persName>
             <stage>(till <persName ref="#HansWindrank">Windrank</persName> som
-          <lb/> sofver på golvet)</stage>, du som sofver djurets sömn, hvarför vaknar 
+          <lb/> sofver på golvet)</stage>, du som sofver djurets sömn, hvarför vaknar
           <lb/> du icke för att kasta din knif! Sen I hur han rodnar?
           <lb/> Är det af blygsel öfver det dåliga sällskapet I fört ho­
 	  <lb break="no"/>nom i, eller är det av vällust?</p>
           <stage>(<persName ref="#Folket">Folket</persName> sorlar ogillande). </stage>
           <p>I sor­
 	  <lb break="no"/>len! Är det af blygsel öfver mina ord eller af skam för
-          <lb/> er sjelfva? Hvarför kasten I icke sten? Det är sant. I 
-          <lb/> ha’n inga! Nåväl! Öppnen dörren! Ropen på folket och 
-          <lb/> släpen ut qvinnan! Tron I icke att femtio karlar rå att 
+          <lb/> er sjelfva? Hvarför kasten I icke sten? Det är sant. I
+          <lb/> ha’n inga! Nåväl! Öppnen dörren! Ropen på folket och
+          <lb/> släpen ut qvinnan! Tron I icke att femtio karlar rå att
           <lb/> slita henne i stycken, så varen öfvertygade att femhundra
           <lb/> qvinnor skola göra det! Nå! I tigen! <persName ref="#Skökan">Qvinna</persName>! Stig upp!
           <lb/> Man har frikänt dig! Gå! och synda icke härefter, men visa
@@ -3074,7 +3078,7 @@
           <lb/> Läsen sjelfva!</p>
           <stage>(Han tar ett ljus från ett af borden och kastar midt
           <lb/> på golfvet).</stage>
-          <p>“Såsom det ljuset slocknar, som vi här utkasta, 
+          <p>“Såsom det ljuset slocknar, som vi här utkasta,
           <lb/> så slockne honom glädje och hugnad och allt det goda
           <lb/> ha må af Gud hafva!“</p>
         </sp>
@@ -3100,7 +3104,7 @@
           <lb/>
           <p>
             <persName ref="#Skökan">Qvinna</persName>! Törs du ännu lita på mina ord? Är du icke
-          <lb/> rädd för mig? Hör du icke bannstrålarne hväsa omkring 
+          <lb/> rädd för mig? Hör du icke bannstrålarne hväsa omkring
           <lb/> våra hufvuden? Hvarför går du ej öfver till dessa tjugu
           <lb/> rättfärdiga, som ännu stå qvar inom <orgName ref="#kyrkan">den heliga kyrkans</orgName>
             <pb facs="37680-52.jpg"/>
@@ -3118,10 +3122,10 @@
           <lb/>
           <p>Nåväl! Den <persName ref="#HansBrask">store biskopen i den lilla staden</persName>
             <placeName>Linkö­
-	  <lb break="no"/>ping</placeName> har sålt min själ åt satan på lifstid, ty längre räcker 
+	  <lb break="no"/>ping</placeName> har sålt min själ åt satan på lifstid, ty längre räcker
           <lb/> icke hans magt, derför att jag bjöd folket vända sig till
           <lb/> Gud på olaga tid; här är kontraktet: som <orgName ref="#kyrkan">kyrkan</orgName> genom
-          <lb/> detta bundit mig vid helvetet, så löser jag mig sjelf ifrån 
+          <lb/> detta bundit mig vid helvetet, så löser jag mig sjelf ifrån
           <lb/> detsamma, <stage>(han rifver sönder pergamentet)</stage> och ifrån <orgName ref="#kyrkan">kyrkans</orgName>
             <lb/> bann! Gud hjelpe mig, amen!</p>
         </sp>
@@ -3147,7 +3151,7 @@
           <speaker>MÅRTEN.</speaker>
           <p>Framåt! Ned med honom!</p>
         </sp>
-        <stage type="entrance" who="#Knipperdollink #vederdöpare" rend="ind">(En knekt lyfter sitt vapen; då slås jerndörren upp och <persName ref="#vederdöpare">vederdöparne</persName>, 
+        <stage type="entrance" who="#Knipperdollink #vederdöpare" rend="ind">(En knekt lyfter sitt vapen; då slås jerndörren upp och <persName ref="#vederdöpare">vederdöparne</persName>,
         <lb/> företrädda af Knipperdollink, inrusa under skrik, med sönderslagna kruci­
 	<lb break="no"/>fix, helgonbilder och sönderrifna korkåpor. Alla innevarande trängas mot
         <lb/> utgången.)
@@ -3172,7 +3176,7 @@
         <fw type="pageNum">50</fw>
         <sp who="#spKnipperdollink">
           <speaker>KNIPPERDOLLINK.</speaker>
-          <p>Är du rädd att ölfaten skola springa sönder af hettan, 
+          <p>Är du rädd att ölfaten skola springa sönder af hettan,
           <lb/> du <persName ref="#Belial">Belial</persName>; är du den påfliga krögaren, som icke aktar för
           <lb/> rof att bygga lasten sitt kapell i kyrkmuren!</p>
         </sp>
@@ -3183,9 +3187,9 @@
         </sp>
         <sp who="#spKnipperdollink">
           <speaker>KNIPPERDOLLINK.</speaker>
-          <p>Jaså, du är den man som konungen skickat ut att 
+          <p>Jaså, du är den man som konungen skickat ut att
           <lb/> bekämpa vår heliga sak! Fram, fram I gudsmän, och gri­
-	  <lb break="no"/>pen honom först, sedan skola vi rensa Herrans hus från 
+	  <lb break="no"/>pen honom först, sedan skola vi rensa Herrans hus från
           <lb/> afguderiet!</p>
         </sp>
         <sp who="#spMårten">
@@ -3291,7 +3295,7 @@
           <speaker>GERDT.</speaker>
           <p>Än ha vi öfvertaget! Hela staden är i rörelse! <persName ref="#Rink">Rink</persName>
             <lb/> arbetar oppe i <name>
-              <persName ref="#SanctGöran">Görans</persName> kapell</name>! Hör du, har <persName ref="#GustavVasa">kungen</persName> skickat 
+              <persName ref="#SanctGöran">Görans</persName> kapell</name>! Hör du, har <persName ref="#GustavVasa">kungen</persName> skickat
           <lb/> dig mot oss?</p>
         </sp>
         <sp who="#spMästerOlof">
@@ -3331,7 +3335,7 @@
         </sp>
         <sp who="#spMästerOlof">
           <speaker>OLOF</speaker>
-          <p>Jag förstår eder ännu icke! Hvarför faren I fram som 
+          <p>Jag förstår eder ännu icke! Hvarför faren I fram som
           <lb/> vilda djur! I skänden ju allt heligt!</p>
         </sp>
         <sp who="#spGerdtBokprentare">
@@ -3390,7 +3394,7 @@
         <sp who="#spMästerOlof">
           <speaker>OLOF.</speaker>
           <p>Du har kastat ett osynligt nät omkring mig; du pro­
-	  <lb break="no"/>klamerar mig som vederdöpare. Hur skall jag stå till 
+	  <lb break="no"/>klamerar mig som vederdöpare. Hur skall jag stå till
           <lb/> svars inför <persName ref="#GustavVasa">kungen</persName>!</p>
         </sp>
         <sp who="#spGerdtBokprentare">
@@ -3422,7 +3426,7 @@
         </sp>
         <sp who="#spMästerOlof">
           <speaker>OLOF.</speaker>
-          <p>Tacka endast Gud som räddat din själ och tro icke, 
+          <p>Tacka endast Gud som räddat din själ och tro icke,
           <lb/> att hvad du brutit, är försonadt i dag. Skaffa dig kraft
           <lb/> att bära ett helt lifs förbannelse! Gud har förlåtit dig —
           <lb/> menniskorna skola aldrig göra det!</p>
@@ -3483,7 +3487,7 @@
           </sp>
           <sp who="#spKyrkvaktaren">
             <speaker>KYRKVAKTAREN.</speaker>
-            <p>Och bränvin sedan; känner du inte hur det luktar, 
+            <p>Och bränvin sedan; känner du inte hur det luktar,
             <lb/> jag får hufvudvärk om jag stannar längre.</p>
           </sp>
           <sp who="#spKyrkvaktarenshustru">
@@ -3609,11 +3613,11 @@
             <stage>(vaknar).</stage>
             <lb/>
             <p>Oj Oj! <persName ref="#Jesus">Jesus Christ</persName>! <persName ref="#SanctPer">Sanct Per</persName> och <persName ref="#Pål">Pål</persName> samt <persName ref="#Ferdinand">Ferdi­
-	    <lb break="no"/>nand</persName> och <persName ref="#Isabella">Isabella</persName> och <persName ref="#SanctGöran">Göran</persName> och Draken och alla de andra, 
+	    <lb break="no"/>nand</persName> och <persName ref="#Isabella">Isabella</persName> och <persName ref="#SanctGöran">Göran</persName> och Draken och alla de andra,
             <lb/> och in kom domen i dejom pote påtentum ärnom tärnom
             <lb/>
               <persName ref="#Jesus">Jesu Christ</persName>, karlevagn äro förvisst, det gick en engel kring
-            <lb/> vårt hus, karlen var en sångthor in kom <persName ref="#Nils">Nils</persName> i pottri 
+            <lb/> vårt hus, karlen var en sångthor in kom <persName ref="#Nils">Nils</persName> i pottri
             <lb/> Amen! Amen! — Hvem är det som trampar mig på magen?</p>
           </sp>
           <stage type="exit" who="#Kyrkvaktarenshustru"/>
@@ -3621,12 +3625,12 @@
             <speaker>KYRKVAKTAREN</speaker>
             <stage>(förskräckt).</stage>
             <lb/>
-            <p>Var så nådig och säg om det är en menniska eller 
+            <p>Var så nådig och säg om det är en menniska eller
             <lb/> en gast?</p>
           </sp>
           <sp who="#spHansWindrank">
             <speaker>WINDRANK.</speaker>
-            <p>Jag brukar vara gast, men för tillfället är jag ett 
+            <p>Jag brukar vara gast, men för tillfället är jag ett
             <lb/> svin!</p>
           </sp>
           <pb facs="37680-61.jpg"/>
@@ -3652,7 +3656,7 @@
           <sp who="#spKyrkvaktaren">
             <speaker>KYRKVAKTAREN.</speaker>
             <p>
-              <persName ref="#Kyrkvaktaren">Kyrkvaktare</persName> egentligen, men jag har också ett litet 
+              <persName ref="#Kyrkvaktaren">Kyrkvaktare</persName> egentligen, men jag har också ett litet
             <lb/> klädstånd i kyrkmuren!</p>
           </sp>
           <sp who="#spHansWindrank">
@@ -3788,7 +3792,7 @@
           </sp>
           <sp who="#spHansWindrank">
             <speaker>WINDRANK.</speaker>
-            <p>Ja, det måtte ligga i luften, för jag är annars en 
+            <p>Ja, det måtte ligga i luften, för jag är annars en
             <lb/> mycket gudfruktig menniska. Men var inte ledsen nu, så
             <lb/> skall jag låta limma ihop <persName ref="#SanktNikolaus">sankt Niklas</persName> åt er!</p>
           </sp>
@@ -3816,8 +3820,8 @@
           <head>Tablå.</head>
           <stage type="setting">En dörr. En mindre upp till predikstolen. Messhakar och korkåpor
 	  <lb/> på väggarne. Bönpallar och några mindre kistor. Solen lyser in genom
-	  <lb/> ett fönster. Klockorna gå. Man hör ett oafbrutet mummel vid venstra 
-	  <lb/> väggen. <stage type="entrance" who="#Kyrkvaktaren #Kyrkvaktarenshustru">Kyrkvaktaren och hustrun komma in</stage>, stanna vid dörren och göra 
+	  <lb/> ett fönster. Klockorna gå. Man hör ett oafbrutet mummel vid venstra
+	  <lb/> väggen. <stage type="entrance" who="#Kyrkvaktaren #Kyrkvaktarenshustru">Kyrkvaktaren och hustrun komma in</stage>, stanna vid dörren och göra
 	  <lb/> en tyst bön.</stage>
           <sp who="#spKyrkvaktaren">
             <speaker>KYRKVAKTAREN.</speaker>
@@ -3853,7 +3857,7 @@
             <stage>(bär en bägare vatten upp
             <lb/> till predikstolen).</stage>
             <lb/>
-            <p>Han kan väl behöfva något att fukta strupen med i 
+            <p>Han kan väl behöfva något att fukta strupen med i
             <lb/> dag, den stackarn!</p>
           </sp>
           <sp who="#spKyrkvaktarenshustru">
@@ -3877,7 +3881,7 @@
           <sp who="#spMästerOlof">
             <speaker>OLOF</speaker>
             <stage type="entrance" who="#MästerOlof">(inträder allvarlig och högtidlig —
-            <lb/> går fram till en bönpall och faller 
+            <lb/> går fram till en bönpall och faller
             <lb/> på knä).</stage>
           </sp>
           <sp who="#spKyrkvaktaren">
@@ -3942,7 +3946,7 @@
             <speaker>KYRKVAKTAREN.</speaker>
             <p>Jaså! Jaha! Men först ska’ jag tala om för <persName ref="#MästerOlof">magistern</persName>
               <lb/> att jag lagt messboken till höger när man kommer opp,
-            <lb/> och så har jag lagt en sticka emellan der han ska’ hålla, 
+            <lb/> och så har jag lagt en sticka emellan der han ska’ hålla,
             <lb/> och så har jag ställt vattnet bredvid. Nu ska’ <persName ref="#MästerOlof">magistern</persName>
               <lb/> inte glömma att vända om timglaset, för då kan hända
             <lb/> att det drar för långt om ...</p>
@@ -3975,7 +3979,7 @@
             <lb/> Gud hjelpe mig!</p>
             <stage>(Kastar sig ned på en bönpall; hittar ett papper i densamma. Läser.)</stage>
             <lb/>
-            <p>“Träd icke upp idag; man står dig efter lifvet!“ — 
+            <p>“Träd icke upp idag; man står dig efter lifvet!“ —
             <lb/> Det har frestaren skrifvit!</p>
           </sp>
           <stage rend="right">(rifver sönder papperet.)</stage>
@@ -4025,14 +4029,14 @@
           </sp>
           <sp who="#spMästerOlof">
             <speaker>OLOF</speaker>
-            <p>Ditt offer skall vid Gud ej bli fruktlöst! Det är dig, 
+            <p>Ditt offer skall vid Gud ej bli fruktlöst! Det är dig,
             <lb/>
               <persName ref="#FruChristina">moder</persName>, jag har att tacka för denna dag, då jag ändtligen
             <lb/> får stiga fram med öppen panna och tala sanningens ord!</p>
           </sp>
           <sp who="#spFruChristina">
             <speaker>MODERN.</speaker>
-            <p>Talar du om sanningen, du, som gjort dig till lögnens 
+            <p>Talar du om sanningen, du, som gjort dig till lögnens
             <lb/> profet!</p>
           </sp>
           <pb facs="37680-68.jpg"/>
@@ -4058,7 +4062,7 @@
           </sp>
           <sp who="#spMästerOlof">
             <speaker>OLOF.</speaker>
-            <p>Detta är min enda, mitt lifs stora sorg! Allt hvad 
+            <p>Detta är min enda, mitt lifs stora sorg! Allt hvad
             <lb/> jag gör och låter af renaste uppsåt måste för dig stå så­
 	    <lb break="no"/>som brott och gudlöshet!</p>
           </sp>
@@ -4078,7 +4082,7 @@
           </sp>
           <sp who="#spFruChristina">
             <speaker>MODERN.</speaker>
-            <p>Har du icke hört att <persName ref="#HansBrask">biskop Brask</persName> underhandlar med 
+            <p>Har du icke hört att <persName ref="#HansBrask">biskop Brask</persName> underhandlar med
             <lb/>
               <persName ref="#påfven">påfven</persName> om införandet af den lagen, som dömer kättare
             <lb/> till bålet!</p>
@@ -4111,10 +4115,10 @@
             <p>Jag har bedt till Gud att han skulle omvända ditt
             <lb/> hjerta — jag skall säga dig, men du får ej omnämna det
             <lb/> — jag var svag af ålder och mina knän vill ej bära mig,
-            <lb/> jag sökte upp <persName ref="#Mårten">en Herrans tjenare</persName> och bad honom, som 
+            <lb/> jag sökte upp <persName ref="#Mårten">en Herrans tjenare</persName> och bad honom, som
             <lb/> stod närmare sin Gud, hålla messor för din själ! Han ne­
 	    <lb break="no"/>kade, ty du var bannlyst. O, det är förfärligt! Gud för­
-	    <lb break="no"/>låte min synd, jag bestack hans rena samvete med guld, 
+	    <lb break="no"/>låte min synd, jag bestack hans rena samvete med guld,
             <lb/> med djefvulskt guld, blott för att rädda dig!</p>
           </sp>
           <sp who="#spMästerOlof">
@@ -4178,7 +4182,7 @@
             <lb/>
             <stage type="exit" who="#MästerOlof">(Olof går upp).</stage>
           </sp>
-          <stage rend="ind">(Under följande scener i sakristian höres en stark talande stämma, 
+          <stage rend="ind">(Under följande scener i sakristian höres en stark talande stämma,
           <lb/> utan att man kan urskilja orden. När predikan fortgått en stund, höres
           <lb/> sorl, hvilket öfvergår till skrik.)</stage>
           <sp who="#spChristina">
@@ -4243,7 +4247,7 @@
           <sp who="#spChristina">
             <speaker>CHRISTINA.</speaker>
             <p>Låt mig då veta hvad det är frågan om! Okunnig­
-	    <lb break="no"/>heten gör mig olycklig! Jag ser ett förfärligt mörker, och 
+	    <lb break="no"/>heten gör mig olycklig! Jag ser ett förfärligt mörker, och
             <lb/> skuggor som röra sig, gif mig ljus att jag må få visshet!
             <lb/> Kanske jag känner dessa spöken!</p>
           </sp>
@@ -4303,7 +4307,7 @@
           </sp>
           <sp who="#spFruChristina">
             <speaker>MODERN.</speaker>
-            <p>Jag skall rädda dig, <persName ref="#Christina">barn</persName>, ty du kan ännu räddas, 
+            <p>Jag skall rädda dig, <persName ref="#Christina">barn</persName>, ty du kan ännu räddas,
             <lb/> jag skall ge Herren mitt största offer om blott en själ
             <lb/> kan dragas undan fördömelsen! <persName ref="#MästerOlof">Min son</persName>!</p>
           </sp>
@@ -4317,7 +4321,7 @@
           <sp who="#spFruChristina">
             <speaker>MODERN.</speaker>
             <p>
-              <persName ref="#MästerOlof">Olof</persName> är förlorad, hör du, och det måste jag <persName ref="#FruChristina">hans 
+              <persName ref="#MästerOlof">Olof</persName> är förlorad, hör du, och det måste jag <persName ref="#FruChristina">hans
             <lb/> moder</persName> säga dig!</p>
           </sp>
           <sp who="#spChristina">
@@ -4342,9 +4346,9 @@
           <sp who="#spChristina">
             <speaker>CHRISTINA.</speaker>
             <p>Hvarför, hvarför säger du mig detta nu först! — —
-            <lb/> Men det är sant, det är en lögn! <stage>(Går till dörren och öppnar 
+            <lb/> Men det är sant, det är en lögn! <stage>(Går till dörren och öppnar
             <lb/> den på glänt).</stage> Ser du, <persName ref="#FruChristina">moder</persName>, der han står; är detta den
-            <lb/> onda anden som talar ur hans mun, är det en låga från 
+            <lb/> onda anden som talar ur hans mun, är det en låga från
             <lb/> helvetet som brinner i hans öga, säger man lögnen med
             <lb/> skälfvande läppar, kan mörkret stråla ljus, ser du icke
             <lb/> skenet kring hans hufvud! Du har orätt! Jag känner det!
@@ -4393,7 +4397,7 @@
           </sp>
           <sp who="#spChristina">
             <speaker>CHRISTINA.</speaker>
-            <p>Jag tror dig icke! Släpp mig, jag måste se honom, 
+            <p>Jag tror dig icke! Släpp mig, jag måste se honom,
             <lb/> jag måste höra honom, ty han talar icke som de andra!</p>
           </sp>
           <sp who="#spFruChristina">
@@ -4407,7 +4411,7 @@
             <stage>(vid dörren).</stage>
             <p rend="in">“I skolen icke binda själarne“, sade han, hör du!</p>
             <p rend="in">“I ären fria, ty Gud hafver gjort eder fria!“</p>
-            <p rend="in">Ser du, folket bäfvar vid hans ord, nu resa de på 
+            <p rend="in">Ser du, folket bäfvar vid hans ord, nu resa de på
             <lb/> sig; de sorla.</p>
             <p rend="in">“I viljen icke frihet, ve eder, det är synd mot den
             <lb/> helige Ande!“</p>
@@ -4434,7 +4438,7 @@
           </sp>
           <sp who="#spKyrkvaktaren">
             <speaker>KYRKVAKTAREN.</speaker>
-            <p>Ja, det vet jag inte, men det var en mästare att 
+            <p>Ja, det vet jag inte, men det var en mästare att
             <lb/> predika; så gammal syndare jag är, så kunde jag inte låta
             <lb/> bli att gråta då jag satt uppe på orgelläktaren; jag förstår
             <lb/> inte ändå hur en kättare och <persName ref="#Antichrist">Antichrist</persName> kan tala på så­
@@ -4445,16 +4449,16 @@
           <sp who="#spFruChristina">
             <speaker>MODERN.</speaker>
             <p>Låt oss gå härifrån! Är Gud med honom, då kunna
-            <lb/> de intet skada! är det djefvulen — så ske din vilje, Herre, 
+            <lb/> de intet skada! är det djefvulen — så ske din vilje, Herre,
             <lb/> men förlåt honom!</p>
             <stage type="exit" who="#Christina #FruChristina">(Skrik utanför. De gå.)</stage>
           </sp>
-          <stage rend="ind">(Scenen är tom ett ögonblick och man hör blott <persName ref="#MästerOlof">Olofs</persName> stämma än 
+          <stage rend="ind">(Scenen är tom ett ögonblick och man hör blott <persName ref="#MästerOlof">Olofs</persName> stämma än
           <lb/> starkare — afbruten af rop och stenkastning).</stage>
           <sp who="#spChristina">
             <speaker>CHRISTINA</speaker>
-            <stage type="entrance" who="#Christina">(kommer ensam tillbaka och 
-            <lb/> stänger dörren inifrån, kastar 
+            <stage type="entrance" who="#Christina">(kommer ensam tillbaka och
+            <lb/> stänger dörren inifrån, kastar
             <lb/> sig ned på en bönpall. Starka
             <lb/> slag höras på dörren; tumult
             <lb/> ute i <orgName ref="#kyrkan">kyrkan</orgName>. Detta tystnar,
@@ -4589,10 +4593,10 @@
           </sp>
           <sp who="#spChristina">
             <speaker>CHRISTINA.</speaker>
-            <p>Du vill att jag skall gråta bort mitt lif, min ungdom, 
-            <lb/> och bedja de långa eviga bönerna tills min själ somnat in. 
+            <p>Du vill att jag skall gråta bort mitt lif, min ungdom,
+            <lb/> och bedja de långa eviga bönerna tills min själ somnat in.
             <lb/> Nej — jag vill det icke, ty nu har jag vaknat, man käm­
-	    <lb break="no"/>par omkring mig, man lider och förtviflar; jag har sett 
+	    <lb break="no"/>par omkring mig, man lider och förtviflar; jag har sett
             <lb/> det, men jag får icke vara med, icke ens se på, icke ens
             <lb/> veta hvad man strider för; I ha’n hållit mig i djurisk
             <lb/> sömn; tron I icke att jag har en själ, som icke mättas af
@@ -4613,9 +4617,9 @@
             <p>Men låt mig åtminstone i Herrans namn lida, blott
             <lb/> jag slipper sofva! Sen I, Gud väckte mig ändå! I haden
             <lb/> aldrig vågat säga mig hvem <persName ref="#Antichrist">Antichrist</persName> var, I hade aldrig
-            <lb/> låtit mig veta hvem <persName ref="#Luther">Luther</persName> var, och när din mor skrämde 
-            <lb/> mig med att du var en <persName ref="#Luther">Luther</persName>, då välsignade jag <persName ref="#Luther">Luther</persName>. 
-            <lb/> Är han en kättare eller trogen, det vet jag ej, det bryr 
+            <lb/> låtit mig veta hvem <persName ref="#Luther">Luther</persName> var, och när din mor skrämde
+            <lb/> mig med att du var en <persName ref="#Luther">Luther</persName>, då välsignade jag <persName ref="#Luther">Luther</persName>.
+            <lb/> Är han en kättare eller trogen, det vet jag ej, det bryr
             <lb/> jag mig ej om, ty hvarken <persName ref="#Luther">Luther</persName> eller <persName ref="#påfven">Påfven</persName> eller
             <lb/>
               <persName ref="#Antichrist">Antichrist</persName> kunna tillfredställa min odödliga själ, då jag
@@ -4652,10 +4656,10 @@
           <fw type="pageNum">76</fw>
           <sp who="#spMästerOlof">
             <speaker>OLOF.</speaker>
-            <p>Du vill bli min, <persName ref="#Christina">Christina</persName>, och du skall bli lycklig, 
+            <p>Du vill bli min, <persName ref="#Christina">Christina</persName>, och du skall bli lycklig,
             <lb/> ty du var den som följde mig i minnet, då jag var i be­
 	    <lb break="no"/>dröfvelse och frestelse, och nu skall du följa mig vid sidan!
-            <lb/> Du var mina drömmars jungfru, som satt i tornet som 
+            <lb/> Du var mina drömmars jungfru, som satt i tornet som
             <lb/> fånge hos den stränge borgherren, och nu är du min!</p>
           </sp>
           <sp who="#spChristina">
@@ -4745,7 +4749,7 @@
           </sp>
           <sp who="#spMästerOlof">
             <speaker>OLOF.</speaker>
-            <p>Predikar du ej frihet! Hon är min! Gud har gifvit 
+            <p>Predikar du ej frihet! Hon är min! Gud har gifvit
             <lb/> mig henne och du kan ej ta henne!</p>
           </sp>
           <sp who="#spGerdtBokprentare">
@@ -4850,7 +4854,7 @@
             <speaker>GERDT.</speaker>
             <p>Det är blott de sjuka som behöfva läkare, vi arbe­
 	    <lb break="no"/>tade på vårt håll! Du har gjort ett godt arbete i dag, och
-            <lb/> jag ser du har fått din lön! Jag har frigjort dig i dag, 
+            <lb/> jag ser du har fått din lön! Jag har frigjort dig i dag,
             <lb/>
               <persName ref="#MästerOlof">Olof</persName>!</p>
           </sp>
@@ -4967,7 +4971,7 @@
           </sp>
           <sp who="#spGerdtBokprentare">
             <speaker>GERDT.</speaker>
-            <p>Nå ja, de ha kastat sten på <persName ref="#GustavVasa">kungens</persName> vakt, inte går 
+            <p>Nå ja, de ha kastat sten på <persName ref="#GustavVasa">kungens</persName> vakt, inte går
             <lb/> det an!</p>
           </sp>
           <sp who="#spMästerOlof">
@@ -4976,9 +4980,9 @@
           </sp>
           <sp who="#spGerdtBokprentare">
             <speaker>GERDT.</speaker>
-            <p>Det finns två slags dårar; ena sorten sätter man på 
+            <p>Det finns två slags dårar; ena sorten sätter man på
             <lb/> hospitalet och ger piller och kalla bad, andra sorten tar
-            <lb/> man hufvudet af; det är en radikal kur, men så är den 
+            <lb/> man hufvudet af; det är en radikal kur, men så är den
             <lb/> sorten farlig också!</p>
           </sp>
           <sp who="#spMästerOlof">
@@ -5115,7 +5119,7 @@
         </sp>
         <sp who="#spBetjenten">
           <speaker>BETJENTEN.</speaker>
-          <p>Nej kors, är det <persName ref="#MästerOlof">mäster Olof</persName>! Jag kände <persName ref="#PederSmed">far</persName> jag, 
+          <p>Nej kors, är det <persName ref="#MästerOlof">mäster Olof</persName>! Jag kände <persName ref="#PederSmed">far</persName> jag,
           <lb/>
             <persName ref="#PederSmed">Peder Smed</persName>, för si jag är från <placeName>Örebro</placeName> också!</p>
         </sp>
@@ -5130,7 +5134,7 @@
         </sp>
         <sp who="#spMästerOlof">
           <speaker>OLOF.</speaker>
-          <p>Om <persName ref="#PederSmed">min far</persName> verkligen hedrade dig med sin bekantskap, 
+          <p>Om <persName ref="#PederSmed">min far</persName> verkligen hedrade dig med sin bekantskap,
           <lb/> det är möjligt, men att han vid sin död insatt dig i <persName ref="#PederSmed">fars</persName>
             <lb/> ställe, det tror jag inte.</p>
         </sp>
@@ -5149,7 +5153,7 @@
         </sp>
         <sp who="#spLarsSiggeson">
           <speaker>MARSKEN</speaker>
-          <stage>(utan att se på <persName ref="#MästerOlof">Olof</persName> kastar åt 
+          <stage>(utan att se på <persName ref="#MästerOlof">Olof</persName> kastar åt
           <lb/> honom kappan).</stage>
           <lb/>
           <p>Kommer <persName ref="#GustavVasa">kungen</persName> snart?</p>
@@ -5214,7 +5218,7 @@
           <speaker>MARSKEN.</speaker>
           <p>Nej! Ni är en fåfäng uppkomling! Var så god och
           <lb/> stig fram och sitt, <persName ref="#MästerOlof">herr secretarius</persName>!</p>
-          <stage type="exit" who="#LarsSiggeson">(Anvisar honom plats; går 
+          <stage type="exit" who="#LarsSiggeson">(Anvisar honom plats; går
           <lb/> in i ett sidorum).</stage>
         </sp>
         <sp who="#spMästerOlof">
@@ -5244,7 +5248,7 @@
         </sp>
         <sp who="#spAdelsman">
           <speaker>ADELSMANNEN.</speaker>
-          <p>Genera er inte! Ser ni jag har fått min uppfostran i 
+          <p>Genera er inte! Ser ni jag har fått min uppfostran i
           <lb/>
             <placeName>Paris</placeName>! <persName ref="#Fransdenförste">Frans den förste</persName>, oh <placeName>Saint-Sauveur</placeName>! det är en man
           <lb/> som går långt; vet ni hvad han sa’ åt mig på en bal
@@ -5279,7 +5283,7 @@
           <speaker>ADELSMANNEN.</speaker>
           <p>Ers majestät, sa’ jag, på franska naturligtvis, lyckligt
           <lb/> det land, som eger en konung, hvilken kan så skåda ut
-          <lb/> öfver tidens trånga krets, att han ser tidsandans kraf, men 
+          <lb/> öfver tidens trånga krets, att han ser tidsandans kraf, men
           <lb/> likväl icke trugar de sofvande massorna att omfatta en
           <lb/> högre åskådning, för hvilka de behöfde sekler att komma
           <lb/> till mognad till! Var det inte bra sagdt!</p>
@@ -5299,12 +5303,12 @@
         <sp who="#spMästerOlof">
           <speaker>OLOF.</speaker>
           <p>Jag tror inte att jag går så långt! Tyvärr blef min
-          <lb/> uppfostran försummad, den gjordes i <placeName>Tyskland</placeName> som ni vet, 
+          <lb/> uppfostran försummad, den gjordes i <placeName>Tyskland</placeName> som ni vet,
           <lb/> och tyskarne ha ännu icke kommit ut öfver religionen!</p>
         </sp>
         <sp who="#spAdelsman">
           <speaker>ADELSMANNEN.</speaker>
-          <p>Jaja! Jaja! Kan ni säga mig hvarför de bråka med 
+          <p>Jaja! Jaja! Kan ni säga mig hvarför de bråka med
           <pb facs="37680-91.jpg"/>
             <fw type="pageNum">88</fw>
           den der reformationen nu i <placeName>Tyskland</placeName>! <persName ref="#Luther">Luther</persName> är en upp­
@@ -5313,26 +5317,26 @@
           <lb/> bland de råa massorna, som dock alltid blir perlor för
           <lb/> svin. Om man riktar blicken ut öfver tiden, om man
           <lb/> lefver något med i tankarnes stora rörelser, så skall man
-          <lb/> lätt se orsakerna till de missförhållanden i jemvigten, som 
+          <lb/> lätt se orsakerna till de missförhållanden i jemvigten, som
           <lb/> nu göra sig gällande i de stora kulturländerna, jag talar
           <lb/> nu inte om <placeName>Sverige</placeName>, ty det är intet kulturland. Vet ni
           <lb/> hvad tyngdpunkten heter, denna tyngdpunkt, vid hvars
           <lb/> rubbning allt går sönder och utan hvilkens stabilitet allt
           <lb/> kastas öfver ända? Den heter adeln! Adeln är intelligen­
 	  <lb break="no"/>sen! Feodalväldet är på fall — hoc est verlden, bildningen
-          <lb/> är på förfall, kulturen dör! Jojo! Ni tror inte det! Men 
+          <lb/> är på förfall, kulturen dör! Jojo! Ni tror inte det! Men
           <lb/> med den minsta historiska blick skall ni se det! Adeln
           <lb/> gjorde korstågen, adeln gjorde det, adeln gjorde det! Hvar­
-	  <lb break="no"/>för är <placeName>Tyskland</placeName> söderslitet? Jo, bönderna resa sig upp 
+	  <lb break="no"/>för är <placeName>Tyskland</placeName> söderslitet? Jo, bönderna resa sig upp
           <lb/> mot adeln, hugga af sitt eget hufvud. Hvarför står <placeName>Frank­
-	  <lb break="no"/>rike</placeName>, <placeName>la France</placeName>, jo derför att <placeName>Frankrike</placeName> är adeln och 
+	  <lb break="no"/>rike</placeName>, <placeName>la France</placeName>, jo derför att <placeName>Frankrike</placeName> är adeln och
           <lb/> adeln är <placeName>Frankrike</placeName>, de äro identiska begrepp, de äro soli­
 	  <lb break="no"/>dariska! Hvarför, frågar jag igen, är <placeName>Sverige</placeName> för närvarande
           <lb/> uppskakadt i sina innersta grundvalar? Jo, adeln är kros­
 	  <lb break="no"/>sad! <persName ref="#Kristiern">Christian den andre</persName> var en man med snille, han visste
           <lb/> hur man skulle eröfra ett land, han sågade inte af ett ben
           <lb/> eller en arm, nej, han slog af hufvet! Nåväl! <placeName>Sverige</placeName> skall
-          <lb/> räddas, <persName ref="#GustavVasa">konungen</persName> vet sättet: adeln skall upprättas och 
+          <lb/> räddas, <persName ref="#GustavVasa">konungen</persName> vet sättet: adeln skall upprättas och
           <lb/>
             <orgName ref="#kyrkan">kyrkan</orgName> skall krossas! Hvad sägs!</p>
         </sp>
@@ -5563,7 +5567,7 @@
         <stage type="entrance" who="#GustavVasa"/>
         <sp who="#spGustavVasa">
           <speaker>GUSTAF.</speaker>
-          <p>Välkomna, mina herrar! <stage>(sätter sig framför ett bord)</stage> Om 
+          <p>Välkomna, mina herrar! <stage>(sätter sig framför ett bord)</stage> Om
           <lb/> herrarne behaga träda ut i förmaket skall jag ta emot en
           <lb/> i sender. <stage type="exit" who="#Folket #LaurentiusAndreæ #MästerOlof">(Alla draga sig tillbaka utom Brask)</stage>
             <persName ref="#LarsSiggeson">Vår Marsk</persName> stannar.</p>
@@ -5645,9 +5649,9 @@
         </sp>
         <sp who="#spLarsSiggeson">
           <speaker>MARSKEN.</speaker>
-          <p>När elden satt i knutarne var det inte underligt om 
+          <p>När elden satt i knutarne var det inte underligt om
           <lb/> de buro vatten sjelfva! Och hur ofta ha de inte brutit
-          <lb/> tro och lofven! Nej! De ha så ofta hört sitt lof sjungas, 
+          <lb/> tro och lofven! Nej! De ha så ofta hört sitt lof sjungas,
           <lb/> att de kalla sin råa oförskämdhet för gammal svensk är­
 	  <lb break="no"/>lighet.</p>
         </sp>
@@ -5659,7 +5663,7 @@
         </sp>
         <sp who="#spLarsSiggeson">
           <speaker>MARSKEN.</speaker>
-          <p>Ja! och min öfvertygelse är att bonden spelt ut sin 
+          <p>Ja! och min öfvertygelse är att bonden spelt ut sin
           <lb/> rôl: den råa kraftens att drifva undan fienden med arm­
 	  <lb break="no"/>styrka! <persName ref="#GustavVasa">Ers nåde</persName>! Krossa <orgName ref="#kyrkan">kyrkan</orgName> ty hon håller folket i
           <lb/> bojor, tag <orgName ref="#kyrkan">kyrkans</orgName> guld och betala rikets skuld — och
@@ -5770,7 +5774,7 @@
         </sp>
         <sp who="#spGustavVasa">
           <speaker>GUSTAF.</speaker>
-          <p>Akta er! Ni reser med 200 man i sällskap och äter 
+          <p>Akta er! Ni reser med 200 man i sällskap och äter
           <lb/> på silfver, då folket äter bark.</p>
         </sp>
         <pb facs="37680-103.jpg"/>
@@ -5782,13 +5786,13 @@
         </sp>
         <sp who="#spGustavVasa">
           <speaker>GUSTAF.</speaker>
-          <p>Känner I <persName ref="#Luther">Luther</persName> då! I är en upplyst man! Hvad är 
-          <lb/> detta för ett fenomen! Hvad säger I om rörelserna som 
+          <p>Känner I <persName ref="#Luther">Luther</persName> då! I är en upplyst man! Hvad är
+          <lb/> detta för ett fenomen! Hvad säger I om rörelserna som
           <lb/> gå genom <placeName>Europa</placeName>!</p>
         </sp>
         <sp who="#spHansBrask">
           <speaker>BRASK.</speaker>
-          <p>Ett framsteg baklänges! <persName ref="#Luther">Luthers</persName> rôl är blott den att 
+          <p>Ett framsteg baklänges! <persName ref="#Luther">Luthers</persName> rôl är blott den att
           <lb/> tjena till skärseld åt det gamla, sekelborna, bepröfvade, att
           <lb/> det må renas och genom strid segrande framgå!</p>
         </sp>
@@ -5879,7 +5883,7 @@
           <p>
             <persName ref="#HansBrask">Biskopen</persName> har bekräftat er utsago! Ja, det var menin­
 	  <lb break="no"/>gen det! Tag nu fram murare som kunna rifva; väggarne
-          <lb/> ska’ få stå, korsen skola få sitta qvar på taken och 
+          <lb/> ska’ få stå, korsen skola få sitta qvar på taken och
           <lb/> klockorna i tornen, men källrarne bryter jag sönder; man
           <lb/> börjar vid grunden, ser I!</p>
         </sp>
@@ -5905,7 +5909,7 @@
         </sp>
         <sp who="#spLarsSiggeson">
           <speaker>MARSKEN.</speaker>
-          <p>Han har farit fram som en vederdöpare i stället för 
+          <p>Han har farit fram som en vederdöpare i stället för
           <lb/> att bekämpa dem.</p>
         </sp>
         <sp who="#spGustavVasa">
@@ -6030,7 +6034,7 @@
         </sp>
         <sp who="#spMästerOlof">
           <speaker>OLOF.</speaker>
-          <p>Jag skulle beklaga att jag ej fått göra min gerning, 
+          <p>Jag skulle beklaga att jag ej fått göra min gerning,
           <lb/> men tacka Gud för hvad jag fått göra.</p>
         </sp>
         <sp who="#spGustavVasa">
@@ -6097,7 +6101,7 @@
         </sp>
         <sp who="#spMästerOlof">
           <speaker>OLOF.</speaker>
-          <p>Då är mitt lif ej förspildt om jag blott kastat en 
+          <p>Då är mitt lif ej förspildt om jag blott kastat en
           <lb/> gnista af tvifvel i det sofvande folkets själar! Det skall
           <lb/> då bli en reformation.</p>
         </sp>
@@ -6128,7 +6132,7 @@
         </sp>
         <sp who="#spMästerOlof">
           <speaker>OLOF.</speaker>
-          <p>Olyckan är att de inte veta rigtigt sjelfva! Och om 
+          <p>Olyckan är att de inte veta rigtigt sjelfva! Och om
           <lb/> jag skulle säga det — — —</p>
         </sp>
         <pb facs="37680-109.jpg"/>
@@ -6148,7 +6152,7 @@
         </sp>
         <sp who="#spGerdtBokprentare">
           <speaker>GERDT.</speaker>
-          <p>Jag skulle ödmjukast anhålla om <persName ref="#GustavVasa">Ers nådes</persName> intyg på 
+          <p>Jag skulle ödmjukast anhålla om <persName ref="#GustavVasa">Ers nådes</persName> intyg på
           <lb/> rigtigheten af detta utlåtande!</p>
         </sp>
         <sp who="#spGustavVasa">
@@ -6176,7 +6180,7 @@
         </sp>
         <sp who="#spGerdtBokprentare">
           <speaker>GERDT.</speaker>
-          <p>Nej, behöfs inte, jag begär bara rättvisa och den 
+          <p>Nej, behöfs inte, jag begär bara rättvisa och den
           <lb/> sköter inte vakten om!</p>
         </sp>
         <sp who="#spGustavVasa">
@@ -6356,7 +6360,7 @@
         <fw type="pageNum">106</fw>
         <sp who="#spGerdtBokprentare">
           <speaker>GERDT.</speaker>
-          <p>Hör du, <persName ref="#Betjenten">min gubbe lilla</persName>, jag skall helsa dig från 
+          <p>Hör du, <persName ref="#Betjenten">min gubbe lilla</persName>, jag skall helsa dig från
           <lb/> din far!</p>
         </sp>
         <sp who="#spBetjenten">
@@ -6453,7 +6457,7 @@
           <sp who="#spChristina">
             <speaker>CHRISTINA.</speaker>
             <p>De skrika visst inte, <persName ref="#MästerOlof">Olof</persName>, men du tycks ha förkärlek
-            <lb/> för en skrikande nattfogel! Säg mig hvad betyder ugglan, 
+            <lb/> för en skrikande nattfogel! Säg mig hvad betyder ugglan,
             <lb/> som du bär i sigillringen.</p>
           </sp>
           <sp who="#spMästerOlof">
@@ -6466,7 +6470,7 @@
           </sp>
           <sp who="#spMästerOlof">
             <speaker>OLOF.</speaker>
-            <p>Den vise hatar mörkret och natten, men han gör 
+            <p>Den vise hatar mörkret och natten, men han gör
             <lb/> natten till dag med sitt skarpa öga!</p>
           </sp>
           <sp who="#spChristina">
@@ -6511,7 +6515,7 @@
           </sp>
           <sp who="#spMästerOlof">
             <speaker>OLOF.</speaker>
-            <p>Du skulle inte förstå mig om jag sade det, men om 
+            <p>Du skulle inte förstå mig om jag sade det, men om
             <lb/> du icke förstår hvad jag läser för dig, så förstår du hvad
             <lb/> som menas med omaterielt.</p>
           </sp>
@@ -6536,13 +6540,13 @@
             <lb/>
             <p>“Materien tänkt i sin abstraktion från formen är det
             <lb/> fullkomligt predikatlösa, obestämda, åtskilnadslösa. Ty
-            <lb/> icke af det reda icke-varandet, utan blott ur verklighetens 
-            <lb/> icke-varande, det vill säga ur varandet såsom möjlighet, 
+            <lb/> icke af det reda icke-varandet, utan blott ur verklighetens
+            <lb/> icke-varande, det vill säga ur varandet såsom möjlighet,
             <lb/> kan något uppkomma. Det möjliga varandet är lika så
             <lb/> litet icke-varande som verklighet. Hvarje existens är der­
 	    <lb break="no"/>för ett förverkligadt möljigt. Materien är således för <persName ref="#Aristoteles">Ari­
 	    <lb break="no"/>stoteles</persName> ett vida positivare substrat än för <persName ref="#Plato">Plato</persName>, som för­
-	    <lb break="no"/>klarar henne för ett rent icke-varande. Häraf inser man 
+	    <lb break="no"/>klarar henne för ett rent icke-varande. Häraf inser man
             <lb/> huru <persName ref="#Aristoteles">Aristoteles</persName> kunde uppfatta materien i motsats mot
             <lb/> formen som en positiv negativitet“.</p>
           </sp>
@@ -6553,13 +6557,13 @@
             <lb/>
             <p>Håll upp! Hvarför skall jag icke kunna fatta detta?
           <lb/> Har icke jag samma själsförmögenheter som du? Jag blygs
-          <lb/> inför dig, <persName ref="#MästerOlof">Olof</persName>, att du skall ha <persName ref="#Christina">en sådan stackars hustru</persName>, 
+          <lb/> inför dig, <persName ref="#MästerOlof">Olof</persName>, att du skall ha <persName ref="#Christina">en sådan stackars hustru</persName>,
           <lb/> som icke begriper hvad du säger; <anchor type="hand" xml:id="handarbete2start"/>nej, jag skall hålla mig
           <lb/> till <rs type="hand" ref="#handarbetep1">mitt sticktyg</rs>, jag skall städa och damma i ditt arbets­
 	  <pb break="no" facs="37680-117.jpg"/>
-              <fw type="pageNum">110</fw>rum, jag skall åtminstone lära mig fatta önskningarne i 
+              <fw type="pageNum">110</fw>rum, jag skall åtminstone lära mig fatta önskningarne i
           <lb/> dina blickar, jag skall bli din slafvinna, men aldrig, aldrig
-          <lb/> skall jag förstå dig! Ack, <persName ref="#MästerOlof">Olof</persName>, jag är dig icke värdig, 
+          <lb/> skall jag förstå dig! Ack, <persName ref="#MästerOlof">Olof</persName>, jag är dig icke värdig,
           <lb/> hvarför tog du mig till <persName ref="#Christina">hustru</persName>? Du öfverskattade mig i
           <lb/> ett ögonblick af berusning. Du skall ångra det och vi
           <lb/> båda skola bli olyckliga!</p>
@@ -6568,8 +6572,8 @@
             <speaker>OLOF.</speaker>
             <p>
               <persName ref="#Christina">Christina</persName>! Lugna dig, min vän. Sätt sig här hos
-            <lb/> mig! <stage>(Tar upp <rs type="hand" ref="#handarbetep1">stickningen</rs>.)</stage> Tror du mig om jag säger att det 
-            <lb/> är mig omöjligt att göra sådant arbete! Jag kan aldrig i lifvet 
+            <lb/> mig! <stage>(Tar upp <rs type="hand" ref="#handarbetep1">stickningen</rs>.)</stage> Tror du mig om jag säger att det
+            <lb/> är mig omöjligt att göra sådant arbete! Jag kan aldrig i lifvet
             <lb/> göra det! Är du då icke skickligare än jag och är jag
             <lb/> icke mindre än du!</p>
           </sp>
@@ -6580,7 +6584,7 @@
           <sp who="#spMästerOlof">
             <speaker>OLOF.</speaker>
             <p>Af samma skäl som du ej förstod mig nyss; jag har
-            <lb/> icke lärt. Men vill du nu bli glad igen om jag säger dig, 
+            <lb/> icke lärt. Men vill du nu bli glad igen om jag säger dig,
             <lb/> att du kan lära dig förstå denna bok, som du noga bör
             <lb/> skilja från mig, då jag deremot aldrig kan lära mig ditt
             <lb/> arbete.</p>
@@ -6599,7 +6603,7 @@
           </sp>
           <sp who="#spMästerOlof">
             <speaker>OLOF.</speaker>
-            <p>Ser du, <persName ref="#Christina">min vän</persName>, det är just min svaghet, jag kan 
+            <p>Ser du, <persName ref="#Christina">min vän</persName>, det är just min svaghet, jag kan
             <lb/> aldrig vilja det. Tro mig, du är starkare än jag, du rår
             <lb/> på din vilja, jag rår inte på min!</p>
           </sp>
@@ -6637,7 +6641,7 @@
           </sp>
           <sp who="#spChristina">
             <speaker>CHRISTINA.</speaker>
-            <p>Nu är du obegriplig; men jag måste tro på dig, 
+            <p>Nu är du obegriplig; men jag måste tro på dig,
             <lb/>
               <persName ref="#MästerOlof">Olof</persName>. Du har rätt!</p>
           </sp>
@@ -6651,8 +6655,8 @@
           </sp>
           <sp who="#spMästerOlof">
             <speaker>OLOF.</speaker>
-            <p>Jag har allvarliga tankar att sysselsätta mig med. 
-            <lb/> Du vet jag väntar afgörandet i dag. <persName ref="#GustavVasa">Kungen</persName> har afsagt 
+            <p>Jag har allvarliga tankar att sysselsätta mig med.
+            <lb/> Du vet jag väntar afgörandet i dag. <persName ref="#GustavVasa">Kungen</persName> har afsagt
             <lb/> sig regeringen derför att man ej ville gå in på hans vilja.
             <lb/> Denna dag skall jag antingen stå vid mitt mål eller börja
             <lb/> om striden!</p>
@@ -6681,12 +6685,12 @@
           <sp who="#spChristina">
             <speaker>CHRISTINA.</speaker>
             <p>Jag vet det, och jag känner det också djupt! <persName ref="#FruChristina">Din
-            <lb/> mor</persName> skall, när hon får veta vårt giftermål, förlåta dig, 
+            <lb/> mor</persName> skall, när hon får veta vårt giftermål, förlåta dig,
             <lb/> men förbanna mig. Hvem får tyngsta bördan! Men det
             <lb/> är detsamma, det är för din skull! Jag vet detta, jag vet
             <lb/> att stora strider förestå dig, att djerfva tankar födas i ditt
             <lb/> hufvud, och att jag aldrig kan deltaga i striden, aldrig
-            <lb/> bistå dig med ett råd, aldrig försvara dig mot smädarne, 
+            <lb/> bistå dig med ett råd, aldrig försvara dig mot smädarne,
             <lb/> men jag måste ändå se på, och under allt detta lefva i
             <lb/> min lilla verld, syssla med dessa småting, som jag tror
             <lb/> du ej värderar men som du skulle sakna. <persName ref="#MästerOlof">Olof</persName>, jag kan
@@ -6703,10 +6707,10 @@
             <lb/> att se på en blomma eller höra på en fågel. <persName ref="#MästerOlof">Olof</persName>, jag
             <lb/> stälde blommorna på ditt bord för att hvila ditt öga, du
             <lb/> låter flickan bära ut dem, ty du fick hufvudvärk; jag ville
-            <lb/> afbryta din ensliga tystnad under arbetet och jag gaf dig 
+            <lb/> afbryta din ensliga tystnad under arbetet och jag gaf dig
             <lb/> fågelsång, det kallar du skrik; jag bad dig spisa middag
-            <lb/> för en stund se’n, du hade inte tid; jag vill tala vid dig, 
-            <lb/> du har inte tid; du föraktar denna lilla verklighet, och 
+            <lb/> för en stund se’n, du hade inte tid; jag vill tala vid dig,
+            <lb/> du har inte tid; du föraktar denna lilla verklighet, och
             <pb facs="37680-120.jpg"/>
               <fw type="pageNum">113</fw>
             ändå har du anvisat henne åt mig. Du vill icke lyfta
@@ -6724,13 +6728,13 @@
           <sp who="#spChristina">
             <speaker>CHRISTINA.</speaker>
             <p>Alltid samma du förstår mig inte! O, nu vet jag!
-            <lb/> Jag blef så brådgammal det der ögonblicket i sacristian, 
+            <lb/> Jag blef så brådgammal det der ögonblicket i sacristian,
             <lb/> att jag blef barn på nytt!</p>
           </sp>
           <sp who="#spMästerOlof">
             <speaker>OLOF.</speaker>
             <p>
-              <persName ref="#Christina">Kära vän</persName>, jag skall se på dina fåglar och jollra med 
+              <persName ref="#Christina">Kära vän</persName>, jag skall se på dina fåglar och jollra med
             <lb/> dina blommor.</p>
           </sp>
           <sp who="#spChristina">
@@ -6767,7 +6771,7 @@
             <speaker>CHRISTINA</speaker>
             <stage>(gladt).</stage>
             <lb/>
-            <p>Kan du verkligen vara hungrig! <stage>(ser ut genom fönstret 
+            <p>Kan du verkligen vara hungrig! <stage>(ser ut genom fönstret
             <pb facs="37680-121.jpg"/>
                 <fw type="pageNum">114</fw>
             och gör en rörelse af häpnad).</stage> Gå du, <persName ref="#MästerOlof">Olof</persName>, jag skall strax
@@ -6777,7 +6781,7 @@
             <speaker>OLOF</speaker>
             <stage type="exit" who="#MästerOlof">(går).</stage>
             <lb/>
-            <p>Låt mig inte vänta så länge som du fått vänta på 
+            <p>Låt mig inte vänta så länge som du fått vänta på
             <lb/> mig!</p>
           </sp>
           <sp who="#spChristina">
@@ -6822,7 +6826,7 @@
           </sp>
           <sp who="#spFruChristina">
             <speaker>MODERN.</speaker>
-            <p>Jag visste inte att <persName ref="#Christina">en prestmans hushållerska</persName> kallade 
+            <p>Jag visste inte att <persName ref="#Christina">en prestmans hushållerska</persName> kallade
             <lb/> sig husmoder!</p>
           </sp>
           <sp who="#spChristina">
@@ -6854,7 +6858,7 @@
           </sp>
           <sp who="#spFruChristina">
             <speaker>MODERN.</speaker>
-            <p>Nej, det tror jag! Gå ur min åsyn, ert sällskap är 
+            <p>Nej, det tror jag! Gå ur min åsyn, ert sällskap är
             <lb/> mig en skam!</p>
           </sp>
           <sp who="#spChristina">
@@ -6865,7 +6869,7 @@
           </sp>
           <sp who="#spFruChristina">
             <speaker>MODERN.</speaker>
-            <p>Med en moders magt förvisar jag er ur <persName ref="#MästerOlof">min sons</persName> hus, 
+            <p>Med en moders magt förvisar jag er ur <persName ref="#MästerOlof">min sons</persName> hus,
             <lb/> vars tröskel ni vanhedrat!</p>
           </sp>
           <sp who="#spChristina">
@@ -6884,8 +6888,8 @@
             <lb/> mig ur mitt hus? Ni har födt <persName ref="#MästerOlof">en son</persName>, gifvit honom upp­
 	    <lb break="no"/>fostran, det var er skyldighet, er bestämmelse, och ni kan
             <lb/> tacka Gud ni fått fylla den så väl, ty så lyckliga äro ej
-            <lb/> alla; nu står ni vid grafvens rand; träd då af innan det 
-            <lb/> blir slut; eller har ni så illa fostrat upp <persName ref="#MästerOlof">er son</persName>, att han 
+            <lb/> alla; nu står ni vid grafvens rand; träd då af innan det
+            <lb/> blir slut; eller har ni så illa fostrat upp <persName ref="#MästerOlof">er son</persName>, att han
             <pb facs="37680-123.jpg"/>
               <fw type="pageNum">116</fw>
             ännu är barn och behöfver er ledning. Vill ni ha tack­
@@ -6905,8 +6909,8 @@
 	    <lb break="no"/>skapet vara en pantförskrifning af min fria vilja åt den
             <lb/> som naturen gifvit till moder eller fader åt <persName ref="#MästerOlof">min make</persName>,
             <lb/> som tyvärr icke kunde finnas utan båda? Ni är inte min
-            <lb/> mor, jag svor er aldrig trohet, då jag tog <persName ref="#MästerOlof">Olof</persName> till make, 
-            <lb/> och jag har nog vördnad för <persName ref="#MästerOlof">min man</persName>, att jag icke tillåter 
+            <lb/> mor, jag svor er aldrig trohet, då jag tog <persName ref="#MästerOlof">Olof</persName> till make,
+            <lb/> och jag har nog vördnad för <persName ref="#MästerOlof">min man</persName>, att jag icke tillåter
             <lb/> någon förolämpa honom äfven om det vore <persName ref="#FruChristina">hans mor</persName>!
             <lb/> Derför har jag talat!</p>
           </sp>
@@ -6954,7 +6958,7 @@
           <sp who="#spMästerOlof">
             <speaker>OLOF.</speaker>
             <p>
-              <persName ref="#FruChristina">Moder</persName>, hvad i Guds namn säger du! <persName ref="#Christina">Christina</persName>! hvad 
+              <persName ref="#FruChristina">Moder</persName>, hvad i Guds namn säger du! <persName ref="#Christina">Christina</persName>! hvad
             <lb/> är detta?</p>
           </sp>
           <sp who="#spFruChristina">
@@ -6982,7 +6986,7 @@
           </sp>
           <sp who="#spChristina">
             <speaker>CHRISTINA.</speaker>
-            <p>Jag mins inte nu, ty det var en hel mängd saker, 
+            <p>Jag mins inte nu, ty det var en hel mängd saker,
             <lb/> som jag aldrig vågat tänka, men som jag måtte ha drömt
             <lb/> under det <persName ref="#GerdtBokprentare">min far</persName> höll mig i sitt slafveri!</p>
           </sp>
@@ -7108,7 +7112,7 @@
           <fw type="pageNum">120</fw>
           <sp who="#spChristina">
             <speaker>CHRISTINA.</speaker>
-            <p>Men du får ej kalla mig svag! En folkhop förföljde 
+            <p>Men du får ej kalla mig svag! En folkhop förföljde
             <lb/> mig ända till porten och ropade detta förfärliga ord som
             <lb/> jag ej förstår! En olycklig qvinna skrattar man icke åt!</p>
           </sp>
@@ -7139,11 +7143,11 @@
             <speaker>CHRISTINA</speaker>
             <stage>(läser).</stage>
             <writing who="#HansBrask">“Du har segrat, unge man! Jag, din fiende, är den
-            <lb/> förste som säger dig det, och till dig vänder jag mig utan 
+            <lb/> förste som säger dig det, och till dig vänder jag mig utan
             <lb/> förödmjukelse, ty du förde andans vapen då du talade för
             <lb/> den nya tron! Om du har rätt vet jag ej, men jag anser
             <lb/> dig förtjena ett råd af en gammal man; stanna här, ty
-            <lb/> dina fiender äro borta. Gå icke att slåss mot luftandar, 
+            <lb/> dina fiender äro borta. Gå icke att slåss mot luftandar,
             <lb/> det skall förlama din arm och du skall sjelfdö. Lita icke
             <lb/> uppå furstarne, råder dig en fordom mägtig man, som nu
             <lb/> träder undan och befaller i Herrans hand hvad ske skall
@@ -7162,7 +7166,7 @@
             <stage>(glad).</stage>
             <lb/>
             <p>Gud, jag tackar dig för denna stund!<stage>(Paus.)</stage> Nej! Jag
-            <lb/> är rädd, <persName ref="#Christina">Christina</persName>! Denna lycka är för stor. Jag är för 
+            <lb/> är rädd, <persName ref="#Christina">Christina</persName>! Denna lycka är för stor. Jag är för
             <lb/> ung att redan stå vid målet! Intet vidare ha att uträtta,
             <lb/> o det är en förfärlig tanke! Ingen strid mer, det är döden!</p>
           </sp>
@@ -7268,7 +7272,7 @@
             <speaker>ADELSMANNEN</speaker>
             <stage>(läser).</stage>
             <lb/>
-            <p>Det står ett 5:o om rätt för predikare att förkunna 
+            <p>Det står ett 5:o om rätt för predikare att förkunna
             <lb/> Guds ord, men det fingo de ju förut också!</p>
           </sp>
           <sp who="#spMästerOlof">
@@ -7278,7 +7282,7 @@
           <sp who="#spAdelsman">
             <speaker>ADELSMANNEN.</speaker>
             <p>Jo, så kommer ordinantien: att register skall upprättas
-            <lb/> på alla biskoparnes, domkyrkornas och kanikernas ränta, 
+            <lb/> på alla biskoparnes, domkyrkornas och kanikernas ränta,
             <lb/> och eger <persName ref="#GustavVasa">konungen</persName> sätta dem före, — —</p>
           </sp>
           <sp who="#spMästerOlof">
@@ -7290,7 +7294,7 @@
             <p>Huru mycket de deraf skola behålla och huru mycket
             <lb/> de skola gifva honom till kronans behof; att andliga em­
 	    <lb break="no"/>beten", — det här bör intressera er — "andeliga embeten,
-            <lb/> ej blott högre utan äfven lägre, hädanefter endast skola 
+            <lb/> ej blott högre utan äfven lägre, hädanefter endast skola
             <lb/> tillsättas med <persName ref="#GustavVasa">konungens</persName> samtycke, så att —</p>
           </sp>
           <sp who="#spMästerOlof">
@@ -7313,7 +7317,7 @@
             <p>Allt! Nej det är sant! Jag har särskild befallning
             <lb/> från <persName ref="#GustavVasa">konungen</persName> till er, mycket förståndigt, att alldenstund
             <lb/> folket är upprördt öfver de nya sakerna, ni ej får på nå­
-	    <lb break="no"/>got vis rubba det gamla, ej borttaga messor, vigvatten eller 
+	    <lb break="no"/>got vis rubba det gamla, ej borttaga messor, vigvatten eller
             <pb facs="37680-131.jpg"/>
               <fw type="pageNum">124</fw>
             andra öfriga bruk samt för öfrigt ej företaga några nya
@@ -7366,7 +7370,7 @@
           </sp>
           <sp who="#spChristina">
             <speaker>CHRISTINA</speaker>
-            <stage>(tar upp fullmagten och läser, 
+            <stage>(tar upp fullmagten och läser,
             <lb/> går derpå glad fram till <persName ref="#MästerOlof">Olof</persName>).</stage>
             <lb/>
             <p>
@@ -7544,8 +7548,8 @@
         <sp who="#spChristina">
           <speaker>CHRISTINA.</speaker>
           <p>Nej, Det skulle han aldrig tillåta! Han vill ha mig
-          <lb/> som en helgonbild stående på en hylla. Ju mindre och 
-          <lb/> svagare han får mig, dess större blir hans nöje att kasta 
+          <lb/> som en helgonbild stående på en hylla. Ju mindre och
+          <lb/> svagare han får mig, dess större blir hans nöje att kasta
           <lb/> af sin styrka vid mina fötter ...</p>
         </sp>
         <sp who="#spFruChristina">
@@ -7621,14 +7625,14 @@
         <sp who="#spFruChristina">
           <speaker>MODERN.</speaker>
           <p>Gud, du straffar för hårdt! <persName ref="#LaurentiusPetri #MästerOlof">Mina barn</persName> ställa sig
-          <lb/> emellan mig och dig! Skall man neka mig religionens 
+          <lb/> emellan mig och dig! Skall man neka mig religionens
           <lb/> tröst i sista ögonblicket! Mitt lif han I tagit, viljen I nu
           <lb/> ock förderfva min själ — <persName ref="#FruChristina">er moders</persName> själ!</p>
           <stage>(Hon faller i vanmagt).</stage>
         </sp>
         <sp who="#spLaurentiusPetri">
           <speaker>LARS.</speaker>
-          <p>Du hör, <persName ref="#Christina">Christina</persName>! Hvad skall man göra! Skall hon 
+          <p>Du hör, <persName ref="#Christina">Christina</persName>! Hvad skall man göra! Skall hon
           <lb/> dö, bedragen af en sådan eländig som <persName ref="#Mårten">Mårten</persName> och kanske
           <lb/> tacka oss, eller skall hennes sista bön bli en förbannelse.
           <lb/> Nej! De må komma in! Hvad tänker du, <persName ref="#Christina">Christina</persName>?</p>
@@ -7693,7 +7697,7 @@
         </sp>
         <sp who="#spMårten">
           <speaker>MÅRTEN.</speaker>
-          <p>Ha vi väntat så här länge, så kan vi vänta lite till, 
+          <p>Ha vi väntat så här länge, så kan vi vänta lite till,
           <lb/> bara inte <persName ref="#MästerOlof">den satans presten</persName> kommer!</p>
         </sp>
         <sp who="#spNils">
@@ -7742,7 +7746,7 @@
         <sp who="#spMårten">
           <speaker>MÅRTEN.</speaker>
           <p>Ja, det tror jag det! Det var det man fruktade och
-          <lb/> derför piskade man anden ur kroppen på mig i klostret, 
+          <lb/> derför piskade man anden ur kroppen på mig i klostret,
           <lb/> ty jag hade en ande ändå. Men nu är jag bara kropp
           <lb/> och nu ska’ den ta’ igen skadan!</p>
         </sp>
@@ -7753,12 +7757,12 @@
         <sp who="#spMårten">
           <speaker>MÅRTEN</speaker>
           <p>Ja, i det närmaste! ... Men nu kan du tala om det
-          <lb/> der receptet på kryddadt Rochelle, som vi somnade ifrån 
+          <lb/> der receptet på kryddadt Rochelle, som vi somnade ifrån
           <lb/> derute!</p>
         </sp>
         <sp who="#spNils">
           <speaker>NILS.</speaker>
-          <p>Sa’ jag Rochelle? Jag menar Claret! Det vill säga 
+          <p>Sa’ jag Rochelle? Jag menar Claret! Det vill säga
           <lb/> det kan vara hvilket som helst. Jo, ser du, man tar på
           <lb/> en kanna vin 1/2 skålp. kardemumma, väl rensad — —</p>
         </sp>
@@ -7789,7 +7793,7 @@
         </sp>
         <sp who="#spNils">
           <speaker>NILS</speaker>
-          <stage>(tänder rökverket under det han 
+          <stage>(tänder rökverket under det han
           <lb/> läser).</stage>
         </sp>
         <sp who="#spFruChristina">
@@ -7815,11 +7819,11 @@
         <sp who="#spFruChristina">
           <speaker>MODERN.</speaker>
           <p>Amen! ... <persName ref="#Mårten">Mårten</persName>, jag går hädan, <persName ref="#GustavVasa">vår konungs</persName> ogud­
-	  <lb break="no"/>aktighet förbjuder mig att genom jordiska gåfvor styrka 
+	  <lb break="no"/>aktighet förbjuder mig att genom jordiska gåfvor styrka
           <lb/>
             <orgName ref="#kyrkan">den heliga kyrkan</orgName> i hennes magt att frälsa själar; tag du,
           <lb/>
-            <persName ref="#Mårten">fromme man</persName>, min egendom och bed för mig och <persName ref="#LaurentiusPetri #MästerOlof">mina 
+            <persName ref="#Mårten">fromme man</persName>, min egendom och bed för mig och <persName ref="#LaurentiusPetri #MästerOlof">mina
           <lb/> barn</persName>. Bed den allsmägtige vända deras hjertan från lög­
 	  <lb break="no"/>nen, att vi en gång må träffas i himmelen.</p>
         </sp>
@@ -7835,12 +7839,12 @@
         </sp>
         <sp who="#spFruChristina">
           <speaker>MODERN.</speaker>
-          <p>Nu vill jag sofva en stund för att hemta krafter till 
+          <p>Nu vill jag sofva en stund för att hemta krafter till
           <lb/> det sista sakramentets anammande!</p>
         </sp>
         <sp who="#spMårten">
           <speaker>MÅRTEN.</speaker>
-          <p>Ingen skall störa ert sista ögonblick; ej en gång de, 
+          <p>Ingen skall störa ert sista ögonblick; ej en gång de,
           <lb/> som fordom voro <persName ref="#LaurentiusPetri #MästerOlof">edra barn</persName>.</p>
         </sp>
         <sp who="#spFruChristina">
@@ -7853,7 +7857,7 @@
           <stage>(öppnar påsen och kysser guld­
 	  <lb break="no"/>pengarne).</stage>
           <lb/>
-          <p>Hvilka skatter af vällust äro icke förborgade i dessa 
+          <p>Hvilka skatter af vällust äro icke förborgade i dessa
           <lb/> hårda guldstycken! Ack!</p>
         </sp>
         <sp who="#spNils">
@@ -7862,7 +7866,7 @@
         </sp>
         <sp who="#spMårten">
           <speaker>MÅRTEN.</speaker>
-          <p>Det kunde jag visserligen göra efter förrättadt ärende, 
+          <p>Det kunde jag visserligen göra efter förrättadt ärende,
           <lb/> men det är synd om <persName ref="#FruChristina">gumman</persName> att låta henne dö osalig!</p>
         </sp>
         <sp who="#spNils">
@@ -7881,7 +7885,7 @@
         <fw type="pageNum">134</fw>
         <sp who="#spMårten">
           <speaker>MÅRTEN.</speaker>
-          <p>Man vet inte hvad man ska’ tro i rappet! Den ena 
+          <p>Man vet inte hvad man ska’ tro i rappet! Den ena
           <lb/> dör salig på det, den andra på det! Alla påstå sig ha
           <lb/> funnit sanningen!</p>
         </sp>
@@ -7901,7 +7905,7 @@
           <speaker>MÅRTEN.</speaker>
           <p>Ja, då gick jag väl in i saligheten som alla de andra.
           <lb/> Jag ville bara göra upp en liten räkning med <persName ref="#MästerOlof">mäster
-          <lb/> Olof</persName> först! Ser du det fins en vällust större än de andra, 
+          <lb/> Olof</persName> först! Ser du det fins en vällust större än de andra,
           <lb/> och det är hämnden!</p>
         </sp>
         <sp who="#spNils">
@@ -7919,7 +7923,7 @@
         </sp>
         <sp who="#spMårten">
           <speaker>MÅRTEN.</speaker>
-          <p>Är det inte nog det! <stage>(Det bultar på ytterdörren).</stage> Det 
+          <p>Är det inte nog det! <stage>(Det bultar på ytterdörren).</stage> Det
           <lb/> kommer någon! Läs för tusan!</p>
           <stage>(<persName ref="#Nils">Nils</persName> rabblar upp föregående vers.
           <lb/> Dörren öppnas utifrån; man hör huru en nyckel skjutes in i låset).</stage>
@@ -7948,7 +7952,7 @@
           <speaker>MODERN.</speaker>
           <p>Farväl, <persName ref="#MästerOlof">Olof</persName>! Jag förlåter dig hvad ondt du gjort mig
           <lb/> om du ej stör det ögonblick jag bereder mig till him­
-	  <lb break="no"/>melen! <persName ref="#Mårten">Fader Mårten</persName>! Gif mig den heliga smörjelsen att 
+	  <lb break="no"/>melen! <persName ref="#Mårten">Fader Mårten</persName>! Gif mig den heliga smörjelsen att
           <lb/> jag må dö i frid!</p>
         </sp>
         <sp who="#spMästerOlof">
@@ -7973,7 +7977,7 @@
         </sp>
         <sp who="#spMästerOlof">
           <speaker>OLOF.</speaker>
-          <p>Jag skall rensa Herrans kyrka om också <persName ref="#påfven">påfven</persName> och 
+          <p>Jag skall rensa Herrans kyrka om också <persName ref="#påfven">påfven</persName> och
           <lb/>
             <persName ref="#GustavVasa">kungen</persName> ej vilja det!</p>
         </sp>
@@ -8003,7 +8007,7 @@
         </sp>
         <sp who="#spMästerOlof">
           <speaker>OLOF.</speaker>
-          <p>Gån ni från detta rum eller brukar jag våld! Tag 
+          <p>Gån ni från detta rum eller brukar jag våld! Tag
           <lb/> bort detta narrverk!</p>
           <stage>(Sparkar undan apparaterna.)</stage>
         </sp>
@@ -8051,7 +8055,7 @@
           <speaker>OLOF.</speaker>
           <p>
             <persName ref="#FruChristina">Moder</persName>, <persName ref="#FruChristina">moder</persName>, lefver du, så tala vid <persName ref="#MästerOlof">din son</persName>! Förlåt
-          <lb/> mig, men jag kan inte annat! Jag vet du har lidit ett 
+          <lb/> mig, men jag kan inte annat! Jag vet du har lidit ett
           <pb facs="37680-144.jpg"/>
             <fw type="pageNum">137</fw>
           helt lif för min skull, du har bedt Gud att jag skulle gå
@@ -8087,7 +8091,7 @@
         </sp>
         <sp who="#spFruChristina">
           <speaker>MODERN.</speaker>
-          <p>Guds förbannelse hvilar öfver dig! Jag ser honom, 
+          <p>Guds förbannelse hvilar öfver dig! Jag ser honom,
           <lb/> jag ser Gud med vredens blick, hjelp mig, <persName ref="#Maria">heliga jungfru</persName>!</p>
         </sp>
         <sp who="#spMästerOlof">
@@ -8108,7 +8112,7 @@
             <persName ref="#FruChristina">Moder</persName>! <persName ref="#FruChristina">Moder</persName>! <stage>(Han tar hennes hand.)</stage> Hon är död! Utan
           <lb/> förlåtelse! — O om din själ ännu dväljes i detta rum, se
           <lb/> ned till <persName ref="#MästerOlof">din son</persName>, jag vill göra din vilja, hvad som är dig
-          <lb/> heligt skall vara heligt för mig! <stage>(Han tänder de stora vaxljusen, 
+          <lb/> heligt skall vara heligt för mig! <stage>(Han tänder de stora vaxljusen,
           <pb facs="37680-145.jpg"/>
               <fw type="pageNum">138</fw>
           som <persName ref="#Mårten #Nils">munkarne</persName> lemnat, och ställer kring sängen.)</stage> Du skall få de vigda
@@ -8142,7 +8146,7 @@
         </sp>
         <sp who="#spLaurentiusPetri">
           <speaker>LARS</speaker>
-          <stage>(går fram till sängen, faller på 
+          <stage>(går fram till sängen, faller på
           <lb/> knä, stiger upp.)</stage>
           <lb/>
           <p>Hon är död! <stage>(Gör en tyst bön.)</stage> Du var ensam här!</p>
@@ -8225,7 +8229,7 @@
         </sp>
         <sp who="#spChristina">
           <speaker>CHRISTINA.</speaker>
-          <p>Jag trodde att jag kunde vara till någon nytta, men 
+          <p>Jag trodde att jag kunde vara till någon nytta, men
           <lb/> jag ser nu! ... Jag skall vara hemma en annan gång.</p>
         </sp>
         <sp who="#spMästerOlof">
@@ -8290,7 +8294,7 @@
         </sp>
         <sp who="#spMästerOlof">
           <speaker>OLOF.</speaker>
-          <p>Han är en girigbuk, en förrädare och adelsgynnare. 
+          <p>Han är en girigbuk, en förrädare och adelsgynnare.
           <pb facs="37680-148.jpg"/>
             <fw type="pageNum">141</fw>
           Först begagnar han mig som en hund, sedan sparkar han
@@ -8299,10 +8303,10 @@
         <sp who="#spLaurentiusPetri">
           <speaker>LARS.</speaker>
           <p>Han ser längre än du! Om du skulle gå till 3 millio­
-	  <lb break="no"/>ner menniskor och säga: er tro är falsk, tro på mina ord, 
+	  <lb break="no"/>ner menniskor och säga: er tro är falsk, tro på mina ord,
           <lb/> anser du det möjligt att de skulle i ett ögonblick kasta
           <lb/> bort hela sin innersta, genomlefvade öfvertygelse, som stått
-          <lb/> bi i sorg som i glädje! Nej, illa vore det bestäldt med 
+          <lb/> bi i sorg som i glädje! Nej, illa vore det bestäldt med
           <lb/> själens lif om det gick så hastigt att vräka öfver bord
           <lb/> det gamla.</p>
         </sp>
@@ -8311,7 +8315,7 @@
           <p>Det är icke så! Hela folket tviflar, bland presterna
           <lb/> fins knappt en som vet hvad han skall tro, om hans ens
           <lb/> tror något; allt är beredt för det nya, men I hafven skul­
-	  <lb break="no"/>den, I svage, som ej törs ta på edra samveten att kasta 
+	  <lb break="no"/>den, I svage, som ej törs ta på edra samveten att kasta
           <lb/> ut tvifvel der blott en svag tro fins!</p>
         </sp>
         <sp who="#spLaurentiusPetri">
@@ -8325,7 +8329,7 @@
         </sp>
         <sp who="#spLaurentiusPetri">
           <speaker>LARS.</speaker>
-          <p>Du rifver och rifver, <persName ref="#MästerOlof">Olof</persName>, så att det blir tomt snart, 
+          <p>Du rifver och rifver, <persName ref="#MästerOlof">Olof</persName>, så att det blir tomt snart,
           <lb/> men när man frågar hvad ger du i stället, svarar du "icke
           <lb/> det", "icke det", men du svarar aldrig "det"!</p>
         </sp>
@@ -8335,7 +8339,7 @@
           <lb/>
             <persName ref="#Luther">Luther</persName> gifvit något nytt? Nej! Han har blott brutit ned
           <lb/> skärmarne, som stodo i vägen för ljuset! Det nya jag vill
-          <lb/> är tvifvel på det gamla, icke derför att det är gammalt, 
+          <lb/> är tvifvel på det gamla, icke derför att det är gammalt,
           <lb/> utan derför att det är ruttet!</p>
         </sp>
         <sp who="#spLaurentiusPetri">
@@ -8346,7 +8350,7 @@
         <fw type="pageNum">142</fw>
         <sp who="#spMästerOlof">
           <speaker>OLOF.</speaker>
-          <p>Jag vet hvad du menar! Hon var för gammal, och 
+          <p>Jag vet hvad du menar! Hon var för gammal, och
           <lb/> jag tackar Gud att hon dog! O, nu är jag fri, nu först;
           <lb/> det var så Guds vilja!</p>
         </sp>
@@ -8359,10 +8363,10 @@
           <speaker>OLOF.</speaker>
           <p>Du skall inte förebrå mig! Jag vördar <persName ref="#FruChristina">min moders</persName>
             <lb/> minne lika väl som du, men hade hon icke gått nu, vet
-          <lb/> jag ej hur långt jag gått i mina offer! <persName ref="#LaurentiusPetri">Broder</persName>, har du sett 
+          <lb/> jag ej hur långt jag gått i mina offer! <persName ref="#LaurentiusPetri">Broder</persName>, har du sett
           <lb/> om våren huru förrårets affallna löfskrud täcker marken
           <lb/> och vill qväfva de unga plantorna som skola fram. Hvad
-          <lb/> göra de? De skjuta antingen undan de torra löfven eller 
+          <lb/> göra de? De skjuta antingen undan de torra löfven eller
           <lb/> gå de midt igenom, ty de <emph>skola</emph> fram!</p>
         </sp>
         <sp who="#spLaurentiusPetri">
@@ -8371,7 +8375,7 @@
           <lb/> du brutit under en tid af laglöshet och oro; hvad då var
           <lb/> förlåtet måste nu straffas; tvinga icke <persName ref="#GustavVasa">kungen</persName> att visa
           <lb/> sig sämre än han är; nödga honom icke genom dina lag­
-	  <lb break="no"/>öfverträdelser och ditt sjelfsvåld att straffa <persName ref="#MästerOlof">en man</persName> som 
+	  <lb break="no"/>öfverträdelser och ditt sjelfsvåld att straffa <persName ref="#MästerOlof">en man</persName> som
           <lb/> han erkänner sig stå i tacksamhetsskuld till!</p>
         </sp>
         <sp who="#spMästerOlof">
@@ -8456,7 +8460,7 @@
           <lb/>
           <p>
             <persName ref="#MästerOlof">Stackars broder</persName>! Gud beskydde dig!</p>
-          <stage>(Man hör slag på 
+          <stage>(Man hör slag på
           <lb/> husporten.)</stage>
           <p>Hvad är det!</p>
           <stage>(Han går till fönstret).</stage>
@@ -8484,7 +8488,7 @@
           <stage type="entrance" who="#Christina">(kommer in med en filt).</stage>
           <lb/>
           <p>
-            <persName ref="#MästerOlof">Olof</persName>! Hvarför bultar man? Han sofver! <stage>(Hon sveper sin 
+            <persName ref="#MästerOlof">Olof</persName>! Hvarför bultar man? Han sofver! <stage>(Hon sveper sin
           <lb/> filt om <persName ref="#MästerOlof">Olof</persName>.)</stage> Hvarför är jag icke sömnen att du flydde till
           <lb/> mig, då du är trött af striden!</p>
           <stage>(Man hör rasslet af en tung kärra
@@ -8546,7 +8550,7 @@
         </sp>
         <sp who="#spMästerOlof">
           <speaker>OLOF.</speaker>
-          <p>Det är <persName ref="#Mårten">Mårten</persName>, som är dödsengelen! Det är således 
+          <p>Det är <persName ref="#Mårten">Mårten</persName>, som är dödsengelen! Det är således
           <lb/> en lögn alltsammans.</p>
         </sp>
         <sp who="#spGerdtBokprentare">
@@ -8565,7 +8569,7 @@
         <sp who="#spGerdtBokprentare">
           <speaker>GERDT.</speaker>
           <p>
-            <persName ref="#Christina">Christina</persName>, kom med mig från denna förfärliga boning, 
+            <persName ref="#Christina">Christina</persName>, kom med mig från denna förfärliga boning,
           <lb/> jag skall föra dig ur staden till en friskare ort.</p>
         </sp>
         <pb facs="37680-153.jpg"/>
@@ -8741,7 +8745,7 @@
         </sp>
         <sp who="#spHansWindrank">
           <speaker>WINDRANK.</speaker>
-          <p>Nej, det är bara för att jag har så svårt att hålla 
+          <p>Nej, det är bara för att jag har så svårt att hålla
           <pb facs="37680-157.jpg"/>
             <fw type="pageNum">150</fw>
           mun! Tyst för tusan! Var god och gå nu, annars blir jag
@@ -8792,7 +8796,7 @@
         </sp>
         <sp who="#spHansWindrank">
           <speaker>WINDRANK.</speaker>
-          <p>Och nu skall man sjunga bort pesten! Den busen 
+          <p>Och nu skall man sjunga bort pesten! Den busen
           <lb/> måtte vara musikhatare; men det förundrar mig inte om
           <lb/> han flydda deras hesa skrän!</p>
         </sp>
@@ -8800,8 +8804,8 @@
         <fw type="pageNum">151</fw>
         <sp who="#spNils">
           <speaker>NILS.</speaker>
-          <p>Vill ni säga mig hvem som inkräktar denna sista 
-          <lb/> helgedom, ty det är här som helgonets ben skola nedsättas, 
+          <p>Vill ni säga mig hvem som inkräktar denna sista
+          <lb/> helgedom, ty det är här som helgonets ben skola nedsättas,
           <lb/> innan det rifves?</p>
         </sp>
         <sp who="#spHansWindrank">
@@ -8809,7 +8813,7 @@
           <p>Då lär det allt bli slagsmål</p>
         </sp>
         <stage type="entrance" who="#Abbedissan #munkar #Mårten #nunnor">(Sången har närmat sig; nu inträder en procession af <persName ref="#munkar">dominikaner­
-	<lb break="no"/>munkar</persName> och <persName ref="#nunnor">franciskanernunnor</persName>; i spetsen <persName ref="#Mårten">Mårten</persName>. De stanna och sjunga. 
+	<lb break="no"/>munkar</persName> och <persName ref="#nunnor">franciskanernunnor</persName>; i spetsen <persName ref="#Mårten">Mårten</persName>. De stanna och sjunga.
 	<lb/>
           <persName ref="#arbetare">Arbetarne</persName> bullra i fonden).</stage>
         <sp who="#spAbbedissan #munkar #spMårten #nunnor">
@@ -8828,7 +8832,7 @@
         </sp>
         <sp who="#spAbbedissan">
           <speaker>ABBEDISSAN.</speaker>
-          <p>Herran, som hafver gifvit oss i de egyptiers hand, 
+          <p>Herran, som hafver gifvit oss i de egyptiers hand,
           <lb/> skall förlossa oss i sinom tid!</p>
         </sp>
         <sp who="#spMårten">
@@ -8868,7 +8872,7 @@
           <speaker>ARBETSFOGDEN.</speaker>
           <p>Det bör ni ej göra, ty det är jag som befaller här;
           <lb/> för öfrigt skall jag säga er, att de äro nog glada att få
-          <lb/> rifva ned dessa gamla getingbon, som de sjelfva fått betala, 
+          <lb/> rifva ned dessa gamla getingbon, som de sjelfva fått betala,
           <lb/> och dertill äro de nog tacksamma att få arbetsförtjenst
           <lb/> under hungersnöden!</p>
           <stage>(Går uppåt.)</stage>
@@ -8880,7 +8884,7 @@
         </sp>
         <sp who="#spAbbedissan">
           <speaker>ABBEDISSAN.</speaker>
-          <p>Herre, Herre, din helgedoms städer äro öde vordne; 
+          <p>Herre, Herre, din helgedoms städer äro öde vordne;
           <lb/>
             <placeName>Zion</placeName> är öde vorden! <placeName>Jerusalem</placeName> ligger förstördt!</p>
         </sp>
@@ -8924,7 +8928,7 @@
         </sp>
         <sp who="#spMästerOlof">
           <speaker>OLOF.</speaker>
-          <p>Tron I att edra afgudar kunna afvärja pesten, som 
+          <p>Tron I att edra afgudar kunna afvärja pesten, som
           <lb/> den ende Guden skickat er till straff! Tron I att Herren
           <lb/> finner dessa benstumpar, som I bären i skrinet, så behagliga
           <lb/> att han förlåter edra gräsliga synder! Bort med styggelsen!
@@ -8974,8 +8978,8 @@
         <fw type="pageNum">154</fw>
         <sp who="#spMårten">
           <speaker>MÅRTEN.</speaker>
-          <p>Hören, I trogne! Det är för <persName ref="#MästerOlof">den kättarens</persName> skull som 
-          <lb/> Herren slagit oss med pesten, det var Guds straff som 
+          <p>Hören, I trogne! Det är för <persName ref="#MästerOlof">den kättarens</persName> skull som
+          <lb/> Herren slagit oss med pesten, det var Guds straff som
           <lb/> först drabbade <persName ref="#FruChristina">hans moder</persName>!</p>
         </sp>
         <sp who="#spMästerOlof">
@@ -8983,7 +8987,7 @@
           <p>Hören I, <persName ref="#påfven">påfvens</persName> otrogne! det var Herrans straff öfver
           <lb/> mig derför att jag tjente <persName ref="#Sanherib">Sanherib</persName> mot <persName ref="#Juda">Juda</persName>! Jag skall
           <lb/> bota mitt brott, jag skall föra <persName ref="#Juda">Juda</persName> mot <persName>
-              <placeName>Assyriens</placeName> och 
+              <placeName>Assyriens</placeName> och
           <lb/>
               <placeName>Egyptens</placeName> konungar</persName>!</p>
         </sp>
@@ -9011,7 +9015,7 @@
         </sp>
         <sp who="#spMårten">
           <speaker>MÅRTEN.</speaker>
-          <p>Hellre må <persName ref="#StClara">helgonets</persName> ben hvila i denna heliga jord än 
+          <p>Hellre må <persName ref="#StClara">helgonets</persName> ben hvila i denna heliga jord än
           <lb/> utsättas för <persName ref="#MästerOlof">kättares</persName> skändliga händer!</p>
         </sp>
         <sp who="#spMästerOlof">
@@ -9020,13 +9024,13 @@
           <lb/> starkare än så!</p>
         </sp>
         <stage>(<persName ref="#GerdtBokprentare">GERDT</persName> hviskar till <persName ref="#MästerOlof">OLOF</persName> igen. <stage>
-            <persName ref="#munkar #nunnor">Processionen</persName> har skingrat sig så att 
+            <persName ref="#munkar #nunnor">Processionen</persName> har skingrat sig så att
         <lb/> blott en del stannat inne på scenen.</stage>)</stage>
         <sp who="#spMästerOlof">
           <speaker>OLOF</speaker>
           <stage>(till <persName ref="#Mårten">Mårten</persName>).</stage>
           <lb/>
-          <p>Du kan vara nöjd nu, <persName ref="#Mårten">hycklare</persName>! Gå och säg honom, 
+          <p>Du kan vara nöjd nu, <persName ref="#Mårten">hycklare</persName>! Gå och säg honom,
           <lb/> som du tjenar, att man håller på att begrafva ett silfver­
 	  <pb break="no" facs="37680-162.jpg"/>
             <fw type="pageNum">155</fw>skrin, och han skall rifva det ur mullen med sina naglar;
@@ -9068,7 +9072,7 @@
         <sp who="#spGerdtBokprentare">
           <speaker>GERDT.</speaker>
           <p>Denna bok är frukten af mitt tysta arbete! I skolen
-          <lb/> på hvarje blad läsa ett klagoskri, en suck af tusen som 
+          <lb/> på hvarje blad läsa ett klagoskri, en suck af tusen som
           <lb/> varit nog blinda att tro det vara Guds vilja att de skola
           <lb/> lida ens förtryck, de ha ansett som sin pligt att ej våga
           <lb/> tro på befrielse —</p>
@@ -9083,13 +9087,13 @@
 	  <lb break="no"/>bygder ned till sundet — af <orgName ref="#kyrkan">kyrkan</orgName> spillror bygger adeln
           <lb/> upp nya slott och nya fängelser åt folket — I skolen läsa
           <lb/> huru <persName ref="#GustavVasa">kungen</persName> säljer lag och rätt då han låter mördare
-          <lb/> undgå straff om de fly till saltpannorna; I skolen läsa huru 
+          <lb/> undgå straff om de fly till saltpannorna; I skolen läsa huru
           <pb facs="37680-163.jpg"/>
             <fw type="pageNum">156</fw>
           han beskattar lasten då han låter skökor betala för att
           <lb/> de skola få drifva sin näring; ja, sjelfva fiskarne i flo­
-	  <lb break="no"/>derna, sjelfva hafsvattnet har han slagit under sig, men 
-          <lb/> det är slut nu, man har öppnat ögonen på folket, det 
+	  <lb break="no"/>derna, sjelfva hafsvattnet har han slagit under sig, men
+          <lb/> det är slut nu, man har öppnat ögonen på folket, det
           <lb/> jäser och det sjuder, snart skall förtrycket krossas och de
           <lb/> skola vara fria!<supplied>”</supplied>
           </p>
@@ -9101,15 +9105,15 @@
         <sp who="#spGerdtBokprentare">
           <speaker>GERDT.</speaker>
           <p>Folket! Det är folkvisor, ser du, så här sjunger man
-          <lb/> då man går i oket! Jag har farit omrking i städerna och 
-          <lb/> på landsbygden, jag har frågat dem: ären I lyckliga? och 
+          <lb/> då man går i oket! Jag har farit omrking i städerna och
+          <lb/> på landsbygden, jag har frågat dem: ären I lyckliga? och
           <lb/> här äro svaren! Jag har hållit ting! Här äro besluten in­
-	  <lb break="no"/>skrifna! Tron I att millioner viljor rå på en! Tron I att 
+	  <lb break="no"/>skrifna! Tron I att millioner viljor rå på en! Tron I att
           <lb/> Gud skänkt detta land med menniskosjälar och egendom
           <lb/> åt en enda för att denne dermed skulle handla efter god­
-	  <lb break="no"/>tycke, eller tron I ej snarare att han skall utföra hvad 
+	  <lb break="no"/>tycke, eller tron I ej snarare att han skall utföra hvad
           <lb/> alla vilja!</p>
-          <p>I svaren ej! Nåväl, I bäfven vid tanken på att det 
+          <p>I svaren ej! Nåväl, I bäfven vid tanken på att det
           <lb/> kan bli slut! Hören nu min bikt! I morgon dör <persName ref="#GustavVasa">förtrycka­
 	  <lb break="no"/>ren</persName> och I ären alla fria!</p>
         </sp>
@@ -9170,9 +9174,9 @@
           <lb/> upprättat ett nytt andligt rike i <placeName>Mühlhausen</placeName>, I veten icke
           <lb/> att hela <placeName>Europa</placeName> är i uppror. Hvem var <persName ref="#Dacke">Dacke</persName> om icke
           <lb/> en de förtrycktes försvarare! hvad hafva dalkarlarne gjort
-          <lb/> vid sina uppror om icke försvarat sin frihet mot honom, 
+          <lb/> vid sina uppror om icke försvarat sin frihet mot honom,
           <lb/> som bröt tro och lofven. Det gör han ostraffadt, men när
-          <lb/> de vilja försvara sig, då skriker man på förräderi och 
+          <lb/> de vilja försvara sig, då skriker man på förräderi och
           <lb/> uppror!</p>
         </sp>
         <sp who="#spMästerOlof">
@@ -9192,7 +9196,7 @@
           <speaker>OLOF</speaker>
           <stage>(slår i boken).</stage>
           <lb/>
-          <p>Är det allas vilja, då kan ingen hindra det! <persName ref="#GerdtBokprentare">Gerdt</persName>, 
+          <p>Är det allas vilja, då kan ingen hindra det! <persName ref="#GerdtBokprentare">Gerdt</persName>,
           <lb/> låt mig gå till <persName ref="#GustavVasa">kungen</persName> med denna bok och visa honom
           <lb/> hvad hans folk vill, och han skall ge dem rätt!</p>
         </sp>
@@ -9214,8 +9218,8 @@
         </sp>
         <sp who="#spMästerOlof">
           <speaker>OLOF.</speaker>
-          <p>Han må dö att alla må lefva! Mördare, otacksam, 
-          <lb/> förrädare skall jag heta, må vara! Jag offrade allt, till och 
+          <p>Han må dö att alla må lefva! Mördare, otacksam,
+          <lb/> förrädare skall jag heta, må vara! Jag offrade allt, till och
           <lb/> med heder och samvete och tro — kunde jag gifva mera åt
           <lb/> dessa arma som ropa efter förlossning. Låt oss gå innan
           <lb/> jag ångrar mig!</p>
@@ -9307,7 +9311,7 @@
         </sp>
         <sp who="#spSkökan">
           <speaker>SKÖKAN.</speaker>
-          <p>Jag är då ej ensam! Säg mig hvilken ovärdig skänkte 
+          <p>Jag är då ej ensam! Säg mig hvilken ovärdig skänkte
           <lb/> ni er kärlek?</p>
         </sp>
         <sp who="#spChristina">
@@ -9331,7 +9335,7 @@
         </sp>
         <sp who="#spChristina">
           <speaker>CHRISTINA.</speaker>
-          <p>Har ni haft ett barn? Ni har då varit lycklig en 
+          <p>Har ni haft ett barn? Ni har då varit lycklig en
           <lb/> gång!</p>
         </sp>
         <sp who="#spSkökan">
@@ -9350,7 +9354,7 @@
         <sp who="#spChristina">
           <speaker>CHRISTINA.</speaker>
           <p>Ert barn? Hvad säger ni! Och jag som ber Gud
-          <lb/> hvarje dag att han skall skänka mig en varelse, en enda, 
+          <lb/> hvarje dag att han skall skänka mig en varelse, en enda,
           <lb/> som jag må älska!</p>
         </sp>
         <pb facs="37680-168.jpg"/>
@@ -9413,8 +9417,8 @@
           <speaker>CHRISTINA.</speaker>
           <p>Gå icke ifrån mig! Hvem ni är, stanna, för Guds
           <lb/> skull; man har brutit in i vårt hus och <persName ref="#MästerOlof">min man</persName> är ej
-          <lb/> till finnandes. Följ mig härifrån, hem till er, hvart som 
-          <lb/> helst. Ni är en god menniska, ni kan ej vara någon 
+          <lb/> till finnandes. Följ mig härifrån, hem till er, hvart som
+          <lb/> helst. Ni är en god menniska, ni kan ej vara någon
           <lb/> brottsling ...</p>
         </sp>
         <sp who="#spSkökan">
@@ -9431,13 +9435,13 @@
         </sp>
         <sp who="#spSkökan">
           <speaker>SKÖKAN.</speaker>
-          <p>Jag är en förkastad, på hvilken den förbannelse, som 
+          <p>Jag är en förkastad, på hvilken den förbannelse, som
           <lb/> Gud slungade öfver qvinnan vid syndafallet, har gått i
           <lb/> fullbordan! Fråga mig ej mer, ty om jag sade er mer
           <lb/> skulle er förkastelse fresta mig till sjelfförsvar, hvilket vore
-          <lb/> än förkastligare! Här kommer <persName ref="#HansWindrank">en person</persName>, som kanske vill 
+          <lb/> än förkastligare! Här kommer <persName ref="#HansWindrank">en person</persName>, som kanske vill
           <lb/> vara nog ädelmodig och följa er om ni lofvar honom er
-          <lb/> heder och ära och eviga frid för besväret, ty mindre lär 
+          <lb/> heder och ära och eviga frid för besväret, ty mindre lär
           <lb/> han ej begära för sitt beskydd på en så sen timma! För­
 	  <lb break="no"/>låt mig, det är ej er som min bitterhet drabbar.</p>
         </sp>
@@ -9448,27 +9452,27 @@
           <stage>(kommer in rusig).</stage>
           <lb/>
           <p>Det är då fan att man inte kan få vara ensam, inte
-          <lb/> en gång här bland liken. Hör nu, <persName ref="#Christina #Skökan">fruntimmer</persName>, var så 
+          <lb/> en gång här bland liken. Hör nu, <persName ref="#Christina #Skökan">fruntimmer</persName>, var så
           <lb/> goda och fråga mig ingenting, för nu ansvarar jag inte för
           <lb/> att jag kommer att svara. I öfvermorgon ska’ jag tala
           <lb/> om alltihop, för då är det för sent. Kanske <persName ref="#Christina #Skökan">herrskapet</persName> äro
-          <lb/> nunnor som äro husvilla! Jaja! fastän <persName ref="#Christina #Skökan">fruntimmerna</persName> bara 
+          <lb/> nunnor som äro husvilla! Jaja! fastän <persName ref="#Christina #Skökan">fruntimmerna</persName> bara
           <lb/> äro <persName ref="#Christina #Skökan">fruntimmer</persName> så anser jag mig inte derföre ha rättighet
-          <lb/> att vara ohöflig fastän solen gått ned; det fins visserligen 
-          <lb/> en gammal lag på att ingen får gripas efter solnedgången, 
+          <lb/> att vara ohöflig fastän solen gått ned; det fins visserligen
+          <lb/> en gammal lag på att ingen får gripas efter solnedgången,
           <lb/> men lagen är en buse, som likvisst af artighet icke vill
           <lb/> göra sig gällande mot <persName ref="#Christina #Skökan">fruntimmerna</persName>.</p>
           <p>
             <anchor xml:id="handprat4start"/>Tyst! Tyst, min
           <lb/> tunga; hon går ju som en spinnrock;<anchor xml:id="handprat4slut"/> men det är det för­
 	  <pb break="no" facs="37680-170.jpg"/>
-            <fw type="pageNum">163</fw>bannade bränvinet! Men hvarför ska’ man dra’ mig in i 
+            <fw type="pageNum">163</fw>bannade bränvinet! Men hvarför ska’ man dra’ mig in i
           <lb/> så’na der historier! Det är visserligen sant att jag får bra
           <lb/> betaldt och blir en bergad karl, men ni ska’ inte tro att
           <lb/> jag gör det för pengarnas skull. Men det är gjordt nu!
           <lb/> Men jag vill inte, jag vill inte! Jag vill sofva i fred om
-          <lb/> nätterna och inte oroas af spöken. Om jag skulle gå och 
-          <lb/> tala om det? Nej, då griper man mig. Om någon annan 
+          <lb/> nätterna och inte oroas af spöken. Om jag skulle gå och
+          <lb/> tala om det? Nej, då griper man mig. Om någon annan
           <lb/> skulle gå och tala om’et! Kanske någon af <persName ref="#Christina #Skökan">nunnorna</persName> vill
           <lb/> vara så god och göra det!</p>
         </sp>
@@ -9476,7 +9480,7 @@
           <speaker>CHRISTINA</speaker>
           <stage>(som rådgjort med <persName ref="#Skökan">skökan</persName>).</stage>
           <lb/>
-          <p>Är det något ni bär på samvetet, som oroar er, så 
+          <p>Är det något ni bär på samvetet, som oroar er, så
           <lb/> tala om!</p>
         </sp>
         <sp who="#spHansWindrank">
@@ -9536,7 +9540,7 @@
           <speaker>WINDRANK.</speaker>
           <p>Jo, se jag har mina små relationer bland kyrkobetje­
 	  <lb break="no"/>ningen och så var jag fattig! Men, sak samma hvem som
-          <lb/> bränner af bössan, bara någon förståndig riktar henne, och 
+          <lb/> bränner af bössan, bara någon förståndig riktar henne, och
           <lb/> dessutom ha’ vi flera funderingar i reserv, fast jag skall
           <lb/> öppna elden. Men hvarför går ni inte och talar om?</p>
         </sp>
@@ -9631,7 +9635,7 @@
           <speaker>WINDRANK</speaker>
           <stage>(blir nykter och allvarligt rörd).</stage>
           <lb/>
-          <p>Herre Gud i himmelen, det var bestämdt <persName ref="#Christina">hans hustru</persName>! 
+          <p>Herre Gud i himmelen, det var bestämdt <persName ref="#Christina">hans hustru</persName>!
           <pb facs="37680-173.jpg"/>
             <fw type="pageNum">166</fw>
             <stage>Går till <persName ref="#Christina">Christina</persName>.)</stage> Jag tror att jag tagit lifvet af henne!
@@ -9644,7 +9648,7 @@
           <speaker>OLOF</speaker>
           <stage>
             <stage type="entrance" who="#knektar #MästerOlof">(föres mellan knektar med facklor,</stage>
-            <lb/> får se <persName ref="#Christina">Christina</persName>, sliter sig lös och 
+            <lb/> får se <persName ref="#Christina">Christina</persName>, sliter sig lös och
           <lb/> faller på knä vid henne).</stage>
           <lb/>
           <p>
@@ -9669,7 +9673,7 @@
           <head>Tablå.</head>
           <stage type="entrance" who="#GerdtBokprentare #Kyrkvaktaren #Kyrkvaktarenshustru #MästerOlof"/>
           <stage type="setting">En del af <placeName ref="#Storkyrkan">storkyrkan</placeName>. Olof och Gerdt i fångkläder på skampallar
-	  <lb/> vid dörren. Orgeln spelar. Klockorna ringa. Gudstjensten är slut och 
+	  <lb/> vid dörren. Orgeln spelar. Klockorna ringa. Gudstjensten är slut och
 	  <lb/> folket går ur <orgName ref="#kyrkan">kyrkan</orgName>. Kyrkvaktaren och hans hustru stå något undan
 	  <lb/> ned på scenen.</stage>
           <sp who="#spKyrkvaktaren">
@@ -9699,7 +9703,7 @@
           </sp>
           <sp who="#spKyrkvaktaren">
             <speaker>KYRKVAKTAREN.</speaker>
-            <p>Ja, han var bra ung, det var allt hans fel det, men 
+            <p>Ja, han var bra ung, det var allt hans fel det, men
             <lb/> det går nog bort med tiden!</p>
           </sp>
           <sp who="#spKyrkvaktarenshustru">
@@ -9708,7 +9712,7 @@
           </sp>
           <sp who="#spKyrkvaktaren">
             <speaker>KYRKVAKTAREN.</speaker>
-            <p>Ja, Herre Gud, jag höll på att glömma bort det, 
+            <p>Ja, Herre Gud, jag höll på att glömma bort det,
             <lb/> men så förefaller det mig så orimligt också.</p>
           </sp>
           <pb facs="37680-175.jpg"/>
@@ -9743,17 +9747,17 @@
           <sp who="#spKyrkvaktaren">
             <speaker>KYRKVAKTAREN.</speaker>
             <p>Ser du, här komma <persName ref="#Scholaris1 #Scholaris2">barnen</persName>; de se ledsna ut, jag sä­
-	    <lb break="no"/>ger ingenting om’et. Jag tror jag får gå in till mig och 
+	    <lb break="no"/>ger ingenting om’et. Jag tror jag får gå in till mig och
             <lb/> gråta ...</p>
           </sp>
-          <stage type="setting">(<stage type="entrance" who="#Folket #knektar #konfirmander #LaurentiusPetri #Mårten #Scholaris1">Konfirmanderna, flickor och gossar, tåga förbi Olof med blomqvastar 
+          <stage type="setting">(<stage type="entrance" who="#Folket #knektar #konfirmander #LaurentiusPetri #Mårten #Scholaris1">Konfirmanderna, flickor och gossar, tåga förbi Olof med blomqvastar
 	  <lb/> i händerna. De äro bedröfvade och gå med nedslagna ögon. Folk följer
 	  <lb/> dem. Nyfikna peka finger åt Olof, andra tillrättavisa de förra. VILHELM (scholaris)
 	  <lb/> går sist i processionen; stannar blygt framför Olof, faller på
-	  <lb/> knä och lägger sin blomqvast vid Olofs fötter utan att denne märker det, 
+	  <lb/> knä och lägger sin blomqvast vid Olofs fötter utan att denne märker det,
 	  <lb/> ty han har dragit hufvan öfver ansigtet. En del af folket mumlar ogil­
-	  <lb break="no"/>lande, en annan bifallande. Mårten går fram att taga undan blommorna, 
-	  <lb/> man blir tillbakaträngd af folket. Knektar bana väg för Lars Petri, som 
+	  <lb break="no"/>lande, en annan bifallande. Mårten går fram att taga undan blommorna,
+	  <lb/> man blir tillbakaträngd af folket. Knektar bana väg för Lars Petri, som
 	  <lb/> framträder i ornat.</stage>
             <stage type="exit" who="#Folket #konfirmander #knektar #Mårten #Scholaris1">Folket försvinner.</stage>
             <stage>Lars, Olof och Gerdt ensamma.</stage>
@@ -9802,7 +9806,7 @@
           </sp>
           <sp who="#spLaurentiusPetri">
             <speaker>LARS.</speaker>
-            <p>Jag vill säga dig att jag tror detsamma och det är 
+            <p>Jag vill säga dig att jag tror detsamma och det är
             <lb/> till ett nytt lif i denna verlden, jag bereder dig.</p>
           </sp>
           <sp who="#spMästerOlof">
@@ -9838,7 +9842,7 @@
             <speaker>GERDT.</speaker>
             <p>Vår skörd var ej mogen. Det skall falla mycket
             <lb/> snö om höstsäden skall gå, ja, sekler skola förgå innan
-            <lb/> man får se ens en brodd! <persName ref="#Dansk #GerdtBokprentare #LaurentiusAndreæ #MästerOlof #Småländing #Tysk">De sammansvurna</persName> äro gripna, 
+            <lb/> man får se ens en brodd! <persName ref="#Dansk #GerdtBokprentare #LaurentiusAndreæ #MästerOlof #Småländing #Tysk">De sammansvurna</persName> äro gripna,
             <lb/> säger man, och håller tacksägelser; man misstar sig; här
             <lb/> gå sammansvurne rundt omkring oss, i de kungliga ge­
 	    <lb break="no"/>maken, i kyrkorna och på torgen, men de våga ej hvad
@@ -9847,7 +9851,7 @@
             <lb/> förnöjelse; hvarje ny martyrs namn blir ett nytt fältrop
             <lb/> för en ny skara. Tro aldrig att en lögn eldat en men­
 	    <lb break="no"/>niskosjäl, misstro aldrig de rörelser som skakat dig i ditt
-            <lb/> innersta, då du sett någon lida andligt eller lekamligt våld; 
+            <lb/> innersta, då du sett någon lida andligt eller lekamligt våld;
             <lb/> om ock hela verlden säger du har orätt, så tro dock ditt
             <lb/> hjerta, om du har mod dertill. Den dag du förnekar dig
             <lb/> sjelf är du död, och evig fördömelse skall vara en nåd för
@@ -9859,7 +9863,7 @@
           </sp>
           <sp who="#spGerdtBokprentare">
             <speaker>GERDT.</speaker>
-            <p>Borgerskapet har erbjudit 500 dukater i lösen för dig. 
+            <p>Borgerskapet har erbjudit 500 dukater i lösen för dig.
             <lb/> När det bara kostade 2,000 att få <persName ref="#Birgitta">Birgitta</persName> förklarad hel­
 	    <lb break="no"/>gon, så skola väl 500 räcka att få dig förklarad obrottslig.
             <lb/>
@@ -9877,7 +9881,7 @@
             <speaker>GERDT</speaker>
             <stage type="exit" who="#GerdtBokprentare">(bortföres).</stage>
             <lb/>
-            <p>Farväl, <persName ref="#MästerOlof">Olof</persName>! tag hand om <persName ref="#Christina">min dotter</persName>, och glöm 
+            <p>Farväl, <persName ref="#MästerOlof">Olof</persName>! tag hand om <persName ref="#Christina">min dotter</persName>, och glöm
             <lb/> aldrig den stora pingstdagen!</p>
           </sp>
           <sp who="#spLarsSiggeson">
@@ -9907,21 +9911,21 @@
           </sp>
           <sp who="#spLarsSiggeson">
             <speaker>MARSKEN.</speaker>
-            <p>Detta är en lögn! <persName ref="#bödeln">Bödeln</persName> väntar äfven på er! Men 
+            <p>Detta är en lögn! <persName ref="#bödeln">Bödeln</persName> väntar äfven på er! Men
             <lb/> jag ber er höra några ord af <persName ref="#LarsSiggeson">en gammal man</persName>! Jag har
             <lb/> också varit ung och drifvits af mäktiga lidelser; det hör
-            <lb/> till ungdomen, men dessa lidelser äro ämnade att dödas. 
-            <lb/> Jag gjorde som ni, jag gick omrking och sade sanningar, 
+            <lb/> till ungdomen, men dessa lidelser äro ämnade att dödas.
+            <lb/> Jag gjorde som ni, jag gick omrking och sade sanningar,
             <lb/> men jag fick bara otack, i bästa fall ett löje; jag ville
             <lb/> också bygga en liten himmel här på jorden, <stage>(med eftertryck)</stage>
-              <lb/> naturligtvis på andra grunder än ni, men jag tog snart 
-            <lb/> mitt förnuft till fånga och slog bort hjernspökena. Jag 
+              <lb/> naturligtvis på andra grunder än ni, men jag tog snart
+            <lb/> mitt förnuft till fånga och slog bort hjernspökena. Jag
             <lb/> vill visst inte påstå att ni är en man, som vill vinna
-            <lb/> ryktbarhet genom att göra väsen af sig, det tror jag inte, 
+            <lb/> ryktbarhet genom att göra väsen af sig, det tror jag inte,
             <lb/> det är välmening, men en välmening som gör mycket ondt.
             <lb/> Ni har ett hett blod, som förblindar er, derför att ni ej
-            <lb/> lägger band på er; ni predikar frihet och störtar tusende 
-            <lb/> i sjelfsvåldets slafveri. Gå tillbaka, <persName ref="#MästerOlof">unge man</persName>, och försona 
+            <lb/> lägger band på er; ni predikar frihet och störtar tusende
+            <lb/> i sjelfsvåldets slafveri. Gå tillbaka, <persName ref="#MästerOlof">unge man</persName>, och försona
             <pb facs="37680-179.jpg"/>
               <fw type="pageNum">172</fw>
             hvad ni brutit, återställ hvad ni rifvit ner och menniskorna
@@ -9947,27 +9951,27 @@
           </sp>
           <sp who="#spLarsSiggeson">
             <speaker>MARSKEN.</speaker>
-            <p>Ni skulle ha släppt era drömmar något tidigare. Men 
+            <p>Ni skulle ha släppt era drömmar något tidigare. Men
             <lb/> lugna er. Ni eger ännu lifvet för er, det förflutna har
             <lb/> varit en skola, visserligen hård, men desto sundare. Ni
             <lb/> har lefvat för hugskott och dårskaper hittilldags, ni har
             <lb/> förnummit åtskilligt som verkligheten kräfver af er. Utan­
-	    <lb break="no"/>för denna dörr stå edra gäldenärer med sina fordringar. 
+	    <lb break="no"/>för denna dörr stå edra gäldenärer med sina fordringar.
             <lb/> Här äro deras papper! Den nya <orgName ref="#kyrkan">kyrkans</orgName> presterskap for­
 	    <lb break="no"/>drar att ni skall lefva för att fullborda hvad ni så vackert
             <lb/> börjat. Stadens borgerskap fordrar sin <persName ref="#MästerOlof">secretarius i råd­
 	    <lb break="no"/>stugan</persName>, församlingen fordrar <persName ref="#MästerOlof">sin herde</persName>, konfirmandi <persName ref="#MästerOlof">sin lä­
 	    <lb break="no"/>rare</persName>. Detta äro de laglige fordringsegarne. Men det står
-            <lb/> ännu en derute, som ni kanske är mest skyldig, och som 
-            <lb/> dock fordrar intet, <persName ref="#Christina">er unga maka</persName>. Ni har ryckt henne 
-            <lb/> från <persName ref="#GerdtBokprentare">en fader</persName> och kastar ut henne bland stormarne, ni 
-            <lb/> har ryckt ned hennes barnatro och kastat oro i hennes 
+            <lb/> ännu en derute, som ni kanske är mest skyldig, och som
+            <lb/> dock fordrar intet, <persName ref="#Christina">er unga maka</persName>. Ni har ryckt henne
+            <lb/> från <persName ref="#GerdtBokprentare">en fader</persName> och kastar ut henne bland stormarne, ni
+            <lb/> har ryckt ned hennes barnatro och kastat oro i hennes
             <lb/> sinne; edra dårskaper ha retat en rå folkhop att drifva
-            <lb/> henne ur hennes hem, och hon fordrar ej ens kärlek af er, 
+            <lb/> henne ur hennes hem, och hon fordrar ej ens kärlek af er,
             <lb/> hon ber blott att få släpa fram sitt lif under lidanden vid
-            <lb/> er sida; ni ser att äfven vi sysselsätta oss med andra, 
-            <lb/> fastän ni kallar oss sjelfviske. Låt mig öppna denna dörr, 
-            <lb/> som skall leda er åter ut i verlden, böj edert sinne medan 
+            <lb/> er sida; ni ser att äfven vi sysselsätta oss med andra,
+            <lb/> fastän ni kallar oss sjelfviske. Låt mig öppna denna dörr,
+            <lb/> som skall leda er åter ut i verlden, böj edert sinne medan
             <lb/> det ännu är mjukt och tacka Gud, som ännu ger er tid
             <lb/> att verka för menskligheten!</p>
           </sp>
@@ -9990,11 +9994,11 @@
             </stage>
             <lb/>
             <p>
-              <persName ref="#MästerOlof">Olaus Petri</persName>, förr kyrkoherde i <placeName>Stockholms storkyrka</placeName>, 
+              <persName ref="#MästerOlof">Olaus Petri</persName>, förr kyrkoherde i <placeName>Stockholms storkyrka</placeName>,
           <lb/> gör ni härmed afbön för hvad ni brutit, återkallar ni hvad
           <lb/> ni sagt mot och öfver <persName ref="#GustavVasa">konungens</persName> befallning, samt förklarar
           <lb/> ni er villig hålla er ed till <orgName>Svea rikes</orgName>
-              <persName ref="#GustavVasa">konung</persName> och honom 
+              <persName ref="#GustavVasa">konung</persName> och honom
           <lb/> troget tjena?</p>
           </sp>
           <sp who="#spMästerOlof">
@@ -10020,7 +10024,7 @@
             <speaker>OLOF</speaker>
             <stage>(kallt).</stage>
             <lb/>
-            <p>Innan jag lemnar detta rum, låt mig vara ensam ett 
+            <p>Innan jag lemnar detta rum, låt mig vara ensam ett
             <lb/> ögonblick med min Gud; jag kan behöfva det! Här slog
             <lb/> jag en gång mitt första slag och här ...</p>
           </sp>
@@ -10035,7 +10039,7 @@
           </sp>
           <sp who="#spScholaris1">
             <speaker>VILHELM</speaker>
-            <stage type="entrance" who="#Scholaris1">(kommer försiktigt in. Blir 
+            <stage type="entrance" who="#Scholaris1">(kommer försiktigt in. Blir
             <lb/> förvånad att se <persName ref="#MästerOlof">Olof</persName> ensam
             <lb/> och fri).</stage>
             <lb/>
@@ -10061,7 +10065,7 @@
             <lb/> ville ge er ett minne från den tiden, då vi lekte under
             <lb/> lindarne på <placeName>Strengnäs’ klostergård</placeName>; jag trodde att det skulle
             <lb/> göra er godt att se, det vi ej tackat Gud för det att ni
-            <lb/> ej kom tillbaka, som ni då sade. Aldrig glömde vi er, 
+            <lb/> ej kom tillbaka, som ni då sade. Aldrig glömde vi er,
             <lb/> ty ni befriade oss från de grymma straffen, och det var ni
             <lb/> som öppnade de tunga klosterdörrarne och gaf oss tillbaka
             <lb/> friheten och den blåa himmelen och det glada lifvet. Hvar­
@@ -10072,7 +10076,7 @@
             <lb/> talte en gång om huru man brände <persName ref="#Huss">Huss</persName> derföre att han
             <lb/> vågat säga sanningen åt de mäktige, ni beskref huru han
             <lb/> besteg bålet och med glädje befalde sig i Guds hand, profe­
-	    <lb break="no"/>terande om den svanen som en gång skulle komma och 
+	    <lb break="no"/>terande om den svanen som en gång skulle komma och
             <lb/> sjunga nya sånger till den vaknade frihetens lof! Så har
             <lb/> jag tänkt mig er gå döden till mötes, med öppen panna
             <lb/> och blicken mot himlen under folkets rop: så dör ett vittne!</p>

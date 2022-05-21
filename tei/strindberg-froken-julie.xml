@@ -68,7 +68,6 @@
         </availability>
         <idno type="dramawebben">StrindbergA_FrokenJulie</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000041</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q658557</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -90,9 +89,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1888"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -105,15 +101,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -142,7 +138,7 @@
 <!-- Stycken i repliker är indragna. -->
 <!-- Stycken i scenanvisningar är indragna. -->
 <!-- Rubriker anges med kursiv stil. -->
-<!-- Scenanvisningar i direkt anslutning till speaker-element 
+<!-- Scenanvisningar i direkt anslutning till speaker-element
 	       har indrag vid varje radbrytning. -->
 <!-- Scenanvisningar i sp-element är inline. -->
 <!-- Paus markeras med:
@@ -192,6 +188,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1888">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q658557"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -328,7 +332,7 @@
           </stage>
           <sp who="#spJean">
             <speaker>JEAN.</speaker>
-            <p>I qväll är <persName ref="#FrökenJulie">fröken Julie</persName> galen igen; komplett 
+            <p>I qväll är <persName ref="#FrökenJulie">fröken Julie</persName> galen igen; komplett
             <lb/> galen!</p>
           </sp>
           <sp who="#spKristin">
@@ -563,7 +567,7 @@
           </sp>
           <sp who="#spFrökenJulie">
             <speaker>FRÖKEN</speaker>
-            <stage>slår honom i ansigtet med 
+            <stage>slår honom i ansigtet med
             <lb/> näsduken.</stage>
             <p>Det är nyfiken!</p>
           </sp>
@@ -1504,7 +1508,7 @@
           </sp>
           <sp who="#spJean">
             <speaker>JEAN</speaker>
-            <stage>med djup smärta, starkt 
+            <stage>med djup smärta, starkt
             <lb/> chargeradt.</stage>
             <p>Åh, <persName ref="#FrökenJulie">fröken Julie</persName>! Åh! — En hund kan få ligga
             <lb/> i grefvinnans soffa, en häst kan bli smekt på nosen
@@ -1784,7 +1788,7 @@
         <div>
           <sp who="#spFrökenJulie">
             <speaker>FRÖKEN</speaker>
-            <stage type="entrance" who="#FrökenJulie">in ensam: ser förödelsen 
+            <stage type="entrance" who="#FrökenJulie">in ensam: ser förödelsen
             <lb/> i köket; slår ihop hän­
 	    <lb break="no"/>derna; derpå tar hon upp
             <lb/> en pudervippa och pudrar
@@ -2702,14 +2706,14 @@
           </sp>
           <sp who="#spJean">
             <speaker>JEAN</speaker>
-            <stage>tar opp portemonnän och 
+            <stage>tar opp portemonnän och
             <lb/> kastar ett silfvermynt på
             <lb/> bordet.</stage>
             <p>Var så god! Jag vill inte vara skyldig något!</p>
           </sp>
           <sp who="#spFrökenJulie">
             <speaker>FRÖKEN</speaker>
-            <stage>utan att låtsas märka 
+            <stage>utan att låtsas märka
             <lb/> skymfen.</stage>
             <p>Vet ni hvad lagen stadgar ...</p>
           </sp>
@@ -3103,7 +3107,7 @@
             <lb/> aldrig förgäta — Fröken som var så stolt, så frän
             <lb/> mot manfolk, så man aldrig ville tro att hon skulle
             <lb/> gå sta och ge sig — — — och åt en sådan! Hon
-            <lb/> som höll på att låta skjuta <persName ref="#Diana">Diana</persName> stackare för att 
+            <lb/> som höll på att låta skjuta <persName ref="#Diana">Diana</persName> stackare för att
             <lb/> hon sprang efter grindstugans mops! — Ja, jag säger
             <lb/> det! — Men här vill jag inte vara längre, och till
             <lb/> tjugufjerde oktober går jag min väg.</p>
@@ -3367,7 +3371,7 @@
           </sp>
           <sp who="#spFrökenJulie">
             <speaker>FRÖKEN</speaker>
-            <stage>närmar sig huggkubben, 
+            <stage>närmar sig huggkubben,
             <lb/> liksom dragen dit mot sin
             <lb/> vilja.</stage>
             <p>Nej, jag vill inte gå ännu; jag kan inte ... jag
@@ -3388,7 +3392,7 @@
             <pb facs="6272-100.jpg"/>
               <fw type="pageNum">71</fw>
             du har väl inte något kan jag tro. Jag skulle bli fru
-            <lb/> »Grindstugan» — eller madam »Sopbacken» — du 
+            <lb/> »Grindstugan» — eller madam »Sopbacken» — du
             <lb/> hund som bär mitt halsband, du dräng som bär mitt
             <lb/> bomärke i dina knappar — jag dela med min köksa,
             <lb/> rivalisera med min piga! Åh! åh! åh! — Du tror
@@ -3418,7 +3422,7 @@
           </sp>
           <sp who="#spFrökenJulie">
             <speaker>FRÖKEN</speaker>
-            <stage>skyndar emot henne och 
+            <stage>skyndar emot henne och
             <lb/> faller i hennes armar, lik­
 	    <lb break="no"/>som för att söka skydd.</stage>
             <p>Hjelp mig, <persName ref="#Kristin">Kristin</persName>! Hjelp mig mot denne man!</p>
@@ -3737,7 +3741,7 @@
             <lb/> rike! Si, så är det, <persName ref="#FrökenJulie">fröken Julie</persName>! Nu går jag emeller­
 	    <lb break="no"/>tid — ensam, och i förbigående ska jag säga åt
             <lb/> stalldrängen att han inte lemnar ut några hästar, i
-            <lb/> fall någon skulle ville resa innan <persName ref="#Grefven">grefven</persName> kommer 
+            <lb/> fall någon skulle ville resa innan <persName ref="#Grefven">grefven</persName> kommer
             <lb/> hem! — Adjö!</p>
             <stage type="exit" who="#Kristin">går.</stage>
           </sp>
@@ -3974,14 +3978,14 @@
           <stage>Två starka ringningar i klockan.</stage>
           <sp who="#spJean">
             <speaker>JEAN</speaker>
-            <stage>far tillsammans; derpå 
+            <stage>far tillsammans; derpå
             <lb/> rätar han upp sig.</stage>
             <p>Det är rysligt! Men det fins intet annat slut!
             <lb/> — Gå!</p>
           </sp>
           <sp who="#spFrökenJulie">
             <speaker>FRÖKEN</speaker>
-            <stage type="exit" who="#FrökenJulie">går bestämdt ut genom 
+            <stage type="exit" who="#FrökenJulie">går bestämdt ut genom
             <lb/> dörren.</stage>
           </sp>
         </div>

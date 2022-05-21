@@ -70,7 +70,6 @@
         </availability>
         <idno type="dramawebben">StrindbergA_Hostslask</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000044</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q59618183</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -103,9 +102,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1884"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -118,15 +114,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -219,6 +215,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1884">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q59618183"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -271,7 +275,7 @@
 	<lb break="no"/>merordnar och nådemedel.</stage>
         <sp who="#spMogol">
           <speaker>Mogol:</speaker>
-          <p>Nej, nu börja de bli för svåra. 
+          <p>Nej, nu börja de bli för svåra.
           <lb/> angripa ju samhället ...</p>
         </sp>
         <sp who="#spLama">
@@ -447,7 +451,7 @@
         </sp>
         <sp who="#spAnsvaringenförFinanserna">
           <speaker>Ansvaringen.</speaker>
-          <p>Det vet jag inte, och derför ber jag 
+          <p>Det vet jag inte, och derför ber jag
           <lb/> få ställa min portfölj till <persName ref="#Mogol">Ers Mogol</persName>s dis­
 	  <lb break="no"/>position.</p>
           <stage type="exit" who="#AnsvaringenförFinanserna">(Går.)</stage>

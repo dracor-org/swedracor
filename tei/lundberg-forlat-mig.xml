@@ -67,7 +67,6 @@
         </availability>
         <idno type="dramawebben">LundbergE_ForlatMig</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000029</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q59618575</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -91,9 +90,6 @@
             <biblScope unit="vol">220</biblScope>
           </series>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1886"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -106,15 +102,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -179,6 +175,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1886">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q59618575"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -539,7 +543,7 @@
           <sp who="#spVännen">
             <speaker>VÄNNEN.</speaker>
             <p>Och om du en enda gång låtit mig tala till
-              <lb/> punkt, skulle jag längesedan ha sagt dig hennes 
+              <lb/> punkt, skulle jag längesedan ha sagt dig hennes
               <lb/> namn.</p>
           </sp>
           <sp who="#spHerrn">
@@ -882,8 +886,8 @@
           </sp>
           <sp who="#spHerrn">
             <speaker>HERRN.</speaker>
-            <p>Det såg du ju! Hon moltiger. Och för att en 
-              <lb/> qvinna skall tiga, måste hon vara nära på qväfd! — 
+            <p>Det såg du ju! Hon moltiger. Och för att en
+              <lb/> qvinna skall tiga, måste hon vara nära på qväfd! —
               <lb/> Hon tystnade inte, förrän hon tagit himlen till vittne,
               <lb/> att hon var en martyr, och att hon i moralens namn
               <lb/> var skyldig att söka skilsmessa. Och slutligen för­<lb break="no"/>klarade hon, att hon ansåg under sig värdighet att
@@ -1180,7 +1184,7 @@
           <sp who="#spFrun">
             <speaker>FRUN.</speaker>
             <p>Ja — du tycker väl, att det är förfärligt! — Jo
-              <lb/> du, han sa' det derför, att jag låtit skura hans golf — 
+              <lb/> du, han sa' det derför, att jag låtit skura hans golf —
               <lb/> och ändå <stage>(gråtande)</stage> vet Gud, att det låg damhögar i
                <pb facs="6943-22.jpg"/>
               <fw type="pageNum">21</fw>
@@ -1225,7 +1229,7 @@
             <speaker>FRUN.</speaker>
             <p>Ja, om det var <emph>han</emph> som sa' det åt <emph>mig</emph>, eller jag,
               <lb/> som sa' det åt honom, så har han ändå alltid orätt!
-              <lb/> Men det är för resten rätt åt mig. Att tänka sig — 
+              <lb/> Men det är för resten rätt åt mig. Att tänka sig —
               <lb/> när man har <persName ref="#Herrn">en öm och älskvärd fästman, en fästman</persName>!
               <lb/> Åh! det är ett himmelrike på jorden! och att då inte
               <lb/> vara nöjd med det, utan rusa åstad och byta ut
@@ -1331,7 +1335,7 @@
             <speaker>FRUN.</speaker>
             <p>Visst är det mitt fel! Allting är mitt fel! Och
               <lb/> det från <persName ref="#Vännen">mina egna slägtingar</persName>. <stage>(gråtande)</stage> Fins det
-              <lb/> någon menniska, som inte vänder sig emot mig! — 
+              <lb/> någon menniska, som inte vänder sig emot mig! —
               <lb/>
               <quote type="paraphrase">Har jag kanske inte här i detta hus närt en orm vid
               <lb/> min egen barm</quote>. <persName ref="#Ebba">Min egen, enda syster</persName>, <persName ref="#Ebba">den der lilla
@@ -1353,7 +1357,7 @@
           <sp who="#spVännen">
             <speaker>VÄNNEN.</speaker>
             <p>Jo — jag reser bort! Det är nödvändigt för mitt
-              <lb/> lugn. Jag vill dränka min sorg i Lethes, ja d. v. s. 
+              <lb/> lugn. Jag vill dränka min sorg i Lethes, ja d. v. s.
               <lb/> egentligen i <placeName>Rhens</placeName> bölja. När hon får lära känna
               <lb/> mitt beslut att aldrig gifta mig, skall hennes hjerta
               <lb/> brista ...</p>
@@ -1577,7 +1581,7 @@
             <speaker>FRUN</speaker>
             <stage>(som under tiden synts fatta
               <lb/> ett beslut; glädtigt).</stage>
-            <p>Alla mina fel, menar du! Ja, genera dig inte! — 
+            <p>Alla mina fel, menar du! Ja, genera dig inte! —
               <lb/> Och du tror derför, att om jag är hård och oförsonlig
               <lb/> mot <persName ref="#Herrn">min man</persName>, så måste hon också komma att bli det
               <lb/> mot dig. Ja, <persName ref="#Vännen">kära Oskar</persName>, du har mycket rätt, men

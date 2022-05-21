@@ -68,7 +68,6 @@
         </availability>
         <idno type="dramawebben">StrindbergA_HerrBengtsHustru</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000043</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q11975209</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -90,9 +89,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1882"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -105,15 +101,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -280,6 +276,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1882">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q11975209"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -418,7 +422,7 @@
           </sp>
           <sp who="#spMargit">
             <speaker>MARGIT.</speaker>
-            <p>Jag vill ha stryk, men jag vill inte förstöra mina 
+            <p>Jag vill ha stryk, men jag vill inte förstöra mina
               <lb/> händer.</p>
           </sp>
           <sp who="#spMetta">
@@ -597,7 +601,7 @@
             <speaker>MARGIT.</speaker>
             <p>Osanning! Intet hopp således! Och veta att
               <lb/> det finnes menniskor, som få trampa nyslagna ängar,
-              <lb/> känna bara himmelen öfver sig, andas en varm, väl­<lb break="no"/>luktande luft, medan vi sitta här i fukt och köld! — 
+              <lb/> känna bara himmelen öfver sig, andas en varm, väl­<lb break="no"/>luktande luft, medan vi sitta här i fukt och köld! —
               <lb/> Nu vet jag hvad jag kommer att göra!</p>
           </sp>
           <sp who="#spGårdsmästaren">
@@ -944,7 +948,7 @@
               <lb/> bikt, ni som är <persName ref="#Biktfadern">min biktfader</persName>! Kom hit! <stage>(Tar hans
               <lb/> hand och leder honom till taflan i fonden.)</stage> Hör min gräsliga
               <lb/> synd, mina förderfvade tankar; jag ville hellre ha
-              <lb/> till brudgum <persName ref="#Knekten">den knekten</persName> som slår, ty han liknar 
+              <lb/> till brudgum <persName ref="#Knekten">den knekten</persName> som slår, ty han liknar
               <lb/> honom!</p>
           </sp>
           <sp who="#spBiktfadern">
@@ -984,7 +988,7 @@
             <speaker>BIKTFADERN.</speaker>
             <stage>läser hastigt upp.</stage>
             <p>
-              <writing>»<persName ref="#AntoniusAfPadua">Den helige Antonius af Padua</persName> begaf sig ut i 
+              <writing>»<persName ref="#AntoniusAfPadua">Den helige Antonius af Padua</persName> begaf sig ut i
               <lb/> öknen för att tillbringa fastan under betraktelser öfver
               <lb/>
                 <persName ref="#Jesus">Kristi</persName> lidanden. Om aftonen kom en fattig qvinna
@@ -1006,7 +1010,7 @@
             <speaker>BIKTFADERN.</speaker>
             <p>Vin! Nej, det var glöd! Jag har aldrig druckit
               <lb/> vin, hör du, jag har aldrig älskat, hör du, ty jag vå­<lb break="no"/>gade icke. Jag är trettio år, har aldrig varit ung,
-              <lb/> har aldrig varit frestad, lefvat så lugnt. Men nu — 
+              <lb/> har aldrig varit frestad, lefvat så lugnt. Men nu —
               <lb/>
               <stage>(sätter sig)</stage> mitt blod värmer mig, jag känner blomster­<lb break="no"/>dofter, jag hör toner af luta och flöjt, icke orgel, icke
               <lb/> orgel! Gif mig rosor, mera rosor! Upp och dansa,
@@ -1229,7 +1233,7 @@
           <sp who="#spBengt">
             <speaker>BENGT</speaker>
             <stage type="entrance" who="#Bengt">tillbaka.</stage>
-            <p>Hvar har jag lagt mina handskar? <stage>(Får se <persName ref="#Margit">Margit</persName>, 
+            <p>Hvar har jag lagt mina handskar? <stage>(Får se <persName ref="#Margit">Margit</persName>,
               <lb/> som legat sanslös på golvet.)</stage>Hvem är det? Hvad betyder
               <lb/> detta? <persName ref="#Margit">Margit! min själs älskade, mitt hjerta och mitt
               <pb facs="6286-23.jpg"/>
@@ -1264,7 +1268,7 @@
           </sp>
           <sp who="#spBengt">
             <speaker>BENGT.</speaker>
-            <p>Ej vågen för dig bort; han har lagt dig ner på 
+            <p>Ej vågen för dig bort; han har lagt dig ner på
               <lb/> stranden och sjunger nu vid dina fötter en hyllnings­<lb break="no"/>sång, en jubelsång.</p>
           </sp>
           <sp who="#spMargit">
@@ -1404,10 +1408,10 @@
             <lb/> med kuddar och dyna i lysande färger; i bänkens ryggstycke
             <lb/> de nygiftas vapen; framför bänken ett dukadt bord för två;
             <lb/> duken hvit med kulörta border och påfästade törnrosbuketter;
-            <lb/> till höger om bordet en stång med tvärslå, på hvilken sitta 
+            <lb/> till höger om bordet en stång med tvärslå, på hvilken sitta
             <lb/> tvenne jagtfalkar med hufvar.</p>
           <p>I rummets venstra hörn rustningar och vapen.</p>
-          <p>Brudens krona, krans och slöja samt en stålspegel ligga 
+          <p>Brudens krona, krans och slöja samt en stålspegel ligga
             <lb/> på en stol vid venstra väggen; på golfvet nedanför stå brudens
             <lb/> skor. Solen lyser in genom fönstret.</p>
         </stage>
@@ -1417,7 +1421,7 @@
             <lb/> HUSHÅLLERSKAN dukar.</stage>
           <sp who="#spGårdsmästaren">
             <speaker>HOFMÄSTAREN.</speaker>
-            <p>Det här är annat lif det än i <orgName ref="#Klostret">klostret</orgName>! Och så 
+            <p>Det här är annat lif det än i <orgName ref="#Klostret">klostret</orgName>! Och så
               <lb/> god <persName ref="#Margit">den unga fröken, frun numera</persName>, är! Hon förlät
               <lb/> mig mina origtigheter och tog mig till hofmästare ändå,
               <lb/> för hon förstod, sade hon, att det hörde till min tjenst
@@ -1457,7 +1461,7 @@
           </sp>
           <sp who="#spHushållerskan">
             <speaker>HUSHÅLLERSKAN.</speaker>
-            <p>Det är alldeles tyst i huset; bara <persName ref="#Biktfadern">biktfadern</persName> går 
+            <p>Det är alldeles tyst i huset; bara <persName ref="#Biktfadern">biktfadern</persName> går
               <lb/> och stökar; han var oppe klockan sex i morse och van­<lb break="no"/>drade i trädgården.</p>
           </sp>
           <sp who="#spGårdsmästaren">
@@ -1573,7 +1577,7 @@
               <pb facs="6286-31.jpg"/>
               <fw type="pageNum">26</fw>
               Ärkeengeln skall hafva vunnit på djefvulen och slagit
-              <lb/> honom i helvetet! Det är icke sant! Han lefver och 
+              <lb/> honom i helvetet! Det är icke sant! Han lefver och
               <lb/> regerar, och vi ropa förgäfves genom dagar och nätter
               <lb/> till himlen: fräls oss!</p>
             <p>Hvad har jag i detta rum att göra! Det är pest
@@ -1651,7 +1655,7 @@
           <sp who="#spBiktfadern">
             <speaker>BIKTFADERN.</speaker>
             <p>Hvad sade jag? — Den högste beskydde... Hvad
-              <lb/> skall jag säga, då hon kommer ut? »Solen skiner på 
+              <lb/> skall jag säga, då hon kommer ut? »Solen skiner på
               <lb/> eder unga lycka, himlen ler mot eder och <persName ref="#Korpen">fogeln</persName>
               <lb/> sjunger.» <persName ref="#Korpen">Fogeln</persName> sjunger? Nej, han talar ju, <persName ref="#Korpen">den satan</persName>!</p>
           </sp>
@@ -1699,7 +1703,7 @@
           </sp>
           <sp who="#spBiktfadern">
             <speaker>BIKTFADERN.</speaker>
-            <p>Det är omöjligt, alldeles omöjligt; jag skall ut i 
+            <p>Det är omöjligt, alldeles omöjligt; jag skall ut i
               <lb/> en förrättning.</p>
           </sp>
           <sp who="#spMargit">
@@ -1993,7 +1997,7 @@
           </stage>
           <sp who="#spLagmannen">
             <speaker>LAGMANNEN.</speaker>
-            <p>En god morgon på en god natt, <persName ref="#Bengt">herr Bengt</persName> och 
+            <p>En god morgon på en god natt, <persName ref="#Bengt">herr Bengt</persName> och
               <lb/>
               <persName ref="#Margit">hans unga fru</persName>! — Redan upp och till bords! Äter
               <lb/> som dufvor och kyssas som dufvor! Ser, du, <persName ref="#Lagmanskan">Christina</persName>,
@@ -2277,7 +2281,7 @@
           </sp>
           <sp who="#spBengt">
             <speaker>BENGT.</speaker>
-            <p>Men gif mig ett råd! Hvart skall jag vända 
+            <p>Men gif mig ett råd! Hvart skall jag vända
               <lb/> mig, nu i denna stund, då <persName ref="#Bröllopsgästerna">gästerna</persName> vänta mig?</p>
           </sp>
           <sp who="#spFogaten">
@@ -2287,7 +2291,7 @@
               <lb/>
               <persName ref="#Bröllopsgästerna">edra gäster</persName>. Jag hade den lyckan att känna henne,
               <lb/> innan hon kom i <orgName ref="#Klostret">klostret</orgName>, och jag vet hvilken skatt
-              <lb/> ni tagit i besittning. Det gör mig i sanning ondt om 
+              <lb/> ni tagit i besittning. Det gör mig i sanning ondt om
               <lb/> er och henne. Jag skall gifva er ett råd! Låna af
               <lb/>
               <persName ref="#Vittnet">honom der</persName>!</p>
@@ -2414,7 +2418,7 @@
           <sp who="#spBengt">
             <speaker>BENGT.</speaker>
             <p>
-              <persName ref="#Biktfadern">Pater Franciscus</persName>, gif mig ett råd! Ni ser en 
+              <persName ref="#Biktfadern">Pater Franciscus</persName>, gif mig ett råd! Ni ser en
               <lb/> man, som är ganska olycklig. Hvad ödet brukar för­<lb break="no"/>unna den fattigaste stackare, har det nekat mig. Min
               <lb/> bröllopsglädje är störd; <persName ref="#Margit">min hustru</persName>, som trodde sig gå
               <lb/> till mötes ett lif i frihet och oberoende, får i morgon­<lb break="no"/>gåfva fribref på en stundande fattigdom. — Hör nu
@@ -2423,18 +2427,18 @@
               på! Jag har nyss lofvat, att hon skall ega mitt för­<lb break="no"/>troende helt och odeladt! Nåväl, har jag icke å andra
               <lb/> sidan rätt att skänka henne denna dag i oblandad
               <lb/> glädje, har jag icke rätt att skänka henne ett år, under
-              <lb/> hvilket jag kan med himlens hjelp afvärja olyckan. 
+              <lb/> hvilket jag kan med himlens hjelp afvärja olyckan.
               <lb/> Jag har nemligen fått ett års uppskof med en större
-              <lb/> utskylds gäldande, och jag kan med sparsamhet och 
+              <lb/> utskylds gäldande, och jag kan med sparsamhet och
               <lb/> under gynsamma förhållanden möjligen hålla det ram­<lb break="no"/>lande huset uppe!</p>
           </sp>
           <sp who="#spBiktfadern">
             <speaker>BIKTFADERN.</speaker>
-            <p>Hvarje sak har minst två sidor, <persName ref="#Bengt">herr riddare</persName>, och 
+            <p>Hvarje sak har minst två sidor, <persName ref="#Bengt">herr riddare</persName>, och
               <lb/> vi måste betrakta båda. <persName ref="#Margit">Er hustru</persName> har icke allenast
               <lb/> lofvat, utan har äfven rätt att dela nöd och lust! Om
               <lb/> ni invaggar henne i den föreställningen, att ni äro rika,
-              <lb/> blir hon oförmögen att bära slaget, när det kommer; 
+              <lb/> blir hon oförmögen att bära slaget, när det kommer;
               <lb/> om ni underlåter att gifva henne ert fulla förtroende,
               <lb/> har ni gifvit henne rätt att misstro er, och på samma
               <lb/> gång har hon anledning att undandraga er sitt för­<lb break="no"/>troende och kanske skänka det åt någon annan.</p>
@@ -2469,7 +2473,7 @@
             <speaker>BIKTFADERN.</speaker>
             <p>Å ena sidan: hon kan genom striden framgå som
               <lb/> en stor och härlig qvinna, hvilken försonat sig med
-              <lb/> detta yttre lif, hvilket Gud just har gifvit oss till en 
+              <lb/> detta yttre lif, hvilket Gud just har gifvit oss till en
               <lb/> renande skärseld, men hon kan också dragas ner i de
               <lb/> mörka djupen; å andra sidan: om ett år är hon mor;
               <lb/> kanske hon då är starkare att bära slaget och lättare
@@ -2532,7 +2536,7 @@
           </sp>
           <sp who="#spMargit">
             <speaker>MARGIT.</speaker>
-            <p>Då är jag också lycklig! Och nu, <persName ref="#Falkeneraren">falkenerare</persName>, 
+            <p>Då är jag också lycklig! Och nu, <persName ref="#Falkeneraren">falkenerare</persName>,
               <lb/> tag <persName ref="#Falk2">min falk</persName>!</p>
             <p>Ack den som vore en fogel och fick stiga upp i
               <lb/> den blå skyn och se ner på jorden, huru liten den är,
@@ -2547,7 +2551,7 @@
             <speaker>MARGIT.</speaker>
             <p>Det har ni rätt i. — <stage>(Hornblåsning utanför.)</stage> Hornet
               <lb/> klingar, <persName ref="#Hästar">hästarne</persName> gnägga! Upp i sadeln, ut i skogen!
-              <lb/> Lifvet är dock härligt, säge hvad man vill! — Ni 
+              <lb/> Lifvet är dock härligt, säge hvad man vill! — Ni
               <lb/> sitter inne här, <persName ref="#Biktfadern">pater</persName>, — och beder för oss!</p>
           </sp>
           <sp who="#spBiktfadern">
@@ -2653,7 +2657,7 @@
           <sp who="#spMargit">
             <speaker>MARGIT.</speaker>
             <p>Inga sinnesrörelser! Säg inte det åt mig! Säg
-              <lb/> det åt dem, som skaffa mig sådana! — Och, hvad ser  
+              <lb/> det åt dem, som skaffa mig sådana! — Och, hvad ser
               <lb/> jag, mina rosenbuskar äro torra! — Ingen har brytt
               <lb/> sig om att tänka på dem! Ingen! <stage>(Gråter.)</stage>
             </p>
@@ -2706,7 +2710,7 @@
           <stage type="presence" who="#Hushållerskan #Kerstin #Margit">DE FÖRRE utom HOFMÄSTAREN.</stage>
           <sp who="#spMargit">
             <speaker>MARGIT.</speaker>
-            <p>Ingen omtanke, ingen tillsyn! Om jag icke såg 
+            <p>Ingen omtanke, ingen tillsyn! Om jag icke såg
               <lb/> till, skulle allting torka bort. — <persName ref="#Hushållerskan">Malin</persName>! Se på mig!
               <lb/> — Har jag blifvit mycket ful efter sjukdomen?</p>
           </sp>
@@ -2910,7 +2914,7 @@
           <sp who="#spFogaten">
             <speaker>FOGATEN.</speaker>
             <p>Icke skymf! Blott en varning! Tro derför icke
-              <lb/> att jag öfverskattar min förmåga att störa ert äktenskaps 
+              <lb/> att jag öfverskattar min förmåga att störa ert äktenskaps
               <lb/> lugn. — Vi ha ju bevis på min oförmåga i det fallet!
               <lb/> Jag tillhör de fördömda, i hvilka den onde älskar att
               <lb/> vistas.</p>
@@ -2950,7 +2954,7 @@
           <fw type="pageNum">53</fw>
           <sp who="#spMargit">
             <speaker>MARGIT.</speaker>
-            <p>Tack, <persName ref="#Biktfadern">pater Franciscus</persName>! Säg mig, kan den som 
+            <p>Tack, <persName ref="#Biktfadern">pater Franciscus</persName>! Säg mig, kan den som
               <lb/> erkänner sina fel vara en dålig menniska?</p>
           </sp>
           <sp who="#spBiktfadern">
@@ -3133,7 +3137,7 @@
           <sp who="#spBengt">
             <speaker>BENGT.</speaker>
             <p>O, jag är så glad! Halfva skörden står i skylar
-              <lb/> och skall in i dag, den andra hälften  väntar lien och 
+              <lb/> och skall in i dag, den andra hälften  väntar lien och
               <lb/> är som det gulaste guld. Inte en molntapp på himlen.
               <lb/> Ett välsignadt år i år, och jag får en tredjedel mer än
               <lb/> jag vågat beräkna. Gud gifve att det bara icke komme
@@ -3149,7 +3153,7 @@
           <sp who="#spBengt">
             <speaker>BENGT.</speaker>
             <p>Skörden först under tak, så få vi allt hvad vi
-              <lb/> vilja sedan! — Säg mig, <persName ref="#Margit">Margit</persName>, hur tycker du att det 
+              <lb/> vilja sedan! — Säg mig, <persName ref="#Margit">Margit</persName>, hur tycker du att det
               <lb/> är att bo här nere i borgstugan? Vantrifs du mycket?</p>
           </sp>
           <sp who="#spMargit">
@@ -3312,7 +3316,7 @@
           <sp who="#spMargit">
             <speaker>MARGIT.</speaker>
             <p>Skyll icke på ödet! Det är icke ödets fel, att
-              <lb/> icke du håller dina löften! Du lofvade mig ett lif i 
+              <lb/> icke du håller dina löften! Du lofvade mig ett lif i
               <lb/> frihet och luft och sol! Det är du som trampar upp
               <lb/> dammet från nyttans åkrar och för med dig in i hemmet.</p>
           </sp>
@@ -3322,7 +3326,7 @@
               <lb/> jag det och då skall allt bli som förr. <stage>(På knä med huf­<lb break="no"/>vudet i <persName ref="#Margit">Margits</persName> knä.)</stage>
               <persName ref="#Margit">Margit, min själs älskade</persName>! Tro mig
               <lb/> då jag säger att jag icke vållar detta; tro mig och
-              <lb/> tro mig alltjemt, hur du än ser mig; tro att jag älskar 
+              <lb/> tro mig alltjemt, hur du än ser mig; tro att jag älskar
               <lb/> dig, så att jag ville bära dig på mina armar öfver alla
               <lb/> lifvets hvassa stenar, och förlåt mig alltid, alltid, då jag
               <lb/> är hård! Jag är en vingskjuten falk, som vill flaxa med mina bräckta
@@ -3637,7 +3641,7 @@
             <speaker>BENGT.</speaker>
             <p>
               <persName ref="#Fogaten">Herr fogat</persName>, säg <persName ref="#Margit">denna qvinna</persName>, att hon är en dålig
-              <lb/> natur, som ger <persName ref="#Bengt">sin mans</persName> namn till pris åt verldens 
+              <lb/> natur, som ger <persName ref="#Bengt">sin mans</persName> namn till pris åt verldens
               <lb/> spott och hån!</p>
           </sp>
           <sp who="#spMargit">
@@ -3797,15 +3801,15 @@
             <speaker>MARGIT.</speaker>
             <p>Jag vet! <persName ref="#Lagmannen">Er man</persName> gjorde mig samma förbråelse
               <lb/> i går och då svarade jag honom så: <persName ref="#Lagmannen">herr lagman</persName>, ni
-              <lb/> har låtit <persName ref="#FyraBarn">era egna barn</persName> svälta och frysa, ni har skickat 
+              <lb/> har låtit <persName ref="#FyraBarn">era egna barn</persName> svälta och frysa, ni har skickat
               <lb/> dem ur hemmet och lemnat dem i främmande perso­<lb break="no"/>ners händer, hur kommer sig att ni då kan vara
               <lb/> så öm om andras barn? Är det derför att ni ångrar
-              <lb/> er hårdhet mot <persName ref="#FyraBarn">era egna</persName>? Troligen icke! Nej, det 
+              <lb/> er hårdhet mot <persName ref="#FyraBarn">era egna</persName>? Troligen icke! Nej, det
               <lb/> är derför att ni vill för billigt pris tillegna er en för­<lb break="no"/>tjenst som ni saknar, och derför att ni vill dölja ert
               <lb/> fel genom att lägga sten på andras börda! — Har
               <lb/> ni, <persName ref="#Lagmanskan">fru lagmanska</persName>, alltid varit öm mot <persName ref="#FyraBarn">era barn</persName>? Har
               <lb/> ni icke önskat dem borta, när de stört er sömn, ert
-              <lb/> arbete, era nöjen? Har ni icke tuktat dem för en 
+              <lb/> arbete, era nöjen? Har ni icke tuktat dem för en
               <lb/> förseelse, som icke var något fel utan endast ett obehag
               <lb/> för er?</p>
           </sp>
@@ -3894,7 +3898,7 @@
           <fw type="pageNum">73</fw>
           <sp who="#spMargit">
             <speaker>MARGIT.</speaker>
-            <p>Nej, visserligen icke, men dock bättre än vår! 
+            <p>Nej, visserligen icke, men dock bättre än vår!
               <lb/> Jag gör lika mycket i huset som hon, utom det att
               <lb/> jag har omtanken och ansvaret, men skilnaden är den
               <lb/> att hon har lön och jag har ingen.</p>
@@ -4306,7 +4310,7 @@
           </stage>
           <sp who="#spMargit">
             <speaker>MARGIT</speaker>
-            <stage>djupt uppskakad, när hon får 
+            <stage>djupt uppskakad, när hon får
               <lb/> se <persName ref="#Bengt">Bengt</persName>.</stage>
             <p>Stig fram, <persName ref="#Bengt">riddare</persName>!</p>
           </sp>
@@ -4422,7 +4426,7 @@
             <speaker>BENGT.</speaker>
             <p>Jag blir förvaltare hos <persName ref="#Fogaten">fogaten</persName>! — <persName ref="#Bengt">Sångfogeln</persName>
               <lb/> för plogen, <anchor type="hand" xml:id="handprat5start"/>
-              <persName ref="#Margit">engeln</persName> sy kläder och tvätta; då tystnar 
+              <persName ref="#Margit">engeln</persName> sy kläder och tvätta; då tystnar
               <lb/> sången, de små händerna bli röda,<anchor type="hand" xml:id="handprat5slut"/> kinden så blek.
               <lb/> Och hvarför detta? Derför att han högg ner hennes
               <lb/> lind, derför vissnade hennes rosor. — Hjelp mig! Jag
@@ -4712,7 +4716,7 @@
                 <lb/> ska jag säga; och det vet jag, för jag kände henne
                 <lb/> när hon var barn, och då kunde hon sitta och pina
                 <lb/> flugor hela eftermiddagen i rötmånaden, medan vi ska­<lb break="no"/>lade äpplen; och så hade hon historier i <orgName ref="#Klostret">klostret</orgName> också;
-                <lb/> der både ljög hon och stal andras bref; stal är kanske 
+                <lb/> der både ljög hon och stal andras bref; stal är kanske
                 <lb/> för mycket sagdt, men hon läste åtminstone andras
                 <lb/> bref, så att nog har man ordning på henne alltid!</p>
             </sp>
@@ -4760,8 +4764,8 @@
             </sp>
             <sp who="#spMargit">
               <speaker>MARGIT.</speaker>
-              <stage>räcker handen åt <persName ref="#Lagmanskan">lagmanskan</persName>, 
-                <lb/> men denna vägrar att mottaga 
+              <stage>räcker handen åt <persName ref="#Lagmanskan">lagmanskan</persName>,
+                <lb/> men denna vägrar att mottaga
                 <lb/> den.</stage>
               <p>Ni blef väl inte vred på mig?</p>
             </sp>
@@ -5346,7 +5350,7 @@
                 <lb/> sedan min barndom och sagt att lifvet var en lust­<lb break="no"/>gård, der kärlekens rosor utan törnen evigt skulle
                 <lb/> blomstra? Hvarför har ni ljugit och sagt, att vi voro
                 <lb/> englar, hvilka ni endast ville dyrka på afstånd och
-                <lb/> som likväl endast vänta på att få rycka ner och 
+                <lb/> som likväl endast vänta på att få rycka ner och
                 <lb/> trampa? Hvarför sade ni icke, att jorden var en
                 <lb/> jemmerdal, att kärleken var ett ljuft bedrägeri, att
                 <lb/> giftermålet var en tung pligt, att vi svaga qvinnor
@@ -5474,7 +5478,7 @@
               <speaker>FOGATEN.</speaker>
               <p>Jag är en förförare, ja, men jag är en hederlig
                 <lb/> förförare, ty jag varnade henne från första stunden.</p>
-              <p>Åtelen var utlagd: Örnarne kommo. Allting var 
+              <p>Åtelen var utlagd: Örnarne kommo. Allting var
                 <lb/> i sin ordning. Ställ er predikan till henne, ty hon tror
                 <lb/> åter på presterna. <stage type="exit" who="#Fogaten">(Går.)</stage>
               </p>
@@ -5525,7 +5529,7 @@
             </sp>
             <sp who="#spMargit">
               <speaker>MARGIT.</speaker>
-              <p>Min väg skiljer sig då vid er; den går nedåt; 
+              <p>Min väg skiljer sig då vid er; den går nedåt;
                 hvart går er?</p>
             </sp>
             <sp who="#spBiktfadern">
@@ -5576,7 +5580,7 @@
                 <lb/> der äro svala gångar, der ni kan andas, när luften blir
                 <lb/> qvaf; der fins penitens i ömsesidig sjelfförsakelse; der
                 <lb/> fins andaktsöfvningar i uppfyllandet af pligten, der fins
-                <lb/> stilla frid efter tvenne själars strid; der kan ni öfva 
+                <lb/> stilla frid efter tvenne själars strid; der kan ni öfva
                 <lb/> er i ödmjukhetens och lydnadens svåra dygder och der
                 <lb/> kan ni öfva barmhertighet mot den felande, som under
                 <lb/> mödans sargande gissel låter vännen dela slagen! Det
@@ -5697,8 +5701,8 @@
               <p>
                 <persName ref="#LillMargit">Mitt barn</persName>! — <persName ref="#LillMargit">Min lilla Margit</persName>! Hon heter också
                 <lb/> Margit! Tänk jag skulle vilja lemna <persName ref="#Margit">den stora Margit</persName>,
-                <lb/> men <persName ref="#LillMargit">den lilla</persName>, nej, jag kan det icke! — Jag skulle 
-                <lb/> vilja lefva om igen i detta lif, men i sanning. 
+                <lb/> men <persName ref="#LillMargit">den lilla</persName>, nej, jag kan det icke! — Jag skulle
+                <lb/> vilja lefva om igen i detta lif, men i sanning.
                 <lb/> Nej, <persName ref="#Biktfadern">pater</persName>! Jag vill icke dö! Jag vill icke dö! Ni
                 <lb/> får icke ljuga för <persName ref="#LillMargit">detta barn</persName> och säga, att jorden är
                 <lb/> en himmel. Ni får icke göra henne lika olycklig som
@@ -5972,7 +5976,7 @@
               <speaker>BENGT</speaker>
               <stage>till fönstret.</stage>
               <p>Natten är mörk; han skall kanske icke se dem.
-                <lb/> O, himmels ljus, lys honom på hans väg att han 
+                <lb/> O, himmels ljus, lys honom på hans väg att han
                 <lb/> må finna!</p>
             </sp>
           </div>

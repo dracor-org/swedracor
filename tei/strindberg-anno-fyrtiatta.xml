@@ -68,7 +68,6 @@
         </availability>
         <idno type="dramawebben">StrindbergA_AnnoFyrtiatta</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000035</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q10412491</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -112,9 +111,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1881"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -127,15 +123,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -311,6 +307,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1881">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q10412491"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -326,7 +330,7 @@
           <role>
             <persName ref="#Larsson">Abraham Larsson</persName>
           </role>, <roleDesc>bryggare och ryttmästare vid borgerskapets
-            <lb/> kavalleri, 53 år</roleDesc>. 
+            <lb/> kavalleri, 53 år</roleDesc>.
 	      </castItem>
         <castItem>
           <role>
@@ -409,10 +413,10 @@
           </roleGroup>
           <role>
             <persName ref="#Kyparen">Kyparen</persName>
-          </role>,   
+          </role>,
           <role>
             <persName ref="#Poliskonstapeln">Poliskonstapeln</persName>
-          </role>. 
+          </role>.
         </castItem>
 <!-- roller utan replik -->
         <castItem type="list">
@@ -653,7 +657,7 @@
             <p>
               <persName ref="#Adjunkten #Per">Låntagare</persName>! ...  Ni har inträde i detta borgarhus, be­<lb break="no"/>römdt för sin rikedom, sin frikostighet och sitt fina vett;
               <lb/> ni har önskat se en värdig representant af det tredje stån­<lb break="no"/>det, samma stånd, som genom den stora revolutionen till­<lb break="no"/>kämpade sig de menskliga rättigheterna att gå på fyra
-              <lb/> fötter i kungligt livré, vilket förut var dem nekadt! — 
+              <lb/> fötter i kungligt livré, vilket förut var dem nekadt! —
               <lb/> Se här <persName ref="#LudvigFilipI" cert="medium">borgarkungens</persName> lifegna</p>
           </sp>
           <sp who="#spAktören">
@@ -673,10 +677,10 @@
             <p>Ni är rädd för <persName ref="#Adjunkten #Per">sällskapet</persName>! Ni tror att det är suddar
               <lb/> derför att de icke äro väl klädda! Långt derifrån! Se på
               <lb/>
-              <persName ref="#Adjunkten">den stackars prestmannen</persName>; det är en genialisk man; han 
+              <persName ref="#Adjunkten">den stackars prestmannen</persName>; det är en genialisk man; han
               <lb/> är anställd här i huset sedan tjugu år tillbaka; han är
               <lb/> hofnarr mot maten och kanske 100 rdr om året, som om­<lb break="no"/>sättningarne gå till. Han måste alltid vara rolig; sjunga
-              <lb/> visor, hålla smickrande tal till <persName ref="#FruLarsson">värdinnan</persName> och fram på 
+              <lb/> visor, hålla smickrande tal till <persName ref="#FruLarsson">värdinnan</persName> och fram på
               <lb/> natten föredra tvetydiga poem!</p>
             <stage type="entrance" who="#Lundqvist"> (Lundqvist kommer in.)</stage>
           </sp>
@@ -689,7 +693,7 @@
           </sp>
           <sp who="#spKSektern">
             <speaker>K. SEKTERN.</speaker>
-            <p>Och så <persName ref="#Per">den der som rensar piporna, målaren</persName>! Som 
+            <p>Och så <persName ref="#Per">den der som rensar piporna, målaren</persName>! Som
               <lb/> ger <persName ref="#Linda">mamsell Linda</persName> lektioner mot att han äter middag om
               <pb facs="37598-9.jpg"/>
               <fw type="pageNum">10</fw>
@@ -849,7 +853,7 @@
               <lb/> sin rätt äfven i fall sådana som dessa! <stage type="modifier">(Stiger upp, lägger
               <lb/> armarna öfver bröstet, intar en napoleonisk ställning och betonar i sitt
               <lb/> föredrag de betydelselösa orden)</stage> Vi <orgName ref="#StockholmsBorgerskap">borgerskapet</orgName> äro skyldiga
-              <lb/> dynastien tacksamhet — —  tacksamhet är en känsla — 
+              <lb/> dynastien tacksamhet — —  tacksamhet är en känsla —
               <lb/> icke sant? —  Icke sant?</p>
           </sp>
           <sp who="#spAktören">
@@ -859,8 +863,8 @@
           <sp who="#spLarsson">
             <speaker>LARSSON.</speaker>
             <p>Tacksamhet för hvad vi äro; och den drägt jag bär,
-              <lb/> det vapen jag tillhör, älskar jag högt, <persName ref="#Aktören">min herre</persName> ty de 
-              <lb/> påminna mig om stora dagar! Ni vet hvad jag syftar på, 
+              <lb/> det vapen jag tillhör, älskar jag högt, <persName ref="#Aktören">min herre</persName> ty de
+              <lb/> påminna mig om stora dagar! Ni vet hvad jag syftar på,
               <lb/> icke sant? Med denna sabel har jag i spetsen för <orgName ref="#BorgerskapetsKavalleri">min
               <lb/> sqvadron</orgName> qväft revolutionen i sin linda adertonhundratrettio­<lb break="no"/>åtta, då landets, <persName ref="#KarlXIVJohan">konungens</persName> och folkets sanna frihet hängde
               <lb/> på ett hår! <stage type="modifier">(Rörd).</stage> Jag skall aldrig glömma det!</p>
@@ -879,7 +883,7 @@
           </sp>
           <sp who="#spLarsson">
             <speaker>LARSSON.</speaker>
-            <p>Reform är tidens lösen! Den frågan kan icke falla 
+            <p>Reform är tidens lösen! Den frågan kan icke falla
               <lb/> har <persName ref="#OskarI">Hans Majestät</persName> förklarat!</p>
           </sp>
           <sp who="#spAktören">
@@ -1090,7 +1094,7 @@
           </sp>
           <sp who="#spAdjunkten">
             <speaker>ADJUNKTEN.</speaker>
-            <p>Han skulle “hedra“ <persName ref="#KJAbraham">din sons</persName> döpelseakt, skref du ju 
+            <p>Han skulle “hedra“ <persName ref="#KJAbraham">din sons</persName> döpelseakt, skref du ju
               <lb/> sjelf!</p>
             <stage>
               <persName ref="#Dina">DINA</persName> och <persName ref="#Per">PER</persName>.</stage>
@@ -1504,7 +1508,7 @@
               <lb/> jag som bokhållare kunde förtjena, åt han upp! En dag
               <lb/> frågade jag helt djerft hvar han gjorde på soffan! Då sva­<lb break="no"/>rade han, att han utvecklade sig för att kunna lefva för
               <lb/> sin idé.</p>
-            <p>Vet du hvad jag gjorde? jag tog <persName ref="#LarssonsBror">herrn</persName> i kragen — 
+            <p>Vet du hvad jag gjorde? jag tog <persName ref="#LarssonsBror">herrn</persName> i kragen —
               <lb/> så här! och så röck jag upp honom från soffan der han
               <lb/> legat i fem långa år — så här! och så sa’ jag: <said who="#Larsson">der är
               <lb/> dörrn!</said>
@@ -1713,7 +1717,7 @@
           </sp>
           <sp who="#spPer">
             <speaker>PER.</speaker>
-            <p>Nå sof då! —  Men det var en besynnerlig luft här­<lb break="no"/>inne! <stage type="modifier">(Hostar, tager sig för pannan, undersöker kaminien)</stage> Jaså, ett 
+            <p>Nå sof då! —  Men det var en besynnerlig luft här­<lb break="no"/>inne! <stage type="modifier">(Hostar, tager sig för pannan, undersöker kaminien)</stage> Jaså, ett
               <lb/> sjelfmordsförsök! <stage type="modifier">(öppnar fönstret.) </stage> Det är snart hjelpt; <persName ref="#Arvid">Fega
               <lb/> stackare</persName>! Du ska’ få när du vaknar! <stage type="modifier">(sätter sig och målar.)</stage>
             </p>
@@ -1728,7 +1732,7 @@
           <sp who="#spLundqvist">
             <speaker>LUNDQVIST</speaker>
             <stage type="mixed">(har handskar på under hela
-              <lb/> denna scen, står upp och de­<lb break="no"/>klamerar ur <persName ref="#KarlMoor">Karl Moor</persName> i 
+              <lb/> denna scen, står upp och de­<lb break="no"/>klamerar ur <persName ref="#KarlMoor">Karl Moor</persName> i
               <lb/>
               <title>Röfvarbandet</title>. Han arrange­<lb break="no"/>rar en pels på en stol och talar mot densamma).</stage>
           </sp>
@@ -1757,8 +1761,8 @@
           <sp who="#spPianostämmaren">
             <speaker>PIANOSTÄMMAREN</speaker>
             <stage type="modifier">(tar sig om halsen).</stage>
-            <p>För egen del, så tycker jag att <persName ref="#Lundqvist">herrn</persName> kunde ta’ den 
-              <lb/> lite’ mer piano! Emellertid är kl. 6 och vi skulle kanske 
+            <p>För egen del, så tycker jag att <persName ref="#Lundqvist">herrn</persName> kunde ta’ den
+              <lb/> lite’ mer piano! Emellertid är kl. 6 och vi skulle kanske
               <lb/> börja sången nu! <stage type="modifier">(Tager guitarren och stämmer).</stage>
             </p>
           </sp>
@@ -1891,13 +1895,13 @@
               <fw type="pageNum">32</fw>
               men kan vi inte träffas någon annanstans, t. ex. fins det
               <lb/> inte någon vindskontor! — Jag har <persName ref="#Skräddargesällen">en skräddargesäll</persName> som
-              <lb/> får lektioner på flöjt i vedbo’n, för han tänker öfverraska 
+              <lb/> får lektioner på flöjt i vedbo’n, för han tänker öfverraska
               <lb/>
               <persName ref="#Fästmön">sin fästmö</persName> på hennes namnsdag!</p>
           </sp>
           <sp who="#spLundqvist">
             <speaker>LUNDQVIST.</speaker>
-            <p>Ni sa’ verkligen någonting; kom upp på höskullen, 
+            <p>Ni sa’ verkligen någonting; kom upp på höskullen,
               <lb/> stora stallkullen i morgon kl. 6, der är godt musikrum
               <lb/> och der kan ingen höra oss!</p>
           </sp>
@@ -1985,7 +1989,7 @@
           </sp>
           <sp who="#spArvid">
             <speaker>ARVID.</speaker>
-            <p>Ärter och fläsk hos <persName ref="#Larsson">min söta morbror</persName>! Jag känner 
+            <p>Ärter och fläsk hos <persName ref="#Larsson">min söta morbror</persName>! Jag känner
               <lb/> dem! — Kors i Herrens namn hvad jag är hungrig!</p>
           </sp>
           <sp who="#spPer">
@@ -2349,7 +2353,7 @@
               <lb/> ännu fins det medel! <stage type="modifier">(stoppar rolen i fickan, drar upp byrålådor
               <lb/> och gräfver i dem.)</stage>
               <quote>“Och hafva en faderlig tillsyn öfver sina
-              <lb/> tjenares tillhörigheter, hafva omtanka om deras framtid“</quote> ... 
+              <lb/> tjenares tillhörigheter, hafva omtanka om deras framtid“</quote> ...
               <lb/> står det i hustaflan! <stage type="modifier">(får fatt i guitarren)</stage> Han har varit i
               <lb/> vindskontoret och fått tag i min gamla guitarr, som jag
               <lb/> spelte för <persName ref="#FruLarsson">fästmön</persName> i verlden! <stage type="modifier">(sätter sig och knäpper)</stage> Åh, Herre
@@ -2397,7 +2401,7 @@
             <stage type="modifier">(stiger upp förlägen).</stage>
             <p>
               <persName ref="#Lundqvist">Lundqvist</persName>! <persName ref="#Lundqvist">Lundqvist</persName> ska’ inte ha så’na här dum­<lb break="no"/>heter för sig. <stage type="modifier">(lemnar honom rolen)</stage> Håll han sig på sin plats,
-              <lb/> och han skall bli en nyttig medlem i samhället och han 
+              <lb/> och han skall bli en nyttig medlem i samhället och han
               <lb/> skall bli lycklig!</p>
           </sp>
           <sp who="#spPoliskonstapeln">
@@ -2586,7 +2590,7 @@
           <sp who="#spArvid">
             <speaker>ARVID.</speaker>
             <p>Om han får göra den sjelf ja! — Men nu skall jag
-              <lb/> nederslå <persName ref="#Larsson #Lundqvist">mina fiender</persName>! Först <persName ref="#Lundqvist">Lundqvist</persName> och så <persName ref="#Larsson">gubben</persName>! — 
+              <lb/> nederslå <persName ref="#Larsson #Lundqvist">mina fiender</persName>! Först <persName ref="#Lundqvist">Lundqvist</persName> och så <persName ref="#Larsson">gubben</persName>! —
               <lb/> Jag går genast till <orgName ref="#DenKonservative">“Den Konservative“</orgName> och tar korrektur­<lb break="no"/>platsen; får man bara ett finger i tidningen, så! — Lefve
               <lb/> revolutionen!</p>
           </sp>
@@ -2704,7 +2708,7 @@
           </sp>
           <sp who="#spLundqvist">
             <speaker>LUNDQVIST.</speaker>
-            <p>O, jag känner att jag börjar ett nytt lif. <stage type="business">(Bålen är 
+            <p>O, jag känner att jag börjar ett nytt lif. <stage type="business">(Bålen är
               <lb/> framsatt).</stage>
             </p>
           </sp>
@@ -2768,7 +2772,7 @@
           <sp who="#spLundqvist">
             <speaker>LUNDQVIST.</speaker>
             <p>Jag kan inte misslyckas! Jag skall tala om för er
-              <lb/> att jag redan profvat och — om söndag debuterar jag på 
+              <lb/> att jag redan profvat och — om söndag debuterar jag på
               <lb/>
               <orgName ref="#Ladugårdslandsteatern">Ladugårdslandsteatern</orgName>!</p>
           </sp>
@@ -2799,7 +2803,7 @@
         <div type="scene" n="3">
           <head>Scen 3.</head>
           <stage type="presence" who="#Lundqvist #Per #Arvid #Kyparen"/>
-          <stage>ADJUNKTEN och AKTÖREN från venster slå sig ned vid ett bord 
+          <stage>ADJUNKTEN och AKTÖREN från venster slå sig ned vid ett bord
           <lb/> utan att se DE FÖRRE.</stage>
           <stage type="entrance" who="#Adjunkten #Aktören"/>
           <sp who="#spAdjunkten">
@@ -2854,7 +2858,7 @@
         <div type="scene" n="4">
           <head>Scen 4.</head>
           <stage>
-            <stage type="presence" who="#Adjunkten #Aktören #Lundqvist #Arvid #Per #Kyparen">DE FÖRRE</stage>. <stage type="entrance" who="#Larsson">LARSSON kommer in (civil) från venster; slår sig ned 
+            <stage type="presence" who="#Adjunkten #Aktören #Lundqvist #Arvid #Per #Kyparen">DE FÖRRE</stage>. <stage type="entrance" who="#Larsson">LARSSON kommer in (civil) från venster; slår sig ned
             <lb/> hos aktören och adjunkten utan att se PER, ARVID och LUNDQVIST</stage>.</stage>
           <sp who="#spLarsson">
             <speaker>LARSSON.</speaker>
@@ -3159,8 +3163,8 @@
           <sp who="#spLarsson">
             <speaker>LARSSON</speaker>
             <stage type="modifier">(rasar).</stage>
-            <p>Instängd! Nu, då <persName ref="#OskarI">min konung</persName> behöfver mig! — Jag 
-              <lb/> har gjort revolution jag, jag, <persName ref="#Larsson">Jöns Abraham Larsson</persName>, och 
+            <p>Instängd! Nu, då <persName ref="#OskarI">min konung</persName> behöfver mig! — Jag
+              <lb/> har gjort revolution jag, jag, <persName ref="#Larsson">Jöns Abraham Larsson</persName>, och
               <pb facs="37598-59.jpg"/>
               <fw type="pageNum">56</fw>
               kan inte qväfva den; jag, <persName ref="#Larsson">den laglydige, den trogne under­<lb break="no"/>såten</persName>, har gjort revolution! — O, min sabel, <persName ref="#Hästen">min häst</persName>, —
@@ -3243,7 +3247,7 @@
           </sp>
           <sp who="#spFruLarsson">
             <speaker>FRU LARSSON.</speaker>
-            <p>Hon har fått lof af mig! Det var inga farliga papper 
+            <p>Hon har fått lof af mig! Det var inga farliga papper
               <lb/> för öfrigt!</p>
           </sp>
           <sp who="#spLarsson">
@@ -3332,7 +3336,7 @@
           </sp>
           <sp who="#spLarsson">
             <speaker>LARSSON.</speaker>
-            <p>På ett vilkor, ja, att han lemnar sin usla bana och 
+            <p>På ett vilkor, ja, att han lemnar sin usla bana och
               <lb/> intar <persName ref="#Lundqvist">Lundqvists</persName> plats!</p>
           </sp>
           <sp who="#spFruLarsson">
@@ -3370,7 +3374,7 @@
           </sp>
           <sp who="#spDina">
             <speaker>DINA.</speaker>
-            <p>Hör du, <persName ref="#FruLarsson">Amalia lilla</persName>; efter <persName ref="#Larsson">din man</persName> är borta och 
+            <p>Hör du, <persName ref="#FruLarsson">Amalia lilla</persName>; efter <persName ref="#Larsson">din man</persName> är borta och
               <lb/>
               <persName ref="#KJAbraham">barnet</persName> sofver, så tycker jag att vi gerna kan gå i <orgName ref="#EngelskaKapellet">Engel­<lb break="no"/>skan</orgName> en stund och höra <persName ref="#Rosenius">Rosenius</persName>!</p>
           </sp>
@@ -3857,7 +3861,7 @@
           </sp>
           <sp who="#spAdjunkten">
             <speaker>ADJUNKTEN.</speaker>
-            <p>Jag har sagt ja! — Du vet <persName ref="#Bernhardina">den der gamla 
+            <p>Jag har sagt ja! — Du vet <persName ref="#Bernhardina">den der gamla
               <lb/> mamsell Bernhardina</persName>, hos <persName ref="#Översten">öfversten</persName>, har friat till mig.</p>
           </sp>
           <sp who="#spLarsson">
@@ -3907,7 +3911,7 @@
             <stage type="presence" who="#Larsson #Adjunkten #KSektern #Dina">DE FÖRRE</stage>. <stage type="entrance" who="#Pigan1">PIGAN 1</stage>.</stage>
           <sp who="#spPigan1">
             <speaker>PIGAN 1.</speaker>
-            <p>Det är någon som står och väntar på <persName ref="#Adjunkten">adjunkten</persName> der 
+            <p>Det är någon som står och väntar på <persName ref="#Adjunkten">adjunkten</persName> der
               <lb/> nere i farstun!</p>
           </sp>
           <sp who="#spAdjunkten">
@@ -3966,7 +3970,7 @@
           <head>Scen 17.</head>
           <stage>
             <stage type="presence" who="#Larsson #Adjunkten #KSektern #Dina #Arvid">DE FÖRRE</stage>. <stage type="entrance" who="#Per">PER (i brun promenadfrack med blomma i knapphålet,
-            <lb/> blanklädersstöflar, storrutig väst, röd halsduk, klockkedja med berlocker, en 
+            <lb/> blanklädersstöflar, storrutig väst, röd halsduk, klockkedja med berlocker, en
             <lb/> reskikare i rem öfver axeln, grå hög hatt</stage>.</stage>
           <sp who="#spPer">
             <speaker>PER.</speaker>
@@ -4018,7 +4022,7 @@
               <lb/> vår <choice>
                   <sic>bekanskap</sic>
                   <corr>bekantskap</corr>
-                </choice> afbruten eftersom du låtit mig stå och 
+                </choice> afbruten eftersom du låtit mig stå och
               <lb/> frysa en hel halftimme!”</writing>
             </p>
 <!-- Här används helt plötsligt &rdquo; /ljo -->
@@ -4533,7 +4537,7 @@
 <!--
                 oklart om det är en häst som åsyftas, och om den i så fall har funnits,
                 men på annat ställe pratas om att åka bak till Stallmästaregården,
-                dit Adjunkten vill följa med 
+                dit Adjunkten vill följa med
               -->
             </person>
           </listPerson>

@@ -68,7 +68,6 @@
         </availability>
         <idno type="dramawebben">StrindbergA_Marodorer</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000048</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q10543210</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -90,9 +89,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1886"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -105,15 +101,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -247,6 +243,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1886">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q10543210"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -2033,7 +2037,7 @@
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Nej, gunås, jag har bara fått rita. Men nu
-              <lb/> ska jag ut och se mig omkring och hoppas få 
+              <lb/> ska jag ut och se mig omkring och hoppas få
               <lb/> göra något till Paris-salongen.</p>
           </sp>
           <sp who="#spBertha">
@@ -2065,7 +2069,7 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL</speaker>
-            <stage>(reser sig och går till kakel­<lb break="no"/>ugnen, der han ställer sig                               
+            <stage>(reser sig och går till kakel­<lb break="no"/>ugnen, der han ställer sig
               <lb/> med ryggen mot densamma).</stage>
             <p>Ack, jag har så mycket i hufvudet!</p>
           </sp>
@@ -2350,7 +2354,7 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Jag är ingendera. Jag är bara en vanlig 
+            <p>Jag är ingendera. Jag är bara en vanlig
               <lb/> qvinna.</p>
           </sp>
           <sp who="#spAxel">
@@ -2418,7 +2422,7 @@
           <sp who="#spBertha">
             <speaker>BERTHA</speaker>
             <stage>(drar sig tillbaka).</stage>
-            <p>Om du lofvar, och om du vill ge verlden ett 
+            <p>Om du lofvar, och om du vill ge verlden ett
               <lb/> exempel på en enda man, som har offrat sig för
               <lb/> en qvinna!</p>
           </sp>
@@ -2432,7 +2436,7 @@
               <lb/> när du får lida smälek och höra att du står under
               <lb/> toffeln, att du inte är karl för din hatt? Ge mig
               <lb/> ett bevis på att du vågar lida något obehag för
-              <lb/> min skull. Tag detta armband! Bär det som ett 
+              <lb/> min skull. Tag detta armband! Bär det som ett
               <lb/> tecken till vår förening och som ett bevis att du
               <lb/> älskar mig, ty älska, det är att offra!</p>
           </sp>
@@ -2932,7 +2936,7 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>Jo, om saker som jag kan utföra utan att 
+            <p>Jo, om saker som jag kan utföra utan att
               <lb/> offra ...</p>
           </sp>
           <sp who="#spBertha">
@@ -3041,7 +3045,7 @@
               <lb/> betalar mina med dryga fem francs i timmen. Du
               <lb/> vet icke sjelf huru god, huru ädel, huru uppoffrande
               <pb facs="6381-52.jpg"/>
-              <fw type="pageNum">51</fw> 
+              <fw type="pageNum">51</fw>
               du är, men du vet också icke huru jag lider af
               <lb/> att se dig släpa så för mig. Ack, <persName ref="#Axel">Axel</persName>, du kan
               <lb/> icke känna hur jag skall ha det i min ställning.
@@ -3410,7 +3414,7 @@
           </sp>
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
-            <p>Hm, jag träffade en »hors concours«, som 
+            <p>Hm, jag träffade en »hors concours«, som
               <lb/> visste det! Och jag var smått rädd att få be­<lb break="no"/>vittna en scen, när jag kom hitin, men han har
               <lb/> sålunda inte fått underrättelsen än!</p>
           </sp>
@@ -3444,7 +3448,7 @@
               <lb/> rum på salongens väggar. Det är så många frun­<lb break="no"/>timmer som bli refuserade, så att en herre också
               <lb/> kan tåla vid att få känna på't. Men kommer jag
               <pb facs="6381-59.jpg"/>
-              <fw type="pageNum">58</fw> 
+              <fw type="pageNum">58</fw>
               nu in, då få vi nog höra huru <emph>han</emph> har målat
               <lb/> min tafla, huru han har lärt mig, huru han har
               <lb/> betalt mina lektioner. Men det kommer jag inte
@@ -4261,7 +4265,7 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>Det var märkvärdigt! Du vet att jag har en 
+            <p>Det var märkvärdigt! Du vet att jag har en
               <lb/> passion att söka billighet och rättvisa, men i den
               <lb/> här saken har jag icke ännu sett någon utredning
               <lb/> af hvad som är rätt och billigt.</p>
@@ -4718,7 +4722,7 @@
             <speaker>AXEL.</speaker>
             <p>Jag vet inte att ordet qvinnor blifvit något
               <lb/> opassande uttryck! Eller skäms ni för det? —
-              <lb/> Hör du, <persName ref="#Bertha">Bertha</persName>. Efter som vår ekonomi hädan­<lb break="no"/>efter kommer att undergå förändringar, så vill 
+              <lb/> Hör du, <persName ref="#Bertha">Bertha</persName>. Efter som vår ekonomi hädan­<lb break="no"/>efter kommer att undergå förändringar, så vill
               <lb/> jag veta husets ställning. Var snäll och låt mig
               <lb/> se hushållsboken!</p>
           </sp>
@@ -4889,7 +4893,7 @@
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Har han inte tid! — Så! — Kanske nyckeln
-              <lb/> kommer till rätta ändå! Nu måste jag gå i alla 
+              <lb/> kommer till rätta ändå! Nu måste jag gå i alla
               <lb/> fall. Adjö!</p>
           </sp>
           <sp who="#spBertha">
@@ -4948,7 +4952,7 @@
           <sp who="#spAbel">
             <speaker>ABEL.</speaker>
             <p>Jag brukar vara påhittig. Jo, låt mig se!
-              <lb/> Hör du! Om du skulle hemta hans refuserade             
+              <lb/> Hör du! Om du skulle hemta hans refuserade
               <pb facs="6381-87.jpg"/>
               <fw type="pageNum">86</fw>
               tafla i morgon afton, och låta den komma hem
@@ -5138,7 +5142,7 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Kanske det var dumt. Men han blir nog snäll 
+            <p>Kanske det var dumt. Men han blir nog snäll
               <lb/> igen, när han varit ute och luftat af sig. Jag
               <lb/> känner honom så väl!</p>
           </sp>
@@ -5764,7 +5768,7 @@
               <lb/> förstört mitt anseende. En man kan reparera en
               <lb/> qvinnas heder på många sätt, men en qvinna kan
               <pb facs="6381-102.jpg"/>
-              <fw type="pageNum">101</fw>  
+              <fw type="pageNum">101</fw>
               icke reparera en mans. Hvad har du gjort med
               <lb/> pengarna?</p>
           </sp>
@@ -5992,7 +5996,7 @@
           </sp>
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
-            <p>Derför att jag i afton brutit alla band, 
+            <p>Derför att jag i afton brutit alla band,
               <lb/> äfven det sista!</p>
           </sp>
           <sp who="#spBertha">
@@ -6291,7 +6295,7 @@
         </div>
         <div type="scene" n="2">
           <head>Andra scenen.</head>
-          <stage type="presence">DE FÖRRA. <stage type="entrance" who="#Willmer">WILLMER (med en blombukett. Går fram till 
+          <stage type="presence">DE FÖRRA. <stage type="entrance" who="#Willmer">WILLMER (med en blombukett. Går fram till
             <lb/>
               <persName ref="#Bertha">Bertha</persName>, kysser hennes hand och lemnar buketten.)</stage>
           </stage>
@@ -6377,9 +6381,9 @@
               <lb/> dör jag före henne, så få barnen förmyndare och
               <lb/> hon får troligen icke ärfva mig. Men det har jag
               <lb/> inte så noga reda på! — Men hon är snäll, så
-              <lb/> snäll, ser du, men så är jag också snäll mot                                      
+              <lb/> snäll, ser du, men så är jag också snäll mot
               <pb facs="6381-114.jpg"/>
-              <fw type="pageNum">113</fw>                                 
+              <fw type="pageNum">113</fw>
               henne. Det är roligt att vara gift tycker jag, hva?
               <lb/> Och så lagar hon så rysligt god mat!</p>
           </sp>
@@ -6531,7 +6535,7 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Du ville helst icke ha något att skaffa med 
+            <p>Du ville helst icke ha något att skaffa med
               <lb/> dina öfvergifna barn!</p>
           </sp>
           <sp who="#spDoktorn">
@@ -6568,7 +6572,7 @@
               <lb/> af andra män. Kunde du ha ett begrepp hvad det
               <lb/> kostat mig i arbete och försakelser att underhålla
               <lb/> två hushåll, skulle du besparat mig denna obehag­<lb break="no"/>liga stund, men det kan inte en qvinna komma
-              <lb/> sig för att tänka ut. Mera behöfver du inte veta, 
+              <lb/> sig för att tänka ut. Mera behöfver du inte veta,
               <lb/> helst hela denna sak inte rör dig! Nu vet du det!</p>
           </sp>
           <sp who="#spBertha">
@@ -6599,7 +6603,7 @@
           </sp>
           <sp who="#spBertha">
             <speaker>BERTHA.</speaker>
-            <p>Återbetalning? Ja, jag vet att jag är skyldig 
+            <p>Återbetalning? Ja, jag vet att jag är skyldig
               <lb/> dig ... arvoden ...</p>
           </sp>
           <sp who="#spAxel #spCarl #spDoktorn">
@@ -6824,7 +6828,7 @@
           <sp who="#spAxel">
             <speaker>AXEL.</speaker>
             <p>Ja! Der det inte fins några barn att slita,
-              <lb/> så lossnar det af sig sjelf. Det här var inte något  
+              <lb/> så lossnar det af sig sjelf. Det här var inte något
               <pb facs="6381-122.jpg"/>
               <fw type="pageNum">121</fw>
               äktenskap det var bara en samboning, eller något

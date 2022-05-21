@@ -68,7 +68,6 @@
         </availability>
         <idno type="dramawebben">AgrellA_EnHufvudsak</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000002</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q18238627</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -98,9 +97,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1883"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -113,15 +109,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -197,6 +193,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1883">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q18238627"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -2626,7 +2630,7 @@
           <sp who="#spAgnes">
             <speaker>Agnes</speaker>
             <stage>(afsides).</stage>
-            <p>Läkemedlet var beskt, men det gjorde verkan.              
+            <p>Läkemedlet var beskt, men det gjorde verkan.
               <pb facs="6000-62.jpg"/>
               <fw type="pageNum">240</fw>
               <stage>(Högt)</stage> Nå, <persName ref="#Siri">liten</persName>, skola vi inte läsa det här för­<lb break="no"/>färliga brefvet nu?</p>
@@ -2896,7 +2900,7 @@
             <speaker>Siri.</speaker>
             <p>Hå, jag undrar bara om det <emph>fins</emph> någon
               <lb/> hustru, hon må nu vara hur fåfäng, hur barnslig
-              <lb/> som helst, som inte sätter sin makes förtroende              
+              <lb/> som helst, som inte sätter sin makes förtroende
               <pb facs="6000-68.jpg"/>
               <fw type="pageNum">246</fw>
               framför allt annat. Men vi glömma ju alldeles af
@@ -2943,7 +2947,7 @@
           </sp>
           <sp who="#spSiri">
             <speaker>Siri.</speaker>
-            <p>Gud är allt god, du, och <persName ref="#Agnes">Agnes</persName> se'n! Men —              
+            <p>Gud är allt god, du, och <persName ref="#Agnes">Agnes</persName> se'n! Men —
               <pb facs="6000-69.jpg"/>
               <fw type="pageNum">247</fw>
               <stage>(håller på att sätta sig på hatten).</stage> Hu, så rädd

@@ -65,7 +65,6 @@
         </availability>
         <idno type="dramawebben">AgrellA_EnLektion</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000003</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q10483370</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -97,7 +96,7 @@
             <imprint>
               <pubPlace>Stockholm</pubPlace>
               <publisher>Jos. Seligmann &amp; C:is förlag</publisher>
-<!-- 
+<!--
 		   Denna del är tryckt 1884 som http://libris.kb.se/bib/1733676
 		   men sammanbunden 1886 som http://libris.kb.se/bib/1733674. /ljo
 	      -->
@@ -109,9 +108,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1884"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -124,15 +120,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -187,6 +183,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1884">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q10483370"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -223,9 +227,9 @@
     <body>
       <pb facs="37040-7.jpg"/>
       <div type="act" n="1">
-        <stage type="setting" who="#Elsa #Åke">Scenen föreställer en vacker sängkammare med alkov, för 
-          <lb/> hvilken gardiner äro dragna. Tvänne garderober. En skärm 
-          <lb/> afdelar ett hörn. I fonden synes en vacker trädgård. Solned­<lb break="no"/>gång. Elsa ligger, med håret vårdslöst hopviradt iklädd en ele­<lb break="no"/>gant men skrynklig morgondrägt, på en soffa. Åke hvilar på en 
+        <stage type="setting" who="#Elsa #Åke">Scenen föreställer en vacker sängkammare med alkov, för
+          <lb/> hvilken gardiner äro dragna. Tvänne garderober. En skärm
+          <lb/> afdelar ett hörn. I fonden synes en vacker trädgård. Solned­<lb break="no"/>gång. Elsa ligger, med håret vårdslöst hopviradt iklädd en ele­<lb break="no"/>gant men skrynklig morgondrägt, på en soffa. Åke hvilar på en
           <lb/> chaiselongue vid fönstret, läsande.</stage>
         <sp who="#spElsa">
           <speaker>ELSA.</speaker>
@@ -297,8 +301,8 @@
         </sp>
         <sp who="#spElsa">
           <speaker>ELSA.</speaker>
-          <p>Fyra månader bara! Vänta låt mig se! Vi gifte 
-          <lb/> oss i Mars, tillbringade hela April på resor, kommo hit 
+          <p>Fyra månader bara! Vänta låt mig se! Vi gifte
+          <lb/> oss i Mars, tillbringade hela April på resor, kommo hit
           <lb/> i Maj, och nu ha vi September. Ja, det slår in, det.
           <lb/>
             <stage>Med betoning.</stage> Jaa! Ack vår resa, vår förtjusande resa!</p>
@@ -317,7 +321,7 @@
           <lb/> brukade skicka mig blommor hvar morgon och som rul­<lb break="no"/>lade med ögonen så här <stage>rullar med ögonen</stage>, bara jag gick
           <lb/> förbi? Och den der engelska missen sedan! Hon med
           <lb/> långa näsan och mössan, som såg ut som en pudding­<lb break="no"/>form. <stage>Talar salvelsefullt</stage>. <anchor type="hand" xml:id="handarbete1start"/>»<persName ref="#Elsa #Åke">Unga makar</persName>, tänk på edra
-          <lb/> själar, kärleken går snärjd i satans garn»<anchor type="hand" xml:id="handarbete1slut"/> — — Nå, än 
+          <lb/> själar, kärleken går snärjd i satans garn»<anchor type="hand" xml:id="handarbete1slut"/> — — Nå, än
           <lb/> polacken då, som sa’, att om <emph>jag</emph> varit i hans fäder­<lb break="no"/>nesland skulle han ha blifvit nihilist med ens. Om
           <lb/> det var för att rädda mig från min »förtryckare», eller
           <lb/> för att spränga mig i luften, det vet jag inte.</p>
@@ -422,7 +426,7 @@
           <speaker>ELSA.</speaker>
           <p>Ja, om du räknar komministern, som ser ut att ha
           <lb/> bott på Noachs ark till dess han tog pastoralexamen,
-          <lb/> och brukspatron, som har snufva hela året om, så man 
+          <lb/> och brukspatron, som har snufva hela året om, så man
           <lb/> hinner inte mer än ropa prosit och gud hjelp.</p>
         </sp>
         <sp who="#spÅke">
@@ -431,7 +435,7 @@
         </sp>
         <sp who="#spElsa">
           <speaker>ELSA.</speaker>
-          <p>Neej, men en fluga gör ingen sommar — och för  
+          <p>Neej, men en fluga gör ingen sommar — och för
           <lb/> öfrigt — så är <persName ref="#Holms">herrn</persName> gammal.</p>
         </sp>
         <sp who="#spÅke">
@@ -839,7 +843,7 @@
           <speaker>ÅKE</speaker>
           <stage>allvarligt.</stage>
           <p>Men jag fruktar det är orätt att ta’ de der pengar­<lb break="no"/>na. Jag behöfver nödvändigt en skördemaskin och jag
-          <lb/> kan inte få dem ersatta. Du vet, att såväl dina som 
+          <lb/> kan inte få dem ersatta. Du vet, att såväl dina som
           <lb/> mina föräldrar ansträngde sig till det yttersta för att
           <lb/> skaffa oss den här egendomen — —. Men du som är
           <lb/> »min bättre hälft», ska’ få afgöra. Men jag ber dig:

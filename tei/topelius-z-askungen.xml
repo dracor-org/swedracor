@@ -72,7 +72,6 @@
         </availability>
         <idno type="dramawebben">TopeliusZ_Askungen</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000056</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q59651619</idno>
       </publicationStmt>
       <sourceDesc>
         <listBibl>
@@ -157,9 +156,6 @@
             </monogr>
           </biblStruct>
         </listBibl>
-        <bibl type="originalSource">
-          <date type="print" when="1890"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -172,15 +168,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -325,6 +321,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1890">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q59651619"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <group>
@@ -764,7 +768,7 @@
                 <lb/> Austrasien</persName>. <persName ref="#Heloisa">Din moder</persName> dog, när du var ett
                 <lb/> år gammal, och <persName ref="#Dietrik">din fader</persName> gifte sig andra
                 <lb/> gången med <persName ref="#DrottningenafBurgund">den sköna och grymma enkan</persName>
-                <lb/> efter <persName ref="#Rövarhövding">en röfvarehöfding</persName>, som han besegrat. 
+                <lb/> efter <persName ref="#Rövarhövding">en röfvarehöfding</persName>, som han besegrat.
                 <lb/> Hon hade <persName ref="#Superba #Thora">två döttrar Thora och Superba</persName>
                 <lb/> från sitt första gifte, men hennes äktenskap
                 <lb/> med <persName ref="#Dietrik">din fader</persName> blef barnlöst. Då lät <persName ref="#DrottningenafBurgund">din
@@ -775,7 +779,7 @@
                 <persName ref="#Superba #Thora">hennes döttrar</persName> som sina egna. Du vårdades
                 <lb/> af <persName ref="#Herden">en fattig herde</persName>, men när <persName ref="#Dietrik">din fader</persName> stupat
                 <lb/> i kriget, tog <persName ref="#DrottningenafBurgund">din styfmoder</persName> dig till sig för
-                <lb/> att bättre bevaka dig. När hon dog, för­<lb break="no"/>manade hon <persName ref="#Thora">Thora</persName> och <persName ref="#Superba">Superba</persName> att aldrig 
+                <lb/> att bättre bevaka dig. När hon dog, för­<lb break="no"/>manade hon <persName ref="#Thora">Thora</persName> och <persName ref="#Superba">Superba</persName> att aldrig
                 <pb facs="38054-4.jpg"/>
                 <fw type="pageNum">92</fw>
                 låta dig eller någon annan veta din här­<lb break="no"/>komst. Hvad blefve det af <persName ref="#Superba #Thora">
@@ -1006,7 +1010,7 @@
         <body>
           <div type="act" n="2">
             <stage type="setting" who="#Drottningen #Grim #Hovet #Kungen #Mumma #Prinsen #Pimpe #Pumpa">Slottets thronsal. Konungen och drottningen sitta
-              <lb/> på sina throner, mottagande gäster. Närmast dem 
+              <lb/> på sina throner, mottagande gäster. Närmast dem
               <lb/> prinsen och sedan hofvet. Grim och Mumma an­<lb break="no"/>mäla gästerna, som inträda när de uppropas, göra
               <lb/> sin reverens för det kungliga och sedan stadna på
               <lb/> sidan. Pimpe och Pumpa tassla högt i en vrå.</stage>
@@ -1128,7 +1132,7 @@
             <sp who="#spGrim">
               <speaker>Grim.</speaker>
               <p>
-                <persName ref="#Lunkentus">Hans manhaftighet snabblöparen 
+                <persName ref="#Lunkentus">Hans manhaftighet snabblöparen
                 <lb/> Lunkentus</persName>.</p>
             </sp>
             <stage type="entrance" who="#Lunkentus"/>
@@ -2272,7 +2276,7 @@
                 <persName ref="#Thora">Thora</persName>, du är högmodig och fåfäng: jag för­<lb break="no"/>vandlar dig till en påfågel. <persName ref="#Superba">Superba</persName>, du är
                 <lb/> icke allenast högmodig och fåfäng, du är
                 <lb/>  äfven lögnaktig och afundsjuk: jag förvand­<lb break="no"/>lar dig till en korp. Och du, <persName ref="#Trilla">Trilla</persName>, är
-                <lb/> den falskaste och trolösaste af eder alla, 
+                <lb/> den falskaste och trolösaste af eder alla,
                 <pb facs="38054-13.jpg"/>
                 <fw type="pageNum">108</fw>
                 ty du förråder dem, hvilkas bröd du äter:
@@ -2329,7 +2333,7 @@
                 <lb/> eder alla. Du, <persName ref="#Thora">Thora</persName>, var stundom vänlig
                 <lb/> mot mig. Du skall bo hos mig och alltid
                 <lb/> vara min syster, och hvar morgon skall jag
-                <lb/> klippa de fula klorna, så att ingen kan 
+                <lb/> klippa de fula klorna, så att ingen kan
                 <lb/> märka dem.</p>
             </sp>
             <sp who="#spThora">
@@ -2372,7 +2376,7 @@
             <sp who="#spPimpe">
               <speaker>Pimpe.</speaker>
               <p>Sexhundrafemtiosju fötter äro
-                <lb/> mätta, och ingen har passat i skon. <persName ref="#Dina">Bal­<lb break="no"/>trollet</persName> —— au! —— har flugit sin väg eller 
+                <lb/> mätta, och ingen har passat i skon. <persName ref="#Dina">Bal­<lb break="no"/>trollet</persName> —— au! —— har flugit sin väg eller
                 <cb n="2"/>
                 klämt ihjäl sig i väggen. Jag har vunnit
                 <lb/> vadet. Himmelselement —— au! —— hvad

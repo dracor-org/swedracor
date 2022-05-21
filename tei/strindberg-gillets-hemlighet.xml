@@ -68,7 +68,6 @@
         </availability>
         <idno type="dramawebben">StrindbergA_GilletsHemlighet</idno>
         <idno type="dracor" xml:base="https://dracor.org/id/">swe000042</idno>
-        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q10504934</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -90,9 +89,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl type="originalSource">
-          <date type="print" when="1880"/>
-        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -105,15 +101,15 @@
           aktualiserar Dramawebben den svenska teaterns historieskatt.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och 
-          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från 
-          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga 
-          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är 
+        <p>Dramawebbens korpus består av upphovsrättsligt fri svensk dramatik. Genom ett genus- och
+          kanonkritiskt urval har målsättningen varit att i möjligaste mån representera dramatik från
+          olika genrer och för olika publiker. Det finns dramatik skriven av manliga och kvinnliga
+          författare från 1640- till 1940-talet som vänder sig till vuxna och barn. Samtliga är
           förstatryck som publicerats i monografier, samlingsvolymer och tidskrifter.</p>
-        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben, 
-          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet 
-          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling. 
-          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och 
+        <p>De TEI-kodade pjäserna är en mindre samling pjäser som är publicerade på Dramawebben,
+          närmare bestämt de som gavs ut åren 1880-1900. Det snäva tidsspannet ger materialet
+          en viss homogenitet med avseende på grundläggande dramastrukturer som tid, rum och handling.
+          Samtidigt ger det en rik variation av olika genrer från lustspel, historiedramer och
           sagospel till samhällsdebatterande tendensdramer och naturalistiska sorgespel.</p>
       </samplingDecl>
       <classDecl>
@@ -285,6 +281,14 @@
       </particDesc>
     </profileDesc>
   </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1880">
+        <desc/>
+      </event>
+    </listEvent>
+    <link type="wikidata" target="http://www.wikidata.org/entity/Q10504934"/>
+  </standOff>
   <text>
     <anchor xml:id="playstart"/>
     <front>
@@ -417,7 +421,7 @@
                 <persName ref="#Helvig">HELVIG</persName> sysslar vid spisen.</stage>
               <lb/>
               <stage type="entrance" who="#Domherren #Olof">
-                <persName ref="#Domherren">DOMHERREN</persName> in; med <persName ref="#Olof">OLOF</persName> som bär ciboriet, öfverhöljdt med 
+                <persName ref="#Domherren">DOMHERREN</persName> in; med <persName ref="#Olof">OLOF</persName> som bär ciboriet, öfverhöljdt med
               <lb/> rödt sammet (hvilket är besatt med små klockor som pingla),
               <lb/> samt med en lykta.</stage>
               <stage>
@@ -427,7 +431,7 @@
           </stage>
           <sp who="#spHelvig">
             <speaker>HELVIG.</speaker>
-            <p>Der ha vi <persName ref="#Domherren">Domine</persName> sjelf! Aldrig ett ord sa’ 
+            <p>Der ha vi <persName ref="#Domherren">Domine</persName> sjelf! Aldrig ett ord sa’
               <lb/> han åt mig innan han gick i morgonbön, så att
               <lb/> jag fick ha till reds åt honom något varmt. Om
               <lb/> en kunde fatta hvarför han skall ut så tidigt i ky­<lb break="no"/>lan, då det fins så fullt med kaniker och korprester
@@ -540,7 +544,7 @@
           <stage type="presence" who="#Domherren #Olof">DOMHERREN. OLOF.</stage>
           <sp who="#spDomherren">
             <speaker>DOMHERREN</speaker>
-            <stage>sätter sig i karmstolen och 
+            <stage>sätter sig i karmstolen och
               <lb/> rör med käppen i elden.</stage>
             <p>Menar du att det var mycket folk i messan i dag?</p>
           </sp>
@@ -596,7 +600,7 @@
             <speaker>OLOF</speaker>
             <stage>går till bordet vid fönstret
               <lb/> der mjölken står.</stage>
-            <p>Det lyser uppe i Gillestugan ännu, <persName ref="#Domherren">Domine</persName>, fast 
+            <p>Det lyser uppe i Gillestugan ännu, <persName ref="#Domherren">Domine</persName>, fast
               <lb/> solen är uppe.</p>
           </sp>
           <pb facs="6365-10.jpg"/>
@@ -657,7 +661,7 @@
           <stage>Torkar sig om mun med rockärmen.</stage>
           <sp who="#spCecilia">
             <speaker>CECILIA.</speaker>
-            <p>Tala nu om hvar <persName ref="#Domherren">Dominus</persName> är, annars smäller 
+            <p>Tala nu om hvar <persName ref="#Domherren">Dominus</persName> är, annars smäller
               <lb/> det en gång till!</p>
           </sp>
           <sp who="#spOlof">
@@ -777,7 +781,7 @@
           <sp who="#spCecilia">
             <speaker>CECILIA.</speaker>
             <p>Jag hade gått ner åt ån för att se svanorna
-              <lb/> flytta från <placeName>Ekolsund</placeName> — jag såg dem också sträcka 
+              <lb/> flytta från <placeName>Ekolsund</placeName> — jag såg dem också sträcka
               <lb/> öfver <placeName>Kungsängen</placeName> — åh, det var så vackert! Nå;
               <lb/> jag kom att gå förbi <orgName ref="#SanktLarsGillet">Gillet</orgName>! Det lyste! Nu visste
               <lb/> jag att <persName ref="#Hans">fosterfar</persName>, som icke besökt <orgName ref="#SanktLarsGillet">Gillet</orgName> på ett helt
@@ -1237,7 +1241,7 @@
           </sp>
           <sp who="#spDomherren">
             <speaker>DOMHERREN.</speaker>
-            <p>I har hemliga grunder för att misstänka min 
+            <p>I har hemliga grunder för att misstänka min
               <lb/> sanningskärlek?</p>
           </sp>
           <sp who="#spJacques">
@@ -1283,7 +1287,7 @@
           <sp who="#spDomherren">
             <speaker>DOMHERREN</speaker>
             <stage>ser sig om.</stage>
-            <p>Guds fred <persName ref="#Hans">Ålderman</persName>. För all del sitt <persName ref="#Jacques">Mäster 
+            <p>Guds fred <persName ref="#Hans">Ålderman</persName>. För all del sitt <persName ref="#Jacques">Mäster
               <lb/> Jacques</persName>, sitt!</p>
           </sp>
           <sp who="#spHans">
@@ -1590,7 +1594,7 @@
           <stage type="presence" who="#Cecilia #Domherren #Sten">DE FÖRRE. STEN resklädd med rensel.</stage>
           <sp who="#spDomherren">
             <speaker>DOMHERREN.</speaker>
-            <p>Se der ha’ vi svärmaren! Guds fred <persName ref="#Sten">Sten</persName> — 
+            <p>Se der ha’ vi svärmaren! Guds fred <persName ref="#Sten">Sten</persName> —
               <lb/> vi talade just om honom. Hvad har han nu för
               <lb/> ärende?</p>
           </sp>
@@ -1634,7 +1638,7 @@
                 <sic>STEM</sic>
                 <corr>STEN</corr>
               </choice>.</speaker>
-            <p>Det frågar I, herre? Fins det mer än en — 
+            <p>Det frågar I, herre? Fins det mer än en —
               <lb/> förlåt <persName ref="#Cecilia">jungfru Cecilia</persName> — den ondes mask, <persName ref="#Jacques">Jacques</persName>;
               <lb/> som de nu hafva upphöjt till sin herre. O, det
               <lb/> är en synd att tänka det!</p>
@@ -1696,7 +1700,7 @@
           </sp>
           <sp who="#spSten">
             <speaker>STEN.</speaker>
-            <p>Jag har varit i Stenbrotten vid <placeName>Lenna</placeName>; han — 
+            <p>Jag har varit i Stenbrotten vid <placeName>Lenna</placeName>; han —
               <lb/> har tagit ifrån mig passet och hammarn och skickat
               <lb/> mig att bryta sten åt honom, och han, han skall
               <lb/> bygga Herrans hus med sina orena händer! Vet
@@ -1857,7 +1861,7 @@
               <lb/> lärde min konst, I vet det heter <placeName>Provence</placeName>, der lig­<lb break="no"/>ger ett berg som kallas än denna dag för <placeName>Mont
               <lb/> Silence</placeName>; det reser mot skyn sin snöiga topp, men
               <lb/> i det berget finnes en hålväg, der stalp sig staplar
-              <lb/> på stalp; när herden mot qvällen drifver hem sin 
+              <lb/> på stalp; när herden mot qvällen drifver hem sin
               <lb/> hjord, då bär han sina skor i handen att icke ste­<lb break="no"/>narne skola gifva ljud och han binder mulen på
               <lb/> sina kreatur att de icke måtte bryta tystnaden;
               <lb/> om någon det gör är han dödens man, ty då stör­<lb break="no"/>tar berget tillsammans och ger den osälle både
@@ -1867,7 +1871,7 @@
               <lb/> skor och koppardubbe i min staf, och glad skall
               <lb/> jag vandra in i min graf ropande ut för berget,
               <lb/> för skogen min hemlighet: <persName ref="#Cecilia">Cecilia</persName>! <persName ref="#Cecilia">Cecilia</persName>! Och
-              <lb/> när tallarne bågna och klippstalpen skälfva, då 
+              <lb/> när tallarne bågna och klippstalpen skälfva, då
               <lb/> skall mitt hjerta i döden jubla: <persName ref="#Cecilia">Cecilia</persName>! <persName ref="#Cecilia">Ce­<lb break="no"/>cilia</persName>! <stage>Vill gå.</stage>
             </p>
           </sp>
@@ -1879,7 +1883,7 @@
               <persName ref="#Sten">Sten</persName>! <persName ref="#Sten">Sten</persName>! det är synd I talar! I har ju mig,
               <lb/> allra käraste hjertans glädje, I har ju mig! Gå
               <lb/> icke för Herrans namns och döds skull! Har I
-              <lb/> glömt S:t Barbara afton i <placeName>Slottshagen</placeName>, då jag sade 
+              <lb/> glömt S:t Barbara afton i <placeName>Slottshagen</placeName>, då jag sade
               <lb/> Er hur kär I varen mig! Edert tal vill spränga
               <lb/> mitt bröst med bedröfvelse och pina, när jag tän­<lb break="no"/>ker jag skulle mista ert kärliga umgänge. <persName ref="#Sten">Sten</persName>!
               <lb/> min fröjd, min allra bästa amur. I har ju mig,
@@ -2509,7 +2513,7 @@
               <fw type="pageNum">42</fw>
               nyss! När jag ser den lille som sträcker sina armar
               <lb/> mot mig, då ler mitt sinne, men när jag ser ho­<lb break="no"/>nom vexa och bli stor som jag, då ser jag mig
-              <lb/> som en gammal man — alldeles som den gamle — 
+              <lb/> som en gammal man — alldeles som den gamle —
               <lb/> undanskjuten, nedtrampad som gammalt gräs på
               <lb/> ängen om vintern.</p>
           </sp>
@@ -3133,7 +3137,7 @@
             <stage>dricker.</stage>
             <p>Nej, säger du! Du säger nej der du sitter!
               <lb/> Säger du icke nej? Hvad står <persName ref="#Gerhard">Gerhard</persName> och lyss
-              <lb/> på? Ser du nu att du inte vet någonting! — 
+              <lb/> på? Ser du nu att du inte vet någonting! —
               <lb/> Det fins folk, se, som tro att de veta allting, till
               <lb/> och med andras hemligheter; men det göra de
               <lb/> icke, de säga så bara... <stage>Han försjunker i slösinne.</stage>
@@ -3713,7 +3717,7 @@
           <sp who="#spJacques">
             <speaker>JACQUES.</speaker>
             <p>Detta: superintendent och I mästare i <orgName ref="#SanktLarsGillet">Sanct
-              <lb/> Lars Gille</orgName>; härmed vill jag, <persName ref="#Jacques">Jacques ålderman</persName>, göra 
+              <lb/> Lars Gille</orgName>; härmed vill jag, <persName ref="#Jacques">Jacques ålderman</persName>, göra
               <lb/> kunnigt att i morgon Crastino Epiphaniæ vid­<lb break="no"/>tager arbetet på tornet, som befunnits vara otill­<lb break="no"/>räckligt i höjden, och skall spiran förlängas sju
               <lb/> alnar uppåt.</p>
           </sp>
@@ -3744,7 +3748,7 @@
               <lb/> jetten som trampar er till mjöl; hvad ären I mot
               <lb/> mig? Hvad veten I? Jo att råttorna gått utför
               <lb/> trapporna och att kajorna flyttat! Är det bevis?
-              <lb/> — Nej, här är bevis — Här är testimonium! — 
+              <lb/> — Nej, här är bevis — Här är testimonium! —
               <lb/> Se på det! Här <persName ref="#Domherren">Domine</persName>, och slå dem i ansigtet
               <lb/> som sagt att jag icke har hemligheten. Läs!</p>
             <stage>Han visar <persName ref="#Domherren">Domherren</persName> pergamentsremsan.</stage>
@@ -3999,7 +4003,7 @@
           <p>Till <emph>höger:</emph> ett gammalt trähus (Gillestugan och <persName ref="#Jacques">Jacques’</persName>
             <lb/> bostad) med fluster och träplanteringar framför; bänkar och
             <lb/> bord; utanför fönsterna bikupor. <emph>Fonden:</emph> en låg mur med
-            <lb/> port som öppnar perspektiv till en gränd; längst bort takåsar, 
+            <lb/> port som öppnar perspektiv till en gränd; längst bort takåsar,
             <lb/> gaflar och ett kyrktorn; vid porten en hönsbur och en hund­<lb break="no"/>koja. Till <emph>venster:</emph> huggna och ohuggna sandstensblock (bal­<lb break="no"/>dakiner, figurer, ornament o. s. v.); längst bort en förfallen
             <lb/> smedja.</p>
         </stage>
@@ -4158,7 +4162,7 @@
           </sp>
           <sp who="#spJacques">
             <speaker>JACQUES.</speaker>
-            <p>Den dårskapen är gjord, tala inte om den! — 
+            <p>Den dårskapen är gjord, tala inte om den! —
               <lb/> Vill du svärja vid det heligaste att icke röja hem­<lb break="no"/>ligheten för någon?</p>
           </sp>
           <sp who="#spGerhard">
@@ -4581,7 +4585,7 @@
           </sp>
           <sp who="#spJacques">
             <speaker>JACQUES.</speaker>
-            <p>Hvad nu! Talar I illa om min hustru? Död 
+            <p>Hvad nu! Talar I illa om min hustru? Död
               <lb/> och pina: hon ett våp? Ett känsligt sinne har hon;
               <lb/> men i nöd och fara skullen I se: der står hon bättre
               <lb/> bi än I och jag.</p>
@@ -4591,7 +4595,7 @@
             <p>Hå-hå, ja-ja. <persName ref="#Jacques">Ålderman</persName> vet, att <persName ref="#Anna">gamla Anna</persName>,
               <lb/>
               <persName ref="#Anna">
-                <persName ref="#Andreas">mjölnarns Anders’</persName> mor</persName>, hade samlat en styfver som 
+                <persName ref="#Andreas">mjölnarns Anders’</persName> mor</persName>, hade samlat en styfver som
               <lb/> hon inte unnte sin son; utan hon låg och höll på
               <lb/> den! Ja! Men <persName ref="#Andreas">Anders</persName> gick dräng och släpte som
               <lb/> man får, när man är dräng!</p>
@@ -4890,10 +4894,10 @@
           <sp who="#spMargaretha">
             <speaker>MARGARETHA.</speaker>
             <p>Ja, min käraste! Jag vet man förtalar och afundas honom; men jag skall säga Er att så godt
-              <lb/> hjerta som han har, har ingen, och så flitig och 
+              <lb/> hjerta som han har, har ingen, och så flitig och
               <lb/> kunnig som han är, är ingen! Var han icke redan
-              <lb/> som ung den dugligaste af alla kamraterna; och 
-              <lb/> blef han icke ålderman vid så unga år som ingen 
+              <lb/> som ung den dugligaste af alla kamraterna; och
+              <lb/> blef han icke ålderman vid så unga år som ingen
               <lb/> före honom.</p>
           </sp>
           <sp who="#spHelvig">
@@ -5364,8 +5368,8 @@
           <sp who="#spJacques">
             <speaker>JACQUES.</speaker>
             <p>Nej, <persName ref="#Margaretha">Margaretha min hustru</persName>, det blåser storm;
-              <lb/> håll dig derinne hos barnet. Jag är snart åter, och 
-              <lb/> då — —. God qväll <persName ref="#Domherren">domherre</persName> och mästare! Hvad 
+              <lb/> håll dig derinne hos barnet. Jag är snart åter, och
+              <lb/> då — —. God qväll <persName ref="#Domherren">domherre</persName> och mästare! Hvad
               <lb/> är det? Elden är lös i <placeName>Vaksala</placeName> kyrka!</p>
           </sp>
           <sp who="#spDomherren">
@@ -5388,7 +5392,7 @@
               <pb facs="6365-103.jpg"/>
               <fw type="pageNum">98</fw>
               hand som för piskan; ty jag har också ett hjerta
-              <lb/> i bröstet fastän I icke tror det. Framåt! <stage>Han fat­<lb break="no"/>tar <rs type="hand" ref="#handarbetep3">banéret</rs>.</stage> Med <persName ref="#SanktLars">Sankt Lars</persName>, <persName ref="#SanktErik">Sankt Erik</persName> och den 
+              <lb/> i bröstet fastän I icke tror det. Framåt! <stage>Han fat­<lb break="no"/>tar <rs type="hand" ref="#handarbetep3">banéret</rs>.</stage> Med <persName ref="#SanktLars">Sankt Lars</persName>, <persName ref="#SanktErik">Sankt Erik</persName> och den
               <lb/> heliga Jungfrun! <stage type="exit" who="#Jacques">Går.</stage>
             </p>
           </sp>
@@ -5630,7 +5634,7 @@
           <sp who="#spCecilia">
             <speaker>CECILIA.</speaker>
             <p>
-              <persName ref="#Helvig">Kära Helvig</persName>, du har icke gjort oss ondt — — 
+              <persName ref="#Helvig">Kära Helvig</persName>, du har icke gjort oss ondt — —
               <lb/> jag har mött <persName ref="#Sten">Sten</persName> sedan dess många gånger och
               <lb/> nu är det mycket bättre oss emellan än det nå­<lb break="no"/>gonsin varit, och det ha vi dig att tacka för. Salt
               <lb/> skall det vara fast det svider; samma hvem som
@@ -5664,7 +5668,7 @@
           <sp who="#spMargaretha">
             <speaker>MARGARETHA.</speaker>
             <p>Och <persName ref="#Olof">Olof</persName> har icke kommit igen; och jag kan
-              <lb/> icke gå ifrån barnet för att söka honom! — Ve 
+              <lb/> icke gå ifrån barnet för att söka honom! — Ve
               <lb/> dem som hafva gjort honom detta. O, att ond­<lb break="no"/>skan och afunden skola hafva en sådan framfärd
               <lb/> — detta har <persName ref="#Jurgen">Jurgen</persName> gjort och <persName ref="#Gerhard">Gerhard</persName> och <persName ref="#Sten">Sten</persName>!</p>
           </sp>
@@ -5719,7 +5723,7 @@
           <sp who="#spCecilia">
             <speaker>CECILIA.</speaker>
             <p>Vid alla helgon, du talar som en rasande!
-              <lb/> Älskade syster, hvar är ditt blida sinn och din 
+              <lb/> Älskade syster, hvar är ditt blida sinn och din
               <lb/> stilla ro! Jag känner icke igen dig!</p>
           </sp>
           <sp who="#spMargaretha">
@@ -5928,7 +5932,7 @@
           <sp who="#spHelvig">
             <speaker>HELVIG.</speaker>
             <p>Ack jo, <persName ref="#Jacques">nådige Ålderman</persName>; <persName ref="#Domherren">Domherren</persName> har
-              <lb/> kallat <orgName ref="#SanktLarsGillet">Gillet</orgName> till stämma i afton för att tala om — 
+              <lb/> kallat <orgName ref="#SanktLarsGillet">Gillet</orgName> till stämma i afton för att tala om —
               <lb/> efter hvad som skett.</p>
           </sp>
           <sp who="#spJacques">
@@ -6011,7 +6015,7 @@
             <speaker>JACQUES.</speaker>
             <p>Jag tror att brottet växer i blodet som sot
               <lb/> eller rost och att det aldrig blir väl för än det
-              <lb/> bryter ut; jag tror att man ärfver dessa käns­<lb break="no"/>lor som man ärfver gäld. Har jag aldrig sagt, 
+              <lb/> bryter ut; jag tror att man ärfver dessa käns­<lb break="no"/>lor som man ärfver gäld. Har jag aldrig sagt,
               <lb/> att jag ibland tror att far har begått något brott
               <lb/> i sin ungdom, för hvilket han icke blifvit straffad?</p>
           </sp>
@@ -6024,7 +6028,7 @@
           <sp who="#spJacques">
             <speaker>JACQUES.</speaker>
             <p>Men jag tror det; och det brottet var så stort
-              <lb/> att vi behöfde vara två man att försona det. — 
+              <lb/> att vi behöfde vara två man att försona det. —
               <lb/> Nu kommer <persName ref="#Gerhard">Gerhard</persName>, gå in till dig, <persName ref="#Margaretha">mitt barn</persName>.</p>
           </sp>
           <sp who="#spMargaretha">
@@ -6092,7 +6096,7 @@
           </sp>
           <sp who="#spJacques">
             <speaker>JACQUES.</speaker>
-            <p>Håll tungan rätt i mun! Nu börjar jag! — 
+            <p>Håll tungan rätt i mun! Nu börjar jag! —
               <lb/> Tror du att det fins någon möjlighet? Svara inte
               <lb/> ännu! Tror du att någon nöjaktig förklaring —?</p>
           </sp>
@@ -6161,7 +6165,7 @@
           </sp>
           <sp who="#spJacques">
             <speaker>JACQUES.</speaker>
-            <p>Det blir snarare smedens, det är tydligt. — 
+            <p>Det blir snarare smedens, det är tydligt. —
               <lb/> Det var <persName ref="#Jurgen">Jurgen</persName>. Tack för det <persName ref="#Gerhard">Gerhard</persName>! Nu skall
               <lb/> du få min historia, så skall vi bli så goda vänner.
               <lb/> — Tag den här ringen och gå till djeknen i Dan­<lb break="no"/>marks kyrka; jag sof der i natt, emedan jag inte
@@ -6441,7 +6445,7 @@
             <speaker>HANS.</speaker>
             <p>Nu fick jag icke ens göra det. — Farväl!
               <lb/> Glöm mig så som mitt verk är glömdt! Stryk ut
-              <lb/> mig ur ditt minne så som mitt lif är utstruket. — 
+              <lb/> mig ur ditt minne så som mitt lif är utstruket. —
               <lb/> Sök mig i Helgeands-hospitalet der jag är tjenande
               <lb/> broder, om du känner behof af att förkrossa mig!
               <lb/> — Farväl!</p>
@@ -6648,7 +6652,7 @@
               <lb/> Der har du hemligheten. Om du varit med när
               <lb/> grunden lades, skulle du ha sett huru grundläg­<lb break="no"/>garne lade sitt stenkors i jorden — det är den
               <lb/> kristna kyrkans grundplan. Korset har grott i den
-              <lb/> helgade marken och vuxit, det ha vi sett — och 
+              <lb/> helgade marken och vuxit, det ha vi sett — och
               <lb/> det har skjutit stammar och slagit ut blad — men
               <lb/> högst upp, närmast himlen, på hvarje tornspets och
               <lb/> gafveltak har den gått i blom och se der blef en
@@ -7012,7 +7016,7 @@
           </sp>
           <sp who="#spJacques">
             <speaker>JACQUES.</speaker>
-            <p>Säger du? Men — ah, nu komma de igen — 
+            <p>Säger du? Men — ah, nu komma de igen —
               <lb/> de som gå bakom mig och skjuta på! — Jesus,
               <lb/> Maria!</p>
           </sp>
