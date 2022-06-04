@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="swe000058" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -69,7 +69,6 @@
           </licence>
         </availability>
         <idno type="dramawebben">TopeliusZ_Krypskyttarne</idno>
-        <idno type="dracor" xml:base="https://dracor.org/id/">swe000058</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -208,7 +207,9 @@
         <desc/>
       </event>
     </listEvent>
-    <link type="wikidata" target="http://www.wikidata.org/entity/Q59651602"/>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/swe000058" passive="http://www.wikidata.org/entity/Q59651602"/>
+    </listRelation>
   </standOff>
   <text>
     <anchor xml:id="playstart"/>

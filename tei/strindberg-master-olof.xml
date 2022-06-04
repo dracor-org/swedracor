@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="swe000049" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -62,7 +62,6 @@
           </licence>
         </availability>
         <idno type="dramawebben">StrindbergA_MasterOlof</idno>
-        <idno type="dracor" xml:base="https://dracor.org/id/">swe000049</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -424,7 +423,9 @@
         <desc/>
       </event>
     </listEvent>
-    <link type="wikidata" target="http://www.wikidata.org/entity/Q1765367"/>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/swe000049" passive="http://www.wikidata.org/entity/Q1765367"/>
+    </listRelation>
   </standOff>
   <text>
     <anchor xml:id="playstart"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="swe000016" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -69,7 +69,6 @@
           </licence>
         </availability>
         <idno type="dramawebben">IndebetouH_IDetGrona</idno>
-        <idno type="dracor" xml:base="https://dracor.org/id/">swe000016</idno>
       </publicationStmt>
       <sourceDesc>
         <biblStruct>
@@ -272,7 +271,9 @@
         <desc/>
       </event>
     </listEvent>
-    <link type="wikidata" target="http://www.wikidata.org/entity/Q59618558"/>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/swe000016" passive="http://www.wikidata.org/entity/Q59618558"/>
+    </listRelation>
   </standOff>
   <text>
     <anchor xml:id="playstart"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="swe000056" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -71,7 +71,6 @@
           </licence>
         </availability>
         <idno type="dramawebben">TopeliusZ_Askungen</idno>
-        <idno type="dracor" xml:base="https://dracor.org/id/">swe000056</idno>
       </publicationStmt>
       <sourceDesc>
         <listBibl>
@@ -327,7 +326,9 @@
         <desc/>
       </event>
     </listEvent>
-    <link type="wikidata" target="http://www.wikidata.org/entity/Q59651619"/>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/swe000056" passive="http://www.wikidata.org/entity/Q59651619"/>
+    </listRelation>
   </standOff>
   <text>
     <anchor xml:id="playstart"/>
