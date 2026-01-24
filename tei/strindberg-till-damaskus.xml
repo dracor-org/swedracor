@@ -11967,7 +11967,7 @@
       <div type="editorial">
         <listPerson>
           <listPerson type="cast">
-            <person xml:id="DenOkände" sex="male">
+            <person xml:id="DenOkände" sex="MALE">
               <persName>
                 <forename type="nick">Cæsar</forename>
               </persName>
@@ -11977,7 +11977,7 @@
               <age value="38">38 år</age>
               <note>rollista del 1 + 2</note>
             </person>
-            <person xml:id="Damen" sex="female">
+            <person xml:id="Damen" sex="FEMALE">
               <persName>
                 <roleName>doktorinna</roleName>
                 <forename>Ingeborg</forename>
@@ -11986,20 +11986,20 @@
               </persName>
               <note>rollista del 1 + 2</note>
             </person>
-            <person xml:id="Tiggaren" sex="male">
+            <person xml:id="Tiggaren" sex="MALE">
               <occupation scheme="#HISCO" code="14140">munk</occupation>
               <note>rollista del 1 + 2</note>
               <note>i del 2 som samma figur som Confessorn och Dominikanern</note>
             </person>
-            <person xml:id="Confessorn" sameAs="#Tiggaren" sex="male">
+            <person xml:id="Confessorn" sameAs="#Tiggaren" sex="MALE">
               <persName>CONFESSORN</persName>
 <!-- KORR: Rollista del 1 och del 2, i del 2 som samma figur som Tiggaren och Dominikanern-->
             </person>
-            <person xml:id="Dominikanern" sameAs="#Tiggaren" sex="male">
+            <person xml:id="Dominikanern" sameAs="#Tiggaren" sex="MALE">
 <!-- KORR: Rollista del 1 och del 2, i del 2 som samma figur som Tiggaren och Confessorn-->
               <persName>DOMINIKANERN</persName>
             </person>
-            <person xml:id="Läkaren" sex="male">
+            <person xml:id="Läkaren" sex="MALE">
               <persName>
                 <roleName>läkaren</roleName>
                 <addName>varulven</addName>
@@ -12007,31 +12007,31 @@
               <occupation scheme="#HISCO" code="06105">läkare</occupation>
               <note>rollista del 1 + 2</note>
             </person>
-            <person xml:id="Systern" sex="female">
+            <person xml:id="Systern" sex="FEMALE">
               <note>rollista del 1, förekommer 1 gång i del 2</note>
             </person>
-            <person xml:id="DenGamle" sex="male">
+            <person xml:id="DenGamle" sex="MALE">
               <occupation scheme="#HISCO" code="21230">forstmästare</occupation>
               <death notAfter-custom="#DenGamleDeath"/>
               <note>rollista del 1</note>
             </person>
-            <person xml:id="Modren" sex="female">
+            <person xml:id="Modren" sex="FEMALE">
               <note>rollista del 1 + 2</note>
             </person>
-            <person xml:id="Abbedissan" sex="female">
+            <person xml:id="Abbedissan" sex="FEMALE">
               <occupation scheme="#HISCO" code="14140">abbedissa</occupation>
               <note>rollista del 1</note>
             </person>
-            <person xml:id="Dåren" sex="male">
+            <person xml:id="Dåren" sex="MALE">
               <persName>
                 <forename type="nick">Cæsar</forename>
               </persName>
               <note>rollista del 2, förekommer i del 1 med repliker</note>
             </person>
-            <person xml:id="Fadren" sex="male">
+            <person xml:id="Fadren" sex="MALE">
               <note>rollista del 2</note>
             </person>
-            <person xml:id="Pigan" sex="female">
+            <person xml:id="Pigan" sex="FEMALE">
               <occupation scheme="#HISCO" code="54020">piga</occupation>
               <note>del 1 + 2</note>
             </person>
@@ -12039,35 +12039,35 @@
 <!-- del 1-->
               <personGrp xml:id="Sällskapet" sex="mixed" role="Sällskapet"/>
               <listPerson>
-                <personGrp xml:id="DeBrunklädda" sex="male" size="6">
+                <personGrp xml:id="DeBrunklädda" sex="MALE" size="6">
 <!-- del 1 -->
                   <occupation>begravningstjänare</occupation>
                 </personGrp>
               </listPerson>
               <person sameAs="#Tiggaren"/>
-              <person xml:id="DamensSkugga" sex="female" corresp="#Damen">
+              <person xml:id="DamensSkugga" sex="FEMALE" corresp="#Damen">
                 <note>del 1</note>
               </person>
-              <person xml:id="LäkarensSkugga" sex="male" corresp="#Läkaren">
+              <person xml:id="LäkarensSkugga" sex="MALE" corresp="#Läkaren">
                 <note>del 1</note>
               </person>
-              <person xml:id="DårensSkugga" sex="male" corresp="#Dåren">
+              <person xml:id="DårensSkugga" sex="MALE" corresp="#Dåren">
                 <note>del 1</note>
               </person>
-              <person xml:id="EnSorgkläddKvinna" sex="female" corresp="#Frun">
+              <person xml:id="EnSorgkläddKvinna" sex="FEMALE" corresp="#Frun">
                 <note>del 1</note>
               </person>
               <listPerson>
                 <personGrp xml:id="TvåBarn" sex="mixed" role="TvåBarn" size="2" corresp="#Erik #Thyra"/>
 <!-- Barnens (Erik o Thyra) skuggor -->
               </listPerson>
-              <person xml:id="FadrensSkugga" sex="male" corresp="#Fadren">
+              <person xml:id="FadrensSkugga" sex="MALE" corresp="#Fadren">
                 <note>del 1</note>
               </person>
-              <person xml:id="ModrensSkugga" sex="female" corresp="#Modren">
+              <person xml:id="ModrensSkugga" sex="FEMALE" corresp="#Modren">
                 <note>del 1</note>
               </person>
-              <person xml:id="BrodrensSkugga" sex="male" corresp="#DenOkändesBror">
+              <person xml:id="BrodrensSkugga" sex="MALE" corresp="#DenOkändesBror">
                 <note>del 1</note>
               </person>
               <listPerson>
@@ -12075,34 +12075,34 @@
 <!-- del 1 -->
               </listPerson>
             </listPerson>
-            <person xml:id="Kyparen" sex="male">
+            <person xml:id="Kyparen" sex="MALE">
               <occupation scheme="#HISCO" code="53210">kypare</occupation>
               <note>del 1</note>
             </person>
-            <person xml:id="Smeden" sex="male">
+            <person xml:id="Smeden" sex="MALE">
               <occupation scheme="#HISCO" code="83110">smed</occupation>
               <note>del 1</note>
             </person>
-            <person xml:id="Mjölnerskan" sex="female">
+            <person xml:id="Mjölnerskan" sex="FEMALE">
               <occupation>mjölnerska</occupation>
               <note>del 1</note>
             </person>
-            <person xml:id="Värden" sex="male">
+            <person xml:id="Värden" sex="MALE">
               <occupation>värd</occupation>
               <note>del 1</note>
             </person>
             <listPerson>
-              <personGrp xml:id="Gästerna" role="Gästerna" sex="unknown" size="3"/>
+              <personGrp xml:id="Gästerna" role="Gästerna" sex="UNKNOWN" size="3"/>
 <!-- del 1 -->
-              <person xml:id="GästI" sex="unknown"/>
-              <person xml:id="GästII" sex="unknown"/>
-              <person xml:id="GästIII" sex="unknown"/>
+              <person xml:id="GästI" sex="UNKNOWN"/>
+              <person xml:id="GästII" sex="UNKNOWN"/>
+              <person xml:id="GästIII" sex="UNKNOWN"/>
             </listPerson>
-            <personGrp xml:id="Barmhertighetssystrar" sex="female" size="4">
+            <personGrp xml:id="Barmhertighetssystrar" sex="FEMALE" size="4">
               <occupation scheme="#HISCO" code="14140">nunna</occupation>
 <!-- del 2 -->
             </personGrp>
-            <person xml:id="Professorn" sex="male">
+            <person xml:id="Professorn" sex="MALE">
               <persName>
                 <roleName>professor</roleName>
               </persName>
@@ -12110,54 +12110,54 @@
 <!-- del 2 -->
             </person>
             <listPerson>
-              <personGrp xml:id="Sluskarne" sex="male" role="Sluskarne" size="2"/>
-              <person xml:id="EnSlusk" sex="male"/>
-              <person xml:id="EnAnnanSlusk" sex="male"/>
+              <personGrp xml:id="Sluskarne" sex="MALE" role="Sluskarne" size="2"/>
+              <person xml:id="EnSlusk" sex="MALE"/>
+              <person xml:id="EnAnnanSlusk" sex="MALE"/>
 <!-- del 2 -->
             </listPerson>
             <listPerson>
-              <personGrp xml:id="RuskigaQvinnor" sex="female" role="RuskigaQvinnor"/>
-              <person xml:id="QvinnanI" sex="female"/>
-              <person xml:id="QvinnanII" sex="female">
+              <personGrp xml:id="RuskigaQvinnor" sex="FEMALE" role="RuskigaQvinnor"/>
+              <person xml:id="QvinnanI" sex="FEMALE"/>
+              <person xml:id="QvinnanII" sex="FEMALE">
                 <occupation>prostituerad</occupation>
               </person>
 <!-- del 2 -->
             </listPerson>
             <listPerson>
-              <personGrp xml:id="Nattmän" sex="male">
+              <personGrp xml:id="Nattmän" sex="MALE">
 <!-- del 2 -->
               </personGrp>
             </listPerson>
             <listPerson>
-              <personGrp xml:id="Krymplingar" sex="unknown">
+              <personGrp xml:id="Krymplingar" sex="UNKNOWN">
 <!-- del 2 -->
               </personGrp>
             </listPerson>
             <listPerson>
-              <personGrp xml:id="Tiggare" sex="unknown">
+              <personGrp xml:id="Tiggare" sex="UNKNOWN">
 <!-- del 2 -->
               </personGrp>
             </listPerson>
-            <person xml:id="Krögerskan" sex="female">
+            <person xml:id="Krögerskan" sex="FEMALE">
               <occupation scheme="#HISCO" code="51030">krögerska</occupation>
               <note>del 2</note>
             </person>
             <listPerson>
-              <personGrp xml:id="TvåPoliser" sex="male" size="2"/>
-              <person xml:id="Polisen" sex="male">
+              <personGrp xml:id="TvåPoliser" sex="MALE" size="2"/>
+              <person xml:id="Polisen" sex="MALE">
                 <occupation scheme="#HISCO" code="58220">polis</occupation>
               </person>
 <!-- del 2 -->
             </listPerson>
-            <person xml:id="Barnmorskan" sex="female">
+            <person xml:id="Barnmorskan" sex="FEMALE">
               <occupation scheme="#HISCO" code="07310">barnmorska</occupation>
               <note>del 2</note>
             </person>
-            <person xml:id="Amman" sex="female">
+            <person xml:id="Amman" sex="FEMALE">
               <occupation scheme="#HISCO" code="54035">amma</occupation>
               <note>del 2</note>
             </person>
-            <person xml:id="Barnet" sex="female">
+            <person xml:id="Barnet" sex="FEMALE">
               <age atMost="1">barn</age>
               <birth when-custom="#Birth"/>
 <!-- del 2 -->
@@ -12165,76 +12165,76 @@
             <listPerson>
 <!-- omtalas i del I -->
               <personGrp xml:id="Barnen" sex="mixed" role="Barnen"/>
-              <person xml:id="Gerda" sex="female">
+              <person xml:id="Gerda" sex="FEMALE">
 <!-- samma som Barnet /EF -->
                 <persName>
                   <forename>Gerda</forename>
                 </persName>
                 <age>barn</age>
               </person>
-              <person xml:id="Erik" sex="male">
+              <person xml:id="Erik" sex="MALE">
                 <persName>
                   <forename>Erik</forename>
                 </persName>
                 <age value="6">barn</age>
               </person>
-              <person xml:id="Thyra" sex="female">
+              <person xml:id="Thyra" sex="FEMALE">
                 <persName>
                   <forename>Thyra</forename>
                 </persName>
                 <age>barn</age>
               </person>
               <listPerson>
-                <personGrp xml:id="ÅttaMusikanter" sex="unknown" size="8">
+                <personGrp xml:id="ÅttaMusikanter" sex="UNKNOWN" size="8">
                   <occupation scheme="#HISCO" code="17140">musiker</occupation>
                 </personGrp>
 <!-- del 2 -->
               </listPerson>
               <listPerson>
-                <personGrp xml:id="Tjenare" sex="unknown">
+                <personGrp xml:id="Tjenare" sex="UNKNOWN">
                   <occupation>tjänare</occupation>
                 </personGrp>
 <!-- del 2 -->
               </listPerson>
             </listPerson>
-            <person xml:id="Civiluniformen" sex="male">
+            <person xml:id="Civiluniformen" sex="MALE">
               <occupation>slottskanslibetjent</occupation>
 <!-- del 2 -->
             </person>
-            <person xml:id="Korgossen" sex="male">
+            <person xml:id="Korgossen" sex="MALE">
               <age>barn</age>
               <note>del 2</note>
             </person>
-            <person xml:id="Herrn" sex="male">
+            <person xml:id="Herrn" sex="MALE">
               <note>del 2</note>
 <!-- skugga?, lägg till relation -->
             </person>
-            <person xml:id="Frun" sex="female">
+            <person xml:id="Frun" sex="FEMALE">
               <note>del 2</note>
 <!-- skugga? den okändes förra fru? lägg till relation -->
             </person>
           </listPerson>
           <listPerson type="noncast">
             <listPerson type="fictive">
-              <person xml:id="Hotellvärden" sex="male">
+              <person xml:id="Hotellvärden" sex="MALE">
                 <note>del 1</note>
               </person>
               <listPerson>
                 <personGrp xml:id="Föräldrarne" sex="mixed" size="2"/>
-                <person xml:id="DenOkändesMor" sex="female">
+                <person xml:id="DenOkändesMor" sex="FEMALE">
                   <death notAfter-custom="#playstart"/>
                 </person>
-                <person xml:id="DenOkändesFar" sex="male">
+                <person xml:id="DenOkändesFar" sex="MALE">
                   <death notAfter-custom="#playstart"/>
                 </person>
               </listPerson>
-              <person xml:id="DenOkändesBror" sex="male"/>
-              <person xml:id="DenOkändesSyster" sex="female"/>
-              <person xml:id="DenOkändesOnkel" sex="male">
+              <person xml:id="DenOkändesBror" sex="MALE"/>
+              <person xml:id="DenOkändesSyster" sex="FEMALE"/>
+              <person xml:id="DenOkändesOnkel" sex="MALE">
                 <death notAfter-custom="#playstart"/>
               </person>
               <listPerson type="mythical">
-                <person xml:id="Medea" sex="female">
+                <person xml:id="Medea" sex="FEMALE">
                   <persName>
                     <forename>Medea</forename>
                   </persName>
@@ -12242,7 +12242,7 @@
 <!-- grekisk mytologi -->
                   <note>del 1</note>
                 </person>
-                <person xml:id="Pandora" sex="female">
+                <person xml:id="Pandora" sex="FEMALE">
                   <persName>
                     <forename>Pandora</forename>
                   </persName>
@@ -12252,7 +12252,7 @@
                 </person>
               </listPerson>
               <listPerson type="intertextual">
-                <person xml:id="RiddarBlåskägg" sex="male">
+                <person xml:id="RiddarBlåskägg" sex="MALE">
                   <persName>
                     <roleName>riddar</roleName>
                     <surname>Blåskägg</surname>
@@ -12261,13 +12261,13 @@
                   <note>del 1</note>
                   <note>syftar på folksagan</note>
                 </person>
-                <person xml:id="RiddarBlåskäggsHustru" sex="female">
+                <person xml:id="RiddarBlåskäggsHustru" sex="FEMALE">
                   <note>del 1</note>
                 </person>
               </listPerson>
             </listPerson>
             <listPerson type="historical">
-              <person xml:id="Albertus" sex="male">
+              <person xml:id="Albertus" sex="MALE">
                 <persName>
                   <forename>Albertus</forename>
                   <addName>Magnus</addName>
@@ -12277,7 +12277,7 @@
                 <note>del 2</note>
 <!-- 1193?-1280 -->
               </person>
-              <person xml:id="Mendelssohn" sex="male">
+              <person xml:id="Mendelssohn" sex="MALE">
                 <persName>
                   <surname>Mendelssohn</surname>
                 </persName>
@@ -12286,7 +12286,7 @@
                 <note>del 1 + 2</note>
                 <note>syftar inte på personen, utan på sorgmarschen</note>
               </person>
-              <person xml:id="Paracelsus" sex="male">
+              <person xml:id="Paracelsus" sex="MALE">
                 <persName>
                   <addName>Paracelsus</addName>
                 </persName>
@@ -12295,7 +12295,7 @@
                 <note>del 2</note>
 <!-- 1493-1541 -->
               </person>
-              <person xml:id="Polykrates" sex="male">
+              <person xml:id="Polykrates" sex="MALE">
                 <persName>
                   <forename>Polykrates</forename>
                 </persName>
@@ -12303,7 +12303,7 @@
                 <note>del 1</note>
                 <note>syftar på sägnen om hans ring</note>
               </person>
-              <person xml:id="SanktElisabeth" sex="female">
+              <person xml:id="SanktElisabeth" sex="FEMALE">
                 <persName>
                   <roleName>sankt</roleName>
                   <forename>Elisabeth</forename>
@@ -12313,7 +12313,7 @@
               </person>
             </listPerson>
             <listPerson type="biblical">
-              <person xml:id="Maria" sex="female">
+              <person xml:id="Maria" sex="FEMALE">
 <!-- del I och II -->
 <!-- syftar på Ave Maria (1 g) och utropet Jesus Maria (2 ggr) /EF -->
                 <persName>
@@ -12321,7 +12321,7 @@
                 </persName>
                 <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Jungfru_Maria</idno>
               </person>
-              <person xml:id="Moses" sex="male">
+              <person xml:id="Moses" sex="MALE">
 <!-- del I -->
 <!-- syftar inte på personen, utan på Moseböckerna /EF -->
                 <persName>
@@ -12329,14 +12329,14 @@
                 </persName>
                 <bibl>"Mose". Wikipedia. 11 apr 2013, http://sv.wikipedia.org/w/index.php?title=Mose&amp;oldid=21406708</bibl>
               </person>
-              <person xml:id="Job" sex="male">
+              <person xml:id="Job" sex="MALE">
                 <persName>
                   <forename>Job</forename>
                 </persName>
                 <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Job</idno>
                 <note>del 1 + 2</note>
               </person>
-              <person xml:id="Michael" sex="male">
+              <person xml:id="Michael" sex="MALE">
 <!-- syftar på en tavla med bibliskt motiv /EF -->
                 <persName>
                   <forename>Michael</forename>
@@ -12344,7 +12344,7 @@
                 <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Mikael_%28%C3%A4rke%C3%A4ngel%29</idno>
                 <note>del 1</note>
               </person>
-              <person xml:id="Jesus" sex="male">
+              <person xml:id="Jesus" sex="MALE">
 <!-- del I och II -->
 <!-- syftar inte på personen, utan används i utrop /EF -->
                 <persName>
@@ -12352,7 +12352,7 @@
                 </persName>
                 <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Jesus</idno>
               </person>
-              <person xml:id="Paulus" sex="male">
+              <person xml:id="Paulus" sex="MALE">
                 <persName>
                   <forename xml:lang="gr">Paulus</forename>
                 </persName>
@@ -12360,21 +12360,21 @@
                 <note>del 2</note>
                 <note>Hans hebreiska namn var Saul</note>
               </person>
-              <person xml:id="Adam" sex="male">
+              <person xml:id="Adam" sex="MALE">
                 <persName>
                   <forename>Adam</forename>
                 </persName>
                 <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Adam_och_Eva</idno>
                 <note>del 2</note>
               </person>
-              <person xml:id="Cain" sex="male">
+              <person xml:id="Cain" sex="MALE">
                 <persName>
                   <forename>Cain</forename>
                 </persName>
                 <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Kain</idno>
                 <note>del 2</note>
               </person>
-              <person xml:id="Zebaoth" sex="male">
+              <person xml:id="Zebaoth" sex="MALE">
 <!-- dvs. Gud -->
 <!-- KORR: i del 2 -->
                 <persName>
@@ -12383,28 +12383,28 @@
                 <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Sebaot</idno>
 <!-- tmp -->
               </person>
-              <person xml:id="Balthasar" sex="male">
+              <person xml:id="Balthasar" sex="MALE">
                 <persName>
                   <forename>Balthasar</forename>
                 </persName>
                 <idno type="Wikipedia" xml:lang="en">http://en.wikipedia.org/wiki/Belshazzar</idno>
                 <note>del 2</note>
               </person>
-              <person xml:id="Belzebub" sex="male">
+              <person xml:id="Belzebub" sex="MALE">
                 <persName>
                   <forename>Belzebub</forename>
                 </persName>
                 <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Beelzebub</idno>
                 <note>del 2</note>
               </person>
-              <person xml:id="Baal" sex="male">
+              <person xml:id="Baal" sex="MALE">
                 <persName>
                   <roleName>Baal</roleName>
                 </persName>
                 <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Baal</idno>
                 <note>del 2</note>
               </person>
-              <person xml:id="Lucifer" sex="male">
+              <person xml:id="Lucifer" sex="MALE">
                 <persName>
                   <forename>Lucifer</forename>
                 </persName>
