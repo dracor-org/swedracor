@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="swe000033" xml:lang="sv">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="swe000033" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -256,8 +256,7 @@
 <!-- omslag, bunden volym -->
       <pb facs="5866-1.jpg"/>
 <!-- tidskriftsomslag -->
-      <pb facs="5866-2.jpg"/>
-      <fw type="pageNum">379</fw>
+      <pb n="379" facs="5866-2.jpg"/>
       <castList>
         <head>Personerna.</head>
         <castItem>
@@ -570,8 +569,7 @@
           <speaker>Oscar.</speaker>
           <p>Men det gör aldrig <persName ref="#Stina">Stina</persName>.</p>
         </sp>
-        <pb facs="5866-3.jpg"/>
-        <fw type="pageNum">380</fw>
+        <pb n="380" facs="5866-3.jpg"/>
         <sp who="#spKalle">
           <speaker>Kalle.</speaker>
           <p>Vi kunde inbilla henne, att <persName ref="#TantUlla">tant Ulla</persName> te­<lb break="no"/>lefonerat att hon ångrat sig och kommer.</p>
@@ -942,8 +940,7 @@
             </stage>
           </p>
         </sp>
-        <pb facs="5866-4.jpg"/>
-        <fw type="pageNum">381</fw>
+        <pb n="381" facs="5866-4.jpg"/>
         <sp who="#spFarbrorS">
           <speaker>Farbror S.</speaker>
           <p>Hvad skratta ni åt <persName ref="#Henrik #Oscar">pojkar</persName>? Ni be­<lb break="no"/>höfva inte stå här och hänga! Gå ni ut på verandan?</p>
@@ -1038,8 +1035,7 @@
           <figDesc>En svartvit bild av Kalle när han flyr ut genom fönstret.</figDesc>
           <head>Kalle hoppar ut genom fönstret.</head>
         </figure>
-        <pb facs="5866-5.jpg"/>
-        <fw type="pageNum">382</fw>
+        <pb n="382" facs="5866-5.jpg"/>
         <sp who="#spOscar">
           <speaker>Oscar.</speaker>
           <stage>(likaledes skrattande.)</stage>
@@ -1462,8 +1458,7 @@
         <sp who="#spFruBorg">
           <speaker>Fru Borg.</speaker>
           <p>Nej, det får ni bereda er på, <persName ref="#Henrik #Oscar">kära
-            <pb facs="5866-6.jpg"/>
-              <fw type="pageNum">383</fw>
+            <pb n="383" facs="5866-6.jpg"/>
             gossar</persName>! Det blir straffet för ert upptåg. Så det var
             <lb/> ändå ni som blefvo lurade till sist.</p>
         </sp>
@@ -1494,33 +1489,33 @@
       <div type="editorial">
         <listPerson>
           <listPerson type="cast">
-            <person xml:id="FruBorg" sex="female">
+            <person xml:id="FruBorg" sex="FEMALE">
               <persName>
                 <roleName>fru</roleName>
                 <forename>Marie</forename>
                 <surname>Borg</surname>
               </persName>
             </person>
-            <person xml:id="Henrik" sex="male">
+            <person xml:id="Henrik" sex="MALE">
               <persName>
                 <forename>Henrik</forename>
               </persName>
               <age value="14">14 år</age>
             </person>
-            <person xml:id="Oscar" sex="male">
+            <person xml:id="Oscar" sex="MALE">
               <persName>
                 <forename>Oscar</forename>
               </persName>
               <age value="13">13 år</age>
             </person>
-            <person xml:id="Kalle" sex="male">
+            <person xml:id="Kalle" sex="MALE">
               <persName>
                 <forename>Kalle</forename>
                 <surname>Björk</surname>
               </persName>
               <age value="14">14 år</age>
             </person>
-            <person xml:id="FarbrorS" sex="male">
+            <person xml:id="FarbrorS" sex="MALE">
               <persName>
                 <roleName>farbror</roleName>
                 <forename>Samuel</forename>
@@ -1529,14 +1524,14 @@
               <occupation scheme="#HISCO" code="21110" cert="medium">fabrikör</occupation>
 <!-- flera koder i HISCO: 21110 (general manager), 21220 (production manager), ... -->
             </person>
-            <person xml:id="TantUlla" sex="female">
+            <person xml:id="TantUlla" sex="FEMALE">
               <persName>
                 <roleName>tant</roleName>
                 <forename>Ulla</forename>
               </persName>
               <age value="70">70 år</age>
             </person>
-            <person xml:id="Stina" sex="female">
+            <person xml:id="Stina" sex="FEMALE">
               <persName>
                 <forename>Stina</forename>
               </persName>
@@ -1545,7 +1540,7 @@
           </listPerson>
           <listPerson type="noncast">
             <listPerson type="fictive">
-              <person xml:id="Jonsson" sex="male">
+              <person xml:id="Jonsson" sex="MALE">
                 <persName>
                   <roleName>kapten</roleName>
                   <surname>Jonsson</surname>
@@ -1553,8 +1548,8 @@
                 <occupation scheme="#HISCO" code="58320" cert="medium">kapten</occupation>
 <!-- flera koder i HISCO: 58320 (officer), 04217 (sjökapten), ... -->
               </person>
-              <person xml:id="TantUllasMor" sex="female"/>
-              <person xml:id="FarbrorSHushållerska" sex="female">
+              <person xml:id="TantUllasMor" sex="FEMALE"/>
+              <person xml:id="FarbrorSHushållerska" sex="FEMALE">
                 <occupation scheme="#HISCO" code="22430">hushållerska</occupation>
               </person>
             </listPerson>

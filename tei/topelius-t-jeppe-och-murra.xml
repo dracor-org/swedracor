@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="swe000055" xml:lang="sv">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="swe000055" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -261,8 +261,7 @@
               <lb/> ännu naggar gikten mitt vänstra bakben och skrufvar
               <lb/> om hörselapparaten, så jag inte hör riktigt bra. Man
               <lb/> sliter ondt, när man har en så ansvarsfull syssla, som
-              <pb facs="5531-11.jpg"/>
-              <fw type="pageNum">127</fw>
+              <pb n="127" facs="5531-11.jpg"/>
               öfverråttjägarmästareämbetet på <orgName ref="#Björkudden">Björkudden</orgName>. Hvart skulle
               <lb/> man taga vägen utan mig? Jag måste ständigt vara på
               <lb/> vakt, att inte <persName ref="#Råttsvansare">några råttsvansare</persName> lisma sig till medborgare­<lb break="no"/>rätt i detta kattlösa samhälle. Och därför ligger jag
@@ -301,8 +300,7 @@
               <lb/> jag kunde just tro det! Där ligger <persName ref="#Jeppe">herr öfverråttjäg­<lb break="no"/>mästaren</persName> i sin sötaste sömn klockan åtta på morgonen,
               <lb/> fastän han sofvit i god ro hela natten under köksspiseln.
               <lb/> Och det kallar han att sköta sin tjänst! Nå ja, man
-              <pb facs="5531-12.jpg"/>
-              <fw type="pageNum">128</fw>
+              <pb n="128" facs="5531-12.jpg"/>
               får ursäkta honom, han börjar bli barn på nytt ... Mån­<lb break="no"/>tro jag skall våga väcka honom? ... <stage>(Uppger ett försiktigt
               <lb/> vov-vov!)</stage> Nej, han hör inte, han snarkar för hårdt.
               <lb/>
@@ -351,8 +349,7 @@
               <lb/> — Uppmärksammat ett hål på rågmjölssäcken. — Luktat
               <lb/> mig till ett råttbesök i hafrelåren... Som ni hör, öfver­<lb break="no"/> hufvudtaget en fredlig natt.</p>
           </sp>
-          <pb facs="5531-13.jpg"/>
-          <fw type="pageNum">129</fw>
+          <pb n="129" facs="5531-13.jpg"/>
           <sp who="#spJeppe">
             <speaker>JEPPE.</speaker>
             <stage>(Gäspar.)</stage>
@@ -413,8 +410,7 @@
               <lb/> under den senaste veckan. Och af samma anledning
               <lb/> förlåter jag dig.</p>
           </sp>
-          <pb facs="5531-14.jpg"/>
-          <fw type="pageNum">130</fw>
+          <pb n="130" facs="5531-14.jpg"/>
           <sp who="#spMurra">
             <speaker>MURRA.</speaker>
             <stage>(Ifrigt svansande.)</stage>
@@ -451,14 +447,14 @@
       <div type="editorial">
         <listPerson>
           <listPerson type="cast">
-            <person xml:id="Jeppe" sex="male" role="animal">
+            <person xml:id="Jeppe" sex="MALE" role="animal">
               <persName>
                 <forename>Jeppe</forename>
               </persName>
               <occupation>överråttjägarmästare</occupation>
               <note>råtthund av engelsk ras</note>
             </person>
-            <person xml:id="Murra" sex="female" role="animal">
+            <person xml:id="Murra" sex="FEMALE" role="animal">
               <persName>Murre</persName>
               <occupation>källarvaktmästarinna</occupation>
               <note>råtthund av engelsk ras</note>
@@ -467,26 +463,26 @@
           <listPerson type="noncast">
             <listPerson type="fictive">
               <listPerson>
-                <personGrp xml:id="Råttsvansare" sex="unknown" role="animal"/>
+                <personGrp xml:id="Råttsvansare" sex="UNKNOWN" role="animal"/>
                 <listPerson>
-                  <personGrp xml:id="TreRåttsvansare" sex="unknown" size="3"/>
+                  <personGrp xml:id="TreRåttsvansare" sex="UNKNOWN" size="3"/>
                 </listPerson>
                 <listPerson>
-                  <personGrp xml:id="TioRåttsvansare" sex="unknown" size="10"/>
+                  <personGrp xml:id="TioRåttsvansare" sex="UNKNOWN" size="10"/>
                 </listPerson>
-                <person xml:id="Råttmamman" sex="female" role="animal"/>
+                <person xml:id="Råttmamman" sex="FEMALE" role="animal"/>
                 <listPerson>
-                  <personGrp xml:id="Råttungarna" sex="unknown" size="5">
+                  <personGrp xml:id="Råttungarna" sex="UNKNOWN" size="5">
                     <age>barn</age>
                   </personGrp>
                 </listPerson>
               </listPerson>
-              <person xml:id="Kejsaren" sex="male">
+              <person xml:id="Kejsaren" sex="MALE">
                 <persName>
                   <roleName>kejsar</roleName>
                 </persName>
               </person>
-              <person xml:id="HögaVederbörande" sex="unknown"/>
+              <person xml:id="HögaVederbörande" sex="UNKNOWN"/>
             </listPerson>
           </listPerson>
           <listRelation>

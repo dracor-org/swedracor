@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="swe000020" xml:lang="sv">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="swe000020" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -247,8 +247,7 @@
       <pb facs="5894-1.jpg"/>
 <!-- titelsida volym -->
       <gap reason="irrelevant"/>
-      <pb facs="5894-2.jpg"/>
-      <fw type="pageNum">374</fw>
+      <pb n="374" facs="5894-2.jpg"/>
       <figure>
         <graphic url="KuylenstiernaE_NuArDetJulIgen-1.jpg"/>
         <figDesc>En bild högst upp på sidan. På bilden syns flera sagospelets karaktärer; Tomtekungen, God Jul,
@@ -380,8 +379,7 @@
           <stage>(nyfiket):</stage>
           <p> Hvarför gör du det?</p>
         </sp>
-        <pb facs="5894-3.jpg"/>
-        <fw type="pageNum">375</fw>
+        <pb n="375" facs="5894-3.jpg"/>
         <sp who="#spTomtekungen">
           <speaker>TOMTEKUNGEN</speaker>
           <stage>(reser sig,
@@ -583,8 +581,7 @@
             <l>må röda rosor i doftregn falla,</l>
             <l>må hvita, skära få följa dem.</l>
           </lg>
-          <pb facs="5894-4.jpg"/>
-          <fw type="pageNum">376</fw>
+          <pb n="376" facs="5894-4.jpg"/>
           <lg>
             <l>Och hvart I kommen må glädjen
               <lb/> tändas,</l>
@@ -703,34 +700,34 @@
       <div type="editorial">
         <listPerson>
           <listPerson type="cast">
-            <person xml:id="Julros" sex="female">
+            <person xml:id="Julros" sex="FEMALE">
               <persName>
                 <roleName>prinsessan</roleName>
                 <forename>Julros</forename>
               </persName>
             </person>
-            <person xml:id="Tomtekungen" sex="male">
+            <person xml:id="Tomtekungen" sex="MALE">
               <persName>
                 <roleName>kung</roleName>
               </persName>
             </person>
-            <person xml:id="GodJul" sex="unknown">
+            <person xml:id="GodJul" sex="UNKNOWN">
               <persName>
                 <forename>God Jul</forename>
               </persName>
             </person>
-            <person xml:id="Rimtusse" sex="male">
+            <person xml:id="Rimtusse" sex="MALE">
               <persName>
                 <forename>Rimtusse</forename>
               </persName>
             </person>
-            <person xml:id="Snöflinga" sex="female">
+            <person xml:id="Snöflinga" sex="FEMALE">
               <persName>
                 <forename>Snöflinga</forename>
               </persName>
             </person>
             <listPerson>
-              <personGrp xml:id="Tomtar" sex="male"/>
+              <personGrp xml:id="Tomtar" sex="MALE"/>
             </listPerson>
           </listPerson>
           <listPerson type="noncast">
@@ -743,7 +740,7 @@
               </listPerson>
             </listPerson>
             <listPerson>
-              <personGrp xml:id="Systrar" sex="female"/>
+              <personGrp xml:id="Systrar" sex="FEMALE"/>
             </listPerson>
           </listPerson>
           <listRelation>

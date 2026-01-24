@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="swe000019" xml:lang="sv">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="swe000019" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -261,8 +261,7 @@
       <pb facs="6092-2.jpg"/>
 <!-- dikt av Frithiof Holmgren -->
       <gap reason="irrelevant"/>
-      <pb facs="6092-3.jpg"/>
-      <fw type="pageNum">4</fw>
+      <pb n="4" facs="6092-3.jpg"/>
       <gap reason="irrelevant"/>
 <!-- annan text, titel och författare  -->
       <castList>
@@ -465,8 +464,7 @@
           <stage type="presence" who="#Nyår">Vårljus och Sommarfröjd. Nyår.</stage>
           <stage type="entrance" who="#Sommarfröjd #Vårljus">De båda prinsessorna komma indansande. <persName ref="#Vårljus">Vår­<lb break="no"/>ljus</persName> har grön klädning med hvitsippor på, <persName ref="#Sommarfröjd">Sommar­<lb break="no"/>fröjd</persName> röd med garnityr af smörblommor. De stanna
             <lb/> framför <persName ref="#Nyår">den främmande gossen</persName>, som bockar sig artigt.</stage>
-          <pb facs="6092-4.jpg"/>
-          <fw type="pageNum">5</fw>
+          <pb n="5" facs="6092-4.jpg"/>
           <sp who="#spVårljus">
             <speaker>Vårljus</speaker>
             <stage>(muntert).</stage>
@@ -746,8 +744,7 @@
             <speaker>Nyår</speaker>
             <stage>(lyder och ser sig omkring med stora ögon
               <lb/> rycker så helt sakta <persName ref="#Vinterras">Vinterras</persName> i kavajen och hviskar:</stage>
-            <pb facs="6092-5.jpg"/>
-            <fw type="pageNum">6</fw>
+            <pb n="6" facs="6092-5.jpg"/>
             <p>Hvad jag gärna skulle vilja ha en sådan där krona,
               <lb/> som <persName ref="#KungTid">din pappa</persName> har.</p>
           </sp>
@@ -943,7 +940,7 @@
       <div type="editorial">
         <listPerson>
           <listPerson type="cast">
-            <person xml:id="KungTid" sex="male">
+            <person xml:id="KungTid" sex="MALE">
               <persName>
                 <roleName>kung</roleName>
                 <forename>Tid</forename>
@@ -952,7 +949,7 @@
                 <p>tiden</p>
               </trait>
             </person>
-            <person xml:id="DrottningÖdegod" sex="female">
+            <person xml:id="DrottningÖdegod" sex="FEMALE">
               <persName>
                 <roleName>drottning</roleName>
                 <forename>Ödegod</forename>
@@ -961,7 +958,7 @@
                 <p>ödet</p>
               </trait>
             </person>
-            <person xml:id="Vårljus" sex="female">
+            <person xml:id="Vårljus" sex="FEMALE">
               <persName>
                 <roleName>prinsessan</roleName>
                 <forename>Vårljus</forename>
@@ -971,7 +968,7 @@
                 <p>våren</p>
               </trait>
             </person>
-            <person xml:id="Sommarfröjd" sex="female">
+            <person xml:id="Sommarfröjd" sex="FEMALE">
               <persName>
                 <roleName>prinsessan</roleName>
                 <forename>Sommarfröjd</forename>
@@ -981,7 +978,7 @@
                 <p>sommaren</p>
               </trait>
             </person>
-            <person xml:id="Skymningslek" sex="male">
+            <person xml:id="Skymningslek" sex="MALE">
               <persName>
                 <roleName>prins</roleName>
                 <forename>Skymningslek</forename>
@@ -991,7 +988,7 @@
                 <p>hösten</p>
               </trait>
             </person>
-            <person xml:id="Vinterras" sex="male">
+            <person xml:id="Vinterras" sex="MALE">
               <persName>
                 <roleName>prins</roleName>
                 <forename>Vinterras</forename>
@@ -1001,7 +998,7 @@
                 <p>vintern</p>
               </trait>
             </person>
-            <person xml:id="Fjorår" sex="male">
+            <person xml:id="Fjorår" sex="MALE">
               <persName>
                 <forename>Fjorår</forename>
               </persName>
@@ -1010,7 +1007,7 @@
                 <p>det gamla året</p>
               </trait>
             </person>
-            <person xml:id="Nyår" sex="male">
+            <person xml:id="Nyår" sex="MALE">
               <persName>
                 <forename>Nyår</forename>
               </persName>
@@ -1022,21 +1019,21 @@
             </person>
             <listPerson>
               <personGrp xml:id="Hoffolk" sex="mixed"/>
-              <person xml:id="Hofman" sex="male">
+              <person xml:id="Hofman" sex="MALE">
                 <occupation>hovman</occupation>
               </person>
-              <person xml:id="Lakej" sex="male">
+              <person xml:id="Lakej" sex="MALE">
                 <occupation scheme="#HISCO" code="54030">lakej</occupation>
               </person>
               <listPerson>
-                <personGrp xml:id="Pager" sex="male" size="2">
+                <personGrp xml:id="Pager" sex="MALE" size="2">
                   <occupation>page</occupation>
                 </personGrp>
               </listPerson>
             </listPerson>
           </listPerson>
           <listPerson type="noncast">
-            <person xml:id="Midnattsväktaren" sex="unknown"/>
+            <person xml:id="Midnattsväktaren" sex="UNKNOWN"/>
           </listPerson>
           <listRelation>
             <relation type="personal" name="gift" mutual="#KungTid #DrottningÖdegod"/>

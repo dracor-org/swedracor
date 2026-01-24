@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="swe000032" xml:lang="sv">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="swe000032" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -438,8 +438,7 @@
           <p>Ja, <persName ref="#Januarius">min gosse</persName>, du slipper läsa läxor första
             <lb/> veckorna. Du måste lära dig att var artig, därför
             <lb/> skall du gå på nyårsvisiter och önska alla människor
-            <pb facs="36998-2.jpg"/>
-            <fw type="pageNum">14</fw>
+            <pb n="14" facs="36998-2.jpg"/>
             godt nytt år och god fortsättning. Du får vara med
             <lb/> på släktbjudningar och dansa kring julgranen, men ät
             <lb/> inte så mycket namnam, att du blir sjuk.</p>
@@ -941,8 +940,7 @@
             <lb/>
             <persName ref="#Aprilla #Augusta #Decembra #Februarius #Januarius #Julius #Junia #Maja #Mars #Novembrus #Oktobra #Septembrus">klassen 1898</persName>! Framåt marsch!</p>
         </sp>
-        <pb facs="36998-4.jpg"/>
-        <fw type="pageNum">16</fw>
+        <pb n="16" facs="36998-4.jpg"/>
         <sp who="#spAprilla #spAugusta #spDecembra #spFebruarius #spJanuarius #spJulius #spJunia #spMaja #spMars #spNovembrus #spOktobra #spSeptembrus #spTomten">
           <stage>(<persName ref="#Aprilla #Augusta #Decembra #Februarius #Januarius #Julius #Junia #Maja #Mars #Novembrus #Oktobra #Septembrus">Alla barnen</persName> med <persName ref="#Tomten">Tomten</persName> främst marschera
             <lb/> omkring <persName ref="#Tiden">Tiden</persName> och sjunga):</stage>
@@ -975,85 +973,85 @@
       <div type="editorial">
         <listPerson>
           <listPerson type="cast">
-            <person xml:id="Tiden" sex="male">
+            <person xml:id="Tiden" sex="MALE">
               <persName>Tiden</persName>
               <occupation scheme="#HISCO" code="13020">skolmästare</occupation>
             </person>
-            <person xml:id="Tomten" sex="male">
+            <person xml:id="Tomten" sex="MALE">
               <persName>
                 <forename>Tomten</forename>
               </persName>
             </person>
-            <person xml:id="Januarius" sex="male">
+            <person xml:id="Januarius" sex="MALE">
               <persName>
                 <forename>Januarius</forename>
               </persName>
               <age>barn</age>
             </person>
-            <person xml:id="Februarius" sex="male">
+            <person xml:id="Februarius" sex="MALE">
               <persName>
                 <forename>Februarius</forename>
               </persName>
               <age>barn</age>
             </person>
-            <person xml:id="Mars" sex="male">
+            <person xml:id="Mars" sex="MALE">
               <persName>
                 <forename>Mars</forename>
               </persName>
               <age>barn</age>
             </person>
-            <person xml:id="Aprilla" sex="female">
+            <person xml:id="Aprilla" sex="FEMALE">
               <persName>
                 <forename>Aprilla</forename>
               </persName>
               <age>barn</age>
             </person>
-            <person xml:id="Maja" sex="female">
+            <person xml:id="Maja" sex="FEMALE">
               <persName>
                 <forename>Maja</forename>
               </persName>
               <age>barn</age>
             </person>
-            <person xml:id="Junia" sex="female">
+            <person xml:id="Junia" sex="FEMALE">
               <persName>
                 <forename>Junia</forename>
                 <surname>Sommar</surname>
               </persName>
               <age>barn</age>
             </person>
-            <person xml:id="Julius" sex="male">
+            <person xml:id="Julius" sex="MALE">
               <persName>
                 <forename>Julius</forename>
                 <surname>Sommar</surname>
               </persName>
               <age>barn</age>
             </person>
-            <person xml:id="Augusta" sex="female">
+            <person xml:id="Augusta" sex="FEMALE">
               <persName>
                 <forename>Augusta</forename>
                 <surname>Sommar</surname>
               </persName>
               <age>barn</age>
             </person>
-            <person xml:id="Septembrus" sex="male">
+            <person xml:id="Septembrus" sex="MALE">
               <persName>
                 <forename>Septembrus</forename>
               </persName>
               <age>barn</age>
             </person>
-            <person xml:id="Oktobra" sex="female">
+            <person xml:id="Oktobra" sex="FEMALE">
               <persName>
                 <forename>Oktobra</forename>
               </persName>
               <age>barn</age>
             </person>
-            <person xml:id="Novembrus" sex="male">
+            <person xml:id="Novembrus" sex="MALE">
               <persName>
                 <forename>Novembrus</forename>
               </persName>
               <age>barn</age>
             </person>
-            <person xml:id="Decembra" sex="male">
+            <person xml:id="Decembra" sex="MALE">
               <persName>
                 <forename>Decembra</forename>
               </persName>
@@ -1062,27 +1060,27 @@
           </listPerson>
           <listPerson type="noncast">
             <listPerson type="fictive">
-              <person xml:id="Brunte" sex="male" role="animal">
+              <person xml:id="Brunte" sex="MALE" role="animal">
                 <persName>
                   <forename>Brunte</forename>
                 </persName>
                 <note>häst</note>
               </person>
-              <person xml:id="SeptembrusMor" sex="female"/>
-              <person xml:id="Barnjungfrun" sex="female">
+              <person xml:id="SeptembrusMor" sex="FEMALE"/>
+              <person xml:id="Barnjungfrun" sex="FEMALE">
                 <occupation scheme="#HISCO" code="54035">barnjungfru</occupation>
               </person>
-              <person xml:id="DenStoreSkolmästaren" sex="male">
+              <person xml:id="DenStoreSkolmästaren" sex="MALE">
                 <occupation scheme="#HISCO" code="13020">skolmästare</occupation>
               </person>
               <listPerson type="mythical">
-                <person xml:id="GudenMars" sex="male">
+                <person xml:id="GudenMars" sex="MALE">
                   <persName>
                     <forename>Mars</forename>
                   </persName>
                   <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Mars_%28mytologi%29</idno>
                 </person>
-                <person xml:id="GubbenIMånen" sex="male">
+                <person xml:id="GubbenIMånen" sex="MALE">
                   <persName>
                     <roleName>gubben</roleName>
                     <nameLink>i</nameLink>
@@ -1092,7 +1090,7 @@
               </listPerson>
             </listPerson>
             <listPerson type="historical">
-              <person xml:id="Andersen" sex="male">
+              <person xml:id="Andersen" sex="MALE">
                 <persName>
                   <forename>H.C.</forename>
                   <surname>Andersen</surname>
@@ -1100,7 +1098,7 @@
                 <idno type="LIBRIS">http://libris.kb.se/auth/176031</idno>
                 <idno type="Wikipedia">http://sv.wikipedia.org/wiki/HC_Andersen</idno>
               </person>
-              <person xml:id="Topelius" sex="male">
+              <person xml:id="Topelius" sex="MALE">
                 <persName>
                   <forename>Zacharias</forename>
                   <surname>Topelius</surname>
@@ -1108,7 +1106,7 @@
                 <idno type="LIBRIS">http://libris.kb.se/auth/208379</idno>
                 <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Zacharias_Topelius</idno>
               </person>
-              <person xml:id="Münchausen" sex="male">
+              <person xml:id="Münchausen" sex="MALE">
                 <persName>
                   <roleName>baron</roleName>
                   <nameLink>von</nameLink>
@@ -1116,7 +1114,7 @@
                 </persName>
                 <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Baron_von_M%C3%BCnchhausen</idno>
               </person>
-              <person xml:id="KarlX" sex="male">
+              <person xml:id="KarlX" sex="MALE">
                 <persName>
                   <roleName>kung</roleName>
                   <forename>Karl</forename>
@@ -1137,7 +1135,7 @@
                 </persName>
                 <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Karl_XI</idno>
               </person>
-              <person xml:id="KarlXII" sex="male">
+              <person xml:id="KarlXII" sex="MALE">
                 <persName>
                   <roleName>kung</roleName>
                   <forename>Karl</forename>
@@ -1147,7 +1145,7 @@
                 </persName>
                 <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Karl_XII</idno>
               </person>
-              <person xml:id="GustafIIAdolf" sex="male">
+              <person xml:id="GustafIIAdolf" sex="MALE">
                 <persName>
                   <roleName>kung</roleName>
                   <forename>Gustav</forename>
@@ -1158,7 +1156,7 @@
                 </persName>
                 <idno type="Wikipedia">http://sv.wikipedia.org/wiki/Gustav_II_Adolf</idno>
               </person>
-              <person xml:id="Mårten" sex="male">
+              <person xml:id="Mårten" sex="MALE">
                 <persName>
                   <roleName>sankt</roleName>
                   <forename>Martin</forename>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="swe000058" xml:lang="sv">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="swe000058" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -223,8 +223,7 @@
       <pb facs="38071-2.jpg"/>
 <!-- omslag tidskrift nr 11 -->
       <gap reason="irrelevant"/>
-      <pb facs="38071-3.jpg"/>
-      <fw type="pageNum">85</fw>
+      <pb n="85" facs="38071-3.jpg"/>
       <gap reason="irrelevant"/>
 <!-- annat inslag, titel och undertitel -->
       <castList>
@@ -389,8 +388,7 @@
           <speaker>Malte:</speaker>
           <p>Sedan steka vi <persName ref="#Jösse">Jösse</persName> och äta ho­<lb break="no"/>nom med gurkor.</p>
         </sp>
-        <pb facs="38071-4.jpg"/>
-        <fw type="pageNum">86</fw>
+        <pb n="86" facs="38071-4.jpg"/>
         <sp who="#spJösse">
           <speaker>Jösse:</speaker>
           <p>Smaklig måltid!</p>
@@ -462,8 +460,7 @@
         </sp>
         <stage>(<persName ref="#Jösse">Jösse</persName> tagar ett skutt ur busken och sprin­<lb break="no"/>ger mellan <persName ref="#Malte">Maltes</persName> och <persName ref="#Palte">Paltes</persName> ben. De falla
           <lb/> på magen).</stage>
-        <pb facs="38071-5.jpg"/>
-        <fw type="pageNum">87</fw>
+        <pb n="87" facs="38071-5.jpg"/>
         <sp who="#spPalte">
           <speaker>Palte:</speaker>
           <stage>(skrikande)</stage>
@@ -494,19 +491,19 @@
       <div type="editorial">
         <listPerson>
           <listPerson type="cast">
-            <person xml:id="Malte" sex="male">
+            <person xml:id="Malte" sex="MALE">
               <persName>
                 <forename>Malte</forename>
               </persName>
               <age>barn</age>
             </person>
-            <person xml:id="Palte" sex="male">
+            <person xml:id="Palte" sex="MALE">
               <persName>
                 <forename>Palte</forename>
               </persName>
               <age>barn</age>
             </person>
-            <person xml:id="Jösse" sex="male" role="animal">
+            <person xml:id="Jösse" sex="MALE" role="animal">
               <persName>
                 <forename>Jösse</forename>
               </persName>

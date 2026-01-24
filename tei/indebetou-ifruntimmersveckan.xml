@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="swe000017" xml:lang="sv">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="swe000017" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -241,8 +241,7 @@
       <pb facs="5533-2.jpg"/>
 <!-- omslag, tidskrift -->
       <gap reason="irrelevant"/>
-      <pb facs="5533-3.jpg"/>
-      <fw type="pageNum">82</fw>
+      <pb n="82" facs="5533-3.jpg"/>
       <gap reason="irrelevant"/>
 <!-- annan text, titel -->
       <castList>
@@ -336,8 +335,7 @@
               <lb/> hva' man ä' stängd, se'n! Jag trodde det
               <lb/> skulle bli så trefligt att bo på sommarnöje, för
               <lb/> det ä' så mycket grannar, så man kunde ha
-              <pb facs="5533-4.jpg"/>
-              <fw type="pageNum">83</fw>
+              <pb n="83" facs="5533-4.jpg"/>
               litet sällskap om kvällarna; — — men får man
               <lb/> nå'nsin tid te' gå ut och promenera? Jag tror,
               <lb/> jag inte ha' haft på mej bästa hatten tre gån­<lb break="no"/>ger, se'n jag kom hit ut, och vi ä' nu redan i
@@ -530,8 +528,7 @@
             <stage>(likgiltigt):</stage>
             <p>Så komma de kanske i mor­<lb break="no"/>gon bitti', då!</p>
           </sp>
-          <pb facs="5533-5.jpg"/>
-          <fw type="pageNum">84</fw>
+          <pb n="84" facs="5533-5.jpg"/>
           <sp who="#spKristine">
             <speaker>Kristine</speaker>
             <stage>(ifrigt):</stage>
@@ -736,8 +733,7 @@
               <lb/> jag nu med verserna till, när jag inte fick buketten? — —  Men tänk,
               <lb/> om jag skulle lämna dem ändå! —  hon finge då åtminstone se min
               <lb/> goda afsikt. <persName ref="#Emma">Den söta flickan</persName> skall säkert förstå mig. — Om jag
-              <pb facs="5533-7.jpg"/>
-              <fw type="pageNum">98</fw>
+              <pb n="98" facs="5533-7.jpg"/>
               skulle lägga dem här, tills hon återkommer, och
               <lb/> själf dra' mig tillbaka en stund? det vore nog
               <lb/> det bästa. <stage type="exit" who="#Ström">(Lägger papperet hopviket på divansbordet
@@ -953,8 +949,7 @@
             <p>Välkomna <persName ref="#Blomsterkvist #Sofie">mitt herrskap</persName>! det va' <emph>väl</emph>,
               <lb/> att det va' ni! Jag blef just som lite' haj.
               <lb/> — — Sitt ner en stund i salongen, medan
-              <pb facs="5533-8.jpg"/>
-              <fw type="pageNum">99</fw>
+              <pb n="99" facs="5533-8.jpg"/>
               kaffet klarnar, så gå vi se'n in te' mej och
               <lb/> dricka en tår.</p>
           </sp>
@@ -1174,8 +1169,7 @@
               <persName ref="#Blomsterkvist">Den där</persName> var
               <lb/> omöjlig!</p>
           </sp>
-          <pb facs="5533-9.jpg"/>
-          <fw type="pageNum">100</fw>
+          <pb n="100" facs="5533-9.jpg"/>
           <sp who="#spBlomsterkvist">
             <speaker>Blomsterkvist</speaker>
             <stage>(som hört orden):</stage>
@@ -1393,39 +1387,39 @@
       <div type="editorial">
         <listPerson>
           <listPerson type="cast">
-            <person xml:id="FruAllmin" sex="female">
+            <person xml:id="FruAllmin" sex="FEMALE">
               <persName>
                 <roleName>fru</roleName>
                 <forename>Kerstin</forename>
                 <surname>Allmin</surname>
               </persName>
             </person>
-            <person xml:id="Emma" sex="female">
+            <person xml:id="Emma" sex="FEMALE">
               <persName>
                 <forename>Emma</forename>
               </persName>
             </person>
-            <person xml:id="Ström" sex="male">
+            <person xml:id="Ström" sex="MALE">
               <persName>
                 <roleName>doktor</roleName>
                 <surname>Ström</surname>
               </persName>
               <education>filosofie doktor</education>
             </person>
-            <person xml:id="Blomsterkvist" sex="male">
+            <person xml:id="Blomsterkvist" sex="MALE">
               <persName>
                 <forename>Leonard</forename>
                 <surname>Blomsterkvist</surname>
               </persName>
               <occupation scheme="#HISCO" code="62740">trädgårdsmästare</occupation>
             </person>
-            <person xml:id="Kristine" sex="female">
+            <person xml:id="Kristine" sex="FEMALE">
               <persName>
                 <forename>Kristine</forename>
               </persName>
               <occupation scheme="#HISCO" code="54020">jungfru</occupation>
             </person>
-            <person xml:id="Sofie" sex="female">
+            <person xml:id="Sofie" sex="FEMALE">
               <persName>
                 <forename>Sofie</forename>
               </persName>
@@ -1434,78 +1428,78 @@
           </listPerson>
           <listPerson type="noncast">
             <listPerson type="fictive">
-              <person xml:id="Direktörn" sex="male">
+              <person xml:id="Direktörn" sex="MALE">
                 <persName>
                   <roleName>direktör</roleName>
                 </persName>
                 <occupation scheme="#HISCO" code="21110">direktör</occupation>
               </person>
               <listPerson>
-                <personGrp xml:id="Ungherrarna" sex="male" size="4"/>
+                <personGrp xml:id="Ungherrarna" sex="MALE" size="4"/>
               </listPerson>
-              <person xml:id="Assessorn" sex="male">
+              <person xml:id="Assessorn" sex="MALE">
                 <persName>
                   <roleName>assessor</roleName>
                 </persName>
                 <occupation scheme="#HISCO" code="12210">assessor</occupation>
               </person>
-              <person xml:id="Assesorskan" sex="female"/>
-              <person xml:id="Mina" sex="female">
+              <person xml:id="Assesorskan" sex="FEMALE"/>
+              <person xml:id="Mina" sex="FEMALE">
                 <persName>
                   <forename>Mina</forename>
                 </persName>
                 <occupation scheme="#HISCO" code="54020">jungfru</occupation>
               </person>
-              <person xml:id="Flax" sex="male">
+              <person xml:id="Flax" sex="MALE">
                 <persName>
                   <roleName>löjtnant</roleName>
                   <surname>Flax</surname>
                 </persName>
                 <occupation scheme="#HISCO" code="58320">löjtnant</occupation>
               </person>
-              <person xml:id="Kassörn" sex="male">
+              <person xml:id="Kassörn" sex="MALE">
                 <persName>
                   <roleName>kassör</roleName>
                 </persName>
                 <occupation scheme="#HISCO" code="33135">kassör</occupation>
               </person>
-              <person xml:id="Grosshandlarn" sex="male">
+              <person xml:id="Grosshandlarn" sex="MALE">
                 <persName>
                   <roleName>grosshandlare</roleName>
                 </persName>
                 <occupation scheme="#HISCO" code="41020">grosshandlare</occupation>
               </person>
-              <person xml:id="Grosshandlerskan" sex="female"/>
-              <person xml:id="Statsrådet" sex="male">
+              <person xml:id="Grosshandlerskan" sex="FEMALE"/>
+              <person xml:id="Statsrådet" sex="MALE">
                 <persName>
                   <roleName>statsråd</roleName>
                 </persName>
                 <occupation scheme="#HISCO" code="20110">statsråd</occupation>
               </person>
-              <person xml:id="Statsrådinnan" sex="female">
+              <person xml:id="Statsrådinnan" sex="FEMALE">
                 <persName>
                   <roleName>statsrådinnan</roleName>
                 </persName>
               </person>
-              <person xml:id="Revisorn" sex="male">
+              <person xml:id="Revisorn" sex="MALE">
                 <persName>
                   <roleName>revisor</roleName>
                 </persName>
                 <occupation scheme="#HISCO" code="11020">revisor</occupation>
               </person>
-              <person xml:id="Revisorskan" sex="female"/>
-              <person xml:id="GamlaGrosshandlarn" sex="male">
+              <person xml:id="Revisorskan" sex="FEMALE"/>
+              <person xml:id="GamlaGrosshandlarn" sex="MALE">
                 <persName>
                   <roleName>grosshandlare</roleName>
                 </persName>
                 <occupation scheme="#HISCO" code="41020">grosshandlare</occupation>
               </person>
-              <person xml:id="GamlaGrosshandlerskan" sex="female"/>
-              <person xml:id="Sockerbagarn" sex="male">
+              <person xml:id="GamlaGrosshandlerskan" sex="FEMALE"/>
+              <person xml:id="Sockerbagarn" sex="MALE">
                 <occupation scheme="#HISCO" code="77630">sockerbagare</occupation>
               </person>
-              <person xml:id="Herrn" sex="male"/>
-              <person xml:id="SofiesBror" sex="male"/>
+              <person xml:id="Herrn" sex="MALE"/>
+              <person xml:id="SofiesBror" sex="MALE"/>
             </listPerson>
           </listPerson>
           <listRelation>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="swe000054" xml:lang="sv">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="dracor" xml:id="swe000054" xml:lang="sv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -265,8 +265,7 @@
             <speaker>ELSA.</speaker>
             <p>Så, ja, nu är jag ju i skogen, och den är
               <lb/> då bra mycket vackrare än gatorna i staden, ja, än själfva
-              <pb facs="38555-11.jpg"/>
-              <fw type="pageNum">90</fw>
+              <pb n="90" facs="38555-11.jpg"/>
               esplanaden. <stage>(Pustar.)</stage> Puff, hvad jag är varm... jag
               <lb/> har gått för fort... jag sprang från <orgName ref="#Skolan">skolan</orgName> i förargelse
               <lb/>
@@ -301,8 +300,7 @@
             </p>
           </sp>
         </div>
-        <pb facs="38555-12.jpg"/>
-        <fw type="pageNum">91</fw>
+        <pb n="91" facs="38555-12.jpg"/>
         <div type="scene" n="2">
           <head>Andra scenen.</head>
           <stage type="setting">
@@ -378,8 +376,7 @@
             <speaker>ELSA.</speaker>
             <p>Spinna den till tråd... och väfva den sedan?</p>
           </sp>
-          <pb facs="38555-13.jpg"/>
-          <fw type="pageNum">92</fw>
+          <pb n="92" facs="38555-13.jpg"/>
           <sp who="#spMaffeNo1 #spMaffeNo2 #spMaffeNo3">
             <speaker>MAFFARNA</speaker>
             <stage>(nicka och härma en <rs type="hand" ref="#handrekv2">väfstol</rs>).</stage>
@@ -447,8 +444,7 @@
                 <persName ref="#MaffeNo1 #MaffeNo2 #MaffeNo3">Maffarna</persName> skaka på huf­<lb break="no"/>vudet.)</stage> Inte? Det var underligt, det var ett lätt språk.
               <lb/> Det skulle <persName ref="#Mamma">mamma</persName> tycka om att höra mig tala. <persName ref="#Mamma">Mamma</persName>,
               <lb/> som brukar säga, att jag behöfver så många ord. Tänk,
-              <pb facs="38555-14.jpg"/>
-              <fw type="pageNum">93</fw>
+              <pb n="93" facs="38555-14.jpg"/>
               om jag komme hem och inte sade något annat än: <said who="#Elsa">
                 <emph>pö!</emph>
               </said>
@@ -521,31 +517,31 @@
       <div type="editorial">
         <listPerson>
           <listPerson type="cast">
-            <person xml:id="Elsa" sex="female">
+            <person xml:id="Elsa" sex="FEMALE">
               <persName>
                 <forename>Elsa</forename>
               </persName>
               <age>barn</age>
             </person>
-            <person xml:id="MaffeNo1" sex="unknown"/>
-            <person xml:id="MaffeNo2" sex="unknown"/>
-            <person xml:id="MaffeNo3" sex="unknown"/>
+            <person xml:id="MaffeNo1" sex="UNKNOWN"/>
+            <person xml:id="MaffeNo2" sex="UNKNOWN"/>
+            <person xml:id="MaffeNo3" sex="UNKNOWN"/>
           </listPerson>
           <listPerson type="noncast">
             <listPerson type="fictive">
-              <person xml:id="Mamma" sex="female"/>
-              <person xml:id="Lisa" sex="female">
+              <person xml:id="Mamma" sex="FEMALE"/>
+              <person xml:id="Lisa" sex="FEMALE">
                 <persName>
                   <forename>Lisa</forename>
                 </persName>
               </person>
-              <person xml:id="Atte" sex="male">
+              <person xml:id="Atte" sex="MALE">
                 <persName>
                   <forename>Atte</forename>
                 </persName>
               </person>
               <listPerson>
-                <personGrp xml:id="Lärarinnor" sex="female">
+                <personGrp xml:id="Lärarinnor" sex="FEMALE">
                   <occupation scheme="#HISCO" code="13000">lärarinna</occupation>
                 </personGrp>
               </listPerson>
@@ -554,7 +550,7 @@
                   <age>barn</age>
                 </personGrp>
               </listPerson>
-              <person xml:id="Kungen" sex="male">
+              <person xml:id="Kungen" sex="MALE">
                 <persName>
                   <roleName>kung</roleName>
                 </persName>
